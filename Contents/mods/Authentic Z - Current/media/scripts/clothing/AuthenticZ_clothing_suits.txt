@@ -1,0 +1,388 @@
+module AuthenticZClothing {
+  imports {
+      Base
+  }
+    item Boilersuit_BigDaddy
+    {
+        Type = Clothing,
+        DisplayName = Big Daddy's Coveralls,
+        ClothingItem = Boilersuit_BigDaddy,
+        BodyLocation = FullSuit,
+        Icon = BoilerSuitBigDaddy,
+        BloodLocation = Trousers;Jumper,
+        RunSpeedModifier = 0.9,
+        ScratchDefense = 10,
+        Insulation = 0.45,
+        WindResistance = 0.35,
+        FabricType = Cotton,
+    }
+    item Boilersuit_BlackMamba
+    {
+        Type = Clothing,
+        DisplayName = Uma's Coveralls,
+        ClothingItem = Boilersuit_BlackMamba,
+        BodyLocation = FullSuit,
+        Icon = BoilerSuitUma,
+        BloodLocation = Trousers;Jumper,
+        RunSpeedModifier = 0.9,
+        ScratchDefense = 10,
+        Insulation = 0.45,
+        WindResistance = 0.35,
+        FabricType = Cotton,
+    }	
+    item Boilersuit_CrossingGuard
+    {
+        Type = Clothing,
+        DisplayName = Crossing Guard's Coveralls,
+        ClothingItem = Boilersuit_CrossingGuard,
+        BodyLocation = FullSuit,
+        Icon = BoilerSuitCrossingGuard,
+        BloodLocation = Trousers;Jumper,
+        RunSpeedModifier = 0.9,
+        ScratchDefense = 10,
+        Insulation = 0.45,
+        WindResistance = 0.35,
+        FabricType = Cotton,
+    }
+    item Boilersuit_PrisonerClassic
+    {
+        Type = Clothing,
+        DisplayName = Classic Prisoner Jumpsuit,
+        ClothingItem = Boilersuit_PrisonerClassic,
+        BodyLocation = FullSuit,
+        Icon = JumpsuitClassic,
+        BloodLocation = Trousers;Jumper,
+        RunSpeedModifier = 0.9,
+        ScratchDefense = 10,
+        Insulation = 0.45,
+        WindResistance = 0.35,
+        FabricType = Cotton,
+    }
+    item Boilersuit_GhostbustersSpengler
+    {
+        Type = Clothing,
+        DisplayName = Ghostbuster Coveralls,
+        ClothingItem = Boilersuit_GhostbustersSpengler,
+        BodyLocation = FullSuit,
+        Icon = JumpsuitPrisonKhaki,
+        BloodLocation = Trousers;Jumper,
+        RunSpeedModifier = 0.9,
+        ScratchDefense = 10,
+        Insulation = 0.45,
+        WindResistance = 0.35,
+        FabricType = Cotton,
+	Tooltip = Tooltip_Spengler,
+    }
+    item Boilersuit_GhostbustersStantz
+    {
+        Type = Clothing,
+        DisplayName = Ghostbuster Coveralls,
+        ClothingItem = Boilersuit_GhostbustersStantz,
+        BodyLocation = FullSuit,
+        Icon = JumpsuitPrisonKhaki,
+        BloodLocation = Trousers;Jumper,
+        RunSpeedModifier = 0.9,
+        ScratchDefense = 10,
+        Insulation = 0.45,
+        WindResistance = 0.35,
+        FabricType = Cotton,
+	Tooltip = Tooltip_Stantz,
+    }
+    item Boilersuit_GhostbustersVenkman
+    {
+        Type = Clothing,
+        DisplayName = Ghostbuster Coveralls,
+        ClothingItem = Boilersuit_GhostbustersVenkman,
+        BodyLocation = FullSuit,
+        Icon = JumpsuitPrisonKhaki,
+        BloodLocation = Trousers;Jumper,
+        RunSpeedModifier = 0.9,
+        ScratchDefense = 10,
+        Insulation = 0.45,
+        WindResistance = 0.35,
+        FabricType = Cotton,
+	Tooltip = Tooltip_Venkman,
+    }
+    item Boilersuit_GhostbustersZeddemore
+    {
+        Type = Clothing,
+        DisplayName = Ghostbuster Coveralls,
+        ClothingItem = Boilersuit_GhostbustersZeddemore,
+        BodyLocation = FullSuit,
+        Icon = JumpsuitPrisonKhaki,
+        BloodLocation = Trousers;Jumper,
+        RunSpeedModifier = 0.9,
+        ScratchDefense = 10,
+        Insulation = 0.45,
+        WindResistance = 0.35,
+        FabricType = Cotton,
+	Tooltip = Tooltip_Zeddemore,
+    }
+    item Boilersuit_Halloween
+    {
+        Type = Clothing,
+        DisplayName = Halloween Coveralls,
+        ClothingItem = Boilersuit_Halloween,
+        BodyLocation = FullSuit,
+        Icon = BoilerSuitHalloween,
+        BloodLocation = Trousers;Jumper,
+        RunSpeedModifier = 0.9,
+        ScratchDefense = 10,
+        Insulation = 0.45,
+        WindResistance = 0.35,
+        FabricType = Cotton,
+    }
+    item Boilersuit_Pennywise
+    {
+        Type = Clothing,
+        DisplayName = Pennywise's Gown,
+        ClothingItem = Boilersuit_Pennywise,
+        BodyLocation = FullSuit,
+        Icon = BoilerSuitPennywise,
+        BloodLocation = Trousers;Jumper,
+        RunSpeedModifier = 0.9,
+        ScratchDefense = 10,
+        Insulation = 0.65,
+        WindResistance = 0.45,
+        FabricType = Cotton,
+    }
+    item Boilersuit_PrisonerClassic
+    {
+        Type = Clothing,
+        DisplayName = Classic Prisoner Jumpsuit,
+        ClothingItem = Boilersuit_PrisonerClassic,
+        BodyLocation = FullSuit,
+        Icon = JumpsuitClassic,
+        BloodLocation = Trousers;Jumper,
+        RunSpeedModifier = 0.9,
+        ScratchDefense = 10,
+        Insulation = 0.45,
+        WindResistance = 0.35,
+        FabricType = Cotton,
+    }
+    item Clown_Coveralls
+    {
+        Type = Clothing,
+        DisplayName = Clown Coveralls,
+        ClothingItem = Clown_Coveralls,
+        BodyLocation = FullSuit,
+        Icon = ClownCoveralls,
+        ColorRed = 161,
+        ColorGreen = 161,
+        ColorBlue = 161,
+        BloodLocation = Trousers;Jumper,
+        RunSpeedModifier = 0.9,
+        ScratchDefense = 10,
+        Insulation = 0.65,
+        WindResistance = 0.45,
+        FabricType = Cotton,
+    }
+    item CEDAHazmatSuit
+    {
+        Type = Clothing,
+        DisplayName = CEDA Hazmat Suit,
+        ClothingItem = HazmatSuitCEDA,
+        BodyLocation = FullSuitHead,
+        BloodLocation = Trousers;Jumper,
+        Icon = CEDAHazmatsuit,
+        RunSpeedModifier = 0.75,
+        ScratchDefense = 15,
+        BiteDefense = 5,
+        Insulation = 0.65,
+        WindResistance = 0.9,
+    }
+    item NBHHazmatSuit
+    {
+        Type = Clothing,
+        DisplayName = Nuclear Biohazard Suit,
+        ClothingItem = HazmatSuitNBH,
+        BodyLocation = FullSuit,
+        BloodLocation = Trousers;Jumper,
+        Icon = NBHHazmatsuit,
+        RunSpeedModifier = 0.75,
+        ScratchDefense = 15,
+        BiteDefense = 5,
+        Insulation = 0.65,
+        WindResistance = 0.9,
+    }
+    item Dress_Maid
+    {
+        Type = Clothing,
+        DisplayName = Short Dress,
+        ClothingItem = Dress_Maid,
+        BodyLocation = Dress,
+        BloodLocation = ShortsShort;Shirt,
+        Icon = DressMaid,
+        Insulation = 0.1,
+        WindResistance = 0.05,
+        FabricType = Cotton,
+    }
+    item Dress_Nurse
+    {
+        Type = Clothing,
+        DisplayName = Short Dress,
+        ClothingItem = Dress_Nurse,
+        BodyLocation = Dress,
+        BloodLocation = ShortsShort;Shirt,
+        Icon =  DressShortWhite,
+        Insulation = 0.1,
+        WindResistance = 0.05,
+        FabricType = Cotton,
+    }
+    item Dress_Dimitrescu
+    {
+        Type = Clothing,
+        DisplayName = Lady Dimitrescu's Dress,
+        ClothingItem = Dress_Dimitrescu,
+        BodyLocation = FullSuit,
+        BloodLocation = Trousers;Jumper,
+        Icon = DressLongDimitrescu,
+        RunSpeedModifier = 0.90,
+        Insulation = 0.3,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+    }
+    item Dress_LongBlack
+    {
+        Type = Clothing,
+        DisplayName = Long Dress,
+        ClothingItem = Dress_LongBlack,
+        BodyLocation = Dress,
+        BloodLocation = Trousers;Shirt,
+        Icon = DressLongBlack,
+        RunSpeedModifier = 0.90,
+        Insulation = 0.3,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+    }
+    item Dress_LongBlue
+    {
+        Type = Clothing,
+        DisplayName = Long Dress,
+        ClothingItem = Dress_LongBlue,
+        BodyLocation = Dress,
+        BloodLocation = Trousers;Shirt,
+        Icon = DressLongBlue,
+        RunSpeedModifier = 0.90,
+        Insulation = 0.3,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+    }
+    item Dress_NormalBlue
+    {
+        Type = Clothing,
+        DisplayName = Dress,
+        ClothingItem = Dress_NormalBlue,
+        BodyLocation = Dress,
+        BloodLocation = Trousers;Shirt,
+        Icon = DressMediumBlue,
+        RunSpeedModifier = 0.93,
+        Insulation = 0.20,
+        WindResistance = 0.15,
+        FabricType = Cotton,
+    }
+    item Dress_LongPink
+    {
+        Type = Clothing,
+        DisplayName = Long Dress,
+        ClothingItem = Dress_LongPink,
+        BodyLocation = Dress,
+        BloodLocation = Trousers;Shirt,
+        Icon = DressLongPink,
+        RunSpeedModifier = 0.90,
+        Insulation = 0.3,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+    }
+    item Dress_NormalPink
+    {
+        Type = Clothing,
+        DisplayName = Dress,
+        ClothingItem = Dress_NormalPink,
+        BodyLocation = Dress,
+        BloodLocation = Trousers;Shirt,
+        Icon = DressMediumPink,
+        RunSpeedModifier = 0.93,
+        Insulation = 0.20,
+        WindResistance = 0.15,
+        FabricType = Cotton,
+    }
+    item Dress_Purna
+    {
+        Type = Clothing,
+        DisplayName = Short Sleeveless Dress,
+        ClothingItem = Dress_Purna,
+        BodyLocation = Dress,
+        BloodLocation = ShortsShort;Shirt,
+        Icon =  DressShortSleevelessPurna,
+        Insulation = 0.1,
+        WindResistance = 0.05,
+        FabricType = Cotton,
+    }	
+    item Dress_Short2
+    {
+        Type = Clothing,
+        DisplayName = Short Sleeveless Dress,
+        ClothingItem = Dress_Short2,
+        BodyLocation = Dress,
+        BloodLocation = ShortsShort;Shirt,
+        Icon =  DressShortWhiteSleeveless,
+        Insulation = 0.1,
+        WindResistance = 0.05,
+        FabricType = Cotton,
+    }
+    item Mime_Overalls
+    {
+        Type = Clothing,
+        DisplayName = Mime Overalls,
+        ClothingItem = Mime_Overalls,
+        BodyLocation = FullSuit,
+        IconsForTexture = MimeOveralls;MimeOveralls2,
+        BloodLocation = Trousers;Jumper,
+        RunSpeedModifier = 0.9,
+        ScratchDefense = 10,
+        Insulation = 0.65,
+        WindResistance = 0.45,
+        FabricType = Cotton,
+    }	
+	item Red_LongJohns
+    {
+        Type = Clothing,
+        DisplayName = Red Long Johns,
+        ClothingItem = Red_LongJohns,
+        BodyLocation = Torso1Legs1,
+        BloodLocation = Trousers;ShirtLongSleeves,
+        Icon = LongjohnsRed,
+        Insulation = 0.3,
+        WindResistance = 0.15,
+        FabricType = Cotton,
+    }
+    item WeddingDressBlue
+    {
+        Type = Clothing,
+        DisplayName = Blue Wedding Dress,
+        ClothingItem = WeddingDressBlue,
+        BodyLocation = FullSuit,
+        BloodLocation = Trousers;Shirt,
+        Icon = DressWeddingBlue,
+        RunSpeedModifier = 0.8,
+        ScratchDefense = 10,
+        Insulation = 0.25,
+        WindResistance = 0.1,
+        FabricType = Cotton,
+    }
+    item WeddingDressPink
+    {
+        Type = Clothing,
+        DisplayName = Pink Wedding Dress,
+        ClothingItem = WeddingDressPink,
+        BodyLocation = FullSuit,
+        BloodLocation = Trousers;Shirt,
+        Icon = DressWeddingPink,
+        RunSpeedModifier = 0.8,
+        ScratchDefense = 10,
+        Insulation = 0.25,
+        WindResistance = 0.1,
+        FabricType = Cotton,
+    }
+}

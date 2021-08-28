@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\backpacks\ProtonPack_LeftHand</m_MaleModel>
+	<m_FemaleModel>skinned\backpacks\ProtonPack_LeftHand</m_FemaleModel>
+	<m_GUID>9be34d22-4b22-4897-a343-3f271357fa80</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>Clothes\Backpacks\ProtonPack</textureChoices>
+</clothingItem>

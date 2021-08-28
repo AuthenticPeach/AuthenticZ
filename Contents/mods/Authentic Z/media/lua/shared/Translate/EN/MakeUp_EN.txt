@@ -1,0 +1,10 @@
+MakeUp_EN = {
+    MakeUpType_FullFaceClownFace1Color = "Colorful Clown Face 1",
+    MakeUpType_FullFaceClownFace2Color= "Colorful Clown Face 2",
+    MakeUpType_FullFaceJoker = "Joker",
+    MakeUpType_FullFaceJokerColor = "Colorful Joker",
+    MakeUpType_FullFaceInsane = "Insane",
+}
+# MakeUpType_FullFaceShotgunFace = "ShotgunFace",
+# MakeUpType_FullFacePennywise = "Pennywise",
+# MakeUpType_FullFaceFreddy = "Freddy",

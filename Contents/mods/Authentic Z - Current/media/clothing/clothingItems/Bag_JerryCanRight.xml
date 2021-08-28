@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media\models_X\Skinned\Backpacks\JerryCanRight.fbx</m_MaleModel>
+	<m_FemaleModel>media\models_X\Skinned\Backpacks\JerryCanRight.fbx</m_FemaleModel>
+	<m_GUID>a107b165-3666-4aab-b727-e0a28f4a7d71</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>JerryCan2</textureChoices>
+</clothingItem>

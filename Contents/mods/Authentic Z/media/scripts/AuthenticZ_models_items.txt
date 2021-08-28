@@ -1,0 +1,111 @@
+module Base
+{
+	model Revolver_Short
+	{
+		mesh = Weapons/Firearm/Revolver_Short,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.1160 -0.0280,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+		attachment scope
+        {
+            offset = 0.0000 0.0400 0.0580,
+            rotate = 0.0000 0.0000 0.0000,
+        }
+	}
+	model AuthenticPaper
+	{
+		mesh = Newspaper,
+		texture = Newspaper2,
+	}
+	model AuthenticPills
+	{
+		mesh = AuthenticPills,
+		texture = clothes\Items\AuthenticPillBottle,
+	}
+	model AuthenticBandages
+	{
+		mesh = AuthenticBandages,
+		texture = clothes\Items\AuthenticBandage,
+	}
+	model AuthenticCoffeeCup
+	{
+		mesh = Weapons/1Handed/Authentic_CoffeeCup,
+		texture = clothes\Items\SeahorseCoffee,
+	}
+	model AuthenticMoneyStack
+	{
+		mesh = Authentic_MoneyStack,
+		texture = clothes\Items\MoneyStack,
+		scale = 100,
+	}
+	model AuthenticPaintBrush
+	{
+		mesh = Weapons/1Handed/Authentic_Paintbrush,
+		texture = PaintBrush,
+		scale = 100,
+	}
+	model ClownNose
+	{
+		mesh = ClownNose,
+		texture = F_Hair_Red,
+	}
+	model Cigarette
+	{
+		mesh = Cigarette,
+		texture = clothes\Items\Cigarette,
+	}
+	model AuthenticFlareGun
+	{
+		mesh = Weapons/1Handed/FlareGun,
+		texture = FlareGun,
+	}
+	model AuthenticFreddyKrueger
+	{
+		mesh = Weapons/1Handed/FreddyKruegerHand,
+		texture = FreddyKruegerGlove,
+	}	
+	model PomPomWhite
+	{
+		mesh = Weapons/1Handed/PomPom,
+		texture = clothes\Items\PomPomWhite,
+	}
+	model PomPomBlack
+	{
+		mesh = Weapons/1Handed/PomPom,
+		texture = clothes\Items\PomPomBlack,
+	}
+
+	model StopSign
+	{
+		mesh = Weapons/1Handed/StopSign,
+		texture = HandleSign,
+	}
+	model MediumMetalSpear
+	{
+		mesh = Weapons/1Handed/MediumMetalSpear,
+		texture = MetalSpear,
+	}	
+	model MetalSpike
+	{
+		mesh = Weapons/1Handed/MetalSpike,
+		texture = MetalSpear,
+	}
+	model RemoteControl
+	{
+		mesh = Remotecontrol,
+		texture = RemoteControl,
+	}	
+	model ShortMetalSpear
+	{
+		mesh = Weapons/1Handed/ShortMetalSpear,
+		texture = MetalSpear,
+	}
+	model ShortMetalSpike
+	{
+		mesh = Weapons/1Handed/ShortMetalSpike,
+		texture = MetalSpear,
+	}	
+}

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media\models_X\Skinned\Clothes\MRHand.FBX</m_MaleModel>
+	<m_FemaleModel>media\models_X\Skinned\Clothes\MRHand.FBX</m_FemaleModel>
+	<m_GUID>eb52d9e1-7161-4966-a0ab-ac0365e46b4f</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_Masks>6</m_Masks>	
+	<textureChoices>MaleBody01</textureChoices>	
+</clothingItem>

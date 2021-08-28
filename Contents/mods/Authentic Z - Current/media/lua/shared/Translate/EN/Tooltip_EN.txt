@@ -1,0 +1,19 @@
+Tooltip_EN = {
+	Tooltip_PostalDude = "WOULD YOU LIKE TO SIGN MY PETITION?",
+	Tooltip_Pills = "PILLS HERE!",
+	Tooltip_Bandages = "Hold up I'm healing!",
+	Tooltip_Brain = "How was this taken out?",
+	Tooltip_HandTorch2 = "Slightly Damaged",
+	Tooltip_JasonV = "Best to burn this before he returns...."
+	Tooltip_Liver = "Someone's old liver...."
+	Tooltip_MeatChunk1 = "I probably shouldn't touch it...."
+	Tooltip_MeatChunk2 = "Seems fresh...."
+	Tooltip_MeatChunk3 = "Bloodied and Disgusting"	
+	Tooltip_MeatChunk4 = "Makes me gag"	
+	Tooltip_MeatChunk5 = "I'm glad it wasn't ripped out of me...."	
+	Tooltip_Stop = "Stop!"
+	Tooltip_Zeddemore = "Winston Zeddemore used to wear this....",
+	Tooltip_Venkman = "Peter Venkman used to wear this....",
+	Tooltip_Stantz = "Ray Stantz used to wear this....",
+	Tooltip_Spengler = "Egon Spengler used to wear this....", 
+	}

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\clothes\bob_dungerees</m_MaleModel>
+	<m_FemaleModel>skinned\clothes\kate_dungerees</m_FemaleModel>
+	<m_GUID>5d2a63e8-0d47-4ffa-b566-bdb8e540fa9d</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_Masks>2</m_Masks>
+	<m_Masks>7</m_Masks>
+	<m_Masks>9</m_Masks>
+	<textureChoices>clothes\dungarees\Clowndungerees</textureChoices>
+	<textureChoices>clothes\dungarees\Clowndungerees2</textureChoices>	
+</clothingItem>

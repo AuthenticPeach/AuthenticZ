@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media\models_X\Skinned\Clothes\Necklace_B.FBX</m_MaleModel>
+	<m_FemaleModel>media\models_X\Skinned\Clothes\Necklace_B.FBX</m_FemaleModel>
+	<m_GUID>6f6906ef-87cb-4b9b-8f95-b8f6ca52b682</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>Clothes\Jewelry\NecklaceB</textureChoices>
+</clothingItem>

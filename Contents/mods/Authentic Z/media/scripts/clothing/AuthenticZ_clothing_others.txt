@@ -1,0 +1,386 @@
+module AuthenticZClothing {
+  imports {
+      Base
+  }
+	item AmmoStrap_Bullets2
+	{
+		Type = Clothing,
+		DisplayName = Bullets Ammo Strap,
+		ClothingItem = AmmoStrap_Bullets2,
+		BodyLocation = AmmoStrap2,
+		ClothingItemExtra = AmmoStrap_Shells,
+		Icon = AmmoStrapFlipped,
+		Tooltip = Tooltip_AmmoStrap,
+	}
+	item AmmoStrap_Shells2
+	{
+		Type = Clothing,
+		DisplayName = Shells Ammo Strap,
+		ClothingItem = AmmoStrap_Shells2,
+		BodyLocation = AmmoStrap2,
+		ClothingItemExtra = AmmoStrap_Bullets,
+		Icon = AmmoStrapFlipped,
+		Tooltip = Tooltip_AmmoStrap,
+	}
+	item Apron_Short
+	{
+		Type = Clothing,
+		DisplayName = Short Apron,
+		ClothingItem = Apron_Short,
+		BodyLocation = TorsoExtra,
+		BloodLocation = Apron,
+		Icon = ApronWhiteShort,
+		FabricType = Cotton,
+	}
+	item Apron_Yellow
+	{
+		Type = Clothing,
+		DisplayName = Yellow Apron,
+		ClothingItem = Apron_Yellow,
+		BodyLocation = TorsoExtra,
+		BloodLocation = Apron,
+		Icon = ApronYellow,
+		FabricType = Cotton,
+	}
+	item Bikini_Pattern02
+	{
+		Type = Clothing,
+		DisplayName = Bikini,
+		ClothingItem = Bikini_Pattern02,
+		BodyLocation = Underwear,
+		Icon = Bikini_Pattern2,
+		Weight = 0.2,
+	}
+	item Bikini_Pattern03
+	{
+		Type = Clothing,
+		DisplayName = Bikini,
+		ClothingItem = Bikini_Pattern03,
+		BodyLocation = Underwear,
+		Icon = Bikini_Pattern3,
+		Weight = 0.2,
+	}
+	item BlueZskin_F1
+	{
+		Type = Clothing,
+		DisplayName = Blue Female Zombie Skin,
+		ClothingItem = BlueZ_F1,
+		BodyLocation = Necklace,
+		Icon = CorpseSkin_F,
+	}
+	item BlueZskin_F2
+	{
+		Type = Clothing,
+		DisplayName = Blue Female Zombie Skin,
+		ClothingItem = BlueZ_F2,
+		BodyLocation = Necklace,
+		Icon = CorpseSkin_F,
+	}
+	item BlueZskin_M1
+	{
+		Type = Clothing,
+		DisplayName = Blue Male Zombie Skin,
+		ClothingItem = BlueZ_M1,
+		BodyLocation = Necklace,
+		Icon = CorpseSkin_M,
+	}
+	item BlueZskin_M2
+	{
+		Type = Clothing,
+		DisplayName = Blue Male Zombie Skin,
+		ClothingItem = BlueZ_M2,
+		BodyLocation = Necklace,
+		Icon = CorpseSkin_M,
+	}
+	item CameraDSLR
+	{
+		Type = Clothing,
+		DisplayName = Frank West's DSLR,
+		ClothingItem = CameraDSLR,
+		BodyLocation = Necklace,
+		Icon = DSLRCamera,
+		Weight = 0.7,
+	}
+	item Cigarette
+	{
+		Type = Clothing,
+		DisplayName = Cigarette,
+		ClothingItem = Cigarette,
+		BodyLocation = Necklace,
+		Icon = Cigarette,
+		Weight = 0.01,
+		ChanceToFall = 25,
+	}
+	item ClownNose
+	{
+		Type = Clothing,
+		DisplayName = Clown Nose,
+		ClothingItem = ClownNose,
+		BodyLocation = Eyes,
+		IconsForTexture = ClownNoseRed;ClownNoseBlue,
+		Weight = 0.1,
+		Cosmetic = TRUE,
+		ChanceToFall = 25,
+	}
+	item ClownTop
+	{
+		Type = Clothing,
+		DisplayName = Pennywise's Top,
+		ClothingItem = ClownTop,
+		BodyLocation = AmmoStrap2,
+		Icon = ClownTop,
+	}
+	item Gloves_HandBone_L
+	{
+		Type = Clothing,
+		ClothingItem = Gloves_ArmBoneR,
+		BodyLocation = Left_RingFinger,
+	}
+	item Gloves_Bone
+	{
+		Type = Clothing,
+		ClothingItem = Gloves_Bone,
+		BodyLocation = Right_MiddleFinger,
+	}
+	item Gloves_ArmBoneR
+	{
+		Type = Clothing,
+		ClothingItem = Gloves_ArmBoneR,
+		BodyLocation = Right_RingFinger,
+	}
+	item Gloves_ArmBoneL
+	{
+		Type = Clothing,
+		ClothingItem = Gloves_Bone,
+		BodyLocation = Left_MiddleFinger,
+	}
+	item Gloves_FreddyKreuger
+	{
+		Type = Clothing,
+		DisplayName = Freddy Krueger Hand,
+		ClothingItem = Gloves_FreddyKreuger,
+		BodyLocation = Hands,
+		BloodLocation = Hands,
+		Icon = GlovesLeatherBrown,
+		ScratchDefense = 30,
+        	BiteDefense = 15,
+        	Weight = 0.1,
+        	Insulation = 0.75,
+        	WindResistance = 0.75,
+        	FabricType = Leather,
+	}	
+	item Gloves_LeatherGlovesWhite
+	{
+		Type = Clothing,
+		DisplayName = Leather Gloves,
+		ClothingItem = Gloves_LeatherGlovesWhite,
+		BodyLocation = Hands,
+		BloodLocation = Hands,
+		Icon = GlovesLeatherWhite,
+		ScratchDefense = 30,
+        	BiteDefense = 15,
+        	Weight = 0.1,
+        	Insulation = 0.75,
+        	WindResistance = 0.75,
+        	FabricType = Leather,
+	}
+	item Gloves_RHand
+	{
+		Type = Clothing,
+		DisplayName = Dismembered Hand,
+		ClothingItem = Gloves_RHand,
+		BodyLocation = Hands,
+		BloodLocation = Hands,
+		Icon = RightFist,
+		Weight = 0.1,
+		ChanceToFall = 15,
+	}
+	item Gloves_Black
+	{
+		Type = Clothing,
+		DisplayName = Gloves,
+		ClothingItem = Gloves_Black,
+		BodyLocation = Hands,
+		BloodLocation = Hands,
+		Icon = GlovesWoolyBlack,
+		Weight = 0.1,
+        	Insulation = 1.0,
+        	WindResistance = 1.0,
+        	FabricType = Cotton,
+	}
+	item Gloves_White
+	{
+		Type = Clothing,
+		DisplayName = Gloves,
+		ClothingItem = Gloves_White,
+		BodyLocation = Hands,
+		BloodLocation = Hands,
+		Icon = GlovesWoolyWhite,
+		Weight = 0.1,
+        	Insulation = 1.0,
+        	WindResistance = 1.0,
+        	FabricType = Cotton,
+	}
+    item Leg_Cherry
+    {
+        Type = Clothing,
+        ClothingItem =  Leg_Cherry,
+        BodyLocation = Necklace,
+    }
+    item MakeUp_BillMurray
+    {
+        Type = Clothing,
+        ClothingItem =  MakeUp_BillMurray,
+        BodyLocation = MakeUp_FullFace,
+    }
+    item MakeUp_ClownFace1Color
+    {
+        Type = Clothing,
+        ClothingItem =  MakeUp_ClownFace1Color,
+        BodyLocation = MakeUp_FullFace,
+    }
+    item MakeUp_ClownFace2Color
+    {
+        Type = Clothing,
+        ClothingItem =  MakeUp_ClownFace2Color,
+        BodyLocation = MakeUp_FullFace,
+    }
+    item MakeUp_Freddy
+    {
+        Type = Clothing,
+        ClothingItem =  MakeUp_Freddy,
+        BodyLocation = MakeUp_FullFace,
+    }
+	item MakeUp_Insane
+    {
+        Type = Clothing,
+        ClothingItem =  MakeUp_Insane,
+        BodyLocation = MakeUp_FullFace,
+    }
+    item MakeUp_Joker
+    {
+        Type = Clothing,
+        ClothingItem =  MakeUp_Joker,
+        BodyLocation = MakeUp_FullFace,
+    }
+	item MakeUp_JokerColor
+    {
+        Type = Clothing,
+        ClothingItem =  MakeUp_JokerColor,
+        BodyLocation = MakeUp_FullFace,
+    }
+    item MakeUp_Pennywise
+    {
+        Type = Clothing,
+        ClothingItem =  MakeUp_Pennywise,
+        BodyLocation = MakeUp_FullFace,
+    }
+    item MakeUp_ShotgunFace
+    {
+        Type = Clothing,
+        ClothingItem =  MakeUp_ShotgunFace,
+        BodyLocation = ZedDmg,
+    }
+    item Skin_Black_Zed_M
+    {
+		Type = Clothing,
+		ClothingItem = Skin_Black_Zed_M,
+		BodyLocation = TankTop,
+    }
+    item Skin_Tan_Zed_W
+    {
+		Type = Clothing,
+		ClothingItem = Skin_Tan_Zed_W,
+		BodyLocation = TankTop,
+    }
+    item Skin_Black_Zed_W
+    {
+		Type = Clothing,
+		ClothingItem = Skin_Black_Zed_M,
+		BodyLocation = TankTop,
+    }
+    item Stomach_Intestines
+    {
+        Type = Clothing,
+        ClothingItem =  Stomach_Intestines,
+        BodyLocation = ZedDmg,
+    }
+    item Stomach_Intestines2
+    {
+        Type = Clothing,
+        ClothingItem =  Stomach_Intestines2,
+        BodyLocation = ZedDmg,
+    }
+	item Tie_Full_BlueSpy
+    {
+        Type = Clothing,
+        DisplayName = Blue Tie,
+        ClothingItem = Tie_Full_BlueSpy,
+        BodyLocation = Neck,
+        Icon = TieBlueSpy,
+        Weight = 0.1,
+    }
+	item Tie_Full_Brad
+    {
+        Type = Clothing,
+        DisplayName = Grey Tie,
+        ClothingItem = Tie_Full_Brad,
+        BodyLocation = Neck,
+        Icon = TieGrey,
+        Weight = 0.1,
+    }	
+	item Tie_Full_GMan
+    {
+        Type = Clothing,
+        DisplayName = Purple Tie,
+        ClothingItem = Tie_Full_GMan,
+        BodyLocation = Neck,
+        Icon = TieGMan,
+        Weight = 0.1,
+    }
+	item Tie_BowTieWorn_Blue
+	{
+		Type = Clothing,
+		DisplayName = Clip-on Bow Tie,
+		ClothingItem = Tie_BowTieWorn_Blue,
+		BodyLocation = Neck,
+		Icon = TieBowBlue,
+		Weight = 0.1,
+	}
+	item Tie_BowTieWorn_Green
+	{
+		Type = Clothing,
+		DisplayName = Clip-on Bow Tie,
+		ClothingItem = Tie_BowTieWorn_Green,
+		BodyLocation = Neck,
+		Icon = TieBowGreen,
+		Weight = 0.1,
+	}
+	item Tie_BowTieWorn_Purple
+	{
+		Type = Clothing,
+		DisplayName = Clip-on Bow Tie,
+		ClothingItem = Tie_BowTieWorn_Purple,
+		BodyLocation = Neck,
+		Icon = TieBowPurple,
+		Weight = 0.1,
+	}
+	item Tie_BowTieWorn_Red
+	{
+		Type = Clothing,
+		DisplayName = Clip-on Bow Tie,
+		ClothingItem = Tie_BowTieWorn_Red,
+		BodyLocation = Neck,
+		Icon = TieBowRed,
+		Weight = 0.1,
+	}
+	item Tie_BowTieWorn_Yellow
+	{
+		Type = Clothing,
+		DisplayName = Clip-on Bow Tie,
+		ClothingItem = Tie_BowTieWorn_Yellow,
+		BodyLocation = Neck,
+		Icon = TieBowYellow,
+		Weight = 0.1,
+	}
+}

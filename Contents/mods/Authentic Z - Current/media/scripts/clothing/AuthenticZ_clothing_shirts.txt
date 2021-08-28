@@ -1,0 +1,629 @@
+ module AuthenticZClothing {
+  imports {
+      Base
+  }
+	item Shirt_Bill_Murray
+    {
+        Type 		 = Clothing,
+        DisplayName	 = Pink Short Sleeve Shirt,
+        ClothingItem 	 = Shirt_Bill_Murray,
+        BodyLocation	 = ShortSleeveShirt,
+        Icon		 = TshirtGeneric,
+        BloodLocation 	 = Shirt,
+        Insulation	 = 0.15,
+        WindResistance   = 0.05,
+        FabricType 	 = Cotton,
+    }
+     item Shirt_Bub
+	{
+		Type = Clothing,
+		DisplayName = Plaid Shirt,
+		ClothingItem = Shirt_Bub,
+		BodyLocation = Shirt,
+		Icon = ShirtBub,
+		BloodLocation = ShirtLongSleeves,
+        Insulation = 0.65,
+        WindResistance = 0.5,
+        FabricType = Cotton,
+	}
+    item Shirt_Cheerleader
+	{
+		Type = Clothing,
+		DisplayName = Cheerleader Uniform,
+		ClothingItem = Shirt_Cheerleader,
+		BodyLocation = Shirt,
+		Icon = JacketVarsity_Cheerleader,
+		BloodLocation = Shirt,
+        Insulation = 0.65,
+        WindResistance = 0.5,
+        FabricType = Cotton,
+	}
+	item Shirt_DenimBlack
+	{
+		Type = Clothing,
+		DisplayName = Denim Shirt,
+		ClothingItem = Shirt_DenimBlack,
+		BodyLocation = Shirt,
+		IconsForTexture = ShirtDenimLightBlack,
+		BloodLocation = ShirtLongSleeves,
+		BiteDefense = 7,
+        ScratchDefense = 15,
+        Insulation = 0.45,
+        WindResistance = 0.55,
+        FabricType = Denim,
+    }	
+    item Shirt_FormalAsh
+	{
+		Type = Clothing,
+		DisplayName = Ash's Formal Shirt,
+		ClothingItem = Shirt_FormalAsh,
+		BodyLocation = Shirt,
+		Icon = ShirtAsh,
+		BloodLocation = ShirtLongSleeves,
+        Insulation = 0.25,
+        WindResistance = 0.15,
+        FabricType = Cotton,
+	}
+    item Shirt_FormalBateman
+	{
+		Type = Clothing,
+		DisplayName = Bateman's Formal Shirt,
+		ClothingItem = Shirt_FormalBateman,
+		BodyLocation = Shirt,
+		Icon = ShirtBateman,
+		BloodLocation = ShirtLongSleeves,
+        Insulation = 0.25,
+        WindResistance = 0.15,
+        FabricType = Cotton,
+	}	
+    item Shirt_FormalBrad
+	{
+		Type = Clothing,
+		DisplayName = Brad's Formal Shirt,
+		ClothingItem = Shirt_FormalBrad,
+		BodyLocation = Shirt,
+		Icon = ShirtFormalBrad,
+		BloodLocation = ShirtLongSleeves,
+        Insulation = 0.25,
+        WindResistance = 0.15,
+        FabricType = Cotton,
+	}	
+    item Shirt_FormalDayZ
+	{
+		Type = Clothing,
+		DisplayName = DayZ's Formal Shirt,
+		ClothingItem = Shirt_FormalDayZ,
+		BodyLocation = Shirt,
+		Icon = ShirtLumberjackDayZ,
+		BloodLocation = ShirtLongSleeves,
+        Insulation = 0.25,
+        WindResistance = 0.15,
+        FabricType = Cotton,
+	}
+    item Shirt_FormalJoker
+	{
+		Type = Clothing,
+		DisplayName = Joker's Formal Shirt,
+		ClothingItem = Shirt_FormalJoker,
+		BodyLocation = Shirt,
+		Icon = ShirtJoker,
+		BloodLocation = ShirtLongSleeves,
+        Insulation = 0.25,
+        WindResistance = 0.15,
+        FabricType = Cotton,
+	}	
+    item Shirt_FormalNick
+	{
+		Type = Clothing,
+		DisplayName = Nick's Formal Shirt,
+		ClothingItem = Shirt_FormalNick,
+		BodyLocation = Shirt,
+		Icon = ShirtNick,
+		BloodLocation = ShirtLongSleeves,
+        Insulation = 0.25,
+        WindResistance = 0.15,
+        FabricType = Cotton,
+	}
+	item Shirt_FormalBlack_ShortSleeve
+	{
+		Type = Clothing,
+		DisplayName = Short Sleeve Shirt,
+		ClothingItem = Shirt_FormalBlack_ShortSleeve,
+		BodyLocation = ShortSleeveShirt,
+		Icon = TshirtBlackShortFormal,
+		BloodLocation = Shirt,
+        Insulation = 0.15,
+        WindResistance = 0.05,
+        FabricType = Cotton,
+	}
+	item Shirt_FormalBlue_ShortSleeve
+	{
+		Type = Clothing,
+		DisplayName = Short Sleeve Shirt,
+		ClothingItem = Shirt_FormalBlue_ShortSleeve,
+		BodyLocation = ShortSleeveShirt,
+		Icon = TShirtBlueShortFormal,
+		BloodLocation = Shirt,
+        Insulation = 0.15,
+        WindResistance = 0.05,
+        FabricType = Cotton,
+	}	
+	item Shirt_FormalRed_ShortSleeve
+	{
+		Type = Clothing,
+		DisplayName = Short Sleeve Shirt,
+		ClothingItem = Shirt_FormalRed_ShortSleeve,
+		BodyLocation = ShortSleeveShirt,
+		Icon = TShirtRedShortFormal,
+		BloodLocation = Shirt,
+        Insulation = 0.15,
+        WindResistance = 0.05,
+        FabricType = Cotton,
+	}	
+     item Shirt_LumberJackShort
+	{
+		Type = Clothing,
+		DisplayName = Plaid Shirt,
+		ClothingItem = Shirt_LumberJackShort,
+		BodyLocation = Tshirt,
+		IconsForTexture = ShirtLumberjackShortBlue;ShirtLumberjackShortRed;ShirtLumberjackShortYellow;ShirtLumberjackShortGreen;ShirtLumberjackShortGrey;
+		BloodLocation = Shirt,
+        Insulation = 0.65,
+        WindResistance = 0.5,
+        FabricType = Cotton,
+	}
+     item Shirt_LumberJackShortRed
+	{
+		Type = Clothing,
+		DisplayName = Plaid Shirt,
+		ClothingItem = Shirt_LumberJackShortRed,
+		BodyLocation = Tshirt,
+		Icon  =ShirtLumberjackShortRedDark,
+		BloodLocation = Shirt,
+        Insulation = 0.65,
+        WindResistance = 0.5,
+        FabricType = Cotton,
+	}	
+     item Shirt_LumberjackTheyLive
+	{
+		Type = Clothing,
+		DisplayName = Lumberjack Shirt,
+		ClothingItem = Shirt_LumberjackTheyLive,
+		BodyLocation = Shirt,
+		Icon = ShirtLumberjackTheyLive,
+		BloodLocation = ShirtLongSleeves,
+        Insulation = 0.65,
+       	WindResistance = 0.5,
+        FabricType = Cotton,
+	}
+     item Shirt_MimeBlack
+	{
+		Type = Clothing,
+		DisplayName = Mime Long Sleeve Shirt,
+		ClothingItem = Shirt_MimeBlack,
+		BodyLocation = Tshirt,
+        Icon	=	LongSleevedMimeBlack,
+        BloodLocation = Shirt,
+        Insulation = 0.2,
+        WindResistance = 0.05,
+        FabricType = Cotton,
+	}	
+     item Shirt_MimeRed
+	{
+		Type = Clothing,
+		DisplayName = Mime Long Sleeve Shirt,
+		ClothingItem = Shirt_WhiteStriped,
+		BodyLocation = Tshirt,
+        Icon	=	LongSleevedMimeRed,
+        BloodLocation = Shirt,
+        Insulation = 0.2,
+        WindResistance = 0.05,
+        FabricType = Cotton,
+	}	
+     item Shirt_MimeRed2
+	{
+		Type = Clothing,
+		DisplayName = Mime Long Sleeve Shirt,
+		ClothingItem = Shirt_MimeRed2,
+		BodyLocation = Tshirt,
+        Icon	=	LongSleevedMimeRed2,
+        BloodLocation = Shirt,
+        Insulation = 0.2,
+        WindResistance = 0.05,
+        FabricType = Cotton,
+	}		
+     item Shirt_WhiteStriped
+	{
+		Type = Clothing,
+		DisplayName = T-Shirt,
+		ClothingItem = Shirt_WhiteStriped,
+		BodyLocation = Tshirt,
+        Icon	=	TshirtGeneric,
+        BloodLocation = Shirt,
+        Insulation = 0.2,
+        WindResistance = 0.05,
+        FabricType = Cotton,
+	}	
+    item Sweater_Freddy
+    {
+        Type = Clothing,
+        DisplayName = V-Neck Sweater,
+        ClothingItem = Sweater_Freddy,
+        BodyLocation = Sweater,
+        BloodLocation = Jumper,
+        Icon = SweaterFreddyKreuger,
+        ScratchDefense = 10,
+        Insulation = 0.4,
+        WindResistance = 0.20,
+        FabricType = Cotton,
+    }
+    item Tshirt_Badass
+    {
+        Type = Clothing,
+        DisplayName = Badass's Shirt,
+        ClothingItem = Tshirt_Badass,
+        BodyLocation = Tshirt,
+        Icon	=	TShirtBadass,
+        BloodLocation = Shirt,
+        Insulation = 0.3,
+        WindResistance = 0.35,
+        FabricType = Cotton,
+    }	
+    item Tshirt_Coach
+    {
+        Type = Clothing,
+        DisplayName = Coach's T-Shirt,
+        ClothingItem = Tshirt_Coach,
+        BodyLocation = Tshirt,
+        Icon	=	TshirtCoach,
+        BloodLocation = Shirt,
+        Insulation = 0.3,
+        WindResistance = 0.35,
+        FabricType = Cotton,
+    }
+    item Tshirt_CheeseRoyale
+    {
+        Type = Clothing,
+        DisplayName = Burger T-Shirt,
+        ClothingItem = Tshirt_CheeseRoyale,
+        BodyLocation = Tshirt,
+        Icon	=	TShirt_RoyaleCheese,
+        BloodLocation = Shirt,
+        Insulation = 0.3,
+        WindResistance = 0.35,
+        FabricType = Cotton,
+    }
+    item Tshirt_CheeseRoyale2
+    {
+        Type = Clothing,
+        DisplayName = MilkShake T-Shirt,
+        ClothingItem = Tshirt_CheeseRoyale2,
+        BodyLocation = Tshirt,
+        Icon	=	TshirtRochelle,
+        BloodLocation = Shirt,
+        Insulation = 0.3,
+        WindResistance = 0.35,
+        FabricType = Cotton,
+    }
+    item Tshirt_Ellis
+    {
+        Type = Clothing,
+        DisplayName = Ellis's T-Shirt,
+        ClothingItem = Tshirt_Ellis,
+        BodyLocation = Tshirt,
+        Icon	=	TshirtEllis,
+        BloodLocation = Shirt,
+        Insulation = 0.3,
+        WindResistance = 0.35,
+        FabricType = Cotton,
+    }
+    item Tshirt_Holly
+    {
+        Type = Clothing,
+        DisplayName = Holly's T-Shirt,
+        ClothingItem = Tshirt_Holly,
+        BodyLocation = Tshirt,
+        Icon	=	TShirtHolly,
+        BloodLocation = Shirt,
+        Insulation = 0.3,
+        WindResistance = 0.35,
+        FabricType = Cotton,
+    }	
+    item Tshirt_JohnMorgan
+    {
+        Type = Clothing,
+        DisplayName     = John Morgan's T-Shirt,
+        ClothingItem    = Tshirt_JohnMorgan,
+        BodyLocation    = Tshirt,
+        Icon		=	TshirtJohnMorgan,
+        BloodLocation   = Shirt,
+        Insulation 	= 0.3,
+        WindResistance  = 0.35,
+        FabricType 	= Cotton,
+    }
+	item Tshirt_LegoHead
+    {
+        Type = Clothing,
+        DisplayName = Lego Head T-Shirt,
+        ClothingItem = Tshirt_LegoHead,
+        BodyLocation = Tshirt,
+        Icon	=	TshirtGeneric,
+        BloodLocation = Shirt,
+        Insulation = 0.3,
+        WindResistance = 0.35,
+        FabricType = Cotton,
+    }
+	item Tshirt_LoganCarter
+    {
+        Type = Clothing,
+        DisplayName = Football T-Shirt,
+        ClothingItem = Tshirt_LoganCarter,
+        BodyLocation = Tshirt,
+        Icon	=	TshirtGeneric,
+        BloodLocation = Shirt,
+        ColorRed = 160,
+        ColorGreen = 29,
+        ColorBlue = 28,		
+        Insulation = 0.3,
+        WindResistance = 0.35,
+        FabricType = Cotton,
+    }		
+     item Tshirt_PostalDude
+	{
+		Type = Clothing,
+		DisplayName = Alien Shirt,
+		ClothingItem = Tshirt_PostalDude,
+		BodyLocation = Tshirt,
+		Icon = TShirtPostalDude,
+		BloodLocation = Shirt,
+        Insulation = 0.65,
+        WindResistance = 0.5,
+        FabricType = Cotton,
+	}
+    item Tshirt_PrinceBelAir
+    {
+        Type = Clothing,
+        DisplayName = Prince of Bel Air's T-Shirt,
+        ClothingItem = Tshirt_PrinceBelAir,
+        BodyLocation = Tshirt,
+        Icon	=	TShirtBelAir,
+        BloodLocation = Shirt,
+        Insulation = 0.3,
+        WindResistance = 0.35,
+        FabricType = Cotton,
+    }	
+    item Tshirt_Rochelle
+    {
+        Type = Clothing,
+        DisplayName = Rochelle's T-Shirt,
+        ClothingItem = Tshirt_Rochelle,
+        BodyLocation = Tshirt,
+        Icon	=	TshirtRochelle,
+        BloodLocation = Shirt,
+        Insulation = 0.3,
+        WindResistance = 0.35,
+        FabricType = Cotton,
+    }
+	item Tshirt_Rock2
+    {
+        Type = Clothing,
+        DisplayName = Rock T-Shirt,
+        ClothingItem = Tshirt_Rock2,
+        BodyLocation = Tshirt,
+        Icon	=	TshirtGeneric,
+        BloodLocation = Shirt,
+        ColorRed = 21,
+        ColorGreen = 21,
+        ColorBlue = 21,
+        Insulation = 0.2,
+        WindResistance = 0.05,
+        FabricType = Cotton,
+    }
+    item Tshirt_SportKilla
+    {
+        Type = Clothing,
+        DisplayName = Killa's T-Shirt,
+        ClothingItem = Tshirt_SportKilla,
+        BodyLocation = Tshirt,
+        Icon	=	ShirtAthleticGrey,
+        BloodLocation = Shirt,
+        Insulation = 0.3,
+        WindResistance = 0.35,
+        FabricType = Cotton,
+    }
+    item Tshirt_SportKillaLong
+    {
+        Type = Clothing,
+        DisplayName = Killa's T-Shirt,
+        ClothingItem = Tshirt_SportKillaLong,
+        BodyLocation = Shirt,
+        Icon	=	ShirtAthleticGrey,
+        BloodLocation = ShirtLongSleeves,
+        Insulation = 0.3,
+        WindResistance = 0.35,
+        FabricType = Cotton,
+    }		
+     item Tshirt_VotePedro
+	{
+		Type = Clothing,
+		DisplayName = Vote For Pedro Shirt,
+		ClothingItem = Tshirt_VotePedro,
+		BodyLocation = Tshirt,
+		Icon = TshirtPedro,
+		BloodLocation = Shirt,
+        Insulation = 0.65,
+        WindResistance = 0.5,
+        FabricType = Cotton,
+	}
+    item Vest_BulletBlack
+    {
+        Type = Clothing,
+        DisplayName = Bulletproof Vest,
+        ClothingItem = Vest_BulletBlack,
+        BodyLocation = TorsoExtra,
+        Icon = BulletVestBlack,
+        BloodLocation = ShirtNoSleeves,
+        Insulation = 0.65,
+        WindResistance = 0.30,
+        BiteDefense = 30,
+        ScratchDefense = 55,
+    }
+    item Vest_BulletRPD
+    {
+        Type = Clothing,
+        DisplayName = RPD Bulletproof Vest,
+        ClothingItem = Vest_BulletRPD,
+        BodyLocation = TorsoExtra,
+        Icon = BulletVestPolice,
+        BloodLocation = ShirtNoSleeves,
+        Insulation = 0.65,
+        WindResistance = 0.30,
+        BiteDefense = 30,
+        ScratchDefense = 55,
+    }
+    item Vest_BulletKilla
+    {
+        Type = Clothing,
+        DisplayName = Killa's Bulletproof Vest,
+        ClothingItem = Vest_BulletKilla,
+        BodyLocation = TorsoExtra,
+        Icon = BulletVestKilla,
+        BloodLocation = ShirtNoSleeves,
+        Insulation = 0.65,
+        WindResistance = 0.30,
+        BiteDefense = 30,
+        ScratchDefense = 55,
+    }
+    item Vest_Hunting_Beige
+    {
+        Type = Clothing,
+        DisplayName = Beige Hunting Vest,
+        ClothingItem = Vest_Hunting_Beige,
+        BodyLocation = TorsoExtra,
+        Icon = Huntingvest_Beige,
+        BloodLocation = ShirtNoSleeves,
+        Insulation = 0.75,
+        WindResistance = 0.75,
+    }
+    item Vest_Hunting_Wally
+    {
+        Type = Clothing,
+        DisplayName = Hunting Vest,
+        ClothingItem = Vest_Hunting_Wally,
+        BodyLocation = TorsoExtra,
+        Icon = Huntingvest_Beige,
+        BloodLocation = ShirtNoSleeves,
+        Insulation = 0.75,
+        WindResistance = 0.75,
+    }		
+    item Vest_Rim_Duke
+    {
+        Type = Clothing,
+        DisplayName = Tank Top,
+        ClothingItem = Vest_Rim_Duke,
+        BodyLocation = TorsoExtra,
+        Icon = VestDuke,
+        BloodLocation = ShirtNoSleeves,
+        Insulation = 0.40,
+        WindResistance = 0.30,
+        FabricType = Cotton,
+    }
+    item Vest_Rim_TINT
+    {
+        Type = Clothing,
+        DisplayName = Tank Top,
+        ClothingItem = Vest_Rim_TINT,
+        BodyLocation = TankTop,
+        Icon = VestRim,
+        BloodLocation = ShirtNoSleeves,
+        Insulation = 0.40,
+        WindResistance = 0.30,
+        FabricType = Cotton,
+    }
+    item Vest_Waistcoat_Barbershop_Blue
+    {
+        Type = Clothing,
+        DisplayName = Barbershop Waistcoat,
+        ClothingItem = Vest_Waistcoat_Barbershop_Blue,
+        BodyLocation = TorsoExtra,
+        Icon = Vest_Blue,
+        BloodLocation = ShirtNoSleeves,
+        Insulation = 0.40,
+        WindResistance = 0.20,
+        FabricType = Cotton,
+    }
+    item Vest_Waistcoat_Barbershop_Green
+    {
+        Type = Clothing,
+        DisplayName = Barbershop Waistcoat,
+        ClothingItem = Vest_Waistcoat_Barbershop_Green,
+        BodyLocation = TorsoExtra,
+        Icon = Vest_Green,
+        BloodLocation = ShirtNoSleeves,
+        Insulation = 0.40,
+        WindResistance = 0.20,
+        FabricType = Cotton,
+    }
+    item Vest_Waistcoat_Barbershop_Purple
+    {
+        Type = Clothing,
+        DisplayName = Barbershop Waistcoat,
+        ClothingItem = Vest_Waistcoat_Barbershop_Purple,
+        BodyLocation = TorsoExtra,
+        Icon = Vest_Purple,
+        BloodLocation = ShirtNoSleeves,
+        Insulation = 0.40,
+        WindResistance = 0.20,
+        FabricType = Cotton,
+    }
+    item Vest_Waistcoat_Barbershop_Red
+    {
+        Type = Clothing,
+        DisplayName = Barbershop Waistcoat,
+        ClothingItem = Vest_Waistcoat_Barbershop_Red,
+        BodyLocation = TorsoExtra,
+        Icon = Vest_Red,
+        BloodLocation = ShirtNoSleeves,
+        Insulation = 0.40,
+        WindResistance = 0.20,
+        FabricType = Cotton,
+    }
+    item Vest_Waistcoat_Barbershop_Yellow
+    {
+        Type = Clothing,
+        DisplayName = Barbershop Waistcoat,
+        ClothingItem = Vest_Waistcoat_Barbershop_Yellow,
+        BodyLocation = TorsoExtra,
+        Icon = Vest_Yellow,
+        BloodLocation = ShirtNoSleeves,
+        Insulation = 0.40,
+        WindResistance = 0.20,
+        FabricType = Cotton,
+    }
+    item Vest_Waistcoat_Joker_Orange
+    {
+        Type = Clothing,
+        DisplayName = Orange Waistcoat,
+        ClothingItem = Vest_Waistcoat_Joker_Orange,
+        BodyLocation = TorsoExtra,
+        Icon = Vest_Orange,
+        BloodLocation = ShirtNoSleeves,
+        Insulation = 0.40,
+        WindResistance = 0.20,
+        FabricType = Cotton,
+    }
+
+    item Vest_Waistcoat_Mime
+    {
+        Type = Clothing,
+        DisplayName = Mime Waistcoat Skirt,
+        ClothingItem = Vest_Waistcoat_Mime,
+        BodyLocation = TorsoExtra,
+        Icon = WaistcoatSkirtBlack,
+        BloodLocation = ShirtNoSleeves,
+        Insulation = 0.40,
+        WindResistance = 0.20,
+        FabricType = Cotton,
+    }	
+
+}

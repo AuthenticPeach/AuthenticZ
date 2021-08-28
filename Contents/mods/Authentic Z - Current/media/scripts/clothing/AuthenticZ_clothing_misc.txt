@@ -1,0 +1,16 @@
+module Base
+{
+    item Stomach_Intestines
+    {
+        Type = Clothing,
+        ClothingItem =  Stomach_Intestines,
+        BodyLocation = ZedDmg,
+    }
+
+    item Stomach_Intestines2
+    {
+        Type = Clothing,
+        ClothingItem =  Stomach_Intestines2,
+        BodyLocation = ZedDmg,
+    }
+}

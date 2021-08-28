@@ -1,0 +1,10 @@
+Tooltip_EN = {
+	Tooltip_PostalDude = "WOULD YOU LIKE TO SIGN MY PETITION?",
+	Tooltip_Pills = "PILLS HERE!",
+	Tooltip_Bandages = "Hold up I'm healing!",
+	Tooltip_Stop = "Stop!"
+	Tooltip_Zeddemore = "Winston Zeddemore used to wear this....",
+	Tooltip_Venkman = "Peter Venkman used to wear this....",
+	Tooltip_Stantz = "Ray Stantz used to wear this....",
+	Tooltip_Spengler = "Egon Spengler used to wear this....", 
+	}
