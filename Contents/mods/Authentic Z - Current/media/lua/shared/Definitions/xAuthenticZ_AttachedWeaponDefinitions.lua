@@ -789,6 +789,17 @@ AttachedWeaponDefinitions.TorchMelee = {
     "AuthenticZClothing.TorchMelee",
 	},
 }
+AttachedWeaponDefinitions.WaldoCane = {
+	chance = 100,
+	outfit = {"AuthenticWaldo"},
+	weaponLocation = {"Left Hand", "Right Hand"},
+	bloodLocations = nil,
+	addHoles = false,
+	daySurvived = 0,
+	weapons = {
+    "AuthenticZClothing.AuthenticWalkingCane",
+	},
+}
 AttachedWeaponDefinitions.Bucket = {
 	chance = 100,
 	outfit = {"AuthenticBub"},
@@ -1477,6 +1488,12 @@ AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticCook_Seahorse = {
 	chance = 50;
 	weapons = {
 		AttachedWeaponDefinitions.CoffeeCup,
+	},
+}
+AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticWaldo = {
+	chance = 100;
+	weapons = {
+		AttachedWeaponDefinitions.WaldoCane, 
 	},
 }
 AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticWinslow = {

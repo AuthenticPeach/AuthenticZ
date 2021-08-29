@@ -5972,6 +5972,12 @@
 		<m_items> <!-- Bucket Hat-->
 			<itemGUID>a2e8922f-f703-4d0f-9c3e-d72bc373054e</itemGUID>
 		</m_items>
+		<m_items> <!--  Camo Trousers  -->
+			<itemGUID>d325b65d-497d-4c77-8919-74a65172cb94</itemGUID>
+			<subItems>
+				<itemGUID>c003fd5d-5872-42a0-bd12-8612d166441e</itemGUID>
+			</subItems>
+		</m_items>		
 		<m_items> <!-- Shell Strap -->
 			<itemGUID>264e5345-105f-40a3-8ac0-48bf3e91ffd4</itemGUID>
 		</m_items>
@@ -6728,8 +6734,11 @@
 		<m_items> <!-- Red Striped Long Sleeve -->
 			<itemGUID>cb5f1d74-e849-46ef-bb44-f32ca2c3c37a</itemGUID>
 		</m_items>	
-		<m_items> <!-- Wooly Hat -->
-			<itemGUID>ff76cf58-6cd5-44b4-a22a-05e0a3d1709f</itemGUID>		
+		<m_items> <!-- Waldo Wooly Hat -->
+			<itemGUID>5d9e8c72-a432-4d08-bec3-cd5d2d6fbf21</itemGUID>		
+		</m_items>
+		<m_items> <!-- White Zed Skin -->
+			<itemGUID>9c87b588-b784-4560-bada-fd4cf7e44d48</itemGUID>
 		</m_items>		
 	</m_MaleOutfits>
 	

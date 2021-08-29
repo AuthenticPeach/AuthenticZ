@@ -141,6 +141,11 @@ module Base
 	{
 		mesh = AuthenticSmokeGrenade,
 		texture = clothes\Items\AuthenticSmokeGrenade,
+	}
+	model AuthenticWalkingCane
+	{
+		mesh = Weapons/2Handed/AuthenticWalkingCane,
+		texture = clothes\Items\WalkingCane,
 	}	
 	model ClownNose
 	{

@@ -212,7 +212,7 @@
 	{
 		Type = Clothing,
 		DisplayName = Mime Long Sleeve Shirt,
-		ClothingItem = Shirt_WhiteStriped,
+		ClothingItem = Shirt_MimeRed,
 		BodyLocation = Tshirt,
         Icon	=	LongSleevedMimeRed,
         BloodLocation = Shirt,

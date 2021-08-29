@@ -5,9 +5,9 @@
 	<m_GUID>5d9e8c72-a432-4d08-bec3-cd5d2d6fbf21</m_GUID>
 	<m_Static>true</m_Static>
 	<m_AllowRandomHue>false</m_AllowRandomHue>
-	<m_AllowRandomTint>true</m_AllowRandomTint>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
 	<m_AttachBone>Bip01_Head</m_AttachBone>
 	<m_HatCategory>Group02</m_HatCategory>
 	<m_MasksFolder>media/textures/Clothes/Hat/Masks</m_MasksFolder>
-	<textureChoices>WoolyHat_WhiteRed</textureChoices>
+	<textureChoices>clothes\Hats\WoolyHat_WhiteRed</textureChoices>
 </clothingItem>
