@@ -782,14 +782,14 @@ module AuthenticZClothing {
 		ClothingItem		= Hat_HockeyMaskJason,
 		BodyLocation 		= MaskEyes,
 		Icon 				= HockeyMask,
-		CanHaveHoles 		=	 false,
+		CanHaveHoles 		= false,
 		BloodLocation 		= Head,
         BiteDefense 		= 30,
         ScratchDefense 		= 50,
         ChanceToFall 		= 30,
         Insulation 			= 0.25,
         WindResistance 		= 0.55,
-		Tooltip 			= 	Tooltip_JasonV,
+		Tooltip 			= Tooltip_JasonV,
 	}		
 	item Hat_JackoLantern
 	{

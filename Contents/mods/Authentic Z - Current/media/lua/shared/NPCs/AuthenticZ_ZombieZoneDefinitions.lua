@@ -216,8 +216,14 @@ ZombiesZoneDefinition.CampBlood = {
 		mandatory="true",
 		gender="male",
 	},
-	HockeyPsycho = {
-		name="HockeyPsycho",
+	AuthenticJasonPart3M = {
+		name="AuthenticJasonPart3",
+		toSpawn=1,
+		mandatory="true",
+		gender="male",
+	},	
+	AuthenticJasonPart3 = {
+		name="AuthenticJasonPart3",
 		chance=5,
 		gender="male",
 	},
@@ -241,6 +247,12 @@ ZombiesZoneDefinition.CampBlood = {
 	},
 	AuthenticLeatherFaceM = {
 		name="AuthenticLeatherFace",
+		toSpawn=1,
+		mandatory="true",
+		gender="male",
+	},
+	AuthenticGhostFaceM = {
+		name="AuthenticGhostFace",
 		toSpawn=1,
 		mandatory="true",
 		gender="male",
@@ -1140,32 +1152,6 @@ ZombiesZoneDefinition.Left4Dead = {
 		toSpawn=1,
 		mandatory="true",
 		gender="male",
-	},
-}
-
-ZombiesZoneDefinition.McCoys = {
-	maleChance = 80,
-	McCoys = {
-		name="McCoys",
-		chance=50,
-		gender="male",
-		beardStyles="Long:20;Chops:10;Goatee:10;Moustache:10;Full:10;BeardOnly:10",
-	},
-	Foreman = {
-		name="Foreman",
-		chance=10,
-		gender="male",
-	},
-	OfficeWorkerSkirt = {
-		name="OfficeWorkerSkirt",
-		gender="female",
-		chance=30,
-	},
-	OfficeWorker = {
-		name="OfficeWorker",
-		gender="male",
-		chance=5,
-		beardStyles="null:80",
 	},
 }
 

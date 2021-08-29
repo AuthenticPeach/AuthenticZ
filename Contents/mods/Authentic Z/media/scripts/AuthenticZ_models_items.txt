@@ -15,26 +15,106 @@ module Base
             rotate = 0.0000 0.0000 0.0000,
         }
 	}
-	model AuthenticPaper
+	model AuthenticBalloonBlue
 	{
-		mesh = Newspaper,
-		texture = Newspaper2,
+		mesh = Balloon,
+		texture = clothes\Items\BalloonBlue,
 	}
-	model AuthenticPills
+	model AuthenticBalloonGreen
 	{
-		mesh = AuthenticPills,
-		texture = clothes\Items\AuthenticPillBottle,
-	}
-	model AuthenticBandages
+		mesh = Balloon,
+		texture = clothes\Items\BalloonGreen,
+	}	
+	model AuthenticBalloonRed
 	{
-		mesh = AuthenticBandages,
-		texture = clothes\Items\AuthenticBandage,
+		mesh = Balloon,
+		texture = clothes\Items\BalloonRed,
 	}
+	model AuthenticBalloonPurple
+	{
+		mesh = Balloon,
+		texture = clothes\Items\BalloonPurple,
+	}
+	model AuthenticBalloonWhite
+	{
+		mesh = Balloon,
+		texture = clothes\Items\BalloonWhite,
+	}
+	model AuthenticBalloonYellow
+	{
+		mesh = Balloon,
+		texture = clothes\Items\BalloonYellow,
+	}	
+	model AuthenticCanteenCadetBlue
+	{
+		mesh = AuthenticCanteen,
+		texture = clothes\Items\CanteenCadetBlue,
+	}
+	model AuthenticCanteenDarkGreen
+	{
+		mesh = AuthenticCanteen,
+		texture = clothes\Items\CanteenDarkGreen,
+	}
+	model AuthenticCanteenDarkGrey
+	{
+		mesh = AuthenticCanteen,
+		texture = clothes\Items\CanteenDarkGrey,
+	}
+	model AuthenticCanteenForestGreen
+	{
+		mesh = AuthenticCanteen,
+		texture = clothes\Items\CanteenForestGreen,
+	}
+	model AuthenticCanteenGrey
+	{
+		mesh = AuthenticCanteen,
+		texture = clothes\Items\CanteenGrey,
+	}
+	model AuthenticCanteenSilver
+	{
+		mesh = AuthenticCanteen,
+		texture = clothes\Items\CanteenSilver,
+	}
+	model AuthenticCricketBat
+	{
+		mesh = Weapons/2Handed/AuthenticCricketBat,
+		texture = clothes\Items\CricketBatShaun,
+	}	
 	model AuthenticCoffeeCup
 	{
 		mesh = Weapons/1Handed/Authentic_CoffeeCup,
 		texture = clothes\Items\SeahorseCoffee,
 	}
+	model AuthenticLiver
+	{
+		mesh = AuthenticLiver,
+		texture = clothes\Organs\Liver,
+	}
+	model AuthenticMeatChunk1
+	{
+		mesh = AuthenticMeatChunk01,
+		texture = clothes\Organs\Meat,
+	}
+	model AuthenticMeatChunk2
+	{
+		mesh = AuthenticMeatChunk02,
+		texture = clothes\Organs\Meat,
+	}
+	model AuthenticMeatChunk3
+	{
+		mesh = AuthenticMeatChunk03,
+		texture = clothes\Organs\Meat,
+	}
+	model AuthenticMeatChunk4
+	{
+		mesh = AuthenticMeatChunk04,
+		texture = clothes\Organs\Meat,
+	}	
+	model AuthenticMeatChunk5
+	{
+		mesh = AuthenticMeatChunk05,
+		texture = clothes\Organs\Meat,
+	}		
 	model AuthenticMoneyStack
 	{
 		mesh = Authentic_MoneyStack,
@@ -44,9 +124,24 @@ module Base
 	model AuthenticPaintBrush
 	{
 		mesh = Weapons/1Handed/Authentic_Paintbrush,
-		texture = PaintBrush,
+		texture = clothes\Items\AuthenticPaintBrush,
 		scale = 100,
 	}
+	model AuthenticPaper
+	{
+		mesh = Newspaper,
+		texture = clothes\Items\Newspaper2,
+	}
+	model AuthenticPills
+	{
+		mesh = AuthenticPills,
+		texture = clothes\Items\AuthenticPillBottle,
+	}
+	model AuthenticSmokeGrenade
+	{
+		mesh = AuthenticSmokeGrenade,
+		texture = clothes\Items\AuthenticSmokeGrenade,
+	}	
 	model ClownNose
 	{
 		mesh = ClownNose,
@@ -57,10 +152,15 @@ module Base
 		mesh = Cigarette,
 		texture = clothes\Items\Cigarette,
 	}
+	model AuthenticAlienBlaster
+	{
+		mesh = Weapons/1Handed/AlienBlaster,
+		texture = AlienBlaster,
+	}
 	model AuthenticFlareGun
 	{
-		mesh = Weapons/1Handed/FlareGun,
-		texture = FlareGun,
+		mesh = Weapons/1Handed/Authentic_FlareGun,
+		texture = clothes\Items\FlareGun,
 	}
 	model AuthenticFreddyKrueger
 	{

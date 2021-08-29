@@ -3098,11 +3098,15 @@
 	<files>
 		<path>media/clothing/clothingItems/Gloves_ArmBoneR.xml</path>
 		<guid>6e7fb312-cb8b-4bf4-8062-c2a72851e190</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Gloves_LeatherGlovesBlackFull.xml</path>
+		<guid>83e89687-4183-4889-9cb5-30fddda481d8</guid>
 	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Gloves_LeatherGlovesWhite.xml</path>
 		<guid>de692671-3ba9-4a8f-b47e-d97c69c38e8f</guid>
-	</files>
+	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Gloves_M_LHand.xml</path>
 		<guid>92c09785-6208-4cab-b277-3b1afdc81e41</guid>

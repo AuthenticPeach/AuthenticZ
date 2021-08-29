@@ -548,6 +548,18 @@ AttachedWeaponDefinitions.macheteInBack = {
 		"Base.Machete",
 	},
 }
+-- machete in back
+AttachedWeaponDefinitions.macheteInBack2 = {
+	chance = 20,
+	outfit = {"AuthenticJasonPart3"},
+	weaponLocation = {"Blade On Back"},
+	bloodLocations = nil,
+	addHoles = false,
+	daySurvived = 0,
+	weapons = {
+		"Base.Machete",
+	},
+}
 -- Pickaxe on back
 AttachedWeaponDefinitions.pickaxeInBack = {
 	chance = 80,
@@ -1062,6 +1074,12 @@ AttachedWeaponDefinitions.attachedWeaponCustomOutfit.HockeyPsycho = {
 	chance = 100;
 	weapons = {
 		AttachedWeaponDefinitions.macheteInBack,
+	},
+}
+AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticJasonPart3 = {
+	chance = 100;
+	weapons = {
+		AttachedWeaponDefinitions.macheteInBack2,
 	},
 }
 AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticJasonPart2 = {

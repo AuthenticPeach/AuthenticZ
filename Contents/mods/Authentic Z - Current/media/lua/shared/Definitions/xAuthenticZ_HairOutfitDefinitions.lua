@@ -273,6 +273,12 @@ cat.beard = "None:100";
 cat.haircutColor = "0.33,0.16,0.16:100"
 table.insert(HairOutfitDefinitions.haircutOutfitDefinition, cat);
 local cat = {};
+cat.outfit = "AuthenticGhostFace";
+cat.haircut = "Bald:100";
+cat.beard = "None:100";
+cat.haircutColor = "0.33,0.16,0.16:100" --Brown
+table.insert(HairOutfitDefinitions.haircutOutfitDefinition, cat);
+local cat = {};
 cat.outfit = "AuthenticGhostbusterSpengler";
 cat.haircut = "Messy:100";
 cat.beard = "None:100";
@@ -311,6 +317,12 @@ table.insert(HairOutfitDefinitions.haircutOutfitDefinition, cat);
 local cat = {};
 cat.outfit = "AuthenticJasonPart2";
 cat.haircut = "Mullet:100";
+cat.beard = "None:100";
+cat.haircutColor = "0.82,0.71,0.55:100";
+table.insert(HairOutfitDefinitions.haircutOutfitDefinition, cat);
+local cat = {};
+cat.outfit = "AuthenticJasonPart3";
+cat.haircut = "None:100";
 cat.beard = "None:100";
 cat.haircutColor = "0.82,0.71,0.55:100";
 table.insert(HairOutfitDefinitions.haircutOutfitDefinition, cat);

@@ -3169,8 +3169,8 @@
 		<m_items> <!-- Black Poncho -->
 			<itemGUID>6c8c179b-293b-4be1-8684-e12d6c9d947d</itemGUID>
 		</m_items>		
-		<m_items> <!-- Black Leather Gloves Full Placeholder -->
-			<itemGUID>19af00e4-ed4d-49bc-a893-a4a3376fe6da</itemGUID>
+		<m_items> <!-- Black Leather Gloves Full -->
+			<itemGUID>83e89687-4183-4889-9cb5-30fddda481d8</itemGUID>
 		</m_items>		
 		<m_items> <!-- Ghost Face Mask  -->
 			<itemGUID>d8b897bb-0453-4a2f-ada8-f109ae85fba0</itemGUID>
@@ -3499,8 +3499,38 @@
 		</m_items>
 		<m_items> <!-- Sack Mask  -->
 			<itemGUID>5a1eeb45-5957-49eb-9d04-da2e1523c1ce</itemGUID>
-		</m_items>		
+		</m_items>
+		<m_items> <!-- White Zed Skin -->
+			<itemGUID>9c87b588-b784-4560-bada-fd4cf7e44d48</itemGUID>
+		</m_items>			
 	</m_MaleOutfits>
+	
+
+	<m_MaleOutfits>
+		<m_Name>AuthenticJasonPart3</m_Name>
+		<m_Guid>c0ee6dde-062a-4b42-9a9c-95054fb2375c</m_Guid>
+		<m_items> <!-- Jason Hockey Mask  -->
+			<itemGUID>3f69a2cd-417f-4cac-908c-ee57680554f1</itemGUID>
+		</m_items>
+		<m_items> <!-- Trousers JeanBaggy  -->
+			<itemGUID>8973893f-f324-4cdb-a32b-43cd0378174f</itemGUID>
+		</m_items>
+		<m_items><!-- Jacket Black  -->
+			<itemGUID>9e094ca7-29b4-4c7d-ae70-597fa4c8a330</itemGUID>
+		</m_items>
+		<m_items> <!-- Socks-->
+			<itemGUID>ebea15c8-99b3-4e20-905b-d22cf82b8217</itemGUID>
+		</m_items>
+		<m_items> <!-- Shoes -->
+			<itemGUID>593bea3d-c127-4574-ac1e-2197dc56e486</itemGUID>
+		</m_items>
+		<m_items> <!-- Black Leather Gloves Full -->
+			<itemGUID>83e89687-4183-4889-9cb5-30fddda481d8</itemGUID>
+		</m_items>	
+		<m_items> <!-- White Zed Skin -->
+			<itemGUID>9c87b588-b784-4560-bada-fd4cf7e44d48</itemGUID>
+		</m_items>			
+	</m_MaleOutfits>	
 	
 	<m_FemaleOutfits>
 		<m_Name>AuthenticJillValentine</m_Name>

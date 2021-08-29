@@ -212,6 +212,21 @@ module AuthenticZClothing {
         Insulation = 0.75,
         WindResistance = 0.75,
         FabricType = Leather,
+	}
+	item Gloves_LeatherGlovesBlackFull
+	{
+		Type = Clothing,
+		DisplayName = Leather Gloves,
+		ClothingItem = Gloves_LeatherGlovesBlackFull,
+		BodyLocation = Hands,
+		BloodLocation = Hands,
+		Icon = GlovesLeatherBlackpng,
+		ScratchDefense = 30,
+        BiteDefense = 15,
+        Weight = 0.1,
+        Insulation = 0.75,
+        WindResistance = 0.75,
+        FabricType = Leather,
 	}	
 	item Gloves_LeatherGlovesWhite
 	{
