@@ -256,7 +256,13 @@ ZombiesZoneDefinition.CampBlood = {
 		toSpawn=1,
 		mandatory="true",
 		gender="male",
-	},	
+	},
+	AuthenticClownPennywiseM = {
+		name="AuthenticClownPennywise",
+		toSpawn=1,
+		mandatory="true",
+		gender="male",
+	},		
 }
 
 ZombiesZoneDefinition.Campgrounds= {
