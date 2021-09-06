@@ -8,5 +8,5 @@
 	<m_AllowRandomTint>false</m_AllowRandomTint>
 	<m_AttachBone></m_AttachBone>
 	<m_MasksFolder>none</m_MasksFolder>
-	<textureChoices>Intestines</textureChoices>
+	<textureChoices>clothes\Organs\Intestines</textureChoices>
 </clothingItem>

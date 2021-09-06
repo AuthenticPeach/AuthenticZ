@@ -43,5 +43,5 @@ description=-Peach
 description=
 description=
 description=Tags:B41
-tags=Build 41;Clothing/Armor;Items;Misc;Models;Pop Culture;Textures
+tags=Build 41;Clothing/Armor;Items;Misc;Models;Pop Culture;Realistic;Textures
 visibility=public
