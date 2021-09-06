@@ -18,6 +18,16 @@ local clothing = {
   -- these lists are named after the BodyLocation of the item
   -- If your item's BodyLocation = Hat then put it in "Hat"
  Hat = {
+	"AuthenticZClothing.Hat_AuthenticCrashHelmetFULLDecalBobaFett",
+	"AuthenticZClothing.Hat_AuthenticCrashHelmetFULLDecalEvelKnievel",
+	"AuthenticZClothing.Hat_AuthenticCrashHelmetFULLDecalGreenDragon",
+	"AuthenticZClothing.Hat_AuthenticCrashHelmetFULLDecalKiss",
+    "AuthenticZClothing.Hat_AuthenticCrashHelmetFULLDecalOptimus",
+    "AuthenticZClothing.Hat_AuthenticCrashHelmetFULLDecalPowerRangerRed",
+    "AuthenticZClothing.Hat_AuthenticCrashHelmetFULLDecalShark",
+	"AuthenticZClothing.Hat_AuthenticCrashHelmetFULLDecalSnowLeopard",
+    "AuthenticZClothing.Hat_AuthenticCrashHelmetFULLDecalVenom",
+    "AuthenticZClothing.Hat_AuthenticCrashHelmetFULLDecalSimple",
     "AuthenticZClothing.Hat_AuthenticCrashHelmetFULLRacing",
     "AuthenticZClothing.Hat_AuthenticCrashHelmet",
     "AuthenticZClothing.Hat_AuthenticCrashHelmetFULLTINT",
@@ -174,7 +184,7 @@ local clothing = {
   AmmoStrap = {},	
   Mask = {
     "AuthenticZClothing.Hat_BalaclavaSpyBlue",
-    "AuthenticZClothing.Hat_BalaclavaSpyBlue", 
+    "AuthenticZClothing.Hat_BalaclavaSpyRed", 
   },        
   MaskEyes = {},  
   Underwear = { --Swimwear
