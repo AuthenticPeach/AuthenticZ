@@ -231,6 +231,18 @@
         Insulation = 0.2,
         WindResistance = 0.05,
         FabricType = Cotton,
+	}
+     item Shirt_Walker
+	{
+		Type = Clothing,
+		DisplayName  	= Walker's Long Sleeve Shirt,
+		ClothingItem 	= Shirt_Walker,
+		BodyLocation 	= Tshirt,
+        Icon		  	= ShirtBateman,
+        BloodLocation 	= Shirt,
+        Insulation 		= 0.2,
+        WindResistance  = 0.05,
+        FabricType 		= Cotton,
 	}		
      item Shirt_WhiteStriped
 	{
