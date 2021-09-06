@@ -220,22 +220,6 @@ module AuthenticZClothing {
         Weight = 4,
     }	
 
-    item Jacket_Flannel
-    {
-        Type = Clothing,
-        DisplayName = Test Jacket,
-        ClothingItem = Jacket_Flannel,
-        BodyLocation = Jacket,
-        Icon = JacketBub,
-         BloodLocation = Jacket,
-        BiteDefense = 20,
-        Insulation = 0.7,
-        WindResistance = 0.7,
-        FabricType = Denim,
-        WaterResistance = 0.6,
-        Weight = 2,
-    }
-
     item Jacket_Francis
     {
         Type = Clothing,
@@ -322,7 +306,7 @@ module AuthenticZClothing {
         NeckProtectionModifier = 0.5,
         Insulation = 0.70,
         WindResistance = 0.50,
-	WaterResistance = 0.60,
+		WaterResistance = 0.60,
         Weight = 3,
     }
 	

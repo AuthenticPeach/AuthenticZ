@@ -605,7 +605,7 @@ module AuthenticZClothing {
 	item Hat_Boater_Green
 	{
 		Type = Clothing,
-		DisplayName = Boater,
+		DisplayName = Green Boater,
 		ClothingItem = Hat_Boater_Green,
 		BodyLocation = Hat,
 		Icon = BoaterGreen,
@@ -618,7 +618,7 @@ module AuthenticZClothing {
 	item Hat_Boater_Purple
 	{
 		Type = Clothing,
-		DisplayName = Boater,
+		DisplayName = Purple Boater,
 		ClothingItem = Hat_Boater_Purple,
 		BodyLocation = Hat,
 		Icon = BoaterPurple,
@@ -631,7 +631,7 @@ module AuthenticZClothing {
 	item Hat_Boater_Red
 	{
 		Type = Clothing,
-		DisplayName = Boater,
+		DisplayName = Red Boater,
 		ClothingItem = Hat_Boater_Red,
 		BodyLocation = Hat,
 		Icon = BoaterRed,
@@ -644,7 +644,7 @@ module AuthenticZClothing {
 	item Hat_Boater_Yellow
 	{
 		Type = Clothing,
-		DisplayName = Boater,
+		DisplayName = Yellow Boater,
 		ClothingItem = Hat_Boater_Yellow,
 		BodyLocation = Hat,
 		Icon = BoaterYellow,

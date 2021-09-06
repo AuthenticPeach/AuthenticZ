@@ -182,7 +182,7 @@ module AuthenticZClothing {
  	item Shoes_TrainerBlack
 	{
 		Type = Clothing,
-		DisplayName = Sneakers,
+		DisplayName = Black Sneakers,
 		ClothingItem = Shoes_TrainerBlack,
 		BodyLocation = Shoes,
 		BloodLocation = Shoes,
@@ -199,7 +199,7 @@ module AuthenticZClothing {
  	item Shoes_TrainerBlackMamba
 	{
 		Type = Clothing,
-		DisplayName = Sneakers,
+		DisplayName = Yellow Sneakers,
 		ClothingItem = Shoes_TrainerBlackMamba,
 		BodyLocation = Shoes,
 		BloodLocation = Shoes,
@@ -216,7 +216,7 @@ module AuthenticZClothing {
  	item Shoes_TrainerGreenandWhite
 	{
 		Type = Clothing,
-		DisplayName = Sneakers,
+		DisplayName = Green Sneakers,
 		ClothingItem = Shoes_TrainerGreenandWhite,
 		BodyLocation = Shoes,
 		BloodLocation = Shoes,
@@ -233,7 +233,7 @@ module AuthenticZClothing {
  	item Shoes_TrainerWhitePlain
 	{
 		Type = Clothing,
-		DisplayName = Sneakers,
+		DisplayName = White Sneakers,
 		ClothingItem = Shoes_TrainerWhitePlain,
 		BodyLocation = Shoes,
 		BloodLocation = Shoes,
@@ -269,7 +269,7 @@ module AuthenticZClothing {
 	item Socks_Long_Charcoal
 	{
 		Type = Clothing,
-		DisplayName = Long Socks,
+		DisplayName = Charcoal Long Socks,
 		ClothingItem = Socks_Long_Charcoal,
 		BodyLocation = Socks,
 		Icon  = SocksWhiteCharcoal,
@@ -321,7 +321,7 @@ module AuthenticZClothing {
 	item Socks_Long_RedStriped01
 	{
 		Type = Clothing,
-		DisplayName = Long Socks,
+		DisplayName = Red Striped Socks,
 		ClothingItem = Socks_Long_RedStriped01,
 		BodyLocation = Socks,
 		Icon  = SocksWhiteRedStriped,

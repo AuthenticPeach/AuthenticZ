@@ -1,20 +1,5 @@
 module Base
 {
-	model Revolver_Short
-	{
-		mesh = Weapons/Firearm/Revolver_Short,
-
-		attachment muzzle
-		{
-			offset = 0.0000 0.1160 -0.0280,
-			rotate = -90.0000 0.0000 0.0000,
-		}
-		attachment scope
-        {
-            offset = 0.0000 0.0400 0.0580,
-            rotate = 0.0000 0.0000 0.0000,
-        }
-	}
 	model AuthenticBalloonBlue
 	{
 		mesh = Balloon,
@@ -44,6 +29,11 @@ module Base
 	{
 		mesh = Balloon,
 		texture = clothes\Items\BalloonYellow,
+	}
+	model AuthenticBrain
+	{
+		mesh = AuthenticBrain,
+		texture = clothes\Organs\Brain,
 	}	
 	model AuthenticCanteenCadetBlue
 	{
@@ -85,6 +75,11 @@ module Base
 		mesh = Weapons/1Handed/Authentic_CoffeeCup,
 		texture = clothes\Items\SeahorseCoffee,
 	}
+	model AuthenticLeft4Head
+	{
+		mesh = AuthenticLeft4DeadHand,
+		texture = clothes\Organs\L4Dhand,
+	}	
 	model AuthenticLiver
 	{
 		mesh = AuthenticLiver,

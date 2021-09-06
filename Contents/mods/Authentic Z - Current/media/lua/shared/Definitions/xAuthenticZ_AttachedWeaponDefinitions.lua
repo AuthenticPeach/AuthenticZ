@@ -24,13 +24,15 @@ AttachedWeaponDefinitions.MeatChunk = {
 }
 --Chance for an organ!
 AttachedWeaponDefinitions.Organ = {
-	chance = 2,
+	chance = 1,
 	weaponLocation = {"Left Hand", "Right Hand"},
 	bloodLocations = nil,
 	addHoles = false,
 	daySurvived = 0,
 	weapons = {
 		"AuthenticZClothing.AuthenticOrgan_Liver",
+		"AuthenticZClothing.AuthenticOrgan_Brain",
+		"AuthenticZClothing.AuthenticOrgan_Hand",
 }
 }
 -- For Specific Outfits --

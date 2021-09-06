@@ -168,36 +168,6 @@ module AuthenticZClothing {
 		Cosmetic = TRUE,
 		ChanceToFall = 50,
 	}
-	item Gloves_ArmBoneL
-	{
-		Type = Clothing,
-		ClothingItem = Gloves_ArmBoneL,
-		BodyLocation = Left_RingFinger,
-	}	
-	item Gloves_HandBone_L
-	{
-		Type = Clothing,
-		ClothingItem = Gloves_ArmBoneR,
-		BodyLocation = Left_RingFinger,
-	}
-	item Gloves_Bone
-	{
-		Type = Clothing,
-		ClothingItem = Gloves_Bone,
-		BodyLocation = Right_MiddleFinger,
-	}
-	item Gloves_ArmBoneR
-	{
-		Type = Clothing,
-		ClothingItem = Gloves_ArmBoneR,
-		BodyLocation = Right_RingFinger,
-	}
-	item Gloves_ArmBoneL
-	{
-		Type = Clothing,
-		ClothingItem = Gloves_Bone,
-		BodyLocation = Left_MiddleFinger,
-	}
 	item Gloves_FreddyKreuger
 	{
 		Type = Clothing,
@@ -242,28 +212,6 @@ module AuthenticZClothing {
         Insulation = 0.75,
         WindResistance = 0.75,
         FabricType = Leather,
-	}
-	item Gloves_RHand
-	{
-		Type = Clothing,
-		DisplayName = Dismembered Hand,
-		ClothingItem = Gloves_RHand,
-		BodyLocation = Hands,
-		BloodLocation = Hands,
-		Icon = RightFist,
-		Weight = 0.1,
-		ChanceToFall = 15,
-	}
-	item Gloves_M_LHand
-	{
-		Type = Clothing,
-		DisplayName = Dismembered Hand,
-		ClothingItem = Gloves_M_LHand,
-		BodyLocation = Hands,
-		BloodLocation = Hands,
-		Icon = RightFist,
-		Weight = 0.1,
-		ChanceToFall = 15,
 	}
 	item Gloves_Black
 	{
@@ -544,4 +492,18 @@ module AuthenticZClothing {
 		ClothingItem = Wood_Chunk_1,
 		BodyLocation = TorsoExtra,
     }
+    item Arm_LeftBone
+    {
+        Type = Clothing,
+        ClothingItem =  Arm_LeftBone,
+        BodyLocation = Necklace,
+    }
+    item Arm_LeftHandBone
+    {
+		DisplayName = Hand Bone,
+        Type = Clothing,
+        ClothingItem =  Arm_LeftHandBone,
+        BodyLocation = Necklace,
+		Icon = TieBowYellow,
+    }	
 }
