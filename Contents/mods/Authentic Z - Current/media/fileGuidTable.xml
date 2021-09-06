@@ -713,6 +713,10 @@
 		<guid>096acc98-7ac1-4867-82dd-af77afb6a87b</guid>
 	</files>
 	<files>
+		<path>media/clothing/clothingItems/Gloves_Walker.xml</path>
+		<guid>6709edf8-54ee-489b-b323-e6c61dfe81d8</guid>
+	</files>	
+	<files>
 		<path>media/clothing/clothingItems/Gloves_LongWomenGloves.xml</path>
 		<guid>9c36a162-1348-46ad-81bd-70bf3ed7a93e</guid>
 	</files>

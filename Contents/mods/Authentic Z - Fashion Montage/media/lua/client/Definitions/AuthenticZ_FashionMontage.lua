@@ -110,6 +110,7 @@ local clothing = {
   "AuthenticZClothing.Shirt_MimeRed",
   "AuthenticZClothing.Shirt_MimeRed2",
   "AuthenticZClothing.Tshirt_SportKillaLong",
+  "AuthenticZClothing.Shirt_Walker",
   },       
   Socks = {
   "AuthenticZClothing.Socks_Long_Charcoal",
