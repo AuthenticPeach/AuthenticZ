@@ -233,7 +233,7 @@ module AuthenticZClothing {
 		ClothingItem = Gloves_LeatherWalker,
 		BodyLocation = Hands,
 		BloodLocation = Hands,
-		Icon = GlovesLeatherBlackpng,
+		Icon = GlovesLeatherWalker,
 		ScratchDefense = 30,
         BiteDefense = 15,
         Weight = 0.1,

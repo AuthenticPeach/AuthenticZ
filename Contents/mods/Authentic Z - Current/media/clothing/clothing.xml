@@ -218,6 +218,9 @@
 		<m_items> <!-- Shoes -->
 			<itemGUID>7741404b-9689-4608-a0f5-4e06597776f9</itemGUID>
 		</m_items>
+		<m_items> <!-- Gloves -->
+			<itemGUID>6709edf8-54ee-489b-b323-e6c61dfe81d8</itemGUID>
+		</m_items>		
 		<m_items> <!-- Dogtags -->
 			<itemGUID>88321000-2b08-4537-9c51-4b5eca360c92</itemGUID>
 		</m_items>		
