@@ -212,6 +212,7 @@ local clothing = {
   Hands = { -- Gloves
   "AuthenticZClothing.Gloves_LeatherGlovesWhite",
   "AuthenticZClothing.Gloves_Black",
+  "AuthenticZClothing.Gloves_LeatherWalker",
   "AuthenticZClothing.Gloves_White",  
   },
   Legs1 = {   
