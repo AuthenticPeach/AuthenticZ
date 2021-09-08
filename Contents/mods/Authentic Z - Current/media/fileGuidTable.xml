@@ -711,10 +711,6 @@
 	<files>
 		<path>media/clothing/clothingItems/Gloves_LeatherGlovesBlack.xml</path>
 		<guid>096acc98-7ac1-4867-82dd-af77afb6a87b</guid>
-	</files>
-	<files>
-		<path>media/clothing/clothingItems/Gloves_Walker.xml</path>
-		<guid>6709edf8-54ee-489b-b323-e6c61dfe81d8</guid>
 	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Gloves_LongWomenGloves.xml</path>
@@ -3102,6 +3098,10 @@
 	<files>
 		<path>media/clothing/clothingItems/Gloves_LeatherGlovesWhite.xml</path>
 		<guid>de692671-3ba9-4a8f-b47e-d97c69c38e8f</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Gloves_LeatherWalker.xml</path>
+		<guid>6709edf8-54ee-489b-b323-e6c61dfe81d8</guid>
 	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Gloves_M_LHand.xml</path>

@@ -843,7 +843,7 @@ module Base
 			offset = 0.1080 0.0020 -0.1830,
 			rotate = 180.0000 -71.0000 84.0000,
 			bone = Bip01_Spine1,
-		}
+		}		
 		attachment Bip01_L_Shoulder
 		{
 			offset = 0.072 0.03 -0.003,
@@ -908,14 +908,6 @@ module Base
 			offset = 0.0000 0.0000 0.0000,
 			rotate = 90.0000 -47.0000 90.0000,
 			bone = Bip01_R_Finger1,
-		}
-
-
-		attachment Bip01_L_UpperArm
-		{
-			offset = -0.0110 -0.0530 0.0040,
-			rotate = 0.0000 0.0000 0.0000,
-			bone = Bip01_L_UpperArm,
 		}
 
 		attachment Cherry_Leg_R
@@ -1004,8 +996,8 @@ module Base
 
 		attachment winslow_Arm_L_1
 		{
-			offset = 0.0070 0.0020 0.0100,
-			rotate = -115.0000 37.0000 139.0000,
+			offset = 0.0170 -0.0470 0.0170,
+			rotate = -24.0000 3.0000 7.0000,
 			bone = Bip01_L_UpperArm,
 		}
 
@@ -1018,44 +1010,93 @@ module Base
 
 		attachment winslow_Arm_L_3
 		{
-			offset = 0.0070 0.0020 0.0100,
-			rotate = -115.0000 37.0000 139.0000,
+			offset = 0.0115 0.019 -0.0060,
+			rotate = -170.0000 63.0000 -174.0000,
 			bone = Bip01_L_UpperArm,
 		}
 
 		attachment winslow_Arm_L_4
 		{
-			offset = 0.0070 0.0020 0.0100,
-			rotate = -115.0000 37.0000 139.0000,
+			offset = 0.11 0.0040 -0.0040,
+			rotate = -13.0000 -26.0000 -10.0000,
 			bone = Bip01_L_UpperArm,
 		}
 
 		attachment winslow_Arm_L_5
 		{
-			offset = 0.0070 0.0020 0.0100,
-			rotate = -115.0000 37.0000 139.0000,
+			offset = 0.125 -0.005 0.008,
+			rotate = 128.0000 65.0000 -101.0000,
 			bone = Bip01_L_UpperArm,
 		}
 
 		attachment winslow_Arm_L_6
 		{
-			offset = 0.0070 0.0020 0.0100,
-			rotate = -115.0000 37.0000 139.0000,
-			bone = Bip01_L_UpperArm,
+			offset = -0.014 0.01 -0.0030,
+			rotate = 96.0000 -17.0000 -110.0000,
+			bone = Bip01_L_Hand,
 		}
 
 		attachment winslow_Arm_L_7
 		{
-			offset = 0.0070 0.0020 0.0100,
-			rotate = -115.0000 37.0000 139.0000,
+			offset = -0.0030 -0.0580 -0.0030,
+			rotate = 27.0000 -8.0000 -6.0000,
 			bone = Bip01_L_UpperArm,
 		}
 
-		attachment winslow_Arm_L_8
+
+		attachment winslow_Torso_C_1
 		{
-			offset = 0.0070 0.0020 0.0100,
-			rotate = -115.0000 37.0000 139.0000,
-			bone = Bip01_L_UpperArm,
+			offset = 0.024 0.034 -0.003,
+			rotate = 100.0000 -22.0000 26.0000,
+			bone = Bip01_Spine,
 		}
+		attachment winslow_Torso_C_2
+		{
+			offset = 0.042 0.017 -0.003,
+			rotate = 117.0000 14.0000 30.0000,
+			bone = Bip01_Spine,
+		}
+		attachment winslow_Torso_C_3
+		{
+			offset = 0.040 0.025 -0.015,
+			rotate = 93.0000 7.0000 11.0000,
+			bone = Bip01_Spine,
+		}
+		attachment winslow_Torso_C_4
+		{
+			offset = 0.034 0.006 -0.017,
+			rotate = 112.0000 9.0000 10.0000,
+			bone = Bip01_Spine,
+		}			
+		attachment winslow_Torso_R_1
+		{
+			offset = 0.04 -0.04 -0.02,
+			rotate = -47.0000 -12.0000 -10.0000,
+			bone = Bip01_L_Clavicle,
+		}
+		attachment winslow_Torso_R_2
+		{
+			offset = 0.068 -0.058 -0.045,
+			rotate = -52.0000 -13.0000 -11.0000,
+			bone = Bip01_L_Clavicle,
+		}
+		attachment winslow_Torso_L_1
+		{
+			offset = 0.056 -0.044 0.006,
+			rotate = 153.0000 82.0000 -40.0000,
+			bone = Bip01_Spine1,
+		}		
+		attachment winslow_Torso_L_2
+		{
+			offset = 0.058 -0.019 0.014,
+			rotate = 152.0000 81.0000 -41.0000,
+			bone = Bip01_Spine1,
+		}
+		attachment winslow_Torso_L_3
+		{
+			offset = -0.018 -0.045 0.009,
+			rotate = -16.0000 69.0000 135.0000,
+			bone = Bip01_Spine1,
+		}		
 	}
 }
