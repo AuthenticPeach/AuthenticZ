@@ -2269,8 +2269,24 @@
 		<m_items> <!-- T-Shirt -->
 			<itemGUID>2256166c-64a6-4f81-8285-0779cab92fbd</itemGUID>
 		</m_items>
-		<m_items>  <!-- Big HikingBag -->
+		<m_items>  <!-- Bags -->
+			<probability>0.3</probability>
 			<itemGUID>d1146e1e-1e80-4344-bfe0-2be1e93e022c</itemGUID>
+			<subItems>
+				<itemGUID>1bba5b1a-c6c6-4af7-ab69-43f583007159</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>b02d3217-b692-4035-8a61-8c4305998464</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>d1859d8a-1857-4854-9f24-30affdbade34</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>0eb60cd5-ed6a-4806-ac60-376c77af64cf</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>d1146e1e-1e80-4344-bfe0-2be1e93e022c</itemGUID>
+			</subItems>			
 		</m_items>			
 		<m_items> <!-- Holster -->
 			<probability>0.2</probability>

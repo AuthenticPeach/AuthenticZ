@@ -1043,6 +1043,54 @@ module Base
 			bone = Bip01_L_UpperArm,
 		}
 
+		attachment winslow_Arm_R_1
+		{
+			offset = 0.0070 0.0040 0.0210,
+			rotate = 33.0000 8.0000 150.0000,
+			bone = Bip01_R_UpperArm,
+		}
+
+		attachment winslow_Arm_R_2
+		{
+			offset = 0.0080 0.0020 0.0090,
+			rotate = -41.0000 -86.0000 141.0000,
+			bone = Bip01_R_UpperArm,
+		}
+
+		attachment winslow_Arm_R_3
+		{
+			offset = 0.0118 0.017 -0.0020,
+			rotate = 32.0000 -85.0000 -170.0000,
+			bone = Bip01_R_UpperArm,
+		}
+
+		attachment winslow_Arm_R_4
+		{
+			offset = 0.109 0.0040 -0.0080,
+			rotate = 15.0000 55.0000 179.0000,
+			bone = Bip01_R_UpperArm,
+		}
+
+		attachment winslow_Arm_R_5
+		{
+			offset = 0.102 0.002 0.025,
+			rotate = -26.0000 87.0000 127.0000,
+			bone = Bip01_R_Hand,
+		}
+
+		attachment winslow_Arm_R_6
+		{
+			offset = -0.014 0.01 -0.0030,
+			rotate = 112.0000 -84.0000 -88.0000,
+			bone = Bip01_R_Hand,
+		}
+
+		attachment winslow_Arm_R_7
+		{
+			offset = -0.066 0.011 0.015,
+			rotate = 27.0000 -70.0000 -175.0000,
+			bone = Bip01_R_Hand,
+		}		
 
 		attachment winslow_Torso_C_1
 		{

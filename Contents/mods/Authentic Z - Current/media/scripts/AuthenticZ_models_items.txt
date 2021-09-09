@@ -183,6 +183,11 @@ module Base
 		mesh = Weapons/1Handed/StopSign,
 		texture = HandleSign,
 	}
+	model KnifeEnd
+	{
+		mesh = Weapons/1Handed/KnifeEnd,
+		texture = MetalSpear,
+	}	
 	model MediumMetalSpear
 	{
 		mesh = Weapons/1Handed/MediumMetalSpear,
@@ -206,6 +211,11 @@ module Base
 	model ShortMetalSpike
 	{
 		mesh = Weapons/1Handed/ShortMetalSpike,
+		texture = MetalSpear,
+	}
+	model SpikePick
+	{
+		mesh = Weapons/1Handed/SpikePick,
 		texture = MetalSpear,
 	}	
 }
