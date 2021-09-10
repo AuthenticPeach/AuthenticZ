@@ -20,7 +20,7 @@ module AuthenticZClothing {
         DisplayName = White Denim Shorts,
         ClothingItem = Shorts_LongDenimWhite,
         BodyLocation = Pants,
-        Icon = TrousersDenimWhite,
+        Icon = Shorts_LongDenimWhite,
         BloodLocation = Trousers,
         BiteDefense = 10,
         ScratchDefense = 20,
