@@ -1045,8 +1045,8 @@ module Base
 
 		attachment winslow_Arm_L_8
 		{
-			offset = -0.010 0.025 0.002,
-			rotate = 103.0000 -47.0000 -106.0000,
+			offset = -0.107 0.033 0.014,
+			rotate = 102.0000 -46.0000 -107.0000,
 			bone = Bip01_L_Hand,
 		}
 
@@ -1080,22 +1080,22 @@ module Base
 
 		attachment winslow_Arm_R_5
 		{
-			offset = 0.102 0.002 0.025,
-			rotate = -26.0000 87.0000 127.0000,
+			offset = -0.107 0.011 0.038,
+			rotate = 12.0000 84.0000 -149.0000,
 			bone = Bip01_R_Hand,
 		}
 
 		attachment winslow_Arm_R_6
 		{
 			offset = -0.014 0.01 -0.0030,
-			rotate = 112.0000 -85.0000 -88.0000,
+			rotate = 168.0000 -70.0000 -30.0000,
 			bone = Bip01_R_Hand,
 		}
 
 		attachment winslow_Arm_R_7
 		{
 			offset = -0.066 0.011 0.015,
-			rotate = 27.0000 -70.0000 -175.0000,
+			rotate = 39.0000 -67.0000 -162.0000,
 			bone = Bip01_R_Hand,
 		}		
 

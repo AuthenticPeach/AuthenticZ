@@ -186,7 +186,7 @@ module Base
 	model KnifeEnd
 	{
 		mesh = Weapons/1Handed/KnifeEnd,
-		texture = MetalSpear,
+		texture = Weapons/1Handed/HuntingKnife,
 	}	
 	model MediumMetalSpear
 	{
@@ -216,6 +216,6 @@ module Base
 	model SpikePick
 	{
 		mesh = Weapons/1Handed/SpikePick,
-		texture = MetalSpear,
+		texture = Weapons/1Handed/IcePick,
 	}	
 }
