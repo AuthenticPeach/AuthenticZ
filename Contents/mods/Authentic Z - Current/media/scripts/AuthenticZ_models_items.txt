@@ -215,7 +215,7 @@ module Base
 	}
 	model SpikePick
 	{
-		mesh = Weapons/1Handed/SpikePick,
+		mesh = Weapons/1handed/SpikePick,
 		texture = Weapons/1Handed/IcePick,
 	}	
 }
