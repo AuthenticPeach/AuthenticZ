@@ -75,6 +75,11 @@ module Base
 		mesh = Weapons/1Handed/Authentic_CoffeeCup,
 		texture = clothes\Items\SeahorseCoffee,
 	}
+	model AuthenticHeart
+	{
+		mesh = AuthenticHeart,
+		texture = clothes\Organs\Heart,
+	}	
 	model AuthenticLeft4Head
 	{
 		mesh = AuthenticLeft4DeadHand,
