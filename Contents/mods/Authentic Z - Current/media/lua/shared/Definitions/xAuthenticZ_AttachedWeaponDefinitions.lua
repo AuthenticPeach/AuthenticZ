@@ -1541,28 +1541,7 @@ AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticWaldo = {
 		AttachedWeaponDefinitions.WaldoCane, 
 	},
 }
---[[
-AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticWinslow = {
-	chance = 100;
-	maxitem = 15;
-	weapons = {
-		AttachedWeaponDefinitions.SpikesWinslow,
-		AttachedWeaponDefinitions.SpikesWinslow,
-		AttachedWeaponDefinitions.ShortSpikesWinslow,
-		AttachedWeaponDefinitions.ShortSpikesWinslow,
-		AttachedWeaponDefinitions.ShortSpikesWinslow,
-		AttachedWeaponDefinitions.ShortSpikesWinslow,
-		AttachedWeaponDefinitions.ShortSpikesWinslow,
-		AttachedWeaponDefinitions.ShortSpikesWinslow,
-		AttachedWeaponDefinitions.ShortSpikesWinslow,
-		AttachedWeaponDefinitions.ShortSpikesWinslow,
-		AttachedWeaponDefinitions.ShortSpikesWinslow,
-		AttachedWeaponDefinitions.MediumSpikesWinslow,
-		AttachedWeaponDefinitions.MediumSpikesWinslow,
-		AttachedWeaponDefinitions.MediumSpikesWinslow,		
-	},
-}
---]]
+
 AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticWinslow = {
 	chance = 100;
 	maxitem = 42;
