@@ -222,5 +222,10 @@ module Base
 	{
 		mesh = Weapons/1handed/SpikePick,
 		texture = Weapons/1Handed/IcePick,
-	}	
+	}
+	model Stake2
+    {
+        mesh = Weapons/1Handed/Stake,
+	texture = Weapons/1Handed/RollingPin,
+    }	
 }

@@ -31,6 +31,7 @@ group:getOrCreateLocation("Spike Torso Center 1"):setAttachmentName("winslow_Tor
 group:getOrCreateLocation("Spike Torso Center 2"):setAttachmentName("winslow_Torso_C_2")
 group:getOrCreateLocation("Spike Torso Center 3"):setAttachmentName("winslow_Torso_C_3")
 group:getOrCreateLocation("Spike Torso Center 4"):setAttachmentName("winslow_Torso_C_4")
+group:getOrCreateLocation("Spike Torso Center 5"):setAttachmentName("winslow_Torso_C_5")
 group:getOrCreateLocation("Spike L-Arm 1"):setAttachmentName("winslow_Arm_L_1")
 group:getOrCreateLocation("Spike L-Arm 2"):setAttachmentName("winslow_Arm_L_2")
 group:getOrCreateLocation("Spike L-Arm 3"):setAttachmentName("winslow_Arm_L_3")

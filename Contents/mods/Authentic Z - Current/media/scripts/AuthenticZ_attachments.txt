@@ -1122,7 +1122,13 @@ module Base
 			offset = 0.034 0.006 -0.017,
 			rotate = 112.0000 9.0000 10.0000,
 			bone = Bip01_Spine,
-		}			
+		}
+		attachment winslow_Torso_C_5
+		{
+			offset = 0.081 0.019 0.0000,
+			rotate = 81.0000 -24.0000 -7.0000,
+			bone = Bip01_Spine,
+		}		
 		attachment winslow_Torso_R_1
 		{
 			offset = 0.04 -0.04 -0.02,

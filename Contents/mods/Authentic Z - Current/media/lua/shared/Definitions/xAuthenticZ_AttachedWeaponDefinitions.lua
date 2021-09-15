@@ -896,7 +896,7 @@ AttachedWeaponDefinitions.SpikesWinslowLArmWood = {
 	addHoles = false,
 	daySurvived = 0,
 	weapons = {
-		"Base.Stake",
+		"AuthenticZClothing.Stake2",
 	},
 }
 -- Winslow Spikes
@@ -958,12 +958,12 @@ AttachedWeaponDefinitions.SpikesWinslowLTorsoBlade = {
 	id = "TWDWinslowTorsoBlade",
 	chance = 100,
 	outfit = {"AuthenticWinslow"},
-	weaponLocation =  {"Spike Torso Right 3"},
+	weaponLocation =  {"Spike Torso Right 2", "Spike Torso Right 3", "Spike Torso Center 5","Spike Torso Left 3", "Spike Torso Left 4"},
 	bloodLocations = nil,
 	addHoles = false,
 	daySurvived = 0,
 	weapons = {
-		"Base.HuntingKnife",
+		"AuthenticZClothing.KnifeEnd",
 	},
 }
 
