@@ -877,7 +877,7 @@ AttachedWeaponDefinitions.SpikesWinslowLArm = {
 	id = "TWDWinslowLArm",
 	chance = 100,
 	outfit = {"AuthenticWinslow"},
-	weaponLocation =  {"Spike L-Arm 1", "Spike L-Arm 2", "Spike L-Arm 3", "Spike L-Arm 4","Spike L-Arm 5","Spike L-Arm 6","Spike L-Arm 8"},
+	weaponLocation =  {"Spike L-Arm 1", "Spike L-Arm 3", "Spike L-Arm 4","Spike L-Arm 5","Spike L-Arm 6","Spike L-Arm 8"},
 	bloodLocations = nil,
 	addHoles = false,
 	daySurvived = 0,
@@ -904,7 +904,7 @@ AttachedWeaponDefinitions.SpikesWinslowRArm = {
 	id = "TWDWinslowRArm",
 	chance = 100,
 	outfit = {"AuthenticWinslow"},
-	weaponLocation =  {"Spike R-Arm 1", "Spike R-Arm 2", "Spike R-Arm 3", "Spike R-Arm 4","Spike R-Arm 5","Spike R-Arm 6","Spike R-Arm 7"},
+	weaponLocation =  {"Spike R-Arm 1","Spike R-Arm 4","Spike R-Arm 5","Spike R-Arm 6","Spike R-Arm 7"},
 	bloodLocations = nil,
 	addHoles = false,
 	daySurvived = 0,
@@ -964,6 +964,19 @@ AttachedWeaponDefinitions.SpikesWinslowLTorsoBlade = {
 	daySurvived = 0,
 	weapons = {
 		"AuthenticZClothing.KnifeEnd",
+	},
+}
+-- Winslow Spikes
+AttachedWeaponDefinitions.SpikesWinslowMetalPicks = {
+	id = "TWDWinslowTorsoBlade",
+	chance = 100,
+	outfit = {"AuthenticWinslow"},
+	weaponLocation =  {"Spike R-Arm 2", "Spike R-Arm 3", "Spike Torso Left 3", "Spike Torso Left 4", "Spike L-Arm 2", "Spike L-Arm 2"},
+	bloodLocations = nil,
+	addHoles = false,
+	daySurvived = 0,
+	weapons = {
+		"AuthenticZClothing.SpikePick",
 	},
 }
 
@@ -1545,7 +1558,7 @@ AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticWaldo = {
 
 AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticWinslow = {
 	chance = 100;
-	maxitem = 42;
+	maxitem = 60;
 	weapons = {
 		--AttachedWeaponDefinitions.ShortSpikesWinslow,
 		AttachedWeaponDefinitions.SpikesWinslowTorso,
@@ -1587,7 +1600,22 @@ AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticWinslow = {
 		AttachedWeaponDefinitions.SpikesWinslowLegs,
 		AttachedWeaponDefinitions.SpikesWinslowLegs,
 		AttachedWeaponDefinitions.SpikesWinslowLegs,
-		AttachedWeaponDefinitions.SpikesWinslowLegs,		
+		AttachedWeaponDefinitions.SpikesWinslowLegs,
+		AttachedWeaponDefinitions.SpikesWinslowLegs,
+		AttachedWeaponDefinitions.SpikesWinslowLegs,
+		AttachedWeaponDefinitions.SpikesWinslowMetalPicks,
+		AttachedWeaponDefinitions.SpikesWinslowMetalPicks,
+		AttachedWeaponDefinitions.SpikesWinslowMetalPicks,
+		AttachedWeaponDefinitions.SpikesWinslowMetalPicks,
+		AttachedWeaponDefinitions.SpikesWinslowMetalPicks,
+		AttachedWeaponDefinitions.SpikesWinslowMetalPicks,	
+		AttachedWeaponDefinitions.SpikesWinslowMetalPicks,	
+		AttachedWeaponDefinitions.SpikesWinslowLTorsoBlade,	
+		AttachedWeaponDefinitions.SpikesWinslowLTorsoBlade,	
+		AttachedWeaponDefinitions.SpikesWinslowLTorsoBlade,	
+		AttachedWeaponDefinitions.SpikesWinslowLTorsoBlade,	
+		AttachedWeaponDefinitions.SpikesWinslowLTorsoBlade,		
+		AttachedWeaponDefinitions.SpikesWinslowLTorsoBlade,			
 	},
 }
 AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticZoey = {
