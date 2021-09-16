@@ -636,6 +636,19 @@ module AuthenticZClothing {
         ColorGreen = 67,
         ColorBlue = 33,
     }
+    item HairDyeBlonde2
+    {
+        Weight		=	1,
+        Type		=	Drainable,
+        UseWhileEquipped	=	FALSE,
+        UseDelta	=	0.5,
+        DisplayName	=	Light Blonde Hair Dye,
+        Icon	=	HairDye,
+        HairDye = TRUE,
+        ColorRed = 250,
+        ColorGreen = 240,
+        ColorBlue = 190,
+    }
   item HairDyeDarkerBrown
     {
         Weight	=	1,
