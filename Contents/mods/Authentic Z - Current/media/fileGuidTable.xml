@@ -3782,6 +3782,10 @@
 	<files>
 		<path>media/clothing/clothingItems/Skin_White_Zed_W2.xml</path>
 		<guid>a077393c-ad08-49a5-825e-6bac9e9d55b1</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Skin_White_Zed_Winslow.xml</path>
+		<guid>37fef6cb-8ac1-49f8-aa67-e62775abd644</guid>
 	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Skirt_ShortBlack.xml</path>

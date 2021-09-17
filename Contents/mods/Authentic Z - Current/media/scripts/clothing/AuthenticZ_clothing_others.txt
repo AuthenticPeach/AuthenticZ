@@ -374,6 +374,12 @@ module AuthenticZClothing {
 		Type = Clothing,
 		ClothingItem = Skin_White_Zed_M2,
 		BodyLocation = TankTop,
+    }
+    item Skin_White_Zed_Winslow
+    {
+		Type = Clothing,
+		ClothingItem = Skin_White_Zed_Winslow,
+		BodyLocation = Bandage,
     }	
     item Skin_White_Zed_M_TattooArms
     {
