@@ -883,7 +883,6 @@ AttachedWeaponDefinitions.SpikesWinslowLArm = {
 	daySurvived = 0,
 	weapons = {
 		"AuthenticZClothing.ShortMetalSpike",
-		--"AuthenticZClothing.SpikeSport",
 	},
 }
 -- Winslow Spikes
@@ -910,7 +909,6 @@ AttachedWeaponDefinitions.SpikesWinslowRArm = {
 	daySurvived = 0,
 	weapons = {
 		"AuthenticZClothing.ShortMetalSpike",
-		--"AuthenticZClothing.SpikeSport",
 	},
 }
 -- Winslow Spikes
@@ -924,7 +922,6 @@ AttachedWeaponDefinitions.SpikesWinslowLegs = {
 	daySurvived = 0,
 	weapons = {
 		"AuthenticZClothing.ShortMetalSpike",
-		--"AuthenticZClothing.SpikeSport",
 	},
 }
 AttachedWeaponDefinitions.SpikesWinslowBack= {
@@ -1560,7 +1557,6 @@ AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticWinslow = {
 	chance = 100;
 	maxitem = 60;
 	weapons = {
-		--AttachedWeaponDefinitions.ShortSpikesWinslow,
 		AttachedWeaponDefinitions.SpikesWinslowTorso,
 		AttachedWeaponDefinitions.SpikesWinslowTorso,
 		AttachedWeaponDefinitions.SpikesWinslowTorso,
