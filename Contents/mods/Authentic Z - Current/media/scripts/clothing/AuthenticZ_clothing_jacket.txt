@@ -483,6 +483,40 @@ module AuthenticZClothing {
         FabricType = Cotton,
         Weight = 2,
     }
+	
+    item HoodieDOWN_Bengal
+    {
+        Type = Clothing,
+        DisplayName = Hoodie,
+        ClothingItem = HoodieDOWN_Bengal,
+        ClothingItemExtra = HoodieUP_Bengal,
+        ClothingItemExtraOption = UpHoodie,
+        BodyLocation = Jacket,
+        BloodLocation = Jumper,
+        Icon = HoodieVegan,
+        ScratchDefense = 10,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.6,
+        WindResistance = 0.25,
+        FabricType = Cotton,
+    }
+
+    item HoodieUP_Bengal
+    {
+        Type = Clothing,
+        DisplayName = Hoodie,
+        ClothingItem = HoodieUP_Bengal,
+        ClothingItemExtra = HoodieDOWN_Bengal,
+        ClothingItemExtraOption = DownHoodie,
+        BodyLocation = Jacket,
+        BloodLocation = Jumper;FullHelmet,
+        Icon = HoodieVegan,
+        ScratchDefense = 10,
+        Insulation = 0.55,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+    }
+	
     item HoodieDOWN_Checkered
     {
         Type = Clothing,
@@ -548,7 +582,7 @@ module AuthenticZClothing {
         Insulation = 0.55,
         WindResistance = 0.2,
         FabricType = Cotton,
-    }
+    }	
     item HoodieDOWN_WhiteTINT
     {
         Type = Clothing,

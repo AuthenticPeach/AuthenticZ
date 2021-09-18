@@ -3416,6 +3416,14 @@
 		<guid>3235b13b-9c27-4445-bb53-7a453985b6a6</guid>
 	</files>
 	<files>
+		<path>media/clothing/clothingItems/HoodieUP_Bengal.xml</path>
+		<guid>0292464a-ee5f-4b78-b511-822ca3a39e40</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/HoodieDOWN_Bengal.xml</path>
+		<guid>9d9ec66e-4108-42d7-9d9d-64d003a31b54</guid>
+	</files>	
+	<files>
 		<path>media/clothing/clothingItems/HoodieDOWN_Checkered.xml</path>
 		<guid>1a20244d-c505-4afb-9dd6-0cba995a8fa1</guid>
 	</files>
@@ -3426,11 +3434,11 @@
 	<files>
 		<path>media/clothing/clothingItems/HoodieDOWN_Vegan.xml</path>
 		<guid>ec488873-540f-4da8-a19c-1ce8e32554a1</guid>
-	</files>	
+	</files>		
 	<files>
 		<path>media/clothing/clothingItems/HoodieUP_Vegan.xml</path>
 		<guid>9d3814ae-ccae-49f9-84cb-bcdd9ac57766</guid>
-	</files>
+	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Jacket_ArmyCamoUrban.xml</path>
 		<guid>44c2f074-88aa-47c4-a91b-1ebdbdd5a2a4</guid>
