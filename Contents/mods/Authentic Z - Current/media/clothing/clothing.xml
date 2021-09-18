@@ -78,6 +78,12 @@
 		<m_items> <!-- Bub Jeans -->
 			<itemGUID>8550d0f2-34b7-448d-b628-d0dbe7466f61</itemGUID>
 		</m_items>
+		<m_items> <!-- Bengal Hoodie -->
+			<itemGUID>9d9ec66e-4108-42d7-9d9d-64d003a31b54</itemGUID>
+		</m_items>
+		<m_items> <!-- Short Sleeved Puffy Jacket -->
+			<itemGUID>8205c9e3-d959-423e-92ec-51a8ef30f009</itemGUID>
+		</m_items>		
 		<m_items> <!-- Charcoal Long Socks -->
 			<itemGUID>feb9b15cc-5969-4e2b-b3c1-81f8ddedb7bb</itemGUID>
 		</m_items>	

@@ -3508,6 +3508,14 @@
 		<guid>78a4aab2-417b-4cdb-a469-d61143d9aa73</guid>
 	</files>
 	<files>
+		<path>media/clothing/clothingItems/Jacket_PaddedEvangelo.xml</path>
+		<guid>78a4aab2-417b-4cdb-a469-d61143d9aa73</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Jacket_PaddedEvangeloDOWN.xml</path>
+		<guid>18954d4d-d06c-4f4a-b6b9-6ba072bd0d61</guid>
+	</files>	
+	<files>
 		<path>media/clothing/clothingItems/Jacket_Scandroid.xml</path>
 		<guid>8c80a404-dc1d-4b2a-a56a-8647f1f720a8</guid>
 	</files>	
