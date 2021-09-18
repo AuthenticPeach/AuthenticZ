@@ -969,6 +969,7 @@ module AuthenticZClothing {
         Insulation = 0.70,
         WindResistance = 0.70,
         WaterResistance = 1.0,
+		Tooltip 			= Tooltip_Winslow,
 	}
 	item Hat_Witchy_2
 	{

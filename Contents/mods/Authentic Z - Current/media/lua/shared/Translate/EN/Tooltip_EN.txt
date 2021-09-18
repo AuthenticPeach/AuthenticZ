@@ -14,6 +14,7 @@ Tooltip_EN = {
 	Tooltip_MeatChunk4 = "Makes me gag"	
 	Tooltip_MeatChunk5 = "I'm glad it wasn't ripped out of me...."	
 	Tooltip_Stop = "Stop!"
+	Tooltip_Winslow = "I might want to find a tetanus shot...."
 	Tooltip_Zeddemore = "Winston Zeddemore used to wear this....",
 	Tooltip_Venkman = "Peter Venkman used to wear this....",
 	Tooltip_Stantz = "Ray Stantz used to wear this....",
