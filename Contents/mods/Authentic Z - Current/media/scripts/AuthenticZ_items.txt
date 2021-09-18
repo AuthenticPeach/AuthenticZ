@@ -1354,7 +1354,7 @@ module AuthenticZClothing {
 		SwingTime	=	2,
 		KnockdownMod	=	0,
 		SplatBloodOnNoDeath	=	TRUE,
-		Icon	=	KnifeChopping,
+		Icon	=	Knife_Edge,
 		RunAnim	=	Run_Weapon2,
         IdleAnim	=	Idle_Weapon2,
         BreakSound  =   BreakMetalItem,

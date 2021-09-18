@@ -191,7 +191,7 @@ module Base
 	model KnifeEnd
 	{
 		mesh = Weapons/1Handed/KnifeEnd,
-		texture = Weapons/1Handed/HuntingKnife,
+		texture = clothes\Items\BloodyKnife,
 	}	
 	model MediumMetalSpear
 	{
@@ -226,6 +226,6 @@ module Base
 	model Stake2
     {
         mesh = Weapons/1Handed/Stake,
-	texture = Weapons/1Handed/RollingPin,
+	texture = clothes\Items\RollingPinBloody,
     }	
 }

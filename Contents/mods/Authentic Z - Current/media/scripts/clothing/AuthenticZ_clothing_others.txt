@@ -510,7 +510,6 @@ module AuthenticZClothing {
     item Wood_Chunk_1
     {
 		Type = Clothing,
-		DisplayName = Wood Chunk,
 		ClothingItem = Wood_Chunk_1,
 		BodyLocation = TorsoExtra,
     }

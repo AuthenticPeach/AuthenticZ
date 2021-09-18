@@ -961,7 +961,7 @@ module AuthenticZClothing {
 		ClothingItem = Hat_WinslowHelmet,
 		BodyLocation = FullHat,
 		BloodLocation = FullHelmet,
-		Icon = HelmetSP,
+		Icon = Winslow_Helmet,
 		CanHaveHoles = false,
 		CombatSpeedModifier = 0.95,
 		BiteDefense = 100,

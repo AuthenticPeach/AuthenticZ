@@ -112,7 +112,7 @@ local function OnGameStart()
 		getWorld():registerZone("PizzaDelivery", "ZombiesType", 14070, 5544, 0, 20, 22) --North March Ridge	
 		getWorld():registerZone("PlanetTerror", "ZombiesType", 5910, 5229, 0, 60, 45) -- Western Riverside			
 		getWorld():registerZone("Postal2", "ZombiesType", 10899, 9774, 0, 70, 36)  -- Muldraugh Trailerpark	
-		--getWorld():registerZone("Psycho", "ZombiesType", 3835, 6162, 0, 40, 68) --Abandoned Warehouse	
+		getWorld():registerZone("Psycho", "ZombiesType", 3835, 6162, 0, 40, 68) --Abandoned Warehouse	
 		getWorld():registerZone("ResidentEvil", "ZombiesType", 10599, 9203, 0, 40, 59)  -- Northern Muldraugh
 		getWorld():registerZone("TheDregs", "ZombiesType", 11551, 10001, 0, 70, 100) -- Muldraugh Trainyard		
 		getWorld():registerZone("TheyLive", "ZombiesType", 6401, 5355, 0, 4, 40) -- Riverside Alley
