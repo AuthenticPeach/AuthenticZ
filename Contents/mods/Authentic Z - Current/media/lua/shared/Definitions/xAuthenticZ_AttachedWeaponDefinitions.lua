@@ -613,7 +613,7 @@ AttachedWeaponDefinitions.axeRochelle = {
 AttachedWeaponDefinitions.shotgunMadMax = {
 	id = "shotgunMadMax",
 	chance = 100,
-	outfit = {"AuthenticMadMax", "AuthenticAshEvilDead"},
+	outfit = {"AuthenticMadMax", "AuthenticAshEvilDead","AuthenticB4BMom"},
 	weaponLocation =  {"Rifle On Back"},
 	bloodLocations = nil,
 	addHoles = false,
@@ -999,6 +999,12 @@ AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticB4BHolly = {
 	chance = 100;
 	weapons = {
 		AttachedWeaponDefinitions.SpikedBat,
+	},
+}
+AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticB4BMom = {
+	chance = 100;
+	weapons = {
+		AttachedWeaponDefinitions.shotgunMadMax,
 	},
 }
 AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticBillOverbeck = {
