@@ -732,6 +732,7 @@ AttachedWeaponDefinitions.PostalPaper= {
     "AuthenticZClothing.Postal_Petition",
 	},
 }
+
 AttachedWeaponDefinitions.PomPom= {
 	chance = 100,
 	outfit = {"AuthenticCheerleader"},
@@ -974,6 +975,18 @@ AttachedWeaponDefinitions.SpikesWinslowMetalPicks = {
 	daySurvived = 0,
 	weapons = {
 		"AuthenticZClothing.SpikePick",
+	},
+}
+
+AttachedWeaponDefinitions.WalkieTalkie= {
+	chance = 100,
+	outfit = {"AuthenticB4BHoffman"},
+	weaponLocation = {"WalkieTalkie Left", "WalkieTalkie Right"},
+	bloodLocations = nil,
+	addHoles = false,
+	daySurvived = 0,
+	weapons = {
+    "Radio.WalkieTalkie4",
 	},
 }
 

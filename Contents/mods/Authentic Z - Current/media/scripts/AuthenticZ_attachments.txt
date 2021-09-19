@@ -74,6 +74,20 @@ module Base
 			bone = Bip01_Pelvis,
 		}
 
+		attachment WalkieTalkie_L
+		{
+			offset = -0.006 -0.060 0.062,
+			rotate = -94.0000 0.0000 -98.0000,
+			bone = Bip01_Spine1,
+		}
+
+		attachment WalkieTalkie_R
+		{
+			offset = -0.006 0.060 0.062,
+			rotate = -94.0000 0.0000 -98.0000,
+			bone = Bip01_Spine1,
+		}
+
 		attachment meatcleaver_right
 		{
 			offset = -0.0600 -0.0990 -0.0290,
@@ -915,6 +929,20 @@ module Base
 			offset = -0.0110 -0.0530 0.0040,
 			rotate = 0.0000 0.0000 0.0000,
 			bone = Bip01_L_UpperArm,
+		}
+
+		attachment WalkieTalkie_L
+		{
+			offset = -0.006 -0.060 0.062,
+			rotate = -94.0000 0.0000 -98.0000,
+			bone = Bip01_Spine1,
+		}
+
+		attachment WalkieTalkie_R
+		{
+			offset = -0.006 0.060 0.062,
+			rotate = -94.0000 0.0000 -98.0000,
+			bone = Bip01_Spine1,
 		}
 		
 		attachment winslow_back_1

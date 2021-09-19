@@ -3509,7 +3509,7 @@
 	</files>
 	<files>
 		<path>media/clothing/clothingItems/Jacket_PaddedEvangelo.xml</path>
-		<guid>78a4aab2-417b-4cdb-a469-d61143d9aa73</guid>
+		<guid>8205c9e3-d959-423e-92ec-51a8ef30f009</guid>
 	</files>
 	<files>
 		<path>media/clothing/clothingItems/Jacket_PaddedEvangeloDOWN.xml</path>
@@ -3754,6 +3754,10 @@
 	<files>
 		<path>media/clothing/clothingItems/Shoes_TrainerGreenandWhite.xml</path>
 		<guid>9e5a9e2f-347f-4959-9b35-98d8e4cadb5e</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Shoes_TrainerRedandBlack.xml</path>
+		<guid>564f6b47-6ca3-4b49-92bc-54b06ac1715a</guid>
 	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Shoes_TrainerWhitePlain.xml</path>

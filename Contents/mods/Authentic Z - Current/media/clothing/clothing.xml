@@ -87,8 +87,8 @@
 		<m_items> <!-- Charcoal Long Socks -->
 			<itemGUID>feb9b15cc-5969-4e2b-b3c1-81f8ddedb7bb</itemGUID>
 		</m_items>	
-		<m_items> <!-- Shoes -->
-			<itemGUID>7741404b-9689-4608-a0f5-4e06597776f9</itemGUID>
+		<m_items> <!--Red and White Trainers-->
+			<itemGUID>564f6b47-6ca3-4b49-92bc-54b06ac1715a</itemGUID>
 		</m_items>
 		<m_items> <!-- Crucifix -->
 			<itemGUID>3cac5469-f9d2-4462-8fb2-063be1b63450</itemGUID>
@@ -222,8 +222,8 @@
 		<m_items> <!-- Long Socks -->
 			<itemGUID>fb86bd5f-1931-4b24-a5d7-bd6a43769991</itemGUID>
 		</m_items>	
-		<m_items> <!-- Shoes -->
-			<itemGUID>7741404b-9689-4608-a0f5-4e06597776f9</itemGUID>
+		<m_items> <!-- Desert Camo Boots -->
+			<itemGUID>1ed51bf2-67e5-41d9-b50d-92f42483868a</itemGUID>
 		</m_items>
 		<m_items> <!-- Gloves -->
 			<itemGUID>6709edf8-54ee-489b-b323-e6c61dfe81d8</itemGUID>
@@ -5405,6 +5405,9 @@
 		</m_items>
 		<m_items>  <!-- Dismembered Left Arm Bone -->
 			<itemGUID>6a41ec7b-a82d-46ee-b57b-37097c8e19f4</itemGUID>
+		</m_items>	
+		<m_items> <!-- Short Sleeved Puffy Jacket -->
+			<itemGUID>8205c9e3-d959-423e-92ec-51a8ef30f009</itemGUID>
 		</m_items>				
 	</m_MaleOutfits>
 	
@@ -5438,7 +5441,10 @@
 		</m_items>
 		<m_items> <!-- Bone Left Hand Mask -->
 			<itemGUID>5eab0171-d6d2-422e-b69a-3387f219652f</itemGUID>
-		</m_items>			
+		</m_items>	
+		<m_items> <!-- Short Sleeved Puffy Jacket -->
+			<itemGUID>8205c9e3-d959-423e-92ec-51a8ef30f009</itemGUID>
+		</m_items>				
 	</m_FemaleOutfits>
 
 	<m_MaleOutfits>

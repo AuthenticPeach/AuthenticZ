@@ -100,6 +100,14 @@ recipe Convert to Torch
 	   Time:30.0,
   	}
 
+recipe Convert into Item
+  	{
+   	   Authentic_WalkieTalkie4,
+
+   	   Result:WalkieTalkie4,
+	   Time:30.0,
+  	}
+
 recipe Tie Balloons Together
   	{
    	   AuthenticBalloon_Red,
