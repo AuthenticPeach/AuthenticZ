@@ -74,6 +74,20 @@ module Base
 			bone = Bip01_Pelvis,
 		}
 
+		attachment Canteen_L
+		{
+			offset = -0.141 -0.089 0.070,
+			rotate = -180.0000 -80.0000 -26.0000,
+			bone = Bip01_Spine1,
+		}
+
+		attachment Canteen_R
+		{
+			offset = -0.141 0.049 0.069,
+			rotate = -180.0000 -80.0000 -26.0000,
+			bone = Bip01_Spine1,
+		}
+
 		attachment WalkieTalkie_L
 		{
 			offset = -0.006 -0.060 0.062,
@@ -929,6 +943,20 @@ module Base
 			offset = -0.0110 -0.0530 0.0040,
 			rotate = 0.0000 0.0000 0.0000,
 			bone = Bip01_L_UpperArm,
+		}
+
+		attachment Canteen_L
+		{
+			offset = -0.141 -0.089 0.070,
+			rotate = -180.0000 -80.0000 -26.0000,
+			bone = Bip01_Spine1,
+		}
+
+		attachment Canteen_R
+		{
+			offset = -0.141 -0.049 0.069,
+			rotate = -180.0000 -80.0000 -26.0000,
+			bone = Bip01_Spine1,
 		}
 
 		attachment WalkieTalkie_L

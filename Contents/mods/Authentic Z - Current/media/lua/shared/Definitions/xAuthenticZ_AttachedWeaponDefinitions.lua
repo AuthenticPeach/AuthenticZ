@@ -925,7 +925,7 @@ AttachedWeaponDefinitions.SpikesWinslowLegs = {
 		"AuthenticZClothing.ShortMetalSpike",
 	},
 }
-AttachedWeaponDefinitions.SpikesWinslowBack= {
+AttachedWeaponDefinitions.SpikesWinslowBack = {
 	id = "TWDWinslowBack",
 	chance = 100,
 	outfit = {"AuthenticWinslow"},
@@ -978,7 +978,7 @@ AttachedWeaponDefinitions.SpikesWinslowMetalPicks = {
 	},
 }
 
-AttachedWeaponDefinitions.WalkieTalkie= {
+AttachedWeaponDefinitions.AuthenticWalkieTalkie = {
 	chance = 100,
 	outfit = {"AuthenticB4BHoffman"},
 	weaponLocation = {"WalkieTalkie Left", "WalkieTalkie Right"},
@@ -986,7 +986,24 @@ AttachedWeaponDefinitions.WalkieTalkie= {
 	addHoles = false,
 	daySurvived = 0,
 	weapons = {
-    "Radio.WalkieTalkie4",
+    "AuthenticZClothing.Authentic_WalkieTalkie",
+	},
+}
+
+AttachedWeaponDefinitions.AuthenticCanteen = {
+	chance = 100,
+	outfit = {"AuthenticB4BHoffman"},
+	weaponLocation = {"Canteen Left", "Canteen Right"},
+	bloodLocations = nil,
+	addHoles = false,
+	daySurvived = 0,
+	weapons = {
+    "AuthenticZClothing.AuthenticCanteenSilver",
+	"AuthenticZClothing.AuthenticCanteenGrey",
+	"AuthenticZClothing.AuthenticCanteenForestGreen",
+	"AuthenticZClothing.AuthenticCanteenDarkGrey",
+	"AuthenticZClothing.AuthenticCanteenDarkGreen",
+	"AuthenticZClothing.AuthenticCanteenCadetBlue",
 	},
 }
 
@@ -1003,9 +1020,11 @@ AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticAshEvilDead = {
 }
 AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticB4BHoffman = {
 	chance = 100;
-	maxitem = 2;
+	maxitem = 3;
 	weapons = {
 		AttachedWeaponDefinitions.handgunJohnMorgan,
+		AttachedWeaponDefinitions.AuthenticWalkieTalkie,
+		AttachedWeaponDefinitions.AuthenticCanteen,
 	},
 }
 AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticB4BHolly = {
