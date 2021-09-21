@@ -2785,10 +2785,10 @@
 		<m_items> <!-- Football Makeup-->
 			<itemGUID>1484d550-f2aa-44ce-91f3-9d2b4cb8964c</itemGUID>		
 		</m_items>		
-		<m_items> <!-- Baseball Shorts-->
-			<itemGUID>5327466b-ef38-4e7b-a7c9-a8b6b1257087</itemGUID>
+		<m_items> <!-- Baseball Pants-->
+			<itemGUID>d8d54008-6495-49ea-8c81-0182e6fe2d62</itemGUID>
 			<subItems>
-				<itemGUID>06b8adc1-ef58-4545-a30a-6ca9920c1b82</itemGUID>
+				<itemGUID>75d7ced5-bade-4eb6-8841-1d9a460486ff</itemGUID>
 			</subItems>
 		</m_items>
 		<m_items> <!-- Sneakers -->

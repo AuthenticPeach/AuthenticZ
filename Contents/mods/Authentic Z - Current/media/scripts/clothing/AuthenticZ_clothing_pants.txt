@@ -392,7 +392,55 @@ module AuthenticZClothing {
         Insulation = 0.15,
         WindResistance = 0.05,
         FabricType = Cotton,
+    }
+    item Trousers_SportRed
+    {
+        Type = Clothing,
+        DisplayName = Long Sports Pants,
+        ClothingItem = Trousers_SportRed,
+        BodyLocation = Pants,
+        Icon = TrousersAthleticRed,
+        BloodLocation = Trousers,
+        Insulation = 0.15,
+        WindResistance = 0.05,
+        FabricType = Cotton,
+    }
+    item Trousers_SportBlue
+    {
+        Type = Clothing,
+        DisplayName = Long Sports Pants,
+        ClothingItem = Trousers_SportBlue,
+        BodyLocation = Pants,
+        Icon = TrousersAthleticBlue,
+        BloodLocation = Trousers,
+        Insulation = 0.15,
+        WindResistance = 0.05,
+        FabricType = Cotton,
+    }
+    item Trousers_SportGreen
+    {
+        Type = Clothing,
+        DisplayName = Long Sports Pants,
+        ClothingItem = Trousers_SportGreen,
+        BodyLocation = Pants,
+        Icon = TrousersAthleticGreen,
+        BloodLocation = Trousers,
+        Insulation = 0.15,
+        WindResistance = 0.05,
+        FabricType = Cotton,
     }	
+    item Trousers_SportYellow
+    {
+        Type = Clothing,
+        DisplayName = Long Sports Pants,
+        ClothingItem = Trousers_SportYellow,
+        BodyLocation = Pants,
+        Icon = TrousersAthleticYellow,
+        BloodLocation = Trousers,
+        Insulation = 0.15,
+        WindResistance = 0.05,
+        FabricType = Cotton,
+    }		
     item Trousers_SuitBlack
     {
         Type = Clothing,

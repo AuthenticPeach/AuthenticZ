@@ -52,6 +52,16 @@ module AuthenticZClothing {
 		Icon = ApronYellow,
 		FabricType = Cotton,
 	}
+	item Authentic_Headphones
+	{
+		Type = Clothing,
+		DisplayName = Headphones,
+		ClothingItem = Authentic_Headphones,
+		BodyLocation = Necklace,
+		Icon = Headphones,
+		Weight = 0.3,
+		ChanceToFall = 25,
+	}	
 	item Bikini_Pattern02
 	{
 		Type = Clothing,

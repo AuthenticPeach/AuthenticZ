@@ -8,8 +8,15 @@
 	<m_AllowRandomTint>false</m_AllowRandomTint>
 	<m_AttachBone></m_AttachBone>
 	<m_BaseTextures>clothes\shirt_tshirt_textures\Shirt_LumberjackShortBlue</m_BaseTextures>
+	<m_BaseTextures>clothes\shirt_tshirt_textures\Shirt_LumberjackShortBlue</m_BaseTextures>	
 	<m_BaseTextures>clothes\shirt_tshirt_textures\Shirt_LumberjackShortRed</m_BaseTextures>
+	<m_BaseTextures>clothes\shirt_tshirt_textures\Shirt_LumberjackShortRed</m_BaseTextures>	
 	<m_BaseTextures>clothes\shirt_tshirt_textures\Shirt_LumberjackShortYellow</m_BaseTextures>
+	<m_BaseTextures>clothes\shirt_tshirt_textures\Shirt_LumberjackShortYellow</m_BaseTextures>	
 	<m_BaseTextures>clothes\shirt_tshirt_textures\Shirt_LumberjackShortGreen</m_BaseTextures>
+	<m_BaseTextures>clothes\shirt_tshirt_textures\Shirt_LumberjackShortGreen</m_BaseTextures>	
+	<m_BaseTextures>clothes\shirt_tshirt_textures\Shirt_LumberjackShortGrey</m_BaseTextures>
 	<m_BaseTextures>clothes\shirt_tshirt_textures\Shirt_LumberjackShortGrey</m_BaseTextures>	
+	<m_BaseTextures>clothes\shirt_tshirt_textures\Shirt_LumberjackShortOrange</m_BaseTextures>
+	<m_BaseTextures>clothes\shirt_tshirt_textures\Shirt_LumberjackOrange</m_BaseTextures>	
 </clothingItem>

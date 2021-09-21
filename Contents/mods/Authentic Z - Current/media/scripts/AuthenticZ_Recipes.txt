@@ -5,6 +5,23 @@ module AuthenticZRecipes{
 
 recipe Convert into Wearable
   	{
+   	   Headphones,
+
+   	   Result:Authentic_Headphones,
+	   Time:30.0,
+  	}
+
+recipe Convert into Item
+  	{
+   	   Authentic_Headphones,
+
+   	   Result:Headphones,
+	   Time:30.0,
+  	}
+
+
+recipe Convert into Wearable
+  	{
    	   Bandage,
 
    	   Result:Authentic_Bandages,

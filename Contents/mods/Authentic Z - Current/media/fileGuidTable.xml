@@ -2888,6 +2888,10 @@
 		<guid>da7e26aa-50ac-43e9-b6ed-6a4bc0deed6f</guid>
 	</files>
 	<files>
+		<path>media/clothing/clothingItems/Authentic_Headphones.xml</path>
+		<guid>2d261359-4ac3-4444-8aa7-23b0dbbf9342</guid>
+	</files>	
+	<files>
 		<path>media/clothing/clothingItems/Authentic_Pills.xml</path>
 		<guid>69bbaea6-1cde-4dfd-874b-760921b36b58</guid>
 	</files>
@@ -3414,7 +3418,7 @@
 	<files>
 		<path>media/clothing/clothingItems/HazmatSuitNBH.xml</path>
 		<guid>3235b13b-9c27-4445-bb53-7a453985b6a6</guid>
-	</files>
+	</files>	
 	<files>
 		<path>media/clothing/clothingItems/HoodieUP_Bengal.xml</path>
 		<guid>0292464a-ee5f-4b78-b511-822ca3a39e40</guid>
@@ -3990,6 +3994,22 @@
 	<files>
 		<path>media/clothing/clothingItems/Trousers_SportKillaLong.xml</path>
 		<guid>291c39bb-44ed-4434-8b1a-7c48237e35d8</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Trousers_SportRed.xml</path>
+		<guid>d8d54008-6495-49ea-8c81-0182e6fe2d62</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Trousers_SportYellow.xml</path>
+		<guid>c930994c-9571-4c2c-aaa8-953931cf956b</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Trousers_SportBlue.xml</path>
+		<guid>75d7ced5-bade-4eb6-8841-1d9a460486ff</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Trousers_SportGreen.xml</path>
+		<guid>75623f3e-d907-407e-a421-ef042038b711</guid>
 	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Trousers_SuitBrad.xml</path>
