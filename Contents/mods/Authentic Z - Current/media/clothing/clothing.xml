@@ -2773,23 +2773,20 @@
 </m_FemaleOutfits>	
 
 	<m_MaleOutfits>
-		<m_Name>AuthenticFootballPlayer</m_Name>
+		<m_Name>AuthenticFootballPlayerBlueStar</m_Name>
 		<m_Guid>21f24adf-4b09-49a8-8ea5-7f5620f5d563</m_Guid>
 		<m_Pants>false</m_Pants>
 		<m_items>  <!-- Baseball Shirt -->
 			<itemGUID>47dff0a4-907c-4586-84fa-e0f6059adc07</itemGUID>
 		</m_items>
-		<m_items> <!-- Football Helmet-->
-			<itemGUID>0eb8a7ce-e04b-49e2-be62-0be158cb2588</itemGUID>		
+		<m_items> <!-- Blue Star Football Helmet-->
+			<itemGUID>c7974158-16f1-4239-90f4-1ceff85160e3</itemGUID>		
 		</m_items>
 		<m_items> <!-- Football Makeup-->
 			<itemGUID>1484d550-f2aa-44ce-91f3-9d2b4cb8964c</itemGUID>		
 		</m_items>		
-		<m_items> <!-- Baseball Pants-->
-			<itemGUID>d8d54008-6495-49ea-8c81-0182e6fe2d62</itemGUID>
-			<subItems>
-				<itemGUID>75d7ced5-bade-4eb6-8841-1d9a460486ff</itemGUID>
-			</subItems>
+		<m_items> <!-- Long Blue Sport Pants-->
+			<itemGUID>75d7ced5-bade-4eb6-8841-1d9a460486ff</itemGUID>
 		</m_items>
 		<m_items> <!-- Sneakers -->
 			<itemGUID>6fed6e2b-3a72-4bac-aac5-09585984493d</itemGUID>
@@ -2798,6 +2795,30 @@
 			<itemGUID>ebea15c8-99b3-4e20-905b-d22cf82b8217</itemGUID>
 		</m_items>
 	</m_MaleOutfits>
+	
+	<m_MaleOutfits>
+		<m_Name>AuthenticFootballPlayerRedSkull</m_Name>
+		<m_Guid>eb71a1d5-0448-4782-97ae-b50e443a5006</m_Guid>
+		<m_Pants>false</m_Pants>
+		<m_items>  <!-- Baseball Shirt -->
+			<itemGUID>47dff0a4-907c-4586-84fa-e0f6059adc07</itemGUID>
+		</m_items>
+		<m_items> <!-- Blue Star Football Helmet-->
+			<itemGUID>c7974158-16f1-4239-90f4-1ceff85160e3</itemGUID>		
+		</m_items>
+		<m_items> <!-- Football Makeup-->
+			<itemGUID>1484d550-f2aa-44ce-91f3-9d2b4cb8964c</itemGUID>		
+		</m_items>		
+		<m_items> <!-- Long Red Sport Pants-->
+			<itemGUID>d8d54008-6495-49ea-8c81-0182e6fe2d62</itemGUID>
+		</m_items>
+		<m_items> <!-- Sneakers -->
+			<itemGUID>6fed6e2b-3a72-4bac-aac5-09585984493d</itemGUID>
+		</m_items>
+		<m_items> <!-- Socks -->
+			<itemGUID>ebea15c8-99b3-4e20-905b-d22cf82b8217</itemGUID>
+		</m_items>
+	</m_MaleOutfits>	
 
 	<m_MaleOutfits>
 		<m_Name>AuthenticFreshPrinceBelAir</m_Name>

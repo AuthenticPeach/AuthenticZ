@@ -3334,10 +3334,18 @@
 	<files>
 		<path>media/clothing/clothingItems/Hat_DRLegoHead.xml</path>
 		<guid>5f7a3b56-e59b-41c4-88cd-3e5021cc4c7a</guid>
-	</files>	
+	</files>
 	<files>
 		<path>media/clothing/clothingItems/Hat_GhostFace.xml</path>
 		<guid>d8b897bb-0453-4a2f-ada8-f109ae85fba0</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Hat_FootballHelmet_BlueStar.xml</path>
+		<guid>c7974158-16f1-4239-90f4-1ceff85160e3</guid>
+	</files>	
+	<files>
+		<path>media/clothing/clothingItems/Hat_FootballHelmet_RedSkull.xml</path>
+		<guid>b8eacf17-50fe-4f57-9f7c-05010fe78368</guid>
 	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Hat_Gibus.xml</path>
