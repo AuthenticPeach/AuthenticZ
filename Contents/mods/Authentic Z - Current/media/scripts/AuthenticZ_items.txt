@@ -428,6 +428,68 @@ module AuthenticZClothing {
 		WeaponLength 		= 	0.45,
 		AttachmentType 		= 	Shovel,
 	}
+
+	
+	item Authentic_MilitaryFlashlight
+	{
+		LightDistance	=	25,
+		Weight	=	0.5,
+		DisappearOnUse	=	FALSE,
+		Type	=	Drainable,
+		TorchCone	=	TRUE,
+		UseDelta	=	0.0009,
+		LightStrength	=	0.8,
+		DisplayName	=	Military Flashlight,
+		ActivatedItem	=	TRUE,
+		Icon	=	Flashlight_Military,
+		MetalValue = 10,
+		cantBeConsolided = TRUE,
+		StaticModel = Authentic_MilitaryFlashlight,
+		AttachmentType = ChestLight,
+		primaryAnimMask = HoldingTorchRight,
+        secondaryAnimMask = HoldingTorchLeft,
+	}  
+
+	recipe Remove Battery
+   {
+     keep Authentic_MilitaryFlashlight,
+
+     Result:Battery,
+     Time:30,
+     OnTest:TorchBatteryRemoval_TestIsValid,
+     OnCreate:TorchBatteryRemoval_OnCreate,
+      Prop2:Authentic_MilitaryFlashlight,
+   }
+
+  	 recipe Insert Battery into Military Flashlight
+   {
+     destroy Authentic_MilitaryFlashlight,
+     destroy Battery,
+
+     Result:Authentic_MilitaryFlashlight,
+     Time:30,
+     OnTest:TorchBatteryInsert_TestIsValid,
+     OnCreate:TorchBatteryInsert_OnCreate,
+      Prop2:Authentic_MilitaryFlashlight,
+   }
+   
+   	recipe Dismantle Military Flashlight
+   {
+      destroy Authentic_MilitaryFlashlight,
+      keep Screwdriver,
+
+      Result:ElectronicsScrap,
+      Time:30.0,
+      OnTest:TorchBatteryInsert_TestIsValid,
+      OnGiveXP:DismantleElectronics_OnGiveXP,
+      OnCreate:TorchDismantle_OnCreate,
+      Category:Electrical,
+      AnimNode:Disassemble,
+      Prop1:Screwdriver,
+      Prop2:Authentic_MilitaryFlashlight,
+   }
+
+   
 	item AuthenticSmokeBomb
     {
         MaxRange				=	10,
