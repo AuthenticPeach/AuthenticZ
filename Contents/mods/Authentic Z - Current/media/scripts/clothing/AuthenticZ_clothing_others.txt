@@ -67,6 +67,7 @@ module AuthenticZClothing {
 		Icon = Headphones,
 		Weight = 0.3,
 		ChanceToFall = 25,
+		WorldStaticModel = HeadPhones,
 	}	
 	item Bikini_Pattern02
 	{
