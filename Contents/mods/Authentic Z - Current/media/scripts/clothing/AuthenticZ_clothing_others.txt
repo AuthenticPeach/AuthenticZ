@@ -11,6 +11,8 @@ module AuthenticZClothing {
 		ClothingItemExtra = AmmoStrap_Shells,
 		Icon = AmmoStrapFlipped,
 		Tooltip = Tooltip_AmmoStrap,
+		WorldStaticModel = AmmoStrap_Ground,		
+		
 	}
 	item AmmoStrap_Shells2
 	{
@@ -21,6 +23,7 @@ module AuthenticZClothing {
 		ClothingItemExtra = AmmoStrap_Bullets,
 		Icon = AmmoStrapFlipped,
 		Tooltip = Tooltip_AmmoStrap,
+		WorldStaticModel = AmmoStrap_Ground,		
 	}
 	item Apron_GreenSeaHorse
 	{
@@ -31,6 +34,7 @@ module AuthenticZClothing {
 		BloodLocation = Apron,
 		Icon = ApronGreen,
 		FabricType = Cotton,
+		WorldStaticModel = Apron_Ground,		
 	}
 	item Apron_Short
 	{
@@ -41,6 +45,7 @@ module AuthenticZClothing {
 		BloodLocation = Apron,
 		Icon = ApronWhiteShort,
 		FabricType = Cotton,
+		WorldStaticModel = Apron_Ground,		
 	}
 	item Apron_Yellow
 	{
@@ -51,6 +56,7 @@ module AuthenticZClothing {
 		BloodLocation = Apron,
 		Icon = ApronYellow,
 		FabricType = Cotton,
+		WorldStaticModel = Apron_Ground,		
 	}
 	item Authentic_Headphones
 	{
@@ -207,6 +213,7 @@ module AuthenticZClothing {
         Insulation = 0.75,
         WindResistance = 0.75,
         FabricType = Leather,
+        WorldStaticModel = Gloves_Ground,		
 	}	
 	item Gloves_LeatherGlovesWhite
 	{
@@ -222,6 +229,7 @@ module AuthenticZClothing {
         Insulation = 0.75,
         WindResistance = 0.75,
         FabricType = Leather,
+        WorldStaticModel = Gloves_Ground,		
 	}
 	item Gloves_Black
 	{
@@ -235,6 +243,7 @@ module AuthenticZClothing {
         Insulation = 1.0,
         WindResistance = 1.0,
         FabricType = Cotton,
+        WorldStaticModel = Gloves_Ground,		
 	}
 	item Gloves_LeatherWalker
 	{
@@ -250,6 +259,7 @@ module AuthenticZClothing {
         Insulation = 0.75,
         WindResistance = 0.75,
         FabricType = Leather,
+        WorldStaticModel = Gloves_Ground,		
 	}	
 	item Gloves_White
 	{
@@ -263,6 +273,7 @@ module AuthenticZClothing {
         Insulation = 1.0,
         WindResistance = 1.0,
         FabricType = Cotton,
+        WorldStaticModel = Gloves_Ground,		
 	}
 	item Hairstyle_Afro_Pick
 	{

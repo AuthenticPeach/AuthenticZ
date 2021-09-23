@@ -99,6 +99,9 @@
 		<m_items> <!-- Holster -->
 			<itemGUID>88f11c9e-e717-446c-82ec-f749320df25a</itemGUID>
 		</m_items>
+		<m_items> <!-- Evangelo Backpack -->
+			<itemGUID>a6518615-e27d-460f-b9bc-ba2a82e4bec1</itemGUID>
+		</m_items>		
 		<m_items> <!-- White Zed Skin -->
 			<itemGUID>9c87b588-b784-4560-bada-fd4cf7e44d48</itemGUID>
 		</m_items>			

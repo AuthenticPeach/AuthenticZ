@@ -81,6 +81,7 @@ module AuthenticZClothing {
         FabricType = Leather,
         WaterResistance = 0.4,
         Weight = 2,
+        WorldStaticModel = JacketLong_Ground,		
     } 
 	
     item Jacket_Bill
@@ -99,6 +100,7 @@ module AuthenticZClothing {
         WindResistance = 0.35,
         FabricType = Cotton,
         Weight = 2,
+        WorldStaticModel = Jacket_Ground,		
     }
 
     item Jacket_Bub
@@ -115,6 +117,7 @@ module AuthenticZClothing {
         FabricType = Denim,
         WaterResistance = 0.6,
         Weight = 2,
+        WorldStaticModel = Jacket_Ground,		
     }
 
     item Jacket_ChuckGreene
@@ -134,6 +137,7 @@ module AuthenticZClothing {
         WindResistance = 0.50,
 	WaterResistance = 0.60,
         Weight = 3,
+        WorldStaticModel = Jacket_Ground,		
     }
     item Jacket_Clementine
     {
@@ -151,6 +155,7 @@ module AuthenticZClothing {
         WindResistance = 0.35,
         FabricType = Cotton,
         Weight = 2,
+        WorldStaticModel = Jacket_Ground,		
     }	
     item Jumper_DiamondBillMurray
     {
@@ -164,6 +169,7 @@ module AuthenticZClothing {
         Insulation = 0.4,
         WindResistance = 0.2,
         FabricType = Cotton,
+        WorldStaticModel = JumperSleeveless_Ground,		
     }
     item Jacket_Doctor2
     {
@@ -181,6 +187,7 @@ module AuthenticZClothing {
         WindResistance = 0.25,
         FabricType = Cotton,
         Weight = 2,
+        WorldStaticModel = JacketLong_Ground,		
     }
 
     item Jacket_FiremanNMRIH
@@ -200,6 +207,7 @@ module AuthenticZClothing {
         WindResistance = 0.85,
         WaterResistance = 0.8,
         Weight = 4,
+        WorldStaticModel = JacketLong_Ground,		
     }
 	
     item Jacket_FiremanNMRIHOpen
@@ -219,6 +227,7 @@ module AuthenticZClothing {
         WindResistance = 0.85,
         WaterResistance = 0.8,
         Weight = 4,
+        WorldStaticModel = JacketLong_Ground,		
     }	
 
     item Jacket_Francis
@@ -235,6 +244,7 @@ module AuthenticZClothing {
         FabricType = Denim,
         WaterResistance = 0.6,
         Weight = 2,
+        WorldStaticModel = Jacket_Ground,		
     }
 
     item Jacket_FrankWest
@@ -253,6 +263,7 @@ module AuthenticZClothing {
         WindResistance = 0.35,
         FabricType = Cotton,
         Weight = 2,
+        WorldStaticModel = Jacket_Ground,			
     }
 
     item Jacket_Grimes
@@ -273,6 +284,7 @@ module AuthenticZClothing {
         FabricType = Cotton,
         WaterResistance = 0.5,
         Weight = 2,
+        WorldStaticModel = Jacket_Ground,			
     }
     item Jacket_Hunter
     {
@@ -291,6 +303,7 @@ module AuthenticZClothing {
         FabricType = Leather,
         WaterResistance = 0.45,
         Weight = 2,
+        WorldStaticModel = Jacket_Ground,			
     }	
     item Jacket_JimmyGibbs
     {
@@ -309,6 +322,7 @@ module AuthenticZClothing {
         WindResistance = 0.50,
 		WaterResistance = 0.60,
         Weight = 3,
+        WorldStaticModel = Jacket_Ground,			
     }
 	
     item Jacket_LoganCarter
@@ -324,6 +338,7 @@ module AuthenticZClothing {
         WindResistance = 0.15,
         FabricType = Cotton,
         Weight = 2,
+        WorldStaticModel = Jacket_Ground,			
     } 
 
     item Jacket_PaddedEvangelo
@@ -385,6 +400,7 @@ module AuthenticZClothing {
         FabricType = Leather,
         WaterResistance = 0.45,
         Weight = 2,
+        WorldStaticModel = JacketLong_Ground,		
     }
 
     item Jacket_Scandroid
@@ -405,6 +421,8 @@ module AuthenticZClothing {
         FabricType = Cotton,
         WaterResistance = 0.5,
         Weight = 2,
+	Tooltip = Tooltip_Scandroid,
+        WorldStaticModel = Jacket_Ground,		
     }
 
     item Jacket_Zoey
@@ -423,6 +441,7 @@ module AuthenticZClothing {
         WindResistance = 0.35,
         FabricType = Cotton,
         Weight = 2,
+        WorldStaticModel = Jacket_Ground,			
     }
     item Suit_JacketBlue
     {
@@ -440,6 +459,7 @@ module AuthenticZClothing {
         WindResistance = 0.45,
         FabricType = Cotton,
         Weight = 2,
+        WorldStaticModel = SuitJacket_Ground,		
     } 
     item Suit_JacketJessie
     {
@@ -457,6 +477,7 @@ module AuthenticZClothing {
         WindResistance = 0.45,
         FabricType = Cotton,
         Weight = 2,
+        WorldStaticModel = SuitJacket_Ground,		
     } 
     item Suit_JacketJoker
     {
@@ -474,6 +495,7 @@ module AuthenticZClothing {
         WindResistance = 0.45,
         FabricType = Cotton,
         Weight = 2,
+        WorldStaticModel = SuitJacket_Ground,		
     }	
     item Suit_JacketNick
     {
@@ -491,6 +513,7 @@ module AuthenticZClothing {
         WindResistance = 0.45,
         FabricType = Cotton,
         Weight = 2,
+        WorldStaticModel = SuitJacket_Ground,		
     }
     item Suit_JacketSamB
     {
@@ -508,6 +531,7 @@ module AuthenticZClothing {
         WindResistance = 0.45,
         FabricType = Cotton,
         Weight = 2,
+        WorldStaticModel = SuitJacket_Ground,		
     } 
     item Suit_JacketGMan
     {
@@ -525,6 +549,7 @@ module AuthenticZClothing {
         WindResistance = 0.45,
         FabricType = Cotton,
         Weight = 2,
+        WorldStaticModel = SuitJacket_Ground,		
     }
 	
     item HoodieDOWN_Bengal
@@ -542,6 +567,7 @@ module AuthenticZClothing {
         Insulation = 0.6,
         WindResistance = 0.25,
         FabricType = Cotton,
+        WorldStaticModel = Hoodie_Ground,		
     }
 
     item HoodieUP_Bengal
@@ -558,6 +584,7 @@ module AuthenticZClothing {
         Insulation = 0.55,
         WindResistance = 0.2,
         FabricType = Cotton,
+        WorldStaticModel = Hoodie_Ground,		
     }
 	
     item HoodieDOWN_Checkered
@@ -576,6 +603,7 @@ module AuthenticZClothing {
         Insulation = 0.6,
         WindResistance = 0.25,
         FabricType = Cotton,
+        WorldStaticModel = Hoodie_Ground,		
     }
 
     item HoodieUP_Checkered
@@ -592,6 +620,7 @@ module AuthenticZClothing {
         Insulation = 0.55,
         WindResistance = 0.2,
         FabricType = Cotton,
+        WorldStaticModel = Hoodie_Ground,		
     }
 
     item HoodieDOWN_Vegan
@@ -609,6 +638,7 @@ module AuthenticZClothing {
         Insulation = 0.6,
         WindResistance = 0.25,
         FabricType = Cotton,
+        WorldStaticModel = Hoodie_Ground,		
     }
 
     item HoodieUP_Vegan
@@ -625,6 +655,7 @@ module AuthenticZClothing {
         Insulation = 0.55,
         WindResistance = 0.2,
         FabricType = Cotton,
+        WorldStaticModel = Hoodie_Ground,		
     }	
     item HoodieDOWN_WhiteTINT
     {
@@ -641,6 +672,7 @@ module AuthenticZClothing {
         Insulation = 0.6,
         WindResistance = 0.25,
         FabricType = Cotton,
+        WorldStaticModel = Hoodie_Ground,		
     }
     item HoodieUP_WhiteTINT
     {
@@ -656,6 +688,7 @@ module AuthenticZClothing {
         Insulation = 0.55,
         WindResistance = 0.2,
         FabricType = Cotton,
+        WorldStaticModel = Hoodie_Ground,		
     }
 
     item Jumper_PoloNeckCheeseRoyale
@@ -670,6 +703,7 @@ module AuthenticZClothing {
         Insulation = 0.55,
         WindResistance = 0.50,
         FabricType = Cotton,
+        WorldStaticModel = Jumper_Ground,		
     }
 
     item SnowGhillie_Top
@@ -688,6 +722,7 @@ module AuthenticZClothing {
         WindResistance = 0.45,
         WaterResistance = 0.35,
         Weight = 4,
+        WorldStaticModel = GhillieTop_Ground,		
     }
 
 }

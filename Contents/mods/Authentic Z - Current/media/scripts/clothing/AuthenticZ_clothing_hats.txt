@@ -220,6 +220,7 @@ module AuthenticZClothing {
 		BloodLocation = Head,
 		Insulation = 0.8,
 		WindResistance = 0.8,
+        WorldStaticModel = BalaclavaFull_Ground,		
 	}
 	item Hat_BalaclavaSpyRed
 	{
@@ -232,6 +233,7 @@ module AuthenticZClothing {
 		BloodLocation = Head,
 		Insulation = 0.8,
 		WindResistance = 0.8,
+        WorldStaticModel = BalaclavaFull_Ground,		
 	}
     item Hat_BaseballCapClementine
     {

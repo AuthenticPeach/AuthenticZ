@@ -11,6 +11,7 @@ module AuthenticZClothing {
 		Icon = Necklace_SilverCrucifix,
 		Weight = 0.1,
 		Cosmetic = TRUE,
+		WorldStaticModel = Necklace_SilverCrucifix_Ground,		
 	}
     item Necklace_GoldCrucifix
 	{
@@ -21,5 +22,6 @@ module AuthenticZClothing {
 		Icon = Necklace_Crucifix_Gold,
 		Weight = 0.1,
 		Cosmetic = TRUE,
+		WorldStaticModel = Necklace_SilverCrucifix_Ground,			
 	}	
 }

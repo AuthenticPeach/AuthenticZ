@@ -990,7 +990,21 @@ AttachedWeaponDefinitions.AuthenticWalkieTalkie = {
 	},
 }
 
+AttachedWeaponDefinitions.AuthenticWalkieTalkie2 = {
+	id = "AuthenticWalkieTalkie2",
+	chance = 100,
+	outfit = {"AuthenticShotgunFace"},
+	weaponLocation = {"WalkieTalkie Left", "WalkieTalkie Right"},
+	bloodLocations = nil,
+	addHoles = false,
+	daySurvived = 0,
+	weapons = {
+    "Radio.WalkieTalkie1",
+	},
+}
+
 AttachedWeaponDefinitions.AuthenticCanteen = {
+	id = "AuthenticCanteen",
 	chance = 100,
 	outfit = {"AuthenticB4BHoffman"},
 	weaponLocation = {"Canteen Left", "Canteen Right"},
@@ -1007,6 +1021,20 @@ AttachedWeaponDefinitions.AuthenticCanteen = {
 	},
 }
 
+AttachedWeaponDefinitions.AuthenticMilitaryFlashlight = {
+	id = "AuthenticMilitaryFlashlight",
+	chance = 100,
+	outfit = {"AuthenticB4BEvangelo", "AuthenticB4BHoffman","AuthenticB4BMom", "AuthenticB4BHolly", "AuthenticB4BWalker"},
+	weaponLocation = {"Military Flashlight Left", "Military Flashlight Right"},
+	bloodLocations = nil,
+	addHoles = false,
+	daySurvived = 0,
+	weapons = {
+    "AuthenticZClothing.Authentic_MilitaryFlashlightGreen",
+	"AuthenticZClothing.Authentic_MilitaryFlashlightGrey",
+	},
+}
+
 -- Define some custom weapons attached on some specific outfit, so for example police have way more chance to have guns in holster and not simply a spear in stomach or something
 AttachedWeaponDefinitions.attachedWeaponCustomOutfit = {};
 
@@ -1020,23 +1048,41 @@ AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticAshEvilDead = {
 }
 AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticB4BHoffman = {
 	chance = 100;
-	maxitem = 3;
+	maxitem = 4;
 	weapons = {
 		AttachedWeaponDefinitions.handgunJohnMorgan,
 		AttachedWeaponDefinitions.AuthenticWalkieTalkie,
 		AttachedWeaponDefinitions.AuthenticCanteen,
+		AttachedWeaponDefinitions.AuthenticMilitaryFlashlight,
+	},
+}
+AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticShotgunFace = {
+	chance = 100;
+	weapons = {
+		AttachedWeaponDefinitions.WalkieTalkie2,
 	},
 }
 AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticB4BHolly = {
 	chance = 100;
+	maxitem = 4;
 	weapons = {
 		AttachedWeaponDefinitions.SpikedBat,
+		AttachedWeaponDefinitions.AuthenticMilitaryFlashlight,
 	},
 }
 AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticB4BMom = {
 	chance = 100;
+	maxitem = 4;
 	weapons = {
 		AttachedWeaponDefinitions.shotgunMadMax,
+		AttachedWeaponDefinitions.AuthenticMilitaryFlashlight,
+	},
+}
+AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticB4BWalker = {
+	chance = 100;
+	maxitem = 4;
+	weapons = {
+		AttachedWeaponDefinitions.AuthenticMilitaryFlashlight,
 	},
 }
 AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticBillOverbeck = {
@@ -1662,3 +1708,4 @@ AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticZoey = {
 		AttachedWeaponDefinitions.Pills,
 	},
 }
+--AuthenticCanteenSilver

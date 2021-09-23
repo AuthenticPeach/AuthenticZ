@@ -190,7 +190,7 @@ module AuthenticZClothing {
 		CanStoreWater			= 	TRUE,
         Type    				= 	Normal,
         DisplayName     		= 	Canteen,
-		ReplaceOnUseOn			= 	WaterSource-Canteenfull,
+		ReplaceOnUseOn			= 	WaterSource-AuthenticCanteenCadetBluefull,
         Icon 					= 	CanteenCadetBlue,
 		RainFactor 				= 	1,
 		Tooltip 				= 	Tooltip_item_RainFromGround,
@@ -210,7 +210,7 @@ module AuthenticZClothing {
 		UseDelta				=	0.05,
 		DisplayName				=	Canteen with Water,
 		ReplaceOnDeplete		=	Canteen,
-		ReplaceOnUseOn			=	WaterSource-Canteenfull,
+		ReplaceOnUseOn			=	WaterSource-AuthenticCanteenCadetBluefull,
 		Icon					=	CanteenCadetBlue,
 		RainFactor 				= 	1,
 		Tooltip 				= 	Tooltip_item_RainFromGround,
@@ -224,7 +224,7 @@ module AuthenticZClothing {
 		CanStoreWater			= 	TRUE,
         Type    				= 	Normal,
         DisplayName     		= 	Canteen,
-		ReplaceOnUseOn			= 	WaterSource-Canteenfull,
+		ReplaceOnUseOn			= 	WaterSource-AuthenticCanteenDarkGreenfull,
         Icon 					= 	CanteenDarkGreen,
 		RainFactor 				= 	1,
 		Tooltip 				= 	Tooltip_item_RainFromGround,
@@ -244,7 +244,7 @@ module AuthenticZClothing {
 		UseDelta				=	0.05,
 		DisplayName				=	Canteen with Water,
 		ReplaceOnDeplete		=	Canteen,
-		ReplaceOnUseOn			=	WaterSource-Canteenfull,
+		ReplaceOnUseOn			=	WaterSource-AuthenticCanteenDarkGreenfull,
 		Icon					=	CanteenDarkGreen,
 		RainFactor 				= 	1,
 		Tooltip 				= 	Tooltip_item_RainFromGround,
@@ -258,7 +258,7 @@ module AuthenticZClothing {
 		CanStoreWater			= 	TRUE,
         Type    				= 	Normal,
         DisplayName     		= 	Canteen,
-		ReplaceOnUseOn			= 	WaterSource-Canteenfull,
+		ReplaceOnUseOn			= 	WaterSource-AuthenticCanteenDarkGreyfull,
         Icon 					= 	CanteenDarkGrey,
 		RainFactor 				= 	1,
 		Tooltip 				= 	Tooltip_item_RainFromGround,
@@ -278,7 +278,7 @@ module AuthenticZClothing {
 		UseDelta				=	0.05,
 		DisplayName				=	Canteen with Water,
 		ReplaceOnDeplete		=	CanteenDarkGrey,
-		ReplaceOnUseOn			=	WaterSource-Canteenfull,
+		ReplaceOnUseOn			=	WaterSource-AuthenticCanteenDarkGreyfull,
 		Icon					=	CanteenDarkGrey,
 		RainFactor 				= 	1,
 		Tooltip 				= 	Tooltip_item_RainFromGround,
@@ -292,7 +292,7 @@ module AuthenticZClothing {
 		CanStoreWater			= 	TRUE,
         Type    				= 	Normal,
         DisplayName     		= 	Canteen,
-		ReplaceOnUseOn			= 	WaterSource-Canteenfull,
+		ReplaceOnUseOn			= 	WaterSource-AuthenticCanteenForestGreenfull,
         Icon 					= 	CanteenForestGreen,
 		RainFactor 				= 	1,
 		Tooltip 				= 	Tooltip_item_RainFromGround,
@@ -313,7 +313,7 @@ module AuthenticZClothing {
 		UseDelta				=	0.05,
 		DisplayName				=	Canteen with Water,
 		ReplaceOnDeplete		=	Canteen,
-		ReplaceOnUseOn			=	WaterSource-Canteenfull,
+		ReplaceOnUseOn			=	WaterSource-AuthenticCanteenForestGreenfull,
 		Icon					=	CanteenForestGreen,
 		RainFactor 				= 	1,
 		Tooltip 				= 	Tooltip_item_RainFromGround,
@@ -327,7 +327,7 @@ module AuthenticZClothing {
 		CanStoreWater			= 	TRUE,
         Type    				= 	Normal,
         DisplayName     		= 	Canteen,
-		ReplaceOnUseOn			= 	WaterSource-Canteenfull,
+		ReplaceOnUseOn			= 	WaterSource-AuthenticCanteenGreyfull,
         Icon 					= 	CanteenGrey,
 		RainFactor 				= 	1,
 		Tooltip 				= 	Tooltip_item_RainFromGround,
@@ -347,7 +347,7 @@ module AuthenticZClothing {
 		UseDelta				=	0.05,
 		DisplayName				=	Canteen with Water,
 		ReplaceOnDeplete		=	Canteen,
-		ReplaceOnUseOn			=	WaterSource-Canteenfull,
+		ReplaceOnUseOn			=	WaterSource-AuthenticCanteenGreyfull,
 		Icon					=	CanteenGrey,
 		RainFactor 				= 	1,
 		Tooltip 				= 	Tooltip_item_RainFromGround,
@@ -361,7 +361,7 @@ module AuthenticZClothing {
 		CanStoreWater			= 	TRUE,
         Type    				= 	Normal,
         DisplayName     		= 	Canteen,
-		ReplaceOnUseOn			= 	WaterSource-Canteenfull,
+		ReplaceOnUseOn			= 	WaterSource-AuthenticCanteenSilverfull,
         Icon 					= 	CanteenSilver,
 		RainFactor 				= 	1,
 		Tooltip 				= 	Tooltip_item_RainFromGround,
@@ -381,7 +381,7 @@ module AuthenticZClothing {
 		UseDelta				=	0.05,
 		DisplayName				=	Canteen with Water,
 		ReplaceOnDeplete		=	Canteen,
-		ReplaceOnUseOn			=	WaterSource-Canteenfull,
+		ReplaceOnUseOn			=	WaterSource-AuthenticCanteenSilverfull,
 		Icon					=	CanteenSilver,
 		RainFactor 				= 	1,
 		Tooltip 				= 	Tooltip_item_RainFromGround,
@@ -430,7 +430,7 @@ module AuthenticZClothing {
 	}
 
 	
-	item Authentic_MilitaryFlashlight
+	item Authentic_MilitaryFlashlightGrey
 	{
 		LightDistance	=	25,
 		Weight	=	0.5,
@@ -441,10 +441,10 @@ module AuthenticZClothing {
 		LightStrength	=	0.8,
 		DisplayName	=	Military Flashlight,
 		ActivatedItem	=	TRUE,
-		Icon	=	Flashlight_Military,
+		Icon	=	MilitaryFlashlightGrey,
 		MetalValue = 10,
 		cantBeConsolided = TRUE,
-		StaticModel = Authentic_MilitaryFlashlight,
+		StaticModel = Authentic_MilitaryFlashlightGrey,
 		AttachmentType = ChestLight,
 		primaryAnimMask = HoldingTorchRight,
         secondaryAnimMask = HoldingTorchLeft,
@@ -452,30 +452,30 @@ module AuthenticZClothing {
 
 	recipe Remove Battery
    {
-     keep Authentic_MilitaryFlashlight,
+     keep Authentic_MilitaryFlashlightGrey,
 
      Result:Battery,
      Time:30,
      OnTest:TorchBatteryRemoval_TestIsValid,
      OnCreate:TorchBatteryRemoval_OnCreate,
-      Prop2:Authentic_MilitaryFlashlight,
+      Prop2:Authentic_MilitaryFlashlightGrey,
    }
 
   	 recipe Insert Battery into Military Flashlight
    {
-     destroy Authentic_MilitaryFlashlight,
+     destroy Authentic_MilitaryFlashlightGrey,
      destroy Battery,
 
-     Result:Authentic_MilitaryFlashlight,
+     Result:Authentic_MilitaryFlashlightGrey,
      Time:30,
      OnTest:TorchBatteryInsert_TestIsValid,
      OnCreate:TorchBatteryInsert_OnCreate,
-      Prop2:Authentic_MilitaryFlashlight,
+      Prop2:Authentic_MilitaryFlashlightGrey,
    }
    
    	recipe Dismantle Military Flashlight
    {
-      destroy Authentic_MilitaryFlashlight,
+      destroy Authentic_MilitaryFlashlightGrey,
       keep Screwdriver,
 
       Result:ElectronicsScrap,
@@ -486,7 +486,66 @@ module AuthenticZClothing {
       Category:Electrical,
       AnimNode:Disassemble,
       Prop1:Screwdriver,
-      Prop2:Authentic_MilitaryFlashlight,
+      Prop2:Authentic_MilitaryFlashlightGrey,
+   }
+
+	item Authentic_MilitaryFlashlightGreen
+	{
+		LightDistance	=	25,
+		Weight	=	0.5,
+		DisappearOnUse	=	FALSE,
+		Type	=	Drainable,
+		TorchCone	=	TRUE,
+		UseDelta	=	0.0009,
+		LightStrength	=	0.8,
+		DisplayName	=	Military Flashlight,
+		ActivatedItem	=	TRUE,
+		Icon	=	MilitaryFlashlightGreen,
+		MetalValue = 10,
+		cantBeConsolided = TRUE,
+		StaticModel = Authentic_MilitaryFlashlightGreen,
+		AttachmentType = ChestLight,
+		primaryAnimMask = HoldingTorchRight,
+        secondaryAnimMask = HoldingTorchLeft,
+	}  
+
+	recipe Remove Battery
+   {
+     keep Authentic_MilitaryFlashlightGreen,
+
+     Result:Battery,
+     Time:30,
+     OnTest:TorchBatteryRemoval_TestIsValid,
+     OnCreate:TorchBatteryRemoval_OnCreate,
+      Prop2:Authentic_MilitaryFlashlightGreen,
+   }
+
+  	 recipe Insert Battery into Military Flashlight
+   {
+     destroy Authentic_MilitaryFlashlightGreen,
+     destroy Battery,
+
+     Result:Authentic_MilitaryFlashlightGreen,
+     Time:30,
+     OnTest:TorchBatteryInsert_TestIsValid,
+     OnCreate:TorchBatteryInsert_OnCreate,
+      Prop2:Authentic_MilitaryFlashlightGreen,
+   }
+   
+   	recipe Dismantle Military Flashlight
+   {
+      destroy Authentic_MilitaryFlashlightGreen,
+      keep Screwdriver,
+
+      Result:ElectronicsScrap,
+      Time:30.0,
+      OnTest:TorchBatteryInsert_TestIsValid,
+      OnGiveXP:DismantleElectronics_OnGiveXP,
+      OnCreate:TorchDismantle_OnCreate,
+      Category:Electrical,
+      AnimNode:Disassemble,
+      Prop1:Screwdriver,
+      Prop2:Authentic_MilitaryFlashlightGreen,
    }
 
    
@@ -774,113 +833,6 @@ module AuthenticZClothing {
         BaseSpeed = 1,
         WeaponLength = 0.1,		
 		AttachmentType = MeatCleaver,
-    }
-    item Authentic_CanteenCadetBlue
-    {
-        Weight					=	0.2,
-        Type					=	Weapon,
-        DisplayName     		= 	Canteen,
-        Icon					=	CanteenSilver,
-        StaticModel 			= 	AuthenticCanteenCadetBlue,
-        WeaponSprite			=	AuthenticCanteenCadetBlue,
-        MinAngle				=	0.1,
-        MinimumSwingTime		=	2,
-        KnockBackOnNoDeath		=	FALSE,
-        SwingAmountBeforeImpact	=	0.02,
-        Categories				=	Improvised;SmallBlunt,
-        ConditionLowerChanceOneIn	=	2,
-        SplatNumber	=	1,
-        PushBackMod	=	0.1,
-        SubCategory	=	Swinging,
-        ConditionMax	=	1,
-        MaxHitCount	=	2,
-        DoorDamage	=	1,
-        SwingAnim	=	Bat,
-        MinRange	=	0.14,
-        SwingTime	=	2,
-        KnockdownMod	=	0,
-        SplatBloodOnNoDeath	=	FALSE,
-        BreakSound  =   BreakMetalItem,
-        TreeDamage  =   0,
-        CriticalChance	=	1,
-        CritDmgMultiplier = 1,
-        MinDamage	=	0.1,
-        MaxDamage	=	0.1,
-        BaseSpeed = 1,
-        WeaponLength = 0.1,		
-		AttachmentType = Wrench,
-    }
-	
-    item Authentic_CanteenSilver
-    {
-        Weight					=	0.2,
-        Type					=	Weapon,
-        DisplayName     		= 	Canteen,
-        Icon					=	CanteenSilver,
-        StaticModel 			= 	AuthenticCanteenSilver,
-        WeaponSprite			=	AuthenticCanteenSilver,
-        MinAngle				=	0.1,
-        MinimumSwingTime		=	2,
-        KnockBackOnNoDeath		=	FALSE,
-        SwingAmountBeforeImpact	=	0.02,
-        Categories				=	Improvised;SmallBlunt,
-        ConditionLowerChanceOneIn	=	2,
-        SplatNumber	=	1,
-        PushBackMod	=	0.1,
-        SubCategory	=	Swinging,
-        ConditionMax	=	1,
-        MaxHitCount	=	2,
-        DoorDamage	=	1,
-        SwingAnim	=	Bat,
-        MinRange	=	0.14,
-        SwingTime	=	2,
-        KnockdownMod	=	0,
-        SplatBloodOnNoDeath	=	FALSE,
-        BreakSound  =   BreakMetalItem,
-        TreeDamage  =   0,
-        CriticalChance	=	1,
-        CritDmgMultiplier = 1,
-        MinDamage	=	0.1,
-        MaxDamage	=	0.1,
-        BaseSpeed = 1,
-        WeaponLength = 0.1,		
-		AttachmentType = Wrench,
-    }
-
-    item Authentic_CanteenDarkGrey
-    {
-        Weight					=	0.2,
-        Type					=	Weapon,
-        DisplayName     		= 	Canteen,
-        Icon					=	CanteenDarkGrey,
-        StaticModel 			= 	AuthenticCanteenDarkGrey,
-        WeaponSprite			=	AuthenticCanteenDarkGrey,
-        MinAngle	=	0.1,
-        MinimumSwingTime	=	2,
-        KnockBackOnNoDeath	=	FALSE,
-        SwingAmountBeforeImpact	=	0.02,
-        Categories	=	Improvised;SmallBlunt,
-        ConditionLowerChanceOneIn	=	2,
-        SplatNumber	=	1,
-        PushBackMod	=	0.1,
-        SubCategory	=	Swinging,
-        ConditionMax	=	1,
-        MaxHitCount	=	2,
-        DoorDamage	=	1,
-        SwingAnim	=	Bat,
-        MinRange	=	0.14,
-        SwingTime	=	2,
-        KnockdownMod	=	0,
-        SplatBloodOnNoDeath	=	FALSE,
-        BreakSound  =   BreakMetalItem,
-        TreeDamage  =   0,
-        CriticalChance	=	1,
-        CritDmgMultiplier = 1,
-        MinDamage	=	0.1,
-        MaxDamage	=	0.1,
-        BaseSpeed = 1,
-        WeaponLength = 0.1,		
-		AttachmentType = Wrench,
     }
 	
     item AuthenticMeatChunk1

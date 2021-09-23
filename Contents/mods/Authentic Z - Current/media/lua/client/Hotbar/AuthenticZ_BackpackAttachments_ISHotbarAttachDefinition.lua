@@ -62,31 +62,3 @@ local ALICEpackLeft = {
 	},
 }
 table.insert(ISHotbarAttachDefinition, ALICEpackLeft);
-
-local ALICEpack = {
-	type = "ALICEpack",
-	name = "Backpack",
-	animset = "back",
-	attachments = {
-		Mag = "ALICEpack Mag",
-		Gear = "ALICEpack Gear",
-		Walkie = "ALICEpack Walkie",
-		Bottle = "ALICEpack Bottle",
-		Gas = "ALICEpack Gas",
-		--Pan = "ALICEpack Gear",
-	},
-}
-table.insert(ISHotbarAttachDefinition, ALICEpack);
-local ALICEpackRight = {
-	type = "ALICEpackRight",
-	name = "Backpack Right",
-	animset = "back",
-	attachments = {
-		Mag = "ALICEpack Mag Right",
-		Gear = "ALICEpack Gear Right",
-		Walkie = "ALICEpack Walkie Right",
-		Bottle = "ALICEpack Bottle Right",
-		--Pan = "ALICEpack Gear Right",
-	},
-}
-table.insert(ISHotbarAttachDefinition, ALICEpackRight);

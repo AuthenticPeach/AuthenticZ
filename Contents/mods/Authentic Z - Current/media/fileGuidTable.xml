@@ -2896,6 +2896,18 @@
 		<guid>69bbaea6-1cde-4dfd-874b-760921b36b58</guid>
 	</files>
 	<files>
+		<path>media/clothing/clothingItems/Bag_B4BEvangelo.xml</path>
+		<guid>a6518615-e27d-460f-b9bc-ba2a82e4bec1</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_B4BEvangelo_LHand.xml</path>
+		<guid>2ddcbd0b-8745-49bc-b8bb-4b6c46440cbb</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_B4BEvangelo_RHand.xml</path>
+		<guid>e970a4f2-84b7-4014-a2a6-b6cdf8d5116f</guid>
+	</files>	
+	<files>
 		<path>media/clothing/clothingItems/Bag_JerryCanBack.xml</path>
 		<guid>031dd95a-be3a-4deb-99f7-191c07f4bc0c</guid>
 	</files>

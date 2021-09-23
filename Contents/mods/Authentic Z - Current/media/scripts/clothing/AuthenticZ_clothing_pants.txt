@@ -13,6 +13,7 @@ module AuthenticZClothing {
         Insulation = 0.3,
         WindResistance = 0.15,
         FabricType = Cotton
+		WorldStaticModel = Trousers_Ground,
     }  
     item Shorts_LongDenimWhite
     {
@@ -27,6 +28,7 @@ module AuthenticZClothing {
         Insulation = 0.45,
         WindResistance = 0.45,
         FabricType = Denim,
+		WorldStaticModel = ShortShorts_Ground,
     }
     item Skirt_ShortBlack
     {
@@ -38,6 +40,7 @@ module AuthenticZClothing {
         BloodLocation = ShortsShort,
         Insulation = 0.05,
         FabricType = Cotton,
+		WorldStaticModel = Skirt_Short_Ground,	
     }
     item Skirt_ShortCheerleader
     {
@@ -49,6 +52,7 @@ module AuthenticZClothing {
         BloodLocation = ShortsShort,
         Insulation = 0.05,
         FabricType = Cotton,
+		WorldStaticModel = Skirt_Short_Ground,
     }
     item Skirt_ShortJessie
     {
@@ -60,6 +64,7 @@ module AuthenticZClothing {
         BloodLocation = ShortsShort,
         Insulation = 0.05,
         FabricType = Cotton,
+		WorldStaticModel = Skirt_Short_Ground,	
     }
     item Skirt_ShortXian
     {
@@ -71,6 +76,7 @@ module AuthenticZClothing {
         BloodLocation = ShortsShort,
         Insulation = 0.05,
         FabricType = Cotton,
+		WorldStaticModel = Skirt_Short_Ground,
     }
     item SnowGhillie_Trousers
     {
@@ -86,6 +92,7 @@ module AuthenticZClothing {
         Insulation = 0.70,
         WindResistance = 0.65,
         WaterResistance = 0.35,
+		WorldStaticModel = GhillieTrousers_Ground
     }
 	item Trousers_BarbershopBlue
     {
@@ -99,6 +106,7 @@ module AuthenticZClothing {
         Insulation = 0.35,
         WindResistance = 0.5,
         FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,		
     }
 	item Trousers_BarbershopGreen
     {
@@ -112,6 +120,7 @@ module AuthenticZClothing {
         Insulation = 0.35,
         WindResistance = 0.5,
         FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,		
     }
 	item Trousers_BarbershopPurple
     {
@@ -125,6 +134,7 @@ module AuthenticZClothing {
         Insulation = 0.35,
         WindResistance = 0.5,
         FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,		
     }
 	item Trousers_BarbershopRed
     {
@@ -138,6 +148,7 @@ module AuthenticZClothing {
         Insulation = 0.35,
         WindResistance = 0.5,
         FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,		
     }
 	item Trousers_BarbershopYellow
     {
@@ -151,6 +162,7 @@ module AuthenticZClothing {
         Insulation = 0.35,
         WindResistance = 0.5,
         FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,		
     }
    	item Trousers_BelAir
     {
@@ -165,6 +177,7 @@ module AuthenticZClothing {
         WindResistance = 0.75,
         WaterResistance = 0.35,
         FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,		
     }
    	item Trousers_Coach
     {
@@ -179,6 +192,7 @@ module AuthenticZClothing {
         WindResistance = 0.75,
         WaterResistance = 0.35,
         FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,		
     }	
    	item Trousers_Coach
     {
@@ -193,6 +207,7 @@ module AuthenticZClothing {
         WindResistance = 0.75,
         WaterResistance = 0.35,
         FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,		
     }
     item Trousers_DefaultJeans
     {
@@ -208,6 +223,7 @@ module AuthenticZClothing {
         Insulation = 0.7,
         WindResistance = 0.55,
         FabricType = Denim,
+        WorldStaticModel = Trousers_Ground,		
     }
     item Trousers_FiremanNMRIH
     {
@@ -224,6 +240,7 @@ module AuthenticZClothing {
         WindResistance = 0.85,
         WaterResistance = 0.8,
         Weight = 4,
+        WorldStaticModel = Trousers_Ground,		
     }	
     item Trousers_Flyboy
     {
@@ -238,6 +255,7 @@ module AuthenticZClothing {
         WindResistance = 0.75,
         WaterResistance = 0.35,
         FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,		
     }
     item Trousers_Grimes
     {
@@ -252,6 +270,7 @@ module AuthenticZClothing {
         WindResistance = 0.75,
         WaterResistance = 0.35,
         FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,		
     }
    	item Trousers_SuitBrad
     {
@@ -266,6 +285,7 @@ module AuthenticZClothing {
         WindResistance = 0.75,
         WaterResistance = 0.35,
         FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,		
     }
     item Trousers_SuitBrown
     {
@@ -281,6 +301,7 @@ module AuthenticZClothing {
         WindResistance = 0.3,
         WaterResistance = 0.45,
         FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,		
     }
    	item Trousers_SuitJoker
     {
@@ -295,6 +316,7 @@ module AuthenticZClothing {
         WindResistance = 0.75,
         WaterResistance = 0.35,
         FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,		
     }	
     item TrousersMesh_Bill
     {
@@ -310,6 +332,7 @@ module AuthenticZClothing {
         Insulation = 0.7,
         WindResistance = 0.55,
         FabricType = Denim,
+        WorldStaticModel = Trousers_Ground,		
     }
     item TrousersMesh_Bub
     {
@@ -325,6 +348,7 @@ module AuthenticZClothing {
         Insulation = 0.7,
         WindResistance = 0.55,
         FabricType = Denim,
+        WorldStaticModel = Trousers_Ground,		
     }
     item Trousers_JeanDark
     {
@@ -340,6 +364,7 @@ module AuthenticZClothing {
         Insulation = 0.7,
         WindResistance = 0.55,
         FabricType = Denim,
+        WorldStaticModel = Trousers_Ground,		
     }
     item TrousersMesh_JimmyGibbs
     {
@@ -354,6 +379,7 @@ module AuthenticZClothing {
         ScratchDefense = 25,
         Insulation = 0.7,
         WindResistance = 0.55,
+        WorldStaticModel = Trousers_Ground,		
     }
     item Trousers_JohnMorgan
     {
@@ -368,6 +394,7 @@ module AuthenticZClothing {
         Insulation = 0.3,
         WindResistance = 0.1,
         FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,		
     }	
     item Trousers_Sport
     {
@@ -380,6 +407,7 @@ module AuthenticZClothing {
         Insulation = 0.15,
         WindResistance = 0.05,
         FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,		
     }
     item Trousers_SportKilla
     {
@@ -392,6 +420,7 @@ module AuthenticZClothing {
         Insulation = 0.15,
         WindResistance = 0.05,
         FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,		
     }
     item Trousers_SportRed
     {
@@ -404,6 +433,7 @@ module AuthenticZClothing {
         Insulation = 0.15,
         WindResistance = 0.05,
         FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,		
     }
     item Trousers_SportBlue
     {
@@ -416,6 +446,7 @@ module AuthenticZClothing {
         Insulation = 0.15,
         WindResistance = 0.05,
         FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,		
     }
     item Trousers_SportGreen
     {
@@ -428,6 +459,7 @@ module AuthenticZClothing {
         Insulation = 0.15,
         WindResistance = 0.05,
         FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,		
     }	
     item Trousers_SportYellow
     {
@@ -440,6 +472,7 @@ module AuthenticZClothing {
         Insulation = 0.15,
         WindResistance = 0.05,
         FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,		
     }		
     item Trousers_SuitBlack
     {
@@ -453,6 +486,7 @@ module AuthenticZClothing {
         Insulation = 0.4,
         WindResistance = 0.45,
         FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,		
     }	
     item Trousers_SuitGMan
     {
@@ -466,6 +500,7 @@ module AuthenticZClothing {
         Insulation = 0.4,
         WindResistance = 0.45,
         FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,		
     }
     item Trousers_SuitNick
     {
@@ -479,6 +514,7 @@ module AuthenticZClothing {
         Insulation = 0.4,
         WindResistance = 0.45,
         FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,		
     }
     item Trousers_UncleSam
     {
@@ -492,5 +528,6 @@ module AuthenticZClothing {
         Insulation = 0.4,
         WindResistance = 0.45,
         FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,		
     }
 }

@@ -13,6 +13,7 @@
         Insulation	 = 0.15,
         WindResistance   = 0.05,
         FabricType 	 = Cotton,
+		WorldStaticModel = TShirt_Ground,		
     }
      item Shirt_Bub
 	{
@@ -25,6 +26,7 @@
         Insulation = 0.65,
         WindResistance = 0.5,
         FabricType = Cotton,
+		WorldStaticModel = Shirt_Ground,
 	}
     item Shirt_Cheerleader
 	{
@@ -37,6 +39,7 @@
         Insulation = 0.65,
         WindResistance = 0.5,
         FabricType = Cotton,
+		WorldStaticModel = Shirt_Ground,		
 	}
 	item Shirt_DenimBlack
 	{
@@ -51,6 +54,7 @@
         Insulation = 0.45,
         WindResistance = 0.55,
         FabricType = Denim,
+		WorldStaticModel = Shirt_Ground,		
     }	
     item Shirt_FormalAsh
 	{
@@ -63,6 +67,7 @@
         Insulation = 0.25,
         WindResistance = 0.15,
         FabricType = Cotton,
+		WorldStaticModel = Shirt_Ground,		
 	}
     item Shirt_FormalBateman
 	{
@@ -75,6 +80,7 @@
         Insulation = 0.25,
         WindResistance = 0.15,
         FabricType = Cotton,
+		WorldStaticModel = Shirt_Ground,		
 	}	
     item Shirt_FormalBrad
 	{
@@ -87,6 +93,7 @@
         Insulation = 0.25,
         WindResistance = 0.15,
         FabricType = Cotton,
+		WorldStaticModel = Shirt_Ground,		
 	}	
     item Shirt_FormalDayZ
 	{
@@ -99,6 +106,7 @@
         Insulation = 0.25,
         WindResistance = 0.15,
         FabricType = Cotton,
+		WorldStaticModel = Shirt_Ground,		
 	}
     item Shirt_FormalJoker
 	{
@@ -111,6 +119,7 @@
         Insulation = 0.25,
         WindResistance = 0.15,
         FabricType = Cotton,
+		WorldStaticModel = Shirt_Ground,		
 	}	
     item Shirt_FormalNick
 	{
@@ -123,6 +132,7 @@
         Insulation = 0.25,
         WindResistance = 0.15,
         FabricType = Cotton,
+		WorldStaticModel = Shirt_Ground,		
 	}
 	item Shirt_FormalBlack_ShortSleeve
 	{
@@ -135,6 +145,7 @@
         Insulation = 0.15,
         WindResistance = 0.05,
         FabricType = Cotton,
+		WorldStaticModel = Tshirt_Ground,		
 	}
 	item Shirt_FormalBlue_ShortSleeve
 	{
@@ -147,6 +158,7 @@
         Insulation = 0.15,
         WindResistance = 0.05,
         FabricType = Cotton,
+        WorldStaticModel = TShirt_Ground,		
 	}	
 	item Shirt_FormalRed_ShortSleeve
 	{
@@ -159,6 +171,7 @@
         Insulation = 0.15,
         WindResistance = 0.05,
         FabricType = Cotton,
+		WorldStaticModel = TShirt_Ground,
 	}	
      item Shirt_LumberJackShort
 	{
@@ -171,6 +184,7 @@
         Insulation = 0.65,
         WindResistance = 0.5,
         FabricType = Cotton,
+	    WorldStaticModel = TShirt_Ground,	
 	}
      item Shirt_LumberJackShortRed
 	{
@@ -183,6 +197,7 @@
         Insulation = 0.65,
         WindResistance = 0.5,
         FabricType = Cotton,
+	    WorldStaticModel = TShirt_Ground,			
 	}	
      item Shirt_LumberjackTheyLive
 	{
@@ -195,6 +210,7 @@
         Insulation = 0.65,
        	WindResistance = 0.5,
         FabricType = Cotton,
+		WorldStaticModel = Shirt_Ground,		
 	}
      item Shirt_MimeBlack
 	{
@@ -207,6 +223,7 @@
         Insulation = 0.2,
         WindResistance = 0.05,
         FabricType = Cotton,
+		WorldStaticModel = Shirt_Ground,		
 	}	
      item Shirt_MimeRed
 	{
@@ -219,6 +236,7 @@
         Insulation = 0.2,
         WindResistance = 0.05,
         FabricType = Cotton,
+		WorldStaticModel = Shirt_Ground,		
 	}	
      item Shirt_MimeRed2
 	{
@@ -231,6 +249,7 @@
         Insulation = 0.2,
         WindResistance = 0.05,
         FabricType = Cotton,
+		WorldStaticModel = Shirt_Ground,		
 	}
      item Shirt_Walker
 	{
@@ -243,6 +262,7 @@
         Insulation 		= 0.2,
         WindResistance  = 0.05,
         FabricType 		= Cotton,
+		WorldStaticModel = Shirt_Ground,		
 	}		
      item Shirt_WhiteStriped
 	{
@@ -255,6 +275,7 @@
         Insulation = 0.2,
         WindResistance = 0.05,
         FabricType = Cotton,
+	    WorldStaticModel = TShirt_Ground,			
 	}	
     item Sweater_Freddy
     {
@@ -268,6 +289,7 @@
         Insulation = 0.4,
         WindResistance = 0.20,
         FabricType = Cotton,
+		WorldStaticModel = Shirt_Ground,		
     }
     item Tshirt_Badass
     {
@@ -280,6 +302,7 @@
         Insulation = 0.3,
         WindResistance = 0.35,
         FabricType = Cotton,
+	    WorldStaticModel = TShirt_Ground,			
     }	
     item Tshirt_Coach
     {
@@ -292,6 +315,7 @@
         Insulation = 0.3,
         WindResistance = 0.35,
         FabricType = Cotton,
+		WorldStaticModel = TShirt_Ground,	
     }
     item Tshirt_CheeseRoyale
     {
@@ -304,6 +328,7 @@
         Insulation = 0.3,
         WindResistance = 0.35,
         FabricType = Cotton,
+		WorldStaticModel = TShirt_Ground,	
     }
     item Tshirt_CheeseRoyale2
     {
@@ -316,6 +341,7 @@
         Insulation = 0.3,
         WindResistance = 0.35,
         FabricType = Cotton,
+		WorldStaticModel = TShirt_Ground,	
     }
     item Tshirt_Ellis
     {
@@ -328,6 +354,7 @@
         Insulation = 0.3,
         WindResistance = 0.35,
         FabricType = Cotton,
+		WorldStaticModel = TShirt_Ground,	
     }
     item Tshirt_Holly
     {
@@ -340,6 +367,7 @@
         Insulation = 0.3,
         WindResistance = 0.35,
         FabricType = Cotton,
+		WorldStaticModel = TShirt_Ground,	
     }	
     item Tshirt_JohnMorgan
     {
@@ -352,6 +380,7 @@
         Insulation 	= 0.3,
         WindResistance  = 0.35,
         FabricType 	= Cotton,
+		WorldStaticModel = TShirt_Ground,	
     }
 	item Tshirt_LegoHead
     {
@@ -364,6 +393,7 @@
         Insulation = 0.3,
         WindResistance = 0.35,
         FabricType = Cotton,
+		WorldStaticModel = TShirt_Ground,	
     }
 	item Tshirt_LoganCarter
     {
@@ -379,6 +409,7 @@
         Insulation = 0.3,
         WindResistance = 0.35,
         FabricType = Cotton,
+		WorldStaticModel = TShirt_Ground,	
     }		
      item Tshirt_PostalDude
 	{
@@ -391,6 +422,7 @@
         Insulation = 0.65,
         WindResistance = 0.5,
         FabricType = Cotton,
+		WorldStaticModel = TShirt_Ground,	
 	}
     item Tshirt_PrinceBelAir
     {
@@ -403,6 +435,7 @@
         Insulation = 0.3,
         WindResistance = 0.35,
         FabricType = Cotton,
+		WorldStaticModel = TShirt_Ground,	
     }	
     item Tshirt_Rochelle
     {
@@ -415,6 +448,7 @@
         Insulation = 0.3,
         WindResistance = 0.35,
         FabricType = Cotton,
+		WorldStaticModel = TShirt_Ground,	
     }
 	item Tshirt_Rock2
     {
@@ -430,6 +464,7 @@
         Insulation = 0.2,
         WindResistance = 0.05,
         FabricType = Cotton,
+		WorldStaticModel = TShirt_Ground,	
     }
     item Tshirt_SportKilla
     {
@@ -442,6 +477,7 @@
         Insulation = 0.3,
         WindResistance = 0.35,
         FabricType = Cotton,
+		WorldStaticModel = TShirt_Ground,	
     }
     item Tshirt_SportKillaLong
     {
@@ -454,6 +490,7 @@
         Insulation = 0.3,
         WindResistance = 0.35,
         FabricType = Cotton,
+		WorldStaticModel = Shirt_Ground,
     }		
      item Tshirt_VotePedro
 	{
@@ -466,6 +503,7 @@
         Insulation = 0.65,
         WindResistance = 0.5,
         FabricType = Cotton,
+		WorldStaticModel = TShirt_Ground,	
 	}
     item Vest_BulletBlack
     {
@@ -479,6 +517,7 @@
         WindResistance = 0.30,
         BiteDefense = 30,
         ScratchDefense = 55,
+        WorldStaticModel = BulletVest_Ground,		
     }
     item Vest_BulletRPD
     {
@@ -492,6 +531,7 @@
         WindResistance = 0.30,
         BiteDefense = 30,
         ScratchDefense = 55,
+        WorldStaticModel = BulletVest_Ground,		
     }
     item Vest_BulletKilla
     {
@@ -505,6 +545,7 @@
         WindResistance = 0.30,
         BiteDefense = 30,
         ScratchDefense = 55,
+        WorldStaticModel = BulletVest_Ground,		
     }
     item Vest_Hunting_Beige
     {
@@ -516,6 +557,7 @@
         BloodLocation = ShirtNoSleeves,
         Insulation = 0.75,
         WindResistance = 0.75,
+        WorldStaticModel = HuntingVest_Ground,		
     }
     item Vest_Hunting_Wally
     {
@@ -527,6 +569,7 @@
         BloodLocation = ShirtNoSleeves,
         Insulation = 0.75,
         WindResistance = 0.75,
+        WorldStaticModel = HuntingVest_Ground,		
     }		
     item Vest_Rim_Duke
     {
@@ -539,6 +582,7 @@
         Insulation = 0.40,
         WindResistance = 0.30,
         FabricType = Cotton,
+		WorldStaticModel = BulletVest_Ground,
     }
     item Vest_Rim_TINT
     {
@@ -551,6 +595,7 @@
         Insulation = 0.40,
         WindResistance = 0.30,
         FabricType = Cotton,
+		WorldStaticModel = BulletVest_Ground,
     }
     item Vest_Waistcoat_Barbershop_Blue
     {
@@ -563,6 +608,7 @@
         Insulation = 0.40,
         WindResistance = 0.20,
         FabricType = Cotton,
+		WorldStaticModel = BulletVest_Ground,
     }
     item Vest_Waistcoat_Barbershop_Green
     {
@@ -575,6 +621,7 @@
         Insulation = 0.40,
         WindResistance = 0.20,
         FabricType = Cotton,
+		WorldStaticModel = BulletVest_Ground,
     }
     item Vest_Waistcoat_Barbershop_Purple
     {
@@ -587,6 +634,7 @@
         Insulation = 0.40,
         WindResistance = 0.20,
         FabricType = Cotton,
+		WorldStaticModel = BulletVest_Ground,
     }
     item Vest_Waistcoat_Barbershop_Red
     {
@@ -599,6 +647,7 @@
         Insulation = 0.40,
         WindResistance = 0.20,
         FabricType = Cotton,
+		WorldStaticModel = BulletVest_Ground,
     }
     item Vest_Waistcoat_Barbershop_Yellow
     {
@@ -611,6 +660,7 @@
         Insulation = 0.40,
         WindResistance = 0.20,
         FabricType = Cotton,
+		WorldStaticModel = BulletVest_Ground,
     }
     item Vest_Waistcoat_Joker_Orange
     {
@@ -623,6 +673,7 @@
         Insulation = 0.40,
         WindResistance = 0.20,
         FabricType = Cotton,
+		WorldStaticModel = BulletVest_Ground,
     }
 
     item Vest_Waistcoat_Mime
@@ -636,6 +687,7 @@
         Insulation = 0.40,
         WindResistance = 0.20,
         FabricType = Cotton,
+		WorldStaticModel = BulletVest_Ground,
     }	
 
 }

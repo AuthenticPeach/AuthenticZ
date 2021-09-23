@@ -88,6 +88,20 @@ module Base
 			bone = Bip01_Spine1,
 		}
 
+		attachment MilitaryFlashlight_L
+		{
+			offset = -0.008 -0.060 0.07,
+			rotate = 94.0000 0.0000 104.0000,
+			bone = Bip01_Spine1,
+		}
+
+		attachment MilitaryFlashlight_R
+		{
+			offset = -0.006 0.060 0.062,
+			rotate = -94.0000 0.0000 -98.0000,
+			bone = Bip01_Spine1,
+		}
+
 		attachment WalkieTalkie_L
 		{
 			offset = -0.006 -0.060 0.062,
@@ -954,7 +968,7 @@ module Base
 
 		attachment Canteen_R
 		{
-			offset = -0.141 -0.049 0.069,
+			offset = -0.141 0.049 0.069,
 			rotate = -180.0000 -80.0000 -26.0000,
 			bone = Bip01_Spine1,
 		}
@@ -967,6 +981,20 @@ module Base
 		}
 
 		attachment WalkieTalkie_R
+		{
+			offset = -0.006 0.060 0.062,
+			rotate = -94.0000 0.0000 -98.0000,
+			bone = Bip01_Spine1,
+		}
+
+		attachment MilitaryFlashlight_L
+		{
+			offset = -0.006 -0.060 0.062,
+			rotate = -94.0000 0.0000 -98.0000,
+			bone = Bip01_Spine1,
+		}
+
+		attachment MilitaryFlashlight_R
 		{
 			offset = -0.006 0.060 0.062,
 			rotate = -94.0000 0.0000 -98.0000,

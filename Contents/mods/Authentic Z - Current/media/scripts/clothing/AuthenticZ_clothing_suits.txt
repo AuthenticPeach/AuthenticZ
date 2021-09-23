@@ -15,6 +15,7 @@ module AuthenticZClothing {
         Insulation = 0.45,
         WindResistance = 0.35,
         FabricType = Cotton,
+		WorldStaticModel = BoilerSuit_Ground,
     }
     item Boilersuit_BlackMamba
     {
@@ -29,6 +30,7 @@ module AuthenticZClothing {
         Insulation = 0.45,
         WindResistance = 0.35,
         FabricType = Cotton,
+		WorldStaticModel = BoilerSuit_Ground,
     }	
     item Boilersuit_CrossingGuard
     {
@@ -43,6 +45,7 @@ module AuthenticZClothing {
         Insulation = 0.45,
         WindResistance = 0.35,
         FabricType = Cotton,
+		WorldStaticModel = BoilerSuit_Ground,
     }
     item Boilersuit_PrisonerClassic
     {
@@ -57,6 +60,7 @@ module AuthenticZClothing {
         Insulation = 0.45,
         WindResistance = 0.35,
         FabricType = Cotton,
+		WorldStaticModel = BoilerSuit_Ground,
     }
     item Boilersuit_GhostbustersSpengler
     {
@@ -71,7 +75,8 @@ module AuthenticZClothing {
         Insulation = 0.45,
         WindResistance = 0.35,
         FabricType = Cotton,
-	Tooltip = Tooltip_Spengler,
+		Tooltip = Tooltip_Spengler,
+		WorldStaticModel = BoilerSuit_Ground,
     }
     item Boilersuit_GhostbustersStantz
     {
@@ -86,7 +91,8 @@ module AuthenticZClothing {
         Insulation = 0.45,
         WindResistance = 0.35,
         FabricType = Cotton,
-	Tooltip = Tooltip_Stantz,
+		Tooltip = Tooltip_Stantz,
+		WorldStaticModel = BoilerSuit_Ground,
     }
     item Boilersuit_GhostbustersVenkman
     {
@@ -101,7 +107,8 @@ module AuthenticZClothing {
         Insulation = 0.45,
         WindResistance = 0.35,
         FabricType = Cotton,
-	Tooltip = Tooltip_Venkman,
+		Tooltip = Tooltip_Venkman,
+		WorldStaticModel = BoilerSuit_Ground,
     }
     item Boilersuit_GhostbustersZeddemore
     {
@@ -116,7 +123,8 @@ module AuthenticZClothing {
         Insulation = 0.45,
         WindResistance = 0.35,
         FabricType = Cotton,
-	Tooltip = Tooltip_Zeddemore,
+		Tooltip = Tooltip_Zeddemore,
+		WorldStaticModel = BoilerSuit_Ground,
     }
     item Boilersuit_Halloween
     {
@@ -131,6 +139,7 @@ module AuthenticZClothing {
         Insulation = 0.45,
         WindResistance = 0.35,
         FabricType = Cotton,
+		WorldStaticModel = BoilerSuit_Ground,
     }
     item Boilersuit_Pennywise
     {
@@ -145,6 +154,7 @@ module AuthenticZClothing {
         Insulation = 0.65,
         WindResistance = 0.45,
         FabricType = Cotton,
+		WorldStaticModel = BoilerSuit_Ground,
     }
     item Boilersuit_PrisonerClassic
     {
@@ -159,6 +169,7 @@ module AuthenticZClothing {
         Insulation = 0.45,
         WindResistance = 0.35,
         FabricType = Cotton,
+		WorldStaticModel = BoilerSuit_Ground,
     }
     item Clown_Coveralls
     {
@@ -176,6 +187,7 @@ module AuthenticZClothing {
         Insulation = 0.65,
         WindResistance = 0.45,
         FabricType = Cotton,
+		WorldStaticModel = BoilerSuit_Ground,
     }
     item CEDAHazmatSuit
     {
@@ -190,6 +202,7 @@ module AuthenticZClothing {
         BiteDefense = 5,
         Insulation = 0.65,
         WindResistance = 0.9,
+		WorldStaticModel = Hazmat_Ground,
     }
     item NBHHazmatSuit
     {
@@ -204,6 +217,7 @@ module AuthenticZClothing {
         BiteDefense = 5,
         Insulation = 0.65,
         WindResistance = 0.9,
+		WorldStaticModel = Hazmat_Ground,
     }
     item Dress_Maid
     {
@@ -216,6 +230,7 @@ module AuthenticZClothing {
         Insulation = 0.1,
         WindResistance = 0.05,
         FabricType = Cotton,
+        WorldStaticModel = Dress_Short_Ground,		
     }
     item Dress_Nurse
     {
@@ -228,6 +243,7 @@ module AuthenticZClothing {
         Insulation = 0.1,
         WindResistance = 0.05,
         FabricType = Cotton,
+		WorldStaticModel = Dress_Short_Ground,
     }
     item Dress_Dimitrescu
     {
@@ -241,6 +257,8 @@ module AuthenticZClothing {
         Insulation = 0.3,
         WindResistance = 0.2,
         FabricType = Cotton,
+		Tooltip = Tooltip_Dimitrescu,
+		WorldStaticModel = Dress_Long_Ground,
     }
     item Dress_LongBlack
     {
@@ -254,6 +272,7 @@ module AuthenticZClothing {
         Insulation = 0.3,
         WindResistance = 0.2,
         FabricType = Cotton,
+		WorldStaticModel = Dress_Long_Ground,
     }
     item Dress_LongBlue
     {
@@ -267,6 +286,7 @@ module AuthenticZClothing {
         Insulation = 0.3,
         WindResistance = 0.2,
         FabricType = Cotton,
+		WorldStaticModel = Dress_Long_Ground,
     }
     item Dress_NormalBlue
     {
@@ -280,6 +300,7 @@ module AuthenticZClothing {
         Insulation = 0.20,
         WindResistance = 0.15,
         FabricType = Cotton,
+		WorldStaticModel = Dress_Mid_Ground,
     }
     item Dress_LongPink
     {
@@ -293,6 +314,7 @@ module AuthenticZClothing {
         Insulation = 0.3,
         WindResistance = 0.2,
         FabricType = Cotton,
+		WorldStaticModel = Dress_Long_Ground,
     }
     item Dress_NormalPink
     {
@@ -306,6 +328,7 @@ module AuthenticZClothing {
         Insulation = 0.20,
         WindResistance = 0.15,
         FabricType = Cotton,
+		WorldStaticModel = Dress_Mid_Ground,
     }
     item Dress_Purna
     {
@@ -318,6 +341,7 @@ module AuthenticZClothing {
         Insulation = 0.1,
         WindResistance = 0.05,
         FabricType = Cotton,
+        WorldStaticModel = Dress_Short_Ground,		
     }	
     item Dress_Short2
     {
@@ -330,6 +354,7 @@ module AuthenticZClothing {
         Insulation = 0.1,
         WindResistance = 0.05,
         FabricType = Cotton,
+        WorldStaticModel = Dress_Short_Ground,		
     }
     item Mime_Overalls
     {
@@ -344,6 +369,7 @@ module AuthenticZClothing {
         Insulation = 0.65,
         WindResistance = 0.45,
         FabricType = Cotton,
+		WorldStaticModel = BoilerSuit_Ground,
     }	
 	item Red_LongJohns
     {
@@ -356,6 +382,7 @@ module AuthenticZClothing {
         Insulation = 0.3,
         WindResistance = 0.15,
         FabricType = Cotton,
+		WorldStaticModel = BoilerSuit_Ground,
     }
     item WeddingDressBlue
     {
@@ -370,6 +397,7 @@ module AuthenticZClothing {
         Insulation = 0.25,
         WindResistance = 0.1,
         FabricType = Cotton,
+		WorldStaticModel = WeddingDress_Ground,
     }
     item WeddingDressPink
     {
@@ -384,5 +412,6 @@ module AuthenticZClothing {
         Insulation = 0.25,
         WindResistance = 0.1,
         FabricType = Cotton,
+		WorldStaticModel = WeddingDress_Ground,
     }
 }

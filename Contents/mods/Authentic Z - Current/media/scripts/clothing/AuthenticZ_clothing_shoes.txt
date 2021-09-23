@@ -19,7 +19,8 @@ module AuthenticZClothing {
         	BiteDefense = 100,
         	Insulation = 0.65,
         	WindResistance = 1.0,
-        	WaterResistance = 1.0,
+        WaterResistance = 1.0,
+		WorldStaticModel = Boots_Ground,
 	}
 	item Shoes_ArmyBootsOrange
 	{
@@ -39,6 +40,7 @@ module AuthenticZClothing {
         	Insulation = 0.5,
         	WindResistance = 0.60,
         	WaterResistance = 0.5,
+		WorldStaticModel = Boots_Ground,	
 	}
 	item Shoes_BillMurray
 	{
@@ -56,6 +58,7 @@ module AuthenticZClothing {
 		ScratchDefense = 10,
         	Insulation = 0.45,
         	WindResistance = 0.35,
+		WorldStaticModel = Shoes_Ground,	
     	}
 	item Shoes_BrownBoots
 	{
@@ -75,6 +78,7 @@ module AuthenticZClothing {
         Insulation = 0.75,
         WindResistance = 0.65,
         WaterResistance = 0.65,
+		WorldStaticModel = Boots_Ground,			
 	}		
 	item Shoes_OneBlackBoot
 	{
@@ -101,6 +105,7 @@ module AuthenticZClothing {
         	Insulation = 0.25,
         	WindResistance = 0.25,
         	WaterResistance = 0.25,
+			WorldStaticModel = Shoes_Ground,
     	}	
 	item Shoes_JimmyGibbs
 	{
@@ -118,6 +123,7 @@ module AuthenticZClothing {
 		ScratchDefense = 10,
         	Insulation = 0.45,
         	WindResistance = 0.35,
+		WorldStaticModel = Shoes_Ground,	
     	}
  	item Shoes_Maid
 	{
@@ -138,6 +144,7 @@ module AuthenticZClothing {
         	Insulation = 0.25,
         	WindResistance = 0.25,
         	WaterResistance = 0.25,
+			WorldStaticModel = Shoes_Ground,
    	 }	
  	item Shoes_Nurse
 	{
@@ -158,6 +165,7 @@ module AuthenticZClothing {
         	Insulation = 0.25,
         	WindResistance = 0.25,
         	WaterResistance = 0.25,
+			WorldStaticModel = Shoes_Ground,
     	}
  	item Shoes_Pale
 	{
@@ -178,6 +186,7 @@ module AuthenticZClothing {
         	Insulation = 0.25,
         	WindResistance = 0.25,
         	WaterResistance = 0.25,
+			WorldStaticModel = Shoes_Ground,
    	 }
  	item Shoes_TrainerBlack
 	{
@@ -195,6 +204,7 @@ module AuthenticZClothing {
 		ScratchDefense = 10,
         	Insulation = 0.45,
         	WindResistance = 0.3,
+		WorldStaticModel = Shoes_Ground,	
     	}
  	item Shoes_TrainerBlackMamba
 	{
@@ -212,6 +222,7 @@ module AuthenticZClothing {
 		ScratchDefense = 10,
         Insulation = 0.45,
         WindResistance = 0.3,
+		WorldStaticModel = Shoes_Ground,
     }
  	item Shoes_TrainerGreenandWhite
 	{
@@ -229,6 +240,7 @@ module AuthenticZClothing {
 		ScratchDefense = 10,
         Insulation = 0.45,
         WindResistance = 0.3,
+		WorldStaticModel = Shoes_Ground,
     	}
  	item Shoes_TrainerRedandBlack
 	{
@@ -246,6 +258,7 @@ module AuthenticZClothing {
 		ScratchDefense = 10,
         Insulation = 0.45,
         WindResistance = 0.3,
+		WorldStaticModel = Shoes_Ground,
     	}			
  	item Shoes_TrainerWhitePlain
 	{
@@ -263,6 +276,7 @@ module AuthenticZClothing {
 		ScratchDefense = 10,
         Insulation = 0.45,
         WindResistance = 0.3,
+		WorldStaticModel = Shoes_Ground,
     }		
 	item Shoes_White
 	{
@@ -274,14 +288,15 @@ module AuthenticZClothing {
 		Icon = ShoesWhite,
 		StompPower = 2.1,
 		ConditionLowerChanceOneIn = 12,
-        	ConditionMax = 24,
-        	RunSpeedModifier = 0.95,
-        	RemoveOnBroken = false,
-        	ScratchDefense = 20,
-        	BiteDefense = 10,
-        	Insulation = 0.25,
-        	WindResistance = 0.25,
-        	WaterResistance = 0.25,
+       	ConditionMax = 24,
+       	RunSpeedModifier = 0.95,
+       	RemoveOnBroken = false,
+       	ScratchDefense = 20,
+       	BiteDefense = 10,
+       	Insulation = 0.25,
+       	WindResistance = 0.25,
+        WaterResistance = 0.25,
+		WorldStaticModel = Shoes_Ground,			
 	} 
 	item Socks_Long_Charcoal
 	{
@@ -295,6 +310,7 @@ module AuthenticZClothing {
         WindResistance = 0.65,
         Weight = 0.1,
         FabricType = Cotton,
+        WorldStaticModel = Socks_Long_Ground,		
 	}		
 		item Socks_Long_MaidStockings
 	{
@@ -308,6 +324,7 @@ module AuthenticZClothing {
         	WindResistance = 0.65,
         	Weight = 0.1,
         	FabricType = Cotton,
+        WorldStaticModel = Socks_Long_Ground,			
 	}
 		item Socks_Long_MimeLeggings
 	{
@@ -321,6 +338,7 @@ module AuthenticZClothing {
         WindResistance = 0.65,
         Weight = 0.1,
         FabricType = Cotton,
+        WorldStaticModel = Socks_Long_Ground,		
 	}	
 		item Socks_Long_NurseThigh
 	{
@@ -334,6 +352,7 @@ module AuthenticZClothing {
         	WindResistance = 0.65,
         	Weight = 0.1,
         	FabricType = Cotton,
+        WorldStaticModel = Socks_Long_Ground,			
 	}
 	item Socks_Long_RedStriped01
 	{
@@ -347,5 +366,6 @@ module AuthenticZClothing {
         WindResistance = 0.65,
         Weight = 0.1,
         FabricType = Cotton,
+        WorldStaticModel = Socks_Long_Ground,		
 	}		
 }
