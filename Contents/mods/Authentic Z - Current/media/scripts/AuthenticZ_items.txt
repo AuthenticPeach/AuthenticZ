@@ -680,6 +680,8 @@ module AuthenticZClothing {
     }
    item FlareGun
     {
+        DisplayName				=	Flare Gun,
+        Icon					=	FlareGun,		
         ImpactSound				=	null,
         MaxRange				=	6,
         WeaponSprite			=	AuthenticFlareGun,
@@ -689,7 +691,6 @@ module AuthenticZClothing {
         MinimumSwingTime		=	0.5,
         ToHitModifier			=	1.5,
         NPCSoundBoost			=	1.5,
-        /*KnockBackOnNoDeath	=	TRUE,*/
         Ranged					=	TRUE,
         SwingAmountBeforeImpact	=	0,
         ProjectileCount			=	1,
@@ -703,14 +704,12 @@ module AuthenticZClothing {
         DoorDamage				=	5,
         UseEndurance			=	FALSE,
         SwingAnim	=	Handgun,
-        DisplayName	=	Flare Gun,
         MinRange	=	0.61,
         SwingTime	=	0.5,
         MultipleHitConditionAffected	=	FALSE,
         SoundRadius	=	30,
         MinDamage	=	0,
         MaxDamage	=	0,
-        Icon		=	FlareGun,
         RunAnim		=	Run_Weapon2,
         AimingPerkRangeModifier = 1.5,
         HitChance = 65,
@@ -728,19 +727,19 @@ module AuthenticZClothing {
         InsertAmmoSound = StormyShotgunInsertRound,
         EjectAmmoSound = Stormy9mmClipEject,
         RackSound = stormyShotgunPump,
-        AmmoType = AuthenticZClothing.FlareCartridge,
+        AmmoType = AuthenticZClothing.FlareGunShot,
         WeaponReloadType = shotgun,
         JamGunChance 	= 0,
         haveChamber 	= FALSE,
         AttachmentType  = Holster,
     }
-	item FlareCartridge
+	item FlareGunShot
 	{
 		Weight				=	0.1,
 		AlwaysWelcomeGift	=	TRUE,
 		Type				=	Normal,
 		DisplayCategory 	= Ammo,
-		DisplayName			=	Flare Cartridge,
+		DisplayName			=	Flare Gun Shot,
 		Icon				=	ShotgunAmmo,
 		MetalValue 			= 1,
 	}

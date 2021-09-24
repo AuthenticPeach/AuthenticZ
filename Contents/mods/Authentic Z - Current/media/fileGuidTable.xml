@@ -2906,7 +2906,19 @@
 	<files>
 		<path>media/clothing/clothingItems/Bag_B4BEvangelo_RHand.xml</path>
 		<guid>e970a4f2-84b7-4014-a2a6-b6cdf8d5116f</guid>
-	</files>	
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_B4BHolly.xml</path>
+		<guid>9b33b18d-7559-45cd-8578-a2fec0f384be</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_B4BHolly_LHand.xml</path>
+		<guid>9572245e-8429-478a-8986-e6a44e1195b8</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_B4BHolly_RHand.xml</path>
+		<guid>39e81f9e-1b22-426c-a5f5-22a21679de35</guid>
+	</files>		
 	<files>
 		<path>media/clothing/clothingItems/Bag_JerryCanBack.xml</path>
 		<guid>031dd95a-be3a-4deb-99f7-191c07f4bc0c</guid>

@@ -205,7 +205,7 @@ module Base
 	model StopSign
 	{
 		mesh = Weapons/1Handed/StopSign,
-		texture = HandleSign,
+		texture = clothes\Items\HandleSign,
 	}
 	model KnifeEnd
 	{
@@ -225,7 +225,7 @@ module Base
 	model RemoteControl
 	{
 		mesh = Remotecontrol,
-		texture = RemoteControl,
+		texture = clothes\Items\RemoteControl,
 	}	
 	model ShortMetalSpear
 	{
