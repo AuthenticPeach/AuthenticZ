@@ -2918,7 +2918,19 @@
 	<files>
 		<path>media/clothing/clothingItems/Bag_B4BHolly_RHand.xml</path>
 		<guid>39e81f9e-1b22-426c-a5f5-22a21679de35</guid>
-	</files>		
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_B4BWalker.xml</path>
+		<guid>e752a263-083d-408e-afee-af32c20c1984</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_B4BWalker_LHand.xml</path>
+		<guid>4bb14396-1a45-402c-8956-e88854c8ce39</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_B4BWalker_RHand.xml</path>
+		<guid>1f3683ee-d4b8-4d28-86bc-71ff221e37d6</guid>
+	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Bag_JerryCanBack.xml</path>
 		<guid>031dd95a-be3a-4deb-99f7-191c07f4bc0c</guid>

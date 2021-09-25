@@ -40,8 +40,8 @@ module AuthenticZClothing {
         BloodLocation 			 = Bag,
         RunSpeedModifier 		 = 0.97,
         AttachmentReplacement 	 = Bag,
-        ReplaceInSecondHand 	 = Bag_B4BEvangelo_LHand holdingbagleft,
-        ReplaceInPrimaryHand	 = Bag_B4BEvangelo_RHand holdingbagright,
+        ReplaceInSecondHand 	 = Bag_B4BHolly_LHand holdingbagleft,
+        ReplaceInPrimaryHand	 = Bag_B4BHolly_RHand holdingbagright,
         WorldStaticModel 		 = HikingBag_Ground,
     }   
  
@@ -124,6 +124,27 @@ module AuthenticZClothing {
         ReplaceInPrimaryHand	= Bag_ProtonPack_RHand holdingbagright,
 		
     }
+
+	item Bag_B4BWalker
+    {
+        WeightReduction	=	70,
+        Weight			=	1,
+        Type			=	Container,
+        Capacity		=	20,
+        DisplayName		=	Walker's Backpack,
+        Icon 			= 	Backpack_Walker,
+        CanBeEquipped 	= 	Back,
+        OpenSound   	=   OpenBag,
+        CloseSound   	=   CloseBag,
+        PutInSound  	=   PutItemInBag,
+        ClothingItem 			 = Bag_B4BWalker,
+        BloodLocation 			 = Bag,
+        RunSpeedModifier 		 = 0.97,
+        AttachmentReplacement 	 = Bag,
+        ReplaceInSecondHand 	 = Bag_B4BWalker_LHand holdingbagleft,
+        ReplaceInPrimaryHand	 = Bag_B4BWalker_RHand holdingbagright,
+        WorldStaticModel 		 = HikingBag_Ground,
+    } 
 	
 	item Suitcase2
     {

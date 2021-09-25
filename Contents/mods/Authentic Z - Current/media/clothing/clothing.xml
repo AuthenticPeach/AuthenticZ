@@ -237,6 +237,9 @@
 		<m_items> <!-- Holster -->
 			<itemGUID>88f11c9e-e717-446c-82ec-f749320df25a</itemGUID>
 		</m_items>
+		<m_items> <!-- Walker Backpack -->
+			<itemGUID>e752a263-083d-408e-afee-af32c20c1984</itemGUID>
+		</m_items>		
 		<m_items> <!-- Black Zombie Skin -->
 			<itemGUID>44ee984a-1926-42e9-b9ac-41652dd31426</itemGUID>
 		</m_items>			
