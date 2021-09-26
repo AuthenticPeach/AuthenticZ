@@ -595,7 +595,7 @@ module AuthenticZClothing {
 	item Hat_Boater_Blue
 	{
 		Type = Clothing,
-		DisplayName = Boater,
+		DisplayName = Blue Boater,
 		ClothingItem = Hat_Boater_Blue,
 		BodyLocation = Hat,
 		Icon = BoaterBlue,
