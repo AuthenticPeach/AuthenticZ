@@ -30,6 +30,11 @@ module Base
 		mesh = Balloon,
 		texture = clothes\Items\BalloonYellow,
 	}
+	model AuthenticBandages
+	{
+		mesh = AuthenticBandages,
+		texture = clothes\Items\AuthenticBandage,
+	}	
 	model AuthenticBrain
 	{
 		mesh = AuthenticBrain,
@@ -246,6 +251,31 @@ module Base
     {
         mesh = Weapons/1Handed/Stake,
 	texture = clothes\Items\RollingPinBloody,
+    }
+	model WorldItem_Boater_Ground_Blue
+    {
+		mesh = WorldItem-Boater,
+		texture = clothes\Hats\BoaterBlue,
+    }
+	model WorldItem_Boater_Ground_Red
+    {
+		mesh = WorldItem-Boater,
+		texture = clothes\Hats\BoaterRed,
+    }
+	model WorldItem_Boater_Ground_Green
+    {
+		mesh = WorldItem-Boater,
+		texture = clothes\Hats\BoaterGreen,
+    }
+	model WorldItem_Boater_Ground_Purple
+    {
+		mesh = WorldItem-Boater,
+		texture = clothes\Hats\BoaterPurple,
+    }
+	model WorldItem_Boater_Ground_Yellow
+    {
+		mesh = WorldItem-Boater,
+		texture = clothes\Hats\BoaterYellow,
     }	
 	model WorldItem_BackpackEvangelo
     {

@@ -590,6 +590,7 @@ module AuthenticZClothing {
         Insulation = 0.3,
         BloodLocation = Head,
         Weight = 0.5,
+		WorldStaticModel = Boater_Ground,			
     }		
 	item Hat_Boater_Blue
 	{
@@ -603,6 +604,7 @@ module AuthenticZClothing {
         Insulation = 0.15,
         WindResistance = 0.1,
         Weight = 0.5,
+		WorldStaticModel = WorldItem_Boater_Ground_Blue,
     	}
 	item Hat_Boater_Green
 	{
@@ -612,10 +614,11 @@ module AuthenticZClothing {
 		BodyLocation = Hat,
 		Icon = BoaterGreen,
 		ChanceToFall = 80,
-        	BloodLocation = Head,
-        	Insulation = 0.15,
-        	WindResistance = 0.1,
-       		Weight = 0.5,
+        BloodLocation = Head,
+        Insulation = 0.15,
+        WindResistance = 0.1,
+       	Weight = 0.5,
+		WorldStaticModel = WorldItem_Boater_Ground_Green,	
     	}
 	item Hat_Boater_Purple
 	{
@@ -625,10 +628,11 @@ module AuthenticZClothing {
 		BodyLocation = Hat,
 		Icon = BoaterPurple,
 		ChanceToFall = 80,
-       		BloodLocation = Head,
-        	Insulation = 0.15,
-        	WindResistance = 0.1,
-        	Weight = 0.5,
+       	BloodLocation = Head,
+        Insulation = 0.15,
+        WindResistance = 0.1,
+        Weight = 0.5,
+		WorldStaticModel = WorldItem_Boater_Ground_Purple,	
     	}
 	item Hat_Boater_Red
 	{
@@ -638,10 +642,11 @@ module AuthenticZClothing {
 		BodyLocation = Hat,
 		Icon = BoaterRed,
 		ChanceToFall = 80,
-        	BloodLocation = Head,
-        	Insulation = 0.15,
-        	WindResistance = 0.1,
-        	Weight = 0.5,
+        BloodLocation = Head,
+        Insulation = 0.15,
+        WindResistance = 0.1,
+        Weight = 0.5,
+		WorldStaticModel = WorldItem_Boater_Ground_Red,
     	}
 	item Hat_Boater_Yellow
 	{
@@ -655,6 +660,7 @@ module AuthenticZClothing {
         Insulation = 0.15,
         WindResistance = 0.1,
         Weight = 0.5,
+		WorldStaticModel = WorldItem_Boater_Ground_Yellow,
     	}
    item Hat_CheeseHat
     {
