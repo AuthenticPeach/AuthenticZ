@@ -755,6 +755,7 @@ module AuthenticZClothing {
         ColorRed = 101,
         ColorGreen = 67,
         ColorBlue = 33,
+		WorldStaticModel = HairDyeBlackDarkBrown,
     }
     item HairDyeBlonde2
     {
@@ -768,6 +769,7 @@ module AuthenticZClothing {
         ColorRed = 250,
         ColorGreen = 240,
         ColorBlue = 190,
+		WorldStaticModel = HairDyeBlond,
     }
   item HairDyeDarkerBrown
     {
@@ -781,6 +783,7 @@ module AuthenticZClothing {
         ColorRed = 46,
         ColorGreen = 33,
         ColorBlue = 20,
+		WorldStaticModel = HairDyeBlackDarkBrown,
     }
     item HairDyePurple
     {
@@ -794,6 +797,7 @@ module AuthenticZClothing {
         ColorRed = 147,
         ColorGreen = 112,
         ColorBlue = 219,
+		WorldStaticModel = HairDyePink,
     }	
     item Postal_Petition
     {
@@ -1839,6 +1843,7 @@ module AuthenticZClothing {
         BaseSpeed = 1,
 	    WeaponLength = 0.23,
 	    AttachmentType = Hammer,
+		WorldStaticModel = HandTorch,
     }
     item HandTorch2
     {
@@ -1858,5 +1863,6 @@ module AuthenticZClothing {
         primaryAnimMask = HoldingTorchRight,
         secondaryAnimMask = HoldingTorchLeft,
 		Tooltip = Tooltip_HandTorch2,
+		WorldStaticModel = HandTorch,
     }	
 }		

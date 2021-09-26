@@ -77,6 +77,7 @@ module AuthenticZClothing {
 		BodyLocation = Underwear,
 		Icon = Bikini_Pattern2,
 		Weight = 0.2,
+		WorldStaticModel = Bikini_Ground,
 	}
 	item Bikini_Pattern03
 	{
@@ -86,6 +87,7 @@ module AuthenticZClothing {
 		BodyLocation = TankTop,
 		Icon = Bikini_Pattern3,
 		Weight = 0.2,
+		WorldStaticModel = Bikini_Ground,
 	}
 	item BlueZskin_F1
 	{
@@ -127,6 +129,7 @@ module AuthenticZClothing {
 		BodyLocation = Necklace,
 		Icon = DSLRCamera,
 		Weight = 0.7,
+		WorldStaticModel = WorldItem-DSLR,
 	}
 	item Cigarette
 	{
@@ -137,6 +140,7 @@ module AuthenticZClothing {
 		Icon = Cigarette,
 		Weight = 0.01,
 		ChanceToFall = 25,
+		WorldStaticModel = Cigarette,
 	}
 	item ClownNose
 	{
@@ -199,6 +203,7 @@ module AuthenticZClothing {
         Insulation = 0.75,
         WindResistance = 0.75,
         FabricType = Leather,
+		WorldStaticModel = WorldItem_FreddyClaw,
 	}
 	item Gloves_LeatherGlovesBlackFull
 	{
@@ -372,6 +377,7 @@ module AuthenticZClothing {
 		Icon = TieBlueSpy,
 		Weight = 0.1,
 		Cosmetic = TRUE,
+		WorldStaticModel = WorldItem_DimitrescuRose,		
 	}		
     item Skin_Black_Zed_M
     {
@@ -465,6 +471,7 @@ module AuthenticZClothing {
         BodyLocation = Neck,
         Icon = TieBlueSpy,
         Weight = 0.1,
+		WorldStaticModel = Tie_Ground,
     }
 	item Tie_Full_Brad
     {
@@ -474,6 +481,7 @@ module AuthenticZClothing {
         BodyLocation = Neck,
         Icon = TieGrey,
         Weight = 0.1,
+		WorldStaticModel = Tie_Ground,
     }	
 	item Tie_Full_GMan
     {
@@ -483,6 +491,7 @@ module AuthenticZClothing {
         BodyLocation = Neck,
         Icon = TieGMan,
         Weight = 0.1,
+		WorldStaticModel = Tie_Ground,
     }
 	item Tie_BowTieWorn_Blue
 	{
@@ -492,6 +501,7 @@ module AuthenticZClothing {
 		BodyLocation = Neck,
 		Icon = TieBowBlue,
 		Weight = 0.1,
+		WorldStaticModel = BowTie_Ground,
 	}
 	item Tie_BowTieWorn_Green
 	{
@@ -501,6 +511,7 @@ module AuthenticZClothing {
 		BodyLocation = Neck,
 		Icon = TieBowGreen,
 		Weight = 0.1,
+		WorldStaticModel = BowTie_Ground,
 	}
 	item Tie_BowTieWorn_Purple
 	{
@@ -510,6 +521,7 @@ module AuthenticZClothing {
 		BodyLocation = Neck,
 		Icon = TieBowPurple,
 		Weight = 0.1,
+		WorldStaticModel = BowTie_Ground,
 	}
 	item Tie_BowTieWorn_Red
 	{
@@ -519,6 +531,7 @@ module AuthenticZClothing {
 		BodyLocation = Neck,
 		Icon = TieBowRed,
 		Weight = 0.1,
+		WorldStaticModel = BowTie_Ground,
 	}
 	item Tie_BowTieWorn_Yellow
 	{
@@ -528,6 +541,7 @@ module AuthenticZClothing {
 		BodyLocation = Neck,
 		Icon = TieBowYellow,
 		Weight = 0.1,
+		WorldStaticModel = BowTie_Ground,
 	}
     item Wood_Chunk_1
     {

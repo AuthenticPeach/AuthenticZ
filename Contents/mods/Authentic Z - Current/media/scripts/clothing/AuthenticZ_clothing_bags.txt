@@ -21,7 +21,7 @@ module AuthenticZClothing {
         AttachmentReplacement 	 = Bag,
         ReplaceInSecondHand 	 = Bag_B4BEvangelo_LHand holdingbagleft,
         ReplaceInPrimaryHand	 = Bag_B4BEvangelo_RHand holdingbagright,
-		WorldStaticModel = SchoolBag_Ground,
+		WorldStaticModel = WorldItem_BackpackEvangelo,
     }  
  
 	item Bag_B4BHolly
@@ -42,7 +42,7 @@ module AuthenticZClothing {
         AttachmentReplacement 	 = Bag,
         ReplaceInSecondHand 	 = Bag_B4BHolly_LHand holdingbagleft,
         ReplaceInPrimaryHand	 = Bag_B4BHolly_RHand holdingbagright,
-        WorldStaticModel 		 = HikingBag_Ground,
+        WorldStaticModel 		 = WorldItem_BackpackHolly,
     }   
  
 	item Bag_SchoolBagCEDA
@@ -122,7 +122,7 @@ module AuthenticZClothing {
         AttachmentReplacement   = 	Bag,
         ReplaceInSecondHand 	= Bag_ProtonPack_LHand holdingbagleft,
         ReplaceInPrimaryHand	= Bag_ProtonPack_RHand holdingbagright,
-		
+		WorldStaticModel = WorldItem_ProtonPack,
     }
 
 	item Bag_B4BWalker
@@ -143,7 +143,7 @@ module AuthenticZClothing {
         AttachmentReplacement 	 = Bag,
         ReplaceInSecondHand 	 = Bag_B4BWalker_LHand holdingbagleft,
         ReplaceInPrimaryHand	 = Bag_B4BWalker_RHand holdingbagright,
-        WorldStaticModel 		 = HikingBag_Ground,
+        WorldStaticModel 		 = WorldItem_BackpackWalker,
     } 
 	
 	item Suitcase2

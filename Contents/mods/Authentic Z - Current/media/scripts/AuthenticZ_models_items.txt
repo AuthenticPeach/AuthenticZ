@@ -247,4 +247,39 @@ module Base
         mesh = Weapons/1Handed/Stake,
 	texture = clothes\Items\RollingPinBloody,
     }	
+	model WorldItem_BackpackEvangelo
+    {
+		mesh = Skinned/Backpacks/WorldItem-BackpackEvangelo,
+		texture = clothes\Backpacks\BackpackEvangelo,
+    }
+	model WorldItem_BackpackHolly
+    {
+		mesh = Skinned/Backpacks/WorldItem-BackpackHolly,
+		texture = clothes\Backpacks\BackpackHolly,
+    }
+	model WorldItem_BackpackWalker
+    {
+		mesh = Skinned/Backpacks/WorldItem-BackpackWalker,
+		texture = clothes\Backpacks\BackpackWalker,
+    }
+	model WorldItem_ProtonPack
+    {
+		mesh = Skinned/Backpacks/WorldItem-ProtonPack,
+		texture = clothes\Backpacks\ProtonPack,
+    }	
+	model WorldItem_FreddyClaw
+    {
+		mesh = Static/Clothes/WorldItem-FreddyClaw,
+		texture = clothes\Gloves\FreddyKruegerGlove,
+    }
+	model WorldItem_DimitrescuRose
+    {
+		mesh = Static/Clothes/WorldItem-DimitrescuRose,
+		texture = clothes\Items\DimitrescuRose,
+    }
+	model WorldItem-DSLR
+    {
+		mesh = Static/Clothes/WorldItem_DSLR,
+		texture = clothes\Items\Camera,
+    }	
 }
