@@ -395,6 +395,38 @@ module AuthenticZClothing {
         WindResistance = 0.1,
         FabricType = Cotton,
         WorldStaticModel = Trousers_Ground,		
+    }
+    item Trousers_OliveDrab
+    {
+        Type = Clothing,
+        DisplayName = Olive Drab Pants,
+        ClothingItem = Trousers_OliveDrab,
+        BodyLocation = Pants,
+        Icon = TrousersCamoGreen,
+        BloodLocation = Trousers,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        Insulation = 0.45,
+        WindResistance = 0.3,
+        WaterResistance = 0.45,
+        FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,
+    }
+    item Trousers_OliveDrab2
+    {
+        Type = Clothing,
+        DisplayName = Olive Drab Pants,
+        ClothingItem = Trousers_OliveDrab2,
+        BodyLocation = Pants,
+        Icon = TrousersCamoGreen,
+        BloodLocation = Trousers,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        Insulation = 0.45,
+        WindResistance = 0.3,
+        WaterResistance = 0.45,
+        FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,
     }	
     item Trousers_Sport
     {

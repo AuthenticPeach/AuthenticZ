@@ -62,7 +62,47 @@ module AuthenticZClothing {
         WaterResistance = 0.2,
         Weight = 2,
         WorldStaticModel = JacketCoat_Ground,
-    }  
+    }
+    item Jacket_ArmyOliveDrab
+    {
+        Type = Clothing,
+        DisplayName = Military Olive Drab Jacket,
+        ClothingItem = Jacket_ArmyOliveDrab,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = ShirtCamoGrey,
+        RunSpeedModifier = 0.94,
+        CombatSpeedModifier = 0.97,
+        BiteDefense = 30,
+        ScratchDefense = 50,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.35,
+        WindResistance = 0.1,
+        FabricType = Cotton,
+        WaterResistance = 0.2,
+        Weight = 2,
+        WorldStaticModel = JacketCoat_Ground,
+    }
+    item Jacket_ArmyOliveDrab2
+    {
+        Type = Clothing,
+        DisplayName = Military Olive Drab Jacket,
+        ClothingItem = Jacket_ArmyOliveDrab2,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = ShirtCamoGrey,
+        RunSpeedModifier = 0.94,
+        CombatSpeedModifier = 0.97,
+        BiteDefense = 30,
+        ScratchDefense = 50,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.35,
+        WindResistance = 0.1,
+        FabricType = Cotton,
+        WaterResistance = 0.2,
+        Weight = 2,
+        WorldStaticModel = JacketCoat_Ground,
+    }	
      item Jacket_Bateman
     {
         Type = Clothing,

@@ -150,8 +150,8 @@
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
 		<m_AllowTopTint>false</m_AllowTopTint>		
-		<m_items> <!-- Khaki Pants -->
-			<itemGUID>d6ea6cbe-bbba-480e-9f02-271faf87a803</itemGUID>
+		<m_items> <!-- Olive Drag Pants -->
+			<itemGUID>4e56e71e-5e95-4c3f-a295-29638c5886d9</itemGUID>
 		</m_items>
 		<m_items> <!-- Long Socks -->
 			<itemGUID>fb86bd5f-1931-4b24-a5d7-bd6a43769991</itemGUID>
@@ -6028,11 +6028,8 @@
 		<m_items> <!-- Bucket Hat-->
 			<itemGUID>a2e8922f-f703-4d0f-9c3e-d72bc373054e</itemGUID>
 		</m_items>
-		<m_items> <!--  Camo Trousers  -->
-			<itemGUID>d325b65d-497d-4c77-8919-74a65172cb94</itemGUID>
-			<subItems>
-				<itemGUID>c003fd5d-5872-42a0-bd12-8612d166441e</itemGUID>
-			</subItems>
+		<m_items> <!--  Olive Drag Trousers  -->
+			<itemGUID>7f40ac6b-0e10-4d7e-abe5-01f8fc2a0eb9</itemGUID>
 		</m_items>		
 		<m_items> <!-- Shell Strap -->
 			<itemGUID>264e5345-105f-40a3-8ac0-48bf3e91ffd4</itemGUID>
@@ -6046,14 +6043,23 @@
 		<m_items><!-- Hardcore T-Shirt-->
 			<probability>0.1</probability>
 			<itemGUID>0a09ac23-a71b-490c-8c25-19eba9ed66fb</itemGUID>
-		</m_items>			
+		</m_items>	
+		<m_items> <!-- Olive Drag Jacket -->
+			<itemGUID>d4324c64-f094-46f8-b953-b6e7ea24ea4d</itemGUID>
+		</m_items>		
 		<m_items> <!-- SurvivorBag -->
 			<itemGUID>c2d9211a-a0c5-475d-8fa6-681a8b809f26</itemGUID>
 		</m_items>
 		<m_items><!-- Holster -->
 			<probability>0.7</probability>
 			<itemGUID>88f11c9e-e717-446c-82ec-f749320df25a</itemGUID>
-		</m_items>	
+		</m_items>
+		<m_items> <!-- Long Socks -->
+			<itemGUID>fb86bd5f-1931-4b24-a5d7-bd6a43769991</itemGUID>
+		</m_items>
+		<m_items> <!-- Military Boots -->
+			<itemGUID>227cb2d5-05a5-44ed-872d-ac4ca16e80bc</itemGUID>
+		</m_items>		
 	</m_MaleOutfits>
 
 	<m_MaleOutfits>

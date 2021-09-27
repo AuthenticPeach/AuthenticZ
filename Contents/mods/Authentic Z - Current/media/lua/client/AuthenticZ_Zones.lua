@@ -121,7 +121,7 @@ local function OnGameStart()
 	end
 end
 function RWMVolume:verifyItem(_item)
-    if _item:getFullType() == "Base.Headphones" or _item:getFullType() == "Base.Earbuds" or _item:getFullType() == "AuthenticZClothing.Authentic_Headphones" then
+    if _item:getFullType() == "Base.Headphones" or _item:getFullType() == "Base.Earbuds" or _item:getFullType() == "AuthenticZClothing.Authentic_Headphones" or _item:getFullType() == "AuthenticZClothing.Authentic_Headphones2" then
         return true;
     end
 end

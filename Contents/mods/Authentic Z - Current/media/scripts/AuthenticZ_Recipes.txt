@@ -11,14 +11,6 @@ recipe Convert into Wearable
 	   Time:30.0,
   	}
 
-recipe Convert into Item
-  	{
-   	   Authentic_Headphones,
-
-   	   Result:Headphones,
-	   Time:30.0,
-  	}
-
 
 recipe Convert into Wearable
   	{
@@ -93,7 +85,7 @@ recipe Convert into Wearable
 	   Time:30.0,
   	}
 
-recipe Convert to Item
+recipe Convert into Item
   	{
    	   Postal_Petition,
 
@@ -135,6 +127,35 @@ recipe Tie Balloons Together
    	   Result:AuthenticBalloonGroup,
 	   Time:30.0,
   	}
+
+    recipe Dismantle Headphones
+    {
+       Authentic_Headphones,
+       keep [Recipe.GetItemTypes.Screwdriver],
+
+       Result:ElectronicsScrap,
+       Time:50.0,
+       OnGiveXP:Recipe.OnGiveXP.DismantleElectronics,
+       Category:Electrical,
+       AnimNode:Disassemble,
+       Prop1:Screwdriver,
+       Prop2:Headphones,
+    }
+    recipe Dismantle Headphones
+    {
+       Authentic_Headphones2,
+       keep [Recipe.GetItemTypes.Screwdriver],
+
+       Result:ElectronicsScrap,
+       Time:50.0,
+       OnGiveXP:Recipe.OnGiveXP.DismantleElectronics,
+       Category:Electrical,
+       AnimNode:Disassemble,
+       Prop1:Screwdriver,
+       Prop2:Headphones,
+    }	
+	
+	
 recipe Draw Hitlist 1
   	{
 	   keep Scissors,
@@ -158,8 +179,7 @@ recipe Draw Hitlist 2
    	   Result:PZAZ_HitList2,
 	   Time:70.0,
   	}
-
-
+	
 recipe Draw Hitlist 3
   	{
 	   keep Scissors,

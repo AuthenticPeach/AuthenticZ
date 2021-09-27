@@ -860,6 +860,25 @@ module Base
 			rotate = -94.0000 0.0000 -98.0000,
 			bone = Bip01_Spine1,
 		}
+		attachment Pills_L
+		{
+			offset = -0.0050 0.0950 0.0220,
+			rotate = -164.0000 1.0000 -93.0000,
+			bone = Bip01_Pelvis,
+		}
+		attachment Pills_R
+		{
+			offset = 0.0630 -0.0970 0.0220,
+			rotate = 160.0000 0.0000 -75.0000,
+			bone = Bip01_Pelvis,
+		}
+		
+		attachment Pipe_Waist
+		{
+			offset = -0.0270 -0.0210 0.0700,
+			rotate = 4.0000 -3.0000 -71.0000,
+			bone = Bip01_Spine,
+		}
 		
 		attachment winslow_back_1
 		{

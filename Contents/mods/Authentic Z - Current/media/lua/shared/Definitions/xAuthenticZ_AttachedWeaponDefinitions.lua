@@ -41,7 +41,7 @@ AttachedWeaponDefinitions.Organ = {
 AttachedWeaponDefinitions.Bandages= {
 	chance = 25,
 	outfit = {"AuthenticBillOverbeck", "AuthenticZoey", "AuthenticLouis", "AuthenticFrancis", "AuthenticCoach", "AuthenticRochelle", "AuthenticNick", "AuthenticEllis"},
-	weaponLocation = {"Belt Left", "Belt Right"},
+	weaponLocation = {"Pills Left", "Pills Right"},
 	bloodLocations = nil,
 	addHoles = false,
 	daySurvived = 0,
@@ -133,9 +133,10 @@ AttachedWeaponDefinitions.CoffeeCup= {
 }
 
 AttachedWeaponDefinitions.Pills= {
+	id = "Pills",
 	chance = 25,
-	outfit = {"AuthenticBillOverbeck", "AuthenticZoey", "AuthenticLouis", "AuthenticFrancis", "AuthenticCoach", "AuthenticRochelle", "AuthenticNick", "AuthenticEllis", "AuthenticSexyNurse"},
-	weaponLocation = {"Belt Left", "Belt Right"},
+	outfit = {"AuthenticBillOverbeck", "AuthenticZoey", "AuthenticLouis", "AuthenticFrancis", "AuthenticCoach", "AuthenticRochelle", "AuthenticNick", "AuthenticEllis", "AuthenticSexyNurse", "AuthenticSurvivorL4D"},
+	weaponLocation = {"Pills Left", "Pills Right"},
 	bloodLocations = nil,
 	addHoles = false,
 	daySurvived = 0,
@@ -771,7 +772,7 @@ AttachedWeaponDefinitions.PostalScythe = {
 
 AttachedWeaponDefinitions.Molotov = {
 	chance = 100,
-	outfit = {"AuthenticBillyChumpez", "AuthenticNMRIHMolotov"},
+	outfit = {"AuthenticBillyChumpez", "AuthenticNMRIHMolotov", "AuthenticSurvivorL4D"},
 	weaponLocation = {"Belt Left", "Belt Right"},
 	bloodLocations = nil,
 	addHoles = false,
@@ -779,6 +780,19 @@ AttachedWeaponDefinitions.Molotov = {
 	weapons = {
     "Base.Molotov",
 	"Base.Molotov",
+	},
+}
+
+AttachedWeaponDefinitions.PipeBomb = {
+	chance = 100,
+	outfit = {"AuthenticSurvivorL4D"},
+	weaponLocation = {"Pipe Waist"},
+	bloodLocations = nil,
+	addHoles = false,
+	daySurvived = 0,
+	weapons = {
+    "Base.PipeBomb",
+	"Base.PipeBomb",
 	},
 }
 
@@ -1622,6 +1636,16 @@ AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticSurvivorRanger = {
 		AttachedWeaponDefinitions.handgunHolster,
 		AttachedWeaponDefinitions.knivesBelt,
 		AttachedWeaponDefinitions.shotgunPolice,
+	},
+}
+AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticSurvivorL4D = {
+	chance = 50;
+	maxitem = 5;
+	weapons = {
+		AttachedWeaponDefinitions.handgunHolster,
+		AttachedWeaponDefinitions.Molotov,
+		AttachedWeaponDefinitions.Pills,
+		AttachedWeaponDefinitions.PipeBomb,
 	},
 }
 AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticCook_Seahorse = {

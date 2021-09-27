@@ -2890,6 +2890,10 @@
 	<files>
 		<path>media/clothing/clothingItems/Authentic_Headphones.xml</path>
 		<guid>2d261359-4ac3-4444-8aa7-23b0dbbf9342</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Authentic_Headphones2.xml</path>
+		<guid>b1804dde-2155-4c47-9189-f027d0f2f38f</guid>
 	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Authentic_Pills.xml</path>
@@ -3490,7 +3494,15 @@
 	<files>
 		<path>media/clothing/clothingItems/Jacket_ArmyCamoUrban.xml</path>
 		<guid>44c2f074-88aa-47c4-a91b-1ebdbdd5a2a4</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Jacket_ArmyOliveDrab.xml</path>
+		<guid>d4324c64-f094-46f8-b953-b6e7ea24ea4d</guid>
 	</files>	
+	<files>
+		<path>media/clothing/clothingItems/Jacket_ArmyOliveDrab2.xml</path>
+		<guid>b047609f-fac8-483c-b719-681db8973f61</guid>
+	</files>		
 	<files>
 		<path>media/clothing/clothingItems/Jacket_Bateman.xml</path>
 		<guid>6062cc0d-2459-4035-a814-13cbcf9bc493</guid>
@@ -4031,6 +4043,14 @@
 		<path>media/clothing/clothingItems/Trousers_Grimes.xml</path>
 		<guid>92d60950-28a8-42cb-bee6-0384069f250d</guid>
 	</files>
+	<files>
+		<path>media/clothing/clothingItems/Trousers_OliveDrab.xml</path>
+		<guid>7f40ac6b-0e10-4d7e-abe5-01f8fc2a0eb9</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Trousers_OliveDrab2.xml</path>
+		<guid>4e56e71e-5e95-4c3f-a295-29638c5886d9</guid>
+	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Trousers_SportKilla.xml</path>
 		<guid>c4ee4f31-3117-45ee-b450-fb08287b8bb4</guid>

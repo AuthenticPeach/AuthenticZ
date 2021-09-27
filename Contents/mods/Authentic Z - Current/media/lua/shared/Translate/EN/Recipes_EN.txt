@@ -1,0 +1,11 @@
+Tooltip_EN = {
+	Recipe_Convert_into_Wearable = "Convert into Wearable",
+	Recipe_Convert_into_Item = "Convert into Item",
+	Recipe_Convert_into_Melee = "Convert into Melee",
+	Recipe_Convert_to_Torch = "Convert to Torch",
+	Recipe_Make_a_Stack_of_Money= "Make a Stack of Money",
+	Recipe_Tie_Balloons_Together = "Tie Balloons Together",
+	Recipe_Draw_Hitlist_1 = "Draw Hitlist 1",
+	Recipe_Draw_Hitlist_2 = "Draw Hitlist 2",
+	Recipe_Draw_Hitlist_3 = "Draw Hitlist 3",
+	}

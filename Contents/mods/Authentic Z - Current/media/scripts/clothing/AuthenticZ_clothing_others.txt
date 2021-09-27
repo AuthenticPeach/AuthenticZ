@@ -68,6 +68,17 @@ module AuthenticZClothing {
 		Weight = 0.3,
 		ChanceToFall = 25,
 		WorldStaticModel = HeadPhones,
+	}
+	item Authentic_Headphones2
+	{
+		Type = Clothing,
+		DisplayName = Headphones,
+		ClothingItem = Authentic_Headphones2,
+		BodyLocation = Necklace,
+		IconsForTexture = HeadphonesBlack; HeadphonesBlue; HeadphonesGold; HeadphonesPink; HeadphonesPurple; HeadphonesSeaGreen,
+		Weight = 0.3,
+		ChanceToFall = 25,
+		WorldStaticModel = HeadPhones,
 	}	
 	item Bikini_Pattern02
 	{
