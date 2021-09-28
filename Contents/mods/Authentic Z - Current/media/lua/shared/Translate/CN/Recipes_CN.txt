@@ -1,0 +1,11 @@
+Tooltip_CN = {
+	Recipe_Convert_into_Wearable = "转换成可穿戴",
+	Recipe_Convert_into_Item = "转换成道具",
+	Recipe_Convert_into_Melee = "转为近战",
+	Recipe_Convert_to_Torch = "转换为手电筒",
+	Recipe_Make_a_Stack_of_Money= "捆一叠钱",
+	Recipe_Tie_Balloons_Together = "把气球绑一起",
+	Recipe_Draw_Hitlist_1 = "绘制击杀清单1",
+	Recipe_Draw_Hitlist_2 = "绘制击杀清单2",
+	Recipe_Draw_Hitlist_3 = "绘制击杀清单3",
+	}
