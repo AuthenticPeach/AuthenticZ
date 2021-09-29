@@ -289,7 +289,7 @@
         Insulation = 0.4,
         WindResistance = 0.20,
         FabricType = Cotton,
-		WorldStaticModel = Shirt_Ground,		
+	WorldStaticModel = Shirt_Ground,		
     }
     item Tshirt_Badass
     {
