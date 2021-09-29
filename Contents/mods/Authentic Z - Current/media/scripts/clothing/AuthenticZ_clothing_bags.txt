@@ -23,6 +23,27 @@ module AuthenticZClothing {
         ReplaceInPrimaryHand	 = Bag_B4BEvangelo_RHand holdingbagright,
 		WorldStaticModel = WorldItem_BackpackEvangelo,
     }  
+
+	item Bag_B4BHoffman
+    {
+        WeightReduction	=	65,
+        Weight			=	1,
+        Type			=	Container,
+        Capacity		=	18,
+        DisplayName		=	Hoffman's Backpack,
+        Icon 			= 	Backpack_Hoffman,
+        CanBeEquipped 	=	Back,
+        OpenSound   	=   OpenBag,
+        CloseSound   	=   CloseBag,
+        PutInSound  	=   PutItemInBag,
+        ClothingItem 	= 	Bag_B4BHoffman,
+        BloodLocation 			 = Bag,
+        RunSpeedModifier 		 = 0.97,
+        AttachmentReplacement 	 = Bag,
+        ReplaceInSecondHand 	 = Bag_B4BHoffman_LHand holdingbagleft,
+        ReplaceInPrimaryHand	 = Bag_B4BHoffman_RHand holdingbagright,
+		WorldStaticModel = WorldItem_BackpackEvangelo,
+    } 
  
 	item Bag_B4BHolly
     {

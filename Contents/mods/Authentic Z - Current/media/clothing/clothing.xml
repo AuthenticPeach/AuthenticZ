@@ -186,6 +186,9 @@
 		</m_items>
 		<m_items> <!-- SchoolBag-->
 			<itemGUID>1bba5b1a-c6c6-4af7-ab69-43f583007159</itemGUID>
+		</m_items>
+		<m_items> <!-- Olive Drab Jacket -->
+			<itemGUID>d4324c64-f094-46f8-b953-b6e7ea24ea4d</itemGUID>
 		</m_items>		
 		<m_items> <!-- Tank Top -->
 			<itemGUID>a700a956-32c2-49a6-bd5f-5a2895073f19</itemGUID>

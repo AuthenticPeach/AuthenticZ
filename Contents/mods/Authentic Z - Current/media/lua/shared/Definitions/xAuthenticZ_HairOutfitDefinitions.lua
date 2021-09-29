@@ -43,7 +43,7 @@ cat.haircutColor = "0.60,0.46,0.30:100"; -- Duller Brown
 table.insert(HairOutfitDefinitions.haircutOutfitDefinition, cat);
 local cat = {};
 cat.outfit = "AuthenticB4BHoffman";
-cat.haircut = "Ponytail:100";
+cat.haircut = "Short:100";
 cat.beard = "None:100";
 cat.haircutColor = "0.33,0.16,0.16:100" --Brown
 table.insert(HairOutfitDefinitions.haircutOutfitDefinition, cat);
