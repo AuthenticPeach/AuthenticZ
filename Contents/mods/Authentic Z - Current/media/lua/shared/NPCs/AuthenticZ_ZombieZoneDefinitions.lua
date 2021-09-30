@@ -222,11 +222,6 @@ ZombiesZoneDefinition.CampBlood = {
 		mandatory="true",
 		gender="male",
 	},	
-	AuthenticJasonPart3 = {
-		name="AuthenticJasonPart3",
-		chance=5,
-		gender="male",
-	},
 	AuthenticJasonPart2M = {
 		name="AuthenticJasonPart2",
 		toSpawn=1,
