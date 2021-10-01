@@ -2912,6 +2912,18 @@
 		<guid>e970a4f2-84b7-4014-a2a6-b6cdf8d5116f</guid>
 	</files>
 	<files>
+		<path>media/clothing/clothingItems/Bag_B4BHoffman.xml</path>
+		<guid>8f27d913-15c4-4be0-a1c2-93ce5e3958d1</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_B4BHoffman_LHand.xml</path>
+		<guid>2692d237-955c-4dd3-b3f3-d0224b9d13bc</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_B4BHoffman_RHand.xml</path>
+		<guid>76b87adf-dd77-48c2-864e-d6d60ce4ccb4</guid>
+	</files>	
+	<files>
 		<path>media/clothing/clothingItems/Bag_B4BHolly.xml</path>
 		<guid>9b33b18d-7559-45cd-8578-a2fec0f384be</guid>
 	</files>

@@ -548,6 +548,31 @@ module AuthenticZClothing {
       Prop2:Authentic_MilitaryFlashlightGreen,
    }
 
+    item AuthenticPipeBomb
+	{
+		MaxRange	=	10,
+		Type	=	Weapon,
+		MinimumSwingTime	=	1.5,
+		SwingAnim	=	Throw,
+		WeaponSprite = Authentic_PipeBomb,
+		UseSelf	=	TRUE,
+		DisplayName	=	Pipe Bomb,
+		SwingTime	=	1.5,
+		SwingAmountBeforeImpact	=	0.1,
+		PhysicsObject	=	PipeBomb,
+		MinDamage	=	1,
+		Weight	=	1.5,
+		MaxDamage	=	50,
+		MaxHitCount	=	7,
+		Icon	=	PipeBomb,
+		ExplosionPower  =   100,
+		ExplosionRange  =   7,
+		ExplosionSound = PipeBombExplode,
+		SwingSound = PipeBombThrow,
+		PlacedSprite = constructedobjects_01_32,
+		Tooltip	 = Tooltip_Trap,
+		WorldStaticModel = PipeBomb,
+	}
    
 	item AuthenticSmokeBomb
     {
@@ -596,7 +621,8 @@ module AuthenticZClothing {
         CanBeRemote 			= 	TRUE,
         PlacedSprite 			= 	constructedobjects_01_36,
         WorldStaticModel 		= 	SmokeBombSensor,
-    }
+    }	
+	
     item AuthenticWalkingCane
 	{
 		MaxRange			=	1.25,
