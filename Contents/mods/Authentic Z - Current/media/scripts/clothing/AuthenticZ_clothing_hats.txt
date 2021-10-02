@@ -910,6 +910,7 @@ module AuthenticZClothing {
         ChanceToFall = 80,
         Insulation = 0.10,
         Weight = 0.5,
+		WorldStaticModel = WorldItem-StovePipeHat,
     }
 	item Hat_TrueEyeCult
 	{

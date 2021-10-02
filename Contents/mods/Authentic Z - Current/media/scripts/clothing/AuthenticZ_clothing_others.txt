@@ -151,7 +151,7 @@ module AuthenticZClothing {
 		Icon = Cigarette,
 		Weight = 0.01,
 		ChanceToFall = 25,
-		WorldStaticModel = Cigarette,
+		WorldStaticModel = WorldItem-Cigarette,
 	}
 	item ClownNose
 	{

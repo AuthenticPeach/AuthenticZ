@@ -42,7 +42,7 @@ module AuthenticZClothing {
         AttachmentReplacement 	 = Bag,
         ReplaceInSecondHand 	 = Bag_B4BHoffman_LHand holdingbagleft,
         ReplaceInPrimaryHand	 = Bag_B4BHoffman_RHand holdingbagright,
-		WorldStaticModel = WorldItem_BackpackEvangelo,
+		WorldStaticModel = WorldItem_BackpackHoffman,
     } 
  
 	item Bag_B4BHolly

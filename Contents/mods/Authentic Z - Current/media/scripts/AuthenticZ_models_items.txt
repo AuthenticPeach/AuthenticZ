@@ -259,27 +259,27 @@ module Base
     }
 	model WorldItem_Boater_Ground_Blue
     {
-		mesh = WorldItem-Boater,
+		mesh = WorldItems/WorldItem-Boater,
 		texture = clothes\Hats\BoaterBlue,
     }
 	model WorldItem_Boater_Ground_Red
     {
-		mesh = WorldItem-Boater,
+		mesh = WorldItems/WorldItem-Boater,
 		texture = clothes\Hats\BoaterRed,
     }
 	model WorldItem_Boater_Ground_Green
     {
-		mesh = WorldItem-Boater,
+		mesh = WorldItems/WorldItem-Boater,
 		texture = clothes\Hats\BoaterGreen,
     }
 	model WorldItem_Boater_Ground_Purple
     {
-		mesh = WorldItem-Boater,
+		mesh = WorldItems/WorldItem-Boater,
 		texture = clothes\Hats\BoaterPurple,
     }
 	model WorldItem_Boater_Ground_Yellow
     {
-		mesh = WorldItem-Boater,
+		mesh = WorldItems/WorldItem-Boater,
 		texture = clothes\Hats\BoaterYellow,
     }	
 	model WorldItem_BackpackEvangelo
@@ -287,6 +287,11 @@ module Base
 		mesh = Skinned/Backpacks/WorldItem-BackpackEvangelo,
 		texture = clothes\Backpacks\BackpackEvangelo,
     }
+	model WorldItem_BackpackHoffman
+    {
+		mesh = Skinned/Backpacks/WorldItem-BackpackHoffman,
+		texture = clothes\Backpacks\BackpackHoffman,
+    }	
 	model WorldItem_BackpackHolly
     {
 		mesh = Skinned/Backpacks/WorldItem-BackpackHolly,
@@ -297,6 +302,16 @@ module Base
 		mesh = Skinned/Backpacks/WorldItem-BackpackWalker,
 		texture = clothes\Backpacks\BackpackWalker,
     }
+	model WorldItem_Chainsaw
+    {
+		mesh = WorldItems/WorldItem_Chainsaw,
+		texture = chainsaw,		
+    }
+	model WorldItem-Cigarette
+    {
+		mesh = WorldItems/WorldItem_Cigarette,
+		texture = Cigarette,		
+    }		
 	model WorldItem_ProtonPack
     {
 		mesh = Skinned/Backpacks/WorldItem-ProtonPack,
@@ -312,6 +327,11 @@ module Base
 		mesh = Static/Clothes/WorldItem-DimitrescuRose,
 		texture = clothes\Items\DimitrescuRose,
     }
+	model WorldItem-StovePipeHat
+    {
+		mesh =  WorldItems/WorldItem_StovePipeHat,
+		texture = clothes\Hats\StovePipeHat,
+    }	
 	model WorldItem-DSLR
     {
 		mesh = Static/Clothes/WorldItem_DSLR,

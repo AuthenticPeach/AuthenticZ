@@ -195,7 +195,7 @@
 		</m_items>	
 		<m_items> <!-- Jeans -->
 			<itemGUID>8973893f-f324-4cdb-a32b-43cd0378174f</itemGUID>
-		</m_items>		
+		</m_items>			
 		<m_items> <!-- Socks -->
 			<itemGUID>fc0109d6-5115-427d-b6be-a4d1b8314cb1</itemGUID>
 		</m_items>
@@ -2939,6 +2939,10 @@
 	<m_MaleOutfits>
 		<m_Name>AuthenticGeneric06</m_Name>
 		<m_Guid>a2d5985e-dafc-42ab-865c-bd2d4fd97500</m_Guid>
+		<m_items> <!-- Headphones-->
+			<probability>0.01</probability>
+			<itemGUID>b1804dde-2155-4c47-9189-f027d0f2f38f</itemGUID>
+		</m_items>		
 		<m_items>
 			<probability>0.5</probability> <!-- Tshirt -->
 			<itemGUID>99b1ff28-3884-4ca3-b827-7fdab685c7a6</itemGUID>
@@ -3011,6 +3015,10 @@
 		<m_Guid>a2d5985e-dafc-42ab-865c-bd2d4fd97500</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
+		<m_items> <!-- Headphones-->
+			<probability>0.01</probability>
+			<itemGUID>b1804dde-2155-4c47-9189-f027d0f2f38f</itemGUID>
+		</m_items>			
 		<m_items>  <!-- Dress Short Sleeveless -->
 			<itemGUID>ce72b451-fabb-41ba-b398-b19175d9da1f</itemGUID>
 		</m_items>		
@@ -6932,7 +6940,11 @@
 
 	<m_FemaleOutfits>
 		<m_Name>StudentFemale</m_Name>
-		<m_Guid>3f469f0f-d2fb-4005-a607-acc66fe4d64e</m_Guid>
+		<m_Guid>3f469f0f-d2fb-4005-a607-acc66fe4d64e</m_Guid>			
+		<m_items> <!-- Headphones-->
+			<probability>0.01</probability>
+			<itemGUID>b1804dde-2155-4c47-9189-f027d0f2f38f</itemGUID>
+		</m_items>			
 		<m_items> <!-- Varsity -->
 			<probability>0.7</probability>
 			<itemGUID>f756aca5-7504-4ee5-bc34-d0327347a2d0</itemGUID>
@@ -7026,6 +7038,10 @@
 		<m_Guid>1568831d-115a-451c-bac0-3a745c1d6772</m_Guid>
 		<m_Pants>false</m_Pants>
 		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_items> <!-- Headphones-->
+			<probability>0.01</probability>
+			<itemGUID>b1804dde-2155-4c47-9189-f027d0f2f38f</itemGUID>
+		</m_items>			
 		<m_items>
 			<probability>0.2</probability>
 			<itemGUID>6d702d88-4ca0-4bcb-9aee-d88f2be29e69</itemGUID>
@@ -7085,6 +7101,10 @@
 		<m_Guid>ef2b0225-1bf1-4818-bf92-523d2e2ac823</m_Guid>
 		<m_Pants>false</m_Pants>
 		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_items> <!-- Headphones-->
+			<probability>0.01</probability>
+			<itemGUID>b1804dde-2155-4c47-9189-f027d0f2f38f</itemGUID>
+		</m_items>			
 		<m_items>
 			<probability>0.2</probability>
 			<itemGUID>6d702d88-4ca0-4bcb-9aee-d88f2be29e69</itemGUID>
@@ -7145,6 +7165,10 @@
 	<m_MaleOutfits>
 		<m_Name>StudentMale</m_Name>
 		<m_Guid>ae10039d-7818-4096-a9ee-12411c3cef11</m_Guid>
+		<m_items> <!-- Headphones-->
+			<probability>0.01</probability>
+			<itemGUID>b1804dde-2155-4c47-9189-f027d0f2f38f</itemGUID>
+		</m_items>			
 		<m_items> <!-- Varsity Jacket -->
 			<probability>0.7</probability>
 			<itemGUID>f756aca5-7504-4ee5-bc34-d0327347a2d0</itemGUID>

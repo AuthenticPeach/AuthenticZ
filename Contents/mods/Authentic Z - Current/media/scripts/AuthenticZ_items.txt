@@ -559,11 +559,11 @@ module AuthenticZClothing {
 		DisplayName	=	Pipe Bomb,
 		SwingTime	=	1.5,
 		SwingAmountBeforeImpact	=	0.1,
-		PhysicsObject	=	PipeBomb,
+		PhysicsObject	=	Authentic_PipeBomb,
 		MinDamage	=	1,
 		Weight	=	1.5,
-		MaxDamage	=	50,
-		MaxHitCount	=	7,
+		MaxDamage	=	5,
+		MaxHitCount	=	5,
 		Icon	=	PipeBomb,
 		ExplosionPower  =   100,
 		ExplosionRange  =   7,
@@ -571,7 +571,7 @@ module AuthenticZClothing {
 		SwingSound = PipeBombThrow,
 		PlacedSprite = constructedobjects_01_32,
 		Tooltip	 = Tooltip_Trap,
-		WorldStaticModel = PipeBomb,
+		WorldStaticModel = Authentic_PipeBomb,
 	}
    
 	item AuthenticSmokeBomb
@@ -703,6 +703,7 @@ module AuthenticZClothing {
 		DamageMakeHole = TRUE,
 		AttachmentType = BigBlade,
 		Tags = ChopTree;CutPlant,
+		WorldStaticModel = WorldItem_Chainsaw,
     }
    item FlareGun
     {
