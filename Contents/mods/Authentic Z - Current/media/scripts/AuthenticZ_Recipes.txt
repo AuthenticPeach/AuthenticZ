@@ -134,7 +134,7 @@ recipe Tie Balloons Together
        keep [Recipe.GetItemTypes.Screwdriver],
 
        Result:ElectronicsScrap,
-       Time:50.0,
+       Time:100.0,
        OnGiveXP:Recipe.OnGiveXP.DismantleElectronics,
        Category:Electrical,
        AnimNode:Disassemble,
@@ -147,12 +147,12 @@ recipe Tie Balloons Together
        keep [Recipe.GetItemTypes.Screwdriver],
 
        Result:ElectronicsScrap,
-       Time:50.0,
+       Time:100.0,
        OnGiveXP:Recipe.OnGiveXP.DismantleElectronics,
        Category:Electrical,
        AnimNode:Disassemble,
        Prop1:Screwdriver,
-       Prop2:Headphones,
+       Prop2:WorldItem_HeadPhones,
     }	
 	
 	

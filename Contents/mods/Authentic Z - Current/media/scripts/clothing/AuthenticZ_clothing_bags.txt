@@ -65,6 +65,27 @@ module AuthenticZClothing {
         ReplaceInPrimaryHand	 = Bag_B4BHolly_RHand holdingbagright,
         WorldStaticModel 		 = WorldItem_BackpackHolly,
     }   
+
+	item Bag_B4BMom
+    {
+        WeightReduction	=	70,
+        Weight			=	1,
+        Type			=	Container,
+        Capacity		=	18,
+        DisplayName		=	Mom's Backpack,
+        Icon 			= 	Backpack_Mom,
+        CanBeEquipped 	= 	Back,
+        OpenSound   	=   OpenBag,
+        CloseSound   	=   CloseBag,
+        PutInSound  	=   PutItemInBag,
+        ClothingItem 			 = Bag_B4BMom,
+        BloodLocation 			 = Bag,
+        RunSpeedModifier 		 = 0.97,
+        AttachmentReplacement 	 = Bag,
+        ReplaceInSecondHand 	 = Bag_B4BMom_LHand holdingbagleft,
+        ReplaceInPrimaryHand	 = Bag_B4BMom_RHand holdingbagright,
+        WorldStaticModel 		 = WorldItem_BackpackMom,
+    } 
  
 	item Bag_SchoolBagCEDA
     {

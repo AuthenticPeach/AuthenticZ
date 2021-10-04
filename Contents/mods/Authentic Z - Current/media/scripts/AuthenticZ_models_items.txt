@@ -104,6 +104,11 @@ module Base
 		mesh = AuthenticLiver,
 		texture = clothes\Organs\Liver,
 	}
+	model AuthenticKidney
+	{
+		mesh = AuthenticKidney,
+		texture = clothes\Organs\Kidney,
+	}	
 	model AuthenticMeatChunk1
 	{
 		mesh = AuthenticMeatChunk01,
@@ -297,6 +302,11 @@ module Base
 		mesh = Skinned/Backpacks/WorldItem-BackpackHolly,
 		texture = clothes\Backpacks\BackpackHolly,
     }
+	model WorldItem_BackpackMom
+    {
+		mesh = Skinned/Backpacks/WorldItem-BackpackMom,
+		texture = clothes\Backpacks\BackpackMom,
+    }	
 	model WorldItem_BackpackWalker
     {
 		mesh = Skinned/Backpacks/WorldItem-BackpackWalker,
@@ -327,6 +337,11 @@ module Base
 		mesh = Static/Clothes/WorldItem-DimitrescuRose,
 		texture = clothes\Items\DimitrescuRose,
     }
+	model WorldItem_HeadPhones
+	{
+		mesh = WorldItems/HeadPhones,
+		scale = 0.4,
+	}	
 	model WorldItem-StovePipeHat
     {
 		mesh =  WorldItems/WorldItem_StovePipeHat,

@@ -2936,6 +2936,18 @@
 		<guid>39e81f9e-1b22-426c-a5f5-22a21679de35</guid>
 	</files>
 	<files>
+		<path>media/clothing/clothingItems/Bag_B4BMom.xml</path>
+		<guid>7e6f7c35-92e9-4967-8b18-8c2b92902608</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_B4BMom_LHand.xml</path>
+		<guid>6347a9cd-87ee-4a62-aff4-4553d7c564c3</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_B4BMom_RHand.xml</path>
+		<guid>eac08bed-1932-4d0b-8afb-55b1ef20e260</guid>
+	</files>	
+	<files>
 		<path>media/clothing/clothingItems/Bag_B4BWalker.xml</path>
 		<guid>e752a263-083d-408e-afee-af32c20c1984</guid>
 	</files>

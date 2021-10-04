@@ -263,7 +263,7 @@ module AuthenticZClothing {
     item Dress_LongBlack
     {
         Type = Clothing,
-        DisplayName = Long Dress,
+        DisplayName = Long Black Dress,
         ClothingItem = Dress_LongBlack,
         BodyLocation = Dress,
         BloodLocation = Trousers;Shirt,
@@ -277,7 +277,7 @@ module AuthenticZClothing {
     item Dress_LongBlue
     {
         Type = Clothing,
-        DisplayName = Long Dress,
+        DisplayName = Long Blue Dress,
         ClothingItem = Dress_LongBlue,
         BodyLocation = Dress,
         BloodLocation = Trousers;Shirt,
@@ -291,7 +291,7 @@ module AuthenticZClothing {
     item Dress_NormalBlue
     {
         Type = Clothing,
-        DisplayName = Dress,
+        DisplayName = Blue Dress,
         ClothingItem = Dress_NormalBlue,
         BodyLocation = Dress,
         BloodLocation = Trousers;Shirt,
@@ -305,7 +305,7 @@ module AuthenticZClothing {
     item Dress_LongPink
     {
         Type = Clothing,
-        DisplayName = Long Dress,
+        DisplayName = Long Pink Dress,
         ClothingItem = Dress_LongPink,
         BodyLocation = Dress,
         BloodLocation = Trousers;Shirt,
@@ -319,7 +319,7 @@ module AuthenticZClothing {
     item Dress_NormalPink
     {
         Type = Clothing,
-        DisplayName = Dress,
+        DisplayName = Pink Dress,
         ClothingItem = Dress_NormalPink,
         BodyLocation = Dress,
         BloodLocation = Trousers;Shirt,

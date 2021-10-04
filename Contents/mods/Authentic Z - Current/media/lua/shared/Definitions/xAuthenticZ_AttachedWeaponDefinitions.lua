@@ -34,6 +34,7 @@ AttachedWeaponDefinitions.Organ = {
 		"AuthenticZClothing.AuthenticOrgan_Brain",
 		"AuthenticZClothing.AuthenticOrgan_Hand",
 		"AuthenticZClothing.AuthenticOrgan_Heart",
+		"AuthenticZClothing.AuthenticOrgan_Kidney",
 }
 }
 -- For Specific Outfits --

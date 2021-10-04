@@ -1,0 +1,27 @@
+ItemName_EN = {
+    ItemName_AuthenticZClothing.Boilersuit_BigDaddy = "Big Daddy's Coveralls",
+    ItemName_AuthenticZClothing.Boilersuit_BlackMamba = "Uma's Coveralls",
+	ItemName_AuthenticZClothing.Boilersuit_CrossingGuard = "Crossing Guard's Coveralls",
+	ItemName_AuthenticZClothing.Boilersuit_GhostbustersSpengler = "Ghostbuster Coveralls",
+	ItemName_AuthenticZClothing.Boilersuit_GhostbustersStantz = "Ghostbuster Coveralls",
+	ItemName_AuthenticZClothing.Boilersuit_GhostbustersVenkman = "Ghostbuster Coveralls",
+	ItemName_AuthenticZClothing.Boilersuit_GhostbustersZeddemore = "Ghostbuster Coveralls",
+	ItemName_AuthenticZClothing.Boilersuit_Halloween = "Halloween Coveralls",
+	ItemName_AuthenticZClothing.Boilersuit_Pennywise = "Pennywise's Gown",	
+	ItemName_AuthenticZClothing.Boilersuit_PrisonerClassic = "Classic Prisoner Jumpsuit",	
+	ItemName_AuthenticZClothing.Clown_Coveralls = "Clown Coveralls",
+	ItemName_AuthenticZClothing.CEDAHazmatSuit = "CEDA Hazmat Suit",
+	ItemName_AuthenticZClothing.NBHHazmatSuit = "Nuclear Biohazard Suit",
+	ItemName_AuthenticZClothing.Dress_Maid = "Maid Dress",	
+	ItemName_AuthenticZClothing.Dress_Nurse = "Nurse Dress",
+	ItemName_AuthenticZClothing.Dress_Dimitrescu = "Lady Dimitrescu's Dress",
+
+	ItemName_AuthenticZClothing.Dress_NormalPink = "Pink Dress",
+	ItemName_AuthenticZClothing.Dress_Purna = "Short Sleeveless Dress",
+	ItemName_AuthenticZClothing.Dress_Short2 = "Short Sleeveless Dress",
+	ItemName_AuthenticZClothing.Mime_Overalls = "Mime Overalls",
+	ItemName_AuthenticZClothing.Red_LongJohns = "Red Long Johns",
+	ItemName_AuthenticZClothing.WeddingDressBlue = "Blue Wedding Dress",	
+	ItemName_AuthenticZClothing.WeddingDressPink = "Pink Wedding Dress",
+	
+}
