@@ -3010,7 +3010,15 @@
 	<files>
 		<path>media/clothing/clothingItems/Bag_ProtonPack_LHand.xml</path>
 		<guid>9be34d22-4b22-4897-a343-3f271357fa80</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_UtilityBeltBack.xml</path>
+		<guid>16c75bcc-d7bb-4f0f-b178-d3c7a7a55b60</guid>
 	</files>	
+	<files>
+		<path>media/clothing/clothingItems/Bag_UtilityBeltFront.xml</path>
+		<guid>feefa3c1-831b-4482-8552-d0699fb268da</guid>
+	</files>		
 	<files>
 		<path>media/clothing/clothingItems/Bikini_Pattern02.xml</path>
 		<guid>fd5deb78-5fe4-4073-b3c7-b4e03a724cbc</guid>
@@ -3246,6 +3254,18 @@
 	<files>
 		<path>media/clothing/clothingItems/Hat_AuthenticCrashHelmet.xml</path>
 		<guid>d036f06a-e42b-4357-877e-1375e888636b</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Hat_BandanaMaskDesert.xml</path>
+		<guid>8da0f4a2-1c37-4b25-b114-7f93f7ba8ddc</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Hat_BandanaDesert.xml</path>
+		<guid>44a8f4d5-fcd0-4913-94a8-1191fde7ea08</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Hat_BandanaTiedDesert.xml</path>
+		<guid>190ec925-90ca-47c4-929e-52a3e3c09458</guid>
 	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Hat_BandanaMaskRed.xml</path>
@@ -3586,7 +3606,11 @@
 	<files>
 		<path>media/clothing/clothingItems/Jacket_LoganCarter.xml</path>
 		<guid>e9d63de1-6ee3-4828-9edf-421c3941e41c</guid>
-	</files>	
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Jacket_Mom.xml</path>
+		<guid>89fc4855-c4c9-4661-a784-ab0ec6b10d81</guid>
+	</files>		
 	<files>
 		<path>media/clothing/clothingItems/Jacket_PostalDude.xml</path>
 		<guid>78a4aab2-417b-4cdb-a469-d61143d9aa73</guid>
@@ -3695,6 +3719,10 @@
 		<path>media/clothing/clothingItems/Rose_Dimitrescu.xml</path>
 		<guid>45a49acf-b95e-4aa3-b842-earosec040db</guid>
 	</files>
+	<files>
+		<path>media/clothing/clothingItems/Scarf_DarkGreen.xml</path>
+		<guid>227a10a3-5b89-436b-8bdf-ff8fafabe4de</guid>
+	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Socks_Long_Charcoal.xml</path>
 		<guid>feb9b15cc-5969-4e2b-b3c1-81f8ddedb7bb</guid>

@@ -381,6 +381,27 @@ module AuthenticZClothing {
         WorldStaticModel = Jacket_Ground,			
     } 
 
+    item Jacket_Mom
+    {
+        Type = Clothing,
+        DisplayName = Mom's	Jacket,
+        ClothingItem = Jacket_Mom,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = Jacket_Mom,
+        RunSpeedModifier = 0.94,
+        CombatSpeedModifier = 0.97,
+        BiteDefense = 30,
+        ScratchDefense = 50,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.35,
+        WindResistance = 0.1,
+        FabricType = Cotton,
+        WaterResistance = 0.2,
+        Weight = 2,
+        WorldStaticModel = JacketCoat_Ground,
+    }
+
     item Jacket_PaddedEvangelo
     {
         Type = Clothing,

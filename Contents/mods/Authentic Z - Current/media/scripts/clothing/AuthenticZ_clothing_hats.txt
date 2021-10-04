@@ -509,7 +509,48 @@ module AuthenticZClothing {
         ChanceToFall = 80,
         Insulation = 0.10,
         Weight = 0.5,
+    }
+    item Hat_BandanaTiedDesert
+    {
+        Type = Clothing,
+        DisplayName = Bandana (Tied),
+        ClothingItem = Hat_BandanaTiedDesert,
+        BodyLocation = Hat,
+        ClothingItemExtra = Hat_BandanaDesert;Hat_BandanaMaskDesert,
+        ClothingItemExtraOption = UntieBandana;TieBandanaFace,
+        Icon = RamboBandanna_Tan,
+        CanHaveHoles = false,
+        ChanceToFall = 5,
+        Insulation = 0.10,
+        Weight = 0.1,
     }	
+    item Hat_BandanaMaskDesert
+    {
+        Type = Clothing,
+        DisplayName = Bandana (Face),
+        ClothingItem = Hat_BandanaMaskDesert,
+        BodyLocation = Mask,
+        ClothingItemExtra = Hat_BandanaDesert;Hat_BandanaTiedDesert,
+        ClothingItemExtraOption = UntieBandana;TieBandana,
+        Icon = Handkerchief_Tan,
+        CanHaveHoles = false,
+        ChanceToFall = 5,
+        Insulation = 0.10,
+        Weight = 0.1,
+    }
+	item Hat_BandanaDesert
+	{
+		Type = Clothing,
+		DisplayName = Bandana (Head),
+		ClothingItem = Hat_BandanaDesert,
+		BodyLocation = Hat,
+		Icon = Bandana_Tan,
+		ClothingItemExtra = Hat_BandanaTiedDesert;Hat_BandanaMaskDesert,
+        ClothingItemExtraOption = TieBandana;TieBandanaFace,
+		CanHaveHoles = false,
+		ChanceToFall = 5,
+		Insulation = 0.10,
+	}	
     item Hat_BandanaTiedRed
     {
         Type = Clothing,
@@ -518,7 +559,7 @@ module AuthenticZClothing {
         BodyLocation = Hat,
         ClothingItemExtra = Hat_BandanaRed;Hat_BandanaMaskRed,
         ClothingItemExtraOption = UntieBandana;TieBandanaFace,
-        Icon = RamboBandanna_Red,
+        Icon = RamboBandana_Tan,
         CanHaveHoles = false,
         ChanceToFall = 5,
         Insulation = 0.10,

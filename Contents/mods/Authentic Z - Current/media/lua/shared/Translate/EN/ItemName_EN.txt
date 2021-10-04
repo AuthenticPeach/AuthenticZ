@@ -1,4 +1,18 @@
 ItemName_EN = {
+
+	ItemName_AuthenticZClothing.Bag_B4BEvangelo = "Evangelo's Backpack",
+	ItemName_AuthenticZClothing.Bag_B4BHoffman = "Hoffman's Backpack",
+	ItemName_AuthenticZClothing.Bag_B4BHolly = "Holly's Backpack",
+	ItemName_AuthenticZClothing.Bag_B4BMom = "Mom's Backpack",
+	ItemName_AuthenticZClothing.Bag_B4BWalker = "Walker's Backpack",
+	ItemName_AuthenticZClothing.Bag_SchoolBagCEDA = "CEDA Hazmat Pack",
+	ItemName_AuthenticZClothing.Bag_SchoolBagNBH = "NBH Hazmat Pack",	
+	ItemName_AuthenticZClothing.Bag_ProtonPack_Back = "Proton Pack",	
+	ItemName_AuthenticZClothing.Suitcase2 = "Suitcase",	
+
+	ItemName_AuthenticZClothing.Necklace_B = "Gold B Necklace",
+	ItemName_AuthenticZClothing.Necklace_GoldCrucifix = "Gold Necklace with Crucifix",	
+
     ItemName_AuthenticZClothing.Boilersuit_BigDaddy = "Big Daddy's Coveralls",
     ItemName_AuthenticZClothing.Boilersuit_BlackMamba = "Uma's Coveralls",
 	ItemName_AuthenticZClothing.Boilersuit_CrossingGuard = "Crossing Guard's Coveralls",
@@ -9,13 +23,16 @@ ItemName_EN = {
 	ItemName_AuthenticZClothing.Boilersuit_Halloween = "Halloween Coveralls",
 	ItemName_AuthenticZClothing.Boilersuit_Pennywise = "Pennywise's Gown",	
 	ItemName_AuthenticZClothing.Boilersuit_PrisonerClassic = "Classic Prisoner Jumpsuit",	
-	ItemName_AuthenticZClothing.Clown_Coveralls = "Clown Coveralls",
+	ItemName_AuthenticZClothing.Clown_Coveralls = "Clown Overalls",
 	ItemName_AuthenticZClothing.CEDAHazmatSuit = "CEDA Hazmat Suit",
 	ItemName_AuthenticZClothing.NBHHazmatSuit = "Nuclear Biohazard Suit",
 	ItemName_AuthenticZClothing.Dress_Maid = "Maid Dress",	
 	ItemName_AuthenticZClothing.Dress_Nurse = "Nurse Dress",
 	ItemName_AuthenticZClothing.Dress_Dimitrescu = "Lady Dimitrescu's Dress",
-
+	ItemName_AuthenticZClothing.Dress_LongBlack = "Long Black Dress",
+	ItemName_AuthenticZClothing.Dress_LongBlue = "Long Blue Dress",
+	ItemName_AuthenticZClothing.Dress_LongPink = "Long Pink Dress",
+	ItemName_AuthenticZClothing.Dress_NormalBlue = "Blue Dress",
 	ItemName_AuthenticZClothing.Dress_NormalPink = "Pink Dress",
 	ItemName_AuthenticZClothing.Dress_Purna = "Short Sleeveless Dress",
 	ItemName_AuthenticZClothing.Dress_Short2 = "Short Sleeveless Dress",

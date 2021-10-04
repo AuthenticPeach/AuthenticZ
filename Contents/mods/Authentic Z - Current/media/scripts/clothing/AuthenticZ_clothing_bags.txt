@@ -86,6 +86,27 @@ module AuthenticZClothing {
         ReplaceInPrimaryHand	 = Bag_B4BMom_RHand holdingbagright,
         WorldStaticModel 		 = WorldItem_BackpackMom,
     } 
+
+	item Bag_B4BWalker
+    {
+        WeightReduction	=	70,
+        Weight			=	1,
+        Type			=	Container,
+        Capacity		=	20,
+        DisplayName		=	Walker's Backpack,
+        Icon 			= 	Backpack_Walker,
+        CanBeEquipped 	= 	Back,
+        OpenSound   	=   OpenBag,
+        CloseSound   	=   CloseBag,
+        PutInSound  	=   PutItemInBag,
+        ClothingItem 			 = Bag_B4BWalker,
+        BloodLocation 			 = Bag,
+        RunSpeedModifier 		 = 0.97,
+        AttachmentReplacement 	 = Bag,
+        ReplaceInSecondHand 	 = Bag_B4BWalker_LHand holdingbagleft,
+        ReplaceInPrimaryHand	 = Bag_B4BWalker_RHand holdingbagright,
+        WorldStaticModel 		 = WorldItem_BackpackWalker,
+    } 
  
 	item Bag_SchoolBagCEDA
     {
@@ -167,26 +188,47 @@ module AuthenticZClothing {
 		WorldStaticModel = WorldItem_ProtonPack,
     }
 
-	item Bag_B4BWalker
+    item Bag_UtilityBeltFront
     {
-        WeightReduction	=	70,
-        Weight			=	1,
-        Type			=	Container,
-        Capacity		=	20,
-        DisplayName		=	Walker's Backpack,
-        Icon 			= 	Backpack_Walker,
-        CanBeEquipped 	= 	Back,
-        OpenSound   	=   OpenBag,
-        CloseSound   	=   CloseBag,
-        PutInSound  	=   PutItemInBag,
-        ClothingItem 			 = Bag_B4BWalker,
-        BloodLocation 			 = Bag,
-        RunSpeedModifier 		 = 0.97,
-        AttachmentReplacement 	 = Bag,
-        ReplaceInSecondHand 	 = Bag_B4BWalker_LHand holdingbagleft,
-        ReplaceInPrimaryHand	 = Bag_B4BWalker_RHand holdingbagright,
-        WorldStaticModel 		 = WorldItem_BackpackWalker,
-    } 
+        WeightReduction	=	66,
+        ClothingItemExtra = Bag_UtilityBeltBack,
+        ClothingItemExtraOption = FannyPack_WearBack,
+        clothingExtraSubmenu = FannyPack_WearFront,
+        Weight	=	0.2,
+        Type	=	Container,
+        Capacity	=	2,
+        DisplayName	=	Utility Belt (Front),
+        Icon	=	FannyPack,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        BodyLocation = FannyPackFront,
+        ClothingItem = Bag_UtilityBeltFront,
+        CanBeEquipped = FannyPackFront,
+        RunSpeedModifier = 0.98,
+        WorldStaticModel = FannyPack_Ground,
+    }
+
+    item Bag_UtilityBeltBack
+    {
+        WeightReduction	=	66,
+        ClothingItemExtra = Bag_UtilityBeltFront,
+        ClothingItemExtraOption = FannyPack_WearFront,
+        clothingExtraSubmenu = FannyPack_WearBack,
+        Weight	=	0.2,
+        Type	=	Container,
+        Capacity	=	2,
+        DisplayName	=	Utility Belt (Back),
+        Icon	=	FannyPack,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        BodyLocation = FannyPackBack,
+        ClothingItem = Bag_UtilityBeltBack,
+        CanBeEquipped = FannyPackBack,
+        RunSpeedModifier = 0.98,
+        WorldStaticModel = FannyPack_Ground,
+    }
 	
 	item Suitcase2
     {

@@ -389,7 +389,22 @@ module AuthenticZClothing {
 		Weight = 0.1,
 		Cosmetic = TRUE,
 		WorldStaticModel = WorldItem_DimitrescuRose,		
-	}		
+	}
+    item Scarf_DarkGreen
+    {
+        Type = Clothing,
+        DisplayName = Scarf,
+        ClothingItem = Scarf_DarkGreen,
+        BodyLocation = Scarf,
+        Icon = ScarfDarkGreen,
+        Weight = 0.2,
+        BloodLocation = Neck,
+        ScratchDefense = 10,
+        Insulation = 1.0,
+        WindResistance = 1.0,
+        FabricType = Cotton,
+        WorldStaticModel = Scarf_Ground,
+    }		
     item Skin_Black_Zed_M
     {
 		Type = Clothing,

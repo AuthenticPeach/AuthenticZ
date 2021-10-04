@@ -792,8 +792,8 @@ AttachedWeaponDefinitions.PipeBomb = {
 	addHoles = false,
 	daySurvived = 0,
 	weapons = {
-    "Base.PipeBomb",
-	"Base.PipeBomb",
+    "AuthenticZClothing.AuthenticPipeBomb",
+	"AuthenticZClothing.AuthenticSmokeBomb",
 	},
 }
 

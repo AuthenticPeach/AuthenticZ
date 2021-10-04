@@ -184,26 +184,26 @@
 		<m_Guid>165741cf-3fac-4eb6-97d4-9d8bead55420</m_Guid>
 		<m_Pants>false</m_Pants>
 		<m_AllowPantsHue>false</m_AllowPantsHue>
-		<m_items><!-- Holly's T-shirt-->
-			<itemGUID>eb0a60ef-1d2e-475d-b0e0-0966cb06d731</itemGUID>
-		</m_items>
 		<m_items> <!-- Mom Backpack-->
 			<itemGUID>7e6f7c35-92e9-4967-8b18-8c2b92902608</itemGUID>
 		</m_items>
-		<m_items> <!-- Olive Drab Jacket -->
-			<itemGUID>d4324c64-f094-46f8-b953-b6e7ea24ea4d</itemGUID>
+		<m_items> <!-- Mom's Jacket -->
+			<itemGUID>89fc4855-c4c9-4661-a784-ab0ec6b10d81</itemGUID>
 		</m_items>		
 		<m_items> <!-- Tank Top -->
 			<itemGUID>a700a956-32c2-49a6-bd5f-5a2895073f19</itemGUID>
-		</m_items>	
+		</m_items>
+		<m_items> <!-- Scarf -->
+			<itemGUID>227a10a3-5b89-436b-8bdf-ff8fafabe4de</itemGUID>
+		</m_items>		
 		<m_items> <!-- Jeans -->
 			<itemGUID>8973893f-f324-4cdb-a32b-43cd0378174f</itemGUID>
 		</m_items>			
 		<m_items> <!-- Socks -->
 			<itemGUID>fc0109d6-5115-427d-b6be-a4d1b8314cb1</itemGUID>
 		</m_items>
-		<m_items> <!-- Green,white Shoes -->
-			<itemGUID>9e5a9e2f-347f-4959-9b35-98d8e4cadb5e</itemGUID>
+		<m_items> <!-- Black Boots -->
+			<itemGUID>2717dfdb-49ef-401a-9715-c4487ce6abea</itemGUID>
 		</m_items>
 		<m_items> <!-- Red Bandana-->
 			<itemGUID>099dfc4b-cd27-427d-939b-defe37f90877</itemGUID>
@@ -225,7 +225,7 @@
 		<m_items> <!-- Walker Shirt-->
 			<itemGUID>5884a833-5894-4c8b-a653-175b89a0bfe2</itemGUID>
 		</m_items>		
-		<m_items> <!-- Army Desert Camo-->
+		<m_items> <!-- Army Desert Camo Pants-->
 			<itemGUID>94c07af5-2e55-4a1d-9637-6b2326578e7f</itemGUID>
 		</m_items>
 		<m_items> <!-- Long Socks -->
@@ -245,7 +245,10 @@
 		</m_items>
 		<m_items> <!-- Walker Backpack -->
 			<itemGUID>e752a263-083d-408e-afee-af32c20c1984</itemGUID>
-		</m_items>		
+		</m_items>
+		<m_items> <!-- Desert Storm Bandana-->
+			<itemGUID>8da0f4a2-1c37-4b25-b114-7f93f7ba8ddc</itemGUID>
+		</m_items>			
 		<m_items> <!-- Black Zombie Skin -->
 			<itemGUID>44ee984a-1926-42e9-b9ac-41652dd31426</itemGUID>
 		</m_items>			

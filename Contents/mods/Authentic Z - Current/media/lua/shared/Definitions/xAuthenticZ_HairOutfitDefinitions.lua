@@ -55,7 +55,7 @@ cat.haircutColor = "0.80,0.44,0.33:100";  -- Salmon
 table.insert(HairOutfitDefinitions.haircutOutfitDefinition, cat);
 local cat = {};
 cat.outfit = "AuthenticB4BMom";
-cat.haircut = "Hat:100";
+cat.haircut = "Ponytail:100";
 cat.beard = "None:100";
 cat.haircutColor = "0.80,0.80,0.80:100"; --grey/white
 table.insert(HairOutfitDefinitions.haircutOutfitDefinition, cat);
