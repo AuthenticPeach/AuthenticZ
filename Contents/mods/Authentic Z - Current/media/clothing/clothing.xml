@@ -168,6 +168,9 @@
 		<m_items> <!-- Beige Hunting Vest -->
 			<itemGUID>dcc099c5-1c83-4ad3-b324-ac14d1b256ce</itemGUID>
 		</m_items>
+		<m_items> <!-- Tactical Utility Belt -->
+			<itemGUID>feefa3c1-831b-4482-8552-d0699fb268da</itemGUID>
+		</m_items>		
 		<m_items> <!-- Holster -->
 			<itemGUID>88f11c9e-e717-446c-82ec-f749320df25a</itemGUID>
 		</m_items>		
