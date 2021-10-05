@@ -322,6 +322,11 @@ module Base
 		mesh = WorldItems/WorldItem_Cigarette,
 		texture = Cigarette,		
     }		
+	model WorldItem_UtilityBelt
+    {
+		mesh = Skinned/Backpacks/WorldItem-UtilityBeltTactical,
+		texture = clothes\Backpacks\UtilityBeltTactical,
+    }
 	model WorldItem_ProtonPack
     {
 		mesh = Skinned/Backpacks/WorldItem-ProtonPack,
