@@ -7,7 +7,7 @@ AuthenticZ.tab_addMagProcedural_items  = function(x,count)
   ProceduralDistributions.list = ProceduralDistributions.list or {};
   ProceduralDistributions.list[x] = ProceduralDistributions.list[x] or {};
   ProceduralDistributions.list[x].items = ProceduralDistributions.list[x].items or {};
-  table.insert(ProceduralDistributions.list[x].items,"AuthenticZClothing.PZAZ_HitList1");
+  table.insert(ProceduralDistributions.list[x].items,"AuthenticZClothing.PZAZ_HitList");
   table.insert(ProceduralDistributions.list[x].items, count);
   table.insert(ProceduralDistributions.list[x].items,"AuthenticZClothing.PZAZ_HitList2");
   table.insert(ProceduralDistributions.list[x].items, count);
@@ -21,7 +21,7 @@ AuthenticZ.tab_addMagProcedural_junk  = function(x,count)
   ProceduralDistributions.list[x] = ProceduralDistributions.list[x] or {};
   ProceduralDistributions.list[x].junk = ProceduralDistributions.list[x].junk or {};
   ProceduralDistributions.list[x].junk.items = ProceduralDistributions.list[x].junk.items or {};
-  table.insert(ProceduralDistributions.list[x].junk.items,"AuthenticZClothing.PZAZ_HitList1");
+  table.insert(ProceduralDistributions.list[x].junk.items,"AuthenticZClothing.PZAZ_HitList");
   table.insert(ProceduralDistributions.list[x].junk.items, count);
   table.insert(ProceduralDistributions.list[x].junk.items,"AuthenticZClothing.PZAZ_HitList2");
   table.insert(ProceduralDistributions.list[x].junk.items, count);

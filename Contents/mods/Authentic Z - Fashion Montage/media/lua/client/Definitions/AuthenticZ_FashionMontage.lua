@@ -221,9 +221,11 @@ local clothing = {
     "AuthenticZClothing.Sweater_Freddy",
   },     -- Do
   Jacket = { --Jackets
-  
+  "AuthenticZClothing.HoodieDOWN_Bengal",  
   "AuthenticZClothing.HoodieDOWN_Vegan",
-  "AuthenticZClothing.Jacket_ArmyCamoUrban",  
+  "AuthenticZClothing.Jacket_ArmyCamoUrban",
+  "AuthenticZClothing.Jacket_ArmyOliveDrab",
+  "AuthenticZClothing.Jacket_ArmyOliveDrab2",
   "AuthenticZClothing.Jacket_Bateman",
   "AuthenticZClothing.Jacket_Bill",
   "AuthenticZClothing.Jacket_Bub",
@@ -235,6 +237,7 @@ local clothing = {
   "AuthenticZClothing.Jacket_FiremanNMRIH",
   "AuthenticZClothing.Jacket_Grimes",
   "AuthenticZClothing.Jacket_JimmyGibbs",
+  "AuthenticZClothing.Jacket_PaddedEvangelo",  
   "AuthenticZClothing.Jacket_PostalDude",
   "AuthenticZClothing.Jacket_Scandroid",
   "AuthenticZClothing.Jacket_Zoey",
@@ -287,12 +290,25 @@ local clothing = {
   "AuthenticZClothing.Vest_Waistcoat_Mime",  
   },  -- lists
   Tail = {},        -- in
-  Back = {},        -- this
-  Scarf = {},       -- file
+  Back = {
+  "AuthenticZClothing.Bag_B4BEvangelo", 
+  "AuthenticZClothing.Bag_B4BHoffman", 
+  "AuthenticZClothing.Bag_B4BHolly", 
+  "AuthenticZClothing.Bag_B4BMom", 
+  "AuthenticZClothing.Bag_B4BWalker", 
+  "AuthenticZClothing.Bag_SchoolBagCEDA", 
+  "AuthenticZClothing.Bag_SchoolBagNBH",  
+  "AuthenticZClothing.Bag_ProtonPack_Back",    
+  },        -- this
+  Scarf = {
+    "AuthenticZClothing.Scarf_DarkGreen",  
+  },       -- file
   FannyPackFront = {},
   Necklace = {
   "AuthenticZClothing.Cigarette",
-  "AuthenticZClothing.CameraDSLR",  
+  "AuthenticZClothing.CameraDSLR",
+  "AuthenticZClothing.Authentic_Headphones",     
+  "AuthenticZClothing.Authentic_Headphones2",   
   },
   Necklace_Long = {
   	"AuthenticZClothing.Necklace_B",
