@@ -683,6 +683,23 @@ module AuthenticZClothing {
         FabricType = Cotton,
         WorldStaticModel = Hoodie_Ground,		
     }
+	
+    item HoodieTied_Checkered
+    {
+        Type = Clothing,
+        DisplayName = Tied Hoodie,
+        ClothingItem = HoodieTied_Checkered,
+        ClothingItemExtra = HoodieDOWN_Checkered,
+        ClothingItemExtraOption = DownHoodie,
+		BodyLocation = TorsoExtra,
+		BloodLocation = Apron,
+        Icon = ShirtBub,
+        ScratchDefense = 10,
+        Insulation = 0.55,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+        WorldStaticModel = Hoodie_Ground,		
+    }	
 
     item HoodieDOWN_Vegan
     {

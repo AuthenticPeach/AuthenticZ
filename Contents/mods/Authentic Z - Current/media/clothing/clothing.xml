@@ -115,6 +115,9 @@
 		<m_items><!-- Holly's T-shirt-->
 			<itemGUID>eb0a60ef-1d2e-475d-b0e0-0966cb06d731</itemGUID>
 		</m_items>
+		<m_items><!-- Holly's Tied Hoodie-->
+			<itemGUID>150da59c-789f-4a6b-b5c8-6b14b22fa6f6</itemGUID>
+		</m_items>		
 		<m_items> <!-- Holly's Backpack-->
 			<itemGUID>9b33b18d-7559-45cd-8578-a2fec0f384be</itemGUID>
 		</m_items>		

@@ -8,6 +8,7 @@ Tooltip_CN = {
 	Tooltip_HandTorch2 = "轻微损坏",
 	Tooltip_Heart = "停止跳动有段时间了...",
 	Tooltip_JasonV = "最好在他异变之前烧掉..."
+	Tooltip_Kidney = "这可不是捐赠来的..."
 	Tooltip_Liver = "某人的肝脏...."
 	Tooltip_MeatChunk1 = "我不该碰这东西..."
 	Tooltip_MeatChunk2 = "闻起来是新鲜的..."

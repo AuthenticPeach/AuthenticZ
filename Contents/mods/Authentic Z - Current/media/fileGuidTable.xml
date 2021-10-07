@@ -3510,6 +3510,10 @@
 	<files>
 		<path>media/clothing/clothingItems/HazmatSuitNBH.xml</path>
 		<guid>3235b13b-9c27-4445-bb53-7a453985b6a6</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/HoodieTied_Checkered.xml</path>
+		<guid>150da59c-789f-4a6b-b5c8-6b14b22fa6f6</guid>
 	</files>	
 	<files>
 		<path>media/clothing/clothingItems/HoodieUP_Bengal.xml</path>
