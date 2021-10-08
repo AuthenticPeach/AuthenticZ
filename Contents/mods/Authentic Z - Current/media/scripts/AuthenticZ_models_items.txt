@@ -1,5 +1,10 @@
 module Base
 {
+	model Authentic_AndySign
+	{
+		mesh = AuthenticAndySign,
+		texture = clothes\Items\AndySign,
+	}
 	model AuthenticBalloonBlue
 	{
 		mesh = Balloon,
@@ -70,15 +75,6 @@ module Base
 		mesh = AuthenticCanteen,
 		texture = clothes\Items\CanteenSilver,
 	}
-	model Inauthentic_Canteen
-    {
-        mesh = PeachesFreeCanteen,
-		attachment world
-		{
-			offset = 0.0000 0.0000 0.0000,
-			rotate = 180.0000 0.0000 0.0000,
-		}
-    }
 	model AuthenticCricketBat
 	{
 		mesh = Weapons/2Handed/AuthenticCricketBat,
@@ -262,6 +258,11 @@ module Base
         mesh = Weapons/1Handed/Stake,
 	texture = clothes\Items\RollingPinBloody,
     }
+	model WorldItem_AndySign
+	{
+		mesh = WorldItems/WorldItem_AuthenticAndySign,
+		texture = clothes\Items\AndySign,
+	}	
 	model WorldItem_Boater_Ground_Blue
     {
 		mesh = WorldItems/WorldItem-Boater,

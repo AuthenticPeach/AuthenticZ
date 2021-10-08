@@ -26,6 +26,39 @@ ZombiesZoneDefinition.Athletic = {
 	},
 }
 
+ZombiesZoneDefinition.Back4Blood = {
+	AuthenticB4BEvangeloM = {
+		name="AuthenticB4BEvangelo",
+		toSpawn=1,
+		gender="male",
+		mandatory="true"
+	},
+	AuthenticB4BHoffmanM = {
+		name="AuthenticB4BHoffman",
+		gender="male",
+		toSpawn=1,
+		mandatory="true",
+	},	
+	AuthenticB4BHollyM = {
+		name="AuthenticB4BHolly",
+		gender="female",
+		toSpawn=1,
+		mandatory="true",
+	},	
+	AuthenticB4BMomM = {
+		name="AuthenticB4BMom",
+		toSpawn=1,
+		gender="female",
+		mandatory="true",
+	},		
+	AuthenticB4BWalkerM = {
+		name="AuthenticB4BWalker",
+		gender="male",
+		toSpawn=1,
+		mandatory="true",
+	},		
+}
+
 ZombiesZoneDefinition.BacktotheFutureIII = {
 	AuthenticDocBrown = {
 		name="AuthenticDocBrown",
@@ -1176,6 +1209,12 @@ ZombiesZoneDefinition.Militia = {
 }
 
 ZombiesZoneDefinition.MovieNight = {
+	AuthenticAuthenticAndyDotDM = {
+		name="AuthenticAndyDotD",
+		toSpawn=1,
+		mandatory="true",
+		gender="male",
+	},	
 	AuthenticGhostbusterVenkmanM = {
 		name="AuthenticGhostbusterVenkman",
 		toSpawn=1,
@@ -1200,6 +1239,12 @@ ZombiesZoneDefinition.MovieNight = {
 		mandatory="true",
 		gender="male",
 	},
+	AuthenticJokerM = {
+		name="AuthenticJoker",
+		toSpawn=1,
+		mandatory="true",
+		gender="male",
+	},	
 	AuthenticNMRIHBadassM = {
 		name="AuthenticNMRIHBadass",
 		toSpawn=1,

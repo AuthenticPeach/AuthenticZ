@@ -4,7 +4,8 @@ local function OnGameStart()
 		getWorld():registerZone("Airfield", "ZombiesType", 12861, 6169, 0, 19, 131)   --Abandoned Airfield in Valley Station
 		getWorld():registerZone("Airfield", "ZombiesType", 12861, 6000, 0, 19, 169)   --cont.
 		getWorld():registerZone("Airfield", "ZombiesType", 12861, 6300, 0, 19, 139)   --cont.
-		getWorld():registerZone("BacktotheFutureIII", "ZombiesType", 11670, 9880, 0, 70, 100) --Central Trainyard		
+		getWorld():registerZone("BacktotheFutureIII", "ZombiesType", 11670, 9880, 0, 70, 100) --Central Trainyard	
+		getWorld():registerZone("Back4Blood", "ZombiesType", 9970, 10940, 0, 60, 60)         --Southwest of Muldraugh			
 		getWorld():registerZone("Baseball", "ZombiesType", 10920, 9910, 0, 53, 47) --Muldraugh Baseball field	
 		getWorld():registerZone("Barbershop", "ZombiesType", 11853,6883, 0, 13, 10) 		--	Barbershop Westpoint
 		getWorld():registerZone("Barbershop", "ZombiesType", 11853,6883, 1, 13, 10) 		--	Barbershop Westpoint		

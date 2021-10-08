@@ -1,6 +1,4 @@
 ContextMenu_EN = {
 	ContextMenu_Loosen = "Loosen",
 	ContextMenu_Tighten = "Tighten",
-	ContextMenu_Bag_UtilityBeltFront_Loose = "Loosen",
-	ContextMenu_Bag_UtilityBeltFront = "Tighten",	
 } 

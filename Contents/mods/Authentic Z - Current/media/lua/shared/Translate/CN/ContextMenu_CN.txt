@@ -1,0 +1,4 @@
+ContextMenu_CN = {
+	ContextMenu_Loosen = "松开",
+	ContextMenu_Tighten = "收紧",
+} 

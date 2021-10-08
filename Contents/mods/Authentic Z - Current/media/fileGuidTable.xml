@@ -3012,17 +3012,17 @@
 		<guid>9be34d22-4b22-4897-a343-3f271357fa80</guid>
 	</files>
 	<files>
-		<path>media/clothing/clothingItems/Bag_UtilityBeltBack.xml</path>
+		<path>media/clothing/clothingItems/Bag_UtilityBeltDesert.xml</path>
 		<guid>16c75bcc-d7bb-4f0f-b178-d3c7a7a55b60</guid>
-	</files>	
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_UtilityBeltDesert_Loose.xml</path>
+		<guid>90be9619-3915-463e-8eca-237e5a4e4b36</guid>
+	</files>		
 	<files>
 		<path>media/clothing/clothingItems/Bag_UtilityBeltFront.xml</path>
 		<guid>feefa3c1-831b-4482-8552-d0699fb268da</guid>
 	</files>
-	<files>
-		<path>media/clothing/clothingItems/Bag_UtilityBeltBack_Loose.xml</path>
-		<guid>90be9619-3915-463e-8eca-237e5a4e4b36</guid>
-	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Bag_UtilityBeltFront_Loose.xml</path>
 		<guid>e0dcba7c-5cac-4c16-9b0c-d5484a853231</guid>

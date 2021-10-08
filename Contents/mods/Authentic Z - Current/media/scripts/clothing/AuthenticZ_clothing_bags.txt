@@ -191,12 +191,11 @@ module AuthenticZClothing {
     item Bag_UtilityBeltFront
     {
         Type					=	Container,
-        DisplayName				=	Utility Belt (Front),
+        DisplayName				=	Utility Belt (Tightened),
         ClothingItem 			= 	Bag_UtilityBeltFront,		
         WeightReduction			=	66,
-        ClothingItemExtra 		=	Bag_UtilityBeltBack,
-        ClothingItemExtraOption = 	FannyPack_WearBack,
-        clothingExtraSubmenu	= 	Bag_UtilityBeltFront,
+        ClothingItemExtra 		=	Bag_UtilityBeltFront_Loose,
+        ClothingItemExtraOption = 	Loosen,
         Weight					=	0.2,
         Capacity				=	2,
         Icon					=	UtilityBelt,
@@ -212,12 +211,11 @@ module AuthenticZClothing {
     item Bag_UtilityBeltFront_Loose
     {
         Type					=	Container,
-        DisplayName				=	Utility Belt (Front),
+        DisplayName				=	Utility Belt (Loosened),
         ClothingItem 			= 	Bag_UtilityBeltFront_Loose,		
         WeightReduction			=	66,
-        ClothingItemExtra 		=	Bag_UtilityBeltBack,
-        ClothingItemExtraOption = 	FannyPack_WearBack,
-        clothingExtraSubmenu	= 	Bag_UtilityBeltFront_Loose,
+        ClothingItemExtra 		=	Bag_UtilityBeltFront,
+        ClothingItemExtraOption = 	Tighten,
         Weight					=	0.2,
         Capacity				=	2,
         Icon					=	UtilityBelt,
@@ -230,20 +228,17 @@ module AuthenticZClothing {
         WorldStaticModel 		= 	WorldItem_UtilityBelt,
     }	
 
-    item Bag_UtilityBeltBack
+    item Bag_UtilityBeltDesert
     {
-        Type					=	Container,	
-        DisplayName				=	Utility Belt (Back),
-        ClothingItem 			= 	Bag_UtilityBeltBack,		
+        Type					=	Container,
+        DisplayName				=	Utility Belt (Tightened),
+        ClothingItem 			= 	Bag_UtilityBeltDesert,		
         WeightReduction			=	66,
-        ClothingItemExtra		= 	Bag_UtilityBeltFront,
-        ClothingItemExtraOption = 	FannyPack_WearFront,
-        ClothingItemExtra		= 	Bag_UtilityBeltFront_Loose,
-        ClothingItemExtraOption = 	FannyPack_WearFront,
-        clothingExtraSubmenu 	= 	Bag_UtilityBeltBack,		
-        Weight		 			=	0.2,
-        Capacity	 			=	2,
-        Icon		 			=	UtilityBelt,
+        ClothingItemExtra 		=	Bag_UtilityBeltDesert_Loose,
+        ClothingItemExtraOption = 	Loosen,
+        Weight					=	0.2,
+        Capacity				=	2,
+        Icon					=	UtilityBeltDesert,
         OpenSound   			=   OpenBag,
         CloseSound   			=   CloseBag,
         PutInSound   			=   PutItemInBag,
@@ -253,20 +248,17 @@ module AuthenticZClothing {
         WorldStaticModel 		= 	WorldItem_UtilityBelt,
     }
 	
-    item Bag_UtilityBeltBack_Loose
+    item Bag_UtilityBeltDesert_Loose
     {
-        Type					=	Container,	
-        DisplayName				=	Utility Belt (Back),
-        ClothingItem 			= 	Bag_UtilityBeltBack_Loose,		
+        Type					=	Container,
+        DisplayName				=	Utility Belt (Loosened),
+        ClothingItem 			= 	Bag_UtilityBeltDesert_Loose,		
         WeightReduction			=	66,
-        ClothingItemExtra		= 	Bag_UtilityBeltFront,
-        ClothingItemExtraOption = 	FannyPack_WearFront,
-        ClothingItemExtra		= 	Bag_UtilityBeltFront_Loose,
-        ClothingItemExtraOption = 	FannyPack_WearFront,
-        clothingExtraSubmenu 	= 	Bag_UtilityBeltBack_Loose,		
-        Weight		 			=	0.2,
-        Capacity	 			=	2,
-        Icon		 			=	UtilityBelt,
+        ClothingItemExtra 		=	Bag_UtilityBeltDesert,
+        ClothingItemExtraOption = 	Tighten,
+        Weight					=	0.2,
+        Capacity				=	2,
+        Icon					=	UtilityBeltDesert,
         OpenSound   			=   OpenBag,
         CloseSound   			=   CloseBag,
         PutInSound   			=   PutItemInBag,
