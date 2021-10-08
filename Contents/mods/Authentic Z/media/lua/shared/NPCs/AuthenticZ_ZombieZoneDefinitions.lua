@@ -1153,6 +1153,12 @@ ZombiesZoneDefinition.MovieNight = {
 		mandatory="true",
 		gender="male",
 	},
+	AuthenticAuthenticAndyDotDM = {
+		name="AuthenticAndyDotD",
+		toSpawn=1,
+		mandatory="true",
+		gender="male",
+	},	
 }
 
 ZombiesZoneDefinition.Nate = {

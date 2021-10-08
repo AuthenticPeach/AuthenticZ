@@ -3018,7 +3018,15 @@
 	<files>
 		<path>media/clothing/clothingItems/Bag_UtilityBeltFront.xml</path>
 		<guid>feefa3c1-831b-4482-8552-d0699fb268da</guid>
-	</files>		
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_UtilityBeltBack_Loose.xml</path>
+		<guid>90be9619-3915-463e-8eca-237e5a4e4b36</guid>
+	</files>	
+	<files>
+		<path>media/clothing/clothingItems/Bag_UtilityBeltFront_Loose.xml</path>
+		<guid>e0dcba7c-5cac-4c16-9b0c-d5484a853231</guid>
+	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Bikini_Pattern02.xml</path>
 		<guid>fd5deb78-5fe4-4073-b3c7-b4e03a724cbc</guid>
