@@ -598,29 +598,29 @@ module AuthenticZClothing {
     {
         Type 	         = Clothing,
         DisplayName      = Navy Blue Suit Jacket,
-	ClothingItem     = Suit_JacketGMan,
+		ClothingItem     = Suit_JacketGMan,
         BodyLocation     = Jacket,
         BloodLocation    = Jacket,
-        Icon 		 = JacketSuitGMan,
+        Icon 		 	 = JacketSuitGMan,
         RunSpeedModifier = 0.95,
         CombatSpeedModifier = 0.95,
         ScratchDefense   = 20,
         NeckProtectionModifier = 0.5,
-        Insulation = 0.55,
-        WindResistance = 0.45,
-        FabricType = Cotton,
-        Weight = 2,
+        Insulation 		 = 0.55,
+        WindResistance 	 = 0.45,
+        FabricType 		 = Cotton,
+        Weight 			 = 2,
         WorldStaticModel = SuitJacket_Ground,		
     }
 	
     item HoodieDOWN_Bengal
     {
         Type = Clothing,
-        DisplayName = Hoodie,
+        DisplayName = Bengal Hoodie,
         ClothingItem = HoodieDOWN_Bengal,
-        ClothingItemExtra = HoodieUP_Bengal,
-        ClothingItemExtraOption = UpHoodie,
-        BodyLocation = Sweater,
+        ClothingItemExtra = HoodieUP_Bengal;HoodieTied_Bengal,
+        ClothingItemExtraOption = UpHoodie;TieOnWaist,
+        BodyLocation = Jacket,
         BloodLocation = Jumper,
         Icon = HoodieBengal,
         ScratchDefense = 10,
@@ -634,11 +634,11 @@ module AuthenticZClothing {
     item HoodieUP_Bengal
     {
         Type = Clothing,
-        DisplayName = Hoodie,
+        DisplayName = Bengal Hoodie,
         ClothingItem = HoodieUP_Bengal,
-        ClothingItemExtra = HoodieDOWN_Bengal,
-        ClothingItemExtraOption = DownHoodie,
-        BodyLocation = SweaterHat,
+        ClothingItemExtra = HoodieDOWN_Bengal;HoodieTied_Bengal,
+        ClothingItemExtraOption = DownHoodie;TieOnWaist,
+        BodyLocation = Jacket,
         BloodLocation = Jumper;FullHelmet,
         Icon = HoodieBengal,
         ScratchDefense = 10,
@@ -647,18 +647,36 @@ module AuthenticZClothing {
         FabricType = Cotton,
         WorldStaticModel = Hoodie_Ground,		
     }
+    item HoodieTied_Bengal
+    {
+        Type = Clothing,
+        DisplayName = Bengal Hoodie (Tied),
+        ClothingItem = HoodieTied_Bengal,
+        ClothingItemExtra = HoodieDOWN_Bengal;HoodieUP_Bengal,
+        ClothingItemExtraOption = DownHoodie;UpHoodie,
+		clothingExtraSubmenu = TiedHoodie,		
+		BodyLocation = TorsoExtra,
+		BloodLocation = Apron,
+        Icon = HoodieBengal,
+        ScratchDefense = 10,
+        Insulation = 0.55,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+        WorldStaticModel = Hoodie_Ground,		
+    }	
+	
 	
     item HoodieDOWN_Checkered
     {
         Type = Clothing,
-        DisplayName = Hoodie,
+        DisplayName = Dark Red Plaid Hoodie,
         ClothingItem = HoodieDOWN_Checkered,
-        ClothingItemExtra = HoodieUP_Checkered,
-        ClothingItemExtraOption = UpHoodie,
+        ClothingItemExtra = HoodieUP_Checkered;HoodieTied_Checkered,
+        ClothingItemExtraOption = UpHoodie;TieOnWaist,
         clothingExtraSubmenu = DownHoodie,
         BodyLocation = Jacket,
         BloodLocation = Jumper,
-        Icon = HoodieWhite,
+        Icon = ShirtBub,
         ScratchDefense = 10,
         NeckProtectionModifier = 0.5,
         Insulation = 0.6,
@@ -670,13 +688,14 @@ module AuthenticZClothing {
     item HoodieUP_Checkered
     {
         Type = Clothing,
-        DisplayName = Hoodie,
+        DisplayName = Dark Red Plaid Hoodie,
         ClothingItem = HoodieUP_Checkered,
-        ClothingItemExtra = HoodieDOWN_Checkered,
-        ClothingItemExtraOption = DownHoodie,
+        ClothingItemExtra = HoodieDOWN_Checkered;HoodieTied_Checkered,
+        ClothingItemExtraOption = DownHoodie;TieOnWaist,
+		clothingExtraSubmenu = UpHoodie,
         BodyLocation = Jacket,
         BloodLocation = Jumper;FullHelmet,
-        Icon = HoodieWhite,
+        Icon = ShirtBub,
         ScratchDefense = 10,
         Insulation = 0.55,
         WindResistance = 0.2,
@@ -687,10 +706,11 @@ module AuthenticZClothing {
     item HoodieTied_Checkered
     {
         Type = Clothing,
-        DisplayName = Tied Hoodie,
+        DisplayName = Dark Red Plaid Hoodie (Tied),
         ClothingItem = HoodieTied_Checkered,
-        ClothingItemExtra = HoodieDOWN_Checkered,
-        ClothingItemExtraOption = DownHoodie,
+        ClothingItemExtra = HoodieDOWN_Checkered;HoodieUP_Checkered,
+        ClothingItemExtraOption = DownHoodie;UpHoodie,
+		clothingExtraSubmenu = TiedHoodie,		
 		BodyLocation = TorsoExtra,
 		BloodLocation = Apron,
         Icon = ShirtBub,
@@ -701,13 +721,453 @@ module AuthenticZClothing {
         WorldStaticModel = Hoodie_Ground,		
     }	
 
+    item HoodieDOWN_BluePlaid
+    {
+        Type = Clothing,
+        DisplayName = Blue Plaid Hoodie,
+        ClothingItem = HoodieDOWN_BluePlaid,
+        ClothingItemExtra = HoodieUP_BluePlaid;HoodieTied_BluePlaid,
+        ClothingItemExtraOption = UpHoodie;TieOnWaist,
+        clothingExtraSubmenu = DownHoodie,
+        BodyLocation = Jacket,
+        BloodLocation = Jumper,
+        Icon = ShirtLumberjackBlue,
+        ScratchDefense = 10,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.6,
+        WindResistance = 0.25,
+        FabricType = Cotton,
+        WorldStaticModel = Hoodie_Ground,		
+    }
+
+    item HoodieUP_BluePlaid
+    {
+        Type = Clothing,
+        DisplayName = Blue Plaid Hoodie,
+        ClothingItem = HoodieUP_BluePlaid,
+        ClothingItemExtra = HoodieDOWN_BluePlaid;HoodieTied_BluePlaid,
+        ClothingItemExtraOption = DownHoodie;TieOnWaist,
+		clothingExtraSubmenu = UpHoodie,
+        BodyLocation = Jacket,
+        BloodLocation = Jumper;FullHelmet,
+        Icon = ShirtLumberjackBlue,
+        ScratchDefense = 10,
+        Insulation = 0.55,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+        WorldStaticModel = Hoodie_Ground,		
+    }
+	
+    item HoodieTied_BluePlaid
+    {
+        Type = Clothing,
+        DisplayName = Tied Hoodie,
+        ClothingItem = HoodieTied_BluePlaid,
+        ClothingItemExtra = HoodieDOWN_BluePlaid;HoodieUP_BluePlaid,
+        ClothingItemExtraOption = DownHoodie;UpHoodie,
+		clothingExtraSubmenu = TiedHoodie,		
+		BodyLocation = TorsoExtra,
+		BloodLocation = Apron,
+        Icon = ShirtLumberjackBlue,
+        ScratchDefense = 10,
+        Insulation = 0.55,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+        WorldStaticModel = Hoodie_Ground,		
+    }	
+
+    item HoodieDOWN_GreenPlaid
+    {
+        Type = Clothing,
+        DisplayName = Green Plaid Hoodie,
+        ClothingItem = HoodieDOWN_GreenPlaid,
+        ClothingItemExtra = HoodieUP_GreenPlaid;HoodieTied_GreenPlaid,
+        ClothingItemExtraOption = UpHoodie;TieOnWaist,
+        clothingExtraSubmenu = DownHoodie,
+        BodyLocation = Jacket,
+        BloodLocation = Jumper,
+        Icon = ShirtLumberjackGreen,
+        ScratchDefense = 10,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.6,
+        WindResistance = 0.25,
+        FabricType = Cotton,
+        WorldStaticModel = Hoodie_Ground,		
+    }
+
+    item HoodieUP_GreenPlaid
+    {
+        Type = Clothing,
+        DisplayName = Green Plaid Hoodie,
+        ClothingItem = HoodieUP_GreenPlaid,
+        ClothingItemExtra = HoodieDOWN_GreenPlaid;HoodieTied_GreenPlaid,
+        ClothingItemExtraOption = DownHoodie;TieOnWaist,
+		clothingExtraSubmenu = UpHoodie,
+        BodyLocation = Jacket,
+        BloodLocation = Jumper;FullHelmet,
+        Icon = ShirtLumberjackGreen,
+        ScratchDefense = 10,
+        Insulation = 0.55,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+        WorldStaticModel = Hoodie_Ground,		
+    }
+	
+    item HoodieTied_GreenPlaid
+    {
+        Type = Clothing,
+        DisplayName = Tied Hoodie,
+        ClothingItem = HoodieTied_GreenPlaid,
+        ClothingItemExtra = HoodieDOWN_GreenPlaid;HoodieUP_GreenPlaid,
+        ClothingItemExtraOption = DownHoodie;UpHoodie,
+		clothingExtraSubmenu = TiedHoodie,		
+		BodyLocation = TorsoExtra,
+		BloodLocation = Apron,
+        Icon = ShirtLumberjackGreen,
+        ScratchDefense = 10,
+        Insulation = 0.55,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+        WorldStaticModel = Hoodie_Ground,		
+    }	
+
+    item HoodieDOWN_GreyPlaid
+    {
+        Type = Clothing,
+        DisplayName = Grey Plaid Hoodie,
+        ClothingItem = HoodieDOWN_GreyPlaid,
+        ClothingItemExtra = HoodieUP_GreyPlaid;HoodieTied_GreyPlaid,
+        ClothingItemExtraOption = UpHoodie;TieOnWaist,
+        clothingExtraSubmenu = DownHoodie,
+        BodyLocation = Jacket,
+        BloodLocation = Jumper,
+        Icon = ShirtLumberjackGrey,
+        ScratchDefense = 10,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.6,
+        WindResistance = 0.25,
+        FabricType = Cotton,
+        WorldStaticModel = Hoodie_Ground,		
+    }
+
+    item HoodieUP_GreyPlaid
+    {
+        Type = Clothing,
+        DisplayName = Grey Plaid Hoodie,
+        ClothingItem = HoodieUP_GreyPlaid,
+        ClothingItemExtra = HoodieDOWN_GreyPlaid;HoodieTied_GreyPlaid,
+        ClothingItemExtraOption = DownHoodie;TieOnWaist,
+		clothingExtraSubmenu = UpHoodie,
+        BodyLocation = Jacket,
+        BloodLocation = Jumper;FullHelmet,
+        Icon = ShirtLumberjackGrey,
+        ScratchDefense = 10,
+        Insulation = 0.55,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+        WorldStaticModel = Hoodie_Ground,		
+    }
+	
+    item HoodieTied_GreyPlaid
+    {
+        Type = Clothing,
+        DisplayName = Tied Hoodie,
+        ClothingItem = HoodieTied_GreyPlaid,
+        ClothingItemExtra = HoodieDOWN_GreyPlaid;HoodieUP_GreyPlaid,
+        ClothingItemExtraOption = DownHoodie;UpHoodie,
+		clothingExtraSubmenu = TiedHoodie,		
+		BodyLocation = TorsoExtra,
+		BloodLocation = Apron,
+        Icon = ShirtLumberjackGrey,
+        ScratchDefense = 10,
+        Insulation = 0.55,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+        WorldStaticModel = Hoodie_Ground,		
+    }
+
+    item HoodieDOWN_OrangePlaid
+    {
+        Type = Clothing,
+        DisplayName = Orange Plaid Hoodie,
+        ClothingItem = HoodieDOWN_OrangePlaid,
+        ClothingItemExtra = HoodieUP_OrangePlaid;HoodieTied_OrangePlaid,
+        ClothingItemExtraOption = UpHoodie;TieOnWaist,
+        clothingExtraSubmenu = DownHoodie,
+        BodyLocation = Jacket,
+        BloodLocation = Jumper,
+        Icon = ShirtLumberjackOrange,
+        ScratchDefense = 10,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.6,
+        WindResistance = 0.25,
+        FabricType = Cotton,
+        WorldStaticModel = Hoodie_Ground,		
+    }
+
+    item HoodieUP_OrangePlaid
+    {
+        Type = Clothing,
+        DisplayName = Orange Plaid Hoodie,
+        ClothingItem = HoodieUP_OrangePlaid,
+        ClothingItemExtra = HoodieDOWN_OrangePlaid;HoodieTied_OrangePlaid,
+        ClothingItemExtraOption = DownHoodie;TieOnWaist,
+		clothingExtraSubmenu = UpHoodie,
+        BodyLocation = Jacket,
+        BloodLocation = Jumper;FullHelmet,
+        Icon = ShirtLumberjackOrange,
+        ScratchDefense = 10,
+        Insulation = 0.55,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+        WorldStaticModel = Hoodie_Ground,		
+    }
+	
+    item HoodieTied_OrangePlaid
+    {
+        Type = Clothing,
+        DisplayName = Tied Hoodie,
+        ClothingItem = HoodieTied_OrangePlaid,
+        ClothingItemExtra = HoodieDOWN_OrangePlaid;HoodieUP_OrangePlaid,
+        ClothingItemExtraOption = DownHoodie;UpHoodie,
+		clothingExtraSubmenu = TiedHoodie,		
+		BodyLocation = TorsoExtra,
+		BloodLocation = Apron,
+        Icon = ShirtLumberjackOrange,
+        ScratchDefense = 10,
+        Insulation = 0.55,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+        WorldStaticModel = Hoodie_Ground,		
+    }
+	
+    item HoodieDOWN_PurplePlaid
+    {
+        Type = Clothing,
+        DisplayName = Purple Plaid Hoodie,
+        ClothingItem = HoodieDOWN_PurplePlaid,
+        ClothingItemExtra = HoodieUP_PurplePlaid;HoodieTied_PurplePlaid,
+        ClothingItemExtraOption = UpHoodie;TieOnWaist,
+        clothingExtraSubmenu = DownHoodie,
+        BodyLocation = Jacket,
+        BloodLocation = Jumper,
+        Icon = ShirtLumberjackPurple,
+        ScratchDefense = 10,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.6,
+        WindResistance = 0.25,
+        FabricType = Cotton,
+        WorldStaticModel = Hoodie_Ground,		
+    }
+
+    item HoodieUP_PurplePlaid
+    {
+        Type = Clothing,
+        DisplayName = Purple Plaid Hoodie,
+        ClothingItem = HoodieUP_PurplePlaid,
+        ClothingItemExtra = HoodieDOWN_PurplePlaid;HoodieTied_PurplePlaid,
+        ClothingItemExtraOption = DownHoodie;TieOnWaist,
+		clothingExtraSubmenu = UpHoodie,
+        BodyLocation = Jacket,
+        BloodLocation = Jumper;FullHelmet,
+        Icon = ShirtLumberjackPurple,
+        ScratchDefense = 10,
+        Insulation = 0.55,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+        WorldStaticModel = Hoodie_Ground,		
+    }
+	
+    item HoodieTied_PurplePlaid
+    {
+        Type = Clothing,
+        DisplayName = Tied Hoodie,
+        ClothingItem = HoodieTied_PurplePlaid,
+        ClothingItemExtra = HoodieDOWN_PurplePlaid;HoodieUP_PurplePlaid,
+        ClothingItemExtraOption = DownHoodie;UpHoodie,
+		clothingExtraSubmenu = TiedHoodie,		
+		BodyLocation = TorsoExtra,
+		BloodLocation = Apron,
+        Icon = ShirtLumberjackPurple,
+        ScratchDefense = 10,
+        Insulation = 0.55,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+        WorldStaticModel = Hoodie_Ground,		
+    }	
+
+    item HoodieDOWN_RedPlaid
+    {
+        Type = Clothing,
+        DisplayName = Red Plaid Hoodie,
+        ClothingItem = HoodieDOWN_RedPlaid,
+        ClothingItemExtra = HoodieUP_RedPlaid;HoodieTied_RedPlaid,
+        ClothingItemExtraOption = UpHoodie;TieOnWaist,
+        clothingExtraSubmenu = DownHoodie,
+        BodyLocation = Jacket,
+        BloodLocation = Jumper,
+        Icon = ShirtLumberjackRed,
+        ScratchDefense = 10,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.6,
+        WindResistance = 0.25,
+        FabricType = Cotton,
+        WorldStaticModel = Hoodie_Ground,		
+    }
+
+    item HoodieUP_RedPlaid
+    {
+        Type = Clothing,
+        DisplayName = Red Plaid Hoodie,
+        ClothingItem = HoodieUP_RedPlaid,
+        ClothingItemExtra = HoodieDOWN_RedPlaid;HoodieTied_RedPlaid,
+        ClothingItemExtraOption = DownHoodie;TieOnWaist,
+		clothingExtraSubmenu = UpHoodie,
+        BodyLocation = Jacket,
+        BloodLocation = Jumper;FullHelmet,
+        Icon = ShirtLumberjackRed,
+        ScratchDefense = 10,
+        Insulation = 0.55,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+        WorldStaticModel = Hoodie_Ground,		
+    }
+	
+    item HoodieTied_RedPlaid
+    {
+        Type = Clothing,
+        DisplayName = Tied Hoodie,
+        ClothingItem = HoodieTied_RedPlaid,
+        ClothingItemExtra = HoodieDOWN_RedPlaid;HoodieUP_RedPlaid,
+        ClothingItemExtraOption = DownHoodie;UpHoodie,
+		clothingExtraSubmenu = TiedHoodie,		
+		BodyLocation = TorsoExtra,
+		BloodLocation = Apron,
+        Icon = ShirtLumberjackRed,
+        ScratchDefense = 10,
+        Insulation = 0.55,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+        WorldStaticModel = Hoodie_Ground,		
+    }	
+
+    item HoodieDOWN_TurquoisePlaid
+    {
+        Type = Clothing,
+        DisplayName = Turquoise Plaid Hoodie,
+        ClothingItem = HoodieDOWN_TurquoisePlaid,
+        ClothingItemExtra = HoodieUP_TurquoisePlaid;HoodieTied_TurquoisePlaid,
+        ClothingItemExtraOption = UpHoodie;TieOnWaist,
+        clothingExtraSubmenu = DownHoodie,
+        BodyLocation = Jacket,
+        BloodLocation = Jumper,
+        Icon = ShirtLumberjackTurquoise,
+        ScratchDefense = 10,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.6,
+        WindResistance = 0.25,
+        FabricType = Cotton,
+        WorldStaticModel = Hoodie_Ground,		
+    }
+
+    item HoodieUP_TurquoisePlaid
+    {
+        Type = Clothing,
+        DisplayName = Turquoise Plaid Hoodie,
+        ClothingItem = HoodieUP_TurquoisePlaid,
+        ClothingItemExtra = HoodieDOWN_TurquoisePlaid;HoodieTied_TurquoisePlaid,
+        ClothingItemExtraOption = DownHoodie;TieOnWaist,
+		clothingExtraSubmenu = UpHoodie,
+        BodyLocation = Jacket,
+        BloodLocation = Jumper;FullHelmet,
+        Icon = ShirtLumberjackTurquoise,
+        ScratchDefense = 10,
+        Insulation = 0.55,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+        WorldStaticModel = Hoodie_Ground,		
+    }
+	
+    item HoodieTied_TurquoisePlaid
+    {
+        Type = Clothing,
+        DisplayName = Tied Hoodie,
+        ClothingItem = HoodieTied_TurquoisePlaid,
+        ClothingItemExtra = HoodieDOWN_TurquoisePlaid;HoodieUP_TurquoisePlaid,
+        ClothingItemExtraOption = DownHoodie;UpHoodie,
+		clothingExtraSubmenu = TiedHoodie,		
+		BodyLocation = TorsoExtra,
+		BloodLocation = Apron,
+        Icon = ShirtLumberjackTurquoise,
+        ScratchDefense = 10,
+        Insulation = 0.55,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+        WorldStaticModel = Hoodie_Ground,		
+    }	
+
+    item HoodieDOWN_YellowPlaid
+    {
+        Type = Clothing,
+        DisplayName = Yellow Plaid Hoodie,
+        ClothingItem = HoodieDOWN_YellowPlaid,
+        ClothingItemExtra = HoodieUP_YellowPlaid;HoodieTied_YellowPlaid,
+        ClothingItemExtraOption = UpHoodie;TieOnWaist,
+        clothingExtraSubmenu = DownHoodie,
+        BodyLocation = Jacket,
+        BloodLocation = Jumper,
+        Icon = ShirtLumberjackYellow,
+        ScratchDefense = 10,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.6,
+        WindResistance = 0.25,
+        FabricType = Cotton,
+        WorldStaticModel = Hoodie_Ground,		
+    }
+
+    item HoodieUP_YellowPlaid
+    {
+        Type = Clothing,
+        DisplayName = Yellow Plaid Hoodie,
+        ClothingItem = HoodieUP_YellowPlaid,
+        ClothingItemExtra = HoodieDOWN_YellowPlaid;HoodieTied_YellowPlaid,
+        ClothingItemExtraOption = DownHoodie;TieOnWaist,
+		clothingExtraSubmenu = UpHoodie,
+        BodyLocation = Jacket,
+        BloodLocation = Jumper;FullHelmet,
+        Icon = ShirtLumberjackYellow,
+        ScratchDefense = 10,
+        Insulation = 0.55,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+        WorldStaticModel = Hoodie_Ground,		
+    }
+	
+    item HoodieTied_YellowPlaid
+    {
+        Type = Clothing,
+        DisplayName = Tied Hoodie,
+        ClothingItem = HoodieTied_YellowPlaid,
+        ClothingItemExtra = HoodieDOWN_YellowPlaid;HoodieUP_YellowPlaid,
+        ClothingItemExtraOption = DownHoodie;UpHoodie,
+		clothingExtraSubmenu = TiedHoodie,		
+		BodyLocation = TorsoExtra,
+		BloodLocation = Apron,
+        Icon = ShirtLumberjackYellow,
+        ScratchDefense = 10,
+        Insulation = 0.55,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+        WorldStaticModel = Hoodie_Ground,		
+    }	
+
     item HoodieDOWN_Vegan
     {
         Type = Clothing,
-        DisplayName = Hoodie,
+        DisplayName = Vegan Hoodie,
         ClothingItem = HoodieDOWN_Vegan,
-        ClothingItemExtra = HoodieUP_Vegan,
-        ClothingItemExtraOption = UpHoodie,
+        ClothingItemExtra = HoodieUP_Vegan;HoodieTied_Vegan,
+        ClothingItemExtraOption = UpHoodie;TieOnWaist,
         BodyLocation = Jacket,
         BloodLocation = Jumper,
         Icon = HoodieVegan,
@@ -722,10 +1182,10 @@ module AuthenticZClothing {
     item HoodieUP_Vegan
     {
         Type = Clothing,
-        DisplayName = Hoodie,
+        DisplayName = Vegan Hoodie,
         ClothingItem = HoodieUP_Vegan,
-        ClothingItemExtra = HoodieDOWN_Vegan,
-        ClothingItemExtraOption = DownHoodie,
+        ClothingItemExtra = HoodieDOWN_Vegan;HoodieTied_Vegan,
+        ClothingItemExtraOption = DownHoodie;TieOnWaist,
         BodyLocation = Jacket,
         BloodLocation = Jumper;FullHelmet,
         Icon = HoodieVegan,
@@ -734,7 +1194,24 @@ module AuthenticZClothing {
         WindResistance = 0.2,
         FabricType = Cotton,
         WorldStaticModel = Hoodie_Ground,		
-    }	
+    }
+    item HoodieTied_Vegan
+    {
+        Type = Clothing,
+        DisplayName = Vegan Hoodie (Tied),
+        ClothingItem = HoodieTied_Vegan,
+        ClothingItemExtra = HoodieDOWN_Vegan;HoodieUP_Vegan,
+        ClothingItemExtraOption = DownHoodie;UpHoodie,
+		clothingExtraSubmenu = TiedHoodie,		
+		BodyLocation = TorsoExtra,
+		BloodLocation = Apron,
+        Icon = HoodieVegan,
+        ScratchDefense = 10,
+        Insulation = 0.55,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+        WorldStaticModel = Hoodie_Ground,		
+    }		
     item HoodieDOWN_WhiteTINT
     {
         Type = Clothing,

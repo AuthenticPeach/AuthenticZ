@@ -3428,10 +3428,6 @@
 		<guid>5f7a3b56-e59b-41c4-88cd-3e5021cc4c7a</guid>
 	</files>
 	<files>
-		<path>media/clothing/clothingItems/Hat_GhostFace.xml</path>
-		<guid>d8b897bb-0453-4a2f-ada8-f109ae85fba0</guid>
-	</files>
-	<files>
 		<path>media/clothing/clothingItems/Hat_FootballHelmet_BlueStar.xml</path>
 		<guid>c7974158-16f1-4239-90f4-1ceff85160e3</guid>
 	</files>	
@@ -3451,6 +3447,10 @@
 		<path>media/clothing/clothingItems/Hat_Grimes.xml</path>
 		<guid>7445da27-d930-4290-af26-515a04c96f8f</guid>
 	</files>
+	<files>
+		<path>media/clothing/clothingItems/Hat_GhostFace.xml</path>
+		<guid>d8b897bb-0453-4a2f-ada8-f109ae85fba0</guid>
+	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Hat_HockeyMaskJason.xml</path>
 		<guid>3f69a2cd-417f-4cac-908c-ee57680554f1</guid>
@@ -3530,6 +3530,118 @@
 	<files>
 		<path>media/clothing/clothingItems/HoodieDOWN_Bengal.xml</path>
 		<guid>9d9ec66e-4108-42d7-9d9d-64d003a31b54</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/HoodieTied_Bengal.xml</path>
+		<guid>860ed528-4643-4cbd-ba78-6508231275f1</guid>
+	</files>	
+	<files>
+		<path>media/clothing/clothingItems/HoodieUP_BluePlaid.xml</path>
+		<guid>e90560d6-de61-425e-af66-0e5fc0efd734</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/HoodieDOWN_BluePlaid.xml</path>
+		<guid>ee0412e4-f970-4ede-b3e8-53f705bbb0b0</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/HoodieTied_BluePlaid.xml</path>
+		<guid>54537fa4-e1af-45db-b9c0-3ca202e1540d</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/HoodieUP_GreenPlaid.xml</path>
+		<guid>e775f07f-dd35-4cfa-a7bf-ef032e95967d</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/HoodieDOWN_GreenPlaid.xml</path>
+		<guid>b35a6a76-de65-4ef5-89f9-33b8d8339e8b</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/HoodieTied_GreenPlaid.xml</path>
+		<guid>ced2fbff-5d3f-4bc1-a2c5-623ae05ea0f9</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/HoodieUP_GreyPlaid.xml</path>
+		<guid>712714d1-6494-41ea-b3ce-426453e50372</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/HoodieDOWN_GreyPlaid.xml</path>
+		<guid>d2b2286c-422e-46f7-80ba-350e55b43c89</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/HoodieTied_GreyPlaid.xml</path>
+		<guid>9bbf9c64-f11a-4755-b765-cafa3ffebdfe</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/HoodieUP_GreyPlaid.xml</path>
+		<guid>712714d1-6494-41ea-b3ce-426453e50372</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/HoodieDOWN_GreyPlaid.xml</path>
+		<guid>d2b2286c-422e-46f7-80ba-350e55b43c89</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/HoodieTied_GreyPlaid.xml</path>
+		<guid>9bbf9c64-f11a-4755-b765-cafa3ffebdfe</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/HoodieUP_OrangePlaid.xml</path>
+		<guid>534242a8-5c8f-4678-bff3-32b6bd9ecd3b</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/HoodieDOWN_OrangePlaid.xml</path>
+		<guid>91ed5bad-1aca-42f1-b06c-9fafacfb0ec5</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/HoodieTied_OrangePlaid.xml</path>
+		<guid>a6a3b973-6cd1-4fcd-98e4-cc5cb41b2fa5</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/HoodieUP_PurplePlaid.xml</path>
+		<guid>271286a4-0b78-40b2-a59e-dd48a7effcbb</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/HoodieDOWN_PurplePlaid.xml</path>
+		<guid>cf7df49d-d2bb-4179-be1d-3da0d665f58a</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/HoodieTied_PurplePlaid.xml</path>
+		<guid>e35b1af1-70c1-4654-824e-6960b7eba4ca</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/HoodieUP_RedPlaid.xml</path>
+		<guid>97b10b76-c28a-4a1f-9bab-270c40825f92</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/HoodieDOWN_RedPlaid.xml</path>
+		<guid>88165964-a84e-4b19-b162-122032a477f7</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/HoodieTied_RedPlaid.xml</path>
+		<guid>3377089d-812f-4c21-b2b5-dc49b96ac20d</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/HoodieUP_TurquoisePlaid.xml</path>
+		<guid>acbae157-4226-42b8-952b-f199cc663af3</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/HoodieDOWN_TurquoisePlaid.xml</path>
+		<guid>5f6ac375-ec62-4305-b663-129f43c4637f</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/HoodieTied_TurquoisePlaid.xml</path>
+		<guid>5a34bf64-937c-4526-84a0-ff06894f11e6</guid>
+	</files>	
+	<files>
+		<path>media/clothing/clothingItems/HoodieUP_YellowPlaid.xml</path>
+		<guid>3b9b9617-cb8b-4fda-8321-aec177aec522</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/HoodieDOWN_YellowPlaid.xml</path>
+		<guid>7552f3ee-85c0-4ccb-a4a2-154bf53a21af</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/HoodieTied_YellowPlaid.xml</path>
+		<guid>1c686e63-38cf-4b06-8f67-8c94688b999a</guid>
 	</files>	
 	<files>
 		<path>media/clothing/clothingItems/HoodieDOWN_Checkered.xml</path>
@@ -3546,6 +3658,10 @@
 	<files>
 		<path>media/clothing/clothingItems/HoodieUP_Vegan.xml</path>
 		<guid>9d3814ae-ccae-49f9-84cb-bcdd9ac57766</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/HoodieTied_Vegan.xml</path>
+		<guid>32943877-f7c8-4d92-a8f6-0dece35fcd82</guid>
 	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Jacket_ArmyCamoUrban.xml</path>

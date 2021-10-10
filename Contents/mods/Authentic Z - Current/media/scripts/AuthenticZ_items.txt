@@ -235,6 +235,7 @@ module AuthenticZClothing {
 		StaticModel 			= 	AuthenticCanteenCadetBlue,
 		primaryAnimMask 		= 	HoldingTorchRight,
         secondaryAnimMask 		= 	HoldingTorchLeft,
+		WorldStaticModel 		= 	AuthenticCanteenCadetBlue,	
 	}
 
 	item AuthenticCanteenCadetBluefull
@@ -255,6 +256,7 @@ module AuthenticZClothing {
 		StaticModel 			= 	AuthenticCanteenCadetBlue,
 		primaryAnimMask 		= 	HoldingTorchRight,
         secondaryAnimMask		= 	HoldingTorchLeft,
+		WorldStaticModel 		= 	AuthenticCanteenCadetBlue,			
 	}
 	item AuthenticCanteenDarkGreen
     	{
@@ -269,6 +271,7 @@ module AuthenticZClothing {
 		StaticModel 			= 	AuthenticCanteenDarkGreen,
 		primaryAnimMask 		= 	HoldingTorchRight,
         secondaryAnimMask 		= 	HoldingTorchLeft,
+		WorldStaticModel 		= 	AuthenticCanteenDarkGreen,			
 	}
 
 	item AuthenticCanteenDarkGreenfull
@@ -289,6 +292,7 @@ module AuthenticZClothing {
 		StaticModel 			= 	AuthenticCanteenDarkGreen,
 		primaryAnimMask 		= 	HoldingTorchRight,
         secondaryAnimMask		= 	HoldingTorchLeft,
+		WorldStaticModel 		= 	AuthenticCanteenDarkGreen,		
 	}
 	item AuthenticCanteenDarkGrey
     	{
@@ -303,6 +307,7 @@ module AuthenticZClothing {
 		StaticModel 			= 	AuthenticCanteenDarkGrey,
 		primaryAnimMask 		= 	HoldingTorchRight,
         secondaryAnimMask 		= 	HoldingTorchLeft,
+		WorldStaticModel 		= 	AuthenticCanteenDarkGrey,	
 	}
 
 	item AuthenticCanteenDarkGreyfull
@@ -323,6 +328,7 @@ module AuthenticZClothing {
 		StaticModel 			= 	AuthenticCanteenDarkGrey,
 		primaryAnimMask 		= 	HoldingTorchRight,
         secondaryAnimMask		= 	HoldingTorchLeft,
+		WorldStaticModel 		= 	AuthenticCanteenDarkGrey,		
 	}
 	item AuthenticCanteenForestGreen
     	{
@@ -337,6 +343,7 @@ module AuthenticZClothing {
 		StaticModel 			= 	AuthenticCanteenForestGreen,
 		primaryAnimMask 		= 	HoldingTorchRight,
         secondaryAnimMask 		= 	HoldingTorchLeft,
+		WorldStaticModel 		= 	AuthenticCanteenForestGreen,	
 	}
 
 
@@ -358,6 +365,7 @@ module AuthenticZClothing {
 		StaticModel 			= 	AuthenticCanteenForestGreen,
 		primaryAnimMask 		= 	HoldingTorchRight,
         secondaryAnimMask		= 	HoldingTorchLeft,
+		WorldStaticModel 		= 	AuthenticCanteenForestGreen,		
 	}
 	item AuthenticCanteenGrey
     	{
@@ -372,6 +380,7 @@ module AuthenticZClothing {
 		StaticModel 			= 	AuthenticCanteenGrey,
 		primaryAnimMask 		= 	HoldingTorchRight,
         secondaryAnimMask 		= 	HoldingTorchLeft,
+		WorldStaticModel 		= 	AuthenticCanteenGrey,		
 	}
 
 	item AuthenticCanteenGreyfull
@@ -392,6 +401,7 @@ module AuthenticZClothing {
 		StaticModel 			= 	AuthenticCanteenGrey,
 		primaryAnimMask 		= 	HoldingTorchRight,
         secondaryAnimMask		= 	HoldingTorchLeft,
+		WorldStaticModel 		= 	AuthenticCanteenGrey,		
 	}
 	item AuthenticCanteenSilver
     	{
@@ -406,6 +416,7 @@ module AuthenticZClothing {
 		StaticModel 			= 	AuthenticCanteenSilver,
 		primaryAnimMask 		= 	HoldingTorchRight,
         secondaryAnimMask 		= 	HoldingTorchLeft,
+		WorldStaticModel 		= 	AuthenticCanteenSilver,		
 	}
 
 	item AuthenticCanteenSilverfull
@@ -426,6 +437,7 @@ module AuthenticZClothing {
 		StaticModel 			= 	AuthenticCanteenSilver,
 		primaryAnimMask 		= 	HoldingTorchRight,
         secondaryAnimMask		= 	HoldingTorchLeft,
+		WorldStaticModel 		= 	AuthenticCanteenSilver,			
 	}
     item AuthenticCricketBat
 	{
@@ -470,22 +482,22 @@ module AuthenticZClothing {
 	
 	item Authentic_MilitaryFlashlightGrey
 	{
+		DisplayName	 =	Military Flashlight,
+		Icon		 =	MilitaryFlashlightGrey,
+		Type		 =	Drainable,
+		Weight		 =	0.5,
 		LightDistance	=	25,
-		Weight	=	0.5,
 		DisappearOnUse	=	FALSE,
-		Type	=	Drainable,
 		TorchCone	=	TRUE,
 		UseDelta	=	0.0009,
 		LightStrength	=	0.8,
-		DisplayName	=	Military Flashlight,
 		ActivatedItem	=	TRUE,
-		Icon	=	MilitaryFlashlightGrey,
-		MetalValue = 10,
-		cantBeConsolided = TRUE,
-		StaticModel = Authentic_MilitaryFlashlightGrey,
-		AttachmentType = ChestLight,
-		primaryAnimMask = HoldingTorchRight,
-        secondaryAnimMask = HoldingTorchLeft,
+		cantBeConsolided 	 = TRUE,
+		StaticModel 		 = Authentic_MilitaryFlashlightGrey,
+		AttachmentType	 	 = BigWeapon,
+		primaryAnimMask 	 = HoldingTorchRight,
+        secondaryAnimMask	 = HoldingTorchLeft,
+		WorldStaticModel 	 = 	Authentic_MilitaryFlashlightGrey,			
 	}  
 
 	recipe Remove Battery
@@ -529,22 +541,23 @@ module AuthenticZClothing {
 
 	item Authentic_MilitaryFlashlightGreen
 	{
-		LightDistance	=	25,
-		Weight	=	0.5,
-		DisappearOnUse	=	FALSE,
-		Type	=	Drainable,
-		TorchCone	=	TRUE,
-		UseDelta	=	0.0009,
-		LightStrength	=	0.8,
-		DisplayName	=	Military Flashlight,
-		ActivatedItem	=	TRUE,
-		Icon	=	MilitaryFlashlightGreen,
-		MetalValue = 10,
-		cantBeConsolided = TRUE,
-		StaticModel = Authentic_MilitaryFlashlightGreen,
-		AttachmentType = ChestLight,
-		primaryAnimMask = HoldingTorchRight,
-        secondaryAnimMask = HoldingTorchLeft,
+		DisplayName			=	Military Flashlight,	
+		Icon				=	MilitaryFlashlightGreen,
+		Type				=	Drainable,		
+		Weight				=	0.5,		
+		LightDistance		=	25,
+		DisappearOnUse		=	FALSE,
+		TorchCone			=	TRUE,
+		UseDelta			=	0.0009,
+		LightStrength		=	0.8,
+		ActivatedItem		=	TRUE,
+		MetalValue 			= 	10,
+		cantBeConsolided 	=	TRUE,
+		StaticModel 		=	Authentic_MilitaryFlashlightGreen,
+		AttachmentType 		=	BigWeapon,
+		primaryAnimMask 	=	HoldingTorchRight,
+        secondaryAnimMask 	=	HoldingTorchLeft,
+		WorldStaticModel 	= 	Authentic_MilitaryFlashlightGreen,			
 	}  
 
 	recipe Remove Battery
@@ -576,7 +589,7 @@ module AuthenticZClothing {
       keep Screwdriver,
 
       Result:ElectronicsScrap,
-      Time:30.0,
+      Time:50.0,
       OnTest:TorchBatteryInsert_TestIsValid,
       OnGiveXP:DismantleElectronics_OnGiveXP,
       OnCreate:TorchDismantle_OnCreate,
