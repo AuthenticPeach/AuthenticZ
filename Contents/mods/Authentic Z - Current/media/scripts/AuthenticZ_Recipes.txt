@@ -109,13 +109,6 @@ recipe Convert to Torch
 	   Time:30.0,
   	}
 
-recipe Convert into Item
-  	{
-   	   Authentic_WalkieTalkie4,
-
-   	   Result:WalkieTalkie4,
-	   Time:30.0,
-  	}
 
 recipe Tie Balloons Together
   	{
@@ -191,4 +184,20 @@ recipe Draw Hitlist 3
    	   Result:PZAZ_HitList3,
 	   Time:70.0,
   	}
+recipe Tie Hoodie Around Waist
+  	{
+   	   HoodieUP_WhiteTINT,
+
+   	   Result:HoodieTied_WhiteTINT,
+	   Time:30.0,
+	   Tooltip:Tooltip_HoodieCraft,	   
+  	}	
+recipe Tie Hoodie Around Waist
+  	{
+   	   HoodieDOWN_WhiteTINT,
+
+   	   Result:HoodieTied_WhiteTINT,
+	   Time:30.0,
+	   Tooltip:Tooltip_HoodieCraft,
+  	}		
 }		

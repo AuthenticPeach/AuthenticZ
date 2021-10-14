@@ -5,7 +5,7 @@ module AuthenticZClothing {
 	item Rainboots_Yellow
 	{
 		Type = Clothing,
-		DisplayName = Rain Boots,
+		DisplayName = Yellow Rain Boots,
 		ClothingItem = Rainboots_Yellow,
 		BodyLocation = Shoes,
 		BloodLocation = Shoes,
@@ -45,7 +45,7 @@ module AuthenticZClothing {
 	item Shoes_BillMurray
 	{
 		Type = Clothing,
-		DisplayName = Sneakers,
+		DisplayName = Designer Shoes,
 		ClothingItem = Shoes_BillMurray,
 		BodyLocation = Shoes,
 		BloodLocation = Shoes,
@@ -63,7 +63,7 @@ module AuthenticZClothing {
 	item Shoes_BrownBoots
 	{
 		Type = Clothing,
-		DisplayName = Boots,
+		DisplayName = Brown Boots,
 		ClothingItem = Shoes_BrownBoots,
 		BodyLocation = Shoes,
 		BloodLocation = Shoes,
@@ -110,7 +110,7 @@ module AuthenticZClothing {
 	item Shoes_JimmyGibbs
 	{
 		Type = Clothing,
-		DisplayName = Sneakers,
+		DisplayName = Blue Striped Sneakers,
 		ClothingItem = Shoes_JimmyGibbs,
 		BodyLocation = Shoes,
 		BloodLocation = Shoes,
@@ -281,7 +281,7 @@ module AuthenticZClothing {
 	item Shoes_White
 	{
 		Type = Clothing,
-		DisplayName = Shoes,
+		DisplayName = White Shoes,
 		ClothingItem = Shoes_White,
 		BodyLocation = Shoes,
 		BloodLocation = Shoes,
@@ -343,7 +343,7 @@ module AuthenticZClothing {
 		item Socks_Long_NurseThigh
 	{
 		Type = Clothing,
-		DisplayName = Long Socks,
+		DisplayName = Nurse Stockings,
 		ClothingItem = Socks_Long_NurseThigh,
 		BodyLocation = Socks,
 		Icon = SocksThighHigh,

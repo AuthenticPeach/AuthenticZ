@@ -2997,6 +2997,41 @@
 				<itemGUID>0a09ac23-a71b-490c-8c25-19eba9ed66fb</itemGUID>
 			</subItems>
 		</m_items>
+		<m_items> <!-- Hoodie-->
+			<probability>0.08</probability>
+			<itemGUID>623c97c5-49f2-4763-bafb-549a881d6495</itemGUID>
+			<subItems>
+				<itemGUID>51851e1a-3c3d-473d-8894-8cde0770b645</itemGUID>
+			</subItems>
+
+			<subItems>
+				<itemGUID>150da59c-789f-4a6b-b5c8-6b14b22fa6f6</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>ee0412e4-f970-4ede-b3e8-53f705bbb0b0</itemGUID>
+			</subItems>	
+			<subItems>
+				<itemGUID>ced2fbff-5d3f-4bc1-a2c5-623ae05ea0f9</itemGUID>
+			</subItems>			
+			<subItems>
+				<itemGUID>712714d1-6494-41ea-b3ce-426453e50372</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>91ed5bad-1aca-42f1-b06c-9fafacfb0ec5</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>e35b1af1-70c1-4654-824e-6960b7eba4ca</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>88165964-a84e-4b19-b162-122032a477f7</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>5f6ac375-ec62-4305-b663-129f43c4637f</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>1c686e63-38cf-4b06-8f67-8c94688b999a</itemGUID>
+			</subItems>			
+		</m_items>		
 		<m_items> <!-- Socks-->
 			<itemGUID>ebea15c8-99b3-4e20-905b-d22cf82b8217</itemGUID>
 			<subItems>
@@ -5446,8 +5481,8 @@
 		<m_items> <!-- Shoes-->
 			<itemGUID>593bea3d-c127-4574-ac1e-2197dc56e486</itemGUID>
 		</m_items>
-		<m_items> <!-- Tie-->
-			<itemGUID>1be7cae9-82bd-473f-8de9-23a8d9ca3117</itemGUID>
+		<m_items> <!-- Red Tie-->
+			<itemGUID>b7a21a90-03ca-4c52-b65e-11a245fb53bb</itemGUID>
 		</m_items>
 		<m_items> <!-- Formal Shirt-->
 			<itemGUID>ac7976de-2c73-44ea-9392-5d24ac1fb649</itemGUID>
@@ -5883,9 +5918,40 @@
 				<itemGUID>0383956a-3fbd-4001-9749-69e2ba70b134</itemGUID>
 			</subItems>
 		</m_items>
-		<m_items> <!-- Hoodie -->
+		<m_items> <!-- Hoodie-->
 			<probability>0.2</probability>
-			<itemGUID>51851e1a-3c3d-473d-8894-8cde0770b645</itemGUID>
+			<itemGUID>623c97c5-49f2-4763-bafb-549a881d6495</itemGUID>
+			<subItems>
+				<itemGUID>51851e1a-3c3d-473d-8894-8cde0770b645</itemGUID>
+			</subItems>
+
+			<subItems>
+				<itemGUID>150da59c-789f-4a6b-b5c8-6b14b22fa6f6</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>ee0412e4-f970-4ede-b3e8-53f705bbb0b0</itemGUID>
+			</subItems>	
+			<subItems>
+				<itemGUID>ced2fbff-5d3f-4bc1-a2c5-623ae05ea0f9</itemGUID>
+			</subItems>			
+			<subItems>
+				<itemGUID>712714d1-6494-41ea-b3ce-426453e50372</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>91ed5bad-1aca-42f1-b06c-9fafacfb0ec5</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>e35b1af1-70c1-4654-824e-6960b7eba4ca</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>88165964-a84e-4b19-b162-122032a477f7</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>5f6ac375-ec62-4305-b663-129f43c4637f</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>1c686e63-38cf-4b06-8f67-8c94688b999a</itemGUID>
+			</subItems>			
 		</m_items>
 	</m_MaleOutfits>	
 	
@@ -6035,9 +6101,40 @@
 				<itemGUID>582f29b1-29b3-468c-87fe-263b043e1443</itemGUID>
 			</subItems>
 		</m_items>
-		<m_items> <!-- Hoodies -->
+		<m_items> <!-- Hoodie-->
 			<probability>0.2</probability>
-			<itemGUID>51851e1a-3c3d-473d-8894-8cde0770b645</itemGUID>
+			<itemGUID>623c97c5-49f2-4763-bafb-549a881d6495</itemGUID>
+			<subItems>
+				<itemGUID>51851e1a-3c3d-473d-8894-8cde0770b645</itemGUID>
+			</subItems>
+
+			<subItems>
+				<itemGUID>150da59c-789f-4a6b-b5c8-6b14b22fa6f6</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>ee0412e4-f970-4ede-b3e8-53f705bbb0b0</itemGUID>
+			</subItems>	
+			<subItems>
+				<itemGUID>ced2fbff-5d3f-4bc1-a2c5-623ae05ea0f9</itemGUID>
+			</subItems>			
+			<subItems>
+				<itemGUID>712714d1-6494-41ea-b3ce-426453e50372</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>91ed5bad-1aca-42f1-b06c-9fafacfb0ec5</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>e35b1af1-70c1-4654-824e-6960b7eba4ca</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>88165964-a84e-4b19-b162-122032a477f7</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>5f6ac375-ec62-4305-b663-129f43c4637f</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>1c686e63-38cf-4b06-8f67-8c94688b999a</itemGUID>
+			</subItems>			
 		</m_items>
 	</m_FemaleOutfits>
 	

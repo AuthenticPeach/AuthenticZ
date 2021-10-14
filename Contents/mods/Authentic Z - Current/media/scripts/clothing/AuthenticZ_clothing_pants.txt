@@ -33,7 +33,7 @@ module AuthenticZClothing {
     item Skirt_ShortBlack
     {
         Type = Clothing,
-        DisplayName = Short Skirt,
+        DisplayName = Short Black Skirt,
         ClothingItem = Skirt_ShortBlack,
         BodyLocation = Skirt,
         Icon = SkirtShortBlack,
@@ -45,7 +45,7 @@ module AuthenticZClothing {
     item Skirt_ShortCheerleader
     {
         Type = Clothing,
-        DisplayName = Short Skirt,
+        DisplayName = Cheerleader Short Skirt,
         ClothingItem = Skirt_ShortCheerleader,
         BodyLocation = Skirt,
         Icon = Cheerleader_Skirt,
@@ -57,7 +57,7 @@ module AuthenticZClothing {
     item Skirt_ShortJessie
     {
         Type = Clothing,
-        DisplayName = Short Skirt,
+        DisplayName = Short Beige Skirt,
         ClothingItem = Skirt_ShortJessie,
         BodyLocation = Skirt,
         Icon = SkirtShortJessie,
@@ -69,7 +69,7 @@ module AuthenticZClothing {
     item Skirt_ShortXian
     {
         Type = Clothing,
-        DisplayName = Short Skirt,
+        DisplayName = Short Red Skirt,
         ClothingItem = Skirt_ShortXian,
         BodyLocation = Skirt,
         Icon = XianRed_Skirt,
@@ -81,7 +81,7 @@ module AuthenticZClothing {
     item SnowGhillie_Trousers
     {
         Type = Clothing,
-        DisplayName = Snow Ghillie Suit Pants,
+        DisplayName = Snow Ghillie Pants,
         ClothingItem = SnowGhillie_Trousers,
         BodyLocation = Pants,
         BloodLocation = Trousers,
@@ -193,26 +193,11 @@ module AuthenticZClothing {
         WaterResistance = 0.35,
         FabricType = Cotton,
         WorldStaticModel = Trousers_Ground,		
-    }	
-   	item Trousers_Coach
-    {
-        Type = Clothing,
-        DisplayName = Khaki Pants,
-        ClothingItem = Trousers_Coach,
-        BodyLocation = Pants,
-        Icon = TrousersKhaki,
-        BloodLocation = Trousers,
-        ScratchDefense = 10,
-        Insulation = 0.75,
-        WindResistance = 0.75,
-        WaterResistance = 0.35,
-        FabricType = Cotton,
-        WorldStaticModel = Trousers_Ground,		
     }
     item Trousers_DefaultJeans
     {
         Type = Clothing,
-        DisplayName = Pants,
+        DisplayName = Jeans,
         ClothingItem = Trousers_DefaultJeans,
         BodyLocation = Pants,
         Icon = TrousersDenimBlack,
@@ -321,7 +306,7 @@ module AuthenticZClothing {
     item TrousersMesh_Bill
     {
         Type = Clothing,
-        DisplayName = Pants,
+        DisplayName = Green Pants,
         ClothingItem = TrousersMesh_Bill,
         BodyLocation = Pants,
         Icon = TrousersBill,
@@ -353,7 +338,7 @@ module AuthenticZClothing {
     item Trousers_JeanDark
     {
         Type = Clothing,
-        DisplayName = Pants,
+        DisplayName = Jeans,
         ClothingItem = Trousers_JeanDark,
         BodyLocation = Pants,
         Icon = TrousersDenimBlack,
@@ -374,7 +359,7 @@ module AuthenticZClothing {
         BodyLocation = Pants,
         Icon = TrousersSuitJimmyGibbs,
         BloodLocation = Trousers,
-	RunSpeedModifier = 0.92,
+		RunSpeedModifier = 0.92,
         BiteDefense = 20,
         ScratchDefense = 25,
         Insulation = 0.7,
@@ -457,7 +442,7 @@ module AuthenticZClothing {
     item Trousers_SportRed
     {
         Type = Clothing,
-        DisplayName = Long Sports Pants,
+        DisplayName = Long Red Sports Pants,
         ClothingItem = Trousers_SportRed,
         BodyLocation = Pants,
         Icon = TrousersAthleticRed,
@@ -470,7 +455,7 @@ module AuthenticZClothing {
     item Trousers_SportBlue
     {
         Type = Clothing,
-        DisplayName = Long Sports Pants,
+        DisplayName = Long Blue Sports Pants,
         ClothingItem = Trousers_SportBlue,
         BodyLocation = Pants,
         Icon = TrousersAthleticBlue,
@@ -483,7 +468,7 @@ module AuthenticZClothing {
     item Trousers_SportGreen
     {
         Type = Clothing,
-        DisplayName = Long Sports Pants,
+        DisplayName = Long Green Sports Pants,
         ClothingItem = Trousers_SportGreen,
         BodyLocation = Pants,
         Icon = TrousersAthleticGreen,
@@ -496,7 +481,7 @@ module AuthenticZClothing {
     item Trousers_SportYellow
     {
         Type = Clothing,
-        DisplayName = Long Sports Pants,
+        DisplayName = Long Yellow Sports Pants,
         ClothingItem = Trousers_SportYellow,
         BodyLocation = Pants,
         Icon = TrousersAthleticYellow,
@@ -509,7 +494,7 @@ module AuthenticZClothing {
     item Trousers_SuitBlack
     {
         Type = Clothing,
-        DisplayName = Suit Pants,
+        DisplayName = Black Suit Pants,
         ClothingItem = Trousers_SuitBlack,
         BodyLocation = Pants,
         Icon = TrousersSuitBlack,

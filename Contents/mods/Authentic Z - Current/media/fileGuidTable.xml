@@ -1115,7 +1115,7 @@
 	<files>
 		<path>media/clothing/clothingItems/HoodieUP_WhiteTINT.xml</path>
 		<guid>623c97c5-49f2-4763-bafb-549a881d6495</guid>
-	</files>
+	</files>	
 	<files>
 		<path>media/clothing/clothingItems/JacketLong_Doctor.xml</path>
 		<guid>d66bd59d-75c5-4cea-9474-a3b69c67f71d</guid>
@@ -3662,6 +3662,10 @@
 	<files>
 		<path>media/clothing/clothingItems/HoodieTied_Vegan.xml</path>
 		<guid>32943877-f7c8-4d92-a8f6-0dece35fcd82</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/HoodieTied_WhiteTINT.xml</path>
+		<guid>bdce1bb6-2f77-4f81-bf3d-d13faa434c6d</guid>
 	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Jacket_ArmyCamoUrban.xml</path>
@@ -4135,6 +4139,10 @@
 		<path>media/clothing/clothingItems/Tie_Full_BlueSpy.xml</path>
 		<guid>3a013e42-8e4b-4445-9a30-76ae39640d50</guid>
 	</files>
+	<files>
+		<path>media/clothing/clothingItems/Tie_Full_Red.xml</path>
+		<guid>b7a21a90-03ca-4c52-b65e-11a245fb53bb</guid>
+	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Tie_Full_Brad.xml</path>
 		<guid>5a880674-b4e2-441a-8207-6b69b233d1c4</guid>

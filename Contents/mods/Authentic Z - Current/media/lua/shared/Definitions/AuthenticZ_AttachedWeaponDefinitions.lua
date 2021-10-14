@@ -1028,7 +1028,7 @@ AuthenticZ_AttachedWeaponDefinitions.AuthenticWalkieTalkie2 = {
 AuthenticZ_AttachedWeaponDefinitions.AuthenticCanteen = {
 	id = "AuthenticCanteen",
 	chance = 100,
-	outfit = {"AuthenticB4BHoffman"},
+	outfit = {"AuthenticB4BHoffman", "AuthenticSurvivorHazardSuit", "AuthenticSurvivorPolice", "AuthenticSurvivorRanger"},
 	weaponLocation = {"Canteen Left", "Canteen Right"},
 	bloodLocations = nil,
 	addHoles = false,
@@ -1605,6 +1605,7 @@ AuthenticZ_AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticSurvivo
 		AuthenticZ_AttachedWeaponDefinitions.handgunHolster,
 		AuthenticZ_AttachedWeaponDefinitions.knivesBelt,
 		AuthenticZ_AttachedWeaponDefinitions.constructionworker,
+		AuthenticZ_AttachedWeaponDefinitions.AuthenticCanteen,
 	},
 }
 AuthenticZ_AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticSecretService = {
@@ -1654,6 +1655,7 @@ AuthenticZ_AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticSurvivo
 		AuthenticZ_AttachedWeaponDefinitions.knivesBelt,
 		AuthenticZ_AttachedWeaponDefinitions.shotgunPolice,
 		AuthenticZ_AttachedWeaponDefinitions.nightstick,
+		AuthenticZ_AttachedWeaponDefinitions.AuthenticCanteen,
 	},
 }
 AuthenticZ_AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticSurvivorRanger = {
@@ -1663,6 +1665,7 @@ AuthenticZ_AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticSurvivo
 		AuthenticZ_AttachedWeaponDefinitions.handgunHolster,
 		AuthenticZ_AttachedWeaponDefinitions.knivesBelt,
 		AuthenticZ_AttachedWeaponDefinitions.shotgunPolice,
+		AuthenticZ_AttachedWeaponDefinitions.AuthenticCanteen,
 	},
 }
 AuthenticZ_AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticSurvivorL4D = {

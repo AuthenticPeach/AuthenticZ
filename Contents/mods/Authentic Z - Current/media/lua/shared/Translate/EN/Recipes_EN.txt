@@ -8,4 +8,5 @@ Tooltip_EN = {
 	Recipe_Draw_Hitlist_1 = "Draw Hitlist 1",
 	Recipe_Draw_Hitlist_2 = "Draw Hitlist 2",
 	Recipe_Draw_Hitlist_3 = "Draw Hitlist 3",
+	Recipe_Tie_Hoodie_Around_Waist = "Tie Hoodie Around Waist",
 	}

@@ -7,7 +7,7 @@ module Base
 		attachment Canteen_L
 		{
 			offset = -0.141 -0.089 0.070,
-			rotate = -180.0000 -80.0000 -26.0000,
+			rotate = -180.0000 -105.0000 154.0000,
 			bone = Bip01_Spine1,
 		}
 

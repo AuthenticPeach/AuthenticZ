@@ -8,4 +8,5 @@ Tooltip_CN = {
 	Recipe_Draw_Hitlist_1 = "绘制击杀清单1",
 	Recipe_Draw_Hitlist_2 = "绘制击杀清单2",
 	Recipe_Draw_Hitlist_3 = "绘制击杀清单3",
+	Recipe_Tie_Hoodie_Around_Waist = "把连帽衫系在腰部",
 	}

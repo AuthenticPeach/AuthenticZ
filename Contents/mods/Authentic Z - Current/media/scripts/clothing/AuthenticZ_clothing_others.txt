@@ -519,6 +519,16 @@ module AuthenticZClothing {
         Weight = 0.1,
 		WorldStaticModel = Tie_Ground,
     }
+	item Tie_Full_Red
+    {
+        Type = Clothing,
+        DisplayName = Red Tie,
+        ClothingItem = Tie_Full_Red,
+        BodyLocation = Neck,
+        Icon = TieRed,
+        Weight = 0.1,
+		WorldStaticModel = Tie_Ground,
+    }	
 	item Tie_BowTieWorn_Blue
 	{
 		Type = Clothing,

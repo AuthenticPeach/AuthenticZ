@@ -7,6 +7,7 @@ Tooltip_EN = {
 	Tooltip_Hand = "4 Fingers left....",
 	Tooltip_HandTorch2 = "Slightly Damaged",
 	Tooltip_Heart = "Stopped beating some time ago...",
+	Tooltip_HoodieCraft = "The hoodie's color will change.",
 	Tooltip_JasonV = "Best to burn this before he returns...."
 	Tooltip_Kidney = "This was not donated...."
 	Tooltip_Liver = "Someone's old liver...."

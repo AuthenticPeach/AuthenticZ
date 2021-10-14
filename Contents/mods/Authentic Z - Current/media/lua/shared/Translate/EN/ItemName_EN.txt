@@ -1,5 +1,7 @@
 ItemName_EN = {
 
+/* Bags */
+
 	ItemName_AuthenticZClothing.Bag_B4BEvangelo = "Evangelo's Backpack",
 	ItemName_AuthenticZClothing.Bag_B4BHoffman = "Hoffman's Backpack",
 	ItemName_AuthenticZClothing.Bag_B4BHolly = "Holly's Backpack",
@@ -7,11 +9,19 @@ ItemName_EN = {
 	ItemName_AuthenticZClothing.Bag_B4BWalker = "Walker's Backpack",
 	ItemName_AuthenticZClothing.Bag_SchoolBagCEDA = "CEDA Hazmat Pack",
 	ItemName_AuthenticZClothing.Bag_SchoolBagNBH = "NBH Hazmat Pack",	
-	ItemName_AuthenticZClothing.Bag_ProtonPack_Back = "Proton Pack",	
+	ItemName_AuthenticZClothing.Bag_ProtonPack_Back = "Proton Pack",
+	ItemName_AuthenticZClothing.Bag_UtilityBeltFront = "Utility Belt (Tightened)",
+	ItemName_AuthenticZClothing.Bag_UtilityBelt_Loose = "Utility Belt (Loosened)",
+	ItemName_AuthenticZClothing.Bag_UtilityBeltDesert = "Desert Utility Belt (Tightened)",
+	ItemName_AuthenticZClothing.Bag_UtilityBeltDesert_Loose	= "Desert Utility Belt (Loosened)",
 	ItemName_AuthenticZClothing.Suitcase2 = "Suitcase",	
+	
+/* Jewelry */
 
 	ItemName_AuthenticZClothing.Necklace_B = "Gold B Necklace",
 	ItemName_AuthenticZClothing.Necklace_GoldCrucifix = "Gold Necklace with Crucifix",	
+	
+/* Suits */
 
     ItemName_AuthenticZClothing.Boilersuit_BigDaddy = "Big Daddy's Coveralls",
     ItemName_AuthenticZClothing.Boilersuit_BlackMamba = "Uma's Coveralls",
@@ -40,5 +50,69 @@ ItemName_EN = {
 	ItemName_AuthenticZClothing.Red_LongJohns = "Red Long Johns",
 	ItemName_AuthenticZClothing.WeddingDressBlue = "Blue Wedding Dress",	
 	ItemName_AuthenticZClothing.WeddingDressPink = "Pink Wedding Dress",
+
+/* Shoes */
 	
+	ItemName_AuthenticZClothing.Rainboots_Yellow = "Yellow Rain Boots",
+	ItemName_AuthenticZClothing.Shoes_ArmyBootsOrange = "Military Boots",
+	ItemName_AuthenticZClothing.Shoes_BillMurray = "Designer Shoes",
+	ItemName_AuthenticZClothing.Shoes_BrownBoots = "Brown Boots",
+	ItemName_AuthenticZClothing.Shoes_Clown = "Clown Shoes",	
+	ItemName_AuthenticZClothing.Shoes_JimmyGibbs = "Blue Striped Sneakers",	
+	ItemName_AuthenticZClothing.Shoes_Maid = "Maid Shoes",	
+	ItemName_AuthenticZClothing.Shoes_Nurse = "Nurse Shoes",
+	ItemName_AuthenticZClothing.Shoes_Pale = "Pale Shoes",	
+	ItemName_AuthenticZClothing.Shoes_TrainerBlack = "Black Sneakers",
+	ItemName_AuthenticZClothing.Shoes_TrainerBlackMamba = "Yellow Sneakers",	
+	ItemName_AuthenticZClothing.Shoes_TrainerGreenandWhite = "Green Sneakers",	
+	ItemName_AuthenticZClothing.Shoes_TrainerRedandBlack = "Red Sneakers",	
+	ItemName_AuthenticZClothing.Shoes_TrainerWhitePlain = "White Sneakers",		
+	ItemName_AuthenticZClothing.Shoes_White = "White Shoes",
+	ItemName_AuthenticZClothing.Socks_Long_Charcoal = "White Shoes",
+	ItemName_AuthenticZClothing.Socks_Long_MaidStockings = "Stockings",
+	ItemName_AuthenticZClothing.Socks_Long_MimeLeggings = "Mime Stockings",
+	ItemName_AuthenticZClothing.Socks_Long_NurseThigh = "Nurse Stockings",
+	ItemName_AuthenticZClothing.Socks_Long_RedStriped01 = "Red Striped Socks",	
+
+/* Pants */
+	
+	ItemName_AuthenticZClothing.BlackLeggings_Bottoms = "Black Leggings",		
+	ItemName_AuthenticZClothing.Shorts_LongDenimWhite = "White Denim Shorts",
+	ItemName_AuthenticZClothing.Skirt_ShortBlack = "Short Black Skirt",	
+	ItemName_AuthenticZClothing.Skirt_ShortCheerleader = "Cheerleader Short Skirt",	
+	ItemName_AuthenticZClothing.Skirt_ShortJessie = "Short Beige Skirt",
+	ItemName_AuthenticZClothing.Skirt_ShortXian = "Short Red Skirt",
+	ItemName_AuthenticZClothing.SnowGhillie_Trousers = "Snow Ghillie Pants",
+	ItemName_AuthenticZClothing.Trousers_BarbershopBlue = "Blue Trousers",
+	ItemName_AuthenticZClothing.Trousers_BarbershopGreen = "Green Trousers",
+	ItemName_AuthenticZClothing.Trousers_BarbershopPurple = "Purple Trousers",	
+	ItemName_AuthenticZClothing.Trousers_BarbershopRed = "Red Trousers",
+	ItemName_AuthenticZClothing.Trousers_BarbershopYellow = "Yellow Trousers",	
+	ItemName_AuthenticZClothing.Trousers_BelAir = "Designer Pants",		
+	ItemName_AuthenticZClothing.Trousers_BarbershopGreen = "Green Trousers",
+	ItemName_AuthenticZClothing.Trousers_Coach = "Khaki Pants",		
+	ItemName_AuthenticZClothing.Trousers_DefaultJeans = "Jeans",
+	ItemName_AuthenticZClothing.Trousers_FiremanNMRIH = "Firefighter Pants",	
+	ItemName_AuthenticZClothing.Trousers_Flyboy = "Khaki Pants",
+	ItemName_AuthenticZClothing.Trousers_Grimes = "Brown Ranger Pants",	
+	ItemName_AuthenticZClothing.Trousers_SuitBrad = "Brown Suit Pants",
+	ItemName_AuthenticZClothing.Trousers_SuitBrown = "Combat Pants",
+	ItemName_AuthenticZClothing.Trousers_SuitJoker = "Joker Suit Pants",
+	ItemName_AuthenticZClothing.TrousersMesh_Bill = "Green Pants",
+	ItemName_AuthenticZClothing.TrousersMesh_Bub = "Pants",
+	ItemName_AuthenticZClothing.Trousers_JeanDark = "Jeans",
+	ItemName_AuthenticZClothing.TrousersMesh_JimmyGibbs = "Jimmy Gibbs's Pants",
+	ItemName_AuthenticZClothing.Trousers_JohnMorgan = "Tactical Pants",
+	ItemName_AuthenticZClothing.Trousers_OliveDrab = "Olive Drab Pants",	
+	ItemName_AuthenticZClothing.Trousers_OliveDrab2 = "Olive Drab Pants",
+	ItemName_AuthenticZClothing.Trousers_Sport = "Jogger Pants",
+	ItemName_AuthenticZClothing.Trousers_SportKilla = "Killa's Jogger Pants",	
+	ItemName_AuthenticZClothing.Trousers_SportRed = "Long Red Sports Pants",
+	ItemName_AuthenticZClothing.Trousers_SportBlue = "Long Blue Sports Pants",		
+	ItemName_AuthenticZClothing.Trousers_SportGreen = "Long Green Sports Pants",		
+	ItemName_AuthenticZClothing.Trousers_SportYellow = "Long Yellow Sports Pants",	
+	ItemName_AuthenticZClothing.Trousers_SuitBlack = "Black Suit Pants",		
+	ItemName_AuthenticZClothing.Trousers_SuitGMan = "Navy Blue Suit Pants",	
+	ItemName_AuthenticZClothing.Trousers_SuitNick = "White Suit Pants",		
+	ItemName_AuthenticZClothing.Trousers_UncleSam = "Uncle Sam's Suit Pants",			
 }
