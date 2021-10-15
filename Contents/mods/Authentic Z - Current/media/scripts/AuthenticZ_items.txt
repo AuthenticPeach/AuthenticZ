@@ -6,7 +6,7 @@ module AuthenticZClothing {
 	{
         Weight	=	0.05,
         Type	=	Normal,
-        DisplayName	=	Zombie Hit-list,
+        DisplayName	=	Zombie Hit-list #1,
 		Map = media/ui/LootableMaps/PZAZ_hitlist.png,
         Icon	=	PZAZ_hitlist,
 	}
@@ -15,7 +15,7 @@ module AuthenticZClothing {
         Weight	=	0.05,
         Type	=	Normal,
         DisplayName	=	Zombie Hit-list #2,
-	Map = media/ui/LootableMaps/PZAZ_hitlist_2.png,
+		Map = media/ui/LootableMaps/PZAZ_hitlist_2.png,
         Icon	=	PZAZ_hitlist,
 	}
 	item PZAZ_HitList3
@@ -63,6 +63,7 @@ module AuthenticZClothing {
         WeaponLength = 0.2,		
 		AttachmentType			= 	BigWeapon,
         WorldStaticModel 		= 	WorldItem_AndySign,		
+		Tooltip 			= 	Tooltip_AuthenticAndyBoard,		
     }	
     item Authentic_Bandages
     {
@@ -105,7 +106,7 @@ module AuthenticZClothing {
     item AuthenticBalloon_Blue
     {
         Type				=	Normal,
-        DisplayName			=	Balloon,
+        DisplayName			=	Blue Balloon,
         Icon				=	Balloon_Blue,
         Weight				=	0.1,
         primaryAnimMask 		= 	HoldingUmbrellaRight,
@@ -117,7 +118,7 @@ module AuthenticZClothing {
     item AuthenticBalloon_Green
     {
         Type						=	Normal,
-        DisplayName					=	Balloon,
+        DisplayName					=	Green Balloon,
         Icon						=	Balloon_Green,
         Weight						=	0.1,
         primaryAnimMask 			= 	HoldingUmbrellaRight,
@@ -129,7 +130,7 @@ module AuthenticZClothing {
     item AuthenticBalloon_Purple
     {
         Type						=	Normal,
-        DisplayName					=	Balloon,
+        DisplayName					=	Purple Balloon,
         Icon						=	Balloon_Purple,
         Weight						=	0.1,
         primaryAnimMask 			= 	HoldingUmbrellaRight,
@@ -141,7 +142,7 @@ module AuthenticZClothing {
     item AuthenticBalloon_Red
     {
         Type							=	Normal,
-        DisplayName						=	Balloon,
+        DisplayName						=	Red Balloon,
         Icon							=	Balloon_Red,
         Weight							=	0.1,
         primaryAnimMask 				= 	HoldingUmbrellaRight,
@@ -153,7 +154,7 @@ module AuthenticZClothing {
     item AuthenticBalloon_White
     {
         Type						=	Normal,
-        DisplayName					=	Balloon,
+        DisplayName					=	White Balloon,
         Icon						=	Balloon_White,
         Weight						=	0.1,
         primaryAnimMask 			= 	HoldingUmbrellaRight,
@@ -165,7 +166,7 @@ module AuthenticZClothing {
     item AuthenticBalloon_Yellow
     {
         Type						=	Normal,
-        DisplayName					=	Balloon,
+        DisplayName					=	Yellow Balloon,
         Icon						=	Balloon_Yellow,
         Weight						=	0.1,
         primaryAnimMask 			= 	HoldingUmbrellaRight,
@@ -177,7 +178,7 @@ module AuthenticZClothing {
     item AuthenticBalloon_Group
     {
         Type							=	Normal,
-        DisplayName						=	Balloon,
+        DisplayName						=	Group of Balloons,
         Icon							=	Balloon_Group1,
         Weight							=	0.2,
         primaryAnimMask 				= 	HoldingUmbrellaRight,
@@ -479,69 +480,29 @@ module AuthenticZClothing {
 		AttachmentType 		= 	Shovel,
 	}
 
-	
 	item Authentic_MilitaryFlashlightGrey
 	{
-		DisplayName	 =	Military Flashlight,
-		Icon		 =	MilitaryFlashlightGrey,
-		Type		 =	Drainable,
-		Weight		 =	0.5,
-		LightDistance	=	25,
-		DisappearOnUse	=	FALSE,
-		TorchCone	=	TRUE,
-		UseDelta	=	0.0009,
-		LightStrength	=	0.8,
-		ActivatedItem	=	TRUE,
-		cantBeConsolided 	 = TRUE,
-		StaticModel 		 = Authentic_MilitaryFlashlightGrey,
-		AttachmentType	 	 = BigWeapon,
-		primaryAnimMask 	 = HoldingTorchRight,
-        secondaryAnimMask	 = HoldingTorchLeft,
+		DisplayName	 		 =	Grey Military Flashlight,
+		Icon			     =	MilitaryFlashlightGrey,
+		Type		  		 =	Drainable,
+		Weight		 		 =	0.5,
+		LightDistance		 =	25,
+		DisappearOnUse		 =	FALSE,
+		TorchCone			 =	TRUE,
+		UseDelta			 =	0.0009,
+		LightStrength		 =	0.8,
+		ActivatedItem		 =  TRUE,
+		cantBeConsolided 	 =  TRUE,
+		StaticModel 		 =  Authentic_MilitaryFlashlightGrey,
+		AttachmentType	 	 =  BigWeapon,
+		primaryAnimMask 	 =  HoldingTorchRight,
+        secondaryAnimMask	 =  HoldingTorchLeft,
 		WorldStaticModel 	 = 	Authentic_MilitaryFlashlightGrey,			
 	}  
 
-	recipe Remove Battery
-   {
-     keep Authentic_MilitaryFlashlightGrey,
-
-     Result:Battery,
-     Time:30,
-     OnTest:TorchBatteryRemoval_TestIsValid,
-     OnCreate:TorchBatteryRemoval_OnCreate,
-      Prop2:Authentic_MilitaryFlashlightGrey,
-   }
-
-  	 recipe Insert Battery into Military Flashlight
-   {
-     destroy Authentic_MilitaryFlashlightGrey,
-     destroy Battery,
-
-     Result:Authentic_MilitaryFlashlightGrey,
-     Time:30,
-     OnTest:TorchBatteryInsert_TestIsValid,
-     OnCreate:TorchBatteryInsert_OnCreate,
-      Prop2:Authentic_MilitaryFlashlightGrey,
-   }
-   
-   	recipe Dismantle Military Flashlight
-   {
-      destroy Authentic_MilitaryFlashlightGrey,
-      keep Screwdriver,
-
-      Result:ElectronicsScrap,
-      Time:30.0,
-      OnTest:TorchBatteryInsert_TestIsValid,
-      OnGiveXP:DismantleElectronics_OnGiveXP,
-      OnCreate:TorchDismantle_OnCreate,
-      Category:Electrical,
-      AnimNode:Disassemble,
-      Prop1:Screwdriver,
-      Prop2:Authentic_MilitaryFlashlightGrey,
-   }
-
 	item Authentic_MilitaryFlashlightGreen
 	{
-		DisplayName			=	Military Flashlight,	
+		DisplayName			=	Green Military Flashlight,	
 		Icon				=	MilitaryFlashlightGreen,
 		Type				=	Drainable,		
 		Weight				=	0.5,		
@@ -559,45 +520,6 @@ module AuthenticZClothing {
         secondaryAnimMask 	=	HoldingTorchLeft,
 		WorldStaticModel 	= 	Authentic_MilitaryFlashlightGreen,			
 	}  
-
-	recipe Remove Battery
-   {
-     keep Authentic_MilitaryFlashlightGreen,
-
-     Result:Battery,
-     Time:30,
-     OnTest:TorchBatteryRemoval_TestIsValid,
-     OnCreate:TorchBatteryRemoval_OnCreate,
-      Prop2:Authentic_MilitaryFlashlightGreen,
-   }
-
-  	 recipe Insert Battery into Military Flashlight
-   {
-     destroy Authentic_MilitaryFlashlightGreen,
-     destroy Battery,
-
-     Result:Authentic_MilitaryFlashlightGreen,
-     Time:30,
-     OnTest:TorchBatteryInsert_TestIsValid,
-     OnCreate:TorchBatteryInsert_OnCreate,
-      Prop2:Authentic_MilitaryFlashlightGreen,
-   }
-   
-   	recipe Dismantle Military Flashlight
-   {
-      destroy Authentic_MilitaryFlashlightGreen,
-      keep Screwdriver,
-
-      Result:ElectronicsScrap,
-      Time:50.0,
-      OnTest:TorchBatteryInsert_TestIsValid,
-      OnGiveXP:DismantleElectronics_OnGiveXP,
-      OnCreate:TorchDismantle_OnCreate,
-      Category:Electrical,
-      AnimNode:Disassemble,
-      Prop1:Screwdriver,
-      Prop2:Authentic_MilitaryFlashlightGreen,
-   }
 
     item AuthenticPipeBomb
 	{
@@ -758,8 +680,6 @@ module AuthenticZClothing {
     }
    item FlareGun
     {
-        DisplayName				=	Flare Gun,
-        Icon					=	FlareGun,		
         ImpactSound				=	null,
         MaxRange				=	6,
         WeaponSprite			=	AuthenticFlareGun,
@@ -782,12 +702,14 @@ module AuthenticZClothing {
         DoorDamage				=	5,
         UseEndurance			=	FALSE,
         SwingAnim	=	Handgun,
+        DisplayName	=	Flare Gun,
         MinRange	=	0.61,
         SwingTime	=	0.5,
         MultipleHitConditionAffected	=	FALSE,
         SoundRadius	=	30,
         MinDamage	=	0,
         MaxDamage	=	0,
+        Icon		=	FlareGun,
         RunAnim		=	Run_Weapon2,
         AimingPerkRangeModifier = 1.5,
         HitChance = 65,
@@ -799,28 +721,27 @@ module AuthenticZClothing {
         AimingTime = 10,
         BreakSound  =   BreakMetalItem,
         MetalValue = 30,
-        AmmoBox = FlareCartridgeBox,
         MaxAmmo = 1,
 		SwingSound	=	FirearmShotgun,
         InsertAmmoSound = StormyShotgunInsertRound,
         EjectAmmoSound = Stormy9mmClipEject,
         RackSound = stormyShotgunPump,
-        AmmoType = AuthenticZClothing.FlareGunShot,
+        AmmoType = AuthenticZClothing.Flare12GaugeShot,
         WeaponReloadType = shotgun,
         JamGunChance 	= 0,
         haveChamber 	= FALSE,
         AttachmentType  = Holster,
+		Tooltip = Tooltip_AuthenticFlareGun,
     }
-	item FlareGunShot
+	item Flare12GaugeShot
 	{
+		DisplayName			=	12-Gauge Flare,
 		Weight				=	0.1,
-		AlwaysWelcomeGift	=	TRUE,
 		Type				=	Normal,
-		DisplayCategory 	= Ammo,
-		DisplayName			=	Flare Gun Shot,
+		DisplayCategory 	= 	Ammo,
 		Icon				=	ShotgunAmmo,
-		MetalValue 			= 1,
 	}
+	
     item HairDyeDarkBrown
     {
         Weight	=	1,

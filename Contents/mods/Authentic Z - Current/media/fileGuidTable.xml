@@ -4320,12 +4320,12 @@
 		<guid>b5c3d326-ba7e-4138-8a8a-b49479d6bf3c</guid>
 	</files>
 	<files>
-		<path>media/clothing/clothingItems/Tshirt_Rock2.xml</path>
-		<guid>0a09ac23-a71b-490c-8c25-19eba9ed66fb</guid>
-	</files>
-	<files>
 		<path>media/clothing/clothingItems/Tshirt_Holly.xml</path>
 		<guid>eb0a60ef-1d2e-475d-b0e0-0966cb06d731</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Tshirt_Icon.xml</path>
+		<guid>2d9093bb-6dfa-4541-b9b5-0df30b84d98f</guid>
 	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Tshirt_JohnMorgan.xml</path>
@@ -4351,6 +4351,14 @@
 		<path>media/clothing/clothingItems/Tshirt_Rochelle.xml</path>
 		<guid>00f5f41c-8075-44cb-adb3-c85fcb7315b4</guid>
 	</files>
+	<files>
+		<path>media/clothing/clothingItems/Tshirt_Rock2.xml</path>
+		<guid>0a09ac23-a71b-490c-8c25-19eba9ed66fb</guid>
+	</files>	
+	<files>
+		<path>media/clothing/clothingItems/Tshirt_SpiffoNEW.xml</path>
+		<guid>7a91607d-9586-4bf1-b146-fc2eaab9f5bc</guid>
+	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Tshirt_SportKilla.xml</path>
 		<guid>573fd396-105d-48e0-bdcb-d8cbe42d7398</guid>

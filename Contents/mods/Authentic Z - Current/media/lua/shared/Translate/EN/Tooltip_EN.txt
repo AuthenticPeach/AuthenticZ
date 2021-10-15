@@ -1,4 +1,6 @@
 Tooltip_EN = {
+	Tooltip_AuthenticFlareGun = "An Orion 12-Gauge Flare Gun",
+	Tooltip_AuthenticAndyBoard = "Stained with Blood",	
 	Tooltip_PostalDude = "WOULD YOU LIKE TO SIGN MY PETITION?",
 	Tooltip_Pills = "PILLS HERE!",
 	Tooltip_Bandages = "Hold up I'm healing!",

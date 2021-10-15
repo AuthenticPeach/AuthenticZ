@@ -219,7 +219,7 @@ module AuthenticZClothing {
 	item Gloves_LeatherGlovesBlackFull
 	{
 		Type = Clothing,
-		DisplayName = Leather Gloves,
+		DisplayName = Black Leather Gloves,
 		ClothingItem = Gloves_LeatherGlovesBlackFull,
 		BodyLocation = Hands,
 		BloodLocation = Hands,
@@ -235,7 +235,7 @@ module AuthenticZClothing {
 	item Gloves_LeatherGlovesWhite
 	{
 		Type = Clothing,
-		DisplayName = Leather Gloves,
+		DisplayName = White Leather Gloves,
 		ClothingItem = Gloves_LeatherGlovesWhite,
 		BodyLocation = Hands,
 		BloodLocation = Hands,
@@ -251,7 +251,7 @@ module AuthenticZClothing {
 	item Gloves_Black
 	{
 		Type = Clothing,
-		DisplayName = Gloves,
+		DisplayName = Black Gloves,
 		ClothingItem = Gloves_Black,
 		BodyLocation = Hands,
 		BloodLocation = Hands,
@@ -281,7 +281,7 @@ module AuthenticZClothing {
 	item Gloves_White
 	{
 		Type = Clothing,
-		DisplayName = Gloves,
+		DisplayName = White Gloves,
 		ClothingItem = Gloves_White,
 		BodyLocation = Hands,
 		BloodLocation = Hands,
@@ -382,7 +382,7 @@ module AuthenticZClothing {
 	item Rose_Dimitrescu
 	{
 		Type = Clothing,
-		DisplayName = Rose,
+		DisplayName = Black Rose,
 		ClothingItem = Rose_Dimitrescu,
 		BodyLocation = Eyes,
 		Icon = TieBlueSpy,
@@ -393,7 +393,7 @@ module AuthenticZClothing {
     item Scarf_DarkGreen
     {
         Type = Clothing,
-        DisplayName = Scarf,
+        DisplayName = Dark Green Scarf,
         ClothingItem = Scarf_DarkGreen,
         BodyLocation = Scarf,
         Icon = ScarfDarkGreen,
@@ -532,7 +532,7 @@ module AuthenticZClothing {
 	item Tie_BowTieWorn_Blue
 	{
 		Type = Clothing,
-		DisplayName = Clip-on Bow Tie,
+		DisplayName = Blue Clip-on Bow Tie,
 		ClothingItem = Tie_BowTieWorn_Blue,
 		BodyLocation = Neck,
 		Icon = TieBowBlue,
@@ -542,7 +542,7 @@ module AuthenticZClothing {
 	item Tie_BowTieWorn_Green
 	{
 		Type = Clothing,
-		DisplayName = Clip-on Bow Tie,
+		DisplayName = Green Clip-on Bow Tie,
 		ClothingItem = Tie_BowTieWorn_Green,
 		BodyLocation = Neck,
 		Icon = TieBowGreen,
@@ -552,7 +552,7 @@ module AuthenticZClothing {
 	item Tie_BowTieWorn_Purple
 	{
 		Type = Clothing,
-		DisplayName = Clip-on Bow Tie,
+		DisplayName = Purple Clip-on Bow Tie,
 		ClothingItem = Tie_BowTieWorn_Purple,
 		BodyLocation = Neck,
 		Icon = TieBowPurple,
@@ -562,7 +562,7 @@ module AuthenticZClothing {
 	item Tie_BowTieWorn_Red
 	{
 		Type = Clothing,
-		DisplayName = Clip-on Bow Tie,
+		DisplayName = Red Clip-on Bow Tie,
 		ClothingItem = Tie_BowTieWorn_Red,
 		BodyLocation = Neck,
 		Icon = TieBowRed,
@@ -572,7 +572,7 @@ module AuthenticZClothing {
 	item Tie_BowTieWorn_Yellow
 	{
 		Type = Clothing,
-		DisplayName = Clip-on Bow Tie,
+		DisplayName = Yellow Clip-on Bow Tie,
 		ClothingItem = Tie_BowTieWorn_Yellow,
 		BodyLocation = Neck,
 		Icon = TieBowYellow,

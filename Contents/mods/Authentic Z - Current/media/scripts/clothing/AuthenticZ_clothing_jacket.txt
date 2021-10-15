@@ -175,7 +175,7 @@ module AuthenticZClothing {
         NeckProtectionModifier = 0.5,
         Insulation = 0.70,
         WindResistance = 0.50,
-	WaterResistance = 0.60,
+		WaterResistance = 0.60,
         Weight = 3,
         WorldStaticModel = Jacket_Ground,		
     }
@@ -309,7 +309,7 @@ module AuthenticZClothing {
     item Jacket_Grimes
     {
         Type = Clothing,
-        DisplayName = Brown Ranger Jacket,
+        DisplayName = Brown Sheriff Jacket,
         ClothingItem = Jacket_Grimes,
         BodyLocation = Jacket,
         Icon = JacketRick,
@@ -329,9 +329,9 @@ module AuthenticZClothing {
     item Jacket_Hunter
     {
         Type = Clothing,
-        DisplayName = Leather Jacket,
+        DisplayName = Brown Leather Jacket,
         ClothingItem = Jacket_Hunter,
-        BodyLocation = Sweater,
+        BodyLocation = Jacket,
         Icon =  JacketLongBrown,
         BloodLocation = LongJacket,
         RunSpeedModifier = 0.93,
@@ -348,7 +348,7 @@ module AuthenticZClothing {
     item Jacket_JimmyGibbs
     {
         Type = Clothing,
-        DisplayName = Jimmy Gibbs's Jacket,
+        DisplayName = Jimmy Gibbs Jr.'s Jacket,
         ClothingItem = Jacket_JimmyGibbs,
         BodyLocation = Jacket,
         Icon = JacketVarsity_JimmyGibbs,
@@ -405,7 +405,7 @@ module AuthenticZClothing {
     item Jacket_PaddedEvangelo
     {
         Type = Clothing,
-        DisplayName = Padded Jacket,
+        DisplayName = Blue Padded Jacket,
         ClothingItem = Jacket_PaddedEvangelo,
         BodyLocation = TorsoExtra,
         Icon = JacketPadded_SkyBlue,
@@ -424,7 +424,7 @@ module AuthenticZClothing {
     item Jacket_PaddedEvangeloDOWN
     {
         Type = Clothing,
-        DisplayName = Padded Jacket,
+        DisplayName = Blue Padded Jacket,
         ClothingItem = Jacket_PaddedEvangeloDOWN,
         BodyLocation = Jacket,
         Icon = JacketPadded_SkyBlue,
@@ -466,7 +466,7 @@ module AuthenticZClothing {
     item Jacket_Scandroid
     {
         Type = Clothing,
-        DisplayName = Scandroid's Jacket,
+        DisplayName = Scandroid Jacket,
         ClothingItem = Jacket_Scandroid,
         BodyLocation = Jacket,
         Icon = JacketScandroid,
@@ -1218,7 +1218,7 @@ module AuthenticZClothing {
     item HoodieTied_WhiteTINT
     {
         Type = Clothing,
-        DisplayName = Hoodie,
+        DisplayName = Hoodie (Tied),
         ClothingItem = HoodieTied_WhiteTINT,
         ClothingItemExtra = HoodieDOWN_WhiteTINT;HoodieUP_WhiteTINT,
         ClothingItemExtraOption = DownHoodie;UpHoodie,	

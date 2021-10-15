@@ -148,6 +148,85 @@ recipe Tie Balloons Together
        Prop2:WorldItem_HeadPhones,
     }	
 	
+	recipe Remove Battery
+   {
+     keep Authentic_MilitaryFlashlightGrey,
+
+     Result:Battery,
+     Time:50,
+     OnTest:TorchBatteryRemoval_TestIsValid,
+     OnCreate:TorchBatteryRemoval_OnCreate,
+     Prop2:Authentic_MilitaryFlashlightGrey,
+   }
+
+  	 recipe Insert Battery into Military Flashlight
+   {
+     destroy Authentic_MilitaryFlashlightGrey,
+     destroy Battery,
+
+     Result:Authentic_MilitaryFlashlightGrey,
+     Time:50,
+     OnTest:TorchBatteryInsert_TestIsValid,
+     OnCreate:TorchBatteryInsert_OnCreate,
+     Prop2:Authentic_MilitaryFlashlightGrey,
+   }
+   
+   	recipe Dismantle Military Flashlight
+   {
+      destroy Authentic_MilitaryFlashlightGrey,
+      keep Screwdriver,
+
+      Result:ElectronicsScrap,
+      Time:50.0,
+      OnTest:TorchBatteryInsert_TestIsValid,
+      OnGiveXP:DismantleElectronics_OnGiveXP,
+      OnCreate:TorchDismantle_OnCreate,
+      Category:Electrical,
+      AnimNode:Disassemble,
+      Prop1:Screwdriver,
+      Prop2:Authentic_MilitaryFlashlightGrey,
+   }
+
+	recipe Remove Battery
+   {
+     keep Authentic_MilitaryFlashlightGreen,
+
+     Result:Battery,
+     Time:30,
+     OnTest:TorchBatteryRemoval_TestIsValid,
+     OnCreate:TorchBatteryRemoval_OnCreate,
+      Prop2:Authentic_MilitaryFlashlightGreen,
+   }
+
+  	 recipe Insert Battery into Military Flashlight
+   {
+     destroy Authentic_MilitaryFlashlightGreen,
+     destroy Battery,
+
+     Result:Authentic_MilitaryFlashlightGreen,
+     Time:30,
+     OnTest:TorchBatteryInsert_TestIsValid,
+     OnCreate:TorchBatteryInsert_OnCreate,
+      Prop2:Authentic_MilitaryFlashlightGreen,
+   }
+   
+   	recipe Dismantle Military Flashlight
+   {
+      destroy Authentic_MilitaryFlashlightGreen,
+      keep Screwdriver,
+
+      Result:ElectronicsScrap,
+      Time:50.0,
+      OnTest:TorchBatteryInsert_TestIsValid,
+      OnGiveXP:DismantleElectronics_OnGiveXP,
+      OnCreate:TorchDismantle_OnCreate,
+      Category:Electrical,
+      AnimNode:Disassemble,
+      Prop1:Screwdriver,
+      Prop2:Authentic_MilitaryFlashlightGreen,
+   }
+   
+
 	
 recipe Draw Hitlist 1
   	{

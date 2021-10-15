@@ -212,7 +212,7 @@ module AuthenticZClothing {
 	item Hat_BalaclavaSpyBlue
 	{
 		Type = Clothing,
-		DisplayName = Open Balaclava,
+		DisplayName = Blue Open Balaclava,
 		ClothingItem = Hat_BalaclavaSpyBlue,
 		BodyLocation = Mask,
 		Icon = BalaclavaOpen,
@@ -225,7 +225,7 @@ module AuthenticZClothing {
 	item Hat_BalaclavaSpyRed
 	{
 		Type = Clothing,
-		DisplayName = Open Balaclava,
+		DisplayName = Red Open Balaclava,
 		ClothingItem = Hat_BalaclavaSpyRed,
 		BodyLocation = Mask,
 		Icon = BalaclavaOpen,
@@ -431,7 +431,7 @@ module AuthenticZClothing {
     item Hat_BaseballCapRedDI
     {
         Type = Clothing,
-        DisplayName = Baseball Cap,
+        DisplayName = Star Baseball Cap,
         ClothingItem = Hat_BaseballCapRedDI,
 	ClothingItemExtra = Hat_BaseballCapRedDI_Reverse,
         ClothingItemExtraOption = ReverseCap,	
@@ -445,7 +445,7 @@ module AuthenticZClothing {
     item Hat_BaseballCapRedDI_Reverse
     {
         Type = Clothing,
-        DisplayName =  Baseball Cap,
+        DisplayName =  Star Baseball Cap,
         ClothingItem = Hat_BaseballCapRedDI_Reverse,
         ClothingItemExtra = Hat_BaseballCapRedDI,
         ClothingItemExtraOption = ForwardCap,
@@ -458,7 +458,7 @@ module AuthenticZClothing {
     item Hat_BaseballCapSeaHorse
     {
         Type = Clothing,
-        DisplayName = Baseball Cap,
+        DisplayName = Seahorse Baseball Cap,
         ClothingItem = Hat_BaseballCapSeaHorse,
 		ClothingItemExtra = Hat_BaseballCapSeaHorse_Reverse,
         ClothingItemExtraOption = ReverseCap,	
@@ -472,7 +472,7 @@ module AuthenticZClothing {
     item Hat_BaseballCapSeaHorse_Reverse
     {
         Type = Clothing,
-        DisplayName =  Baseball Cap,
+        DisplayName =  Seahorse Baseball Cap,
         ClothingItem = Hat_BaseballCapSeaHorse_Reverse,
         ClothingItemExtra = Hat_BaseballCapSeaHorse,
         ClothingItemExtraOption = ForwardCap,
@@ -527,7 +527,7 @@ module AuthenticZClothing {
     item Hat_BandanaMaskDesert
     {
         Type = Clothing,
-        DisplayName = Bandana (Face),
+        DisplayName = Desert Bandana (Face),
         ClothingItem = Hat_BandanaMaskDesert,
         BodyLocation = Mask,
         ClothingItemExtra = Hat_BandanaDesert;Hat_BandanaTiedDesert,
@@ -541,7 +541,7 @@ module AuthenticZClothing {
 	item Hat_BandanaDesert
 	{
 		Type = Clothing,
-		DisplayName = Bandana (Head),
+		DisplayName = Desert Bandana (Head),
 		ClothingItem = Hat_BandanaDesert,
 		BodyLocation = Hat,
 		Icon = Bandana_Tan,
@@ -554,7 +554,7 @@ module AuthenticZClothing {
     item Hat_BandanaTiedRed
     {
         Type = Clothing,
-        DisplayName = Bandana (Tied),
+        DisplayName = Red Bandana (Tied),
         ClothingItem = Hat_BandanaTiedRed,
         BodyLocation = Hat,
         ClothingItemExtra = Hat_BandanaRed;Hat_BandanaMaskRed,
@@ -568,7 +568,7 @@ module AuthenticZClothing {
     item Hat_BandanaMaskRed
     {
         Type = Clothing,
-        DisplayName = Bandana (Face),
+        DisplayName = Red Bandana (Face),
         ClothingItem = Hat_BandanaMaskRed,
         BodyLocation = Mask,
         ClothingItemExtra = Hat_BandanaRed;Hat_BandanaTiedRed,
@@ -718,7 +718,7 @@ module AuthenticZClothing {
 	item Hat_Cowboy_Freddy
 	{
 		Type = Clothing,
-		DisplayName = Cowboy Hat,
+		DisplayName = Brown Cowboy Hat,
 		ClothingItem = Hat_Cowboy_Freddy,
 		BodyLocation = Hat,
 		IconsForTexture = HatCowboyBrown,
@@ -813,7 +813,7 @@ module AuthenticZClothing {
 	item Hat_Grimes
 	{
 		Type = Clothing,
-		DisplayName = Brown Ranger Hat,
+		DisplayName = Brown Sheriff Hat,
 		ClothingItem = Hat_Grimes,
 		BodyLocation = Hat,
 		Icon = HatRick,
@@ -985,7 +985,7 @@ module AuthenticZClothing {
 	item Hat_WeddingVeilBlue
 	{
 		Type = Clothing,
-		DisplayName = Wedding Veil,
+		DisplayName = Blue Wedding Veil,
 		ClothingItem = Hat_WeddingVeilBlue,
 		BodyLocation = Hat,
 		Icon = VeilWeddingBlue,
@@ -996,7 +996,7 @@ module AuthenticZClothing {
 	item Hat_WeddingVeilPink
 	{
 		Type = Clothing,
-		DisplayName = Wedding Veil,
+		DisplayName = Pink Wedding Veil,
 		ClothingItem = Hat_WeddingVeilPink,
 		BodyLocation = Hat,
 		Icon = VeilWeddingPink,

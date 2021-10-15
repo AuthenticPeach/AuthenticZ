@@ -1,4 +1,6 @@
 Tooltip_CN = {
+	Tooltip_AuthenticFlareGun = "一把12口径的猎户座信号枪"
+	Tooltip_AuthenticAndyBoard = "血迹斑斑的"
 	Tooltip_PostalDude = "你愿意在我的请愿书上签名吗？",
 	Tooltip_Pills = "药丸在这里！",
 	Tooltip_Bandages = "等等我正在治疗！",

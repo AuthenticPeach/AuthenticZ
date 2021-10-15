@@ -1,19 +1,11 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<clothingDecals> 
-	<group> <!-- Such Hardcore, much WOW -->
-		<name>TShirtRock2</name>
-		<decal>TshirtHardcore</decal>
-	</group>
-	<group> <!-- New Spiffo Designs -->
-		<name>TShirtSpiffoNEW</name>
-		<decal>TShirtLootSpiffo</decal>
-		<decal>TShirtEatSpiffo</decal>		
-	</group>
-	<group>
-		<name>TShirtIcons</name>
-		<decal>TShirtFlux</decal>
-	</group>	
-</clothingDecals>
+<?xml version="1.0" encoding="utf-8"?>
+<clothingDecal>   <!-- Such Hardcore, much WOW -->
+	<texture>ShirtDecals/LootSpiffo</texture>
+	<x>102</x>
+	<y>118</y>
+	<width>52</width>
+	<height>52</height>
+</clothingDecal>
 <!-- 
          ▄              ▄    
         ▌▒█           ▄▀▒▌   

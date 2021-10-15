@@ -98,7 +98,7 @@
     item Shirt_FormalDayZ
 	{
 		Type = Clothing,
-		DisplayName = DayZ's Formal Shirt,
+		DisplayName = DayZ Plaid Shirt,
 		ClothingItem = Shirt_FormalDayZ,
 		BodyLocation = Shirt,
 		Icon = ShirtLumberjackDayZ,
@@ -137,7 +137,7 @@
 	item Shirt_FormalBlack_ShortSleeve
 	{
 		Type = Clothing,
-		DisplayName = Short Sleeve Shirt,
+		DisplayName = Black Short Sleeve Shirt,
 		ClothingItem = Shirt_FormalBlack_ShortSleeve,
 		BodyLocation = ShortSleeveShirt,
 		Icon = TshirtBlackShortFormal,
@@ -150,7 +150,7 @@
 	item Shirt_FormalBlue_ShortSleeve
 	{
 		Type = Clothing,
-		DisplayName = Short Sleeve Shirt,
+		DisplayName = Blue Short Sleeve Shirt,
 		ClothingItem = Shirt_FormalBlue_ShortSleeve,
 		BodyLocation = ShortSleeveShirt,
 		Icon = TShirtBlueShortFormal,
@@ -163,7 +163,7 @@
 	item Shirt_FormalRed_ShortSleeve
 	{
 		Type = Clothing,
-		DisplayName = Short Sleeve Shirt,
+		DisplayName = Red Short Sleeve Shirt,
 		ClothingItem = Shirt_FormalRed_ShortSleeve,
 		BodyLocation = ShortSleeveShirt,
 		Icon = TShirtRedShortFormal,
@@ -189,7 +189,7 @@
      item Shirt_LumberJackShortRed
 	{
 		Type = Clothing,
-		DisplayName = Plaid Shirt,
+		DisplayName = Dark Red Plaid Shirt,
 		ClothingItem = Shirt_LumberJackShortRed,
 		BodyLocation = Tshirt,
 		Icon  =ShirtLumberjackShortRedDark,
@@ -202,7 +202,7 @@
      item Shirt_LumberjackTheyLive
 	{
 		Type = Clothing,
-		DisplayName = Lumberjack Shirt,
+		DisplayName = Plaid Shirt,
 		ClothingItem = Shirt_LumberjackTheyLive,
 		BodyLocation = Shirt,
 		Icon = ShirtLumberjackTheyLive,
@@ -215,7 +215,7 @@
      item Shirt_MimeBlack
 	{
 		Type = Clothing,
-		DisplayName = Mime Long Sleeve Shirt,
+		DisplayName = Mime Black Long Sleeve Shirt,
 		ClothingItem = Shirt_MimeBlack,
 		BodyLocation = Tshirt,
         Icon	=	LongSleevedMimeBlack,
@@ -228,7 +228,7 @@
      item Shirt_MimeRed
 	{
 		Type = Clothing,
-		DisplayName = Mime Long Sleeve Shirt,
+		DisplayName = Mime Red Long Sleeve Shirt,
 		ClothingItem = Shirt_MimeRed,
 		BodyLocation = Tshirt,
         Icon	=	LongSleevedMimeRed,
@@ -280,7 +280,7 @@
     item Sweater_Freddy
     {
         Type = Clothing,
-        DisplayName = V-Neck Sweater,
+        DisplayName = Freddy's V-Neck Sweater,
         ClothingItem = Sweater_Freddy,
         BodyLocation = Sweater,
         BloodLocation = Jumper,
@@ -366,6 +366,19 @@
         BloodLocation = Shirt,
         Insulation = 0.3,
         WindResistance = 0.35,
+        FabricType = Cotton,
+		WorldStaticModel = TShirt_Ground,	
+    }
+    item Tshirt_Icon
+    {
+        Type = Clothing,
+        DisplayName = T-Shirt,
+        ClothingItem = Tshirt_Icon,
+        BodyLocation = Tshirt,
+        Icon	=	TshirtGeneric,
+        BloodLocation = Shirt,
+        Insulation = 0.2,
+        WindResistance = 0.05,
         FabricType = Cotton,
 		WorldStaticModel = TShirt_Ground,	
     }	
@@ -464,8 +477,21 @@
         Insulation = 0.2,
         WindResistance = 0.05,
         FabricType = Cotton,
-		WorldStaticModel = TShirt_Ground,	
+		WorldStaticModel = TShirt_Ground,		
     }
+    item Tshirt_SpiffoNEW
+    {
+        Type = Clothing,
+        DisplayName = Spiffo T-Shirt,
+        ClothingItem = Tshirt_SpiffoNEW,
+        BodyLocation = Tshirt,
+        Icon	=	TshirtGeneric,
+        BloodLocation = Shirt,
+        Insulation = 0.2,
+        WindResistance = 0.05,
+        FabricType = Cotton,
+		WorldStaticModel = TShirt_Ground,	
+    }	
     item Tshirt_SportKilla
     {
         Type = Clothing,
@@ -495,7 +521,7 @@
      item Tshirt_VotePedro
 	{
 		Type = Clothing,
-		DisplayName = Vote For Pedro Shirt,
+		DisplayName = Vote For Pedro T-Shirt,
 		ClothingItem = Tshirt_VotePedro,
 		BodyLocation = Tshirt,
 		Icon = TshirtPedro,
@@ -574,7 +600,7 @@
     item Vest_Rim_Duke
     {
         Type = Clothing,
-        DisplayName = Tank Top,
+        DisplayName = Red Tank Top,
         ClothingItem = Vest_Rim_Duke,
         BodyLocation = TorsoExtra,
         Icon = VestDuke,
@@ -600,7 +626,7 @@
     item Vest_Waistcoat_Barbershop_Blue
     {
         Type = Clothing,
-        DisplayName = Barbershop Waistcoat,
+        DisplayName = Blue Barbershop Waistcoat,
         ClothingItem = Vest_Waistcoat_Barbershop_Blue,
         BodyLocation = TorsoExtra,
         Icon = Vest_Blue,
@@ -613,7 +639,7 @@
     item Vest_Waistcoat_Barbershop_Green
     {
         Type = Clothing,
-        DisplayName = Barbershop Waistcoat,
+        DisplayName = Green Barbershop Waistcoat,
         ClothingItem = Vest_Waistcoat_Barbershop_Green,
         BodyLocation = TorsoExtra,
         Icon = Vest_Green,
@@ -626,7 +652,7 @@
     item Vest_Waistcoat_Barbershop_Purple
     {
         Type = Clothing,
-        DisplayName = Barbershop Waistcoat,
+        DisplayName = Purple Barbershop Waistcoat,
         ClothingItem = Vest_Waistcoat_Barbershop_Purple,
         BodyLocation = TorsoExtra,
         Icon = Vest_Purple,
@@ -639,7 +665,7 @@
     item Vest_Waistcoat_Barbershop_Red
     {
         Type = Clothing,
-        DisplayName = Barbershop Waistcoat,
+        DisplayName = Red Barbershop Waistcoat,
         ClothingItem = Vest_Waistcoat_Barbershop_Red,
         BodyLocation = TorsoExtra,
         Icon = Vest_Red,
@@ -652,7 +678,7 @@
     item Vest_Waistcoat_Barbershop_Yellow
     {
         Type = Clothing,
-        DisplayName = Barbershop Waistcoat,
+        DisplayName = Yellow Barbershop Waistcoat,
         ClothingItem = Vest_Waistcoat_Barbershop_Yellow,
         BodyLocation = TorsoExtra,
         Icon = Vest_Yellow,
