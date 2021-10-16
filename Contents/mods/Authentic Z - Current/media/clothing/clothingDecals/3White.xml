@@ -1,33 +1,11 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<clothingDecals> 
-	<group> <!-- Such Hardcore, much WOW -->
-		<name>TShirtRock2</name>
-		<decal>TshirtHardcore</decal>
-	</group>
-	<group> <!-- New Spiffo Designs -->
-		<name>TShirtSpiffoNEW</name>
-		<decal>TShirtLootSpiffo</decal>
-		<decal>TShirtEatSpiffo</decal>		
-	</group>
-	<group>
-		<name>TShirtIcons</name>
-		<decal>TShirtFlux</decal>
-	</group>
-	<group>
-		<name>TShirtNumbersWhite</name>
-		<decal>1White</decal>
-		<decal>2White</decal>
-		<decal>3White</decal>
-		<decal>4White</decal>
-	</group>
-	<group>
-		<name>TShirtNumbersWhiteRight</name>
-		<decal>1WhiteRight</decal>
-		<decal>2WhiteRight</decal>
-		<decal>3WhiteRight</decal>
-		<decal>4WhiteRight</decal>
-	</group>	
-</clothingDecals>
+<?xml version="1.0" encoding="utf-8"?>
+<clothingDecal>   <!-- Such Hardcore, much WOW -->
+	<texture>ShirtDecals/3White</texture>
+	<x>91</x>
+	<y>116</y>
+	<width>60</width>
+	<height>52</height>
+</clothingDecal>
 <!-- 
          ▄              ▄    
         ▌▒█           ▄▀▒▌   

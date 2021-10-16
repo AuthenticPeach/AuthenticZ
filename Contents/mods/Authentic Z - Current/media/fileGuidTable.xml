@@ -3764,6 +3764,14 @@
 		<guid>bbd948ee-c428-4e61-a49b-5fcc60897f27</guid>
 	</files>
 	<files>
+		<path>media/clothing/clothingItems/Jersey_GreenBayPacker1.xml</path>
+		<guid>4e882976-a778-42d1-ad10-669acdf201d7</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Jersey_GreenBayPacker2.xml</path>
+		<guid>7c49f7df-6412-4c31-9a6f-675f06fa0511</guid>
+	</files>	
+	<files>
 		<path>media/clothing/clothingItems/Jumper_PoloNeckCheeseRoyale.xml</path>
 		<guid>de69144b-4ec7-4051-8a91-7dcd02bb7ced</guid>
 	</files>
@@ -4326,6 +4334,10 @@
 	<files>
 		<path>media/clothing/clothingItems/Tshirt_Icon.xml</path>
 		<guid>2d9093bb-6dfa-4541-b9b5-0df30b84d98f</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Tshirt_IconNumbers.xml</path>
+		<guid>0399ebb7-517b-4b69-91fc-a3a0cea9e437</guid>
 	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Tshirt_JohnMorgan.xml</path>

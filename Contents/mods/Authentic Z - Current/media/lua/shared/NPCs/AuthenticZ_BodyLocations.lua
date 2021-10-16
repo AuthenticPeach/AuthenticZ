@@ -1,3 +1,4 @@
+require 'NPCs/BodyLocations'
 --***********************************************************
 --**                    THE INDIE STONE                    **
 --***********************************************************
@@ -7,10 +8,30 @@
 local group = BodyLocations.getGroup("Human")
 
 group:getOrCreateLocation("AmmoStrap2")
---group:getOrCreateLocation("LeftHand")
---group:getOrCreateLocation("RightHand")
-
---group:getOrCreateLocation("ZedDmg")
 
 -- Multiple items at these locations are allowed.
---group:setMultiItem("ZedDmg", true)
+
+
+
+--local function isMod(mod_Name)
+ --   local mods = getActivatedMods();
+ --   for i=0, mods:size()-1, 1 do
+ --        if mods:get(i) == mod_Name then
+ --           return true;
+  --      end
+  --  end
+ --   return false;
+--end
+
+
+--local getActivatedMods = getActivatedMods
+--local size = size
+--local get = get
+
+--if isMod("DressingMod") then
+
+--  InsertNewLocation("AmmoStrap2", nil, false)
+--  local group = BodyLocations.getGroup("Human")
+--  group:getOrCreateLocation("AmmoStrap2")
+
+--End

@@ -503,6 +503,42 @@ module AuthenticZClothing {
         Weight = 2,
         WorldStaticModel = Jacket_Ground,			
     }
+    item Jersey_GreenBayPacker1
+    {
+        Type = Clothing,
+        DisplayName = Green Bay Packer Jersey,
+        ClothingItem = Jersey_GreenBayPacker1,
+        BodyLocation = Jacket,
+        Icon = JacketBill,
+        BloodLocation = Jacket,
+        RunSpeedModifier = 0.95,
+        BiteDefense = 10,
+        ScratchDefense = 25,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.5,
+        WindResistance = 0.35,
+        FabricType = Cotton,
+        Weight = 2,
+        WorldStaticModel = Jacket_Ground,			
+    }
+    item Jersey_GreenBayPacker2
+    {
+        Type = Clothing,
+        DisplayName = Green Bay Packer Jersey,
+        ClothingItem = Jersey_GreenBayPacker2,
+        BodyLocation = Jacket,
+        Icon = JacketBill,
+        BloodLocation = Jacket,
+        RunSpeedModifier = 0.95,
+        BiteDefense = 10,
+        ScratchDefense = 25,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.5,
+        WindResistance = 0.35,
+        FabricType = Cotton,
+        Weight = 2,
+        WorldStaticModel = Jacket_Ground,			
+    }		
     item Suit_JacketBlue
     {
         Type 	         = Clothing,

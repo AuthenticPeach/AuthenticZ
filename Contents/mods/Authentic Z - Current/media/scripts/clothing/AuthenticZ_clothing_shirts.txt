@@ -381,6 +381,19 @@
         WindResistance = 0.05,
         FabricType = Cotton,
 		WorldStaticModel = TShirt_Ground,	
+    }
+    item Tshirt_IconNumbers
+    {
+        Type = Clothing,
+        DisplayName = Numbered T-Shirt,
+        ClothingItem = Tshirt_IconNumbers,
+        BodyLocation = Tshirt,
+        Icon	=	TshirtGeneric,
+        BloodLocation = Shirt,
+        Insulation = 0.2,
+        WindResistance = 0.05,
+        FabricType = Cotton,
+		WorldStaticModel = TShirt_Ground,	
     }	
     item Tshirt_JohnMorgan
     {
