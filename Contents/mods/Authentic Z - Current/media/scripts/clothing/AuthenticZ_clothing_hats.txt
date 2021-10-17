@@ -772,6 +772,96 @@ module AuthenticZClothing {
         WindResistance = 0.65,
         WaterResistance = 1.0,
 	}
+	item Hat_FootballHelmet_BlueStar
+	{
+		Type = Clothing,
+		DisplayName = Football Helmet,
+		ClothingItem = Hat_FootballHelmet_BlueStar,
+		BodyLocation = FullHat,
+		IconsForTexture = HelmetFootballBlue,
+		BloodLocation = FullHelmet,
+		CanHaveHoles = false,
+		CombatSpeedModifier = 0.95,
+		BiteDefense = 100,
+        ScratchDefense = 100,
+        ChanceToFall = 0,
+        Insulation = 0.55,
+        WindResistance = 0.35,
+        WaterResistance = 0.85,
+        Weight = 1.5,
+	}
+	item Hat_FootballHelmet_Chiefs
+	{
+		Type = Clothing,
+		DisplayName = Chiefs Football Helmet,
+		ClothingItem = Hat_FootballHelmet_Chiefs,
+		BodyLocation = FullHat,
+		IconsForTexture = HelmetFootballRedder,
+		BloodLocation = FullHelmet,
+		CanHaveHoles = false,
+		CombatSpeedModifier = 0.95,
+		BiteDefense = 100,
+        ScratchDefense = 100,
+        ChanceToFall = 0,
+        Insulation = 0.55,
+        WindResistance = 0.35,
+        WaterResistance = 0.85,
+        Weight = 1.5,
+	}
+	item at_FootballHelmet_Packers
+	{
+		Type = Clothing,
+		DisplayName = Packers Football Helmet,
+		ClothingItem = Hat_FootballHelmet_Packers,
+		BodyLocation = FullHat,
+		IconsForTexture = HelmetFootballGreenBay,
+		BloodLocation = FullHelmet,
+		CanHaveHoles = false,
+		CombatSpeedModifier = 0.95,
+		BiteDefense = 100,
+        ScratchDefense = 100,
+        ChanceToFall = 0,
+        Insulation = 0.55,
+        WindResistance = 0.35,
+        WaterResistance = 0.85,
+        Weight = 1.5,
+	}
+	item Hat_FootballHelmet_RedSkull
+	{
+		Type = Clothing,
+		DisplayName = Football Helmet,
+		ClothingItem = Hat_FootballHelmet_RedSkull,
+		BodyLocation = FullHat,
+		IconsForTexture = HelmetFootballRed,
+		BloodLocation = FullHelmet,
+		CanHaveHoles = false,
+		CombatSpeedModifier = 0.95,
+		BiteDefense = 100,
+        ScratchDefense = 100,
+        ChanceToFall = 0,
+        Insulation = 0.55,
+        WindResistance = 0.35,
+        WaterResistance = 0.85,
+        Weight = 1.5,
+	}	
+	item Hat_FootballHelmet_Patriots
+	{
+		Type = Clothing,
+		DisplayName = Patriots Football Helmet,
+		ClothingItem = Hat_FootballHelmet_Patriots,
+		BodyLocation = FullHat,
+		Icon = HelmetFootballWhite,
+		BloodLocation = FullHelmet,
+		CanHaveHoles = false,
+		CombatSpeedModifier = 0.95,
+		BiteDefense = 100,
+        ScratchDefense = 100,
+        ChanceToFall = 0,
+        Insulation = 0.55,
+        WindResistance = 0.35,
+        WaterResistance = 0.85,
+        Weight = 1.5,
+	}	
 	item Hat_GhostFace
 	{
 		Type = Clothing,

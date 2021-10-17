@@ -262,6 +262,19 @@ module AuthenticZClothing {
         FabricType = Cotton,
         WorldStaticModel = Gloves_Ground,		
 	}
+	item Gloves_FingerlessGlovesWHITE
+	{
+		Type = Clothing,
+		DisplayName = White Fingerless Gloves,
+		ClothingItem = Gloves_FingerlessGlovesWHITE,
+		BodyLocation = Hands,
+		BloodLocation = Hands,
+		Icon = GlovesFingerlessWhite,
+		Weight = 0.1,
+        Insulation = 0.25,
+        WindResistance = 0.3,
+        WorldStaticModel = Gloves_Ground,
+	}	
 	item Gloves_LeatherWalker
 	{
 		Type = Clothing,

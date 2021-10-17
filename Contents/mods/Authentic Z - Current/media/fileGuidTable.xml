@@ -3174,6 +3174,10 @@
 	<files>
 		<path>media/clothing/clothingItems/Gloves_Black.xml</path>
 		<guid>17986624-efdc-4207-a9fa-e7d1f64926d1</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Gloves_FingerlessGlovesWHITE.xml</path>
+		<guid>31357884-e656-4a14-859e-b48f1b395848</guid>
 	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Gloves_LeatherGlovesBlackFull.xml</path>
@@ -3434,6 +3438,18 @@
 	<files>
 		<path>media/clothing/clothingItems/Hat_FootballHelmet_RedSkull.xml</path>
 		<guid>b8eacf17-50fe-4f57-9f7c-05010fe78368</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Hat_FootballHelmet_Chiefs.xml</path>
+		<guid>56bb3349-f9c6-4fb5-b0c1-7b30665378cb</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Hat_FootballHelmet_Packers.xml</path>
+		<guid>0dd3dcb4-1020-4371-9ff0-93b58f22efc9</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Hat_FootballHelmet_Patriots.xml</path>
+		<guid>7186662e-0d20-4950-b065-585e8f1b16a0</guid>
 	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Hat_Gibus.xml</path>
@@ -4024,6 +4040,10 @@
 		<guid>7f16e3d9-15cc-4487-a78f-e2edc27e3185</guid>
 	</files>
 	<files>
+		<path>media/clothing/clothingItems/Shorts_LongSportGold.xml</path>
+		<guid>9df5977f-0dc6-47b7-bfe3-fbd8be29e0c5</guid>
+	</files>	
+	<files>
 		<path>media/clothing/clothingItems/Skin_Black_Zed_M.xml</path>
 		<guid>44ee984a-1926-42e9-b9ac-41652dd31426</guid>
 	</files>
@@ -4100,8 +4120,20 @@
 		<guid>3b124d03-84a0-4df9-9737-3fce16f66e0b</guid>
 	</files>
 	<files>
+		<path>media/clothing/clothingItems/Socks_Long_BlueStripedWhite.xml</path>
+		<guid>57104d5e-8f09-4915-9704-bfe68c7ccfdf</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Socks_Long_PurpleStripedWhite.xml</path>
+		<guid>65cb5830-6b45-4afa-af27-05dcc5a7c35b</guid>
+	</files>
+	<files>
 		<path>media/clothing/clothingItems/Socks_Long_RedStriped01.xml</path>
 		<guid>fc0109d6-5115-427d-b6be-a4d1b8314cb1</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Socks_Long_DarkGreen.xml</path>
+		<guid>829c20ca-8b3b-411c-bfbf-69008c65c2e5</guid>
 	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Suit_JacketBlue.xml</path>

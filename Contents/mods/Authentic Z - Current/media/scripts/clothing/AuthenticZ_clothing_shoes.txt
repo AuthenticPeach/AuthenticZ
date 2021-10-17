@@ -367,5 +367,47 @@ module AuthenticZClothing {
         Weight = 0.1,
         FabricType = Cotton,
         WorldStaticModel = Socks_Long_Ground,		
-	}		
+	}
+	item Socks_Long_PurpleStripedWhite
+	{
+		Type = Clothing,
+		DisplayName = Purple Striped Socks,
+		ClothingItem = Socks_Long_PurpleStripedWhite,
+		BodyLocation = Socks,
+		Icon  = SocksWhitePurpleStriped,
+		BloodLocation = Shoes;LowerLegs,
+       	Insulation = 0.55,
+        WindResistance = 0.65,
+        Weight = 0.1,
+        FabricType = Cotton,
+        WorldStaticModel = Socks_Long_Ground,		
+	}
+	item Socks_Long_BlueStripedWhite
+	{
+		Type = Clothing,
+		DisplayName = Blue Striped Socks,
+		ClothingItem = Socks_Long_BlueStripedWhite,
+		BodyLocation = Socks,
+		Icon  = SocksWhiteBlueStriped,
+		BloodLocation = Shoes;LowerLegs,
+       	Insulation = 0.55,
+        WindResistance = 0.65,
+        Weight = 0.1,
+        FabricType = Cotton,
+        WorldStaticModel = Socks_Long_Ground,		
+	}
+	item Socks_Long_DarkGreen
+	{
+		Type = Clothing,
+		DisplayName = Dark Green Socks,
+		ClothingItem = Socks_Long_DarkGreen,
+		BodyLocation = Socks,
+		Icon  = SocksDarkGreen,
+		BloodLocation = Shoes;LowerLegs,
+       	Insulation = 0.55,
+        WindResistance = 0.65,
+        Weight = 0.1,
+        FabricType = Cotton,
+        WorldStaticModel = Socks_Long_Ground,		
+	}	
 }

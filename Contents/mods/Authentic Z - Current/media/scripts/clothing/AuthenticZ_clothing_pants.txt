@@ -30,6 +30,19 @@ module AuthenticZClothing {
         FabricType = Denim,
 		WorldStaticModel = ShortShorts_Ground,
     }
+	    item Shorts_LongSportGold
+    {
+        Type = Clothing,
+        DisplayName = Long Gold Sport Shorts,
+        ClothingItem = Shorts_LongSportGold,
+        BodyLocation = Pants,
+        Icon = ShortsLongAthleticGold,
+        BloodLocation = Trousers,
+        Insulation = 0.25,
+        WindResistance = 0.1,
+        FabricType = Cotton,
+        WorldStaticModel = LongShorts_Ground,
+    }
     item Skirt_ShortBlack
     {
         Type = Clothing,
