@@ -4132,6 +4132,10 @@
 		<guid>fc0109d6-5115-427d-b6be-a4d1b8314cb1</guid>
 	</files>
 	<files>
+		<path>media/clothing/clothingItems/Socks_Long_RedStriped02.xml</path>
+		<guid>41ecafa5-973e-41b0-b0f6-30e9bfa13787</guid>
+	</files>	
+	<files>
 		<path>media/clothing/clothingItems/Socks_Long_DarkGreen.xml</path>
 		<guid>829c20ca-8b3b-411c-bfbf-69008c65c2e5</guid>
 	</files>	
