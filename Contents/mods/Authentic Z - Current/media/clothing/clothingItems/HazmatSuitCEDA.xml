@@ -6,8 +6,7 @@
 	<m_Static>false</m_Static>
 	<m_AllowRandomTint>false</m_AllowRandomTint>
 	<m_AttachBone></m_AttachBone>
-	<m_Masks>0</m_Masks>
-	<m_Masks>1</m_Masks>
+	<m_HatCategory>Group01</m_HatCategory>	
 	<m_Masks>2</m_Masks>
 	<m_Masks>3</m_Masks>
 	<m_Masks>4</m_Masks>
@@ -19,4 +18,9 @@
 	<m_Masks>10</m_Masks>
 	<m_Masks>11</m_Masks>
 	<textureChoices>clothes\hazmat\hazmat_ceda</textureChoices>
+	<textureChoices>clothes\hazmat\Hazmat_Ceda_Black</textureChoices>
+	<textureChoices>clothes\hazmat\Hazmat_Ceda_Blue</textureChoices>
+	<textureChoices>clothes\hazmat\Hazmat_Ceda_Red</textureChoices>
+	<textureChoices>clothes\hazmat\hazmat_ceda</textureChoices>
+	<textureChoices>clothes\hazmat\hazmat_ceda</textureChoices>	
 </clothingItem>
