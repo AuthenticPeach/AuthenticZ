@@ -3176,6 +3176,14 @@
 		<guid>17986624-efdc-4207-a9fa-e7d1f64926d1</guid>
 	</files>
 	<files>
+		<path>media/clothing/clothingItems/Gloves_FingerlessGlovesBlue.xml</path>
+		<guid>50ed9191-f721-4ea1-8145-8c00f2b43fea</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Gloves_FingerlessGlovesRed.xml</path>
+		<guid>6208b99b-cb39-4f04-a64d-881296f88c53</guid>
+	</files>	
+	<files>
 		<path>media/clothing/clothingItems/Gloves_FingerlessGlovesWHITE.xml</path>
 		<guid>31357884-e656-4a14-859e-b48f1b395848</guid>
 	</files>	
@@ -3203,6 +3211,10 @@
 		<path>media/clothing/clothingItems/Gloves_White.xml</path>
 		<guid>7d18ca16-fdb4-462e-b9a7-4f358cdd7525</guid>
 	</files>
+	<files>
+		<path>media/clothing/clothingItems/Gloves_WhitePatriots.xml</path>
+		<guid>d1cd2c65-2e70-4284-b975-9638dbc17cf3</guid>
+	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Gloves_FreddyKreuger.xml</path>
 		<guid>8399821b-18c5-4783-90f1-af14bb14995e</guid>
@@ -3780,12 +3792,28 @@
 		<guid>bbd948ee-c428-4e61-a49b-5fcc60897f27</guid>
 	</files>
 	<files>
+		<path>media/clothing/clothingItems/Jersey_BlueStar.xml</path>
+		<guid>3a1679fa-05e8-407d-aa38-1859a656521d</guid>
+	</files>
+	<files>
 		<path>media/clothing/clothingItems/Jersey_GreenBayPacker1.xml</path>
 		<guid>4e882976-a778-42d1-ad10-669acdf201d7</guid>
-	</files>
+	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Jersey_GreenBayPacker2.xml</path>
 		<guid>7c49f7df-6412-4c31-9a6f-675f06fa0511</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Jersey_KCChiefs1.xml</path>
+		<guid>db54a0ef-18da-4619-8723-99670ae568ee</guid>
+	</files>	
+	<files>
+		<path>media/clothing/clothingItems/Jersey_NEPatriots1.xml</path>
+		<guid>8883dd64-1c04-4173-86f6-7b441a5c8f81</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Jersey_RedSkull.xml</path>
+		<guid>40dd10d6-7391-4f5c-b98f-2b9f32e12d6c</guid>
 	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Jumper_PoloNeckCheeseRoyale.xml</path>
@@ -4040,6 +4068,14 @@
 		<guid>7f16e3d9-15cc-4487-a78f-e2edc27e3185</guid>
 	</files>
 	<files>
+		<path>media/clothing/clothingItems/Shorts_LongSport_Blue.xml</path>
+		<guid>480960e6-2133-4e7c-969b-d836b02ce527</guid>
+	</files>	
+	<files>
+		<path>media/clothing/clothingItems/Shorts_LongSportChiefs.xml</path>
+		<guid>307ba42f-41ba-43fa-b7f5-8071d96de2ab</guid>
+	</files>	
+	<files>
 		<path>media/clothing/clothingItems/Shorts_LongSportGold.xml</path>
 		<guid>9df5977f-0dc6-47b7-bfe3-fbd8be29e0c5</guid>
 	</files>
@@ -4138,6 +4174,10 @@
 	<files>
 		<path>media/clothing/clothingItems/Socks_Long_RedStriped02.xml</path>
 		<guid>41ecafa5-973e-41b0-b0f6-30e9bfa13787</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Socks_Long_RedStriped03.xml</path>
+		<guid>c4996938-15ed-4e0b-9839-46dc2e796569</guid>
 	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Socks_Long_DarkGreen.xml</path>

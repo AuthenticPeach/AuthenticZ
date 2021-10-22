@@ -791,6 +791,19 @@ AuthenticZ_AttachedWeaponDefinitions.PipeBomb = {
 	},
 }
 
+AuthenticZ_AttachedWeaponDefinitions.Football = {
+	id = "Football",
+	chance = 20,
+	outfit = {"AuthenticFootballPlayerBlueStar","AuthenticFootballChiefs","AuthenticFootballGreenBayPacker","AuthenticFootballPatriots","AuthenticFootballPlayerRedSkull"},
+	weaponLocation = {"Left Hand", "Right Hand"},
+	bloodLocations = nil,
+	addHoles = false,
+	daySurvived = 0,
+	weapons = {
+    "AuthenticZClothing.Football3",
+	},
+}
+
 AuthenticZ_AttachedWeaponDefinitions.TorchMelee = {
 	chance = 100,
 	outfit = {"AuthenticNMRIHBadass"},
@@ -1264,8 +1277,44 @@ AuthenticZ_AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticSnowGhi
 
 AuthenticZ_AttachedWeaponDefinitions.attachedWeaponCustomOutfit.HockeyPsycho = {
 	chance = 100;
+	maxitem = 2;	
 	weapons = {
 		AuthenticZ_AttachedWeaponDefinitions.macheteInBack,
+	},
+}
+AuthenticZ_AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticFootballPlayerRedSkull = {
+	chance = 33;
+	maxitem = 2;	
+	weapons = {
+		AuthenticZ_AttachedWeaponDefinitions.Football,
+	},
+}
+AuthenticZ_AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticFootballPatriots = {
+	chance = 33;
+	maxitem = 2;
+	weapons = {
+		AuthenticZ_AttachedWeaponDefinitions.Football,
+	},
+}
+AuthenticZ_AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticFootballGreenBayPacker = {
+	chance = 33;
+	maxitem = 2;
+	weapons = {
+		AuthenticZ_AttachedWeaponDefinitions.Football,
+	},
+}
+AuthenticZ_AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticFootballChiefs = {
+	chance = 33;
+	maxitem = 2;
+	weapons = {
+		AuthenticZ_AttachedWeaponDefinitions.Football,
+	},
+}
+AuthenticZ_AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticFootballPlayerBlueStar = {
+	chance = 33;
+	maxitem = 2;
+	weapons = {
+		AuthenticZ_AttachedWeaponDefinitions.Football,
 	},
 }
 AuthenticZ_AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticJasonPart3 = {
@@ -1762,4 +1811,3 @@ AuthenticZ_AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticZoey = 
 		AuthenticZ_AttachedWeaponDefinitions.Pills,
 	},
 }
---AuthenticCanteenSilver

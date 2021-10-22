@@ -274,7 +274,33 @@ module AuthenticZClothing {
         Insulation = 0.25,
         WindResistance = 0.3,
         WorldStaticModel = Gloves_Ground,
+	}
+	item Gloves_FingerlessGlovesRed
+	{
+		Type = Clothing,
+		DisplayName = Red Fingerless Gloves,
+		ClothingItem = Gloves_FingerlessGlovesRed,
+		BodyLocation = Hands,
+		BloodLocation = Hands,
+		Icon = GlovesFingerlessRed,
+		Weight = 0.1,
+        Insulation = 0.25,
+        WindResistance = 0.3,
+        WorldStaticModel = Gloves_Ground,
 	}	
+	item Gloves_FingerlessGlovesBlue
+	{
+		Type = Clothing,
+		DisplayName = Blue Fingerless Gloves,
+		ClothingItem = Gloves_FingerlessGlovesBlue,
+		BodyLocation = Hands,
+		BloodLocation = Hands,
+		Icon = GlovesFingerlessBlue,
+		Weight = 0.1,
+        Insulation = 0.25,
+        WindResistance = 0.3,
+        WorldStaticModel = Gloves_Ground,
+	}		
 	item Gloves_LeatherWalker
 	{
 		Type = Clothing,
@@ -305,6 +331,20 @@ module AuthenticZClothing {
         FabricType = Cotton,
         WorldStaticModel = Gloves_Ground,		
 	}
+	item Gloves_WhitePatriots
+	{
+		Type = Clothing,
+		DisplayName = White Gloves,
+		ClothingItem = Gloves_WhitePatriots,
+		BodyLocation = Hands,
+		BloodLocation = Hands,
+		Icon = GlovesWoolyWhite,
+		Weight = 0.1,
+        Insulation = 1.0,
+        WindResistance = 1.0,
+        FabricType = Cotton,
+        WorldStaticModel = Gloves_Ground,		
+	}	
 	item Hairstyle_Afro_Pick
 	{
 		Type = Clothing,

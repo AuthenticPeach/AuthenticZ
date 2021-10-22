@@ -2829,8 +2829,8 @@
 		<m_Name>AuthenticFootballPlayerBlueStar</m_Name>
 		<m_Guid>21f24adf-4b09-49a8-8ea5-7f5620f5d563</m_Guid>
 		<m_Pants>false</m_Pants>
-		<m_items>  <!-- Baseball Shirt -->
-			<itemGUID>47dff0a4-907c-4586-84fa-e0f6059adc07</itemGUID>
+		<m_items>  <!-- Blue Star Jersey -->
+			<itemGUID>3a1679fa-05e8-407d-aa38-1859a656521d</itemGUID>
 		</m_items>
 		<m_items> <!-- Blue Star Football Helmet-->
 			<itemGUID>c7974158-16f1-4239-90f4-1ceff85160e3</itemGUID>		
@@ -2838,17 +2838,17 @@
 		<m_items> <!-- Football Makeup-->
 			<itemGUID>1484d550-f2aa-44ce-91f3-9d2b4cb8964c</itemGUID>		
 		</m_items>		
-		<m_items> <!-- Long Blue Sport Pants-->
-			<itemGUID>75d7ced5-bade-4eb6-8841-1d9a460486ff</itemGUID>
+		<m_items> <!-- Long Blue Sport Shorts-->
+			<itemGUID>480960e6-2133-4e7c-969b-d836b02ce527</itemGUID>
 		</m_items>
-		<m_items> <!-- Sneakers -->
-			<itemGUID>6fed6e2b-3a72-4bac-aac5-09585984493d</itemGUID>
+		<m_items> <!-- Blue Sneakers -->
+			<itemGUID>95047b8a-0248-46ad-af29-cde76530915b</itemGUID>
 		</m_items>
-		<m_items> <!-- Socks -->
-			<itemGUID>ebea15c8-99b3-4e20-905b-d22cf82b8217</itemGUID>
+		<m_items> <!-- Blue Striped Long Socks -->
+			<itemGUID>57104d5e-8f09-4915-9704-bfe68c7ccfdf</itemGUID>
 		</m_items>
-		<m_items> <!-- Fingerless Gloves -->
-			<itemGUID>cf0b766a-c273-49b0-bee4-5a0bb6496491</itemGUID>
+		<m_items> <!-- Blue Fingerless Gloves -->
+			<itemGUID>50ed9191-f721-4ea1-8145-8c00f2b43fea</itemGUID>
 		</m_items>			
 	</m_MaleOutfits>
 
@@ -2856,11 +2856,8 @@
 		<m_Name>AuthenticFootballChiefs</m_Name>
 		<m_Guid>c7957d85-2494-44bf-8317-f69dd1851035</m_Guid>
 		<m_Pants>false</m_Pants>
-		<m_items>  <!-- Greenbay Jersey -->
-			<itemGUID>4e882976-a778-42d1-ad10-669acdf201d7</itemGUID>
-			<subItems>
-				<itemGUID>7c49f7df-6412-4c31-9a6f-675f06fa0511</itemGUID>
-			</subItems>			
+		<m_items>  <!-- Chiefs Jersey -->
+			<itemGUID>db54a0ef-18da-4619-8723-99670ae568ee</itemGUID>		
 		</m_items>
 		<m_items> <!-- Chiefs Football Helmet-->
 			<itemGUID>56bb3349-f9c6-4fb5-b0c1-7b30665378cb</itemGUID>		
@@ -2868,17 +2865,17 @@
 		<m_items> <!-- Football Makeup-->
 			<itemGUID>1484d550-f2aa-44ce-91f3-9d2b4cb8964c</itemGUID>		
 		</m_items>		
-		<m_items> <!-- Long Gold Sport Pants-->
-			<itemGUID>9df5977f-0dc6-47b7-bfe3-fbd8be29e0c5</itemGUID>
+		<m_items> <!-- Long Chiefs Sport Pants-->
+			<itemGUID>307ba42f-41ba-43fa-b7f5-8071d96de2ab</itemGUID>
 		</m_items>
 		<m_items> <!-- White Sneakers -->
 			<itemGUID>d7edf6e8-019f-46b9-9744-4e862a5d644f</itemGUID>
 		</m_items>
-		<m_items> <!-- Dark Green Socks -->
-			<itemGUID>829c20ca-8b3b-411c-bfbf-69008c65c2e5</itemGUID>
+		<m_items> <!-- Chiefs Socks -->
+			<itemGUID>c4996938-15ed-4e0b-9839-46dc2e796569</itemGUID>
 		</m_items>
-		<m_items> <!-- Fingerless Gloves -->
-			<itemGUID>cf0b766a-c273-49b0-bee4-5a0bb6496491</itemGUID>
+		<m_items> <!-- Red Fingerless Gloves -->
+			<itemGUID>6208b99b-cb39-4f04-a64d-881296f88c53</itemGUID>
 		</m_items>			
 	</m_MaleOutfits>
 
@@ -2916,11 +2913,8 @@
 		<m_Name>AuthenticFootballPatriots</m_Name>
 		<m_Guid>0f42a073-ea41-48b0-bfbd-185c9445d99f</m_Guid>
 		<m_Pants>false</m_Pants>
-		<m_items>  <!-- Greenbay Jersey -->
-			<itemGUID>4e882976-a778-42d1-ad10-669acdf201d7</itemGUID>
-			<subItems>
-				<itemGUID>7c49f7df-6412-4c31-9a6f-675f06fa0511</itemGUID>
-			</subItems>			
+		<m_items>  <!-- NE Patriots Jersey -->
+			<itemGUID>8883dd64-1c04-4173-86f6-7b441a5c8f81</itemGUID>		
 		</m_items>
 		<m_items> <!-- Patriots Football Helmet-->
 			<itemGUID>7186662e-0d20-4950-b065-585e8f1b16a0</itemGUID>		
@@ -2937,8 +2931,8 @@
 		<m_items> <!-- Patriot Long Socks -->
 			<itemGUID>41ecafa5-973e-41b0-b0f6-30e9bfa13787</itemGUID>
 		</m_items>
-		<m_items> <!-- Fingerless Gloves -->
-			<itemGUID>cf0b766a-c273-49b0-bee4-5a0bb6496491</itemGUID>
+		<m_items> <!-- Patriot Fingerless Gloves -->
+			<itemGUID>d1cd2c65-2e70-4284-b975-9638dbc17cf3</itemGUID>
 		</m_items>			
 	</m_MaleOutfits>	
 	
@@ -2946,8 +2940,8 @@
 		<m_Name>AuthenticFootballPlayerRedSkull</m_Name>
 		<m_Guid>eb71a1d5-0448-4782-97ae-b50e443a5006</m_Guid>
 		<m_Pants>false</m_Pants>
-		<m_items>  <!-- Baseball Shirt -->
-			<itemGUID>47dff0a4-907c-4586-84fa-e0f6059adc07</itemGUID>
+		<m_items>  <!-- Red Skull Jersey -->
+			<itemGUID>40dd10d6-7391-4f5c-b98f-2b9f32e12d6c</itemGUID>
 		</m_items>
 		<m_items> <!-- Red Skull Football Helmet-->
 			<itemGUID>b8eacf17-50fe-4f57-9f7c-05010fe78368</itemGUID>		
@@ -2958,14 +2952,14 @@
 		<m_items> <!-- Long Red Sport Shorts-->
 			<itemGUID>5327466b-ef38-4e7b-a7c9-a8b6b1257087</itemGUID>
 		</m_items>
-		<m_items> <!-- Sneakers -->
-			<itemGUID>6fed6e2b-3a72-4bac-aac5-09585984493d</itemGUID>
+		<m_items> <!-- Red Sneakers -->
+			<itemGUID>b6bb377a-6b18-407a-8e9f-edf949fb1fe1</itemGUID>
 		</m_items>
-		<m_items> <!-- Socks -->
-			<itemGUID>ebea15c8-99b3-4e20-905b-d22cf82b8217</itemGUID>
+		<m_items> <!-- Red Striped White Long Socks -->
+			<itemGUID>fc0109d6-5115-427d-b6be-a4d1b8314cb1</itemGUID>
 		</m_items>
-		<m_items> <!-- Fingerless Gloves -->
-			<itemGUID>cf0b766a-c273-49b0-bee4-5a0bb6496491</itemGUID>
+		<m_items> <!-- Red Fingerless Gloves -->
+			<itemGUID>6208b99b-cb39-4f04-a64d-881296f88c53</itemGUID>
 		</m_items>		
 	</m_MaleOutfits>	
 

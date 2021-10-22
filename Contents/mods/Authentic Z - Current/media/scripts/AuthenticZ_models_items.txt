@@ -258,6 +258,11 @@ module Base
         mesh = Weapons/1Handed/Stake,
 	texture = clothes\Items\RollingPinBloody,
     }
+	model Football3
+	{
+		mesh = ThrowableFootball,
+		texture = WorldItems/Football,
+	}	
 	model WorldItem_AndySign
 	{
 		mesh = WorldItems/WorldItem_AuthenticAndySign,

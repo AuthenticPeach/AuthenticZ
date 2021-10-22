@@ -1881,6 +1881,28 @@ module AuthenticZClothing {
 	    AttachmentType = Hammer,
 		WorldStaticModel = HandTorch,
     }
+    item Football3
+    {
+        MaxRange	=	10,
+        Type	=	Weapon,
+        MinimumSwingTime	=	1.5,
+		SwingAnim	=	Throw,
+        WeaponSprite = Football3,
+        UseSelf	=	TRUE,
+        DisplayName	=	Football,
+        SwingTime	=	1.5,
+        SwingAmountBeforeImpact	=	0.2,
+        PhysicsObject	=	Football,
+        MinDamage	=	0,
+        Weight	=	1.5,
+        MaxDamage	=	0,
+        MaxHitCount	=	0,
+        Icon	=	Football,
+        TriggerExplosionTimer   =   40,
+        ExtraDamage  =   0.001,
+        ExplosionRange  =   2,
+        WorldStaticModel = Football,
+    }	
     item HandTorch2
     {
         LightDistance	=	15,
