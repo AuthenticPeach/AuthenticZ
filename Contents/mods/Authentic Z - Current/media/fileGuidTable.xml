@@ -3804,6 +3804,38 @@
 		<guid>7c49f7df-6412-4c31-9a6f-675f06fa0511</guid>
 	</files>
 	<files>
+		<path>media/clothing/clothingItems/Jersey_GreenBayPacker3.xml</path>
+		<guid>90ee3e52-85cc-467e-9b82-6b278da4b374</guid>
+	</files>	
+	<files>
+		<path>media/clothing/clothingItems/Jersey_GreenBayPacker4.xml</path>
+		<guid>4fde85d0-3f5e-4caa-9ce9-fe9264d3e94c</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Jersey_GreenBayPacker5.xml</path>
+		<guid>8c5aee04-d3b8-42fc-8dc9-74ed4b66ecdb</guid>
+	</files>	
+	<files>
+		<path>media/clothing/clothingItems/Jersey_GreenBayPacker6.xml</path>
+		<guid>bc0cd81a-d61c-4156-b5a7-7936a0e97169</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Jersey_GreenBayPacker7.xml</path>
+		<guid>7723d0af-e8dd-49f1-a1f3-e459a5210e72</guid>
+	</files>	
+	<files>
+		<path>media/clothing/clothingItems/Jersey_GreenBayPacker8.xml</path>
+		<guid>843492dd-6040-4ea0-98f5-2f20e97576ca</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Jersey_GreenBayPacker9.xml</path>
+		<guid>e1789beb-a3c4-47d8-aac6-e54392227e4f</guid>
+	</files>	
+	<files>
+		<path>media/clothing/clothingItems/Jersey_GreenBayPacker0.xml</path>
+		<guid>4c119b4f-9416-47a6-bf5c-0dfd5bab98ef</guid>
+	</files>	
+	<files>
 		<path>media/clothing/clothingItems/Jersey_KCChiefs1.xml</path>
 		<guid>db54a0ef-18da-4619-8723-99670ae568ee</guid>
 	</files>	
@@ -4043,6 +4075,22 @@
 		<path>media/clothing/clothingItems/Shoes_TrainerBlack.xml</path>
 		<guid>caf3e498-a24b-4972-92d2-054849e90cf3</guid>
 	</files>
+	<files>	
+		<path>media/clothing/clothingItems/Shoes_BlackPinkTrainers.xml</path>
+		<guid>87f87760-f0fb-4dae-bc54-190a11cfd708</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/Shoes_TrainerWhite.xml</path>
+		<guid>41fd0e3c-4ad1-4fc3-adf3-5437142dcc09</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/Shoes_TrainerPinkandWhite.xml</path>
+		<guid>fa11d705-bfd5-4f5c-a54d-32643315d2d8</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/Shoes_TrainerBlackandWhite.xml</path>
+		<guid>3cb9f7cc-9911-4791-ba4e-b8cc92e14afe</guid>
+	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Shoes_TrainerBlackMamba.xml</path>
 		<guid>4a09fcbe-a779-4eaa-8f65-cb7d12337d30</guid>
@@ -4458,6 +4506,18 @@
 	<files>
 		<path>media/clothing/clothingItems/Tshirt_SportKillaLong.xml</path>
 		<guid>291c39bb-44ed-4434-8b1a-7c48237e35d8</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Tshirt_SportPinkBlackBlue.xml</path>
+		<guid>446c3da9-b1ec-40b5-b6d3-89850954764d</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Tshirt_SportPopcicle.xml</path>
+		<guid>fd138ec8-ec91-48be-9278-c4fc9d707e6f</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Tshirt_SportPurple.xml</path>
+		<guid>2743ceec-e7cf-425a-b20e-f8b669912c80</guid>
 	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Tshirt_VotePedro.xml</path>

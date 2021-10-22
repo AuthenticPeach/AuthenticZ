@@ -1052,6 +1052,12 @@
 		</m_items>		
 		<m_items> <!-- T-Shirt -->
 			<itemGUID>2256166c-64a6-4f81-8285-0779cab92fbd</itemGUID>
+			<subItems> <!--  Spiffo New Shirt -->
+				<itemGUID>7a91607d-9586-4bf1-b146-fc2eaab9f5bc</itemGUID>
+			</subItems>		
+			<subItems> <!--  Icons New Shirt -->
+				<itemGUID>2d9093bb-6dfa-4541-b9b5-0df30b84d98f</itemGUID>
+			</subItems>					
 		</m_items>
 		<m_items> <!-- Boilersuit Uma -->
 			<itemGUID>3caa69d8-d08c-4d26-a266-5b0bd2e95e7c</itemGUID>
@@ -2887,7 +2893,31 @@
 			<itemGUID>4e882976-a778-42d1-ad10-669acdf201d7</itemGUID>
 			<subItems>
 				<itemGUID>7c49f7df-6412-4c31-9a6f-675f06fa0511</itemGUID>
-			</subItems>			
+			</subItems>
+			<subItems>
+				<itemGUID>90ee3e52-85cc-467e-9b82-6b278da4b374</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>4fde85d0-3f5e-4caa-9ce9-fe9264d3e94c</itemGUID>
+			</subItems>	
+			<subItems>
+				<itemGUID>8c5aee04-d3b8-42fc-8dc9-74ed4b66ecdb</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>bc0cd81a-d61c-4156-b5a7-7936a0e97169</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>7723d0af-e8dd-49f1-a1f3-e459a5210e72</itemGUID>
+			</subItems>	
+			<subItems>
+				<itemGUID>843492dd-6040-4ea0-98f5-2f20e97576ca</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>e1789beb-a3c4-47d8-aac6-e54392227e4f</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>4c119b4f-9416-47a6-bf5c-0dfd5bab98ef</itemGUID>
+			</subItems>				
 		</m_items>
 		<m_items> <!-- Green Bay Packer Football Helmet-->
 			<itemGUID>0dd3dcb4-1020-4371-9ff0-93b58f22efc9</itemGUID>		
@@ -2990,6 +3020,168 @@
 	</m_MaleOutfits>
 
 	<m_MaleOutfits>
+		<m_Name>AuthenticFitnessInstructor</m_Name>
+		<m_Guid>1fdccfc7-3383-4a08-aa4c-67675c5c8a57</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_items>  <!--Sweatband -->
+			<probability>0.3</probability>
+			<itemGUID>5315b11d-1d27-4d9a-80bc-4ba21560fc32</itemGUID>
+		</m_items>
+		<m_items> <!-- T-shirt Sport -->
+			<itemGUID>a4418078-258e-4983-b836-8d978c5c930f</itemGUID>
+			<subItems> <!-- T-shirt  White TINT -->
+				<itemGUID>2256166c-64a6-4f81-8285-0779cab92fbd</itemGUID>
+			</subItems>
+			<subItems> <!-- T-shirt  Sport PinkBlackBlue-->
+				<itemGUID>446c3da9-b1ec-40b5-b6d3-89850954764d</itemGUID>
+			</subItems>
+			<subItems> <!-- T-shirt Sport Popcicle-->
+				<itemGUID>fd138ec8-ec91-48be-9278-c4fc9d707e6f</itemGUID>
+			</subItems>
+			<subItems> <!-- T-shirt  Sport Purple -->
+				<itemGUID>2743ceec-e7cf-425a-b20e-f8b669912c80</itemGUID>
+			</subItems>			
+		</m_items>
+		<m_items>   <!-- Short Sport Shorts -->
+			<itemGUID>e22e4bfa-f550-4e5a-a380-5eaad6b7111c</itemGUID>
+			<subItems> <!-- Long Sport Shorts -->
+				<itemGUID>e27ef562-11ab-4a6a-89a3-8a7724ffd4f8</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items> <!-- Long socks -->
+			<itemGUID>fb86bd5f-1931-4b24-a5d7-bd6a43769991</itemGUID>
+			<subItems> <!-- Socks-->
+				<itemGUID>ebea15c8-99b3-4e20-905b-d22cf82b8217</itemGUID>
+			</subItems>
+			<subItems> <!-- Leg Warmers-->
+				<itemGUID>aaf3194d-6e6f-454f-a690-cbca734165bc</itemGUID>
+			</subItems>				
+		</m_items>
+		<m_items> <!-- White Tint Sneakers -->
+			<itemGUID>6fed6e2b-3a72-4bac-aac5-09585984493d</itemGUID>
+			<subItems> <!-- White Trainers -->
+				<itemGUID>41fd0e3c-4ad1-4fc3-adf3-5437142dcc09</itemGUID>
+			</subItems>
+			<subItems>  <!-- Black and White Sneakers -->
+				<itemGUID>3cb9f7cc-9911-4791-ba4e-b8cc92e14afe</itemGUID>
+			</subItems>				
+		</m_items>
+		<m_items> <!-- Dufflebag -->
+			<probability>0.05</probability>
+			<itemGUID>b02d3217-b692-4035-8a61-8c4305998464</itemGUID>
+		</m_items>
+		<m_items> <!-- Rings -->
+			<probability>0.3</probability>
+			<itemGUID>4cbb081e-0e9a-4248-bec1-0aa226e082e1</itemGUID>
+			<subItems>
+				<itemGUID>c6dd113b-3d04-4833-9f38-8e9840741c0c</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>fedba460-2edc-439d-89b6-f9607ddbf246</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>e4b3135f-a541-4870-a7b9-2ba6f730bc5c</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>5b484f12-b43c-4a83-9009-af05a59ec267</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>  <!-- Digital Watches -->
+			<probability>0.3</probability>
+			<subItems>
+				<itemGUID>c7cc655b-284a-4087-85a6-d7c116385fb0</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>0383956a-3fbd-4001-9749-69e2ba70b134</itemGUID>
+			</subItems>
+		</m_items>
+	</m_MaleOutfits>
+	
+	<m_FemaleOutfits>
+		<m_Name>AuthenticFitnessInstructor</m_Name>
+		<m_Guid>1fdccfc7-3383-4a08-aa4c-67675c5c8a57</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_items>  <!--Sweatband -->
+			<probability>0.3</probability>
+			<itemGUID>5315b11d-1d27-4d9a-80bc-4ba21560fc32</itemGUID>
+		</m_items>
+		<m_items> <!-- T-shirt Sport -->
+			<itemGUID>a4418078-258e-4983-b836-8d978c5c930f</itemGUID>
+			<subItems> <!-- T-shirt  White TINT -->
+				<itemGUID>2256166c-64a6-4f81-8285-0779cab92fbd</itemGUID>
+			</subItems>
+			<subItems> <!-- T-shirt  Sport PinkBlackBlue-->
+				<itemGUID>446c3da9-b1ec-40b5-b6d3-89850954764d</itemGUID>
+			</subItems>
+			<subItems> <!-- T-shirt Sport Popcicle-->
+				<itemGUID>fd138ec8-ec91-48be-9278-c4fc9d707e6f</itemGUID>
+			</subItems>
+			<subItems> <!-- T-shirt  Sport Purple -->
+				<itemGUID>2743ceec-e7cf-425a-b20e-f8b669912c80</itemGUID>
+			</subItems>			
+		</m_items>
+		<m_items>   <!-- Short Sport Shorts -->
+			<itemGUID>e22e4bfa-f550-4e5a-a380-5eaad6b7111c</itemGUID>
+			<subItems> <!-- Long Sport Shorts -->
+				<itemGUID>e27ef562-11ab-4a6a-89a3-8a7724ffd4f8</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items> <!-- Long socks -->
+			<itemGUID>fb86bd5f-1931-4b24-a5d7-bd6a43769991</itemGUID>
+			<subItems> <!-- Socks-->
+				<itemGUID>ebea15c8-99b3-4e20-905b-d22cf82b8217</itemGUID>
+			</subItems>
+			<subItems> <!-- Leg Warmers-->
+				<itemGUID>aaf3194d-6e6f-454f-a690-cbca734165bc</itemGUID>
+			</subItems>			
+		</m_items>
+		<m_items> <!-- White Tint Sneakers -->
+			<itemGUID>6fed6e2b-3a72-4bac-aac5-09585984493d</itemGUID>
+			<subItems> <!-- Pink and White Sneakers -->
+				<itemGUID>fa11d705-bfd5-4f5c-a54d-32643315d2d8</itemGUID>
+			</subItems>
+			<subItems>  <!-- Black and Pink Sneakers -->
+				<itemGUID>87f87760-f0fb-4dae-bc54-190a11cfd708</itemGUID>
+			</subItems>				
+		</m_items>
+		<m_items> <!-- Dufflebag -->
+			<probability>0.05</probability>
+			<itemGUID>b02d3217-b692-4035-8a61-8c4305998464</itemGUID>
+		</m_items>
+		<m_items> <!-- Rings -->
+			<probability>0.3</probability>
+			<itemGUID>4cbb081e-0e9a-4248-bec1-0aa226e082e1</itemGUID>
+			<subItems>
+				<itemGUID>c6dd113b-3d04-4833-9f38-8e9840741c0c</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>fedba460-2edc-439d-89b6-f9607ddbf246</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>e4b3135f-a541-4870-a7b9-2ba6f730bc5c</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>5b484f12-b43c-4a83-9009-af05a59ec267</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>  <!-- Digital Watches -->
+			<probability>0.3</probability>
+			<subItems>
+				<itemGUID>c7cc655b-284a-4087-85a6-d7c116385fb0</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>0383956a-3fbd-4001-9749-69e2ba70b134</itemGUID>
+			</subItems>
+		</m_items>
+	</m_FemaleOutfits>
+
+	<m_MaleOutfits>
 		<m_Name>AuthenticFlyboy</m_Name>
 		<m_Guid>e4190458-4709-4f93-8989-98d75bc515e6</m_Guid>
 		<m_Top>false</m_Top>
@@ -3086,6 +3278,12 @@
 			<subItems>
 				<itemGUID>0a09ac23-a71b-490c-8c25-19eba9ed66fb</itemGUID>
 			</subItems>
+			<subItems> <!--  Spiffo New Shirt -->
+				<itemGUID>7a91607d-9586-4bf1-b146-fc2eaab9f5bc</itemGUID>
+			</subItems>		
+			<subItems> <!--  Icons New Shirt -->
+				<itemGUID>2d9093bb-6dfa-4541-b9b5-0df30b84d98f</itemGUID>
+			</subItems>					
 		</m_items>
 		<m_items> <!-- Hoodie-->
 			<probability>0.08</probability>
@@ -5107,6 +5305,12 @@
 			<subItems>
 				<itemGUID>88b27ecc-8a00-4d1a-882e-1ab4f4a46350</itemGUID>
 			</subItems>
+			<subItems> <!--  Spiffo New Shirt -->
+				<itemGUID>7a91607d-9586-4bf1-b146-fc2eaab9f5bc</itemGUID>
+			</subItems>		
+			<subItems> <!--  Icons New Shirt -->
+				<itemGUID>2d9093bb-6dfa-4541-b9b5-0df30b84d98f</itemGUID>
+			</subItems>		
 		</m_items>
 		<m_items> <!-- Glasses -->
 			<probability>0.1</probability>
@@ -5779,6 +5983,18 @@
 		</m_items>
 		<m_items> <!-- Sneakers -->
 			<itemGUID>6fed6e2b-3a72-4bac-aac5-09585984493d</itemGUID>
+			<subItems> <!-- Pink and White Sneakers -->
+				<itemGUID>fa11d705-bfd5-4f5c-a54d-32643315d2d8</itemGUID>
+			</subItems>
+			<subItems>  <!-- Black and White Sneakers -->
+				<itemGUID>3cb9f7cc-9911-4791-ba4e-b8cc92e14afe</itemGUID>
+			</subItems>
+			<subItems> <!-- White Sneakers -->
+				<itemGUID>41fd0e3c-4ad1-4fc3-adf3-5437142dcc09</itemGUID>
+			</subItems>	
+			<subItems> <!-- Black and Pink Sneakers -->
+				<itemGUID>87f87760-f0fb-4dae-bc54-190a11cfd708</itemGUID>
+			</subItems>			
 		</m_items>
 		<m_items> <!-- Socks -->
 			<itemGUID>ebea15c8-99b3-4e20-905b-d22cf82b8217</itemGUID>
@@ -5843,6 +6059,18 @@
 		</m_items>
 		<m_items>  <!-- Sneakers -->
 			<itemGUID>6fed6e2b-3a72-4bac-aac5-09585984493d</itemGUID>
+			<subItems> <!-- Pink and White Sneakers -->
+				<itemGUID>fa11d705-bfd5-4f5c-a54d-32643315d2d8</itemGUID>
+			</subItems>
+			<subItems>  <!-- Black and White Sneakers -->
+				<itemGUID>3cb9f7cc-9911-4791-ba4e-b8cc92e14afe</itemGUID>
+			</subItems>
+			<subItems> <!-- White Sneakers -->
+				<itemGUID>41fd0e3c-4ad1-4fc3-adf3-5437142dcc09</itemGUID>
+			</subItems>	
+			<subItems> <!-- Black and Pink Sneakers -->
+				<itemGUID>87f87760-f0fb-4dae-bc54-190a11cfd708</itemGUID>
+			</subItems>				
 		</m_items>
 		<m_items>  <!-- Socks -->
 			<itemGUID>ebea15c8-99b3-4e20-905b-d22cf82b8217</itemGUID>
@@ -6285,7 +6513,11 @@
 		<m_items><!-- Hardcore T-Shirt-->
 			<probability>0.1</probability>
 			<itemGUID>0a09ac23-a71b-490c-8c25-19eba9ed66fb</itemGUID>
-		</m_items>	
+		</m_items>
+		<m_items><!-- Spiffo New T-Shirt-->
+			<probability>0.5</probability>
+			<itemGUID>7a91607d-9586-4bf1-b146-fc2eaab9f5bc</itemGUID>
+		</m_items>			
 		<m_items> <!-- Olive Drag Jacket -->
 			<itemGUID>d4324c64-f094-46f8-b953-b6e7ea24ea4d</itemGUID>
 		</m_items>		
@@ -6623,6 +6855,12 @@
 		</m_items>
 		<m_items> <!-- T-Shirt -->
 			<itemGUID>19af00e4-ed4d-49bc-a893-a4a3376fe6da</itemGUID>
+			<subItems> <!--  Spiffo New Shirt -->
+				<itemGUID>7a91607d-9586-4bf1-b146-fc2eaab9f5bc</itemGUID>
+			</subItems>		
+			<subItems> <!--  Icons New Shirt -->
+				<itemGUID>2d9093bb-6dfa-4541-b9b5-0df30b84d98f</itemGUID>
+			</subItems>					
 		</m_items>
 		<m_items> <!-- Pants-->
 			<itemGUID>1e2ed52f-9ee7-464b-9581-a450f2fbb403</itemGUID>
@@ -6685,6 +6923,12 @@
 		</m_items>
 		<m_items> <!-- T-Shirt -->
 			<itemGUID>19af00e4-ed4d-49bc-a893-a4a3376fe6da</itemGUID>
+			<subItems> <!--  Spiffo New Shirt -->
+				<itemGUID>7a91607d-9586-4bf1-b146-fc2eaab9f5bc</itemGUID>
+			</subItems>		
+			<subItems> <!--  Icons New Shirt -->
+				<itemGUID>2d9093bb-6dfa-4541-b9b5-0df30b84d98f</itemGUID>
+			</subItems>					
 		</m_items>	
 		<m_items> <!-- Pants-->
 			<itemGUID>1e2ed52f-9ee7-464b-9581-a450f2fbb403</itemGUID>
@@ -7196,6 +7440,12 @@
 			<subItems> <!-- Sneakers Tint -->
 				<itemGUID>6fed6e2b-3a72-4bac-aac5-09585984493d</itemGUID>
 			</subItems>
+			<subItems> <!-- Pink and White Sneakers -->
+				<itemGUID>fa11d705-bfd5-4f5c-a54d-32643315d2d8</itemGUID>
+			</subItems>
+			<subItems>  <!-- Black and White Sneakers -->
+				<itemGUID>3cb9f7cc-9911-4791-ba4e-b8cc92e14afe</itemGUID>
+			</subItems>		
 		</m_items>
 		<m_items> <!-- Baseball cap-->
 			<probability>0.2</probability>
@@ -7243,7 +7493,13 @@
 			</subItems>	
 			<subItems> <!-- Milkshake Shirt RoyaleWithCheese -->
 				<itemGUID>9b40f472-76d7-4ee7-acf4-b51f58d28c9e</itemGUID>
-			</subItems>				
+			</subItems>	
+			<subItems> <!--  Spiffo New Shirt -->
+				<itemGUID>7a91607d-9586-4bf1-b146-fc2eaab9f5bc</itemGUID>
+			</subItems>		
+			<subItems> <!--  Icons New Shirt -->
+				<itemGUID>2d9093bb-6dfa-4541-b9b5-0df30b84d98f</itemGUID>
+			</subItems>					
 		</m_items>
 		<m_items> <!--  Watches -->
 			<probability>0.3</probability>
@@ -7428,6 +7684,12 @@
 			<subItems>
 				<itemGUID>6fed6e2b-3a72-4bac-aac5-09585984493d</itemGUID>
 			</subItems>
+			<subItems>  <!-- Black and White Sneakers -->
+				<itemGUID>3cb9f7cc-9911-4791-ba4e-b8cc92e14afe</itemGUID>
+			</subItems>
+			<subItems> <!-- White Sneakers -->
+				<itemGUID>41fd0e3c-4ad1-4fc3-adf3-5437142dcc09</itemGUID>
+			</subItems>				
 		</m_items>
 		<m_items> <!-- Baseball Cap -->
 			<probability>0.2</probability>
@@ -7472,7 +7734,13 @@
 			</subItems>	
 			<subItems> <!-- Milkshake Shirt RoyaleWithCheese -->
 				<itemGUID>9b40f472-76d7-4ee7-acf4-b51f58d28c9e</itemGUID>
-			</subItems>				
+			</subItems>	
+			<subItems> <!--  Spiffo New Shirt -->
+				<itemGUID>7a91607d-9586-4bf1-b146-fc2eaab9f5bc</itemGUID>
+			</subItems>		
+			<subItems> <!--  Icons New Shirt -->
+				<itemGUID>2d9093bb-6dfa-4541-b9b5-0df30b84d98f</itemGUID>
+			</subItems>					
 		</m_items>
 		<m_items>
 			<probability>0.3</probability>

@@ -503,13 +503,13 @@ module AuthenticZClothing {
         Weight = 2,
         WorldStaticModel = Jacket_Ground,			
     }
-    item Jersey_GreenBayPacker1
+    item Jersey_BlueStar
     {
         Type = Clothing,
-        DisplayName = Green Bay Packers Jersey,
-        ClothingItem = Jersey_GreenBayPacker1,
+        DisplayName = Stars Football Jersey,
+        ClothingItem = Jersey_BlueStar,
         BodyLocation = Jacket,
-        Icon = JerseyGreen,
+        Icon = JerseyBlue,
         BloodLocation = Jacket,
         RunSpeedModifier = 0.95,
         BiteDefense = 10,
@@ -521,13 +521,13 @@ module AuthenticZClothing {
         Weight = 2,
         WorldStaticModel = Jacket_Ground,			
     }
-    item Jersey_BlueStar
+    item Jersey_GreenBayPacker1
     {
         Type = Clothing,
-        DisplayName = Stars Football Jersey,
-        ClothingItem = Jersey_BlueStar,
+        DisplayName = Green Bay Packers Jersey,
+        ClothingItem = Jersey_GreenBayPacker1,
         BodyLocation = Jacket,
-        Icon = JerseyBlue,
+        Icon = JerseyGreen,
         BloodLocation = Jacket,
         RunSpeedModifier = 0.95,
         BiteDefense = 10,
@@ -557,6 +557,150 @@ module AuthenticZClothing {
         Weight = 2,
         WorldStaticModel = Jacket_Ground,			
     }
+    item Jersey_GreenBayPacker3
+    {
+        Type = Clothing,
+        DisplayName = Green Bay Packers Jersey,
+        ClothingItem = Jersey_GreenBayPacker3,
+        BodyLocation = Jacket,
+        Icon = JerseyGreen,
+        BloodLocation = Jacket,
+        RunSpeedModifier = 0.95,
+        BiteDefense = 10,
+        ScratchDefense = 25,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.5,
+        WindResistance = 0.35,
+        FabricType = Cotton,
+        Weight = 2,
+        WorldStaticModel = Jacket_Ground,			
+    }	
+    item Jersey_GreenBayPacker4
+    {
+        Type = Clothing,
+        DisplayName = Green Bay Packers Jersey,
+        ClothingItem = Jersey_GreenBayPacker4,
+        BodyLocation = Jacket,
+        Icon = JerseyGreen,
+        BloodLocation = Jacket,
+        RunSpeedModifier = 0.95,
+        BiteDefense = 10,
+        ScratchDefense = 25,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.5,
+        WindResistance = 0.35,
+        FabricType = Cotton,
+        Weight = 2,
+        WorldStaticModel = Jacket_Ground,			
+    }
+    item Jersey_GreenBayPacker5
+    {
+        Type = Clothing,
+        DisplayName = Green Bay Packers Jersey,
+        ClothingItem = Jersey_GreenBayPacker5,
+        BodyLocation = Jacket,
+        Icon = JerseyGreen,
+        BloodLocation = Jacket,
+        RunSpeedModifier = 0.95,
+        BiteDefense = 10,
+        ScratchDefense = 25,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.5,
+        WindResistance = 0.35,
+        FabricType = Cotton,
+        Weight = 2,
+        WorldStaticModel = Jacket_Ground,			
+    }	
+    item Jersey_GreenBayPacker6
+    {
+        Type = Clothing,
+        DisplayName = Green Bay Packers Jersey,
+        ClothingItem = Jersey_GreenBayPacker6,
+        BodyLocation = Jacket,
+        Icon = JerseyGreen,
+        BloodLocation = Jacket,
+        RunSpeedModifier = 0.95,
+        BiteDefense = 10,
+        ScratchDefense = 25,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.5,
+        WindResistance = 0.35,
+        FabricType = Cotton,
+        Weight = 2,
+        WorldStaticModel = Jacket_Ground,			
+    }
+    item Jersey_GreenBayPacker7
+    {
+        Type = Clothing,
+        DisplayName = Green Bay Packers Jersey,
+        ClothingItem = Jersey_GreenBayPacker7,
+        BodyLocation = Jacket,
+        Icon = JerseyGreen,
+        BloodLocation = Jacket,
+        RunSpeedModifier = 0.95,
+        BiteDefense = 10,
+        ScratchDefense = 25,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.5,
+        WindResistance = 0.35,
+        FabricType = Cotton,
+        Weight = 2,
+        WorldStaticModel = Jacket_Ground,			
+    }	
+    item Jersey_GreenBayPacker8
+    {
+        Type = Clothing,
+        DisplayName = Green Bay Packers Jersey,
+        ClothingItem = Jersey_GreenBayPacker8,
+        BodyLocation = Jacket,
+        Icon = JerseyGreen,
+        BloodLocation = Jacket,
+        RunSpeedModifier = 0.95,
+        BiteDefense = 10,
+        ScratchDefense = 25,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.5,
+        WindResistance = 0.35,
+        FabricType = Cotton,
+        Weight = 2,
+        WorldStaticModel = Jacket_Ground,			
+    }	
+    item Jersey_GreenBayPacker9
+    {
+        Type = Clothing,
+        DisplayName = Green Bay Packers Jersey,
+        ClothingItem = Jersey_GreenBayPacker9,
+        BodyLocation = Jacket,
+        Icon = JerseyGreen,
+        BloodLocation = Jacket,
+        RunSpeedModifier = 0.95,
+        BiteDefense = 10,
+        ScratchDefense = 25,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.5,
+        WindResistance = 0.35,
+        FabricType = Cotton,
+        Weight = 2,
+        WorldStaticModel = Jacket_Ground,			
+    }	
+    item Jersey_GreenBayPacker0
+    {
+        Type = Clothing,
+        DisplayName = Green Bay Packers Jersey,
+        ClothingItem = Jersey_GreenBayPacker0,
+        BodyLocation = Jacket,
+        Icon = JerseyGreen,
+        BloodLocation = Jacket,
+        RunSpeedModifier = 0.95,
+        BiteDefense = 10,
+        ScratchDefense = 25,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.5,
+        WindResistance = 0.35,
+        FabricType = Cotton,
+        Weight = 2,
+        WorldStaticModel = Jacket_Ground,			
+    }		
     item Jersey_KCChiefs1
     {
         Type = Clothing,

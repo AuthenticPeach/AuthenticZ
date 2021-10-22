@@ -530,7 +530,46 @@
         WindResistance = 0.35,
         FabricType = Cotton,
 		WorldStaticModel = Shirt_Ground,
-    }		
+    }
+    item Tshirt_SportPinkBlackBlue
+    {
+        Type = Clothing,
+        DisplayName = Sport T-Shirt,
+        ClothingItem = Tshirt_SportPinkBlackBlue,
+        BodyLocation = Tshirt,
+        Icon	=	ShirtAthleticPinkBlackBlue,
+        BloodLocation = Shirt,
+        Insulation = 0.3,
+        WindResistance = 0.35,
+        FabricType = Cotton,
+		WorldStaticModel = TShirt_Ground,	
+    }
+    item Tshirt_SportPopcicle
+    {
+        Type = Clothing,
+        DisplayName = Sport T-Shirt,
+        ClothingItem = Tshirt_SportPopcicle,
+        BodyLocation = Tshirt,
+        Icon	=	ShirtAthleticPopcicle,
+        BloodLocation = Shirt,
+        Insulation = 0.3,
+        WindResistance = 0.35,
+        FabricType = Cotton,
+		WorldStaticModel = TShirt_Ground,	
+    }
+    item Tshirt_SportPurple
+    {
+        Type = Clothing,
+        DisplayName = Sport T-Shirt,
+        ClothingItem = Tshirt_SportPurple,
+        BodyLocation = Tshirt,
+        Icon	=	ShirtAthleticPurple,
+        BloodLocation = Shirt,
+        Insulation = 0.3,
+        WindResistance = 0.35,
+        FabricType = Cotton,
+		WorldStaticModel = TShirt_Ground,	
+    }	
      item Tshirt_VotePedro
 	{
 		Type = Clothing,
