@@ -1,4 +1,4 @@
-ZombiesZoneDefinition = ZombiesZoneDefinition or {};
+require 'NPCs/ZombiesZoneDefinition'
 
 -- name of the zone for the zone type ZombiesType (in worldzed)
 ZombiesZoneDefinition.Airfield = {
@@ -17,13 +17,6 @@ ZombiesZoneDefinition.Airfield = {
 		gender="male",
 		mandatory="true",
 	},	
-}
-
-ZombiesZoneDefinition.Athletic = {
-	FitnessInstructor = {
-		name="FitnessInstructor",
-		chance=70,
-	},
 }
 
 ZombiesZoneDefinition.Back4Blood = {
@@ -364,6 +357,12 @@ ZombiesZoneDefinition.ConstructionSite = {
 		gender="male",
 		beardStyles="Chops:10;Goatee:10;Moustache:10;Full:10;BeardOnly:10",
 	},
+	AuthenticCrossingGuard = {
+		name="AuthenticCrossingGuard",
+		chance=5,
+		gender="male",
+		beardStyles="Long:10;Chops:10;Goatee:10;Moustache:10;Full:10;BeardOnly:10",
+	},	
 }
 
 ZombiesZoneDefinition.CoffeeShop = {
@@ -729,28 +728,6 @@ ZombiesZoneDefinition.Dianne = {
 	},
 }
 
-ZombiesZoneDefinition.Dinner = {
-	Waiter_DinerM = {
-		name="Waiter_Diner",
-		toSpawn=1,
-		mandatory="true",
-	},
-	Waiter_Diner = {
-		name="Waiter_Diner",
-		chance=15,
-	},
-	Cook_GenericM = {
-		name="Cook_Generic",
-		toSpawn=1,
-		mandatory="true",
-		room="restaurantkitchen",
-	},
-	Cook_Generic = {
-		name="Cook_Generic",
-		chance=50,
-		room="restaurantkitchen",
-	},
-}
 
 ZombiesZoneDefinition.Doctor = {
 	DoctorM = {
@@ -1715,6 +1692,13 @@ ZombiesZoneDefinition.School = {
 	
 }
 
+local Cheerleader = {
+		name="AuthenticCheerleader",
+		chance=0.1,
+		beardStyles="Long:15;Moustache:15;Full:15;BeardOnly:15",
+	};
+ZombiesZoneDefinition.Farm[Cheerleader] = Cheerleader;
+
 ZombiesZoneDefinition.ScrapYard = {
 	Mechanic = {
 		name="Mechanic",
@@ -2242,4 +2226,7 @@ table.insert(ZombiesZoneDefinition.Default,{name = "Foreman", chance=0.5, gender
 table.insert(ZombiesZoneDefinition.Default,{name = "Bathrobe", chance=10, room="bathroom"});
 table.insert(ZombiesZoneDefinition.Default,{name = "Naked", chance=10, room="bathroom"});
 table.insert(ZombiesZoneDefinition.Default,{name = "Priest", chance=10, room="church", gender="male"});
-table.insert(ZombiesZoneDefinition.Default,{name = "Bedroom", chance=10, room="bedroom"});
+table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticCheerleader", gender="female", chance=1, room="classroom"});
+table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticSexyNurse", gender="female", chance=1, room="medical"});
+table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticCook_Seahorse", chance=10, room="cafe"});
+table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticSexyNurse", gender="female", chance=10, room="medclinic"});
