@@ -90,7 +90,7 @@ module AuthenticZClothing {
 	{
 		Type = Clothing,
 		DisplayName = Clown Shoes,
-		ClothingItem = Shoes_Clown,
+		ClothingItem = Shoes_ClownAuthentic,
 		BodyLocation = Shoes,
 		BodyLocation = Shoes,
 		BloodLocation = Shoes,
@@ -513,7 +513,7 @@ module AuthenticZClothing {
 	item Socks_Long_DarkGreen
 	{
 		Type = Clothing,
-		DisplayName = Dark Green Socks,
+		DisplayName = Dark Green Long Socks,
 		ClothingItem = Socks_Long_DarkGreen,
 		BodyLocation = Socks,
 		Icon  = SocksDarkGreen,

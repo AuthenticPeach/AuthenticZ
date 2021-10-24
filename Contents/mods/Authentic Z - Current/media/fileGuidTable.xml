@@ -3838,11 +3838,83 @@
 	<files>
 		<path>media/clothing/clothingItems/Jersey_KCChiefs1.xml</path>
 		<guid>db54a0ef-18da-4619-8723-99670ae568ee</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Jersey_KCChiefs2.xml</path>
+		<guid>6cd9574f-8680-44f7-a518-95998c07d912</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Jersey_KCChiefs3.xml</path>
+		<guid>6d1d3526-00df-42ac-ae6d-26a4a6ccfa63</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Jersey_KCChiefs4.xml</path>
+		<guid>2fd613bd-d4fc-47a8-a375-e9ff404afd59</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Jersey_KCChiefs5.xml</path>
+		<guid>2bfdac9b-3312-448b-ba9a-ba0df46d7f69</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Jersey_KCChiefs6.xml</path>
+		<guid>5a9c3761-e39e-4af1-bc11-ab800d5c9f42</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Jersey_KCChiefs7.xml</path>
+		<guid>9d03bbaa-4f22-4ad8-a317-3248ee946542</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Jersey_KCChiefs8.xml</path>
+		<guid>c501329a-ac36-4d3a-aab7-cda0eeedbbae</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Jersey_KCChiefs9.xml</path>
+		<guid>43dd6ed6-406d-461f-8329-172636137c7b</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Jersey_KCChiefs0.xml</path>
+		<guid>49e9d93b-1944-476f-82f3-5fc5afff3af6</guid>
 	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Jersey_NEPatriots1.xml</path>
 		<guid>8883dd64-1c04-4173-86f6-7b441a5c8f81</guid>
 	</files>
+	<files>
+		<path>media/clothing/clothingItems/Jersey_NEPatriots2.xml</path>
+		<guid>a35346c5-d660-4bac-ac14-63acc43ac945</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Jersey_NEPatriots3.xml</path>
+		<guid>e30b6cc1-0e89-4b88-bf03-bf0e5fcdde4c</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Jersey_NEPatriots4.xml</path>
+		<guid>cd6b9dc6-faf5-4d21-b792-a773db94281b</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Jersey_NEPatriots5.xml</path>
+		<guid>ce5a64c4-7c85-4a09-8f7a-4623a764e870</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Jersey_NEPatriots6.xml</path>
+		<guid>119f6b4a-428d-4186-a7d3-9e7a0029390b</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Jersey_NEPatriots7.xml</path>
+		<guid>fa76cf9a-fc9d-480d-83c7-6d30a107cb22</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Jersey_NEPatriots8.xml</path>
+		<guid>a7f398e0-6621-4d98-b6dc-f4eeb6c0676f</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Jersey_NEPatriots9.xml</path>
+		<guid>98daed84-0405-4168-82fe-1dec405ad4d6</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Jersey_NEPatriots0.xml</path>
+		<guid>8d921bf1-5742-4a78-bde0-54a4d0d6f3f7</guid>
+	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Jersey_RedSkull.xml</path>
 		<guid>40dd10d6-7391-4f5c-b98f-2b9f32e12d6c</guid>
@@ -4044,7 +4116,7 @@
 		<guid>7fb2c6bd-1503-440d-8471-57b12275881a</guid>
 	</files>	
 	<files>
-		<path>media/clothing/clothingItems/Shoes_Clown.xml</path>
+		<path>media/clothing/clothingItems/Shoes_ClownAuthentic.xml</path>
 		<guid>725cf8ef-b572-4627-b59a-53c30c2c23ea</guid>
 	</files>
 	<files>

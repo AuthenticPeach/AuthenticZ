@@ -1945,15 +1945,43 @@ ZombiesZoneDefinition.StreetSports = {
 	BaseBallPlayer_KY = {
 		name="BaseBallPlayer_KY ",
 		chance=5,
+		gender="male",
 	},
 	BaseBallPlayer_Z = {
 		name="BaseBallPlayer_Z ",
 		chance=5,
+		gender="male",
 	},
 	BaseBallPlayer_Rangers = {
 		name="BaseBallPlayer_Rangers ",
 		chance=5,
+		gender="male",
 	},
+	AuthenticFootballPlayerBlueStar = {
+		name="AuthenticFootballPlayerBlueStar ",
+		chance=1,
+		gender="male",	
+	},
+	AuthenticFootballChiefs = {
+		name="AuthenticFootballChiefs ",
+		chance=0.5,
+		gender="male",	
+	},
+	AuthenticFootballGreenBayPacker = {
+		name="AuthenticFootballGreenBayPacker ",
+		chance=0.5,
+		gender="male",	
+	},
+	AuthenticFootballPatriots = {
+		name="AuthenticFootballPatriots ",
+		chance=0.5,
+		gender="male",	
+	},
+	AuthenticFootballPlayerRedSkull = {
+		name="AuthenticFootballPlayerRedSkull ",
+		chance=1,
+		gender="male",	
+	},	
 }
 
 ZombiesZoneDefinition.Studio = {

@@ -47,7 +47,7 @@
 		DisplayName = Denim Shirt,
 		ClothingItem = Shirt_DenimBlack,
 		BodyLocation = Shirt,
-		IconsForTexture = ShirtDenimLightBlack,
+		Icon = ShirtDenimLightBlack,
 		BloodLocation = ShirtLongSleeves,
 		BiteDefense = 7,
         ScratchDefense = 15,
@@ -508,7 +508,7 @@
     item Tshirt_SportKilla
     {
         Type = Clothing,
-        DisplayName = Killa's T-Shirt,
+        DisplayName = Sport T-Shirt,
         ClothingItem = Tshirt_SportKilla,
         BodyLocation = Tshirt,
         Icon	=	ShirtAthleticGrey,

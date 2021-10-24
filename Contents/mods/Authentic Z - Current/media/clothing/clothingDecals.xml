@@ -15,6 +15,7 @@
 		<name>TShirtIcons</name>
 		<decal>TShirtFlux</decal>
 		<decal>TShirtAether</decal>
+		<decal>TShirtDjackz</decal>
 		<decal>TShirtCardinalBlue</decal>
 	</group>
 	<group>
@@ -31,11 +32,30 @@
 		<decal>0White</decal>			
 	</group>
 	<group>
-		<name>TShirtNumbersWhiteRight</name>
-		<decal>1WhiteRight</decal>
-		<decal>2WhiteRight</decal>
-		<decal>3WhiteRight</decal>
-		<decal>4WhiteRight</decal>
+		<name>TShirtNumbersWhiteGold</name>
+		<decal>1WhiteGold</decal>
+		<decal>2WhiteGold</decal>
+		<decal>3WhiteGold</decal>
+		<decal>4WhiteGold</decal>
+		<decal>5WhiteGold</decal>
+		<decal>6WhiteGold</decal>
+		<decal>7WhiteGold</decal>
+		<decal>8WhiteGold</decal>
+		<decal>9WhiteGold</decal>
+		<decal>0WhiteGold</decal>			
+	</group>
+	<group>
+		<name>TShirtNumbersWhiteRed</name>
+		<decal>1WhiteRed</decal>
+		<decal>2WhiteRed</decal>
+		<decal>3WhiteRed</decal>
+		<decal>4WhiteRed</decal>
+		<decal>5WhiteRed</decal>
+		<decal>6WhiteRed</decal>
+		<decal>7WhiteRed</decal>
+		<decal>8WhiteRed</decal>
+		<decal>9WhiteRed</decal>
+		<decal>0WhiteRed</decal>			
 	</group>	
 </clothingDecals>
 <!-- 

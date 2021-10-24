@@ -9,6 +9,7 @@ module AuthenticZClothing {
         DisplayName	=	Zombie Hit-list #1,
 		Map = media/ui/LootableMaps/PZAZ_hitlist.png,
         Icon	=	PZAZ_hitlist,
+		WorldStaticModel = Map,
 	}
 	item PZAZ_HitList2
 	{
@@ -17,6 +18,7 @@ module AuthenticZClothing {
         DisplayName	=	Zombie Hit-list #2,
 		Map = media/ui/LootableMaps/PZAZ_hitlist_2.png,
         Icon	=	PZAZ_hitlist,
+		WorldStaticModel = Map,
 	}
 	item PZAZ_HitList3
 	{
@@ -25,6 +27,7 @@ module AuthenticZClothing {
         DisplayName	=	Zombie Hit-list #3,
 		Map = media/ui/LootableMaps/PZAZ_hitlist_3.png,
         Icon	=	PZAZ_hitlist,
+		WorldStaticModel = Map,
 	}
     item Authentic_AndyBoard
     {

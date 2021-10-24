@@ -2863,7 +2863,34 @@
 		<m_Guid>c7957d85-2494-44bf-8317-f69dd1851035</m_Guid>
 		<m_Pants>false</m_Pants>
 		<m_items>  <!-- Chiefs Jersey -->
-			<itemGUID>db54a0ef-18da-4619-8723-99670ae568ee</itemGUID>		
+			<itemGUID>49e9d93b-1944-476f-82f3-5fc5afff3af6</itemGUID>
+			<subItems>
+				<itemGUID>db54a0ef-18da-4619-8723-99670ae568ee</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>6cd9574f-8680-44f7-a518-95998c07d912</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>6d1d3526-00df-42ac-ae6d-26a4a6ccfa63</itemGUID>
+			</subItems>	
+			<subItems>
+				<itemGUID>2fd613bd-d4fc-47a8-a375-e9ff404afd59</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>2bfdac9b-3312-448b-ba9a-ba0df46d7f69</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>5a9c3761-e39e-4af1-bc11-ab800d5c9f42</itemGUID>
+			</subItems>	
+			<subItems>
+				<itemGUID>9d03bbaa-4f22-4ad8-a317-3248ee946542</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>c501329a-ac36-4d3a-aab7-cda0eeedbbae</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>43dd6ed6-406d-461f-8329-172636137c7b</itemGUID>
+			</subItems>				
 		</m_items>
 		<m_items> <!-- Chiefs Football Helmet-->
 			<itemGUID>56bb3349-f9c6-4fb5-b0c1-7b30665378cb</itemGUID>		
@@ -2944,7 +2971,34 @@
 		<m_Guid>0f42a073-ea41-48b0-bfbd-185c9445d99f</m_Guid>
 		<m_Pants>false</m_Pants>
 		<m_items>  <!-- NE Patriots Jersey -->
-			<itemGUID>8883dd64-1c04-4173-86f6-7b441a5c8f81</itemGUID>		
+			<itemGUID>8d921bf1-5742-4a78-bde0-54a4d0d6f3f7</itemGUID>
+			<subItems>
+				<itemGUID>8883dd64-1c04-4173-86f6-7b441a5c8f81</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>a35346c5-d660-4bac-ac14-63acc43ac945</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>e30b6cc1-0e89-4b88-bf03-bf0e5fcdde4c</itemGUID>
+			</subItems>	
+			<subItems>
+				<itemGUID>cd6b9dc6-faf5-4d21-b792-a773db94281b</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>ce5a64c4-7c85-4a09-8f7a-4623a764e870</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>119f6b4a-428d-4186-a7d3-9e7a0029390b</itemGUID>
+			</subItems>	
+			<subItems>
+				<itemGUID>fa76cf9a-fc9d-480d-83c7-6d30a107cb22</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>a7f398e0-6621-4d98-b6dc-f4eeb6c0676f</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>98daed84-0405-4168-82fe-1dec405ad4d6</itemGUID>
+			</subItems>				
 		</m_items>
 		<m_items> <!-- Patriots Football Helmet-->
 			<itemGUID>7186662e-0d20-4950-b065-585e8f1b16a0</itemGUID>		

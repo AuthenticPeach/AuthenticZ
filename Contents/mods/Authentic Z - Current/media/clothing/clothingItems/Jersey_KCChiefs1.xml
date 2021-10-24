@@ -9,6 +9,6 @@
 	<m_AttachBone></m_AttachBone>
 	<m_Masks>13</m_Masks>
 	<m_UnderlayMasksFolder>media/textures/Clothes/Jacket/Masks</m_UnderlayMasksFolder>
-	<m_DecalGroup>TShirtNumbersWhite</m_DecalGroup>	
+	<m_DecalGroup>TShirtNumbersWhiteGold</m_DecalGroup>	
 	<textureChoices>clothes\jacket\Jersey_KCChiefs1</textureChoices>
 </clothingItem>

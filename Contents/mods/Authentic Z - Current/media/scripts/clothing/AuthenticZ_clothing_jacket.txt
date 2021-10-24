@@ -555,7 +555,7 @@ module AuthenticZClothing {
         WindResistance = 0.35,
         FabricType = Cotton,
         Weight = 2,
-        WorldStaticModel = Jacket_Ground,			
+        WorldStaticModel = Jacket_Ground,
     }
     item Jersey_GreenBayPacker3
     {
@@ -573,8 +573,8 @@ module AuthenticZClothing {
         WindResistance = 0.35,
         FabricType = Cotton,
         Weight = 2,
-        WorldStaticModel = Jacket_Ground,			
-    }	
+		WorldStaticModel = Jacket_Ground,
+    }
     item Jersey_GreenBayPacker4
     {
         Type = Clothing,
@@ -591,7 +591,7 @@ module AuthenticZClothing {
         WindResistance = 0.35,
         FabricType = Cotton,
         Weight = 2,
-        WorldStaticModel = Jacket_Ground,			
+        WorldStaticModel = Jacket_Ground,	
     }
     item Jersey_GreenBayPacker5
     {
@@ -718,6 +718,186 @@ module AuthenticZClothing {
         FabricType = Cotton,
         Weight = 2,
         WorldStaticModel = Jacket_Ground,			
+    }
+    item Jersey_KCChiefs2
+    {
+        Type = Clothing,
+        DisplayName = Kansas City Chiefs Jersey,
+        ClothingItem = Jersey_KCChiefs2,
+        BodyLocation = Jacket,
+        Icon = JerseyRed,
+        BloodLocation = Jacket,
+        RunSpeedModifier = 0.95,
+        BiteDefense = 10,
+        ScratchDefense = 25,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.5,
+        WindResistance = 0.35,
+        FabricType = Cotton,
+        Weight = 2,
+        WorldStaticModel = Jacket_Ground,			
+    }
+    item Jersey_KCChiefs3
+    {
+        Type = Clothing,
+        DisplayName = Kansas City Chiefs Jersey,
+        ClothingItem = Jersey_KCChiefs3,
+        BodyLocation = Jacket,
+        Icon = JerseyRed,
+        BloodLocation = Jacket,
+        RunSpeedModifier = 0.95,
+        BiteDefense = 10,
+        ScratchDefense = 25,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.5,
+        WindResistance = 0.35,
+        FabricType = Cotton,
+        Weight = 2,
+        WorldStaticModel = Jacket_Ground,			
+    }
+    item Jersey_KCChiefs4
+    {
+        Type = Clothing,
+        DisplayName = Kansas City Chiefs Jersey,
+        ClothingItem = Jersey_KCChiefs4,
+        BodyLocation = Jacket,
+        Icon = JerseyRed,
+        BloodLocation = Jacket,
+        RunSpeedModifier = 0.95,
+        BiteDefense = 10,
+        ScratchDefense = 25,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.5,
+        WindResistance = 0.35,
+        FabricType = Cotton,
+        Weight = 2,
+        WorldStaticModel = Jacket_Ground,			
+    }
+    item Jersey_KCChiefs5
+    {
+        Type = Clothing,
+        DisplayName = Kansas City Chiefs Jersey,
+        ClothingItem = Jersey_KCChiefs5,
+        BodyLocation = Jacket,
+        Icon = JerseyRed,
+        BloodLocation = Jacket,
+        RunSpeedModifier = 0.95,
+        BiteDefense = 10,
+        ScratchDefense = 25,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.5,
+        WindResistance = 0.35,
+        FabricType = Cotton,
+        Weight = 2,
+        WorldStaticModel = Jacket_Ground,			
+    }
+    item Jersey_KCChiefs6
+    {
+        Type = Clothing,
+        DisplayName = Kansas City Chiefs Jersey,
+        ClothingItem = Jersey_KCChiefs6,
+        BodyLocation = Jacket,
+        Icon = JerseyRed,
+        BloodLocation = Jacket,
+        RunSpeedModifier = 0.95,
+        BiteDefense = 10,
+        ScratchDefense = 25,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.5,
+        WindResistance = 0.35,
+        FabricType = Cotton,
+        Weight = 2,
+        WorldStaticModel = Jacket_Ground,			
+    }	
+    item Jersey_KCChiefs7
+    {
+        Type = Clothing,
+        DisplayName = Kansas City Chiefs Jersey,
+        ClothingItem = Jersey_KCChiefs7,
+        BodyLocation = Jacket,
+        Icon = JerseyRed,
+        BloodLocation = Jacket,
+        RunSpeedModifier = 0.95,
+        BiteDefense = 10,
+        ScratchDefense = 25,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.5,
+        WindResistance = 0.35,
+        FabricType = Cotton,
+        Weight = 2,
+        WorldStaticModel = Jacket_Ground,			
+    }
+    item Jersey_KCChiefs8
+    {
+        Type = Clothing,
+        DisplayName = Kansas City Chiefs Jersey,
+        ClothingItem = Jersey_KCChiefs8,
+        BodyLocation = Jacket,
+        Icon = JerseyRed,
+        BloodLocation = Jacket,
+        RunSpeedModifier = 0.95,
+        BiteDefense = 10,
+        ScratchDefense = 25,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.5,
+        WindResistance = 0.35,
+        FabricType = Cotton,
+        Weight = 2,
+        WorldStaticModel = Jacket_Ground,			
+    }
+    item Jersey_KCChiefs1
+    {
+        Type = Clothing,
+        DisplayName = Kansas City Chiefs Jersey,
+        ClothingItem = Jersey_KCChiefs1,
+        BodyLocation = Jacket,
+        Icon = JerseyRed,
+        BloodLocation = Jacket,
+        RunSpeedModifier = 0.95,
+        BiteDefense = 10,
+        ScratchDefense = 25,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.5,
+        WindResistance = 0.35,
+        FabricType = Cotton,
+        Weight = 2,
+        WorldStaticModel = Jacket_Ground,			
+    }
+    item Jersey_KCChiefs9
+    {
+        Type = Clothing,
+        DisplayName = Kansas City Chiefs Jersey,
+        ClothingItem = Jersey_KCChiefs9,
+        BodyLocation = Jacket,
+        Icon = JerseyRed,
+        BloodLocation = Jacket,
+        RunSpeedModifier = 0.95,
+        BiteDefense = 10,
+        ScratchDefense = 25,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.5,
+        WindResistance = 0.35,
+        FabricType = Cotton,
+        Weight = 2,
+        WorldStaticModel = Jacket_Ground,			
+    }
+    item Jersey_KCChiefs0
+    {
+        Type = Clothing,
+        DisplayName = Kansas City Chiefs Jersey,
+        ClothingItem = Jersey_KCChiefs0,
+        BodyLocation = Jacket,
+        Icon = JerseyRed,
+        BloodLocation = Jacket,
+        RunSpeedModifier = 0.95,
+        BiteDefense = 10,
+        ScratchDefense = 25,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.5,
+        WindResistance = 0.35,
+        FabricType = Cotton,
+        Weight = 2,
+        WorldStaticModel = Jacket_Ground,			
     }	
     item Jersey_NEPatriots1
     {
@@ -737,6 +917,168 @@ module AuthenticZClothing {
         Weight = 2,
         WorldStaticModel = Jacket_Ground,			
     }
+    item Jersey_NEPatriots2
+    {
+        Type = Clothing,
+        DisplayName = New England Patriots Jersey,
+        ClothingItem = Jersey_NEPatriots2,
+        BodyLocation = Jacket,
+        Icon = JerseyBlue,
+        BloodLocation = Jacket,
+        RunSpeedModifier = 0.95,
+        BiteDefense = 10,
+        ScratchDefense = 25,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.5,
+        WindResistance = 0.35,
+        FabricType = Cotton,
+        Weight = 2,
+        WorldStaticModel = Jacket_Ground,			
+    }	
+    item Jersey_NEPatriots3
+    {
+        Type = Clothing,
+        DisplayName = New England Patriots Jersey,
+        ClothingItem = Jersey_NEPatriots3,
+        BodyLocation = Jacket,
+        Icon = JerseyBlue,
+        BloodLocation = Jacket,
+        RunSpeedModifier = 0.95,
+        BiteDefense = 10,
+        ScratchDefense = 25,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.5,
+        WindResistance = 0.35,
+        FabricType = Cotton,
+        Weight = 2,
+        WorldStaticModel = Jacket_Ground,			
+    }	
+    item Jersey_NEPatriots4
+    {
+        Type = Clothing,
+        DisplayName = New England Patriots Jersey,
+        ClothingItem = Jersey_NEPatriots4,
+        BodyLocation = Jacket,
+        Icon = JerseyBlue,
+        BloodLocation = Jacket,
+        RunSpeedModifier = 0.95,
+        BiteDefense = 10,
+        ScratchDefense = 25,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.5,
+        WindResistance = 0.35,
+        FabricType = Cotton,
+        Weight = 2,
+        WorldStaticModel = Jacket_Ground,			
+    }
+    item Jersey_NEPatriots5
+    {
+        Type = Clothing,
+        DisplayName = New England Patriots Jersey,
+        ClothingItem = Jersey_NEPatriots5,
+        BodyLocation = Jacket,
+        Icon = JerseyBlue,
+        BloodLocation = Jacket,
+        RunSpeedModifier = 0.95,
+        BiteDefense = 10,
+        ScratchDefense = 25,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.5,
+        WindResistance = 0.35,
+        FabricType = Cotton,
+        Weight = 2,
+        WorldStaticModel = Jacket_Ground,			
+    }	
+    item Jersey_NEPatriots6
+    {
+        Type = Clothing,
+        DisplayName = New England Patriots Jersey,
+        ClothingItem = Jersey_NEPatriots6,
+        BodyLocation = Jacket,
+        Icon = JerseyBlue,
+        BloodLocation = Jacket,
+        RunSpeedModifier = 0.95,
+        BiteDefense = 10,
+        ScratchDefense = 25,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.5,
+        WindResistance = 0.35,
+        FabricType = Cotton,
+        Weight = 2,
+        WorldStaticModel = Jacket_Ground,			
+    }
+    item Jersey_NEPatriots7
+    {
+        Type = Clothing,
+        DisplayName = New England Patriots Jersey,
+        ClothingItem = Jersey_NEPatriots7,
+        BodyLocation = Jacket,
+        Icon = JerseyBlue,
+        BloodLocation = Jacket,
+        RunSpeedModifier = 0.95,
+        BiteDefense = 10,
+        ScratchDefense = 25,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.5,
+        WindResistance = 0.35,
+        FabricType = Cotton,
+        Weight = 2,
+        WorldStaticModel = Jacket_Ground,			
+    }
+    item Jersey_NEPatriots8
+    {
+        Type = Clothing,
+        DisplayName = New England Patriots Jersey,
+        ClothingItem = Jersey_NEPatriots8,
+        BodyLocation = Jacket,
+        Icon = JerseyBlue,
+        BloodLocation = Jacket,
+        RunSpeedModifier = 0.95,
+        BiteDefense = 10,
+        ScratchDefense = 25,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.5,
+        WindResistance = 0.35,
+        FabricType = Cotton,
+        Weight = 2,
+        WorldStaticModel = Jacket_Ground,			
+    }
+    item Jersey_NEPatriots9
+    {
+        Type = Clothing,
+        DisplayName = New England Patriots Jersey,
+        ClothingItem = Jersey_NEPatriots9,
+        BodyLocation = Jacket,
+        Icon = JerseyBlue,
+        BloodLocation = Jacket,
+        RunSpeedModifier = 0.95,
+        BiteDefense = 10,
+        ScratchDefense = 25,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.5,
+        WindResistance = 0.35,
+        FabricType = Cotton,
+        Weight = 2,
+        WorldStaticModel = Jacket_Ground,			
+    }
+    item Jersey_NEPatriots0
+    {
+        Type = Clothing,
+        DisplayName = New England Patriots Jersey,
+        ClothingItem = Jersey_NEPatriots0,
+        BodyLocation = Jacket,
+        Icon = JerseyBlue,
+        BloodLocation = Jacket,
+        RunSpeedModifier = 0.95,
+        BiteDefense = 10,
+        ScratchDefense = 25,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.5,
+        WindResistance = 0.35,
+        FabricType = Cotton,
+        Weight = 2,
+        WorldStaticModel = Jacket_Ground,			
+    }	
     item Jersey_RedSkull
     {
         Type = Clothing,
