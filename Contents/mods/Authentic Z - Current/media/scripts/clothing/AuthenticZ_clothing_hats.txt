@@ -1017,6 +1017,21 @@ module AuthenticZClothing {
        	ScratchDefense = 50,
         Insulation = 0.25,
         WindResistance = 0.55,
+	}
+	item Hat_HardHat_Miner2
+	{
+		Type 				 = Clothing,
+		DisplayName 		 = Mining Helmet,
+		ClothingItem 		 = Hat_HardHat_Miner2,
+		BodyLocation 		 = Hat,
+		Icon 				 = HardHatMiner,
+		CanHaveHoles 		 = false,
+		BloodLocation 		 = Head,
+		BiteDefense 		 = 100,
+        ScratchDefense  	 = 100,
+        Insulation 			 = 0.15,
+        WindResistance  	 = 0.20,
+		AttachmentsProvided  = MinerLightBulb,			
 	}	
     item Hat_Nurse
     {
@@ -1032,30 +1047,30 @@ module AuthenticZClothing {
     }
     item Hat_StovePipe
     {
-        Type = Clothing,
-        DisplayName = Stove Pipe Hat,
-        ClothingItem = Hat_StovePipe,
-        BodyLocation = Hat,
-        Icon = StovePipeHat,
-        CanHaveHoles = false,
-        ChanceToFall = 80,
-        Insulation = 0.10,
-        Weight = 0.5,
+        Type 			 = Clothing,
+        DisplayName 	 = Stove Pipe Hat,
+        ClothingItem 	 = Hat_StovePipe,
+        BodyLocation 	 = Hat,
+        Icon 			 = StovePipeHat,
+        CanHaveHoles 	 = false,
+        ChanceToFall 	 = 80,
+        Insulation 		 = 0.10,
+        Weight 			 = 0.5,
 		WorldStaticModel = WorldItem-StovePipeHat,
     }
 	item Hat_TrueEyeCult
 	{
-		Type = Clothing,
-		DisplayName = True Eye Cult Mask,
-		ClothingItem = Hat_TrueEyeCult,
-		BodyLocation = MaskEyes,
-		Icon = TrueEyeCultMask,
-		CanHaveHoles = false,
+		Type 		  = Clothing,
+		DisplayName   = True Eye Cult Mask,
+		ClothingItem  = Hat_TrueEyeCult,
+		BodyLocation  = MaskEyes,
+		Icon 		  = TrueEyeCultMask,
+		CanHaveHoles  = false,
 		BloodLocation = Head,
-        BiteDefense = 30,
+        BiteDefense	  = 30,
        	ScratchDefense = 50,
-        ChanceToFall = 30,
-        Insulation = 0.25,
+        ChanceToFall  = 30,
+        Insulation 	  = 0.25,
         WindResistance = 0.55,
 	}
 	item Hat_UncleSam

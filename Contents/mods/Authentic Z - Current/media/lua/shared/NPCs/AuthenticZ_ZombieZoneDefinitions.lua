@@ -186,8 +186,8 @@ ZombiesZoneDefinition.Baseball = {
 		name="BaseballPlayer_Rangers",
 		chance=20,
 	},
-	FitnessInstructor = {
-		name="FitnessInstructor",
+	AuthenticFitnessInstructor = {
+		name="AuthenticFitnessInstructor",
 		chance=5,
 	},	
 }
@@ -394,8 +394,8 @@ ZombiesZoneDefinition.CountryClub = {
 		name="Classy",
 		chance=20,
 	},
-	FitnessInstructor = {
-		name="FitnessInstructor",
+	AuthenticFitnessInstructor = {
+		name="AuthenticFitnessInstructor",
 		chance=150,
 		room="gym",
 	},
@@ -1346,8 +1346,8 @@ ZombiesZoneDefinition.ParkPlaza = {
 		chance=5,
 		gender="female",
 	},	
-	FitnessInstructor = {
-		name="FitnessInstructor",
+	AuthenticFitnessInstructor = {
+		name="AuthenticFitnessInstructor",
 		chance=10,
 	},		
 }
@@ -1804,8 +1804,8 @@ ZombiesZoneDefinition.SecretBase = {
 		mandatory="true",
 		room="office",
 	},		
-	HazardSuit = {
-		name="HazardSuit",
+	AuthenticHazardSuit = {
+		name="AuthenticHazardSuit",
 		toSpawn=1,
 		mandatory="true",
 		room="medical",
@@ -1938,8 +1938,8 @@ ZombiesZoneDefinition.StreetSports = {
 		name="StreetSports",
 		chance=70,
 	},
-	FitnessInstructor = {
-		name="FitnessInstructor",
+	AuthenticFitnessInstructor = {
+		name="AuthenticFitnessInstructor",
 		chance=5,
 	},
 	BaseBallPlayer_KY = {
@@ -2230,7 +2230,7 @@ table.insert(ZombiesZoneDefinition.Default,{name = "DressNormal", chance=3, gend
 table.insert(ZombiesZoneDefinition.Default,{name = "DressShort", chance=3, gender="female"});
 table.insert(ZombiesZoneDefinition.Default,{name = "Golfer", chance=0.2});
 table.insert(ZombiesZoneDefinition.Default,{name = "Mannequin1", chance=0.5, gender="female"});
-table.insert(ZombiesZoneDefinition.Default,{name = "HazardSuit", chance=0.005});
+table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticHazardSuit", chance=0.005});
 table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticSurvivorPolice", chance=0.005});
 table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticSurvivorHazardSuit", chance=0.005});
 table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticSurvivorSplatter", chance=0.005});

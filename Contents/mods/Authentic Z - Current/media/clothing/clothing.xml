@@ -720,7 +720,11 @@
 		</m_items>
 		<m_items> <!-- Holster -->
 			<itemGUID>88f11c9e-e717-446c-82ec-f749320df25a</itemGUID>
-		</m_items>		
+		</m_items>
+		<m_items> <!-- Left 4 Dead Medkit -->
+			<probability>0.25</probability>
+			<itemGUID>60bc5b85-83b6-4beb-9446-5920862d26ec</itemGUID>
+		</m_items>			
 	</m_MaleOutfits>	
 
 <m_MaleOutfits>
@@ -1963,6 +1967,10 @@
 		</m_items>
 		<m_items> <!-- Black Male Zombie Skin -->
 			<itemGUID>44ee984a-1926-42e9-b9ac-41652dd31426</itemGUID>
+		</m_items>
+		<m_items> <!-- Left 4 Dead Medkit -->
+			<probability>0.25</probability>
+			<itemGUID>60bc5b85-83b6-4beb-9446-5920862d26ec</itemGUID>
 		</m_items>			
 	</m_MaleOutfits>
 
@@ -2783,6 +2791,10 @@
 		</m_items>
 		<m_items> <!-- White Zed Skin -->
 			<itemGUID>9c87b588-b784-4560-bada-fd4cf7e44d48</itemGUID>
+		</m_items>
+		<m_items> <!-- Left 4 Dead Medkit -->
+			<probability>0.25</probability>
+			<itemGUID>60bc5b85-83b6-4beb-9446-5920862d26ec</itemGUID>
 		</m_items>			
 	</m_MaleOutfits>	
 	
@@ -3095,8 +3107,14 @@
 			<subItems> <!-- T-shirt Sport Popcicle-->
 				<itemGUID>fd138ec8-ec91-48be-9278-c4fc9d707e6f</itemGUID>
 			</subItems>
+			<subItems> <!-- T-shirt Sport Blue Purple-->
+				<itemGUID>aaa72940-1143-4179-b3a1-94af6c6da44b</itemGUID>
+			</subItems>					
 			<subItems> <!-- T-shirt  Sport Purple -->
 				<itemGUID>2743ceec-e7cf-425a-b20e-f8b669912c80</itemGUID>
+			</subItems>
+			<subItems> <!-- T-shirt  Sport Watermelon -->
+				<itemGUID>0bf3c8e2-aca3-4ffd-aa05-b34db3d9108e</itemGUID>
 			</subItems>			
 		</m_items>
 		<m_items>   <!-- Short Sport Shorts -->
@@ -3104,6 +3122,18 @@
 			<subItems> <!-- Long Sport Shorts -->
 				<itemGUID>e27ef562-11ab-4a6a-89a3-8a7724ffd4f8</itemGUID>
 			</subItems>
+			<subItems> <!-- Pink Black Blue Short Sport Shorts -->
+				<itemGUID>da5e3b58-e433-4182-a273-ba619e6d33c3</itemGUID>
+			</subItems>	
+			<subItems> <!-- Blue Purple Short Sport Shorts -->
+				<itemGUID>e4420f15-b115-4ad9-9db5-90a302e22235</itemGUID>
+			</subItems>	
+			<subItems> <!-- Popcicle Long Sport Shorts -->
+				<itemGUID>199e77a3-4915-42cd-83d9-db1e3572b390</itemGUID>
+			</subItems>		
+			<subItems> <!-- Watermelon Long Sport Shorts -->
+				<itemGUID>e83660a5-766b-42e3-aa6e-ae0086a96ec9</itemGUID>
+			</subItems>				
 		</m_items>
 		<m_items> <!-- Long socks -->
 			<itemGUID>fb86bd5f-1931-4b24-a5d7-bd6a43769991</itemGUID>
@@ -3176,15 +3206,24 @@
 			<subItems> <!-- T-shirt Sport Popcicle-->
 				<itemGUID>fd138ec8-ec91-48be-9278-c4fc9d707e6f</itemGUID>
 			</subItems>
+			<subItems> <!-- T-shirt Sport Blue Purple-->
+				<itemGUID>aaa72940-1143-4179-b3a1-94af6c6da44b</itemGUID>
+			</subItems>			
 			<subItems> <!-- T-shirt  Sport Purple -->
 				<itemGUID>2743ceec-e7cf-425a-b20e-f8b669912c80</itemGUID>
-			</subItems>			
+			</subItems>	
+			<subItems> <!-- T-shirt  Sport Watermelon -->
+				<itemGUID>0bf3c8e2-aca3-4ffd-aa05-b34db3d9108e</itemGUID>
+			</subItems>				
 		</m_items>
 		<m_items>   <!-- Short Sport Shorts -->
 			<itemGUID>e22e4bfa-f550-4e5a-a380-5eaad6b7111c</itemGUID>
 			<subItems> <!-- Long Sport Shorts -->
 				<itemGUID>e27ef562-11ab-4a6a-89a3-8a7724ffd4f8</itemGUID>
 			</subItems>
+			<subItems> <!-- Pink Black Blue Short Sport Shorts -->
+				<itemGUID>da5e3b58-e433-4182-a273-ba619e6d33c3</itemGUID>
+			</subItems>				
 		</m_items>
 		<m_items> <!-- Long socks -->
 			<itemGUID>fb86bd5f-1931-4b24-a5d7-bd6a43769991</itemGUID>
@@ -3284,7 +3323,11 @@
 		</m_items>
 		<m_items> <!-- Tattoo'd White Zed Skin -->
 			<itemGUID>580f5639-375f-4a9f-9ece-01a772bc3653</itemGUID>
-		</m_items>		
+		</m_items>
+		<m_items> <!-- Left 4 Dead Medkit -->
+			<probability>0.25</probability>
+			<itemGUID>60bc5b85-83b6-4beb-9446-5920862d26ec</itemGUID>
+		</m_items>			
 	</m_MaleOutfits>	
 
 	<m_MaleOutfits>
@@ -3834,6 +3877,44 @@
 			<itemGUID>9c87b588-b784-4560-bada-fd4cf7e44d48</itemGUID>
 		</m_items>		
 	</m_MaleOutfits>
+
+	<m_MaleOutfits>
+		<m_Name>AuthenticHazardSuit</m_Name>
+		<m_Guid>0de672ad-7b40-45c0-8f39-81f7e1251744</m_Guid>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_items> <!--  New Yellow Hazmat -->
+			<itemGUID>32bf5f44-ef49-47e2-9ff6-5147951d52ae</itemGUID>
+		</m_items>
+		<m_items> <!--  Tshirt_DefaultDECAL_TINT -->
+			<itemGUID>53b95680-245b-4439-8ba7-5aa6d938e465</itemGUID>
+			<subItems>  <!-- Tshirt_DefaultTEXTURE  -->
+				<itemGUID>e4ec9087-006d-41dc-81f4-585b6d2e958c</itemGUID>
+			</subItems>			
+			<subItems>  <!--  T-shirt White TINT  -->
+				<itemGUID>2256166c-64a6-4f81-8285-0779cab92fbd</itemGUID>
+			</subItems>
+		</m_items>		
+	</m_MaleOutfits>
+	
+<m_FemaleOutfits>
+		<m_Name>AuthenticHazardSuit</m_Name>
+		<m_Guid>0de672ad-7b40-45c0-8f39-81f7e1251744</m_Guid>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_items> <!--  New Yellow Hazmat -->
+			<itemGUID>32bf5f44-ef49-47e2-9ff6-5147951d52ae</itemGUID>
+		</m_items>
+		<m_items> <!--  Tshirt_DefaultDECAL_TINT -->
+			<itemGUID>53b95680-245b-4439-8ba7-5aa6d938e465</itemGUID>
+			<subItems>  <!-- Tshirt_DefaultTEXTURE  -->
+				<itemGUID>e4ec9087-006d-41dc-81f4-585b6d2e958c</itemGUID>
+			</subItems>			
+			<subItems>  <!--  T-shirt White TINT  -->
+				<itemGUID>2256166c-64a6-4f81-8285-0779cab92fbd</itemGUID>
+			</subItems>
+		</m_items>		
+</m_FemaleOutfits>
 
 	<m_MaleOutfits>
 		<m_Name>AuthenticHomeless</m_Name>
@@ -4438,6 +4519,10 @@
 		</m_items>
 		<m_items> <!-- Black Zombie Skin -->
 			<itemGUID>44ee984a-1926-42e9-b9ac-41652dd31426</itemGUID>
+		</m_items>
+		<m_items> <!-- Left 4 Dead Medkit -->
+			<probability>0.25</probability>
+			<itemGUID>60bc5b85-83b6-4beb-9446-5920862d26ec</itemGUID>
 		</m_items>			
 	</m_MaleOutfits>		
 
@@ -4684,6 +4769,45 @@
 			<itemGUID>593bea3d-c127-4574-ac1e-2197dc56e486</itemGUID>
 		</m_items>		
 	</m_FemaleOutfits>	
+	
+	<m_MaleOutfits>
+		<m_Name>AuthenticNick</m_Name>
+		<m_Guid>f416f265-24d4-4ab2-be2d-2108f33c14ef</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowTopTint>false</m_AllowTopTint>		
+		<m_items> <!-- White Suit Pants -->
+			<itemGUID>2f480fba-3f74-4411-a306-5ee42f536c06</itemGUID>
+		</m_items>
+		<m_items> <!-- Long Socks -->
+			<itemGUID>fb86bd5f-1931-4b24-a5d7-bd6a43769991</itemGUID>
+		</m_items>	
+		<m_items> <!-- Shoes -->
+			<itemGUID>7741404b-9689-4608-a0f5-4e06597776f9</itemGUID>
+		</m_items>
+		<m_items> <!-- Tank Top -->
+			<itemGUID>a700a956-32c2-49a6-bd5f-5a2895073f19</itemGUID>
+		</m_items>
+		<m_items> <!-- Nick Formal Shirt -->
+			<itemGUID>f9502285-fb9b-4a4b-a801-654d5568348f</itemGUID>
+		</m_items>	
+		<m_items> <!-- White Suit Jacket -->
+			<itemGUID>0a21c59c-3c14-49e5-95bb-65e5fff6dc48</itemGUID>
+		</m_items>	
+		<m_items> <!-- Holster -->
+			<itemGUID>88f11c9e-e717-446c-82ec-f749320df25a</itemGUID>
+		</m_items>	
+		<m_items> <!-- Fancy Watch -->
+			<itemGUID>9b91619f-3c00-47da-a8e2-8765e80d40c3</itemGUID>
+			<subItems>
+				<itemGUID>dbfbe3c4-d96e-4f8a-bf77-25bdbd9863b9</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items> <!-- Left 4 Dead Medkit -->
+			<probability>0.25</probability>
+			<itemGUID>60bc5b85-83b6-4beb-9446-5920862d26ec</itemGUID>
+		</m_items>			
+	</m_MaleOutfits>		
 
 	<m_FemaleOutfits>
 		<m_Name>AuthenticNMRIHBadass</m_Name>
@@ -5348,6 +5472,24 @@
 			<subItems>
 				<itemGUID>2cfe07c1-329a-479a-9974-c73742e13be1</itemGUID>
 			</subItems>
+			<subItems> <!-- Olive drab Poncho down -->
+				<itemGUID>92ea30a9-45ed-4778-a4c3-983c1c4aff37</itemGUID>
+			</subItems>
+			<subItems> <!-- Olive drab Poncho -->
+				<itemGUID>b4cb19cf-a28e-46cd-b3e0-1c91a1f598ad</itemGUID>
+			</subItems>	
+			<subItems> <!-- PonchoOrangePunch -->
+				<itemGUID>383addbb-9d31-4615-9e55-8a3c2abb9787</itemGUID>
+			</subItems>
+			<subItems> <!-- PonchoOrangePunch DOWN -->
+				<itemGUID>88edde24-16f3-49b9-95bc-fd0c0d8e78ff</itemGUID>
+			</subItems>	
+			<subItems> <!-- Poncho White TINT -->
+				<itemGUID>90e081e6-3ec0-4214-83ba-14b253540287</itemGUID>
+			</subItems>
+			<subItems> <!-- Poncho White TINT DOWN -->
+				<itemGUID>0b9dc883-c44d-4089-961f-3d5f082b4b45</itemGUID>
+			</subItems>			
 		</m_items>		
 		
 		<m_items> <!-- Shirts -->
@@ -5438,6 +5580,24 @@
 			<subItems>
 				<itemGUID>2cfe07c1-329a-479a-9974-c73742e13be1</itemGUID>
 			</subItems>
+			<subItems> <!-- Olive drab Poncho down -->
+				<itemGUID>92ea30a9-45ed-4778-a4c3-983c1c4aff37</itemGUID>
+			</subItems>
+			<subItems> <!-- Olive drab Poncho -->
+				<itemGUID>b4cb19cf-a28e-46cd-b3e0-1c91a1f598ad</itemGUID>
+			</subItems>	
+			<subItems> <!-- PonchoOrangePunch -->
+				<itemGUID>383addbb-9d31-4615-9e55-8a3c2abb9787</itemGUID>
+			</subItems>
+			<subItems> <!-- PonchoOrangePunch DOWN -->
+				<itemGUID>88edde24-16f3-49b9-95bc-fd0c0d8e78ff</itemGUID>
+			</subItems>	
+			<subItems> <!-- Poncho White TINT -->
+				<itemGUID>90e081e6-3ec0-4214-83ba-14b253540287</itemGUID>
+			</subItems>
+			<subItems> <!-- Poncho White TINT DOWN -->
+				<itemGUID>0b9dc883-c44d-4089-961f-3d5f082b4b45</itemGUID>
+			</subItems>				
 		</m_items>		
 		<m_items> <!-- Shirts -->
 			<probability>0.5</probability>
@@ -5664,7 +5824,11 @@
 		</m_items>
 		<m_items> <!-- Black Zed Skin Woman -->
 			<itemGUID>bb0817fc-29a8-4e55-9856-cf739326c5ca</itemGUID>
-		</m_items>		
+		</m_items>
+		<m_items> <!-- Left 4 Dead Medkit -->
+			<probability>0.25</probability>
+			<itemGUID>60bc5b85-83b6-4beb-9446-5920862d26ec</itemGUID>
+		</m_items>			
 	</m_FemaleOutfits>	
 
 	<m_MaleOutfits>
@@ -6512,13 +6676,13 @@
 	
 	<m_MaleOutfits>
 		<m_Name>AuthenticSurvivorHazardSuit</m_Name>
-		<m_Guid>72d6a801-db96-47d5-b650-f2ae99dd9325</m_Guid>
+		<m_Guid>1e2140d9-6c01-45b3-833b-00f19ac40216</m_Guid>
 		<m_Pants>false</m_Pants>
 		<m_AllowPantsHue>false</m_AllowPantsHue>
-		<m_items>
-			<itemGUID>430fb60d-a1be-48bd-a6c7-3a19b3116fe5</itemGUID>
+		<m_items> <!-- New Hazmat Suit -->
+			<itemGUID>32bf5f44-ef49-47e2-9ff6-5147951d52ae</itemGUID>
 		</m_items>
-		<m_items>
+		<m_items> <!-- SurvivorBag -->
 			<itemGUID>c2d9211a-a0c5-475d-8fa6-681a8b809f26</itemGUID>
 		</m_items>
 		<m_items><!-- Holster -->
@@ -6532,8 +6696,8 @@
 		<m_Guid>1e2140d9-6c01-45b3-833b-00f19ac40216</m_Guid>
 		<m_Pants>false</m_Pants>
 		<m_AllowPantsHue>false</m_AllowPantsHue>
-		<m_items> <!-- Hazmat Suit -->
-			<itemGUID>430fb60d-a1be-48bd-a6c7-3a19b3116fe5</itemGUID>
+		<m_items> <!-- New Hazmat Suit -->
+			<itemGUID>32bf5f44-ef49-47e2-9ff6-5147951d52ae</itemGUID>
 		</m_items>
 		<m_items> <!-- SurvivorBag -->
 			<itemGUID>c2d9211a-a0c5-475d-8fa6-681a8b809f26</itemGUID>
@@ -6575,8 +6739,8 @@
 		<m_items> <!-- Olive Drag Jacket -->
 			<itemGUID>d4324c64-f094-46f8-b953-b6e7ea24ea4d</itemGUID>
 		</m_items>		
-		<m_items> <!-- SurvivorBag -->
-			<itemGUID>c2d9211a-a0c5-475d-8fa6-681a8b809f26</itemGUID>
+		<m_items> <!-- Left 4 Dead Medkit -->
+			<itemGUID>60bc5b85-83b6-4beb-9446-5920862d26ec</itemGUID>
 		</m_items>
 		<m_items><!-- Holster -->
 			<probability>0.7</probability>
@@ -7464,6 +7628,10 @@
 		</m_items>
 		<m_items> <!-- White Zed Skin Woman -->
 			<itemGUID>86579281-fd36-4c3b-862e-1936c9769001</itemGUID>
+		</m_items>
+		<m_items> <!-- Left 4 Dead Medkit -->
+			<probability>0.25</probability>
+			<itemGUID>60bc5b85-83b6-4beb-9446-5920862d26ec</itemGUID>
 		</m_items>		
 </m_FemaleOutfits>	
 

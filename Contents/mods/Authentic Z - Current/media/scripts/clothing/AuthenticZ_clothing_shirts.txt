@@ -505,6 +505,19 @@
         FabricType = Cotton,
 		WorldStaticModel = TShirt_Ground,	
     }	
+    item Tshirt_SportBluePurple
+    {
+        Type = Clothing,
+        DisplayName = Sport T-Shirt,
+        ClothingItem = Tshirt_SportBluePurple,
+        BodyLocation = Tshirt,
+        Icon	=	ShirtAthleticBluePurple,
+        BloodLocation = Shirt,
+        Insulation = 0.3,
+        WindResistance = 0.35,
+        FabricType = Cotton,
+		WorldStaticModel = TShirt_Ground,	
+    }	
     item Tshirt_SportKilla
     {
         Type = Clothing,
@@ -564,6 +577,19 @@
         ClothingItem = Tshirt_SportPurple,
         BodyLocation = Tshirt,
         Icon	=	ShirtAthleticPurple,
+        BloodLocation = Shirt,
+        Insulation = 0.3,
+        WindResistance = 0.35,
+        FabricType = Cotton,
+		WorldStaticModel = TShirt_Ground,	
+    }
+    item Tshirt_SportWatermelon
+    {
+        Type = Clothing,
+        DisplayName = Sport T-Shirt,
+        ClothingItem = Tshirt_SportWatermelon,
+        BodyLocation = Tshirt,
+        Icon	=	ShirtAthleticWatermelon,
         BloodLocation = Shirt,
         Insulation = 0.3,
         WindResistance = 0.35,

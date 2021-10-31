@@ -81,6 +81,70 @@ module AuthenticZClothing {
         WindResistance = 0.1,
         FabricType = Cotton,
         WorldStaticModel = LongShorts_Ground,
+    }
+    item Shorts_LongSportPinkBlackBlue
+    {
+        Type = Clothing,
+        DisplayName = Long Sport Shorts,
+        ClothingItem = Shorts_LongSportPinkBlackBlue,
+        BodyLocation = Pants,
+        Icon = ShortsLongAthleticPinkBlackBlue,
+        BloodLocation = Trousers,
+        Insulation = 0.25,
+        WindResistance = 0.1,
+        FabricType = Cotton,
+        WorldStaticModel = LongShorts_Ground,
+    }	
+	    item Shorts_LongSportPopcicle
+    {
+        Type = Clothing,
+        DisplayName = Long Sport Shorts,
+        ClothingItem = Shorts_LongSportPopcicle,
+        BodyLocation = Pants,
+        Icon = ShortsLongAthleticPopcicle,
+        BloodLocation = Trousers,
+        Insulation = 0.25,
+        WindResistance = 0.1,
+        FabricType = Cotton,
+        WorldStaticModel = LongShorts_Ground,
+    }
+	    item Shorts_LongSportPurple
+    {
+        Type = Clothing,
+        DisplayName = Purple Long Sport Shorts,
+        ClothingItem = Shorts_LongSportPurple,
+        BodyLocation = Pants,
+        Icon = ShortsLongAthleticPurple,
+        BloodLocation = Trousers,
+        Insulation = 0.25,
+        WindResistance = 0.1,
+        FabricType = Cotton,
+        WorldStaticModel = LongShorts_Ground,
+    }
+	    item Shorts_LongSportWatermelon
+    {
+        Type = Clothing,
+        DisplayName = Watermelon Long Sport Shorts,
+        ClothingItem = Shorts_LongSportWatermelon,
+        BodyLocation = Pants,
+        Icon = ShortsLongAthleticWatermelon,
+        BloodLocation = Trousers,
+        Insulation = 0.25,
+        WindResistance = 0.1,
+        FabricType = Cotton,
+        WorldStaticModel = LongShorts_Ground,
+    }	
+    item Shorts_ShortSport_PinkBlackBlue
+    {
+        Type = Clothing,
+        DisplayName = Sport Shorts,
+        ClothingItem = Shorts_ShortSport_PinkBlackBlue,
+        BodyLocation = Pants,
+        Icon = ShortsAthleticPinkBlackBlue,
+        BloodLocation = ShortsShort,
+        Insulation = 0.15,
+        WindResistance = 0.05,
+        FabricType = Cotton,
     }	
     item Skirt_ShortBlack
     {

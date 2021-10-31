@@ -424,7 +424,7 @@ ItemName_EN = {
 	ItemName_AuthenticZClothing.HandTorch2 =  "Hand Torch",
 	ItemName_AuthenticZClothing.Football3 = "Football",
 
-	/* New */
+	/* 10-23-21 Update */
 
 	ItemName_AuthenticZClothing.Gloves_FingerlessGlovesBlue = "Blue Fingerless Gloves",
 	ItemName_AuthenticZClothing.Gloves_FingerlessGlovesRed = "Red Fingerless Gloves",
@@ -485,4 +485,8 @@ ItemName_EN = {
 	ItemName_AuthenticZClothing.Jersey_NEPatriots9 = "New England Patriots Jersey",   
 	ItemName_AuthenticZClothing.Jersey_RedSkull = "Skulls Football Jersey",
  	
+	/* New */
+	ItemName_AuthenticZClothing.AZ_MetalClip = "Carabiner Clip",
+
+	
 }

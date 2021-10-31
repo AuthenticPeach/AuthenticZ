@@ -1,0 +1,96 @@
+module AuthenticZRecipes{
+  imports {
+      Base
+  }
+
+	/* List of Backpacks to craft*/
+	/*Bag_Schoolbag,Bag_WeaponBag/Bag_InmateEscapedBag/Bag_MoneyBag/Bag_WorkerBag/Bag_DuffelBag/Bag_DuffelBagTINT,Bag_NormalHikingBag,Bag_BigHikingBag,Bag_SurvivorBag/Bag_ALICEpack/Bag_ALICEpack_Army   */
+	/* List of Secondary Backpacks*/
+	/* Plasticbag,Garbagebag,Tote,Purse,EmptySandbag,Handbag,Toolbox,FirstAidKit,Bag_L4DeadMedkit,Lunchbox2,PistolCase1/PistolCase2/PistolCase3 */
+	/* List of Gear to attach*/
+	/* Water bottles, Canteens, Rope, */	
+	/* Modded - Bag_ARVN_Rucksack */	
+	
+recipe Tie Balloons Together
+  	{
+   	   AuthenticBalloon_Red,
+	   AuthenticBalloon_Red,
+	   AuthenticBalloon_Red,
+	   Thread/Twine,
+
+   	   Result:AuthenticBalloonGroup,
+	   Time:30.0,
+  	}
+
+	item Bag_Schoolbag_Tier_2
+    {
+        WeightReduction	=	60,
+        Weight	=	1,
+        Type	=	Container,
+        Capacity		=	15,
+        DisplayName		=	School Bag,
+        IconsForTexture = Backpack_Black;Backpack_Blue;Backpack_Spiffo,
+        CanBeEquipped 	= Back,
+        OpenSound   	=   OpenBag,
+        CloseSound   	=   CloseBag,
+        PutInSound   	=   PutItemInBag,
+        ClothingItem 	= Bag_SchoolBag,
+        BloodLocation 	= Bag,
+        RunSpeedModifier = 0.97,
+        AttachmentReplacement = Bag,
+		AttachmentsProvided  = SchoolbagUpgradesLeft;SchoolbagUpgradesRight,		
+        ReplaceInSecondHand  = Bag_Schoolbag_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_Schoolbag_RHand holdingbagright,
+        WorldStaticModel 	 = SchoolBag_Ground,
+    }
+
+item Handbag_Secondary
+	{
+		WeightReduction			=	40,
+		Weight					=	1,
+        ClothingItem 			= 	Bag_DuffelBag,
+        CanBeEquipped 			= 	BackSecondary,		
+		Type					=	Container,
+		Capacity				=	8,
+		DisplayName				=	Handbag,
+		Icon					=	Purseblack,
+		RunSpeedModifier 		= 	0.99,
+        OpenSound   			=   OpenBag,
+        CloseSound   			=   CloseBag,
+        PutInSound   			=   PutItemInBag,
+        CanHaveHoles			= 	false,		
+		ReplaceInSecondHand 	= 	Bag_Handbag_LHand holdingbagleft,
+        ReplaceInPrimaryHand 	= 	Bag_Handbag_RHand holdingbagright,
+        WorldStaticModel 		= 	Handbag_Ground,
+        AttachmentType  		= 	Holster,		
+	}
+   
+recipe Make Carabiner Clip
+  	{
+	   Paperclip=10,
+
+   	   Result:AZ_MetalClip,
+	   Time:80.0,
+  	}
+
+recipe Draw Hitlist 3
+  	{
+	   keep Scissors,
+   	   keep Crayons,
+	   Magazine,
+	   ComicBook,
+	   SheetPaper2,
+
+   	   Result:PZAZ_HitList3,
+	   Time:80.0,
+  	}
+recipe Tie Hoodie Around Waist
+  	{
+   	   HoodieUP_WhiteTINT,
+
+   	   Result:HoodieTied_WhiteTINT,
+	   Time:30.0,
+	   Tooltip:Tooltip_HoodieCraft,	   
+  	}	
+	
+}		

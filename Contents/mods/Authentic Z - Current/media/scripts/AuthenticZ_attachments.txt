@@ -4,6 +4,20 @@ module Base
 	{
 		mesh = Skinned/FemaleBody,
 
+		attachment BackPack_Alicepack_Waterbottle_Left
+		{
+			offset = -0.0020 0.1340 -0.0820,
+			rotate = 161.0000 -81.0000 67.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BackPack_Alicepack_Waterbottle_Right
+		{
+			offset = 0.0420 -0.1300 -0.0900,
+			rotate = 129.0000 -85.0000 43.0000,
+			bone = Bip01_BackPack,
+		}
+
 		attachment Canteen_L
 		{
 			offset = -0.141 -0.089 0.070,
@@ -30,6 +44,20 @@ module Base
 			offset = -0.006 0.060 0.062,
 			rotate = -94.0000 0.0000 -98.0000,
 			bone = Bip01_Spine1,
+		}
+
+		attachment Pills_L
+		{
+			offset = -0.0050 0.0950 0.0220,
+			rotate = -164.0000 1.0000 -93.0000,
+			bone = Bip01_Pelvis,
+		}
+
+		attachment Pills_R
+		{
+			offset = 0.0630 -0.0970 0.0220,
+			rotate = 160.0000 0.0000 -75.0000,
+			bone = Bip01_Pelvis,
 		}
 
 		attachment WalkieTalkie_L
@@ -806,6 +834,20 @@ module Base
 			bone = Bip01_Spine1,
 		}
 
+		attachment BackPack_Alicepack_Waterbottle_Left
+		{
+			offset = -0.0020 0.1340 -0.0820,
+			rotate = 161.0000 -81.0000 67.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BackPack_Alicepack_Waterbottle_Right
+		{
+			offset = 0.0420 -0.1300 -0.0900,
+			rotate = 129.0000 -85.0000 43.0000,
+			bone = Bip01_BackPack,
+		}
+
 		attachment BackPack_Flare_Left
 		{
 			offset = -0.0010 0.1290 -0.1100,
@@ -815,9 +857,23 @@ module Base
 
 		attachment BackPack_Flare_Right
 		{
-			offset = 0.0010 -0.1290 -0.1100,
+			offset = -0.0010 -0.1280 -0.1100,
 			rotate = 153.0000 -81.0000 67.0000,
 			bone = Bip01_BackPack,
+		}
+
+		attachment Schoolbag_L_Balloon
+		{
+			offset = 0.0200 0.0310 0.0970,
+			rotate = 0.0000 0.0000 0.0000,
+			bone = Bip01_L_Clavicle,
+		}
+
+		attachment Schoolbag_R_Balloon
+		{
+			offset = 0.0200 -0.0320 0.0970,
+			rotate = 180.0000 50.0000 0.0000,
+			bone = Bip01_R_Clavicle,
 		}
 
 		attachment Bip01_L_Shoulder

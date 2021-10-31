@@ -129,6 +129,12 @@ module Base
 	{
 		mesh = AuthenticMeatChunk05,
 		texture = clothes\Organs\Meat,
+	}
+	model AuthenticMinerLightBulb
+	{
+		mesh = AuthenticMinerLightbulb,
+		texture = WorldItems/LightBulb,
+		scale = 0.4,
 	}		
 	model AuthenticMoneyStack
 	{
@@ -308,6 +314,11 @@ module Base
 		mesh = Skinned/Backpacks/WorldItem-BackpackHolly,
 		texture = clothes\Backpacks\BackpackHolly,
     }
+	model WorldItem_BackpackL4DMedkit
+    {
+		mesh = Skinned/Backpacks/WorldItem-BackpackL4DMedkit,
+		texture = clothes\Backpacks\Left4DeadMedkitBackpack,
+    }	
 	model WorldItem_BackpackMom
     {
 		mesh = Skinned/Backpacks/WorldItem-BackpackMom,
@@ -318,6 +329,36 @@ module Base
 		mesh = Skinned/Backpacks/WorldItem-BackpackWalker,
 		texture = clothes\Backpacks\BackpackWalker,
     }
+	model WorldItem-BalloonBlue
+	{
+		mesh = WorldItems/WorldItem_Balloon,
+		texture = clothes\Items\BalloonBlue,		
+	}
+	model WorldItem-BalloonGreen
+	{
+		mesh = WorldItems/WorldItem_Balloon,
+		texture = clothes\Items\BalloonGreen,		
+	}	
+	model WorldItem-BalloonRed
+	{
+		mesh = WorldItems/WorldItem_Balloon,
+		texture = clothes\Items\BalloonRed,		
+	}
+	model WorldItem-BalloonPurple
+	{
+		mesh = WorldItems/WorldItem_Balloon,
+		texture = clothes\Items\BalloonPurple,		
+	}
+	model WorldItem-BalloonWhite
+	{
+		mesh = WorldItems/WorldItem_Balloon,
+		texture = clothes\Items\BalloonWhite,		
+	}
+	model WorldItem-BalloonYellow
+	{
+		mesh = WorldItems/WorldItem_Balloon,
+		texture = clothes\Items\BalloonYellow,		
+	}	
 	model WorldItem_Chainsaw
     {
 		mesh = WorldItems/WorldItem_Chainsaw,
@@ -333,6 +374,12 @@ module Base
 		mesh = Skinned/Backpacks/WorldItem-UtilityBeltTactical,
 		texture = clothes\Backpacks\UtilityBeltTactical,
     }
+	model WorldItem_Minerlightbulb
+    {
+		mesh = WorldItems/WorldItem_AuthenticMinerLightbulb,
+		texture = WorldItems/LightBulb,
+		scale = 0.01,
+    }		
 	model WorldItem_ProtonPack
     {
 		mesh = Skinned/Backpacks/WorldItem-ProtonPack,

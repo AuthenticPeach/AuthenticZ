@@ -204,6 +204,51 @@ module AuthenticZClothing {
         WindResistance = 0.9,
 		WorldStaticModel = Hazmat_Ground,
     }
+    item CEDAHazmatSuitBlack
+    {
+        Type = Clothing,
+        DisplayName = CEDA Hazmat Suit,
+        ClothingItem = HazmatSuitCEDABlack,
+        BodyLocation = FullSuitHead,
+        BloodLocation = Trousers;Jumper,
+        Icon = CEDAHazmatsuitBlack,
+        RunSpeedModifier = 0.75,
+        ScratchDefense = 15,
+        BiteDefense = 5,
+        Insulation = 0.65,
+        WindResistance = 0.9,
+		WorldStaticModel = Hazmat_Ground,
+    }
+    item CEDAHazmatSuitBlue
+    {
+        Type = Clothing,
+        DisplayName = CEDA Hazmat Suit,
+        ClothingItem = HazmatSuitCEDABlue,
+        BodyLocation = FullSuitHead,
+        BloodLocation = Trousers;Jumper,
+        Icon = CEDAHazmatsuitBlue,
+        RunSpeedModifier = 0.75,
+        ScratchDefense = 15,
+        BiteDefense = 5,
+        Insulation = 0.65,
+        WindResistance = 0.9,
+		WorldStaticModel = Hazmat_Ground,
+    }
+    item CEDAHazmatSuitRed
+    {
+        Type = Clothing,
+        DisplayName = CEDA Hazmat Suit,
+        ClothingItem = HazmatSuitCEDARed,
+        BodyLocation = FullSuitHead,
+        BloodLocation = Trousers;Jumper,
+        Icon = CEDAHazmatsuitRed,
+        RunSpeedModifier = 0.75,
+        ScratchDefense = 15,
+        BiteDefense = 5,
+        Insulation = 0.65,
+        WindResistance = 0.9,
+		WorldStaticModel = Hazmat_Ground,
+    }	
     item NBHHazmatSuit
     {
         Type = Clothing,
@@ -356,6 +401,21 @@ module AuthenticZClothing {
         FabricType = Cotton,
         WorldStaticModel = Dress_Short_Ground,		
     }
+    item HazmatSuit2
+    {
+        Type = Clothing,
+        DisplayName = Hazmat Suit,
+        ClothingItem = HazmatSuit2,
+        BodyLocation = FullSuitHead,
+        BloodLocation = Trousers;Jumper,
+        Icon = Hazmatsuit,
+        RunSpeedModifier = 0.75,
+        ScratchDefense = 15,
+        BiteDefense = 5,
+        Insulation = 0.65,
+        WindResistance = 0.9,
+        WorldStaticModel = Hazmat_Ground,
+    }	
     item Mime_Overalls
     {
         Type = Clothing,

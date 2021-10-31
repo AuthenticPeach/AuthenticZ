@@ -5,23 +5,23 @@ module AuthenticZClothing {
 
 	item Bag_B4BEvangelo
     {
-        WeightReduction	=	65,
-        Weight			=	1,
-        Type			=	Container,
-        Capacity		=	18,
-        DisplayName		=	Evangelo's Backpack,
-        Icon 			= Backpack_Evangelo,
-        CanBeEquipped 	= Back,
-        OpenSound   	=   OpenBag,
-        CloseSound   	=   CloseBag,
-        PutInSound  	=   PutItemInBag,
-        ClothingItem 	= Bag_B4BEvangelo,
-        BloodLocation 			 = Bag,
-        RunSpeedModifier 		 = 0.97,
-        AttachmentReplacement 	 = Bag,
-        ReplaceInSecondHand 	 = Bag_B4BEvangelo_LHand holdingbagleft,
-        ReplaceInPrimaryHand	 = Bag_B4BEvangelo_RHand holdingbagright,
-		WorldStaticModel = WorldItem_BackpackEvangelo,
+        WeightReduction			 =	 65,
+        Weight					 =	 1,
+        Type					 =	 Container,
+        Capacity				 =	 18,
+        DisplayName				 =	 Evangelo's Backpack,
+        Icon 					 =	 Backpack_Evangelo,
+        CanBeEquipped 			 =	 Back,
+        OpenSound   			 =   OpenBag,
+        CloseSound   			 =   CloseBag,
+        PutInSound  			 =   PutItemInBag,
+        ClothingItem 			 = 	 Bag_B4BEvangelo,
+        BloodLocation 			 =	 Bag,
+        RunSpeedModifier 		 =	 0.97,
+        AttachmentReplacement 	 =	 Bag,
+        ReplaceInSecondHand 	 =	 Bag_B4BEvangelo_LHand holdingbagleft,
+        ReplaceInPrimaryHand	 =	 Bag_B4BEvangelo_RHand holdingbagright,
+		WorldStaticModel 		 =	 WorldItem_BackpackEvangelo,
     }  
 
 	item Bag_B4BHoffman
@@ -145,6 +145,28 @@ module AuthenticZClothing {
         ReplaceInSecondHand     = Bag_JerryCanLeft holdingbagleft,
         ReplaceInPrimaryHand    = Bag_JerryCanRight holdingbagright,
     }
+
+	item Bag_L4DeadMedkit
+    {
+        WeightReduction		     =	50,
+        Weight					 =	1,
+        Type					 =	Container,
+        Capacity				 =	5,
+        DisplayName				 =	First Aid Kit,
+        Icon 					 = 	Backpack_L4DMedkit,
+        CanBeEquipped 			 = 	Back,
+        OpenSound   			 = 	OpenBag,
+        CloseSound   			 = 	CloseBag,
+        PutInSound  			 = 	PutItemInBag,
+        Medical 				 = 	TRUE,		
+        ClothingItem 			 = 	Bag_L4DeadMedkit,
+        BloodLocation 			 = 	Bag,
+        RunSpeedModifier 		 = 	0.97,
+        AttachmentReplacement 	 = 	Bag,
+        ReplaceInSecondHand 	 = 	Bag_L4DeadMedkit_LHand holdingbagleft,
+        ReplaceInPrimaryHand	 = 	Bag_L4DeadMedkit_RHand holdingbagright,
+        WorldStaticModel 		 = 	WorldItem_BackpackL4DMedkit,
+    } 
 	
 	item Bag_SchoolBagNBH
     {
@@ -164,7 +186,7 @@ module AuthenticZClothing {
         AttachmentReplacement	 =	Bag,
         ReplaceInSecondHand 	 = 	Bag_SchoolBagNBH_LHand holdingbagleft,
         ReplaceInPrimaryHand 	 = 	Bag_SchoolBagNBH_RHand holdingbagright,
-		WorldStaticModel = SchoolBag_Ground,
+		WorldStaticModel 		 =	SchoolBag_Ground,
     }
 	
 	item Bag_ProtonPack_Back
