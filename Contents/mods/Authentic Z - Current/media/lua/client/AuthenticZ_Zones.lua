@@ -121,9 +121,4 @@ local function OnGameStart()
 		getWorld():registerZone("WorldsEnd", "ZombiesType", 12650, 4750, 0, 50, 150) --Northern Valley Station		
 	end
 end
-function RWMVolume:verifyItem(_item)
-    if _item:getFullType() == "Base.Headphones" or _item:getFullType() == "Base.Earbuds" or _item:getFullType() == "AuthenticZClothing.Authentic_Headphones" or _item:getFullType() == "AuthenticZClothing.Authentic_Headphones2" then
-        return true;
-    end
-end
 Events.OnGameStart.Add(OnGameStart)

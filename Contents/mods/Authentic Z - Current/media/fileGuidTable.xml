@@ -2993,6 +2993,42 @@
 		<guid>52ec5d5b-4a43-482f-aaf3-d9932b203466</guid>
 	</files>
 	<files>
+		<path>media/clothing/clothingItems/Bag_SchoolBagCEDARed_LHand.xml</path>
+		<guid>9e419463-f19f-43ac-8262-1f4f384276f9</guid>
+	</files>	
+	<files>
+		<path>media/clothing/clothingItems/Bag_SchoolBagCEDARed_RHand.xml</path>
+		<guid>37aa7167-e922-4a49-8380-dc95e328a545</guid>
+	</files>	
+	<files>
+		<path>media/clothing/clothingItems/Bag_SchoolBagCEDARed.xml</path>
+		<guid>9c08632a-fc84-4538-bf55-a7e1cd1a4e20</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_SchoolBagCEDABlack_LHand.xml</path>
+		<guid>7a781aa3-d75f-4a22-ab83-755718a7be1c</guid>
+	</files>	
+	<files>
+		<path>media/clothing/clothingItems/Bag_SchoolBagCEDABlack_RHand.xml</path>
+		<guid>bf361075-b2a1-4fb5-8503-5216fd1afdd4</guid>
+	</files>	
+	<files>
+		<path>media/clothing/clothingItems/Bag_SchoolBagCEDABlack.xml</path>
+		<guid>c1c77d07-b6a3-4d8f-aba1-cdd20ca363f8</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_SchoolBagCEDABlue_LHand.xml</path>
+		<guid>f492f2d0-d475-43e4-9d4e-bd466e6e1f30</guid>
+	</files>	
+	<files>
+		<path>media/clothing/clothingItems/Bag_SchoolBagCEDABlue_RHand.xml</path>
+		<guid>c51e6f68-9a86-4b94-9fa1-d72ad38e8503</guid>
+	</files>	
+	<files>
+		<path>media/clothing/clothingItems/Bag_SchoolBagCEDABlue.xml</path>
+		<guid>ef789ab8-bd19-4999-a077-719d2624a246</guid>
+	</files>	
+	<files>
 		<path>media/clothing/clothingItems/Bag_SchoolBagNBH_LHand.xml</path>
 		<guid>7e9167d8-ead3-48af-89ac-ee891c9719ad</guid>
 	</files>	
@@ -3527,6 +3563,26 @@
 	<files>
 		<path>media/clothing/clothingItems/Hat_StovePipe.xml</path>
 		<guid>0601a52d-84c8-49f8-b216-d2b1fc54c3a9</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Hat_SweatbandRBW.xml</path>
+		<guid>4ab5505f-37c6-4370-bba0-f84940098972</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Hat_SweatbandOGP.xml</path>
+		<guid>d6ac20f9-66c8-4b4e-98b2-849a8c9d5a5a</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Hat_SweatbandBlue.xml</path>
+		<guid>55f8a4d9-0867-48d1-8e84-3f98301ad0de</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Hat_SweatbandPink.xml</path>
+		<guid>0bc6a260-f194-4eb5-99ff-549f06d0007f</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Hat_SweatbandPurple.xml</path>
+		<guid>1107e265-f011-4224-9449-46b67222ecc6</guid>
 	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Hat_WinslowHelmet.xml</path>
@@ -4373,6 +4429,18 @@
 		<guid>4f03d92b-389b-489a-9962-dfc5e896fdc2</guid>
 	</files>
 	<files>
+		<path>media/clothing/clothingItems/Socks_LegWarmersPurple.xml</path>
+		<guid>a9eb32fd-f2ce-4bb7-ad61-89793559a7df</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Socks_LegWarmersNeonBlue.xml</path>
+		<guid>bdc18532-38f5-4032-bbb2-0d936171c330</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Socks_LegWarmersNeonPink.xml</path>
+		<guid>7c4e38d9-db73-4468-a08d-dbd6410355c5</guid>
+	</files>	
+	<files>
 		<path>media/clothing/clothingItems/Socks_Long_MimeLeggings.xml</path>
 		<guid>18061910-56b9-49fe-b8ab-6e9ddd5d72b3</guid>
 	</files>	
@@ -4689,6 +4757,10 @@
 		<guid>291c39bb-44ed-4434-8b1a-7c48237e35d8</guid>
 	</files>
 	<files>
+		<path>media/clothing/clothingItems/Tshirt_SportLightBlue.xml</path>
+		<guid>6788c5ec-bfce-4b04-ab36-7268b1cc7a6b</guid>
+	</files>	
+	<files>
 		<path>media/clothing/clothingItems/Tshirt_SportPinkBlackBlue.xml</path>
 		<guid>446c3da9-b1ec-40b5-b6d3-89850954764d</guid>
 	</files>
@@ -4703,6 +4775,10 @@
 	<files>
 		<path>media/clothing/clothingItems/Tshirt_SportWatermelon.xml</path>
 		<guid>0bf3c8e2-aca3-4ffd-aa05-b34db3d9108e</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Tshirt_SportWhite.xml</path>
+		<guid>6a265e7e-b0f6-4d74-b3a7-5ed7d393b74c</guid>
 	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Tshirt_VotePedro.xml</path>

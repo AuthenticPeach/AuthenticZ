@@ -1058,6 +1058,88 @@ module AuthenticZClothing {
         Weight 			 = 0.5,
 		WorldStaticModel = WorldItem-StovePipeHat,
     }
+	item Hat_SweatbandRBW
+	{
+		Type = Clothing,
+		DisplayName = Sweatband,
+		ClothingItem = Hat_SweatbandRBW,
+		BodyLocation = Hat,
+		Icon = SweatbandWhite,
+		CanHaveHoles = false,
+		ChanceToFall = 50,
+        BloodLocation = Head,
+        Insulation = 0.05,
+        WindResistance = 0.05,
+        Weight = 0.1,
+	}
+
+	item Hat_SweatbandOGP
+	{
+		Type = Clothing,
+		DisplayName = Sweatband,
+		ClothingItem = Hat_SweatbandOGP,
+		BodyLocation = Hat,
+		Icon = SweatbandWhite,
+		CanHaveHoles = false,
+		ChanceToFall = 50,
+        BloodLocation = Head,
+        Insulation = 0.05,
+        WindResistance = 0.05,
+        Weight = 0.1,
+	}
+	item Hat_SweatbandBlue
+	{
+		Type = Clothing,
+		DisplayName = Sweatband,
+		ClothingItem = Hat_SweatbandBlue,
+		BodyLocation = Hat,
+		Icon = SweatbandWhite,
+		CanHaveHoles = false,
+		ChanceToFall = 50,
+        BloodLocation = Head,
+        Insulation = 0.05,
+        WindResistance = 0.05,
+        Weight = 0.1,
+        ColorRed = 0,
+        ColorGreen = 174,
+        ColorBlue = 239,
+		
+	}	
+	item Hat_SweatbandPink
+	{
+		Type = Clothing,
+		DisplayName = Sweatband,
+		ClothingItem = Hat_SweatbandPink,
+		BodyLocation = Hat,
+		Icon = SweatbandWhite,
+		CanHaveHoles = false,
+		ChanceToFall = 50,
+        BloodLocation = Head,
+        Insulation = 0.05,
+        WindResistance = 0.05,
+        Weight = 0.1,
+        ColorRed = 162,
+        ColorGreen = 40,
+        ColorBlue = 255,
+		
+	}	
+	item Hat_SweatbandPurple
+	{
+		Type = Clothing,
+		DisplayName = Sweatband,
+		ClothingItem = Hat_SweatbandPurple,
+		BodyLocation = Hat,
+		Icon = SweatbandWhite,
+		CanHaveHoles = false,
+		ChanceToFall = 50,
+        BloodLocation = Head,
+        Insulation = 0.05,
+        WindResistance = 0.05,
+        Weight = 0.1,
+        ColorRed = 93,
+        ColorGreen = 63,
+        ColorBlue = 211,			
+	}		
 	item Hat_TrueEyeCult
 	{
 		Type 		  = Clothing,

@@ -24,24 +24,46 @@ recipe Tie Balloons Together
 
 	item Bag_Schoolbag_Tier_2
     {
-        WeightReduction	=	60,
-        Weight	=	1,
-        Type	=	Container,
-        Capacity		=	15,
-        DisplayName		=	School Bag,
-        IconsForTexture = Backpack_Black;Backpack_Blue;Backpack_Spiffo,
-        CanBeEquipped 	= Back,
-        OpenSound   	=   OpenBag,
-        CloseSound   	=   CloseBag,
-        PutInSound   	=   PutItemInBag,
-        ClothingItem 	= Bag_SchoolBag,
-        BloodLocation 	= Bag,
-        RunSpeedModifier = 0.97,
-        AttachmentReplacement = Bag,
-		AttachmentsProvided  = SchoolbagUpgradesLeft;SchoolbagUpgradesRight,		
-        ReplaceInSecondHand  = Bag_Schoolbag_LHand holdingbagleft,
-        ReplaceInPrimaryHand = Bag_Schoolbag_RHand holdingbagright,
-        WorldStaticModel 	 = SchoolBag_Ground,
+        WeightReduction			=	60,
+        Weight					=	1,
+        Type					=	Container,
+        Capacity				=	16,
+        DisplayName				=	School Bag,
+        IconsForTexture 		= 	Backpack_Black;Backpack_Blue;Backpack_Spiffo,
+        CanBeEquipped 			= 	Back,
+        OpenSound   			=   OpenBag,
+        CloseSound   			=   CloseBag,
+        PutInSound   			=   PutItemInBag,
+        ClothingItem 			= 	Bag_SchoolBag,
+        BloodLocation 			= 	Bag,
+        RunSpeedModifier 		= 	0.97,
+        AttachmentReplacement	= 	Bag,
+		AttachmentsProvided  	= 	SchoolbagUpgradesLeft;SchoolbagUpgradesRight,		
+        ReplaceInSecondHand  	= 	Bag_Schoolbag_LHand holdingbagleft,
+        ReplaceInPrimaryHand 	= 	Bag_Schoolbag_RHand holdingbagright,
+        WorldStaticModel 	 	= 	SchoolBag_Ground,
+    }
+
+	item Bag_Schoolbag_Tier_3
+    {
+        WeightReduction			=	60,
+        Weight					=	1,
+        Type					=	Container,
+        Capacity				=	17,
+        DisplayName				=	School Bag,
+        IconsForTexture 		= 	Backpack_Black;Backpack_Blue;Backpack_Spiffo,
+        CanBeEquipped 			= 	Back,
+        OpenSound   			=   OpenBag,
+        CloseSound   			=   CloseBag,
+        PutInSound   			=   PutItemInBag,
+        ClothingItem 			= 	Bag_SchoolBag,
+        BloodLocation 			= 	Bag,
+        RunSpeedModifier 		= 	0.97,
+        AttachmentReplacement	= 	Bag,
+		AttachmentsProvided  	= 	SchoolbagUpgradesLeft;SchoolbagUpgradesRight,		
+        ReplaceInSecondHand  	= 	Bag_Schoolbag_LHand holdingbagleft,
+        ReplaceInPrimaryHand 	= 	Bag_Schoolbag_RHand holdingbagright,
+        WorldStaticModel 	 	= 	SchoolBag_Ground,
     }
 
 item Handbag_Secondary
@@ -75,7 +97,6 @@ recipe Make Carabiner Clip
 
 recipe Draw Hitlist 3
   	{
-	   keep Scissors,
    	   keep Crayons,
 	   Magazine,
 	   ComicBook,
@@ -86,7 +107,9 @@ recipe Draw Hitlist 3
   	}
 recipe Tie Hoodie Around Waist
   	{
-   	   HoodieUP_WhiteTINT,
+		keep Scissors,
+		keep Kneedle,
+   	    HoodieUP_WhiteTINT,
 
    	   Result:HoodieTied_WhiteTINT,
 	   Time:30.0,

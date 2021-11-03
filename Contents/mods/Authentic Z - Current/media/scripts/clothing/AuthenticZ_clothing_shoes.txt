@@ -138,6 +138,57 @@ module AuthenticZClothing {
         Weight = 0.1,
         FabricType = Cotton,
         WorldStaticModel = Socks_Long_Ground,
+	}
+	item Socks_LegWarmersNeonBlue
+	{
+		Type = Clothing,
+		DisplayName = Blue Leg Warmers,
+		ClothingItem = Socks_LegWarmersNeonBlue,
+		BodyLocation = Socks,
+		Icon = SocksWhite,
+		BloodLocation = Shoes;LowerLegs,
+        Insulation = 0.55,
+        WindResistance = 0.65,
+        Weight = 0.1,
+        FabricType = Cotton,
+        ColorRed = 0,
+        ColorGreen = 174,
+        ColorBlue = 239,		
+        WorldStaticModel = Socks_Long_Ground,
+	}	
+	item Socks_LegWarmersNeonPink
+	{
+		Type = Clothing,
+		DisplayName = Pink Leg Warmers,
+		ClothingItem = Socks_LegWarmersNeonPink,
+		BodyLocation = Socks,
+		Icon = SocksWhite,
+		BloodLocation = Shoes;LowerLegs,
+        Insulation = 0.55,
+        WindResistance = 0.65,
+        Weight = 0.1,
+        FabricType = Cotton,
+        ColorRed = 162,
+        ColorGreen = 40,
+        ColorBlue = 255,			
+        WorldStaticModel = Socks_Long_Ground,
+	}	
+	item Socks_LegWarmersPurple
+	{
+		Type = Clothing,
+		DisplayName = Purple Leg Warmers,
+		ClothingItem = Socks_LegWarmersPurple,
+		BodyLocation = Socks,
+		Icon = SocksWhite,
+		BloodLocation = Shoes;LowerLegs,
+        Insulation = 0.55,
+        WindResistance = 0.65,
+        Weight = 0.1,
+        FabricType = Cotton,
+        ColorRed = 93,
+        ColorGreen = 63,
+        ColorBlue = 211,		
+        WorldStaticModel = Socks_Long_Ground,
 	}		
  	item Shoes_Maid
 	{

@@ -1629,14 +1629,106 @@
 	</m_MaleOutfits>	
 
 	<m_MaleOutfits>
-		<m_Name>AuthenticCEDAHazmat</m_Name>
+		<m_Name>AuthenticCEDAHazmatBlack</m_Name>
+		<m_Guid>d6b0f9b0-0b87-49e8-b7db-069644859db0</m_Guid>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_items><!-- Black CEDA Hazmat Suit -->
+			<itemGUID>18d429c8-a34c-4a54-b243-83e23f70c69e</itemGUID>
+		</m_items>
+		<m_items> <!-- Black Hazmat Pack -->
+			<itemGUID>c1c77d07-b6a3-4d8f-aba1-cdd20ca363f8</itemGUID>
+		</m_items>
+		<m_items> <!-- Tank Top -->
+			<itemGUID>a700a956-32c2-49a6-bd5f-5a2895073f19</itemGUID>
+		</m_items>
+		<m_items>
+			<probability>0.3</probability>
+			<itemGUID>88f11c9e-e717-446c-82ec-f749320df25a</itemGUID>
+		</m_items>
+		<m_items> <!-- Shoes -->
+			<itemGUID>593bea3d-c127-4574-ac1e-2197dc56e486</itemGUID>
+		</m_items>		
+	</m_MaleOutfits>
+
+	<m_FemaleOutfits>
+		<m_Name>AuthenticCEDAHazmatBlack</m_Name>
+		<m_Guid>d6b0f9b0-0b87-49e8-b7db-069644859db0</m_Guid>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_items><!-- Black CEDA Hazmat Suit -->
+			<itemGUID>18d429c8-a34c-4a54-b243-83e23f70c69e</itemGUID>
+		</m_items>
+		<m_items> <!-- Black Hazmat Pack -->
+			<itemGUID>c1c77d07-b6a3-4d8f-aba1-cdd20ca363f8</itemGUID>
+		</m_items>
+		<m_items> <!-- Tank Top -->
+			<itemGUID>a700a956-32c2-49a6-bd5f-5a2895073f19</itemGUID>
+		</m_items>
+		<m_items>
+			<probability>0.3</probability>
+			<itemGUID>88f11c9e-e717-446c-82ec-f749320df25a</itemGUID>
+		</m_items>
+		<m_items> <!-- Shoes -->
+			<itemGUID>593bea3d-c127-4574-ac1e-2197dc56e486</itemGUID>
+		</m_items>		
+	</m_FemaleOutfits>
+	
+	<m_MaleOutfits>
+		<m_Name>AuthenticCEDAHazmatBlue</m_Name>
+		<m_Guid>d6b0f9b0-0b87-49e8-b7db-069644859db0</m_Guid>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_items><!-- Blue CEDA Hazmat Suit -->
+			<itemGUID>c5969fdb-8603-49a3-92f2-d5862d3014ca</itemGUID>
+		</m_items>
+		<m_items> <!-- Blue Hazmat Pack -->
+			<itemGUID>ef789ab8-bd19-4999-a077-719d2624a246</itemGUID>
+		</m_items>
+		<m_items> <!-- Tank Top -->
+			<itemGUID>a700a956-32c2-49a6-bd5f-5a2895073f19</itemGUID>
+		</m_items>
+		<m_items>
+			<probability>0.3</probability>
+			<itemGUID>88f11c9e-e717-446c-82ec-f749320df25a</itemGUID>
+		</m_items>
+		<m_items> <!-- Shoes -->
+			<itemGUID>593bea3d-c127-4574-ac1e-2197dc56e486</itemGUID>
+		</m_items>		
+	</m_MaleOutfits>
+
+	<m_FemaleOutfits>
+		<m_Name>AuthenticCEDAHazmatBlue</m_Name>
+		<m_Guid>d6b0f9b0-0b87-49e8-b7db-069644859db0</m_Guid>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_items><!-- Blue CEDA Hazmat Suit -->
+			<itemGUID>c5969fdb-8603-49a3-92f2-d5862d3014ca</itemGUID>
+		</m_items>
+		<m_items> <!-- Blue Hazmat Pack -->
+			<itemGUID>ef789ab8-bd19-4999-a077-719d2624a246</itemGUID>
+		</m_items>
+		<m_items> <!-- Tank Top -->
+			<itemGUID>a700a956-32c2-49a6-bd5f-5a2895073f19</itemGUID>
+		</m_items>
+		<m_items>
+			<probability>0.3</probability>
+			<itemGUID>88f11c9e-e717-446c-82ec-f749320df25a</itemGUID>
+		</m_items>
+		<m_items> <!-- Shoes -->
+			<itemGUID>593bea3d-c127-4574-ac1e-2197dc56e486</itemGUID>
+		</m_items>		
+	</m_FemaleOutfits>	
+
+	<m_MaleOutfits>
+		<m_Name>AuthenticCEDAHazmatGreen</m_Name>
 		<m_Guid>85072ebe-529a-467c-b571-5062de3bbc9f</m_Guid>
 		<m_Pants>false</m_Pants>
 		<m_AllowPantsHue>false</m_AllowPantsHue>
-		<m_items><!-- CEDA Hazmat Suit -->
+		<m_items><!-- Green CEDA Hazmat Suit -->
 			<itemGUID>a920d2dd-414f-44fe-ba15-4553a28c4b6b</itemGUID>
 		</m_items>
-		<m_items> <!-- Hazmat Pack -->
+		<m_items> <!-- Green Hazmat Pack -->
 			<itemGUID>52ec5d5b-4a43-482f-aaf3-d9932b203466</itemGUID>
 		</m_items>
 		<m_items> <!-- Tank Top -->
@@ -1652,14 +1744,14 @@
 	</m_MaleOutfits>
 
 	<m_FemaleOutfits>
-		<m_Name>AuthenticCEDAHazmat</m_Name>
+		<m_Name>AuthenticCEDAHazmatGreen</m_Name>
 		<m_Guid>85072ebe-529a-467c-b571-5062de3bbc9f</m_Guid>
 		<m_Pants>false</m_Pants>
 		<m_AllowPantsHue>false</m_AllowPantsHue>
-		<m_items><!-- CEDA Hazmat Suit -->
+		<m_items><!-- Green CEDA Hazmat Suit -->
 			<itemGUID>a920d2dd-414f-44fe-ba15-4553a28c4b6b</itemGUID>
 		</m_items>
-		<m_items> <!-- Hazmat Pack -->
+		<m_items> <!-- Green Hazmat Pack -->
 			<itemGUID>52ec5d5b-4a43-482f-aaf3-d9932b203466</itemGUID>
 		</m_items>
 		<m_items> <!-- Tank Top -->
@@ -1673,6 +1765,52 @@
 			<itemGUID>593bea3d-c127-4574-ac1e-2197dc56e486</itemGUID>
 		</m_items>		
 	</m_FemaleOutfits>
+
+	<m_MaleOutfits>
+		<m_Name>AuthenticCEDAHazmatRed</m_Name>
+		<m_Guid>d6b0f9b0-0b87-49e8-b7db-069644859db0</m_Guid>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_items><!-- Red CEDA Hazmat Suit -->
+			<itemGUID>3c3d8211-7235-4a9a-ac40-07a10ae29dca</itemGUID>
+		</m_items>
+		<m_items> <!-- Red Hazmat Pack -->
+			<itemGUID>9c08632a-fc84-4538-bf55-a7e1cd1a4e20</itemGUID>
+		</m_items>
+		<m_items> <!-- Tank Top -->
+			<itemGUID>a700a956-32c2-49a6-bd5f-5a2895073f19</itemGUID>
+		</m_items>
+		<m_items>
+			<probability>0.3</probability>
+			<itemGUID>88f11c9e-e717-446c-82ec-f749320df25a</itemGUID>
+		</m_items>
+		<m_items> <!-- Shoes -->
+			<itemGUID>593bea3d-c127-4574-ac1e-2197dc56e486</itemGUID>
+		</m_items>		
+	</m_MaleOutfits>
+
+	<m_FemaleOutfits>
+		<m_Name>AuthenticCEDAHazmatRed</m_Name>
+		<m_Guid>d6b0f9b0-0b87-49e8-b7db-069644859db0</m_Guid>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_items><!-- Red CEDA Hazmat Suit -->
+			<itemGUID>3c3d8211-7235-4a9a-ac40-07a10ae29dca</itemGUID>
+		</m_items>
+		<m_items> <!-- Red Hazmat Pack -->
+			<itemGUID>9c08632a-fc84-4538-bf55-a7e1cd1a4e20</itemGUID>
+		</m_items>
+		<m_items> <!-- Tank Top -->
+			<itemGUID>a700a956-32c2-49a6-bd5f-5a2895073f19</itemGUID>
+		</m_items>
+		<m_items>
+			<probability>0.3</probability>
+			<itemGUID>88f11c9e-e717-446c-82ec-f749320df25a</itemGUID>
+		</m_items>
+		<m_items> <!-- Shoes -->
+			<itemGUID>593bea3d-c127-4574-ac1e-2197dc56e486</itemGUID>
+		</m_items>		
+	</m_FemaleOutfits>	
 
 	<m_FemaleOutfits>
 		<m_Name>AuthenticChainsawMaid</m_Name>
@@ -3115,7 +3253,10 @@
 			</subItems>
 			<subItems> <!-- T-shirt  Sport Watermelon -->
 				<itemGUID>0bf3c8e2-aca3-4ffd-aa05-b34db3d9108e</itemGUID>
-			</subItems>			
+			</subItems>	
+			<subItems> <!-- T-shirt  Sport White -->
+				<itemGUID>6a265e7e-b0f6-4d74-b3a7-5ed7d393b74c</itemGUID>
+			</subItems>				
 		</m_items>
 		<m_items>   <!-- Short Sport Shorts -->
 			<itemGUID>e22e4bfa-f550-4e5a-a380-5eaad6b7111c</itemGUID>
@@ -3223,6 +3364,15 @@
 			</subItems>
 			<subItems> <!-- Pink Black Blue Short Sport Shorts -->
 				<itemGUID>da5e3b58-e433-4182-a273-ba619e6d33c3</itemGUID>
+			</subItems>	
+			<subItems> <!-- Blue Purple Short Sport Shorts -->
+				<itemGUID>e4420f15-b115-4ad9-9db5-90a302e22235</itemGUID>
+			</subItems>	
+			<subItems> <!-- Popcicle Long Sport Shorts -->
+				<itemGUID>199e77a3-4915-42cd-83d9-db1e3572b390</itemGUID>
+			</subItems>		
+			<subItems> <!-- Watermelon Long Sport Shorts -->
+				<itemGUID>e83660a5-766b-42e3-aa6e-ae0086a96ec9</itemGUID>
 			</subItems>				
 		</m_items>
 		<m_items> <!-- Long socks -->
@@ -3273,6 +3423,79 @@
 			</subItems>
 		</m_items>
 	</m_FemaleOutfits>
+	
+	<m_FemaleOutfits>
+		<m_Name>AuthenticNeonFitnessInstructor</m_Name>
+		<m_Guid>4e21cbbb-0f7d-43f9-9fa4-9d8e5f5a6d3f</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowTopTint>false</m_AllowTopTint>	
+		<m_items>  <!--OGP Sweatband -->
+			<probability>0.3</probability>
+			<itemGUID>d6ac20f9-66c8-4b4e-98b2-849a8c9d5a5a</itemGUID>
+			<subItems> <!--Pink Sweatband -->
+				<itemGUID>0bc6a260-f194-4eb5-99ff-549f06d0007f</itemGUID>
+			</subItems>
+			<subItems> <!--Purple Sweatband -->
+				<itemGUID>1107e265-f011-4224-9449-46b67222ecc6</itemGUID>
+			</subItems>	
+			<subItems> <!--Blue Sweatband -->
+				<itemGUID>55f8a4d9-0867-48d1-8e84-3f98301ad0de</itemGUID>
+			</subItems>	
+			<subItems> <!--RBW Sweatband -->
+				<itemGUID>4ab5505f-37c6-4370-bba0-f84940098972</itemGUID>
+			</subItems>					
+		</m_items>
+		<m_items> <!-- T-shirt  Sport Watermelon -->
+			<itemGUID>0bf3c8e2-aca3-4ffd-aa05-b34db3d9108e</itemGUID>
+			<subItems> <!-- T-shirt  Sport PinkBlackBlue-->
+				<itemGUID>446c3da9-b1ec-40b5-b6d3-89850954764d</itemGUID>
+			</subItems>
+			<subItems> <!-- T-shirt Sport Popcicle-->
+				<itemGUID>fd138ec8-ec91-48be-9278-c4fc9d707e6f</itemGUID>
+			</subItems>
+			<subItems> <!-- T-shirt Sport Blue Purple-->
+				<itemGUID>aaa72940-1143-4179-b3a1-94af6c6da44b</itemGUID>
+			</subItems>							
+		</m_items>		
+		<m_items> <!-- Pink Black Blue Short Sport Shorts -->
+			<itemGUID>da5e3b58-e433-4182-a273-ba619e6d33c3</itemGUID>
+			<subItems> <!-- Pink Black Blue Short Sport Shorts -->
+				<itemGUID>da5e3b58-e433-4182-a273-ba619e6d33c3</itemGUID>
+			</subItems>	
+			<subItems> <!-- Blue Purple Short Sport Shorts -->
+				<itemGUID>e4420f15-b115-4ad9-9db5-90a302e22235</itemGUID>
+			</subItems>	
+			<subItems> <!-- Popcicle Long Sport Shorts -->
+				<itemGUID>199e77a3-4915-42cd-83d9-db1e3572b390</itemGUID>
+			</subItems>		
+			<subItems> <!-- Watermelon Long Sport Shorts -->
+				<itemGUID>e83660a5-766b-42e3-aa6e-ae0086a96ec9</itemGUID>
+			</subItems>			
+		</m_items>
+		<m_items> <!-- Leg Warmers-->
+			<itemGUID>aaf3194d-6e6f-454f-a690-cbca734165bc</itemGUID>
+			<subItems> <!-- Purple Leg Warmers -->
+				<itemGUID>a9eb32fd-f2ce-4bb7-ad61-89793559a7df</itemGUID>
+			</subItems>
+			<subItems> <!-- Neon Blue Leg Warmers -->
+				<itemGUID>bdc18532-38f5-4032-bbb2-0d936171c330</itemGUID>
+			</subItems>
+			<subItems> <!-- Neon Pink Leg Warmers -->
+				<itemGUID>7c4e38d9-db73-4468-a08d-dbd6410355c5</itemGUID>
+			</subItems>			
+		</m_items>
+		
+		<m_items> <!-- White Tint Sneakers -->
+			<itemGUID>6fed6e2b-3a72-4bac-aac5-09585984493d</itemGUID>
+			<subItems> <!-- Pink and White Sneakers -->
+				<itemGUID>fa11d705-bfd5-4f5c-a54d-32643315d2d8</itemGUID>
+			</subItems>
+			<subItems>  <!-- Black and Pink Sneakers -->
+				<itemGUID>87f87760-f0fb-4dae-bc54-190a11cfd708</itemGUID>
+			</subItems>				
+		</m_items>	
+	</m_FemaleOutfits>		
 
 	<m_MaleOutfits>
 		<m_Name>AuthenticFlyboy</m_Name>
@@ -4633,6 +4856,59 @@
 			<subItems>
 				<itemGUID>0383956a-3fbd-4001-9749-69e2ba70b134</itemGUID>
 			</subItems>
+		</m_items>			
+	</m_MaleOutfits>
+
+	<m_MaleOutfits>
+		<m_Name>AuthenticMiner</m_Name>
+		<m_Guid>9d658d51-da3e-4348-9491-fd7a64e9226b</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowTopTint>false</m_AllowTopTint>	
+		<m_items> <!-- HardHat_Miner2 -->
+			<itemGUID>d1991df9-3e9f-4ee3-b8ee-2a7daf5446e3</itemGUID>
+		</m_items>			
+		<m_items> <!-- Denim Overalls -->
+			<itemGUID>cba6763a-6897-4631-8748-0c15f5450c93</itemGUID>			
+		</m_items>		
+		<m_items> <!-- Long Socks -->
+			<itemGUID>fb86bd5f-1931-4b24-a5d7-bd6a43769991</itemGUID>
+		</m_items>	
+		<m_items> <!-- Desert Army boots-->
+			<itemGUID>1ed51bf2-67e5-41d9-b50d-92f42483868a</itemGUID>
+			<subItems> <!-- Brown boots-->
+				<itemGUID>7fb2c6bd-1503-440d-8471-57b12275881a</itemGUID>
+			</subItems>	
+			<subItems> <!-- Army Boots-->
+				<itemGUID>7fb2c6bd-1503-440d-8471-57b12275881a</itemGUID>
+			</subItems>				
+		</m_items>
+		<m_items> <!-- Shirts --> <!-- Formal White Shirt -->
+			<itemGUID>ac7976de-2c73-44ea-9392-5d24ac1fb649</itemGUID>
+			<subItems> <!-- Formal TINT Shirt -->
+				<itemGUID>d556b848-5a37-400c-9322-2504bff33433</itemGUID>
+			</subItems>
+			<subItems> <!-- Shirt_FormalWhite_ShortSleeve -->
+				<itemGUID>00d77803-6b57-453b-89b6-135d2d642719</itemGUID>
+			</subItems>
+			<subItems> <!-- Shirt_FormalWhite_ShortSleeveTINT -->
+				<itemGUID>fa506bb5-26e7-4754-a08f-32a601019677</itemGUID>
+			</subItems>
+			<subItems> <!-- Shirt_FormalBlack_ShortSleeve -->
+				<itemGUID>7434ff13-3982-485f-8f6d-6d0b238aefd8</itemGUID>
+			</subItems>
+			<subItems> <!-- Shirt_FormalBlack_ShortSleeve -->
+				<itemGUID>7434ff13-3982-485f-8f6d-6d0b238aefd8</itemGUID>
+			</subItems>	
+			<subItems> <!-- Lumber jack short Shirt -->
+				<itemGUID>289f3637-39e6-492e-9469-8d611177debd</itemGUID>
+			</subItems>	
+			<subItems> <!-- Lumber jack short Shirt -->
+				<itemGUID>88b27ecc-8a00-4d1a-882e-1ab4f4a46350</itemGUID>
+			</subItems>				
+		</m_items>	
+		<m_items> <!-- Tank Top -->
+			<itemGUID>a700a956-32c2-49a6-bd5f-5a2895073f19</itemGUID>
 		</m_items>			
 	</m_MaleOutfits>	
 

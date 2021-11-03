@@ -128,6 +128,67 @@ module AuthenticZClothing {
         ReplaceInPrimaryHand = Bag_SchoolBagCEDA_RHand holdingbagright,
 		WorldStaticModel = SchoolBag_Ground,
     }
+
+	item Bag_SchoolBagCEDABlack
+    {
+        WeightReduction			=	60,
+        Weight					=	1,
+        Type					=	Container,
+        Capacity				=	15,
+        DisplayName				=	CEDA Hazmat Pack,
+        Icon 					= 	Backpack_Black,
+        CanBeEquipped 			= 	Back,
+        OpenSound   			=   OpenBag,
+        CloseSound   			=   CloseBag,
+        PutInSound   			=   PutItemInBag,
+        ClothingItem 			= 	Bag_SchoolBagCEDABlack,
+        BloodLocation 			= 	Bag,
+        RunSpeedModifier 		= 	0.97,
+        AttachmentReplacement   = 	Bag,
+        ReplaceInSecondHand 	= 	Bag_SchoolBagCEDABlack_LHand holdingbagleft,
+        ReplaceInPrimaryHand 	= 	Bag_SchoolBagCEDABlack_RHand holdingbagright,
+		WorldStaticModel 		= 	SchoolBag_Ground,
+    }
+	item Bag_SchoolBagCEDABlue
+    {
+        WeightReduction			=	60,
+        Weight					=	1,
+        Type					=	Container,
+        Capacity				=	15,
+        DisplayName				=	CEDA Hazmat Pack,
+        Icon 					= 	Backpack_Blue,
+        CanBeEquipped			= 	Back,
+        OpenSound   			=   OpenBag,
+        CloseSound   			=   CloseBag,
+        PutInSound   			=   PutItemInBag,
+        ClothingItem 			= 	Bag_SchoolBagCEDABlue,
+        BloodLocation 			= 	Bag,
+        RunSpeedModifier 		= 	0.97,
+        AttachmentReplacement 	= 	Bag,
+        ReplaceInSecondHand 	= 	Bag_SchoolBagCEDABlue_LHand holdingbagleft,
+        ReplaceInPrimaryHand 	= 	Bag_SchoolBagCEDABlue_RHand holdingbagright,
+		WorldStaticModel 		= 	SchoolBag_Ground,
+    }
+	item Bag_SchoolBagCEDARed
+    {
+        WeightReduction				=	60,
+        Weight						=	1,
+        Type						=	Container,
+        Capacity					=	15,
+        DisplayName					=	CEDA Hazmat Pack,
+        Icon 						= 	Backpack_Red,
+        CanBeEquipped 				= 	Back,
+        OpenSound   				=   OpenBag,
+        CloseSound   				=   CloseBag,
+        PutInSound   				=   PutItemInBag,
+        ClothingItem 				= 	Bag_SchoolBagCEDARed,
+        BloodLocation 				=	Bag,
+        RunSpeedModifier 			= 	0.97,
+        AttachmentReplacement 		= 	Bag,
+        ReplaceInSecondHand 		= 	Bag_SchoolBagCEDARed_LHand holdingbagleft,
+        ReplaceInPrimaryHand 		= 	Bag_SchoolBagCEDARed_RHand holdingbagright,
+		WorldStaticModel 			= 	SchoolBag_Ground,
+    }	
 	
 	item Bag_JerryCanBack
     {
@@ -288,6 +349,26 @@ module AuthenticZClothing {
         CanBeEquipped 			= 	Tail,
         RunSpeedModifier 		= 	0.98,
         WorldStaticModel 		= 	WorldItem_UtilityBelt,
+    }
+
+    item Bag_Satchel
+    {
+        WeightReduction	=	30,
+        Weight	=	1,
+        Type	=	Container,
+        Capacity	=	15,
+        DisplayName	=	Satchel,
+        IconsForTexture = Satchel_Leather;Satchel_Green;Satchel_Khaki,
+        CanBeEquipped = AmmoStrap,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        ClothingItem = Bag_Satchel,
+        BloodLocation = Bag,
+        RunSpeedModifier = 0.99,
+        ReplaceInSecondHand = Bag_Satchel_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_Satchel_RHand holdingbagright,
+        WorldStaticModel = Satchel_Ground,
     }	
 	
 	item Suitcase2

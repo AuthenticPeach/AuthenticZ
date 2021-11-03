@@ -179,7 +179,7 @@
 		DisplayName = Plaid Shirt,
 		ClothingItem = Shirt_LumberJackShort,
 		BodyLocation = Tshirt,
-		IconsForTexture = ShirtLumberjackShortBlue;ShirtLumberjackShortRed;ShirtLumberjackShortYellow;ShirtLumberjackShortGreen;ShirtLumberjackShortGrey;
+		IconsForTexture = ShirtLumberjackShortBlue;ShirtLumberjackShortBlue;ShirtLumberjackShortRed;ShirtLumberjackShortRed;ShirtLumberjackShortYellow;ShirtLumberjackShortYellow;ShirtLumberjackShortGreen;ShirtLumberjackShortGreen;ShirtLumberjackShortGrey;ShirtLumberjackShortGrey;ShirtLumberjackOrange;ShirtLumberjackOrange,
 		BloodLocation = Shirt,
         Insulation = 0.65,
         WindResistance = 0.5,
@@ -544,6 +544,19 @@
         FabricType = Cotton,
 		WorldStaticModel = Shirt_Ground,
     }
+    item Tshirt_SportLightBlue
+    {
+        Type = Clothing,
+        DisplayName = Light Blue Sport T-Shirt,
+        ClothingItem = Tshirt_SportLightBlue,
+        BodyLocation = Shirt,
+        Icon	=	ShirtAthleticLightBlue,
+        BloodLocation = ShirtLongSleeves,
+        Insulation = 0.3,
+        WindResistance = 0.35,
+        FabricType = Cotton,
+		WorldStaticModel = Shirt_Ground,
+    }	
     item Tshirt_SportPinkBlackBlue
     {
         Type = Clothing,
@@ -590,6 +603,19 @@
         ClothingItem = Tshirt_SportWatermelon,
         BodyLocation = Tshirt,
         Icon	=	ShirtAthleticWatermelon,
+        BloodLocation = Shirt,
+        Insulation = 0.3,
+        WindResistance = 0.35,
+        FabricType = Cotton,
+		WorldStaticModel = TShirt_Ground,	
+    }
+    item Tshirt_SportWhite
+    {
+        Type = Clothing,
+        DisplayName = White Sport T-Shirt,
+        ClothingItem = Tshirt_SportWhite,
+        BodyLocation = Tshirt,
+        Icon	=	ShirtAthleticWhite,
         BloodLocation = Shirt,
         Insulation = 0.3,
         WindResistance = 0.35,

@@ -1,10 +1,7 @@
+require "Definitions/AttachedWeaponDefinitions"
 -- define weapons to be attached to zombies when creating them
 -- random knives inside their neck, spear in their stomach, meatcleaver in their back...
 -- this is used in IsoZombie.addRandomAttachedWeapon()
-
-AttachedWeaponDefinitions = AttachedWeaponDefinitions or {};
-
-AttachedWeaponDefinitions.chanceOfAttachedWeapon = 6; -- Global chance of having an attached weapon, if we pass this we gonna add randomly one from the list
 
 AttachedWeaponDefinitions.Bandages= {
 	chance = 25,
@@ -741,7 +738,6 @@ AttachedWeaponDefinitions.MediumSpikesWinslow = {
 }
 
 -- Define some custom weapons attached on some specific outfit, so for example police have way more chance to have guns in holster and not simply a spear in stomach or something
-AttachedWeaponDefinitions.attachedWeaponCustomOutfit = {};
 
 AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticAshEvilDead = {
 	chance = 100;

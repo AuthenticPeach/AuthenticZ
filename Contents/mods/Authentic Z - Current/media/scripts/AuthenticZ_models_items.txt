@@ -385,6 +385,17 @@ module Base
 		mesh = Skinned/Backpacks/WorldItem-ProtonPack,
 		texture = clothes\Backpacks\ProtonPack,
     }	
+    model FlashLightGroundBlue
+    {
+        mesh = WorldItems/FlashLight,
+	texture = clothes\Items\FlashLightBlue,
+        scale = 0.4,
+    }
+	model FlashLightBlue
+	{
+		mesh = FlashLight,
+		texture = clothes\Items\FlashLightBlue,		
+	}
 	model WorldItem_FreddyClaw
     {
 		mesh = Static/Clothes/WorldItem-FreddyClaw,

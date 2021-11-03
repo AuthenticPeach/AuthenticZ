@@ -228,7 +228,47 @@ recipe Convert to Torch
       Prop1:Screwdriver,
       Prop2:Authentic_MilitaryFlashlightGreen,
    }
-   	
+
+	recipe Remove Battery
+   {
+     keep Torch2,
+
+     Result:Battery,
+     Time:30,
+     OnTest:Recipe.OnTest.AuthenticTorchBatteryRemoval,
+     OnCreate:Recipe.OnCreate.AuthenticTorchBatteryRemoval,
+     StopOnWalk:false,
+     Prop2:TorchBlue,
+   }
+
+  	 recipe Insert Battery into Flashlight
+   {
+     destroy Torch2,
+     destroy Battery,
+
+     Result:Torch2,
+     Time:30,
+     OnTest:AuthenticTorchBatteryInsert_TestIsValid,
+     OnCreate:Recipe.OnCreate.AuthenticTorchBatteryInsert,
+     StopOnWalk:false,
+     Prop2:TorchBlue,
+   }
+   
+    recipe Dismantle Flashlight
+   {
+      destroy Torch2,
+      keep Screwdriver,
+
+      Result:ElectronicsScrap,
+      Time:50.0,
+      OnTest:AuthenticTorchBatteryInsert_TestIsValid,
+      OnGiveXP:DismantleElectronics_OnGiveXP,
+      OnCreate:AuthenticTorchDismantle_OnCreate,
+      Category:Electrical,
+      AnimNode:Disassemble,
+      Prop1:Screwdriver,
+      Prop2:TorchBlue,
+   }  
   	 recipe Insert Battery into Miner Hat
    {
      destroy Authentic_MinerLightbulb,
@@ -303,5 +343,13 @@ recipe Tie Hoodie Around Waist
    	   Result:HoodieTied_WhiteTINT,
 	   Time:30.0,
 	   Tooltip:Tooltip_HoodieCraft,
-  	}		
+  	}
+recipe Wear Satchel With Bag
+  	{
+   	   Bag_Satchel,
+
+   	   Result:AuthenticZClothing.Bag_Satchel,
+	   Time:30.0,
+	   Tooltip:Tooltip_HoodieCraft,
+  	}	
 }		

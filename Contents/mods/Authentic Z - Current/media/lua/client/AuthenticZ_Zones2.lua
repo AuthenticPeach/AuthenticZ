@@ -1,5 +1,5 @@
 --Mod Maps Left 2 Do
---Kingsmouth, Lake Ivy, Cherbourg, Bedford Falls, Slocan Lake, Pheonix, Drayton, Raven Creek
+--Kingsmouth, Lake Ivy, Cherbourg, Bedford Falls, Slocan Lake
 --Adds new Zones to the world    OnNewGame
 
 local function isMod(mod_Name)

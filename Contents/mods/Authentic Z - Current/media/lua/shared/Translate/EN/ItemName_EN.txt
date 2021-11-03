@@ -487,6 +487,9 @@ ItemName_EN = {
  	
 	/* New */
 	ItemName_AuthenticZClothing.AZ_MetalClip = "Carabiner Clip",
-
+	ItemName_AuthenticZClothing.Socks_LegWarmersPurple = "Purple Leg Warmers",
+	ItemName_AuthenticZClothing.Socks_LegWarmersNeonBlue = "Blue Leg Warmers",	
+	ItemName_AuthenticZClothing.Socks_LegWarmersNeonPink = "Pink Leg Warmers",		
+	ItemName_AuthenticZClothing.Bag_L4DeadMedkit = "First Aid Kit",	
 	
 }

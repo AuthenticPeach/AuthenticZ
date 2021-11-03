@@ -467,7 +467,7 @@ module AuthenticZClothing {
 		primaryAnimMask 		= 	HoldingTorchRight,
         secondaryAnimMask		= 	HoldingTorchLeft,
 		WorldStaticModel 		= 	AuthenticCanteenSilver,	
-		AttachmentType  = WaterBottle,			
+		AttachmentType  		= 	WaterBottle,			
 	}
     item AuthenticCricketBat
 	{

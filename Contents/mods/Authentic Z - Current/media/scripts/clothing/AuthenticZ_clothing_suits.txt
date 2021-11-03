@@ -134,7 +134,7 @@ module AuthenticZClothing {
         BodyLocation = FullSuit,
         Icon = BoilerSuitHalloween,
         BloodLocation = Trousers;Jumper,
-        RunSpeedModifier = 0.9,
+        RunSpeedModifier = 0.95,
         ScratchDefense = 10,
         Insulation = 0.45,
         WindResistance = 0.35,
