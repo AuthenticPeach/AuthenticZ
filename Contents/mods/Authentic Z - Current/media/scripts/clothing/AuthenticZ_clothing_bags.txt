@@ -227,6 +227,8 @@ module AuthenticZClothing {
         ReplaceInSecondHand 	 = 	Bag_L4DeadMedkit_LHand holdingbagleft,
         ReplaceInPrimaryHand	 = 	Bag_L4DeadMedkit_RHand holdingbagright,
         WorldStaticModel 		 = 	WorldItem_BackpackL4DMedkit,
+		AttachmentType  		 = 	Bag_L4DeadMedkit,
+		StaticModel 			= 	WorldItem_BackpackL4DMedkit,		
     } 
 	
 	item Bag_SchoolBagNBH

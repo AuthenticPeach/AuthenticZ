@@ -3247,12 +3247,21 @@
 			</subItems>
 			<subItems> <!-- T-shirt Sport Blue Purple-->
 				<itemGUID>aaa72940-1143-4179-b3a1-94af6c6da44b</itemGUID>
-			</subItems>					
+			</subItems>	
+			<subItems> <!-- T-shirt Sport Light Blue-->
+				<itemGUID>6788c5ec-bfce-4b04-ab36-7268b1cc7a6b</itemGUID>
+			</subItems>				
+			<subItems> <!-- T-shirt  Sport Gold -->
+				<itemGUID>6a265e7e-b0f6-4d74-b3a7-5ed7d393b74c</itemGUID>
+			</subItems>	
+			<subItems> <!-- T-shirt  Sport Sunset -->
+				<itemGUID>19999b44-e769-45a2-9455-48ba3aabdf11</itemGUID>
+			</subItems>				
 			<subItems> <!-- T-shirt  Sport Purple -->
 				<itemGUID>2743ceec-e7cf-425a-b20e-f8b669912c80</itemGUID>
 			</subItems>
-			<subItems> <!-- T-shirt  Sport Watermelon -->
-				<itemGUID>0bf3c8e2-aca3-4ffd-aa05-b34db3d9108e</itemGUID>
+			<subItems> <!-- T-shirt  Sport Grey -->
+				<itemGUID>a3a339fa-a2b3-4ea7-86db-ecd5093d4f0a</itemGUID>
 			</subItems>	
 			<subItems> <!-- T-shirt  Sport White -->
 				<itemGUID>6a265e7e-b0f6-4d74-b3a7-5ed7d393b74c</itemGUID>
@@ -3269,6 +3278,12 @@
 			<subItems> <!-- Blue Purple Short Sport Shorts -->
 				<itemGUID>e4420f15-b115-4ad9-9db5-90a302e22235</itemGUID>
 			</subItems>	
+			<subItems> <!-- Light Blue Short Sport Shorts -->
+				<itemGUID>0e9f274b-55ef-4c92-b5f7-e30353f4943c</itemGUID>
+			</subItems>				
+			<subItems> <!-- Sunset Short Sport Shorts -->
+				<itemGUID>0e5c0d73-91af-4e75-91c5-975c16447cb8</itemGUID>
+			</subItems>				
 			<subItems> <!-- Popcicle Long Sport Shorts -->
 				<itemGUID>199e77a3-4915-42cd-83d9-db1e3572b390</itemGUID>
 			</subItems>		
@@ -3349,13 +3364,17 @@
 			</subItems>
 			<subItems> <!-- T-shirt Sport Blue Purple-->
 				<itemGUID>aaa72940-1143-4179-b3a1-94af6c6da44b</itemGUID>
-			</subItems>			
+			</subItems>	
+			<subItems> <!-- T-shirt  Sport Neon -->
+				<itemGUID>53eece11-3a17-428e-ac19-f0a8dd00a412</itemGUID>
+			</subItems>				
 			<subItems> <!-- T-shirt  Sport Purple -->
 				<itemGUID>2743ceec-e7cf-425a-b20e-f8b669912c80</itemGUID>
 			</subItems>	
 			<subItems> <!-- T-shirt  Sport Watermelon -->
 				<itemGUID>0bf3c8e2-aca3-4ffd-aa05-b34db3d9108e</itemGUID>
-			</subItems>				
+			</subItems>	
+			
 		</m_items>
 		<m_items>   <!-- Short Sport Shorts -->
 			<itemGUID>e22e4bfa-f550-4e5a-a380-5eaad6b7111c</itemGUID>
@@ -3368,6 +3387,9 @@
 			<subItems> <!-- Blue Purple Short Sport Shorts -->
 				<itemGUID>e4420f15-b115-4ad9-9db5-90a302e22235</itemGUID>
 			</subItems>	
+			<subItems> <!-- Neon Long Sport Shorts -->
+				<itemGUID>ff148974-13b5-464f-bc25-d08bdc3b5df5</itemGUID>
+			</subItems>				
 			<subItems> <!-- Popcicle Long Sport Shorts -->
 				<itemGUID>199e77a3-4915-42cd-83d9-db1e3572b390</itemGUID>
 			</subItems>		
@@ -3451,6 +3473,9 @@
 			<subItems> <!-- T-shirt  Sport PinkBlackBlue-->
 				<itemGUID>446c3da9-b1ec-40b5-b6d3-89850954764d</itemGUID>
 			</subItems>
+			<subItems> <!-- T-shirt  Sport Neon -->
+				<itemGUID>53eece11-3a17-428e-ac19-f0a8dd00a412</itemGUID>
+			</subItems>				
 			<subItems> <!-- T-shirt Sport Popcicle-->
 				<itemGUID>fd138ec8-ec91-48be-9278-c4fc9d707e6f</itemGUID>
 			</subItems>
@@ -3466,9 +3491,18 @@
 			<subItems> <!-- Blue Purple Short Sport Shorts -->
 				<itemGUID>e4420f15-b115-4ad9-9db5-90a302e22235</itemGUID>
 			</subItems>	
+			<subItems> <!-- Neon Long Sport Shorts -->
+				<itemGUID>ff148974-13b5-464f-bc25-d08bdc3b5df5</itemGUID>
+			</subItems>
+			<subItems> <!-- Neon short Sport Shorts -->
+				<itemGUID>cf580008-4b4e-4ac6-8feb-6e60089e7daf</itemGUID>
+			</subItems>				
 			<subItems> <!-- Popcicle Long Sport Shorts -->
 				<itemGUID>199e77a3-4915-42cd-83d9-db1e3572b390</itemGUID>
-			</subItems>		
+			</subItems>
+			<subItems> <!-- Popcicle Short Sport Shorts -->
+				<itemGUID>b5bc0cc2-b99c-4f27-8b75-c31162f842c8</itemGUID>
+			</subItems>				
 			<subItems> <!-- Watermelon Long Sport Shorts -->
 				<itemGUID>e83660a5-766b-42e3-aa6e-ae0086a96ec9</itemGUID>
 			</subItems>			

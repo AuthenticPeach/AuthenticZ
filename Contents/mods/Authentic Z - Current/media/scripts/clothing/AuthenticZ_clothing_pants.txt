@@ -12,7 +12,6 @@ module AuthenticZClothing {
         Icon = LongjohnsBlackLeggings,
         Insulation = 0.3,
         WindResistance = 0.15,
-        FabricType = Cotton,
 		WorldStaticModel = Trousers_Ground,
     }  
     item Shorts_LongDenimWhite
@@ -43,6 +42,19 @@ module AuthenticZClothing {
         FabricType = Cotton,
         WorldStaticModel = LongShorts_Ground,
     }	
+    item Shorts_LongSportBluePurple
+    {
+        Type = Clothing,
+        DisplayName = Long Sport Shorts,
+        ClothingItem = Shorts_LongSportBluePurple,
+        BodyLocation = Pants,
+        Icon = ShortsLongAthleticBluePurple,
+        BloodLocation = Trousers,
+        Insulation = 0.25,
+        WindResistance = 0.1,
+        FabricType = Cotton,
+        WorldStaticModel = LongShorts_Ground,
+    }		
 	    item Shorts_LongSportChiefs
     {
         Type = Clothing,
@@ -69,6 +81,45 @@ module AuthenticZClothing {
         FabricType = Cotton,
         WorldStaticModel = LongShorts_Ground,
     }
+	    item Shorts_LongSportGolden
+    {
+        Type = Clothing,
+        DisplayName = Golden Long Sport Shorts,
+        ClothingItem = Shorts_LongSportGolden,
+        BodyLocation = Pants,
+        Icon = ShortsLongAthleticGold,
+        BloodLocation = Trousers,
+        Insulation = 0.25,
+        WindResistance = 0.1,
+        FabricType = Cotton,
+        WorldStaticModel = LongShorts_Ground,
+    }
+	    item Shorts_LongSportLightBlue
+    {
+        Type = Clothing,
+        DisplayName = Light Blue Long Sport Shorts,
+        ClothingItem = Shorts_LongSportLightBlue,
+        BodyLocation = Pants,
+        Icon = ShortsLongAthleticLightBlue,
+        BloodLocation = Trousers,
+        Insulation = 0.25,
+        WindResistance = 0.1,
+        FabricType = Cotton,
+        WorldStaticModel = LongShorts_Ground,
+    }	
+	    item Shorts_LongSportNeon
+    {
+        Type = Clothing,
+        DisplayName = Long Sport Shorts,
+        ClothingItem = Shorts_LongSportNeon,
+        BodyLocation = Pants,
+        Icon = ShortsLongAthleticNeon,
+        BloodLocation = Trousers,
+        Insulation = 0.25,
+        WindResistance = 0.1,
+        FabricType = Cotton,
+        WorldStaticModel = LongShorts_Ground,
+    }	
 	    item Shorts_LongSportPatriots
     {
         Type = Clothing,
@@ -134,6 +185,19 @@ module AuthenticZClothing {
         FabricType = Cotton,
         WorldStaticModel = LongShorts_Ground,
     }	
+    item Shorts_ShortSport_Neon
+    {
+        Type = Clothing,
+        DisplayName = Sport Shorts,
+        ClothingItem = Shorts_ShortSport_Neon,
+        BodyLocation = Pants,
+        Icon = ShortsAthleticNeon,
+        BloodLocation = ShortsShort,
+        Insulation = 0.15,
+        WindResistance = 0.05,
+        FabricType = Cotton,
+        WorldStaticModel = ShortShorts_Ground,		
+    }	
     item Shorts_ShortSport_PinkBlackBlue
     {
         Type = Clothing,
@@ -145,7 +209,34 @@ module AuthenticZClothing {
         Insulation = 0.15,
         WindResistance = 0.05,
         FabricType = Cotton,
-    }	
+        WorldStaticModel = ShortShorts_Ground,		
+    }
+    item Shorts_ShortSport_Popcicle
+    {
+        Type = Clothing,
+        DisplayName = Sport Shorts,
+        ClothingItem = Shorts_ShortSport_Popcicle,
+        BodyLocation = Pants,
+        Icon = ShortsAthleticPopcicle,
+        BloodLocation = ShortsShort,
+        Insulation = 0.15,
+        WindResistance = 0.05,
+        FabricType = Cotton,
+        WorldStaticModel = ShortShorts_Ground,		
+    }
+    item Shorts_ShortSport_Sunset
+    {
+        Type = Clothing,
+        DisplayName = Sport Shorts,
+        ClothingItem = Shorts_ShortSport_Sunset,
+        BodyLocation = Pants,
+        Icon = ShortsAthleticSunset,
+        BloodLocation = ShortsShort,
+        Insulation = 0.15,
+        WindResistance = 0.05,
+        FabricType = Cotton,
+        WorldStaticModel = ShortShorts_Ground,		
+    }		
     item Skirt_ShortBlack
     {
         Type = Clothing,
@@ -179,7 +270,7 @@ module AuthenticZClothing {
         Icon = SkirtShortJessie,
         BloodLocation = ShortsShort,
         Insulation = 0.05,
-        FabricType = Cotton,
+        FabricType = Denim,
 		WorldStaticModel = Skirt_Short_Ground,	
     }
     item Skirt_ShortXian
@@ -307,7 +398,7 @@ module AuthenticZClothing {
         Insulation = 0.75,
         WindResistance = 0.75,
         WaterResistance = 0.35,
-        FabricType = Cotton,
+        FabricType = Denim,
         WorldStaticModel = Trousers_Ground,		
     }
     item Trousers_DefaultJeans
@@ -355,7 +446,7 @@ module AuthenticZClothing {
         Insulation = 0.75,
         WindResistance = 0.75,
         WaterResistance = 0.35,
-        FabricType = Cotton,
+        FabricType = Denim,
         WorldStaticModel = Trousers_Ground,		
     }
     item Trousers_Grimes
@@ -370,7 +461,7 @@ module AuthenticZClothing {
         Insulation = 0.75,
         WindResistance = 0.75,
         WaterResistance = 0.35,
-        FabricType = Cotton,
+        FabricType = Denim,
         WorldStaticModel = Trousers_Ground,		
     }
    	item Trousers_SuitBrad
@@ -494,7 +585,7 @@ module AuthenticZClothing {
         ScratchDefense = 20,
         Insulation = 0.3,
         WindResistance = 0.1,
-        FabricType = Cotton,
+        FabricType = Denim,
         WorldStaticModel = Trousers_Ground,		
     }
     item Trousers_OliveDrab
@@ -510,7 +601,7 @@ module AuthenticZClothing {
         Insulation = 0.45,
         WindResistance = 0.3,
         WaterResistance = 0.45,
-        FabricType = Cotton,
+        FabricType = Denim,
         WorldStaticModel = Trousers_Ground,
     }
     item Trousers_OliveDrab2
@@ -526,7 +617,7 @@ module AuthenticZClothing {
         Insulation = 0.45,
         WindResistance = 0.3,
         WaterResistance = 0.45,
-        FabricType = Cotton,
+        FabricType = Denim,
         WorldStaticModel = Trousers_Ground,
     }	
     item Trousers_Sport

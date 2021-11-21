@@ -4331,6 +4331,10 @@
 	<files>
 		<path>media/clothing/clothingItems/Shorts_LongSport_Blue.xml</path>
 		<guid>480960e6-2133-4e7c-969b-d836b02ce527</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Shorts_LongSportBluePurple.xml</path>
+		<guid>09de7e45-6284-4ba8-9f23-ef0a48ee4c75</guid>
 	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Shorts_LongSportChiefs.xml</path>
@@ -4341,9 +4345,17 @@
 		<guid>9df5977f-0dc6-47b7-bfe3-fbd8be29e0c5</guid>
 	</files>
 	<files>
+		<path>media/clothing/clothingItems/Shorts_LongSportGolden.xml</path>
+		<guid>885f4faa-a936-4455-9482-90bc475d5574</guid>
+	</files>	
+	<files>
 		<path>media/clothing/clothingItems/Shorts_LongSportPatriots.xml</path>
 		<guid>087cbdc5-e530-4285-b763-5f0cae165316</guid>
 	</files>
+	<files>
+		<path>media/clothing/clothingItems/Shorts_LongSportNeon.xml</path>
+		<guid>ff148974-13b5-464f-bc25-d08bdc3b5df5</guid>
+	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Shorts_LongSportPopcicle.xml</path>
 		<guid>199e77a3-4915-42cd-83d9-db1e3572b390</guid>
@@ -4359,6 +4371,22 @@
 	<files>
 		<path>media/clothing/clothingItems/Shorts_LongSportWatermelon.xml</path>
 		<guid>e83660a5-766b-42e3-aa6e-ae0086a96ec9</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Shorts_ShortSport_Neon.xml</path>
+		<guid>cf580008-4b4e-4ac6-8feb-6e60089e7daf</guid>
+	</files>	
+	<files>
+		<path>media/clothing/clothingItems/Shorts_ShortSport_PinkBlackBlue.xml</path>
+		<guid>da5e3b58-e433-4182-a273-ba619e6d33c3</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Shorts_ShortSport_Popcicle.xml</path>
+		<guid>b5bc0cc2-b99c-4f27-8b75-c31162f842c8</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Shorts_ShortSport_Sunset.xml</path>
+		<guid>0e5c0d73-91af-4e75-91c5-975c16447cb8</guid>
 	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Skin_Black_Zed_M.xml</path>
@@ -4429,6 +4457,10 @@
 		<guid>4f03d92b-389b-489a-9962-dfc5e896fdc2</guid>
 	</files>
 	<files>
+		<path>media/clothing/clothingItems/Stomach_Intestines3.xml</path>
+		<guid>b8b67d94-c979-4deb-982e-93bd3c5b7108</guid>
+	</files>	
+	<files>
 		<path>media/clothing/clothingItems/Socks_LegWarmersPurple.xml</path>
 		<guid>a9eb32fd-f2ce-4bb7-ad61-89793559a7df</guid>
 	</files>
@@ -4471,10 +4503,6 @@
 	<files>
 		<path>media/clothing/clothingItems/Socks_Long_DarkGreen.xml</path>
 		<guid>829c20ca-8b3b-411c-bfbf-69008c65c2e5</guid>
-	</files>
-	<files>
-		<path>media/clothing/clothingItems/Shorts_ShortSport_PinkBlackBlue.xml</path>
-		<guid>da5e3b58-e433-4182-a273-ba619e6d33c3</guid>
 	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Suit_JacketBlue.xml</path>
@@ -4747,7 +4775,15 @@
 	<files>
 		<path>media/clothing/clothingItems/Tshirt_SportBluePurple.xml</path>
 		<guid>aaa72940-1143-4179-b3a1-94af6c6da44b</guid>
-	</files>	
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Tshirt_SportGrey.xml</path>
+		<guid>a3a339fa-a2b3-4ea7-86db-ecd5093d4f0a</guid>
+	</files>		
+	<files>
+		<path>media/clothing/clothingItems/Tshirt_SportGold.xml</path>
+		<guid>21011270-462e-4bdc-820e-38c2cf7dbc83</guid>
+	</files>
 	<files>
 		<path>media/clothing/clothingItems/Tshirt_SportKilla.xml</path>
 		<guid>573fd396-105d-48e0-bdcb-d8cbe42d7398</guid>
@@ -4759,6 +4795,10 @@
 	<files>
 		<path>media/clothing/clothingItems/Tshirt_SportLightBlue.xml</path>
 		<guid>6788c5ec-bfce-4b04-ab36-7268b1cc7a6b</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Tshirt_SportNeon.xml</path>
+		<guid>53eece11-3a17-428e-ac19-f0a8dd00a412</guid>
 	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Tshirt_SportPinkBlackBlue.xml</path>
@@ -4772,6 +4812,10 @@
 		<path>media/clothing/clothingItems/Tshirt_SportPurple.xml</path>
 		<guid>2743ceec-e7cf-425a-b20e-f8b669912c80</guid>
 	</files>
+	<files>
+		<path>media/clothing/clothingItems/Tshirt_SportSunset.xml</path>
+		<guid>19999b44-e769-45a2-9455-48ba3aabdf11</guid>
+	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Tshirt_SportWatermelon.xml</path>
 		<guid>0bf3c8e2-aca3-4ffd-aa05-b34db3d9108e</guid>

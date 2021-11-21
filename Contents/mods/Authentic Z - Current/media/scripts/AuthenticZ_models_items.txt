@@ -14,7 +14,7 @@ module Base
 	{
 		mesh = Balloon,
 		texture = clothes\Items\BalloonGreen,
-	}	
+	}
 	model AuthenticBalloonRed
 	{
 		mesh = Balloon,
@@ -39,12 +39,12 @@ module Base
 	{
 		mesh = AuthenticBandages,
 		texture = clothes\Items\AuthenticBandage,
-	}	
+	}
 	model AuthenticBrain
 	{
 		mesh = AuthenticBrain,
 		texture = clothes\Organs\Brain,
-	}	
+	}
 	model AuthenticCanteenCadetBlue
 	{
 		mesh = AuthenticCanteen,
@@ -79,7 +79,7 @@ module Base
 	{
 		mesh = Weapons/2Handed/AuthenticCricketBat,
 		texture = clothes\Items\CricketBatShaun,
-	}	
+	}
 	model AuthenticCoffeeCup
 	{
 		mesh = Weapons/1Handed/Authentic_CoffeeCup,
@@ -89,12 +89,12 @@ module Base
 	{
 		mesh = AuthenticHeart,
 		texture = clothes\Organs\Heart,
-	}	
+	}
 	model AuthenticLeft4Head
 	{
 		mesh = AuthenticLeft4DeadHand,
 		texture = clothes\Organs\L4Dhand,
-	}	
+	}
 	model AuthenticLiver
 	{
 		mesh = AuthenticLiver,
@@ -104,7 +104,7 @@ module Base
 	{
 		mesh = AuthenticKidney,
 		texture = clothes\Organs\Kidney,
-	}	
+	}
 	model AuthenticMeatChunk1
 	{
 		mesh = AuthenticMeatChunk01,
@@ -124,7 +124,7 @@ module Base
 	{
 		mesh = AuthenticMeatChunk04,
 		texture = clothes\Organs\Meat,
-	}	
+	}
 	model AuthenticMeatChunk5
 	{
 		mesh = AuthenticMeatChunk05,
@@ -135,7 +135,7 @@ module Base
 		mesh = AuthenticMinerLightbulb,
 		texture = WorldItems/LightBulb,
 		scale = 0.4,
-	}		
+	}
 	model AuthenticMoneyStack
 	{
 		mesh = Authentic_MoneyStack,
@@ -167,7 +167,7 @@ module Base
 	{
 		mesh = Weapons/2Handed/AuthenticWalkingCane,
 		texture = clothes\Items\WalkingCane,
-	}	
+	}
 	model ClownNose
 	{
 		mesh = ClownNose,
@@ -178,6 +178,23 @@ module Base
 		mesh = Cigarette,
 		texture = clothes\Items\Cigarette,
 	}
+	model GasMaskNotWorn
+	{
+		mesh = GasMaskUnequiped,
+		texture = GasMask,
+	}
+	model NewRope
+	{
+		mesh = RopeTan,
+		texture = clothes\Items\Rope3,
+		scale = 0.4,		
+	}
+	model NewRopeBlack
+	{
+		mesh = RopeBlack,
+		texture = clothes\Items\Rope2,
+		scale = 0.4,		
+	}		
 	model AuthenticAlienBlaster
 	{
 		mesh = Weapons/1Handed/AlienBlaster,
@@ -207,7 +224,7 @@ module Base
 	{
 		mesh = AuthenticPipeBomb,
 		texture = clothes\Items\AuthenticPipeBomb,
-	}	
+	}
 	model PomPomWhite
 	{
 		mesh = Weapons/1Handed/PomPom,
@@ -218,7 +235,6 @@ module Base
 		mesh = Weapons/1Handed/PomPom,
 		texture = clothes\Items\PomPomBlack,
 	}
-
 	model StopSign
 	{
 		mesh = Weapons/1Handed/StopSign,
@@ -228,12 +244,12 @@ module Base
 	{
 		mesh = Weapons/1Handed/KnifeEnd,
 		texture = clothes\Items\BloodyKnife,
-	}	
+	}
 	model MediumMetalSpear
 	{
 		mesh = Weapons/1Handed/MediumMetalSpear,
 		texture = MetalSpear,
-	}	
+	}
 	model MetalSpike
 	{
 		mesh = Weapons/1Handed/MetalSpike,
@@ -243,7 +259,7 @@ module Base
 	{
 		mesh = Remotecontrol,
 		texture = clothes\Items\RemoteControl,
-	}	
+	}
 	model ShortMetalSpear
 	{
 		mesh = Weapons/1Handed/ShortMetalSpear,
@@ -268,12 +284,12 @@ module Base
 	{
 		mesh = ThrowableFootball,
 		texture = WorldItems/Football,
-	}	
+	}
 	model WorldItem_AndySign
 	{
 		mesh = WorldItems/WorldItem_AuthenticAndySign,
 		texture = clothes\Items\AndySign,
-	}	
+	}
 	model WorldItem_Boater_Ground_Blue
     {
 		mesh = WorldItems/WorldItem-Boater,
@@ -298,7 +314,7 @@ module Base
     {
 		mesh = WorldItems/WorldItem-Boater,
 		texture = clothes\Hats\BoaterYellow,
-    }	
+    }
 	model WorldItem_BackpackEvangelo
     {
 		mesh = Skinned/Backpacks/WorldItem-BackpackEvangelo,
@@ -308,7 +324,7 @@ module Base
     {
 		mesh = Skinned/Backpacks/WorldItem-BackpackHoffman,
 		texture = clothes\Backpacks\BackpackHoffman,
-    }	
+    }
 	model WorldItem_BackpackHolly
     {
 		mesh = Skinned/Backpacks/WorldItem-BackpackHolly,
@@ -318,12 +334,12 @@ module Base
     {
 		mesh = Skinned/Backpacks/WorldItem-BackpackL4DMedkit,
 		texture = clothes\Backpacks\Left4DeadMedkitBackpack,
-    }	
+    }
 	model WorldItem_BackpackMom
     {
 		mesh = Skinned/Backpacks/WorldItem-BackpackMom,
 		texture = clothes\Backpacks\BackpackMom,
-    }	
+    }
 	model WorldItem_BackpackWalker
     {
 		mesh = Skinned/Backpacks/WorldItem-BackpackWalker,
@@ -338,7 +354,7 @@ module Base
 	{
 		mesh = WorldItems/WorldItem_Balloon,
 		texture = clothes\Items\BalloonGreen,		
-	}	
+	}
 	model WorldItem-BalloonRed
 	{
 		mesh = WorldItems/WorldItem_Balloon,
@@ -358,7 +374,7 @@ module Base
 	{
 		mesh = WorldItems/WorldItem_Balloon,
 		texture = clothes\Items\BalloonYellow,		
-	}	
+	}
 	model WorldItem_Chainsaw
     {
 		mesh = WorldItems/WorldItem_Chainsaw,
@@ -368,7 +384,7 @@ module Base
     {
 		mesh = WorldItems/WorldItem_Cigarette,
 		texture = Cigarette,		
-    }		
+    }
 	model WorldItem_UtilityBelt
     {
 		mesh = Skinned/Backpacks/WorldItem-UtilityBeltTactical,
@@ -379,13 +395,13 @@ module Base
 		mesh = WorldItems/WorldItem_AuthenticMinerLightbulb,
 		texture = WorldItems/LightBulb,
 		scale = 0.01,
-    }		
+    }
 	model WorldItem_ProtonPack
     {
 		mesh = Skinned/Backpacks/WorldItem-ProtonPack,
 		texture = clothes\Backpacks\ProtonPack,
-    }	
-    model FlashLightGroundBlue
+    }
+	model FlashLightGroundBlue
     {
         mesh = WorldItems/FlashLight,
 	texture = clothes\Items\FlashLightBlue,
@@ -410,15 +426,15 @@ module Base
 	{
 		mesh = WorldItems/HeadPhones,
 		scale = 0.4,
-	}	
+	}
 	model WorldItem-StovePipeHat
     {
 		mesh =  WorldItems/WorldItem_StovePipeHat,
 		texture = clothes\Hats\StovePipeHat,
-    }	
+    }
 	model WorldItem-DSLR
     {
 		mesh = Static/Clothes/WorldItem_DSLR,
 		texture = clothes\Items\Camera,
-    }	
+    }
 }

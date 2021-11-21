@@ -153,41 +153,25 @@ recipe Convert to Torch
 	
 	recipe Remove Battery
    {
-     keep Authentic_MilitaryFlashlightGrey,
+     keep AuthenticZClothing.Authentic_MilitaryFlashlightGrey,
 
      Result:Battery,
      Time:50,
-     OnTest:TorchBatteryRemoval_TestIsValid,
-     OnCreate:TorchBatteryRemoval_OnCreate,
+     OnTest:Recipe.OnTest.TorchBatteryRemoval,
+     OnCreate:AuthenticTorchBatteryRemoval_OnCreate,
      Prop2:Authentic_MilitaryFlashlightGrey,
    }
 
   	 recipe Insert Battery into Military Flashlight
    {
-     destroy Authentic_MilitaryFlashlightGrey,
+     destroy AuthenticZClothing.Authentic_MilitaryFlashlightGrey,
      destroy Battery,
 
-     Result:Authentic_MilitaryFlashlightGrey,
+     Result:AuthenticZClothing.Authentic_MilitaryFlashlightGrey,
      Time:50,
-     OnTest:TorchBatteryInsert_TestIsValid,
-     OnCreate:TorchBatteryInsert_OnCreate,
+     OnTest:AuthenticTorchBatteryInsert_TestIsValid,
+     OnCreate:Recipe.OnCreate.TorchBatteryInsert,
      Prop2:Authentic_MilitaryFlashlightGrey,
-   }
-   
-   	recipe Dismantle Military Flashlight
-   {
-      destroy Authentic_MilitaryFlashlightGrey,
-      keep Screwdriver,
-
-      Result:ElectronicsScrap,
-      Time:50.0,
-      OnTest:TorchBatteryInsert_TestIsValid,
-      OnGiveXP:DismantleElectronics_OnGiveXP,
-      OnCreate:TorchDismantle_OnCreate,
-      Category:Electrical,
-      AnimNode:Disassemble,
-      Prop1:Screwdriver,
-      Prop2:Authentic_MilitaryFlashlightGrey,
    }
 
 	recipe Remove Battery
@@ -196,102 +180,169 @@ recipe Convert to Torch
 
      Result:Battery,
      Time:30,
-     OnTest:TorchBatteryRemoval_TestIsValid,
-     OnCreate:TorchBatteryRemoval_OnCreate,
-      Prop2:Authentic_MilitaryFlashlightGreen,
+     OnTest:Recipe.OnTest.TorchBatteryRemoval,
+     OnCreate:AuthenticTorchBatteryRemoval_OnCreate,
+     Prop2:Authentic_MilitaryFlashlightGreen,
    }
 
   	 recipe Insert Battery into Military Flashlight
    {
-     destroy Authentic_MilitaryFlashlightGreen,
+     destroy AuthenticZClothing.Authentic_MilitaryFlashlightGreen,
      destroy Battery,
 
-     Result:Authentic_MilitaryFlashlightGreen,
+     Result:AuthenticZClothing.Authentic_MilitaryFlashlightGreen,
      Time:30,
-     OnTest:TorchBatteryInsert_TestIsValid,
-     OnCreate:TorchBatteryInsert_OnCreate,
-      Prop2:Authentic_MilitaryFlashlightGreen,
+     OnTest:AuthenticTorchBatteryInsert_TestIsValid,
+     OnCreate:Recipe.OnCreate.TorchBatteryInsert,
+     Prop2:Authentic_MilitaryFlashlightGreen,
    }
    
-   	recipe Dismantle Military Flashlight
-   {
-      destroy Authentic_MilitaryFlashlightGreen,
-      keep Screwdriver,
-
-      Result:ElectronicsScrap,
-      Time:50.0,
-      OnTest:TorchBatteryInsert_TestIsValid,
-      OnGiveXP:DismantleElectronics_OnGiveXP,
-      OnCreate:TorchDismantle_OnCreate,
-      Category:Electrical,
-      AnimNode:Disassemble,
-      Prop1:Screwdriver,
-      Prop2:Authentic_MilitaryFlashlightGreen,
-   }
-
 	recipe Remove Battery
    {
-     keep Torch2,
+     keep AuthenticZClothing.Torch2,
 
      Result:Battery,
      Time:30,
-     OnTest:Recipe.OnTest.AuthenticTorchBatteryRemoval,
-     OnCreate:Recipe.OnCreate.AuthenticTorchBatteryRemoval,
+     OnTest:Recipe.OnTest.TorchBatteryRemoval,
+     OnCreate:AuthenticTorchBatteryRemoval_OnCreate,
      StopOnWalk:false,
-     Prop2:TorchBlue,
+     Prop2:FlashLightBlue,
    }
 
   	 recipe Insert Battery into Flashlight
    {
-     destroy Torch2,
+     destroy AuthenticZClothing.Torch2,
      destroy Battery,
 
-     Result:Torch2,
+     Result:AuthenticZClothing.Torch2,
      Time:30,
      OnTest:AuthenticTorchBatteryInsert_TestIsValid,
-     OnCreate:Recipe.OnCreate.AuthenticTorchBatteryInsert,
+     OnCreate:Recipe.OnCreate.TorchBatteryInsert,
      StopOnWalk:false,
-     Prop2:TorchBlue,
+     Prop2:FlashLightBlue,
    }
-   
-    recipe Dismantle Flashlight
-   {
-      destroy Torch2,
-      keep Screwdriver,
 
-      Result:ElectronicsScrap,
-      Time:50.0,
-      OnTest:AuthenticTorchBatteryInsert_TestIsValid,
-      OnGiveXP:DismantleElectronics_OnGiveXP,
-      OnCreate:AuthenticTorchDismantle_OnCreate,
-      Category:Electrical,
-      AnimNode:Disassemble,
-      Prop1:Screwdriver,
-      Prop2:TorchBlue,
-   }  
-  	 recipe Insert Battery into Miner Hat
+	recipe Remove Battery
    {
-     destroy Authentic_MinerLightbulb,
+     keep AuthenticZClothing.HandTorch2,
+
+     Result:Battery,
+     Time:30,
+     OnTest:Recipe.OnTest.TorchBatteryRemoval,
+     OnCreate:AuthenticTorchBatteryRemoval_OnCreate,
+     StopOnWalk:false,
+     Prop2:HandTorch,
+   }
+
+  	 recipe Insert Battery into Flashlight
+   {
+     destroy AuthenticZClothing.HandTorch2,
      destroy Battery,
 
-     Result:Authentic_MinerLightbulb,
+     Result:AuthenticZClothing.HandTorch2,
+     Time:30,
+     OnTest:AuthenticTorchBatteryInsert_TestIsValid,
+     OnCreate:Recipe.OnCreate.TorchBatteryInsert,
+     StopOnWalk:false,
+     Prop2:HandTorch,
+   }
+   
+  	 recipe Insert Battery into Miner Hat
+   {
+     destroy AuthenticZClothing.Authentic_MinerLightbulb,
+     destroy Battery,
+
+     Result:AuthenticZClothing.Authentic_MinerLightbulb,
      Time:50,
-     OnTest:TorchBatteryInsert_TestIsValid,
-     OnCreate:TorchBatteryInsert_OnCreate,
+     OnTest:AuthenticTorchBatteryInsert_TestIsValid,
+     OnCreate:Recipe.OnCreate.TorchBatteryInsert,
      Prop1:Hat_HardHat_Miner2,	 
      Prop2:Authentic_MinerLightbulb,
    }
 
 	recipe Remove Battery
    {
-     keep Authentic_MinerLightbulb,
+     keep AuthenticZClothing.Authentic_MinerLightbulb,
 
      Result:Battery,
      Time:50,
-     OnTest:TorchBatteryRemoval_TestIsValid,
-     OnCreate:TorchBatteryRemoval_OnCreate,
+     OnTest:Recipe.OnTest.TorchBatteryRemoval,
+     OnCreate:AuthenticTorchBatteryRemoval_OnCreate,
      Prop2:Authentic_MinerLightbulb,
-   }   
+   }  
+
+
+    recipe Open Umbrella
+    {
+        AuthenticZClothing.ClosedUmbrellaBlue,
+
+        Result:UmbrellaBlue,
+        OnCreate:Recipe.OnCreate.OpenUmbrella,
+        Time:10.0,
+    }
+
+    recipe Close Umbrella
+    {
+        UmbrellaBlue,
+
+        Result:AuthenticZClothing.ClosedUmbrellaBlue,
+        OnCreate:Recipe.OnCreate.CloseUmbrella,
+        Time:10.0,
+    }
+
+    recipe Open Umbrella
+    {
+        AuthenticZClothing.ClosedUmbrellaRed,
+
+        Result:UmbrellaRed,
+        OnCreate:Recipe.OnCreate.OpenUmbrella,
+        Time:10.0,
+    }
+
+    recipe Close Umbrella
+    {
+        UmbrellaRed,
+
+        Result:AuthenticZClothing.ClosedUmbrellaRed,
+        OnCreate:Recipe.OnCreate.CloseUmbrella,
+        Time:10.0,
+    }
+
+    recipe Open Umbrella
+    {
+        AuthenticZClothing.ClosedUmbrellaBlack,
+
+        Result:UmbrellaBlack,
+        OnCreate:Recipe.OnCreate.OpenUmbrella,
+        Time:10.0,
+    }
+
+    recipe Close Umbrella
+    {
+        UmbrellaBlack,
+
+        Result:AuthenticZClothing.ClosedUmbrellaBlack,
+        OnCreate:Recipe.OnCreate.CloseUmbrella,
+        Time:10.0,
+    }
+
+    recipe Open Umbrella
+    {
+        AuthenticZClothing.ClosedUmbrellaWhite,
+
+        Result:UmbrellaWhite,
+        OnCreate:Recipe.OnCreate.OpenUmbrella,
+        Time:10.0,
+    }
+
+    recipe Close Umbrella
+    {
+        UmbrellaWhite,
+
+        Result:AuthenticZClothing.ClosedUmbrellaWhite,
+        OnCreate:Recipe.OnCreate.CloseUmbrella,
+        Time:10.0,
+    }   
 	
 recipe Draw Hitlist 1
   	{
@@ -351,5 +402,278 @@ recipe Wear Satchel With Bag
    	   Result:AuthenticZClothing.Bag_Satchel,
 	   Time:30.0,
 	   Tooltip:Tooltip_HoodieCraft,
+  	}
+recipe Make Attachable
+  	{
+   	   Hat_GasMask,
+
+   	   Result:AuthenticZClothing.Hat_GasMask,
+	   Time:30.0,
+  	}	
+recipe Make Attachable
+  	{
+   	   Rope,
+
+   	   Result:AuthenticZClothing.Rope,
+	   Time:30.0,
+  	}	
+recipe Make Attachable
+  	{
+   	   SheetRope,
+
+   	   Result:AuthenticZClothing.SheetRope,
+	   Time:30.0,
+  	}
+recipe Make Attachable
+  	{
+   	   AerosolbombTriggered,
+
+   	   Result:AuthenticZClothing.AerosolbombTriggered,
+	   Time:30.0,
+  	}
+recipe Make Attachable
+  	{
+   	   Aerosolbomb,
+
+   	   Result:AuthenticZClothing.Aerosolbomb,
+	   Time:30.0,
+  	}	
+recipe Make Attachable
+  	{
+   	   AerosolbombSensorV1,
+
+   	   Result:AuthenticZClothing.AerosolbombSensorV1,
+	   Time:30.0,
+  	}	
+recipe Make Attachable
+  	{
+   	   AerosolbombSensorV2,
+
+   	   Result:AuthenticZClothing.AerosolbombSensorV2,
+	   Time:30.0,
+  	}	
+recipe Make Attachable
+  	{
+   	   AerosolbombSensorV3,
+
+   	   Result:AuthenticZClothing.AerosolbombSensorV3,
+	   Time:30.0,
+  	}	
+recipe Make Attachable
+  	{
+   	   AerosolbombRemote,
+
+   	   Result:AuthenticZClothing.AerosolbombRemote,
+	   Time:30.0,
+  	}	
+recipe Make Attachable
+  	{
+   	   FlameTrap,
+
+   	   Result:AuthenticZClothing.FlameTrap,
+	   Time:30.0,
+  	}	
+recipe Make Attachable
+  	{
+   	   FlameTrapTriggered,
+
+   	   Result:AuthenticZClothing.FlameTrapTriggered,
+	   Time:30.0,
+  	}
+recipe Make Attachable
+  	{
+   	   FlameTrapSensorV1,
+
+   	   Result:AuthenticZClothing.FlameTrapSensorV1,
+	   Time:30.0,
+  	}	
+recipe Make Attachable
+  	{
+   	   FlameTrapSensorV2,
+
+   	   Result:AuthenticZClothing.PipeBombSensorV2,
+	   Time:30.0,
+  	}	
+recipe Make Attachable
+  	{
+   	   FlameTrapSensorV3,
+
+   	   Result:AuthenticZClothing.FlameTrapSensorV3,
+	   Time:30.0,
+  	}	
+recipe Make Attachable
+  	{
+   	   FlameTrapRemote,
+
+   	   Result:AuthenticZClothing.FlameTrapRemote,
+	   Time:30.0,
+  	}
+recipe Make Attachable
+  	{
+   	   SmokeBomb,
+
+   	   Result:AuthenticZClothing.SmokeBomb,
+	   Time:30.0,
+  	}
+recipe Make Attachable
+  	{
+   	   PipeBombTriggered,
+
+   	   Result:AuthenticZClothing.PipeBombTriggered,
+	   Time:30.0,
+  	}
+recipe Make Attachable
+  	{
+   	   PipeBombSensorV1,
+
+   	   Result:AuthenticZClothing.PipeBombSensorV1,
+	   Time:30.0,
+  	}	
+recipe Make Attachable
+  	{
+   	   PipeBombSensorV2,
+
+   	   Result:AuthenticZClothing.PipeBombSensorV2,
+	   Time:30.0,
+  	}
+recipe Make Attachable
+  	{
+   	   PipeBombSensorV3,
+
+   	   Result:AuthenticZClothing.PipeBombSensorV3,
+	   Time:30.0,
+  	}	
+recipe Make Attachable
+  	{
+   	   PipeBombRemote,
+
+   	   Result:AuthenticZClothing.PipeBombRemote,
+	   Time:30.0,
+  	}
+recipe Make Attachable
+  	{
+   	   PipeBomb,
+
+   	   Result:AuthenticZClothing.PipeBomb,
+	   Time:30.0,
+  	}	
+recipe Make Attachable
+  	{
+   	   Molotov,
+
+   	   Result:AuthenticZClothing.Molotov,
+	   Time:30.0,
+  	}
+recipe Make Attachable
+  	{
+   	   ToyBear,
+
+   	   Result:AuthenticZClothing.ToyBear,
+	   Time:30.0,
+  	}
+recipe Make Attachable
+  	{
+   	   Doll,
+
+   	   Result:AuthenticZClothing.Doll,
+	   Time:30.0,
+  	}	
+recipe Make Attachable
+  	{
+   	   Spiffo,
+
+   	   Result:AuthenticZClothing.Spiffo,
+	   Time:30.0,
+  	}
+recipe Make Attachable
+  	{
+   	   ClosedUmbrellaBlue,
+
+   	   Result:AuthenticZClothing.ClosedUmbrellaBlue,
+	   Time:30.0,
+  	}
+recipe Make Attachable
+  	{
+   	   ClosedUmbrellaRed,
+
+   	   Result:AuthenticZClothing.ClosedUmbrellaRed,
+	   Time:30.0,
+  	}
+recipe Make Attachable
+  	{
+   	   ClosedUmbrellaBlack,
+
+   	   Result:AuthenticZClothing.ClosedUmbrellaBlack,
+	   Time:30.0,
+  	}
+recipe Make Attachable
+  	{
+   	   Pop,
+
+   	   Result:AuthenticZClothing.Pop,
+	   Time:30.0,
+  	}
+recipe Make Attachable
+  	{
+   	   Pop2,
+
+   	   Result:AuthenticZClothing.Pop2,
+	   Time:30.0,
+  	}	
+recipe Make Attachable
+  	{
+   	   Pop3,
+
+   	   Result:AuthenticZClothing.Pop3,
+	   Time:30.0,
+  	}	
+recipe Make Attachable
+  	{
+   	   GardenSaw,
+
+   	   Result:AuthenticZClothing.GardenSaw,
+	   Time:30.0,
+  	}	
+recipe Make Attachable
+  	{
+   	   Saw,
+
+   	   Result:AuthenticZClothing.Saw,
+	   Time:30.0,
+  	}
+recipe Make Attachable
+  	{
+   	   PopBottleEmpty,
+
+   	   Result:AuthenticZClothing.PopBottleEmpty,
+	   Time:30.0,
+  	}	
+recipe Make Attachable
+  	{
+   	   WaterBottleEmpty,
+
+   	   Result:AuthenticZClothing.WaterBottleEmpty,
+	   Time:30.0,
+  	}
+recipe Make Attachable
+  	{
+   	   destroy WaterBottleFull,
+
+   	   Result:AuthenticZClothing.WaterBottleFull,
+	   Time:30.0,
+  	}	
+recipe Make Attachable
+  	{
+   	   destroy WaterPopBottle,
+
+   	   Result:AuthenticZClothing.WaterPopBottle,
+	   Time:30.0,
+  	}
+recipe Make Attachable
+  	{
+   	   destroy PopBottle,
+
+   	   Result:AuthenticZClothing.PopBottle,
+	   Time:30.0,
   	}	
 }		

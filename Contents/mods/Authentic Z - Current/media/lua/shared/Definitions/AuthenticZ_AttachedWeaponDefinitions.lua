@@ -1745,7 +1745,7 @@ AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticSurvivorRanger = {
 	},
 }
 AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticSurvivorL4D = {
-	chance = 50;
+	chance = 75;
 	maxitem = 5;
 	weapons = {
 		AttachedWeaponDefinitions.handgunHolster,

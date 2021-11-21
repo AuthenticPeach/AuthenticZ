@@ -1179,6 +1179,7 @@ module AuthenticZClothing {
 		CanHaveHoles = false,
 		ChanceToFall = 80,
 		Weight = 0.5,
+		WorldStaticModel = WeddingVeil_Ground,
 	}
 	item Hat_WeddingVeilPink
 	{
@@ -1190,6 +1191,7 @@ module AuthenticZClothing {
 		CanHaveHoles = false,
 		ChanceToFall = 80,
 		Weight = 0.5,
+		WorldStaticModel = WeddingVeil_Ground,
 	}
 	item Hat_WinslowHelmet
 	{

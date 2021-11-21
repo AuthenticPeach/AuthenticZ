@@ -1,14 +1,11 @@
-module AuthenticZRecipes{
+module AuthenticZClothing{
   imports {
       Base
   }
-
-	/* List of Backpacks to craft*/
-	/*Bag_Schoolbag,Bag_WeaponBag/Bag_InmateEscapedBag/Bag_MoneyBag/Bag_WorkerBag/Bag_DuffelBag/Bag_DuffelBagTINT,Bag_NormalHikingBag,Bag_BigHikingBag,Bag_SurvivorBag/Bag_ALICEpack/Bag_ALICEpack_Army   */
-	/* List of Secondary Backpacks*/
-	/* Plasticbag,Garbagebag,Tote,Purse,EmptySandbag,Handbag,Toolbox,FirstAidKit,Bag_L4DeadMedkit,Lunchbox2,PistolCase1/PistolCase2/PistolCase3 */
-	/* List of Gear to attach*/
-	/* Water bottles, Canteens, Rope, */	
+	/* List of Secondary Backpacks Left*/
+	/* Seedbag */
+	/* List of Gear left to attach*/
+	/* Rope, GasMask, Saws, Balloons*/	
 	/* Modded - Bag_ARVN_Rucksack */	
 	
 recipe Tie Balloons Together
@@ -22,13 +19,13 @@ recipe Tie Balloons Together
 	   Time:30.0,
   	}
 
-	item Bag_Schoolbag_Tier_2
+	item Bag_Schoolbag_Tier_1
     {
         WeightReduction			=	60,
         Weight					=	1,
         Type					=	Container,
         Capacity				=	16,
-        DisplayName				=	School Bag,
+        DisplayName				=	School Bag - Tier 1,
         IconsForTexture 		= 	Backpack_Black;Backpack_Blue;Backpack_Spiffo,
         CanBeEquipped 			= 	Back,
         OpenSound   			=   OpenBag,
@@ -38,7 +35,29 @@ recipe Tie Balloons Together
         BloodLocation 			= 	Bag,
         RunSpeedModifier 		= 	0.97,
         AttachmentReplacement	= 	Bag,
-		AttachmentsProvided  	= 	SchoolbagUpgradesLeft;SchoolbagUpgradesRight,		
+		AttachmentsProvided  	= 	SchoolbagBagSecondary;SchoolbagBottleRight;SchoolbagBalloonRight,		
+        ReplaceInSecondHand  	= 	Bag_Schoolbag_LHand holdingbagleft,
+        ReplaceInPrimaryHand 	= 	Bag_Schoolbag_RHand holdingbagright,
+        WorldStaticModel 	 	= 	SchoolBag_Ground,
+    }
+
+	item Bag_Schoolbag_Tier_2
+    {
+        WeightReduction			=	60,
+        Weight					=	1,
+        Type					=	Container,
+        Capacity				=	17,
+        DisplayName				=	School Bag - Tier 2,
+        IconsForTexture 		= 	Backpack_Black;Backpack_Blue;Backpack_Spiffo,
+        CanBeEquipped 			= 	Back,
+        OpenSound   			=   OpenBag,
+        CloseSound   			=   CloseBag,
+        PutInSound   			=   PutItemInBag,
+        ClothingItem 			= 	Bag_SchoolBag,
+        BloodLocation 			= 	Bag,
+        RunSpeedModifier 		= 	0.97,
+        AttachmentReplacement	= 	Bag,
+		AttachmentsProvided  	= 	SchoolbagBagSecondary;SchoolbagItemSlot1;SchoolbagBottleRight;SchoolbagPlushie;SchoolbagUmbrellaLeft;SchoolbagBalloonRight,		
         ReplaceInSecondHand  	= 	Bag_Schoolbag_LHand holdingbagleft,
         ReplaceInPrimaryHand 	= 	Bag_Schoolbag_RHand holdingbagright,
         WorldStaticModel 	 	= 	SchoolBag_Ground,
@@ -49,8 +68,8 @@ recipe Tie Balloons Together
         WeightReduction			=	60,
         Weight					=	1,
         Type					=	Container,
-        Capacity				=	17,
-        DisplayName				=	School Bag,
+        Capacity				=	18,
+        DisplayName				=	School Bag - Tier 3,
         IconsForTexture 		= 	Backpack_Black;Backpack_Blue;Backpack_Spiffo,
         CanBeEquipped 			= 	Back,
         OpenSound   			=   OpenBag,
@@ -60,13 +79,340 @@ recipe Tie Balloons Together
         BloodLocation 			= 	Bag,
         RunSpeedModifier 		= 	0.97,
         AttachmentReplacement	= 	Bag,
-		AttachmentsProvided  	= 	SchoolbagUpgradesLeft;SchoolbagUpgradesRight,		
+		AttachmentsProvided  	= 	SchoolbagBagSecondary;SchoolbagItemSlot2;SchoolbagItemSlot3;SchoolbagBottleRight;SchoolbagPlushie;SchoolbagUmbrellaLeft;SchoolbagFlashlight;SchoolbagBalloonRight,		
         ReplaceInSecondHand  	= 	Bag_Schoolbag_LHand holdingbagleft,
         ReplaceInPrimaryHand 	= 	Bag_Schoolbag_RHand holdingbagright,
         WorldStaticModel 	 	= 	SchoolBag_Ground,
     }
+    item Bag_DuffelBag_Tier_1
+    {
+        Type = Container,
+        DisplayName = Duffel Bag - Tier 1,
+        ClothingItem = Bag_DuffelBag,
+        CanBeEquipped = Back,
+        WeightReduction	=	65,
+        Weight	=	1,
+        Capacity	=	19,
+        Icon	=	Duffelbag,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        RunSpeedModifier = 0.95,
+        CanHaveHoles = false,       
+		AttachmentReplacement	= 	Bag,
+		AttachmentsProvided  	= 	DufflebagSecondary;DufflebagBottleLeft;SchoolbagBalloonRight,
+        ReplaceInSecondHand = Bag_DuffelBag_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_DuffelBag_RHand holdingbagright,
+        WorldStaticModel = DuffelBag_Ground,
+    }	
+    item Bag_DuffelBag_Tier_2
+    {
+        Type = Container,
+        DisplayName = Duffel Bag - Tier 2,
+        ClothingItem = Bag_DuffelBag,
+        CanBeEquipped = Back,
+        WeightReduction	=	65,
+        Weight	=	1,
+        Capacity	=	20,
+        Icon	=	Duffelbag,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        RunSpeedModifier = 0.95,
+        CanHaveHoles = false,
+        AttachmentReplacement	= 	Bag,
+		AttachmentsProvided  	= 	SchoolbagBagSecondary;DufflebagItemSlot1;DufflebagBottleLeft;DufflebagPlushie;SchoolbagUmbrellaLeft;SchoolbagBalloonRight,						
+        ReplaceInSecondHand = Bag_DuffelBag_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_DuffelBag_RHand holdingbagright,
+        WorldStaticModel = DuffelBag_Ground,
+    }
+    item Bag_DuffelBag_Tier_3
+    {
+        Type = Container,
+        DisplayName = Duffel Bag - Tier 3,
+        ClothingItem = Bag_DuffelBag,
+        CanBeEquipped = Back,
+        WeightReduction	=	65,
+        Weight	=	1,
+        Capacity	=	21,
+        Icon	=	Duffelbag,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        RunSpeedModifier = 0.95,
+        CanHaveHoles = false,
+        AttachmentReplacement	= 	Bag,
+		AttachmentsProvided  	= 	DufflebagSecondary;DufflebagItemSlot1;DufflebagItemSlot2;DufflebagItemSlot3;DufflebagBottleRight;DufflebagPlushie;DufflebagUmbrellaRight;DufflebagFlashlight;SchoolbagBalloonRight,				
+        ReplaceInSecondHand 	= 	Bag_DuffelBag_LHand holdingbagleft,
+        ReplaceInPrimaryHand 	= 	Bag_DuffelBag_RHand holdingbagright,
+        WorldStaticModel 		= 	DuffelBag_Ground,
+    }	
+    item Bag_NormalHikingBag_Tier_1
+    {
+        WeightReduction			=	70,
+        Weight					=	1.2,
+        Type					=	Container,
+        Capacity				=	21,
+        DisplayName				=	Hiking Bag - Tier 1,
+        IconsForTexture			=	Hiking_Blue;Hiking_Green;Hiking_Red,
+        CanBeEquipped 			= 	Back,
+        OpenSound   			=   OpenBag,
+        CloseSound   			=   CloseBag,
+        PutInSound   			=   PutItemInBag,
+        ClothingItem 			= 	Bag_HikingBag,
+        BloodLocation 			= 	Bag,
+        RunSpeedModifier 		= 	0.96,
+        AttachmentReplacement 	= 	Bag,
+		AttachmentsProvided  	= 	HikingbagSecondary;HikingBagItemSlot1;HikingBagBottleRight;HikingBagPlushie;HikingbagUmbrellaLeft;SchoolbagBalloonRight,			
+        ReplaceInSecondHand 	= 	Bag_HikingBag_LHand holdingbagleft,
+        ReplaceInPrimaryHand 	= 	Bag_HikingBag_RHand holdingbagright,
+        WorldStaticModel 		= 	HikingBag_Ground,
+    }
+	
+    item Bag_NormalHikingBag_Tier_2
+    {
+        WeightReduction			=	70,
+        Weight					=	1.2,
+        Type					=	Container,
+        Capacity				=	22,
+        DisplayName				=	Hiking Bag - Tier 2,
+        IconsForTexture			=	Hiking_Blue;Hiking_Green;Hiking_Red,
+        CanBeEquipped 			= 	Back,
+        OpenSound   			=   OpenBag,
+        CloseSound   			=   CloseBag,
+        PutInSound   			=   PutItemInBag,
+        ClothingItem 			= 	Bag_HikingBag,
+        BloodLocation 			= 	Bag,
+        RunSpeedModifier		= 	0.96,
+        AttachmentReplacement 	= 	Bag,
+		AttachmentsProvided  	= 	HikingbagSecondary;HikingBagItemSlot1;HikingBagItemSlot2;HikingBagBottleRight;HikingBagPlushie;HikingbagUmbrellaLeft;SchoolbagBalloonRight,				
+        ReplaceInSecondHand 	= 	Bag_HikingBag_LHand holdingbagleft,
+        ReplaceInPrimaryHand 	= 	Bag_HikingBag_RHand holdingbagright,
+        WorldStaticModel 		= 	HikingBag_Ground,
+    }	
+ 
+    item Bag_NormalHikingBag_Tier_3
+    {
+        WeightReduction			=	70,
+        Weight					=	1.2,
+        Type					=	Container,
+        Capacity				=	23,
+        DisplayName				=	Hiking Bag - Tier 3,
+        IconsForTexture			=	Hiking_Blue;Hiking_Green;Hiking_Red,
+        CanBeEquipped 			= 	Back,
+        OpenSound   			=   OpenBag,
+        CloseSound  			=   CloseBag,
+        PutInSound   			=   PutItemInBag,
+        ClothingItem 			= 	Bag_HikingBag,
+        BloodLocation 			= 	Bag,
+        RunSpeedModifier 		= 	0.96,
+        AttachmentReplacement 	= 	Bag,
+		AttachmentsProvided  	= 	HikingbagSecondary;HikingBagItemSlot1;HikingBagItemSlot2;HikingBagItemSlot3;HikingBagBottleRight;HikingBagBottleLeft;HikingBagPlushie;HikingbagUmbrellaLeft;HikingBagFlashlight;SchoolbagBalloonRight,					
+        ReplaceInSecondHand 	= 	Bag_HikingBag_LHand holdingbagleft,
+        ReplaceInPrimaryHand 	= 	Bag_HikingBag_RHand holdingbagright,
+        WorldStaticModel 		= 	HikingBag_Ground,
+    }	
+  
+    item Bag_BigHikingBag_Tier_1
+    {
+        WeightReduction			=	80,
+        Weight					=	1.5,
+        Type					=	Container,
+        Capacity				=	23,
+        DisplayName				=	Big Hiking Bag - Tier 1,
+        IconsForTexture 		= 	BigHiking_Blue;BigHiking_Green;BigHiking_Red,
+        CanBeEquipped 			= 	Back,
+        OpenSound   			=   OpenBag,
+        CloseSound   			=   CloseBag,
+        PutInSound   			=   PutItemInBag,
+        ClothingItem 			= 	Bag_BigHikingBag,
+        BloodLocation 			= 	Bag,
+        RunSpeedModifier 		= 	0.95,
+        AttachmentReplacement 	= 	Bag,
+		AttachmentsProvided  	= 	BigHikingbagSecondary;BigHikingbagItemSlot1;BigHikingBagBottleRight;BigHikingbagPlushie;BigHikingbagUmbrellaLeft;SchoolbagBalloonRight,			
+        ReplaceInSecondHand 	= 	Bag_HikingBag_LHand holdingbagleft,
+        ReplaceInPrimaryHand 	= 	Bag_HikingBag_RHand holdingbagright,
+        WorldStaticModel 		= 	HikingBag_Ground,
+    }
+	
+    item Bag_BigHikingBag_Tier_2
+    {
+        WeightReduction	=	80,
+        Weight	=	1.5,
+        Type	=	Container,
+        Capacity	=	24,
+        DisplayName	=	Big Hiking Bag - Tier 2,
+        IconsForTexture = BigHiking_Blue;BigHiking_Green;BigHiking_Red,
+        CanBeEquipped = Back,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        ClothingItem = Bag_BigHikingBag,
+        BloodLocation = Bag,
+        RunSpeedModifier = 0.95,
+        AttachmentReplacement 	= 	Bag,
+		AttachmentsProvided  	= 	BigHikingbagSecondary;BigHikingbagItemSlot1;BigHikingbagItemSlot2;BigHikingBagBottleRight;BigHikingbagPlushie;BigHikingbagUmbrellaLeft;SchoolbagBalloonLeft;SchoolbagBalloonRight,				
+        ReplaceInSecondHand 	= 	Bag_HikingBag_LHand holdingbagleft,
+        ReplaceInPrimaryHand 	= 	Bag_HikingBag_RHand holdingbagright,
+        WorldStaticModel 		= 	HikingBag_Ground,
+    }	
+ 
+    item Bag_BigHikingBag_Tier_3
+    {
+        WeightReduction	=	80,
+        Weight	=	1.5,
+        Type	=	Container,
+        Capacity	=	25,
+        DisplayName	=	Big Hiking Bag - Tier 3,
+        IconsForTexture = BigHiking_Blue;BigHiking_Green;BigHiking_Red,
+        CanBeEquipped = Back,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        ClothingItem = Bag_BigHikingBag,
+        BloodLocation = Bag,
+        RunSpeedModifier 		= 	0.95,
+        AttachmentReplacement 	= 	Bag,
+		AttachmentsProvided  	= 	BigHikingbagSecondary;BigHikingbagItemSlot1;BigHikingbagItemSlot2;BigHikingbagItemSlot3;BigHikingbagItemSlot4;BigHikingBagBottleRight;BigHikingBagBottleLeft;BigHikingbagPlushie;BigHikingbagUmbrellaLeft;BigHikingbagFlashlight;SchoolbagBalloonRight,					
+        ReplaceInSecondHand 	= 	Bag_HikingBag_LHand holdingbagleft,
+        ReplaceInPrimaryHand 	= 	Bag_HikingBag_RHand holdingbagright,
+        WorldStaticModel 		= 	HikingBag_Ground,
+    }
 
-item Handbag_Secondary
+    item Bag_ALICEpack_Tier_1
+    {
+        Type 					= 	Container,
+        DisplayName 			= 	Large Backpack - Tier 1,
+        ClothingItem 			= 	Bag_ALICEpack,
+        CanBeEquipped 			= 	Back,
+        WeightReduction			=	85,
+        Weight					=	2,
+        Capacity				=	28,
+        Icon					=	AliceBag,
+        OpenSound   			=   OpenBag,
+        CloseSound   			=   CloseBag,
+        PutInSound   			=   PutItemInBag,
+        BloodLocation 			= 	Bag,
+        RunSpeedModifier 		= 	0.94,
+        AttachmentReplacement 	= 	Bag,
+		AttachmentsProvided  	= 	AlicepackSecondary;AlicepackItemSlot1;AlicepackItemSlot2;AlicepackBottleRight;AlicepackPlushie;AlicepackUmbrellaRight;SchoolbagBalloonRight,			
+        ReplaceInSecondHand 	= 	Bag_ALICEpack_LHand holdingbagleft,
+        ReplaceInPrimaryHand 	= 	Bag_ALICEpack_RHand holdingbagright,
+        WorldStaticModel 		= 	ALICE_Pack_Ground,
+    }
+	
+    item Bag_ALICEpack_Tier_2
+    {
+        Type 					= 	Container,
+        DisplayName 			= 	Large Backpack - Tier 2,
+        ClothingItem 			= 	Bag_ALICEpack,
+        CanBeEquipped 			= 	Back,
+        WeightReduction			=	85,
+        Weight					=	2,
+        Capacity				=	29,
+        Icon					=	AliceBag,
+        OpenSound   			=   OpenBag,
+        CloseSound   			=   CloseBag,
+        PutInSound   			=   PutItemInBag,
+        BloodLocation 			= 	Bag,
+        RunSpeedModifier 		= 	0.94,
+        AttachmentReplacement 	= 	Bag,
+		AttachmentsProvided  	= 	AlicepackSecondary;AlicepackItemSlot1;AlicepackItemSlot2;AlicepackItemSlot3;AlicepackBottleRight;AlicepackPlushie;AlicepackUmbrellaRight;SchoolbagBalloonRight,				
+        ReplaceInSecondHand 	= 	Bag_ALICEpack_LHand holdingbagleft,
+        ReplaceInPrimaryHand 	= 	Bag_ALICEpack_RHand holdingbagright,
+        WorldStaticModel 		= 	ALICE_Pack_Ground,
+    }	
+ 
+    item Bag_ALICEpack_Tier_3
+    {
+        Type 					= 	Container,
+        DisplayName 			= 	Large Backpack - Tier 3,
+        ClothingItem 			= 	Bag_ALICEpack,
+        CanBeEquipped 			= 	Back,
+        WeightReduction			=	85,
+        Weight					=	2,
+        Capacity				=	30,
+        Icon					=	AliceBag,
+        OpenSound  				=   OpenBag,
+        CloseSound   			=   CloseBag,
+        PutInSound   			=   PutItemInBag,
+        BloodLocation			= 	Bag,
+        RunSpeedModifier 		= 	0.94,
+        AttachmentReplacement 	= 	Bag,
+		AttachmentsProvided  	= 	AlicepackSecondary;AlicepackItemSlot1;AlicepackItemSlot2;AlicepackItemSlot3;AlicepackItemSlot4;AlicepackItemSlot5;AlicepackBottleRight;AlicepackBottleLeft;AlicepackPlushie;AlicepackUmbrellaRight;AlicepackFlashlight;SchoolbagBalloonRight,					
+        ReplaceInSecondHand 	= 	Bag_ALICEpack_LHand holdingbagleft,
+        ReplaceInPrimaryHand 	= 	Bag_ALICEpack_RHand holdingbagright,
+        WorldStaticModel 		= 	ALICE_Pack_Ground,
+    }
+
+    item Bag_ALICEpack_Army_Tier_1
+    {
+        Type 					= 	Container,
+        DisplayName 			= 	Military Backpack - Tier 1,
+        ClothingItem 			= 	Bag_ALICEpack_Army,
+        CanBeEquipped 			= 	Back,
+        WeightReduction			=	87,
+        Weight					=	2,
+        Capacity				=	29,
+        Icon					=	AliceBag_Camo,
+        OpenSound   			=   OpenBag,
+        CloseSound   			=   CloseBag,
+        PutInSound   			=   PutItemInBag,
+        BloodLocation 			= 	Bag,
+        RunSpeedModifier 		= 	0.94,
+        AttachmentReplacement 	= 	Bag,
+		AttachmentsProvided  	= 	AlicepackSecondary;AlicepackItemSlot1;AlicepackItemSlot2;AlicepackBottleRight;AlicepackPlushie;AlicepackUmbrellaRight;SchoolbagBalloonRight,			
+        ReplaceInSecondHand 	= 	Bag_ALICEpack_Army_LHand holdingbagleft,
+        ReplaceInPrimaryHand 	= 	Bag_ALICEpack_Army_RHand holdingbagright,
+        WorldStaticModel 		= 	ALICE_Pack_Ground,
+    }
+	
+    item Bag_ALICEpack_Army_Tier_2
+    {
+        Type 					= 	Container,
+        DisplayName 			= 	Military Backpack - Tier 2,
+        ClothingItem 			= 	Bag_ALICEpack_Army,
+        CanBeEquipped 			= 	Back,
+        WeightReduction			=	87,
+        Weight					=	2,
+        Capacity				=	30,
+        Icon					=	AliceBag_Camo,
+        OpenSound   			=   OpenBag,
+        CloseSound   			=   CloseBag,
+        PutInSound   			=   PutItemInBag,
+        BloodLocation 			= 	Bag,
+        RunSpeedModifier 		= 	0.94,
+        AttachmentReplacement 	= 	Bag,
+		AttachmentsProvided  	= 	AlicepackSecondary;AlicepackItemSlot1;AlicepackItemSlot2;AlicepackItemSlot3;AlicepackBottleRight;AlicepackPlushie;AlicepackUmbrellaRight;SchoolbagBalloonRight,				
+        ReplaceInSecondHand 	= 	Bag_ALICEpack_Army_LHand holdingbagleft,
+        ReplaceInPrimaryHand 	= 	Bag_ALICEpack_Army_RHand holdingbagright,
+        WorldStaticModel 		= 	ALICE_Pack_Ground,
+    }	
+ 
+    item Bag_ALICEpack_Army_Tier_3
+    {
+        Type 					= 	Container,
+        DisplayName 			= 	Military Backpack - Tier 3,
+        ClothingItem 			= 	Bag_ALICEpack_Army,
+        CanBeEquipped 			= 	Back,
+        WeightReduction			=	87,
+        Weight					=	2,
+        Capacity				=	31,
+        Icon					=	AliceBag_Camo,
+        OpenSound   			=   OpenBag,
+        CloseSound   			=   CloseBag,
+        PutInSound   			=   PutItemInBag,
+        BloodLocation 			= 	Bag,
+        RunSpeedModifier 		= 	0.94,
+        AttachmentReplacement 	= 	Bag,
+		AttachmentsProvided  	= 	AlicepackSecondary;AlicepackItemSlot1;AlicepackItemSlot2;AlicepackItemSlot3;AlicepackItemSlot4;AlicepackItemSlot5;AlicepackBottleRight;AlicepackBottleLeft;AlicepackPlushie;AlicepackUmbrellaRight;AlicepackFlashlight;SchoolbagBalloonRight,					
+        ReplaceInSecondHand 	= 	Bag_ALICEpack_Army_LHand holdingbagleft,
+        ReplaceInPrimaryHand 	= 	Bag_ALICEpack_Army_RHand holdingbagright,
+        WorldStaticModel 		= 	ALICE_Pack_Ground,
+    }
+
+
+	item Handbag_Secondary
 	{
 		WeightReduction			=	40,
 		Weight					=	1,
@@ -84,36 +430,597 @@ item Handbag_Secondary
 		ReplaceInSecondHand 	= 	Bag_Handbag_LHand holdingbagleft,
         ReplaceInPrimaryHand 	= 	Bag_Handbag_RHand holdingbagright,
         WorldStaticModel 		= 	Handbag_Ground,
-        AttachmentType  		= 	Holster,		
+        AttachmentType  		= 	Handbag,
+		StaticModel 			= 	Handbag_Ground,		
 	}
-   
+    item Plasticbag_Secondary
+    {
+        WeightReduction			=	30,
+        Weight					=	0.1,
+        Type					=	Container,
+        Capacity				=	8,
+        DisplayName				=	Plastic Bag,
+        Icon					=	Plasticbag,
+        ReplaceInSecondHand 	= 	Bag_Plasticbag_LHand holdingbagleft,
+        ReplaceInPrimaryHand 	= 	Bag_Plasticbag_RHand holdingbagright,
+        WorldStaticModel 		= 	PlasticBag_Ground,
+        AttachmentType  		= 	Plasticbag,	
+		StaticModel 			= 	PlasticBag_Ground,		
+    }
+	item Garbagebag_Secondary
+    {
+        WeightReduction			=	10,
+        Weight					=	0.1,
+        Type					=	Container,
+        Capacity				=	20,
+        DisplayName				=	Garbage Bag,
+        Icon					=	Garbagebag,
+        ReplaceInSecondHand		= 	Bag_Garbagebag_LHand holdingbagleft,
+        ReplaceInPrimaryHand 	= 	Bag_Garbagebag_RHand holdingbagright,
+        WorldStaticModel 		= 	GarbageBag_Ground,
+        AttachmentType  		= 	Garbagebag,
+		StaticModel 			= 	GarbageBag_Ground,		
+    }
+	item Purse_Secondary
+    {
+        WeightReduction			=	55,
+        Weight					=	0.5,
+        Type					=	Container,
+        Capacity				=	12,
+        DisplayName				=	Purse,
+        Icon					=	Purse,
+        OpenSound   			=   OpenBag,
+        RunSpeedModifier 		= 	0.99,
+        CloseSound   			=   CloseBag,
+        PutInSound   			=   PutItemInBag,
+		ReplaceInSecondHand 	= 	Bag_Purse_LHand holdingbagleft,
+        ReplaceInPrimaryHand 	= 	Bag_Purse_RHand holdingbagright,
+        WorldStaticModel 		= 	Purse_Ground,
+        AttachmentType  		= 	Purse,
+		StaticModel 			= 	Purse_Ground,		
+    }
+	item Tote_Secondary
+	{
+		WeightReduction			=	50,
+		Weight					=	0.5,
+		Type					=	Container,
+		Capacity				=	12,
+		DisplayName				=	Tote Bag,
+		Icon					=	Tote,
+        OpenSound  				=   OpenBag,
+        CloseSound  			=   CloseBag,
+        PutInSound   			=   PutItemInBag,
+		ReplaceInSecondHand 	= 	Bag_Tote_LHand holdingbagleft,
+        ReplaceInPrimaryHand 	= 	Bag_Tote_RHand holdingbagright,
+        WorldStaticModel 		= 	TotesBag_Ground,
+        AttachmentType  		= 	Totebag,		
+		StaticModel 			= 	TotesBag_Ground,		
+	}
+	item EmptySandbag_Secondary
+    {
+        Weight					=	0.1,
+        Type					=	Container,
+        WeightReduction			=	10,
+        Capacity				=	15,
+        DisplayName				=	Sack,
+        Icon					=	SandbagEmpty,
+        RunSpeedModifier 		= 	0.99,
+        ReplaceInSecondHand 	= 	Bag_Sandbag_LHand holdingbagleft,
+        ReplaceInPrimaryHand 	= 	Bag_Sandbag_RHand holdingbagright,
+        AttachmentType  		= 	EmptySandbag,		
+        WorldStaticModel 		= 	SandBag_Ground,
+		StaticModel 			= 	SandBag_Ground,		
+    }
+    item SeedBag_Secondary
+	{
+		WeightReduction	=	30,
+		Weight	=	0.1,
+		Type	=	Container,
+		Capacity	=	5,
+		DisplayName	=	Seed Bag,
+		Icon	=	DrawstringBag,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+		SurvivalGear = TRUE,
+        AttachmentType  		= 	Seedbag,		
+		WorldStaticModel = SeedBag,
+		StaticModel 	= 	SeedBag,			
+	}	
+    item Toolbox_Secondary
+	{
+		WeightReduction	=	15,
+		Weight	=	2,
+		Type	=	Container,
+		Capacity	=	8,
+		DisplayName	=	Toolbox,
+		Icon	=	Toolbox,
+		RunSpeedModifier = 0.97,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   			=   PutItemInBag,
+		ReplaceInSecondHand 	= 	Bag_Toolbox_LHand holdingbagleft,
+        ReplaceInPrimaryHand	= 	Bag_Toolbox_RHand holdingbagright,
+        AttachmentType  		= 	Toolbox,		
+        WorldStaticModel		= 	ToolBox_Ground,
+		StaticModel 			= 	ToolBox_Ground,		
+	}
+    item FirstAidKit_Secondary
+    {
+        WeightReduction	=	5,
+        Weight	=	1,
+        Type	=	Container,
+        Capacity	=	4,
+        DisplayName	=	First Aid Kit,
+        Icon	=	FirstAid,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        MetalValue = 15,
+        Medical = TRUE,
+		ReplaceInSecondHand 	= 	Bag_FirstAidKit_LHand holdingbagleft,
+        ReplaceInPrimaryHand 	= 	Bag_FirstAidKit_RHand holdingbagright,
+        AttachmentType  		= 	FirstAidKit,			
+        WorldStaticModel 		= 	LunchBoxMedic_Ground,
+		StaticModel 			= 	LunchBoxMedic_Ground,		
+    }
+    item Lunchbox_Secondary
+    {
+        WeightReduction	=	5,
+        Weight	=	1,
+        Type	=	Container,
+        Capacity	=	4,
+        DisplayName	=	Lunchbox,
+        Icon	=	Lunchbox01,
+        OpenSound   =   OpenBag,
+        CloseSound   			=   CloseBag,
+        PutInSound   			=   PutItemInBag,
+        MetalValue 				= 	15,
+        ReplaceInSecondHand 	= 	Bag_Lunchbox_LHand holdingbagleft,
+        ReplaceInPrimaryHand 	= 	Bag_Lunchbox_RHand holdingbagright,
+        AttachmentType  		= 	Lunchbox,			
+        WorldStaticModel 		= 	LunchBox_Ground,
+		StaticModel 			= 	LunchBox_Ground,		
+    }
+    item Lunchbox2_Secondary
+    {
+        WeightReduction	=	5,
+        Weight	=	1,
+        Type	=	Container,
+        Capacity	=	4,
+        DisplayName	=	Lunchbox,
+        Icon	=	Lunchbox02,
+        MetalValue 				= 	15,
+        ReplaceInSecondHand 	= 	Bag_Lunchbox2_LHand holdingbagleft,
+        ReplaceInPrimaryHand 	= 	Bag_Lunchbox2_RHand holdingbagright,
+        AttachmentType  		= 	Lunchbox,			
+        WorldStaticModel 		= 	LunchBox2_Ground,
+		StaticModel 			= 	LunchBox2_Ground,
+    }
+    item PistolCase_Secondary
+    {
+        WeightReduction			=	5,
+        Weight					=	0.5,
+        Type					=	Container,
+        Capacity				=	7,
+        DisplayName				=	Gun Case,
+        Icon					=	PistolCase,
+        RunSpeedModifier 		= 	0.99,
+        MetalValue 				= 	15,
+        ReplaceInSecondHand 	= 	Bag_PistolCase_LHand holdingbagleft,
+        ReplaceInPrimaryHand 	= 	Bag_PistolCase_RHand holdingbagright,
+        AttachmentType  		= 	PistolCase,			
+        WorldStaticModel 		= 	GunCase_Ground,
+		StaticModel 			= 	GunCase_Ground,
+    }
+	
 recipe Make Carabiner Clip
   	{
-	   Paperclip=10,
+	   Paperclip=5,
 
    	   Result:AZ_MetalClip,
 	   Time:80.0,
   	}
 
-recipe Draw Hitlist 3
+recipe Make Secondary Bag
   	{
-   	   keep Crayons,
-	   Magazine,
-	   ComicBook,
-	   SheetPaper2,
+	   Plasticbag,
+	   AZ_MetalClip,
 
-   	   Result:PZAZ_HitList3,
+   	   Result:Plasticbag_Secondary,
 	   Time:80.0,
   	}
-recipe Tie Hoodie Around Waist
-  	{
-		keep Scissors,
-		keep Kneedle,
-   	    HoodieUP_WhiteTINT,
 
-   	   Result:HoodieTied_WhiteTINT,
-	   Time:30.0,
-	   Tooltip:Tooltip_HoodieCraft,	   
+recipe Make Secondary Bag
+  	{
+	   Garbagebag,
+	   AZ_MetalClip,
+
+   	   Result:Garbagebag_Secondary,
+	   Time:80.0,
+  	}	
+
+recipe Make Secondary Bag
+  	{
+	   Handbag,
+	   AZ_MetalClip,
+
+   	   Result:Handbag_Secondary,
+	   Time:80.0,
+  	}	
+
+recipe Make Secondary Bag
+  	{
+	   Purse,
+	   AZ_MetalClip,
+
+   	   Result:Purse_Secondary,
+	   Time:80.0,
+  	}
+
+recipe Make Secondary Bag
+  	{
+	   Tote,
+	   AZ_MetalClip,
+
+   	   Result:Tote_Secondary,
+	   Time:80.0,
+  	}
+
+recipe Make Secondary Bag
+  	{
+	   EmptySandbag,
+	   AZ_MetalClip,
+
+   	   Result:EmptySandbag_Secondary,
+	   Time:80.0,
+  	}
+	
+recipe Make Secondary Bag
+  	{
+	   Toolbox/Bag_JanitorToolbox,
+	   AZ_MetalClip,
+
+   	   Result:Toolbox_Secondary,
+	   Time:80.0,
   	}	
 	
+recipe Make Secondary Bag
+  	{
+	   FirstAidKit,
+	   AZ_MetalClip,
+
+   	   Result:FirstAidKit_Secondary,
+	   Time:80.0,
+  	}	
+
+recipe Make Secondary Bag
+  	{
+	   Lunchbox,
+	   AZ_MetalClip,
+
+   	   Result:Lunchbox_Secondary,
+	   Time:80.0,
+  	}
+	
+recipe Make Secondary Bag
+  	{
+	   Lunchbox2,
+	   AZ_MetalClip,
+
+   	   Result:Lunchbox2_Secondary,
+	   Time:80.0,
+  	}	
+
+recipe Make Secondary Bag
+  	{
+	   PistolCase1/PistolCase2/PistolCase3,
+	   AZ_MetalClip,
+
+   	   Result:PistolCase_Secondary,
+	   Time:80.0,
+  	}
+	
+recipe Make Secondary Bag
+  	{
+	   SeedBag,
+	   AZ_MetalClip,
+
+   	   Result:SeedBag_Secondary,
+	   Time:80.0,
+  	}		
+	
+recipe Upgrade School Bag
+  	{
+	   keep Scissors,
+       keep Needle/SutureNeedle,
+       Thread=3,
+	   LeatherStrips/DenimStrips=3,	   
+	   Bag_Schoolbag,
+
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_Schoolbag_Tier_1,
+	   Time:100.0,
+       AnimNode:Disassemble,	   
+	   Category:Tailoring,
+	   OnGiveXP:Recipe.OnGiveXP.Tailoring20,
+	   
+  	}
+recipe Upgrade School Bag
+  	{
+	   Bag_Schoolbag_Tier_1,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=3,
+	   LeatherStrips/DenimStrips=3,	
+
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_Schoolbag_Tier_2,
+	   Time:100.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=1,	   
+	   Category:Tailoring,
+	   OnGiveXP:Recipe.OnGiveXP.Tailoring20,
+  	}	
+
+recipe Upgrade School Bag
+  	{
+	   Bag_Schoolbag_Tier_2,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=3,
+	   LeatherStrips/DenimStrips=3,	
+	
+	   OnCreate:PleaseKeepColor,	
+   	   Result:Bag_Schoolbag_Tier_3,
+	   Time:100.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=2,	   
+	   Category:Tailoring,
+	   OnGiveXP:Recipe.OnGiveXP.Tailoring20,
+  	}	
+	
+
+recipe Upgrade Duffelbag
+  	{
+	   Bag_Duffelbag/Bag_DuffelBagTINT/Bag_WorkerBag/Bag_MoneyBag/Bag_InmateEscapedBag/Bag_WeaponBag/Bag_ShotgunBag/Bag_ShotgunSawnoffBag/Bag_ShotgunDblBag/Bag_ShotgunDblSawnoffBag,
+	   AZ_MetalClip,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=3,
+	   LeatherStrips/DenimStrips=3,		   
+
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_Duffelbag_Tier_1,
+	   Time:100.0,
+       AnimNode:Disassemble,
+	   Category:Tailoring,
+	   OnGiveXP:Recipe.OnGiveXP.Tailoring20,
+  	}
+recipe Upgrade Duffelbag
+  	{
+	   Bag_Duffelbag_Tier_1,
+	   AZ_MetalClip,
+
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_Duffelbag_Tier_2,
+	   Time:100.0,
+       AnimNode:Disassemble,	  
+	   SkillRequired:Tailoring=1,
+	   Category:Tailoring,
+	   OnGiveXP:Recipe.OnGiveXP.Tailoring20,
+  	}	
+
+recipe Upgrade Duffelbag
+  	{
+	   Bag_Duffelbag_Tier_2,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=3,
+	   LeatherStrips/DenimStrips=3,	
+
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_Duffelbag_Tier_3,
+	   Time:100.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=2,
+	   Category:Tailoring,
+	   OnGiveXP:Recipe.OnGiveXP.Tailoring20,
+  	}	
+	
+recipe Upgrade Hiking Bag
+  	{
+	   Bag_NormalHikingBag,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=3,
+	   LeatherStrips/DenimStrips=3,	
+
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_NormalHikingBag_Tier_1,
+	   Time:100.0,
+       AnimNode:Disassemble,	   	
+	   Category:Tailoring,
+	   OnGiveXP:Recipe.OnGiveXP.Tailoring20,
+  	}
+recipe Upgrade Hiking Bag
+  	{
+	   Bag_NormalHikingBag_Tier_1,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=3,
+	   LeatherStrips/DenimStrips=3,	
+
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_NormalHikingBag_Tier_2,
+	   Time:100.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=1,	   
+	   Category:Tailoring,
+	   OnGiveXP:Recipe.OnGiveXP.Tailoring20,
+  	}	
+
+recipe Upgrade Hiking Bag
+  	{
+	   Bag_NormalHikingBag_Tier_2,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=3,
+	   LeatherStrips/DenimStrips=3,	
+
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_NormalHikingBag_Tier_3,
+	   Time:100.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=2,	   
+	   Category:Tailoring,
+	   OnGiveXP:Recipe.OnGiveXP.Tailoring20,
+  	}		
+
+recipe Upgrade Big Hiking Bag
+  	{
+	   Bag_BigHikingBag,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=3,
+	   LeatherStrips/DenimStrips=3,	
+
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_BigHikingBag_Tier_1,
+	   Time:100.0,
+       AnimNode:Disassemble,	   	
+	   Category:Tailoring, 
+  	}
+recipe Upgrade Big Hiking Bag
+  	{
+	   Bag_BigHikingBag_Tier_1,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=3,
+	   LeatherStrips/DenimStrips=3,	
+
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_BigHikingBag_Tier_2,
+	   Time:100.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=1,	   
+	   Category:Tailoring,
+	   OnGiveXP:Recipe.OnGiveXP.Tailoring20,
+  	}	
+
+recipe Upgrade Big Hiking Bag
+  	{
+	   Bag_BigHikingBag_Tier_2,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=3,
+	   LeatherStrips/DenimStrips=3,	
+
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_BigHikingBag_Tier_3,
+	   Time:100.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=2,	   
+	   Category:Tailoring, 
+	   OnGiveXP:Recipe.OnGiveXP.Tailoring20,
+  	}
+	
+recipe Upgrade Alicepack
+  	{
+	   Bag_ALICEpack/Bag_SurvivorBag,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=3,
+	   LeatherStrips/DenimStrips=3,	
+
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_ALICEpack_Tier_1,
+	   Time:100.0,
+       AnimNode:Disassemble,	   
+	   Category:Tailoring,
+	   OnGiveXP:Recipe.OnGiveXP.Tailoring20,
+  	}
+recipe Upgrade Alicepack
+  	{
+	   Bag_ALICEpack_Tier_1,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=3,
+	   LeatherStrips/DenimStrips=3,	
+
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_ALICEpack_Tier_2,
+	   Time:100.0,
+       AnimNode:Disassemble,
+	   SkillRequired:Tailoring=1,	   
+	   Category:Tailoring,
+	   OnGiveXP:Recipe.OnGiveXP.Tailoring20,
+  	}	
+
+recipe Upgrade Alicepack
+  	{
+	   Bag_ALICEpack_Tier_2,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=3,
+	   LeatherStrips/DenimStrips=3,	
+
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_ALICEpack_Tier_3,
+	   Time:100.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=2,
+	   Category:Tailoring,
+	   OnGiveXP:Recipe.OnGiveXP.Tailoring20,
+  	}
+
+recipe Upgrade Camo Alicepack
+  	{
+	   Bag_ALICEpack_Army,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=3,
+	   LeatherStrips/DenimStrips=3,	
+
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_ALICEpack_Army_Tier_1,
+	   Time:100.0,
+       AnimNode:Disassemble
+	   Category:Tailoring,
+       OnGiveXP:Recipe.OnGiveXP.Tailoring20,		   
+  	}
+recipe Upgrade Camo Alicepack
+  	{
+	   Bag_ALICEpack_Army_Tier_1,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=3,
+	   LeatherStrips/DenimStrips=3,	
+
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_ALICEpack_Army_Tier_2,
+	   Time:100.0,
+       AnimNode:Disassemble,
+	   SkillRequired:Tailoring=1,	   
+	   Category:Tailoring,
+       OnGiveXP:Recipe.OnGiveXP.Tailoring20,	   
+  	}	
+
+recipe Upgrade Camo Alicepack
+  	{
+	   Bag_ALICEpack_Army_Tier_2,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=3,
+	   LeatherStrips/DenimStrips=3,	
+
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_ALICEpack_Army_Tier_3,
+	   Time:100.0,
+       AnimNode:Disassemble,
+	   SkillRequired:Tailoring=2,	   
+	   Category:Tailoring,
+       OnGiveXP:Recipe.OnGiveXP.Tailoring20,	   
+  	}		
+
 }		

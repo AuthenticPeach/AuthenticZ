@@ -136,7 +136,6 @@ module AuthenticZClothing {
         Insulation = 0.55,
         WindResistance = 0.65,
         Weight = 0.1,
-        FabricType = Cotton,
         WorldStaticModel = Socks_Long_Ground,
 	}
 	item Socks_LegWarmersNeonBlue
@@ -150,7 +149,6 @@ module AuthenticZClothing {
         Insulation = 0.55,
         WindResistance = 0.65,
         Weight = 0.1,
-        FabricType = Cotton,
         ColorRed = 0,
         ColorGreen = 174,
         ColorBlue = 239,		
@@ -167,7 +165,6 @@ module AuthenticZClothing {
         Insulation = 0.55,
         WindResistance = 0.65,
         Weight = 0.1,
-        FabricType = Cotton,
         ColorRed = 162,
         ColorGreen = 40,
         ColorBlue = 255,			
@@ -184,7 +181,6 @@ module AuthenticZClothing {
         Insulation = 0.55,
         WindResistance = 0.65,
         Weight = 0.1,
-        FabricType = Cotton,
         ColorRed = 93,
         ColorGreen = 63,
         ColorBlue = 211,		
@@ -446,7 +442,6 @@ module AuthenticZClothing {
        	Insulation = 0.55,
         WindResistance = 0.65,
         Weight = 0.1,
-        FabricType = Cotton,
         WorldStaticModel = Socks_Long_Ground,		
 	}		
 		item Socks_Long_MaidStockings
@@ -460,7 +455,6 @@ module AuthenticZClothing {
        	Insulation = 0.55,
         WindResistance = 0.65,
         Weight = 0.1,
-        FabricType = Cotton,
         WorldStaticModel = Socks_Long_Ground,			
 	}
 		item Socks_Long_MimeLeggings
@@ -474,7 +468,6 @@ module AuthenticZClothing {
        	Insulation = 0.55,
         WindResistance = 0.65,
         Weight = 0.1,
-        FabricType = Cotton,
         WorldStaticModel = Socks_Long_Ground,		
 	}	
 		item Socks_Long_NurseThigh
@@ -488,7 +481,6 @@ module AuthenticZClothing {
        	Insulation = 0.55,
         WindResistance = 0.65,
         Weight = 0.1,
-        FabricType = Cotton,
         WorldStaticModel = Socks_Long_Ground,			
 	}
 	item Socks_Long_RedStriped01
@@ -502,7 +494,6 @@ module AuthenticZClothing {
        	Insulation = 0.55,
         WindResistance = 0.65,
         Weight = 0.1,
-        FabricType = Cotton,
         WorldStaticModel = Socks_Long_Ground,		
 	}
 	item Socks_Long_RedStriped02
@@ -516,7 +507,6 @@ module AuthenticZClothing {
        	Insulation = 0.55,
         WindResistance = 0.65,
         Weight = 0.1,
-        FabricType = Cotton,
         WorldStaticModel = Socks_Long_Ground,		
 	}
 	item Socks_Long_RedStriped03
@@ -530,7 +520,6 @@ module AuthenticZClothing {
        	Insulation = 0.55,
         WindResistance = 0.65,
         Weight = 0.1,
-        FabricType = Cotton,
         WorldStaticModel = Socks_Long_Ground,		
 	}	
 	item Socks_Long_PurpleStripedWhite
@@ -544,7 +533,6 @@ module AuthenticZClothing {
        	Insulation = 0.55,
         WindResistance = 0.65,
         Weight = 0.1,
-        FabricType = Cotton,
         WorldStaticModel = Socks_Long_Ground,		
 	}
 	item Socks_Long_BlueStripedWhite
@@ -558,7 +546,6 @@ module AuthenticZClothing {
        	Insulation = 0.55,
         WindResistance = 0.65,
         Weight = 0.1,
-        FabricType = Cotton,
         WorldStaticModel = Socks_Long_Ground,		
 	}
 	item Socks_Long_DarkGreen
@@ -572,7 +559,6 @@ module AuthenticZClothing {
        	Insulation = 0.55,
         WindResistance = 0.65,
         Weight = 0.1,
-        FabricType = Cotton,
         WorldStaticModel = Socks_Long_Ground,		
 	}	
 }

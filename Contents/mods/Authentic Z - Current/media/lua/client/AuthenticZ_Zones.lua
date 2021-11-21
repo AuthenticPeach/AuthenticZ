@@ -121,4 +121,52 @@ local function OnGameStart()
 		getWorld():registerZone("WorldsEnd", "ZombiesType", 12650, 4750, 0, 50, 150) --Northern Valley Station		
 	end
 end
+
+--Get new headphones to work with radios
+function RWMVolume:verifyItem(_item)
+    if _item:getFullType() == "Base.Headphones" or _item:getFullType() == "Base.Earbuds" or _item:getFullType() == "AuthenticZClothing.Authentic_Headphones" or _item:getFullType() == "AuthenticZClothing.Authentic_Headphones2" then
+        return true;
+    end
+end
+
+function PleaseKeepColor(item, resultItem, player)
+
+	local player_Inventory = player:getInventory();
+	local transferred_Items = {}; 
+	local dItem;
+	local texture
+	
+	for i = 0, (item:size()-1) do 
+		dItem = item:get(i); 
+		if dItem:getCategory() == "Container" then 
+		texture = dItem:getTexture()
+			if player:getClothingItem_Back() == dItem then 
+				player:setClothingItem_Back(nil);
+			end
+			if player:getPrimaryHandItem() == dItem then 
+				player:setPrimaryHandItem(nil);
+			end
+			if player:getSecondaryHandItem() == dItem then 
+				player:setSecondaryHandItem(nil); 
+			end
+			dInv = dItem:getInventory(); 
+			newInv= resultItem:getInventory(); 
+			dInvItems = dInv:getItems(); 
+			if dInvItems:size() >= 1 then 
+				for i2 = 0, (dInvItems:size()-1) do
+					invItem = dInvItems:get(i2);
+					table.insert(transferred_Items, invItem) 
+				end
+			end
+		end
+	end
+	
+	for i3, k3 in ipairs(transferred_Items) do
+		dInv:Remove(k3); 
+		newInv:AddItem(k3); 
+	end
+	resultItem:setTexture(texture)
+end
+
+
 Events.OnGameStart.Add(OnGameStart)

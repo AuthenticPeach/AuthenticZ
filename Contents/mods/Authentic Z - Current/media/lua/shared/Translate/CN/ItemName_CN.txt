@@ -12,8 +12,8 @@ ItemName_CN = {
 	ItemName_AuthenticZClothing.Bag_ProtonPack_Back = "质子背包",
    	ItemName_AuthenticZClothing.Bag_UtilityBeltFront = "多用途腰带(收紧)",
   	ItemName_AuthenticZClothing.Bag_UtilityBeltFront_Loose = "多用途腰带(宽松)",
-    	ItemName_AuthenticZClothing.Bag_UtilityBeltDesert = "沙漠多用途腰带(收紧)",
-    	ItemName_AuthenticZClothing.Bag_UtilityBeltDesert_Loose    = "沙漠多用途腰带(宽松)",	
+    ItemName_AuthenticZClothing.Bag_UtilityBeltDesert = "沙漠多用途腰带(收紧)",
+    ItemName_AuthenticZClothing.Bag_UtilityBeltDesert_Loose    = "沙漠多用途腰带(宽松)",	
 	ItemName_AuthenticZClothing.Suitcase2 = "手提箱",
 
 /* 配饰 */	
@@ -246,7 +246,8 @@ ItemName_CN = {
 	
 	ItemName_AuthenticZClothing.AmmoStrap_Bullets2 = "子弹背带",
 	ItemName_AuthenticZClothing.AmmoStrap_Shells2 =  "霰弹背带",
-	ItemName_AuthenticZClothing.Apron_GreenSeaHorse =  "海马咖啡店围裙",	
+	ItemName_AuthenticZClothing.Apron_GreenSeaHorse =  "海马咖啡店围裙",
+
 	ItemName_AuthenticZClothing.Apron_Short = "围裙(短款)",
 	ItemName_AuthenticZClothing.Apron_Yellow = "围裙(黄色)",
 	ItemName_AuthenticZClothing.Authentic_Headphones =  "头戴式耳机",		
@@ -484,5 +485,12 @@ ItemName_CN = {
 	ItemName_AuthenticZClothing.Jersey_NEPatriots8 = "新英格兰爱国者队队服",
 	ItemName_AuthenticZClothing.Jersey_NEPatriots9 = "新英格兰爱国者队队服",   
 	ItemName_AuthenticZClothing.Jersey_RedSkull = "骷髅印花橄榄球服",
+
+	/* New */
+	ItemName_AuthenticZClothing.AZ_MetalClip = "登山扣",
+	ItemName_AuthenticZClothing.Socks_LegWarmersPurple = "暖腿套（紫色）",
+	ItemName_AuthenticZClothing.Socks_LegWarmersNeonBlue = "暖腿套（蓝色）",	
+	ItemName_AuthenticZClothing.Socks_LegWarmersNeonPink = "暖腿套（粉色）",		
+	ItemName_AuthenticZClothing.Bag_L4DeadMedkit = "医疗包",
  	
 }

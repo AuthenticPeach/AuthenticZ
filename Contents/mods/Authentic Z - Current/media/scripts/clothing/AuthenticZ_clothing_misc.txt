@@ -13,4 +13,11 @@ module Base
         ClothingItem =  Stomach_Intestines2,
         BodyLocation = ZedDmg,
     }
+
+    item Stomach_Intestines3
+    {
+        Type = Clothing,
+        ClothingItem =  Stomach_Intestines3,
+        BodyLocation = ZedDmg,
+    }	
 }

@@ -259,7 +259,6 @@ module AuthenticZClothing {
 		Weight = 0.1,
         Insulation = 1.0,
         WindResistance = 1.0,
-        FabricType = Cotton,
         WorldStaticModel = Gloves_Ground,		
 	}
 	item Gloves_FingerlessGlovesWHITE
@@ -328,7 +327,6 @@ module AuthenticZClothing {
 		Weight = 0.1,
         Insulation = 1.0,
         WindResistance = 1.0,
-        FabricType = Cotton,
         WorldStaticModel = Gloves_Ground,		
 	}
 	item Gloves_WhitePatriots
@@ -342,7 +340,6 @@ module AuthenticZClothing {
 		Weight = 0.1,
         Insulation = 1.0,
         WindResistance = 1.0,
-        FabricType = Cotton,
         WorldStaticModel = Gloves_Ground,		
 	}	
 	item Hairstyle_Afro_Pick

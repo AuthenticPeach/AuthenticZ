@@ -14,7 +14,7 @@ module AuthenticZClothing {
         ScratchDefense = 10,
         Insulation = 0.45,
         WindResistance = 0.35,
-        FabricType = Cotton,
+        FabricType = Denim,
 		WorldStaticModel = BoilerSuit_Ground,
     }
     item Boilersuit_BlackMamba
@@ -29,7 +29,7 @@ module AuthenticZClothing {
         ScratchDefense = 10,
         Insulation = 0.45,
         WindResistance = 0.35,
-        FabricType = Cotton,
+        FabricType = Leather,
 		WorldStaticModel = BoilerSuit_Ground,
     }	
     item Boilersuit_CrossingGuard
@@ -44,7 +44,7 @@ module AuthenticZClothing {
         ScratchDefense = 10,
         Insulation = 0.45,
         WindResistance = 0.35,
-        FabricType = Cotton,
+        FabricType = Denim,
 		WorldStaticModel = BoilerSuit_Ground,
     }
     item Boilersuit_PrisonerClassic
@@ -59,7 +59,7 @@ module AuthenticZClothing {
         ScratchDefense = 10,
         Insulation = 0.45,
         WindResistance = 0.35,
-        FabricType = Cotton,
+        FabricType = Denim,
 		WorldStaticModel = BoilerSuit_Ground,
     }
     item Boilersuit_GhostbustersSpengler
@@ -74,7 +74,7 @@ module AuthenticZClothing {
         ScratchDefense = 10,
         Insulation = 0.45,
         WindResistance = 0.35,
-        FabricType = Cotton,
+        FabricType = Denim,
 		Tooltip = Tooltip_Spengler,
 		WorldStaticModel = BoilerSuit_Ground,
     }
@@ -90,7 +90,7 @@ module AuthenticZClothing {
         ScratchDefense = 10,
         Insulation = 0.45,
         WindResistance = 0.35,
-        FabricType = Cotton,
+        FabricType = Denim,
 		Tooltip = Tooltip_Stantz,
 		WorldStaticModel = BoilerSuit_Ground,
     }
@@ -106,7 +106,7 @@ module AuthenticZClothing {
         ScratchDefense = 10,
         Insulation = 0.45,
         WindResistance = 0.35,
-        FabricType = Cotton,
+        FabricType = Denim,
 		Tooltip = Tooltip_Venkman,
 		WorldStaticModel = BoilerSuit_Ground,
     }
@@ -122,7 +122,7 @@ module AuthenticZClothing {
         ScratchDefense = 10,
         Insulation = 0.45,
         WindResistance = 0.35,
-        FabricType = Cotton,
+        FabricType = Denim,
 		Tooltip = Tooltip_Zeddemore,
 		WorldStaticModel = BoilerSuit_Ground,
     }
@@ -138,7 +138,7 @@ module AuthenticZClothing {
         ScratchDefense = 10,
         Insulation = 0.45,
         WindResistance = 0.35,
-        FabricType = Cotton,
+        FabricType = Denim,
 		WorldStaticModel = BoilerSuit_Ground,
     }
     item Boilersuit_Pennywise
@@ -153,7 +153,6 @@ module AuthenticZClothing {
         ScratchDefense = 10,
         Insulation = 0.65,
         WindResistance = 0.45,
-        FabricType = Cotton,
 		WorldStaticModel = BoilerSuit_Ground,
     }
     item Boilersuit_PrisonerClassic
@@ -168,7 +167,7 @@ module AuthenticZClothing {
         ScratchDefense = 10,
         Insulation = 0.45,
         WindResistance = 0.35,
-        FabricType = Cotton,
+        FabricType = Denim,
 		WorldStaticModel = BoilerSuit_Ground,
     }
     item Clown_Coveralls
@@ -186,13 +185,13 @@ module AuthenticZClothing {
         ScratchDefense = 10,
         Insulation = 0.65,
         WindResistance = 0.45,
-        FabricType = Cotton,
+        FabricType = Denim,
 		WorldStaticModel = BoilerSuit_Ground,
     }
     item CEDAHazmatSuit
     {
         Type = Clothing,
-        DisplayName = CEDA Hazmat Suit,
+        DisplayName = Green CEDA Hazmat Suit,
         ClothingItem = HazmatSuitCEDA,
         BodyLocation = FullSuitHead,
         BloodLocation = Trousers;Jumper,
@@ -237,7 +236,7 @@ module AuthenticZClothing {
     item CEDAHazmatSuitRed
     {
         Type = Clothing,
-        DisplayName = CEDA Hazmat Suit,
+        DisplayName = Red CEDA Hazmat Suit,
         ClothingItem = HazmatSuitCEDARed,
         BodyLocation = FullSuitHead,
         BloodLocation = Trousers;Jumper,
@@ -301,7 +300,6 @@ module AuthenticZClothing {
         RunSpeedModifier = 0.90,
         Insulation = 0.3,
         WindResistance = 0.2,
-        FabricType = Cotton,
 		Tooltip = Tooltip_Dimitrescu,
 		WorldStaticModel = Dress_Long_Ground,
     }
@@ -428,7 +426,7 @@ module AuthenticZClothing {
         ScratchDefense = 10,
         Insulation = 0.65,
         WindResistance = 0.45,
-        FabricType = Cotton,
+        FabricType = Denim,
 		WorldStaticModel = BoilerSuit_Ground,
     }	
 	item Red_LongJohns

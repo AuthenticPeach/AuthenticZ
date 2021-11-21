@@ -288,8 +288,7 @@
         ScratchDefense = 10,
         Insulation = 0.4,
         WindResistance = 0.20,
-        FabricType = Cotton,
-	WorldStaticModel = Shirt_Ground,		
+		WorldStaticModel = Shirt_Ground,		
     }
     item Tshirt_Badass
     {
@@ -392,7 +391,6 @@
         BloodLocation = Shirt,
         Insulation = 0.2,
         WindResistance = 0.05,
-        FabricType = Cotton,
 		WorldStaticModel = TShirt_Ground,	
     }	
     item Tshirt_JohnMorgan
@@ -517,6 +515,32 @@
         WindResistance = 0.35,
         FabricType = Cotton,
 		WorldStaticModel = TShirt_Ground,	
+    }
+    item Tshirt_SportGrey
+    {
+        Type = Clothing,
+        DisplayName = Grey Sport T-Shirt,
+        ClothingItem = Tshirt_SportGrey,
+        BodyLocation = Tshirt,
+        Icon	=	ShirtAthleticGrey,
+        BloodLocation = Shirt,
+        Insulation = 0.3,
+        WindResistance = 0.35,
+        FabricType = Cotton,
+		WorldStaticModel = TShirt_Ground,	
+    }	
+    item Tshirt_SportGold
+    {
+        Type = Clothing,
+        DisplayName = Sport T-Shirt,
+        ClothingItem = Tshirt_SportGold,
+        BodyLocation = Tshirt,
+        Icon	=	ShirtAthleticGold,
+        BloodLocation = Shirt,
+        Insulation = 0.3,
+        WindResistance = 0.35,
+        FabricType = Cotton,
+		WorldStaticModel = TShirt_Ground,	
     }	
     item Tshirt_SportKilla
     {
@@ -546,17 +570,30 @@
     }
     item Tshirt_SportLightBlue
     {
+        Type 			 = Clothing,
+        DisplayName 	 = Light Blue Sport T-Shirt,
+        ClothingItem 	 = Tshirt_SportLightBlue,
+        BodyLocation 	 = Tshirt,
+        Icon			 = ShirtAthleticLightBlue,
+        BloodLocation 	 = Shirt,
+        Insulation 		 = 0.3,
+        WindResistance 	 = 0.35,
+        FabricType 		 = Cotton,
+		WorldStaticModel = TShirt_Ground,
+    }
+    item Tshirt_SportNeon
+    {
         Type = Clothing,
-        DisplayName = Light Blue Sport T-Shirt,
-        ClothingItem = Tshirt_SportLightBlue,
-        BodyLocation = Shirt,
-        Icon	=	ShirtAthleticLightBlue,
-        BloodLocation = ShirtLongSleeves,
+        DisplayName = Neon Sport T-Shirt,
+        ClothingItem = Tshirt_SportNeon,
+        BodyLocation = Tshirt,
+        Icon	=	ShirtAthleticNeon,
+        BloodLocation = Shirt,
         Insulation = 0.3,
         WindResistance = 0.35,
-        FabricType = Cotton,
-		WorldStaticModel = Shirt_Ground,
-    }	
+        FabricType 		 = Cotton,
+		WorldStaticModel = TShirt_Ground,	
+    }		
     item Tshirt_SportPinkBlackBlue
     {
         Type = Clothing,
@@ -585,21 +622,34 @@
     }
     item Tshirt_SportPurple
     {
-        Type = Clothing,
-        DisplayName = Sport T-Shirt,
-        ClothingItem = Tshirt_SportPurple,
-        BodyLocation = Tshirt,
-        Icon	=	ShirtAthleticPurple,
-        BloodLocation = Shirt,
-        Insulation = 0.3,
-        WindResistance = 0.35,
-        FabricType = Cotton,
+        Type 			 = Clothing,
+        DisplayName 	 = Purple Sport T-Shirt,
+        ClothingItem 	 = Tshirt_SportPurple,
+        BodyLocation 	 = Tshirt,
+        Icon			 = ShirtAthleticPurple,
+        BloodLocation 	 = Shirt,
+        Insulation 		 = 0.3,
+        WindResistance 	 = 0.35,
+        FabricType 		 = Cotton,
 		WorldStaticModel = TShirt_Ground,	
     }
+    item Tshirt_SportSunset
+    {
+        Type 			= Clothing,
+        DisplayName 	= Sport T-Shirt,
+        ClothingItem	= Tshirt_SportSunset,
+        BodyLocation 	= Tshirt,
+        Icon			=	ShirtAthleticSunset,
+        BloodLocation 	= Shirt,
+        Insulation 		= 0.3,
+        WindResistance 	= 0.35,
+        FabricType 		= Cotton,
+		WorldStaticModel = TShirt_Ground,	
+    }	
     item Tshirt_SportWatermelon
     {
         Type = Clothing,
-        DisplayName = Sport T-Shirt,
+        DisplayName = Pink Sport T-Shirt,
         ClothingItem = Tshirt_SportWatermelon,
         BodyLocation = Tshirt,
         Icon	=	ShirtAthleticWatermelon,
@@ -763,7 +813,7 @@
         BloodLocation = ShirtNoSleeves,
         Insulation = 0.40,
         WindResistance = 0.20,
-        FabricType = Cotton,
+        FabricType 		 = Cotton,
 		WorldStaticModel = BulletVest_Ground,
     }
     item Vest_Waistcoat_Barbershop_Red

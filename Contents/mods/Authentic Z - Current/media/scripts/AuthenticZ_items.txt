@@ -254,7 +254,7 @@ module AuthenticZClothing {
 		primaryAnimMask 		= 	HoldingTorchRight,
         secondaryAnimMask 		= 	HoldingTorchLeft,
 		WorldStaticModel 		= 	AuthenticCanteenCadetBlue,
-		AttachmentType  = WaterBottle,		
+		AttachmentType  		= 	Canteen,		
 	}
 
 	item AuthenticCanteenCadetBluefull
@@ -276,7 +276,7 @@ module AuthenticZClothing {
 		primaryAnimMask 		= 	HoldingTorchRight,
         secondaryAnimMask		= 	HoldingTorchLeft,
 		WorldStaticModel 		= 	AuthenticCanteenCadetBlue,
-		AttachmentType  = WaterBottle,			
+		AttachmentType  		= 	Canteen,			
 	}
 	item AuthenticCanteenDarkGreen
     	{
@@ -292,7 +292,7 @@ module AuthenticZClothing {
 		primaryAnimMask 		= 	HoldingTorchRight,
         secondaryAnimMask 		= 	HoldingTorchLeft,
 		WorldStaticModel 		= 	AuthenticCanteenDarkGreen,	
-		AttachmentType 		 	= WaterBottle,			
+		AttachmentType 		 	= 	Canteen,			
 	}
 
 	item AuthenticCanteenDarkGreenfull
@@ -314,7 +314,7 @@ module AuthenticZClothing {
 		primaryAnimMask 		= 	HoldingTorchRight,
         secondaryAnimMask		= 	HoldingTorchLeft,
 		WorldStaticModel 		= 	AuthenticCanteenDarkGreen,	
-		AttachmentType  		= WaterBottle,			
+		AttachmentType  		= 	Canteen,			
 	}
 	item AuthenticCanteenDarkGrey
     	{
@@ -330,7 +330,7 @@ module AuthenticZClothing {
 		primaryAnimMask 		= 	HoldingTorchRight,
         secondaryAnimMask 		= 	HoldingTorchLeft,
 		WorldStaticModel 		= 	AuthenticCanteenDarkGrey,	
-		AttachmentType  		= WaterBottle,			
+		AttachmentType  		= 	Canteen,			
 	}
 
 	item AuthenticCanteenDarkGreyfull
@@ -352,7 +352,7 @@ module AuthenticZClothing {
 		primaryAnimMask 		= 	HoldingTorchRight,
         secondaryAnimMask		= 	HoldingTorchLeft,
 		WorldStaticModel 		= 	AuthenticCanteenDarkGrey,	
-		AttachmentType  		= WaterBottle,			
+		AttachmentType  		= 	Canteen,			
 	}
 	item AuthenticCanteenForestGreen
     	{
@@ -368,7 +368,7 @@ module AuthenticZClothing {
 		primaryAnimMask 		= 	HoldingTorchRight,
         secondaryAnimMask 		= 	HoldingTorchLeft,
 		WorldStaticModel 		= 	AuthenticCanteenForestGreen,	
-		AttachmentType  		= WaterBottle,			
+		AttachmentType  		= 	Canteen,			
 	}
 
 
@@ -381,17 +381,17 @@ module AuthenticZClothing {
 		UseWhileEquipped		=	FALSE,
 		IsCookable				=	TRUE,
 		UseDelta				=	0.05,
+		RainFactor 				= 	1,		
 		DisplayName				=	Canteen with Water,
 		ReplaceOnDeplete		=	AuthenticCanteenForestGreen,
 		ReplaceOnUseOn			=	WaterSource-AuthenticCanteenForestGreenfull,
 		Icon					=	CanteenForestGreen,
-		RainFactor 				= 	1,
 		Tooltip 				= 	Tooltip_item_RainFromGround,
 		StaticModel 			= 	AuthenticCanteenForestGreen,
 		primaryAnimMask 		= 	HoldingTorchRight,
         secondaryAnimMask		= 	HoldingTorchLeft,
 		WorldStaticModel 		= 	AuthenticCanteenForestGreen,
-		AttachmentType  = WaterBottle,			
+		AttachmentType  		= 	Canteen,			
 	}
 	item AuthenticCanteenGrey
     	{
@@ -407,7 +407,7 @@ module AuthenticZClothing {
 		primaryAnimMask 		= 	HoldingTorchRight,
         secondaryAnimMask 		= 	HoldingTorchLeft,
 		WorldStaticModel 		= 	AuthenticCanteenGrey,	
-		AttachmentType  = WaterBottle,			
+		AttachmentType 			= 	Canteen,			
 	}
 
 	item AuthenticCanteenGreyfull
@@ -429,7 +429,7 @@ module AuthenticZClothing {
 		primaryAnimMask 		= 	HoldingTorchRight,
         secondaryAnimMask		= 	HoldingTorchLeft,
 		WorldStaticModel 		= 	AuthenticCanteenGrey,	
-		AttachmentType  		= WaterBottle,			
+		AttachmentType  		= 	Canteen,			
 	}
 	item AuthenticCanteenSilver
     	{
@@ -445,7 +445,7 @@ module AuthenticZClothing {
 		primaryAnimMask 		= 	HoldingTorchRight,
         secondaryAnimMask 		= 	HoldingTorchLeft,
 		WorldStaticModel 		= 	AuthenticCanteenSilver,	
-		AttachmentType  		= WaterBottle,			
+		AttachmentType  		= 	Canteen,			
 	}
 
 	item AuthenticCanteenSilverfull
@@ -467,44 +467,44 @@ module AuthenticZClothing {
 		primaryAnimMask 		= 	HoldingTorchRight,
         secondaryAnimMask		= 	HoldingTorchLeft,
 		WorldStaticModel 		= 	AuthenticCanteenSilver,	
-		AttachmentType  		= 	WaterBottle,			
+		AttachmentType  		= 	Canteen,			
 	}
     item AuthenticCricketBat
 	{
-		MaxRange		=	1.25,
+		MaxRange			=	1.25,
 		WeaponSprite		=	AuthenticCricketBat,
-		MinAngle		=	0.80,
-		Type			=	Weapon,
+		MinAngle			=	0.80,
+		Type				=	Weapon,
 		MinimumSwingTime	=	3,
 		KnockBackOnNoDeath	=	TRUE,
 		SwingAmountBeforeImpact	=	0.02,
-		Categories		=	Blunt,
+		Categories			=	Blunt,
 		ConditionLowerChanceOneIn	=	20,
-		Weight			=	2,
-		SplatNumber		=	1,
-		PushBackMod		=	0.5,
-		SubCategory		=	Swinging,
+		Weight				=	2,
+		SplatNumber			=	1,
+		PushBackMod			=	0.5,
+		SubCategory			=	Swinging,
 		ConditionMax		=	14,
-		MaxHitCount		=	2,
-		DoorDamage		=	5,
-		IdleAnim		=	Idle_Weapon2,
-		SwingAnim		=	Bat,
-		DisplayName		=	Cricket Bat,
-		MinRange		=	0.61,
-		SwingTime		=	3,
-		HitAngleMod		=	-30,
+		MaxHitCount			=	2,
+		DoorDamage			=	5,
+		IdleAnim			=	Idle_Weapon2,
+		SwingAnim			=	Bat,
+		DisplayName			=	Cricket Bat,
+		MinRange			=	0.61,
+		SwingTime			=	3,
+		HitAngleMod			=	-30,
 		KnockdownMod		=	2,
 		SplatBloodOnNoDeath	=	FALSE,
-		Icon			=	CricketBat,
-		RunAnim			=	Run_Weapon2,
+		Icon				=	CricketBat,
+		RunAnim				=	Run_Weapon2,
         TwoHandWeapon 		= 	TRUE,
        	BreakSound  		=  	BreakWoodItem,
         TreeDamage  		=  	1,
 		CriticalChance		=	40,
 		critDmgMultiplier	= 	2,
-		MinDamage		=	0.8,
-		MaxDamage		=	1.1,
-		BaseSpeed 		= 	1,
+		MinDamage			=	0.8,
+		MaxDamage			=	1.1,
+		BaseSpeed 			= 	1,
 		WeaponLength 		= 	0.45,
 		AttachmentType 		= 	Shovel,
 	}
@@ -523,7 +523,7 @@ module AuthenticZClothing {
 		ActivatedItem		 =  TRUE,
 		cantBeConsolided 	 =  TRUE,
 		StaticModel 		 =  Authentic_MilitaryFlashlightGrey,
-		AttachmentType	 	 =  BackpackFront,
+		AttachmentType	 	 =  MilitaryFlashlight,
 		primaryAnimMask 	 =  HoldingTorchRight,
         secondaryAnimMask	 =  HoldingTorchLeft,
 		WorldStaticModel 	 = 	Authentic_MilitaryFlashlightGrey,			
@@ -544,7 +544,7 @@ module AuthenticZClothing {
 		MetalValue 			= 	10,
 		cantBeConsolided 	=	TRUE,
 		StaticModel 		=	Authentic_MilitaryFlashlightGreen,
-		AttachmentType 		=	BigWeapon,
+		AttachmentType	 	 =  MilitaryFlashlight,
 		primaryAnimMask 	=	HoldingTorchRight,
         secondaryAnimMask 	=	HoldingTorchLeft,
 		WorldStaticModel 	= 	Authentic_MilitaryFlashlightGreen,			
@@ -565,33 +565,34 @@ module AuthenticZClothing {
 		cantBeConsolided 	 =  TRUE,
 		StaticModel 		 =  AuthenticMinerLightBulb,
 		AttachmentType	 	 =  MinerLight,
-		WorldStaticModel 	 = 	WorldItem_Minerlightbulb,			
+        WorldStaticModel 	 = 	LightBulb,		
 	}  
 
     item AuthenticPipeBomb
 	{
-		MaxRange	=	10,
-		Type	=	Weapon,
-		MinimumSwingTime	=	1.5,
-		SwingAnim	=	Throw,
-		WeaponSprite = Authentic_PipeBomb,
-		UseSelf	=	TRUE,
-		DisplayName	=	Pipe Bomb,
-		SwingTime	=	1.5,
+		MaxRange				=	10,
+		Type					=	Weapon,
+		MinimumSwingTime		=	1.5,
+		SwingAnim				=	Throw,
+		WeaponSprite 			= 	Authentic_PipeBomb,
+		UseSelf					=	TRUE,
+		DisplayName				=	Pipe Bomb,
+		SwingTime				=	1.5,
 		SwingAmountBeforeImpact	=	0.1,
-		PhysicsObject	=	Authentic_PipeBomb,
-		MinDamage	=	1,
-		Weight	=	1.5,
-		MaxDamage	=	5,
-		MaxHitCount	=	5,
-		Icon	=	PipeBomb_Left4Dead,
-		ExplosionPower  =   100,
-		ExplosionRange  =   7,
-		ExplosionSound = PipeBombExplode,
-		SwingSound = PipeBombThrow,
-		PlacedSprite = constructedobjects_01_32,
-		Tooltip	 = Tooltip_Trap,
-		WorldStaticModel = Authentic_PipeBomb,
+		PhysicsObject			=	Authentic_PipeBomb,
+		MinDamage				=	1,
+		Weight					=	1.5,
+		MaxDamage				=	5,
+		MaxHitCount				=	5,
+		Icon					=	PipeBomb_Left4Dead,
+		ExplosionPower  		=   100,
+		ExplosionRange  		=   7,
+		ExplosionSound 			= 	PipeBombExplode,
+		SwingSound 				= 	PipeBombThrow,
+		PlacedSprite 			= 	constructedobjects_01_32,
+		Tooltip	 				= 	Tooltip_Trap,
+		WorldStaticModel 		= 	Authentic_PipeBomb,
+        AttachmentType  		= 	AuthenticExplosive,			
 	}
    
 	item AuthenticSmokeBomb
@@ -617,6 +618,7 @@ module AuthenticZClothing {
         PlacedSprite 			= 	constructedobjects_01_36,
         Tooltip 				= 	Tooltip_Trap,
         WorldStaticModel		= 	AuthenticSmokeGrenade,
+        AttachmentType  		= 	AuthenticExplosive,			
     }
 
 	item AuthenticSmokeBombRemote
@@ -641,6 +643,7 @@ module AuthenticZClothing {
         CanBeRemote 			= 	TRUE,
         PlacedSprite 			= 	constructedobjects_01_36,
         WorldStaticModel 		= 	SmokeBombSensor,
+        AttachmentType  		= 	AuthenticExplosive,			
     }	
 	
     item AuthenticWalkingCane
@@ -777,16 +780,18 @@ module AuthenticZClothing {
         WeaponReloadType = shotgun,
         JamGunChance 	= 0,
         haveChamber 	= FALSE,
-        AttachmentType  = Holster,
+        AttachmentType  = FlareGun,
 		Tooltip = Tooltip_AuthenticFlareGun,
     }
 	item Flare12GaugeShot
 	{
 		DisplayName			=	12-Gauge Flare,
-		Weight				=	0.1,
+		Count				=	3,		
+		Weight				=	0.05,
 		Type				=	Normal,
 		DisplayCategory 	= 	Ammo,
 		Icon				=	ShotgunAmmo,
+		WorldStaticModel 	= 	ShotGunShells,		
 	}
 	
     item HairDyeDarkBrown
@@ -1403,7 +1408,6 @@ module AuthenticZClothing {
         BaseSpeed = 1,
         WeaponLength = 0.1,		
 		AttachmentType = Walkie,
-		Tooltip = Tooltip_item_Radio,
     }
 
     item Authentic_PomPomWhite
@@ -1483,7 +1487,7 @@ module AuthenticZClothing {
         DisplayName		 = 	Carabiner Clip,
         Icon			 =	CarabinerClip,
 		WorldStaticModel =	Paperclip,
-		Tooltip = Tooltip_Carabiner,
+		Tooltip 		 = 	Tooltip_Carabiner,
 	}	
     item MetalSpike
     {
@@ -1851,8 +1855,8 @@ module AuthenticZClothing {
         	CritDmgMultiplier = 10,
         	MinDamage	=	0.25,
         	MaxDamage	=	0.53,
-		WeaponLength = 0.18,
-		HitFloorSound	=	StakeHit,
+			WeaponLength = 0.18,
+			HitFloorSound	=	StakeHit,
         	ImpactSound	=	StakeHit,
         	DoorHitSound = StakeHit,
 		HitSound	=	StakeHit,
@@ -1998,5 +2002,5 @@ module AuthenticZClothing {
         secondaryAnimMask = HoldingTorchLeft,
 		Tooltip = Tooltip_HandTorch2,
 		WorldStaticModel = HandTorch,
-    }	
+    }
 }		

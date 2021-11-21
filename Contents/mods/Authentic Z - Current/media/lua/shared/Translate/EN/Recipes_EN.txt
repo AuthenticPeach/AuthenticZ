@@ -1,4 +1,4 @@
-Tooltip_EN = {
+Recipes_EN = {
 	Recipe_Convert_into_Wearable = "Convert into Wearable",
 	Recipe_Convert_into_Item = "Convert into Item",
 	Recipe_Convert_into_Melee = "Convert into Melee",
@@ -12,4 +12,25 @@ Tooltip_EN = {
 	Recipe_Draw_Hitlist_3 = "Draw Hitlist 3",
 	Recipe_Remove_Battery = "Remove Battery",		
 	Recipe_Tie_Hoodie_Around_Waist = "Tie Hoodie Around Waist",
+
+	/* Newly added by hollaming */
+
+	Recipe_Dismantle_Headphones = "Dismantle Headphones",
+	Recipe_Install_Light_Mechanism = "Install Light Mechanism",
+	Recipe_Insert_Battery_into_Flashlight = "Insert Battery into Flashlight",
+	Recipe_Insert_Battery_into_Miner_Hat = "Insert Battery into Miner Hat",
+	Recipe_Wear_Satchel_With_Bag = "Wear Satchel With Bag",
+	
+	Recipe_Open_Umbrella = "Open Umbrella",	
+	Recipe_Close_Umbrella = "Close Umbrella",
+	Recipe_Make_Attachable = "Make Attachable",	
+	Recipe_Make_Carabiner_Clip = "Make Carabiner Clip",
+	Recipe_Make_Secondary_Bag = "Make Secondary Bag",
+	Recipe_Upgrade_School_Bag = "Upgrade School Bag",	
+	Recipe_Upgrade_Duffelbag = "Upgrade Duffelbag",	
+	Recipe_Upgrade_Hiking_Bag = "Upgrade Hiking Bag",
+	Recipe_Upgrade_Big_Hiking_Bag = "Upgrade Big Hiking Bag",
+	Recipe_Upgrade_Alicepack = "Upgrade Alicepack",
+	Recipe_Upgrade_Camo_Alicepack = "Upgrade Military Backpack",		
+	
 	}
