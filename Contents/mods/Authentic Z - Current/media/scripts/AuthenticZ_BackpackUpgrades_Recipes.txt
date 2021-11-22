@@ -729,11 +729,11 @@ recipe Make Secondary Bag
 	
 recipe Upgrade School Bag
   	{
+	   Bag_Schoolbag,	
 	   keep Scissors,
        keep Needle/SutureNeedle,
        Thread=3,
 	   LeatherStrips/DenimStrips=3,	   
-	   Bag_Schoolbag,
 
 	   OnCreate:PleaseKeepColor,
    	   Result:Bag_Schoolbag_Tier_1,
@@ -777,7 +777,10 @@ recipe Upgrade School Bag
 recipe Upgrade Duffelbag
   	{
 	   Bag_Duffelbag_Tier_1,
-	   AZ_MetalClip,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=3,
+	   LeatherStrips/DenimStrips=3,	
 
 	   OnCreate:PleaseKeepColor,
    	   Result:Bag_Duffelbag_Tier_2,
