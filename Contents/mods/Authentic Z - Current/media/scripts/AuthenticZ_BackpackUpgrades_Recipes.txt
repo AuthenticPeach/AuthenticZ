@@ -416,8 +416,6 @@ recipe Tie Balloons Together
 	{
 		WeightReduction			=	40,
 		Weight					=	1,
-        ClothingItem 			= 	Bag_DuffelBag,
-        CanBeEquipped 			= 	BackSecondary,		
 		Type					=	Container,
 		Capacity				=	8,
 		DisplayName				=	Handbag,
@@ -425,8 +423,7 @@ recipe Tie Balloons Together
 		RunSpeedModifier 		= 	0.99,
         OpenSound   			=   OpenBag,
         CloseSound   			=   CloseBag,
-        PutInSound   			=   PutItemInBag,
-        CanHaveHoles			= 	false,		
+        PutInSound   			=   PutItemInBag,	
 		ReplaceInSecondHand 	= 	Bag_Handbag_LHand holdingbagleft,
         ReplaceInPrimaryHand 	= 	Bag_Handbag_RHand holdingbagright,
         WorldStaticModel 		= 	Handbag_Ground,
@@ -534,10 +531,10 @@ recipe Tie Balloons Together
 		Type	=	Container,
 		Capacity	=	8,
 		DisplayName	=	Toolbox,
-		Icon	=	Toolbox,
-		RunSpeedModifier = 0.97,
-        OpenSound   =   OpenBag,
-        CloseSound   =   CloseBag,
+		Icon					=	Toolbox,
+		RunSpeedModifier 		= 	0.97,
+        OpenSound   			=   OpenBag,
+        CloseSound   			=   CloseBag,
         PutInSound   			=   PutItemInBag,
 		ReplaceInSecondHand 	= 	Bag_Toolbox_LHand holdingbagleft,
         ReplaceInPrimaryHand	= 	Bag_Toolbox_RHand holdingbagright,
@@ -743,7 +740,6 @@ recipe Upgrade School Bag
 	   Time:100.0,
        AnimNode:Disassemble,	   
 	   Category:Tailoring,
-	   OnGiveXP:Recipe.OnGiveXP.Tailoring20,
 	   
   	}
 recipe Upgrade School Bag
@@ -760,7 +756,6 @@ recipe Upgrade School Bag
        AnimNode:Disassemble,	   
 	   SkillRequired:Tailoring=1,	   
 	   Category:Tailoring,
-	   OnGiveXP:Recipe.OnGiveXP.Tailoring20,
   	}	
 
 recipe Upgrade School Bag
@@ -777,26 +772,8 @@ recipe Upgrade School Bag
        AnimNode:Disassemble,	   
 	   SkillRequired:Tailoring=2,	   
 	   Category:Tailoring,
-	   OnGiveXP:Recipe.OnGiveXP.Tailoring20,
   	}	
 	
-
-recipe Upgrade Duffelbag
-  	{
-	   Bag_Duffelbag/Bag_DuffelBagTINT/Bag_WorkerBag/Bag_MoneyBag/Bag_InmateEscapedBag/Bag_WeaponBag/Bag_ShotgunBag/Bag_ShotgunSawnoffBag/Bag_ShotgunDblBag/Bag_ShotgunDblSawnoffBag,
-	   AZ_MetalClip,
-		keep Scissors,
-        keep Needle/SutureNeedle,
-       Thread=3,
-	   LeatherStrips/DenimStrips=3,		   
-
-	   OnCreate:PleaseKeepColor,
-   	   Result:Bag_Duffelbag_Tier_1,
-	   Time:100.0,
-       AnimNode:Disassemble,
-	   Category:Tailoring,
-	   OnGiveXP:Recipe.OnGiveXP.Tailoring20,
-  	}
 recipe Upgrade Duffelbag
   	{
 	   Bag_Duffelbag_Tier_1,
@@ -808,7 +785,6 @@ recipe Upgrade Duffelbag
        AnimNode:Disassemble,	  
 	   SkillRequired:Tailoring=1,
 	   Category:Tailoring,
-	   OnGiveXP:Recipe.OnGiveXP.Tailoring20,
   	}	
 
 recipe Upgrade Duffelbag
@@ -825,7 +801,6 @@ recipe Upgrade Duffelbag
        AnimNode:Disassemble,	   
 	   SkillRequired:Tailoring=2,
 	   Category:Tailoring,
-	   OnGiveXP:Recipe.OnGiveXP.Tailoring20,
   	}	
 	
 recipe Upgrade Hiking Bag
@@ -841,7 +816,6 @@ recipe Upgrade Hiking Bag
 	   Time:100.0,
        AnimNode:Disassemble,	   	
 	   Category:Tailoring,
-	   OnGiveXP:Recipe.OnGiveXP.Tailoring20,
   	}
 recipe Upgrade Hiking Bag
   	{
@@ -857,7 +831,6 @@ recipe Upgrade Hiking Bag
        AnimNode:Disassemble,	   
 	   SkillRequired:Tailoring=1,	   
 	   Category:Tailoring,
-	   OnGiveXP:Recipe.OnGiveXP.Tailoring20,
   	}	
 
 recipe Upgrade Hiking Bag
@@ -874,7 +847,6 @@ recipe Upgrade Hiking Bag
        AnimNode:Disassemble,	   
 	   SkillRequired:Tailoring=2,	   
 	   Category:Tailoring,
-	   OnGiveXP:Recipe.OnGiveXP.Tailoring20,
   	}		
 
 recipe Upgrade Big Hiking Bag
@@ -905,7 +877,6 @@ recipe Upgrade Big Hiking Bag
        AnimNode:Disassemble,	   
 	   SkillRequired:Tailoring=1,	   
 	   Category:Tailoring,
-	   OnGiveXP:Recipe.OnGiveXP.Tailoring20,
   	}	
 
 recipe Upgrade Big Hiking Bag
@@ -922,7 +893,6 @@ recipe Upgrade Big Hiking Bag
        AnimNode:Disassemble,	   
 	   SkillRequired:Tailoring=2,	   
 	   Category:Tailoring, 
-	   OnGiveXP:Recipe.OnGiveXP.Tailoring20,
   	}
 	
 recipe Upgrade Alicepack
@@ -933,12 +903,10 @@ recipe Upgrade Alicepack
        Thread=3,
 	   LeatherStrips/DenimStrips=3,	
 
-	   OnCreate:PleaseKeepColor,
    	   Result:Bag_ALICEpack_Tier_1,
 	   Time:100.0,
        AnimNode:Disassemble,	   
 	   Category:Tailoring,
-	   OnGiveXP:Recipe.OnGiveXP.Tailoring20,
   	}
 recipe Upgrade Alicepack
   	{
@@ -948,13 +916,11 @@ recipe Upgrade Alicepack
        Thread=3,
 	   LeatherStrips/DenimStrips=3,	
 
-	   OnCreate:PleaseKeepColor,
    	   Result:Bag_ALICEpack_Tier_2,
 	   Time:100.0,
        AnimNode:Disassemble,
 	   SkillRequired:Tailoring=1,	   
 	   Category:Tailoring,
-	   OnGiveXP:Recipe.OnGiveXP.Tailoring20,
   	}	
 
 recipe Upgrade Alicepack
@@ -965,13 +931,11 @@ recipe Upgrade Alicepack
        Thread=3,
 	   LeatherStrips/DenimStrips=3,	
 
-	   OnCreate:PleaseKeepColor,
    	   Result:Bag_ALICEpack_Tier_3,
 	   Time:100.0,
        AnimNode:Disassemble,	   
 	   SkillRequired:Tailoring=2,
 	   Category:Tailoring,
-	   OnGiveXP:Recipe.OnGiveXP.Tailoring20,
   	}
 
 recipe Upgrade Camo Alicepack
@@ -982,12 +946,10 @@ recipe Upgrade Camo Alicepack
        Thread=3,
 	   LeatherStrips/DenimStrips=3,	
 
-	   OnCreate:PleaseKeepColor,
    	   Result:Bag_ALICEpack_Army_Tier_1,
 	   Time:100.0,
        AnimNode:Disassemble
-	   Category:Tailoring,
-       OnGiveXP:Recipe.OnGiveXP.Tailoring20,		   
+	   Category:Tailoring,	   
   	}
 recipe Upgrade Camo Alicepack
   	{
@@ -997,13 +959,11 @@ recipe Upgrade Camo Alicepack
        Thread=3,
 	   LeatherStrips/DenimStrips=3,	
 
-	   OnCreate:PleaseKeepColor,
    	   Result:Bag_ALICEpack_Army_Tier_2,
 	   Time:100.0,
        AnimNode:Disassemble,
 	   SkillRequired:Tailoring=1,	   
 	   Category:Tailoring,
-       OnGiveXP:Recipe.OnGiveXP.Tailoring20,	   
   	}	
 
 recipe Upgrade Camo Alicepack
@@ -1014,13 +974,11 @@ recipe Upgrade Camo Alicepack
        Thread=3,
 	   LeatherStrips/DenimStrips=3,	
 
-	   OnCreate:PleaseKeepColor,
    	   Result:Bag_ALICEpack_Army_Tier_3,
 	   Time:100.0,
        AnimNode:Disassemble,
 	   SkillRequired:Tailoring=2,	   
-	   Category:Tailoring,
-       OnGiveXP:Recipe.OnGiveXP.Tailoring20,	   
+	   Category:Tailoring,   
   	}		
 
 }		

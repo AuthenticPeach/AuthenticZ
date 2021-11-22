@@ -5,11 +5,6 @@ Recipe.OnCreate = {}
 Recipe.OnGiveXP = {}
 Recipe.OnTest = {}
 
-function Recipe.OnGiveXP.Tailoring20(recipe, ingredients, result, player)
-    player:getXp():AddXP(Perks.Tailoring, 20);
-end
-
-
 function AuthenticTorchBatteryRemoval_OnCreate(items, result, player)
 	for i=0, items:size()-1 do
 		local item = items:get(i)
@@ -33,4 +28,4 @@ end
 
 --Give20TailoringXP = Recipe.OnGiveXP.Tailoring20
 
-Give20TailoringXP = Recipe.OnGiveXP.Tailoring20
+--Give20TailoringXP = Recipe.OnGiveXP.Tailoring20
