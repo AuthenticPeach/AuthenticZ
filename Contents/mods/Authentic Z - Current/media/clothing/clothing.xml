@@ -4635,6 +4635,9 @@
 		<m_items> <!-- Pearl Necklace -->
 			<itemGUID>0ef4bbd5-b1ba-412a-8d68-ad83a6abfda6</itemGUID>
 		</m_items>
+		<m_items> <!-- Dimitrescu Skin and makeup -->
+			<itemGUID>aa8f30ff-5606-4095-a24d-297ea7e300ac</itemGUID>
+		</m_items>		
 		<m_items> <!-- Long Black Gloves -->
 			<itemGUID>9c36a162-1348-46ad-81bd-70bf3ed7a93e</itemGUID>
 		</m_items>		

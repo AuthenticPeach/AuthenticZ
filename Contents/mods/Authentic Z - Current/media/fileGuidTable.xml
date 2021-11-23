@@ -4401,6 +4401,10 @@
 		<guid>75659e42-c52e-411d-a12a-bfbb9273cab2</guid>
 	</files>
 	<files>
+		<path>media/clothing/clothingItems/Skin_White_Dimitrescu.xml</path>
+		<guid>aa8f30ff-5606-4095-a24d-297ea7e300ac</guid>
+	</files>	
+	<files>
 		<path>media/clothing/clothingItems/Skin_White_Zed_M.xml</path>
 		<guid>9c87b588-b784-4560-bada-fd4cf7e44d48</guid>
 	</files>

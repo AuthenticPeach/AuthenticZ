@@ -502,7 +502,13 @@ module AuthenticZClothing {
 		Type = Clothing,
 		ClothingItem = Skin_Tan_Zed_W,
 		BodyLocation = TankTop,
-    }		
+    }
+    item Skin_White_Dimitrescu
+    {
+		Type = Clothing,
+		ClothingItem = Skin_White_Dimitrescu,
+		BodyLocation = TankTop,
+    }	
     item Skin_White_Zed_W
     {
 		Type = Clothing,
