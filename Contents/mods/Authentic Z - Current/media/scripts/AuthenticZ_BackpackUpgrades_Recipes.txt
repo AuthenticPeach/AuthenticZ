@@ -2,10 +2,8 @@ module AuthenticZClothing{
   imports {
       Base
   }
-	/* List of Secondary Backpacks Left*/
-	/* Seedbag */
 	/* List of Gear left to attach*/
-	/* Rope, GasMask, Saws, Balloons*/	
+	/*Saws, Balloons*/	
 	/* Modded - Bag_ARVN_Rucksack */	
 	
 recipe Tie Balloons Together

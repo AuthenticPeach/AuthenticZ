@@ -1,3 +1,5 @@
+require "recipecode"
+
 Recipe = {}
 Recipe.GetItemTypes = {}
 Recipe.OnCanPerform = {}
