@@ -587,7 +587,7 @@ module Base
 
 		attachment BackPack_Schoolbag_Tier1Item_FlareGun
 		{
-			offset = 0.0890 -0.0120 0.0620,
+			offset = 0.0650 -0.0140 0.0620,
 			rotate = -90.0000 0.0000 0.0000,
 			bone = Bip01_BackPack,
 		}
@@ -629,7 +629,7 @@ module Base
 
 		attachment BackPack_Schoolbag_Tier2Item_FlareGun
 		{
-			offset = 0.0830 0.0310 -0.0730,
+			offset = 0.0650 0.0300 -0.0730,
 			rotate = -89.0000 0.0000 180.0000,
 			bone = Bip01_BackPack,
 		}
@@ -671,7 +671,7 @@ module Base
 
 		attachment BackPack_Schoolbag_Tier3Item_FlareGun
 		{
-			offset = 0.1020 -0.0370 -0.0730,
+			offset = 0.0570 -0.0400 -0.0730,
 			rotate = 90.0000 -7.0000 0.0000,
 			bone = Bip01_BackPack,
 		}
@@ -706,21 +706,21 @@ module Base
 
 		attachment BackPack_Schoolbag_PlushieSpiffo
 		{
-			offset = -0.0090 0.0380 -0.2530,
-			rotate = 2.0000 -59.0000 90.0000,
+			offset = 0.0030 0.0350 -0.2110,
+			rotate = 2.0000 -65.0000 90.0000,
 			bone = Bip01_BackPack,
 		}
 
 		attachment BackPack_Schoolbag_PlushieDoll
 		{
-			offset = 0.1170 0.0290 -0.1990,
+			offset = 0.0750 0.0450 -0.2000,
 			rotate = 2.0000 -23.0000 89.0000,
 			bone = Bip01_BackPack,
 		}
 
 		attachment BackPack_Schoolbag_PlushieTeddyBear
 		{
-			offset = 0.0450 0.0380 -0.2550,
+			offset = 0.0450 0.0380 -0.2520,
 			rotate = 2.0000 -63.0000 90.0000,
 			bone = Bip01_BackPack,
 		}
@@ -860,7 +860,7 @@ module Base
 
 		attachment BackPack_Dufflebag_PlushieSpiffo
 		{
-			offset = 0.0020 -0.0740 -0.2880,
+			offset = -0.0040 -0.0750 -0.2890,
 			rotate = 2.0000 -59.0000 90.0000,
 			bone = Bip01_BackPack,
 		}
@@ -1441,7 +1441,7 @@ module Base
 
 		attachment BackPack_BigHikingbag_PlushieSpiffo
 		{
-			offset = -0.0100 -0.0590 -0.2690,
+			offset = -0.0400 -0.0620 -0.2540,
 			rotate = -39.0000 -50.0000 40.0000,
 			bone = Bip01_BackPack,
 		}
@@ -1518,14 +1518,14 @@ module Base
 
 		attachment BackPack_BigHikingBag_Tier1Item_Rope
 		{
-			offset = 0.0920 -0.0020 -0.1750,
+			offset = 0.0770 -0.0030 -0.1750,
 			rotate = 90.0000 -3.0000 -9.0000,
 			bone = Bip01_BackPack,
 		}
 
 		attachment BackPack_BigHikingBag_Tier1Item_FlareGun
 		{
-			offset = 0.1160 0.0010 -0.0250,
+			offset = 0.1210 0.0000 -0.0260,
 			rotate = 93.0000 -1.0000 166.0000,
 			bone = Bip01_BackPack,
 		}

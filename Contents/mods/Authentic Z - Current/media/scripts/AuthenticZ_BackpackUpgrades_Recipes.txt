@@ -776,7 +776,7 @@ recipe Upgrade School Bag
 	
 recipe Upgrade Duffelbag
   	{
-	   Bag_Duffelbag_Tier_1,
+	   Bag_DuffelBag_Tier_1,
 		keep Scissors,
         keep Needle/SutureNeedle,
        Thread=3,
@@ -792,7 +792,7 @@ recipe Upgrade Duffelbag
 
 recipe Upgrade Duffelbag
   	{
-	   Bag_Duffelbag_Tier_2,
+	   Bag_DuffelBag_Tier_2,
 		keep Scissors,
         keep Needle/SutureNeedle,
        Thread=3,
