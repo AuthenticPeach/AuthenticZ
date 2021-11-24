@@ -594,14 +594,14 @@ module Base
 
 		attachment BackPack_Schoolbag_Tier1Item_Explosive
 		{
-			offset = 0.0930 -0.0020 -0.1000,
-			rotate = 90.0000 0.0000 2.0000,
+			offset = 0.0710 -0.0060 -0.1000,
+			rotate = 90.0000 0.0000 -1.0000,
 			bone = Bip01_BackPack,
 		}
 
 		attachment BackPack_Schoolbag_Tier1Item_AuthenticExplosive
 		{
-			offset = 0.1030 0.0010 -0.1060,
+			offset = 0.0670 0.0000 -0.1060,
 			rotate = -90.0000 0.0000 180.0000,
 			bone = Bip01_BackPack,
 		}
@@ -615,7 +615,7 @@ module Base
 
 		attachment BackPack_Schoolbag_Tier1Item_Walkie
 		{
-			offset = 0.0900 -0.0010 -0.0490,
+			offset = 0.0710 -0.0040 -0.0490,
 			rotate = 90.0000 -1.0000 -1.0000,
 			bone = Bip01_BackPack,
 		}
@@ -643,7 +643,7 @@ module Base
 
 		attachment BackPack_Schoolbag_Tier2Item_AuthenticExplosive
 		{
-			offset = 0.1020 0.0420 -0.1120,
+			offset = 0.0650 0.0410 -0.1120,
 			rotate = -90.0000 0.0000 180.0000,
 			bone = Bip01_BackPack,
 		}
@@ -657,7 +657,7 @@ module Base
 
 		attachment BackPack_Schoolbag_Tier2Item_Walkie
 		{
-			offset = 0.1000 0.0400 -0.0870,
+			offset = 0.0630 0.0370 -0.0870,
 			rotate = 90.0000 0.0000 0.0000,
 			bone = Bip01_BackPack,
 		}
@@ -685,7 +685,7 @@ module Base
 
 		attachment BackPack_Schoolbag_Tier3Item_AuthenticExplosive
 		{
-			offset = 0.0980 -0.0500 -0.1120,
+			offset = 0.0630 -0.0540 -0.1120,
 			rotate = -90.0000 0.0000 180.0000,
 			bone = Bip01_BackPack,
 		}
@@ -699,7 +699,7 @@ module Base
 
 		attachment BackPack_Schoolbag_Tier3Item_Walkie
 		{
-			offset = 0.0960 -0.0400 -0.0940,
+			offset = 0.0610 -0.0430 -0.0880,
 			rotate = 90.0000 0.0000 0.0000,
 			bone = Bip01_BackPack,
 		}
