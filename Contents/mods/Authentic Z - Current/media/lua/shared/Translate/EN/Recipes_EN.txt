@@ -13,14 +13,11 @@ Recipes_EN = {
 	Recipe_Remove_Battery = "Remove Battery",		
 	Recipe_Tie_Hoodie_Around_Waist = "Tie Hoodie Around Waist",
 
-	/* Newly added by hollaming */
-
 	Recipe_Dismantle_Headphones = "Dismantle Headphones",
 	Recipe_Install_Light_Mechanism = "Install Light Mechanism",
 	Recipe_Insert_Battery_into_Flashlight = "Insert Battery into Flashlight",
 	Recipe_Insert_Battery_into_Miner_Hat = "Insert Battery into Miner Hat",
-	Recipe_Wear_Satchel_With_Bag = "Wear Satchel With Bag",
-	
+	Recipe_Wear_Satchel_With_Bag = "Wear Satchel With Bag",	
 	Recipe_Open_Umbrella = "Open Umbrella",	
 	Recipe_Close_Umbrella = "Close Umbrella",
 	Recipe_Make_Attachable = "Make Attachable",	
@@ -32,5 +29,8 @@ Recipes_EN = {
 	Recipe_Upgrade_Big_Hiking_Bag = "Upgrade Big Hiking Bag",
 	Recipe_Upgrade_Alicepack = "Upgrade Alicepack",
 	Recipe_Upgrade_Camo_Alicepack = "Upgrade Military Backpack",		
-	
+
+	/* New*/
+	Recipe_Upgrade_CEDA_Hazmat_Pack = "Upgrade CEDA Hazmat Pack",
+	Recipe_Revert_Attachable = "Revert Attachable",		
 	}

@@ -29,7 +29,7 @@ recipe Tie Balloons Together
         OpenSound   			=   OpenBag,
         CloseSound   			=   CloseBag,
         PutInSound   			=   PutItemInBag,
-        ClothingItem 			= 	Bag_SchoolBag,
+        ClothingItem 			= 	Bag_Schoolbag_Tier1,
         BloodLocation 			= 	Bag,
         RunSpeedModifier 		= 	0.97,
         AttachmentReplacement	= 	Bag,
@@ -51,7 +51,7 @@ recipe Tie Balloons Together
         OpenSound   			=   OpenBag,
         CloseSound   			=   CloseBag,
         PutInSound   			=   PutItemInBag,
-        ClothingItem 			= 	Bag_SchoolBag,
+        ClothingItem 			= 	Bag_Schoolbag_Tier2,
         BloodLocation 			= 	Bag,
         RunSpeedModifier 		= 	0.97,
         AttachmentReplacement	= 	Bag,
@@ -73,7 +73,7 @@ recipe Tie Balloons Together
         OpenSound   			=   OpenBag,
         CloseSound   			=   CloseBag,
         PutInSound   			=   PutItemInBag,
-        ClothingItem 			= 	Bag_SchoolBag,
+        ClothingItem 			= 	Bag_Schoolbag_Tier3,
         BloodLocation 			= 	Bag,
         RunSpeedModifier 		= 	0.97,
         AttachmentReplacement	= 	Bag,
@@ -82,37 +82,297 @@ recipe Tie Balloons Together
         ReplaceInPrimaryHand 	= 	Bag_Schoolbag_RHand holdingbagright,
         WorldStaticModel 	 	= 	SchoolBag_Ground,
     }
+	item Bag_SchoolBagCEDA_Tier_1
+    {
+        WeightReduction			=	60,
+        Weight					=	1,
+        Type					=	Container,
+        Capacity				=	16,
+        DisplayName				=	CEDA Hazmat Pack - Tier 1,
+        Icon 					= 	Backpack_Green,
+        CanBeEquipped 			= 	Back,
+        OpenSound   			=   OpenBag,
+        CloseSound   			=   CloseBag,
+        PutInSound   			=   PutItemInBag,
+        ClothingItem 			= 	Bag_SchoolBagCEDA_Tier_1,
+        BloodLocation 			= 	Bag,
+        RunSpeedModifier 		= 	0.97,
+        AttachmentReplacement	= 	Bag,
+		AttachmentsProvided  	= 	SchoolbagBagSecondary;SchoolbagBottleRight;SchoolbagBalloonRight,		
+        ReplaceInSecondHand 	= 	Bag_SchoolBagCEDA_LHand holdingbagleft,
+        ReplaceInPrimaryHand	= 	Bag_SchoolBagCEDA_RHand holdingbagright,
+        WorldStaticModel 	 	= 	SchoolBag_Ground,
+    }
+
+	item Bag_SchoolBagCEDA_Tier_2
+    {
+        WeightReduction			=	60,
+        Weight					=	1,
+        Type					=	Container,
+        Capacity				=	17,
+        DisplayName				=	CEDA Hazmat Pack - Tier 2,
+        Icon 					= 	Backpack_Green,
+        CanBeEquipped 			= 	Back,
+        OpenSound   			=   OpenBag,
+        CloseSound   			=   CloseBag,
+        PutInSound   			=   PutItemInBag,
+        ClothingItem 			= 	Bag_SchoolBagCEDA_Tier_2,
+        BloodLocation 			= 	Bag,
+        RunSpeedModifier 		= 	0.97,
+        AttachmentReplacement	= 	Bag,
+		AttachmentsProvided  	= 	SchoolbagBagSecondary;SchoolbagItemSlot1;SchoolbagBottleRight;SchoolbagPlushie;SchoolbagUmbrellaLeft;SchoolbagBalloonRight,		
+        ReplaceInSecondHand 	= 	Bag_SchoolBagCEDA_LHand holdingbagleft,
+        ReplaceInPrimaryHand 	= 	Bag_SchoolBagCEDA_RHand holdingbagright,
+        WorldStaticModel 	 	= 	SchoolBag_Ground,
+    }
+
+	item Bag_SchoolBagCEDA_Tier_3
+    {
+        WeightReduction			=	60,
+        Weight					=	1,
+        Type					=	Container,
+        Capacity				=	18,
+        DisplayName				=	CEDA Hazmat Pack - Tier 3,
+        Icon				 	=	Backpack_Green,
+        CanBeEquipped 			= 	Back,
+        OpenSound   			=   OpenBag,
+        CloseSound   			=   CloseBag,
+        PutInSound   			=   PutItemInBag,
+        ClothingItem 			= 	Bag_SchoolBagCEDA_Tier_3,
+        BloodLocation 			= 	Bag,
+        RunSpeedModifier 		= 	0.97,
+        AttachmentReplacement	= 	Bag,
+		AttachmentsProvided  	= 	SchoolbagBagSecondary;SchoolbagItemSlot2;SchoolbagItemSlot3;SchoolbagBottleRight;SchoolbagPlushie;SchoolbagUmbrellaLeft;SchoolbagFlashlight;SchoolbagBalloonRight,		
+        ReplaceInSecondHand 	= 	Bag_SchoolBagCEDA_LHand holdingbagleft,
+        ReplaceInPrimaryHand 	= 	Bag_SchoolBagCEDA_RHand holdingbagright,
+        WorldStaticModel 	 	= 	SchoolBag_Ground,
+    }
+	item Bag_SchoolBagCEDABlack_Tier_1
+    {
+        WeightReduction			=	60,
+        Weight					=	1,
+        Type					=	Container,
+        Capacity				=	16,
+        DisplayName				=	CEDA Hazmat Pack - Tier 1,
+        Icon 					= 	Backpack_Black,
+        CanBeEquipped 			= 	Back,
+        OpenSound   			=   OpenBag,
+        CloseSound   			=   CloseBag,
+        PutInSound   			=   PutItemInBag,
+        ClothingItem 			= 	Bag_SchoolBagCEDABlack_Tier_1,
+        BloodLocation 			= 	Bag,
+        RunSpeedModifier 		= 	0.97,
+        AttachmentReplacement	= 	Bag,
+		AttachmentsProvided  	= 	SchoolbagBagSecondary;SchoolbagBottleRight;SchoolbagBalloonRight,		
+        ReplaceInSecondHand 	= 	Bag_SchoolBagCEDABlack_LHand holdingbagleft,
+        ReplaceInPrimaryHand 	= 	Bag_SchoolBagCEDABlack_RHand holdingbagright,
+        WorldStaticModel 	 	= 	SchoolBag_Ground,
+    }
+
+	item Bag_SchoolBagCEDABlack_Tier_2
+    {
+        WeightReduction			=	60,
+        Weight					=	1,
+        Type					=	Container,
+        Capacity				=	17,
+        DisplayName				=	CEDA Hazmat Pack - Tier 2,
+        Icon 					= 	Backpack_Black,
+        CanBeEquipped 			= 	Back,
+        OpenSound   			=   OpenBag,
+        CloseSound   			=   CloseBag,
+        PutInSound   			=   PutItemInBag,
+        ClothingItem 			= 	Bag_SchoolBagCEDABlack_Tier_2,
+        BloodLocation 			= 	Bag,
+        RunSpeedModifier 		= 	0.97,
+        AttachmentReplacement	= 	Bag,
+		AttachmentsProvided  	= 	SchoolbagBagSecondary;SchoolbagItemSlot1;SchoolbagBottleRight;SchoolbagPlushie;SchoolbagUmbrellaLeft;SchoolbagBalloonRight,		
+        ReplaceInSecondHand 	= 	Bag_SchoolBagCEDABlack_LHand holdingbagleft,
+        ReplaceInPrimaryHand 	= 	Bag_SchoolBagCEDABlack_RHand holdingbagright,
+        WorldStaticModel 	 	= 	SchoolBag_Ground,
+    }
+
+	item Bag_SchoolBagCEDABlack_Tier_3
+    {
+        WeightReduction			=	60,
+        Weight					=	1,
+        Type					=	Container,
+        Capacity				=	18,
+        DisplayName				=	CEDA Hazmat Pack - Tier 3,
+        Icon				 	=	Backpack_Black,
+        CanBeEquipped 			= 	Back,
+        OpenSound   			=   OpenBag,
+        CloseSound   			=   CloseBag,
+        PutInSound   			=   PutItemInBag,
+        ClothingItem 			= 	Bag_SchoolBagCEDABlack_Tier_3,
+        BloodLocation 			= 	Bag,
+        RunSpeedModifier 		= 	0.97,
+        AttachmentReplacement	= 	Bag,
+		AttachmentsProvided  	= 	SchoolbagBagSecondary;SchoolbagItemSlot2;SchoolbagItemSlot3;SchoolbagBottleRight;SchoolbagPlushie;SchoolbagUmbrellaLeft;SchoolbagFlashlight;SchoolbagBalloonRight,		
+        ReplaceInSecondHand 	= 	Bag_SchoolBagCEDABlack_LHand holdingbagleft,
+        ReplaceInPrimaryHand 	= 	Bag_SchoolBagCEDABlack_RHand holdingbagright,
+        WorldStaticModel 	 	= 	SchoolBag_Ground,
+    }
+	item Bag_SchoolBagCEDARed_Tier_1
+    {
+        WeightReduction			=	60,
+        Weight					=	1,
+        Type					=	Container,
+        Capacity				=	16,
+        DisplayName				=	CEDA Hazmat Pack - Tier 1,
+        Icon 					= 	Backpack_Red,
+        CanBeEquipped 			= 	Back,
+        OpenSound   			=   OpenBag,
+        CloseSound   			=   CloseBag,
+        PutInSound   			=   PutItemInBag,
+        ClothingItem 			= 	Bag_SchoolBagCEDARed_Tier_1,
+        BloodLocation 			= 	Bag,
+        RunSpeedModifier 		= 	0.97,
+        AttachmentReplacement	= 	Bag,
+		AttachmentsProvided  	= 	SchoolbagBagSecondary;SchoolbagBottleRight;SchoolbagBalloonRight,		
+        ReplaceInSecondHand 	= 	Bag_SchoolBagCEDARed_LHand holdingbagleft,
+        ReplaceInPrimaryHand 	= 	Bag_SchoolBagCEDARed_RHand holdingbagright,
+        WorldStaticModel 	 	= 	SchoolBag_Ground,
+    }
+
+	item Bag_SchoolBagCEDARed_Tier_2
+    {
+        WeightReduction			=	60,
+        Weight					=	1,
+        Type					=	Container,
+        Capacity				=	17,
+        DisplayName				=	CEDA Hazmat Pack - Tier 2,
+        Icon 					= 	Backpack_Red,
+        CanBeEquipped 			= 	Back,
+        OpenSound   			=   OpenBag,
+        CloseSound   			=   CloseBag,
+        PutInSound   			=   PutItemInBag,
+        ClothingItem 			= 	Bag_SchoolBagCEDARed_Tier_2,
+        BloodLocation 			= 	Bag,
+        RunSpeedModifier 		= 	0.97,
+        AttachmentReplacement	= 	Bag,
+		AttachmentsProvided  	= 	SchoolbagBagSecondary;SchoolbagItemSlot1;SchoolbagBottleRight;SchoolbagPlushie;SchoolbagUmbrellaLeft;SchoolbagBalloonRight,		
+        ReplaceInSecondHand 	= 	Bag_SchoolBagCEDARed_LHand holdingbagleft,
+        ReplaceInPrimaryHand 	= 	Bag_SchoolBagCEDARed_RHand holdingbagright,
+        WorldStaticModel 	 	= 	SchoolBag_Ground,
+    }
+
+	item Bag_SchoolBagCEDARed_Tier_3
+    {
+        WeightReduction			=	60,
+        Weight					=	1,
+        Type					=	Container,
+        Capacity				=	18,
+        DisplayName				=	CEDA Hazmat Pack - Tier 3,
+        Icon				 	=	Backpack_Red,
+        CanBeEquipped 			= 	Back,
+        OpenSound   			=   OpenBag,
+        CloseSound   			=   CloseBag,
+        PutInSound   			=   PutItemInBag,
+        ClothingItem 			= 	Bag_SchoolBagCEDARed_Tier_3,
+        BloodLocation 			= 	Bag,
+        RunSpeedModifier 		= 	0.97,
+        AttachmentReplacement	= 	Bag,
+		AttachmentsProvided  	= 	SchoolbagBagSecondary;SchoolbagItemSlot2;SchoolbagItemSlot3;SchoolbagBottleRight;SchoolbagPlushie;SchoolbagUmbrellaLeft;SchoolbagFlashlight;SchoolbagBalloonRight,		
+        ReplaceInSecondHand 	= 	Bag_SchoolBagCEDARed_LHand holdingbagleft,
+        ReplaceInPrimaryHand 	= 	Bag_SchoolBagCEDARed_RHand holdingbagright,
+        WorldStaticModel 	 	= 	SchoolBag_Ground,
+    }
+	item Bag_SchoolBagCEDABlue_Tier_1
+    {
+        WeightReduction			=	60,
+        Weight					=	1,
+        Type					=	Container,
+        Capacity				=	16,
+        DisplayName				=	CEDA Hazmat Pack - Tier 1,
+        Icon 					= 	Backpack_Blue,
+        CanBeEquipped 			= 	Back,
+        OpenSound   			=   OpenBag,
+        CloseSound   			=   CloseBag,
+        PutInSound   			=   PutItemInBag,
+        ClothingItem 			= 	Bag_SchoolBagCEDABlue_Tier_1,
+        BloodLocation 			= 	Bag,
+        RunSpeedModifier 		= 	0.97,
+        AttachmentReplacement	= 	Bag,
+		AttachmentsProvided  	= 	SchoolbagBagSecondary;SchoolbagBottleRight;SchoolbagBalloonRight,		
+        ReplaceInSecondHand 	= 	Bag_SchoolBagCEDABlue_LHand holdingbagleft,
+        ReplaceInPrimaryHand 	= 	Bag_SchoolBagCEDABlue_RHand holdingbagright,
+        WorldStaticModel 	 	= 	SchoolBag_Ground,
+    }
+
+	item Bag_SchoolBagCEDABlue_Tier_2
+    {
+        WeightReduction			=	60,
+        Weight					=	1,
+        Type					=	Container,
+        Capacity				=	17,
+        DisplayName				=	CEDA Hazmat Pack - Tier 2,
+        Icon 					= 	Backpack_Blue,
+        CanBeEquipped 			= 	Back,
+        OpenSound   			=   OpenBag,
+        CloseSound   			=   CloseBag,
+        PutInSound   			=   PutItemInBag,
+        ClothingItem 			= 	Bag_SchoolBagCEDABlue_Tier_2,
+        BloodLocation 			= 	Bag,
+        RunSpeedModifier 		= 	0.97,
+        AttachmentReplacement	= 	Bag,
+		AttachmentsProvided  	= 	SchoolbagBagSecondary;SchoolbagItemSlot1;SchoolbagBottleRight;SchoolbagPlushie;SchoolbagUmbrellaLeft;SchoolbagBalloonRight,		
+        ReplaceInSecondHand 	= 	Bag_SchoolBagCEDABlue_LHand holdingbagleft,
+        ReplaceInPrimaryHand 	= 	Bag_SchoolBagCEDABlue_RHand holdingbagright,
+        WorldStaticModel 	 	= 	SchoolBag_Ground,
+    }
+
+	item Bag_SchoolBagCEDABlue_Tier_3
+    {
+        WeightReduction			=	60,
+        Weight					=	1,
+        Type					=	Container,
+        Capacity				=	18,
+        DisplayName				=	CEDA Hazmat Pack - Tier 3,
+        Icon				 	=	Backpack_Blue,
+        CanBeEquipped 			= 	Back,
+        OpenSound   			=   OpenBag,
+        CloseSound   			=   CloseBag,
+        PutInSound   			=   PutItemInBag,
+        ClothingItem 			= 	Bag_SchoolBagCEDABlue_Tier_3,
+        BloodLocation 			= 	Bag,
+        RunSpeedModifier 		= 	0.97,
+        AttachmentReplacement	= 	Bag,
+		AttachmentsProvided  	= 	SchoolbagBagSecondary;SchoolbagItemSlot2;SchoolbagItemSlot3;SchoolbagBottleRight;SchoolbagPlushie;SchoolbagUmbrellaLeft;SchoolbagFlashlight;SchoolbagBalloonRight,		
+        ReplaceInSecondHand 	= 	Bag_SchoolBagCEDABlue_LHand holdingbagleft,
+        ReplaceInPrimaryHand 	= 	Bag_SchoolBagCEDABlue_RHand holdingbagright,
+        WorldStaticModel 	 	= 	SchoolBag_Ground,
+    }	
     item Bag_DuffelBag_Tier_1
     {
-        Type = Container,
-        DisplayName = Duffel Bag - Tier 1,
-        ClothingItem = Bag_DuffelBag,
-        CanBeEquipped = Back,
-        WeightReduction	=	65,
-        Weight	=	1,
-        Capacity	=	19,
-        Icon	=	Duffelbag,
-        OpenSound   =   OpenBag,
-        CloseSound   =   CloseBag,
-        PutInSound   =   PutItemInBag,
-        RunSpeedModifier = 0.95,
-        CanHaveHoles = false,       
+        WeightReduction			=	65,
+        Weight					=	1,		
+        Type 					= 	Container,
+		Capacity				=	19,		
+        DisplayName 			= 	Duffel Bag - Tier 1,
+        Icon					=	DuffelBag_Grey,		
+        ClothingItem 			= 	Bag_DuffelBag_Tier1,
+        CanBeEquipped 			= 	Back,
+        OpenSound   			=   OpenBag,
+        CloseSound   			=   CloseBag,
+        PutInSound   			=   PutItemInBag,
+        RunSpeedModifier 		= 0.95,
+        CanHaveHoles 			= false,       
 		AttachmentReplacement	= 	Bag,
 		AttachmentsProvided  	= 	DufflebagSecondary;DufflebagBottleLeft;SchoolbagBalloonRight,
-        ReplaceInSecondHand = Bag_DuffelBag_LHand holdingbagleft,
-        ReplaceInPrimaryHand = Bag_DuffelBag_RHand holdingbagright,
-        WorldStaticModel = DuffelBag_Ground,
+        ReplaceInSecondHand 	= Bag_DuffelBag_LHand holdingbagleft,
+        ReplaceInPrimaryHand 	= Bag_DuffelBag_RHand holdingbagright,
+        WorldStaticModel 		= DuffelBag_Ground,
     }	
     item Bag_DuffelBag_Tier_2
     {
-        Type = Container,
-        DisplayName = Duffel Bag - Tier 2,
-        ClothingItem = Bag_DuffelBag,
-        CanBeEquipped = Back,
-        WeightReduction	=	65,
-        Weight	=	1,
-        Capacity	=	20,
-        Icon	=	Duffelbag,
+        WeightReduction	=	65,	
+        Weight			=	1,		
+        Type 			= 	Container,
+        Capacity		=	20,		
+        DisplayName 	= 	Duffel Bag - Tier 2,
+        Icon			=	DuffelBag_Grey,		
+        ClothingItem 	= 	Bag_DuffelBag_Tier2,
+        CanBeEquipped 	= 	Back,
         OpenSound   =   OpenBag,
         CloseSound   =   CloseBag,
         PutInSound   =   PutItemInBag,
@@ -128,12 +388,12 @@ recipe Tie Balloons Together
     {
         Type = Container,
         DisplayName = Duffel Bag - Tier 3,
-        ClothingItem = Bag_DuffelBag,
+        ClothingItem = Bag_DuffelBag_Tier3,
         CanBeEquipped = Back,
         WeightReduction	=	65,
         Weight	=	1,
         Capacity	=	21,
-        Icon	=	Duffelbag,
+        Icon	=	DuffelBag_Grey,
         OpenSound   =   OpenBag,
         CloseSound   =   CloseBag,
         PutInSound   =   PutItemInBag,
@@ -157,7 +417,7 @@ recipe Tie Balloons Together
         OpenSound   			=   OpenBag,
         CloseSound   			=   CloseBag,
         PutInSound   			=   PutItemInBag,
-        ClothingItem 			= 	Bag_HikingBag,
+        ClothingItem 			= 	Bag_HikingBag_Tier1,
         BloodLocation 			= 	Bag,
         RunSpeedModifier 		= 	0.96,
         AttachmentReplacement 	= 	Bag,
@@ -179,7 +439,7 @@ recipe Tie Balloons Together
         OpenSound   			=   OpenBag,
         CloseSound   			=   CloseBag,
         PutInSound   			=   PutItemInBag,
-        ClothingItem 			= 	Bag_HikingBag,
+        ClothingItem 			= 	Bag_HikingBag_Tier2,
         BloodLocation 			= 	Bag,
         RunSpeedModifier		= 	0.96,
         AttachmentReplacement 	= 	Bag,
@@ -201,7 +461,7 @@ recipe Tie Balloons Together
         OpenSound   			=   OpenBag,
         CloseSound  			=   CloseBag,
         PutInSound   			=   PutItemInBag,
-        ClothingItem 			= 	Bag_HikingBag,
+        ClothingItem 			= 	Bag_HikingBag_Tier3,
         BloodLocation 			= 	Bag,
         RunSpeedModifier 		= 	0.96,
         AttachmentReplacement 	= 	Bag,
@@ -223,7 +483,7 @@ recipe Tie Balloons Together
         OpenSound   			=   OpenBag,
         CloseSound   			=   CloseBag,
         PutInSound   			=   PutItemInBag,
-        ClothingItem 			= 	Bag_BigHikingBag,
+        ClothingItem 			= 	Bag_BigHikingBag_Tier1,
         BloodLocation 			= 	Bag,
         RunSpeedModifier 		= 	0.95,
         AttachmentReplacement 	= 	Bag,
@@ -245,7 +505,7 @@ recipe Tie Balloons Together
         OpenSound   =   OpenBag,
         CloseSound   =   CloseBag,
         PutInSound   =   PutItemInBag,
-        ClothingItem = Bag_BigHikingBag,
+        ClothingItem = Bag_BigHikingBag_Tier2,
         BloodLocation = Bag,
         RunSpeedModifier = 0.95,
         AttachmentReplacement 	= 	Bag,
@@ -267,7 +527,7 @@ recipe Tie Balloons Together
         OpenSound   =   OpenBag,
         CloseSound   =   CloseBag,
         PutInSound   =   PutItemInBag,
-        ClothingItem = Bag_BigHikingBag,
+        ClothingItem = Bag_BigHikingBag_Tier3,
         BloodLocation = Bag,
         RunSpeedModifier 		= 	0.95,
         AttachmentReplacement 	= 	Bag,
@@ -281,7 +541,7 @@ recipe Tie Balloons Together
     {
         Type 					= 	Container,
         DisplayName 			= 	Large Backpack - Tier 1,
-        ClothingItem 			= 	Bag_ALICEpack,
+        ClothingItem 			= 	Bag_ALICEpack_Tier1,
         CanBeEquipped 			= 	Back,
         WeightReduction			=	85,
         Weight					=	2,
@@ -303,7 +563,7 @@ recipe Tie Balloons Together
     {
         Type 					= 	Container,
         DisplayName 			= 	Large Backpack - Tier 2,
-        ClothingItem 			= 	Bag_ALICEpack,
+        ClothingItem 			= 	Bag_ALICEpack_Tier2,
         CanBeEquipped 			= 	Back,
         WeightReduction			=	85,
         Weight					=	2,
@@ -325,7 +585,7 @@ recipe Tie Balloons Together
     {
         Type 					= 	Container,
         DisplayName 			= 	Large Backpack - Tier 3,
-        ClothingItem 			= 	Bag_ALICEpack,
+        ClothingItem 			= 	Bag_ALICEpack_Tier3,
         CanBeEquipped 			= 	Back,
         WeightReduction			=	85,
         Weight					=	2,
@@ -347,7 +607,7 @@ recipe Tie Balloons Together
     {
         Type 					= 	Container,
         DisplayName 			= 	Military Backpack - Tier 1,
-        ClothingItem 			= 	Bag_ALICEpack_Army,
+        ClothingItem 			= 	Bag_ALICEpack_Army_Tier1,
         CanBeEquipped 			= 	Back,
         WeightReduction			=	87,
         Weight					=	2,
@@ -369,7 +629,7 @@ recipe Tie Balloons Together
     {
         Type 					= 	Container,
         DisplayName 			= 	Military Backpack - Tier 2,
-        ClothingItem 			= 	Bag_ALICEpack_Army,
+        ClothingItem 			= 	Bag_ALICEpack_Army_Tier2,
         CanBeEquipped 			= 	Back,
         WeightReduction			=	87,
         Weight					=	2,
@@ -391,7 +651,7 @@ recipe Tie Balloons Together
     {
         Type 					= 	Container,
         DisplayName 			= 	Military Backpack - Tier 3,
-        ClothingItem 			= 	Bag_ALICEpack_Army,
+        ClothingItem 			= 	Bag_ALICEpack_Army_Tier3,
         CanBeEquipped 			= 	Back,
         WeightReduction			=	87,
         Weight					=	2,
@@ -724,6 +984,125 @@ recipe Make Secondary Bag
    	   Result:SeedBag_Secondary,
 	   Time:80.0,
   	}		
+
+recipe Revert to Normal Bag
+  	{
+	   Plasticbag_Secondary,
+
+   	   Result:Plasticbag,
+	   OnCreate:Recipe.OnCreate.ReturnCarabiner,
+       OnGiveXP:Recipe.OnGiveXP.None,	   
+	   Time:80.0,
+  	}
+
+recipe Revert to Normal Bag
+  	{
+	   Garbagebag_Secondary,
+
+   	   Result:Garbagebag,
+	   OnCreate:Recipe.OnCreate.ReturnCarabiner,	
+	   OnGiveXP:Recipe.OnGiveXP.None,
+	   Time:80.0,
+  	}	
+
+recipe Revert to Normal Bag
+  	{
+	   Handbag_Secondary,
+   	   Result:Handbag,
+	   OnCreate:Recipe.OnCreate.ReturnCarabiner,	
+	   OnGiveXP:Recipe.OnGiveXP.None,	   
+	   Time:80.0,
+  	}	
+
+recipe Revert to Normal Bag
+  	{
+	   Purse_Secondary,
+
+   	   Result:Purse,
+	   OnCreate:Recipe.OnCreate.ReturnCarabiner,
+	   OnGiveXP:Recipe.OnGiveXP.None,	   
+	   Time:80.0,
+  	}
+
+recipe Revert to Normal Bag
+  	{
+	   Tote_Secondary,
+
+   	   Result:Tote,
+	   OnCreate:Recipe.OnCreate.ReturnCarabiner,	
+	   OnGiveXP:Recipe.OnGiveXP.None,	   
+	   Time:80.0,
+  	}
+
+recipe Revert to Normal Bag
+  	{
+	   EmptySandbag_Secondary,
+
+   	   Result:EmptySandbag,
+	   OnCreate:Recipe.OnCreate.ReturnCarabiner,	
+	   OnGiveXP:Recipe.OnGiveXP.None,	   
+	   Time:80.0,
+  	}
+	
+recipe Revert to Normal Bag
+  	{
+	   Toolbox_Secondary,
+
+   	   Result:Toolbox,
+	   OnCreate:Recipe.OnCreate.ReturnCarabiner,
+	   OnGiveXP:Recipe.OnGiveXP.None,	   
+	   Time:80.0,
+  	}
+	
+recipe Revert to Normal Bag
+  	{
+	   FirstAidKit_Secondary,
+
+   	   Result:FirstAidKit,
+	   OnCreate:Recipe.OnCreate.ReturnCarabiner,	
+	   OnGiveXP:Recipe.OnGiveXP.None,	   
+	   Time:80.0,
+  	}	
+
+recipe Revert to Normal Bag
+  	{
+	   Lunchbox,
+
+   	   Result:Lunchbox_Secondary,
+	   OnCreate:Recipe.OnCreate.ReturnCarabiner,
+       OnGiveXP:Recipe.OnGiveXP.None,	   
+	   Time:80.0,
+  	}
+	
+recipe Revert to Normal Bag
+  	{
+	   Lunchbox2_Secondary,
+
+   	   Result:Lunchbox2,
+	   OnCreate:Recipe.OnCreate.ReturnCarabiner,
+       OnGiveXP:Recipe.OnGiveXP.None,	   
+	   Time:80.0,
+  	}	
+
+recipe Revert to Normal Bag
+  	{
+	   PistolCase_Secondary,
+
+   	   Result:PistolCase1,
+	   OnCreate:Recipe.OnCreate.ReturnCarabiner,
+       OnGiveXP:Recipe.OnGiveXP.None,	   
+	   Time:80.0,
+  	}
+
+recipe Revert to Normal Bag
+  	{
+	   SeedBag_Secondary,
+
+   	   Result:SeedBag,
+	   OnCreate:Recipe.OnCreate.ReturnCarabiner,
+       OnGiveXP:Recipe.OnGiveXP.None,	   
+	   Time:80.0,
+  	}
 	
 recipe Upgrade School Bag
   	{
@@ -735,6 +1114,7 @@ recipe Upgrade School Bag
 
 	   OnCreate:PleaseKeepColor,
    	   Result:Bag_Schoolbag_Tier_1,
+	   OnGiveXP:Recipe.OnGiveXP.Tailoring20,	   
 	   Time:100.0,
        AnimNode:Disassemble,	   
 	   Category:Tailoring,
@@ -750,6 +1130,7 @@ recipe Upgrade School Bag
 
 	   OnCreate:PleaseKeepColor,
    	   Result:Bag_Schoolbag_Tier_2,
+	   OnGiveXP:Recipe.OnGiveXP.Tailoring20,	   
 	   Time:100.0,
        AnimNode:Disassemble,	   
 	   SkillRequired:Tailoring=1,	   
@@ -766,11 +1147,200 @@ recipe Upgrade School Bag
 	
 	   OnCreate:PleaseKeepColor,	
    	   Result:Bag_Schoolbag_Tier_3,
+       OnGiveXP:Recipe.OnGiveXP.Tailoring20,	   
 	   Time:100.0,
        AnimNode:Disassemble,	   
 	   SkillRequired:Tailoring=2,	   
 	   Category:Tailoring,
   	}	
+	
+recipe Upgrade CEDA Hazmat Pack
+  	{
+	   Bag_SchoolBagCEDA,	
+	   keep Scissors,
+       keep Needle/SutureNeedle,
+       Thread=3,
+	   LeatherStrips/DenimStrips=3,	   
+
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_SchoolBagCEDA_Tier_1,
+	   Time:100.0,
+       AnimNode:Disassemble,	   
+	   Category:Tailoring,
+	   
+  	}
+recipe Upgrade CEDA Hazmat Pack
+  	{
+	   Bag_SchoolBagCEDA_Tier_1,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=3,
+	   LeatherStrips/DenimStrips=3,	
+
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_SchoolBagCEDA_Tier_2,
+	   Time:100.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=1,	   
+	   Category:Tailoring,
+  	}	
+
+recipe Upgrade CEDA Hazmat Pack
+  	{
+	   Bag_SchoolBagCEDA_Tier_2,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=3,
+	   LeatherStrips/DenimStrips=3,	
+	
+	   OnCreate:PleaseKeepColor,	
+   	   Result:Bag_SchoolBagCEDA_Tier_3,
+	   Time:100.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=2,	   
+	   Category:Tailoring,
+  	}		
+
+recipe Upgrade CEDA Hazmat Pack
+  	{
+	   Bag_SchoolBagCEDABlack,	
+	   keep Scissors,
+       keep Needle/SutureNeedle,
+       Thread=3,
+	   LeatherStrips/DenimStrips=3,	   
+
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_SchoolBagCEDABlack_Tier_1,
+	   Time:100.0,
+       AnimNode:Disassemble,	   
+	   Category:Tailoring,
+	   
+  	}
+recipe Upgrade CEDA Hazmat Pack
+  	{
+	   Bag_SchoolBagCEDABlack_Tier_1,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=3,
+	   LeatherStrips/DenimStrips=3,	
+
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_SchoolBagCEDABlack_Tier_2,
+	   Time:100.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=1,	   
+	   Category:Tailoring,
+  	}	
+
+recipe Upgrade CEDA Hazmat Pack
+  	{
+	   Bag_SchoolBagCEDABlack_Tier_2,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=3,
+	   LeatherStrips/DenimStrips=3,	
+	
+	   OnCreate:PleaseKeepColor,	
+   	   Result:Bag_SchoolBagCEDABlack_Tier_3,
+	   Time:100.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=2,	   
+	   Category:Tailoring,
+  	}	
+
+recipe Upgrade CEDA Hazmat Pack
+  	{
+	   Bag_SchoolBagCEDARed,	
+	   keep Scissors,
+       keep Needle/SutureNeedle,
+       Thread=3,
+	   LeatherStrips/DenimStrips=3,	   
+
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_SchoolBagCEDARed_Tier_1,
+	   Time:100.0,
+       AnimNode:Disassemble,	   
+	   Category:Tailoring,
+	   
+  	}
+recipe Upgrade CEDA Hazmat Pack
+  	{
+	   Bag_SchoolBagCEDARed_Tier_1,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=3,
+	   LeatherStrips/DenimStrips=3,	
+
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_SchoolBagCEDARed_Tier_2,
+	   Time:100.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=1,	   
+	   Category:Tailoring,
+  	}	
+
+recipe Upgrade CEDA Hazmat Pack
+  	{
+	   Bag_SchoolBagCEDARed_Tier_2,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=3,
+	   LeatherStrips/DenimStrips=3,	
+	
+	   OnCreate:PleaseKeepColor,	
+   	   Result:Bag_SchoolBagCEDARed_Tier_3,
+	   Time:100.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=2,	   
+	   Category:Tailoring,
+  	}
+
+recipe Upgrade CEDA Hazmat Pack
+  	{
+	   Bag_SchoolBagCEDABlue,	
+	   keep Scissors,
+       keep Needle/SutureNeedle,
+       Thread=3,
+	   LeatherStrips/DenimStrips=3,	   
+
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_SchoolBagCEDABlue_Tier_1,
+	   Time:100.0,
+       AnimNode:Disassemble,	   
+	   Category:Tailoring,
+	   
+  	}
+recipe Upgrade CEDA Hazmat Pack
+  	{
+	   Bag_SchoolBagCEDABlue_Tier_1,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=3,
+	   LeatherStrips/DenimStrips=3,	
+
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_SchoolBagCEDABlue_Tier_2,
+	   Time:100.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=1,	   
+	   Category:Tailoring,
+  	}	
+
+recipe Upgrade CEDA Hazmat Pack
+  	{
+	   Bag_SchoolBagCEDABlue_Tier_2,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=3,
+	   LeatherStrips/DenimStrips=3,	
+	
+	   OnCreate:PleaseKeepColor,	
+   	   Result:Bag_SchoolBagCEDABlue_Tier_3,
+	   Time:100.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=2,	   
+	   Category:Tailoring,
+  	}
 	
 recipe Upgrade Duffelbag
   	{

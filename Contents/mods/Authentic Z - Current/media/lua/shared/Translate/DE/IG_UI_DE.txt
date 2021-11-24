@@ -1,0 +1,68 @@
+IGUI_DE = {
+
+    IGUI_Hair_BigAfro = "Große Afro",
+    IGUI_Hair_DukeBuzzCut = "Kurzer Buzz-Schnitt",
+    IGUI_Hair_Balding = "Glatzenbildung",
+    IGUI_Beard_ThinMoustache = "Dünner Schnurbart",
+	
+	
+    IGUI_HotbarAttachment_SchoolbagBagSecondary = "Schulrucksack Sekundärer Beutel",
+    IGUI_HotbarAttachment_DufflebagSecondary = "Seesack Sekundärer Beutel",
+	IGUI_HotbarAttachment_HikingbagSecondary = "Wanderrucksack Sekundärer Beutel",
+	IGUI_HotbarAttachment_BigHikingbagSecondary = "Großer Wanderrucksack Sekundärer Beutel",
+	IGUI_HotbarAttachment_AlicepackSecondary = "Alice Rucksack Sekundärer Beutel",
+	
+	IGUI_HotbarAttachment_ARVN_RucksackSecondary = "Rucksack Secondary Bag",
+	IGUI_HotbarAttachment_MinerLightBulb = "Bergmanns Hut Licht ",	
+	
+	IGUI_HotbarAttachment_SchoolbagItemSlot1 = "Schulrucksack Gegenstandsslot 1",
+    IGUI_HotbarAttachment_SchoolbagItemSlot2 = "Schulrucksack Gegenstandsslot 2",
+	IGUI_HotbarAttachment_SchoolbagItemSlot3 = "Schulrucksack Gegenstandsslot 3",
+	IGUI_HotbarAttachment_DufflebagItemSlot1 = "Seesack Gegenstandsslot 1",
+    IGUI_HotbarAttachment_DufflebagItemSlot2 = "Seesack Gegenstandsslot 2",
+	IGUI_HotbarAttachment_DufflebagItemSlot3 = "Seesack Gegenstandsslot 3",
+	IGUI_HotbarAttachment_HikingBagItemSlot1 = "Wanderrucksack Gegenstandsslot 1",
+	IGUI_HotbarAttachment_HikingBagItemSlot2 = "Wanderrucksack Gegenstandsslot 2",
+	IGUI_HotbarAttachment_HikingBagItemSlot3 = "Wanderrucksack Gegenstandsslot 3",
+	IGUI_HotbarAttachment_BigHikingbagItemSlot1 = "Großer Wanderrucksack Gegenstandsslot 1",	
+	IGUI_HotbarAttachment_BigHikingbagItemSlot2 = "Großer Wanderrucksack Gegenstandsslot 2",
+	IGUI_HotbarAttachment_BigHikingbagItemSlot3 = "Großer Wanderrucksack Gegenstandsslot 3",	
+	IGUI_HotbarAttachment_BigHikingbagItemSlot4 = "Großer Wanderrucksack Gegenstandsslot 4",
+	IGUI_HotbarAttachment_AlicepackItemSlot1 = "Alice Rucksack Gegenstandsslot 1",	
+	IGUI_HotbarAttachment_AlicepackItemSlot2 = "Alice Rucksack Gegenstandsslot 2",
+	IGUI_HotbarAttachment_AlicepackItemSlot3 = "Alice Rucksack Gegenstandsslot 3",	
+	IGUI_HotbarAttachment_AlicepackItemSlot4 = "Alice Rucksack Gegenstandsslot 4",
+	IGUI_HotbarAttachment_AlicepackItemSlot5 = "Alice Rucksack Gegenstandsslot 5",	
+
+	IGUI_HotbarAttachment_SchoolbagFlashlight = "Schulrucksack Taschenlampen Slot",
+	IGUI_HotbarAttachment_DufflebagFlashlight = "Seesack Taschenlampen Slot",
+	IGUI_HotbarAttachment_HikingBagFlashlight = "Wanderrucksack Taschenlampen Slot",
+	IGUI_HotbarAttachment_BigHikingbagFlashlight = "Großer Wanderrucksack Taschenlampen Slot",	
+	IGUI_HotbarAttachment_AlicepackFlashlight = "Alice Rucksack Taschenlampen Slot",
+
+	IGUI_HotbarAttachment_SchoolbagUmbrellaLeft = "Schulracksack Regenschirm Slot",
+	IGUI_HotbarAttachment_DufflebagUmbrellaRight = "Seesack Regenschirm Slot",
+	IGUI_HotbarAttachment_HikingbagUmbrellaLeft = "Wanderrucksack Regenschirm Slot",
+	IGUI_HotbarAttachment_BigHikingbagUmbrellaLeft = "Großer Wanderrucksack Regenschirm Slot",	
+	IGUI_HotbarAttachment_AlicepackUmbrellaRight = "Alice Rucksack Regenschirm Slot",
+
+	IGUI_HotbarAttachment_SchoolbagBalloonLeft = "Balloon Slot",
+	IGUI_HotbarAttachment_SchoolbagBalloonRight = "Balloon Slot",	
+	IGUI_HotbarAttachment_SchoolbagPlushie = "Schulrucksack Plüschtier Slot",
+	IGUI_HotbarAttachment_SchoolbagPlushie = "Schulrucksack Plüschtier Slot",
+	IGUI_HotbarAttachment_DufflebagPlushie = "Seesack Plüschtier Slot",
+	IGUI_HotbarAttachment_HikingBagPlushie = "Wanderrucksack Plüschtier Slot",
+	IGUI_HotbarAttachment_BigHikingbagPlushie = "Großer Wanderrucksack Plüschtier Slot",	
+	IGUI_HotbarAttachment_AlicepackPlushie = "Alice Rucksack Plüschtier  Slot",
+
+	IGUI_HotbarAttachment_SchoolbagBottleRight = "Schulrucksack Flaschen Slot",
+	IGUI_HotbarAttachment_SchoolbagBottleLeft = "Schulrucksack Flaschen Slot",	
+	IGUI_HotbarAttachment_DufflebagBottleRight = "Seesack Flaschen Slot",,	
+	IGUI_HotbarAttachment_HikingBagBottleRight = "Wanderrucksack Flaschen Slot",
+	IGUI_HotbarAttachment_HikingBagBottleLeft = "Wanderrucksack Flaschen Slot",	
+	IGUI_HotbarAttachment_BigHikingBagBottleRight = "Großer Wanderrucksack Flaschen Slot",
+	IGUI_HotbarAttachment_BigHikingBagBottleLeft = "Großer Wanderrucksack Flaschen Slot",	
+	IGUI_HotbarAttachment_AlicepackBottleRight = "Alice Rucksack Flaschen Slot",
+	IGUI_HotbarAttachment_AlicepackBottleLeft = "Alice Rucksack Flaschen Slot",	
+
+}

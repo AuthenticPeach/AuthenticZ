@@ -2274,7 +2274,7 @@ table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticCountryHick", chanc
 table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticClown", chance=0.05, gender="male"});
 table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticClownMime", chance=0.05});
 table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticNMRIHVegan", chance=0.07, gender="male"});
-table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticCEDAHazmat", chance=0.01});
+table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticCEDAHazmatGreen", chance=0.01});
 table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticCEDAHazmatBlack", chance=0.003});
 table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticCEDAHazmatBlue", chance=0.003});
 table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticCEDAHazmatRed", chance=0.003});

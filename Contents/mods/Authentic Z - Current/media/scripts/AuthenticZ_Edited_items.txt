@@ -11,7 +11,7 @@ module AuthenticZClothing {
 		Tooltip 				= 	Tooltip_SheetRope,
 		WorldStaticModel 		= 	SheetRope,
 		AttachmentType  		= 	Rope,
-		StaticModel 			= 	SheetRope,
+		StaticModel 			= 	SheetRopeAZ,
 	}
     item Rope
     {

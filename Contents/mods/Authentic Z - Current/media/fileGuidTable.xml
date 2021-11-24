@@ -2979,7 +2979,79 @@
 	<files>
 		<path>media/clothing/clothingItems/Bag_L4DeadMedkit_LHand.xml</path>
 		<guid>c2b04368-5323-4216-ae85-8defa0dd12d4</guid>
-	</files>    	
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_Schoolbag_Tier1.xml</path>
+		<guid>daadbc50-d63f-4799-9a2f-76228ffba8d9</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_Schoolbag_Tier2.xml</path>
+		<guid>22885f81-91a1-44e9-a89d-98d39afed867</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_Schoolbag_Tier3.xml</path>
+		<guid>2aaa3d69-3c44-42e7-a42b-3d2f8bf6373b</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_DuffelBag_Tier1.xml</path>
+		<guid>d5594b81-b867-4721-8a61-e53032e1dfaa</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_DuffelBag_Tier2.xml</path>
+		<guid>f3c5b353-261a-4e1d-80d0-2a5d58833e3d</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_DuffelBag_Tier3.xml</path>
+		<guid>15c78a09-bc3b-4ba8-a02a-b8987d92ccd2</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_HikingBag_Tier1.xml</path>
+		<guid>1305ed8e-ee38-4908-b61c-027d30a92f1f</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_HikingBag_Tier2.xml</path>
+		<guid>c8a6a618-5552-42b2-85d1-15d15d39e845</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_HikingBag_Tier3.xml</path>
+		<guid>5d490dbd-d99c-43f6-9354-c236d181e253</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_BigHikingBag_Tier1.xml</path>
+		<guid>98a35178-29ee-468c-9ac0-432b535304b8</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_BigHikingBag_Tier2.xml</path>
+		<guid>bbeabd36-7399-4860-9ddb-0a88cff88581</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_BigHikingBag_Tier3.xml</path>
+		<guid>3891f798-ad05-44c7-b156-8c478d2b32a2</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_ALICEpack_Tier1.xml</path>
+		<guid>c6917fb8-a37d-485f-9c3d-e3b48e328578</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_ALICEpack_Tier2.xml</path>
+		<guid>897db190-ccc6-4362-97ad-e1035e717391</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_ALICEpack_Tier3.xml</path>
+		<guid>dd9f0771-ebb0-4ebe-8307-0afbcb262db7</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_ALICEpack_Army_Tier1.xml</path>
+		<guid>d855b8ef-696a-4027-8cb8-887666e73579</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_ALICEpack_Army_Tier2.xml</path>
+		<guid>9d68dcb0-333f-482e-a392-7ff6bbd8b99c</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_ALICEpack_Army_Tier3.xml</path>
+		<guid>c860f8d0-c06a-47dc-b3ac-87da962f750d</guid>
+	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Bag_SchoolBagCEDA_LHand.xml</path>
 		<guid>c4e21028-49d6-410a-86fc-e2fa099472ef</guid>
@@ -2992,6 +3064,54 @@
 		<path>media/clothing/clothingItems/Bag_SchoolBagCEDA.xml</path>
 		<guid>52ec5d5b-4a43-482f-aaf3-d9932b203466</guid>
 	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_SchoolBagCEDA_Tier_1.xml</path>
+		<guid>055b260c-439f-40ba-8aac-cabcbe1c6fff</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_SchoolBagCEDA_Tier_2.xml</path>
+		<guid>da44937b-3fcd-4dc4-b692-b829521af014</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_SchoolBagCEDA_Tier_3.xml</path>
+		<guid>d9be54b7-8de5-4137-87ba-3a39b12dd774</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_SchoolBagCEDABlack_Tier_1.xml</path>
+		<guid>366f5c48-c85c-43e5-9ee1-8305db8394c1</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_SchoolBagCEDABlack_Tier_2.xml</path>
+		<guid>dd687c23-f909-4cbc-803c-557653dbf463</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_SchoolBagCEDABlack_Tier_3.xml</path>
+		<guid>07f168bf-9d53-4906-8a51-24e72f3bffef</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_SchoolBagCEDARed_Tier_1.xml</path>
+		<guid>905a0918-740d-4ab7-923c-575a122a3db5</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_SchoolBagCEDARed_Tier_2.xml</path>
+		<guid>b724da49-926b-469b-968a-3377a3de8fb3</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_SchoolBagCEDARed_Tier_3.xml</path>
+		<guid>ac9f8b97-1271-4dd7-b5aa-577b3c7f4a03</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_SchoolBagCEDABlue_Tier_1.xml</path>
+		<guid>02173644-813f-42ac-8594-e95e8d1c5de0</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_SchoolBagCEDABlue_Tier_2.xml</path>
+		<guid>62380c9b-a504-4021-9522-ce65513444f4</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_SchoolBagCEDABlue_Tier_3.xml</path>
+		<guid>20be7c22-89e1-43c2-a419-3072c2e26cc4</guid>
+	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Bag_SchoolBagCEDARed_LHand.xml</path>
 		<guid>9e419463-f19f-43ac-8262-1f4f384276f9</guid>

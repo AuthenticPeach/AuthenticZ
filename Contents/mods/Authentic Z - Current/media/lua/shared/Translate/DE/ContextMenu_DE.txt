@@ -1,0 +1,5 @@
+ContextMenu_DE = {
+	ContextMenu_Loosen = "Lösen",
+	ContextMenu_Tighten = "Verfestigen",
+	ContextMenu_TieOnWaist = "Um Taille binden",
+} 

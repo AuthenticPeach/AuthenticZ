@@ -1,4 +1,3 @@
-require "recipecode"
 require "XpSystem/XpUpdate";
 
 Recipe = {}

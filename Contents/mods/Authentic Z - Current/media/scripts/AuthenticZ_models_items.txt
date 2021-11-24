@@ -437,4 +437,10 @@ module Base
 		mesh = Static/Clothes/WorldItem_DSLR,
 		texture = clothes\Items\Camera,
     }
+	model SheetRopeAZ
+	{
+		mesh = SheetRopeAZ,
+		texture = WorldItems/SheetRope,
+		scale = 0.15,
+	}	
 }

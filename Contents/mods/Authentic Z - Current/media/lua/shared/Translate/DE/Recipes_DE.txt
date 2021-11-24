@@ -1,0 +1,36 @@
+Recipes_DE = {
+	Recipe_Convert_into_Wearable = "Zum Tragbaren umkonvertieren",
+	Recipe_Convert_into_Item = "Zum Gegenstand umkonvertieren",
+	Recipe_Convert_into_Melee = "Zur Nahkampfwaffe umkonvertieren",
+	Recipe_Convert_to_Torch = "Zur Fackel Umkonvertieren",
+	Recipe_Dismantle_Military_Flashlight = "Militär Taschenlampe Demontieren",	
+	Recipe_Insert_Battery_into_Military_Flashlight = "Batterie in Militär Taschenlampe Einfügen",	
+	Recipe_Make_a_Stack_of_Money= "Geldstapel Herstellen",
+	Recipe_Tie_Balloons_Together = "Balloons zusammenbinden",
+	Recipe_Draw_Hitlist_1 = "Draw Hitlist 1",
+	Recipe_Draw_Hitlist_2 = "Draw Hitlist 2",
+	Recipe_Draw_Hitlist_3 = "Draw Hitlist 3",
+	Recipe_Remove_Battery = "Batterie entnehmen",		
+	Recipe_Tie_Hoodie_Around_Waist = "Pullie Um Taille wickeln",
+
+	/* Neu hinzugefügt von hollaming */
+
+	Recipe_Dismantle_Headphones = "Kopfhöhrer Demontieren",
+	Recipe_Install_Light_Mechanism = "Licht Mechanismus Installieren",
+	Recipe_Insert_Battery_into_Flashlight = "Batterie in Taschenlampe Einfügen",
+	Recipe_Insert_Battery_into_Miner_Hat = "Batterie in Bergmann Hut Einfügen",
+	Recipe_Wear_Satchel_With_Bag = "Beutel mit Rucksack Tragen",
+	
+	Recipe_Open_Umbrella = "Regenschirm Öffnen",	
+	Recipe_Close_Umbrella = "Regenschirm Schließen",
+	Recipe_Make_Attachable = "Anstecker Herstellen",	
+	Recipe_Make_Carabiner_Clip = "Karabiner Clip Herstellen",
+	Recipe_Make_Secondary_Bag = "Sekundär Rucksack Herstellen",
+	Recipe_Upgrade_School_Bag = "Schulrucksack Aufrüsten",	
+	Recipe_Upgrade_Duffelbag = "Seesack Aufrüsten",	
+	Recipe_Upgrade_Hiking_Bag = "Wander Rucksack Aufrüsten",
+	Recipe_Upgrade_Big_Hiking_Bag = "Großen Wander Rucksack Aufrüsten",
+	Recipe_Upgrade_Alicepack = "Alicepack Aufrüsten",
+	Recipe_Upgrade_Camo_Alicepack = "Militär Rucksack Aufrüsten",		
+	
+	}

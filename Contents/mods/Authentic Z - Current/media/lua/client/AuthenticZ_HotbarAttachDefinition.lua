@@ -49,7 +49,8 @@ local SchoolbagItemSlot1 = {
 		Explosive = "Schoolbag Explosive Slot 1",
 		AuthenticExplosive = "Schoolbag AuthenticExplosive Slot 1",		
 		GasMask = "Schoolbag GasMask Slot 1",
-		Walkie = "Schoolbag Walkie Slot 1",		
+		Walkie = "Schoolbag Walkie Slot 1",
+		Hammer = "Schoolbag Walkie Slot 1",		
 	},
 }
 table.insert(ISHotbarAttachDefinition, SchoolbagItemSlot1);
@@ -64,7 +65,8 @@ local SchoolbagItemSlot2 = {
 		Explosive = "Schoolbag Explosive Slot 2",
 		AuthenticExplosive = "Schoolbag AuthenticExplosive Slot 2",		
 		GasMask = "Schoolbag GasMask Slot 2",
-		Walkie = "Schoolbag Walkie Slot 2",		
+		Walkie = "Schoolbag Walkie Slot 2",
+		Hammer = "Schoolbag Walkie Slot 2",			
 	},
 }
 table.insert(ISHotbarAttachDefinition, SchoolbagItemSlot2);
@@ -80,6 +82,7 @@ local SchoolbagItemSlot3 = { --Tier 1 Middle Slot
 		AuthenticExplosive = "Schoolbag AuthenticExplosive Slot 3",		
 		GasMask = "Schoolbag GasMask Slot 3",
 		Walkie = "Schoolbag Walkie Slot 3",
+		Hammer = "Schoolbag Walkie Slot 3",			
 	},
 }
 table.insert(ISHotbarAttachDefinition, SchoolbagItemSlot3);
@@ -217,6 +220,7 @@ local DufflebagItemSlot1 = {
 		AuthenticExplosive 	= "Dufflebag AuthenticExplosive Slot 1",		
 		GasMask 			= "Dufflebag GasMask Slot 1",
 		Walkie 				= "Dufflebag Walkie Slot 1",
+		Hammer 				= "Dufflebag Walkie Slot 1",			
 	},
 }
 table.insert(ISHotbarAttachDefinition, DufflebagItemSlot1);
@@ -231,7 +235,8 @@ local DufflebagItemSlot2 = {
 		Explosive 			= "Dufflebag Explosive Slot 2",
 		AuthenticExplosive 	= "Dufflebag AuthenticExplosive Slot 2",		
 		GasMask 			= "Dufflebag GasMask Slot 2",
-		Walkie 				= "Dufflebag Walkie Slot 2",		
+		Walkie 				= "Dufflebag Walkie Slot 2",	
+		Hammer 				= "Dufflebag Walkie Slot 2",		
 	},
 }
 table.insert(ISHotbarAttachDefinition, DufflebagItemSlot2);
@@ -246,7 +251,8 @@ local DufflebagItemSlot3 = { --Tier 1 Middle Slot
 		Explosive 			= "Dufflebag Explosive Slot 3",
 		AuthenticExplosive 	= "Dufflebag AuthenticExplosive Slot 3",		
 		GasMask 			= "Dufflebag GasMask Slot 3",
-		Walkie 				= "Dufflebag Walkie Slot 3",		
+		Walkie 				= "Dufflebag Walkie Slot 3",
+		Hammer 				= "Dufflebag Walkie Slot 3",		
 	},
 }
 table.insert(ISHotbarAttachDefinition, DufflebagItemSlot3);
@@ -322,6 +328,7 @@ local HikingBagItemSlot1 = {
 		AuthenticExplosive = "HikingBag AuthenticExplosive Slot 1",		
 		GasMask 	= "HikingBag GasMask Slot 1",		
 		Walkie 		= "HikingBag Walkie Slot 1",
+		Hammer 		= "HikingBag Walkie Slot 1",		
 	},
 }
 table.insert(ISHotbarAttachDefinition, HikingBagItemSlot1);
@@ -336,7 +343,8 @@ local HikingBagItemSlot2 = {
 		Explosive = "HikingBag Explosive Slot 2",
 		AuthenticExplosive = "HikingBag AuthenticExplosive Slot 2",		
 		GasMask = "HikingBag GasMask Slot 2",
-		Walkie 	= "HikingBag Walkie Slot 2",		
+		Walkie 	= "HikingBag Walkie Slot 2",
+		Hammer 	= "HikingBag Walkie Slot 2",		
 	},
 }
 table.insert(ISHotbarAttachDefinition, HikingBagItemSlot2);
@@ -351,7 +359,8 @@ local HikingBagItemSlot3 = { --Tier 1 Middle Slot
 		Explosive = "HikingBag Explosive Slot 3",
 		AuthenticExplosive = "HikingBag AuthenticExplosive Slot 3",		
 		GasMask = "HikingBag GasMask Slot 3",
-		Walkie 	= "HikingBag Walkie Slot 3",		
+		Walkie 	= "HikingBag Walkie Slot 3",
+		Hammer 	= "HikingBag Walkie Slot 3",		
 	},
 }
 table.insert(ISHotbarAttachDefinition, HikingBagItemSlot3);
@@ -447,7 +456,8 @@ local BigHikingbagItemSlot1 = {
 		Explosive = "BigHikingBag Explosive Slot 1",
 		AuthenticExplosive = "BigHikingBag AuthenticExplosive Slot 1",		
 		GasMask = "BigHikingBag GasMask Slot 1",
-		Walkie 	= "BigHikingBag Walkie Slot 1",		
+		Walkie 	= "BigHikingBag Walkie Slot 1",
+		Hammer 	= "BigHikingBag Walkie Slot 1",		
 	},
 }
 table.insert(ISHotbarAttachDefinition, BigHikingbagItemSlot1);
@@ -462,7 +472,8 @@ local BigHikingbagItemSlot2 = {
 		Explosive = "BigHikingBag Explosive Slot 2",
 		AuthenticExplosive = "BigHikingBag AuthenticExplosive Slot 2",		
 		GasMask = "BigHikingBag GasMask Slot 2",	
-		Walkie 	= "BigHikingBag Walkie Slot 2",		
+		Walkie 	= "BigHikingBag Walkie Slot 2",	
+		Hammer 	= "BigHikingBag Walkie Slot 2",			
 	},
 }
 table.insert(ISHotbarAttachDefinition, BigHikingbagItemSlot2);
@@ -477,7 +488,8 @@ local BigHikingbagItemSlot3 = {
 		Explosive = "BigHikingBag Explosive Slot 3",
 		AuthenticExplosive = "BigHikingBag AuthenticExplosive Slot 3",		
 		GasMask = "BigHikingBag GasMask Slot 3",	
-		Walkie 	= "BigHikingBag Walkie Slot 3",			
+		Walkie 	= "BigHikingBag Walkie Slot 3",
+		Hammer 	= "BigHikingBag Walkie Slot 3",			
 	},
 }
 table.insert(ISHotbarAttachDefinition, BigHikingbagItemSlot3);
@@ -492,7 +504,8 @@ local BigHikingbagItemSlot4 = {
 		Explosive = "BigHikingBag Explosive Slot 4",
 		AuthenticExplosive = "BigHikingBag AuthenticExplosive Slot 4",		
 		GasMask = "BigHikingBag GasMask Slot 4",
-		Walkie 	= "BigHikingBag Walkie Slot 4",			
+		Walkie 	= "BigHikingBag Walkie Slot 4",	
+		Hammer 	= "BigHikingBag Walkie Slot 4",			
 	},
 }
 table.insert(ISHotbarAttachDefinition, BigHikingbagItemSlot4);
@@ -589,7 +602,8 @@ local AlicepackItemSlot1 = {
 		Explosive = "Alicepack Explosive Slot 1",
 		AuthenticExplosive = "Alicepack AuthenticExplosive Slot 1",		
 		GasMask = "Alicepack GasMask Slot 1",		
-		Walkie 	= "Alicepack Walkie Slot 1",			
+		Walkie 	= "Alicepack Walkie Slot 1",
+		Hammer 	= "Alicepack Walkie Slot 1",			
 	},
 }
 table.insert(ISHotbarAttachDefinition, AlicepackItemSlot1);
@@ -604,7 +618,8 @@ local AlicepackItemSlot2 = {
 		Explosive = "Alicepack Explosive Slot 2",
 		AuthenticExplosive = "Alicepack AuthenticExplosive Slot 2",		
 		GasMask = "Alicepack GasMask Slot 2",
-		Walkie 	= "Alicepack Walkie Slot 2",		
+		Walkie 	= "Alicepack Walkie Slot 2",
+		Hammer 	= "Alicepack Walkie Slot 2",		
 	},
 }
 table.insert(ISHotbarAttachDefinition, AlicepackItemSlot2);
@@ -619,7 +634,8 @@ local AlicepackItemSlot3 = {
 		Explosive = "Alicepack Explosive Slot 3",
 		AuthenticExplosive = "Alicepack AuthenticExplosive Slot 3",		
 		GasMask = "Alicepack GasMask Slot 3",
-		Walkie 	= "Alicepack Walkie Slot 3",		
+		Walkie 	= "Alicepack Walkie Slot 3",
+		Hammer 	= "Alicepack Walkie Slot 3",		
 	},
 }
 table.insert(ISHotbarAttachDefinition, AlicepackItemSlot3);
@@ -634,7 +650,8 @@ local AlicepackItemSlot4 = {
 		Explosive = "Alicepack Explosive Slot 4",
 		AuthenticExplosive = "Alicepack AuthenticExplosive Slot 4",		
 		GasMask = "Alicepack GasMask Slot 4",
-		Walkie 	= "Alicepack Walkie Slot 4",		
+		Walkie 	= "Alicepack Walkie Slot 4",
+		Hammer 	= "Alicepack Walkie Slot 4",		
 	},
 }
 table.insert(ISHotbarAttachDefinition, AlicepackItemSlot4);
@@ -649,7 +666,8 @@ local AlicepackItemSlot5 = {
 		Explosive = "Alicepack Explosive Slot 5",
 		AuthenticExplosive = "Alicepack AuthenticExplosive Slot 5",		
 		GasMask = "Alicepack GasMask Slot 5",
-		Walkie 	= "Alicepack Walkie Slot 5",		
+		Walkie 	= "Alicepack Walkie Slot 5",
+		Hammer 	= "Alicepack Walkie Slot 5",		
 	},
 }
 table.insert(ISHotbarAttachDefinition, AlicepackItemSlot5);

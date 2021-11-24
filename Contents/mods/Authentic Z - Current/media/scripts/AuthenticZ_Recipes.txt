@@ -424,6 +424,20 @@ recipe Make Attachable
    	   Result:AuthenticZClothing.SheetRope,
 	   Time:30.0,
   	}
+recipe Revert Attachable
+  	{
+   	   AuthenticZClothing.Rope,
+
+   	   Result:Rope,
+	   Time:30.0,
+  	}	
+recipe Revert Attachable
+  	{
+   	   AuthenticZClothing.SheetRope,
+
+   	   Result:SheetRope,
+	   Time:30.0,
+  	}	
 recipe Make Attachable
   	{
    	   AerosolbombTriggered,
@@ -627,20 +641,27 @@ recipe Make Attachable
    	   Result:AuthenticZClothing.Pop3,
 	   Time:30.0,
   	}	
-recipe Make Attachable
+recipe Revert Attachable
   	{
-   	   GardenSaw,
+   	   AuthenticZClothing.Saw,
 
-   	   Result:AuthenticZClothing.GardenSaw,
-	   Time:30.0,
-  	}	
-recipe Make Attachable
-  	{
-   	   Saw,
-
-   	   Result:AuthenticZClothing.Saw,
+   	   Result:Saw,
 	   Time:30.0,
   	}
+recipe Revert Attachable
+  	{
+   	   AuthenticZClothing.GardenSaw,
+
+   	   Result:GardenSaw,
+	   Time:30.0,
+  	}	
+recipe Revert Attachable
+  	{
+   	   AuthenticZClothing.PipeBomb,
+
+   	   Result:PipeBomb,
+	   Time:30.0,
+  	}	
 recipe Make Attachable
   	{
    	   PopBottleEmpty,
