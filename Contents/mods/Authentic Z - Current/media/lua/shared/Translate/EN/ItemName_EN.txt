@@ -656,4 +656,8 @@ ItemName_EN = {
 	/* New */	
 	ItemName_AuthenticZClothing.ToyBearSmall = "Teddy Bear",	
 	ItemName_AuthenticZClothing.SpiffoGrey = "PAWS Spiffo",
+	ItemName_AuthenticZClothing.SpiffoPlushieHeart = "Heart Spiffo",
+	ItemName_AuthenticZClothing.SpiffoPlushieBlueberry = "Blueberry Spiffo",
+	ItemName_AuthenticZClothing.SpiffoPlushieShamrock = "Shamrock Spiffo",
+	ItemName_AuthenticZClothing.SpiffoPlushieRainbow = "Rainbow Spiffo",	
 }

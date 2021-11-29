@@ -135,8 +135,16 @@ AuthenticZ.tab_addMagProcedural_Plushies  = function(x,count)
   ProceduralDistributions.list[x].items = ProceduralDistributions.list[x].items or {};
   table.insert(ProceduralDistributions.list[x].items,"AuthenticZClothing.SpiffoGrey");
   table.insert(ProceduralDistributions.list[x].items, count);
-  table.insert(ProceduralDistributions.list[x].items,"AuthenticZClothing.ToyBearSmall");
+  table.insert(ProceduralDistributions.list[x].items,"AuthenticZClothing.ToyBearSmall");  
+  table.insert(ProceduralDistributions.list[x].items, count);
+  table.insert(ProceduralDistributions.list[x].items,"AuthenticZClothing.SpiffoPlushieBlueberry");
   table.insert(ProceduralDistributions.list[x].items, count);  
+  table.insert(ProceduralDistributions.list[x].items,"AuthenticZClothing.SpiffoPlushieHeart");
+  table.insert(ProceduralDistributions.list[x].items, count);
+  table.insert(ProceduralDistributions.list[x].items,"AuthenticZClothing.SpiffoPlushieRainbow");
+  table.insert(ProceduralDistributions.list[x].items, count);     
+  table.insert(ProceduralDistributions.list[x].items,"AuthenticZClothing.SpiffoPlushieShamrock");
+  table.insert(ProceduralDistributions.list[x].items, count);   
 end
 
 AuthenticZ.tab_addMagProcedural_items("BookstoreBooks",1.0);
