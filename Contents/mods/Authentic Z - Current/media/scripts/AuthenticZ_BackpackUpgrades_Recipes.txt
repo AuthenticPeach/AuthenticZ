@@ -82,6 +82,71 @@ recipe Tie Balloons Together
         ReplaceInPrimaryHand 	= 	Bag_Schoolbag_RHand holdingbagright,
         WorldStaticModel 	 	= 	SchoolBag_Ground,
     }
+	item Bag_SchoolBagNBH_Tier_1
+    {
+        WeightReduction			=	60,
+        Weight					=	1,
+        Type					=	Container,
+        Capacity				=	16,
+        DisplayName				=	NBH Hazmat Pack - Tier 1,
+        Icon 					= 	Backpack_Grey,
+        CanBeEquipped 			= 	Back,
+        OpenSound   			=   OpenBag,
+        CloseSound   			=   CloseBag,
+        PutInSound   			=   PutItemInBag,
+        ClothingItem 			= 	Bag_SchoolBagNBH_Tier_1,
+        BloodLocation 			= 	Bag,
+        RunSpeedModifier 		= 	0.97,
+        AttachmentReplacement	= 	Bag,
+		AttachmentsProvided  	= 	SchoolbagBagSecondary;SchoolbagBottleRight;SchoolbagBalloonRight,		
+        ReplaceInSecondHand 	= 	Bag_SchoolBagNBH_LHand holdingbagleft,
+        ReplaceInPrimaryHand	= 	Bag_SchoolBagNBH_RHand holdingbagright,
+        WorldStaticModel 	 	= 	SchoolBag_Ground,
+    }
+
+	item Bag_SchoolBagNBH_Tier_2
+    {
+        WeightReduction			=	60,
+        Weight					=	1,
+        Type					=	Container,
+        Capacity				=	17,
+        DisplayName				=	NBH Hazmat Pack - Tier 2,
+        Icon 					= 	Backpack_Grey,
+        CanBeEquipped 			= 	Back,
+        OpenSound   			=   OpenBag,
+        CloseSound   			=   CloseBag,
+        PutInSound   			=   PutItemInBag,
+        ClothingItem 			= 	Bag_SchoolBagNBH_Tier_2,
+        BloodLocation 			= 	Bag,
+        RunSpeedModifier 		= 	0.97,
+        AttachmentReplacement	= 	Bag,
+		AttachmentsProvided  	= 	SchoolbagBagSecondary;SchoolbagItemSlot1;SchoolbagBottleRight;SchoolbagPlushie;SchoolbagUmbrellaLeft;SchoolbagBalloonRight,		
+        ReplaceInSecondHand 	= 	Bag_SchoolBagNBH_LHand holdingbagleft,
+        ReplaceInPrimaryHand 	= 	Bag_SchoolBagNBH_RHand holdingbagright,
+        WorldStaticModel 	 	= 	SchoolBag_Ground,
+    }
+
+	item Bag_SchoolBagNBH_Tier_3
+    {
+        WeightReduction			=	60,
+        Weight					=	1,
+        Type					=	Container,
+        Capacity				=	18,
+        DisplayName				=	NBH Hazmat Pack - Tier 3,
+        Icon				 	=	Backpack_Grey,
+        CanBeEquipped 			= 	Back,
+        OpenSound   			=   OpenBag,
+        CloseSound   			=   CloseBag,
+        PutInSound   			=   PutItemInBag,
+        ClothingItem 			= 	Bag_SchoolBagNBH_Tier_3,
+        BloodLocation 			= 	Bag,
+        RunSpeedModifier 		= 	0.97,
+        AttachmentReplacement	= 	Bag,
+		AttachmentsProvided  	= 	SchoolbagBagSecondary;SchoolbagItemSlot2;SchoolbagItemSlot3;SchoolbagBottleRight;SchoolbagPlushie;SchoolbagUmbrellaLeft;SchoolbagFlashlight;SchoolbagBalloonRight,		
+        ReplaceInSecondHand 	= 	Bag_SchoolBagNBH_LHand holdingbagleft,
+        ReplaceInPrimaryHand 	= 	Bag_SchoolBagNBH_RHand holdingbagright,
+        WorldStaticModel 	 	= 	SchoolBag_Ground,
+    }	
 	item Bag_SchoolBagCEDA_Tier_1
     {
         WeightReduction			=	60,
@@ -985,124 +1050,135 @@ recipe Make Secondary Bag
 	   Time:80.0,
   	}		
 
-recipe Revert to Normal Bag
+recipe Reuse Bag
   	{
 	   Plasticbag_Secondary,
 
-   	   Result:Plasticbag,
-	   OnCreate:Recipe.OnCreate.ReturnCarabiner,
-       OnGiveXP:Recipe.OnGiveXP.None,	   
-	   Time:80.0,
+	   CanBeDoneFromFloor:true,
+	   OnCreate:PleaseKeepColor,
+   	   Result:Plasticbag_Secondary,
+	   Time:30.0,
   	}
 
-recipe Revert to Normal Bag
+recipe Reuse Bag
   	{
 	   Garbagebag_Secondary,
 
-   	   Result:Garbagebag,
-	   OnCreate:Recipe.OnCreate.ReturnCarabiner,	
-	   OnGiveXP:Recipe.OnGiveXP.None,
-	   Time:80.0,
+	   CanBeDoneFromFloor:true,
+	   OnCreate:PleaseKeepColor,
+   	   Result:Garbagebag_Secondary,
+	   Time:30.0,
   	}	
 
-recipe Revert to Normal Bag
+recipe Reuse Bag
   	{
 	   Handbag_Secondary,
-   	   Result:Handbag,
-	   OnCreate:Recipe.OnCreate.ReturnCarabiner,	
-	   OnGiveXP:Recipe.OnGiveXP.None,	   
-	   Time:80.0,
+
+	   CanBeDoneFromFloor:true,	   
+	   OnCreate:PleaseKeepColor,
+   	   Result:Handbag_Secondary,
+	   Time:30.0,
   	}	
 
-recipe Revert to Normal Bag
+recipe Reuse Bag
   	{
 	   Purse_Secondary,
-
-   	   Result:Purse,
-	   OnCreate:Recipe.OnCreate.ReturnCarabiner,
-	   OnGiveXP:Recipe.OnGiveXP.None,	   
-	   Time:80.0,
+	   
+	   CanBeDoneFromFloor:true,
+	   OnCreate:PleaseKeepColor,
+   	   Result:Purse_Secondary,
+	   Time:30.0,
   	}
 
-recipe Revert to Normal Bag
+recipe Reuse Bag
   	{
 	   Tote_Secondary,
 
-   	   Result:Tote,
-	   OnCreate:Recipe.OnCreate.ReturnCarabiner,	
-	   OnGiveXP:Recipe.OnGiveXP.None,	   
-	   Time:80.0,
+	   CanBeDoneFromFloor:true,
+	   OnCreate:PleaseKeepColor,
+   	   Result:Tote_Secondary,
+	   Time:30.0,
   	}
 
-recipe Revert to Normal Bag
+recipe Reuse Bag
   	{
 	   EmptySandbag_Secondary,
 
-   	   Result:EmptySandbag,
-	   OnCreate:Recipe.OnCreate.ReturnCarabiner,	
-	   OnGiveXP:Recipe.OnGiveXP.None,	   
-	   Time:80.0,
+	   CanBeDoneFromFloor:true,
+	   OnCreate:PleaseKeepColor,
+   	   Result:EmptySandbag_Secondary,
+	   Time:30.0,
   	}
 	
-recipe Revert to Normal Bag
+recipe Reuse Bag
   	{
 	   Toolbox_Secondary,
 
-   	   Result:Toolbox,
-	   OnCreate:Recipe.OnCreate.ReturnCarabiner,
-	   OnGiveXP:Recipe.OnGiveXP.None,	   
-	   Time:80.0,
+	   CanBeDoneFromFloor:true,
+	   OnCreate:PleaseKeepColor,
+   	   Result:Toolbox_Secondary,
+	   Time:30.0,
   	}
 	
-recipe Revert to Normal Bag
+recipe Reuse Bag
   	{
 	   FirstAidKit_Secondary,
 
-   	   Result:FirstAidKit,
-	   OnCreate:Recipe.OnCreate.ReturnCarabiner,	
-	   OnGiveXP:Recipe.OnGiveXP.None,	   
-	   Time:80.0,
+	   CanBeDoneFromFloor:true,
+	   OnCreate:PleaseKeepColor,
+   	   Result:FirstAidKit_Secondary,
+	   Time:30.0,
   	}	
 
-recipe Revert to Normal Bag
+recipe Reuse Bag
   	{
-	   Lunchbox,
+	   Lunchbox_Secondary,
 
+	   CanBeDoneFromFloor:true,
+	   OnCreate:PleaseKeepColor,
    	   Result:Lunchbox_Secondary,
-	   OnCreate:Recipe.OnCreate.ReturnCarabiner,
-       OnGiveXP:Recipe.OnGiveXP.None,	   
-	   Time:80.0,
+	   Time:30.0,
   	}
 	
-recipe Revert to Normal Bag
+recipe Reuse Bag
   	{
 	   Lunchbox2_Secondary,
 
-   	   Result:Lunchbox2,
-	   OnCreate:Recipe.OnCreate.ReturnCarabiner,
-       OnGiveXP:Recipe.OnGiveXP.None,	   
-	   Time:80.0,
+	   CanBeDoneFromFloor:true,
+	   OnCreate:PleaseKeepColor,
+   	   Result:Lunchbox2_Secondary,
+	   Time:30.0,
   	}	
 
-recipe Revert to Normal Bag
+recipe Reuse Bag
   	{
 	   PistolCase_Secondary,
 
-   	   Result:PistolCase1,
-	   OnCreate:Recipe.OnCreate.ReturnCarabiner,
-       OnGiveXP:Recipe.OnGiveXP.None,	   
-	   Time:80.0,
+	   CanBeDoneFromFloor:true,
+	   OnCreate:PleaseKeepColor,
+   	   Result:PistolCase_Secondary,
+	   Time:30.0,
   	}
 
-recipe Revert to Normal Bag
+recipe Reuse Bag
   	{
 	   SeedBag_Secondary,
 
-   	   Result:SeedBag,
-	   OnCreate:Recipe.OnCreate.ReturnCarabiner,
-       OnGiveXP:Recipe.OnGiveXP.None,	   
-	   Time:80.0,
+	   CanBeDoneFromFloor:true,
+	   OnCreate:PleaseKeepColor,
+   	   Result:SeedBag_Secondary,
+	   Time:30.0,
   	}
+
+recipe Reuse Bag
+  	{
+	   Bag_L4DeadMedkit,
+
+	   CanBeDoneFromFloor:true,	   
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_L4DeadMedkit,	   
+	   Time:30.0,
+  	}	
 	
 recipe Upgrade School Bag
   	{
@@ -1114,8 +1190,8 @@ recipe Upgrade School Bag
 
 	   OnCreate:PleaseKeepColor,
    	   Result:Bag_Schoolbag_Tier_1,
-	   OnGiveXP:Recipe.OnGiveXP.Tailoring20,	   
-	   Time:100.0,
+	   OnGiveXP:Give20TailoringXP,	   
+	   Time:300.0,
        AnimNode:Disassemble,	   
 	   Category:Tailoring,
 	   
@@ -1130,8 +1206,8 @@ recipe Upgrade School Bag
 
 	   OnCreate:PleaseKeepColor,
    	   Result:Bag_Schoolbag_Tier_2,
-	   OnGiveXP:Recipe.OnGiveXP.Tailoring20,	   
-	   Time:100.0,
+	   OnGiveXP:Give20TailoringXP,	   
+	   Time:300.0,
        AnimNode:Disassemble,	   
 	   SkillRequired:Tailoring=1,	   
 	   Category:Tailoring,
@@ -1147,201 +1223,13 @@ recipe Upgrade School Bag
 	
 	   OnCreate:PleaseKeepColor,	
    	   Result:Bag_Schoolbag_Tier_3,
-       OnGiveXP:Recipe.OnGiveXP.Tailoring20,	   
-	   Time:100.0,
+       OnGiveXP:Give20TailoringXP,	   
+	   Time:300.0,
        AnimNode:Disassemble,	   
 	   SkillRequired:Tailoring=2,	   
 	   Category:Tailoring,
   	}	
-	
-recipe Upgrade CEDA Hazmat Pack
-  	{
-	   Bag_SchoolBagCEDA,	
-	   keep Scissors,
-       keep Needle/SutureNeedle,
-       Thread=3,
-	   LeatherStrips/DenimStrips=3,	   
-
-	   OnCreate:PleaseKeepColor,
-   	   Result:Bag_SchoolBagCEDA_Tier_1,
-	   Time:100.0,
-       AnimNode:Disassemble,	   
-	   Category:Tailoring,
-	   
-  	}
-recipe Upgrade CEDA Hazmat Pack
-  	{
-	   Bag_SchoolBagCEDA_Tier_1,
-		keep Scissors,
-        keep Needle/SutureNeedle,
-       Thread=3,
-	   LeatherStrips/DenimStrips=3,	
-
-	   OnCreate:PleaseKeepColor,
-   	   Result:Bag_SchoolBagCEDA_Tier_2,
-	   Time:100.0,
-       AnimNode:Disassemble,	   
-	   SkillRequired:Tailoring=1,	   
-	   Category:Tailoring,
-  	}	
-
-recipe Upgrade CEDA Hazmat Pack
-  	{
-	   Bag_SchoolBagCEDA_Tier_2,
-		keep Scissors,
-        keep Needle/SutureNeedle,
-       Thread=3,
-	   LeatherStrips/DenimStrips=3,	
-	
-	   OnCreate:PleaseKeepColor,	
-   	   Result:Bag_SchoolBagCEDA_Tier_3,
-	   Time:100.0,
-       AnimNode:Disassemble,	   
-	   SkillRequired:Tailoring=2,	   
-	   Category:Tailoring,
-  	}		
-
-recipe Upgrade CEDA Hazmat Pack
-  	{
-	   Bag_SchoolBagCEDABlack,	
-	   keep Scissors,
-       keep Needle/SutureNeedle,
-       Thread=3,
-	   LeatherStrips/DenimStrips=3,	   
-
-	   OnCreate:PleaseKeepColor,
-   	   Result:Bag_SchoolBagCEDABlack_Tier_1,
-	   Time:100.0,
-       AnimNode:Disassemble,	   
-	   Category:Tailoring,
-	   
-  	}
-recipe Upgrade CEDA Hazmat Pack
-  	{
-	   Bag_SchoolBagCEDABlack_Tier_1,
-		keep Scissors,
-        keep Needle/SutureNeedle,
-       Thread=3,
-	   LeatherStrips/DenimStrips=3,	
-
-	   OnCreate:PleaseKeepColor,
-   	   Result:Bag_SchoolBagCEDABlack_Tier_2,
-	   Time:100.0,
-       AnimNode:Disassemble,	   
-	   SkillRequired:Tailoring=1,	   
-	   Category:Tailoring,
-  	}	
-
-recipe Upgrade CEDA Hazmat Pack
-  	{
-	   Bag_SchoolBagCEDABlack_Tier_2,
-		keep Scissors,
-        keep Needle/SutureNeedle,
-       Thread=3,
-	   LeatherStrips/DenimStrips=3,	
-	
-	   OnCreate:PleaseKeepColor,	
-   	   Result:Bag_SchoolBagCEDABlack_Tier_3,
-	   Time:100.0,
-       AnimNode:Disassemble,	   
-	   SkillRequired:Tailoring=2,	   
-	   Category:Tailoring,
-  	}	
-
-recipe Upgrade CEDA Hazmat Pack
-  	{
-	   Bag_SchoolBagCEDARed,	
-	   keep Scissors,
-       keep Needle/SutureNeedle,
-       Thread=3,
-	   LeatherStrips/DenimStrips=3,	   
-
-	   OnCreate:PleaseKeepColor,
-   	   Result:Bag_SchoolBagCEDARed_Tier_1,
-	   Time:100.0,
-       AnimNode:Disassemble,	   
-	   Category:Tailoring,
-	   
-  	}
-recipe Upgrade CEDA Hazmat Pack
-  	{
-	   Bag_SchoolBagCEDARed_Tier_1,
-		keep Scissors,
-        keep Needle/SutureNeedle,
-       Thread=3,
-	   LeatherStrips/DenimStrips=3,	
-
-	   OnCreate:PleaseKeepColor,
-   	   Result:Bag_SchoolBagCEDARed_Tier_2,
-	   Time:100.0,
-       AnimNode:Disassemble,	   
-	   SkillRequired:Tailoring=1,	   
-	   Category:Tailoring,
-  	}	
-
-recipe Upgrade CEDA Hazmat Pack
-  	{
-	   Bag_SchoolBagCEDARed_Tier_2,
-		keep Scissors,
-        keep Needle/SutureNeedle,
-       Thread=3,
-	   LeatherStrips/DenimStrips=3,	
-	
-	   OnCreate:PleaseKeepColor,	
-   	   Result:Bag_SchoolBagCEDARed_Tier_3,
-	   Time:100.0,
-       AnimNode:Disassemble,	   
-	   SkillRequired:Tailoring=2,	   
-	   Category:Tailoring,
-  	}
-
-recipe Upgrade CEDA Hazmat Pack
-  	{
-	   Bag_SchoolBagCEDABlue,	
-	   keep Scissors,
-       keep Needle/SutureNeedle,
-       Thread=3,
-	   LeatherStrips/DenimStrips=3,	   
-
-	   OnCreate:PleaseKeepColor,
-   	   Result:Bag_SchoolBagCEDABlue_Tier_1,
-	   Time:100.0,
-       AnimNode:Disassemble,	   
-	   Category:Tailoring,
-	   
-  	}
-recipe Upgrade CEDA Hazmat Pack
-  	{
-	   Bag_SchoolBagCEDABlue_Tier_1,
-		keep Scissors,
-        keep Needle/SutureNeedle,
-       Thread=3,
-	   LeatherStrips/DenimStrips=3,	
-
-	   OnCreate:PleaseKeepColor,
-   	   Result:Bag_SchoolBagCEDABlue_Tier_2,
-	   Time:100.0,
-       AnimNode:Disassemble,	   
-	   SkillRequired:Tailoring=1,	   
-	   Category:Tailoring,
-  	}	
-
-recipe Upgrade CEDA Hazmat Pack
-  	{
-	   Bag_SchoolBagCEDABlue_Tier_2,
-		keep Scissors,
-        keep Needle/SutureNeedle,
-       Thread=3,
-	   LeatherStrips/DenimStrips=3,	
-	
-	   OnCreate:PleaseKeepColor,	
-   	   Result:Bag_SchoolBagCEDABlue_Tier_3,
-	   Time:100.0,
-       AnimNode:Disassemble,	   
-	   SkillRequired:Tailoring=2,	   
-	   Category:Tailoring,
-  	}
-	
+		
 recipe Upgrade Duffelbag
   	{
 	   Bag_DuffelBag_Tier_1,
@@ -1352,7 +1240,8 @@ recipe Upgrade Duffelbag
 
 	   OnCreate:PleaseKeepColor,
    	   Result:Bag_Duffelbag_Tier_2,
-	   Time:100.0,
+       OnGiveXP:Give20TailoringXP,	   
+	   Time:300.0,
        AnimNode:Disassemble,	  
 	   SkillRequired:Tailoring=1,
 	   Category:Tailoring,
@@ -1368,7 +1257,8 @@ recipe Upgrade Duffelbag
 
 	   OnCreate:PleaseKeepColor,
    	   Result:Bag_Duffelbag_Tier_3,
-	   Time:100.0,
+       OnGiveXP:Give20TailoringXP,	   
+	   Time:300.0,
        AnimNode:Disassemble,	   
 	   SkillRequired:Tailoring=2,
 	   Category:Tailoring,
@@ -1384,7 +1274,8 @@ recipe Upgrade Hiking Bag
 
 	   OnCreate:PleaseKeepColor,
    	   Result:Bag_NormalHikingBag_Tier_1,
-	   Time:100.0,
+       OnGiveXP:Give20TailoringXP,	   
+	   Time:300.0,
        AnimNode:Disassemble,	   	
 	   Category:Tailoring,
   	}
@@ -1398,7 +1289,8 @@ recipe Upgrade Hiking Bag
 
 	   OnCreate:PleaseKeepColor,
    	   Result:Bag_NormalHikingBag_Tier_2,
-	   Time:100.0,
+       OnGiveXP:Give20TailoringXP,	   
+	   Time:300.0,
        AnimNode:Disassemble,	   
 	   SkillRequired:Tailoring=1,	   
 	   Category:Tailoring,
@@ -1414,7 +1306,8 @@ recipe Upgrade Hiking Bag
 
 	   OnCreate:PleaseKeepColor,
    	   Result:Bag_NormalHikingBag_Tier_3,
-	   Time:100.0,
+       OnGiveXP:Give20TailoringXP,	   
+	   Time:300.0,
        AnimNode:Disassemble,	   
 	   SkillRequired:Tailoring=2,	   
 	   Category:Tailoring,
@@ -1430,7 +1323,8 @@ recipe Upgrade Big Hiking Bag
 
 	   OnCreate:PleaseKeepColor,
    	   Result:Bag_BigHikingBag_Tier_1,
-	   Time:100.0,
+       OnGiveXP:Give20TailoringXP,	   
+	   Time:300.0,
        AnimNode:Disassemble,	   	
 	   Category:Tailoring, 
   	}
@@ -1444,7 +1338,8 @@ recipe Upgrade Big Hiking Bag
 
 	   OnCreate:PleaseKeepColor,
    	   Result:Bag_BigHikingBag_Tier_2,
-	   Time:100.0,
+       OnGiveXP:Give20TailoringXP,	   
+	   Time:300.0,
        AnimNode:Disassemble,	   
 	   SkillRequired:Tailoring=1,	   
 	   Category:Tailoring,
@@ -1460,7 +1355,8 @@ recipe Upgrade Big Hiking Bag
 
 	   OnCreate:PleaseKeepColor,
    	   Result:Bag_BigHikingBag_Tier_3,
-	   Time:100.0,
+       OnGiveXP:Give20TailoringXP,	   
+	   Time:300.0,
        AnimNode:Disassemble,	   
 	   SkillRequired:Tailoring=2,	   
 	   Category:Tailoring, 
@@ -1474,8 +1370,10 @@ recipe Upgrade Alicepack
        Thread=3,
 	   LeatherStrips/DenimStrips=3,	
 
+	   OnCreate:PleaseKeepColor,
    	   Result:Bag_ALICEpack_Tier_1,
-	   Time:100.0,
+       OnGiveXP:Give20TailoringXP,	   
+	   Time:300.0,
        AnimNode:Disassemble,	   
 	   Category:Tailoring,
   	}
@@ -1487,8 +1385,10 @@ recipe Upgrade Alicepack
        Thread=3,
 	   LeatherStrips/DenimStrips=3,	
 
+	   OnCreate:PleaseKeepColor,
    	   Result:Bag_ALICEpack_Tier_2,
-	   Time:100.0,
+       OnGiveXP:Give20TailoringXP,	   
+	   Time:300.0,
        AnimNode:Disassemble,
 	   SkillRequired:Tailoring=1,	   
 	   Category:Tailoring,
@@ -1502,8 +1402,10 @@ recipe Upgrade Alicepack
        Thread=3,
 	   LeatherStrips/DenimStrips=3,	
 
+	   OnCreate:PleaseKeepColor,
    	   Result:Bag_ALICEpack_Tier_3,
-	   Time:100.0,
+       OnGiveXP:Give20TailoringXP,	   
+	   Time:300.0,
        AnimNode:Disassemble,	   
 	   SkillRequired:Tailoring=2,
 	   Category:Tailoring,
@@ -1517,8 +1419,10 @@ recipe Upgrade Camo Alicepack
        Thread=3,
 	   LeatherStrips/DenimStrips=3,	
 
+	   OnCreate:PleaseKeepColor,
    	   Result:Bag_ALICEpack_Army_Tier_1,
-	   Time:100.0,
+       OnGiveXP:Give20TailoringXP,	   
+	   Time:300.0,
        AnimNode:Disassemble
 	   Category:Tailoring,	   
   	}
@@ -1530,8 +1434,10 @@ recipe Upgrade Camo Alicepack
        Thread=3,
 	   LeatherStrips/DenimStrips=3,	
 
+	   OnCreate:PleaseKeepColor,
    	   Result:Bag_ALICEpack_Army_Tier_2,
-	   Time:100.0,
+       OnGiveXP:Give20TailoringXP,	   
+	   Time:300.0,
        AnimNode:Disassemble,
 	   SkillRequired:Tailoring=1,	   
 	   Category:Tailoring,
@@ -1545,11 +1451,499 @@ recipe Upgrade Camo Alicepack
        Thread=3,
 	   LeatherStrips/DenimStrips=3,	
 
+	   OnCreate:PleaseKeepColor,
    	   Result:Bag_ALICEpack_Army_Tier_3,
-	   Time:100.0,
+       OnGiveXP:Give20TailoringXP,	   
+	   Time:300.0,
        AnimNode:Disassemble,
 	   SkillRequired:Tailoring=2,	   
 	   Category:Tailoring,   
   	}		
+
+
+	/*Modded Backpacks*/	
+
+
+recipe Upgrade NBH Hazmat Pack
+  	{
+	   Bag_SchoolBagNBH,	
+	   keep Scissors,
+       keep Needle/SutureNeedle,
+       Thread=3,
+	   LeatherStrips/DenimStrips=3,	   
+
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_SchoolBagNBH_Tier_1,
+       OnGiveXP:Give20TailoringXP,	   
+	   Time:300.0,
+       AnimNode:Disassemble,	   
+	   Category:Tailoring,
+	   
+  	}
+recipe Upgrade NBH Hazmat Pack
+  	{
+	   Bag_SchoolBagNBH_Tier_1,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=3,
+	   LeatherStrips/DenimStrips=3,	
+
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_SchoolBagNBH_Tier_2,
+       OnGiveXP:Give20TailoringXP,	   
+	   Time:300.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=1,	   
+	   Category:Tailoring,
+  	}	
+
+recipe Upgrade NBH Hazmat Pack
+  	{
+	   Bag_SchoolBagNBH_Tier_2,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=3,
+	   LeatherStrips/DenimStrips=3,	
+	
+	   OnCreate:PleaseKeepColor,	
+   	   Result:Bag_SchoolBagNBH_Tier_3,
+       OnGiveXP:Give20TailoringXP,	   
+	   Time:300.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=2,	   
+	   Category:Tailoring,
+  	}		
+
+recipe Upgrade CEDA Hazmat Pack
+  	{
+	   Bag_SchoolBagCEDA,	
+	   keep Scissors,
+       keep Needle/SutureNeedle,
+       Thread=3,
+	   LeatherStrips/DenimStrips=3,	   
+
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_SchoolBagCEDA_Tier_1,
+       OnGiveXP:Give20TailoringXP,	   
+	   Time:300.0,
+       AnimNode:Disassemble,	   
+	   Category:Tailoring,
+	   
+  	}
+recipe Upgrade CEDA Hazmat Pack
+  	{
+	   Bag_SchoolBagCEDA_Tier_1,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=3,
+	   LeatherStrips/DenimStrips=3,	
+
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_SchoolBagCEDA_Tier_2,
+       OnGiveXP:Give20TailoringXP,	   
+	   Time:300.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=1,	   
+	   Category:Tailoring,
+  	}	
+
+recipe Upgrade CEDA Hazmat Pack
+  	{
+	   Bag_SchoolBagCEDA_Tier_2,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=3,
+	   LeatherStrips/DenimStrips=3,	
+	
+	   OnCreate:PleaseKeepColor,	
+   	   Result:Bag_SchoolBagCEDA_Tier_3,
+       OnGiveXP:Give20TailoringXP,	   
+	   Time:300.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=2,	   
+	   Category:Tailoring,
+  	}		
+
+recipe Upgrade CEDA Hazmat Pack
+  	{
+	   Bag_SchoolBagCEDABlack,	
+	   keep Scissors,
+       keep Needle/SutureNeedle,
+       Thread=3,
+	   LeatherStrips/DenimStrips=3,	   
+
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_SchoolBagCEDABlack_Tier_1,
+       OnGiveXP:Give20TailoringXP,	   
+	   Time:300.0,
+       AnimNode:Disassemble,	   
+	   Category:Tailoring,
+	   
+  	}
+recipe Upgrade CEDA Hazmat Pack
+  	{
+	   Bag_SchoolBagCEDABlack_Tier_1,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=3,
+	   LeatherStrips/DenimStrips=3,	
+
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_SchoolBagCEDABlack_Tier_2,
+       OnGiveXP:Give20TailoringXP,	   
+	   Time:300.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=1,	   
+	   Category:Tailoring,
+  	}	
+
+recipe Upgrade CEDA Hazmat Pack
+  	{
+	   Bag_SchoolBagCEDABlack_Tier_2,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=3,
+	   LeatherStrips/DenimStrips=3,	
+	
+	   OnCreate:PleaseKeepColor,	
+   	   Result:Bag_SchoolBagCEDABlack_Tier_3,
+       OnGiveXP:Give20TailoringXP,	   
+	   Time:300.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=2,	   
+	   Category:Tailoring,
+  	}	
+
+recipe Upgrade CEDA Hazmat Pack
+  	{
+	   Bag_SchoolBagCEDARed,	
+	   keep Scissors,
+       keep Needle/SutureNeedle,
+       Thread=3,
+	   LeatherStrips/DenimStrips=3,	   
+
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_SchoolBagCEDARed_Tier_1,
+       OnGiveXP:Give20TailoringXP,	   
+	   Time:300.0,
+       AnimNode:Disassemble,	   
+	   Category:Tailoring,
+	   
+  	}
+recipe Upgrade CEDA Hazmat Pack
+  	{
+	   Bag_SchoolBagCEDARed_Tier_1,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=3,
+	   LeatherStrips/DenimStrips=3,	
+
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_SchoolBagCEDARed_Tier_2,
+       OnGiveXP:Give20TailoringXP,	   
+	   Time:300.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=1,	   
+	   Category:Tailoring,
+  	}	
+
+recipe Upgrade CEDA Hazmat Pack
+  	{
+	   Bag_SchoolBagCEDARed_Tier_2,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=3,
+	   LeatherStrips/DenimStrips=3,	
+	
+	   OnCreate:PleaseKeepColor,	
+   	   Result:Bag_SchoolBagCEDARed_Tier_3,
+       OnGiveXP:Give20TailoringXP,	   
+	   Time:300.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=2,	   
+	   Category:Tailoring,
+  	}
+
+recipe Upgrade CEDA Hazmat Pack
+  	{
+	   Bag_SchoolBagCEDABlue,	
+	   keep Scissors,
+       keep Needle/SutureNeedle,
+       Thread=3,
+	   LeatherStrips/DenimStrips=3,	   
+
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_SchoolBagCEDABlue_Tier_1,
+       OnGiveXP:Give20TailoringXP,	   
+	   Time:300.0,
+       AnimNode:Disassemble,	   
+	   Category:Tailoring,
+	   
+  	}
+recipe Upgrade CEDA Hazmat Pack
+  	{
+	   Bag_SchoolBagCEDABlue_Tier_1,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=3,
+	   LeatherStrips/DenimStrips=3,	
+
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_SchoolBagCEDABlue_Tier_2,
+       OnGiveXP:Give20TailoringXP,	   
+	   Time:300.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=1,	   
+	   Category:Tailoring,
+  	}	
+
+recipe Upgrade CEDA Hazmat Pack
+  	{
+	   Bag_SchoolBagCEDABlue_Tier_2,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=3,
+	   LeatherStrips/DenimStrips=3,	
+	
+	   OnCreate:PleaseKeepColor,	
+   	   Result:Bag_SchoolBagCEDABlue_Tier_3,
+       OnGiveXP:Give20TailoringXP,	   
+	   Time:300.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=2,	   
+	   Category:Tailoring,
+  	}
+
+	item Bag_B4BMom_Tier_1
+    {
+        WeightReduction			=	60,
+        Weight					=	1,
+        Type					=	Container,
+        Capacity				=	16,
+        DisplayName				=	Mom's Backpack - Tier 1,
+        Icon 					= 	Backpack_Mom,
+        CanBeEquipped 			= 	Back,
+        OpenSound   			=   OpenBag,
+        CloseSound   			=   CloseBag,
+        PutInSound   			=   PutItemInBag,
+        ClothingItem 			= 	Bag_B4BMom_Tier_1,
+        BloodLocation 			= 	Bag,
+        RunSpeedModifier 		= 	0.97,
+        AttachmentReplacement	= 	Bag,
+		AttachmentsProvided  	= 	SchoolbagBagSecondary;SchoolbagBottleRight;SchoolbagBalloonRight,		
+        ReplaceInSecondHand 	= 	Bag_B4BMom_LHand holdingbagleft,
+        ReplaceInPrimaryHand	= 	Bag_B4BMom_RHand holdingbagright,
+        WorldStaticModel 		= 	WorldItem_BackpackMom,
+    }
+
+	item Bag_B4BMom_Tier_2
+    {
+        WeightReduction			=	60,
+        Weight					=	1,
+        Type					=	Container,
+        Capacity				=	17,
+        DisplayName				=	Mom's Backpack - Tier 2,
+        Icon 					= 	Backpack_Mom,
+        CanBeEquipped 			= 	Back,
+        OpenSound   			=   OpenBag,
+        CloseSound   			=   CloseBag,
+        PutInSound   			=   PutItemInBag,
+        ClothingItem 			= 	Bag_B4BMom_Tier_2,
+        BloodLocation 			= 	Bag,
+        RunSpeedModifier 		= 	0.97,
+        AttachmentReplacement	= 	Bag,
+		AttachmentsProvided  	= 	SchoolbagBagSecondary;SchoolbagItemSlot1;SchoolbagBottleRight;SchoolbagPlushie;SchoolbagUmbrellaLeft;SchoolbagBalloonRight,		
+        ReplaceInSecondHand 	= 	Bag_B4BMom_LHand holdingbagleft,
+        ReplaceInPrimaryHand	= 	Bag_B4BMom_RHand holdingbagright,
+        WorldStaticModel 		= 	WorldItem_BackpackMom,
+    }
+
+	item Bag_B4BMom_Tier_3
+    {
+        WeightReduction			=	60,
+        Weight					=	1,
+        Type					=	Container,
+        Capacity				=	18,
+        DisplayName				=	Mom's Backpack - Tier 3,
+        Icon				 	=	Backpack_Mom,
+        CanBeEquipped 			= 	Back,
+        OpenSound   			=   OpenBag,
+        CloseSound   			=   CloseBag,
+        PutInSound   			=   PutItemInBag,
+        ClothingItem 			= 	Bag_B4BMom_Tier_3,
+        BloodLocation 			= 	Bag,
+        RunSpeedModifier 		= 	0.97,
+        AttachmentReplacement	= 	Bag,
+		AttachmentsProvided  	= 	SchoolbagBagSecondary;SchoolbagItemSlot2;SchoolbagItemSlot3;SchoolbagBottleRight;SchoolbagPlushie;SchoolbagUmbrellaLeft;SchoolbagFlashlight;SchoolbagBalloonRight,		
+        ReplaceInSecondHand 	= 	Bag_B4BMom_LHand holdingbagleft,
+        ReplaceInPrimaryHand	= 	Bag_B4BMom_RHand holdingbagright,
+        WorldStaticModel 		= 	WorldItem_BackpackMom,
+    }	
+
+recipe Upgrade Moms Backpack
+  	{
+	   Bag_B4BMom,	
+	   keep Scissors,
+       keep Needle/SutureNeedle,
+       Thread=3,
+	   LeatherStrips/DenimStrips=3,	   
+
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_B4BMom_Tier_1,
+       OnGiveXP:Give20TailoringXP,	   
+	   Time:300.0,
+       AnimNode:Disassemble,	   
+	   Category:Tailoring,
+	   
+  	}
+recipe Upgrade Moms Backpack
+  	{
+	   Bag_B4BMom_Tier_1,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=3,
+	   LeatherStrips/DenimStrips=3,	
+
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_B4BMom_Tier_2,
+       OnGiveXP:Give20TailoringXP,	   
+	   Time:300.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=1,	   
+	   Category:Tailoring,
+  	}	
+
+recipe Upgrade Moms Backpack
+  	{
+	   Bag_B4BMom_Tier_2,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=3,
+	   LeatherStrips/DenimStrips=3,	
+	
+	   OnCreate:PleaseKeepColor,	
+   	   Result:Bag_B4BMom_Tier_3,
+       OnGiveXP:Give20TailoringXP,	   
+	   Time:300.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=2,	   
+	   Category:Tailoring,
+  	}
+
+    item Bag_B4BHolly_Tier_1
+    {
+        WeightReduction			=	70,
+        Weight					=	1.2,
+        Type					=	Container,
+        Capacity				=	21,
+        DisplayName				=	Holly's Backpack - Tier 1,
+        Icon					=	Backpack_Holly,
+        CanBeEquipped 			= 	Back,
+        OpenSound   			=   OpenBag,
+        CloseSound   			=   CloseBag,
+        PutInSound   			=   PutItemInBag,
+        ClothingItem 			= 	Bag_B4BHolly_Tier_1,
+        BloodLocation 			= 	Bag,
+        RunSpeedModifier 		= 	0.96,
+        AttachmentReplacement 	= 	Bag,
+		AttachmentsProvided  	= 	HikingbagSecondary;HikingBagItemSlot1;HikingBagBottleRight;HikingBagPlushie;HikingbagUmbrellaLeft;SchoolbagBalloonRight,			
+        ReplaceInSecondHand 	= 	Bag_B4BHolly_LHand holdingbagleft,
+        ReplaceInPrimaryHand	= 	Bag_B4BHolly_RHand holdingbagright,
+        WorldStaticModel 		= 	WorldItem_BackpackHolly,
+    }
+	
+    item Bag_B4BHolly_Tier_2
+    {
+        WeightReduction			=	70,
+        Weight					=	1.2,
+        Type					=	Container,
+        Capacity				=	22,
+        DisplayName				=	Holly's Backpack - Tier 2,
+        Icon					=	Backpack_Holly,
+        CanBeEquipped 			= 	Back,
+        OpenSound   			=   OpenBag,
+        CloseSound   			=   CloseBag,
+        PutInSound   			=   PutItemInBag,
+        ClothingItem 			= 	Bag_B4BHolly_Tier_2,
+        BloodLocation 			= 	Bag,
+        RunSpeedModifier		= 	0.96,
+        AttachmentReplacement 	= 	Bag,
+		AttachmentsProvided  	= 	HikingbagSecondary;HikingBagItemSlot1;HikingBagItemSlot2;HikingBagBottleRight;HikingBagPlushie;HikingbagUmbrellaLeft;SchoolbagBalloonRight,				
+        ReplaceInSecondHand 	= 	Bag_B4BHolly_LHand holdingbagleft,
+        ReplaceInPrimaryHand	= 	Bag_B4BHolly_RHand holdingbagright,
+        WorldStaticModel 		=	WorldItem_BackpackHolly,
+    }	
+ 
+    item Bag_B4BHolly_Tier_3
+    {
+        WeightReduction			=	70,
+        Weight					=	1.2,
+        Type					=	Container,
+        Capacity				=	23,
+        DisplayName				=	Holly's Backpack - Tier 3,
+        Icon					=	Backpack_Holly,
+        CanBeEquipped 			= 	Back,
+        OpenSound   			=   OpenBag,
+        CloseSound  			=   CloseBag,
+        PutInSound   			=   PutItemInBag,
+        ClothingItem 			= 	Bag_B4BHolly_Tier_3,
+        BloodLocation 			= 	Bag,
+        RunSpeedModifier 		= 	0.96,
+        AttachmentReplacement 	= 	Bag,
+		AttachmentsProvided  	= 	HikingbagSecondary;HikingBagItemSlot1;HikingBagItemSlot2;HikingBagItemSlot3;HikingBagBottleRight;HikingBagBottleLeft;HikingBagPlushie;HikingbagUmbrellaLeft;HikingBagFlashlight;SchoolbagBalloonRight,					
+        ReplaceInSecondHand 	= 	Bag_B4BHolly_LHand holdingbagleft,
+        ReplaceInPrimaryHand	=	Bag_B4BHolly_RHand holdingbagright,
+        WorldStaticModel 		= 	WorldItem_BackpackHolly,
+    }	
+
+recipe Upgrade Hollys Backpack
+  	{
+	   Bag_B4BHolly,	
+	   keep Scissors,
+       keep Needle/SutureNeedle,
+       Thread=3,
+	   LeatherStrips/DenimStrips=3,	   
+
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_B4BHolly_Tier_1,
+       OnGiveXP:Give20TailoringXP,	   
+	   Time:300.0,
+       AnimNode:Disassemble,	   
+	   Category:Tailoring,
+	   
+  	}
+recipe Upgrade Hollys Backpack
+  	{
+	   Bag_B4BHolly_Tier_1,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=3,
+	   LeatherStrips/DenimStrips=3,	
+
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_B4BHolly_Tier_2,
+       OnGiveXP:Give20TailoringXP,	   
+	   Time:300.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=1,	   
+	   Category:Tailoring,
+  	}	
+
+recipe Upgrade Hollys Backpack
+  	{
+	   Bag_B4BHolly_Tier_2,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=3,
+	   LeatherStrips/DenimStrips=3,	
+	
+	   OnCreate:PleaseKeepColor,	
+   	   Result:Bag_B4BHolly_Tier_3,
+       OnGiveXP:Give20TailoringXP,	   
+	   Time:300.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=2,	   
+	   Category:Tailoring,
+  	}
 
 }		

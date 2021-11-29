@@ -541,7 +541,7 @@ ItemName_EN = {
 	ItemName_AuthenticZClothing.Bag_L4DeadMedkit = "First Aid Kit",
 	ItemName_AuthenticZClothing.Bag_Satchel = "Satchel",
 	
-	/* New */	
+	/* 11-24-21 Update */	
 	ItemName_AuthenticZClothing.Shorts_LongSportBluePurple = "Purple Long Sport Shorts",
 	ItemName_AuthenticZClothing.Shorts_LongSportLightBlue = "Light Blue Long Sport Shorts",	
 	ItemName_AuthenticZClothing.Shorts_LongSportNeon = "Neon Long Sport Shorts",
@@ -627,5 +627,33 @@ ItemName_EN = {
 	ItemName_AuthenticZClothing.Lunchbox_Secondary = "Lunchbox",
 	ItemName_AuthenticZClothing.Lunchbox2_Secondary = "Lunchbox",	
 	ItemName_AuthenticZClothing.PistolCase_Secondary = "Gun Case",
+
+	/* 11-26-21 update */	
+	ItemName_AuthenticZClothing.AuthenticCigaretteHolder = "Cigarette Holder"
+	ItemName_AuthenticZClothing.Bag_SchoolBagCEDA_Tier_1 = "CEDA Hazmat Pack - Tier 1",	
+	ItemName_AuthenticZClothing.Bag_SchoolBagCEDA_Tier_2 = "CEDA Hazmat Pack - Tier 2",
+	ItemName_AuthenticZClothing.Bag_SchoolBagCEDA_Tier_3 = "CEDA Hazmat Pack - Tier 3",
+	ItemName_AuthenticZClothing.Bag_SchoolBagCEDABlack_Tier_1 = "CEDA Hazmat Pack - Tier 1",	
+	ItemName_AuthenticZClothing.Bag_SchoolBagCEDABlack_Tier_2 = "CEDA Hazmat Pack - Tier 2",
+	ItemName_AuthenticZClothing.Bag_SchoolBagCEDABlack_Tier_3 = "CEDA Hazmat Pack - Tier 3",
+	ItemName_AuthenticZClothing.Bag_SchoolBagCEDARed_Tier_1 = "CEDA Hazmat Pack - Tier 1",	
+	ItemName_AuthenticZClothing.Bag_SchoolBagCEDARed_Tier_2 = "CEDA Hazmat Pack - Tier 2",
+	ItemName_AuthenticZClothing.Bag_SchoolBagCEDARed_Tier_3 = "CEDA Hazmat Pack - Tier 3",
+	ItemName_AuthenticZClothing.Bag_SchoolBagCEDABlue_Tier_1 = "CEDA Hazmat Pack - Tier 1",	
+	ItemName_AuthenticZClothing.Bag_SchoolBagCEDABlue_Tier_2 = "CEDA Hazmat Pack - Tier 2",
+	ItemName_AuthenticZClothing.Bag_SchoolBagCEDABlue_Tier_3 = "CEDA Hazmat Pack - Tier 3",
 	
+	ItemName_AuthenticZClothing.Bag_SchoolBagNBH_Tier_1 = "NBH Hazmat Pack - Tier 1",	
+	ItemName_AuthenticZClothing.Bag_SchoolBagNBH_Tier_2 = "NBH Hazmat Pack - Tier 2",
+	ItemName_AuthenticZClothing.Bag_SchoolBagNBH_Tier_3 = "NBH Hazmat Pack - Tier 3",
+	ItemName_AuthenticZClothing.Bag_B4BMom_Tier_1 = "Mom's Backpack - Tier 1",	
+	ItemName_AuthenticZClothing.Bag_B4BMom_Tier_2 = "Mom's Backpack - Tier 2",
+	ItemName_AuthenticZClothing.Bag_B4BMom_Tier_3 = "Mom's Backpack - Tier 3",
+	ItemName_AuthenticZClothing.Bag_B4BHolly_Tier_1 = "Holly's Backpack - Tier 1",	
+	ItemName_AuthenticZClothing.Bag_B4BHolly_Tier_2 = "Holly's Backpack - Tier 2",
+	ItemName_AuthenticZClothing.Bag_B4BHolly_Tier_3 = "Holly's Backpack - Tier 3",
+
+	/* New */	
+	ItemName_AuthenticZClothing.ToyBearSmall = "Teddy Bear",	
+	ItemName_AuthenticZClothing.SpiffoGrey = "PAWS Spiffo",
 }

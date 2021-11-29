@@ -1,8 +1,0 @@
-IGUI_EN = {
-
-    IGUI_Hair_BigAfro = "Big Afro",
-    IGUI_Hair_DukeBuzzCut = "Short Buzz Cut",
-    IGUI_Hair_Balding = "Balding",
-    IGUI_Beard_ThinMoustache = "Thin Moustache",
-
-}

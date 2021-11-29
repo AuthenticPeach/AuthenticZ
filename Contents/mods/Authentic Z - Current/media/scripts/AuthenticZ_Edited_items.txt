@@ -940,6 +940,17 @@ module AuthenticZClothing {
 		StaticModel 			= 	SpiffoPlushie,		
 	}
 	
+    item SpiffoGrey
+	{
+		Weight					=	0.2,
+		Type					=	Normal,
+		DisplayName				=	PAWS Spiffo,
+		Icon					=	PlushSpiffoGrey,
+		WorldStaticModel 		= 	SpiffoPlushieGrey,
+        AttachmentType  		= 	SpiffoPlushie,
+		StaticModel 			= 	SpiffoPlushieGrey,		
+	}	
+	
     item Doll
     {
         Type				=			Normal,
@@ -960,7 +971,18 @@ module AuthenticZClothing {
 		WorldStaticModel 	= 	ToyBear,
         AttachmentType  	= 	TeddyBear,		
 		StaticModel 		= 	ToyBear,	
-	}	
+	}
+
+	item ToyBearSmall
+	{
+		Weight				=	0.2,
+		Type				=	Normal,
+		DisplayName			=	Toy Bear,
+		Icon				=	ToyBear,
+		WorldStaticModel 	= 	ToyBearSmall,
+        AttachmentType  	= 	SpiffoPlushie,		
+		StaticModel 		= 	ToyBearSmall,	
+	}		
 	
 	item PopBottleEmpty
 	{

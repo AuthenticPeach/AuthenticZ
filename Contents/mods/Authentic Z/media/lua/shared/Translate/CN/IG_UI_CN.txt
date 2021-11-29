@@ -1,8 +1,0 @@
-IGUI_CN = {
-
-    IGUI_Hair_BigAfro = "爆炸头",
-    IGUI_Hair_DukeBuzzCut = "短寸",
-    IGUI_Hair_Balding = "地中海",
-    IGUI_Beard_ThinMoustache = "小胡子",
-
-}

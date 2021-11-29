@@ -9,7 +9,7 @@ module AuthenticZClothing {
         DisplayName	=	Zombie Hit-list #1,
 		Map = media/ui/LootableMaps/PZAZ_hitlist.png,
         Icon	=	PZAZ_hitlist,
-		WorldStaticModel = Map,
+		WorldStaticModel = Hit-list1Map,
 	}
 	item PZAZ_HitList2
 	{
@@ -18,7 +18,7 @@ module AuthenticZClothing {
         DisplayName	=	Zombie Hit-list #2,
 		Map = media/ui/LootableMaps/PZAZ_hitlist_2.png,
         Icon	=	PZAZ_hitlist,
-		WorldStaticModel = Map,
+		WorldStaticModel = Hit-list2Map,
 	}
 	item PZAZ_HitList3
 	{
@@ -27,7 +27,7 @@ module AuthenticZClothing {
         DisplayName	=	Zombie Hit-list #3,
 		Map = media/ui/LootableMaps/PZAZ_hitlist_3.png,
         Icon	=	PZAZ_hitlist,
-		WorldStaticModel = Map,
+		WorldStaticModel = Hit-list3Map,
 	}
     item Authentic_AndyBoard
     {
@@ -469,6 +469,24 @@ module AuthenticZClothing {
 		WorldStaticModel 		= 	AuthenticCanteenSilver,	
 		AttachmentType  		= 	Canteen,			
 	}
+	item AuthenticCigaretteHolder
+	{
+		Count				=	5,
+		HungerChange		=	0,
+		Weight				=	0.1,
+		RequireInHandOrInventory	=	Lighter/Matches,
+		Type				=	Food,
+		DisplayName			=	Cigarette Holder,
+		StressChange		=	-10,
+		Icon				=	CigaretteHolder,
+		CustomContextMenu 	= Smoke,
+		CantBeFrozen 	 	= TRUE,
+		OnEat 			 	= OnEat_Cigarettes,
+		StaticModel 	 	= AuthenticCigaretteHolder,
+		EatType 		 	= Cigarettes,
+		WorldStaticModel 	= WorldItem-CigaretteHolder,
+		CustomEatSound 		= ,
+	}	
     item AuthenticCricketBat
 	{
 		MaxRange			=	1.25,
@@ -544,7 +562,7 @@ module AuthenticZClothing {
 		MetalValue 			= 	10,
 		cantBeConsolided 	=	TRUE,
 		StaticModel 		=	Authentic_MilitaryFlashlightGreen,
-		AttachmentType	 	 =  MilitaryFlashlight,
+		AttachmentType	 	=   MilitaryFlashlight,
 		primaryAnimMask 	=	HoldingTorchRight,
         secondaryAnimMask 	=	HoldingTorchLeft,
 		WorldStaticModel 	= 	Authentic_MilitaryFlashlightGreen,			
@@ -1328,10 +1346,11 @@ module AuthenticZClothing {
 		TreeDamage 	=   0,
 		EnduranceMod 	= 0.5,
         	CriticalChance	=	0,
-        	MinDamage	=	0.1,
-        	MaxDamage	=	0.1,
-		WeaponLength 	= 0.15,
-		Tags		= Write,
+        	MinDamage		=	0.1,
+        	MaxDamage		=	0.1,
+		WeaponLength 		= 	0.15,
+		Tags				= 	Write,
+		AttachmentType 		= 	AuthenticExplosive,		
 	}
     item Authentic_Pills
     {
@@ -1369,7 +1388,8 @@ module AuthenticZClothing {
         MaxDamage	=	0.1,
         BaseSpeed = 1,
         WeaponLength = 0.1,		
-		AttachmentType = Hammer,
+		AttachmentType = Sodacan,
+		WorldStaticModel = WorldItem-PillBottle,		
     }
 
     item Authentic_WalkieTalkie
@@ -1529,11 +1549,11 @@ module AuthenticZClothing {
         MinDamage	=	0.3,
         MaxDamage	=	0.7,
 		WeaponLength = 0.19,
-        DamageCategory = Slash,
-        DamageMakeHole = TRUE,
+        DamageCategory 	= Slash,
+        DamageMakeHole 	= TRUE,
         HitFloorSound	=	BladeHit,
-        ImpactSound	=	BladeHit,
-		HitSound	=	BladeHit,
+        ImpactSound		=	BladeHit,
+		HitSound		=	BladeHit,
 		AttachmentType = Knife,
         Tags = CutPlant,
  	}

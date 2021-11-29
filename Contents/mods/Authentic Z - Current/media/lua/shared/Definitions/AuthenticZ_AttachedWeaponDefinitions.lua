@@ -223,6 +223,18 @@ AttachedWeaponDefinitions.StopSign= {
 	},
 }
 
+AttachedWeaponDefinitions.CigaretteHolder= {
+	id = "AuthenticCigaretteHolder",
+	chance = 100,
+	outfit = {"AuthenticLadyD"},
+	weaponLocation =  {"Left Hand Item"},
+	bloodLocations = nil,
+	addHoles = false,
+	daySurvived = 0,
+	weapons = {
+		"AuthenticZClothing.AuthenticCigaretteHolder",
+	},
+}
 
 AttachedWeaponDefinitions.chainsawAsh= {
 	id = "chainsawAshEvilDead",
@@ -1046,23 +1058,28 @@ AttachedWeaponDefinitions.AuthenticWalkieTalkie = {
 	},
 }
 
-AttachedWeaponDefinitions.AuthenticWalkieTalkie2 = {
-	id = "AuthenticWalkieTalkie2",
+AttachedWeaponDefinitions.AuthenticCanteen = {
+	id = "AuthenticCanteen",
 	chance = 100,
-	outfit = {"AuthenticShotgunFace"},
-	weaponLocation = {"WalkieTalkie Left", "WalkieTalkie Right"},
+	outfit = {"PrivateMilitia","AuthenticDayZHeroBleu", "AuthenticB4BHoffman", "AuthenticSurvivorHazardSuit", "AuthenticSurvivorPolice", "AuthenticSurvivorRanger"},
+	weaponLocation = {"Canteen Left", "Canteen Right"},
 	bloodLocations = nil,
 	addHoles = false,
 	daySurvived = 0,
 	weapons = {
-    "Radio.WalkieTalkie1",
+    "AuthenticZClothing.AuthenticCanteenSilver",
+	"AuthenticZClothing.AuthenticCanteenGrey",
+	"AuthenticZClothing.AuthenticCanteenForestGreen",
+	"AuthenticZClothing.AuthenticCanteenDarkGrey",
+	"AuthenticZClothing.AuthenticCanteenDarkGreen",
+	"AuthenticZClothing.AuthenticCanteenCadetBlue",
 	},
 }
 
 AttachedWeaponDefinitions.AuthenticCanteen = {
 	id = "AuthenticCanteen",
 	chance = 100,
-	outfit = {"AuthenticB4BHoffman", "AuthenticSurvivorHazardSuit", "AuthenticSurvivorPolice", "AuthenticSurvivorRanger"},
+	outfit = {"AuthenticSurvivorPolice", "AuthenticSurvivorRanger"},
 	weaponLocation = {"Canteen Left", "Canteen Right"},
 	bloodLocations = nil,
 	addHoles = false,
@@ -1126,12 +1143,6 @@ AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticB4BHoffman = {
 		AttachedWeaponDefinitions.AuthenticCanteen,
 		AttachedWeaponDefinitions.AuthenticMilitaryFlashlight,
 		AttachedWeaponDefinitions.AuthenticZoey,
-	},
-}
-AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticShotgunFace = {
-	chance = 100;
-	weapons = {
-		AttachedWeaponDefinitions.WalkieTalkie2,
 	},
 }
 AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticB4BHolly = {
@@ -1374,6 +1385,12 @@ AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticLeatherFace = {
 		AttachedWeaponDefinitions.chainsawAsh,
 	},
 }
+AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticLadyD = {
+	chance = 100;
+	weapons = {
+		AttachedWeaponDefinitions.CigaretteHolder,
+	},
+}
 AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticDRTrueEyeCult = {
 	chance = 100;
 	weapons = {
@@ -1423,6 +1440,7 @@ AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticDayZHeroBleu = {
 	maxitem = 2;
 	weapons = {
 		AttachedWeaponDefinitions.AuthenticDianneCaldwell,
+		AttachedWeaponDefinitions.AuthenticCanteen,		
 	},
 }
 AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticGrindhouseCherry = {
@@ -1589,6 +1607,7 @@ AttachedWeaponDefinitions.attachedWeaponCustomOutfit.PrivateMilitia = {
 		AttachedWeaponDefinitions.handgunHolster,
 		AttachedWeaponDefinitions.knivesBelt,
 		AttachedWeaponDefinitions.nightstick,
+		AttachedWeaponDefinitions.AuthenticCanteen,		
 	},
 }
 

@@ -1,6 +1,0 @@
--- Encode this file as UTF-8
-UI_EN = {
-
-UI_ClothingType_AmmoStrap2 = "Ammo Strap 2",
-
-}

@@ -1,0 +1,5 @@
+ContextMenu_ES = {
+	ContextMenu_Loosen = "Aflojar",
+	ContextMenu_Tighten = "Ajustar",
+	ContextMenu_TieOnWaist = "Atar alrededor de la cintura",
+} 

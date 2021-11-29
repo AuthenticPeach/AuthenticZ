@@ -1,5 +1,5 @@
 require "recipecode"
-require "XpSystem/XpUpdate";
+require "XpSystem/XpUpdate"
 
 Recipe = {}
 Recipe.GetItemTypes = {}
@@ -28,15 +28,9 @@ function AuthenticTorchBatteryInsert_TestIsValid(sourceItem, result)
 	return true -- the battery
 end
 
-function Recipe.OnCreate.ReturnCarabiner(items, result, player)
-    player:getInventory():AddItem("AuthenticZClothing.AZ_MetalClip");
-end
-
 function Recipe.OnGiveXP.Tailoring20(recipe, ingredients, result, player)
     player:getXp():AddXP(Perks.Tailoring, 100);
 end
 
---Give20TailoringXP = Recipe.OnGiveXP.Tailoring20
 
 Give20TailoringXP = Recipe.OnGiveXP.Tailoring20
-ReturnCarabiner_OnCreate = Recipe.OnCreate.ReturnCarabiner

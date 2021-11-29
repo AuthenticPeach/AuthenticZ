@@ -127,6 +127,18 @@ AuthenticZ.tab_addMagProcedural_Torch2  = function(x,count)
   table.insert(ProceduralDistributions.list[x].items, count);
 end
 
+--Toy Plushies
+AuthenticZ.tab_addMagProcedural_Plushies  = function(x,count)
+  ProceduralDistributions = ProceduralDistributions or {};
+  ProceduralDistributions.list = ProceduralDistributions.list or {};
+  ProceduralDistributions.list[x] = ProceduralDistributions.list[x] or {};
+  ProceduralDistributions.list[x].items = ProceduralDistributions.list[x].items or {};
+  table.insert(ProceduralDistributions.list[x].items,"AuthenticZClothing.SpiffoGrey");
+  table.insert(ProceduralDistributions.list[x].items, count);
+  table.insert(ProceduralDistributions.list[x].items,"AuthenticZClothing.ToyBearSmall");
+  table.insert(ProceduralDistributions.list[x].items, count);  
+end
+
 AuthenticZ.tab_addMagProcedural_items("BookstoreBooks",1.0);
 AuthenticZ.tab_addMagProcedural_items("BookstoreMisc",1.0);
 AuthenticZ.tab_addMagProcedural_items("CrateMagazines",0.5);
@@ -154,13 +166,13 @@ AuthenticZ.tab_addMagProcedural_Carabiner("CrateTools",0.5);
 AuthenticZ.tab_addMagProcedural_Carabiner("GigamartTools",0.5);
 
 
-	AuthenticZ.tab_addMagProcedural_L4DMedkit2("MedicalStorageOutfit",4.0);
-	AuthenticZ.tab_addMagProcedural_L4DMedkit2("MedicalClinicOutfit",2.0);
-	AuthenticZ.tab_addMagProcedural_L4DMedkit2("ChangeroomCounters",0.2);
-	AuthenticZ.tab_addMagProcedural_L4DMedkit("ClassroomMisc",0.1);
-	AuthenticZ.tab_addMagProcedural_L4DMedkit("LibraryCounter",0.1);
-	AuthenticZ.tab_addMagProcedural_L4DMedkit("BathroomCounter",0.1);
-	AuthenticZ.tab_addMagProcedural_L4DMedkit("DaycareCounter",0.1);
+AuthenticZ.tab_addMagProcedural_L4DMedkit2("MedicalStorageOutfit",4.0);
+AuthenticZ.tab_addMagProcedural_L4DMedkit2("MedicalClinicOutfit",2.0);
+AuthenticZ.tab_addMagProcedural_L4DMedkit2("ChangeroomCounters",0.2);
+AuthenticZ.tab_addMagProcedural_L4DMedkit("ClassroomMisc",0.1);
+AuthenticZ.tab_addMagProcedural_L4DMedkit("LibraryCounter",0.1);
+AuthenticZ.tab_addMagProcedural_L4DMedkit("BathroomCounter",0.1);
+AuthenticZ.tab_addMagProcedural_L4DMedkit("DaycareCounter",0.1);
 
 AuthenticZ.tab_addMagProcedural_AZMilitaryFlashlight("ArmyStorageElectronics",1.0);
 AuthenticZ.tab_addMagProcedural_AZMilitaryFlashlight("ArmySurplusHeadwear",4.0);
@@ -181,3 +193,7 @@ AuthenticZ.tab_addMagProcedural_Torch2("GigamartHouseElectronics",2.0);
 AuthenticZ.tab_addMagProcedural_Torch2("ElectronicStoreMisc",1.0);
 AuthenticZ.tab_addMagProcedural_Torch2("CrateElectronics",1.0);
 
+AuthenticZ.tab_addMagProcedural_Plushies("CrateToys",0.001)
+AuthenticZ.tab_addMagProcedural_Plushies("DaycareCounter",0.001)
+AuthenticZ.tab_addMagProcedural_Plushies("DaycareShelves",0.001)
+AuthenticZ.tab_addMagProcedural_Plushies("GigamartToys",0.001)

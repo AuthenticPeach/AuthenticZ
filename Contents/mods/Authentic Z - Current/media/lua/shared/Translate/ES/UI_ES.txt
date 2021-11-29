@@ -1,0 +1,6 @@
+﻿-- Encode this file as UTF-8
+UI_ES = {
+
+UI_ClothingType_AmmoStrap2 = "Correa de municion 2",
+
+}

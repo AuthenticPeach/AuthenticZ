@@ -95,7 +95,7 @@ recipe Convert into Item
 
 recipe Convert into Melee
   	{
-   	   HandTorch,
+   	   destroy HandTorch,
 
    	   Result:TorchMelee,
 	   Time:30.0,
@@ -696,5 +696,16 @@ recipe Make Attachable
 
    	   Result:AuthenticZClothing.PopBottle,
 	   Time:30.0,
-  	}	
+  	}
+	
+	
+	/* Modded - recipe */
+recipe Convert into Wearable
+  	{
+   	   BobiAdds.CigarettesOne,
+
+   	   Result:Cigarette,
+	   Time:30.0,
+  	}
+	
 }		

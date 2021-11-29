@@ -75,6 +75,11 @@ module Base
 		mesh = AuthenticCanteen,
 		texture = clothes\Items\CanteenSilver,
 	}
+	model AuthenticCigaretteHolder
+	{
+		mesh = AuthenticCigaretteHolder,
+		texture = clothes\Items\CigaretteHolder,	
+	}	
 	model AuthenticCricketBat
 	{
 		mesh = Weapons/2Handed/AuthenticCricketBat,
@@ -183,6 +188,24 @@ module Base
 		mesh = GasMaskUnequiped,
 		texture = GasMask,
 	}
+	model Hit-list1Map
+	{
+		mesh = WorldItems/Map,
+		texture = media/ui/LootableMaps/PZAZ_hitlist.png,
+		scale = 0.6,
+	}
+	model Hit-list2Map
+	{
+		mesh = WorldItems/Map,
+		texture = media/ui/LootableMaps/PZAZ_hitlist_2.png,
+		scale = 0.6,
+	}
+	model Hit-list3Map
+	{
+		mesh = WorldItems/Map,
+		texture = media/ui/LootableMaps/PZAZ_hitlist_3.png,
+		scale = 0.6,
+	}	
 	model NewRope
 	{
 		mesh = RopeTan,
@@ -260,6 +283,12 @@ module Base
 		mesh = Remotecontrol,
 		texture = clothes\Items\RemoteControl,
 	}
+    model SpiffoPlushieGrey
+    {
+        mesh = WorldItems/SpiffoPlushie,
+        texture = clothes\Items\SpiffoPlushieGrey,		
+        scale = 0.4,
+    }
 	model ShortMetalSpear
 	{
 		mesh = Weapons/1Handed/ShortMetalSpear,
@@ -280,11 +309,29 @@ module Base
         mesh = Weapons/1Handed/Stake,
 	texture = clothes\Items\RollingPinBloody,
     }
+	model ToyBearSmall
+	{
+		mesh = WorldItems/ToyBear,
+		texture = WorldItems/ToyBear,
+		scale = 0.3,
+	}		
 	model Football3
 	{
 		mesh = ThrowableFootball,
 		texture = WorldItems/Football,
 	}
+    model WeddingVeilBlue_Ground
+    {
+        mesh = WorldItems/WeddingVeil_Ground,
+        texture = clothes\Hats\WeddingVeilBlue,
+        scale = 0.4,
+    }
+    model WeddingVeilPink_Ground
+    {
+        mesh = WorldItems/WeddingVeil_Ground,
+        texture = clothes\Hats\WeddingVeilPink,
+        scale = 0.4,
+    }	
 	model WorldItem_AndySign
 	{
 		mesh = WorldItems/WorldItem_AuthenticAndySign,
@@ -380,6 +427,11 @@ module Base
 		mesh = WorldItems/WorldItem_Chainsaw,
 		texture = chainsaw,		
     }
+	model WorldItem-CigaretteHolder
+    {
+		mesh = WorldItems/WorldItem_AuthenticCigaretteHolder,
+		texture = clothes\Items\CigaretteHolder,			
+    }	
 	model WorldItem-Cigarette
     {
 		mesh = WorldItems/WorldItem_Cigarette,
@@ -437,6 +489,16 @@ module Base
 		mesh = Static/Clothes/WorldItem_DSLR,
 		texture = clothes\Items\Camera,
     }
+	model WorldItem-PillBottle
+    {
+		mesh = WorldItems/WorldItem_AuthenticPillBottle,
+		texture = clothes\Items\AuthenticPillBottle,
+    }	
+	model WorldItem-TrueEyeCult
+    {
+		mesh = WorldItems/WorldItem_TrueEyeCultMask,
+		texture = clothes\Masks\TrueEyeCult,
+    }	
 	model SheetRopeAZ
 	{
 		mesh = SheetRopeAZ,

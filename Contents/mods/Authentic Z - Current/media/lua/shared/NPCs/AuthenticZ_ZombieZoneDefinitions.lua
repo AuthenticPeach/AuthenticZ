@@ -2248,8 +2248,8 @@ table.insert(ZombiesZoneDefinition.Default,{name = "Generic05", chance=20});
 table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticBiker", chance=0.05});
 table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticBlackMamba", chance=0.002, gender="female"});
 table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticFreshPrinceBelAir", chance=0.005, gender="male"});
-table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticFitnessInstructor", chance=1});
-table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticNeonFitnessInstructor", chance=0.01, gender="female"});
+table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticFitnessInstructor", chance=0.05});
+table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticNeonFitnessInstructor", chance=0.008, gender="female"});
 table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticGeneric06", chance=10});
 table.insert(ZombiesZoneDefinition.Default,{name = "Biker", chance=0.15});
 table.insert(ZombiesZoneDefinition.Default,{name = "Cyclist", chance=0.5});
@@ -2282,7 +2282,6 @@ table.insert(ZombiesZoneDefinition.Default,{name = "StudentMale", chance=0.5, ge
 table.insert(ZombiesZoneDefinition.Default,{name = "StudentFemale", chance=0.5, gender="female"});
 table.insert(ZombiesZoneDefinition.Default,{name = "Foreman", chance=0.5, gender="male"});
 table.insert(ZombiesZoneDefinition.Default,{name = "Bathrobe", chance=10, room="bathroom"});
-table.insert(ZombiesZoneDefinition.Default,{name = "Naked", chance=10, room="bathroom"});
 table.insert(ZombiesZoneDefinition.Default,{name = "Priest", chance=10, room="church", gender="male"});
 table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticCheerleader", chance=1, room="classroom", gender="female"});
 table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticSexyNurse", chance=1, room="medical", gender="female"});

@@ -520,7 +520,13 @@ module AuthenticZClothing {
 		Type = Clothing,
 		ClothingItem = Skin_White_Zed_W2,
 		BodyLocation = Bandage,
-    }	
+    }
+    item Stomach_Intestines
+    {
+        Type = Clothing,
+        ClothingItem =  Stomach_Intestines,
+        BodyLocation = ZedDmg,
+    }
     item Stomach_Intestines2
     {
         Type = Clothing,

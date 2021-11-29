@@ -868,7 +868,7 @@ module AuthenticZClothing {
 		DisplayName = Ghost Face Mask,
 		ClothingItem = Hat_GhostFace,
 		BodyLocation = MaskEyes,
-		Icon = HockeyMask,
+		Icon = Mask_Scream,
 		CanHaveHoles = false,
 		BloodLocation = Head,
         BiteDefense = 30,
@@ -1154,6 +1154,7 @@ module AuthenticZClothing {
         ChanceToFall  = 30,
         Insulation 	  = 0.25,
         WindResistance = 0.55,
+		WorldStaticModel = WorldItem-TrueEyeCult,		
 	}
 	item Hat_UncleSam
 	{
@@ -1179,7 +1180,7 @@ module AuthenticZClothing {
 		CanHaveHoles = false,
 		ChanceToFall = 80,
 		Weight = 0.5,
-		WorldStaticModel = WeddingVeil_Ground,
+		WorldStaticModel = WeddingVeilBlue_Ground,
 	}
 	item Hat_WeddingVeilPink
 	{
@@ -1191,7 +1192,7 @@ module AuthenticZClothing {
 		CanHaveHoles = false,
 		ChanceToFall = 80,
 		Weight = 0.5,
-		WorldStaticModel = WeddingVeil_Ground,
+		WorldStaticModel = WeddingVeilPink_Ground,
 	}
 	item Hat_WinslowHelmet
 	{
@@ -1204,10 +1205,10 @@ module AuthenticZClothing {
 		CanHaveHoles = false,
 		CombatSpeedModifier = 0.95,
 		BiteDefense = 100,
-        ScratchDefense = 100,
-        Insulation = 0.70,
-        WindResistance = 0.70,
-        WaterResistance = 1.0,
+        ScratchDefense 		= 100,
+        Insulation 			= 0.70,
+        WindResistance 		= 0.70,
+        WaterResistance 	= 1.0,
 		Tooltip 			= Tooltip_Winslow,
 	}
 	item Hat_Witchy_2

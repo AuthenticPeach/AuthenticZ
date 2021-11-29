@@ -49,7 +49,6 @@ IGUI_EN = {
 	IGUI_HotbarAttachment_SchoolbagBalloonLeft = "Balloon Slot",
 	IGUI_HotbarAttachment_SchoolbagBalloonRight = "Balloon Slot",	
 	IGUI_HotbarAttachment_SchoolbagPlushie = "Schoolbag Plushie Slot",
-	IGUI_HotbarAttachment_SchoolbagPlushie = "Schoolbag Plushie Slot",
 	IGUI_HotbarAttachment_DufflebagPlushie = "Dufflebag Plushie Slot",
 	IGUI_HotbarAttachment_HikingBagPlushie = "Hikingbag Plushie Slot",
 	IGUI_HotbarAttachment_BigHikingbagPlushie = "BigHikingbag Plushie Slot",	

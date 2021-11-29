@@ -2943,6 +2943,18 @@
 	<files>
 		<path>media/clothing/clothingItems/Bag_B4BMom_RHand.xml</path>
 		<guid>eac08bed-1932-4d0b-8afb-55b1ef20e260</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_B4BMom_Tier_1.xml</path>
+		<guid>186fc4ce-d55d-48fd-a0ee-0cd99ec10c50</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_B4BMom_Tier_2.xml</path>
+		<guid>87cd6bc3-6efd-452d-a7a4-bee60561b422</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_B4BMom_Tier_3.xml</path>
+		<guid>4cc08e5b-9bf6-4139-878a-ad8fc1131bee</guid>
 	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Bag_B4BWalker.xml</path>
@@ -3111,7 +3123,19 @@
 	<files>
 		<path>media/clothing/clothingItems/Bag_SchoolBagCEDABlue_Tier_3.xml</path>
 		<guid>20be7c22-89e1-43c2-a419-3072c2e26cc4</guid>
-	</files>	
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_SchoolBagNBH_Tier_1.xml</path>
+		<guid>57c61c3e-c392-4b75-ae69-1e563c700dad</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_SchoolBagNBH_Tier_2.xml</path>
+		<guid>55b553cb-cb79-40bd-84df-d5addc33b8d7</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_SchoolBagNBH_Tier_3.xml</path>
+		<guid>5d78fa97-7579-463b-a20b-7463b809f7e3</guid>
+	</files>
 	<files>
 		<path>media/clothing/clothingItems/Bag_SchoolBagCEDARed_LHand.xml</path>
 		<guid>9e419463-f19f-43ac-8262-1f4f384276f9</guid>
