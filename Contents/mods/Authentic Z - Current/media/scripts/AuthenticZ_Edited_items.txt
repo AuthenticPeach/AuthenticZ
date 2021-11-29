@@ -950,6 +950,50 @@ module AuthenticZClothing {
         AttachmentType  		= 	SpiffoPlushie,
 		StaticModel 			= 	SpiffoPlushieGrey,		
 	}	
+
+    item SpiffoHeart
+	{
+		Weight					=	0.2,
+		Type					=	Normal,
+		DisplayName				=	Heart Spiffo,
+		Icon					=	PlushSpiffoGrey,
+		WorldStaticModel 		= 	SpiffoPlushieHeart,
+        AttachmentType  		= 	SpiffoPlushie,
+		StaticModel 			= 	SpiffoPlushieHeart,		
+	}
+	
+    item SpiffoBlueberry
+	{
+		Weight					=	0.2,
+		Type					=	Normal,
+		DisplayName				=	Blueberry Spiffo,
+		Icon					=	SpiffoBlue,
+		WorldStaticModel 		= 	SpiffoPlushieBlueberry,
+        AttachmentType  		= 	SpiffoPlushie,
+		StaticModel 			= 	SpiffoPlushieBlueberry,		
+	}
+
+    item SpiffoShamrock
+	{
+		Weight					=	0.2,
+		Type					=	Normal,
+		DisplayName				=	Shamrock Spiffo,
+		Icon					=	SpiffoGreen,
+		WorldStaticModel 		= 	SpiffoPlushieShamrock,
+        AttachmentType  		= 	SpiffoPlushie,
+		StaticModel 			= 	SpiffoPlushieShamrock,		
+	}
+
+    item SpiffoPlushieRainbow
+	{
+		Weight					=	0.2,
+		Type					=	Normal,
+		DisplayName				=	Rainbow Spiffo,
+		Icon					=	SpiffoRainbow,
+		WorldStaticModel 		= 	SpiffoPlushieRainbow,
+        AttachmentType  		= 	SpiffoPlushie,
+		StaticModel 			= 	SpiffoPlushieRainbow,		
+	}	
 	
     item Doll
     {

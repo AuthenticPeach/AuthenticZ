@@ -282,13 +282,37 @@ module Base
 	{
 		mesh = Remotecontrol,
 		texture = clothes\Items\RemoteControl,
-	}
+	}	
     model SpiffoPlushieGrey
     {
         mesh = WorldItems/SpiffoPlushie,
         texture = clothes\Items\SpiffoPlushieGrey,		
         scale = 0.4,
+    }	
+    model SpiffoPlushieHeart
+    {
+        mesh = SpiffoPlushieFull,
+        texture = clothes\Items\SpiffoPlushiePinkHeart,		
+        scale = 0.4,
     }
+    model SpiffoPlushieBlueberry
+    {
+        mesh = SpiffoPlushieFull,
+        texture = clothes\Items\SpiffoPlushieBlueberry,		
+        scale = 0.4,
+    }	
+    model SpiffoPlushieShamrock
+    {
+        mesh = SpiffoPlushieFull,
+        texture = clothes\Items\SpiffoPlushieShamrock,		
+        scale = 0.4,
+    }
+    model SpiffoPlushieRainbow
+    {
+        mesh = SpiffoPlushieFull,
+        texture = clothes\Items\SpiffoPlushieRainbow,		
+        scale = 0.4,
+    }		
 	model ShortMetalSpear
 	{
 		mesh = Weapons/1Handed/ShortMetalSpear,
