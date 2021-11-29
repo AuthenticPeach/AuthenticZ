@@ -309,6 +309,54 @@ module Base
         mesh = Weapons/1Handed/Stake,
 	texture = clothes\Items\RollingPinBloody,
     }
+	model WeaponSpritePipeBombSensor
+    {
+		mesh = Weapons/1Handed/WSPipeBombSensor,
+		texture = WorldItems/PipeBomb,
+		scale = 0.6,
+    }
+	model WeaponSpritePipeBomb
+    {
+		mesh = Weapons/1Handed/WSPipeBomb,
+		texture = WorldItems/PipeBomb,
+		scale = 0.4,
+	}
+	model WeaponSpriteSmokeBombSensor
+    {
+		mesh = Weapons/1Handed/WSSmokeBombSensor,
+		texture = WorldItems/SmokeBomb,
+		scale = 0.6,
+	}
+	model WeaponSpriteSmokeBomb
+    {
+		mesh = Weapons/1Handed/WSSmokeBomb,
+		texture = WorldItems/SmokeBomb,
+		scale = 0.6,
+	}
+	model WeaponSpriteFlameTrapSensor
+    {
+		mesh = Weapons/1Handed/WSFlameTrapSensor,
+		texture = WorldItems/FlameTrap,
+		scale = 0.6,
+	}
+	model WeaponSpriteFlameTrap
+    {
+		mesh = Weapons/1Handed/WSFlameTrap,
+		texture = WorldItems/FlameTrap,
+		scale = 0.6,
+	}
+	model WeaponSpriteAerosolBombSensor
+    {
+		mesh = Weapons/1Handed/WSAerosolBombSensor,
+		texture = WorldItems/AerosolBomb,
+		scale = 0.5,
+	}
+	model WeaponSpriteAerosolBomb
+    {
+		mesh = Weapons/1Handed/WSAerosolBomb,
+		texture = WorldItems/AerosolBomb,
+		scale = 0.5,
+	}	
 	model ToyBearSmall
 	{
 		mesh = WorldItems/ToyBear,
