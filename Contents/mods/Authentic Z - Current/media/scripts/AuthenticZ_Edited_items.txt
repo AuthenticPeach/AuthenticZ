@@ -10,7 +10,7 @@ module AuthenticZClothing {
 		Icon					=	SheetRope,
 		Tooltip 				= 	Tooltip_SheetRope,
 		WorldStaticModel 		= 	SheetRope,
-		AttachmentType  		= 	Rope,
+		AttachmentType  		= 	SheetRope,
 		StaticModel 			= 	SheetRopeAZ,
 	}
     item Rope
@@ -956,7 +956,7 @@ module AuthenticZClothing {
 		Weight					=	0.2,
 		Type					=	Normal,
 		DisplayName				=	Heart Spiffo,
-		Icon					=	PlushSpiffoGrey,
+		Icon					=	SpiffoPink,
 		WorldStaticModel 		= 	SpiffoPlushieHeart,
         AttachmentType  		= 	SpiffoPlushie,
 		StaticModel 			= 	SpiffoPlushieHeart,		

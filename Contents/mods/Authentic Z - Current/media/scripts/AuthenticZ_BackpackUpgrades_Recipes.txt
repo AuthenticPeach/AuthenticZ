@@ -4,7 +4,6 @@ module AuthenticZClothing{
   }
 	/* List of Gear left to attach*/
 	/*Saws, Balloons*/	
-	/* Modded - Bag_ARVN_Rucksack */	
 	
 recipe Tie Balloons Together
   	{
@@ -403,7 +402,7 @@ recipe Tie Balloons Together
         RunSpeedModifier 		= 	0.97,
         AttachmentReplacement	= 	Bag,
 		AttachmentsProvided  	= 	SchoolbagBagSecondary;SchoolbagItemSlot2;SchoolbagItemSlot3;SchoolbagBottleRight;SchoolbagPlushie;SchoolbagUmbrellaLeft;SchoolbagFlashlight;SchoolbagBalloonRight,		
-        ReplaceInSecondHand 	= 	Bag_SchoolBagCEDABlue_LHand holdingbagleft,
+        ReplaceInSecondHand 	= 	Bag_SchoolBagCEDABlue_LHand  ,
         ReplaceInPrimaryHand 	= 	Bag_SchoolBagCEDABlue_RHand holdingbagright,
         WorldStaticModel 	 	= 	SchoolBag_Ground,
     }	
@@ -414,60 +413,186 @@ recipe Tie Balloons Together
         Type 					= 	Container,
 		Capacity				=	19,		
         DisplayName 			= 	Duffel Bag - Tier 1,
-        Icon					=	DuffelBag_Grey,		
+        IconsForTexture			=	Duffelbag;DuffelBag_Green;DuffelBag_Grey,
         ClothingItem 			= 	Bag_DuffelBag_Tier1,
         CanBeEquipped 			= 	Back,
         OpenSound   			=   OpenBag,
         CloseSound   			=   CloseBag,
         PutInSound   			=   PutItemInBag,
-        RunSpeedModifier 		= 0.95,
-        CanHaveHoles 			= false,       
+        RunSpeedModifier 		= 	0.95,
+        CanHaveHoles 			= 	false,       
 		AttachmentReplacement	= 	Bag,
 		AttachmentsProvided  	= 	DufflebagSecondary;DufflebagBottleLeft;SchoolbagBalloonRight,
-        ReplaceInSecondHand 	= Bag_DuffelBag_LHand holdingbagleft,
-        ReplaceInPrimaryHand 	= Bag_DuffelBag_RHand holdingbagright,
-        WorldStaticModel 		= DuffelBag_Ground,
+        ReplaceInSecondHand 	= 	Bag_DuffelBag_LHand holdingbagleft,
+        ReplaceInPrimaryHand 	= 	Bag_DuffelBag_RHand holdingbagright,
+        WorldStaticModel 		= 	DuffelBag_Ground,
     }	
     item Bag_DuffelBag_Tier_2
     {
-        WeightReduction	=	65,	
-        Weight			=	1,		
-        Type 			= 	Container,
-        Capacity		=	20,		
-        DisplayName 	= 	Duffel Bag - Tier 2,
-        Icon			=	DuffelBag_Grey,		
-        ClothingItem 	= 	Bag_DuffelBag_Tier2,
-        CanBeEquipped 	= 	Back,
-        OpenSound   =   OpenBag,
-        CloseSound   =   CloseBag,
-        PutInSound   =   PutItemInBag,
-        RunSpeedModifier = 0.95,
-        CanHaveHoles = false,
+        WeightReduction			=	65,	
+        Weight					=	1,		
+        Type 					= 	Container,
+        Capacity				=	20,		
+        DisplayName 			= 	Duffel Bag - Tier 2,
+        IconsForTexture			=	Duffelbag;DuffelBag_Green;DuffelBag_Grey,
+        ClothingItem 			= 	Bag_DuffelBag_Tier2,
+        CanBeEquipped 			= 	Back,
+        OpenSound   			=   OpenBag,
+        CloseSound   			=   CloseBag,
+        PutInSound   			=   PutItemInBag,
+        RunSpeedModifier 		= 	0.95,
+        CanHaveHoles	 		= 	false,
         AttachmentReplacement	= 	Bag,
 		AttachmentsProvided  	= 	SchoolbagBagSecondary;DufflebagItemSlot1;DufflebagBottleLeft;DufflebagPlushie;SchoolbagUmbrellaLeft;SchoolbagBalloonRight,						
-        ReplaceInSecondHand = Bag_DuffelBag_LHand holdingbagleft,
-        ReplaceInPrimaryHand = Bag_DuffelBag_RHand holdingbagright,
-        WorldStaticModel = DuffelBag_Ground,
+        ReplaceInSecondHand 	= 	Bag_DuffelBag_LHand holdingbagleft,
+        ReplaceInPrimaryHand 	= 	Bag_DuffelBag_RHand holdingbagright,
+        WorldStaticModel 		= 	DuffelBag_Ground,
     }
     item Bag_DuffelBag_Tier_3
     {
-        Type = Container,
-        DisplayName = Duffel Bag - Tier 3,
-        ClothingItem = Bag_DuffelBag_Tier3,
-        CanBeEquipped = Back,
-        WeightReduction	=	65,
-        Weight	=	1,
-        Capacity	=	21,
-        Icon	=	DuffelBag_Grey,
-        OpenSound   =   OpenBag,
-        CloseSound   =   CloseBag,
-        PutInSound   =   PutItemInBag,
-        RunSpeedModifier = 0.95,
-        CanHaveHoles = false,
+        Type 					= 	Container,
+        DisplayName 			= 	Duffel Bag - Tier 3,
+        ClothingItem 			= 	Bag_DuffelBag_Tier3,
+        CanBeEquipped 			= 	Back,
+        WeightReduction			=	65,
+        Weight					=	1,
+        Capacity				=	21,
+        IconsForTexture			=	Duffelbag;DuffelBag_Green;DuffelBag_Grey,
+        OpenSound  				=   OpenBag,
+        CloseSound   			=   CloseBag,
+        PutInSound   			=   PutItemInBag,
+        RunSpeedModifier 		= 	0.95,
+        CanHaveHoles 			= 	false,
         AttachmentReplacement	= 	Bag,
 		AttachmentsProvided  	= 	DufflebagSecondary;DufflebagItemSlot1;DufflebagItemSlot2;DufflebagItemSlot3;DufflebagBottleRight;DufflebagPlushie;DufflebagUmbrellaRight;DufflebagFlashlight;SchoolbagBalloonRight,				
         ReplaceInSecondHand 	= 	Bag_DuffelBag_LHand holdingbagleft,
         ReplaceInPrimaryHand 	= 	Bag_DuffelBag_RHand holdingbagright,
+        WorldStaticModel 		= 	DuffelBag_Ground,
+    }
+    item Bag_DuffelBagTINT_Tier_1
+    {
+        WeightReduction			=	65,
+        Weight					=	1,		
+        Type 					= 	Container,
+		Capacity				=	19,		
+        DisplayName 			= 	Duffel Bag - Tier 1,
+        Icon					=	DuffelBagWhite,	
+        ClothingItem 			= 	Bag_DuffelBagTINT_Tier_1,
+        CanBeEquipped 			= 	Back,
+        OpenSound   			=   OpenBag,
+        CloseSound   			=   CloseBag,
+        PutInSound   			=   PutItemInBag,
+        RunSpeedModifier 		= 	0.95,
+        CanHaveHoles 			= 	false,       
+		AttachmentReplacement	= 	Bag,
+		AttachmentsProvided  	= 	DufflebagSecondary;DufflebagBottleLeft;SchoolbagBalloonRight,
+        ReplaceInSecondHand 	= 	Bag_DuffelBag_LHandTINT holdingbagleft,
+        ReplaceInPrimaryHand 	= 	Bag_DuffelBag_RHandTINT holdingbagright,
+        WorldStaticModel 		= 	DuffelBag_Ground,
+    }	
+    item Bag_DuffelBagTINT_Tier_2
+    {
+        WeightReduction			=	65,	
+        Weight					=	1,		
+        Type 					= 	Container,
+        Capacity				=	20,		
+        DisplayName 			= 	Duffel Bag - Tier 2,
+        Icon					=	DuffelBagWhite,
+        ClothingItem 			= 	Bag_DuffelBagTINT_Tier_2,
+        CanBeEquipped 			= 	Back,
+        OpenSound   			=   OpenBag,
+        CloseSound   			=   CloseBag,
+        PutInSound   			=   PutItemInBag,
+        RunSpeedModifier 		= 	0.95,
+        CanHaveHoles	 		= 	false,
+        AttachmentReplacement	= 	Bag,
+		AttachmentsProvided  	= 	SchoolbagBagSecondary;DufflebagItemSlot1;DufflebagBottleLeft;DufflebagPlushie;SchoolbagUmbrellaLeft;SchoolbagBalloonRight,						
+        ReplaceInSecondHand 	= 	Bag_DuffelBag_LHandTINT holdingbagleft,
+        ReplaceInPrimaryHand 	= 	Bag_DuffelBag_RHandTINT holdingbagright,
+        WorldStaticModel 		= 	DuffelBag_Ground,
+    }
+    item Bag_DuffelBagTINT_Tier_3
+    {
+        Type 					= 	Container,
+        DisplayName 			= 	Duffel Bag - Tier 3,
+        ClothingItem 			= 	Bag_DuffelBagTINT_Tier_3,
+        CanBeEquipped 			= 	Back,
+        WeightReduction			=	65,
+        Weight					=	1,
+        Capacity				=	21,
+        Icon					=	DuffelBagWhite,
+        OpenSound  				=   OpenBag,
+        CloseSound   			=   CloseBag,
+        PutInSound   			=   PutItemInBag,
+        RunSpeedModifier 		= 	0.95,
+        CanHaveHoles 			= 	false,
+        AttachmentReplacement	= 	Bag,
+		AttachmentsProvided  	= 	DufflebagSecondary;DufflebagItemSlot1;DufflebagItemSlot2;DufflebagItemSlot3;DufflebagBottleRight;DufflebagPlushie;DufflebagUmbrellaRight;DufflebagFlashlight;SchoolbagBalloonRight,				
+        ReplaceInSecondHand 	= 	Bag_DuffelBag_LHandTINT holdingbagleft,
+        ReplaceInPrimaryHand 	= 	Bag_DuffelBag_RHandTINT holdingbagright,
+        WorldStaticModel 		= 	DuffelBag_Ground,
+    }	
+    item Bag_DuffelBagGrey_Tier_1 /* Grey Duffles*/
+    {
+        WeightReduction			=	65,
+        Weight					=	1,		
+        Type 					= 	Container,
+		Capacity				=	19,		
+        DisplayName 			= 	Duffel Bag - Tier 1,
+        Icon					=	DuffelBag_Grey,		
+        ClothingItem 			= 	Bag_DuffelBagGrey_Tier_1,
+        CanBeEquipped 			= 	Back,
+        OpenSound   			=   OpenBag,
+        CloseSound   			=   CloseBag,
+        PutInSound   			=   PutItemInBag,
+        RunSpeedModifier 		= 	0.95,
+        CanHaveHoles 			= 	false,       
+		AttachmentReplacement	= 	Bag,
+		AttachmentsProvided  	= 	DufflebagSecondary;DufflebagBottleLeft;SchoolbagBalloonRight,
+        ReplaceInSecondHand 	= 	Bag_DuffelBag_LHandTINT holdingbagleft,
+        ReplaceInPrimaryHand 	= 	Bag_DuffelBag_RHandTINT holdingbagright,
+        WorldStaticModel 		= 	DuffelBag_Ground,
+    }	
+    item Bag_DuffelBagGrey_Tier_2 /* Grey Duffles*/
+    {
+        WeightReduction			=	65,	
+        Weight					=	1,		
+        Type 					= 	Container,
+        Capacity				=	20,		
+        DisplayName 			= 	Duffel Bag - Tier 2,
+        Icon					=	DuffelBag_Grey,		
+        ClothingItem 			= 	Bag_DuffelBagGrey_Tier_2,
+        CanBeEquipped 			= 	Back,
+        OpenSound   			=   OpenBag,
+        CloseSound   			=   CloseBag,
+        PutInSound   			=   PutItemInBag,
+        RunSpeedModifier 		= 	0.95,
+        CanHaveHoles	 		= 	false,
+        AttachmentReplacement	= 	Bag,
+		AttachmentsProvided  	= 	SchoolbagBagSecondary;DufflebagItemSlot1;DufflebagBottleLeft;DufflebagPlushie;SchoolbagUmbrellaLeft;SchoolbagBalloonRight,						
+        ReplaceInSecondHand 	= 	Bag_DuffelBag_LHandTINT holdingbagleft,
+        ReplaceInPrimaryHand 	= 	Bag_DuffelBag_RHandTINT holdingbagright,
+        WorldStaticModel 		= 	DuffelBag_Ground,
+    }
+    item Bag_DuffelBagGrey_Tier_3 /* Grey Duffles*/
+    {
+        Type 					= 	Container,
+        DisplayName 			= 	Duffel Bag - Tier 3,
+        ClothingItem 			= 	Bag_DuffelBagGrey_Tier_3,
+        CanBeEquipped 			= 	Back,
+        WeightReduction			=	65,
+        Weight					=	1,
+        Capacity				=	21,
+        Icon					=	DuffelBag_Grey,
+        OpenSound  				=   OpenBag,
+        CloseSound   			=   CloseBag,
+        PutInSound   			=   PutItemInBag,
+        RunSpeedModifier 		= 	0.95,
+        CanHaveHoles 			= 	false,
+        AttachmentReplacement	= 	Bag,
+		AttachmentsProvided  	= 	DufflebagSecondary;DufflebagItemSlot1;DufflebagItemSlot2;DufflebagItemSlot3;DufflebagBottleRight;DufflebagPlushie;DufflebagUmbrellaRight;DufflebagFlashlight;SchoolbagBalloonRight,				
+        ReplaceInSecondHand 	= 	Bag_DuffelBag_LHandTINT holdingbagleft,
+        ReplaceInPrimaryHand 	= 	Bag_DuffelBag_RHandTINT holdingbagright,
         WorldStaticModel 		= 	DuffelBag_Ground,
     }	
     item Bag_NormalHikingBag_Tier_1
@@ -1229,6 +1354,125 @@ recipe Upgrade School Bag
 	   SkillRequired:Tailoring=2,	   
 	   Category:Tailoring,
   	}	
+
+recipe Upgrade Duffelbag 	/* Colored Duffles*/
+  	{
+	  Bag_DuffelBagTINT/Bag_WorkerBag/Bag_InmateEscapedBag,
+	  keep Scissors,
+      keep Needle/SutureNeedle,
+       Thread=3,
+	   LeatherStrips/DenimStrips=3,		   
+
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_DuffelBagTINT_Tier_1,
+       OnGiveXP:Give20TailoringXP,		   
+	   Time:300.0,
+       AnimNode:Disassemble,
+	   SkillRequired:Tailoring=1,	   
+	   Category:Tailoring,
+  	}
+
+recipe Upgrade Duffelbag
+  	{
+	   Bag_DuffelBagTINT_Tier_1,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=3,
+	   LeatherStrips/DenimStrips=3,	
+
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_DuffelBagTINT_Tier_2,
+       OnGiveXP:Give20TailoringXP,	   
+	   Time:300.0,
+       AnimNode:Disassemble,	  
+	   SkillRequired:Tailoring=1,
+	   Category:Tailoring,
+  	}	
+
+recipe Upgrade Duffelbag
+  	{
+	   Bag_DuffelBagTINT_Tier_2,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=3,
+	   LeatherStrips/DenimStrips=3,	
+
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_DuffelBagTINT_Tier_3,
+       OnGiveXP:Give20TailoringXP,	   
+	   Time:300.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=2,
+	   Category:Tailoring,
+  	}		
+
+recipe Upgrade Duffelbag  /* Greys*/
+  	{
+	   Bag_MoneyBag/Bag_WeaponBag/Bag_ShotgunBag/Bag_ShotgunSawnoffBag/Bag_ShotgunDblBag/Bag_ShotgunDblSawnoffBag,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=3,
+	   LeatherStrips/DenimStrips=3,		   
+
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_DuffelBagGrey_Tier_1,
+       OnGiveXP:Give20TailoringXP,		   
+	   Time:300.0,
+       AnimNode:Disassemble,
+	   SkillRequired:Tailoring=1,	   
+	   Category:Tailoring,
+  	}	 
+
+recipe Upgrade Duffelbag
+  	{
+	   Bag_DuffelBagGrey_Tier_1,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=3,
+	   LeatherStrips/DenimStrips=3,	
+
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_DuffelBagGrey_Tier_2,
+       OnGiveXP:Give20TailoringXP,	   
+	   Time:300.0,
+       AnimNode:Disassemble,	  
+	   SkillRequired:Tailoring=1,
+	   Category:Tailoring,
+  	}	
+
+recipe Upgrade Duffelbag
+  	{
+	   Bag_DuffelBagGrey_Tier_2,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=3,
+	   LeatherStrips/DenimStrips=3,	
+
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_DuffelBagGrey_Tier_3,
+       OnGiveXP:Give20TailoringXP,	   
+	   Time:300.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=2,
+	   Category:Tailoring,
+  	}	
+
+recipe Upgrade Duffelbag 	/* Regular with 3 variations*/
+  	{
+	  Bag_DuffelBag,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=3,
+	   LeatherStrips/DenimStrips=3,		   
+
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_DuffelBag_Tier_1,
+       OnGiveXP:Give20TailoringXP,		   
+	   Time:300.0,
+       AnimNode:Disassemble,
+	   SkillRequired:Tailoring=1,	   
+	   Category:Tailoring,
+  	}
 		
 recipe Upgrade Duffelbag
   	{
@@ -1239,7 +1483,7 @@ recipe Upgrade Duffelbag
 	   LeatherStrips/DenimStrips=3,	
 
 	   OnCreate:PleaseKeepColor,
-   	   Result:Bag_Duffelbag_Tier_2,
+   	   Result:Bag_DuffelBag_Tier_2,
        OnGiveXP:Give20TailoringXP,	   
 	   Time:300.0,
        AnimNode:Disassemble,	  
@@ -1256,7 +1500,7 @@ recipe Upgrade Duffelbag
 	   LeatherStrips/DenimStrips=3,	
 
 	   OnCreate:PleaseKeepColor,
-   	   Result:Bag_Duffelbag_Tier_3,
+   	   Result:Bag_DuffelBag_Tier_3,
        OnGiveXP:Give20TailoringXP,	   
 	   Time:300.0,
        AnimNode:Disassemble,	   
@@ -1946,4 +2190,120 @@ recipe Upgrade Hollys Backpack
 	   Category:Tailoring,
   	}
 
+	/* Mod Bag by Brita */	
+
+    item Bag_ARVN_Rucksack_Tier_1
+    {
+        Type = Container,
+        DisplayName = ARVN Rucksack - Tier 1,
+        ClothingItem = Bag_ARVN_Rucksack_Tier_1,
+        CanBeEquipped = Back,
+        WeightReduction	=	85,
+        Weight	=	2,
+        Capacity	=	36,
+        Icon	=	Bag_ARVN_Rucksack,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        BloodLocation = Bag,
+        RunSpeedModifier = 0.94,
+        CanHaveHoles = false,
+        AttachmentReplacement 	= 	Bag,
+		AttachmentsProvided  	= 	ARVNSecondary;ARVNItemSlot1;ARVNItemSlot2;ARVNBottleRight;ARVNPlushie;ARVNUmbrellaRight;SchoolbagBalloonRight,			
+		ReplaceInSecondHand 	= 	Bag_ALICEpack_LHand holdingbagleft,
+        ReplaceInPrimaryHand 	= 	Bag_ALICEpack_RHand holdingbagright,
+    }
+	    item Bag_ARVN_Rucksack_Tier_2
+    {
+        Type = Container,
+        DisplayName = ARVN Rucksack - Tier 2,
+        ClothingItem = Bag_ARVN_Rucksack_Tier_2,
+        CanBeEquipped = Back,
+        WeightReduction	=	85,
+        Weight	=	2,
+        Capacity	=	37,
+        Icon	=	Bag_ARVN_Rucksack,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        BloodLocation = Bag,
+        RunSpeedModifier = 0.94,
+        CanHaveHoles = false,
+        AttachmentReplacement 	= 	Bag,
+		AttachmentsProvided  	= 	ARVNSecondary;ARVNItemSlot1;ARVNItemSlot2;ARVNItemSlot3;ARVNBottleRight;ARVNPlushie;ARVNUmbrellaRight;SchoolbagBalloonRight,				
+        ReplaceInSecondHand 	= 	Bag_ALICEpack_LHand holdingbagleft,
+        ReplaceInPrimaryHand 	= 	Bag_ALICEpack_RHand holdingbagright,
+    }
+    item Bag_ARVN_Rucksack_Tier_3
+    {
+        Type = Container,
+        DisplayName = ARVN Rucksack - Tier 3,
+        ClothingItem = Bag_ARVN_Rucksack_Tier_3,
+        CanBeEquipped = Back,
+        WeightReduction	=	85,
+        Weight	=	2,
+        Capacity	=	38,
+        Icon	=	Bag_ARVN_Rucksack,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        BloodLocation = Bag,
+        RunSpeedModifier = 0.94,
+        CanHaveHoles = false,
+        AttachmentReplacement 	= 	Bag,
+		AttachmentsProvided  	= 	ARVNSecondary;ARVNItemSlot1;ARVNItemSlot2;ARVNItemSlot3;ARVNItemSlot4;ARVNItemSlot5;ARVNBottleRight;ARVNBottleLeft;ARVNPlushie;ARVNUmbrellaRight;ARVNFlashlight;SchoolbagBalloonRight,							
+        ReplaceInSecondHand 	= 	Bag_ALICEpack_LHand holdingbagleft,
+        ReplaceInPrimaryHand 	= 	Bag_ALICEpack_RHand holdingbagright,
+    }
+
+recipe Upgrade Rucksack
+  	{
+	   Bag_ARVN_Rucksack,	
+	   keep Scissors,
+       keep Needle/SutureNeedle,
+       Thread=3,
+	   LeatherStrips/DenimStrips=3,	   
+
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_ARVN_Rucksack_Tier_1,
+       OnGiveXP:Give20TailoringXP,	   
+	   Time:300.0,
+       AnimNode:Disassemble,	   
+	   Category:Tailoring,
+	   
+  	}
+recipe Upgrade Rucksack
+  	{
+	   Bag_ARVN_Rucksack_Tier_1,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=3,
+	   LeatherStrips/DenimStrips=3,	
+
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_ARVN_Rucksack_Tier_2,
+       OnGiveXP:Give20TailoringXP,	   
+	   Time:300.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=1,	   
+	   Category:Tailoring,
+  	}	
+
+recipe Upgrade Rucksack
+  	{
+	   Bag_ARVN_Rucksack_Tier_2,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=3,
+	   LeatherStrips/DenimStrips=3,	
+	
+	   OnCreate:PleaseKeepColor,	
+   	   Result:Bag_ARVN_Rucksack_Tier_3,
+       OnGiveXP:Give20TailoringXP,	   
+	   Time:300.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=2,	   
+	   Category:Tailoring,
+  	}
+	
 }		

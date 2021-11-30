@@ -720,13 +720,13 @@ local AlicepackItemSlot1 = {
 	animset = "back",
 	attachments = { -- list of possible item category and their modelAttachement group, the item category is defined in the item script		
 		Rope 				= "Alicepack Rope Slot 1",
-		SheetRope			= "Alicepack Explosive Slot 1",				
-		FlareGun = "Alicepack FlareGun Slot 1",
-		Explosive = "Alicepack Explosive Slot 1",
-		AuthenticExplosive = "Alicepack AuthenticExplosive Slot 1",		
-		GasMask = "Alicepack GasMask Slot 1",		
-		Walkie 	= "Alicepack Walkie Slot 1",
-		Hammer 	= "Alicepack Walkie Slot 1",
+		SheetRope			= "Alicepack SheetRope Slot 1",			
+		FlareGun 			= "Alicepack FlareGun Slot 1",
+		Explosive 			= "Alicepack Explosive Slot 1",
+		AuthenticExplosive  = "Alicepack AuthenticExplosive Slot 1",		
+		GasMask 			= "Alicepack GasMask Slot 1",		
+		Walkie 				= "Alicepack Walkie Slot 1",
+		Hammer 				= "Alicepack Hammer Slot 1",
 		Screwdriver 		= "Alicepack Rope Slot 1",
 		Knife			 	= "Alicepack Rope Slot 1",	
 		Saucepan 			= "Alicepack Rope Slot 1",	
@@ -745,13 +745,13 @@ local AlicepackItemSlot2 = {
 	animset = "back",
 	attachments = { -- list of possible item category and their modelAttachement group, the item category is defined in the item script		
 		Rope = "Alicepack Rope Slot 2",
-		SheetRope			= "Alicepack Explosive Slot 2",			
-		FlareGun = "Alicepack FlareGun Slot 2",
-		Explosive = "Alicepack Explosive Slot 2",
-		AuthenticExplosive = "Alicepack AuthenticExplosive Slot 2",		
-		GasMask = "Alicepack GasMask Slot 2",
-		Walkie 	= "Alicepack Walkie Slot 2",
-		Hammer 	= "Alicepack Walkie Slot 2",
+		SheetRope			= "Alicepack SheetRope Slot 2",			
+		FlareGun 			= "Alicepack FlareGun Slot 2",
+		Explosive 			= "Alicepack Explosive Slot 2",
+		AuthenticExplosive  = "Alicepack AuthenticExplosive Slot 2",		
+		GasMask 			= "Alicepack GasMask Slot 2",
+		Walkie 				= "Alicepack Walkie Slot 2",
+		Hammer 				= "Alicepack Hammer Slot 2",
 		Screwdriver 		= "Alicepack Rope Slot 2",
 		Knife			 	= "Alicepack Rope Slot 2",	
 		Saucepan 			= "Alicepack Rope Slot 2",	
@@ -769,14 +769,14 @@ local AlicepackItemSlot3 = {
 	name = "Alicepack Item Slot", -- Name shown in the slot icon
 	animset = "back",
 	attachments = { -- list of possible item category and their modelAttachement group, the item category is defined in the item script		
-		Rope = "Alicepack Rope Slot 3",
-		SheetRope			= "Alicepack Explosive Slot 3",			
-		FlareGun = "Alicepack FlareGun Slot 3",
-		Explosive = "Alicepack Explosive Slot 3",
-		AuthenticExplosive = "Alicepack AuthenticExplosive Slot 3",		
-		GasMask = "Alicepack GasMask Slot 3",
-		Walkie 	= "Alicepack Walkie Slot 3",
-		Hammer 	= "Alicepack Walkie Slot 3",
+		Rope 				= "Alicepack Rope Slot 3",
+		SheetRope			= "Alicepack SheetRope Slot 3",			
+		FlareGun 			= "Alicepack FlareGun Slot 3",
+		Explosive 			= "Alicepack Explosive Slot 3",
+		AuthenticExplosive  = "Alicepack AuthenticExplosive Slot 3",		
+		GasMask 			= "Alicepack GasMask Slot 3",
+		Walkie 				= "Alicepack Walkie Slot 3",
+		Hammer 				= "Alicepack Hammer Slot 3",
 		Screwdriver 		= "Alicepack Rope Slot 3",
 		Knife			 	= "Alicepack Rope Slot 3",	
 		Saucepan 			= "Alicepack Rope Slot 3",	
@@ -794,14 +794,14 @@ local AlicepackItemSlot4 = {
 	name = "Alicepack Item Slot", -- Name shown in the slot icon
 	animset = "back",
 	attachments = { -- list of possible item category and their modelAttachement group, the item category is defined in the item script		
-		Rope = "Alicepack Rope Slot 4",
-		SheetRope			= "Alicepack Explosive Slot 4",			
-		FlareGun = "Alicepack FlareGun Slot 4",
-		Explosive = "Alicepack Explosive Slot 4",
-		AuthenticExplosive = "Alicepack AuthenticExplosive Slot 4",		
-		GasMask = "Alicepack GasMask Slot 4",
-		Walkie 	= "Alicepack Walkie Slot 4",
-		Hammer 	= "Alicepack Walkie Slot 4",
+		Rope				= "Alicepack Rope Slot 4",
+		SheetRope			= "Alicepack SheetRope Slot 4",			
+		FlareGun			= "Alicepack FlareGun Slot 4",
+		Explosive 			= "Alicepack Explosive Slot 4",
+		AuthenticExplosive 	= "Alicepack AuthenticExplosive Slot 4",		
+		GasMask 			= "Alicepack GasMask Slot 4",
+		Walkie 				= "Alicepack Walkie Slot 4",
+		Hammer 				= "Alicepack Hammer Slot 4",
 		Screwdriver 		= "Alicepack Rope Slot 4",
 		Knife			 	= "Alicepack Rope Slot 4",	
 		Saucepan 			= "Alicepack Rope Slot 4",	
@@ -819,14 +819,14 @@ local AlicepackItemSlot5 = {
 	name = "Alicepack Item Slot", -- Name shown in the slot icon
 	animset = "back",
 	attachments = { -- list of possible item category and their modelAttachement group, the item category is defined in the item script		
-		Rope 		= "Alicepack Rope Slot 5",
-		SheetRope			= "Alicepack Explosive Slot 5",			
-		FlareGun 	= "Alicepack FlareGun Slot 5",
-		Explosive 	= "Alicepack Explosive Slot 5",
-		AuthenticExplosive = "Alicepack AuthenticExplosive Slot 5",		
-		GasMask 	= "Alicepack GasMask Slot 5",
-		Walkie 		= "Alicepack Walkie Slot 5",
-		Hammer 		= "Alicepack Walkie Slot 5",
+		Rope 				= "Alicepack Rope Slot 5",
+		SheetRope			= "Alicepack SheetRope Slot 5",			
+		FlareGun 			= "Alicepack FlareGun Slot 5",
+		Explosive 			= "Alicepack Explosive Slot 5",
+		AuthenticExplosive  = "Alicepack AuthenticExplosive Slot 5",		
+		GasMask 			= "Alicepack GasMask Slot 5",
+		Walkie 				= "Alicepack Walkie Slot 5",
+		Hammer 				= "Alicepack Hammer Slot 5",
 		Screwdriver			= "Alicepack Rope Slot 5",
 		Knife			 	= "Alicepack Rope Slot 5",	
 		Saucepan 			= "Alicepack Rope Slot 5",	
@@ -873,3 +873,205 @@ table.insert(ISHotbarAttachDefinition, AlicepackPlushie);
 ----------------------------------------------------------------------------
 ------------------- Bag_ARVN_Rucksack Attachments --------------------------
 ----------------------------------------------------------------------------
+local ARVNSecondary = {
+	type = "ARVNSecondary",
+	name = "Secondary Bag Slot", -- Name shown in the slot icon
+	animset = "back",
+	attachments = { -- list of possible item category and their modelAttachement group, the item category is defined in the item script		
+		Plasticbag = "Alicepack Plasticbag Bag", -- defined in AttachedLocations.lua
+		Garbagebag = "Alicepack Garbage Bag",
+		Totebag = "Alicepack Tote Bag",
+		Purse = "Alicepack Purse",	
+		EmptySandbag = "Alicepack EmptySandbag",
+		Seedbag = "Alicepack Seedbag",			
+		Handbag = "Alicepack Handbag",
+		Toolbox = "Alicepack Toolbox",
+		FirstAidKit = "Alicepack FirstAidKit",	
+		Bag_L4DeadMedkit = "Alicepack Bag_L4DeadMedkit",	
+		Lunchbox = "Alicepack Lunchbox",
+		PistolCase = "Alicepack PistolCase",		
+	},
+}
+table.insert(ISHotbarAttachDefinition, ARVNSecondary);
+
+local ARVNBottleRight = {
+	type = "ARVNBottleRight",
+	name = "Water Bottle Slot", -- Name shown in the slot icon
+	animset = "back",
+	attachments = { -- list of possible item category and their modelAttachement group, the item category is defined in the item script	
+		WaterBottle = "Alicepack Waterbottle Right",
+		Canteen = "Alicepack Canteen Right",
+		Sodacan = "Alicepack Sodacan Right",		
+	},
+}
+table.insert(ISHotbarAttachDefinition, ARVNBottleRight);
+
+local ARVNBottleLeft = {
+	type = "ARVNBottleLeft",
+	name = "Water Bottle Slot", -- Name shown in the slot icon
+	animset = "back",
+	attachments = { -- list of possible item category and their modelAttachement group, the item category is defined in the item script
+		WaterBottle = "Alicepack Waterbottle Left",
+		Canteen = "Alicepack Canteen Left",
+		Sodacan = "Alicepack Sodacan Left",		
+	},
+}
+table.insert(ISHotbarAttachDefinition, ARVNBottleLeft);
+
+
+local ARVNItemSlot1 = {
+	type = "ARVNItemSlot1",
+	name = "Rucksack Item Slot", -- Name shown in the slot icon
+	animset = "back",
+	attachments = { -- list of possible item category and their modelAttachement group, the item category is defined in the item script		
+		Rope 				= "Alicepack Rope Slot 1",
+		SheetRope			= "Alicepack SheetRope Slot 1",			
+		FlareGun 			= "Alicepack FlareGun Slot 1",
+		Explosive 			= "Alicepack Explosive Slot 1",
+		AuthenticExplosive  = "Alicepack AuthenticExplosive Slot 1",		
+		GasMask 			= "Alicepack GasMask Slot 1",		
+		Walkie 				= "Alicepack Walkie Slot 1",
+		Hammer 				= "Alicepack Hammer Slot 1",
+		Screwdriver 		= "Alicepack Rope Slot 1",
+		Knife			 	= "Alicepack Rope Slot 1",	
+		Saucepan 			= "Alicepack Rope Slot 1",	
+		Pan 				= "Alicepack Rope Slot 1",	
+		Wrench 				= "Alicepack Rope Slot 1",		
+		MeatCleaver 		= "Alicepack Rope Slot 1",
+
+		Gear 				= "Alicepack Walkie Slot 1",			
+	},
+}
+table.insert(ISHotbarAttachDefinition, ARVNItemSlot1);
+
+local ARVNItemSlot2 = {
+	type = "ARVNItemSlot2",
+	name = "Rucksack Item Slot", -- Name shown in the slot icon
+	animset = "back",
+	attachments = { -- list of possible item category and their modelAttachement group, the item category is defined in the item script		
+		Rope 				= "Alicepack Rope Slot 2",
+		SheetRope			= "Alicepack SheetRope Slot 2",			
+		FlareGun 			= "Alicepack FlareGun Slot 2",
+		Explosive 			= "Alicepack Explosive Slot 2",
+		AuthenticExplosive  = "Alicepack AuthenticExplosive Slot 2",		
+		GasMask 			= "Alicepack GasMask Slot 2",
+		Walkie 				= "Alicepack Walkie Slot 2",
+		Hammer 				= "Alicepack Hammer Slot 2",
+		Screwdriver 		= "Alicepack Rope Slot 2",
+		Knife			 	= "Alicepack Rope Slot 2",	
+		Saucepan 			= "Alicepack Rope Slot 2",	
+		Pan 				= "Alicepack Rope Slot 2",	
+		Wrench 				= "Alicepack Rope Slot 2",		
+		MeatCleaver 		= "Alicepack Rope Slot 2",
+
+		Gear 				= "Alicepack Walkie Slot 2",			
+	},
+}
+table.insert(ISHotbarAttachDefinition, ARVNItemSlot2);
+
+local ARVNItemSlot3 = {
+	type = "ARVNItemSlot3",
+	name = "Rucksack Item Slot", -- Name shown in the slot icon
+	animset = "back",
+	attachments = { -- list of possible item category and their modelAttachement group, the item category is defined in the item script		
+		Rope 				= "Alicepack Rope Slot 3",
+		SheetRope			= "Alicepack SheetRope Slot 3",			
+		FlareGun 			= "Alicepack FlareGun Slot 3",
+		Explosive 			= "Alicepack Explosive Slot 3",
+		AuthenticExplosive  = "Alicepack AuthenticExplosive Slot 3",		
+		GasMask 			= "Alicepack GasMask Slot 3",
+		Walkie 				= "Alicepack Walkie Slot 3",
+		Hammer 				= "Alicepack Hammer Slot 3",
+		Screwdriver 		= "Alicepack Rope Slot 3",
+		Knife			 	= "Alicepack Rope Slot 3",	
+		Saucepan 			= "Alicepack Rope Slot 3",	
+		Pan 				= "Alicepack Rope Slot 3",	
+		Wrench 				= "Alicepack Rope Slot 3",		
+		MeatCleaver 		= "Alicepack Rope Slot 3",
+
+		Gear 				= "Alicepack Walkie Slot 3",			
+	},
+}
+table.insert(ISHotbarAttachDefinition, ARVNItemSlot3);
+
+local ARVNItemSlot4 = {
+	type = "ARVNItemSlot4",
+	name = "Rucksack Item Slot", -- Name shown in the slot icon
+	animset = "back",
+	attachments = { -- list of possible item category and their modelAttachement group, the item category is defined in the item script		
+		Rope				= "Alicepack Rope Slot 4",
+		SheetRope			= "Alicepack SheetRope Slot 4",			
+		FlareGun			= "Alicepack FlareGun Slot 4",
+		Explosive 			= "Alicepack Explosive Slot 4",
+		AuthenticExplosive 	= "Alicepack AuthenticExplosive Slot 4",		
+		GasMask 			= "Alicepack GasMask Slot 4",
+		Walkie 				= "Alicepack Walkie Slot 4",
+		Hammer 				= "Alicepack Hammer Slot 4",
+		Screwdriver 		= "Alicepack Rope Slot 4",
+		Knife			 	= "Alicepack Rope Slot 4",	
+		Saucepan 			= "Alicepack Rope Slot 4",	
+		Pan 				= "Alicepack Rope Slot 4",	
+		Wrench 				= "Alicepack Rope Slot 4",		
+		MeatCleaver 		= "Alicepack Rope Slot 4",
+
+		Gear 				= "Alicepack Rope Walkie 4",			
+	},
+}
+table.insert(ISHotbarAttachDefinition, ARVNItemSlot4);
+
+local ARVNItemSlot5 = {
+	type = "ARVNItemSlot5",
+	name = "Rucksack Item Slot", -- Name shown in the slot icon
+	animset = "back",
+	attachments = { -- list of possible item category and their modelAttachement group, the item category is defined in the item script		
+		Rope 				= "Alicepack Rope Slot 5",
+		SheetRope			= "Alicepack SheetRope Slot 5",			
+		FlareGun 			= "Alicepack FlareGun Slot 5",
+		Explosive 			= "Alicepack Explosive Slot 5",
+		AuthenticExplosive  = "Alicepack AuthenticExplosive Slot 5",		
+		GasMask 			= "Alicepack GasMask Slot 5",
+		Walkie 				= "Alicepack Walkie Slot 5",
+		Hammer 				= "Alicepack Hammer Slot 5",
+		Screwdriver			= "Alicepack Rope Slot 5",
+		Knife			 	= "Alicepack Rope Slot 5",	
+		Saucepan 			= "Alicepack Rope Slot 5",	
+		Pan 				= "Alicepack Rope Slot 5",	
+		Wrench 				= "Alicepack Rope Slot 5",		
+		MeatCleaver 		= "Alicepack Rope Slot 5",
+
+		Gear 				= "Alicepack Rope Walkie 5",				
+	},
+}
+table.insert(ISHotbarAttachDefinition, ARVNItemSlot5);
+
+local ARVNUmbrellaRight = {
+	type = "ARVNUmbrellaRight",
+	name = "Umbrella Slot", -- Name shown in the slot icon
+	animset = "back",
+	attachments = { -- list of possible item category and their modelAttachement group, the item category is defined in the item script		
+		Umbrella = "Alicepack Umbrella Right",
+	},
+}
+table.insert(ISHotbarAttachDefinition, ARVNUmbrellaRight);
+
+local ARVNFlashlight = {
+	type = "ARVNFlashlight",
+	name = "Flashlight Slot", -- Name shown in the slot icon
+	animset = "back",
+	attachments = { -- list of possible item category and their modelAttachement group, the item category is defined in the item script		
+		MilitaryFlashlight = "Alicepack Military Flashlight",
+	},
+}
+table.insert(ISHotbarAttachDefinition, ARVNFlashlight);
+
+local ARVNPlushie = {
+	type = "ARVNPlushie",
+	name = "Plushie Slot", -- Name shown in the slot icon
+	animset = "back",
+	attachments = { -- list of possible item category and their modelAttachement group, the item category is defined in the item script		
+		SpiffoPlushie = "Alicepack Plushie Spiffo",
+		Doll = "Alicepack Plushie Doll",
+		TeddyBear = "Alicepack Plushie TeddyBear",
+	},
+}
+table.insert(ISHotbarAttachDefinition, ARVNPlushie);

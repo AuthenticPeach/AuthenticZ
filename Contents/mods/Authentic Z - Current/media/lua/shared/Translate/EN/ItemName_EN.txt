@@ -659,5 +659,15 @@ ItemName_EN = {
 	ItemName_AuthenticZClothing.SpiffoPlushieHeart = "Heart Spiffo",
 	ItemName_AuthenticZClothing.SpiffoPlushieBlueberry = "Blueberry Spiffo",
 	ItemName_AuthenticZClothing.SpiffoPlushieShamrock = "Shamrock Spiffo",
-	ItemName_AuthenticZClothing.SpiffoPlushieRainbow = "Rainbow Spiffo",	
+	ItemName_AuthenticZClothing.SpiffoPlushieRainbow = "Rainbow Spiffo",
+	
+	ItemName_AuthenticZClothing.Bag_DuffelBagGrey_Tier_1 = "Duffel Bag  - Tier 1",	
+	ItemName_AuthenticZClothing.Bag_DuffelBagGrey_Tier_2 = "Duffel Bag  - Tier 2",
+	ItemName_AuthenticZClothing.Bag_DuffelBagGrey_Tier_3 = "Duffel Bag  - Tier 3",
+	ItemName_AuthenticZClothing.Bag_DuffelBagTINT_Tier_1 = "Duffel Bag  - Tier 1",	
+	ItemName_AuthenticZClothing.Bag_DuffelBagTINT_Tier_2 = "Duffel Bag  - Tier 2",
+	ItemName_AuthenticZClothing.Bag_DuffelBagTINT_Tier_3 = "Duffel Bag  - Tier 3",	
+	ItemName_AuthenticZClothing.Bag_ARVN_Rucksack_Tier_1 = "ARVN Rucksack - Tier 1",	
+	ItemName_AuthenticZClothing.Bag_ARVN_Rucksack_Tier_2 = "ARVN Rucksack - Tier 2",
+	ItemName_AuthenticZClothing.Bag_ARVN_Rucksack_Tier_3 = "ARVN Rucksack - Tier 3",	
 }

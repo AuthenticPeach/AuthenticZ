@@ -2925,6 +2925,18 @@
 		<guid>9b33b18d-7559-45cd-8578-a2fec0f384be</guid>
 	</files>
 	<files>
+		<path>media/clothing/clothingItems/Bag_B4BHolly_Tier_1.xml</path>
+		<guid>697bf139-fe53-4cdd-9926-4ddc8baf77b4</guid>
+	</files>
+		<files>
+		<path>media/clothing/clothingItems/Bag_B4BHolly_Tier_2.xml</path>
+		<guid>b3dcd2ec-d97e-4762-aa57-053194ff0fa2</guid>
+	</files>
+		<files>
+		<path>media/clothing/clothingItems/Bag_B4BHolly_Tier_3.xml</path>
+		<guid>6430e8fb-b211-4764-8082-e56478b89457</guid>
+	</files>
+	<files>
 		<path>media/clothing/clothingItems/Bag_B4BHolly_LHand.xml</path>
 		<guid>9572245e-8429-478a-8986-e6a44e1195b8</guid>
 	</files>
@@ -3016,6 +3028,30 @@
 		<path>media/clothing/clothingItems/Bag_DuffelBag_Tier3.xml</path>
 		<guid>15c78a09-bc3b-4ba8-a02a-b8987d92ccd2</guid>
 	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_DuffelBagGrey_Tier_1.xml</path>
+		<guid>e589162a-6987-445d-a0ec-ff7116b60b19</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_DuffelBagGrey_Tier_2.xml</path>
+		<guid>df96b0a7-03e1-478e-913d-497b9340310f</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_DuffelBagGrey_Tier_3.xml</path>
+		<guid>5319b471-5776-4048-9e73-30dcc606b54c</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_DuffelBagTINT_Tier_1.xml</path>
+		<guid>e1597c30-7778-4fc1-abd3-5afd6857fe56</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_DuffelBagTINT_Tier_2.xml</path>
+		<guid>93670c8d-f9c1-4bde-b58d-2d1c84b5f5d6</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_DuffelBagTINT_Tier_3.xml</path>
+		<guid>3a79a2d8-0794-4ea5-91f2-1a10b2e3795f</guid>
+	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Bag_HikingBag_Tier1.xml</path>
 		<guid>1305ed8e-ee38-4908-b61c-027d30a92f1f</guid>
@@ -3136,6 +3172,18 @@
 		<path>media/clothing/clothingItems/Bag_SchoolBagNBH_Tier_3.xml</path>
 		<guid>5d78fa97-7579-463b-a20b-7463b809f7e3</guid>
 	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_ARVN_Rucksack_Tier_1.xml</path>
+		<guid>2057a78f-a1b0-4ca2-8365-6e7d8d3874c8</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_ARVN_Rucksack_Tier_2.xml</path>
+		<guid>467e3a95-a858-4976-a0d3-636b620d588e</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_ARVN_Rucksack_Tier_3.xml</path>
+		<guid>679073c2-ba1d-4575-8b19-a92ad12daebb</guid>
+	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Bag_SchoolBagCEDARed_LHand.xml</path>
 		<guid>9e419463-f19f-43ac-8262-1f4f384276f9</guid>
