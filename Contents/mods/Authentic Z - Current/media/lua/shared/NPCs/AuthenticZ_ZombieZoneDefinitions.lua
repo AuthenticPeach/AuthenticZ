@@ -434,7 +434,7 @@ ZombiesZoneDefinition.Crackhouse = {
 		chance=30,
 	},
 	AuthenticHomeless = {
-		name="Homeless",
+		name="AuthenticHomeless",
 		chance=40,
 	},
 	TinFoilHat = {
@@ -2293,6 +2293,9 @@ table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticFootballGreenBayPac
 table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticFootballPatriots", gender="male", chance=0.01});
 table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticFootballPlayerRedSkull", gender="male", chance=0.01});
 table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticMiner", chance=80, room="traincar", gender="male"});
+--table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticMiner", chance=50, room="farmstorage", gender="male"});
+--table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticMiner", chance=50, room="garagestorage", gender="male"});
+--table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticMiner", chance=50, room="furniturestorage", gender="male"});
 --table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticMiner", chance=50, room="railroadstorage", gender="male"});
 table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticMiner", chance=60, room="railroadrepair", gender="male"});
 table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticNeonFitnessInstructor", chance=30, room="gym", gender="female"});

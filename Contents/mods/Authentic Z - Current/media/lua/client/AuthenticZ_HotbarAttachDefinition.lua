@@ -759,7 +759,7 @@ local AlicepackItemSlot2 = {
 		Wrench 				= "Alicepack Rope Slot 2",		
 		MeatCleaver 		= "Alicepack Rope Slot 2",
 
-		Gear 				= "Alicepack Walkie Slot 2",			
+		Gear 				= "Alicepack Explosive Slot 2",			
 	},
 }
 table.insert(ISHotbarAttachDefinition, AlicepackItemSlot2);
@@ -809,7 +809,7 @@ local AlicepackItemSlot4 = {
 		Wrench 				= "Alicepack Rope Slot 4",		
 		MeatCleaver 		= "Alicepack Rope Slot 4",
 
-		Gear 				= "Alicepack Rope Walkie 4",			
+		Gear 				= "Alicepack Walkie Slot 4",			
 	},
 }
 table.insert(ISHotbarAttachDefinition, AlicepackItemSlot4);
@@ -834,7 +834,7 @@ local AlicepackItemSlot5 = {
 		Wrench 				= "Alicepack Rope Slot 5",		
 		MeatCleaver 		= "Alicepack Rope Slot 5",
 
-		Gear 				= "Alicepack Rope Walkie 5",				
+		Gear 				= "Alicepack Walkie Slot 5",				
 	},
 }
 table.insert(ISHotbarAttachDefinition, AlicepackItemSlot5);
@@ -964,7 +964,7 @@ local ARVNItemSlot2 = {
 		Wrench 				= "Alicepack Rope Slot 2",		
 		MeatCleaver 		= "Alicepack Rope Slot 2",
 
-		Gear 				= "Alicepack Walkie Slot 2",			
+		Gear 				= "Alicepack Explosive Slot 2",			
 	},
 }
 table.insert(ISHotbarAttachDefinition, ARVNItemSlot2);
@@ -1014,7 +1014,7 @@ local ARVNItemSlot4 = {
 		Wrench 				= "Alicepack Rope Slot 4",		
 		MeatCleaver 		= "Alicepack Rope Slot 4",
 
-		Gear 				= "Alicepack Rope Walkie 4",			
+		Gear 				= "Alicepack Walkie Slot 4",		
 	},
 }
 table.insert(ISHotbarAttachDefinition, ARVNItemSlot4);
@@ -1039,7 +1039,7 @@ local ARVNItemSlot5 = {
 		Wrench 				= "Alicepack Rope Slot 5",		
 		MeatCleaver 		= "Alicepack Rope Slot 5",
 
-		Gear 				= "Alicepack Rope Walkie 5",				
+		Gear 				= "Alicepack Walkie Slot 5",				
 	},
 }
 table.insert(ISHotbarAttachDefinition, ARVNItemSlot5);
