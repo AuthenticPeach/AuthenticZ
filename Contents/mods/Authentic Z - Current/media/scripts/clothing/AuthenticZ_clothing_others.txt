@@ -100,6 +100,16 @@ module AuthenticZClothing {
 		Weight = 0.2,
 		WorldStaticModel = Bikini_Ground,
 	}
+	item Bikini_Pattern04
+	{
+		Type = Clothing,
+		DisplayName = Bikini,
+		ClothingItem = Bikini_Pattern04,
+		BodyLocation = Underwear,
+		IconsForTexture = Bikini_BlackPolkaDot;Swimsuit_Black,
+		Weight = 0.2,
+		WorldStaticModel = Bikini_Ground,
+	}	
 	item BlueZskin_F1
 	{
 		Type = Clothing,

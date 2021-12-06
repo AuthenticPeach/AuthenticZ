@@ -140,7 +140,7 @@ ZombiesZoneDefinition.Bar = {
 	},
 	AuthenticShaunoftheDead = {
 		name="AuthenticShaunoftheDead",
-		chance=5,
+		chance=1,
 		gender="male",
 	},
 }
@@ -1274,7 +1274,13 @@ ZombiesZoneDefinition.MovieNight = {
 		toSpawn=1,
 		mandatory="true",
 		gender="male",
-	},	
+	},
+	AuthenticSexyBunny = {
+		name="AuthenticSexyBunny",
+		toSpawn=1,
+		mandatory="true",
+		gender="female",
+	},		
 }
 
 ZombiesZoneDefinition.Nate = {
@@ -2257,6 +2263,8 @@ table.insert(ZombiesZoneDefinition.Default,{name = "DressLong", chance=3, gender
 table.insert(ZombiesZoneDefinition.Default,{name = "DressNormal", chance=3, gender="female"});
 table.insert(ZombiesZoneDefinition.Default,{name = "DressShort", chance=3, gender="female"});
 table.insert(ZombiesZoneDefinition.Default,{name = "Golfer", chance=0.2});
+table.insert(ZombiesZoneDefinition.Default,{name = "Police", chance=0.1});
+table.insert(ZombiesZoneDefinition.Default,{name = "PoliceState", chance=0.1});
 table.insert(ZombiesZoneDefinition.Default,{name = "Mannequin1", chance=0.5, gender="female"});
 table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticHazardSuit", chance=0.003});
 table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticSurvivorPolice", chance=0.003});
@@ -2274,6 +2282,7 @@ table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticCountryHick", chanc
 table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticClown", chance=0.05, gender="male"});
 table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticClownMime", chance=0.05});
 table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticNMRIHVegan", chance=0.07, gender="male"});
+table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticSexyBunny", chance=0.003, gender="female"});
 table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticCEDAHazmatGreen", chance=0.01});
 table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticCEDAHazmatBlack", chance=0.003});
 table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticCEDAHazmatBlue", chance=0.003});

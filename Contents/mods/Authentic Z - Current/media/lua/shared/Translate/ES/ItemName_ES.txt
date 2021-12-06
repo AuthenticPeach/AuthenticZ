@@ -652,4 +652,22 @@ ItemName_ES = {
 	ItemName_AuthenticZClothing.Bag_B4BHolly_Tier_1 = "Mochila de Holly - Rango 1",	
 	ItemName_AuthenticZClothing.Bag_B4BHolly_Tier_2 = "Mochila de Holly - Rango 2",
 	ItemName_AuthenticZClothing.Bag_B4BHolly_Tier_3 = "Mochila de Holly - Rango 3",
+	
+	/* New */	
+	ItemName_AuthenticZClothing.ToyBearSmall = "Osito de peluche",	
+	ItemName_AuthenticZClothing.SpiffoGrey = "PAWS Spiffo",
+	ItemName_AuthenticZClothing.SpiffoPlushieHeart = "Spiffo Corazón",
+	ItemName_AuthenticZClothing.SpiffoPlushieBlueberry = "Spiffo Arándano",
+	ItemName_AuthenticZClothing.SpiffoPlushieShamrock = "Spiffo Trébol",
+	ItemName_AuthenticZClothing.SpiffoPlushieRainbow = "Spiffo Arcoíris",
+	
+	ItemName_AuthenticZClothing.Bag_DuffelBagGrey_Tier_1 = "Bolsa de deportes  - Rango 1",	
+	ItemName_AuthenticZClothing.Bag_DuffelBagGrey_Tier_2 = "Bolsa de deportes  - Rango 2",
+	ItemName_AuthenticZClothing.Bag_DuffelBagGrey_Tier_3 = "Bolsa de deportes  - Rango 3",
+	ItemName_AuthenticZClothing.Bag_DuffelBagTINT_Tier_1 = "Bolsa de deportes  - Rango 1",	
+	ItemName_AuthenticZClothing.Bag_DuffelBagTINT_Tier_2 = "Bolsa de deportes  - Rango 2",
+	ItemName_AuthenticZClothing.Bag_DuffelBagTINT_Tier_3 = "Bolsa de deportes  - Rango 3",	
+	ItemName_AuthenticZClothing.Bag_ARVN_Rucksack_Tier_1 = "Mochila de montaña ARVN - Rango 1",	
+	ItemName_AuthenticZClothing.Bag_ARVN_Rucksack_Tier_2 = "Mochila de montaña ARVN - Rango 2",
+	ItemName_AuthenticZClothing.Bag_ARVN_Rucksack_Tier_3 = "Mochila de montaña ARVN - Rango 3",
 }

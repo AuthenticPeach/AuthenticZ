@@ -631,5 +631,54 @@ ItemName_CN = {
 	ItemName_AuthenticZClothing.Lunchbox_Secondary = "午餐盒",
 	ItemName_AuthenticZClothing.Lunchbox2_Secondary = "午餐盒",	
 	ItemName_AuthenticZClothing.PistolCase_Secondary = "手枪箱",
- 	
+
+	/* 11-26-21 update */	
+	ItemName_AuthenticZClothing.AuthenticCigaretteHolder = "烟杆"
+	ItemName_AuthenticZClothing.Bag_SchoolBagCEDA_Tier_1 = "C.E.D.A危险品背包T1",	
+	ItemName_AuthenticZClothing.Bag_SchoolBagCEDA_Tier_2 = "C.E.D.A危险品背包T2",
+	ItemName_AuthenticZClothing.Bag_SchoolBagCEDA_Tier_3 = "C.E.D.A危险品背包T3",
+	ItemName_AuthenticZClothing.Bag_SchoolBagCEDABlack_Tier_1 = "C.E.D.A危险品背包T1（黑色）",	
+	ItemName_AuthenticZClothing.Bag_SchoolBagCEDABlack_Tier_2 = "C.E.D.A危险品背包T2（黑色）",
+	ItemName_AuthenticZClothing.Bag_SchoolBagCEDABlack_Tier_3 = "C.E.D.A危险品背包T3（黑色）",
+	ItemName_AuthenticZClothing.Bag_SchoolBagCEDARed_Tier_1 = "C.E.D.A危险品背包T1（红色）",	
+	ItemName_AuthenticZClothing.Bag_SchoolBagCEDARed_Tier_2 = "C.E.D.A危险品背包T2（红色）",
+	ItemName_AuthenticZClothing.Bag_SchoolBagCEDARed_Tier_3 = "C.E.D.A危险品背包T3（红色）",
+	ItemName_AuthenticZClothing.Bag_SchoolBagCEDABlue_Tier_1 = "C.E.D.A危险品背包T1（蓝色）",	
+	ItemName_AuthenticZClothing.Bag_SchoolBagCEDABlue_Tier_2 = "C.E.D.A危险品背包T2（蓝色）",
+	ItemName_AuthenticZClothing.Bag_SchoolBagCEDABlue_Tier_3 = "C.E.D.A危险品背包T3（蓝色）",
+	
+	ItemName_AuthenticZClothing.Bag_SchoolBagNBH_Tier_1 = "核生化危险品背包T1",	
+	ItemName_AuthenticZClothing.Bag_SchoolBagNBH_Tier_2 = "核生化危险品背包T2",
+	ItemName_AuthenticZClothing.Bag_SchoolBagNBH_Tier_3 = "核生化危险品背包T3",
+	ItemName_AuthenticZClothing.Bag_B4BMom_Tier_1 = "老妈的背包T1",	
+	ItemName_AuthenticZClothing.Bag_B4BMom_Tier_2 = "老妈的背包T2",
+	ItemName_AuthenticZClothing.Bag_B4BMom_Tier_3 = "老妈的背包T3",
+	ItemName_AuthenticZClothing.Bag_B4BHolly_Tier_1 = "霍莉的背包T1",	
+	ItemName_AuthenticZClothing.Bag_B4BHolly_Tier_2 = "霍莉的背包T2",
+	ItemName_AuthenticZClothing.Bag_B4BHolly_Tier_3 = "霍莉的背包T3",
+
+	/* 11-30-21 update  */	
+	ItemName_AuthenticZClothing.ToyBearSmall = "泰迪熊",	
+	ItemName_AuthenticZClothing.SpiffoGrey = "斯皮福（爪印）",
+	ItemName_AuthenticZClothing.SpiffoPlushieHeart = "斯皮福（爱心）",
+	ItemName_AuthenticZClothing.SpiffoPlushieBlueberry = "斯皮福（蓝莓）",
+	ItemName_AuthenticZClothing.SpiffoPlushieShamrock = "斯皮福（三叶草）",
+	ItemName_AuthenticZClothing.SpiffoPlushieRainbow = "斯皮福（彩虹）",
+	
+	ItemName_AuthenticZClothing.Bag_DuffelBagGrey_Tier_1 = "行李袋T1",	
+	ItemName_AuthenticZClothing.Bag_DuffelBagGrey_Tier_2 = "行李袋T2",
+	ItemName_AuthenticZClothing.Bag_DuffelBagGrey_Tier_3 = "行李袋T3",
+	ItemName_AuthenticZClothing.Bag_DuffelBagTINT_Tier_1 = "行李袋T1",	
+	ItemName_AuthenticZClothing.Bag_DuffelBagTINT_Tier_2 = "行李袋T2",
+	ItemName_AuthenticZClothing.Bag_DuffelBagTINT_Tier_3 = "行李袋T3",	
+	ItemName_AuthenticZClothing.Bag_ARVN_Rucksack_Tier_1 = "ARVN背包T1",	
+	ItemName_AuthenticZClothing.Bag_ARVN_Rucksack_Tier_2 = "ARVN背包T2",
+	ItemName_AuthenticZClothing.Bag_ARVN_Rucksack_Tier_3 = "ARVN背包T3",
+	
+	/* 新增 */
+	ItemName_AuthenticZClothing.BunnyEars = "兔女郎耳朵",	
+	ItemName_AuthenticZClothing.BunnyTail = "兔女郎尾巴",
+	ItemName_AuthenticZClothing.Bikini_Pattern04 = "兔女郎比基尼",		
+	ItemName_AuthenticZClothing.Shoes_SlippersBlack = "兔女郎拖鞋",	
+	ItemName_AuthenticZClothing.Socks_Long_StockingsBlack = "兔女郎丝袜",
 }

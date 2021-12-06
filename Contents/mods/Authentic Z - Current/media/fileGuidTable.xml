@@ -3099,6 +3099,10 @@
 	<files>
 		<path>media/clothing/clothingItems/Bag_ALICEpack_Army_Tier3.xml</path>
 		<guid>c860f8d0-c06a-47dc-b3ac-87da962f750d</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_SatchelAZ.xml</path>
+		<guid>304a67a8-ddad-40c3-b3e9-3e3e4078fd9f</guid>
 	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Bag_SchoolBagCEDA_LHand.xml</path>
@@ -3273,6 +3277,10 @@
 		<guid>39961584-baf9-46c2-ac7e-582be43d7b03</guid>
 	</files>
 	<files>
+		<path>media/clothing/clothingItems/Bikini_Pattern04.xml</path>
+		<guid>9ee94aa0-63c8-45b4-aaf2-2fc87bfa69a9</guid>
+	</files>	
+	<files>
 		<path>media/clothing/clothingItems/BlackLeggings_Bottoms.xml</path>
 		<guid>543f9650-2476-45c8-a8e7-5d775ae23727</guid>
 	</files>	
@@ -3332,6 +3340,14 @@
 		<path>media/clothing/clothingItems/Boilersuit_PrisonerClassic.xml</path>
 		<guid>fb9b2061-0427-49ab-9b56-bcc19f3a7d0b</guid>
 	</files>
+	<files>
+		<path>media/clothing/clothingItems/BunnyEars.xml</path>
+		<guid>da076ab3-f8d4-4a29-b465-5344768c42ab</guid>
+	</files>	
+	<files>
+		<path>media/clothing/clothingItems/BunnyTail.xml</path>
+		<guid>4a79b64a-a21b-48bf-9ebe-7f26447c7035</guid>
+	</files>	
 	<files>
 		<path>media/clothing/clothingItems/CameraDSLR.xml</path>
 		<guid>01d90dcf-d42f-4dcb-a702-397423dce587</guid>
@@ -4485,6 +4501,10 @@
 		<guid>87f87760-f0fb-4dae-bc54-190a11cfd708</guid>
 	</files>
 	<files>	
+		<path>media/clothing/clothingItems/Shoes_SlippersBlack.xml</path>
+		<guid>1e72e453-5882-42d4-b3d4-794c3482db5e</guid>
+	</files>	
+	<files>	
 		<path>media/clothing/clothingItems/Shoes_TrainerWhite.xml</path>
 		<guid>41fd0e3c-4ad1-4fc3-adf3-5437142dcc09</guid>
 	</files>
@@ -4695,7 +4715,11 @@
 	<files>
 		<path>media/clothing/clothingItems/Socks_Long_RedStriped03.xml</path>
 		<guid>c4996938-15ed-4e0b-9839-46dc2e796569</guid>
-	</files>	
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Socks_Long_StockingsBlack.xml</path>
+		<guid>1c08ec23-70aa-4e3d-8848-138af25542c6</guid>
+	</files>		
 	<files>
 		<path>media/clothing/clothingItems/Socks_Long_DarkGreen.xml</path>
 		<guid>829c20ca-8b3b-411c-bfbf-69008c65c2e5</guid>
@@ -5096,7 +5120,6 @@
 		<path>media/clothing/clothingItems/Hat_WoolyHatWaldo.xml</path>
 		<guid>5d9e8c72-a432-4d08-bec3-cd5d2d6fbf21</guid>
 	</files>
-
 	<files>
 		<path>media/clothing/clothingItems/Gloves_Bone.xml</path>
 		<guid>6e10e6c0-0ac4-4010-974c-56d57f1edd46</guid>

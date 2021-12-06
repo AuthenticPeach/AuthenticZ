@@ -653,7 +653,7 @@ ItemName_EN = {
 	ItemName_AuthenticZClothing.Bag_B4BHolly_Tier_2 = "Holly's Backpack - Tier 2",
 	ItemName_AuthenticZClothing.Bag_B4BHolly_Tier_3 = "Holly's Backpack - Tier 3",
 
-	/* New */	
+	/* 11-30-21 update  */	
 	ItemName_AuthenticZClothing.ToyBearSmall = "Teddy Bear",	
 	ItemName_AuthenticZClothing.SpiffoGrey = "PAWS Spiffo",
 	ItemName_AuthenticZClothing.SpiffoPlushieHeart = "Heart Spiffo",
@@ -669,5 +669,13 @@ ItemName_EN = {
 	ItemName_AuthenticZClothing.Bag_DuffelBagTINT_Tier_3 = "Duffel Bag  - Tier 3",	
 	ItemName_AuthenticZClothing.Bag_ARVN_Rucksack_Tier_1 = "ARVN Rucksack - Tier 1",	
 	ItemName_AuthenticZClothing.Bag_ARVN_Rucksack_Tier_2 = "ARVN Rucksack - Tier 2",
-	ItemName_AuthenticZClothing.Bag_ARVN_Rucksack_Tier_3 = "ARVN Rucksack - Tier 3",	
+	ItemName_AuthenticZClothing.Bag_ARVN_Rucksack_Tier_3 = "ARVN Rucksack - Tier 3",
+	
+	/* New */ 
+	ItemName_AuthenticZClothing.BunnyEars = "Bunny Ears",	
+	ItemName_AuthenticZClothing.BunnyTail = "Bunny Tail",
+	ItemName_AuthenticZClothing.Bikini_Pattern04 = "Black Bikini",		
+	ItemName_AuthenticZClothing.Shoes_SlippersBlack = "Black Slippers",	
+	ItemName_AuthenticZClothing.Socks_Long_StockingsBlack = "Black Stockings",
+	ItemName_AuthenticZClothing.Hat_HardHat_Miner2 = "Mining Helmet",
 }

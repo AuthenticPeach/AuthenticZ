@@ -494,6 +494,17 @@ module Base
 		mesh = WorldItems/WorldItem_Balloon,
 		texture = clothes\Items\BalloonYellow,		
 	}
+	model WorldItem_BunnyTail
+    {
+		mesh = WorldItems/WorldItem_BunnyTail,
+		texture = clothes\Items\BunnyTail,
+        scale = 0.025,		
+    }
+	model WorldItem_BunnyEarsBlack
+    {
+		mesh = WorldItems/WorldItem_BunnyEars,
+		texture = clothes\Hats\BunnyEarsBlack,
+    }		
 	model WorldItem_Chainsaw
     {
 		mesh = WorldItems/WorldItem_Chainsaw,

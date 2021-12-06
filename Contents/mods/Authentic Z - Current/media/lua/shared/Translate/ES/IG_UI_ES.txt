@@ -12,7 +12,6 @@ IGUI_ES = {
 	IGUI_HotbarAttachment_BigHikingbagSecondary = "Mochila de excursión grande - Espacio de contenedor secundario",
 	IGUI_HotbarAttachment_AlicepackSecondary = "Mochila grande - Espacio de contenedor secundario",
 	
-	IGUI_HotbarAttachment_ARVN_RucksackSecondary = "Mochila de montaña - Secundaria",
 	IGUI_HotbarAttachment_MinerLightBulb = "Luz de Casco de minero",	
 	
 	IGUI_HotbarAttachment_SchoolbagItemSlot1 = "Mochila escolar - Espacio 1",
@@ -63,5 +62,17 @@ IGUI_ES = {
 	IGUI_HotbarAttachment_BigHikingBagBottleLeft = "Mochila de excursión grande - Espacio de botella izquierdo",	
 	IGUI_HotbarAttachment_AlicepackBottleRight = "Mochila grande - Espacio de botella derecho",
 	IGUI_HotbarAttachment_AlicepackBottleLeft = "Mochila grande - Espacio de botella izquierdo",	
-
+	
+	
+	IGUI_HotbarAttachment_ARVNBottleRight = "Mochila de montaña -  Espacio de botella derecho",
+	IGUI_HotbarAttachment_ARVNBottleLeft = "Mochila de montaña -  Espacio de botella izquierdo",	
+	IGUI_HotbarAttachment_ARVNPlushie = "Mochila de montaña - Espacio de peluche",
+	IGUI_HotbarAttachment_ARVNUmbrellaRight = "Mochila de montaña - Espacio de paraguas",
+	IGUI_HotbarAttachment_ARVNItemSlot1 = "Mochila de montaña - Espacio 1",	
+	IGUI_HotbarAttachment_ARVNItemSlot2 = "Mochila de montaña - Espacio 2",
+	IGUI_HotbarAttachment_ARVNItemSlot3 = "Mochila de montaña - Espacio 3",	
+	IGUI_HotbarAttachment_ARVNItemSlot4 = "Mochila de montaña - Espacio 4",
+	IGUI_HotbarAttachment_ARVNItemSlot5 = "Mochila de montaña - Espacio 5",
+	IGUI_HotbarAttachment_ARVNFlashlight = "Mochila de montaña - Espacio de linterna",
+	IGUI_HotbarAttachment_ARVNSecondary = "Mochila de montaña - Espacio de contenedor secundario",
 }

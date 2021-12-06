@@ -1367,8 +1367,7 @@ recipe Upgrade Duffelbag 	/* Colored Duffles*/
    	   Result:Bag_DuffelBagTINT_Tier_1,
        OnGiveXP:Give20TailoringXP,		   
 	   Time:300.0,
-       AnimNode:Disassemble,
-	   SkillRequired:Tailoring=1,	   
+       AnimNode:Disassemble,	   
 	   Category:Tailoring,
   	}
 
@@ -1418,8 +1417,7 @@ recipe Upgrade Duffelbag  /* Greys*/
    	   Result:Bag_DuffelBagGrey_Tier_1,
        OnGiveXP:Give20TailoringXP,		   
 	   Time:300.0,
-       AnimNode:Disassemble,
-	   SkillRequired:Tailoring=1,	   
+       AnimNode:Disassemble,	   
 	   Category:Tailoring,
   	}	 
 
@@ -1469,8 +1467,7 @@ recipe Upgrade Duffelbag 	/* Regular with 3 variations*/
    	   Result:Bag_DuffelBag_Tier_1,
        OnGiveXP:Give20TailoringXP,		   
 	   Time:300.0,
-       AnimNode:Disassemble,
-	   SkillRequired:Tailoring=1,	   
+       AnimNode:Disassemble,   
 	   Category:Tailoring,
   	}
 		

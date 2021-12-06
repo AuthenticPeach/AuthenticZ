@@ -170,6 +170,15 @@ module AuthenticZClothing {
         FabricType = Denim,
 		WorldStaticModel = BoilerSuit_Ground,
     }
+    item BunnyTail
+    {
+        Type = Clothing,
+        DisplayName = Bunny Tail,
+        ClothingItem = BunnyTail,
+        BodyLocation = Tail,
+        Icon = BunnyTail,
+        WorldStaticModel = WorldItem_BunnyTail,
+    }	
     item Clown_Coveralls
     {
         Type = Clothing,

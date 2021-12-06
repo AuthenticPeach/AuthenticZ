@@ -2,6 +2,20 @@ module AuthenticZClothing {
   imports {
       Base
   }
+ 	item BunnyEars
+	{
+		Type = Clothing,
+		DisplayName = Bunny Ears,
+		ClothingItem = BunnyEars,
+		BodyLocation = Hat,
+		Icon = AZBunnyEars,
+		ChanceToFall = 80,
+       	BloodLocation = Head,
+        Insulation = 0.15,
+        WindResistance = 0.1,
+        Weight = 0.5,
+		WorldStaticModel = WorldItem_BunnyEarsBlack,	
+    	} 
 	item Hat_AuthenticCrashHelmetFULLDecalBobaFett
 	{
 		Type = Clothing,

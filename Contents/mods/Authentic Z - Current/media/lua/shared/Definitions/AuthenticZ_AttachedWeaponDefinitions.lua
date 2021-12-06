@@ -29,7 +29,7 @@ AttachedWeaponDefinitions.Organ = {
 	weapons = {
 		"AuthenticZClothing.AuthenticOrgan_Liver",
 		"AuthenticZClothing.AuthenticOrgan_Brain",
-		"AuthenticZClothing.AuthenticOrgan_Hand",
+--		"AuthenticZClothing.AuthenticOrgan_Hand",
 		"AuthenticZClothing.AuthenticOrgan_Heart",
 		"AuthenticZClothing.AuthenticOrgan_Kidney",
 }

@@ -365,7 +365,7 @@ module AuthenticZClothing {
         OpenSound   =   OpenBag,
         CloseSound   =   CloseBag,
         PutInSound   =   PutItemInBag,
-        ClothingItem = Bag_Satchel,
+        ClothingItem = Bag_SatchelAZ,
         BloodLocation = Bag,
         RunSpeedModifier = 0.99,
         ReplaceInSecondHand = Bag_Satchel_LHand holdingbagleft,

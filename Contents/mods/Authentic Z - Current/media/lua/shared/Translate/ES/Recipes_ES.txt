@@ -35,6 +35,8 @@ Recipes_ES = {
 	Recipe_Upgrade_NBH_Hazmat_Pack = "Mejorar Mochila NBH",
 	Recipe_Upgrade_Moms_Backpack = "Mejorar Mochila de Mom",
 	Recipe_Upgrade_Hollys_Backpack = "Mejorar Mochila de Holly",
+	Recipe_Upgrade_Duffelbag = "Mejorar Bolsa de deportes",
+	Recipe_Upgrade_Rucksack = "Mejorar Mochila de montaña",
 	
 	Recipe_Revert_Attachable = "Revertir adjuntable",	
 	Recipe_Reuse_Bag = "Reutilizar bolsa",		

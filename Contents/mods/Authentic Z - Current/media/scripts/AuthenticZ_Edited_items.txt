@@ -72,9 +72,10 @@ module AuthenticZClothing {
 
     item AerosolbombTriggered
 	{
-		MaxRange	=	10,
+		MaxRange		=	10,
 		KnockdownMod	=	0,
-		Type	=	Weapon,
+		Type			=	Weapon,
+		Type			=	Weapon,
 		MinimumSwingTime	=	1.5,
 		SwingAnim	=	Throw,
         WeaponSprite = WeaponSpriteAerosolBombSensor,

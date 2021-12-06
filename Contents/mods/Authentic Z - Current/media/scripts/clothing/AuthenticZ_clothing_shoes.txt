@@ -267,6 +267,21 @@ module AuthenticZClothing {
         WindResistance = 0.3,
 		WorldStaticModel = Shoes_Ground,		
 	}
+	item Shoes_SlippersBlack
+	{
+		Type = Clothing,
+		DisplayName = Black Slippers,
+		ClothingItem = Shoes_SlippersBlack,
+		BodyLocation = Shoes,
+		BloodLocation = Shoes,
+		Icon = ShoesSlippersBlack,
+		StompPower = 0.8,
+		ConditionLowerChanceOneIn = 2,
+        ConditionMax = 6,
+        RunSpeedModifier = 0.7,
+        RemoveOnBroken = false,
+        WorldStaticModel = Shoes_Slippers_Ground,
+	}	
  	item Shoes_TrainerWhite
 	{
 		Type = Clothing,
@@ -560,5 +575,19 @@ module AuthenticZClothing {
         WindResistance = 0.65,
         Weight = 0.1,
         WorldStaticModel = Socks_Long_Ground,		
-	}	
+	}
+	item Socks_Long_StockingsBlack
+	{
+		Type = Clothing,
+		DisplayName = Black Stockings,
+		ClothingItem = Socks_Long_StockingsBlack,
+		BodyLocation = Socks,
+		Icon = LongjohnsBlackLeggings,
+		BloodLocation = Shoes;LowerLegs;Trousers,
+       	Insulation = 0.55,
+        WindResistance = 0.65,
+        Weight = 0.1,
+        WorldStaticModel = Socks_Long_Ground,			
+	}
+	
 }

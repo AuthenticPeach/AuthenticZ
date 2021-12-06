@@ -395,14 +395,6 @@ recipe Tie Hoodie Around Waist
 	   Time:30.0,
 	   Tooltip:Tooltip_HoodieCraft,
   	}
-recipe Wear Satchel With Bag
-  	{
-   	   Bag_Satchel,
-
-   	   Result:AuthenticZClothing.Bag_Satchel,
-	   Time:30.0,
-	   Tooltip:Tooltip_HoodieCraft,
-  	}
 recipe Make Attachable
   	{
    	   Hat_GasMask,
