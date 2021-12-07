@@ -573,7 +573,7 @@ module AuthenticZClothing {
         BodyLocation = Hat,
         ClothingItemExtra = Hat_BandanaRed;Hat_BandanaMaskRed,
         ClothingItemExtraOption = UntieBandana;TieBandanaFace,
-        Icon = RamboBandana_Red,
+        Icon = RamboBandanna_Red,
         CanHaveHoles = false,
         ChanceToFall = 5,
         Insulation = 0.10,

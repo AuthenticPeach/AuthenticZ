@@ -192,6 +192,7 @@ module AuthenticZClothing {
 	
 	item Bag_JerryCanBack
     {
+        DisplayCategory = Bag,	
         Weight			=	6,
         Type			=	Drainable,
 		UseWhileEquipped	=	FALSE,
@@ -375,6 +376,7 @@ module AuthenticZClothing {
 	
 	item Suitcase2
     {
+	    DisplayCategory = Container,	
         WeightReduction	=	60,
         Weight	=	1,
         Type	=	Container,

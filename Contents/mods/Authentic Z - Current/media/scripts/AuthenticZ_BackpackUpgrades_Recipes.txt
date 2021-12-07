@@ -1664,7 +1664,7 @@ recipe Upgrade Camo Alicepack
    	   Result:Bag_ALICEpack_Army_Tier_1,
        OnGiveXP:Give20TailoringXP,	   
 	   Time:300.0,
-       AnimNode:Disassemble
+       AnimNode:Disassemble,
 	   Category:Tailoring,	   
   	}
 recipe Upgrade Camo Alicepack
