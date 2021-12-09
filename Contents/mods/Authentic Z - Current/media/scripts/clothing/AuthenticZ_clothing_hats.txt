@@ -716,7 +716,7 @@ module AuthenticZClothing {
         WindResistance = 0.1,
         Weight = 0.5,
 		WorldStaticModel = WorldItem_Boater_Ground_Yellow,
-    	}
+    }
    item Hat_CheeseHat
     {
         Type = Clothing,

@@ -174,10 +174,10 @@ module AuthenticZClothing {
     {
         Type = Clothing,
         DisplayName = Bunny Tail,
-        ClothingItem = BunnyTail,
+        ClothingItem = BunnyTailAZ,
         BodyLocation = Tail,
-        Icon = BunnyTail,
-        WorldStaticModel = WorldItem_BunnyTail,
+        Icon = BunnyTailAZ,
+        WorldStaticModel = WorldItem_BunnyTailAZ,
     }	
     item Clown_Coveralls
     {

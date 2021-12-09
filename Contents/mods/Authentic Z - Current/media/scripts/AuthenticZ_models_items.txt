@@ -494,7 +494,7 @@ module Base
 		mesh = WorldItems/WorldItem_Balloon,
 		texture = clothes\Items\BalloonYellow,		
 	}
-	model WorldItem_BunnyTail
+	model WorldItem_BunnyTailAZ
     {
 		mesh = WorldItems/WorldItem_BunnyTail,
 		texture = clothes\Items\BunnyTail,
