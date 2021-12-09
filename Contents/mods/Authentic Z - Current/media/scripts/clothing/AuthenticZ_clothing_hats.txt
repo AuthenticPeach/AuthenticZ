@@ -6,7 +6,7 @@ module AuthenticZClothing {
 	{
 		Type = Clothing,
 		DisplayName = Bunny Ears,
-		ClothingItem = BunnyEars,
+		ClothingItem = BunnyEarsAZ,
 		BodyLocation = Hat,
 		Icon = AZBunnyEars,
 		ChanceToFall = 80,
