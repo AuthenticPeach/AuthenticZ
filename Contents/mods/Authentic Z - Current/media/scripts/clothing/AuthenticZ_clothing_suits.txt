@@ -4,6 +4,7 @@ module AuthenticZClothing {
   }
     item Boilersuit_BigDaddy
     {
+       DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Big Daddy's Coveralls,
         ClothingItem = Boilersuit_BigDaddy,
@@ -19,6 +20,7 @@ module AuthenticZClothing {
     }
     item Boilersuit_BlackMamba
     {
+       DisplayCategory = Clothing,			
         Type = Clothing,
         DisplayName = Uma's Coveralls,
         ClothingItem = Boilersuit_BlackMamba,
@@ -34,6 +36,7 @@ module AuthenticZClothing {
     }	
     item Boilersuit_CrossingGuard
     {
+       DisplayCategory = Clothing,			
         Type = Clothing,
         DisplayName = Crossing Guard's Coveralls,
         ClothingItem = Boilersuit_CrossingGuard,
@@ -49,6 +52,7 @@ module AuthenticZClothing {
     }
     item Boilersuit_PrisonerClassic
     {
+       DisplayCategory = Clothing,			
         Type = Clothing,
         DisplayName = Classic Prisoner Jumpsuit,
         ClothingItem = Boilersuit_PrisonerClassic,
@@ -64,6 +68,7 @@ module AuthenticZClothing {
     }
     item Boilersuit_GhostbustersSpengler
     {
+       DisplayCategory = Clothing,			
         Type = Clothing,
         DisplayName = Ghostbuster Coveralls,
         ClothingItem = Boilersuit_GhostbustersSpengler,
@@ -80,6 +85,7 @@ module AuthenticZClothing {
     }
     item Boilersuit_GhostbustersStantz
     {
+       DisplayCategory = Clothing,			
         Type = Clothing,
         DisplayName = Ghostbuster Coveralls,
         ClothingItem = Boilersuit_GhostbustersStantz,
@@ -96,6 +102,7 @@ module AuthenticZClothing {
     }
     item Boilersuit_GhostbustersVenkman
     {
+       DisplayCategory = Clothing,			
         Type = Clothing,
         DisplayName = Ghostbuster Coveralls,
         ClothingItem = Boilersuit_GhostbustersVenkman,
@@ -112,6 +119,7 @@ module AuthenticZClothing {
     }
     item Boilersuit_GhostbustersZeddemore
     {
+       DisplayCategory = Clothing,			
         Type = Clothing,
         DisplayName = Ghostbuster Coveralls,
         ClothingItem = Boilersuit_GhostbustersZeddemore,
@@ -128,6 +136,7 @@ module AuthenticZClothing {
     }
     item Boilersuit_Halloween
     {
+       DisplayCategory = Clothing,			
         Type = Clothing,
         DisplayName = Halloween Coveralls,
         ClothingItem = Boilersuit_Halloween,
@@ -143,6 +152,7 @@ module AuthenticZClothing {
     }
     item Boilersuit_Pennywise
     {
+       DisplayCategory = Clothing,			
         Type = Clothing,
         DisplayName = Pennywise's Gown,
         ClothingItem = Boilersuit_Pennywise,
@@ -157,6 +167,7 @@ module AuthenticZClothing {
     }
     item Boilersuit_PrisonerClassic
     {
+       DisplayCategory = Clothing,			
         Type = Clothing,
         DisplayName = Classic Prisoner Jumpsuit,
         ClothingItem = Boilersuit_PrisonerClassic,
@@ -172,6 +183,7 @@ module AuthenticZClothing {
     }
     item BunnyTail
     {
+       DisplayCategory = Clothing,			
         Type = Clothing,
         DisplayName = Bunny Tail,
         ClothingItem = BunnyTailAZ,
@@ -181,6 +193,7 @@ module AuthenticZClothing {
     }	
     item Clown_Coveralls
     {
+       DisplayCategory = Clothing,			
         Type = Clothing,
         DisplayName = Clown Coveralls,
         ClothingItem = Clown_Coveralls,
@@ -199,6 +212,7 @@ module AuthenticZClothing {
     }
     item CEDAHazmatSuit
     {
+       DisplayCategory = Clothing,			
         Type = Clothing,
         DisplayName = Green CEDA Hazmat Suit,
         ClothingItem = HazmatSuitCEDA,
@@ -214,6 +228,7 @@ module AuthenticZClothing {
     }
     item CEDAHazmatSuitBlack
     {
+       DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = CEDA Hazmat Suit,
         ClothingItem = HazmatSuitCEDABlack,
@@ -229,6 +244,7 @@ module AuthenticZClothing {
     }
     item CEDAHazmatSuitBlue
     {
+       DisplayCategory = Clothing,			
         Type = Clothing,
         DisplayName = CEDA Hazmat Suit,
         ClothingItem = HazmatSuitCEDABlue,
@@ -244,6 +260,7 @@ module AuthenticZClothing {
     }
     item CEDAHazmatSuitRed
     {
+       DisplayCategory = Clothing,			
         Type = Clothing,
         DisplayName = Red CEDA Hazmat Suit,
         ClothingItem = HazmatSuitCEDARed,
@@ -259,6 +276,7 @@ module AuthenticZClothing {
     }	
     item NBHHazmatSuit
     {
+       DisplayCategory = Clothing,			
         Type = Clothing,
         DisplayName = Nuclear Biohazard Suit,
         ClothingItem = HazmatSuitNBH,
@@ -274,6 +292,7 @@ module AuthenticZClothing {
     }
     item Dress_Maid
     {
+       DisplayCategory = Clothing,			
         Type = Clothing,
         DisplayName = Short Dress,
         ClothingItem = Dress_Maid,
@@ -287,6 +306,7 @@ module AuthenticZClothing {
     }
     item Dress_Nurse
     {
+       DisplayCategory = Clothing,			
         Type = Clothing,
         DisplayName = Short Dress,
         ClothingItem = Dress_Nurse,
@@ -300,6 +320,7 @@ module AuthenticZClothing {
     }
     item Dress_Dimitrescu
     {
+       DisplayCategory = Clothing,			
         Type = Clothing,
         DisplayName = Lady Dimitrescu's Dress,
         ClothingItem = Dress_Dimitrescu,
@@ -314,6 +335,7 @@ module AuthenticZClothing {
     }
     item Dress_LongBlack
     {
+       DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Long Black Dress,
         ClothingItem = Dress_LongBlack,
@@ -328,6 +350,7 @@ module AuthenticZClothing {
     }
     item Dress_LongBlue
     {
+       DisplayCategory = Clothing,			
         Type = Clothing,
         DisplayName = Long Blue Dress,
         ClothingItem = Dress_LongBlue,
@@ -342,6 +365,7 @@ module AuthenticZClothing {
     }
     item Dress_NormalBlue
     {
+       DisplayCategory = Clothing,			
         Type = Clothing,
         DisplayName = Blue Dress,
         ClothingItem = Dress_NormalBlue,
@@ -356,6 +380,7 @@ module AuthenticZClothing {
     }
     item Dress_LongPink
     {
+       DisplayCategory = Clothing,			
         Type = Clothing,
         DisplayName = Long Pink Dress,
         ClothingItem = Dress_LongPink,
@@ -370,6 +395,7 @@ module AuthenticZClothing {
     }
     item Dress_NormalPink
     {
+       DisplayCategory = Clothing,			
         Type = Clothing,
         DisplayName = Pink Dress,
         ClothingItem = Dress_NormalPink,
@@ -384,6 +410,7 @@ module AuthenticZClothing {
     }
     item Dress_Purna
     {
+       DisplayCategory = Clothing,			
         Type = Clothing,
         DisplayName = Short Sleeveless Dress,
         ClothingItem = Dress_Purna,
@@ -397,6 +424,7 @@ module AuthenticZClothing {
     }	
     item Dress_Short2
     {
+       DisplayCategory = Clothing,			
         Type = Clothing,
         DisplayName = Short Sleeveless Dress,
         ClothingItem = Dress_Short2,
@@ -410,6 +438,7 @@ module AuthenticZClothing {
     }
     item HazmatSuit2
     {
+       DisplayCategory = Clothing,			
         Type = Clothing,
         DisplayName = Hazmat Suit,
         ClothingItem = HazmatSuit2,
@@ -425,6 +454,7 @@ module AuthenticZClothing {
     }	
     item Mime_Overalls
     {
+       DisplayCategory = Clothing,			
         Type = Clothing,
         DisplayName = Mime Overalls,
         ClothingItem = Mime_Overalls,
@@ -440,6 +470,7 @@ module AuthenticZClothing {
     }	
 	item Red_LongJohns
     {
+       DisplayCategory = Clothing,			
         Type = Clothing,
         DisplayName = Red Long Johns,
         ClothingItem = Red_LongJohns,
@@ -453,6 +484,7 @@ module AuthenticZClothing {
     }
     item WeddingDressBlue
     {
+       DisplayCategory = Clothing,			
         Type = Clothing,
         DisplayName = Blue Wedding Dress,
         ClothingItem = WeddingDressBlue,
@@ -468,6 +500,7 @@ module AuthenticZClothing {
     }
     item WeddingDressPink
     {
+       DisplayCategory = Clothing,			
         Type = Clothing,
         DisplayName = Pink Wedding Dress,
         ClothingItem = WeddingDressPink,

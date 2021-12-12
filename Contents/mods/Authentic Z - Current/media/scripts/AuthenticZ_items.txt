@@ -4,6 +4,7 @@ module AuthenticZClothing {
   }
 	item PZAZ_HitList
 	{
+        DisplayCategory = Cartography,	
         Weight	=	0.05,
         Type	=	Normal,
         DisplayName	=	Zombie Hit-list #1,
@@ -13,6 +14,7 @@ module AuthenticZClothing {
 	}
 	item PZAZ_HitList2
 	{
+        DisplayCategory = Cartography,	
         Weight	=	0.05,
         Type	=	Normal,
         DisplayName	=	Zombie Hit-list #2,
@@ -22,6 +24,7 @@ module AuthenticZClothing {
 	}
 	item PZAZ_HitList3
 	{
+        DisplayCategory = Cartography,	
         Weight	=	0.05,
         Type	=	Normal,
         DisplayName	=	Zombie Hit-list #3,
@@ -29,12 +32,122 @@ module AuthenticZClothing {
         Icon	=	PZAZ_hitlist,
 		WorldStaticModel = Hit-list3Map,
 	}
+
+   item Spiffo
+	{
+        DisplayCategory = Raccoon,	
+		Weight					=	0.2,
+		Type					=	Normal,
+		DisplayName				=	Spiffo,
+		Icon					=	PlushSpiffo,
+		WorldStaticModel 		= 	SpiffoPlushie,
+        AttachmentType  		= 	SpiffoPlushie,
+		StaticModel 			= 	SpiffoPlushie,		
+	}
+	
+    item SpiffoGrey
+	{
+        DisplayCategory = Raccoon,		
+		Weight					=	0.2,
+		Type					=	Normal,
+		DisplayName				=	PAWS Spiffo,
+		Icon					=	PlushSpiffoGrey,
+		WorldStaticModel 		= 	SpiffoPlushieGrey,
+        AttachmentType  		= 	SpiffoPlushie,
+		StaticModel 			= 	SpiffoPlushieGrey,		
+	}	
+
+    item SpiffoHeart
+	{
+        DisplayCategory = Raccoon,		
+		Weight					=	0.2,
+		Type					=	Normal,
+		DisplayName				=	Heart Spiffo,
+		Icon					=	SpiffoPink,
+		WorldStaticModel 		= 	SpiffoPlushieHeart,
+        AttachmentType  		= 	SpiffoPlushie,
+		StaticModel 			= 	SpiffoPlushieHeart,		
+	}
+	
+    item SpiffoBlueberry
+	{
+        DisplayCategory = Raccoon,		
+		Weight					=	0.2,
+		Type					=	Normal,
+		DisplayName				=	Blueberry Spiffo,
+		Icon					=	SpiffoBlue,
+		WorldStaticModel 		= 	SpiffoPlushieBlueberry,
+        AttachmentType  		= 	SpiffoPlushie,
+		StaticModel 			= 	SpiffoPlushieBlueberry,		
+	}
+
+    item SpiffoShamrock
+	{
+        DisplayCategory = Raccoon,		
+		Weight					=	0.2,
+		Type					=	Normal,
+		DisplayName				=	Shamrock Spiffo,
+		Icon					=	SpiffoGreen,
+		WorldStaticModel 		= 	SpiffoPlushieShamrock,
+        AttachmentType  		= 	SpiffoPlushie,
+		StaticModel 			= 	SpiffoPlushieShamrock,		
+	}
+
+    item SpiffoPlushieRainbow
+	{
+        DisplayCategory = Raccoon,		
+		Weight					=	0.2,
+		Type					=	Normal,
+		DisplayName				=	Rainbow Spiffo,
+		Icon					=	SpiffoRainbow,
+		WorldStaticModel 		= 	SpiffoPlushieRainbow,
+        AttachmentType  		= 	SpiffoPlushie,
+		StaticModel 			= 	SpiffoPlushieRainbow,		
+	}	
+	
+    item Doll
+    {
+        DisplayCategory 	= Raccoon,		
+        Type				=			Normal,
+        DisplayName			=		    Doll,
+        Icon				=			Doll,
+        Weight				=			0.1,
+        WorldStaticModel 	= 			Doll,
+        AttachmentType  	= 			Doll,
+		StaticModel 		= 			Doll,				
+    }
+	
+	item ToyBear
+	{
+        DisplayCategory = Raccoon,		
+		Weight				=	0.2,
+		Type				=	Normal,
+		DisplayName			=	Toy Bear,
+		Icon				=	ToyBear,
+		WorldStaticModel 	= 	ToyBear,
+        AttachmentType  	= 	TeddyBear,		
+		StaticModel 		= 	ToyBear,	
+	}
+
+	item ToyBearSmall
+	{
+        DisplayCategory = Raccoon,		
+		Weight				=	0.2,
+		Type				=	Normal,
+		DisplayName			=	Toy Bear,
+		Icon				=	ToyBear,
+		WorldStaticModel 	= 	ToyBearSmall,
+        AttachmentType  	= 	SpiffoPlushie,		
+		StaticModel 		= 	ToyBearSmall,	
+	}			
+	
     item Authentic_AndyBoard
     {
+	    DisplayCategory = ToolWeapon,	
         Weight	=	0.4,
         Type	=	Weapon,
-        DisplayName	=	White Board,
-        Icon	=	WhiteBoard,
+        DisplayName		=	White Board,
+        Icon			=	WhiteBoard,
         StaticModel = Authentic_AndySign,
         primaryAnimMask = HoldingTorchRight,
         secondaryAnimMask = HoldingTorchLeft,	
@@ -70,6 +183,7 @@ module AuthenticZClothing {
     }	
     item Authentic_Bandages
     {
+        DisplayCategory = FirstAid,	
         Weight	=	0.2,
         Type	=	Weapon,
         DisplayName	=	Roll of Bandages,
@@ -108,6 +222,7 @@ module AuthenticZClothing {
     }
     item AuthenticBalloon_Blue
     {
+		DisplayCategory = Household,	
         Type					=	Normal,
         DisplayName				=	Blue Balloon,
         Icon					=	Balloon_Blue,
@@ -122,6 +237,7 @@ module AuthenticZClothing {
     }
     item AuthenticBalloon_Green
     {
+		DisplayCategory 			= Household,	
         Type						=	Normal,
         DisplayName					=	Green Balloon,
         Icon						=	Balloon_Green,
@@ -136,6 +252,7 @@ module AuthenticZClothing {
     }		
     item AuthenticBalloon_Purple
     {
+		DisplayCategory 			= Household,		
         Type						=	Normal,
         DisplayName					=	Purple Balloon,
         Icon						=	Balloon_Purple,
@@ -150,6 +267,7 @@ module AuthenticZClothing {
     }	
     item AuthenticBalloon_Red
     {
+		DisplayCategory 				= Household,		
         Type							=	Normal,
         DisplayName						=	Red Balloon,
         Icon							=	Balloon_Red,
@@ -164,6 +282,7 @@ module AuthenticZClothing {
     }	
     item AuthenticBalloon_White
     {
+		DisplayCategory 			= 	Household,		
         Type						=	Normal,
         DisplayName					=	White Balloon,
         Icon						=	Balloon_White,
@@ -178,6 +297,7 @@ module AuthenticZClothing {
     }
     item AuthenticBalloon_Yellow
     {
+		DisplayCategory = Household,		
         Type							=	Normal,
         DisplayName						=	Yellow Balloon,
         Icon							=	Balloon_Yellow,
@@ -192,6 +312,7 @@ module AuthenticZClothing {
     }	
     item AuthenticBalloon_Group
     {
+		DisplayCategory = Household,		
         Type							=	Normal,
         DisplayName						=	Group of Balloons,
         Icon							=	Balloon_Group1,
@@ -206,6 +327,7 @@ module AuthenticZClothing {
     }	
     item Authentic_CoffeeCup
     {
+        DisplayCategory = Junk,	
         Weight				=	0.2,
         Type				=	Weapon,
         DisplayName			=	Coffee Cup,
@@ -242,6 +364,7 @@ module AuthenticZClothing {
     }
 	item AuthenticCanteenCadetBlue
     	{
+        DisplayCategory = WaterContainer, 		
        	Weight    		 		= 	0.2,
 		CanStoreWater			= 	TRUE,
         Type    				= 	Normal,
@@ -259,6 +382,7 @@ module AuthenticZClothing {
 
 	item AuthenticCanteenCadetBluefull
     	{
+        DisplayCategory = WaterContainer, 		
 		IsWaterSource			=	TRUE,
 		Weight					=	1.5,
 		CanStoreWater			=	TRUE,
@@ -280,6 +404,7 @@ module AuthenticZClothing {
 	}
 	item AuthenticCanteenDarkGreen
     	{
+        DisplayCategory = WaterContainer, 		
        	Weight    		 		= 	0.2,
 		CanStoreWater			= 	TRUE,
         Type    				= 	Normal,
@@ -297,6 +422,7 @@ module AuthenticZClothing {
 
 	item AuthenticCanteenDarkGreenfull
     	{
+        DisplayCategory = WaterContainer, 		
 		IsWaterSource			=	TRUE,
 		Weight					=	1.5,
 		CanStoreWater			=	TRUE,
@@ -318,6 +444,7 @@ module AuthenticZClothing {
 	}
 	item AuthenticCanteenDarkGrey
     	{
+        DisplayCategory = WaterContainer, 		
        	Weight    		 		= 	0.2,
 		CanStoreWater			= 	TRUE,
         Type    				= 	Normal,
@@ -335,6 +462,7 @@ module AuthenticZClothing {
 
 	item AuthenticCanteenDarkGreyfull
     	{
+        DisplayCategory = WaterContainer, 		
 		IsWaterSource			=	TRUE,
 		Weight					=	1.5,
 		CanStoreWater			=	TRUE,
@@ -356,6 +484,7 @@ module AuthenticZClothing {
 	}
 	item AuthenticCanteenForestGreen
     	{
+        DisplayCategory = WaterContainer, 		
 		Weight    		 		= 	0.2,
 		CanStoreWater			= 	TRUE,
         Type    				= 	Normal,
@@ -374,6 +503,7 @@ module AuthenticZClothing {
 
 	item AuthenticCanteenForestGreenfull
     	{
+        DisplayCategory = WaterContainer, 		
 		IsWaterSource			=	TRUE,
 		Weight					=	1.5,
 		CanStoreWater			=	TRUE,
@@ -395,6 +525,7 @@ module AuthenticZClothing {
 	}
 	item AuthenticCanteenGrey
     	{
+        DisplayCategory = WaterContainer, 		
        	Weight    		 		= 	0.2,
 		CanStoreWater			= 	TRUE,
         Type    				= 	Normal,
@@ -412,6 +543,7 @@ module AuthenticZClothing {
 
 	item AuthenticCanteenGreyfull
     	{
+        DisplayCategory = WaterContainer, 		
 		IsWaterSource			=	TRUE,
 		Weight					=	1.5,
 		CanStoreWater			=	TRUE,
@@ -433,6 +565,7 @@ module AuthenticZClothing {
 	}
 	item AuthenticCanteenSilver
     	{
+        DisplayCategory = WaterContainer, 		
        	Weight    		 		= 	0.2,
 		CanStoreWater			= 	TRUE,
         Type    				= 	Normal,
@@ -450,6 +583,7 @@ module AuthenticZClothing {
 
 	item AuthenticCanteenSilverfull
     	{
+        DisplayCategory = WaterContainer, 		
 		IsWaterSource			=	TRUE,
 		Weight					=	1.5,
 		CanStoreWater			=	TRUE,
@@ -471,6 +605,7 @@ module AuthenticZClothing {
 	}
 	item AuthenticCigaretteHolder
 	{
+		DisplayCategory = Household,	
 		Count				=	5,
 		HungerChange		=	0,
 		Weight				=	0.1,
@@ -489,6 +624,7 @@ module AuthenticZClothing {
 	}	
     item AuthenticCricketBat
 	{
+		DisplayCategory 	= 	Sports,	
 		MaxRange			=	1.25,
 		WeaponSprite		=	AuthenticCricketBat,
 		MinAngle			=	0.80,
@@ -529,6 +665,7 @@ module AuthenticZClothing {
 
 	item Authentic_MilitaryFlashlightGrey
 	{
+        DisplayCategory = LightSource,	
 		DisplayName	 		 =	Grey Military Flashlight,
 		Icon			     =	MilitaryFlashlightGrey,
 		Type		  		 =	Drainable,
@@ -549,6 +686,7 @@ module AuthenticZClothing {
 
 	item Authentic_MilitaryFlashlightGreen
 	{
+        DisplayCategory = LightSource,	
 		DisplayName			=	Green Military Flashlight,	
 		Icon				=	MilitaryFlashlightGreen,
 		Type				=	Drainable,		
@@ -570,6 +708,7 @@ module AuthenticZClothing {
 
 	item Authentic_MinerLightbulb
 	{
+        DisplayCategory = LightSource,	
 		Type		  		 =	Drainable,	
 		DisplayName	 		 =	Mining Helmet Light,
 		Icon			     =	LightBulb,
@@ -588,6 +727,7 @@ module AuthenticZClothing {
 
     item AuthenticPipeBomb
 	{
+        DisplayCategory = Devices,	
 		MaxRange				=	10,
 		Type					=	Weapon,
 		MinimumSwingTime		=	1.5,
@@ -615,6 +755,7 @@ module AuthenticZClothing {
    
 	item AuthenticSmokeBomb
     {
+        DisplayCategory = Devices,	
         MaxRange				=	10,
         Type					=	Weapon,
         MinimumSwingTime		=	1.5,
@@ -641,6 +782,7 @@ module AuthenticZClothing {
 
 	item AuthenticSmokeBombRemote
     {
+        DisplayCategory = Devices,	
         MaxRange				=	10,
         Type					=	Weapon,
         MinimumSwingTime		=	1.5,
@@ -666,6 +808,7 @@ module AuthenticZClothing {
 	
     item AuthenticWalkingCane
 	{
+        DisplayCategory = Sports,
 		MaxRange			=	1.25,
 		WeaponSprite		=	AuthenticWalkingCane,
 		MinAngle			=	0.80,
@@ -705,6 +848,7 @@ module AuthenticZClothing {
 	}
    item Chainsaw
     {
+	    DisplayCategory = ToolWeapon,	
         MaxRange	=	1.2,
         WeaponSprite	=	Chainsaw,
         MinAngle	=	0.72,
@@ -748,6 +892,7 @@ module AuthenticZClothing {
     }
     item HairDyeDarkBrown
     {
+        DisplayCategory = Appearance,	
         Weight	=	1,
         Type	=	Drainable,
         UseWhileEquipped	=	FALSE,
@@ -762,6 +907,7 @@ module AuthenticZClothing {
     }
     item HairDyeBlonde2
     {
+        DisplayCategory = Appearance,		
         Weight		=	1,
         Type		=	Drainable,
         UseWhileEquipped	=	FALSE,
@@ -776,6 +922,7 @@ module AuthenticZClothing {
     }
   item HairDyeDarkerBrown
     {
+        DisplayCategory = Appearance,		
         Weight	=	1,
         Type	=	Drainable,
         UseWhileEquipped	=	FALSE,
@@ -790,6 +937,7 @@ module AuthenticZClothing {
     }
     item HairDyePurple
     {
+        DisplayCategory = Appearance,		
         Weight	=	1,
         Type	=	Drainable,
         UseWhileEquipped	=	FALSE,
@@ -804,6 +952,7 @@ module AuthenticZClothing {
     }	
     item Postal_Petition
     {
+        DisplayCategory = Household,		
         Weight	=	0.2,
         Type	=	Weapon,
         DisplayName	=	Postal Dude's Petition,
@@ -843,6 +992,7 @@ module AuthenticZClothing {
 	
     item AuthenticMeatChunk1
     {
+        DisplayCategory = Junk,		
         Weight					=	0.2,
         Type					=	Weapon,
         DisplayName				=	Tainted Meat Chunk,
@@ -880,6 +1030,7 @@ module AuthenticZClothing {
     }
     item AuthenticMeatChunk2
     {
+        DisplayCategory = Junk,		
         Weight					=	0.2,
         Type					=	Weapon,
         DisplayName				=	Tainted Meat Chunk,
@@ -917,6 +1068,7 @@ module AuthenticZClothing {
     }
     item AuthenticMeatChunk3
     {
+        DisplayCategory = Junk,		
         Weight					=	0.2,
         Type					=	Weapon,
         DisplayName				=	Tainted Meat Chunk,
@@ -954,6 +1106,7 @@ module AuthenticZClothing {
     }
     item AuthenticMeatChunk4
     {
+        DisplayCategory = Junk,		
         Weight					=	0.2,
         Type					=	Weapon,
         DisplayName				=	Tainted Meat Chunk,
@@ -991,6 +1144,7 @@ module AuthenticZClothing {
     }	
     item AuthenticMeatChunk5
     {
+        DisplayCategory = Junk,		
         Weight					=	0.2,
         Type					=	Weapon,
         DisplayName				=	Tainted Meat Chunk,
@@ -1028,6 +1182,7 @@ module AuthenticZClothing {
     }		
     item Authentic_MoneyStack
     {
+        DisplayCategory = Junk,		
         Weight		=	0.1,
         Type		=	Weapon,
         DisplayName	=	Stack of Money,
@@ -1064,6 +1219,7 @@ module AuthenticZClothing {
     }
     item AuthenticOrgan_Brain
     {
+        DisplayCategory = Junk,		
         Weight					=	0.2,
         Type					=	Weapon,
         DisplayName				=	Ravaged Brain,
@@ -1101,6 +1257,7 @@ module AuthenticZClothing {
     }
     item AuthenticOrgan_Hand
     {
+        DisplayCategory = Junk,		
         Weight					=	0.2,
         Type					=	Weapon,
         DisplayName				=	Ravaged Hand,
@@ -1138,6 +1295,7 @@ module AuthenticZClothing {
     }
     item AuthenticOrgan_Heart
     {
+        DisplayCategory = Junk,		
         Weight					=	0.2,
         Type					=	Weapon,
         DisplayName				=	Ravaged Heart,
@@ -1175,6 +1333,7 @@ module AuthenticZClothing {
     }
     item AuthenticOrgan_Kidney
     {
+        DisplayCategory = Junk,		
         Weight					=	0.2,
         Type					=	Weapon,
         DisplayName				=	Ravaged Kidney,
@@ -1212,6 +1371,7 @@ module AuthenticZClothing {
     }		
     item AuthenticOrgan_Liver
     {
+        DisplayCategory = Junk,		
         Weight					=	0.2,
         Type					=	Weapon,
         DisplayName				=	Ravaged Liver,
@@ -1249,6 +1409,7 @@ module AuthenticZClothing {
     }	
 	item Authentic_Paintbrush
 	{
+	    DisplayCategory = Tool,	
 		MaxRange	=	0.8,
 		WeaponSprite	=	AuthenticPaintBrush,
 		MinAngle	=	0.65,
@@ -1288,6 +1449,7 @@ module AuthenticZClothing {
 	}
     item Authentic_Pills
     {
+	    DisplayCategory = FirstAid,		
         Weight	=	0.3,
         Type	=	Weapon,
         DisplayName	=	Bottle of Pills,
@@ -1328,6 +1490,7 @@ module AuthenticZClothing {
 
     item Authentic_WalkieTalkie
     {
+	    DisplayCategory = Communications,		
         Weight	=	2.5,
         Type	=	Weapon,
         DisplayName	=	Tactical Walkie Talkie,
@@ -1366,6 +1529,7 @@ module AuthenticZClothing {
 
     item Authentic_PomPomWhite
     {
+	    DisplayCategory = Sports,		
         Weight	=	0.2,
         Type	=	Weapon,
         DisplayName	=	Cheerleading Pom Pom,
@@ -1401,6 +1565,7 @@ module AuthenticZClothing {
     }
     item Authentic_PomPomBlack
     {
+	    DisplayCategory = Sports,	
         Weight	=	0.2,
         Type	=	Weapon,
         DisplayName	=	Cheerleading Pom Pom,
@@ -1436,6 +1601,7 @@ module AuthenticZClothing {
     }
 	item AZ_MetalClip
 	{
+        DisplayCategory = Material,	
         Weight			 =	0.05,
         Type			 =	Normal,
         DisplayName		 = 	Carabiner Clip,
@@ -1445,6 +1611,7 @@ module AuthenticZClothing {
 	}	
     item MetalSpike
     {
+        DisplayCategory = WeaponCrafted,
         MaxRange	=	0.9,
         WeaponSprite	=	ShortMetalSpear,
         DisplayName	=	Metal Spike,
@@ -1494,6 +1661,7 @@ module AuthenticZClothing {
 
     item ShortMetalSpike
     {
+        DisplayCategory = WeaponCrafted,	
         MaxRange	=	0.9,
         WeaponSprite	=	ShortMetalSpike,
         DisplayName	=	Short Metal Spike,
@@ -1542,6 +1710,7 @@ module AuthenticZClothing {
  	}
     item KnifeEnd
     {
+        DisplayCategory = WeaponCrafted,	
         MaxRange	=	0.9,
         WeaponSprite	=	KnifeEnd,
         DisplayName	=	Jagged Blade,
@@ -1590,6 +1759,7 @@ module AuthenticZClothing {
  	}
     item SpikePick
     {
+        DisplayCategory = WeaponCrafted,	
         MaxRange	=	0.9,
         WeaponSprite	=	SpikePick,
         DisplayName	=	Long Metal Pick,
@@ -1638,6 +1808,7 @@ module AuthenticZClothing {
  	}	
     item ShortMetalSpear
     {
+        DisplayCategory = WeaponCrafted,	
         MaxRange	=	0.9,
         WeaponSprite	=	ShortMetalSpear,
         DisplayName	=	Metal Spike,
@@ -1687,6 +1858,7 @@ module AuthenticZClothing {
 
     item MediumMetalSpike
     {
+        DisplayCategory = WeaponCrafted,	
         MaxRange	=	0.9,
         WeaponSprite	=	MediumMetalSpear,
         DisplayName	=	Metal Spike,
@@ -1736,6 +1908,7 @@ module AuthenticZClothing {
 	
     item RemoteControl_Box
     {
+        DisplayCategory = Electronics,	
 		Weight	=	0.3,
         Type	=	Weapon,
         DisplayName	=	Remote Control Box,
@@ -1774,6 +1947,7 @@ module AuthenticZClothing {
     }
     item Stake2
 	{
+        DisplayCategory = WeaponCrafted,	
 		MaxRange	=	0.85,
 		WeaponSprite	=	Stake2,
 		MinAngle	=	0.65,
@@ -1819,6 +1993,7 @@ module AuthenticZClothing {
  	}
     item Stop_Sign
     {
+        DisplayCategory = ToolWeapon,	
         Weight	=	1.0,
         Type	=	Weapon,
         DisplayName	=	Stop Sign,
@@ -1857,6 +2032,7 @@ module AuthenticZClothing {
     }
     item TorchMelee
 	{
+        DisplayCategory = ToolWeapon,	
 		MaxRange	=	1,
 		WeaponSprite	=	HandTorch,
 		MinAngle	=	0.65,
@@ -1897,6 +2073,7 @@ module AuthenticZClothing {
     }
 	item Torch2
 	{
+        DisplayCategory = LightSource,	
 		LightDistance	=	25,
 		Weight	=	1,
 		DisappearOnUse	=	FALSE,
@@ -1917,6 +2094,7 @@ module AuthenticZClothing {
 	}	
     item Football3
     {
+	    DisplayCategory = Sports,	
         MaxRange	=	10,
         Type	=	Weapon,
         MinimumSwingTime	=	1.5,
@@ -1939,6 +2117,7 @@ module AuthenticZClothing {
     }	
     item HandTorch2
     {
+        DisplayCategory = LightSource,	
         LightDistance	=	15,
         Weight	=	0.5,
         DisappearOnUse	=	FALSE,

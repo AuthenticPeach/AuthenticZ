@@ -4,6 +4,7 @@ module AuthenticZClothing {
   }
 	item Rainboots_Yellow
 	{
+       DisplayCategory = Clothing,		
 		Type = Clothing,
 		DisplayName = Yellow Rain Boots,
 		ClothingItem = Rainboots_Yellow,
@@ -24,6 +25,7 @@ module AuthenticZClothing {
 	}
 	item Shoes_ArmyBootsOrange
 	{
+       DisplayCategory = Clothing,	
 		Type = Clothing,
 		DisplayName = Military Boots,
 		ClothingItem = Shoes_ArmyBootsOrange,
@@ -44,6 +46,7 @@ module AuthenticZClothing {
 	}
 	item Shoes_BillMurray
 	{
+       DisplayCategory = Clothing,	
 		Type = Clothing,
 		DisplayName = Designer Shoes,
 		ClothingItem = Shoes_BillMurray,
@@ -62,6 +65,7 @@ module AuthenticZClothing {
     	}
 	item Shoes_BrownBoots
 	{
+       DisplayCategory = Clothing,	
 		Type = Clothing,
 		DisplayName = Brown Boots,
 		ClothingItem = Shoes_BrownBoots,
@@ -82,12 +86,14 @@ module AuthenticZClothing {
 	}		
 	item Shoes_OneBlackBoot
 	{
+       DisplayCategory = Junk,	
 		Type = Clothing,
 		ClothingItem = Shoes_OneBlackBoot,
 		BodyLocation = Shoes,
 	}
  	item Shoes_Clown
 	{
+       DisplayCategory = Clothing,	
 		Type = Clothing,
 		DisplayName = Clown Shoes,
 		ClothingItem = Shoes_ClownAuthentic,
@@ -109,6 +115,7 @@ module AuthenticZClothing {
     	}	
 	item Shoes_JimmyGibbs
 	{
+       DisplayCategory = Clothing,
 		Type = Clothing,
 		DisplayName = Blue Striped Sneakers,
 		ClothingItem = Shoes_JimmyGibbs,
@@ -127,6 +134,7 @@ module AuthenticZClothing {
     	}
 	item Socks_LegWarmers
 	{
+       DisplayCategory = Clothing,			
 		Type = Clothing,
 		DisplayName = Leg Warmers,
 		ClothingItem = Socks_LegWarmers,
@@ -140,6 +148,7 @@ module AuthenticZClothing {
 	}
 	item Socks_LegWarmersNeonBlue
 	{
+       DisplayCategory = Clothing,		
 		Type = Clothing,
 		DisplayName = Blue Leg Warmers,
 		ClothingItem = Socks_LegWarmersNeonBlue,
@@ -156,6 +165,7 @@ module AuthenticZClothing {
 	}	
 	item Socks_LegWarmersNeonPink
 	{
+       DisplayCategory = Clothing,		
 		Type = Clothing,
 		DisplayName = Pink Leg Warmers,
 		ClothingItem = Socks_LegWarmersNeonPink,
@@ -172,6 +182,7 @@ module AuthenticZClothing {
 	}	
 	item Socks_LegWarmersPurple
 	{
+       DisplayCategory = Clothing,		
 		Type = Clothing,
 		DisplayName = Purple Leg Warmers,
 		ClothingItem = Socks_LegWarmersPurple,
@@ -188,6 +199,7 @@ module AuthenticZClothing {
 	}		
  	item Shoes_Maid
 	{
+       DisplayCategory = Clothing,			
 		Type = Clothing,
 		DisplayName = Maid Shoes,
 		ClothingItem = Shoes_Maid,
@@ -209,6 +221,7 @@ module AuthenticZClothing {
    	 }	
  	item Shoes_Nurse
 	{
+       DisplayCategory = Clothing,		
 		Type = Clothing,
 		DisplayName = Nurse Shoes,
 		ClothingItem = Shoes_Nurse,
@@ -230,6 +243,7 @@ module AuthenticZClothing {
     	}
  	item Shoes_Pale
 	{
+       DisplayCategory = Clothing,		
 		Type = Clothing,
 		DisplayName = Pale Shoes,
 		ClothingItem = Shoes_Pale,
@@ -251,6 +265,7 @@ module AuthenticZClothing {
    	 }
 	item Shoes_BlackPinkTrainers
 	{
+       DisplayCategory = Clothing,		
 		Type = Clothing,
 		DisplayName = Sneakers,
 		ClothingItem = Shoes_BlackPinkTrainers,
@@ -269,6 +284,7 @@ module AuthenticZClothing {
 	}
 	item Shoes_SlippersBlack
 	{
+       DisplayCategory = Clothing,		
 		Type = Clothing,
 		DisplayName = Black Slippers,
 		ClothingItem = Shoes_SlippersBlack,
@@ -284,6 +300,7 @@ module AuthenticZClothing {
 	}	
  	item Shoes_TrainerWhite
 	{
+       DisplayCategory = Clothing,		
 		Type = Clothing,
 		DisplayName = Sneakers,
 		ClothingItem = Shoes_TrainerWhite,
@@ -302,6 +319,7 @@ module AuthenticZClothing {
     }
  	item Shoes_TrainerBlackandWhite
 	{
+       DisplayCategory = Clothing,		
 		Type = Clothing,
 		DisplayName = Sneakers,
 		ClothingItem = Shoes_TrainerBlackandWhite,
@@ -320,6 +338,7 @@ module AuthenticZClothing {
     }
  	item Shoes_TrainerPinkandWhite
 	{
+       DisplayCategory = Clothing,		
 		Type = Clothing,
 		DisplayName = Sneakers,
 		ClothingItem = Shoes_TrainerPinkandWhite,
@@ -338,6 +357,7 @@ module AuthenticZClothing {
     }	 
  	item Shoes_TrainerBlack
 	{
+       DisplayCategory = Clothing,		
 		Type = Clothing,
 		DisplayName = Black Sneakers,
 		ClothingItem = Shoes_TrainerBlack,
@@ -356,6 +376,7 @@ module AuthenticZClothing {
     	}
  	item Shoes_TrainerBlackMamba
 	{
+       DisplayCategory = Clothing,		
 		Type = Clothing,
 		DisplayName = Yellow Sneakers,
 		ClothingItem = Shoes_TrainerBlackMamba,
@@ -374,6 +395,7 @@ module AuthenticZClothing {
     }
  	item Shoes_TrainerGreenandWhite
 	{
+       DisplayCategory = Clothing,		
 		Type = Clothing,
 		DisplayName = Green Sneakers,
 		ClothingItem = Shoes_TrainerGreenandWhite,
@@ -392,6 +414,7 @@ module AuthenticZClothing {
     	}
  	item Shoes_TrainerRedandBlack
 	{
+       DisplayCategory = Clothing,		
 		Type = Clothing,
 		DisplayName = Red Sneakers,
 		ClothingItem = Shoes_TrainerRedandBlack,
@@ -410,6 +433,7 @@ module AuthenticZClothing {
     	}			
  	item Shoes_TrainerWhitePlain
 	{
+       DisplayCategory = Clothing,		
 		Type = Clothing,
 		DisplayName = White Sneakers,
 		ClothingItem = Shoes_TrainerWhitePlain,
@@ -428,6 +452,7 @@ module AuthenticZClothing {
     }		
 	item Shoes_White
 	{
+       DisplayCategory = Clothing,		
 		Type = Clothing,
 		DisplayName = White Shoes,
 		ClothingItem = Shoes_White,
@@ -448,6 +473,7 @@ module AuthenticZClothing {
 	} 
 	item Socks_Long_Charcoal
 	{
+       DisplayCategory = Clothing,		
 		Type = Clothing,
 		DisplayName = Charcoal Long Socks,
 		ClothingItem = Socks_Long_Charcoal,
@@ -461,6 +487,7 @@ module AuthenticZClothing {
 	}		
 		item Socks_Long_MaidStockings
 	{
+       DisplayCategory = Clothing,		
 		Type = Clothing,
 		DisplayName = Stockings,
 		ClothingItem = Socks_Long_MaidStockings,
@@ -474,6 +501,7 @@ module AuthenticZClothing {
 	}
 		item Socks_Long_MimeLeggings
 	{
+       DisplayCategory = Clothing,		
 		Type = Clothing,
 		DisplayName = Mime Stockings,
 		ClothingItem = Socks_Long_MimeLeggings,
@@ -487,6 +515,7 @@ module AuthenticZClothing {
 	}	
 		item Socks_Long_NurseThigh
 	{
+       DisplayCategory = Clothing,		
 		Type = Clothing,
 		DisplayName = Nurse Stockings,
 		ClothingItem = Socks_Long_NurseThigh,
@@ -500,6 +529,7 @@ module AuthenticZClothing {
 	}
 	item Socks_Long_RedStriped01
 	{
+       DisplayCategory = Clothing,		
 		Type = Clothing,
 		DisplayName = Red Striped Socks,
 		ClothingItem = Socks_Long_RedStriped01,
@@ -513,6 +543,7 @@ module AuthenticZClothing {
 	}
 	item Socks_Long_RedStriped02
 	{
+       DisplayCategory = Clothing,		
 		Type = Clothing,
 		DisplayName = Red and Blue Striped Socks,
 		ClothingItem = Socks_Long_RedStriped02,
@@ -526,6 +557,7 @@ module AuthenticZClothing {
 	}
 	item Socks_Long_RedStriped03
 	{
+       DisplayCategory = Clothing,		
 		Type = Clothing,
 		DisplayName = Red and Gold Striped Socks,
 		ClothingItem = Socks_Long_RedStriped03,
@@ -539,6 +571,7 @@ module AuthenticZClothing {
 	}	
 	item Socks_Long_PurpleStripedWhite
 	{
+       DisplayCategory = Clothing,		
 		Type = Clothing,
 		DisplayName = Purple Striped Socks,
 		ClothingItem = Socks_Long_PurpleStripedWhite,
@@ -552,6 +585,7 @@ module AuthenticZClothing {
 	}
 	item Socks_Long_BlueStripedWhite
 	{
+       DisplayCategory = Clothing,		
 		Type = Clothing,
 		DisplayName = Blue Striped Socks,
 		ClothingItem = Socks_Long_BlueStripedWhite,
@@ -565,6 +599,7 @@ module AuthenticZClothing {
 	}
 	item Socks_Long_DarkGreen
 	{
+       DisplayCategory = Clothing,		
 		Type = Clothing,
 		DisplayName = Dark Green Long Socks,
 		ClothingItem = Socks_Long_DarkGreen,
@@ -578,6 +613,7 @@ module AuthenticZClothing {
 	}
 	item Socks_Long_StockingsBlack
 	{
+       DisplayCategory = Clothing,		
 		Type = Clothing,
 		DisplayName = Black Stockings,
 		ClothingItem = Socks_Long_StockingsBlack,

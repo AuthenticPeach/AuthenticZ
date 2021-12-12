@@ -33,6 +33,7 @@ local function OnGameStart()
 		getWorld():registerZone("Crackhouse", "ZombiesType", 14000, 5100, 0, 19, 19) --Valley Station Crackhouse --	
 		getWorld():registerZone("CrossroadsMall", "ZombiesType", 13872, 5788, 0, 111, 153)  -- UniqueZ - like activity
 		getWorld():registerZone("CrossroadsMall", "ZombiesType", 13905, 5895, 0, 64, 22) --Front end of Mall
+		getWorld():registerZone("CrossroadsMall", "ZombiesType", 13872, 5788, 2, 111, 153)  -- UniqueZ - like activity	
 		--getWorld():registerZone("CrossroadsMallDR1", "ZombiesType", 13943, 5750, 0, 40, 11) --Front end of Mall (Security Room)
 		getWorld():registerZone("CrossroadsMallFoodCourt", "ZombiesType", 13892, 5745, 0, 50, 26) --Back Food Court	
 		--getWorld():registerZone("CrossroadsMallFoodCourtShops", "ZombiesType", 13902, 5774, 0, 32, 8) -- food court shops			

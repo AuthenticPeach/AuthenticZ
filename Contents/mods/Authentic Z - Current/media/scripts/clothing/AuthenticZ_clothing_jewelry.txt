@@ -4,6 +4,7 @@ module AuthenticZClothing {
   }
     item Necklace_B
 	{
+	    DisplayCategory = Accessory,
 		Type = Clothing,
 		DisplayName = Gold B Necklace,
 		ClothingItem = Necklace_B,
@@ -15,6 +16,7 @@ module AuthenticZClothing {
 	}
     item Necklace_GoldCrucifix
 	{
+	    DisplayCategory = Accessory,	
 		Type = Clothing,
 		DisplayName = Gold Necklace with Crucifix,
 		ClothingItem = Necklace_GoldCrucifix,

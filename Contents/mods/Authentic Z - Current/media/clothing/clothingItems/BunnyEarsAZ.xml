@@ -8,4 +8,5 @@
 	<m_AllowRandomTint>false</m_AllowRandomTint>
 	<m_AttachBone></m_AttachBone>
 	<textureChoices>clothes\Hats\BunnyEarsBlack</textureChoices>
+	<textureChoices>clothes\Hats\BunnyEarsWhite</textureChoices>
 </clothingItem>

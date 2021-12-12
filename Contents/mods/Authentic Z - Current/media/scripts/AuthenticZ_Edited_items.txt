@@ -4,6 +4,7 @@ module AuthenticZClothing {
   }
 	item SheetRope
 	{
+        DisplayCategory = Tool,	
 		Weight					=	0.8,
 		Type					=	Normal,
 		DisplayName				=	Sheet Rope,
@@ -15,6 +16,7 @@ module AuthenticZClothing {
 	}
     item Rope
     {
+        DisplayCategory = Tool,	
         Weight					=	0.3,
         Type					=	Normal,
         DisplayName				=	Rope,
@@ -27,6 +29,8 @@ module AuthenticZClothing {
 
 	item Hat_GasMask
 	{
+		DisplayCategory = Devices,
+	    DisplayCategory = Accessory,
 		Type 			= Clothing,
 		DisplayName 	= Gas Mask,
 		ClothingItem	= Hat_GasMask,
@@ -43,6 +47,7 @@ module AuthenticZClothing {
 
 	item Aerosolbomb
 	{
+	DisplayCategory = Devices,
 		MaxRange			=	10,
 		KnockdownMod		=	0,
 		Type				=	Weapon,
@@ -72,6 +77,7 @@ module AuthenticZClothing {
 
     item AerosolbombTriggered
 	{
+	DisplayCategory = Devices,
 		MaxRange		=	10,
 		KnockdownMod	=	0,
 		Type			=	Weapon,
@@ -102,6 +108,7 @@ module AuthenticZClothing {
 
     item AerosolbombSensorV1
 	{
+	DisplayCategory = Devices,
 		MaxRange	=	10,
 		KnockdownMod	=	0,
 		Type	=	Weapon,
@@ -132,6 +139,7 @@ module AuthenticZClothing {
 
     item AerosolbombSensorV2
 	{
+	DisplayCategory = Devices,
 		MaxRange	=	10,
 		KnockdownMod	=	0,
 		Type	=	Weapon,
@@ -162,6 +170,7 @@ module AuthenticZClothing {
 
     item AerosolbombSensorV3
 	{
+	DisplayCategory = Devices,
 		MaxRange	=	10,
 		KnockdownMod	=	0,
 		Type	=	Weapon,
@@ -192,6 +201,7 @@ module AuthenticZClothing {
 
     item AerosolbombRemote
 	{
+	DisplayCategory = Devices,
 		MaxRange	=	10,
 		KnockdownMod	=	0,
 		Type	=	Weapon,
@@ -221,6 +231,7 @@ module AuthenticZClothing {
 
 	item FlameTrap
     {
+	DisplayCategory = Devices,
         MaxRange	=	10,
         Type	=	Weapon,
         MinimumSwingTime	=	1.5,
@@ -247,6 +258,7 @@ module AuthenticZClothing {
 
     item FlameTrapTriggered
     {
+	DisplayCategory = Devices,
         MaxRange	=	3,
         Type	=	Weapon,
         MinimumSwingTime	=	1.5,
@@ -275,6 +287,7 @@ module AuthenticZClothing {
 
     item FlameTrapSensorV1
     {
+	DisplayCategory = Devices,
         MaxRange	=	10,
         Type	=	Weapon,
         MinimumSwingTime	=	1.5,
@@ -304,6 +317,7 @@ module AuthenticZClothing {
 
     item FlameTrapSensorV2
     {
+	DisplayCategory = Devices,
         MaxRange	=	10,
         Type	=	Weapon,
         MinimumSwingTime	=	1.5,
@@ -333,7 +347,8 @@ module AuthenticZClothing {
 
     item FlameTrapSensorV3
     {
-        MaxRange	=	10,
+      DisplayCategory = Devices, 
+	   MaxRange	=	10,
         Type	=	Weapon,
         MinimumSwingTime	=	1.5,
 		SwingAnim	=	Throw,
@@ -362,6 +377,7 @@ module AuthenticZClothing {
 
     item FlameTrapRemote
     {
+		DisplayCategory = Devices,
         MaxRange	=	10,
         Type	=	Weapon,
         MinimumSwingTime	=	1.5,
@@ -390,6 +406,7 @@ module AuthenticZClothing {
 
 	item SmokeBomb
     {
+	DisplayCategory = Devices,
         MaxRange	=	10,
         Type	=	Weapon,
         MinimumSwingTime	=	1.5,
@@ -418,6 +435,7 @@ module AuthenticZClothing {
 
 	item SmokeBombRemote
     {
+	DisplayCategory = Devices,
         MaxRange	=	10,
         Type	=	Weapon,
         MinimumSwingTime	=	1.5,
@@ -445,6 +463,7 @@ module AuthenticZClothing {
 
 	item SmokeBombSensorV1
     {
+	DisplayCategory = Devices,
         MaxRange	=	10,
         Type	=	Weapon,
         MinimumSwingTime	=	1.5,
@@ -473,6 +492,7 @@ module AuthenticZClothing {
 
 	item SmokeBombSensorV2
     {
+	DisplayCategory = Devices,
         MaxRange	=	10,
         Type	=	Weapon,
         MinimumSwingTime	=	1.5,
@@ -501,6 +521,7 @@ module AuthenticZClothing {
 
 	item SmokeBombSensorV3
     {
+	DisplayCategory = Devices,
         MaxRange	=	10,
         Type	=	Weapon,
         MinimumSwingTime	=	1.5,
@@ -529,6 +550,7 @@ module AuthenticZClothing {
 
 	item SmokeBombTriggered
     {
+	DisplayCategory = Devices,
         MaxRange	=	10,
         Type	=	Weapon,
         MinimumSwingTime	=	1.5,
@@ -555,6 +577,7 @@ module AuthenticZClothing {
     }
     item PipeBomb
 	{
+	DisplayCategory = Devices,
 		MaxRange	=	10,
 		Type	=	Weapon,
 		MinimumSwingTime	=	1.5,
@@ -582,6 +605,7 @@ module AuthenticZClothing {
 
     item PipeBombTriggered
 	{
+	DisplayCategory = Devices,
 		MaxRange	=	10,
 		Type	=	Weapon,
 		MinimumSwingTime	=	1.5,
@@ -610,6 +634,7 @@ module AuthenticZClothing {
 
     item PipeBombSensorV1
 	{
+	DisplayCategory = Devices,
 		MaxRange			=	10,
 		Type				=	Weapon,
 		MinimumSwingTime	=	1.5,
@@ -639,6 +664,7 @@ module AuthenticZClothing {
 
     item PipeBombSensorV2
 	{
+	DisplayCategory = Devices,
 		MaxRange	=	10,
 		Type	=	Weapon,
 		MinimumSwingTime	=	1.5,
@@ -668,6 +694,7 @@ module AuthenticZClothing {
 
     item PipeBombSensorV3
 	{
+	DisplayCategory = Devices,
 		MaxRange	=	10,
 		Type	=	Weapon,
 		MinimumSwingTime	=	1.5,
@@ -697,6 +724,7 @@ module AuthenticZClothing {
 
     item PipeBombRemote
 	{
+	DisplayCategory = Devices,
 		MaxRange	=	10,
 		Type	=	Weapon,
 		MinimumSwingTime	=	1.5,
@@ -725,6 +753,7 @@ module AuthenticZClothing {
 	
     item Molotov
     {
+	DisplayCategory = Devices,
         OtherHandUse			=	TRUE,
         MaxRange				=	8,
         WeaponSprite 			= 	Molotov,
@@ -752,6 +781,7 @@ module AuthenticZClothing {
 
   item ClosedUmbrellaBlue
     {
+        DisplayCategory = Household,	
         MaxRange	=	1.1,
         WeaponSprite	=	Umbrella_Closed_Blue,
         MinAngle	=	0.8,
@@ -797,6 +827,7 @@ module AuthenticZClothing {
 
     item ClosedUmbrellaRed
     {
+        DisplayCategory = Household,	
         MaxRange	=	1.1,
         WeaponSprite	=	Umbrella_Closed_Red,
         MinAngle	=	0.8,
@@ -842,6 +873,7 @@ module AuthenticZClothing {
 
     item ClosedUmbrellaBlack
     {
+        DisplayCategory = Household,	
         MaxRange	=	1.1,
         WeaponSprite	=	Umbrella_Closed_Black,
         MinAngle	=	0.8,
@@ -887,6 +919,7 @@ module AuthenticZClothing {
 
     item ClosedUmbrellaWhite
     {
+        DisplayCategory = Household,	
         MaxRange		=	1.1,
         WeaponSprite	=	Umbrella_Closed_White,
         MinAngle		=	0.8,
@@ -929,108 +962,10 @@ module AuthenticZClothing {
         SwingSound 				= 	UmbrellaSwing,
         AttachmentType  		= 	Umbrella,				
     }
-
-    item Spiffo
-	{
-		Weight					=	0.2,
-		Type					=	Normal,
-		DisplayName				=	Spiffo,
-		Icon					=	PlushSpiffo,
-		WorldStaticModel 		= 	SpiffoPlushie,
-        AttachmentType  		= 	SpiffoPlushie,
-		StaticModel 			= 	SpiffoPlushie,		
-	}
-	
-    item SpiffoGrey
-	{
-		Weight					=	0.2,
-		Type					=	Normal,
-		DisplayName				=	PAWS Spiffo,
-		Icon					=	PlushSpiffoGrey,
-		WorldStaticModel 		= 	SpiffoPlushieGrey,
-        AttachmentType  		= 	SpiffoPlushie,
-		StaticModel 			= 	SpiffoPlushieGrey,		
-	}	
-
-    item SpiffoHeart
-	{
-		Weight					=	0.2,
-		Type					=	Normal,
-		DisplayName				=	Heart Spiffo,
-		Icon					=	SpiffoPink,
-		WorldStaticModel 		= 	SpiffoPlushieHeart,
-        AttachmentType  		= 	SpiffoPlushie,
-		StaticModel 			= 	SpiffoPlushieHeart,		
-	}
-	
-    item SpiffoBlueberry
-	{
-		Weight					=	0.2,
-		Type					=	Normal,
-		DisplayName				=	Blueberry Spiffo,
-		Icon					=	SpiffoBlue,
-		WorldStaticModel 		= 	SpiffoPlushieBlueberry,
-        AttachmentType  		= 	SpiffoPlushie,
-		StaticModel 			= 	SpiffoPlushieBlueberry,		
-	}
-
-    item SpiffoShamrock
-	{
-		Weight					=	0.2,
-		Type					=	Normal,
-		DisplayName				=	Shamrock Spiffo,
-		Icon					=	SpiffoGreen,
-		WorldStaticModel 		= 	SpiffoPlushieShamrock,
-        AttachmentType  		= 	SpiffoPlushie,
-		StaticModel 			= 	SpiffoPlushieShamrock,		
-	}
-
-    item SpiffoPlushieRainbow
-	{
-		Weight					=	0.2,
-		Type					=	Normal,
-		DisplayName				=	Rainbow Spiffo,
-		Icon					=	SpiffoRainbow,
-		WorldStaticModel 		= 	SpiffoPlushieRainbow,
-        AttachmentType  		= 	SpiffoPlushie,
-		StaticModel 			= 	SpiffoPlushieRainbow,		
-	}	
-	
-    item Doll
-    {
-        Type				=			Normal,
-        DisplayName			=		    Doll,
-        Icon				=			Doll,
-        Weight				=			0.1,
-        WorldStaticModel 	= 			Doll,
-        AttachmentType  	= 			Doll,
-		StaticModel 		= 			Doll,				
-    }
-	
-	item ToyBear
-	{
-		Weight				=	0.2,
-		Type				=	Normal,
-		DisplayName			=	Toy Bear,
-		Icon				=	ToyBear,
-		WorldStaticModel 	= 	ToyBear,
-        AttachmentType  	= 	TeddyBear,		
-		StaticModel 		= 	ToyBear,	
-	}
-
-	item ToyBearSmall
-	{
-		Weight				=	0.2,
-		Type				=	Normal,
-		DisplayName			=	Toy Bear,
-		Icon				=	ToyBear,
-		WorldStaticModel 	= 	ToyBearSmall,
-        AttachmentType  	= 	SpiffoPlushie,		
-		StaticModel 		= 	ToyBearSmall,	
-	}		
 	
 	item PopBottleEmpty
 	{
+        DisplayCategory = Raccoon,		
 		Weight	=	0.1,
 		CanStoreWater	=	TRUE,
 		Type	=	Normal,
@@ -1043,6 +978,7 @@ module AuthenticZClothing {
 	}	
 	item WaterBottleEmpty
 	{
+        DisplayCategory = WaterContainer,		
 		Weight	=	0.1,
 		CanStoreWater	=	TRUE,
 		Type	=	Normal,
@@ -1057,6 +993,7 @@ module AuthenticZClothing {
 
     item WaterBottleFull
 	{
+        DisplayCategory = WaterContainer,		
 		IsWaterSource	=	TRUE,
 		Weight	=	0.8,
 		CanStoreWater	=	TRUE,
@@ -1074,6 +1011,7 @@ module AuthenticZClothing {
 	}
 	item WaterPopBottle
 	{
+        DisplayCategory = WaterContainer,		
 		IsWaterSource	=	TRUE,
 		Weight	=	0.8,
 		CanStoreWater	=	TRUE,
@@ -1093,6 +1031,7 @@ module AuthenticZClothing {
 
     item Pop
 	{
+        DisplayCategory = Food,		
 		HungerChange	=	-8,
 		Weight	=	0.3,
 		AlwaysWelcomeGift	=	TRUE,
@@ -1118,6 +1057,7 @@ module AuthenticZClothing {
 
 	item Pop2
 	{
+        DisplayCategory = Food,			
 		HungerChange	=	-8,
 		Weight	=	0.3,
 		AlwaysWelcomeGift	=	TRUE,
@@ -1143,6 +1083,7 @@ module AuthenticZClothing {
 
 	item Pop3
 	{
+        DisplayCategory = Food,			
 		HungerChange	=	-8,
 		Weight	=	0.3,
 		AlwaysWelcomeGift	=	TRUE,
@@ -1168,6 +1109,7 @@ module AuthenticZClothing {
 	
 	item PopBottle
 	{
+        DisplayCategory = Food,			
 		HungerChange	=	-12,
 		Weight	=	0.8,
 		Type	=	Food,
@@ -1192,6 +1134,7 @@ module AuthenticZClothing {
 
     item GardenSaw
     {
+        DisplayCategory = Tool,	
         Weight	=	0.7,
         Type	=	Normal,
         DisplayName	=	Garden Saw,
@@ -1206,6 +1149,7 @@ module AuthenticZClothing {
 
 	item Saw
 	{
+        DisplayCategory = Tool,	
 		Weight	=	0.7,
 		Type	=	Normal,
 		DisplayName	=	Saw,
@@ -1217,5 +1161,342 @@ module AuthenticZClothing {
 		AttachmentType   = 			Saw,	
         WorldStaticModel = HacksawGround,
 	}
+
+recipe Make Backpack Attachable
+  	{
+   	   Hat_GasMask,
+
+   	   Result:AuthenticZClothing.Hat_GasMask,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpack,
+  	}	
+recipe Make Backpack Attachable
+  	{
+   	   Rope,
+
+   	   Result:AuthenticZClothing.Rope,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpack,
+  	}	
+recipe Make Backpack Attachable
+  	{
+   	   SheetRope,
+
+   	   Result:AuthenticZClothing.SheetRope,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpack,
+  	}
+recipe Revert Attachable
+  	{
+   	   AuthenticZClothing.Rope,
+
+   	   Result:Rope,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpackRevert,
+  	}	
+recipe Revert Attachable
+  	{
+   	   AuthenticZClothing.SheetRope,
+
+   	   Result:SheetRope,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpackRevert,
+  	}	
+recipeMake Backpack Attachable
+  	{
+   	   AerosolbombTriggered,
+
+   	   Result:AuthenticZClothing.AerosolbombTriggered,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpack,
+  	}
+recipe Make Backpack Attachable
+  	{
+   	   Aerosolbomb,
+
+   	   Result:AuthenticZClothing.Aerosolbomb,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpack,
+  	}	
+recipe Make Backpack Attachable
+  	{
+   	   AerosolbombSensorV1,
+
+   	   Result:AuthenticZClothing.AerosolbombSensorV1,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpack,
+  	}	
+recipe Make Backpack Attachable
+  	{
+   	   AerosolbombSensorV2,
+
+   	   Result:AuthenticZClothing.AerosolbombSensorV2,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpack,
+  	}	
+recipe Make Backpack Attachable
+  	{
+   	   AerosolbombSensorV3,
+
+   	   Result:AuthenticZClothing.AerosolbombSensorV3,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpack,
+  	}	
+recipe Make Backpack Attachable
+  	{
+   	   AerosolbombRemote,
+
+   	   Result:AuthenticZClothing.AerosolbombRemote,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpack,
+  	}	
+recipe Make Backpack Attachable
+  	{
+   	   FlameTrap,
+
+   	   Result:AuthenticZClothing.FlameTrap,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpack,
+  	}	
+recipe Make Backpack Attachable
+  	{
+   	   FlameTrapTriggered,
+
+   	   Result:AuthenticZClothing.FlameTrapTriggered,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpack,
+  	}
+recipe Make Backpack Attachable
+  	{
+   	   FlameTrapSensorV1,
+
+   	   Result:AuthenticZClothing.FlameTrapSensorV1,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpack,
+  	}	
+recipe Make Backpack Attachable
+  	{
+   	   FlameTrapSensorV2,
+
+   	   Result:AuthenticZClothing.PipeBombSensorV2,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpack,
+  	}	
+recipe Make Backpack Attachable
+  	{
+   	   FlameTrapSensorV3,
+
+   	   Result:AuthenticZClothing.FlameTrapSensorV3,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpack,
+  	}	
+recipe Make Backpack Attachable
+  	{
+   	   FlameTrapRemote,
+
+   	   Result:AuthenticZClothing.FlameTrapRemote,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpack,
+  	}
+recipe Make Backpack Attachable
+  	{
+   	   SmokeBomb,
+
+   	   Result:AuthenticZClothing.SmokeBomb,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpack,
+  	}
+recipe Make Backpack Attachable
+  	{
+   	   PipeBombTriggered,
+
+   	   Result:AuthenticZClothing.PipeBombTriggered,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpack,
+  	}
+recipe Make Backpack Attachable
+  	{
+   	   PipeBombSensorV1,
+
+   	   Result:AuthenticZClothing.PipeBombSensorV1,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpack,
+  	}	
+recipe Make Backpack Attachable
+  	{
+   	   PipeBombSensorV2,
+
+   	   Result:AuthenticZClothing.PipeBombSensorV2,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpack,
+  	}
+recipe Make Backpack Attachable
+  	{
+   	   PipeBombSensorV3,
+
+   	   Result:AuthenticZClothing.PipeBombSensorV3,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpack,
+  	}	
+recipe Make Backpack Attachable
+  	{
+   	   PipeBombRemote,
+
+   	   Result:AuthenticZClothing.PipeBombRemote,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpack,
+  	}
+recipe Make Backpack Attachable
+  	{
+   	   PipeBomb,
+
+   	   Result:AuthenticZClothing.PipeBomb,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpack,
+  	}	
+recipe Make Backpack Attachable
+  	{
+   	   Molotov,
+
+   	   Result:AuthenticZClothing.Molotov,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpack,
+  	}
+recipe Make Backpack Attachable
+  	{
+   	   ToyBear,
+
+   	   Result:AuthenticZClothing.ToyBear,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpack,
+  	}
+recipe Make Backpack Attachable
+  	{
+   	   Doll,
+
+   	   Result:AuthenticZClothing.Doll,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpack,
+  	}	
+recipe Make Backpack Attachable
+  	{
+   	   Spiffo,
+
+   	   Result:AuthenticZClothing.Spiffo,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpack,
+  	}
+recipe Make Backpack Attachable
+  	{
+   	   ClosedUmbrellaBlue,
+
+   	   Result:AuthenticZClothing.ClosedUmbrellaBlue,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpack,
+  	}
+recipe Make Backpack Attachable
+  	{
+   	   ClosedUmbrellaRed,
+
+   	   Result:AuthenticZClothing.ClosedUmbrellaRed,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpack,
+  	}
+recipe Make Backpack Attachable
+  	{
+   	   ClosedUmbrellaBlack,
+
+   	   Result:AuthenticZClothing.ClosedUmbrellaBlack,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpack,
+  	}
+recipe Make Backpack Attachable
+  	{
+   	   Pop,
+
+   	   Result:AuthenticZClothing.Pop,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpack,
+  	}
+recipe Make Backpack Attachable
+  	{
+   	   Pop2,
+
+   	   Result:AuthenticZClothing.Pop2,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpack,
+  	}	
+recipe Make Backpack Attachable
+  	{
+   	   Pop3,
+
+   	   Result:AuthenticZClothing.Pop3,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpack,
+  	}	
+recipe Revert Attachable
+  	{
+   	   AuthenticZClothing.Saw,
+
+   	   Result:Saw,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpackRevert,
+  	}
+recipe Revert Attachable
+  	{
+   	   AuthenticZClothing.GardenSaw,
+
+   	   Result:GardenSaw,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpackRevert,
+  	}	
+recipe Revert Attachable
+  	{
+   	   AuthenticZClothing.PipeBomb,
+
+   	   Result:PipeBomb,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpackRevert,
+  	}	
+recipe Make Backpack Attachable
+  	{
+   	   PopBottleEmpty,
+
+   	   Result:AuthenticZClothing.PopBottleEmpty,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpack,
+  	}	
+recipe Make Backpack Attachable
+  	{
+   	   WaterBottleEmpty,
+
+   	   Result:AuthenticZClothing.WaterBottleEmpty,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpack,
+  	}
+recipe Make Backpack Attachable
+  	{
+   	   destroy WaterBottleFull,
+
+   	   Result:AuthenticZClothing.WaterBottleFull,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpack,
+  	}	
+recipe Make Backpack Attachable
+  	{
+   	   destroy WaterPopBottle,
+
+   	   Result:AuthenticZClothing.WaterPopBottle,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpack,
+  	}
+recipe Make Backpack Attachable
+  	{
+   	   destroy PopBottle,
+
+   	   Result:AuthenticZClothing.PopBottle,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpack,
+  	}
 
 }		

@@ -4,6 +4,7 @@ module AuthenticZClothing {
   }
     item PonchoBlack
     {
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Black Poncho,
         ClothingItem = PonchoBlack,
@@ -24,6 +25,7 @@ module AuthenticZClothing {
     }
     item PonchoBlackDOWN
     {
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Black Poncho,
         ClothingItem = PonchoBlackDOWN,
@@ -45,6 +47,7 @@ module AuthenticZClothing {
     }
     item PonchoCamoDesert
     {
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Desert Camo Poncho,
         ClothingItem = PonchoCamoDesert,
@@ -65,6 +68,7 @@ module AuthenticZClothing {
     }
     item PonchoCamoDesertDOWN
     {
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Orange Poncho,
         ClothingItem = PonchoCamoDesertDOWN,
@@ -86,6 +90,7 @@ module AuthenticZClothing {
     }	
     item PonchoCamoForest
     {
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Forest Camo Poncho,
         ClothingItem = PonchoCamoForest,
@@ -106,6 +111,7 @@ module AuthenticZClothing {
     }
     item PonchoCamoForestDOWN
     {
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Forest Camo Poncho,
         ClothingItem = PonchoCamoForestDOWN,
@@ -127,6 +133,7 @@ module AuthenticZClothing {
     }	
     item PonchoCamoForest2
     {
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Forest Camo Poncho,
         ClothingItem = PonchoCamoForest2,
@@ -147,6 +154,7 @@ module AuthenticZClothing {
     }
     item PonchoCamoForest2DOWN
     {
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Forest Camo Poncho,
         ClothingItem = PonchoCamoForest2DOWN,
@@ -168,6 +176,7 @@ module AuthenticZClothing {
     }
     item PonchoUrbanForest
     {
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Urban Camo Poncho,
         ClothingItem = PonchoUrbanForest,
@@ -188,6 +197,7 @@ module AuthenticZClothing {
     }
     item PonchoUrbanForestDOWN
     {
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Urban Camo Poncho,
         ClothingItem = PonchoUrbanForestDOWN,
@@ -209,6 +219,7 @@ module AuthenticZClothing {
     }		
     item PonchoOliveDrab
     {
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Olive Drab Poncho,
         ClothingItem = PonchoOliveDrab,
@@ -229,6 +240,7 @@ module AuthenticZClothing {
     }
     item PonchoOliveDrabDOWN
     {
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Olive Drab Poncho,
         ClothingItem = PonchoOliveDrabDOWN,
@@ -250,6 +262,7 @@ module AuthenticZClothing {
     }		
     item PonchoOrangePunch
     {
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Orange Poncho,
         ClothingItem = PonchoOrangePunch,
@@ -267,6 +280,7 @@ module AuthenticZClothing {
     }
     item PonchoOrangePunchDOWN
     {
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Orange Poncho,
         ClothingItem = PonchoOrangePunchDOWN,
@@ -288,6 +302,7 @@ module AuthenticZClothing {
     }	
     item PonchoWhiteTINT
     {
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Poncho,
         ClothingItem = PonchoWhiteTINT,
@@ -308,6 +323,7 @@ module AuthenticZClothing {
     }
     item PonchoWhiteTINTDOWN
     {
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Poncho,
         ClothingItem = PonchoWhiteTINTDOWN,
@@ -329,6 +345,7 @@ module AuthenticZClothing {
     }	
     item Jacket_ArmyCamoUrban
     {
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Military Urban Camo Jacket,
         ClothingItem = Jacket_ArmyCamoUrban,
@@ -348,6 +365,7 @@ module AuthenticZClothing {
     }
     item Jacket_ArmyOliveDrab
     {
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Military Olive Drab Jacket,
         ClothingItem = Jacket_ArmyOliveDrab,
@@ -368,6 +386,7 @@ module AuthenticZClothing {
     }
     item Jacket_ArmyOliveDrab2
     {
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Military Olive Drab Jacket,
         ClothingItem = Jacket_ArmyOliveDrab2,
@@ -388,6 +407,7 @@ module AuthenticZClothing {
     }	
      item Jacket_Bateman
     {
+        DisplayCategory = Clothing,	
         Type = Clothing,
         DisplayName = Bateman's Jacket,
         ClothingItem = Jacket_Bateman,
@@ -409,6 +429,7 @@ module AuthenticZClothing {
 	
     item Jacket_Bill
     {
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Bill's Jacket,
         ClothingItem = Jacket_Bill,
@@ -428,6 +449,7 @@ module AuthenticZClothing {
 
     item Jacket_Bub
     {
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Bub's Jacket,
         ClothingItem = Jacket_Bub,
@@ -445,6 +467,7 @@ module AuthenticZClothing {
 
     item Jacket_ChuckGreene
     {
+        DisplayCategory = Clothing,	
         Type = Clothing,
         DisplayName = Chuck Greene's Jacket,
         ClothingItem = Jacket_ChuckGreene,
@@ -464,6 +487,7 @@ module AuthenticZClothing {
     }
     item Jacket_Clementine
     {
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Clementine's Jacket,
         ClothingItem = Jacket_Clementine,
@@ -482,6 +506,7 @@ module AuthenticZClothing {
     }	
     item Jumper_DiamondBillMurray
     {
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Diamond-pattern Sweater Vest,
         ClothingItem = Jumper_DiamondBillMurray,
@@ -496,6 +521,7 @@ module AuthenticZClothing {
     }
     item Jacket_Doctor2
     {
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Medical Coat,
         ClothingItem = Jacket_Doctor2,
@@ -515,6 +541,7 @@ module AuthenticZClothing {
 
     item Jacket_FiremanNMRIH
     {
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Firefighter Jacket,
         ClothingItem = Jacket_FiremanNMRIH,
@@ -535,6 +562,7 @@ module AuthenticZClothing {
 	
     item Jacket_FiremanNMRIHOpen
     {
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Firefighter Jacket,
         ClothingItem = Jacket_FiremanNMRIHOpen,
@@ -555,6 +583,7 @@ module AuthenticZClothing {
 
     item Jacket_Francis
     {
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Francis's Jacket,
         ClothingItem = Jacket_Francis,
@@ -572,6 +601,7 @@ module AuthenticZClothing {
 
     item Jacket_FrankWest
     {
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Frank West's Jacket,
         ClothingItem = Jacket_FrankWest,
@@ -591,6 +621,7 @@ module AuthenticZClothing {
 
     item Jacket_Grimes
     {
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Brown Sheriff Jacket,
         ClothingItem = Jacket_Grimes,
@@ -611,6 +642,7 @@ module AuthenticZClothing {
     }
     item Jacket_Hunter
     {
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Brown Leather Jacket,
         ClothingItem = Jacket_Hunter,
@@ -630,6 +662,7 @@ module AuthenticZClothing {
     }	
     item Jacket_JimmyGibbs
     {
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Jimmy Gibbs Jr.'s Jacket,
         ClothingItem = Jacket_JimmyGibbs,
@@ -650,6 +683,7 @@ module AuthenticZClothing {
 	
     item Jacket_LoganCarter
     {
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Logan Carter's Shirt,
         ClothingItem = Jacket_LoganCarter,
@@ -666,6 +700,7 @@ module AuthenticZClothing {
 
     item Jacket_Mom
     {
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Mom's	Jacket,
         ClothingItem = Jacket_Mom,
@@ -687,6 +722,7 @@ module AuthenticZClothing {
 
     item Jacket_PaddedEvangelo
     {
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Blue Padded Jacket,
         ClothingItem = Jacket_PaddedEvangelo,
@@ -706,6 +742,7 @@ module AuthenticZClothing {
 	
     item Jacket_PaddedEvangeloDOWN
     {
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Blue Padded Jacket,
         ClothingItem = Jacket_PaddedEvangeloDOWN,
@@ -728,6 +765,7 @@ module AuthenticZClothing {
 	
     item Jacket_PostalDude
     {
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Postal Coat,
         ClothingItem = Jacket_PostalDude,
@@ -748,6 +786,7 @@ module AuthenticZClothing {
 
     item Jacket_Scandroid
     {
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Scandroid Jacket,
         ClothingItem = Jacket_Scandroid,
@@ -770,6 +809,7 @@ module AuthenticZClothing {
 
     item Jacket_Zoey
     {
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Zoey's Jacket,
         ClothingItem = Jacket_Zoey,
@@ -788,6 +828,7 @@ module AuthenticZClothing {
     }
     item Jersey_BlueStar
     {
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Stars Football Jersey,
         ClothingItem = Jersey_BlueStar,
@@ -805,6 +846,7 @@ module AuthenticZClothing {
     }
     item Jersey_GreenBayPacker1
     {
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Green Bay Packers Jersey,
         ClothingItem = Jersey_GreenBayPacker1,
@@ -822,6 +864,7 @@ module AuthenticZClothing {
     }	
     item Jersey_GreenBayPacker2
     {
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Green Bay Packers Jersey,
         ClothingItem = Jersey_GreenBayPacker2,
@@ -839,6 +882,7 @@ module AuthenticZClothing {
     }
     item Jersey_GreenBayPacker3
     {
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Green Bay Packers Jersey,
         ClothingItem = Jersey_GreenBayPacker3,
@@ -856,6 +900,7 @@ module AuthenticZClothing {
     }
     item Jersey_GreenBayPacker4
     {
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Green Bay Packers Jersey,
         ClothingItem = Jersey_GreenBayPacker4,
@@ -873,6 +918,7 @@ module AuthenticZClothing {
     }
     item Jersey_GreenBayPacker5
     {
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Green Bay Packers Jersey,
         ClothingItem = Jersey_GreenBayPacker5,
@@ -890,6 +936,7 @@ module AuthenticZClothing {
     }	
     item Jersey_GreenBayPacker6
     {
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Green Bay Packers Jersey,
         ClothingItem = Jersey_GreenBayPacker6,
@@ -907,6 +954,7 @@ module AuthenticZClothing {
     }
     item Jersey_GreenBayPacker7
     {
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Green Bay Packers Jersey,
         ClothingItem = Jersey_GreenBayPacker7,
@@ -924,6 +972,7 @@ module AuthenticZClothing {
     }	
     item Jersey_GreenBayPacker8
     {
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Green Bay Packers Jersey,
         ClothingItem = Jersey_GreenBayPacker8,
@@ -941,6 +990,7 @@ module AuthenticZClothing {
     }	
     item Jersey_GreenBayPacker9
     {
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Green Bay Packers Jersey,
         ClothingItem = Jersey_GreenBayPacker9,
@@ -958,6 +1008,7 @@ module AuthenticZClothing {
     }	
     item Jersey_GreenBayPacker0
     {
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Green Bay Packers Jersey,
         ClothingItem = Jersey_GreenBayPacker0,
@@ -975,7 +1026,8 @@ module AuthenticZClothing {
     }		
     item Jersey_KCChiefs1
     {
-        Type = Clothing,
+          DisplayCategory = Clothing,	      
+		Type = Clothing,
         DisplayName = Kansas City Chiefs Jersey,
         ClothingItem = Jersey_KCChiefs1,
         BodyLocation = Jacket,
@@ -992,6 +1044,7 @@ module AuthenticZClothing {
     }
     item Jersey_KCChiefs2
     {
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Kansas City Chiefs Jersey,
         ClothingItem = Jersey_KCChiefs2,
@@ -1009,6 +1062,7 @@ module AuthenticZClothing {
     }
     item Jersey_KCChiefs3
     {
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Kansas City Chiefs Jersey,
         ClothingItem = Jersey_KCChiefs3,
@@ -1026,6 +1080,7 @@ module AuthenticZClothing {
     }
     item Jersey_KCChiefs4
     {
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Kansas City Chiefs Jersey,
         ClothingItem = Jersey_KCChiefs4,
@@ -1043,6 +1098,7 @@ module AuthenticZClothing {
     }
     item Jersey_KCChiefs5
     {
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Kansas City Chiefs Jersey,
         ClothingItem = Jersey_KCChiefs5,
@@ -1060,6 +1116,7 @@ module AuthenticZClothing {
     }
     item Jersey_KCChiefs6
     {
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Kansas City Chiefs Jersey,
         ClothingItem = Jersey_KCChiefs6,
@@ -1077,6 +1134,7 @@ module AuthenticZClothing {
     }	
     item Jersey_KCChiefs7
     {
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Kansas City Chiefs Jersey,
         ClothingItem = Jersey_KCChiefs7,
@@ -1094,6 +1152,7 @@ module AuthenticZClothing {
     }
     item Jersey_KCChiefs8
     {
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Kansas City Chiefs Jersey,
         ClothingItem = Jersey_KCChiefs8,
@@ -1111,6 +1170,7 @@ module AuthenticZClothing {
     }
     item Jersey_KCChiefs1
     {
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Kansas City Chiefs Jersey,
         ClothingItem = Jersey_KCChiefs1,
@@ -1128,6 +1188,7 @@ module AuthenticZClothing {
     }
     item Jersey_KCChiefs9
     {
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Kansas City Chiefs Jersey,
         ClothingItem = Jersey_KCChiefs9,
@@ -1145,6 +1206,7 @@ module AuthenticZClothing {
     }
     item Jersey_KCChiefs0
     {
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Kansas City Chiefs Jersey,
         ClothingItem = Jersey_KCChiefs0,
@@ -1162,6 +1224,7 @@ module AuthenticZClothing {
     }	
     item Jersey_NEPatriots1
     {
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = New England Patriots Jersey,
         ClothingItem = Jersey_NEPatriots1,
@@ -1179,6 +1242,7 @@ module AuthenticZClothing {
     }
     item Jersey_NEPatriots2
     {
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = New England Patriots Jersey,
         ClothingItem = Jersey_NEPatriots2,
@@ -1196,6 +1260,7 @@ module AuthenticZClothing {
     }	
     item Jersey_NEPatriots3
     {
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = New England Patriots Jersey,
         ClothingItem = Jersey_NEPatriots3,
@@ -1213,6 +1278,7 @@ module AuthenticZClothing {
     }	
     item Jersey_NEPatriots4
     {
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = New England Patriots Jersey,
         ClothingItem = Jersey_NEPatriots4,
@@ -1230,6 +1296,7 @@ module AuthenticZClothing {
     }
     item Jersey_NEPatriots5
     {
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = New England Patriots Jersey,
         ClothingItem = Jersey_NEPatriots5,
@@ -1247,6 +1314,7 @@ module AuthenticZClothing {
     }	
     item Jersey_NEPatriots6
     {
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = New England Patriots Jersey,
         ClothingItem = Jersey_NEPatriots6,
@@ -1264,6 +1332,7 @@ module AuthenticZClothing {
     }
     item Jersey_NEPatriots7
     {
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = New England Patriots Jersey,
         ClothingItem = Jersey_NEPatriots7,
@@ -1281,6 +1350,7 @@ module AuthenticZClothing {
     }
     item Jersey_NEPatriots8
     {
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = New England Patriots Jersey,
         ClothingItem = Jersey_NEPatriots8,
@@ -1298,6 +1368,7 @@ module AuthenticZClothing {
     }
     item Jersey_NEPatriots9
     {
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = New England Patriots Jersey,
         ClothingItem = Jersey_NEPatriots9,
@@ -1315,6 +1386,7 @@ module AuthenticZClothing {
     }
     item Jersey_NEPatriots0
     {
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = New England Patriots Jersey,
         ClothingItem = Jersey_NEPatriots0,
@@ -1332,6 +1404,7 @@ module AuthenticZClothing {
     }	
     item Jersey_RedSkull
     {
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Skulls Football Jersey,
         ClothingItem = Jersey_RedSkull,
@@ -1349,6 +1422,7 @@ module AuthenticZClothing {
     }	
     item Suit_JacketBlue
     {
+        DisplayCategory = Clothing,		
         Type 	         = Clothing,
         DisplayName      = Blue Suit Jacket,
         ClothingItem     = Suit_JacketBlue,
@@ -1367,6 +1441,7 @@ module AuthenticZClothing {
     } 
     item Suit_JacketJessie
     {
+        DisplayCategory = Clothing,		
         Type 	         = Clothing,
         DisplayName      = Jessie's Suit Jacket,
         ClothingItem     = Suit_JacketJessie,
@@ -1385,6 +1460,7 @@ module AuthenticZClothing {
     } 
     item Suit_JacketJoker
     {
+        DisplayCategory = Clothing,		
         Type 	         = Clothing,
         DisplayName      = Joker's Suit Jacket,
         ClothingItem     = Suit_JacketJoker,
@@ -1402,6 +1478,7 @@ module AuthenticZClothing {
     }	
     item Suit_JacketNick
     {
+        DisplayCategory = Clothing,		
         Type 	         = Clothing,
         DisplayName      = White Suit Jacket,
         ClothingItem     = Suit_JacketNick,
@@ -1420,6 +1497,7 @@ module AuthenticZClothing {
     }
     item Suit_JacketSamB
     {
+        DisplayCategory = Clothing,		
         Type 	         = Clothing,
         DisplayName      = Gold Rimmed Suit Jacket,
         ClothingItem     = Suit_JacketSamB,
@@ -1438,6 +1516,7 @@ module AuthenticZClothing {
     } 
     item Suit_JacketGMan
     {
+        DisplayCategory = Clothing,		
         Type 	         = Clothing,
         DisplayName      = Navy Blue Suit Jacket,
 		ClothingItem     = Suit_JacketGMan,
@@ -1457,6 +1536,7 @@ module AuthenticZClothing {
 	
     item HoodieDOWN_Bengal
     {
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Bengal Hoodie,
         ClothingItem = HoodieDOWN_Bengal,
@@ -1475,6 +1555,7 @@ module AuthenticZClothing {
 
     item HoodieUP_Bengal
     {
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Bengal Hoodie,
         ClothingItem = HoodieUP_Bengal,
@@ -1491,6 +1572,7 @@ module AuthenticZClothing {
     }
     item HoodieTied_Bengal
     {
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Bengal Hoodie (Tied),
         ClothingItem = HoodieTied_Bengal,
@@ -1506,6 +1588,7 @@ module AuthenticZClothing {
 	
     item HoodieDOWN_Checkered
     {
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Dark Red Plaid Hoodie,
         ClothingItem = HoodieDOWN_Checkered,
@@ -1524,6 +1607,7 @@ module AuthenticZClothing {
 
     item HoodieUP_Checkered
     {
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Dark Red Plaid Hoodie,
         ClothingItem = HoodieUP_Checkered,
@@ -1541,6 +1625,7 @@ module AuthenticZClothing {
 	
     item HoodieTied_Checkered
     {
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Dark Red Plaid Hoodie (Tied),
         ClothingItem = HoodieTied_Checkered,
@@ -1555,6 +1640,7 @@ module AuthenticZClothing {
 
     item HoodieDOWN_BluePlaid
     {
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Blue Plaid Hoodie,
         ClothingItem = HoodieDOWN_BluePlaid,
@@ -1573,6 +1659,7 @@ module AuthenticZClothing {
 
     item HoodieUP_BluePlaid
     {
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Blue Plaid Hoodie,
         ClothingItem = HoodieUP_BluePlaid,
@@ -1590,6 +1677,7 @@ module AuthenticZClothing {
 	
     item HoodieTied_BluePlaid
     {
+        DisplayCategory = Clothing,	
         Type = Clothing,
         DisplayName = Blue Plaid Hoodie (Tied),
         ClothingItem = HoodieTied_BluePlaid,
@@ -1604,6 +1692,7 @@ module AuthenticZClothing {
 
     item HoodieDOWN_GreenPlaid
     {
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Green Plaid Hoodie,
         ClothingItem = HoodieDOWN_GreenPlaid,
@@ -1622,6 +1711,7 @@ module AuthenticZClothing {
 
     item HoodieUP_GreenPlaid
     {
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Green Plaid Hoodie,
         ClothingItem = HoodieUP_GreenPlaid,
@@ -1639,6 +1729,7 @@ module AuthenticZClothing {
 	
     item HoodieTied_GreenPlaid
     {
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Green Plaid Hoodie (Tied),
         ClothingItem = HoodieTied_GreenPlaid,
@@ -1653,6 +1744,7 @@ module AuthenticZClothing {
 
     item HoodieDOWN_GreyPlaid
     {
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Grey Plaid Hoodie,
         ClothingItem = HoodieDOWN_GreyPlaid,
@@ -1671,6 +1763,7 @@ module AuthenticZClothing {
 
     item HoodieUP_GreyPlaid
     {
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Grey Plaid Hoodie,
         ClothingItem = HoodieUP_GreyPlaid,
@@ -1688,6 +1781,7 @@ module AuthenticZClothing {
 	
     item HoodieTied_GreyPlaid
     {
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Grey Plaid Hoodie (Tied),
         ClothingItem = HoodieTied_GreyPlaid,
@@ -1702,6 +1796,7 @@ module AuthenticZClothing {
 
     item HoodieDOWN_OrangePlaid
     {
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Orange Plaid Hoodie,
         ClothingItem = HoodieDOWN_OrangePlaid,
@@ -1720,6 +1815,7 @@ module AuthenticZClothing {
 
     item HoodieUP_OrangePlaid
     {
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Orange Plaid Hoodie,
         ClothingItem = HoodieUP_OrangePlaid,
@@ -1737,6 +1833,7 @@ module AuthenticZClothing {
 	
     item HoodieTied_OrangePlaid
     {
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Orange Plaid Hoodie (Tied),
         ClothingItem = HoodieTied_OrangePlaid,
@@ -1751,6 +1848,7 @@ module AuthenticZClothing {
 	
     item HoodieDOWN_PurplePlaid
     {
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Purple Plaid Hoodie,
         ClothingItem = HoodieDOWN_PurplePlaid,
@@ -1769,6 +1867,7 @@ module AuthenticZClothing {
 
     item HoodieUP_PurplePlaid
     {
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Purple Plaid Hoodie,
         ClothingItem = HoodieUP_PurplePlaid,
@@ -1786,6 +1885,7 @@ module AuthenticZClothing {
 	
     item HoodieTied_PurplePlaid
     {
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Purple Plaid Hoodie (Tied),
         ClothingItem = HoodieTied_PurplePlaid,
@@ -1800,6 +1900,7 @@ module AuthenticZClothing {
 
     item HoodieDOWN_RedPlaid
     {
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Red Plaid Hoodie,
         ClothingItem = HoodieDOWN_RedPlaid,
@@ -1818,6 +1919,7 @@ module AuthenticZClothing {
 
     item HoodieUP_RedPlaid
     {
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Red Plaid Hoodie,
         ClothingItem = HoodieUP_RedPlaid,
@@ -1835,6 +1937,7 @@ module AuthenticZClothing {
 	
     item HoodieTied_RedPlaid
     {
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Red Plaid Hoodie (Tied),
         ClothingItem = HoodieTied_RedPlaid,
@@ -1849,6 +1952,7 @@ module AuthenticZClothing {
 
     item HoodieDOWN_TurquoisePlaid
     {
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Turquoise Plaid Hoodie,
         ClothingItem = HoodieDOWN_TurquoisePlaid,
@@ -1867,6 +1971,7 @@ module AuthenticZClothing {
 
     item HoodieUP_TurquoisePlaid
     {
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Turquoise Plaid Hoodie,
         ClothingItem = HoodieUP_TurquoisePlaid,
@@ -1884,6 +1989,7 @@ module AuthenticZClothing {
 	
     item HoodieTied_TurquoisePlaid
     {
+        DisplayCategory = Clothing,	
         Type = Clothing,
         DisplayName = Turquoise Plaid Hoodie (Tied),
         ClothingItem = HoodieTied_TurquoisePlaid,
@@ -1898,6 +2004,7 @@ module AuthenticZClothing {
 
     item HoodieDOWN_YellowPlaid
     {
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Yellow Plaid Hoodie,
         ClothingItem = HoodieDOWN_YellowPlaid,
@@ -1916,6 +2023,7 @@ module AuthenticZClothing {
 
     item HoodieUP_YellowPlaid
     {
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Yellow Plaid Hoodie,
         ClothingItem = HoodieUP_YellowPlaid,
@@ -1933,6 +2041,7 @@ module AuthenticZClothing {
 	
     item HoodieTied_YellowPlaid
     {
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Yellow Plaid Hoodie (Tied),
         ClothingItem = HoodieTied_YellowPlaid,
@@ -1947,6 +2056,7 @@ module AuthenticZClothing {
 
     item HoodieDOWN_Vegan
     {
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Vegan Hoodie,
         ClothingItem = HoodieDOWN_Vegan,
@@ -1965,6 +2075,7 @@ module AuthenticZClothing {
 
     item HoodieUP_Vegan
     {
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Vegan Hoodie,
         ClothingItem = HoodieUP_Vegan,
@@ -1981,6 +2092,7 @@ module AuthenticZClothing {
     }
     item HoodieTied_Vegan
     {
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Vegan Hoodie (Tied),
         ClothingItem = HoodieTied_Vegan,
@@ -1994,6 +2106,7 @@ module AuthenticZClothing {
     }		
     item HoodieDOWN_WhiteTINT
     {
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Hoodie,
         ClothingItem = HoodieDOWN_WhiteTINT,
@@ -2011,6 +2124,7 @@ module AuthenticZClothing {
     }
     item HoodieUP_WhiteTINT
     {
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Hoodie,
         ClothingItem = HoodieUP_WhiteTINT,
@@ -2027,6 +2141,7 @@ module AuthenticZClothing {
     }
     item HoodieTied_WhiteTINT
     {
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Hoodie (Tied),
         ClothingItem = HoodieTied_WhiteTINT,
@@ -2041,6 +2156,7 @@ module AuthenticZClothing {
 
     item Jumper_PoloNeckCheeseRoyale
     {
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Burger Sweater,
         ClothingItem = Jumper_PoloNeckCheeseRoyale,
@@ -2055,6 +2171,7 @@ module AuthenticZClothing {
 
     item SnowGhillie_Top
     {
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Snow Ghillie Suit Torso,
         ClothingItem = SnowGhillie_Top,

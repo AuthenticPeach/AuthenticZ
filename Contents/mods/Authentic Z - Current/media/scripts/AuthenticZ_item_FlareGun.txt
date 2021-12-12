@@ -5,6 +5,7 @@ module AuthenticZClothing {
 
    item FlareGun
     {
+        DisplayCategory 		= 	Weapon,	
         ImpactSound				=	null,
         MaxRange				=	6,
         WeaponSprite			=	AuthenticFlareGun,
@@ -26,8 +27,8 @@ module AuthenticZClothing {
         IsAimedFirearm			=	TRUE,
         DoorDamage				=	5,
         UseEndurance			=	FALSE,
-        SwingAnim	=	Handgun,
-        DisplayName	=	Flare Gun,
+        SwingAnim				=	Handgun,
+        DisplayName				=	Flare Gun,
         MinRange	=	0.61,
         SwingTime	=	0.5,
         MultipleHitConditionAffected	=	FALSE,
@@ -60,6 +61,7 @@ module AuthenticZClothing {
     }
 	item Flare12GaugeShot
 	{
+        DisplayCategory 	= 	Ammo,	
 		DisplayName			=	12-Gauge Flare,
 		Count				=	3,		
 		Weight				=	0.05,

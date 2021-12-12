@@ -4,6 +4,7 @@ module AuthenticZClothing {
   }
     item BlackLeggings_Bottoms
     {
+       DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Black Leggings,
         ClothingItem = BlackLeggings_Bottoms,
@@ -16,6 +17,7 @@ module AuthenticZClothing {
     }  
     item Shorts_LongDenimWhite
     {
+       DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = White Denim Shorts,
         ClothingItem = Shorts_LongDenimWhite,
@@ -31,6 +33,7 @@ module AuthenticZClothing {
     }
     item Shorts_LongSport_Blue
     {
+       DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Long Blue Sport Shorts,
         ClothingItem = Shorts_LongSport_Blue,
@@ -44,6 +47,7 @@ module AuthenticZClothing {
     }	
     item Shorts_LongSportBluePurple
     {
+       DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Long Sport Shorts,
         ClothingItem = Shorts_LongSportBluePurple,
@@ -57,6 +61,7 @@ module AuthenticZClothing {
     }		
 	    item Shorts_LongSportChiefs
     {
+       DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Chiefs Long Sport Shorts,
         ClothingItem = Shorts_LongSportChiefs,
@@ -70,6 +75,7 @@ module AuthenticZClothing {
     }	
 	    item Shorts_LongSportGold
     {
+       DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Packers Long Sport Shorts,
         ClothingItem = Shorts_LongSportGold,
@@ -83,6 +89,7 @@ module AuthenticZClothing {
     }
 	    item Shorts_LongSportGolden
     {
+       DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Golden Long Sport Shorts,
         ClothingItem = Shorts_LongSportGolden,
@@ -96,6 +103,7 @@ module AuthenticZClothing {
     }
 	    item Shorts_LongSportLightBlue
     {
+       DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Light Blue Long Sport Shorts,
         ClothingItem = Shorts_LongSportLightBlue,
@@ -109,6 +117,7 @@ module AuthenticZClothing {
     }	
 	    item Shorts_LongSportNeon
     {
+       DisplayCategory = Clothing,	
         Type = Clothing,
         DisplayName = Long Sport Shorts,
         ClothingItem = Shorts_LongSportNeon,
@@ -122,6 +131,7 @@ module AuthenticZClothing {
     }	
 	    item Shorts_LongSportPatriots
     {
+       DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Patriots Long Sport Shorts,
         ClothingItem = Shorts_LongSportPatriots,
@@ -135,6 +145,7 @@ module AuthenticZClothing {
     }
     item Shorts_LongSportPinkBlackBlue
     {
+       DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Long Sport Shorts,
         ClothingItem = Shorts_LongSportPinkBlackBlue,
@@ -148,6 +159,7 @@ module AuthenticZClothing {
     }	
 	    item Shorts_LongSportPopcicle
     {
+       DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Long Sport Shorts,
         ClothingItem = Shorts_LongSportPopcicle,
@@ -161,6 +173,7 @@ module AuthenticZClothing {
     }
 	    item Shorts_LongSportPurple
     {
+       DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Purple Long Sport Shorts,
         ClothingItem = Shorts_LongSportPurple,
@@ -174,6 +187,7 @@ module AuthenticZClothing {
     }
 	    item Shorts_LongSportWatermelon
     {
+       DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Watermelon Long Sport Shorts,
         ClothingItem = Shorts_LongSportWatermelon,
@@ -187,6 +201,7 @@ module AuthenticZClothing {
     }	
     item Shorts_ShortSport_Neon
     {
+       DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Sport Shorts,
         ClothingItem = Shorts_ShortSport_Neon,
@@ -200,6 +215,7 @@ module AuthenticZClothing {
     }	
     item Shorts_ShortSport_PinkBlackBlue
     {
+       DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Sport Shorts,
         ClothingItem = Shorts_ShortSport_PinkBlackBlue,
@@ -213,6 +229,7 @@ module AuthenticZClothing {
     }
     item Shorts_ShortSport_Popcicle
     {
+       DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Sport Shorts,
         ClothingItem = Shorts_ShortSport_Popcicle,
@@ -226,6 +243,7 @@ module AuthenticZClothing {
     }
     item Shorts_ShortSport_Sunset
     {
+       DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Sport Shorts,
         ClothingItem = Shorts_ShortSport_Sunset,
@@ -239,6 +257,7 @@ module AuthenticZClothing {
     }		
     item Skirt_ShortBlack
     {
+       DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Short Black Skirt,
         ClothingItem = Skirt_ShortBlack,
@@ -251,6 +270,7 @@ module AuthenticZClothing {
     }
     item Skirt_ShortCheerleader
     {
+       DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Cheerleader Short Skirt,
         ClothingItem = Skirt_ShortCheerleader,
@@ -263,6 +283,7 @@ module AuthenticZClothing {
     }
     item Skirt_ShortJessie
     {
+       DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Short Beige Skirt,
         ClothingItem = Skirt_ShortJessie,
@@ -275,6 +296,7 @@ module AuthenticZClothing {
     }
     item Skirt_ShortXian
     {
+       DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Short Red Skirt,
         ClothingItem = Skirt_ShortXian,
@@ -287,6 +309,7 @@ module AuthenticZClothing {
     }
     item SnowGhillie_Trousers
     {
+       DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Snow Ghillie Pants,
         ClothingItem = SnowGhillie_Trousers,
@@ -303,6 +326,7 @@ module AuthenticZClothing {
     }
 	item Trousers_BarbershopBlue
     {
+       DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Blue Trousers,
         ClothingItem = Trousers_BarbershopBlue,
@@ -317,6 +341,7 @@ module AuthenticZClothing {
     }
 	item Trousers_BarbershopGreen
     {
+       DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Green Trousers,
         ClothingItem = Trousers_BarbershopGreen,
@@ -331,6 +356,7 @@ module AuthenticZClothing {
     }
 	item Trousers_BarbershopPurple
     {
+       DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Purple Trousers,
         ClothingItem = Trousers_BarbershopPurple,
@@ -345,6 +371,7 @@ module AuthenticZClothing {
     }
 	item Trousers_BarbershopRed
     {
+       DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Red Trousers,
         ClothingItem = Trousers_BarbershopRed,
@@ -359,6 +386,7 @@ module AuthenticZClothing {
     }
 	item Trousers_BarbershopYellow
     {
+       DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Yellow Trousers,
         ClothingItem = Trousers_BarbershopYellow,
@@ -373,6 +401,7 @@ module AuthenticZClothing {
     }
    	item Trousers_BelAir
     {
+       DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Designer Pants,
         ClothingItem = Trousers_BelAir,
@@ -388,6 +417,7 @@ module AuthenticZClothing {
     }
    	item Trousers_Coach
     {
+       DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Khaki Pants,
         ClothingItem = Trousers_Coach,
@@ -403,6 +433,7 @@ module AuthenticZClothing {
     }
     item Trousers_DefaultJeans
     {
+       DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Jeans,
         ClothingItem = Trousers_DefaultJeans,
@@ -419,6 +450,7 @@ module AuthenticZClothing {
     }
     item Trousers_FiremanNMRIH
     {
+       DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Firefighter Pants,
         ClothingItem = Trousers_FiremanNMRIH,
@@ -436,6 +468,7 @@ module AuthenticZClothing {
     }	
     item Trousers_Flyboy
     {
+       DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Khaki Pants,
         ClothingItem = Trousers_Flyboy,
@@ -451,6 +484,7 @@ module AuthenticZClothing {
     }
     item Trousers_Grimes
     {
+       DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Brown Ranger Pants,
         ClothingItem = Trousers_Grimes,
@@ -466,6 +500,7 @@ module AuthenticZClothing {
     }
    	item Trousers_SuitBrad
     {
+       DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Brown Suit Pants,
         ClothingItem = Trousers_SuitBrad,
@@ -481,6 +516,7 @@ module AuthenticZClothing {
     }
     item Trousers_SuitBrown
     {
+       DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Combat Pants,
         ClothingItem = Trousers_SuitBrown,
@@ -497,6 +533,7 @@ module AuthenticZClothing {
     }
    	item Trousers_SuitJoker
     {
+       DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Joker Suit Pants,
         ClothingItem = Trousers_SuitJoker,
@@ -512,6 +549,7 @@ module AuthenticZClothing {
     }	
     item TrousersMesh_Bill
     {
+       DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Green Pants,
         ClothingItem = TrousersMesh_Bill,
@@ -528,6 +566,7 @@ module AuthenticZClothing {
     }
     item TrousersMesh_Bub
     {
+       DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Pants,
         ClothingItem = TrousersMesh_Bub,
@@ -544,6 +583,7 @@ module AuthenticZClothing {
     }
     item Trousers_JeanDark
     {
+       DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Jeans,
         ClothingItem = Trousers_JeanDark,
@@ -560,6 +600,7 @@ module AuthenticZClothing {
     }
     item TrousersMesh_JimmyGibbs
     {
+       DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Jimmy Gibbs's Pants,
         ClothingItem = TrousersMesh_JimmyGibbs,
@@ -575,6 +616,7 @@ module AuthenticZClothing {
     }
     item Trousers_JohnMorgan
     {
+       DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Tactical Pants,
         ClothingItem = Trousers_JohnMorgan,
@@ -590,6 +632,7 @@ module AuthenticZClothing {
     }
     item Trousers_OliveDrab
     {
+       DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Olive Drab Pants,
         ClothingItem = Trousers_OliveDrab,
@@ -606,6 +649,7 @@ module AuthenticZClothing {
     }
     item Trousers_OliveDrab2
     {
+       DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Olive Drab Pants,
         ClothingItem = Trousers_OliveDrab2,
@@ -622,6 +666,7 @@ module AuthenticZClothing {
     }	
     item Trousers_Sport
     {
+       DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Jogger Pants,
         ClothingItem = Trousers_Sport,
@@ -635,6 +680,7 @@ module AuthenticZClothing {
     }
     item Trousers_SportKilla
     {
+       DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Killa's Jogger Pants,
         ClothingItem = Trousers_SportKilla,
@@ -648,6 +694,7 @@ module AuthenticZClothing {
     }
     item Trousers_SportRed
     {
+       DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Long Red Sports Pants,
         ClothingItem = Trousers_SportRed,
@@ -661,6 +708,7 @@ module AuthenticZClothing {
     }
     item Trousers_SportBlue
     {
+       DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Long Blue Sports Pants,
         ClothingItem = Trousers_SportBlue,
@@ -674,6 +722,7 @@ module AuthenticZClothing {
     }
     item Trousers_SportGreen
     {
+       DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Long Green Sports Pants,
         ClothingItem = Trousers_SportGreen,
@@ -687,6 +736,7 @@ module AuthenticZClothing {
     }	
     item Trousers_SportYellow
     {
+       DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Long Yellow Sports Pants,
         ClothingItem = Trousers_SportYellow,
@@ -700,6 +750,7 @@ module AuthenticZClothing {
     }		
     item Trousers_SuitBlack
     {
+       DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Black Suit Pants,
         ClothingItem = Trousers_SuitBlack,
@@ -714,6 +765,7 @@ module AuthenticZClothing {
     }	
     item Trousers_SuitGMan
     {
+       DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Navy Blue Suit Pants,
         ClothingItem = Trousers_SuitGMan,
@@ -728,6 +780,7 @@ module AuthenticZClothing {
     }
     item Trousers_SuitNick
     {
+       DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = White Suit Pants,
         ClothingItem = Trousers_SuitNick,
@@ -742,6 +795,7 @@ module AuthenticZClothing {
     }
     item Trousers_UncleSam
     {
+       DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Uncle Sam's Suit Pants,
         ClothingItem = Trousers_UncleSam,

@@ -5,6 +5,7 @@ module AuthenticZClothing {
 
 	item Bag_B4BEvangelo
     {
+       DisplayCategory = Bag,	
         WeightReduction			 =	 65,
         Weight					 =	 1,
         Type					 =	 Container,
@@ -26,6 +27,7 @@ module AuthenticZClothing {
 
 	item Bag_B4BHoffman
     {
+       DisplayCategory = Bag,	
         WeightReduction	=	65,
         Weight			=	1,
         Type			=	Container,
@@ -47,6 +49,7 @@ module AuthenticZClothing {
  
 	item Bag_B4BHolly
     {
+       DisplayCategory = Bag,	
         WeightReduction			 =	70,
         Weight					 =	1,
         Type					 =	Container,
@@ -68,6 +71,7 @@ module AuthenticZClothing {
 
 	item Bag_B4BMom
     {
+       DisplayCategory = Bag,	
         WeightReduction	=	70,
         Weight			=	1,
         Type			=	Container,
@@ -89,6 +93,7 @@ module AuthenticZClothing {
 
 	item Bag_B4BWalker
     {
+       DisplayCategory = Bag,	
         WeightReduction	=	70,
         Weight			=	1,
         Type			=	Container,
@@ -110,6 +115,7 @@ module AuthenticZClothing {
  
 	item Bag_SchoolBagCEDA
     {
+       DisplayCategory = Bag,	
         WeightReduction	=	60,
         Weight	=	1,
         Type	=	Container,
@@ -131,6 +137,7 @@ module AuthenticZClothing {
 
 	item Bag_SchoolBagCEDABlack
     {
+       DisplayCategory = Bag,	
         WeightReduction			=	60,
         Weight					=	1,
         Type					=	Container,
@@ -151,6 +158,7 @@ module AuthenticZClothing {
     }
 	item Bag_SchoolBagCEDABlue
     {
+       DisplayCategory = Bag,	
         WeightReduction			=	60,
         Weight					=	1,
         Type					=	Container,
@@ -171,6 +179,7 @@ module AuthenticZClothing {
     }
 	item Bag_SchoolBagCEDARed
     {
+       DisplayCategory = Bag,	
         WeightReduction				=	60,
         Weight						=	1,
         Type						=	Container,
@@ -210,6 +219,7 @@ module AuthenticZClothing {
 
 	item Bag_L4DeadMedkit
     {
+       DisplayCategory = Bag,	
         WeightReduction		     =	50,
         Weight					 =	1,
         Type					 =	Container,
@@ -234,6 +244,7 @@ module AuthenticZClothing {
 	
 	item Bag_SchoolBagNBH
     {
+       DisplayCategory = Bag,	
         WeightReduction			 =	60,
         Weight					 =	1,
         Type					 =	Container,
@@ -255,6 +266,7 @@ module AuthenticZClothing {
 	
 	item Bag_ProtonPack_Back
     {
+       DisplayCategory = Bag,	
 		WeightReduction			=	35,
         Weight					=	5,
         Type					=	Container,
@@ -276,6 +288,7 @@ module AuthenticZClothing {
 
     item Bag_UtilityBeltFront
     {
+       DisplayCategory = Bag,	
         Type					=	Container,
         DisplayName				=	Utility Belt (Tightened),
         ClothingItem 			= 	Bag_UtilityBeltFront,		
@@ -296,6 +309,7 @@ module AuthenticZClothing {
 	
     item Bag_UtilityBeltFront_Loose
     {
+       DisplayCategory = Bag,	
         Type					=	Container,
         DisplayName				=	Utility Belt (Loosened),
         ClothingItem 			= 	Bag_UtilityBeltFront_Loose,		
@@ -316,6 +330,7 @@ module AuthenticZClothing {
 
     item Bag_UtilityBeltDesert
     {
+       DisplayCategory = Bag,	
         Type					=	Container,
         DisplayName				=	Utility Belt (Tightened),
         ClothingItem 			= 	Bag_UtilityBeltDesert,		
@@ -336,6 +351,7 @@ module AuthenticZClothing {
 	
     item Bag_UtilityBeltDesert_Loose
     {
+       DisplayCategory = Bag,	
         Type					=	Container,
         DisplayName				=	Utility Belt (Loosened),
         ClothingItem 			= 	Bag_UtilityBeltDesert_Loose,		
@@ -356,6 +372,7 @@ module AuthenticZClothing {
 
     item Bag_Satchel
     {
+       DisplayCategory = Bag,	
         WeightReduction	=	30,
         Weight	=	1,
         Type	=	Container,

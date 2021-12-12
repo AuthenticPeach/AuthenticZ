@@ -4,6 +4,7 @@ module AuthenticZClothing {
   }
  	item BunnyEars
 	{
+	    DisplayCategory = Accessory,
 		Type = Clothing,
 		DisplayName = Bunny Ears,
 		ClothingItem = BunnyEarsAZ,
@@ -18,6 +19,7 @@ module AuthenticZClothing {
     	} 
 	item Hat_AuthenticCrashHelmetFULLDecalBobaFett
 	{
+	    DisplayCategory = Accessory,	
 		Type = Clothing,
 		DisplayName = Motorcycle Helmet,
 		ClothingItem = Hat_AuthenticCrashHelmetFULLDecalBobaFett,
@@ -34,6 +36,7 @@ module AuthenticZClothing {
 	} 
 	item Hat_AuthenticCrashHelmetFULLDecalEvelKnievel
 	{
+	    DisplayCategory = Accessory,	
 		Type = Clothing,
 		DisplayName = Motorcycle Helmet,
 		ClothingItem = Hat_AuthenticCrashHelmetFULLDecalEvelKnievel,
@@ -50,6 +53,7 @@ module AuthenticZClothing {
 	} 
 	item Hat_AuthenticCrashHelmetFULLDecalGreenDragon
 	{
+	    DisplayCategory = Accessory,	
 		Type = Clothing,
 		DisplayName = Motorcycle Helmet,
 		ClothingItem = Hat_AuthenticCrashHelmetFULLDecalGreenDragon,
@@ -66,6 +70,7 @@ module AuthenticZClothing {
 	}
 	item Hat_AuthenticCrashHelmetFULLDecalKiss
 	{
+	    DisplayCategory = Accessory,	
 		Type = Clothing,
 		DisplayName = Motorcycle Helmet,
 		ClothingItem = Hat_AuthenticCrashHelmetFULLDecalKiss,
@@ -82,6 +87,7 @@ module AuthenticZClothing {
 	}  
 	item Hat_AuthenticCrashHelmetFULLDecalOptimus
 	{
+	    DisplayCategory = Accessory,	
 		Type = Clothing,
 		DisplayName = Motorcycle Helmet,
 		ClothingItem = Hat_AuthenticCrashHelmetFULLDecalOptimus,
@@ -98,6 +104,7 @@ module AuthenticZClothing {
 	}
 	item Hat_AuthenticCrashHelmetFULLDecalPowerRangerRed
 	{
+	    DisplayCategory = Accessory,	
 		Type = Clothing,
 		DisplayName = Motorcycle Helmet,
 		ClothingItem = Hat_AuthenticCrashHelmetFULLDecalPowerRangerRed,
@@ -114,6 +121,7 @@ module AuthenticZClothing {
 	}  	
 	item Hat_AuthenticCrashHelmetFULLDecalShark
 	{
+	    DisplayCategory = Accessory,	
 		Type = Clothing,
 		DisplayName = Motorcycle Helmet,
 		ClothingItem = Hat_AuthenticCrashHelmetFULLDecalShark,
@@ -130,6 +138,7 @@ module AuthenticZClothing {
 	}	
 	item Hat_AuthenticCrashHelmetFULLDecalSnowLeopard
 	{
+	    DisplayCategory = Accessory,
 		Type = Clothing,
 		DisplayName = Motorcycle Helmet,
 		ClothingItem = Hat_AuthenticCrashHelmetFULLDecalSnowLeopard,
@@ -146,6 +155,7 @@ module AuthenticZClothing {
 	}
 	item Hat_AuthenticCrashHelmetFULLDecalVenom
 	{
+	    DisplayCategory = Accessory,	
 		Type = Clothing,
 		DisplayName = Motorcycle Helmet,
 		ClothingItem = Hat_AuthenticCrashHelmetFULLDecalVenom,
@@ -162,6 +172,7 @@ module AuthenticZClothing {
 	}	
 	item Hat_AuthenticCrashHelmetFULLDecalSimple
 	{
+	    DisplayCategory = Accessory,	
 		Type = Clothing,
 		DisplayName = Motorcycle Helmet,
 		ClothingItem = Hat_AuthenticCrashHelmetFULLDecalSimple,
@@ -178,6 +189,7 @@ module AuthenticZClothing {
 	}
 	item Hat_AuthenticCrashHelmetFULLRacing
 	{
+	    DisplayCategory = Accessory,	
 		Type = Clothing,
 		DisplayName = Motorcycle Helmet,
 		ClothingItem = Hat_AuthenticCrashHelmetFULLRacing,
@@ -194,6 +206,7 @@ module AuthenticZClothing {
 	}
 	item Hat_AuthenticCrashHelmetFULLTINT
 	{
+	    DisplayCategory = Accessory,	
 		Type = Clothing,
 		DisplayName = Motorcycle Helmet,
 		ClothingItem = Hat_AuthenticCrashHelmetFULLTINT,
@@ -210,6 +223,7 @@ module AuthenticZClothing {
 	}
 	item Hat_AuthenticCrashHelmet
 	{
+	    DisplayCategory = Accessory,	
 		Type = Clothing,
 		DisplayName = Crash Helmet,
 		ClothingItem = Hat_AuthenticCrashHelmet,
@@ -225,6 +239,7 @@ module AuthenticZClothing {
 	}
 	item Hat_BalaclavaSpyBlue
 	{
+	    DisplayCategory = Accessory,	
 		Type = Clothing,
 		DisplayName = Blue Open Balaclava,
 		ClothingItem = Hat_BalaclavaSpyBlue,
@@ -238,6 +253,7 @@ module AuthenticZClothing {
 	}
 	item Hat_BalaclavaSpyRed
 	{
+	    DisplayCategory = Accessory,	
 		Type = Clothing,
 		DisplayName = Red Open Balaclava,
 		ClothingItem = Hat_BalaclavaSpyRed,
@@ -251,6 +267,7 @@ module AuthenticZClothing {
 	}
     item Hat_BaseballCapClementine
     {
+	    DisplayCategory = Accessory,	
         Type = Clothing,
         DisplayName = Clementine's Baseball Cap,
         ClothingItem = Hat_BaseballCapClementine,
@@ -265,6 +282,7 @@ module AuthenticZClothing {
     }
     item Hat_BaseballCapClementine_Reverse
     {
+	    DisplayCategory = Accessory,	
         Type = Clothing,
         DisplayName = Clementine's Baseball Cap,
         ClothingItem = Hat_BaseballCapClementine_Reverse,
@@ -279,6 +297,7 @@ module AuthenticZClothing {
     }
     item Hat_BaseballCapEllis
     {
+	    DisplayCategory = Accessory,	
         Type = Clothing,
         DisplayName = Ellis's Baseball Cap,
         ClothingItem = Hat_BaseballCapEllis,
@@ -293,6 +312,7 @@ module AuthenticZClothing {
     }
     item Hat_BaseballCapEllis_Reverse
     {
+	    DisplayCategory = Accessory,	
         Type = Clothing,
         DisplayName = Ellis's Baseball Cap,
         ClothingItem = Hat_BaseballCapEllis_Reverse,
@@ -307,6 +327,7 @@ module AuthenticZClothing {
     }
     item Hat_BaseballCapDayZ
     {
+	    DisplayCategory = Accessory,	
         Type = Clothing,
         DisplayName = DayZ Hero Baseball Cap,
         ClothingItem = Hat_BaseballCapDayZ,
@@ -321,6 +342,7 @@ module AuthenticZClothing {
     }
     item Hat_BaseballCapDayZ_Reverse
     {
+	    DisplayCategory = Accessory,	
         Type = Clothing,
         DisplayName = Baseball Cap,
         ClothingItem = Hat_BaseballCapDayZ_Reverse,
@@ -334,6 +356,7 @@ module AuthenticZClothing {
     }
     item Hat_BaseballCapHolly
     {
+	    DisplayCategory = Accessory,	
         Type = Clothing,
         DisplayName = Holly's Baseball Cap,
         ClothingItem = Hat_BaseballCapHolly,
@@ -348,6 +371,7 @@ module AuthenticZClothing {
     }
     item Hat_BaseballCapHolly_Reverse
     {
+	    DisplayCategory = Accessory,	
         Type = Clothing,
         DisplayName = Holly's Baseball Cap,
         ClothingItem = Hat_BaseballCapHolly_Reverse,
@@ -362,6 +386,7 @@ module AuthenticZClothing {
     }
     item Hat_BaseballCapHunter
     {
+	    DisplayCategory = Accessory,	
         Type = Clothing,
         DisplayName = Hunter's Baseball Cap,
         ClothingItem = Hat_BaseballCapHunter,
@@ -376,6 +401,7 @@ module AuthenticZClothing {
     }
     item Hat_BaseballCapHunter_Reverse
     {
+	    DisplayCategory = Accessory,	
         Type = Clothing,
         DisplayName = Hunter's Baseball Cap,
         ClothingItem = Hat_BaseballCapHunter_Reverse,
@@ -390,6 +416,7 @@ module AuthenticZClothing {
     }	
     item Hat_BaseballCapJohnMorgan
     {
+	    DisplayCategory = Accessory,	
         Type = Clothing,
         DisplayName = John Morgan's Baseball Cap,
         ClothingItem = Hat_BaseballCapJohnMorgan,
@@ -404,6 +431,7 @@ module AuthenticZClothing {
     }
     item Hat_BaseballCapJohnMorgan_Reverse
     {
+	    DisplayCategory = Accessory,	
         Type = Clothing,
         DisplayName = John Morgan's Baseball Cap,
         ClothingItem = Hat_BaseballCapJohnMorgan_Reverse,
@@ -417,7 +445,8 @@ module AuthenticZClothing {
     }
     item Hat_BaseballCapPrinceBelAir
     {
-        Type = Clothing,
+ 	    DisplayCategory = Accessory,       
+		Type = Clothing,
         DisplayName = Basketball Cap,
         ClothingItem = Hat_BaseballCapPrinceBelAir,
 		ClothingItemExtra = Hat_BaseballCapPrinceBelAir_Reverse,
@@ -431,6 +460,7 @@ module AuthenticZClothing {
     }
     item Hat_BaseballCapPrinceBelAir_Reverse
     {
+	    DisplayCategory = Accessory,	
         Type = Clothing,
         DisplayName =  Basketball Cap,
         ClothingItem = Hat_BaseballCapPrinceBelAir_Reverse,
@@ -444,6 +474,7 @@ module AuthenticZClothing {
     }
     item Hat_BaseballCapRedDI
     {
+	    DisplayCategory = Accessory,	
         Type = Clothing,
         DisplayName = Star Baseball Cap,
         ClothingItem = Hat_BaseballCapRedDI,
@@ -458,6 +489,7 @@ module AuthenticZClothing {
     }
     item Hat_BaseballCapRedDI_Reverse
     {
+	    DisplayCategory = Accessory,	
         Type = Clothing,
         DisplayName =  Star Baseball Cap,
         ClothingItem = Hat_BaseballCapRedDI_Reverse,
@@ -471,6 +503,7 @@ module AuthenticZClothing {
     }
     item Hat_BaseballCapSeaHorse
     {
+	    DisplayCategory = Accessory,	
         Type = Clothing,
         DisplayName = Seahorse Baseball Cap,
         ClothingItem = Hat_BaseballCapSeaHorse,
@@ -485,6 +518,7 @@ module AuthenticZClothing {
     }
     item Hat_BaseballCapSeaHorse_Reverse
     {
+	    DisplayCategory = Accessory,	
         Type = Clothing,
         DisplayName =  Seahorse Baseball Cap,
         ClothingItem = Hat_BaseballCapSeaHorse_Reverse,
@@ -498,6 +532,7 @@ module AuthenticZClothing {
     }
     item Hat_BaseballCapWalker
     {
+	    DisplayCategory = Accessory,
         Type = Clothing,
         DisplayName = Walker's Baseball Cap,
         ClothingItem = Hat_BaseballCapWalker,
@@ -512,6 +547,7 @@ module AuthenticZClothing {
     }
     item Hat_BaseballCapWalker_Reverse
     {
+	    DisplayCategory = Accessory,	
         Type = Clothing,
         DisplayName = Walker's Baseball Cap,
         ClothingItem = Hat_BaseballCapWalker_Reverse,
@@ -526,6 +562,7 @@ module AuthenticZClothing {
     }
     item Hat_BandanaTiedDesert
     {
+	    DisplayCategory = Accessory,	
         Type = Clothing,
         DisplayName = Bandana (Tied),
         ClothingItem = Hat_BandanaTiedDesert,
@@ -540,6 +577,7 @@ module AuthenticZClothing {
     }	
     item Hat_BandanaMaskDesert
     {
+	    DisplayCategory = Accessory,	
         Type = Clothing,
         DisplayName = Desert Bandana (Face),
         ClothingItem = Hat_BandanaMaskDesert,
@@ -554,6 +592,7 @@ module AuthenticZClothing {
     }
 	item Hat_BandanaDesert
 	{
+	    DisplayCategory = Accessory,	
 		Type = Clothing,
 		DisplayName = Desert Bandana (Head),
 		ClothingItem = Hat_BandanaDesert,
@@ -567,6 +606,7 @@ module AuthenticZClothing {
 	}	
     item Hat_BandanaTiedRed
     {
+	    DisplayCategory = Accessory,	
         Type = Clothing,
         DisplayName = Red Bandana (Tied),
         ClothingItem = Hat_BandanaTiedRed,
@@ -581,6 +621,7 @@ module AuthenticZClothing {
     }	
     item Hat_BandanaMaskRed
     {
+	    DisplayCategory = Accessory,	
         Type = Clothing,
         DisplayName = Red Bandana (Face),
         ClothingItem = Hat_BandanaMaskRed,
@@ -595,6 +636,7 @@ module AuthenticZClothing {
     }
 	item Hat_BandanaRed
 	{
+	    DisplayCategory = Accessory,	
 		Type = Clothing,
 		DisplayName = Bandana (Head),
 		ClothingItem = Hat_BandanaRed,
@@ -608,6 +650,7 @@ module AuthenticZClothing {
 	}
 	item Hat_BeanyGrey
 	{
+	    DisplayCategory = Accessory,	
 		Type = Clothing,
 		DisplayName = Beanie Hat,
 		ClothingItem = Hat_BeanyGrey,
@@ -622,6 +665,7 @@ module AuthenticZClothing {
 	}
 	item Hat_BeretBlack
     {
+	    DisplayCategory = Accessory,	
         Type = Clothing,
         DisplayName = Black Beret,
         ClothingItem = Hat_BeretBlack,
@@ -635,6 +679,7 @@ module AuthenticZClothing {
     }	
 	item Hat_BeretMime
     {
+	    DisplayCategory = Accessory,	
         Type = Clothing,
         DisplayName = Red Beret,
         ClothingItem = Hat_BeretMime,
@@ -649,6 +694,7 @@ module AuthenticZClothing {
     }		
 	item Hat_Boater_Blue
 	{
+	    DisplayCategory = Accessory,	
 		Type = Clothing,
 		DisplayName = Blue Boater,
 		ClothingItem = Hat_Boater_Blue,
@@ -663,6 +709,7 @@ module AuthenticZClothing {
     	}
 	item Hat_Boater_Green
 	{
+	    DisplayCategory = Accessory,	
 		Type = Clothing,
 		DisplayName = Green Boater,
 		ClothingItem = Hat_Boater_Green,
@@ -677,6 +724,7 @@ module AuthenticZClothing {
     	}
 	item Hat_Boater_Purple
 	{
+	    DisplayCategory = Accessory,	
 		Type = Clothing,
 		DisplayName = Purple Boater,
 		ClothingItem = Hat_Boater_Purple,
@@ -691,6 +739,7 @@ module AuthenticZClothing {
     	}
 	item Hat_Boater_Red
 	{
+	    DisplayCategory = Accessory,	
 		Type = Clothing,
 		DisplayName = Red Boater,
 		ClothingItem = Hat_Boater_Red,
@@ -705,6 +754,7 @@ module AuthenticZClothing {
     	}
 	item Hat_Boater_Yellow
 	{
+	    DisplayCategory = Accessory,	
 		Type = Clothing,
 		DisplayName = Yellow Boater,
 		ClothingItem = Hat_Boater_Yellow,
@@ -719,6 +769,7 @@ module AuthenticZClothing {
     }
    item Hat_CheeseHat
     {
+	    DisplayCategory = Accessory,	
         Type = Clothing,
         DisplayName = Cheese Hat,
         ClothingItem = Hat_CheeseHat,
@@ -731,6 +782,7 @@ module AuthenticZClothing {
     }
 	item Hat_Cowboy_Freddy
 	{
+	    DisplayCategory = Accessory,	
 		Type = Clothing,
 		DisplayName = Brown Cowboy Hat,
 		ClothingItem = Hat_Cowboy_Freddy,
@@ -744,6 +796,7 @@ module AuthenticZClothing {
 	}	
 	item Hat_DeathMask
 	{
+	    DisplayCategory = Accessory,	
 		Type = Clothing,
 		DisplayName = Death Mask,
 		ClothingItem = Hat_DeathMask,
@@ -759,6 +812,7 @@ module AuthenticZClothing {
 	}
 	item Hat_Dimitrescu
 	{
+	    DisplayCategory = Accessory,	
 		Type = Clothing,
 		DisplayName = Lady Dimitrescu's Hat,
 		ClothingItem = Hat_Dimitrescu,
@@ -771,6 +825,7 @@ module AuthenticZClothing {
 	}	
 	item Hat_DRLegoHead
 	{
+	    DisplayCategory = Accessory,	
 		Type = Clothing,
 		DisplayName = ServBot Mask,
 		ClothingItem = Hat_DRLegoHead,
@@ -788,6 +843,7 @@ module AuthenticZClothing {
 	}
 	item Hat_FootballHelmet_BlueStar
 	{
+	    DisplayCategory = Accessory,	
 		Type = Clothing,
 		DisplayName = Football Helmet,
 		ClothingItem = Hat_FootballHelmet_BlueStar,
@@ -806,6 +862,7 @@ module AuthenticZClothing {
 	}
 	item Hat_FootballHelmet_Chiefs
 	{
+	    DisplayCategory = Accessory,	
 		Type = Clothing,
 		DisplayName = Chiefs Football Helmet,
 		ClothingItem = Hat_FootballHelmet_Chiefs,
@@ -822,8 +879,9 @@ module AuthenticZClothing {
         WaterResistance = 0.85,
         Weight = 1.5,
 	}
-	item at_FootballHelmet_Packers
+	item Hat_FootballHelmet_Packers
 	{
+	    DisplayCategory = Accessory,	
 		Type = Clothing,
 		DisplayName = Packers Football Helmet,
 		ClothingItem = Hat_FootballHelmet_Packers,
@@ -842,6 +900,7 @@ module AuthenticZClothing {
 	}
 	item Hat_FootballHelmet_RedSkull
 	{
+	    DisplayCategory = Accessory,	
 		Type = Clothing,
 		DisplayName = Football Helmet,
 		ClothingItem = Hat_FootballHelmet_RedSkull,
@@ -860,6 +919,7 @@ module AuthenticZClothing {
 	}	
 	item Hat_FootballHelmet_Patriots
 	{
+	    DisplayCategory = Accessory,	
 		Type = Clothing,
 		DisplayName = Patriots Football Helmet,
 		ClothingItem = Hat_FootballHelmet_Patriots,
@@ -878,6 +938,7 @@ module AuthenticZClothing {
 	}	
 	item Hat_GhostFace
 	{
+	    DisplayCategory = Accessory,	
 		Type = Clothing,
 		DisplayName = Ghost Face Mask,
 		ClothingItem = Hat_GhostFace,
@@ -892,6 +953,7 @@ module AuthenticZClothing {
 	}	
     item Hat_Gibus
     {
+	    DisplayCategory = Accessory,	
         Type = Clothing,
         DisplayName = Ghostly Gibus,
         ClothingItem = Hat_Gibus,
@@ -904,6 +966,7 @@ module AuthenticZClothing {
     }
     item Hat_Gibus2
     {
+	    DisplayCategory = Accessory,	
         Type = Clothing,
         DisplayName = Ghostly Gibus,
         ClothingItem = Hat_Gibus2,
@@ -916,6 +979,7 @@ module AuthenticZClothing {
     }	
 	item Hat_Grimes
 	{
+	    DisplayCategory = Accessory,	
 		Type = Clothing,
 		DisplayName = Brown Sheriff Hat,
 		ClothingItem = Hat_Grimes,
@@ -930,7 +994,8 @@ module AuthenticZClothing {
     	}
 	item Hat_HockeyMaskJason
 	{
-		Type = Clothing,
+	    DisplayCategory 	= Accessory,	
+		Type 				= Clothing,
 		DisplayName 		= Jason's Hockey Mask,
 		ClothingItem		= Hat_HockeyMaskJason,
 		BodyLocation 		= MaskEyes,
@@ -946,6 +1011,7 @@ module AuthenticZClothing {
 	}		
 	item Hat_JackoLantern
 	{
+	    DisplayCategory = Accessory,	
 		Type = Clothing,
 		DisplayName = Jack-O-Lantern,
 		ClothingItem = Hat_JackoLantern,
@@ -963,6 +1029,7 @@ module AuthenticZClothing {
 	}
 	item Hat_JasonSack
 	{
+	    DisplayCategory = Accessory,	
 		Type = Clothing,
 		DisplayName = Jason's Rugsack,
 		ClothingItem = Hat_JasonSack,
@@ -977,6 +1044,7 @@ module AuthenticZClothing {
 	}	
 	item Hat_KillaHelmet
 	{
+	    DisplayCategory = Accessory,	
 		Type = Clothing,
 		DisplayName = Killa's Helemet,
 		ClothingItem = Hat_KillaHelmet,
@@ -993,6 +1061,7 @@ module AuthenticZClothing {
 	}
 	item Hat_LeatherFace
 	{
+	    DisplayCategory = Accessory,	
 		Type = Clothing,
 		DisplayName = Leather Face Mask,
 		ClothingItem = Hat_LeatherFace,
@@ -1008,6 +1077,7 @@ module AuthenticZClothing {
 	}	
     item Hat_Maid
     {
+	    DisplayCategory = Accessory,
         Type = Clothing,
         DisplayName = Maid Hat,
         ClothingItem = Hat_Maid,
@@ -1020,6 +1090,7 @@ module AuthenticZClothing {
     }
 	item Hat_MichaelMyers
 	{
+	    DisplayCategory = Accessory,	
 		Type = Clothing,
 		DisplayName = Michael Myers Mask,
 		ClothingItem = Hat_MichaelMyers,
@@ -1034,6 +1105,7 @@ module AuthenticZClothing {
 	}
 	item Hat_HardHat_Miner2
 	{
+	    DisplayCategory 	= Accessory,	
 		Type 				 = Clothing,
 		DisplayName 		 = Mining Helmet,
 		ClothingItem 		 = Hat_HardHat_Miner2,
@@ -1049,6 +1121,7 @@ module AuthenticZClothing {
 	}	
     item Hat_Nurse
     {
+		DisplayCategory = Accessory,
         Type = Clothing,
         DisplayName = Nurse Hat,
         ClothingItem = Hat_Nurse,
@@ -1061,6 +1134,7 @@ module AuthenticZClothing {
     }
     item Hat_StovePipe
     {
+	    DisplayCategory = Accessory,	
         Type 			 = Clothing,
         DisplayName 	 = Stove Pipe Hat,
         ClothingItem 	 = Hat_StovePipe,
@@ -1074,6 +1148,7 @@ module AuthenticZClothing {
     }
 	item Hat_SweatbandRBW
 	{
+		DisplayCategory = Accessory,
 		Type = Clothing,
 		DisplayName = Sweatband,
 		ClothingItem = Hat_SweatbandRBW,
@@ -1089,6 +1164,7 @@ module AuthenticZClothing {
 
 	item Hat_SweatbandOGP
 	{
+	    DisplayCategory = Accessory,	
 		Type = Clothing,
 		DisplayName = Sweatband,
 		ClothingItem = Hat_SweatbandOGP,
@@ -1103,6 +1179,7 @@ module AuthenticZClothing {
 	}
 	item Hat_SweatbandBlue
 	{
+	    DisplayCategory = Accessory,	
 		Type = Clothing,
 		DisplayName = Sweatband,
 		ClothingItem = Hat_SweatbandBlue,
@@ -1121,6 +1198,7 @@ module AuthenticZClothing {
 	}	
 	item Hat_SweatbandPink
 	{
+	    DisplayCategory = Accessory,	
 		Type = Clothing,
 		DisplayName = Sweatband,
 		ClothingItem = Hat_SweatbandPink,
@@ -1139,6 +1217,7 @@ module AuthenticZClothing {
 	}	
 	item Hat_SweatbandPurple
 	{
+	    DisplayCategory = Accessory,	
 		Type = Clothing,
 		DisplayName = Sweatband,
 		ClothingItem = Hat_SweatbandPurple,
@@ -1156,6 +1235,7 @@ module AuthenticZClothing {
 	}		
 	item Hat_TrueEyeCult
 	{
+	    DisplayCategory = Accessory,	
 		Type 		  = Clothing,
 		DisplayName   = True Eye Cult Mask,
 		ClothingItem  = Hat_TrueEyeCult,
@@ -1172,6 +1252,7 @@ module AuthenticZClothing {
 	}
 	item Hat_UncleSam
 	{
+	    DisplayCategory = Accessory,	
 		Type = Clothing,
 		DisplayName = Uncle Sam Hat,
 		ClothingItem = Hat_UncleSam,
@@ -1186,6 +1267,7 @@ module AuthenticZClothing {
     	}
 	item Hat_WeddingVeilBlue
 	{
+	    DisplayCategory = Accessory,	
 		Type = Clothing,
 		DisplayName = Blue Wedding Veil,
 		ClothingItem = Hat_WeddingVeilBlue,
@@ -1198,6 +1280,7 @@ module AuthenticZClothing {
 	}
 	item Hat_WeddingVeilPink
 	{
+	    DisplayCategory = Accessory,	
 		Type = Clothing,
 		DisplayName = Pink Wedding Veil,
 		ClothingItem = Hat_WeddingVeilPink,
@@ -1210,6 +1293,7 @@ module AuthenticZClothing {
 	}
 	item Hat_WinslowHelmet
 	{
+	    DisplayCategory = Accessory,	
 		Type = Clothing,
 		DisplayName = Winslow Helmet,
 		ClothingItem = Hat_WinslowHelmet,
@@ -1227,6 +1311,7 @@ module AuthenticZClothing {
 	}
 	item Hat_Witchy_2
 	{
+	    DisplayCategory = Accessory,	
 		Type = Clothing,
 		DisplayName = Witch Hat,
 		ClothingItem = Hat_Witchy_2,
@@ -1241,6 +1326,7 @@ module AuthenticZClothing {
     	}
 	item Hat_WoolyHatWaldo
 	{
+	    DisplayCategory = Accessory,	
 		Type = Clothing,
 		DisplayName = Waldo's Woolly Hat,
 		ClothingItem = Hat_WoolyHatWaldo,

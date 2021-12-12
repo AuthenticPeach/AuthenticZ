@@ -18,6 +18,7 @@ recipe Tie Balloons Together
 
 	item Bag_Schoolbag_Tier_1
     {
+        DisplayCategory = Bag,		
         WeightReduction			=	60,
         Weight					=	1,
         Type					=	Container,
@@ -40,6 +41,7 @@ recipe Tie Balloons Together
 
 	item Bag_Schoolbag_Tier_2
     {
+        DisplayCategory = Bag,		
         WeightReduction			=	60,
         Weight					=	1,
         Type					=	Container,
@@ -62,6 +64,7 @@ recipe Tie Balloons Together
 
 	item Bag_Schoolbag_Tier_3
     {
+        DisplayCategory = Bag,		
         WeightReduction			=	60,
         Weight					=	1,
         Type					=	Container,
@@ -83,6 +86,7 @@ recipe Tie Balloons Together
     }
 	item Bag_SchoolBagNBH_Tier_1
     {
+        DisplayCategory = Bag,		
         WeightReduction			=	60,
         Weight					=	1,
         Type					=	Container,
@@ -105,6 +109,7 @@ recipe Tie Balloons Together
 
 	item Bag_SchoolBagNBH_Tier_2
     {
+        DisplayCategory = Bag,		
         WeightReduction			=	60,
         Weight					=	1,
         Type					=	Container,
@@ -127,6 +132,7 @@ recipe Tie Balloons Together
 
 	item Bag_SchoolBagNBH_Tier_3
     {
+        DisplayCategory = Bag,		
         WeightReduction			=	60,
         Weight					=	1,
         Type					=	Container,
@@ -148,6 +154,7 @@ recipe Tie Balloons Together
     }	
 	item Bag_SchoolBagCEDA_Tier_1
     {
+        DisplayCategory = Bag,		
         WeightReduction			=	60,
         Weight					=	1,
         Type					=	Container,
@@ -170,6 +177,7 @@ recipe Tie Balloons Together
 
 	item Bag_SchoolBagCEDA_Tier_2
     {
+        DisplayCategory = Bag,		
         WeightReduction			=	60,
         Weight					=	1,
         Type					=	Container,
@@ -192,6 +200,7 @@ recipe Tie Balloons Together
 
 	item Bag_SchoolBagCEDA_Tier_3
     {
+        DisplayCategory = Bag,		
         WeightReduction			=	60,
         Weight					=	1,
         Type					=	Container,
@@ -213,6 +222,7 @@ recipe Tie Balloons Together
     }
 	item Bag_SchoolBagCEDABlack_Tier_1
     {
+        DisplayCategory = Bag,		
         WeightReduction			=	60,
         Weight					=	1,
         Type					=	Container,
@@ -235,6 +245,7 @@ recipe Tie Balloons Together
 
 	item Bag_SchoolBagCEDABlack_Tier_2
     {
+        DisplayCategory = Bag,		
         WeightReduction			=	60,
         Weight					=	1,
         Type					=	Container,
@@ -257,6 +268,7 @@ recipe Tie Balloons Together
 
 	item Bag_SchoolBagCEDABlack_Tier_3
     {
+        DisplayCategory = Bag,		
         WeightReduction			=	60,
         Weight					=	1,
         Type					=	Container,
@@ -278,6 +290,7 @@ recipe Tie Balloons Together
     }
 	item Bag_SchoolBagCEDARed_Tier_1
     {
+        DisplayCategory = Bag,		
         WeightReduction			=	60,
         Weight					=	1,
         Type					=	Container,
@@ -300,6 +313,7 @@ recipe Tie Balloons Together
 
 	item Bag_SchoolBagCEDARed_Tier_2
     {
+        DisplayCategory = Bag,		
         WeightReduction			=	60,
         Weight					=	1,
         Type					=	Container,
@@ -322,6 +336,7 @@ recipe Tie Balloons Together
 
 	item Bag_SchoolBagCEDARed_Tier_3
     {
+        DisplayCategory = Bag,		
         WeightReduction			=	60,
         Weight					=	1,
         Type					=	Container,
@@ -341,8 +356,10 @@ recipe Tie Balloons Together
         ReplaceInPrimaryHand 	= 	Bag_SchoolBagCEDARed_RHand holdingbagright,
         WorldStaticModel 	 	= 	SchoolBag_Ground,
     }
+
 	item Bag_SchoolBagCEDABlue_Tier_1
     {
+        DisplayCategory = Bag,		
         WeightReduction			=	60,
         Weight					=	1,
         Type					=	Container,
@@ -365,6 +382,7 @@ recipe Tie Balloons Together
 
 	item Bag_SchoolBagCEDABlue_Tier_2
     {
+        DisplayCategory = Bag,		
         WeightReduction			=	60,
         Weight					=	1,
         Type					=	Container,
@@ -387,6 +405,7 @@ recipe Tie Balloons Together
 
 	item Bag_SchoolBagCEDABlue_Tier_3
     {
+        DisplayCategory = Bag,		
         WeightReduction			=	60,
         Weight					=	1,
         Type					=	Container,
@@ -406,8 +425,10 @@ recipe Tie Balloons Together
         ReplaceInPrimaryHand 	= 	Bag_SchoolBagCEDABlue_RHand holdingbagright,
         WorldStaticModel 	 	= 	SchoolBag_Ground,
     }	
+
     item Bag_DuffelBag_Tier_1
     {
+        DisplayCategory = Bag,		
         WeightReduction			=	65,
         Weight					=	1,		
         Type 					= 	Container,
@@ -429,6 +450,7 @@ recipe Tie Balloons Together
     }	
     item Bag_DuffelBag_Tier_2
     {
+        DisplayCategory = Bag,		
         WeightReduction			=	65,	
         Weight					=	1,		
         Type 					= 	Container,
@@ -450,6 +472,7 @@ recipe Tie Balloons Together
     }
     item Bag_DuffelBag_Tier_3
     {
+        DisplayCategory = Bag,		
         Type 					= 	Container,
         DisplayName 			= 	Duffel Bag - Tier 3,
         ClothingItem 			= 	Bag_DuffelBag_Tier3,
@@ -471,6 +494,7 @@ recipe Tie Balloons Together
     }
     item Bag_DuffelBagTINT_Tier_1
     {
+        DisplayCategory = Bag,	
         WeightReduction			=	65,
         Weight					=	1,		
         Type 					= 	Container,
@@ -492,6 +516,7 @@ recipe Tie Balloons Together
     }	
     item Bag_DuffelBagTINT_Tier_2
     {
+        DisplayCategory = Bag,		
         WeightReduction			=	65,	
         Weight					=	1,		
         Type 					= 	Container,
@@ -513,6 +538,7 @@ recipe Tie Balloons Together
     }
     item Bag_DuffelBagTINT_Tier_3
     {
+        DisplayCategory = Bag,		
         Type 					= 	Container,
         DisplayName 			= 	Duffel Bag - Tier 3,
         ClothingItem 			= 	Bag_DuffelBagTINT_Tier_3,
@@ -534,6 +560,7 @@ recipe Tie Balloons Together
     }	
     item Bag_DuffelBagGrey_Tier_1 /* Grey Duffles*/
     {
+        DisplayCategory = Bag,		
         WeightReduction			=	65,
         Weight					=	1,		
         Type 					= 	Container,
@@ -555,6 +582,7 @@ recipe Tie Balloons Together
     }	
     item Bag_DuffelBagGrey_Tier_2 /* Grey Duffles*/
     {
+        DisplayCategory = Bag,		
         WeightReduction			=	65,	
         Weight					=	1,		
         Type 					= 	Container,
@@ -576,6 +604,7 @@ recipe Tie Balloons Together
     }
     item Bag_DuffelBagGrey_Tier_3 /* Grey Duffles*/
     {
+        DisplayCategory = Bag,		
         Type 					= 	Container,
         DisplayName 			= 	Duffel Bag - Tier 3,
         ClothingItem 			= 	Bag_DuffelBagGrey_Tier_3,
@@ -597,6 +626,7 @@ recipe Tie Balloons Together
     }	
     item Bag_NormalHikingBag_Tier_1
     {
+        DisplayCategory = Bag,		
         WeightReduction			=	70,
         Weight					=	1.2,
         Type					=	Container,
@@ -611,7 +641,7 @@ recipe Tie Balloons Together
         BloodLocation 			= 	Bag,
         RunSpeedModifier 		= 	0.96,
         AttachmentReplacement 	= 	Bag,
-		AttachmentsProvided  	= 	HikingbagSecondary;HikingBagItemSlot1;HikingBagBottleRight;HikingBagPlushie;HikingbagUmbrellaLeft;SchoolbagBalloonRight,			
+		AttachmentsProvided  	= 	HikingbagSecondary;HikingBagItemSlot1;HikingBagBottleRight;SchoolbagBalloonRight,			
         ReplaceInSecondHand 	= 	Bag_HikingBag_LHand holdingbagleft,
         ReplaceInPrimaryHand 	= 	Bag_HikingBag_RHand holdingbagright,
         WorldStaticModel 		= 	HikingBag_Ground,
@@ -619,6 +649,7 @@ recipe Tie Balloons Together
 	
     item Bag_NormalHikingBag_Tier_2
     {
+        DisplayCategory = Bag,		
         WeightReduction			=	70,
         Weight					=	1.2,
         Type					=	Container,
@@ -641,6 +672,7 @@ recipe Tie Balloons Together
  
     item Bag_NormalHikingBag_Tier_3
     {
+        DisplayCategory = Bag,		
         WeightReduction			=	70,
         Weight					=	1.2,
         Type					=	Container,
@@ -663,6 +695,7 @@ recipe Tie Balloons Together
   
     item Bag_BigHikingBag_Tier_1
     {
+        DisplayCategory = Bag,		
         WeightReduction			=	80,
         Weight					=	1.5,
         Type					=	Container,
@@ -677,7 +710,7 @@ recipe Tie Balloons Together
         BloodLocation 			= 	Bag,
         RunSpeedModifier 		= 	0.95,
         AttachmentReplacement 	= 	Bag,
-		AttachmentsProvided  	= 	BigHikingbagSecondary;BigHikingbagItemSlot1;BigHikingBagBottleRight;BigHikingbagPlushie;BigHikingbagUmbrellaLeft;SchoolbagBalloonRight,			
+		AttachmentsProvided  	= 	BigHikingbagSecondary;BigHikingbagItemSlot1;BigHikingBagBottleRight;SchoolbagBalloonRight,			
         ReplaceInSecondHand 	= 	Bag_HikingBag_LHand holdingbagleft,
         ReplaceInPrimaryHand 	= 	Bag_HikingBag_RHand holdingbagright,
         WorldStaticModel 		= 	HikingBag_Ground,
@@ -685,6 +718,7 @@ recipe Tie Balloons Together
 	
     item Bag_BigHikingBag_Tier_2
     {
+        DisplayCategory = Bag,		
         WeightReduction	=	80,
         Weight	=	1.5,
         Type	=	Container,
@@ -699,7 +733,7 @@ recipe Tie Balloons Together
         BloodLocation = Bag,
         RunSpeedModifier = 0.95,
         AttachmentReplacement 	= 	Bag,
-		AttachmentsProvided  	= 	BigHikingbagSecondary;BigHikingbagItemSlot1;BigHikingbagItemSlot2;BigHikingBagBottleRight;BigHikingbagPlushie;BigHikingbagUmbrellaLeft;SchoolbagBalloonLeft;SchoolbagBalloonRight,				
+		AttachmentsProvided  	= 	BigHikingbagSecondary;BigHikingbagItemSlot1;BigHikingbagItemSlot2;BigHikingBagBottleRight;BigHikingbagPlushie;BigHikingbagUmbrellaLeft;SchoolbagBalloonRight,				
         ReplaceInSecondHand 	= 	Bag_HikingBag_LHand holdingbagleft,
         ReplaceInPrimaryHand 	= 	Bag_HikingBag_RHand holdingbagright,
         WorldStaticModel 		= 	HikingBag_Ground,
@@ -707,6 +741,7 @@ recipe Tie Balloons Together
  
     item Bag_BigHikingBag_Tier_3
     {
+        DisplayCategory = Bag,		
         WeightReduction	=	80,
         Weight	=	1.5,
         Type	=	Container,
@@ -729,6 +764,7 @@ recipe Tie Balloons Together
 
     item Bag_ALICEpack_Tier_1
     {
+        DisplayCategory = Bag,		
         Type 					= 	Container,
         DisplayName 			= 	Large Backpack - Tier 1,
         ClothingItem 			= 	Bag_ALICEpack_Tier1,
@@ -743,7 +779,7 @@ recipe Tie Balloons Together
         BloodLocation 			= 	Bag,
         RunSpeedModifier 		= 	0.94,
         AttachmentReplacement 	= 	Bag,
-		AttachmentsProvided  	= 	AlicepackSecondary;AlicepackItemSlot1;AlicepackItemSlot2;AlicepackBottleRight;AlicepackPlushie;AlicepackUmbrellaRight;SchoolbagBalloonRight,			
+		AttachmentsProvided  	= 	AlicepackSecondary;AlicepackItemSlot1;AlicepackItemSlot2;AlicepackBottleRight;SchoolbagBalloonRight,			
         ReplaceInSecondHand 	= 	Bag_ALICEpack_LHand holdingbagleft,
         ReplaceInPrimaryHand 	= 	Bag_ALICEpack_RHand holdingbagright,
         WorldStaticModel 		= 	ALICE_Pack_Ground,
@@ -751,6 +787,7 @@ recipe Tie Balloons Together
 	
     item Bag_ALICEpack_Tier_2
     {
+        DisplayCategory = Bag,	
         Type 					= 	Container,
         DisplayName 			= 	Large Backpack - Tier 2,
         ClothingItem 			= 	Bag_ALICEpack_Tier2,
@@ -773,6 +810,7 @@ recipe Tie Balloons Together
  
     item Bag_ALICEpack_Tier_3
     {
+        DisplayCategory = Bag,		
         Type 					= 	Container,
         DisplayName 			= 	Large Backpack - Tier 3,
         ClothingItem 			= 	Bag_ALICEpack_Tier3,
@@ -795,6 +833,7 @@ recipe Tie Balloons Together
 
     item Bag_ALICEpack_Army_Tier_1
     {
+        DisplayCategory = Bag,		
         Type 					= 	Container,
         DisplayName 			= 	Military Backpack - Tier 1,
         ClothingItem 			= 	Bag_ALICEpack_Army_Tier1,
@@ -809,7 +848,7 @@ recipe Tie Balloons Together
         BloodLocation 			= 	Bag,
         RunSpeedModifier 		= 	0.94,
         AttachmentReplacement 	= 	Bag,
-		AttachmentsProvided  	= 	AlicepackSecondary;AlicepackItemSlot1;AlicepackItemSlot2;AlicepackBottleRight;AlicepackPlushie;AlicepackUmbrellaRight;SchoolbagBalloonRight,			
+		AttachmentsProvided  	= 	AlicepackSecondary;AlicepackItemSlot1;AlicepackItemSlot2;AlicepackBottleRight;SchoolbagBalloonRight,			
         ReplaceInSecondHand 	= 	Bag_ALICEpack_Army_LHand holdingbagleft,
         ReplaceInPrimaryHand 	= 	Bag_ALICEpack_Army_RHand holdingbagright,
         WorldStaticModel 		= 	ALICE_Pack_Ground,
@@ -817,6 +856,7 @@ recipe Tie Balloons Together
 	
     item Bag_ALICEpack_Army_Tier_2
     {
+        DisplayCategory = Bag,		
         Type 					= 	Container,
         DisplayName 			= 	Military Backpack - Tier 2,
         ClothingItem 			= 	Bag_ALICEpack_Army_Tier2,
@@ -839,6 +879,7 @@ recipe Tie Balloons Together
  
     item Bag_ALICEpack_Army_Tier_3
     {
+        DisplayCategory = Bag,	
         Type 					= 	Container,
         DisplayName 			= 	Military Backpack - Tier 3,
         ClothingItem 			= 	Bag_ALICEpack_Army_Tier3,
@@ -862,6 +903,7 @@ recipe Tie Balloons Together
 
 	item Handbag_Secondary
 	{
+        DisplayCategory = Container,		
 		WeightReduction			=	40,
 		Weight					=	1,
 		Type					=	Container,
@@ -880,6 +922,7 @@ recipe Tie Balloons Together
 	}
     item Plasticbag_Secondary
     {
+        DisplayCategory = Container,		
         WeightReduction			=	30,
         Weight					=	0.1,
         Type					=	Container,
@@ -894,6 +937,7 @@ recipe Tie Balloons Together
     }
 	item Garbagebag_Secondary
     {
+        DisplayCategory = Container,		
         WeightReduction			=	10,
         Weight					=	0.1,
         Type					=	Container,
@@ -908,6 +952,7 @@ recipe Tie Balloons Together
     }
 	item Purse_Secondary
     {
+        DisplayCategory = Container,		
         WeightReduction			=	55,
         Weight					=	0.5,
         Type					=	Container,
@@ -926,6 +971,7 @@ recipe Tie Balloons Together
     }
 	item Tote_Secondary
 	{
+        DisplayCategory = Container,		
 		WeightReduction			=	50,
 		Weight					=	0.5,
 		Type					=	Container,
@@ -943,6 +989,7 @@ recipe Tie Balloons Together
 	}
 	item EmptySandbag_Secondary
     {
+        DisplayCategory = Container,		
         Weight					=	0.1,
         Type					=	Container,
         WeightReduction			=	10,
@@ -958,6 +1005,7 @@ recipe Tie Balloons Together
     }
     item SeedBag_Secondary
 	{
+        DisplayCategory = Container,		
 		WeightReduction	=	30,
 		Weight	=	0.1,
 		Type	=	Container,
@@ -974,6 +1022,7 @@ recipe Tie Balloons Together
 	}	
     item Toolbox_Secondary
 	{
+        DisplayCategory = Container,		
 		WeightReduction	=	15,
 		Weight	=	2,
 		Type	=	Container,
@@ -992,6 +1041,7 @@ recipe Tie Balloons Together
 	}
     item FirstAidKit_Secondary
     {
+        DisplayCategory = Container,		
         WeightReduction	=	5,
         Weight	=	1,
         Type	=	Container,
@@ -1011,6 +1061,7 @@ recipe Tie Balloons Together
     }
     item Lunchbox_Secondary
     {
+        DisplayCategory = Container,		
         WeightReduction	=	5,
         Weight	=	1,
         Type	=	Container,
@@ -1029,6 +1080,7 @@ recipe Tie Balloons Together
     }
     item Lunchbox2_Secondary
     {
+        DisplayCategory = Container,		
         WeightReduction	=	5,
         Weight	=	1,
         Type	=	Container,
@@ -1044,6 +1096,7 @@ recipe Tie Balloons Together
     }
     item PistolCase_Secondary
     {
+        DisplayCategory = Container,		
         WeightReduction			=	5,
         Weight					=	0.5,
         Type					=	Container,
@@ -1065,6 +1118,7 @@ recipe Make Carabiner Clip
 
    	   Result:AZ_MetalClip,
 	   Time:80.0,
+	   Tooltip:Tooltip_Carabiner,
   	}
 
 recipe Make Secondary Bag
@@ -1319,6 +1373,7 @@ recipe Upgrade School Bag
 	   Time:300.0,
        AnimNode:Disassemble,	   
 	   Category:Tailoring,
+	   Tooltip:Tooltip_AttachBackpackTier1,
 	   
   	}
 recipe Upgrade School Bag
@@ -1336,6 +1391,7 @@ recipe Upgrade School Bag
        AnimNode:Disassemble,	   
 	   SkillRequired:Tailoring=1,	   
 	   Category:Tailoring,
+	   Tooltip:Tooltip_AttachBackpackTier2,
   	}	
 
 recipe Upgrade School Bag
@@ -1353,6 +1409,7 @@ recipe Upgrade School Bag
        AnimNode:Disassemble,	   
 	   SkillRequired:Tailoring=2,	   
 	   Category:Tailoring,
+	   Tooltip:Tooltip_AttachBackpackTier3,
   	}	
 
 recipe Upgrade Duffelbag 	/* Colored Duffles*/
@@ -1369,6 +1426,7 @@ recipe Upgrade Duffelbag 	/* Colored Duffles*/
 	   Time:300.0,
        AnimNode:Disassemble,	   
 	   Category:Tailoring,
+	   Tooltip:Tooltip_AttachBackpackTier1,
   	}
 
 recipe Upgrade Duffelbag
@@ -1386,6 +1444,7 @@ recipe Upgrade Duffelbag
        AnimNode:Disassemble,	  
 	   SkillRequired:Tailoring=1,
 	   Category:Tailoring,
+	   Tooltip:Tooltip_AttachBackpackTier2,
   	}	
 
 recipe Upgrade Duffelbag
@@ -1403,6 +1462,7 @@ recipe Upgrade Duffelbag
        AnimNode:Disassemble,	   
 	   SkillRequired:Tailoring=2,
 	   Category:Tailoring,
+	   Tooltip:Tooltip_AttachBackpackTier3,
   	}		
 
 recipe Upgrade Duffelbag  /* Greys*/
@@ -1419,6 +1479,7 @@ recipe Upgrade Duffelbag  /* Greys*/
 	   Time:300.0,
        AnimNode:Disassemble,	   
 	   Category:Tailoring,
+	   Tooltip:Tooltip_AttachBackpackTier1,
   	}	 
 
 recipe Upgrade Duffelbag
@@ -1436,6 +1497,7 @@ recipe Upgrade Duffelbag
        AnimNode:Disassemble,	  
 	   SkillRequired:Tailoring=1,
 	   Category:Tailoring,
+	   Tooltip:Tooltip_AttachBackpackTier2,
   	}	
 
 recipe Upgrade Duffelbag
@@ -1453,6 +1515,7 @@ recipe Upgrade Duffelbag
        AnimNode:Disassemble,	   
 	   SkillRequired:Tailoring=2,
 	   Category:Tailoring,
+	   Tooltip:Tooltip_AttachBackpackTier3,
   	}	
 
 recipe Upgrade Duffelbag 	/* Regular with 3 variations*/
@@ -1469,6 +1532,7 @@ recipe Upgrade Duffelbag 	/* Regular with 3 variations*/
 	   Time:300.0,
        AnimNode:Disassemble,   
 	   Category:Tailoring,
+	   Tooltip:Tooltip_AttachBackpackTier1,
   	}
 		
 recipe Upgrade Duffelbag
@@ -1486,6 +1550,7 @@ recipe Upgrade Duffelbag
        AnimNode:Disassemble,	  
 	   SkillRequired:Tailoring=1,
 	   Category:Tailoring,
+	   Tooltip:Tooltip_AttachBackpackTier2,
   	}	
 
 recipe Upgrade Duffelbag
@@ -1503,6 +1568,7 @@ recipe Upgrade Duffelbag
        AnimNode:Disassemble,	   
 	   SkillRequired:Tailoring=2,
 	   Category:Tailoring,
+	   Tooltip:Tooltip_AttachBackpackTier3,
   	}	
 	
 recipe Upgrade Hiking Bag
@@ -1519,6 +1585,7 @@ recipe Upgrade Hiking Bag
 	   Time:300.0,
        AnimNode:Disassemble,	   	
 	   Category:Tailoring,
+	   Tooltip:Tooltip_AttachHikingBackpackTier1,
   	}
 recipe Upgrade Hiking Bag
   	{
@@ -1535,6 +1602,7 @@ recipe Upgrade Hiking Bag
        AnimNode:Disassemble,	   
 	   SkillRequired:Tailoring=1,	   
 	   Category:Tailoring,
+	   Tooltip:Tooltip_AttachHikingBackpackTier2,
   	}	
 
 recipe Upgrade Hiking Bag
@@ -1552,6 +1620,7 @@ recipe Upgrade Hiking Bag
        AnimNode:Disassemble,	   
 	   SkillRequired:Tailoring=2,	   
 	   Category:Tailoring,
+	   Tooltip:Tooltip_AttachHikingBackpackTier3,
   	}		
 
 recipe Upgrade Big Hiking Bag
@@ -1568,6 +1637,7 @@ recipe Upgrade Big Hiking Bag
 	   Time:300.0,
        AnimNode:Disassemble,	   	
 	   Category:Tailoring, 
+	   Tooltip:Tooltip_AttachBigHikingBackpackTier1,
   	}
 recipe Upgrade Big Hiking Bag
   	{
@@ -1584,6 +1654,7 @@ recipe Upgrade Big Hiking Bag
        AnimNode:Disassemble,	   
 	   SkillRequired:Tailoring=1,	   
 	   Category:Tailoring,
+	   Tooltip:Tooltip_AttachBigHikingBackpackTier2,
   	}	
 
 recipe Upgrade Big Hiking Bag
@@ -1600,7 +1671,8 @@ recipe Upgrade Big Hiking Bag
 	   Time:300.0,
        AnimNode:Disassemble,	   
 	   SkillRequired:Tailoring=2,	   
-	   Category:Tailoring, 
+	   Category:Tailoring,
+	   Tooltip:Tooltip_AttachBigHikingBackpackTier3,
   	}
 	
 recipe Upgrade Alicepack
@@ -1617,6 +1689,7 @@ recipe Upgrade Alicepack
 	   Time:300.0,
        AnimNode:Disassemble,	   
 	   Category:Tailoring,
+	   Tooltip:Tooltip_AttachAliceBackpackTier1,
   	}
 recipe Upgrade Alicepack
   	{
@@ -1633,6 +1706,7 @@ recipe Upgrade Alicepack
        AnimNode:Disassemble,
 	   SkillRequired:Tailoring=1,	   
 	   Category:Tailoring,
+	   Tooltip:Tooltip_AttachAliceBackpackTier2,
   	}	
 
 recipe Upgrade Alicepack
@@ -1650,6 +1724,7 @@ recipe Upgrade Alicepack
        AnimNode:Disassemble,	   
 	   SkillRequired:Tailoring=2,
 	   Category:Tailoring,
+	   Tooltip:Tooltip_AttachAliceBackpackTier3,
   	}
 
 recipe Upgrade Camo Alicepack
@@ -1665,7 +1740,8 @@ recipe Upgrade Camo Alicepack
        OnGiveXP:Give20TailoringXP,	   
 	   Time:300.0,
        AnimNode:Disassemble,
-	   Category:Tailoring,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_AttachAliceBackpackTier1,
   	}
 recipe Upgrade Camo Alicepack
   	{
@@ -1682,6 +1758,7 @@ recipe Upgrade Camo Alicepack
        AnimNode:Disassemble,
 	   SkillRequired:Tailoring=1,	   
 	   Category:Tailoring,
+	   Tooltip:Tooltip_AttachAliceBackpackTier2,
   	}	
 
 recipe Upgrade Camo Alicepack
@@ -1698,7 +1775,8 @@ recipe Upgrade Camo Alicepack
 	   Time:300.0,
        AnimNode:Disassemble,
 	   SkillRequired:Tailoring=2,	   
-	   Category:Tailoring,   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_AttachAliceBackpackTier3, 
   	}		
 
 
@@ -1719,7 +1797,7 @@ recipe Upgrade NBH Hazmat Pack
 	   Time:300.0,
        AnimNode:Disassemble,	   
 	   Category:Tailoring,
-	   
+	   Tooltip:Tooltip_AttachBackpackTier1,	   
   	}
 recipe Upgrade NBH Hazmat Pack
   	{
@@ -1736,6 +1814,7 @@ recipe Upgrade NBH Hazmat Pack
        AnimNode:Disassemble,	   
 	   SkillRequired:Tailoring=1,	   
 	   Category:Tailoring,
+	   Tooltip:Tooltip_AttachBackpackTier2,
   	}	
 
 recipe Upgrade NBH Hazmat Pack
@@ -1753,6 +1832,7 @@ recipe Upgrade NBH Hazmat Pack
        AnimNode:Disassemble,	   
 	   SkillRequired:Tailoring=2,	   
 	   Category:Tailoring,
+	   Tooltip:Tooltip_AttachBackpackTier3,
   	}		
 
 recipe Upgrade CEDA Hazmat Pack
@@ -1769,7 +1849,7 @@ recipe Upgrade CEDA Hazmat Pack
 	   Time:300.0,
        AnimNode:Disassemble,	   
 	   Category:Tailoring,
-	   
+	   Tooltip:Tooltip_AttachBackpackTier1,	   
   	}
 recipe Upgrade CEDA Hazmat Pack
   	{
@@ -1786,6 +1866,7 @@ recipe Upgrade CEDA Hazmat Pack
        AnimNode:Disassemble,	   
 	   SkillRequired:Tailoring=1,	   
 	   Category:Tailoring,
+	   Tooltip:Tooltip_AttachBackpackTier2,
   	}	
 
 recipe Upgrade CEDA Hazmat Pack
@@ -1803,6 +1884,7 @@ recipe Upgrade CEDA Hazmat Pack
        AnimNode:Disassemble,	   
 	   SkillRequired:Tailoring=2,	   
 	   Category:Tailoring,
+	   Tooltip:Tooltip_AttachBackpackTier3,
   	}		
 
 recipe Upgrade CEDA Hazmat Pack
@@ -1819,7 +1901,7 @@ recipe Upgrade CEDA Hazmat Pack
 	   Time:300.0,
        AnimNode:Disassemble,	   
 	   Category:Tailoring,
-	   
+	   Tooltip:Tooltip_AttachBackpackTier1,	   
   	}
 recipe Upgrade CEDA Hazmat Pack
   	{
@@ -1836,6 +1918,7 @@ recipe Upgrade CEDA Hazmat Pack
        AnimNode:Disassemble,	   
 	   SkillRequired:Tailoring=1,	   
 	   Category:Tailoring,
+	   Tooltip:Tooltip_AttachBackpackTier2,
   	}	
 
 recipe Upgrade CEDA Hazmat Pack
@@ -1853,6 +1936,7 @@ recipe Upgrade CEDA Hazmat Pack
        AnimNode:Disassemble,	   
 	   SkillRequired:Tailoring=2,	   
 	   Category:Tailoring,
+	   Tooltip:Tooltip_AttachBackpackTier3,
   	}	
 
 recipe Upgrade CEDA Hazmat Pack
@@ -1869,7 +1953,7 @@ recipe Upgrade CEDA Hazmat Pack
 	   Time:300.0,
        AnimNode:Disassemble,	   
 	   Category:Tailoring,
-	   
+	   Tooltip:Tooltip_AttachBackpackTier1,	   
   	}
 recipe Upgrade CEDA Hazmat Pack
   	{
@@ -1886,6 +1970,7 @@ recipe Upgrade CEDA Hazmat Pack
        AnimNode:Disassemble,	   
 	   SkillRequired:Tailoring=1,	   
 	   Category:Tailoring,
+	   Tooltip:Tooltip_AttachBackpackTier2,
   	}	
 
 recipe Upgrade CEDA Hazmat Pack
@@ -1903,6 +1988,7 @@ recipe Upgrade CEDA Hazmat Pack
        AnimNode:Disassemble,	   
 	   SkillRequired:Tailoring=2,	   
 	   Category:Tailoring,
+	   Tooltip:Tooltip_AttachBackpackTier3,
   	}
 
 recipe Upgrade CEDA Hazmat Pack
@@ -1919,7 +2005,7 @@ recipe Upgrade CEDA Hazmat Pack
 	   Time:300.0,
        AnimNode:Disassemble,	   
 	   Category:Tailoring,
-	   
+	   Tooltip:Tooltip_AttachBackpackTier1,	   
   	}
 recipe Upgrade CEDA Hazmat Pack
   	{
@@ -1936,6 +2022,7 @@ recipe Upgrade CEDA Hazmat Pack
        AnimNode:Disassemble,	   
 	   SkillRequired:Tailoring=1,	   
 	   Category:Tailoring,
+	   Tooltip:Tooltip_AttachBackpackTier2,
   	}	
 
 recipe Upgrade CEDA Hazmat Pack
@@ -1953,10 +2040,12 @@ recipe Upgrade CEDA Hazmat Pack
        AnimNode:Disassemble,	   
 	   SkillRequired:Tailoring=2,	   
 	   Category:Tailoring,
+	   Tooltip:Tooltip_AttachBackpackTier3,
   	}
 
 	item Bag_B4BMom_Tier_1
     {
+        DisplayCategory = Bag,		
         WeightReduction			=	60,
         Weight					=	1,
         Type					=	Container,
@@ -1979,6 +2068,7 @@ recipe Upgrade CEDA Hazmat Pack
 
 	item Bag_B4BMom_Tier_2
     {
+        DisplayCategory = Bag,		
         WeightReduction			=	60,
         Weight					=	1,
         Type					=	Container,
@@ -2001,6 +2091,7 @@ recipe Upgrade CEDA Hazmat Pack
 
 	item Bag_B4BMom_Tier_3
     {
+        DisplayCategory = Bag,		
         WeightReduction			=	60,
         Weight					=	1,
         Type					=	Container,
@@ -2035,7 +2126,7 @@ recipe Upgrade Moms Backpack
 	   Time:300.0,
        AnimNode:Disassemble,	   
 	   Category:Tailoring,
-	   
+	   Tooltip:Tooltip_AttachBackpackTier1,	   
   	}
 recipe Upgrade Moms Backpack
   	{
@@ -2052,6 +2143,7 @@ recipe Upgrade Moms Backpack
        AnimNode:Disassemble,	   
 	   SkillRequired:Tailoring=1,	   
 	   Category:Tailoring,
+	   Tooltip:Tooltip_AttachBackpackTier2,
   	}	
 
 recipe Upgrade Moms Backpack
@@ -2069,10 +2161,12 @@ recipe Upgrade Moms Backpack
        AnimNode:Disassemble,	   
 	   SkillRequired:Tailoring=2,	   
 	   Category:Tailoring,
+	   Tooltip:Tooltip_AttachBackpackTier3,
   	}
 
     item Bag_B4BHolly_Tier_1
     {
+        DisplayCategory = Bag,		
         WeightReduction			=	70,
         Weight					=	1.2,
         Type					=	Container,
@@ -2087,7 +2181,7 @@ recipe Upgrade Moms Backpack
         BloodLocation 			= 	Bag,
         RunSpeedModifier 		= 	0.96,
         AttachmentReplacement 	= 	Bag,
-		AttachmentsProvided  	= 	HikingbagSecondary;HikingBagItemSlot1;HikingBagBottleRight;HikingBagPlushie;HikingbagUmbrellaLeft;SchoolbagBalloonRight,			
+		AttachmentsProvided  	= 	HikingbagSecondary;HikingBagItemSlot1;HikingBagBottleRight;SchoolbagBalloonRight,			
         ReplaceInSecondHand 	= 	Bag_B4BHolly_LHand holdingbagleft,
         ReplaceInPrimaryHand	= 	Bag_B4BHolly_RHand holdingbagright,
         WorldStaticModel 		= 	WorldItem_BackpackHolly,
@@ -2095,6 +2189,7 @@ recipe Upgrade Moms Backpack
 	
     item Bag_B4BHolly_Tier_2
     {
+        DisplayCategory = Bag,		
         WeightReduction			=	70,
         Weight					=	1.2,
         Type					=	Container,
@@ -2117,6 +2212,7 @@ recipe Upgrade Moms Backpack
  
     item Bag_B4BHolly_Tier_3
     {
+        DisplayCategory = Bag,		
         WeightReduction			=	70,
         Weight					=	1.2,
         Type					=	Container,
@@ -2151,7 +2247,7 @@ recipe Upgrade Hollys Backpack
 	   Time:300.0,
        AnimNode:Disassemble,	   
 	   Category:Tailoring,
-	   
+	   Tooltip:Tooltip_AttachHikingBackpackTier1,	   
   	}
 recipe Upgrade Hollys Backpack
   	{
@@ -2168,6 +2264,7 @@ recipe Upgrade Hollys Backpack
        AnimNode:Disassemble,	   
 	   SkillRequired:Tailoring=1,	   
 	   Category:Tailoring,
+	   Tooltip:Tooltip_AttachHikingBackpackTier2,
   	}	
 
 recipe Upgrade Hollys Backpack
@@ -2185,12 +2282,14 @@ recipe Upgrade Hollys Backpack
        AnimNode:Disassemble,	   
 	   SkillRequired:Tailoring=2,	   
 	   Category:Tailoring,
+	   Tooltip:Tooltip_AttachHikingBackpackTier3,
   	}
 
 	/* Mod Bag by Brita */	
 
     item Bag_ARVN_Rucksack_Tier_1
     {
+        DisplayCategory = Bag,		
         Type = Container,
         DisplayName = ARVN Rucksack - Tier 1,
         ClothingItem = Bag_ARVN_Rucksack_Tier_1,
@@ -2206,12 +2305,13 @@ recipe Upgrade Hollys Backpack
         RunSpeedModifier = 0.94,
         CanHaveHoles = false,
         AttachmentReplacement 	= 	Bag,
-		AttachmentsProvided  	= 	ARVNSecondary;ARVNItemSlot1;ARVNItemSlot2;ARVNBottleRight;ARVNPlushie;ARVNUmbrellaRight;SchoolbagBalloonRight,			
+		AttachmentsProvided  	= 	ARVNSecondary;ARVNItemSlot1;ARVNItemSlot2;ARVNBottleRight;SchoolbagBalloonRight,			
 		ReplaceInSecondHand 	= 	Bag_ALICEpack_LHand holdingbagleft,
         ReplaceInPrimaryHand 	= 	Bag_ALICEpack_RHand holdingbagright,
     }
 	    item Bag_ARVN_Rucksack_Tier_2
     {
+        DisplayCategory = Bag,		
         Type = Container,
         DisplayName = ARVN Rucksack - Tier 2,
         ClothingItem = Bag_ARVN_Rucksack_Tier_2,
@@ -2233,6 +2333,7 @@ recipe Upgrade Hollys Backpack
     }
     item Bag_ARVN_Rucksack_Tier_3
     {
+        DisplayCategory = Bag,		
         Type = Container,
         DisplayName = ARVN Rucksack - Tier 3,
         ClothingItem = Bag_ARVN_Rucksack_Tier_3,
@@ -2267,7 +2368,7 @@ recipe Upgrade Rucksack
 	   Time:300.0,
        AnimNode:Disassemble,	   
 	   Category:Tailoring,
-	   
+	   Tooltip:Tooltip_AttachAliceBackpackTier1,
   	}
 recipe Upgrade Rucksack
   	{
@@ -2284,6 +2385,7 @@ recipe Upgrade Rucksack
        AnimNode:Disassemble,	   
 	   SkillRequired:Tailoring=1,	   
 	   Category:Tailoring,
+	   Tooltip:Tooltip_AttachAliceBackpackTier2,
   	}	
 
 recipe Upgrade Rucksack
@@ -2301,6 +2403,7 @@ recipe Upgrade Rucksack
        AnimNode:Disassemble,	   
 	   SkillRequired:Tailoring=2,	   
 	   Category:Tailoring,
+	   Tooltip:Tooltip_AttachAliceBackpackTier3,
   	}
 	
 }		

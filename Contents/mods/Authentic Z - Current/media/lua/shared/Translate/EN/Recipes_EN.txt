@@ -30,7 +30,7 @@ Recipes_EN = {
 	Recipe_Upgrade_Alicepack = "Upgrade Alicepack",
 	Recipe_Upgrade_Camo_Alicepack = "Upgrade Military Backpack",		
 
-	/* New*/
+
 	Recipe_Upgrade_CEDA_Hazmat_Pack = "Upgrade CEDA Hazmat Pack",
 	Recipe_Upgrade_NBH_Hazmat_Pack = "Upgrade NBH Hazmat Pack",
 	Recipe_Upgrade_Moms_Backpack = "Upgrade Mom's Backpack",
@@ -40,5 +40,9 @@ Recipes_EN = {
 	
 	Recipe_Revert_Attachable = "Revert Attachable",
 	Recipe_Reuse_Bag = "Reuse Bag",	
+	
+	/* New*/	
+	
+	Recipe_Make_Backpack_Attachable = "Make Backpack Attachable",	
 	
 	}
