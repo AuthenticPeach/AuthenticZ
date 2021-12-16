@@ -451,6 +451,20 @@
         FabricType = Cotton,
 		WorldStaticModel = TShirt_Ground,	
     }
+	item Tshirt_LogoTest
+    {
+        DisplayCategory = Clothing,	
+        Type = Clothing,
+        DisplayName = Amphibious Frog T-Shirt,
+        ClothingItem = TShirt_Amphibian,
+        BodyLocation = Tshirt,
+        Icon	=	TshirtGeneric,
+        BloodLocation = Shirt,
+        Insulation = 0.3,
+        WindResistance = 0.35,
+        FabricType = Cotton,
+		WorldStaticModel = TShirt_Ground,	
+    }
 	item Tshirt_LoganCarter
     {
         DisplayCategory = Clothing,		
@@ -495,7 +509,21 @@
         WindResistance = 0.35,
         FabricType = Cotton,
 		WorldStaticModel = TShirt_Ground,	
-    }	
+    }
+	item TShirt_RedStriped
+    {
+        DisplayCategory = Clothing,	
+        Type = Clothing,
+        DisplayName = Red Striped T-Shirt,
+        ClothingItem = TShirt_RedStriped,
+        BodyLocation = Tshirt,
+        Icon	=	LongSleevedMimeRed,
+        BloodLocation = Shirt,
+        Insulation = 0.3,
+        WindResistance = 0.35,
+        FabricType = Cotton,
+		WorldStaticModel = TShirt_Ground,	
+    }
     item Tshirt_Rochelle
     {
         DisplayCategory = Clothing,		

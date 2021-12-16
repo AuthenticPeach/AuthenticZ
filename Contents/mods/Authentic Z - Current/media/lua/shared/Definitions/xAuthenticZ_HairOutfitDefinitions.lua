@@ -120,6 +120,12 @@ cat.beard = "None:100";
 cat.haircutColor = "0.33,0.14,0.16:100";
 table.insert(HairOutfitDefinitions.haircutOutfitDefinition, cat);
 local cat = {};
+cat.outfit = "AuthenticClownBarotrauma";
+cat.haircut = "Balding:100";
+cat.beard = "None:100"; --gummi Yellow    MarsYellow
+cat.haircutColor = "0.89,0.44,0.10:100";
+table.insert(HairOutfitDefinitions.haircutOutfitDefinition, cat);
+local cat = {};
 cat.outfit = "AuthenticClown";
 cat.haircut = "Balding:100";
 cat.beard = "None:100";--Turqoise,         Purple        SeaGreen             Red           gummi Yellow    PackerGold          MarsYellow       Royal Blue

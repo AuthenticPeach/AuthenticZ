@@ -546,7 +546,22 @@ module AuthenticZClothing {
         WaterResistance = 0.35,
         FabricType = Cotton,
         WorldStaticModel = Trousers_Ground,		
-    }	
+    }
+	item Trousers_SuitVeryRed
+    {
+       DisplayCategory = Clothing,		
+        Type = Clothing,
+        DisplayName = Red Trousers,
+        ClothingItem = Trousers_SuitVeryRed,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = TrousersSuitRed,
+        ScratchDefense = 10,
+        Insulation = 0.35,
+        WindResistance = 0.5,
+        FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,		
+    }
     item TrousersMesh_Bill
     {
        DisplayCategory = Clothing,		

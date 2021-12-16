@@ -1,0 +1,343 @@
+module AuthenticZRecipes{
+  imports {
+      Base
+  }
+
+recipe Make Backpack Attachable
+  	{
+   	   Hat_GasMask,
+
+   	   Result:AuthenticZClothing.Hat_GasMask,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpack,
+  	}	
+recipe Make Backpack Attachable
+  	{
+   	   Rope,
+
+   	   Result:AuthenticZClothing.Rope,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpack,
+  	}	
+recipe Make Backpack Attachable
+  	{
+   	   SheetRope,
+
+   	   Result:AuthenticZClothing.SheetRope,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpack,
+  	}
+recipe Revert Attachable
+  	{
+   	   AuthenticZClothing.Rope,
+
+   	   Result:Rope,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpackRevert,
+  	}	
+recipe Revert Attachable
+  	{
+   	   AuthenticZClothing.SheetRope,
+
+   	   Result:SheetRope,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpackRevert,
+  	}	
+recipeMake Backpack Attachable
+  	{
+   	   AerosolbombTriggered,
+
+   	   Result:AuthenticZClothing.AerosolbombTriggered,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpack,
+  	}
+recipe Make Backpack Attachable
+  	{
+   	   Base.Aerosolbomb,
+
+   	   Result:AuthenticZClothing.Aerosolbomb,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpack,
+  	}	
+recipe Make Backpack Attachable
+  	{
+   	   AerosolbombSensorV1,
+
+   	   Result:AuthenticZClothing.AerosolbombSensorV1,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpack,
+  	}	
+recipe Make Backpack Attachable
+  	{
+   	   AerosolbombSensorV2,
+
+   	   Result:AuthenticZClothing.AerosolbombSensorV2,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpack,
+  	}	
+recipe Make Backpack Attachable
+  	{
+   	   AerosolbombSensorV3,
+
+   	   Result:AuthenticZClothing.AerosolbombSensorV3,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpack,
+  	}	
+recipe Make Backpack Attachable
+  	{
+   	   AerosolbombRemote,
+
+   	   Result:AuthenticZClothing.AerosolbombRemote,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpack,
+  	}	
+recipe Make Backpack Attachable
+  	{
+   	   FlameTrap,
+
+   	   Result:AuthenticZClothing.FlameTrap,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpack,
+  	}	
+recipe Make Backpack Attachable
+  	{
+   	   FlameTrapTriggered,
+
+   	   Result:AuthenticZClothing.FlameTrapTriggered,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpack,
+  	}
+recipe Make Backpack Attachable
+  	{
+   	   FlameTrapSensorV1,
+
+   	   Result:AuthenticZClothing.FlameTrapSensorV1,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpack,
+  	}	
+recipe Make Backpack Attachable
+  	{
+   	   FlameTrapSensorV2,
+
+   	   Result:AuthenticZClothing.PipeBombSensorV2,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpack,
+  	}	
+recipe Make Backpack Attachable
+  	{
+   	   FlameTrapSensorV3,
+
+   	   Result:AuthenticZClothing.FlameTrapSensorV3,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpack,
+  	}	
+recipe Make Backpack Attachable
+  	{
+   	   FlameTrapRemote,
+
+   	   Result:AuthenticZClothing.FlameTrapRemote,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpack,
+  	}
+recipe Make Backpack Attachable
+  	{
+   	   SmokeBomb,
+
+   	   Result:AuthenticZClothing.SmokeBomb,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpack,
+  	}
+recipe Make Backpack Attachable
+  	{
+   	   PipeBombTriggered,
+
+   	   Result:AuthenticZClothing.PipeBombTriggered,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpack,
+  	}
+recipe Make Backpack Attachable
+  	{
+   	   PipeBombSensorV1,
+
+   	   Result:AuthenticZClothing.PipeBombSensorV1,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpack,
+  	}	
+recipe Make Backpack Attachable
+  	{
+   	   PipeBombSensorV2,
+
+   	   Result:AuthenticZClothing.PipeBombSensorV2,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpack,
+  	}
+recipe Make Backpack Attachable
+  	{
+   	   PipeBombSensorV3,
+
+   	   Result:AuthenticZClothing.PipeBombSensorV3,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpack,
+  	}	
+recipe Make Backpack Attachable
+  	{
+   	   PipeBombRemote,
+
+   	   Result:AuthenticZClothing.PipeBombRemote,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpack,
+  	}
+recipe Make Backpack Attachable
+  	{
+   	   PipeBomb,
+
+   	   Result:AuthenticZClothing.PipeBomb,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpack,
+  	}	
+recipe Make Backpack Attachable
+  	{
+   	   Molotov,
+
+   	   Result:AuthenticZClothing.Molotov,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpack,
+  	}
+recipe Make Backpack Attachable
+  	{
+   	   ToyBear,
+
+   	   Result:AuthenticZClothing.ToyBear,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpack,
+  	}
+recipe Make Backpack Attachable
+  	{
+   	   Doll,
+
+   	   Result:AuthenticZClothing.Doll,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpack,
+  	}	
+recipe Make Backpack Attachable
+  	{
+   	   Spiffo,
+
+   	   Result:AuthenticZClothing.Spiffo,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpack,
+  	}
+recipe Make Backpack Attachable
+  	{
+   	   ClosedUmbrellaBlue,
+
+   	   Result:AuthenticZClothing.ClosedUmbrellaBlue,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpack,
+  	}
+recipe Make Backpack Attachable
+  	{
+   	   ClosedUmbrellaRed,
+
+   	   Result:AuthenticZClothing.ClosedUmbrellaRed,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpack,
+  	}
+recipe Make Backpack Attachable
+  	{
+   	   ClosedUmbrellaBlack,
+
+   	   Result:AuthenticZClothing.ClosedUmbrellaBlack,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpack,
+  	}
+recipe Make Backpack Attachable
+  	{
+   	   Pop,
+
+   	   Result:AuthenticZClothing.Pop,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpack,
+  	}
+recipe Make Backpack Attachable
+  	{
+   	   Pop2,
+
+   	   Result:AuthenticZClothing.Pop2,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpack,
+  	}	
+recipe Make Backpack Attachable
+  	{
+   	   Pop3,
+
+   	   Result:AuthenticZClothing.Pop3,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpack,
+  	}	
+recipe Revert Attachable
+  	{
+   	   AuthenticZClothing.Saw,
+
+   	   Result:Saw,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpackRevert,
+  	}
+recipe Revert Attachable
+  	{
+   	   AuthenticZClothing.GardenSaw,
+
+   	   Result:GardenSaw,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpackRevert,
+  	}	
+recipe Revert Attachable
+  	{
+   	   AuthenticZClothing.PipeBomb,
+
+   	   Result:PipeBomb,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpackRevert,
+  	}	
+recipe Make Backpack Attachable
+  	{
+   	   Base.PopBottleEmpty,
+
+   	   Result:AuthenticZClothing.PopBottleEmpty,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpack,
+  	}	
+recipe Make Backpack Attachable
+  	{
+   	   Base.WaterBottleEmpty,
+
+   	   Result:AuthenticZClothing.WaterBottleEmpty,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpack,
+  	}
+recipe Make Backpack Attachable
+  	{
+   	   destroy Base.WaterBottleFull,
+
+   	   Result:AuthenticZClothing.WaterBottleFull,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpack,
+  	}	
+recipe Make Backpack Attachable
+  	{
+   	   destroy Base.WaterPopBottle,
+
+   	   Result:AuthenticZClothing.WaterPopBottle,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpack,
+  	}
+recipe Make Backpack Attachable
+  	{
+   	   destroy Base.PopBottle,
+
+   	   Result:AuthenticZClothing.PopBottle,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpack,
+  	}
+	
+}		

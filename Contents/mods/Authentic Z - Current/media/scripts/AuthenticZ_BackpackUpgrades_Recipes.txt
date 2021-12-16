@@ -2285,6 +2285,371 @@ recipe Upgrade Hollys Backpack
 	   Tooltip:Tooltip_AttachHikingBackpackTier3,
   	}
 
+    item Bag_B4BHoffman_Tier_1
+    {
+        DisplayCategory = Bag,		
+        WeightReduction			=	70,
+        Weight					=	1.2,
+        Type					=	Container,
+        Capacity				=	21,
+        DisplayName				=	Hoffman's Backpack - Tier 1,
+        Icon					=	Backpack_Hoffman,
+        CanBeEquipped 			= 	Back,
+        OpenSound   			=   OpenBag,
+        CloseSound   			=   CloseBag,
+        PutInSound   			=   PutItemInBag,
+        ClothingItem 			= 	Bag_B4BHoffman_Tier_1,
+        BloodLocation 			= 	Bag,
+        RunSpeedModifier 		= 	0.96,
+        AttachmentReplacement 	= 	Bag,
+		AttachmentsProvided  	= 	HikingbagSecondary;HikingBagItemSlot1;HikingBagBottleRight;SchoolbagBalloonRight,			
+        ReplaceInSecondHand 	= 	Bag_B4BHoffman_LHand holdingbagleft,
+        ReplaceInPrimaryHand	= 	Bag_B4BHoffman_RHand holdingbagright,
+        WorldStaticModel 		= 	WorldItem_BackpackHoffman,
+    }
+	
+    item Bag_B4BHoffman_Tier_2
+    {
+        DisplayCategory = Bag,		
+        WeightReduction			=	70,
+        Weight					=	1.2,
+        Type					=	Container,
+        Capacity				=	22,
+        DisplayName				=	Hoffman's Backpack - Tier 2,
+        Icon					=	Backpack_Hoffman,
+        CanBeEquipped 			= 	Back,
+        OpenSound   			=   OpenBag,
+        CloseSound   			=   CloseBag,
+        PutInSound   			=   PutItemInBag,
+        ClothingItem 			= 	Bag_B4BHoffman_Tier_2,
+        BloodLocation 			= 	Bag,
+        RunSpeedModifier		= 	0.96,
+        AttachmentReplacement 	= 	Bag,
+		AttachmentsProvided  	= 	HikingbagSecondary;HikingBagItemSlot1;HikingBagItemSlot2;HikingBagBottleRight;HikingBagPlushie;HikingbagUmbrellaLeft;SchoolbagBalloonRight,				
+        ReplaceInSecondHand 	= 	Bag_B4BHoffman_LHand holdingbagleft,
+        ReplaceInPrimaryHand	= 	Bag_B4BHoffman_RHand holdingbagright,
+        WorldStaticModel 		=	WorldItem_BackpackHoffman,
+    }	
+ 
+    item Bag_B4BHoffman_Tier_3
+    {
+        DisplayCategory = Bag,		
+        WeightReduction			=	70,
+        Weight					=	1.2,
+        Type					=	Container,
+        Capacity				=	23,
+        DisplayName				=	Hoffman's Backpack - Tier 3,
+        Icon					=	Backpack_Hoffman,
+        CanBeEquipped 			= 	Back,
+        OpenSound   			=   OpenBag,
+        CloseSound  			=   CloseBag,
+        PutInSound   			=   PutItemInBag,
+        ClothingItem 			= 	Bag_B4BHoffman_Tier_3,
+        BloodLocation 			= 	Bag,
+        RunSpeedModifier 		= 	0.96,
+        AttachmentReplacement 	= 	Bag,
+		AttachmentsProvided  	= 	HikingbagSecondary;HikingBagItemSlot1;HikingBagItemSlot2;HikingBagItemSlot3;HikingBagBottleRight;HikingBagBottleLeft;HikingBagPlushie;HikingbagUmbrellaLeft;HikingBagFlashlight;SchoolbagBalloonRight,					
+        ReplaceInSecondHand 	= 	Bag_B4BHoffman_LHand holdingbagleft,
+        ReplaceInPrimaryHand	=	Bag_B4BHoffman_RHand holdingbagright,
+        WorldStaticModel 		= 	WorldItem_BackpackHoffman,
+    }	
+
+
+recipe Upgrade Hoffmans Backpack
+  	{
+	   Bag_B4BHoffman,	
+	   keep Scissors,
+       keep Needle/SutureNeedle,
+       Thread=3,
+	   LeatherStrips/DenimStrips=3,	   
+
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_B4BHoffman_Tier_1,
+       OnGiveXP:Give20TailoringXP,	   
+	   Time:300.0,
+       AnimNode:Disassemble,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_AttachHikingBackpackTier1,	   
+  	}
+recipe Upgrade Hoffmans Backpack
+  	{
+	   Bag_B4BHoffman_Tier_1,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=3,
+	   LeatherStrips/DenimStrips=3,	
+
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_B4BHoffman_Tier_2,
+       OnGiveXP:Give20TailoringXP,	   
+	   Time:300.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=1,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_AttachHikingBackpackTier2,
+  	}	
+
+recipe Upgrade Hoffmans Backpack
+  	{
+	   Bag_B4BHoffman_Tier_2,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=3,
+	   LeatherStrips/DenimStrips=3,	
+	
+	   OnCreate:PleaseKeepColor,	
+   	   Result:Bag_B4BHoffman_Tier_3,
+       OnGiveXP:Give20TailoringXP,	   
+	   Time:300.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=2,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_AttachHikingBackpackTier3,
+  	}
+
+    item Bag_B4BEvangelo_Tier_1
+    {
+        DisplayCategory = Bag,		
+        WeightReduction			=	70,
+        Weight					=	1.2,
+        Type					=	Container,
+        Capacity				=	21,
+        DisplayName				=	Evangelo's Backpack - Tier 1,
+        Icon					=	Backpack_Evangelo,
+        CanBeEquipped 			= 	Back,
+        OpenSound   			=   OpenBag,
+        CloseSound   			=   CloseBag,
+        PutInSound   			=   PutItemInBag,
+        ClothingItem 			= 	Bag_B4BEvangelo_Tier_1,
+        BloodLocation 			= 	Bag,
+        RunSpeedModifier 		= 	0.96,
+        AttachmentReplacement 	= 	Bag,
+		AttachmentsProvided  	= 	HikingbagSecondary;HikingBagItemSlot1;HikingBagBottleRight;SchoolbagBalloonRight,			
+        ReplaceInSecondHand 	= 	Bag_B4BEvangelo_LHand holdingbagleft,
+        ReplaceInPrimaryHand	= 	Bag_B4BEvangelo_RHand holdingbagright,
+        WorldStaticModel 		= 	WorldItem_BackpackEvangelo,
+    }
+	
+    item Bag_B4BEvangelo_Tier_2
+    {
+        DisplayCategory = Bag,		
+        WeightReduction			=	70,
+        Weight					=	1.2,
+        Type					=	Container,
+        Capacity				=	22,
+        DisplayName				=	Evangelo's Backpack - Tier 2,
+        Icon					=	Backpack_Evangelo,
+        CanBeEquipped 			= 	Back,
+        OpenSound   			=   OpenBag,
+        CloseSound   			=   CloseBag,
+        PutInSound   			=   PutItemInBag,
+        ClothingItem 			= 	Bag_B4BEvangelo_Tier_2,
+        BloodLocation 			= 	Bag,
+        RunSpeedModifier		= 	0.96,
+        AttachmentReplacement 	= 	Bag,
+		AttachmentsProvided  	= 	HikingbagSecondary;HikingBagItemSlot1;HikingBagItemSlot2;HikingBagBottleRight;HikingBagPlushie;HikingbagUmbrellaLeft;SchoolbagBalloonRight,				
+        ReplaceInSecondHand 	= 	Bag_B4BEvangelo_LHand holdingbagleft,
+        ReplaceInPrimaryHand	= 	Bag_B4BEvangelo_RHand holdingbagright,
+        WorldStaticModel 		=	WorldItem_BackpackEvangelo,
+    }	
+ 
+    item Bag_B4BEvangelo_Tier_3
+    {
+        DisplayCategory = Bag,		
+        WeightReduction			=	70,
+        Weight					=	1.2,
+        Type					=	Container,
+        Capacity				=	23,
+        DisplayName				=	Evangelo's Backpack - Tier 3,
+        Icon					=	Backpack_Evangelo,
+        CanBeEquipped 			= 	Back,
+        OpenSound   			=   OpenBag,
+        CloseSound  			=   CloseBag,
+        PutInSound   			=   PutItemInBag,
+        ClothingItem 			= 	Bag_B4BEvangelo_Tier_3,
+        BloodLocation 			= 	Bag,
+        RunSpeedModifier 		= 	0.96,
+        AttachmentReplacement 	= 	Bag,
+		AttachmentsProvided  	= 	HikingbagSecondary;HikingBagItemSlot1;HikingBagItemSlot2;HikingBagItemSlot3;HikingBagBottleRight;HikingBagBottleLeft;HikingBagPlushie;HikingbagUmbrellaLeft;HikingBagFlashlight;SchoolbagBalloonRight,					
+        ReplaceInSecondHand 	= 	Bag_B4BEvangelo_LHand holdingbagleft,
+        ReplaceInPrimaryHand	=	Bag_B4BEvangelo_RHand holdingbagright,
+        WorldStaticModel 		= 	WorldItem_BackpackEvangelo,
+    }	
+
+
+recipe Upgrade Evangelos Backpack
+  	{
+	   Bag_B4BEvangelo,	
+	   keep Scissors,
+       keep Needle/SutureNeedle,
+       Thread=3,
+	   LeatherStrips/DenimStrips=3,	   
+
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_B4BEvangelo_Tier_1,
+       OnGiveXP:Give20TailoringXP,	   
+	   Time:300.0,
+       AnimNode:Disassemble,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_AttachHikingBackpackTier1,	   
+  	}
+recipe Upgrade Evangelos Backpack
+  	{
+	   Bag_B4BEvangelo_Tier_1,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=3,
+	   LeatherStrips/DenimStrips=3,	
+
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_B4BEvangelo_Tier_2,
+       OnGiveXP:Give20TailoringXP,	   
+	   Time:300.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=1,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_AttachHikingBackpackTier2,
+  	}	
+
+recipe Upgrade Evangelos Backpack
+  	{
+	   Bag_B4BEvangelo_Tier_2,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=3,
+	   LeatherStrips/DenimStrips=3,	
+	
+	   OnCreate:PleaseKeepColor,	
+   	   Result:Bag_B4BEvangelo_Tier_3,
+       OnGiveXP:Give20TailoringXP,	   
+	   Time:300.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=2,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_AttachHikingBackpackTier3,
+  	}
+
+	item Bag_B4BWalker_Tier_1
+    {
+        DisplayCategory = Bag,		
+        WeightReduction			=	70,
+        Weight					=	1,
+        Type					=	Container,
+        Capacity				=	21,
+        DisplayName				=	Walker's Backpack - Tier 1,
+        Icon 					= 	Backpack_Walker,
+        CanBeEquipped 			= 	Back,
+        OpenSound   			=   OpenBag,
+        CloseSound   			=   CloseBag,
+        PutInSound   			=   PutItemInBag,
+        ClothingItem 			= 	Bag_B4BWalker_Tier_1,
+        BloodLocation 			= 	Bag,
+        RunSpeedModifier 		= 	0.97,
+        AttachmentReplacement	= 	Bag,
+		AttachmentsProvided  	= 	SchoolbagBagSecondary;SchoolbagBottleRight;SchoolbagBalloonRight,		
+        ReplaceInSecondHand 	= 	Bag_B4BWalker_LHand holdingbagleft,
+        ReplaceInPrimaryHand 	= 	Bag_B4BWalker_RHand holdingbagright,
+        WorldStaticModel 	 	= 	WorldItem_BackpackWalker,
+    }
+
+	item Bag_B4BWalker_Tier_2
+    {
+        DisplayCategory = Bag,		
+        WeightReduction			=	70,
+        Weight					=	1,
+        Type					=	Container,
+        Capacity				=	22,
+        DisplayName				=	Walker's Backpack - Tier 2,
+        Icon 					= 	Backpack_Walker,
+        CanBeEquipped 			= 	Back,
+        OpenSound   			=   OpenBag,
+        CloseSound   			=   CloseBag,
+        PutInSound   			=   PutItemInBag,
+        ClothingItem 			= 	Bag_B4BWalker_Tier_2,
+        BloodLocation 			= 	Bag,
+        RunSpeedModifier 		= 	0.97,
+        AttachmentReplacement	= 	Bag,
+		AttachmentsProvided  	= 	SchoolbagBagSecondary;SchoolbagItemSlot1;SchoolbagBottleRight;SchoolbagPlushie;SchoolbagUmbrellaLeft;SchoolbagBalloonRight,		
+        ReplaceInSecondHand 	= 	Bag_B4BWalker_LHand holdingbagleft,
+        ReplaceInPrimaryHand 	= 	Bag_B4BWalker_RHand holdingbagright,
+        WorldStaticModel 	 	= 	WorldItem_BackpackWalker,
+    }
+
+	item Bag_B4BWalker_Tier_3
+    {
+        DisplayCategory = Bag,		
+        WeightReduction			=	70,
+        Weight					=	1,
+        Type					=	Container,
+        Capacity				=	23,
+        DisplayName				=	Walker's Backpack - Tier 3,
+        Icon				 	=	Backpack_Walker,
+        CanBeEquipped 			= 	Back,
+        OpenSound   			=   OpenBag,
+        CloseSound   			=   CloseBag,
+        PutInSound   			=   PutItemInBag,
+        ClothingItem 			= 	Bag_B4BWalker_Tier_3,
+        BloodLocation 			= 	Bag,
+        RunSpeedModifier 		= 	0.97,
+        AttachmentReplacement	= 	Bag,
+		AttachmentsProvided  	= 	SchoolbagBagSecondary;SchoolbagItemSlot2;SchoolbagItemSlot3;SchoolbagBottleRight;SchoolbagPlushie;SchoolbagUmbrellaLeft;SchoolbagFlashlight;SchoolbagBalloonRight,		
+        ReplaceInSecondHand 	= 	Bag_B4BWalker_LHand holdingbagleft,
+        ReplaceInPrimaryHand 	= 	Bag_B4BWalker_RHand holdingbagright,
+        WorldStaticModel 	 	= 	WorldItem_BackpackWalker,
+    }	
+
+recipe Upgrade Walkers Backpack
+  	{
+	   Bag_B4BWalker,	
+	   keep Scissors,
+       keep Needle/SutureNeedle,
+       Thread=3,
+	   LeatherStrips/DenimStrips=3,	   
+
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_B4BWalker_Tier_1,
+       OnGiveXP:Give20TailoringXP,	   
+	   Time:300.0,
+       AnimNode:Disassemble,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_AttachHikingBackpackTier1,	   
+  	}
+recipe Upgrade Walkers Backpack
+  	{
+	   Bag_B4BWalker_Tier_1,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=3,
+	   LeatherStrips/DenimStrips=3,	
+
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_B4BWalker_Tier_2,
+       OnGiveXP:Give20TailoringXP,	   
+	   Time:300.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=1,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_AttachHikingBackpackTier2,
+  	}	
+
+recipe Upgrade Walkers Backpack
+  	{
+	   Bag_B4BWalker_Tier_2,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=3,
+	   LeatherStrips/DenimStrips=3,	
+	
+	   OnCreate:PleaseKeepColor,	
+   	   Result:Bag_B4BWalker_Tier_3,
+       OnGiveXP:Give20TailoringXP,	   
+	   Time:300.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=2,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_AttachHikingBackpackTier3,
+  	}
+
 	/* Mod Bag by Brita */	
 
     item Bag_ARVN_Rucksack_Tier_1

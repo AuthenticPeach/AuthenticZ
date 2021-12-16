@@ -40,9 +40,11 @@ Recipes_EN = {
 	
 	Recipe_Revert_Attachable = "Revert Attachable",
 	Recipe_Reuse_Bag = "Reuse Bag",	
-	
-	/* New*/	
-	
 	Recipe_Make_Backpack_Attachable = "Make Backpack Attachable",	
-	
+
+	/* New*/	
+
+	Recipe_Upgrade_Evangelos_Backpack = "Upgrade Evangelo's Backpack",	
+	Recipe_Upgrade_Hoffmans_Backpack = "Upgrade Hoffman's Backpack",
+	Recipe_Upgrade_Walkers_Backpack = "Upgrade Walker's Backpack",
 	}

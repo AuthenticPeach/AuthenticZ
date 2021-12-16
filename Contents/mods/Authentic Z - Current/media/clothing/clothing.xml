@@ -1789,8 +1789,7 @@
 		</m_items>		
 	</m_MaleOutfits>
 
-	<m_FemaleOutfits>
-		<m_Name>AuthenticCEDAHazmatRed</m_Name>
+	<m_FemaleOutfits> <m_Name>AuthenticCEDAHazmatRed</m_Name>
 		<m_Guid>d6b0f9b0-0b87-49e8-b7db-069644859db0</m_Guid>
 		<m_Pants>false</m_Pants>
 		<m_AllowPantsHue>false</m_AllowPantsHue>
@@ -1812,8 +1811,7 @@
 		</m_items>		
 	</m_FemaleOutfits>	
 
-	<m_FemaleOutfits>
-		<m_Name>AuthenticChainsawMaid</m_Name>
+	<m_FemaleOutfits> <m_Name>AuthenticChainsawMaid</m_Name>
 		<m_Guid>ca3f3ea3-4a27-400f-bd96-a57a975e2a79</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -1838,8 +1836,7 @@
 		</m_items>		
 	</m_FemaleOutfits>	
 
-	<m_MaleOutfits>
-		<m_Name>AuthenticCFTDJim</m_Name>
+	<m_MaleOutfits> <m_Name>AuthenticCFTDJim</m_Name>
 		<m_Guid>ed9efc12-e143-43de-9307-93a48a6cde67</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -1943,6 +1940,50 @@
 		</m_items>
 		<m_items> <!-- Rim Tank Top -->
 			<itemGUID>48e002a3-87ae-4781-acb6-b65830ba39f1</itemGUID>
+		</m_items>
+		<m_items> <!-- White gloves -->
+			<itemGUID>7d18ca16-fdb4-462e-b9a7-4f358cdd7525</itemGUID>
+		</m_items>		
+		<m_items> <!-- Makeup -->
+			<itemGUID>733535da-1381-4e20-a0f0-1976e2a6fdd0</itemGUID>
+			<subItems>
+				<itemGUID>9699c96e-322a-4d19-8d02-7ff7cb04fa12</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>a6bce9c8-2984-40e4-8a40-e88623df9a53</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>b6f83858-a314-4a26-958b-0be42111d2dd</itemGUID>
+			</subItems>			
+			<subItems>
+				<itemGUID>58ac7cec-9859-4ef5-b205-053687a7c75d</itemGUID>
+			</subItems>	
+			<subItems>
+				<itemGUID>1de80565-3076-4599-9bdd-69cbc4d5f9a7</itemGUID>
+			</subItems>	
+		</m_items>
+		<m_items> <!-- Clown Nose -->
+			<itemGUID>45a49acf-b95e-4aa3-b842-ea7d37c040db</itemGUID>
+		</m_items>		
+	</m_MaleOutfits>
+
+	<m_MaleOutfits>
+		<m_Name>AuthenticClownBarotrauma</m_Name>
+		<m_Guid>458f0e17-fb25-4328-98d2-11ad20507f19</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowTopTint>false</m_AllowTopTint>	
+		<m_items> <!-- Red Suit Pants -->
+			<itemGUID>5e26c5ef-fa40-4787-a6d9-17197ba31c7a</itemGUID>
+		</m_items>
+		<m_items> <!-- Red Striped Short Sleeve -->
+			<itemGUID>c9c03c3a-5585-46e2-ac0b-b01b902c15a0</itemGUID>
+		</m_items>	
+		<m_items> <!-- Long Socks -->
+			<itemGUID>fb86bd5f-1931-4b24-a5d7-bd6a43769991</itemGUID>
+		</m_items>	
+		<m_items> <!-- Red Sneakers -->
+			<itemGUID>b6bb377a-6b18-407a-8e9f-edf949fb1fe1</itemGUID>
 		</m_items>
 		<m_items> <!-- White gloves -->
 			<itemGUID>7d18ca16-fdb4-462e-b9a7-4f358cdd7525</itemGUID>
@@ -7739,16 +7780,16 @@
 			<subItems>
 				<itemGUID>2717dfdb-49ef-401a-9715-c4487ce6abea</itemGUID>
 			</subItems>
-		</m_items>
-		<m_items>
+		</m_items> 
+		<m_items> <!-- Gold Nose Ring -->
 			<probability>0.5</probability>
 			<itemGUID>d59c01dd-6b0c-4686-af83-01dddc4b25ce</itemGUID>
 		</m_items>
-		<m_items>
+		<m_items> <!-- Gold Stud Earring -->
 			<probability>0.5</probability>
 			<itemGUID>ee687253-26b0-4796-82ca-4f4a4976cf81</itemGUID>
 		</m_items>
-		<m_items>
+		<m_items> <!-- Silver Bracelet  -->
 			<itemGUID>582f29b1-29b3-468c-87fe-263b043e1443</itemGUID>
 		</m_items>
 </m_MaleOutfits>	
