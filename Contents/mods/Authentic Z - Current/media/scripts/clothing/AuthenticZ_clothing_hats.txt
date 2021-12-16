@@ -1146,6 +1146,19 @@ module AuthenticZClothing {
         Weight 			 = 0.5,
 		WorldStaticModel = WorldItem-StovePipeHat,
     }
+	item Hat_SummerWhite
+	{
+	    DisplayCategory = Accessory,	
+		Type = Clothing,
+		DisplayName = White Summer Hat,
+		ClothingItem = Hat_SummerWhite,
+		BodyLocation = Hat,
+		IconsForTexture = HatLillieWhite,
+		CanHaveHoles = false,
+        Insulation = 0.3,
+        WindResistance = 0.2,
+        BloodLocation = Head,
+	}			
 	item Hat_SweatbandRBW
 	{
 		DisplayCategory = Accessory,

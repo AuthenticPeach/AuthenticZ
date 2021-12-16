@@ -4312,6 +4312,10 @@
 		<guid>0601a52d-84c8-49f8-b216-d2b1fc54c3a9</guid>
 	</files>
 	<files>
+		<path>media/clothing/clothingItems/Hat_SummerWhite.xml</path>
+		<guid>165d60a9-9ca1-4c71-a467-deb9ba793941</guid>
+	</files>	
+	<files>
 		<path>media/clothing/clothingItems/Hat_SweatbandRBW.xml</path>
 		<guid>4ab5505f-37c6-4370-bba0-f84940098972</guid>
 	</files>

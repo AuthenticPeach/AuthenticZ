@@ -692,4 +692,5 @@ ItemName_EN = {
 	ItemName_AuthenticZClothing.Bag_B4BWalker_Tier_1 = "Walker's Backpack - Tier 1",	
 	ItemName_AuthenticZClothing.Bag_B4BWalker_Tier_2 = "Walker's Backpack - Tier 2",
 	ItemName_AuthenticZClothing.Bag_B4BWalker_Tier_3 = "Walker's Backpack - Tier 3",
+	ItemName_AuthenticZClothing.Hat_SummerWhite = "White Summer Hat",	
 }

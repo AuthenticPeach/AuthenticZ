@@ -8019,6 +8019,36 @@
 </m_FemaleOutfits>	
 
 	<m_FemaleOutfits>
+		<m_Name>Mannequin1</m_Name>
+		<m_Guid>f51a63a7-ddc7-4bba-ad92-8dce563f4960</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_items><!-- Dress_Knees -->
+			<itemGUID>8fe81905-2dcc-4c6b-95ce-286c2270d73d</itemGUID>
+			<subItems><!-- Dress_Long -->
+				<itemGUID>99f1aa77-0c9c-4f83-a903-c9ba97ab52e8</itemGUID>
+			</subItems>
+			<subItems><!-- Dress_Normal -->
+				<itemGUID>c3cab19e-c9b3-42a2-91e3-52937394d8d2</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items><!-- Shoes_Random -->
+			<itemGUID>7741404b-9689-4608-a0f5-4e06597776f9</itemGUID>
+		</m_items>
+		<m_items>
+			<probability>0.5</probability><!-- Hat_SummerHat -->
+			<itemGUID>b18b17cb-7d48-4484-b8bd-8697616d74fd</itemGUID>
+			<subItems><!-- Hat_SummerWhite -->
+				<itemGUID>165d60a9-9ca1-4c71-a467-deb9ba793941</itemGUID>
+			</subItems>			
+		</m_items>
+		<m_items>
+			<probability>0.5</probability><!-- Glasses_Sun -->
+			<itemGUID>3d6530fd-b3c1-4ae3-ad23-657ed73c51fe</itemGUID>
+		</m_items>
+	</m_FemaleOutfits>
+
+	<m_FemaleOutfits>
 		<m_Name>StudentFemale</m_Name>
 		<m_Guid>3f469f0f-d2fb-4005-a607-acc66fe4d64e</m_Guid>			
 		<m_items> <!-- Headphones-->
