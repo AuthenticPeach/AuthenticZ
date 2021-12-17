@@ -695,7 +695,7 @@ ZombiesZoneDefinition.CrossroadsMall = {
 	},	
 }
 
-ZombiesZoneDefinition.DayZBleu = {
+ZombiesZoneDefinition.DayZBleu = { --
 	AuthenticDayZHeroBleuM = {
 		name="AuthenticDayZHeroBleu",
 		toSpawn=1,
@@ -812,7 +812,7 @@ ZombiesZoneDefinition.Dormitory = {
 	},	
 }
 
-ZombiesZoneDefinition.EvilDead = {
+ZombiesZoneDefinition.EvilDead = { --
 	AuthenticAshEvilDeadM = {
 		name="AuthenticAshEvilDead",
 		toSpawn=1,
@@ -1047,7 +1047,7 @@ ZombiesZoneDefinition.IceCream = {
 	},
 }
 
-ZombiesZoneDefinition.Killa = {
+ZombiesZoneDefinition.Killa = { --
 	AuthenticKillaM = {
 		name="AuthenticKilla",
 		toSpawn=1,
@@ -1195,8 +1195,8 @@ ZombiesZoneDefinition.MovieNight = {
 	},		
 }
 
-ZombiesZoneDefinition.Nate = {
-	AuthenticNateAndersonM = {
+ZombiesZoneDefinition.Nate = { --
+	AuthenticNateAndersonM = {  --
 		name="AuthenticNateAnderson",
 		toSpawn=1,
 		mandatory="true",
@@ -1273,19 +1273,6 @@ ZombiesZoneDefinition.ParkPlaza = {
 		name="AuthenticFitnessInstructor",
 		chance=10,
 	},		
-}
-
-ZombiesZoneDefinition.Pharmacist = {
-	-- We ensure we have at least one pharmacist
-	PharmacistM = {
-		name="Pharmacist",
-		toSpawn=1,
-		mandatory="true",
-	},
-	Pharmacist = {
-		name="Pharmacist",
-		chance=30,
-	},
 }
 
 ZombiesZoneDefinition.PizzaDelivery = {
@@ -2085,7 +2072,7 @@ ZombiesZoneDefinition.Wedding = {
 	}
 };
 
-ZombiesZoneDefinition.WorldsEnd = {
+ZombiesZoneDefinition.WorldsEnd = {  --
 	AuthenticMadMax = {
 		name="AuthenticMadMax",
 		gender="male",
@@ -2473,7 +2460,7 @@ table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticNakedBlueVeins", ch
 table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticTheyLive", chance=0.001, gender="male"});
 table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticTF2SpyBlue", chance=0.001, gender="male"});
 
-table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticClownPennywise", chance=0.0001, gender="male"});
+table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticClownPennywise", chance=0.00001, gender="male"});
 table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticGhostFace", chance=0.0001, gender="male"});
 table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticLeatherFace", chance=0.0001, gender="male"});
 table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticFreddyKrueger", chance=0.0001, gender="male"});

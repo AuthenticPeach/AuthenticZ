@@ -2492,6 +2492,7 @@
 			<itemGUID>be23d492-87ab-427a-a6e8-d399a1dbaf1a</itemGUID>
 		</m_items>
 		<m_items> <!-- Holster -->
+			<probability>0.1</probability>			
 			<itemGUID>88f11c9e-e717-446c-82ec-f749320df25a</itemGUID>
 		</m_items>
 		<m_items> <!-- Plaid Formal Shirt -->
@@ -2501,6 +2502,7 @@
 			<itemGUID>6bb580fa-3061-41a6-aef1-93c60237c9bc</itemGUID>
 		</m_items>
 		<m_items>  <!-- Alice Pack Army -->
+			<probability>0.1</probability>		
 			<itemGUID>e5e131ff-bc65-4b94-9bc1-b70e8f99e68d</itemGUID>
 		</m_items>		
 	</m_MaleOutfits>	
@@ -3004,6 +3006,7 @@
 			</subItems>
 		</m_items>
 		<m_items>  <!-- Alice Pack Army -->
+			<probability>0.1</probability>			
 			<itemGUID>e5e131ff-bc65-4b94-9bc1-b70e8f99e68d</itemGUID>
 		</m_items>		
 		<m_items>  <!-- Gold Nose Ring -->
@@ -5055,6 +5058,7 @@
 			<itemGUID>99b1ff28-3884-4ca3-b827-7fdab685c7a6</itemGUID>
 		</m_items>
 		<m_items>  <!-- Alice Bag -->
+			<probability>0.1</probability>			
 			<itemGUID>c2d9211a-a0c5-475d-8fa6-681a8b809f26</itemGUID>
 		</m_items>			
 		<m_items> <!-- Holster -->
@@ -6784,6 +6788,15 @@
 			<subItems> <!-- HikingBag -->
 				<itemGUID>0eb60cd5-ed6a-4806-ac60-376c77af64cf</itemGUID>
 			</subItems>
+			<subItems> <!-- HikingBag -->
+				<itemGUID>0eb60cd5-ed6a-4806-ac60-376c77af64cf</itemGUID>
+			</subItems>
+			<subItems> <!-- HikingBag -->
+				<itemGUID>0eb60cd5-ed6a-4806-ac60-376c77af64cf</itemGUID>
+			</subItems>
+			<subItems> <!-- HikingBag -->
+				<itemGUID>0eb60cd5-ed6a-4806-ac60-376c77af64cf</itemGUID>
+			</subItems>			
 		</m_items>			
 		<m_items> <!-- Gloves -->
 			<itemGUID>2dd80ba3-4b0e-469a-98c4-7221891bd71a</itemGUID>
@@ -6901,6 +6914,15 @@
 			<subItems> <!-- HikingBag -->
 				<itemGUID>0eb60cd5-ed6a-4806-ac60-376c77af64cf</itemGUID>
 			</subItems>
+			<subItems> <!-- HikingBag -->
+				<itemGUID>0eb60cd5-ed6a-4806-ac60-376c77af64cf</itemGUID>
+			</subItems>
+			<subItems> <!-- HikingBag -->
+				<itemGUID>0eb60cd5-ed6a-4806-ac60-376c77af64cf</itemGUID>
+			</subItems>
+			<subItems> <!-- HikingBag -->
+				<itemGUID>0eb60cd5-ed6a-4806-ac60-376c77af64cf</itemGUID>
+			</subItems>	
 		</m_items>			
 		<m_items> <!-- Jacket -->
 			<probability>0.5</probability>
@@ -7173,6 +7195,18 @@
 		</m_items>
 		<m_items> <!-- SurvivorBag -->
 			<itemGUID>c2d9211a-a0c5-475d-8fa6-681a8b809f26</itemGUID>
+			<subItems> <!-- HikingBag -->
+				<itemGUID>0eb60cd5-ed6a-4806-ac60-376c77af64cf</itemGUID>
+			</subItems>
+			<subItems> <!-- HikingBag -->
+				<itemGUID>0eb60cd5-ed6a-4806-ac60-376c77af64cf</itemGUID>
+			</subItems>
+			<subItems> <!-- HikingBag -->
+				<itemGUID>0eb60cd5-ed6a-4806-ac60-376c77af64cf</itemGUID>
+			</subItems>
+			<subItems> <!-- HikingBag -->
+				<itemGUID>0eb60cd5-ed6a-4806-ac60-376c77af64cf</itemGUID>
+			</subItems>				
 		</m_items>		
 		<m_items> <!-- Shoes -->
 			<itemGUID>593bea3d-c127-4574-ac1e-2197dc56e486</itemGUID>
@@ -7251,6 +7285,18 @@
 		</m_items>
 		<m_items> <!-- SurvivorBag -->
 			<itemGUID>c2d9211a-a0c5-475d-8fa6-681a8b809f26</itemGUID>
+			<subItems> <!-- HikingBag -->
+				<itemGUID>0eb60cd5-ed6a-4806-ac60-376c77af64cf</itemGUID>
+			</subItems>
+			<subItems> <!-- HikingBag -->
+				<itemGUID>0eb60cd5-ed6a-4806-ac60-376c77af64cf</itemGUID>
+			</subItems>
+			<subItems> <!-- HikingBag -->
+				<itemGUID>0eb60cd5-ed6a-4806-ac60-376c77af64cf</itemGUID>
+			</subItems>
+			<subItems> <!-- HikingBag -->
+				<itemGUID>0eb60cd5-ed6a-4806-ac60-376c77af64cf</itemGUID>
+			</subItems>				
 		</m_items>		
 		<m_items> <!-- Shoes -->
 			<itemGUID>593bea3d-c127-4574-ac1e-2197dc56e486</itemGUID>
@@ -7325,7 +7371,19 @@
 		</m_items>
 		<m_items> <!-- SurvivorBag -->
 			<itemGUID>c2d9211a-a0c5-475d-8fa6-681a8b809f26</itemGUID>
-		</m_items>			
+			<subItems> <!-- HikingBag -->
+				<itemGUID>0eb60cd5-ed6a-4806-ac60-376c77af64cf</itemGUID>
+			</subItems>
+			<subItems> <!-- HikingBag -->
+				<itemGUID>0eb60cd5-ed6a-4806-ac60-376c77af64cf</itemGUID>
+			</subItems>
+			<subItems> <!-- HikingBag -->
+				<itemGUID>0eb60cd5-ed6a-4806-ac60-376c77af64cf</itemGUID>
+			</subItems>
+			<subItems> <!-- HikingBag -->
+				<itemGUID>0eb60cd5-ed6a-4806-ac60-376c77af64cf</itemGUID>
+			</subItems>				
+		</m_items>		
 		<m_items> <!-- Hat -->
 			<probability>0.7</probability>
 			<itemGUID>92ce5f72-6a1e-4bb4-92c5-8a1edf01ff63</itemGUID>
@@ -7392,7 +7450,19 @@
 		</m_items>
 		<m_items> <!-- SurvivorBag -->
 			<itemGUID>c2d9211a-a0c5-475d-8fa6-681a8b809f26</itemGUID>
-		</m_items>			
+			<subItems> <!-- HikingBag -->
+				<itemGUID>0eb60cd5-ed6a-4806-ac60-376c77af64cf</itemGUID>
+			</subItems>
+			<subItems> <!-- HikingBag -->
+				<itemGUID>0eb60cd5-ed6a-4806-ac60-376c77af64cf</itemGUID>
+			</subItems>
+			<subItems> <!-- HikingBag -->
+				<itemGUID>0eb60cd5-ed6a-4806-ac60-376c77af64cf</itemGUID>
+			</subItems>
+			<subItems> <!-- HikingBag -->
+				<itemGUID>0eb60cd5-ed6a-4806-ac60-376c77af64cf</itemGUID>
+			</subItems>				
+		</m_items>		
 		<m_items> <!-- Hat -->
 			<probability>0.7</probability>
 			<itemGUID>92ce5f72-6a1e-4bb4-92c5-8a1edf01ff63</itemGUID>
@@ -7728,6 +7798,7 @@
 			<itemGUID>02fee342-625c-49d7-99c2-297b1a93a6de</itemGUID>
 		</m_items>		
 		<m_items> <!-- Bullet Strap -->
+			<probability>0.25</probability>			
 			<itemGUID>15514b21-1567-4a0b-a171-9740ee9b7b3a</itemGUID>
 		</m_items>
 		<m_items> <!-- White Zed Skin -->

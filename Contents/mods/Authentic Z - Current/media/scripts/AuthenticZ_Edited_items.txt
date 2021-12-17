@@ -29,7 +29,6 @@ module AuthenticZClothing {
 
 	item Hat_GasMask
 	{
-		DisplayCategory = Devices,
 	    DisplayCategory = Accessory,
 		Type 			= Clothing,
 		DisplayName 	= Gas Mask,

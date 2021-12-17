@@ -1076,24 +1076,6 @@ AttachedWeaponDefinitions.AuthenticCanteen = {
 	},
 }
 
-AttachedWeaponDefinitions.AuthenticCanteen = {
-	id = "AuthenticCanteen",
-	chance = 100,
-	outfit = {"AuthenticSurvivorPolice", "AuthenticSurvivorRanger"},
-	weaponLocation = {"Canteen Left", "Canteen Right"},
-	bloodLocations = nil,
-	addHoles = false,
-	daySurvived = 0,
-	weapons = {
-    "AuthenticZClothing.AuthenticCanteenSilver",
-	"AuthenticZClothing.AuthenticCanteenGrey",
-	"AuthenticZClothing.AuthenticCanteenForestGreen",
-	"AuthenticZClothing.AuthenticCanteenDarkGrey",
-	"AuthenticZClothing.AuthenticCanteenDarkGreen",
-	"AuthenticZClothing.AuthenticCanteenCadetBlue",
-	},
-}
-
 AttachedWeaponDefinitions.AuthenticMilitaryFlashlight = {
 	id = "AuthenticMilitaryFlashlight",
 	chance = 100,
@@ -1119,7 +1101,7 @@ AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticAndyDotD = {
 	},
 }
 AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticAshEvilDead = {
-	chance = 100;
+	chance = 50;
 	maxitem = 3;
 	weapons = {
 		AttachedWeaponDefinitions.chainsawAsh,
@@ -1135,10 +1117,9 @@ AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticB4BEvangelo = {
 	},
 }
 AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticB4BHoffman = {
-	chance = 100;
-	maxitem = 5;
+	chance = 80;
+	maxitem = 4;
 	weapons = {
-		AttachedWeaponDefinitions.handgunJohnMorgan,
 		AttachedWeaponDefinitions.AuthenticWalkieTalkie,
 		AttachedWeaponDefinitions.AuthenticCanteen,
 		AttachedWeaponDefinitions.AuthenticMilitaryFlashlight,
@@ -1154,7 +1135,7 @@ AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticB4BHolly = {
 	},
 }
 AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticB4BMom = {
-	chance = 100;
+	chance = 70;
 	maxitem = 4;
 	weapons = {
 		AttachedWeaponDefinitions.shotgunMadMax,
@@ -1162,7 +1143,7 @@ AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticB4BMom = {
 	},
 }
 AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticB4BWalker = {
-	chance = 100;
+	chance = 80;
 	maxitem = 4;
 	weapons = {
 		AttachedWeaponDefinitions.AuthenticMilitaryFlashlight,
@@ -1181,7 +1162,7 @@ AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticBillOverbeck = {
 	},
 } 
 AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticBlackMamba = {
-	chance = 100;
+	chance = 90;
 	weapons = {
 		AttachedWeaponDefinitions.Katana, 
 	},
@@ -1275,7 +1256,7 @@ AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticDILoganCarter = {
 }
 
 AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticDIPurnaJackson = {
-	chance = 100;
+	chance = 80;
 	maxitem = 2;
 	weapons = {
 		AttachedWeaponDefinitions.handgunSamRivot,
@@ -1375,7 +1356,7 @@ AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticHalloween = {
 	},
 }
 AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticJoker = {
-	chance = 100;
+	chance = 90;
 	weapons = {
 		AttachedWeaponDefinitions.handgunFlyboy,
 	},
@@ -1429,7 +1410,7 @@ AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticPostalDude = {
 	},
 }
 AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticMadMax = {
-	chance = 100;
+	chance = 70;
 	weapons = {
 		AttachedWeaponDefinitions.shotgunMadMax,
 	},
@@ -1443,7 +1424,7 @@ AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticMiner = {
 	},
 }
 AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticDayZHeroBleu = {
-	chance = 100;
+	chance = 70;
 	maxitem = 2;
 	weapons = {
 		AttachedWeaponDefinitions.AuthenticDianneCaldwell,
@@ -1458,7 +1439,7 @@ AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticGrindhouseCherry =
 	},
 }
 AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticDukeNukem = {
-	chance = 100;
+	chance = 80;
 	maxitem = 2;
 	weapons = {
 		AttachedWeaponDefinitions.shotgunDukeNukem,
@@ -1471,7 +1452,7 @@ AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticTheyLive = {
 	},
 }
 AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticLeonKennedy = {
-	chance = 100;
+	chance = 80;
 	maxitem = 3;
 	weapons = {
 		AttachedWeaponDefinitions.shotgunPolice,
@@ -1532,7 +1513,7 @@ AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticRochelle = {
 	},
 }
 AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticNateAnderson = {
-	chance = 100;
+	chance = 80;
 	maxitem = 4;
 	weapons = {
 		AttachedWeaponDefinitions.shotgunPolice,
@@ -1554,7 +1535,7 @@ AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticShaunoftheDead = {
 	},
 }
 AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticJillValentine = {
-	chance = 100;
+	chance = 80;
 	weapons = {
 		AttachedWeaponDefinitions.handgunJill,
 	},
@@ -1580,7 +1561,7 @@ AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticTF2SpyBlue = {
 	},
 }
 AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticSamRivot = {
-	chance = 100;
+	chance = 80;
 	weapons = {
 		AttachedWeaponDefinitions.handgunSamRivot,
 	},
@@ -1599,13 +1580,13 @@ AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticSexyNurse = {
 	},
 }
 AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticCFTDJim = {
-	chance = 100;
+	chance = 80;
 	weapons = {
 		AttachedWeaponDefinitions.handgunSamRivot,
 	},
 }
 AttachedWeaponDefinitions.attachedWeaponCustomOutfit.PrivateMilitia = {
-	chance = 50;
+	chance = 40;
 	maxitem = 3;
 	weapons = {
 		AttachedWeaponDefinitions.shotgunPolice,
@@ -1619,7 +1600,7 @@ AttachedWeaponDefinitions.attachedWeaponCustomOutfit.PrivateMilitia = {
 }
 
 AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticNMRIHBadass = {
-	chance = 100;
+	chance = 90;
 	maxitem = 2;
 	weapons = {
 		AttachedWeaponDefinitions.handgunJohnMorgan,
@@ -1644,7 +1625,7 @@ AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticNMRIHButcher = {
 }
 
 AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticNMRIHHunter = {
-	chance = 100;
+	chance = 80;
 	maxitem = 2;
 	weapons = {
 		AttachedWeaponDefinitions.AuthenticNick,
@@ -1668,7 +1649,7 @@ AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticNMRIHJive = {
 }
 
 AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticNMRIHRoje = {
-	chance = 100;
+	chance = 80;
 	maxitem = 2;
 	weapons = {
 		AttachedWeaponDefinitions.AuthenticDianneCaldwell,
@@ -1676,7 +1657,7 @@ AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticNMRIHRoje = {
 }
 
 AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticNMRIHWally = {
-	chance = 100;
+	chance = 90;
 	maxitem = 2;
 	weapons = {
 		AttachedWeaponDefinitions.handgunJohnMorgan,
@@ -1684,7 +1665,7 @@ AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticNMRIHWally = {
 }
 
 AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticDawnoftheDead = {
-	chance = 50;
+	chance = 40;
 	maxitem = 3;
 	weapons = {
 		AttachedWeaponDefinitions.shotgunPolice,
@@ -1695,11 +1676,9 @@ AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticDawnoftheDead = {
 		AttachedWeaponDefinitions.nightstick,
 	},
 }
-
-
 AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticSurvivorHazardSuit= {
-	chance = 80;
-	maxitem = 4;
+	chance = 60;
+	maxitem = 3;
 	weapons = {
 		AttachedWeaponDefinitions.shotgunPolice,
 		AttachedWeaponDefinitions.assaultRifleOnBack,
@@ -1718,7 +1697,7 @@ AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticSecretService = {
 	},
 }
 AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticBillyChumpez = {
-	chance = 80;
+	chance = 70;
 	maxitem = 5;
 	weapons = {
 		AttachedWeaponDefinitions.handgunHolster,
@@ -1738,7 +1717,6 @@ AttachedWeaponDefinitions.attachedWeaponCustomOutfit.Bandit = {
 		AttachedWeaponDefinitions.bladeInBack,
 	},
 }
-
 AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticBankRobber = {
 	chance = 50;
 	maxitem = 2;
