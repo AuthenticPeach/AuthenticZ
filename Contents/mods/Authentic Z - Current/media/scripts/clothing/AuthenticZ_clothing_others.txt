@@ -492,7 +492,7 @@ module AuthenticZClothing {
 		DisplayName = Black Rose,
 		ClothingItem = Rose_Dimitrescu,
 		BodyLocation = Eyes,
-		Icon = TieBlueSpy,
+		Icon = DimitrescuRose,
 		Weight = 0.1,
 		Cosmetic = TRUE,
 		WorldStaticModel = WorldItem_DimitrescuRose,		
@@ -520,6 +520,13 @@ module AuthenticZClothing {
 		ClothingItem = Skin_Black_Zed_M,
 		BodyLocation = TankTop,
     }
+    item Skin_Charcoal_Zed_M
+    {
+       DisplayCategory = Accessory,		
+		Type = Clothing,
+		ClothingItem = Skin_Charcoal_Zed_M,
+		BodyLocation = TankTop,
+    }	
     item Skin_Tan_Zed_M
     {
        DisplayCategory = Accessory,		
@@ -562,6 +569,13 @@ module AuthenticZClothing {
 		ClothingItem = Skin_Black_Zed_W,
 		BodyLocation = TankTop,
     }
+    item Skin_Charcoal_Zed_W
+    {
+       DisplayCategory = Accessory,		
+		Type = Clothing,
+		ClothingItem = Skin_Charcoal_Zed_W,
+		BodyLocation = TankTop,
+    }	
     item Skin_Tan_Zed_W
     {
        DisplayCategory = Accessory,		

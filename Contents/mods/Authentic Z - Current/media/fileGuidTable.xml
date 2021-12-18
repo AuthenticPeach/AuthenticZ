@@ -5142,15 +5142,23 @@
 	<files>
 		<path>media/clothing/clothingItems/Shorts_ShortSport_Sunset.xml</path>
 		<guid>0e5c0d73-91af-4e75-91c5-975c16447cb8</guid>
-	</files>	
+	</files>
 	<files>
 		<path>media/clothing/clothingItems/Skin_Black_Zed_M.xml</path>
 		<guid>44ee984a-1926-42e9-b9ac-41652dd31426</guid>
+	</files>	
+	<files>
+		<path>media/clothing/clothingItems/Skin_Charcoal_Zed_M.xml</path>
+		<guid>a8ba5948-517d-4a3a-892d-14efea00b53b</guid>
 	</files>
 	<files>
 		<path>media/clothing/clothingItems/Skin_Black_Zed_W.xml</path>
 		<guid>bb0817fc-29a8-4e55-9856-cf739326c5ca</guid>
-	</files>	
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Skin_Charcoal_Zed_W.xml</path>
+		<guid>b2630349-a122-442f-be8a-54cc09d234cd</guid>
+	</files>		
 	<files>
 		<path>media/clothing/clothingItems/Skin_Tan_Zed_W.xml</path>
 		<guid>75659e42-c52e-411d-a12a-bfbb9273cab2</guid>

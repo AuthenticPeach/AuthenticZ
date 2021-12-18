@@ -1017,7 +1017,7 @@ module AuthenticZClothing {
 		ClothingItem = Hat_JackoLantern,
 		BodyLocation = FullHat,
 		BloodLocation = Head,
-		Icon = LegoHead,
+		Icon = JackoLantern,
 		CanHaveHoles = false,
 		CombatSpeedModifier = 0.95,
 		BiteDefense = 100,

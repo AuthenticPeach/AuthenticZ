@@ -41,7 +41,8 @@ module AuthenticZClothing {
         WindResistance 	= 0.60,
         WaterResistance = 1.0,
 		AttachmentType  = GasMask,		
-		StaticModel 	= GasMaskNotWorn,		
+		StaticModel 	= GasMaskNotWorn,
+		Tags 			= GasMask,		
 	}
 
 	item Aerosolbomb

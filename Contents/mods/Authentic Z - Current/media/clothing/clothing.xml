@@ -1835,6 +1835,26 @@
 			<itemGUID>86579281-fd36-4c3b-862e-1936c9769001</itemGUID>
 		</m_items>		
 	</m_FemaleOutfits>	
+	
+	<m_MaleOutfits>
+		<m_Name>AuthenticCharcoal</m_Name>
+		<m_Guid>886dcbd7-fd9a-4ddf-962c-2d08eb88630d</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_items> <!-- Charcoal skin -->
+			<itemGUID>a8ba5948-517d-4a3a-892d-14efea00b53b</itemGUID>
+		</m_items>			
+	</m_MaleOutfits>
+
+	<m_FemaleOutfits>
+		<m_Name>AuthenticCharcoal</m_Name>
+		<m_Guid>886dcbd7-fd9a-4ddf-962c-2d08eb88630d</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_items> <!-- Charcoal skin -->
+			<itemGUID>b2630349-a122-442f-be8a-54cc09d234cd</itemGUID>
+		</m_items>				
+	</m_FemaleOutfits>	
 
 	<m_MaleOutfits> <m_Name>AuthenticCFTDJim</m_Name>
 		<m_Guid>ed9efc12-e143-43de-9307-93a48a6cde67</m_Guid>
