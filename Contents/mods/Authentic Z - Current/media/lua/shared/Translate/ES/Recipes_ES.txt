@@ -4,7 +4,7 @@ Recipes_ES = {
 	Recipe_Convert_into_Melee = "Convertir en cuerpo a cuerpo",
 	Recipe_Convert_to_Torch = "Convertir a antorcha",
 	Recipe_Dismantle_Military_Flashlight = "Desmontar Linterna militar",	
-	Recipe_Insert_Battery_into_Military_Flashlight = "Colocar pila en Linterna militar",	
+	Recipe_Insert_Battery_into_Military_Flashlight = "Colocar pila",	
 	Recipe_Make_a_Stack_of_Money= "Hacer un montón de dinero",
 	Recipe_Tie_Balloons_Together = "Atar globos juntos",
 	Recipe_Draw_Hitlist_1 = "Dibujar Lista de aciertos 1",
@@ -16,7 +16,7 @@ Recipes_ES = {
 	Recipe_Dismantle_Headphones = "Desmontar auriculares",
 	Recipe_Install_Light_Mechanism = "Instalar mecanismo de luz",
 	Recipe_Insert_Battery_into_Flashlight = "Colocar pila",
-	Recipe_Insert_Battery_into_Miner_Hat = "Colocar pila en casco de minero",
+	Recipe_Insert_Battery_into_Miner_Hat = "Colocar pila",
 	Recipe_Wear_Satchel_With_Bag = "Vestir cartera con mochila",	
 	Recipe_Open_Umbrella = "Abrir paraguas",	
 	Recipe_Close_Umbrella = "Cerrar paraguas",
@@ -39,6 +39,13 @@ Recipes_ES = {
 	Recipe_Upgrade_Rucksack = "Mejorar Mochila de montaña",
 	
 	Recipe_Revert_Attachable = "Revertir adjuntable",	
-	Recipe_Reuse_Bag = "Reutilizar bolsa",		
+	Recipe_Reuse_Bag = "Reutilizar bolsa",	
+	Recipe_Make_Backpack_Attachable = "Convertir en acoplable",	
+
+	/* New*/	
+
+	Recipe_Upgrade_Evangelos_Backpack = "Mejorar Mochila de Evangelo",	
+	Recipe_Upgrade_Hoffmans_Backpack = "Mejorar Mochila de Hoffman",
+	Recipe_Upgrade_Walkers_Backpack = "Mejorar Mochila de Walker",	
 	
 	}

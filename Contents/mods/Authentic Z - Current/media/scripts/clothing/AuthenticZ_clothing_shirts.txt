@@ -778,6 +778,7 @@
         WindResistance = 0.30,
         BiteDefense = 30,
         ScratchDefense = 55,
+        BulletDefense = 100,		
         WorldStaticModel = BulletVest_Ground,		
     }
     item Vest_BulletRPD
@@ -793,6 +794,7 @@
         WindResistance = 0.30,
         BiteDefense = 30,
         ScratchDefense = 55,
+        BulletDefense = 100,		
         WorldStaticModel = BulletVest_Ground,		
     }
     item Vest_BulletKilla
@@ -808,6 +810,7 @@
         WindResistance = 0.30,
         BiteDefense = 30,
         ScratchDefense = 55,
+        BulletDefense = 100,		
         WorldStaticModel = BulletVest_Ground,		
     }
     item Vest_Hunting_Beige

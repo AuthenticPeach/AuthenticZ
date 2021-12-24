@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\clothes\bob_dungerees</m_MaleModel>
+	<m_FemaleModel>skinned\clothes\kate_dungerees</m_FemaleModel>
+	<m_GUID>08b9e408-a4cd-4ec7-8a6f-e3ee3aabf7ec</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_Masks>2</m_Masks>
+	<m_Masks>7</m_Masks>
+	<m_Masks>9</m_Masks>
+	<m_DecalGroup>Splatter</m_DecalGroup>	
+	<textureChoices>clothes\dungarees\DungereesWhite</textureChoices>
+</clothingItem>

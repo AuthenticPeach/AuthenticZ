@@ -184,15 +184,28 @@ AttachedWeaponDefinitions.handgunFlyboy= {
 }
 
 AttachedWeaponDefinitions.PaintBrush= {
-	id = "paintBrush",
+	id = "PaintBrush",
 	chance = 100,
-	outfit = {"AuthenticBobRoss"},
+	outfit = {"AuthenticBobRoss","AuthenticConstructionPainter"},
 	weaponLocation =  {"Left Hand Item", "Right Hand Item"},
 	bloodLocations = nil,
 	addHoles = false,
 	daySurvived = 0,
 	weapons = {
 		"AuthenticZClothing.Authentic_Paintbrush",
+	},
+}
+
+AttachedWeaponDefinitions.PaintBrush2= {
+	id = "Paintbrush2",
+	chance = 100,
+	outfit = {"AuthenticConstructionPainter"},
+	weaponLocation =  {"Left Hand Item", "Right Hand Item"},
+	bloodLocations = nil,
+	addHoles = false,
+	daySurvived = 0,
+	weapons = {
+		"Base.Paintbrush",
 	},
 }
 
@@ -1377,6 +1390,14 @@ AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticLadyD = {
 	chance = 100;
 	weapons = {
 		AttachedWeaponDefinitions.CigaretteHolder,
+	},
+}
+AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticConstructionPainter = {
+	chance = 80;
+	maxitem = 1;	
+	weapons = {
+		AttachedWeaponDefinitions.PaintBrush,
+		AttachedWeaponDefinitions.PaintBrush2,
 	},
 }
 AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticDRTrueEyeCult = {

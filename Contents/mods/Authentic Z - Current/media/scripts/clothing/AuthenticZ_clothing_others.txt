@@ -27,6 +27,18 @@ module AuthenticZClothing {
 		Tooltip = Tooltip_AmmoStrap,
 		WorldStaticModel = AmmoStrap_Ground,		
 	}
+	item Apron_DonutAZ
+	{
+       DisplayCategory = Clothing,		
+		Type = Clothing,
+		DisplayName = Donut Server Apron,
+		ClothingItem = Apron_DonutAZ,
+		BodyLocation = TorsoExtra,
+		BloodLocation = Apron,
+		Icon = ApronIceCream,
+		FabricType = Cotton,
+		WorldStaticModel = Apron_Ground,		
+	}	
 	item Apron_GreenSeaHorse
 	{	
        DisplayCategory = Clothing,		
@@ -60,12 +72,11 @@ module AuthenticZClothing {
 		BodyLocation = TorsoExtra,
 		BloodLocation = Apron,
 		Icon = ApronYellow,
-		FabricType = Cotton,
 		WorldStaticModel = Apron_Ground,		
 	}
 	item Authentic_Headphones
 	{
-       DisplayCategory = Clothing,		
+       DisplayCategory = Electronics,		
 		Type = Clothing,
 		DisplayName = Headphones,
 		ClothingItem = Authentic_Headphones,
@@ -382,6 +393,21 @@ module AuthenticZClothing {
         Insulation = 1.0,
         WindResistance = 1.0,
         WorldStaticModel = Gloves_Ground,		
+	}
+	item Gloves_LongWomenGlovesWhite
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = White Long Gloves,
+		ClothingItem = Gloves_LongWomenGlovesWhite,
+		BodyLocation = Hands,
+		BloodLocation = Hands,
+		Icon = GlovesLongWhite,
+		Weight = 0.1,
+        Insulation = 0.5,
+        WindResistance = 0.5,
+        FabricType = Cotton,
+        WorldStaticModel = GlovesLong_Ground,
 	}	
 	item Hairstyle_Afro_Pick
 	{

@@ -1,6 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <clothingDecals> 
 	<group> <!-- Such Hardcore, much WOW -->
+		<name>Splatter</name>
+		<decal>Splatter1</decal>
+		<decal>Splatter2</decal>
+		<decal>Splatter3</decal>
+		<decal>Splatter4</decal>
+		<decal>Splatter5</decal>
+		<decal>Splatter6</decal>
+	</group>
+	<group> <!-- Such Hardcore, much WOW -->
 		<name>TShirtRock2</name>
 		<decal>TshirtHardcore</decal>
 	</group>

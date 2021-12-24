@@ -14,7 +14,25 @@ module AuthenticZClothing {
         Insulation = 0.3,
         WindResistance = 0.15,
 		WorldStaticModel = Trousers_Ground,
-    }  
+    }
+    item DungareesWhite
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = White Overalls,
+        ClothingItem = DungareesWhite,
+        BodyLocation = Pants,
+        Icon = OverallsDenimWhite,
+        BloodLocation = Trousers;ShirtNoSleeves,
+        RunSpeedModifier = 0.95,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        Insulation = 0.65,
+        WindResistance = 0.5,
+        FabricType = Denim,
+        WaterResistance = 0.20,
+        WorldStaticModel = Dungarees_Ground,
+    }	
     item Shorts_LongDenimWhite
     {
        DisplayCategory = Clothing,		

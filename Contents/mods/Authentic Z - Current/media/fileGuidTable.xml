@@ -3376,6 +3376,10 @@
 		<guid>ae803925-2541-4743-aa87-accac778e2f0</guid>
 	</files>
 	<files>
+		<path>media/clothing/clothingItems/Apron_DonutAZ.xml</path>
+		<guid>50ca6d17-5c81-474e-9d36-03d74243b505</guid>
+	</files>
+	<files>
 		<path>media/clothing/clothingItems/Apron_GreenSeaHorse.xml</path>
 		<guid>9dbfc7de-b0f6-4e26-afdd-9c236609e0eb</guid>
 	</files>	
@@ -3950,6 +3954,10 @@
 	<files>
 		<path>media/clothing/clothingItems/Dress_Short2.xml</path>
 		<guid>ce72b451-fabb-41ba-b398-b19175d9da1f</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/DungareesWhite.xml</path>
+		<guid>08b9e408-a4cd-4ec7-8a6f-e3ee3aabf7ec</guid>
 	</files>	
 	<files>
 		<path>media/clothing/clothingItems/GearWinslow.xml</path>
@@ -3990,6 +3998,10 @@
 	<files>
 		<path>media/clothing/clothingItems/Gloves_LeatherWalker.xml</path>
 		<guid>6709edf8-54ee-489b-b323-e6c61dfe81d8</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Gloves_LongWomenGlovesWhite.xml</path>
+		<guid>6a00e62a-6524-413d-a708-0cb6a6ef10f1</guid>
 	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Gloves_M_LHand.xml</path>
@@ -4184,6 +4196,14 @@
 		<guid>b73c9e1b-724b-411f-80b4-d4d72511641d</guid>
 	</files>
 	<files>
+		<path>media/clothing/clothingItems/Hat_BaseballCapWhite.xml</path>
+		<guid>5b27427c-da89-4f71-afb4-2f8deb5390c9</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Hat_BaseballCapWhite_Reverse.xml</path>
+		<guid>a429cc39-23bd-4221-95bb-802b760ad235</guid>
+	</files>	
+	<files>
 		<path>media/clothing/clothingItems/Hat_BeanyGrey.xml</path>
 		<guid>f6b3f111-ad92-4531-b948-05710cbcb8a6</guid>
 	</files>
@@ -4235,6 +4255,10 @@
 		<path>media/clothing/clothingItems/Hat_DRLegoHead.xml</path>
 		<guid>5f7a3b56-e59b-41c4-88cd-3e5021cc4c7a</guid>
 	</files>
+	<files>
+		<path>media/clothing/clothingItems/Hat_FastFood_Donut.xml</path>
+		<guid>5eed625b-18e4-4bc2-bdc7-1b3f4d5fe470</guid>
+	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Hat_FootballHelmet_BlueStar.xml</path>
 		<guid>c7974158-16f1-4239-90f4-1ceff85160e3</guid>

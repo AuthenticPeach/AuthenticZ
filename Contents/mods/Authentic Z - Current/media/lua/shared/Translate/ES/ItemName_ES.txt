@@ -405,7 +405,7 @@ ItemName_ES = {
 	ItemName_AuthenticZClothing.AuthenticOrgan_Kidney =  "Riñón devastado",	
 	ItemName_AuthenticZClothing.AuthenticOrgan_Liver =  "Hígado devastado",	
 	ItemName_AuthenticZClothing.Authentic_Paintbrush =  "Brocha",
-	ItemName_AuthenticZClothing.Authentic_Pills =  "Tarro de Vitaminas",
+	ItemName_AuthenticZClothing.Authentic_Pills =  "Tarro de Pildoras",
 	ItemName_AuthenticZClothing.Authentic_PomPomWhite =  "Pom Pom de porrista",
 	ItemName_AuthenticZClothing.Authentic_PomPomBlack =  "Pom Pom de porrista",
 	ItemName_AuthenticZClothing.Authentic_WalkieTalkie =  "Walkie Talkie táctico",	
@@ -593,7 +593,7 @@ ItemName_ES = {
 	ItemName_AuthenticZClothing.Hat_SweatbandPink = "Banda para el sudor rosa",	
 	ItemName_AuthenticZClothing.Hat_SweatbandPurple = "Banda para el sudor púrpura",		
 	
-	ItemName_AuthenticZClothing.Authentic_MinerLightbulb = "Casco de minero con luz",
+	ItemName_AuthenticZClothing.Authentic_MinerLightbulb = "Luz para casco de minero",
 	ItemName_AuthenticZClothing.AZ_MetalClip = "Mosquetón",
 	
 	ItemName_AuthenticZClothing.Bag_Schoolbag_Tier_1 = "Mochila escolar - Rango 1",	
@@ -670,4 +670,34 @@ ItemName_ES = {
 	ItemName_AuthenticZClothing.Bag_ARVN_Rucksack_Tier_1 = "Mochila de montaña ARVN - Rango 1",	
 	ItemName_AuthenticZClothing.Bag_ARVN_Rucksack_Tier_2 = "Mochila de montaña ARVN - Rango 2",
 	ItemName_AuthenticZClothing.Bag_ARVN_Rucksack_Tier_3 = "Mochila de montaña ARVN - Rango 3",
+	
+	/* 12-8-21 update  */	
+	ItemName_AuthenticZClothing.BunnyEars = "Orejas de conejo",	
+	ItemName_AuthenticZClothing.BunnyTail = "Cola de conejo",
+	ItemName_AuthenticZClothing.Bikini_Pattern04 = "Bikini negro",		
+	ItemName_AuthenticZClothing.Shoes_SlippersBlack = "Pantunflas negras",	
+	ItemName_AuthenticZClothing.Socks_Long_StockingsBlack = "Medias negras",
+	ItemName_AuthenticZClothing.Hat_HardHat_Miner2 = "Casco de minero",
+
+
+	/* New */
+	ItemName_AuthenticZClothing.TShirt_RedStriped = "Camiseta de rayas rojas",
+	ItemName_AuthenticZClothing.Trousers_SuitVeryRed = "Pantalones rojos",
+	ItemName_AuthenticZClothing.Bag_B4BHoffman_Tier_1 = "Mochila de Hoffman - Rango 1",	
+	ItemName_AuthenticZClothing.Bag_B4BHoffman_Tier_2 = "Mochila de Hoffman - Rango 2",
+	ItemName_AuthenticZClothing.Bag_B4BHoffman_Tier_3 = "Mochila de Hoffman - Rango 3",
+	ItemName_AuthenticZClothing.Bag_B4BEvangelo_Tier_1 = "Mochila de Evangelo - Rango 1",	
+	ItemName_AuthenticZClothing.Bag_B4BEvangelo_Tier_2 = "Mochila de Evangelo - Rango 2",
+	ItemName_AuthenticZClothing.Bag_B4BEvangelo_Tier_3 = "Mochila de Evangelo - Rango 3",
+	ItemName_AuthenticZClothing.Bag_B4BWalker_Tier_1 = "Mochila de Walker - Rango 1",	
+	ItemName_AuthenticZClothing.Bag_B4BWalker_Tier_2 = "Mochila de Walker - Rango 2",
+	ItemName_AuthenticZClothing.Bag_B4BWalker_Tier_3 = "Mochila de Walker - Rango 3",
+	
+	ItemName_AuthenticZClothing.Hat_SummerWhite = "Sombrero de verano blanco",
+	ItemName_AuthenticZClothing.ApronIceCream = "Delantal con donas",
+	ItemName_AuthenticZClothing.DungareesWhite = "Mono blanco",	
+	ItemName_AuthenticZClothing.Gloves_LongWomenGlovesWhite = "Guantes largos blancos",
+	ItemName_AuthenticZClothing.Hat_BaseballCapWhite = "Gorra de béisbol blanca",
+	ItemName_AuthenticZClothing.Hat_BaseballCapWhite_Reverse = "Gorra de béisbol blanca (Hacia atrás)",
+	ItemName_AuthenticZClothing.Hat_FastFood_Donut = "Sombrero con donas",
 }

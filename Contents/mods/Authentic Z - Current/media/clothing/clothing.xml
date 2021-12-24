@@ -727,8 +727,7 @@
 		</m_items>			
 	</m_MaleOutfits>	
 
-<m_MaleOutfits>
-		<m_Name>AuthenticBillyChumpez</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticBillyChumpez</m_Name>
 		<m_Guid>ec670557-48ef-4e65-ad90-7abdd37d0bed</m_Guid>
 		<m_Pants>false</m_Pants>
 		<m_items> <!-- Baseball Cap -->
@@ -797,8 +796,7 @@
 		</m_items>			
 	</m_MaleOutfits>	
 
-	<m_MaleOutfits>
-		<m_Name>AuthenticBiker</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticBiker</m_Name>
 		<m_Guid>2e9b1742-d646-4d70-b39f-037a316c53a6</m_Guid>
 		<m_Pants>false</m_Pants>
 		<m_items> <!-- Bandana -->
@@ -918,8 +916,7 @@
 		</m_items>
 	</m_MaleOutfits>
 
-	<m_FemaleOutfits>
-		<m_Name>AuthenticBiker</m_Name>
+<m_FemaleOutfits> <m_Name>AuthenticBiker</m_Name>
 		<m_Guid>2e9b1742-d646-4d70-b39f-037a316c53a6</m_Guid>
 		<m_Pants>false</m_Pants>
 		<m_items> <!-- Bandana -->
@@ -1071,7 +1068,7 @@
 		</m_items>		
 </m_FemaleOutfits>	
 
-	<m_MaleOutfits>
+<m_MaleOutfits>
 		<m_Name>AuthenticBobRoss</m_Name>
 		<m_Guid>ad971cf8-5554-4b36-ad78-596bbd7c1563</m_Guid>
 		<m_Top>false</m_Top>
@@ -2105,8 +2102,7 @@
 		</m_items>		
 	</m_FemaleOutfits>	
 
-	<m_MaleOutfits>
-		<m_Name>AuthenticClownPennywise</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticClownPennywise</m_Name>
 		<m_Guid>63d20658-2318-4f8f-afda-48d6193023e4</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -2140,8 +2136,7 @@
 		</m_items>		
 	</m_MaleOutfits>
 
-	<m_MaleOutfits>
-		<m_Name>AuthenticCoach</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticCoach</m_Name>
 		<m_Guid>84b2c214-214a-41d0-bad4-360568fe6b80</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -2171,10 +2166,234 @@
 			<probability>0.25</probability>
 			<itemGUID>60bc5b85-83b6-4beb-9446-5920862d26ec</itemGUID>
 		</m_items>			
+</m_MaleOutfits>
+
+<m_MaleOutfits> <m_Name>AuthenticConstructionPainter</m_Name>
+		<m_Guid>6caea8b0-3663-4358-a7ac-cc5982e10dbf</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_items> <!-- White BaseballCap Backward -->
+			<itemGUID>a429cc39-23bd-4221-95bb-802b760ad235</itemGUID>
+			<subItems> <!-- Hard Hat-->
+				<itemGUID>523b2893-137b-44bc-b3f6-ba2c9d42d488</itemGUID>
+			</subItems>			
+		</m_items>		
+		<m_items> <!-- White Overalls-->
+			<itemGUID>08b9e408-a4cd-4ec7-8a6f-e3ee3aabf7ec</itemGUID>
+		</m_items>
+		<m_items> <!-- Long Socks -->
+			<itemGUID>fb86bd5f-1931-4b24-a5d7-bd6a43769991</itemGUID>
+			<subItems> <!-- Socks-->
+				<itemGUID>ebea15c8-99b3-4e20-905b-d22cf82b8217</itemGUID>
+			</subItems>			
+		</m_items>	
+		<m_items> <!-- Shoes -->
+			<itemGUID>7741404b-9689-4608-a0f5-4e06597776f9</itemGUID>
+		</m_items>	
+		<m_items> <!-- Tank Top -->
+			<itemGUID>a700a956-32c2-49a6-bd5f-5a2895073f19</itemGUID>
+		</m_items>		
+		<m_items> <!-- Tshirt_DefaultTEXTURE -->
+			<itemGUID>e4ec9087-006d-41dc-81f4-585b6d2e958c</itemGUID>
+			<subItems>  <!-- Tshirt_DefaultTEXTURE  -->
+				<itemGUID>e4ec9087-006d-41dc-81f4-585b6d2e958c</itemGUID>
+			</subItems>
+			<subItems>  <!-- Tshirt_DefaultTEXTURE  -->
+				<itemGUID>e4ec9087-006d-41dc-81f4-585b6d2e958c</itemGUID>
+			</subItems>	
+			<subItems>  <!-- Tshirt_DefaultTEXTURE  -->
+				<itemGUID>e4ec9087-006d-41dc-81f4-585b6d2e958c</itemGUID>
+			</subItems>				
+			<subItems> <!-- Lumberjack shirt -->
+			<itemGUID>88b27ecc-8a00-4d1a-882e-1ab4f4a46350</itemGUID>
+			</subItems>			
+		</m_items>
+		<m_items> <!-- Safety Goggles -->
+			<probability>0.4</probability>		
+			<itemGUID>c05cf7a7-f704-43ce-a6bf-5eee59d96a5c</itemGUID>
+		</m_items>
+		<m_items> <!-- Hat_DustMask -->
+			<probability>0.4</probability>		
+			<itemGUID>1d070816-cfec-4d5d-820d-105c514251eb</itemGUID>
+		</m_items>		
+</m_MaleOutfits>
+
+<m_FemaleOutfits> <m_Name>AuthenticCook_Donut</m_Name>
+		<m_Guid>07142d93-424f-48cb-83e6-fed9f7f2a091</m_Guid>
+		<m_items> <!-- Apron Donut -->
+			<itemGUID>50ca6d17-5c81-474e-9d36-03d74243b505</itemGUID>
+		</m_items>
+		<m_items> <!-- Shirts --> <!-- Formal White Shirt -->
+			<itemGUID>ac7976de-2c73-44ea-9392-5d24ac1fb649</itemGUID>
+			<subItems> <!-- Formal TINT Shirt -->
+				<itemGUID>d556b848-5a37-400c-9322-2504bff33433</itemGUID>
+			</subItems>
+			<subItems> <!-- Shirt_FormalWhite_ShortSleeve -->
+				<itemGUID>00d77803-6b57-453b-89b6-135d2d642719</itemGUID>
+			</subItems>
+			<subItems> <!-- Shirt_FormalWhite_ShortSleeveTINT -->
+				<itemGUID>fa506bb5-26e7-4754-a08f-32a601019677</itemGUID>
+			</subItems>
+			<subItems> <!-- Shirt_FormalBlack_ShortSleeve -->
+				<itemGUID>7434ff13-3982-485f-8f6d-6d0b238aefd8</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items> <!-- Socks Ankle -->
+			<itemGUID>ebea15c8-99b3-4e20-905b-d22cf82b8217</itemGUID>
+		</m_items>
+		<m_items> <!-- Sneakers -->
+			<itemGUID>6fed6e2b-3a72-4bac-aac5-09585984493d</itemGUID>
+		</m_items>
+		<m_items> <!-- Hat_FastFood_Donut -->
+			<probability>0.3</probability>
+			<itemGUID>5eed625b-18e4-4bc2-bdc7-1b3f4d5fe470</itemGUID>
+		</m_items>
+		<m_items> <!-- Glasses -->
+			<probability>0.1</probability>
+			<itemGUID>6d702d88-4ca0-4bcb-9aee-d88f2be29e69</itemGUID>
+		</m_items>
+		<m_items> <!-- Earrings-->
+			<probability>0.2</probability>
+			<itemGUID>7c3a8a34-9ffa-42e0-83f4-55088f99d8a4</itemGUID>
+			<subItems>
+				<itemGUID>497a8849-6914-40fb-b3a6-9e01629e3e8b</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>62486601-5800-4eba-b317-fbcd9a0e2892</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>09537be2-eebc-4f58-a76d-ac46ea5b3654</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>fc9184ea-72cd-4079-8457-5b9f7b5dab75</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>59341911-c4b8-4c30-a712-69df35ba228f</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>033be814-b060-457c-8ed6-43f7358606c3</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>b1c312bf-bc3b-4a52-a15d-fe5564399388</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>ee687253-26b0-4796-82ca-4f4a4976cf81</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>9221f803-d4ec-4947-b380-9c8b1fddebf0</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>877f93aa-33c7-4453-9c47-5097038f580c</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>404627a1-0fbe-4c95-921d-80eee1bac7f4</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items> <!-- Necklace -->
+			<probability>0.1</probability>
+			<itemGUID>b53aaf11-929c-4506-8310-e9b26d5f20eb</itemGUID>
+			<subItems>
+				<itemGUID>3cac5469-f9d2-4462-8fb2-063be1b63450</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>3ae13d94-8df6-45c7-9e99-ad03c7d411ce</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>00b778ca-59bd-45a4-9a72-a74e5a541469</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>354db6a5-970b-477b-a119-f4a65eaa776f</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items> <!-- Rings -->
+			<probability>0.3</probability>
+			<itemGUID>4cbb081e-0e9a-4248-bec1-0aa226e082e1</itemGUID>
+			<subItems>
+				<itemGUID>c6dd113b-3d04-4833-9f38-8e9840741c0c</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>fedba460-2edc-439d-89b6-f9607ddbf246</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>e4b3135f-a541-4870-a7b9-2ba6f730bc5c</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>5b484f12-b43c-4a83-9009-af05a59ec267</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items> <!-- Watches -->
+			<probability>0.3</probability>
+			<itemGUID>5fc22466-2942-4ba1-8c33-2a8528b73021</itemGUID>
+			<subItems>
+				<itemGUID>ce1a8520-7120-432e-8a3a-aa7b3094f0bb</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>c7cc655b-284a-4087-85a6-d7c116385fb0</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>0383956a-3fbd-4001-9749-69e2ba70b134</itemGUID>
+			</subItems>
+		</m_items>
+	</m_FemaleOutfits>
+	
+<m_MaleOutfits> <m_Name>AuthenticCook_Donut</m_Name>
+		<m_Guid>07142d93-424f-48cb-83e6-fed9f7f2a091</m_Guid>
+		<m_items> <!-- Apron Donut -->
+			<itemGUID>50ca6d17-5c81-474e-9d36-03d74243b505</itemGUID>
+		</m_items>
+		<m_items> <!-- Shirts --> <!-- Formal White Shirt -->
+			<itemGUID>ac7976de-2c73-44ea-9392-5d24ac1fb649</itemGUID>
+			<subItems> <!-- Formal TINT Shirt -->
+				<itemGUID>d556b848-5a37-400c-9322-2504bff33433</itemGUID>
+			</subItems>
+			<subItems> <!-- Shirt_FormalWhite_ShortSleeve -->
+				<itemGUID>00d77803-6b57-453b-89b6-135d2d642719</itemGUID>
+			</subItems>
+			<subItems> <!-- Shirt_FormalWhite_ShortSleeveTINT -->
+				<itemGUID>fa506bb5-26e7-4754-a08f-32a601019677</itemGUID>
+			</subItems>
+			<subItems> <!-- Shirt_FormalBlack_ShortSleeve -->
+				<itemGUID>7434ff13-3982-485f-8f6d-6d0b238aefd8</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items> <!-- Socks Ankle -->
+			<itemGUID>ebea15c8-99b3-4e20-905b-d22cf82b8217</itemGUID>
+		</m_items>
+		<m_items> <!-- Sneakers -->
+			<itemGUID>6fed6e2b-3a72-4bac-aac5-09585984493d</itemGUID>
+		</m_items>
+		<m_items> <!-- Hat_FastFood_Donut -->
+			<probability>0.3</probability>
+			<itemGUID>5eed625b-18e4-4bc2-bdc7-1b3f4d5fe470</itemGUID>
+		</m_items>
+		<m_items> <!-- Glasses -->
+			<probability>0.1</probability>
+			<itemGUID>6d702d88-4ca0-4bcb-9aee-d88f2be29e69</itemGUID>
+		</m_items>
+		<m_items> <!-- Rings -->
+			<probability>0.3</probability>
+			<itemGUID>4cbb081e-0e9a-4248-bec1-0aa226e082e1</itemGUID>
+			<subItems>
+				<itemGUID>e4b3135f-a541-4870-a7b9-2ba6f730bc5c</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items> <!-- Watches -->
+			<probability>0.3</probability>
+			<itemGUID>5fc22466-2942-4ba1-8c33-2a8528b73021</itemGUID>
+			<subItems>
+				<itemGUID>ce1a8520-7120-432e-8a3a-aa7b3094f0bb</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>c7cc655b-284a-4087-85a6-d7c116385fb0</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>0383956a-3fbd-4001-9749-69e2ba70b134</itemGUID>
+			</subItems>
+		</m_items>
 	</m_MaleOutfits>
 
-	<m_FemaleOutfits>
-		<m_Name>AuthenticCook_Seahorse</m_Name>
+<m_FemaleOutfits> <m_Name>AuthenticCook_Seahorse</m_Name>
 		<m_Guid>77353a20-35dd-4dc0-b641-e340623574ee</m_Guid>
 		<m_items> <!-- Apron Seahorse -->
 			<itemGUID>9dbfc7de-b0f6-4e26-afdd-9c236609e0eb</itemGUID>
@@ -2292,8 +2511,7 @@
 		</m_items>
 	</m_FemaleOutfits>
 	
-	<m_MaleOutfits>
-		<m_Name>AuthenticCook_Seahorse</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticCook_Seahorse</m_Name>
 		<m_Guid>77353a20-35dd-4dc0-b641-e340623574ee</m_Guid>
 		<m_items> <!-- Apron Seahorse -->
 			<itemGUID>9dbfc7de-b0f6-4e26-afdd-9c236609e0eb</itemGUID>
@@ -2349,8 +2567,7 @@
 		</m_items>
 	</m_MaleOutfits>	
 
-	<m_MaleOutfits>
-		<m_Name>AuthenticCountryHick</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticCountryHick</m_Name>
 		<m_Guid>f041bee7-e2f5-4b12-88c3-863f3bd5d735</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -2369,8 +2586,7 @@
 		</m_items>		
 	</m_MaleOutfits>
 
-	<m_MaleOutfits>
-		<m_Name>AuthenticCountrySinger</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticCountrySinger</m_Name>
 		<m_Guid>ad971cf8-5554-4b36-ad78-596bbd7c1563</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -2406,10 +2622,9 @@
 				<itemGUID>0383956a-3fbd-4001-9749-69e2ba70b134</itemGUID>
 			</subItems>
 		</m_items>
-	</m_MaleOutfits>
+</m_MaleOutfits>
 
-	<m_MaleOutfits>
-		<m_Name>AuthenticCrossingGuard</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticCrossingGuard</m_Name>
 		<m_Guid>d4b11c80-b46b-412b-9a99-71fd72321339</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -2437,8 +2652,7 @@
 		</m_items>	
 	</m_MaleOutfits>
 	
-<m_MaleOutfits>
-		<m_Name>AuthenticDawnoftheDead</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticDawnoftheDead</m_Name>
 		<m_Guid>b96a57f5-9bf2-4b2b-b270-ab3be58077c1</m_Guid>
 		<m_Pants>false</m_Pants>
 		<m_AllowPantsHue>false</m_AllowPantsHue>
@@ -8131,6 +8345,13 @@
 			<itemGUID>b18b17cb-7d48-4484-b8bd-8697616d74fd</itemGUID>
 			<subItems><!-- Hat_SummerWhite -->
 				<itemGUID>165d60a9-9ca1-4c71-a467-deb9ba793941</itemGUID>
+			</subItems>			
+		</m_items>
+		<m_items>
+			<probability>0.2</probability><!-- Gloves_LongWomenGloves -->
+			<itemGUID>9c36a162-1348-46ad-81bd-70bf3ed7a93e</itemGUID>
+			<subItems><!-- Gloves_LongWomenGlovesWhite -->
+				<itemGUID>6a00e62a-6524-413d-a708-0cb6a6ef10f1</itemGUID>
 			</subItems>			
 		</m_items>
 		<m_items>

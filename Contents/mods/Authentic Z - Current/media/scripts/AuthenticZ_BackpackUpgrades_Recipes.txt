@@ -443,7 +443,7 @@ recipe Tie Balloons Together
         RunSpeedModifier 		= 	0.95,
         CanHaveHoles 			= 	false,       
 		AttachmentReplacement	= 	Bag,
-		AttachmentsProvided  	= 	DufflebagSecondary;DufflebagBottleLeft;SchoolbagBalloonRight,
+		AttachmentsProvided  	= 	DufflebagSecondary;DufflebagBottleRight;SchoolbagBalloonRight,
         ReplaceInSecondHand 	= 	Bag_DuffelBag_LHand holdingbagleft,
         ReplaceInPrimaryHand 	= 	Bag_DuffelBag_RHand holdingbagright,
         WorldStaticModel 		= 	DuffelBag_Ground,
@@ -465,7 +465,7 @@ recipe Tie Balloons Together
         RunSpeedModifier 		= 	0.95,
         CanHaveHoles	 		= 	false,
         AttachmentReplacement	= 	Bag,
-		AttachmentsProvided  	= 	SchoolbagBagSecondary;DufflebagItemSlot1;DufflebagBottleLeft;DufflebagPlushie;SchoolbagUmbrellaLeft;SchoolbagBalloonRight,						
+		AttachmentsProvided  	= 	SchoolbagBagSecondary;DufflebagItemSlot1;DufflebagBottleRight;DufflebagPlushie;SchoolbagUmbrellaLeft;SchoolbagBalloonRight,						
         ReplaceInSecondHand 	= 	Bag_DuffelBag_LHand holdingbagleft,
         ReplaceInPrimaryHand 	= 	Bag_DuffelBag_RHand holdingbagright,
         WorldStaticModel 		= 	DuffelBag_Ground,
@@ -509,7 +509,7 @@ recipe Tie Balloons Together
         RunSpeedModifier 		= 	0.95,
         CanHaveHoles 			= 	false,       
 		AttachmentReplacement	= 	Bag,
-		AttachmentsProvided  	= 	DufflebagSecondary;DufflebagBottleLeft;SchoolbagBalloonRight,
+		AttachmentsProvided  	= 	DufflebagSecondary;DufflebagBottleRight;SchoolbagBalloonRight,
         ReplaceInSecondHand 	= 	Bag_DuffelBag_LHandTINT holdingbagleft,
         ReplaceInPrimaryHand 	= 	Bag_DuffelBag_RHandTINT holdingbagright,
         WorldStaticModel 		= 	DuffelBag_Ground,
@@ -531,7 +531,7 @@ recipe Tie Balloons Together
         RunSpeedModifier 		= 	0.95,
         CanHaveHoles	 		= 	false,
         AttachmentReplacement	= 	Bag,
-		AttachmentsProvided  	= 	SchoolbagBagSecondary;DufflebagItemSlot1;DufflebagBottleLeft;DufflebagPlushie;SchoolbagUmbrellaLeft;SchoolbagBalloonRight,						
+		AttachmentsProvided  	= 	SchoolbagBagSecondary;DufflebagItemSlot1;DufflebagBottleRight;DufflebagPlushie;SchoolbagUmbrellaLeft;SchoolbagBalloonRight,						
         ReplaceInSecondHand 	= 	Bag_DuffelBag_LHandTINT holdingbagleft,
         ReplaceInPrimaryHand 	= 	Bag_DuffelBag_RHandTINT holdingbagright,
         WorldStaticModel 		= 	DuffelBag_Ground,
@@ -575,7 +575,7 @@ recipe Tie Balloons Together
         RunSpeedModifier 		= 	0.95,
         CanHaveHoles 			= 	false,       
 		AttachmentReplacement	= 	Bag,
-		AttachmentsProvided  	= 	DufflebagSecondary;DufflebagBottleLeft;SchoolbagBalloonRight,
+		AttachmentsProvided  	= 	DufflebagSecondary;DufflebagBottleRight;SchoolbagBalloonRight,
         ReplaceInSecondHand 	= 	Bag_DuffelBag_LHandTINT holdingbagleft,
         ReplaceInPrimaryHand 	= 	Bag_DuffelBag_RHandTINT holdingbagright,
         WorldStaticModel 		= 	DuffelBag_Ground,
@@ -597,7 +597,7 @@ recipe Tie Balloons Together
         RunSpeedModifier 		= 	0.95,
         CanHaveHoles	 		= 	false,
         AttachmentReplacement	= 	Bag,
-		AttachmentsProvided  	= 	SchoolbagBagSecondary;DufflebagItemSlot1;DufflebagBottleLeft;DufflebagPlushie;SchoolbagUmbrellaLeft;SchoolbagBalloonRight,						
+		AttachmentsProvided  	= 	SchoolbagBagSecondary;DufflebagItemSlot1;DufflebagBottleRight;DufflebagPlushie;SchoolbagUmbrellaLeft;SchoolbagBalloonRight,						
         ReplaceInSecondHand 	= 	Bag_DuffelBag_LHandTINT holdingbagleft,
         ReplaceInPrimaryHand 	= 	Bag_DuffelBag_RHandTINT holdingbagright,
         WorldStaticModel 		= 	DuffelBag_Ground,
@@ -1126,6 +1126,7 @@ recipe Make Secondary Bag
 	   Plasticbag,
 	   AZ_MetalClip,
 
+	   OnCreate:PleaseKeepColor,
    	   Result:Plasticbag_Secondary,
 	   Time:80.0,
   	}
@@ -1135,6 +1136,7 @@ recipe Make Secondary Bag
 	   Garbagebag,
 	   AZ_MetalClip,
 
+	   OnCreate:PleaseKeepColor,
    	   Result:Garbagebag_Secondary,
 	   Time:80.0,
   	}	
@@ -1144,6 +1146,7 @@ recipe Make Secondary Bag
 	   Handbag,
 	   AZ_MetalClip,
 
+	   OnCreate:PleaseKeepColor,
    	   Result:Handbag_Secondary,
 	   Time:80.0,
   	}	
@@ -1153,6 +1156,7 @@ recipe Make Secondary Bag
 	   Purse,
 	   AZ_MetalClip,
 
+	   OnCreate:PleaseKeepColor,
    	   Result:Purse_Secondary,
 	   Time:80.0,
   	}
@@ -1162,6 +1166,7 @@ recipe Make Secondary Bag
 	   Tote,
 	   AZ_MetalClip,
 
+	   OnCreate:PleaseKeepColor,
    	   Result:Tote_Secondary,
 	   Time:80.0,
   	}
@@ -1171,6 +1176,7 @@ recipe Make Secondary Bag
 	   EmptySandbag,
 	   AZ_MetalClip,
 
+	   OnCreate:PleaseKeepColor,
    	   Result:EmptySandbag_Secondary,
 	   Time:80.0,
   	}
@@ -1180,6 +1186,7 @@ recipe Make Secondary Bag
 	   Toolbox/Bag_JanitorToolbox,
 	   AZ_MetalClip,
 
+	   OnCreate:PleaseKeepColor,
    	   Result:Toolbox_Secondary,
 	   Time:80.0,
   	}	
@@ -1189,6 +1196,7 @@ recipe Make Secondary Bag
 	   FirstAidKit,
 	   AZ_MetalClip,
 
+	   OnCreate:PleaseKeepColor,
    	   Result:FirstAidKit_Secondary,
 	   Time:80.0,
   	}	
@@ -1198,6 +1206,7 @@ recipe Make Secondary Bag
 	   Lunchbox,
 	   AZ_MetalClip,
 
+	   OnCreate:PleaseKeepColor,
    	   Result:Lunchbox_Secondary,
 	   Time:80.0,
   	}
@@ -1207,6 +1216,7 @@ recipe Make Secondary Bag
 	   Lunchbox2,
 	   AZ_MetalClip,
 
+	   OnCreate:PleaseKeepColor,
    	   Result:Lunchbox2_Secondary,
 	   Time:80.0,
   	}	
@@ -1216,6 +1226,7 @@ recipe Make Secondary Bag
 	   PistolCase1/PistolCase2/PistolCase3,
 	   AZ_MetalClip,
 
+	   OnCreate:PleaseKeepColor,
    	   Result:PistolCase_Secondary,
 	   Time:80.0,
   	}
@@ -1225,6 +1236,7 @@ recipe Make Secondary Bag
 	   SeedBag,
 	   AZ_MetalClip,
 
+	   OnCreate:PleaseKeepColor,
    	   Result:SeedBag_Secondary,
 	   Time:80.0,
   	}		

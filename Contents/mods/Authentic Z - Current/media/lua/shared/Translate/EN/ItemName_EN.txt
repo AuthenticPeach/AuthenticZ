@@ -692,5 +692,12 @@ ItemName_EN = {
 	ItemName_AuthenticZClothing.Bag_B4BWalker_Tier_1 = "Walker's Backpack - Tier 1",	
 	ItemName_AuthenticZClothing.Bag_B4BWalker_Tier_2 = "Walker's Backpack - Tier 2",
 	ItemName_AuthenticZClothing.Bag_B4BWalker_Tier_3 = "Walker's Backpack - Tier 3",
-	ItemName_AuthenticZClothing.Hat_SummerWhite = "White Summer Hat",	
+	
+	ItemName_AuthenticZClothing.Hat_SummerWhite = "White Summer Hat",
+	ItemName_AuthenticZClothing.ApronIceCream = "Donut Server Apron",
+	ItemName_AuthenticZClothing.DungareesWhite = "White Overalls",	
+	ItemName_AuthenticZClothing.Gloves_LongWomenGlovesWhite = "White Long Gloves",
+	ItemName_AuthenticZClothing.Hat_BaseballCapWhite = "White Baseball Cap",
+	ItemName_AuthenticZClothing.Hat_BaseballCapWhite_Reverse = "White Baseball Cap",
+	ItemName_AuthenticZClothing.Hat_FastFood_Donut = "Donut Server Hat",
 }

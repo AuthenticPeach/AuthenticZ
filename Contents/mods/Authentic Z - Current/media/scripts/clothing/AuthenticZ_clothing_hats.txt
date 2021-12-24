@@ -560,6 +560,36 @@ module AuthenticZClothing {
         Insulation = 0.10,
         Weight = 0.5,
     }
+    item Hat_BaseballCapWhite
+    {
+	    DisplayCategory = Accessory,
+        Type = Clothing,
+        DisplayName = White Baseball Cap,
+        ClothingItem = Hat_BaseballCapWhite,
+        ClothingItemExtra = Hat_BaseballCapWhite_Reverse,	
+        ClothingItemExtraOption = ReverseCap,		
+        BodyLocation = Hat,
+        Icon = BaseballCapWhite,
+        CanHaveHoles = false,
+        ChanceToFall = 80,
+        Insulation = 0.10,
+        Weight = 0.5,
+    }
+    item Hat_BaseballCapWhite_Reverse
+    {
+	    DisplayCategory = Accessory,	
+        Type = Clothing,
+        DisplayName = White Baseball Cap,
+        ClothingItem = Hat_BaseballCapWhite_Reverse,
+        ClothingItemExtra = Hat_BaseballCapWhite,
+        ClothingItemExtraOption = ForwardCap,
+        BodyLocation = Hat,
+        Icon = BaseballCapWhite,
+        CanHaveHoles = false,
+        ChanceToFall = 80,
+        Insulation = 0.10,
+        Weight = 0.5,
+    }	
     item Hat_BandanaTiedDesert
     {
 	    DisplayCategory = Accessory,	
@@ -841,6 +871,18 @@ module AuthenticZClothing {
         WindResistance = 0.65,
         WaterResistance = 1.0,
 	}
+	item Hat_FastFood_Donut
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Donut Server Hat,
+		ClothingItem = Hat_FastFood_Donut,
+		BodyLocation = Hat,
+		Icon = CookHatIceCream,
+		CanHaveHoles = false,
+		ChanceToFall = 80,
+		Weight = 0.3,
+	}	
 	item Hat_FootballHelmet_BlueStar
 	{
 	    DisplayCategory = Accessory,	

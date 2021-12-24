@@ -130,6 +130,52 @@ function RWMVolume:verifyItem(_item)
     end
 end
 
+function RWMVolume:onJoypadDown(button)
+    if button == Joypad.AButton then
+        --if self.volumeBar:getVolume() < self.volumeBar:getVolumeSteps() then
+            self.volumeBar:setVolumeJoypad(true)
+        --end
+    elseif button == Joypad.BButton then
+        --if self.volumeBar:getVolume() > 1 then
+            self.volumeBar:setVolumeJoypad(false)
+        --end
+    elseif button == Joypad.XButton then
+        if self.deviceData:getHeadphoneType() >= 0 then
+            self:removeHeadphone();
+        else
+            local tab = {};
+            local inventory = self.player:getInventory();
+            local list = inventory:FindAll("Base.Headphones");
+            if list and list:size()>0 then
+                for i=0,list:size()-1 do
+                    table.insert(tab, list:get(i));
+                end
+            end
+            list = inventory:FindAll("Base.Earbuds");
+            if list and list:size()>0 then
+                for i=0,list:size()-1 do
+                    table.insert(tab, list:get(i));
+                end
+            end
+            list = inventory:FindAll("AuthenticZClothing.Authentic_Headphones");
+            if list and list:size()>0 then
+                for i=0,list:size()-1 do
+                    table.insert(tab, list:get(i));
+                end
+            end	
+            list = inventory:FindAll("AuthenticZClothing.Authentic_Headphones2");
+            if list and list:size()>0 then
+                for i=0,list:size()-1 do
+                    table.insert(tab, list:get(i));
+                end
+            end			
+            self:addHeadphone( tab );
+        end
+    elseif button == Joypad.YButton then
+        self:onSpeakerButton( not self.speakerButton.isMute );
+    end
+end
+
 function PleaseKeepColor(item, resultItem, player)
 
 	local player_Inventory = player:getInventory();

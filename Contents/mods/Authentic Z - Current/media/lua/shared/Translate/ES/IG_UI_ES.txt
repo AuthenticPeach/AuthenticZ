@@ -12,7 +12,7 @@ IGUI_ES = {
 	IGUI_HotbarAttachment_BigHikingbagSecondary = "Mochila de excursión grande - Espacio de contenedor secundario",
 	IGUI_HotbarAttachment_AlicepackSecondary = "Mochila grande - Espacio de contenedor secundario",
 	
-	IGUI_HotbarAttachment_MinerLightBulb = "Luz de Casco de minero",	
+	IGUI_HotbarAttachment_MinerLightBulb = "Casco de minero",	
 	
 	IGUI_HotbarAttachment_SchoolbagItemSlot1 = "Mochila escolar - Espacio 1",
     IGUI_HotbarAttachment_SchoolbagItemSlot2 = "Mochila escolar - Espacio 2",
