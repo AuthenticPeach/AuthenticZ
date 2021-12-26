@@ -694,7 +694,7 @@ ItemName_ES = {
 	ItemName_AuthenticZClothing.Bag_B4BWalker_Tier_3 = "Mochila de Walker - Rango 3",
 	
 	ItemName_AuthenticZClothing.Hat_SummerWhite = "Sombrero de verano blanco",
-	ItemName_AuthenticZClothing.ApronIceCream = "Delantal con donas",
+	ItemName_AuthenticZClothing.Apron_DonutAZ = "Delantal con donas",
 	ItemName_AuthenticZClothing.DungareesWhite = "Mono blanco",	
 	ItemName_AuthenticZClothing.Gloves_LongWomenGlovesWhite = "Guantes largos blancos",
 	ItemName_AuthenticZClothing.Hat_BaseballCapWhite = "Gorra de béisbol blanca",

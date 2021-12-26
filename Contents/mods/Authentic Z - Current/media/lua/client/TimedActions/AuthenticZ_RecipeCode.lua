@@ -29,8 +29,7 @@ function AuthenticTorchBatteryInsert_TestIsValid(sourceItem, result)
 end
 
 function Recipe.OnGiveXP.Tailoring20(recipe, ingredients, result, player)
-    player:getXp():AddXP(Perks.Tailoring, 100);
+    player:getXp():AddXP(Perks.Tailoring, 15);
 end
-
 
 Give20TailoringXP = Recipe.OnGiveXP.Tailoring20

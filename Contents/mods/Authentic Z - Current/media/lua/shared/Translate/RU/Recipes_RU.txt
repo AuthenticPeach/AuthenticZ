@@ -34,8 +34,15 @@ Recipes_RU = {
 	Recipe_Upgrade_NBH_Hazmat_Pack = "Улучшить ранец Ранец от РЗК",
 	Recipe_Upgrade_Moms_Backpack = "Улучшить Рюкзак Матери",
 	Recipe_Upgrade_Hollys_Backpack = "Улучшить Рюкзак Холли",	
+	Recipe_Upgrade_Duffelbag = "Улучшить Спортивную сумку",
+	Recipe_Upgrade_Rucksack = "Улучшить Рюкзак",	
 	
 	Recipe_Revert_Attachable = "Сделать Незакрепляемым предметом",
-	Recipe_Reuse_Bag = "Использовать Сумку снова",	
+	Recipe_Reuse_Bag = "Использовать Сумку снова",
+	Recipe_Make_Backpack_Attachable = "Сделать рюкзак Закрепляемым предметом",	
+	
+	Recipe_Upgrade_Evangelos_Backpack = "Улучшить Рюкзак Эванджело",	
+	Recipe_Upgrade_Hoffmans_Backpack = "Улучшить Рюкзак Хоффмана",
+	Recipe_Upgrade_Walkers_Backpack = "Улучшить Рюкзак Уокера",
 	
 	}

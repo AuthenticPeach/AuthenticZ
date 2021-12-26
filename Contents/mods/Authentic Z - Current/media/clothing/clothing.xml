@@ -1272,8 +1272,7 @@
 		</m_items>		
 	</m_FemaleOutfits>	
 	
-	<m_FemaleOutfits>
-		<m_Name>AuthenticBridePink</m_Name>
+<m_FemaleOutfits> <m_Name>AuthenticBridePink</m_Name>
 		<m_Guid>3928dd41-742a-47ff-b00f-7bcd486d84b0</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -1429,10 +1428,9 @@
 				<itemGUID>e28e4564-e853-4876-8ee9-63754e28808c</itemGUID>
 			</subItems>
 		</m_items>
-	</m_FemaleOutfits>						
+</m_FemaleOutfits>						
 
-	<m_FemaleOutfits>
-		<m_Name>AuthenticBridesmate</m_Name>
+<m_FemaleOutfits> <m_Name>AuthenticBridesmate</m_Name>
 		<m_Guid>3c357241-f667-425b-97bd-0614bf8542fc</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -1594,10 +1592,9 @@
 				<itemGUID>e28e4564-e853-4876-8ee9-63754e28808c</itemGUID>
 			</subItems>
 		</m_items>
-	</m_FemaleOutfits>	
+</m_FemaleOutfits>	
 	
-	<m_MaleOutfits>
-		<m_Name>AuthenticBub</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticBub</m_Name>
 		<m_Guid>837eed14-7429-4ecb-a8af-b9bfa5027432</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -1623,7 +1620,7 @@
 		<m_items> <!-- White Zed Skin Man -->
 			<itemGUID>9c87b588-b784-4560-bada-fd4cf7e44d48</itemGUID>
 		</m_items>			
-	</m_MaleOutfits>	
+</m_MaleOutfits>	
 
 	<m_MaleOutfits>
 		<m_Name>AuthenticCEDAHazmatBlack</m_Name>
@@ -1740,8 +1737,7 @@
 		</m_items>		
 	</m_MaleOutfits>
 
-	<m_FemaleOutfits>
-		<m_Name>AuthenticCEDAHazmatGreen</m_Name>
+<m_FemaleOutfits> <m_Name>AuthenticCEDAHazmatGreen</m_Name>
 		<m_Guid>85072ebe-529a-467c-b571-5062de3bbc9f</m_Guid>
 		<m_Pants>false</m_Pants>
 		<m_AllowPantsHue>false</m_AllowPantsHue>
@@ -1761,10 +1757,9 @@
 		<m_items> <!-- Shoes -->
 			<itemGUID>593bea3d-c127-4574-ac1e-2197dc56e486</itemGUID>
 		</m_items>		
-	</m_FemaleOutfits>
+</m_FemaleOutfits>
 
-	<m_MaleOutfits>
-		<m_Name>AuthenticCEDAHazmatRed</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticCEDAHazmatRed</m_Name>
 		<m_Guid>d6b0f9b0-0b87-49e8-b7db-069644859db0</m_Guid>
 		<m_Pants>false</m_Pants>
 		<m_AllowPantsHue>false</m_AllowPantsHue>
@@ -1786,7 +1781,7 @@
 		</m_items>		
 	</m_MaleOutfits>
 
-	<m_FemaleOutfits> <m_Name>AuthenticCEDAHazmatRed</m_Name>
+<m_FemaleOutfits> <m_Name>AuthenticCEDAHazmatRed</m_Name>
 		<m_Guid>d6b0f9b0-0b87-49e8-b7db-069644859db0</m_Guid>
 		<m_Pants>false</m_Pants>
 		<m_AllowPantsHue>false</m_AllowPantsHue>
@@ -1808,7 +1803,7 @@
 		</m_items>		
 	</m_FemaleOutfits>	
 
-	<m_FemaleOutfits> <m_Name>AuthenticChainsawMaid</m_Name>
+<m_FemaleOutfits> <m_Name>AuthenticChainsawMaid</m_Name>
 		<m_Guid>ca3f3ea3-4a27-400f-bd96-a57a975e2a79</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -1833,8 +1828,7 @@
 		</m_items>		
 	</m_FemaleOutfits>	
 	
-	<m_MaleOutfits>
-		<m_Name>AuthenticCharcoal</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticCharcoal</m_Name>
 		<m_Guid>886dcbd7-fd9a-4ddf-962c-2d08eb88630d</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -1843,8 +1837,7 @@
 		</m_items>			
 	</m_MaleOutfits>
 
-	<m_FemaleOutfits>
-		<m_Name>AuthenticCharcoal</m_Name>
+<m_FemaleOutfits> <m_Name>AuthenticCharcoal</m_Name>
 		<m_Guid>886dcbd7-fd9a-4ddf-962c-2d08eb88630d</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -1853,7 +1846,7 @@
 		</m_items>				
 	</m_FemaleOutfits>	
 
-	<m_MaleOutfits> <m_Name>AuthenticCFTDJim</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticCFTDJim</m_Name>
 		<m_Guid>ed9efc12-e143-43de-9307-93a48a6cde67</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -1891,8 +1884,7 @@
 		</m_items>			
 	</m_MaleOutfits>			
 
-	<m_FemaleOutfits>
-		<m_Name>AuthenticCheerleader</m_Name>
+<m_FemaleOutfits> <m_Name>AuthenticCheerleader</m_Name>
 		<m_Guid>67961cdd-c877-4525-837c-50d46856993b</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -1911,8 +1903,7 @@
 		</m_items>
 	</m_FemaleOutfits>
 	
-	<m_FemaleOutfits>
-		<m_Name>AuthenticClementine</m_Name>
+<m_FemaleOutfits> <m_Name>AuthenticClementine</m_Name>
 		<m_Guid>f8561e29-472c-4fe5-b7ef-14cad687cc51</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -1940,8 +1931,7 @@
 		</m_items>		
 	</m_FemaleOutfits>	
 
-	<m_MaleOutfits>
-		<m_Name>AuthenticClown</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticClown</m_Name>
 		<m_Guid>e92ee549-4d10-4ac1-8a8f-61df57d60f33</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -1982,10 +1972,9 @@
 		<m_items> <!-- Clown Nose -->
 			<itemGUID>45a49acf-b95e-4aa3-b842-ea7d37c040db</itemGUID>
 		</m_items>		
-	</m_MaleOutfits>
+</m_MaleOutfits>
 
-	<m_MaleOutfits>
-		<m_Name>AuthenticClownBarotrauma</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticClownBarotrauma</m_Name>
 		<m_Guid>458f0e17-fb25-4328-98d2-11ad20507f19</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -2026,10 +2015,9 @@
 		<m_items> <!-- Clown Nose -->
 			<itemGUID>45a49acf-b95e-4aa3-b842-ea7d37c040db</itemGUID>
 		</m_items>		
-	</m_MaleOutfits>
+</m_MaleOutfits>
 
-	<m_MaleOutfits>
-		<m_Name>AuthenticClownMime</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticClownMime</m_Name>
 		<m_Guid>2ec97789-deb6-492e-98af-1d87012fba3e</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -2061,10 +2049,9 @@
 				<itemGUID>2d8f067c-1e9e-4068-a0a4-f8f718e082f4</itemGUID>
 			</subItems>			
 		</m_items>		
-	</m_MaleOutfits>
+</m_MaleOutfits>
 
-	<m_FemaleOutfits>
-		<m_Name>AuthenticClownMime</m_Name>
+<m_FemaleOutfits> <m_Name>AuthenticClownMime</m_Name>
 		<m_Guid>2ec97789-deb6-492e-98af-1d87012fba3e</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -2100,7 +2087,7 @@
 				<itemGUID>2d8f067c-1e9e-4068-a0a4-f8f718e082f4</itemGUID>
 			</subItems>			
 		</m_items>		
-	</m_FemaleOutfits>	
+</m_FemaleOutfits>	
 
 <m_MaleOutfits> <m_Name>AuthenticClownPennywise</m_Name>
 		<m_Guid>63d20658-2318-4f8f-afda-48d6193023e4</m_Guid>
@@ -2701,8 +2688,7 @@
 		</m_items>
 	</m_MaleOutfits>
 
-	<m_MaleOutfits>
-		<m_Name>AuthenticDayZHeroBleu</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticDayZHeroBleu</m_Name>
 		<m_Guid>d1961a31-7c92-4a79-8647-BleuCan69007</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -2739,10 +2725,9 @@
 			<probability>0.1</probability>		
 			<itemGUID>e5e131ff-bc65-4b94-9bc1-b70e8f99e68d</itemGUID>
 		</m_items>		
-	</m_MaleOutfits>	
+</m_MaleOutfits>	
 
-<m_FemaleOutfits>
-		<m_Name>AuthenticDianneCaldwell</m_Name>
+<m_FemaleOutfits> <m_Name>AuthenticDianneCaldwell</m_Name>
 		<m_Guid>ec1e890d-ab6b-4d56-9434-4b215c51a74e</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>	
@@ -2800,8 +2785,7 @@
 		</m_items>		
 </m_FemaleOutfits>
 
-	<m_MaleOutfits>
-		<m_Name>AuthenticDISamB</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticDISamB</m_Name>
 		<m_Guid>be84d7c7-6755-4354-9b03-03ec7f3b2280</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -2839,10 +2823,9 @@
 		<m_items> <!-- Black Zombie Skin -->
 			<itemGUID>44ee984a-1926-42e9-b9ac-41652dd31426</itemGUID>
 		</m_items>		
-	</m_MaleOutfits>
+</m_MaleOutfits>
 	
-	<m_MaleOutfits>
-		<m_Name>AuthenticDIJohnMorgan</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticDIJohnMorgan</m_Name>
 		<m_Guid>4b0ee787-eae7-45aa-9f0e-ab52934dd14e</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -2874,10 +2857,9 @@
 		<m_items> <!-- White Zed Skin -->
 			<itemGUID>9c87b588-b784-4560-bada-fd4cf7e44d48</itemGUID>
 		</m_items>			
-	</m_MaleOutfits>
+</m_MaleOutfits>
 
-	<m_MaleOutfits>
-		<m_Name>AuthenticDILoganCarter</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticDILoganCarter</m_Name>
 		<m_Guid>caea6238-3ab3-43cf-a4bd-8acbb814855c</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>

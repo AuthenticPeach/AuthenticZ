@@ -674,5 +674,26 @@ ItemName_RU = {
 	ItemName_AuthenticZClothing.Shoes_SlippersBlack = "Черные шлепанцы",	
 	ItemName_AuthenticZClothing.Socks_Long_StockingsBlack = "Черные чулки",
 	ItemName_AuthenticZClothing.Hat_HardHat_Miner2 = "Шахтерская каска",
+	
+	ItemName_AuthenticZClothing.TShirt_RedStriped = "Красная полосатая футболка",
+	ItemName_AuthenticZClothing.Trousers_SuitVeryRed = "Красные штаны",
+	ItemName_AuthenticZClothing.Bag_B4BHoffman_Tier_1 = "Рюкзак Хоффмана - Уровень 1",	
+	ItemName_AuthenticZClothing.Bag_B4BHoffman_Tier_2 = "Рюкзак Хоффмана - Уровень 2",
+	ItemName_AuthenticZClothing.Bag_B4BHoffman_Tier_3 = "Рюкзак Хоффмана - Уровень 3",
+	ItemName_AuthenticZClothing.Bag_B4BEvangelo_Tier_1 = "Рюкзак Эванджело - Уровень 1",	
+	ItemName_AuthenticZClothing.Bag_B4BEvangelo_Tier_2 = "Рюкзак Эванджело - Уровень 2",
+	ItemName_AuthenticZClothing.Bag_B4BEvangelo_Tier_3 = "Рюкзак Эванджело - Уровень 3",
+	ItemName_AuthenticZClothing.Bag_B4BWalker_Tier_1 = "Рюкзак Уокера - Уровень 1",	
+	ItemName_AuthenticZClothing.Bag_B4BWalker_Tier_2 = "Рюкзак Уокера - Уровень 2",
+	ItemName_AuthenticZClothing.Bag_B4BWalker_Tier_3 = "Рюкзак Уокера - Уровень 3",
+	
+	ItemName_AuthenticZClothing.Hat_SummerWhite = "Белая летняя шляпа",
+	ItemName_AuthenticZClothing.Apron_DonutAZ = "Фартук продавца пончиков",
+	ItemName_AuthenticZClothing.DungareesWhite = "Белый комбинезон",	
+	ItemName_AuthenticZClothing.Gloves_LongWomenGlovesWhite = "Белые длинные перчатки",
+	ItemName_AuthenticZClothing.Hat_BaseballCapWhite = "Белая бейсболка",
+	ItemName_AuthenticZClothing.Hat_BaseballCapWhite_Reverse = "Белая бейсболка",
+	ItemName_AuthenticZClothing.Hat_FastFood_Donut = "Шапочка продавца пончиков",
+}
 
 }

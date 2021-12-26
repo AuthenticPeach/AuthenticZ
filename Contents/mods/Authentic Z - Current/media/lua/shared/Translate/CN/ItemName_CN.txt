@@ -632,7 +632,7 @@ ItemName_CN = {
 	ItemName_AuthenticZClothing.Lunchbox2_Secondary = "午餐盒",	
 	ItemName_AuthenticZClothing.PistolCase_Secondary = "手枪箱",
 
-	/* 11-26-21 update */	
+	/* 11-26-21 新增 */	
 	ItemName_AuthenticZClothing.AuthenticCigaretteHolder = "烟杆"
 	ItemName_AuthenticZClothing.Bag_SchoolBagCEDA_Tier_1 = "C.E.D.A危险品背包T1",	
 	ItemName_AuthenticZClothing.Bag_SchoolBagCEDA_Tier_2 = "C.E.D.A危险品背包T2",
@@ -657,7 +657,7 @@ ItemName_CN = {
 	ItemName_AuthenticZClothing.Bag_B4BHolly_Tier_2 = "霍莉的背包T2",
 	ItemName_AuthenticZClothing.Bag_B4BHolly_Tier_3 = "霍莉的背包T3",
 
-	/* 11-30-21 update  */	
+	/* 11-30-21 新增  */	
 	ItemName_AuthenticZClothing.ToyBearSmall = "泰迪熊",	
 	ItemName_AuthenticZClothing.SpiffoGrey = "斯皮福（爪印）",
 	ItemName_AuthenticZClothing.SpiffoPlushieHeart = "斯皮福（爱心）",
@@ -675,10 +675,33 @@ ItemName_CN = {
 	ItemName_AuthenticZClothing.Bag_ARVN_Rucksack_Tier_2 = "ARVN背包T2",
 	ItemName_AuthenticZClothing.Bag_ARVN_Rucksack_Tier_3 = "ARVN背包T3",
 	
-	/* 新增 */
+	/* 12-8-21 新增 */
 	ItemName_AuthenticZClothing.BunnyEars = "兔女郎耳朵",	
 	ItemName_AuthenticZClothing.BunnyTail = "兔女郎尾巴",
 	ItemName_AuthenticZClothing.Bikini_Pattern04 = "兔女郎比基尼",		
 	ItemName_AuthenticZClothing.Shoes_SlippersBlack = "兔女郎拖鞋",	
 	ItemName_AuthenticZClothing.Socks_Long_StockingsBlack = "兔女郎丝袜",
+	ItemName_AuthenticZClothing.Hat_HardHat_Miner2 = "矿工帽",
+
+	/* New */
+	ItemName_AuthenticZClothing.TShirt_RedStriped = "红色条纹T恤",
+	ItemName_AuthenticZClothing.Trousers_SuitVeryRed = "红色长裤",
+	ItemName_AuthenticZClothing.Bag_B4BHoffman_Tier_1 = "霍夫曼的背包T1",	
+	ItemName_AuthenticZClothing.Bag_B4BHoffman_Tier_2 = "霍夫曼的背包T2",
+	ItemName_AuthenticZClothing.Bag_B4BHoffman_Tier_3 = "霍夫曼的背包T3",
+	ItemName_AuthenticZClothing.Bag_B4BEvangelo_Tier_1 = "伊万杰洛的背包T1",	
+	ItemName_AuthenticZClothing.Bag_B4BEvangelo_Tier_2 = "伊万杰洛的背包T2",
+	ItemName_AuthenticZClothing.Bag_B4BEvangelo_Tier_3 = "伊万杰洛的背包T3",
+	ItemName_AuthenticZClothing.Bag_B4BWalker_Tier_1 = "沃尔克的背包T1",	
+	ItemName_AuthenticZClothing.Bag_B4BWalker_Tier_2 = "沃尔克的背包T2",
+	ItemName_AuthenticZClothing.Bag_B4BWalker_Tier_3 = "沃尔克的背包T3",
+
+	ItemName_AuthenticZClothing.Hat_SummerWhite = "白色夏日帽",	
+	ItemName_AuthenticZClothing.Apron_DonutAZ = "甜甜圈店员围裙",
+	ItemName_AuthenticZClothing.DungareesWhite = "白色工作服",	
+	ItemName_AuthenticZClothing.Gloves_LongWomenGlovesWhite = "白色长手套",
+	ItemName_AuthenticZClothing.Hat_BaseballCapWhite = "棒球帽（白色）",
+	ItemName_AuthenticZClothing.Hat_BaseballCapWhite_Reverse = "棒球帽（白色）",
+	ItemName_AuthenticZClothing.Hat_FastFood_Donut = "甜甜圈店员帽",
+
 }
