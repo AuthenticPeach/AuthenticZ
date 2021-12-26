@@ -4357,8 +4357,8 @@ module Base
 
 		attachment BackPack_Alicepack_Tier3Item_Knife
 		{
-			offset = 0.0970 -0.1090 -0.1040,
-			rotate = 84.0000 -43.0000 -9.0000,
+			offset = 0.1200 -0.0970 -0.0080,
+			rotate = -97.0000 41.0000 12.0000,
 			bone = Bip01_BackPack,
 		}
 
