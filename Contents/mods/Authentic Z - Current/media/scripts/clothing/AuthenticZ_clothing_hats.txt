@@ -23,7 +23,7 @@ module AuthenticZClothing {
 		Type = Clothing,
 		DisplayName = Cigar,
 		ClothingItem = CigarAZ,
-		BodyLocation = Hat,
+		BodyLocation = Mask,
 		Icon = CigarAZ,
 		ChanceToFall = 40,
         	Weight = 0.1,
