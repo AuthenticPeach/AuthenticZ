@@ -13,6 +13,10 @@
 		<guid>16960734-6e29-4235-92f9-40bd68cc4520</guid>
 	</files>
 	<files>
+		<path>media/clothing/clothingItems/CigarAZ.xml</path>
+		<guid>bedcafb5-9e55-4d50-a31f-62753e2ef67f</guid>
+	</files>
+	<files>
 		<path>media/clothing/clothingItems/Apron_IceCream.xml</path>
 		<guid>83e43ee3-7f3a-45e9-a0fc-acb9e61e38c3</guid>
 	</files>

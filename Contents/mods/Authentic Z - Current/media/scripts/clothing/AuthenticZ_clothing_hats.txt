@@ -17,6 +17,18 @@ module AuthenticZClothing {
         Weight = 0.5,
 		WorldStaticModel = WorldItem_BunnyEarsBlack,	
     	} 
+	item CigarAZ
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Cigar,
+		ClothingItem = CigarAZ,
+		BodyLocation = Hat,
+		Icon = CigarAZ,
+		ChanceToFall = 40,
+        	Weight = 0.1,
+		WorldStaticModel = WorldItem_CigarAZ,
+    	} 
 	item Hat_AuthenticCrashHelmetFULLDecalBobaFett
 	{
 	    DisplayCategory = Accessory,	

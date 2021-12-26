@@ -5,6 +5,12 @@ module Base
 		mesh = AuthenticAndySign,
 		texture = clothes\Items\AndySign,
 	}
+	model WorldItem_CigarAZ
+    	{
+		mesh = WorldItems/WorldItem_CigarAZ,
+		texture = clothes\Items\CigarAZCuban,
+		scale = 0.01,		
+	}
 	model AuthenticBalloonBlue
 	{
 		mesh = Balloon,
