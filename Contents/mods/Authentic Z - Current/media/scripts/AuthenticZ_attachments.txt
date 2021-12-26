@@ -4218,7 +4218,7 @@ module Base
 		attachment BackPack_Alicepack_Tier1Item_Knife
 		{
 			offset = 0.1430 -0.0020 -0.0040,
-			rotate = -89.0000 0.0000 1.0000,
+			rotate = -89.0000 0.0000 3.0000,
 			bone = Bip01_BackPack,
 		}
 
@@ -4287,8 +4287,8 @@ module Base
 
 		attachment BackPack_Alicepack_Tier2Item_Knife
 		{
-			offset = 0.1090 0.1070 -0.1030,
-			rotate = 95.0000 40.0000 -3.0000,
+			offset = 0.1210 0.1070 -0.0020,
+			rotate = -89.0000 10.0000 5.0000,
 			bone = Bip01_BackPack,
 		}
 
@@ -4427,8 +4427,8 @@ module Base
 
 		attachment BackPack_Alicepack_Tier4Item_Knife
 		{
-			offset = 0.1170 0.1010 0.0430,
-			rotate = 179.0000 36.0000 4.0000,
+			offset = 0.1080 0.0990 0.0380,
+			rotate = 0.0000 -18.0000 -180.0000,
 			bone = Bip01_BackPack,
 		}
 
@@ -4497,8 +4497,8 @@ module Base
 
 		attachment BackPack_Alicepack_Tier5Item_Knife
 		{
-			offset = 0.0700 -0.1000 0.1050,
-			rotate = -1.0000 -26.0000 -3.0000,
+			offset = 0.0890 -0.1040 0.0900,
+			rotate = 0.0000 -26.0000 -2.0000,
 			bone = Bip01_BackPack,
 		}
 
