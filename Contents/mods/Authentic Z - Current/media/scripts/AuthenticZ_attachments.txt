@@ -2054,20 +2054,20 @@ module Base
 			rotate = -90.0000 0.0000 5.0000,
 			bone = Bip01_BackPack,
 		}
-		
+
 		attachment BackPack_Alicepack_Tier1Item_Wrench
 		{
-			offset = 0.1380 -0.0030 -0.1120,
-			rotate = 90.0000 0.0000 1.0000,
+			offset = 0.1240 -0.0050 -0.1350,
+			rotate = -180.0000 81.0000 -90.0000,
 			bone = Bip01_BackPack,
 		}
 
 		attachment BackPack_Alicepack_Tier1Item_Cleaver
 		{
-			offset = 0.1380 -0.0030 -0.1120,
-			rotate = 90.0000 0.0000 1.0000,
+			offset = 0.1240 -0.0070 -0.1120,
+			rotate = 90.0000 0.0000 -6.0000,
 			bone = Bip01_BackPack,
-		}			
+		}
 
 		attachment BackPack_Alicepack_Tier2Item_Rope
 		{
@@ -2138,20 +2138,20 @@ module Base
 			rotate = 93.0000 36.0000 179.0000,
 			bone = Bip01_BackPack,
 		}
-		
+
 		attachment BackPack_Alicepack_Tier2Item_Wrench
 		{
-			offset = 0.1020 0.1010 -0.1030,
-			rotate = 95.0000 34.0000 -2.0000,
+			offset = 0.0960 0.0970 -0.1360,
+			rotate = 73.0000 -65.0000 -18.0000,
 			bone = Bip01_BackPack,
 		}
 
 		attachment BackPack_Alicepack_Tier2Item_Cleaver
 		{
-			offset = 0.1020 0.1010 -0.1030,
-			rotate = 95.0000 34.0000 -2.0000,
+			offset = 0.0980 0.1040 -0.1120,
+			rotate = -87.0000 -13.0000 -173.0000,
 			bone = Bip01_BackPack,
-		}		
+		}
 
 		attachment BackPack_Alicepack_Tier3Item_Rope
 		{
@@ -2222,20 +2222,20 @@ module Base
 			rotate = 79.0000 -43.0000 169.0000,
 			bone = Bip01_BackPack,
 		}
-		
+
 		attachment BackPack_Alicepack_Tier3Item_Wrench
 		{
-			offset = 0.0970 -0.1090 -0.1040,
-			rotate = 84.0000 -43.0000 -9.0000,
+			offset = 0.0900 -0.1110 -0.1380,
+			rotate = 98.0000 45.0000 -12.0000,
 			bone = Bip01_BackPack,
 		}
 
 		attachment BackPack_Alicepack_Tier3Item_Cleaver
 		{
-			offset = 0.0970 -0.1090 -0.1040,
+			offset = 0.0910 -0.1080 -0.1040,
 			rotate = 84.0000 -43.0000 -9.0000,
 			bone = Bip01_BackPack,
-		}		
+		}
 
 		attachment BackPack_Alicepack_Tier4Item_Rope
 		{
@@ -2303,23 +2303,23 @@ module Base
 		attachment BackPack_Alicepack_Tier4Item_Knife
 		{
 			offset = 0.1080 -0.1160 0.0570,
-			rotate = 1.0000 -23.0000 3.0000,
+			rotate = 1.0000 -19.0000 3.0000,
 			bone = Bip01_BackPack,
 		}
-		
+
 		attachment BackPack_Alicepack_Tier4Item_Wrench
 		{
-			offset = 0.1170 0.1010 0.0430,
-			rotate = 179.0000 36.0000 4.0000,
+			offset = 0.0940 0.0990 0.0760,
+			rotate = -3.0000 68.0000 -177.0000,
 			bone = Bip01_BackPack,
 		}
 
 		attachment BackPack_Alicepack_Tier4Item_Cleaver
 		{
-			offset = 0.1170 0.1010 0.0430,
-			rotate = 179.0000 36.0000 4.0000,
+			offset = 0.0850 0.0970 0.0930,
+			rotate = 6.0000 -43.0000 -176.0000,
 			bone = Bip01_BackPack,
-		}		
+		}
 
 		attachment BackPack_Alicepack_Tier5Item_Rope
 		{
@@ -2390,18 +2390,18 @@ module Base
 			rotate = 0.0000 -19.0000 178.0000,
 			bone = Bip01_BackPack,
 		}
-		
+
 		attachment BackPack_Alicepack_Tier5Item_Wrench
 		{
-			offset = 0.0700 -0.1000 0.1050,
-			rotate = -1.0000 -26.0000 -3.0000,
+			offset = 0.0660 -0.1010 0.1130,
+			rotate = 178.0000 -43.0000 178.0000,
 			bone = Bip01_BackPack,
-		}		
+		}
 
 		attachment BackPack_Alicepack_Tier5Item_Cleaver
 		{
-			offset = 0.0700 -0.1000 0.1050,
-			rotate = -1.0000 -26.0000 -3.0000,
+			offset = 0.0490 -0.1020 0.1100,
+			rotate = 0.0000 -60.0000 -4.0000,
 			bone = Bip01_BackPack,
 		}
 
@@ -4292,6 +4292,20 @@ module Base
 			bone = Bip01_BackPack,
 		}
 
+		attachment BackPack_Alicepack_Tier1Item_Wrench
+		{
+			offset = 0.1340 -0.0030 -0.1120,
+			rotate = 180.0000 81.0000 -90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BackPack_Alicepack_Tier1Item_Cleaver
+		{
+			offset = 0.1430 -0.0020 -0.1120,
+			rotate = 90.0000 0.0000 1.0000,
+			bone = Bip01_BackPack,
+		}
+
 		attachment BackPack_Alicepack_Tier2Item_Rope
 		{
 			offset = 0.0920 0.1060 -0.1610,
@@ -4359,6 +4373,20 @@ module Base
 		{
 			offset = 0.1210 0.1070 -0.0020,
 			rotate = -89.0000 10.0000 5.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BackPack_Alicepack_Tier2Item_Wrench
+		{
+			offset = 0.1000 0.1050 -0.1150,
+			rotate = -97.0000 57.0000 -169.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BackPack_Alicepack_Tier2Item_Cleaver
+		{
+			offset = 0.1120 0.1040 -0.1070,
+			rotate = -87.0000 -22.0000 -174.0000,
 			bone = Bip01_BackPack,
 		}
 
@@ -4432,6 +4460,20 @@ module Base
 			bone = Bip01_BackPack,
 		}
 
+		attachment BackPack_Alicepack_Tier3Item_Wrench
+		{
+			offset = 0.0970 -0.1090 -0.1040,
+			rotate = 94.0000 47.0000 -5.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BackPack_Alicepack_Tier3Item_Cleaver
+		{
+			offset = 0.0970 -0.1090 -0.1040,
+			rotate = 84.0000 -43.0000 -9.0000,
+			bone = Bip01_BackPack,
+		}
+
 		attachment BackPack_Alicepack_Tier4Item_Rope
 		{
 			offset = 0.1390 0.0900 -0.0080,
@@ -4502,6 +4544,20 @@ module Base
 			bone = Bip01_BackPack,
 		}
 
+		attachment BackPack_Alicepack_Tier4Item_Wrench
+		{
+			offset = 0.1050 0.0980 0.0770,
+			rotate = 0.0000 87.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BackPack_Alicepack_Tier4Item_Cleaver
+		{
+			offset = 0.1050 0.0920 0.0530,
+			rotate = 0.0000 -23.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
 		attachment BackPack_Alicepack_Tier5Item_Rope
 		{
 			offset = 0.1120 -0.0750 -0.0250,
@@ -4533,7 +4589,7 @@ module Base
 		attachment BackPack_Alicepack_Tier5Item_AuthenticExplosive
 		{
 			offset = 0.1180 -0.0350 0.0190,
-			rotate = -87.0000 -17.0000 156.0000,
+			rotate = -80.0000 -14.0000 -180.0000,
 			bone = Bip01_BackPack,
 		}
 
@@ -4569,6 +4625,20 @@ module Base
 		{
 			offset = 0.0890 -0.1040 0.0900,
 			rotate = 0.0000 -26.0000 -2.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BackPack_Alicepack_Tier5Item_Wrench
+		{
+			offset = 0.0650 -0.1050 0.1100,
+			rotate = -180.0000 -42.0000 178.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BackPack_Alicepack_Tier5Item_Cleaver
+		{
+			offset = 0.0620 -0.1060 0.1090,
+			rotate = 0.0000 -51.0000 -2.0000,
 			bone = Bip01_BackPack,
 		}
 
