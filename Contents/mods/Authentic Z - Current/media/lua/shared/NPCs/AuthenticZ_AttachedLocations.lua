@@ -283,6 +283,8 @@ group:getOrCreateLocation("Alicepack Walkie Slot 1"):setAttachmentName("BackPack
 group:getOrCreateLocation("Alicepack Hammer Slot 1"):setAttachmentName("BackPack_Alicepack_Tier1Item_Hammer")
 group:getOrCreateLocation("Alicepack Screwdriver Slot 1"):setAttachmentName("BackPack_Alicepack_Tier1Item_Screwdriver")
 group:getOrCreateLocation("Alicepack Knife Slot 1"):setAttachmentName("BackPack_Alicepack_Tier1Item_Knife")
+group:getOrCreateLocation("Alicepack Wrench Slot 1"):setAttachmentName("BackPack_Alicepack_Tier1Item_Wrench")
+group:getOrCreateLocation("Alicepack Cleaver Slot 1"):setAttachmentName("BackPack_Alicepack_Tier1Item_Cleaver")
 
 group:getOrCreateLocation("Alicepack Rope Slot 2"):setAttachmentName("BackPack_Alicepack_Tier2Item_Rope")
 group:getOrCreateLocation("Alicepack SheetRope Slot 2"):setAttachmentName("BackPack_Alicepack_Tier2Item_SheetRope")
@@ -293,6 +295,8 @@ group:getOrCreateLocation("Alicepack GasMask Slot 2"):setAttachmentName("BackPac
 group:getOrCreateLocation("Alicepack Hammer Slot 2"):setAttachmentName("BackPack_Alicepack_Tier2Item_Hammer")
 group:getOrCreateLocation("Alicepack Screwdriver Slot 2"):setAttachmentName("BackPack_Alicepack_Tier2Item_Screwdriver")
 group:getOrCreateLocation("Alicepack Knife Slot 2"):setAttachmentName("BackPack_Alicepack_Tier2Item_Knife")
+group:getOrCreateLocation("Alicepack Wrench Slot 2"):setAttachmentName("BackPack_Alicepack_Tier2Item_Wrench")
+group:getOrCreateLocation("Alicepack Cleaver Slot 2"):setAttachmentName("BackPack_Alicepack_Tier2Item_Cleaver")
 
 group:getOrCreateLocation("Alicepack Rope Slot 3"):setAttachmentName("BackPack_Alicepack_Tier3Item_Rope")
 group:getOrCreateLocation("Alicepack SheetRope Slot 3"):setAttachmentName("BackPack_Alicepack_Tier3Item_SheetRope")
@@ -304,6 +308,8 @@ group:getOrCreateLocation("Alicepack Walkie Slot 3"):setAttachmentName("BackPack
 group:getOrCreateLocation("Alicepack Hammer Slot 3"):setAttachmentName("BackPack_Alicepack_Tier3Item_Hammer")
 group:getOrCreateLocation("Alicepack Screwdriver Slot 3"):setAttachmentName("BackPack_Alicepack_Tier3Item_Screwdriver")
 group:getOrCreateLocation("Alicepack Knife Slot 3"):setAttachmentName("BackPack_Alicepack_Tier3Item_Knife")
+group:getOrCreateLocation("Alicepack Wrench Slot 3"):setAttachmentName("BackPack_Alicepack_Tier3Item_Wrench")
+group:getOrCreateLocation("Alicepack Cleaver Slot 3"):setAttachmentName("BackPack_Alicepack_Tier3Item_Cleaver")
 
 group:getOrCreateLocation("Alicepack Rope Slot 4"):setAttachmentName("BackPack_Alicepack_Tier4Item_Rope")
 group:getOrCreateLocation("Alicepack SheetRope Slot 4"):setAttachmentName("BackPack_Alicepack_Tier4Item_SheetRope")
@@ -315,6 +321,8 @@ group:getOrCreateLocation("Alicepack Walkie Slot 4"):setAttachmentName("BackPack
 group:getOrCreateLocation("Alicepack Hammer Slot 4"):setAttachmentName("BackPack_Alicepack_Tier4Item_Hammer")
 group:getOrCreateLocation("Alicepack Screwdriver Slot 4"):setAttachmentName("BackPack_Alicepack_Tier4Item_Screwdriver")
 group:getOrCreateLocation("Alicepack Knife Slot 4"):setAttachmentName("BackPack_Alicepack_Tier4Item_Knife")
+group:getOrCreateLocation("Alicepack Wrench Slot 4"):setAttachmentName("BackPack_Alicepack_Tier4Item_Wrench")
+group:getOrCreateLocation("Alicepack Cleaver Slot 4"):setAttachmentName("BackPack_Alicepack_Tier4Item_Cleaver")
 
 group:getOrCreateLocation("Alicepack Rope Slot 5"):setAttachmentName("BackPack_Alicepack_Tier5Item_Rope")
 group:getOrCreateLocation("Alicepack SheetRope Slot 5"):setAttachmentName("BackPack_Alicepack_Tier5Item_SheetRope")
@@ -326,6 +334,8 @@ group:getOrCreateLocation("Alicepack Walkie Slot 5"):setAttachmentName("BackPack
 group:getOrCreateLocation("Alicepack Hammer Slot 5"):setAttachmentName("BackPack_Alicepack_Tier5Item_Hammer")
 group:getOrCreateLocation("Alicepack Screwdriver Slot 5"):setAttachmentName("BackPack_Alicepack_Tier5Item_Screwdriver")
 group:getOrCreateLocation("Alicepack Knife Slot 5"):setAttachmentName("BackPack_Alicepack_Tier5Item_Knife")
+group:getOrCreateLocation("Alicepack Wrench Slot 5"):setAttachmentName("BackPack_Alicepack_Tier5Item_Wrench")
+group:getOrCreateLocation("Alicepack Cleaver Slot 5"):setAttachmentName("BackPack_Alicepack_Tier5Item_Cleaver")
 
 group:getOrCreateLocation("Alicepack Waterbottle Right"):setAttachmentName("BackPack_Alicepack_Waterbottle_Right")
 group:getOrCreateLocation("Alicepack Canteen Right"):setAttachmentName("BackPack_Alicepack_Canteen_Right")

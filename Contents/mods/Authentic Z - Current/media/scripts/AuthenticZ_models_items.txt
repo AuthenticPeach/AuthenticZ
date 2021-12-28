@@ -5,12 +5,6 @@ module Base
 		mesh = AuthenticAndySign,
 		texture = clothes\Items\AndySign,
 	}
-	model WorldItem_CigarAZ
-    	{
-		mesh = WorldItems/WorldItem_CigarAZ,
-		texture = clothes\Items\CigarAZCuban,
-		scale = 0.01,		
-	}
 	model AuthenticBalloonBlue
 	{
 		mesh = Balloon,
@@ -553,35 +547,41 @@ module Base
 		mesh = FlashLight,
 		texture = clothes\Items\FlashLightBlue,		
 	}
-	model WorldItem_FreddyClaw
-    {
-		mesh = Static/Clothes/WorldItem-FreddyClaw,
-		texture = clothes\Gloves\FreddyKruegerGlove,
-    }
-	model WorldItem_DimitrescuRose
-    {
-		mesh = Static/Clothes/WorldItem-DimitrescuRose,
-		texture = clothes\Items\DimitrescuRose,
-    }
-	model WorldItem_HeadPhones
-	{
-		mesh = WorldItems/HeadPhones,
-		scale = 0.4,
-	}
-	model WorldItem-StovePipeHat
-    {
-		mesh =  WorldItems/WorldItem_StovePipeHat,
-		texture = clothes\Hats\StovePipeHat,
-    }
+	model WorldItem_CigarAZ
+    	{
+		mesh = MC Models/WorldItems/WorldItem_CigarAZ,
+		texture = clothes\Items\CigarAZCuban,
+		scale = 0.01,		
+	}	
 	model WorldItem-DSLR
     {
 		mesh = Static/Clothes/WorldItem_DSLR,
 		texture = clothes\Items\Camera,
     }
+	model WorldItem_DimitrescuRose
+    {
+		mesh = Static/Clothes/WorldItem-DimitrescuRose,
+		texture = clothes\Items\DimitrescuRose,
+    }	
+	model WorldItem_FreddyClaw
+    {
+		mesh = Static/Clothes/WorldItem-FreddyClaw,
+		texture = clothes\Gloves\FreddyKruegerGlove,
+    }	
+	model WorldItem_HeadPhones
+	{
+		mesh = WorldItems/HeadPhones,
+		scale = 0.4,
+	}	
 	model WorldItem-PillBottle
     {
 		mesh = WorldItems/WorldItem_AuthenticPillBottle,
 		texture = clothes\Items\AuthenticPillBottle,
+    }	
+	model WorldItem-StovePipeHat
+    {
+		mesh =  WorldItems/WorldItem_StovePipeHat,
+		texture = clothes\Hats\StovePipeHat,
     }	
 	model WorldItem-TrueEyeCult
     {
