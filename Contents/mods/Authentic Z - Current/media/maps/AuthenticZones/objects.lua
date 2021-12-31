@@ -4,7 +4,7 @@ objects = {
   { name = "Airfield2", type = "ZombiesType", x = 12861, y = 6300, z = 0, width = 19, height = 139 }, 
 --  { name = "BacktotheFutureIII", type = "ZombiesType", x = 11670, y = 9880, z = 0, width = 70, height = 100 },
   { name = "CampBlood2", type = "ZombiesType", x = 4625, y = 7800, z = 0, width = 105, height = 296 },
-  { name = "CampBlood2", type = "ZombiesType", x = 4603, y = 8550, z = 0, width = 91, height = 112 },   
+  { name = "Cultists", type = "ZombiesType", x = 4603, y = 8550, z = 0, width = 91, height = 112 },   
   { name = "CampBlood2", type = "ZombiesType", x = 4880, y = 7910, z = 0, width = 143, height = 97 },   
   { name = "CrossroadsMall", type = "ZombiesType", x = 13872, y = 5788, z = 0, width = 111, height = 153},   
   { name = "CrossroadsMall", type = "ZombiesType", x = 13905, y = 5895, z = 0, width = 64, height = 22},   
@@ -29,7 +29,7 @@ objects = {
   { name = "IceCream", type = "ZombiesType", x = 13648, y = 5773, z = 0, width = 17, height = 17},
   { name = "MovieNight2", type = "ZombiesType", x = 13569, y = 5854, z = 0, width = 77, height = 72},
   { name = "Pony", type = "ZombiesType", x = 8530, y = 8440, z = 0, width = 135, height = 144},
-  { name = "SpeakingEvent", type = "ZombiesType", x = 11926, y = 6856, z = 13, width = 135, height = 39},--Westpoint Meeting room
+  { name = "SpeakingEvent", type = "ZombiesType", x = 11926, y = 6856, z = 0, width = 135, height = 39},--Westpoint Meeting room
   { name = "Spiffos", type = "ZombiesType", x = 13870, y = 5750, z = 0, width = 16, height = 30},
   { name = "ParkPlaza", type = "ZombiesType", x = 11777, y = 6904, z = 0, width = 30, height = 35},
   { name = "ParkPlaza", type = "ZombiesType", x = 7392, y = 8325, z = 0, width = 20, height = 20},
@@ -40,7 +40,7 @@ objects = {
   { name = "Studio", type = "ZombiesType", x = 6545, y = 5194, z = 0, width = 57, height = 57},
   { name = "Psycho2", type = "ZombiesType", x = 3835, y = 6162, z = 0, width = 40, height = 68},
   { name = "TattooShop", type = "ZombiesType", x = 10615, y = 10153, z = 0, width = 5, height = 10},--Muldraugh
-  { name = "TheDregs", type = "ZombiesType", x = 3835, y = 10001, z = 0, width = 70, height = 100},
+  { name = "TheDregs", type = "ZombiesType", x = 11559, y = 10001, z = 0, width = 70, height = 100},
   
 --LV Locations  
   { name = "AnthraxBurned", type = "ZombiesType", x = 12694, y = 3979, z = 0, width = 72, height = 36},
@@ -74,6 +74,8 @@ objects = {
   { name = "Spa", type = "ZombiesType", x = 12746, y = 1246, z = 0, width = 38, height = 35}, 
   { name = "LBMWStationHQ", type = "ZombiesType", x = 12309, y = 2038, z = 0, width = 63, height = 45}, 
   { name = "LBMWRadioHQ", type = "ZombiesType", x = 12462, y = 1754, z = 0, width = 31, height = 33}, 
+  { name = "3NewNowNetwork", type = "ZombiesType", x = 12630, y = 1883, z = 0, width = 29, height = 60}, 
+  { name = "RomeroTheater", type = "ZombiesType", x = 12515, y = 1726, z = 0, width = 31, height = 59}, 
   
   { name = "ParkPlaza", type = "ZombiesType", x = 12543, y = 1094, z = 0, width = 13, height = 54},
   { name = "ParkPlaza", type = "ZombiesType", x = 12714, y = 1429, z = 0, width = 32, height = 34},
