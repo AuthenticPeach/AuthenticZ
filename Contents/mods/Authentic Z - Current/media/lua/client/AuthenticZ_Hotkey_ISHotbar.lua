@@ -11,6 +11,42 @@ function ISHotbar:getSlotForKey(key)
 	if key == getCore():getKey("Hotbar 8") then return 8; end
 	if key == getCore():getKey("Hotbar 9") then return 9; end
 	if key == getCore():getKey("Hotbar 10") then return 0; end
+	if key == getCore():getKey("Hotbar 11") then return 11; end
+	if key == getCore():getKey("Hotbar 12") then return 12; end
 
 	return -1
 end
+
+local bind = {};
+bind.value = "[SlingBindings]";
+table.insert(keyBinding, bind);
+
+bind = {};
+bind.value = "Hotbar 6";
+bind.key = Keyboard.KEY_6;
+table.insert(keyBinding, bind);
+
+bind = {};
+bind.value = "Hotbar 7";
+bind.key = Keyboard.KEY_7;
+table.insert(keyBinding, bind);
+
+bind = {};
+bind.value = "Hotbar 8";
+bind.key = Keyboard.KEY_8;
+table.insert(keyBinding, bind);
+
+bind = {};
+bind.value = "Hotbar 9";
+bind.key = Keyboard.KEY_9;
+table.insert(keyBinding, bind);
+
+bind = {};
+bind.value = "Hotbar 10";
+bind.key = Keyboard.KEY_0;
+table.insert(keyBinding, bind);
+
+bind = {};
+bind.value = "Hotbar 11";
+bind.key = Keyboard.KEY_P;
+table.insert(keyBinding, bind);

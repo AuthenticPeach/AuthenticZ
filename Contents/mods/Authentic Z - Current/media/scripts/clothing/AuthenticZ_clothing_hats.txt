@@ -731,8 +731,7 @@ module AuthenticZClothing {
         ChanceToFall = 80,
         Insulation = 0.3,
         BloodLocation = Head,
-        Weight = 0.5,
-		WorldStaticModel = Boater_Ground,			
+        Weight = 0.5,		
     }		
 	item Hat_Boater_Blue
 	{

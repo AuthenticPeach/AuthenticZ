@@ -13,10 +13,6 @@
 		<guid>16960734-6e29-4235-92f9-40bd68cc4520</guid>
 	</files>
 	<files>
-		<path>media/clothing/clothingItems/CigarAZ.xml</path>
-		<guid>bedcafb5-9e55-4d50-a31f-62753e2ef67f</guid>
-	</files>
-	<files>
 		<path>media/clothing/clothingItems/Apron_IceCream.xml</path>
 		<guid>83e43ee3-7f3a-45e9-a0fc-acb9e61e38c3</guid>
 	</files>
@@ -3902,6 +3898,10 @@
 	<files>
 		<path>media/clothing/clothingItems/Cigarette.xml</path>
 		<guid>410485f1-a2d9-4936-bc38-2deb0c9d0ec5</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/CigarAZ.xml</path>
+		<guid>bedcafb5-9e55-4d50-a31f-62753e2ef67f</guid>
 	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Clown_Coveralls.xml</path>
@@ -5655,6 +5655,18 @@
 		<path>media/clothing/clothingItems/Vest_BulletKilla.xml</path>
 		<guid>48cd4891-d895-48a8-8410-3ecef5c158bb</guid>
 	</files>
+	<files>
+		<path>media/clothing/clothingItems/Vest_BulletTV110_Bag.xml</path>
+		<guid>ac9fb065-c5fc-4d7a-ab7f-39717d2a5a0e</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Vest_BulletTV110_BulletVest.xml</path>
+		<guid>07c41d42-17e7-43ec-8317-cb6abb544e5e</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Vest_BulletTV110_Radio.xml</path>
+		<guid>2a045124-6692-4d4c-bef1-efb59fd2ef0d</guid>
+	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Vest_Hunting_Wally.xml</path>
 		<guid>082c8db4-91db-4f83-83e4-4083aff9e590</guid>

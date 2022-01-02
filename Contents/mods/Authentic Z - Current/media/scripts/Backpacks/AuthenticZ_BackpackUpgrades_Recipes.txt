@@ -933,7 +933,7 @@ recipe Tie Balloons Together
         ReplaceInPrimaryHand 	= 	Bag_Plasticbag_RHand holdingbagright,
         WorldStaticModel 		= 	PlasticBag_Ground,
         AttachmentType  		= 	Plasticbag,	
-		StaticModel 			= 	PlasticBag_Ground,		
+		StaticModel 			= 	PlasticBag_Ground,
     }
 	item Garbagebag_Secondary
     {

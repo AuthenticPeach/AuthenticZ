@@ -2,4 +2,8 @@ ContextMenu_EN = {
 	ContextMenu_Loosen = "Loosen",
 	ContextMenu_Tighten = "Tighten",
 	ContextMenu_TieOnWaist = "Tie Around Waist",
+	
+	ContextMenu_VestBag = "Use as Bag",
+	ContextMenu_VestBullet = "Use as Bullet Proof Vest",
+	ContextMenu_VestRadio = "Use as Radio",
 } 

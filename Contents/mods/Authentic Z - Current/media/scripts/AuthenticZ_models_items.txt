@@ -167,7 +167,7 @@ module Base
 	{
 		mesh = AuthenticSmokeGrenade,
 		texture = clothes\Items\AuthenticSmokeGrenade,
-	}
+	}	
 	model AuthenticWalkingCane
 	{
 		mesh = Weapons/2Handed/AuthenticWalkingCane,
@@ -587,7 +587,15 @@ module Base
     {
 		mesh = WorldItems/WorldItem_TrueEyeCultMask,
 		texture = clothes\Masks\TrueEyeCult,
-    }	
+    }
+	model WorldItem-AuthenticTV110_Mag
+	{
+		mesh = WorldItems/WorldItem_AZ_TV110_Mag,
+	}
+	model WorldItem-AuthenticTV110_Bag
+	{
+		mesh = WorldItems/WorldItem_AZ_TV110_Bag,
+	}	
 	model SheetRopeAZ
 	{
 		mesh = SheetRopeAZ,
