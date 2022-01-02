@@ -854,10 +854,10 @@
     item Vest_BulletTV110_Radio
     {
         DisplayCategory 		= 	Communications,	
-        Type 					= 	Clothing,
+        Type 					= 	Radio,
         DisplayName 			= 	TV-110 Bulletproof Vest (Radio),
+		IconsForTexture 		= 	TV110Desert;TV110Camo;TV110Urban,		
         ClothingItem 			= 	Vest_BulletTV110_Radio,	
-		IconsForTexture 		= 	TV110Desert;TV110Camo;TV110Urban,
 		Weight          		= 	1.0,		
         BodyLocation 			= 	TorsoExtra,
         CanBeEquipped 			= 	TorsoExtra,		
