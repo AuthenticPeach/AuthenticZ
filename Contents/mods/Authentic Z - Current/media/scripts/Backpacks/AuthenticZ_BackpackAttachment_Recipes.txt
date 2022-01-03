@@ -298,7 +298,207 @@ recipe Revert Attachable
    	   Result:PipeBomb,
 	   Time:30.0,
 	   Tooltip:Tooltip_AttachBackpackRevert,
+  	}
+recipe Revert Attachable
+  	{
+   	   AuthenticZClothing.Aerosolbomb,
+
+   	   Result:Aerosolbomb,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpackRevert,
   	}	
+recipe Revert Attachable
+  	{
+   	   AuthenticZClothing.AerosolbombTriggered,
+
+   	   Result:AerosolbombTriggered,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpackRevert,
+  	}	
+recipe Revert Attachable
+  	{
+   	   AuthenticZClothing.PipeBomb,
+
+   	   Result:PipeBomb,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpackRevert,
+  	}
+recipe Revert Attachable
+  	{
+   	   AuthenticZClothing.PipeBombTriggered,
+
+   	   Result:PipeBombTriggered,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpackRevert,
+  	}
+recipe Revert Attachable
+  	{
+   	   AuthenticZClothing.PipeBombSensorV1,
+
+   	   Result:PipeBombSensorV1,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpackRevert,
+  	}
+recipe Revert Attachable
+  	{
+   	   AuthenticZClothing.PipeBombSensorV2,
+
+   	   Result:PipeBombSensorV2,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpackRevert,
+  	}
+recipe Revert Attachable
+  	{
+   	   AuthenticZClothing.PipeBombSensorV3,
+
+   	   Result:PipeBombSensorV3,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpackRevert,
+  	}
+recipe Revert Attachable
+  	{
+   	   AuthenticZClothing.PipeBombRemote,
+
+   	   Result:PipeBombRemote,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpackRevert,
+  	}	
+recipe Revert Attachable
+  	{
+   	   AuthenticZClothing.AerosolbombSensorV1,
+
+   	   Result:AerosolbombSensorV1,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpackRevert,
+  	}	
+recipe Revert Attachable
+  	{
+   	   AuthenticZClothing.AerosolbombSensorV2,
+
+   	   Result:AerosolbombSensorV2,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpackRevert,
+  	}		
+	recipe Revert Attachable
+  	{
+   	   AuthenticZClothing.AerosolbombSensorV3,
+
+   	   Result:AerosolbombSensorV3,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpackRevert,
+  	}	
+	recipe Revert Attachable
+  	{
+   	   AuthenticZClothing.AerosolbombRemote,
+
+   	   Result:AerosolbombRemote,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpackRevert,
+  	}	
+	recipe Revert Attachable
+  	{
+   	   AuthenticZClothing.FlameTrap,
+
+   	   Result:FlameTrap,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpackRevert,
+  	}
+	recipe Revert Attachable
+  	{
+   	   AuthenticZClothing.FlameTrapTriggered,
+
+   	   Result:FlameTrapTriggered,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpackRevert,
+  	}	
+	recipe Revert Attachable
+  	{
+   	   AuthenticZClothing.FlameTrapSensorV1,
+
+   	   Result:FlameTrapSensorV1,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpackRevert,
+  	}	
+	recipe Revert Attachable
+  	{
+   	   AuthenticZClothing.FlameTrapSensorV2,
+
+   	   Result:FlameTrapSensorV2,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpackRevert,
+  	}
+	recipe Revert Attachable
+  	{
+   	   AuthenticZClothing.FlameTrapSensorV3,
+
+   	   Result:FlameTrapSensorV3,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpackRevert,
+  	}
+	recipe Revert Attachable
+  	{
+   	   AuthenticZClothing.FlameTrapRemote,
+
+   	   Result:FlameTrapRemote,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpackRevert,
+  	}	
+	recipe Revert Attachable
+  	{
+   	   AuthenticZClothing.SmokeBomb,
+
+   	   Result:SmokeBomb,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpackRevert,
+  	}	
+	recipe Revert Attachable
+  	{
+   	   AuthenticZClothing.SmokeBombRemote,
+
+   	   Result:SmokeBombRemote,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpackRevert,
+  	}	
+	recipe Revert Attachable
+  	{
+   	   AuthenticZClothing.SmokeBombSensorV1,
+
+   	   Result:SmokeBombSensorV1,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpackRevert,
+  	}	
+	recipe Revert Attachable
+  	{
+   	   AuthenticZClothing.SmokeBombSensorV2,
+
+   	   Result:SmokeBombSensorV2,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpackRevert,
+  	}
+	recipe Revert Attachable
+  	{
+   	   AuthenticZClothing.SmokeBombSensorV3,
+
+   	   Result:SmokeBombSensorV3,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpackRevert,
+  	}	
+	recipe Revert Attachable
+  	{
+   	   AuthenticZClothing.SmokeBombTriggered,
+
+   	   Result:SmokeBombTriggered,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpackRevert,
+  	}
+	recipe Revert Attachable
+  	{
+   	   AuthenticZClothing.Molotov,
+
+   	   Result:Molotov,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpackRevert,
+  	}		
 recipe Make Backpack Attachable
   	{
    	   Base.PopBottleEmpty,

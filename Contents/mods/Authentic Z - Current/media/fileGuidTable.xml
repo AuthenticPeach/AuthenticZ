@@ -5074,6 +5074,10 @@
 	<files>	
 		<path>media/clothing/clothingItems/Shoes_SlippersBlack.xml</path>
 		<guid>1e72e453-5882-42d4-b3d4-794c3482db5e</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/Shoes_TrainersAZ.xml</path>
+		<guid>9150e7da-a78d-4988-a799-e06bff2dae4a</guid>
 	</files>	
 	<files>	
 		<path>media/clothing/clothingItems/Shoes_TrainerWhite.xml</path>

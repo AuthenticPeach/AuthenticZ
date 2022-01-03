@@ -10,9 +10,12 @@ function ISHotbar:getSlotForKey(key)
 	if key == getCore():getKey("Hotbar 7") then return 7; end
 	if key == getCore():getKey("Hotbar 8") then return 8; end
 	if key == getCore():getKey("Hotbar 9") then return 9; end
-	if key == getCore():getKey("Hotbar 10") then return 0; end
+	if key == getCore():getKey("Hotbar 10") then return 10; end
 	if key == getCore():getKey("Hotbar 11") then return 11; end
 	if key == getCore():getKey("Hotbar 12") then return 12; end
+	if key == getCore():getKey("Hotbar 13") then return 13; end	
+	if key == getCore():getKey("Hotbar 14") then return 14; end	
+	if key == getCore():getKey("Hotbar 15") then return 15; end	
 
 	return -1
 end
@@ -48,5 +51,50 @@ table.insert(keyBinding, bind);
 
 bind = {};
 bind.value = "Hotbar 11";
-bind.key = Keyboard.KEY_P;
+bind.key = 65;
+table.insert(keyBinding, bind);
+
+bind = {};
+bind.value = "Hotbar 12";
+bind.key = 66;
+table.insert(keyBinding, bind);
+
+bind = {};
+bind.value = "Hotbar 13";
+bind.key = 67;
+table.insert(keyBinding, bind);
+
+bind = {};
+bind.value = "Hotbar 14";
+bind.key = 68;
+table.insert(keyBinding, bind);
+
+bind = {};
+bind.value = "Hotbar 15";
+bind.key = 69;
+table.insert(keyBinding, bind);
+
+bind = {};
+bind.value = "Hotbar 16";
+bind.key = 70;
+table.insert(keyBinding, bind);
+
+bind = {};
+bind.value = "Hotbar 17";
+bind.key = 71;
+table.insert(keyBinding, bind);
+
+bind = {};
+bind.value = "Hotbar 18";
+bind.key = 72;
+table.insert(keyBinding, bind);
+
+bind = {};
+bind.value = "Hotbar 19";
+bind.key = 73;
+table.insert(keyBinding, bind);
+
+bind = {};
+bind.value = "Hotbar 20";
+bind.key = 74;
 table.insert(keyBinding, bind);

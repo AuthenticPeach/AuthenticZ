@@ -595,7 +595,15 @@ module Base
 	model WorldItem-AuthenticTV110_Bag
 	{
 		mesh = WorldItems/WorldItem_AZ_TV110_Bag,
-	}	
+	}
+	model WorldItem-AuthenticTV110_BagRadio
+	{
+		mesh = WorldItems/WorldItem_AZ_TV110_BagRadio,
+	}
+	model WorldItem-AuthenticTV110_MagRadio
+	{
+		mesh = WorldItems/WorldItem_AZ_TV110_MagRadio,
+	}		
 	model SheetRopeAZ
 	{
 		mesh = SheetRopeAZ,

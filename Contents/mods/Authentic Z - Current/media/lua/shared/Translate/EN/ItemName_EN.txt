@@ -680,7 +680,7 @@ ItemName_EN = {
 	ItemName_AuthenticZClothing.Hat_HardHat_Miner2 = "Mining Helmet",
 
 
-	/* New */
+	/* 12-26-21 */
 	ItemName_AuthenticZClothing.TShirt_RedStriped = "Red Striped T-Shirt",
 	ItemName_AuthenticZClothing.Trousers_SuitVeryRed = "Red Trousers",
 	ItemName_AuthenticZClothing.Bag_B4BHoffman_Tier_1 = "Hoffman's Backpack - Tier 1",	
@@ -700,4 +700,13 @@ ItemName_EN = {
 	ItemName_AuthenticZClothing.Hat_BaseballCapWhite = "White Baseball Cap",
 	ItemName_AuthenticZClothing.Hat_BaseballCapWhite_Reverse = "White Baseball Cap",
 	ItemName_AuthenticZClothing.Hat_FastFood_Donut = "Donut Server Hat",
+	
+	/* New */
+	ItemName_AuthenticZClothing.Shoes_TrainersAZ = "High Top Sneakers",
+	ItemName_AuthenticZClothing.Hat_FootballHelmet_BlueStar = "Football Helmet",
+	ItemName_AuthenticZClothing.Hat_FootballHelmet_Chiefs = "Chiefs Football Helmet",
+	ItemName_AuthenticZClothing.Hat_FootballHelmet_Packers = "Packers Football Helmet",
+	ItemName_AuthenticZClothing.Hat_FootballHelmet_RedSkull = "Football Helmet",
+	ItemName_AuthenticZClothing.Hat_FootballHelmet_Patriots = "Patriots Football Helmet",
+	
 }

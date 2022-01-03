@@ -823,7 +823,7 @@
         BodyLocation 			= 	TorsoExtra,
 		IconsForTexture 		= 	TV110Desert;TV110Camo;TV110Urban,
         WeightReduction			=	66,
-        Weight					=	0.2,
+        Weight					=	1.0,
         Capacity				=	3,
         OpenSound   			=   OpenBag,
         CloseSound   			=   CloseBag,
@@ -851,34 +851,43 @@
         WorldStaticModel 		= WorldItem-AuthenticTV110_Bag,	        
 		ClothingItem 			= Vest_BulletTV110_BulletVest,
     }
-    item Vest_BulletTV110_Radio
+    item Vest_BulletTV110_Bag_Radio
     {
-        DisplayCategory 		= 	Communications,	
-        Type 					= 	Radio,
-        DisplayName 			= 	TV-110 Bulletproof Vest (Radio),
-		IconsForTexture 		= 	TV110Desert;TV110Camo;TV110Urban,		
-        ClothingItem 			= 	Vest_BulletTV110_Radio,	
-		Weight          		= 	1.0,		
-        BodyLocation 			= 	TorsoExtra,
-        CanBeEquipped 			= 	TorsoExtra,		
-        BloodLocation 			=	ShirtNoSleeves,
-		
-		UseDelta				= 	0.014, 
-		UseWhileEquipped		= 	FALSE,
-		DisappearOnUse			= 	FALSE,
-		TwoWay					= 	TRUE,
-		TransmitRange			= 	16000,
-		MicRange				=	5,
-		BaseVolumeRange			= 	16,
+        DisplayCategory 		= 	Bag,	
+        Type 					= 	Container,
+        DisplayName 			= 	TV-110 Bulletproof Vest (Bag),
+        ClothingItem 			= 	Vest_BulletTV110_Bag,
 
-		IsPortable				= 	TRUE,
-		IsTelevision			= 	FALSE,
-		MinChannel				= 	200,
-		MaxChannel				= 	1000000,
-		UsesBattery				= 	TRUE,
-		IsHighTier				=	TRUE,		
-		Tooltip 				= 	Tooltip_item_Radio,
-        WorldStaticModel	 	= 	WorldItem-AuthenticTV110_Bag,		
+        BodyLocation 			= 	TorsoExtra,
+		IconsForTexture 		= 	TV110Desert;TV110Camo;TV110Urban,
+        WeightReduction			=	66,
+        Weight					=	0.2,
+        Capacity				=	3,
+        OpenSound   			=   OpenBag,
+        CloseSound   			=   CloseBag,
+        PutInSound   			=   PutItemInBag,
+        CanBeEquipped 			= 	TorsoExtra,	
+        RunSpeedModifier 		= 	0.98,			
+        WorldStaticModel 		= 	WorldItem-AuthenticTV110_Mag,       	
+    }
+    item Vest_BulletTV110_BulletVest_Radio
+    {
+        DisplayCategory 		= Clothing,	
+        Type 					= Clothing,
+        DisplayName 			= TV-110 Bulletproof Vest (Armor),
+
+        ClothingItemExtraOption = VestBag,
+        clothingExtraSubmenu 	= VestBullet,			
+        BodyLocation 			= TorsoExtra,
+		IconsForTexture 		= TV110Desert;TV110Camo;TV110Urban,
+        BloodLocation 			= ShirtNoSleeves,
+        Insulation 				= 0.65,
+        WindResistance 			= 0.30,
+        BiteDefense 			= 30,
+        ScratchDefense 			= 55,
+        BulletDefense 			= 100,		
+        WorldStaticModel 		= WorldItem-AuthenticTV110_Bag,	        
+		ClothingItem 			= Vest_BulletTV110_BulletVest,
     }	
     item Vest_Hunting_Beige
     {
