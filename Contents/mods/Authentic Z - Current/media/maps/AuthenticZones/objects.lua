@@ -97,4 +97,7 @@ objects = {
   { name = "CrossroadsMall", type = "ZombiesType", x = 13512, y = 1257, z = 2, width = 113, height = 148},
   { name = "CrossroadsMallFoodCourt", type = "ZombiesType", x = 13626, y = 1281, z = 0, width = 48, height = 32}, 
   
+  
+  { name = "AZCostumeShop", type = "LootZone", x = 12566, y = 1320, z = 0, width = 19, height = 19}, --Costume Shop in LV (90s shop)
+  
 }
