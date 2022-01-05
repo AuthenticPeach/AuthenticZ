@@ -195,7 +195,6 @@ AttachedWeaponDefinitions.PaintBrush= {
 		"AuthenticZClothing.Authentic_Paintbrush",
 	},
 }
-
 AttachedWeaponDefinitions.PaintBrush2= {
 	id = "Paintbrush2",
 	chance = 100,
@@ -289,10 +288,10 @@ AttachedWeaponDefinitions.revolverTF2Spy = {
 	},
 }
 -- random weapon on police zombies holster
-AttachedWeaponDefinitions.handgunHolster = {
-	id = "handgunHolster",
+AttachedWeaponDefinitions.handgunHolsterAZ = {
+	id = "handgunHolsterAZ",
 	chance = 50,
-	outfit = {"Police", "PoliceState", "PoliceRiot", "PrisonGuard", "PrivateMilitia","AuthenticSurvivorHazardSuit", "AuthenticSecretService", "AuthenticSurvivorPolice", "AuthenticSurvivorRanger", "AuthenticBillyChumpez", "AuthenticBankRobber", "AuthenticDawnoftheDead", "AuthenticLeonKennedy"},
+	outfit = {"AuthenticSurvivorHazardSuit", "AuthenticSecretService", "AuthenticSurvivorPolice", "AuthenticSurvivorRanger", "AuthenticBillyChumpez", "AuthenticBankRobber", "AuthenticDawnoftheDead", "AuthenticLeonKennedy"},
 	weaponLocation =  {"Holster Right"},
 	bloodLocations = nil,
 	addHoles = false,
@@ -309,10 +308,10 @@ AttachedWeaponDefinitions.handgunHolster = {
 }
 
 -- shotgun on police's back
-AttachedWeaponDefinitions.shotgunPolice = {
-	id = "shotgunPolice",
+AttachedWeaponDefinitions.shotgunPoliceAZ = {
+	id = "shotgunPoliceAZ",
 	chance = 20,
-	outfit = {"Police", "PoliceState", "PoliceRiot", "PrivateMilitia","AuthenticSurvivorHazardSuit", "AuthenticSurvivorPolice", "AuthenticSurvivorRanger", "AuthenticDawnoftheDead", "AuthenticFrancis", "AuthenticEllis", "AuthenticCoach", "AuthenticNateAnderson", "AuthenticTheyLive", "AuthenticLeonKennedy"},
+	outfit = {"AuthenticSurvivorHazardSuit", "AuthenticSurvivorPolice", "AuthenticSurvivorRanger", "AuthenticDawnoftheDead", "AuthenticFrancis", "AuthenticEllis", "AuthenticCoach", "AuthenticNateAnderson", "AuthenticTheyLive", "AuthenticLeonKennedy"},
 	weaponLocation =  {"Rifle On Back"},
 	bloodLocations = nil,
 	addHoles = false,
@@ -323,10 +322,10 @@ AttachedWeaponDefinitions.shotgunPolice = {
 }
 
 -- assault rifle on back
-AttachedWeaponDefinitions.assaultRifleOnBack = {
-	id = "assaultRifleOnBack",
+AttachedWeaponDefinitions.HazardassaultRifleOnBack = {
+	id = "HazardassaultRifleOnBack",
 	chance = 20,
-	outfit = {"PrivateMilitia","AuthenticSurvivorHazardSuit"},
+	outfit = {"AuthenticSurvivorHazardSuit"},
 	weaponLocation =  {"Rifle On Back"},
 	bloodLocations = nil,
 	addHoles = false,
@@ -353,10 +352,10 @@ AttachedWeaponDefinitions.SnowGhillie = {
 }
 
 -- varmint/hunting rifle on back
-AttachedWeaponDefinitions.huntingRifleOnBack = {
-	id = "huntingRifleOnBack",
+AttachedWeaponDefinitions.HazardSuitRifle = {
+	id = "HazardSuitRifle",
 	chance = 30,
-	outfit = {"PrivateMilitia", "AuthenticSurvivorHazardSuit"},
+	outfit = {"AuthenticSurvivorHazardSuit", "HazardSuitRifle"},
 	weaponLocation =  {"Rifle On Back"},
 	bloodLocations = nil,
 	addHoles = false,
@@ -368,9 +367,10 @@ AttachedWeaponDefinitions.huntingRifleOnBack = {
 }
 
 -- random construction tools on construction worker
-AttachedWeaponDefinitions.constructionWorker = {
+AttachedWeaponDefinitions.HammerTime = {
+	id = "HammerTime",
 	chance = 80,
-	outfit = {"ConstructionWorker", "Foreman","AuthenticSurvivorHazardSuit", "AuthenticSurvivorPolice", "AuthenticSurvivorRanger"},
+	outfit = {"AuthenticSurvivorHazardSuit", "AuthenticSurvivorPolice", "AuthenticSurvivorRanger"},
 	weaponLocation = {"Belt Left", "Belt Right"},
 	bloodLocations = nil,
 	addHoles = false,
@@ -384,9 +384,9 @@ AttachedWeaponDefinitions.constructionWorker = {
 }
 
 -- screwdriver on construction worker
-AttachedWeaponDefinitions.constructionWorkerScrewdriver = {
+AttachedWeaponDefinitions.constructionWorkerScrewdriver2 = {
 	chance = 80,
-	outfit = {"ConstructionWorker", "Foreman", "AuthenticNateAnderson"},
+	outfit = {"AuthenticNateAnderson"},
 	weaponLocation = {"Belt Left Screwdriver", "Belt Right Screwdriver"},
 	bloodLocations = nil,
 	addHoles = false,
@@ -422,41 +422,6 @@ AttachedWeaponDefinitions.M16Cherry = {
 	},
 }
 
--- various melee weapon attached in back
-AttachedWeaponDefinitions.meleeInBack = {
-	chance = 50,
-	outfit = {"Bandit"},
-	weaponLocation = {"Shovel Back"},
-	bloodLocations = nil,
-	addHoles = false,
-	daySurvived = 0,
-	weapons = {
-		"Base.BaseballBat",
-		"Base.BaseballBatNails",
-		"Base.PlankNail",
-		"Base.Shovel",
-		"Base.HockeyStick",
-		"Base.WoodenLance",
-	},
-}
-
--- more melee in back!
-AttachedWeaponDefinitions.melee2InBack = {
-	chance = 60,
-	outfit = {"Bandit"},
-	weaponLocation = {"Big Weapon On Back"},
-	bloodLocations = nil,
-	addHoles = false,
-	daySurvived = 0,
-	weapons = {
-		"Base.AxeStone",
-		"Base.LeadPipe",
-		"Base.MetalBar",
-		"Base.MetalPipe",
-		"Base.HockeyStick",
-		"Base.WoodenLance",
-	},
-}
 AttachedWeaponDefinitions.Katana= {
 	chance = 100,
 	outfit = {"AuthenticBlackMamba"},
@@ -468,7 +433,7 @@ AttachedWeaponDefinitions.Katana= {
 		"Base.Katana",
 	},
 }
--- more melee in back!
+-- melee on back!
 AttachedWeaponDefinitions.CricketBat = {
 	chance = 100,
 	outfit = {"AuthenticShaunoftheDead"},
@@ -481,7 +446,6 @@ AttachedWeaponDefinitions.CricketBat = {
 	},
 }
 
--- more melee in back!
 AttachedWeaponDefinitions.SpikedBat = {
 	chance = 100,
 	outfit = {"AuthenticB4BHolly"},
@@ -495,9 +459,9 @@ AttachedWeaponDefinitions.SpikedBat = {
 }
 
 -- hammer/axe in belt left (so we keep knives for belt right if we got multiple items)
-AttachedWeaponDefinitions.hammerBelt = {
+AttachedWeaponDefinitions.hammerBeltAZ = {
 	chance = 80,
-	outfit = {"Bandit", "AuthenticDISamB"},
+	outfit = {"AuthenticDISamB"},
 	weaponLocation = {"Belt Left"},
 	bloodLocations = nil,
 	addHoles = false,
@@ -508,7 +472,6 @@ AttachedWeaponDefinitions.hammerBelt = {
 		"Base.HammerStone",
 	},
 }
-
 AttachedWeaponDefinitions.HammerOnlyBelt = {
 	chance = 100,
 	outfit = {"AuthenticDISamB", "AuthenticNMRIHJive"},
@@ -525,7 +488,7 @@ AttachedWeaponDefinitions.HammerOnlyBelt = {
 }
 
 -- knives in belt right
-AttachedWeaponDefinitions.knivesBelt = {
+AttachedWeaponDefinitions.knivesBeltAZ = {
 	chance = 80,
 	outfit = {"Bandit","AuthenticSurvivorHazardSuit", "AuthenticSurvivorPolice", "AuthenticSurvivorRanger", "AuthenticBillyChumpez", "AuthenticBankRobber", "AuthenticDawnoftheDead","AuthenticDIXianMei"},
 	weaponLocation = {"Belt Right Upside"},
@@ -539,9 +502,9 @@ AttachedWeaponDefinitions.knivesBelt = {
 }
 
 -- crowbar or machete in back
-AttachedWeaponDefinitions.bladeInBack = {
+AttachedWeaponDefinitions.bladeInBackAZ = {
 	chance = 20,
-	outfit = {"Bandit", "AuthenticBankRobber"},
+	outfit = {"AuthenticBankRobber"},
 	weaponLocation = {"Blade On Back"},
 	bloodLocations = nil,
 	addHoles = false,
@@ -551,7 +514,7 @@ AttachedWeaponDefinitions.bladeInBack = {
 		"Base.Machete",
 	},
 }
--- crowbar or machete in back
+-- crowbar in back
 AttachedWeaponDefinitions.Crowbar = {
 	chance = 100,
 	outfit = {"AuthenticGordonFreeman", "AuthenticDianneCaldwell"},
@@ -688,9 +651,9 @@ AttachedWeaponDefinitions.MeatCleaver = {
 }
 
 -- nightstick in belt
-AttachedWeaponDefinitions.nightstick = {
+AttachedWeaponDefinitions.nightstickAZ = {
 	chance = 30,
-	outfit = {"Police", "PoliceState", "PoliceRiot", "PrisonGuard", "PrivateMilitia", "AuthenticSurvivorPolice", "AuthenticDawnoftheDead"},
+	outfit = {"AuthenticSurvivorPolice", "AuthenticDawnoftheDead"},
 	weaponLocation = {"Nightstick Left"},
 	bloodLocations = nil,
 	addHoles = false,
@@ -738,6 +701,7 @@ AttachedWeaponDefinitions.AuthenticCountrySinger = {
 	},
 }
 AttachedWeaponDefinitions.AuthenticZoey = {
+	id = "AuthenticZoey",
 	chance = 100,
 	outfit = {"AuthenticZoey", "AuthenticBillOverbeck", "AuthenticCoach", "AuthenticEllis", "AuthenticNick", "AuthenticRochelle", "AuthenticB4BHoffman", "AuthenticB4BWalker"},
 	weaponLocation = {"Holster Left", "Holster Right"},
@@ -760,6 +724,7 @@ AttachedWeaponDefinitions.AuthenticDianneCaldwell = {
     "Base.Pistol",
 	},
 }
+
 AttachedWeaponDefinitions.PostalPaper= {
 	chance = 100,
 	outfit = {"AuthenticPostalDude"},
@@ -774,6 +739,19 @@ AttachedWeaponDefinitions.PostalPaper= {
 
 AttachedWeaponDefinitions.PomPom= {
 	id = "PomPom",
+	chance = 100,
+	outfit = {"AuthenticCheerleader"},
+	weaponLocation = {"Left Hand", "Right Hand"},
+	bloodLocations = nil,
+	addHoles = false,
+	daySurvived = 0,
+	weapons = {
+    "AuthenticZClothing.Authentic_PomPomWhite",
+	"AuthenticZClothing.Authentic_PomPomBlack",
+	},
+}
+AttachedWeaponDefinitions.PomPom2= {--For Later
+	id = "PomPom2",
 	chance = 100,
 	outfit = {"AuthenticCheerleader"},
 	weaponLocation = {"Left Hand", "Right Hand"},
@@ -822,7 +800,6 @@ AttachedWeaponDefinitions.Molotov = {
 	"Base.Molotov",
 	},
 }
-
 AttachedWeaponDefinitions.PipeBomb = {
 	id = "PipeBomb",
 	chance = 100,
@@ -918,6 +895,7 @@ AttachedWeaponDefinitions.handgunBub = {
     "Base.Pistol2",
 	},
 }
+
 AttachedWeaponDefinitions.handgunJohnMorgan = {
 	chance = 100,
 	outfit = {"AuthenticDIJohnMorgan", "AuthenticNMRIHWally","AuthenticNMRIHBadass", "AuthenticB4BHoffman","AuthenticAndyDotD"},
@@ -929,6 +907,7 @@ AttachedWeaponDefinitions.handgunJohnMorgan = {
     "Base.Pistol2",
 	},
 }
+
 AttachedWeaponDefinitions.AuthenticBillOverbeck = {
 	chance = 100,
 	outfit = {"AuthenticBillOverbeck"},
@@ -940,9 +919,8 @@ AttachedWeaponDefinitions.AuthenticBillOverbeck = {
 		"Base.AssaultRifle",
 	},
 }
--- varmint/hunting rifle on back
 AttachedWeaponDefinitions.AuthenticNick = {
-	id = "huntingRifleOnBack",
+	id = "AuthenticNick",
 	chance = 100,
 	outfit = {"AuthenticNick", "AuthenticNMRIHHunter"},
 	weaponLocation =  {"Rifle On Back"},
@@ -1168,7 +1146,7 @@ AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticBillOverbeck = {
 	maxitem = 5;
 	weapons = {
 		AttachedWeaponDefinitions.AuthenticBillOverbeck,
-		AttachedWeaponDefinitions.handgunHolster,		
+		AttachedWeaponDefinitions.handgunHolsterAZ,		
 		AttachedWeaponDefinitions.AuthenticZoey,
 		AttachedWeaponDefinitions.Bandages,
 		AttachedWeaponDefinitions.Pills,	
@@ -1281,6 +1259,7 @@ AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticDISamB = {
 	maxitem = 2;
 	weapons = {
 		AttachedWeaponDefinitions.HammerOnlyBelt,
+		AttachedWeaponDefinitions.hammerBeltAZ,
 	},
 }
 
@@ -1288,8 +1267,8 @@ AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticDIXianMei = {
 	chance = 100;
 	maxitem = 2;
 	weapons = {
-		AttachedWeaponDefinitions.knivesBelt,
-		AttachedWeaponDefinitions.knivesBelt,
+		AttachedWeaponDefinitions.knivesBeltAZ,
+		AttachedWeaponDefinitions.knivesBeltAZ,
 	},
 }
 AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticDRBradGarrison = {
@@ -1469,22 +1448,22 @@ AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticDukeNukem = {
 AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticTheyLive = {
 	chance = 100;
 	weapons = {
-		AttachedWeaponDefinitions.shotgunPolice,
+		AttachedWeaponDefinitions.shotgunPoliceAZ,
 	},
 }
 AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticLeonKennedy = {
 	chance = 80;
 	maxitem = 3;
 	weapons = {
-		AttachedWeaponDefinitions.shotgunPolice,
-		AttachedWeaponDefinitions.handgunHolster,
+		AttachedWeaponDefinitions.shotgunPoliceAZ,
+		AttachedWeaponDefinitions.handgunHolsterAZ,
 	},
 }
 AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticFrancis = {
 	chance = 80;
 	maxitem = 3;
 	weapons = {
-		AttachedWeaponDefinitions.shotgunPolice,
+		AttachedWeaponDefinitions.shotgunPoliceAZ,
 		AttachedWeaponDefinitions.Bandages,
 		AttachedWeaponDefinitions.Pills,
 	},
@@ -1493,8 +1472,8 @@ AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticEllis = {
 	chance = 80;
 	maxitem = 5;
 	weapons = {
-		AttachedWeaponDefinitions.shotgunPolice,
-		AttachedWeaponDefinitions.handgunHolster,		
+		AttachedWeaponDefinitions.shotgunPoliceAZ,
+		AttachedWeaponDefinitions.handgunHolsterAZ,		
 		AttachedWeaponDefinitions.AuthenticZoey,
 		AttachedWeaponDefinitions.Bandages,
 		AttachedWeaponDefinitions.Pills,
@@ -1505,7 +1484,7 @@ AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticNick = {
 	maxitem = 5;
 	weapons = {
 		AttachedWeaponDefinitions.AuthenticNick,
-		AttachedWeaponDefinitions.handgunHolster,		
+		AttachedWeaponDefinitions.handgunHolsterAZ,		
 		AttachedWeaponDefinitions.AuthenticZoey,
 		AttachedWeaponDefinitions.Bandages,
 		AttachedWeaponDefinitions.Pills,
@@ -1515,8 +1494,8 @@ AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticCoach = {
 	chance = 80;
 	maxitem = 5;
 	weapons = {
-		AttachedWeaponDefinitions.shotgunPolice,
-		AttachedWeaponDefinitions.handgunHolster,
+		AttachedWeaponDefinitions.shotgunPoliceAZ,
+		AttachedWeaponDefinitions.handgunHolsterAZ,
 		AttachedWeaponDefinitions.AuthenticZoey,
 		AttachedWeaponDefinitions.Bandages,
 		AttachedWeaponDefinitions.Pills,
@@ -1527,7 +1506,7 @@ AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticRochelle = {
 	maxitem = 5;	
 	weapons = {
 		AttachedWeaponDefinitions.axeRochelle,
-		AttachedWeaponDefinitions.handgunHolster,		
+		AttachedWeaponDefinitions.handgunHolsterAZ,		
 		AttachedWeaponDefinitions.AuthenticZoey,
 		AttachedWeaponDefinitions.Bandages,
 		AttachedWeaponDefinitions.Pills,
@@ -1537,8 +1516,8 @@ AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticNateAnderson = {
 	chance = 80;
 	maxitem = 4;
 	weapons = {
-		AttachedWeaponDefinitions.shotgunPolice,
-		AttachedWeaponDefinitions.screwdriver,
+		AttachedWeaponDefinitions.shotgunPoliceAZ,
+		AttachedWeaponDefinitions.constructionWorkerScrewdriver2,
 	},
 }
 AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticPolitician = {
@@ -1604,19 +1583,6 @@ AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticCFTDJim = {
 	chance = 80;
 	weapons = {
 		AttachedWeaponDefinitions.handgunSamRivot,
-	},
-}
-AttachedWeaponDefinitions.attachedWeaponCustomOutfit.PrivateMilitia = {
-	chance = 40;
-	maxitem = 3;
-	weapons = {
-		AttachedWeaponDefinitions.shotgunPolice,
-		AttachedWeaponDefinitions.assaultRifleOnBack,
-		AttachedWeaponDefinitions.huntingRifleOnBack,
-		AttachedWeaponDefinitions.handgunHolster,
-		AttachedWeaponDefinitions.knivesBelt,
-		AttachedWeaponDefinitions.nightstick,
-		AttachedWeaponDefinitions.AuthenticCanteen,		
 	},
 }
 
@@ -1689,24 +1655,24 @@ AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticDawnoftheDead = {
 	chance = 40;
 	maxitem = 3;
 	weapons = {
-		AttachedWeaponDefinitions.shotgunPolice,
-		AttachedWeaponDefinitions.assaultRifleOnBack,
-		AttachedWeaponDefinitions.huntingRifleOnBack,
-		AttachedWeaponDefinitions.handgunHolster,
-		AttachedWeaponDefinitions.knivesBelt,
-		AttachedWeaponDefinitions.nightstick,
+		AttachedWeaponDefinitions.shotgunPoliceAZ,
+		AttachedWeaponDefinitions.HazardassaultRifleOnBack,
+		AttachedWeaponDefinitions.HazardSuitRifle,
+		AttachedWeaponDefinitions.handgunHolsterAZ,
+		AttachedWeaponDefinitions.knivesBeltAZ,
+		AttachedWeaponDefinitions.nightstickAZ,
 	},
 }
 AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticSurvivorHazardSuit= {
 	chance = 60;
 	maxitem = 3;
 	weapons = {
-		AttachedWeaponDefinitions.shotgunPolice,
-		AttachedWeaponDefinitions.assaultRifleOnBack,
-		AttachedWeaponDefinitions.huntingRifleOnBack,
-		AttachedWeaponDefinitions.handgunHolster,
-		AttachedWeaponDefinitions.knivesBelt,
-		AttachedWeaponDefinitions.constructionworker,
+		AttachedWeaponDefinitions.shotgunPoliceAZ,
+		AttachedWeaponDefinitions.HazardassaultRifleOnBack,
+		AttachedWeaponDefinitions.HazardSuitRifle,
+		AttachedWeaponDefinitions.handgunHolsterAZ,
+		AttachedWeaponDefinitions.knivesBeltAZ,
+		AttachedWeaponDefinitions.HammerTime,
 		AttachedWeaponDefinitions.AuthenticCanteen,
 	},
 }
@@ -1714,48 +1680,37 @@ AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticSecretService = {
 	chance = 70;
 	maxitem = 2;
 	weapons = {
-		AttachedWeaponDefinitions.handgunHolster,
+		AttachedWeaponDefinitions.handgunHolsterAZ,
 	},
 }
 AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticBillyChumpez = {
 	chance = 70;
 	maxitem = 5;
 	weapons = {
-		AttachedWeaponDefinitions.handgunHolster,
-		AttachedWeaponDefinitions.knivesBelt,
+		AttachedWeaponDefinitions.handgunHolsterAZ,
+		AttachedWeaponDefinitions.knivesBeltAZ,
 		AttachedWeaponDefinitions.molotov,
 	},
 }
-AttachedWeaponDefinitions.attachedWeaponCustomOutfit.Bandit = {
-	chance = 50;
-	maxitem = 2;
-	weapons = {
-		AttachedWeaponDefinitions.meleeInBack,
-		AttachedWeaponDefinitions.melee2InBack,
-		AttachedWeaponDefinitions.hammerBelt,
-		AttachedWeaponDefinitions.knivesBelt,
-		AttachedWeaponDefinitions.handgunHolster,
-		AttachedWeaponDefinitions.bladeInBack,
-	},
-}
+
 AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticBankRobber = {
 	chance = 50;
 	maxitem = 2;
 	weapons = {
 		AttachedWeaponDefinitions.meleeInBack,
-		AttachedWeaponDefinitions.knivesBelt,
-		AttachedWeaponDefinitions.handgunHolster,
-		AttachedWeaponDefinitions.bladeInBack,
+		AttachedWeaponDefinitions.knivesBeltAZ,
+		AttachedWeaponDefinitions.handgunHolsterAZ,
+		AttachedWeaponDefinitions.bladeInBackAZ,
 	},
 }
 AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticSurvivorPolice = {
 	chance = 50;
 	maxitem = 2;
 	weapons = {
-		AttachedWeaponDefinitions.handgunHolster,
-		AttachedWeaponDefinitions.knivesBelt,
-		AttachedWeaponDefinitions.shotgunPolice,
-		AttachedWeaponDefinitions.nightstick,
+		AttachedWeaponDefinitions.handgunHolsterAZ,
+		AttachedWeaponDefinitions.knivesBeltAZ,
+		AttachedWeaponDefinitions.shotgunPoliceAZ,
+		AttachedWeaponDefinitions.nightstickAZ,
 		AttachedWeaponDefinitions.AuthenticCanteen,
 	},
 }
@@ -1763,9 +1718,9 @@ AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticSurvivorRanger = {
 	chance = 50;
 	maxitem = 2;
 	weapons = {
-		AttachedWeaponDefinitions.handgunHolster,
-		AttachedWeaponDefinitions.knivesBelt,
-		AttachedWeaponDefinitions.shotgunPolice,
+		AttachedWeaponDefinitions.handgunHolsterAZ,
+		AttachedWeaponDefinitions.knivesBeltAZ,
+		AttachedWeaponDefinitions.shotgunPoliceAZ,
 		AttachedWeaponDefinitions.AuthenticCanteen,
 	},
 }
@@ -1773,7 +1728,7 @@ AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticSurvivorL4D = {
 	chance = 75;
 	maxitem = 5;
 	weapons = {
-		AttachedWeaponDefinitions.handgunHolster,
+		AttachedWeaponDefinitions.handgunHolsterAZ,
 		AttachedWeaponDefinitions.Molotov,
 		AttachedWeaponDefinitions.Pills,
 		AttachedWeaponDefinitions.PipeBomb,

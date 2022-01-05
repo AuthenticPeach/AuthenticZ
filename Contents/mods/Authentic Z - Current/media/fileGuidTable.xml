@@ -4558,6 +4558,10 @@
 	<files>
 		<path>media/clothing/clothingItems/HoodieTied_WhiteTINT.xml</path>
 		<guid>bdce1bb6-2f77-4f81-bf3d-d13faa434c6d</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/InflatableTube.xml</path>
+		<guid>5693e609-df9e-458a-97f3-43a9e77d100d</guid>
 	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Jacket_ArmyCamoUrban.xml</path>

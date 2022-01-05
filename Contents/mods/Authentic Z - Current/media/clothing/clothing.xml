@@ -7854,8 +7854,43 @@
 			</subItems>
 		</m_items>
 	</m_FemaleOutfits>
-
-
+	<m_MaleOutfits>
+		<m_Name>AuthenticSwimmer</m_Name>
+		<m_Guid>1244c133-278b-4fe7-8663-eafeb5bf6846</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_items><!-- Swimming Goggles -->
+			<probability>0.7</probability> 
+			<itemGUID>9845ade2-29aa-483f-aa1e-6c71d055a6dc</itemGUID>
+			<subItems>
+				<itemGUID>6b01e5b3-860d-4361-b43f-7b8ea152f1bf</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items> <!-- Inflatable Tube -->
+			<probability>0.1</probability>
+			<itemGUID>5693e609-df9e-458a-97f3-43a9e77d100d</itemGUID>
+		</m_items>			
+		<m_items> <!-- Swimming Trunks -->	
+			<itemGUID>eb4fee3c-106c-48cc-8e10-c236fc2fa72e</itemGUID>
+			<subItems><!-- Green -->
+				<itemGUID>01e4a480-9178-46aa-ad16-001580971665</itemGUID>
+			</subItems>
+			<subItems><!-- Red -->
+				<itemGUID>e525cc52-cf30-45df-adc7-19706c019673</itemGUID>
+			</subItems>	
+			<subItems><!-- Yellow -->
+				<itemGUID>2587e4f8-1e7f-4793-ad11-dd4b96ea7359</itemGUID>
+			</subItems>				
+		</m_items>			
+		<m_items> <!-- Flip Flops -->
+			<probability>0.4</probability>		
+			<itemGUID>46780aae-03ef-45d7-a0e8-36278f328576</itemGUID>
+			<subItems><!-- Sandals -->
+				<itemGUID>f00a9cc6-9c04-4023-98ba-e5f6cede1ef1</itemGUID>
+			</subItems>			
+		</m_items>		
+	</m_MaleOutfits>
 	<m_FemaleOutfits>
 		<m_Name>AuthenticSwimmer</m_Name>
 		<m_Guid>1244c133-278b-4fe7-8663-eafeb5bf6846</m_Guid>
@@ -7869,13 +7904,21 @@
 				<itemGUID>6b01e5b3-860d-4361-b43f-7b8ea152f1bf</itemGUID>
 			</subItems>
 		</m_items>
-		<m_items> <!-- Slippers -->
-			<itemGUID>72d4a0e2-f559-403f-a650-d48a85752017</itemGUID>
+		<m_items> <!-- Flip Flops -->
+			<probability>0.4</probability>			
+			<itemGUID>46780aae-03ef-45d7-a0e8-36278f328576</itemGUID>
+			<subItems><!-- Sandals -->
+				<itemGUID>f00a9cc6-9c04-4023-98ba-e5f6cede1ef1</itemGUID>
+			</subItems>			
 		</m_items>
 		<m_items> <!-- Bathrobe -->
 			<probability>0.2</probability>
 			<itemGUID>ceec6067-c842-41a1-bc73-b9f70879c45c</itemGUID>
 		</m_items>
+		<m_items> <!-- Inflatable Tube -->
+			<probability>0.1</probability>
+			<itemGUID>5693e609-df9e-458a-97f3-43a9e77d100d</itemGUID>
+		</m_items>		
 		<m_items> <!-- Swim Suit -->
 			<itemGUID>fd5deb78-5fe4-4073-b3c7-b4e03a724cbc</itemGUID> <!-- New bikini pattern - 2 -->
 			<subItems>

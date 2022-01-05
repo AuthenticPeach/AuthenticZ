@@ -189,7 +189,7 @@ module AuthenticZClothing {
 		Weight = 0.01,
 		ChanceToFall = 25,
 		WorldStaticModel = WorldItem-Cigarette,
-	}
+	}	
 	item ClownNose
 	{
        DisplayCategory = Clothing,		
@@ -426,6 +426,17 @@ module AuthenticZClothing {
 		ClothingItem = Hairstyle_Pennywise,
 		BodyLocation = Hat,
     }
+	item InflatableTube_AZ
+	{
+		DisplayCategory = Clothing,		
+		Type = Clothing,
+		DisplayName = Inflatable Tube,
+		ClothingItem = InflatableTube,
+		BodyLocation = TorsoExtra,
+		BloodLocation = Apron,
+		IconsForTexture = InflatableTubeBlue;InflatableTubeDuck;InflatableTubePink;InflatableTubeYellow,
+		WorldStaticModel = WorldItem-InflatableTube,		
+	}	
     item Leg_Cherry
     {
         DisplayCategory = Junk,	

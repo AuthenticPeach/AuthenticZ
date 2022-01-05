@@ -1757,7 +1757,6 @@ ZombiesZoneDefinition.FancyHotel[AuthenticBillyChumpez] = AuthenticBillyChumpez;
 local AuthenticSwimmer = {
 		name="AuthenticSwimmer",
 		chance=4,
-		gender="female",
 	};
 ZombiesZoneDefinition.FancyHotel[AuthenticSwimmer] = AuthenticSwimmer;
 
@@ -1930,15 +1929,13 @@ ZombiesZoneDefinition.SecretBase[AuthenticHazardSuit] = AuthenticHazardSuit;
 local AuthenticSwimmer1 = {
 		name="AuthenticSwimmer",
 		chance=5,
-		gender="female",
 	};	
 ZombiesZoneDefinition.Beach[AuthenticSwimmer1] = AuthenticSwimmer1;
 ZombiesZoneDefinition.Spa[AuthenticSwimmer1] = AuthenticSwimmer1;
 
 local AuthenticSwimmer2 = {
 		name="AuthenticSwimmer",
-		chance=50,
-		gender="female",			
+		chance=50,	
 		mandatory="true",
 		room="pool",
 	};
@@ -2008,22 +2005,19 @@ local AuthenticFootballGreenBayPacker = {
 ZombiesZoneDefinition.StreetSports[AuthenticFootballGreenBayPacker] = AuthenticFootballGreenBayPacker;
 
 local AuthenticSwimmer3 = {
-		name="AuthenticSwimmer",
-		gender="female",			
+		name="AuthenticSwimmer",		
 		chance=20,
 	};
 ZombiesZoneDefinition.SwimmingPool[AuthenticSwimmer3] = AuthenticSwimmer3;
 
 local AuthenticSwimmer4 = {
-		name="AuthenticSwimmer",
-		gender="female",			
+		name="AuthenticSwimmer",		
 		chance=3,
 	};
 ZombiesZoneDefinition.FancyHotel[AuthenticSwimmer4] = AuthenticSwimmer4;
 
 local AuthenticSwimmer5 = {
-		name="AuthenticSwimmer",
-		gender="female",			
+		name="AuthenticSwimmer",			
 		chance=10,
 	};
 ZombiesZoneDefinition.Spa[AuthenticSwimmer5] = AuthenticSwimmer5;

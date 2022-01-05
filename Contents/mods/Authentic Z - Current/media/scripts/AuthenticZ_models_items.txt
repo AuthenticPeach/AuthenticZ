@@ -572,7 +572,11 @@ module Base
 	{
 		mesh = WorldItems/HeadPhones,
 		scale = 0.4,
-	}	
+	}
+	model WorldItem-InflatableTube 
+    {
+		mesh = WorldItems/WorldItem_InflatableTube,
+    }	
 	model WorldItem-PillBottle
     {
 		mesh = WorldItems/WorldItem_AuthenticPillBottle,

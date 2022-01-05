@@ -708,5 +708,6 @@ ItemName_EN = {
 	ItemName_AuthenticZClothing.Hat_FootballHelmet_Packers = "Packers Football Helmet",
 	ItemName_AuthenticZClothing.Hat_FootballHelmet_RedSkull = "Football Helmet",
 	ItemName_AuthenticZClothing.Hat_FootballHelmet_Patriots = "Patriots Football Helmet",
+	ItemName_AuthenticZClothing.InflatableTube_AZ = "Inflatable Tube",
 	
 }
