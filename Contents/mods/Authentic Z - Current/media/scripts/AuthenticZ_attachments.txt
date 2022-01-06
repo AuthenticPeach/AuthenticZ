@@ -636,7 +636,7 @@ module Base
 
 		attachment BackPack_Schoolbag_Tier1Item_Screwdriver
 		{
-			offset = 0.0610 -0.0070 -0.1530,
+			offset = 0.0610 -0.0070 -0.0990,
 			rotate = -91.0000 0.0000 -178.0000,
 			bone = Bip01_BackPack,
 		}
@@ -727,14 +727,14 @@ module Base
 
 		attachment BackPack_Schoolbag_Tier2Item_Hammer
 		{
-			offset = 0.0680 0.0580 -0.1200,
+			offset = 0.0510 0.0560 -0.1200,
 			rotate = 87.0000 23.0000 1.0000,
 			bone = Bip01_BackPack,
 		}
 
 		attachment BackPack_Schoolbag_Tier2Item_Screwdriver
 		{
-			offset = 0.0680 0.0580 -0.1200,
+			offset = 0.0510 0.0560 -0.1040,
 			rotate = 87.0000 23.0000 1.0000,
 			bone = Bip01_BackPack,
 		}
@@ -825,7 +825,14 @@ module Base
 
 		attachment BackPack_Schoolbag_Tier3Item_Hammer
 		{
-			offset = 0.0980 -0.0450 -0.1120,
+			offset = 0.0730 -0.0460 -0.1120,
+			rotate = 90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BackPack_Schoolbag_Tier3Item_Screwdriver
+		{
+			offset = 0.0510 -0.0470 -0.1120,
 			rotate = 90.0000 0.0000 0.0000,
 			bone = Bip01_BackPack,
 		}
@@ -3004,6 +3011,20 @@ module Base
 			bone = Bip01_BackPack,
 		}
 
+		attachment BackPack_Schoolbag_Tier1Item_Hammer
+		{
+			offset = 0.0870 -0.0080 -0.1340,
+			rotate = -91.0000 0.0000 -178.0000,
+			bone = Bip01_BackPack,
+		}
+		
+		attachment BackPack_Schoolbag_Tier1Item_Screwdriver
+		{
+			offset = 0.0870 -0.0080 -0.1340,
+			rotate = -91.0000 0.0000 -178.0000,
+			bone = Bip01_BackPack
+		}		
+
 		attachment BackPack_Schoolbag_Tier2Item_Rope
 		{
 			offset = 0.0680 0.0580 -0.1200,
@@ -3046,6 +3067,20 @@ module Base
 			bone = Bip01_BackPack,
 		}
 
+		attachment BackPack_Schoolbag_Tier2Item_Hammer
+		{
+			offset = 0.0680 0.0580 -0.1200,
+			rotate = 87.0000 23.0000 1.0000,
+			bone = Bip01_BackPack,
+		}
+		
+		attachment BackPack_Schoolbag_Tier2Item_Screwdriver
+		{
+			offset = 0.0680 0.0580 -0.1200,
+			rotate = 87.0000 23.0000 1.0000,
+			bone = Bip01_BackPack,
+		}		
+
 		attachment BackPack_Schoolbag_Tier3Item_Rope
 		{
 			offset = 0.0670 -0.0660 -0.1240,
@@ -3084,6 +3119,20 @@ module Base
 		attachment BackPack_Schoolbag_Tier3Item_Walkie
 		{
 			offset = 0.0960 -0.0400 -0.0940,
+			rotate = 90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BackPack_Schoolbag_Tier3Item_Hammer
+		{
+			offset = 0.0980 -0.0450 -0.1120,
+			rotate = 90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BackPack_Schoolbag_Tier3Item_Screwdriver
+		{
+			offset = 0.0980 -0.0450 -0.1120,
 			rotate = 90.0000 0.0000 0.0000,
 			bone = Bip01_BackPack,
 		}

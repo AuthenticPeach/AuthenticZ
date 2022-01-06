@@ -52,8 +52,8 @@ local SchoolbagItemSlot1 = {
 		Walkie = "Schoolbag Walkie Slot 1",
 		
 		SheetRope = "Schoolbag SheetRope Slot 1",		
-		Hammer = "Schoolbag Walkie Slot 1",	
-		Screwdriver = "Schoolbag Rope Slot 1",
+		Hammer = "Schoolbag Hammer Slot 1",	
+		Screwdriver = "Schoolbag Screwdriver Slot 1",
 		Knife = "Schoolbag Rope Slot 1",	
 		Saucepan = "Schoolbag Rope Slot 1",	
 		Pan = "Schoolbag Rope Slot 1",	
@@ -78,8 +78,8 @@ local SchoolbagItemSlot2 = {
 		Walkie = "Schoolbag Walkie Slot 2",
 
 		SheetRope = "Schoolbag SheetRope Slot 2",		
-		Hammer = "Schoolbag Walkie Slot 2",	
-		Screwdriver = "Schoolbag Rope Slot 2",
+		Hammer = "Schoolbag Hammer Slot 2",	
+		Screwdriver = "Schoolbag Screwdriver Slot 2",
 		Knife = "Schoolbag Rope Slot 2",	
 		Saucepan = "Schoolbag Rope Slot 2",	
 		Pan = "Schoolbag Rope Slot 2",	
@@ -104,8 +104,8 @@ local SchoolbagItemSlot3 = { --Tier 1 Middle Slot
 		Walkie = "Schoolbag Walkie Slot 3",
 		
 		SheetRope = "Schoolbag SheetRope Slot 3",			
-		Hammer = "Schoolbag Walkie Slot 3",	
-		Screwdriver = "Schoolbag Rope Slot 3",
+		Hammer = "Schoolbag Hammer Slot 3",	
+		Screwdriver = "Schoolbag Screwdriver Slot 3",
 		Knife = "Schoolbag Rope Slot 3",	
 		Saucepan = "Schoolbag Rope Slot 3",	
 		Pan = "Schoolbag Rope Slot 3",	

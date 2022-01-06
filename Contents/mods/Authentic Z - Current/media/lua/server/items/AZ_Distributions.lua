@@ -68,6 +68,44 @@ local AZ_ClothingStore_distributionTable = {
 			}
         },			
     },
+
+    clothingstorage = {
+        clothingrack = {
+            procedural = true,
+            procList = {
+                {name="ClothingStorageAllJackets", min=0, max=99, weightChance=100},
+                {name="ClothingStorageAllShirts", min=0, max=99, weightChance=100},
+				--AuthZ Stuff
+				{name="CostumeStoreClohingAZ", min=0, max=99, forceForZones="AZCostumeShop", forceForTiles="location_shop_generic_01_36;location_shop_generic_01_37;location_shop_generic_01_48;location_shop_generic_01_49;location_shop_generic_01_50;location_shop_generic_01_51;location_shop_generic_01_52"},
+				{name="CostumeStoreMicAZ", min=0, max=99, forceForZones="AZCostumeShop", forceForTiles="location_shop_generic_01_52"},
+            }
+        },
+        crate = {
+            procedural = true,
+            procList = {
+                {name="ClothingStorageAllJackets", min=0, max=99, weightChance=40},
+                {name="ClothingStorageAllShirts", min=0, max=99, weightChance=80},
+                {name="ClothingStorageFootwear", min=0, max=99, weightChance=40},
+                {name="ClothingStorageHeadwear", min=0, max=99, weightChance=20},
+                {name="ClothingStorageLegwear", min=0, max=99, weightChance=80},
+                {name="ClothingStorageWinter", min=0, max=99, weightChance=100},
+				--AuthZ Stuff
+				{name="CostumeStoreClohingAZ", min=0, max=99, forceForZones="AZCostumeShop"},
+				{name="CostumeStoreMicAZ", min=0, max=99, forceForZones="AZCostumeShop"},
+				{name="CostumeStoreMic2AZ", min=0, max=99, forceForZones="AZCostumeShop"},
+				{name="CostumeStoreHatsAZ", min=0, max=99, forceForZones="AZCostumeShop"},
+				{name="CostumeStoreWeaponsAZ", min=0, max=99, forceForZones="AZCostumeShop"},
+            }
+        },
+        metal_shelves = {
+            procedural = true,
+            procList = {
+                {name="ClothingStorageFootwear", min=0, max=99, weightChance=40},
+                {name="ClothingStorageHeadwear", min=0, max=99, weightChance=20},
+                {name="ClothingStorageLegwear", min=0, max=99, weightChance=100},
+            }
+        },
+    },
 }
 
 
