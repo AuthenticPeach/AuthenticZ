@@ -213,10 +213,10 @@ module AuthenticZClothing {
 	}
    	 item GearWinslow
     	{
-       DisplayCategory = Junk,			
-        	Type 	     = Clothing,
-        	ClothingItem =  GearWinslow,
-        	BodyLocation = Necklace,
+			DisplayCategory =  Junk,			
+        	Type 	     	=  Clothing,
+        	ClothingItem 	=  GearWinslow,
+        	BodyLocation 	=  Necklace,
     	}
 	item Glasses_AviatorsSunset
 	{
@@ -244,19 +244,19 @@ module AuthenticZClothing {
 	}
 	item Gloves_FreddyKreuger
 	{
-       DisplayCategory = Clothing,		
-		Type = Clothing,
-		DisplayName = Freddy Krueger Hand,
-		ClothingItem = Gloves_FreddyKreuger,
-		BodyLocation = Necklace,
-		BloodLocation = Hands,
-		Icon = GlovesLeatherBrown,
-		ScratchDefense = 30,
-        BiteDefense = 15,
-        Weight = 0.1,
-        Insulation = 0.75,
-        WindResistance = 0.75,
-        FabricType = Leather,
+       DisplayCategory   = Clothing,		
+		Type 			 = Clothing,
+		DisplayName 	 = Freddy Krueger Hand,
+		ClothingItem 	 = Gloves_FreddyKreuger,
+		BodyLocation	 = Necklace,
+		BloodLocation 	 = Hands,
+		Icon 			 = GlovesLeatherBrown,
+		ScratchDefense 	 = 30,
+        BiteDefense 	 = 15,
+        Weight 			 = 0.1,
+        Insulation 		 = 0.75,
+        WindResistance   = 0.75,
+        FabricType 		 = Leather,
 		WorldStaticModel = WorldItem_FreddyClaw,
 	}
 	item Gloves_LeatherGlovesBlackFull
