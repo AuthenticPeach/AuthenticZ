@@ -75,4 +75,8 @@ IGUI_EN = {
 	IGUI_HotbarAttachment_ARVNItemSlot5 = "Rucksack Item Slot 5",
 	IGUI_HotbarAttachment_ARVNFlashlight = "Rucksack Flashlight Slot",
 	IGUI_HotbarAttachment_ARVNSecondary = "Rucksack Secondary Bag",
+
+
+	IGUI_HotbarAttachment_AZWebbingLeft = "Webbing Left Slot",
+	IGUI_HotbarAttachment_AZWebbingRight = "Webbing Right Slot",
 }

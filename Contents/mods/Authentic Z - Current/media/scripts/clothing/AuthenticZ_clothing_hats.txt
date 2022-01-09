@@ -16,7 +16,7 @@ module AuthenticZClothing {
         WindResistance = 0.1,
         Weight = 0.5,
 		WorldStaticModel = WorldItem_BunnyEarsBlack,	
-    	} 
+    } 
 	item CigarAZ
 	{
 	    DisplayCategory = Accessory,
@@ -26,9 +26,9 @@ module AuthenticZClothing {
 		BodyLocation = Mask,
 		Icon = CigarAZ,
 		ChanceToFall = 40,
-        	Weight = 0.1,
+        Weight = 0.1,
 		WorldStaticModel = WorldItem_CigarAZ,
-    	} 
+    } 
 	item Hat_AuthenticCrashHelmetFULLDecalBobaFett
 	{
 	    DisplayCategory = Accessory,	
@@ -1185,6 +1185,20 @@ module AuthenticZClothing {
         Insulation = 0.10,
         Weight = 0.5,
     }
+    item Hat_RuneDuel
+    {
+	    DisplayCategory  = Accessory,	
+        Type 			 = Clothing,
+        DisplayName 	 = Fantasy Duelist Hat,
+        ClothingItem 	 = Hat_RuneDuel,
+        BodyLocation 	 = Hat,
+        IconsForTexture  = DuelistCap;DuelistCapBlue;DuelistCapGrey,
+        CanHaveHoles 	 = false,
+        ChanceToFall 	 = 80,
+        Insulation 		 = 0.10,
+        Weight 			 = 0.5,
+		WorldStaticModel = WorldItem-DuelCap,
+    }	
     item Hat_StovePipe
     {
 	    DisplayCategory = Accessory,	

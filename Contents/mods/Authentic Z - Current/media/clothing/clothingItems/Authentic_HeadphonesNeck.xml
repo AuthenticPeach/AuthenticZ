@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\Clothes\AuthenticHeadPhonesNeck</m_MaleModel>
+	<m_FemaleModel>skinned\Clothes\AuthenticHeadPhonesNeck</m_FemaleModel>
+	<m_GUID>2fb65117-0609-4d55-977f-29f599912b4c</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_MasksFolder>none</m_MasksFolder>
+	<textureChoices>clothes\Items\HeadPhones</textureChoices>
+</clothingItem>

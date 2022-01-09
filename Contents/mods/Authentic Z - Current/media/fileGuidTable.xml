@@ -3396,8 +3396,16 @@
 		<guid>2d261359-4ac3-4444-8aa7-23b0dbbf9342</guid>
 	</files>
 	<files>
+		<path>media/clothing/clothingItems/Authentic_HeadphonesNeck.xml</path>
+		<guid>2fb65117-0609-4d55-977f-29f599912b4c</guid>
+	</files>	
+	<files>
 		<path>media/clothing/clothingItems/Authentic_Headphones2.xml</path>
 		<guid>b1804dde-2155-4c47-9189-f027d0f2f38f</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Authentic_HeadphonesNeck2.xml</path>
+		<guid>27bc397f-b13a-42a7-9666-1726edccca58</guid>
 	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Authentic_Pills.xml</path>
@@ -3547,6 +3555,14 @@
 		<path>media/clothing/clothingItems/Bag_L4DeadMedkit_LHand.xml</path>
 		<guid>c2b04368-5323-4216-ae85-8defa0dd12d4</guid>
 	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_MilitaryWebbing_AZ.xml</path>
+		<guid>6504ca74-0d0c-4b4f-9a1f-400403eafba0</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_MilitaryWebbingTightened_AZ.xml</path>
+		<guid>e852baca-1988-44d8-aa90-cc8f7200ebf4</guid>
+	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Bag_Schoolbag_Tier1.xml</path>
 		<guid>daadbc50-d63f-4799-9a2f-76228ffba8d9</guid>
@@ -4375,6 +4391,10 @@
 		<path>media/clothing/clothingItems/Hat_WeddingVeilBlue.xml</path>
 		<guid>28cadbe0-cf32-4eb0-937b-5ab48070675f</guid>
 	</files>
+	<files>
+		<path>media/clothing/clothingItems/Hat_RuneDuel.xml</path>
+		<guid>75a3d8e2-60e2-480a-909e-fdcbc872f317</guid>
+	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Hat_TrueEyeCult.xml</path>
 		<guid>bf08f4a0-ae0d-4798-a42f-18a4279f16b9</guid>

@@ -137,6 +137,19 @@ AuthenticZ.tab_addMagProcedural_AZMilitaryFlashlight  = function(x,count)
   table.insert(ProceduralDistributions.list[x].items,"AuthenticZClothing.Authentic_MilitaryFlashlightGreen");
   table.insert(ProceduralDistributions.list[x].items, count);  
 end
+--Tactical Webbing and belt
+AuthenticZ.tab_addMagProcedural_Webbing  = function(x,count)
+  ProceduralDistributions = ProceduralDistributions or {};
+  ProceduralDistributions.list = ProceduralDistributions.list or {};
+  ProceduralDistributions.list[x] = ProceduralDistributions.list[x] or {};
+  ProceduralDistributions.list[x].items = ProceduralDistributions.list[x].items or {};
+  table.insert(ProceduralDistributions.list[x].items,"AuthenticZClothing.Bag_MilitaryWebbing_AZ");
+  table.insert(ProceduralDistributions.list[x].items, count);
+  table.insert(ProceduralDistributions.list[x].items,"AuthenticZClothing.Bag_UtilityBeltDesert");
+  table.insert(ProceduralDistributions.list[x].items, count);
+  table.insert(ProceduralDistributions.list[x].items,"AuthenticZClothing.Bag_UtilityBeltFront");
+  table.insert(ProceduralDistributions.list[x].items, count);    
+end
 --Torch Blue
 AuthenticZ.tab_addMagProcedural_Torch2  = function(x,count)
   ProceduralDistributions = ProceduralDistributions or {};
@@ -184,6 +197,9 @@ AuthenticZ.tab_addMagProcedural_AZCanteen("CrateCamping",1.0);
 AuthenticZ.tab_addMagProcedural_AZCanteen("ArmySurplusBackpacks",2.0);
 AuthenticZ.tab_addMagProcedural_AZCanteen("OtherGeneric",0.3);
 AuthenticZ.tab_addMagProcedural_AZCanteen("ToolStoreMisc",1.0);
+
+AuthenticZ.tab_addMagProcedural_Webbing("ArmySurplusBackpacks",0.5);
+AuthenticZ.tab_addMagProcedural_Webbing("ArmySurplusOutfit",0.5);
 
 AuthenticZ.tab_addMagProcedural_LightBulb("ArmySurplusHeadwear",1.5);
 AuthenticZ.tab_addMagProcedural_LightBulb("CrateCarpentry",1.5);

@@ -3,7 +3,7 @@ if not ISHotbarAttachDefinition then
     return
 end
 ----------------------------------------------------------------------------
-------------------- Miner Hat -------------------
+------------------- Miner Hat ----------------------------------------------
 ----------------------------------------------------------------------------
 local MinerLightBulb = {
 	type = "MinerLightBulb",-- Name shown in the slot icon
@@ -15,7 +15,7 @@ local MinerLightBulb = {
 }
 table.insert(ISHotbarAttachDefinition, MinerLightBulb);
 ----------------------------------------------------------------------------
-------------------- Schoolbag Attachments -------------------
+------------------- Schoolbag Attachments ----------------------------------
 ----------------------------------------------------------------------------
 
 local SchoolbagBagSecondary = {
@@ -39,79 +39,78 @@ local SchoolbagBagSecondary = {
 }
 table.insert(ISHotbarAttachDefinition, SchoolbagBagSecondary);
 
-local SchoolbagItemSlot1 = {
+local SchoolbagItemSlot1 = { --Tier 1 Middle Slot
 	type = "SchoolbagItemSlot1",
 	name = "Schoolbag Item Slot", -- Name shown in the slot icon
 	animset = "back",
 	attachments = { -- list of possible item category and their modelAttachement group, the item category is defined in the item script		
-		Rope = "Schoolbag Rope Slot 1",
-		FlareGun = "Schoolbag FlareGun Slot 1",
-		Explosive = "Schoolbag Explosive Slot 1",
+		Rope 		= "Schoolbag Rope Slot 1",
+		FlareGun 	= "Schoolbag FlareGun Slot 1",
+		Explosive 	= "Schoolbag Explosive Slot 1",
 		AuthenticExplosive = "Schoolbag AuthenticExplosive Slot 1",		
-		GasMask = "Schoolbag GasMask Slot 1",
-		Walkie = "Schoolbag Walkie Slot 1",
+		GasMask 	= "Schoolbag GasMask Slot 1",
+		Walkie 		= "Schoolbag Walkie Slot 1",
 		
-		SheetRope = "Schoolbag SheetRope Slot 1",		
-		Hammer = "Schoolbag Hammer Slot 1",	
+		SheetRope 	= "Schoolbag SheetRope Slot 1",		
+		Hammer 		= "Schoolbag Hammer Slot 1",	
 		Screwdriver = "Schoolbag Screwdriver Slot 1",
-		Knife = "Schoolbag Rope Slot 1",	
-		Saucepan = "Schoolbag Rope Slot 1",	
-		Pan = "Schoolbag Rope Slot 1",	
-		Wrench = "Schoolbag Rope Slot 1",	
-		MeatCleaver = "Schoolbag Rope Slot 1",
+		Knife 		= "Schoolbag Knife Slot 1",
+		Saucepan 	= "Schoolbag Saucepan Slot 1",	
+		Pan 		= "Schoolbag Pan Slot 1",	
+		Wrench 		= "Schoolbag Wrench Slot 1",	
+		MeatCleaver = "Schoolbag MeatCleaver Slot 1",
 
 		Gear 		= "Schoolbag Walkie Slot 1",			
 	},
 }
 table.insert(ISHotbarAttachDefinition, SchoolbagItemSlot1);
 
-local SchoolbagItemSlot2 = {
+local SchoolbagItemSlot2 = { --Tier 2 Left Slot
 	type = "SchoolbagItemSlot2",
 	name = "Schoolbag Item Slot", -- Name shown in the slot icon
 	animset = "back",
 	attachments = { -- list of possible item category and their modelAttachement group, the item category is defined in the item script		
-		Rope = "Schoolbag Rope Slot 2",				
-		FlareGun = "Schoolbag FlareGun Slot 2",
-		Explosive = "Schoolbag Explosive Slot 2",
+		Rope 		= "Schoolbag Rope Slot 2",				
+		FlareGun 	= "Schoolbag FlareGun Slot 2",
+		Explosive 	= "Schoolbag Explosive Slot 2",
 		AuthenticExplosive = "Schoolbag AuthenticExplosive Slot 2",		
-		GasMask = "Schoolbag GasMask Slot 2",
-		Walkie = "Schoolbag Walkie Slot 2",
+		GasMask 	= "Schoolbag GasMask Slot 2",
+		Walkie 		= "Schoolbag Walkie Slot 2",
 
-		SheetRope = "Schoolbag SheetRope Slot 2",		
-		Hammer = "Schoolbag Hammer Slot 2",	
+		SheetRope 	= "Schoolbag SheetRope Slot 2",
+		Hammer 		= "Schoolbag Hammer Slot 2",
 		Screwdriver = "Schoolbag Screwdriver Slot 2",
-		Knife = "Schoolbag Rope Slot 2",	
-		Saucepan = "Schoolbag Rope Slot 2",	
-		Pan = "Schoolbag Rope Slot 2",	
-		Wrench = "Schoolbag Rope Slot 2",	
-		MeatCleaver = "Schoolbag Rope Slot 2",
+		Knife 		= "Schoolbag Knife Slot 2",	
+		Saucepan 	= "Schoolbag Saucepan Slot 2",	
+		Pan 		= "Schoolbag Pan Slot 2",	
+		Wrench 		= "Schoolbag Wrench Slot 2",	
+		MeatCleaver = "Schoolbag MeatCleaver Slot 2",
 
 		Gear 		= "Schoolbag Walkie Slot 2",			
 	},
 }
 table.insert(ISHotbarAttachDefinition, SchoolbagItemSlot2);
 
-local SchoolbagItemSlot3 = { --Tier 1 Middle Slot
+local SchoolbagItemSlot3 = { --Tier 3 Right Slot
 	type = "SchoolbagItemSlot3",
 	name = "Schoolbag Item Slot", -- Name shown in the slot icon
 	animset = "back",
 	attachments = { -- list of possible item category and their modelAttachement group, the item category is defined in the item script		
-		Rope = "Schoolbag Rope Slot 3",			
-		FlareGun = "Schoolbag FlareGun Slot 3",
-		Explosive = "Schoolbag Explosive Slot 3",
+		Rope 		= "Schoolbag Rope Slot 3",			
+		FlareGun 	= "Schoolbag FlareGun Slot 3",
+		Explosive 	= "Schoolbag Explosive Slot 3",
 		AuthenticExplosive = "Schoolbag AuthenticExplosive Slot 3",		
-		GasMask = "Schoolbag GasMask Slot 3",				
-		Walkie = "Schoolbag Walkie Slot 3",
+		GasMask 	= "Schoolbag GasMask Slot 3",				
+		Walkie 		= "Schoolbag Walkie Slot 3",
 		
-		SheetRope = "Schoolbag SheetRope Slot 3",			
-		Hammer = "Schoolbag Hammer Slot 3",	
+		SheetRope 	= "Schoolbag SheetRope Slot 3",			
+		Hammer 		= "Schoolbag Hammer Slot 3",	
 		Screwdriver = "Schoolbag Screwdriver Slot 3",
-		Knife = "Schoolbag Rope Slot 3",	
-		Saucepan = "Schoolbag Rope Slot 3",	
-		Pan = "Schoolbag Rope Slot 3",	
-		Wrench = "Schoolbag Rope Slot 3",	
-		MeatCleaver = "Schoolbag Rope Slot 3",
-
+		Knife 		= "Schoolbag Knife Slot 3",	
+		Saucepan 	= "Schoolbag Saucepan Slot 3",	
+		Pan 	 	= "Schoolbag Pan Slot 3",	
+		Wrench 	 	= "Schoolbag Wrench Slot 3",	
+		MeatCleaver = "Schoolbag MeatCleaver Slot 3",
 
 		Gear 		= "Schoolbag Walkie Slot 3",			
 	},
@@ -124,8 +123,9 @@ local SchoolbagBottleRight = {
 	animset = "back",
 	attachments = { -- list of possible item category and their modelAttachement group, the item category is defined in the item script	
 		WaterBottle = "Schoolbag Waterbottle Right",
-		Canteen = "Schoolbag Canteen Right",
-		Sodacan = "Schoolbag Sodacan Right",			
+		Canteen 	= "Schoolbag Canteen Right",
+		Sodacan 	= "Schoolbag Sodacan Right",		
+		PillBottle 	= "Schoolbag PillBottle Right",		
 	},
 }
 table.insert(ISHotbarAttachDefinition, SchoolbagBottleRight);
@@ -236,6 +236,7 @@ local DufflebagBottleRight = {
 		WaterBottle = "Dufflebag Waterbottle Right",
 		Canteen 	= "Dufflebag Canteen Right",
 		Sodacan 	= "Dufflebag Sodacan Right",		
+		PillBottle 	= "Dufflebag Sodacan Right",		
 	},
 }
 table.insert(ISHotbarAttachDefinition, DufflebagBottleRight);
@@ -328,7 +329,7 @@ table.insert(ISHotbarAttachDefinition, DufflebagFlashlight);
 
 
 ----------------------------------------------------------------------------
-------------------- Hikingbag Attachments -------------------
+------------------- Hikingbag Attachments ----------------------------------
 ----------------------------------------------------------------------------
 
 local HikingbagSecondary = {
@@ -360,6 +361,7 @@ local HikingBagBottleRight = {
 		WaterBottle = "HikingBag Waterbottle Right",
 		Canteen = "HikingBag Canteen Right",
 		Sodacan = "HikingBag Sodacan Right",		
+		PillBottle = "HikingBag PillBottle Right",		
 	},
 }
 table.insert(ISHotbarAttachDefinition, HikingBagBottleRight);
@@ -372,6 +374,7 @@ local HikingBagBottleLeft = {
 		WaterBottle = "HikingBag Waterbottle Left",
 		Canteen = "HikingBag Canteen Left",
 		Sodacan = "HikingBag Sodacan Left",		
+		PillBottle = "HikingBag PillBottle Left",		
 	},
 }
 table.insert(ISHotbarAttachDefinition, HikingBagBottleLeft);
@@ -382,21 +385,21 @@ local HikingBagItemSlot1 = {
 	animset = "back",
 	attachments = { -- list of possible item category and their modelAttachement group, the item category is defined in the item script		
 		Rope 				= "HikingBag Rope Slot 1",
-		SheetRope 			= "HikingBag Explosive Slot 1",				
+		SheetRope 			= "HikingBag SheetRope Slot 1",				
 		FlareGun 			= "HikingBag FlareGun Slot 1",
 		Explosive 			= "HikingBag Explosive Slot 1",
 		AuthenticExplosive  = "HikingBag AuthenticExplosive Slot 1",		
 		GasMask 			= "HikingBag GasMask Slot 1",		
 		Walkie				= "HikingBag Walkie Slot 1",
-		Hammer 				= "HikingBag Walkie Slot 1",
-		Screwdriver 		= "HikingBag Rope Slot 1",
-		Knife			 	= "HikingBag Rope Slot 1",	
-		Saucepan 			= "HikingBag Rope Slot 1",	
-		Pan 				= "HikingBag Rope Slot 1",	
-		Wrench 				= "HikingBag Rope Slot 1",		
-		MeatCleaver 		= "HikingBag Rope Slot 1",
+		Hammer 				= "HikingBag Hammer Slot 1",
+		Screwdriver 		= "HikingBag Screwdriver Slot 1",
+		Knife			 	= "HikingBag Knife Slot 1",	
+		Saucepan 			= "HikingBag Saucepan Slot 1",	
+		Pan 				= "HikingBag Pan Slot 1",	
+		Wrench 				= "HikingBag Wrench Slot 1",		
+		MeatCleaver 		= "HikingBag Cleaver Slot 1",
 
-		Gear 				= "Dufflebag Walkie Slot 1",				
+		Gear 				= "HikingBag Walkie Slot 1",				
 	},
 }
 table.insert(ISHotbarAttachDefinition, HikingBagItemSlot1);
@@ -407,21 +410,21 @@ local HikingBagItemSlot2 = {
 	animset = "back",
 	attachments = { -- list of possible item category and their modelAttachement group, the item category is defined in the item script		
 		Rope 				= "HikingBag Rope Slot 2",
-		SheetRope			= "Schoolbag Explosive Slot 2",				
+		SheetRope			= "HikingBag SheetRope Slot 2",				
 		FlareGun 			= "HikingBag FlareGun Slot 2",
 		Explosive 			= "HikingBag Explosive Slot 2",
 		AuthenticExplosive  = "HikingBag AuthenticExplosive Slot 2",		
 		GasMask 			= "HikingBag GasMask Slot 2",
 		Walkie 				= "HikingBag Walkie Slot 2",
-		Hammer 				= "HikingBag Walkie Slot 2",
-		Screwdriver 		= "HikingBag Rope Slot 2",
-		Knife			 	= "Dufflebag Rope Slot 2",	
-		Saucepan 			= "Dufflebag Rope Slot 2",	
-		Pan 				= "Dufflebag Rope Slot 2",	
-		Wrench 				= "Dufflebag Rope Slot 2",		
-		MeatCleaver 		= "Dufflebag Rope Slot 2",
+		Hammer 				= "HikingBag Hammer Slot 2",
+		Screwdriver 		= "HikingBag Screwdriver Slot 2",
+		Knife			 	= "HikingBag Knife Slot 2",	
+		Saucepan 			= "HikingBag Saucepan Slot 2",	
+		Pan 				= "HikingBag Pan Slot 2",	
+		Wrench 				= "HikingBag Wrench Slot 2",		
+		MeatCleaver 		= "HikingBag Cleaver Slot 2",
 
-		Gear 				= "Dufflebag Walkie Slot 2",				
+		Gear 				= "HikingBag Walkie Slot 2",				
 	},
 }
 table.insert(ISHotbarAttachDefinition, HikingBagItemSlot2);
@@ -432,21 +435,21 @@ local HikingBagItemSlot3 = { --Tier 1 Middle Slot
 	animset = "back",
 	attachments = { -- list of possible item category and their modelAttachement group, the item category is defined in the item script		
 		Rope 				= "HikingBag Rope Slot 3",
-		SheetRope			= "Schoolbag Explosive Slot 3",			
+		SheetRope			= "HikingBag SheetRope Slot 3",			
 		FlareGun 			= "HikingBag FlareGun Slot 3",
 		Explosive 			= "HikingBag Explosive Slot 3",
 		AuthenticExplosive  = "HikingBag AuthenticExplosive Slot 3",		
 		GasMask 			= "HikingBag GasMask Slot 3",
 		Walkie 				= "HikingBag Walkie Slot 3",
-		Hammer 				= "HikingBag Walkie Slot 3",
-		Screwdriver 		= "HikingBag Rope Slot 3",
-		Knife			 	= "Dufflebag Rope Slot 3",	
-		Saucepan 			= "Dufflebag Rope Slot 3",	
-		Pan 				= "Dufflebag Rope Slot 3",	
-		Wrench 				= "Dufflebag Rope Slot 3",		
-		MeatCleaver 		= "Dufflebag Rope Slot 3",
+		Hammer 				= "HikingBag Hammer Slot 3",
+		Screwdriver 		= "HikingBag Screwdriver Slot 3",
+		Knife			 	= "HikingBag Knife Slot 3",	
+		Saucepan 			= "HikingBag Saucepan Slot 3",	
+		Pan 				= "HikingBag Pan Slot 3",	
+		Wrench 				= "HikingBag Wrench Slot 3",		
+		MeatCleaver 		= "HikingBag Cleaver Slot 3",
 
-		Gear 				= "Dufflebag Walkie Slot 3",		
+		Gear 				= "HikingBag Walkie Slot 3",		
 	},
 }
 table.insert(ISHotbarAttachDefinition, HikingBagItemSlot3);
@@ -484,7 +487,7 @@ local HikingBagFlashlight = {
 table.insert(ISHotbarAttachDefinition, HikingBagFlashlight);
 
 ----------------------------------------------------------------------------
-------------------- Big Hikingbag Attachments -------------------
+------------------- Big Hikingbag Attachments ------------------------------
 ----------------------------------------------------------------------------
 
 local BigHikingbagSecondary = {
@@ -516,6 +519,7 @@ local BigHikingBagBottleRight = {
 		WaterBottle = "BigHikingBag Waterbottle Right",
 		Canteen = "BigHikingBag Canteen Right",
 		Sodacan = "BigHikingBag Sodacan Right",		
+		PillBottle = "BigHikingBag PillBottle Right",		
 	},
 }
 table.insert(ISHotbarAttachDefinition, BigHikingBagBottleRight);
@@ -528,6 +532,7 @@ local BigHikingBagBottleLeft = {
 		WaterBottle = "BigHikingBag Waterbottle Left",
 		Canteen = "BigHikingBag Canteen Left",
 		Sodacan = "BigHikingBag Sodacan Left",		
+		PillBottle = "BigHikingBag PillBottle Left",		
 	},
 }
 table.insert(ISHotbarAttachDefinition, BigHikingBagBottleLeft);
@@ -539,13 +544,13 @@ local BigHikingbagItemSlot1 = {
 	attachments = { -- list of possible item category and their modelAttachement group, the item category is defined in the item script		
 		Rope			 	= "BigHikingBag Rope Slot 1",
 		SheetRope			= "BigHikingBag Explosive Slot 1",			
-		FlareGun = "BigHikingBag FlareGun Slot 1",
-		Explosive = "BigHikingBag Explosive Slot 1",
-		AuthenticExplosive = "BigHikingBag AuthenticExplosive Slot 1",		
-		GasMask = "BigHikingBag GasMask Slot 1",
-		Walkie 	= "BigHikingBag Walkie Slot 1",
-		Hammer 		= "BigHikingBag Walkie Slot 1",	
-		Screwdriver = "BigHikingBag Rope Slot 1",
+		FlareGun 			= "BigHikingBag FlareGun Slot 1",
+		Explosive 			= "BigHikingBag Explosive Slot 1",
+		AuthenticExplosive 	= "BigHikingBag AuthenticExplosive Slot 1",		
+		GasMask 			= "BigHikingBag GasMask Slot 1",
+		Walkie 				= "BigHikingBag Walkie Slot 1",
+		Hammer 				= "BigHikingBag Hammer Slot 1",	
+		Screwdriver 		= "BigHikingBag Screwdriver Slot 1",
 		Knife			 	= "BigHikingBag Rope Slot 1",	
 		Saucepan 			= "BigHikingBag Rope Slot 1",	
 		Pan 				= "BigHikingBag Rope Slot 1",	
@@ -569,8 +574,8 @@ local BigHikingbagItemSlot2 = {
 		AuthenticExplosive = "BigHikingBag AuthenticExplosive Slot 2",		
 		GasMask = "BigHikingBag GasMask Slot 2",	
 		Walkie 	= "BigHikingBag Walkie Slot 2",	
-		Hammer 	= "BigHikingBag Walkie Slot 2",
-		Screwdriver = "BigHikingBag Rope Slot 2",
+		Hammer 				= "BigHikingBag Hammer Slot 2",
+		Screwdriver 		= "BigHikingBag Screwdriver Slot 2",
 		Knife			 	= "BigHikingBag Rope Slot 2",	
 		Saucepan 			= "BigHikingBag Rope Slot 2",	
 		Pan 				= "BigHikingBag Rope Slot 2",	
@@ -594,8 +599,8 @@ local BigHikingbagItemSlot3 = {
 		AuthenticExplosive = "BigHikingBag AuthenticExplosive Slot 3",		
 		GasMask = "BigHikingBag GasMask Slot 3",	
 		Walkie 	= "BigHikingBag Walkie Slot 3",
-		Hammer 	= "BigHikingBag Walkie Slot 3",
-		Screwdriver 		= "BigHikingBag Rope Slot 3",
+		Hammer 				= "BigHikingBag Hammer Slot 3",
+		Screwdriver 		= "BigHikingBag Screwdriver Slot 3",
 		Knife			 	= "BigHikingBag Rope Slot 3",	
 		Saucepan 			= "BigHikingBag Rope Slot 3",	
 		Pan 				= "BigHikingBag Rope Slot 3",	
@@ -612,15 +617,15 @@ local BigHikingbagItemSlot4 = {
 	name = "Big HikingBag Item Slot", -- Name shown in the slot icon
 	animset = "back",
 	attachments = { -- list of possible item category and their modelAttachement group, the item category is defined in the item script		
-		Rope = "BigHikingBag Rope Slot 4",
+		Rope 				= "BigHikingBag Rope Slot 4",
 		SheetRope			= "BigHikingBag Explosive Slot 4",				
-		FlareGun = "BigHikingBag FlareGun Slot 4",
-		Explosive = "BigHikingBag Explosive Slot 4",
-		AuthenticExplosive = "BigHikingBag AuthenticExplosive Slot 4",		
-		GasMask = "BigHikingBag GasMask Slot 4",
-		Walkie 	= "BigHikingBag Walkie Slot 4",	
-		Hammer 	= "BigHikingBag Walkie Slot 4",
-		Screwdriver 		= "BigHikingBag Rope Slot 4",
+		FlareGun 			= "BigHikingBag FlareGun Slot 4",
+		Explosive 			= "BigHikingBag Explosive Slot 4",
+		AuthenticExplosive  = "BigHikingBag AuthenticExplosive Slot 4",		
+		GasMask 			= "BigHikingBag GasMask Slot 4",
+		Walkie 				= "BigHikingBag Walkie Slot 4",	
+		Hammer 				= "BigHikingBag Hammer Slot 4",
+		Screwdriver 		= "BigHikingBag Screwdriver Slot 4",
 		Knife			 	= "BigHikingBag Rope Slot 4",	
 		Saucepan 			= "BigHikingBag Rope Slot 4",	
 		Pan 				= "BigHikingBag Rope Slot 4",	
@@ -665,7 +670,7 @@ local BigHikingbagPlushie = {
 table.insert(ISHotbarAttachDefinition, BigHikingbagPlushie);
 
 ----------------------------------------------------------------------------
-------------------- Alicepack Attachments -------------------
+------------------- Alicepack Attachments ----------------------------------
 ----------------------------------------------------------------------------
 
 local AlicepackSecondary = {
@@ -673,10 +678,10 @@ local AlicepackSecondary = {
 	name = "Secondary Bag Slot", -- Name shown in the slot icon
 	animset = "back",
 	attachments = { -- list of possible item category and their modelAttachement group, the item category is defined in the item script		
-		Plasticbag = "Alicepack Plasticbag Bag", -- defined in AttachedLocations.lua
-		Garbagebag = "Alicepack Garbage Bag",
-		Totebag = "Alicepack Tote Bag",
-		Purse = "Alicepack Purse",	
+		Plasticbag 	 = "Alicepack Plasticbag Bag", -- defined in AttachedLocations.lua
+		Garbagebag 	 = "Alicepack Garbage Bag",
+		Totebag 	 = "Alicepack Tote Bag",
+		Purse 		 = "Alicepack Purse",	
 		EmptySandbag = "Alicepack EmptySandbag",
 		Seedbag = "Alicepack Seedbag",			
 		Handbag = "Alicepack Handbag",
@@ -697,6 +702,7 @@ local AlicepackBottleRight = {
 		WaterBottle = "Alicepack Waterbottle Right",
 		Canteen = "Alicepack Canteen Right",
 		Sodacan = "Alicepack Sodacan Right",		
+		PillBottle = "Alicepack PillBottle Right",		
 	},
 }
 table.insert(ISHotbarAttachDefinition, AlicepackBottleRight);
@@ -708,7 +714,7 @@ local AlicepackBottleLeft = {
 	attachments = { -- list of possible item category and their modelAttachement group, the item category is defined in the item script
 		WaterBottle = "Alicepack Waterbottle Left",
 		Canteen = "Alicepack Canteen Left",
-		Sodacan = "Alicepack Sodacan Left",		
+		PillBottle = "Alicepack PillBottle Left",		
 	},
 }
 table.insert(ISHotbarAttachDefinition, AlicepackBottleLeft);
@@ -902,6 +908,7 @@ local ARVNBottleRight = {
 		WaterBottle = "Alicepack Waterbottle Right",
 		Canteen = "Alicepack Canteen Right",
 		Sodacan = "Alicepack Sodacan Right",		
+		PillBottle = "Alicepack PillBottle Right",		
 	},
 }
 table.insert(ISHotbarAttachDefinition, ARVNBottleRight);
@@ -913,7 +920,9 @@ local ARVNBottleLeft = {
 	attachments = { -- list of possible item category and their modelAttachement group, the item category is defined in the item script
 		WaterBottle = "Alicepack Waterbottle Left",
 		Canteen = "Alicepack Canteen Left",
-		Sodacan = "Alicepack Sodacan Left",		
+		Sodacan = "Alicepack Sodacan Left",
+		PillBottle = "Alicepack PillBottle Left",
+		
 	},
 }
 table.insert(ISHotbarAttachDefinition, ARVNBottleLeft);
@@ -1075,3 +1084,78 @@ local ARVNPlushie = {
 	},
 }
 table.insert(ISHotbarAttachDefinition, ARVNPlushie);
+
+----------------------------------------------------------------------------
+------------------- Chest-Rig -------------------
+----------------------------------------------------------------------------
+local AZWebbingLeft = {
+	type = "AZWebbingLeft",
+	name = "Webbing Left", -- Name shown in the slot icon
+	animset = "back", -- Animation name 
+	attachments = {
+		Rope 				= "Webbing Rope Left_AZ",
+		SheetRope 			= "Webbing SheetRope Left_AZ",				
+		FlareGun 			= "Webbing FlareGun Left_AZ",
+		Explosive 			= "Webbing Explosive Left_AZ",
+		AuthenticExplosive  = "Webbing AuthenticExplosive Left_AZ",		
+		GasMask 			= "Webbing GasMask Left_AZ",		
+		Walkie				= "Webbing Walkie Left_AZ",
+		Hammer 				= "Webbing Hammer Left_AZ",
+		Screwdriver 		= "Webbing Screwdriver Left_AZ",
+		Knife			 	= "Webbing Knife Left_AZ",	
+		Saucepan 			= "Webbing Saucepan Left_AZ",	
+		Pan 				= "Webbing Pan Left_AZ",	
+		Wrench 				= "Webbing Wrench Left_AZ",		
+		MeatCleaver 		= "Webbing MeatCleaver Left_AZ",
+		WaterBottle 		= "Webbing Waterbottle Left_AZ",
+		Canteen 			= "Webbing Canteen Left_AZ",	
+		MilitaryFlashlight 	= "Webbing Military Flashlight Left_AZ",				
+		Holster 			= "Webbing Holster Left_AZ",	
+
+
+ 		Gear 				= "Webbing Walkie Left_AZ",
+		ChestLight  		= "Webbing Military Flashlight Left_AZ",	
+		Mag   				= "Webbing Hammer Left_AZ",
+		Tool   				= "Webbing Hammer Left_AZ",
+		Gas   				= "Webbing GasMask Left_AZ",
+		Saw   				= "Webbing Hammer Left_AZ",
+		Bottle    			= "Webbing Waterbottle Left_AZ",		
+	},
+}
+table.insert(ISHotbarAttachDefinition, AZWebbingLeft);
+
+local AZWebbingRight = {
+	type = "AZWebbingRight",
+	name = "Webbing Right", -- Name shown in the slot icon
+	animset = "back", -- Animation name 
+	attachments = {
+		Rope 				= "Webbing Rope Right_AZ",
+		SheetRope 			= "Webbing SheetRope Right_AZ",				
+		FlareGun 			= "Webbing FlareGun Right_AZ",
+		Explosive 			= "Webbing Explosive Right_AZ",
+		AuthenticExplosive  = "Webbing AuthenticExplosive Right_AZ",		
+		GasMask 			= "Webbing GasMask Right_AZ",		
+		Walkie				= "Webbing Walkie Right_AZ",
+		Hammer 				= "Webbing Hammer Right_AZ",
+		Screwdriver 		= "Webbing Screwdriver Right_AZ",
+		Knife			 	= "Webbing Knife Right_AZ",	
+		Saucepan 			= "Webbing Saucepan Right_AZ",	
+		Pan 				= "Webbing Pan Right_AZ",	
+		Wrench 				= "Webbing Wrench Right_AZ",		
+		MeatCleaver 		= "Webbing MeatCleaver Right_AZ",
+		WaterBottle 		= "Webbing Waterbottle Right_AZ",
+		Canteen 			= "Webbing Canteen Right_AZ",	
+		MilitaryFlashlight 	= "Webbing Military Flashlight Right_AZ",				
+		Holster 			= "Webbing Holster Right_AZ",	
+
+
+		Gear 				= "Webbing Walkie Right_AZ",
+		ChestLight  		= "Webbing Military Flashlight Right_AZ",	
+		Mag   				= "Webbing Hammer Right_AZ",
+		Tool   				= "Webbing Hammer Right_AZ",
+		Gas   				= "Webbing GasMask Right_AZ",
+		Saw   				= "Webbing Hammer Right_AZ",		
+		Bottle    			= "Webbing Waterbottle Right_AZ",		
+	},
+}
+table.insert(ISHotbarAttachDefinition, AZWebbingRight);

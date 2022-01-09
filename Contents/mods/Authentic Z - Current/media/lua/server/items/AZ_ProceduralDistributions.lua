@@ -20,6 +20,7 @@ local function preDistributionMerge()
             "AuthenticZClothing.Hat_KillaHelmet", 5,
             "AuthenticZClothing.Hat_MichaelMyers", 5,
             "AuthenticZClothing.Hat_Nurse", 5,
+            "AuthenticZClothing.Hat_RuneDuel", 5,
             "AuthenticZClothing.Hat_StovePipe", 5,
             "AuthenticZClothing.Hat_TrueEyeCult", 5,
             "AuthenticZClothing.Hat_UncleSam", 5,

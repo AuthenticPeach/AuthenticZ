@@ -709,5 +709,9 @@ ItemName_EN = {
 	ItemName_AuthenticZClothing.Hat_FootballHelmet_RedSkull = "Football Helmet",
 	ItemName_AuthenticZClothing.Hat_FootballHelmet_Patriots = "Patriots Football Helmet",
 	ItemName_AuthenticZClothing.InflatableTube_AZ = "Inflatable Tube",
+	ItemName_AuthenticZClothing.Hat_RuneDuel = "Fantasy Duelist Hat",
+	ItemName_AuthenticZClothing.Bag_MilitaryWebbing_AZ = "Tactical Webbing",
+	ItemName_AuthenticZClothing.Bag_MilitaryWebbingTightened_AZ = "Tactical Webbing (Tightened)",
+	ItemName_AuthenticZClothing.Jacket_Doctor3 = "Medical Coat",
 	
 }

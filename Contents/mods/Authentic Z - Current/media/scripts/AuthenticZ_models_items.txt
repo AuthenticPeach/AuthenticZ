@@ -520,6 +520,10 @@ module Base
 		mesh = WorldItems/WorldItem_Cigarette,
 		texture = Cigarette,		
     }
+	model WorldItem-DuelCap
+    {
+		mesh = WorldItems/WorldItem_DuelCap,	
+    }	
 	model WorldItem_UtilityBelt
     {
 		mesh = Skinned/Backpacks/WorldItem-UtilityBeltTactical,
@@ -607,7 +611,15 @@ module Base
 	model WorldItem-AuthenticTV110_MagRadio
 	{
 		mesh = WorldItems/WorldItem_AZ_TV110_MagRadio,
-	}		
+	}
+	
+    model WorldItem-MilitaryWebbing
+	{
+		mesh = WorldItems/WorldItem_MilitaryWebbing,
+		texture = clothes\Backpacks\MilitaryWebbing,
+		scale = 0.5,
+	}
+	
 	model SheetRopeAZ
 	{
 		mesh = SheetRopeAZ,

@@ -379,6 +379,14 @@ recipe Draw Hitlist 3
    	   Result:PZAZ_HitList3,
 	   Time:80.0,
   	}
+recipe Open Medical Coat
+  	{
+   	   Base.JacketLong_Doctor,
+
+   	   Result:AuthenticZClothing.Jacket_Doctor2,
+	   Time:30.0,
+	   Tooltip:Tooltip_OpenJacket,	   
+  	}
 recipe Tie Hoodie Around Waist
   	{
    	   HoodieUP_WhiteTINT,

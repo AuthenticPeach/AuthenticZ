@@ -1252,7 +1252,7 @@ module AuthenticZClothing {
         MaxDamage			=	0.1,
         BaseSpeed 			= 	1,
         WeaponLength 		= 	0.1,		
-		AttachmentType 		= 	MeatCleaver,
+		AttachmentType 		= 	Walkie,
 		Tooltip 			= 	Tooltip_Brain,
     }
     item AuthenticOrgan_Hand
@@ -1484,7 +1484,7 @@ module AuthenticZClothing {
         MaxDamage	=	0.1,
         BaseSpeed = 1,
         WeaponLength = 0.1,		
-		AttachmentType = Sodacan,
+		AttachmentType = PillBottle,
 		WorldStaticModel = WorldItem-PillBottle,		
     }
 
@@ -1561,7 +1561,7 @@ module AuthenticZClothing {
         MaxDamage	=	0.1,
         BaseSpeed = 1,
         WeaponLength = 0.1,		
-		AttachmentType = Wrench,
+		AttachmentType = Walkie,
     }
     item Authentic_PomPomBlack
     {
@@ -1597,7 +1597,7 @@ module AuthenticZClothing {
         MaxDamage	=	0.1,
         BaseSpeed = 1,
         WeaponLength = 0.1,		
-		AttachmentType = Wrench,
+		AttachmentType = Walkie,
     }
 	item AZ_MetalClip
 	{

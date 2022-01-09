@@ -3882,6 +3882,12 @@
 		<m_items> <!-- Headphones-->
 			<probability>0.01</probability>
 			<itemGUID>b1804dde-2155-4c47-9189-f027d0f2f38f</itemGUID>
+			<subItems>
+				<itemGUID>27bc397f-b13a-42a7-9666-1726edccca58</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>2fb65117-0609-4d55-977f-29f599912b4c</itemGUID>
+			</subItems>				
 		</m_items>		
 		<m_items>
 			<probability>0.5</probability> <!-- Tshirt -->
@@ -3999,7 +4005,13 @@
 		<m_items> <!-- Headphones-->
 			<probability>0.01</probability>
 			<itemGUID>b1804dde-2155-4c47-9189-f027d0f2f38f</itemGUID>
-		</m_items>			
+			<subItems>
+				<itemGUID>27bc397f-b13a-42a7-9666-1726edccca58</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>2fb65117-0609-4d55-977f-29f599912b4c</itemGUID>
+			</subItems>				
+		</m_items>				
 		<m_items>  <!-- Dress Short Sleeveless -->
 			<itemGUID>ce72b451-fabb-41ba-b398-b19175d9da1f</itemGUID>
 		</m_items>		
@@ -7101,6 +7113,13 @@
 				<itemGUID>1c686e63-38cf-4b06-8f67-8c94688b999a</itemGUID>
 			</subItems>			
 		</m_items>
+		<m_items> <!-- Tactical Webbing -->
+			<probability>0.05</probability>
+			<itemGUID>e852baca-1988-44d8-aa90-cc8f7200ebf4</itemGUID>
+			<subItems>
+				<itemGUID>6504ca74-0d0c-4b4f-9a1f-400403eafba0</itemGUID>
+			</subItems>
+		</m_items>		
 	</m_MaleOutfits>	
 	
 	<m_FemaleOutfits>
@@ -7293,6 +7312,13 @@
 				<itemGUID>1c686e63-38cf-4b06-8f67-8c94688b999a</itemGUID>
 			</subItems>			
 		</m_items>
+		<m_items> <!-- Tactical Webbing -->
+			<probability>0.05</probability>
+			<itemGUID>e852baca-1988-44d8-aa90-cc8f7200ebf4</itemGUID>
+			<subItems>
+				<itemGUID>6504ca74-0d0c-4b4f-9a1f-400403eafba0</itemGUID>
+			</subItems>
+		</m_items>		
 	</m_FemaleOutfits>
 	
 	<m_MaleOutfits>
@@ -7309,7 +7335,14 @@
 		<m_items><!-- Holster -->
 			<probability>0.3</probability>
 			<itemGUID>88f11c9e-e717-446c-82ec-f749320df25a</itemGUID>
-		</m_items>	
+		</m_items>
+		<m_items> <!-- Tactical Webbing -->
+			<probability>0.05</probability>
+			<itemGUID>e852baca-1988-44d8-aa90-cc8f7200ebf4</itemGUID>
+			<subItems>
+				<itemGUID>6504ca74-0d0c-4b4f-9a1f-400403eafba0</itemGUID>
+			</subItems>
+		</m_items>		
 	</m_MaleOutfits>
 	
 	<m_FemaleOutfits>
@@ -7326,7 +7359,14 @@
 		<m_items> <!-- Holster -->
 			<probability>0.3</probability>
 			<itemGUID>88f11c9e-e717-446c-82ec-f749320df25a</itemGUID>
-		</m_items>	
+		</m_items>
+		<m_items> <!-- Tactical Webbing -->
+			<probability>0.05</probability>
+			<itemGUID>e852baca-1988-44d8-aa90-cc8f7200ebf4</itemGUID>
+			<subItems>
+				<itemGUID>6504ca74-0d0c-4b4f-9a1f-400403eafba0</itemGUID>
+			</subItems>
+		</m_items>		
 	</m_FemaleOutfits>
 
 	<m_MaleOutfits>
@@ -7372,6 +7412,13 @@
 		</m_items>
 		<m_items> <!-- Military Boots -->
 			<itemGUID>227cb2d5-05a5-44ed-872d-ac4ca16e80bc</itemGUID>
+		</m_items>
+		<m_items> <!-- Tactical Webbing -->
+			<probability>0.1</probability>
+			<itemGUID>e852baca-1988-44d8-aa90-cc8f7200ebf4</itemGUID>
+			<subItems>
+				<itemGUID>6504ca74-0d0c-4b4f-9a1f-400403eafba0</itemGUID>
+			</subItems>
 		</m_items>		
 	</m_MaleOutfits>
 
@@ -7463,6 +7510,13 @@
 			<probability>0.4</probability>
 			<itemGUID>d234e3b1-4e68-41b9-a48c-5669a8a52629</itemGUID>
 		</m_items>
+		<m_items> <!-- Tactical Webbing -->
+			<probability>0.05</probability>
+			<itemGUID>e852baca-1988-44d8-aa90-cc8f7200ebf4</itemGUID>
+			<subItems>
+				<itemGUID>6504ca74-0d0c-4b4f-9a1f-400403eafba0</itemGUID>
+			</subItems>
+		</m_items>		
 	</m_MaleOutfits>
 
 <m_FemaleOutfits>
@@ -7553,6 +7607,13 @@
 			<probability>0.4</probability>
 			<itemGUID>d234e3b1-4e68-41b9-a48c-5669a8a52629</itemGUID>
 		</m_items>
+		<m_items> <!-- Tactical Webbing -->
+			<probability>0.05</probability>
+			<itemGUID>e852baca-1988-44d8-aa90-cc8f7200ebf4</itemGUID>
+			<subItems>
+				<itemGUID>6504ca74-0d0c-4b4f-9a1f-400403eafba0</itemGUID>
+			</subItems>
+		</m_items>		
 </m_FemaleOutfits>
 
 <m_MaleOutfits>
@@ -7632,6 +7693,13 @@
 				<itemGUID>0383956a-3fbd-4001-9749-69e2ba70b134</itemGUID>
 			</subItems>
 		</m_items>
+		<m_items> <!-- Tactical Webbing -->
+			<probability>0.05</probability>
+			<itemGUID>e852baca-1988-44d8-aa90-cc8f7200ebf4</itemGUID>
+			<subItems>
+				<itemGUID>6504ca74-0d0c-4b4f-9a1f-400403eafba0</itemGUID>
+			</subItems>
+		</m_items>		
 	</m_MaleOutfits>
 
 <m_FemaleOutfits>
@@ -7711,6 +7779,13 @@
 				<itemGUID>0383956a-3fbd-4001-9749-69e2ba70b134</itemGUID>
 			</subItems>
 		</m_items>
+		<m_items> <!-- Tactical Webbing -->
+			<probability>0.05</probability>
+			<itemGUID>e852baca-1988-44d8-aa90-cc8f7200ebf4</itemGUID>
+			<subItems>
+				<itemGUID>6504ca74-0d0c-4b4f-9a1f-400403eafba0</itemGUID>
+			</subItems>
+		</m_items>		
 </m_FemaleOutfits>
 
 	<m_MaleOutfits>
@@ -7785,6 +7860,13 @@
 				<itemGUID>0383956a-3fbd-4001-9749-69e2ba70b134</itemGUID>
 			</subItems>
 		</m_items>
+		<m_items> <!-- Tactical Webbing -->
+			<probability>0.05</probability>
+			<itemGUID>e852baca-1988-44d8-aa90-cc8f7200ebf4</itemGUID>
+			<subItems>
+				<itemGUID>6504ca74-0d0c-4b4f-9a1f-400403eafba0</itemGUID>
+			</subItems>
+		</m_items>		
 	</m_MaleOutfits>
 
 	<m_FemaleOutfits>
@@ -7853,6 +7935,13 @@
 				<itemGUID>0383956a-3fbd-4001-9749-69e2ba70b134</itemGUID>
 			</subItems>
 		</m_items>
+		<m_items> <!-- Tactical Webbing -->
+			<probability>0.05</probability>
+			<itemGUID>e852baca-1988-44d8-aa90-cc8f7200ebf4</itemGUID>
+			<subItems>
+				<itemGUID>6504ca74-0d0c-4b4f-9a1f-400403eafba0</itemGUID>
+			</subItems>
+		</m_items>		
 	</m_FemaleOutfits>
 	<m_MaleOutfits>
 		<m_Name>AuthenticSwimmer</m_Name>
@@ -8391,7 +8480,13 @@
 		<m_items> <!-- Headphones-->
 			<probability>0.01</probability>
 			<itemGUID>b1804dde-2155-4c47-9189-f027d0f2f38f</itemGUID>
-		</m_items>			
+			<subItems>
+				<itemGUID>27bc397f-b13a-42a7-9666-1726edccca58</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>2fb65117-0609-4d55-977f-29f599912b4c</itemGUID>
+			</subItems>				
+		</m_items>
 		<m_items> <!-- Varsity -->
 			<probability>0.7</probability>
 			<itemGUID>f756aca5-7504-4ee5-bc34-d0327347a2d0</itemGUID>
@@ -8500,7 +8595,13 @@
 		<m_items> <!-- Headphones-->
 			<probability>0.01</probability>
 			<itemGUID>b1804dde-2155-4c47-9189-f027d0f2f38f</itemGUID>
-		</m_items>			
+			<subItems>
+				<itemGUID>27bc397f-b13a-42a7-9666-1726edccca58</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>2fb65117-0609-4d55-977f-29f599912b4c</itemGUID>
+			</subItems>				
+		</m_items>				
 		<m_items>
 			<probability>0.2</probability>
 			<itemGUID>6d702d88-4ca0-4bcb-9aee-d88f2be29e69</itemGUID>
@@ -8563,7 +8664,13 @@
 		<m_items> <!-- Headphones-->
 			<probability>0.01</probability>
 			<itemGUID>b1804dde-2155-4c47-9189-f027d0f2f38f</itemGUID>
-		</m_items>			
+			<subItems>
+				<itemGUID>27bc397f-b13a-42a7-9666-1726edccca58</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>2fb65117-0609-4d55-977f-29f599912b4c</itemGUID>
+			</subItems>				
+		</m_items>				
 		<m_items>
 			<probability>0.2</probability>
 			<itemGUID>6d702d88-4ca0-4bcb-9aee-d88f2be29e69</itemGUID>
@@ -8627,7 +8734,13 @@
 		<m_items> <!-- Headphones-->
 			<probability>0.01</probability>
 			<itemGUID>b1804dde-2155-4c47-9189-f027d0f2f38f</itemGUID>
-		</m_items>			
+			<subItems>
+				<itemGUID>27bc397f-b13a-42a7-9666-1726edccca58</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>2fb65117-0609-4d55-977f-29f599912b4c</itemGUID>
+			</subItems>				
+		</m_items>				
 		<m_items> <!-- Varsity Jacket -->
 			<probability>0.7</probability>
 			<itemGUID>f756aca5-7504-4ee5-bc34-d0327347a2d0</itemGUID>

@@ -80,24 +80,56 @@ module AuthenticZClothing {
 		Type = Clothing,
 		DisplayName = Headphones,
 		ClothingItem = Authentic_Headphones,
+		ClothingItemExtra= Authentic_HeadphonesNeck,
+        ClothingItemExtraOption = WearNeck,		
 		BodyLocation = Necklace,
 		Icon = Headphones,
 		Weight = 0.3,
 		ChanceToFall = 25,
 		WorldStaticModel = WorldItem_HeadPhones,
 	}
-	item Authentic_Headphones2
+	item Authentic_HeadphonesNeck
 	{
-       DisplayCategory = Clothing,		
+       DisplayCategory = Electronics,		
 		Type = Clothing,
 		DisplayName = Headphones,
-		ClothingItem = Authentic_Headphones2,
-		BodyLocation = Necklace,
-		IconsForTexture = HeadphonesBlack; HeadphonesBlue; HeadphonesGold; HeadphonesPink; HeadphonesPurple; HeadphonesSeaGreen,
+		ClothingItem = Authentic_HeadphonesNeck,
+		ClothingItemExtra = Authentic_Headphones,
+        ClothingItemExtraOption = WearHead,		
+		BodyLocation = Necklace_Long,
+		Icon = Headphones,
 		Weight = 0.3,
 		ChanceToFall = 25,
 		WorldStaticModel = WorldItem_HeadPhones,
 	}	
+	item Authentic_Headphones2
+	{
+       DisplayCategory 	 = Electronics,		
+		Type 	 		 = Clothing,
+		DisplayName 	 = Headphones,
+		ClothingItem 	 = Authentic_Headphones2,
+		ClothingItemExtra = Authentic_HeadphonesNeck2,
+        ClothingItemExtraOption = WearNeck,	
+		BodyLocation 	 = Necklace,
+		IconsForTexture  = HeadphonesBlack; HeadphonesBlue; HeadphonesGold; HeadphonesPink; HeadphonesPurple; HeadphonesSeaGreen,
+		Weight 			 = 0.3,
+		ChanceToFall 	 = 25,
+		WorldStaticModel = WorldItem_HeadPhones,
+	}
+	item Authentic_HeadphonesNeck2
+	{
+       DisplayCategory = Electronics,		
+		Type 					= Clothing,
+		DisplayName 			= Headphones,
+		ClothingItem 			= Authentic_HeadphonesNeck2,
+		ClothingItemExtra 		= Authentic_Headphones2,
+        ClothingItemExtraOption = WearHead,			
+		BodyLocation 			= Necklace_Long,
+		IconsForTexture 		= HeadphonesBlack; HeadphonesBlue; HeadphonesGold; HeadphonesPink; HeadphonesPurple; HeadphonesSeaGreen,
+		Weight 					= 0.3,
+		ChanceToFall 			= 25,
+		WorldStaticModel 		= WorldItem_HeadPhones,
+	}		
 	item Bikini_Pattern02
 	{
        DisplayCategory = Clothing,		

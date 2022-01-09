@@ -219,19 +219,19 @@ module AuthenticZClothing {
 
 	item Bag_L4DeadMedkit
     {
-       DisplayCategory = Bag,	
+        Type					 =	Container,	
+        DisplayCategory 		 = 	Bag,
+        DisplayName				 =	First Aid Kit,	
+        ClothingItem 			 = 	Bag_L4DeadMedkit,		
         WeightReduction		     =	50,
         Weight					 =	1,
-        Type					 =	Container,
         Capacity				 =	5,
-        DisplayName				 =	First Aid Kit,
         Icon 					 = 	Backpack_L4DMedkit,
         CanBeEquipped 			 = 	Back,
         OpenSound   			 = 	OpenBag,
         CloseSound   			 = 	CloseBag,
         PutInSound  			 = 	PutItemInBag,
         Medical 				 = 	TRUE,		
-        ClothingItem 			 = 	Bag_L4DeadMedkit,
         BloodLocation 			 = 	Bag,
         RunSpeedModifier 		 = 	0.97,
         AttachmentReplacement 	 = 	Bag,
@@ -241,6 +241,44 @@ module AuthenticZClothing {
 		AttachmentType  		 = 	Bag_L4DeadMedkit,
 		StaticModel 			= 	WorldItem_BackpackL4DMedkit,		
     } 
+
+	item Bag_MilitaryWebbing_AZ
+	{
+		DisplayCategory 		= Bag,
+		Type 					= Container,
+		DisplayName 			= Tactical Webbing,
+		ClothingItem 			= Bag_MilitaryWebbing_AZ,
+		ClothingItemExtra 		= Bag_MilitaryWebbingTightened_AZ,
+        ClothingItemExtraOption = Tighten,		
+		BodyLocation 			= Tail,
+		CanBeEquipped 			= Tail,
+		Capacity 				= 5,
+		WeightReduction			= 40,
+		RunSpeedModifier 		= 1,
+		Icon 			 		= MilitaryWebbing,
+		Tooltip 		 		= Tooltip_TacticalWebbing,
+		AttachmentsProvided  	= AZWebbingLeft;AZWebbingRight,
+		WorldStaticModel 		= WorldItem-MilitaryWebbing,		
+	}
+
+	item Bag_MilitaryWebbingTightened_AZ
+	{
+		DisplayCategory 		= Bag,
+		Type 					= Container,
+		DisplayName 			= Tactical Webbing (Tightened),
+		ClothingItem		 	= Bag_MilitaryWebbingTightened_AZ,
+		ClothingItemExtra 		= Bag_MilitaryWebbing_AZ,
+        ClothingItemExtraOption = Loosen,		
+		BodyLocation 			= Tail,
+		CanBeEquipped 			= Tail,
+		Capacity 				= 5,
+		WeightReduction			= 40,
+		RunSpeedModifier 		= 1,
+		Icon 					= MilitaryWebbing,
+		Tooltip 				= Tooltip_TacticalWebbing,
+		AttachmentsProvided  	= AZWebbingLeft;AZWebbingRight,
+		WorldStaticModel 		= WorldItem-MilitaryWebbing,		
+	}
 	
 	item Bag_SchoolBagNBH
     {
@@ -309,7 +347,7 @@ module AuthenticZClothing {
 	
     item Bag_UtilityBeltFront_Loose
     {
-       DisplayCategory = Bag,	
+		DisplayCategory 		= 	Bag,	
         Type					=	Container,
         DisplayName				=	Utility Belt (Loosened),
         ClothingItem 			= 	Bag_UtilityBeltFront_Loose,		
@@ -372,7 +410,7 @@ module AuthenticZClothing {
 
     item Bag_Satchel
     {
-       DisplayCategory = Bag,	
+        DisplayCategory = Bag,	
         WeightReduction	=	30,
         Weight	=	1,
         Type	=	Container,

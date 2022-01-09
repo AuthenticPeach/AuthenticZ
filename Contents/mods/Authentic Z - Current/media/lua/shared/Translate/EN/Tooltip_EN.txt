@@ -34,6 +34,7 @@ Tooltip_EN = {
 	Tooltip_MeatChunk3 = "Bloodied and Disgusting"	
 	Tooltip_MeatChunk4 = "Makes me gag."	
 	Tooltip_MeatChunk5 = "I'm glad it wasn't ripped out of me...."	
+	Tooltip_OpenJacket = "Opens jacket for less insulation"	
 	Tooltip_Scandroid = "The tag says "We are here, by design."", 
 	Tooltip_Stop = "Stop!"
 	Tooltip_Stantz = "Ray Stantz used to wear this....",
@@ -41,4 +42,6 @@ Tooltip_EN = {
 	Tooltip_Venkman = "Peter Venkman used to wear this....",
 	Tooltip_Winslow = "I might want to find a tetanus shot...."
 	Tooltip_Zeddemore = "Winston Zeddemore used to wear this....",
+	
+	Tooltip_TacticalWebbing = "Adds 2 Attachment Slots",
 	}
