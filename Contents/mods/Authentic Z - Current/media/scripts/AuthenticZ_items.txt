@@ -988,6 +988,7 @@ module AuthenticZClothing {
         BaseSpeed = 1,
         WeaponLength = 0.1,		
 		AttachmentType = MeatCleaver,
+		WorldStaticModel = WorldItem-AZPetition,		
     }
 	
     item AuthenticMeatChunk1

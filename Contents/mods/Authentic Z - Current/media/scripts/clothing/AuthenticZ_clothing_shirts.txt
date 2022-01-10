@@ -856,7 +856,7 @@
         DisplayCategory 		= 	Bag,	
         Type 					= 	Container,
         DisplayName 			= 	TV-110 Bulletproof Vest (Bag),
-        ClothingItem 			= 	Vest_BulletTV110_Bag,
+        ClothingItem 			= 	Vest_BulletTV110_Bag_Radio,
 
         BodyLocation 			= 	TorsoExtra,
 		IconsForTexture 		= 	TV110Desert;TV110Camo;TV110Urban,
@@ -887,7 +887,7 @@
         ScratchDefense 			= 55,
         BulletDefense 			= 100,		
         WorldStaticModel 		= WorldItem-AuthenticTV110_Bag,	        
-		ClothingItem 			= Vest_BulletTV110_BulletVest,
+		ClothingItem 			= Vest_BulletTV110_BulletVest_Radio,
     }	
     item Vest_Hunting_Beige
     {
