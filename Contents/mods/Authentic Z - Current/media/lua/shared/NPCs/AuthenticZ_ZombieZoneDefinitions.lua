@@ -985,6 +985,19 @@ ZombiesZoneDefinition.Militia = {
 	},
 }
 
+ZombiesZoneDefinition.MinerZone = {
+	ConstructionWorker = {
+		name="ConstructionWorker",
+		gender="male",			
+		chance=30,
+	},
+	AuthenticMiner = {
+		name="AuthenticMiner",
+		gender="male",		
+		chance=25,
+	},	
+}
+
 ZombiesZoneDefinition.MovieNight = {
 	AuthenticAuthenticAndyDotDM = {
 		name="AuthenticAndyDotD",
@@ -1156,8 +1169,8 @@ ZombiesZoneDefinition.MovieNight2 = {
 	},		
 }
 
-ZombiesZoneDefinition.Nate = { --
-	AuthenticNateAndersonM = {  --
+ZombiesZoneDefinition.Nate = { 
+	AuthenticNateAndersonM = {  
 		name="AuthenticNateAnderson",
 		toSpawn=1,
 		mandatory="true",
@@ -1616,6 +1629,27 @@ ZombiesZoneDefinition.Wedding = {
 		chance=15,
 	}
 };
+
+ZombiesZoneDefinition.Western = {
+	Generic04 = {
+		name="Generic04",			
+		chance=30,
+	},
+	Farmer = {
+		name="Farmer",		
+		chance=25,
+	},
+	AuthenticCountrySinger = {
+		name="AuthenticCountrySinger",
+		gender="male",		
+		chance=5,
+	},
+	AuthenticCountryHick = {
+		name="AuthenticCountryHick",
+		gender="male",		
+		chance=5,
+	},	
+}
 
 ZombiesZoneDefinition.WorldsEnd = {  --
 	AuthenticMadMax = {
@@ -2186,6 +2220,22 @@ local Cheerleader = {
 		gender="female",
 	};
 ZombiesZoneDefinition.School[Cheerleader] = Cheerleader;
+
+local Janitor = {
+		name="AuthenticJanitor",
+		chance=2,
+		gender="male",
+	};
+ZombiesZoneDefinition.School[Janitor] = Janitor;
+ZombiesZoneDefinition.Bank[Janitor] = Janitor;
+ZombiesZoneDefinition.Offices[Janitor] = Janitor;
+
+local Janitor2 = {
+		name="AuthenticJanitor",
+		chance=1,
+		gender="male",
+	};
+ZombiesZoneDefinition.CrossroadsMall[Janitor2] = Janitor2;
 
 local AuthenticMaid = {
 		name="AuthenticMaid",

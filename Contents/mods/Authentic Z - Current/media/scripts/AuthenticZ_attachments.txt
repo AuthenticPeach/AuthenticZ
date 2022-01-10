@@ -3685,8 +3685,22 @@ module Base
 
 		attachment Bip01_Head
 		{
-			offset = -0.1160 -0.0030 0.0660,
-			rotate = 0.0000 -90.0000 0.0000,
+			offset = 0.3940 -0.0040 0.2940,
+			rotate = 16.0000 -43.0000 101.0000,
+			bone = Bip01_Head,
+		}
+
+		attachment AZ_PlungerFace
+		{
+			offset = 0.1400 0.0020 0.4210,
+			rotate = 46.0000 -73.0000 134.0000,
+			bone = Bip01_Head,
+		}
+
+		attachment AZ_PlungerHead
+		{
+			offset = 0.5080 -0.0080 -0.0930,
+			rotate = 102.0000 -3.0000 78.0000,
 			bone = Bip01_Head,
 		}
 

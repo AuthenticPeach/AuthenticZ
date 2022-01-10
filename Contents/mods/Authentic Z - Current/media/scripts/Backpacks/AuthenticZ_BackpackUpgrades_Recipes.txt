@@ -900,6 +900,74 @@ recipe Tie Balloons Together
         WorldStaticModel 		= 	ALICE_Pack_Ground,
     }
 
+    item Bag_ALICEpack_UrbanCamo_Tier_1
+    {
+        DisplayCategory = Bag,		
+        Type 					= 	Container,
+        DisplayName 			= 	Urban Camo Alice Pack - Tier 1,
+        ClothingItem 			= 	Bag_ALICEpack_UrbanCamo_Tier_1,
+        CanBeEquipped 			= 	Back,
+        WeightReduction			=	87,
+        Weight					=	2,
+        Capacity				=	29,
+        Icon					=	AliceBag_UrbanCamo,
+        OpenSound   			=   OpenBag,
+        CloseSound   			=   CloseBag,
+        PutInSound   			=   PutItemInBag,
+        BloodLocation 			= 	Bag,
+        RunSpeedModifier 		= 	0.94,
+        AttachmentReplacement 	= 	Bag,
+		AttachmentsProvided  	= 	AlicepackSecondary;AlicepackItemSlot1;AlicepackItemSlot2;AlicepackBottleRight;SchoolbagBalloonRight,			
+        ReplaceInSecondHand 	= 	Bag_ALICEpack_Army_LHand holdingbagleft,
+        ReplaceInPrimaryHand 	= 	Bag_ALICEpack_Army_RHand holdingbagright,
+        WorldStaticModel 		= 	ALICE_Pack_Ground,
+    }
+	
+    item Bag_ALICEpack_UrbanCamo_Tier_2
+    {
+        DisplayCategory = Bag,		
+        Type 					= 	Container,
+        DisplayName 			= 	Urban Camo Alice Pack - Tier 2,
+        ClothingItem 			= 	Bag_ALICEpack_UrbanCamo_Tier_2,
+        CanBeEquipped 			= 	Back,
+        WeightReduction			=	87,
+        Weight					=	2,
+        Capacity				=	30,
+        Icon					=	AliceBag_UrbanCamo,
+        OpenSound   			=   OpenBag,
+        CloseSound   			=   CloseBag,
+        PutInSound   			=   PutItemInBag,
+        BloodLocation 			= 	Bag,
+        RunSpeedModifier 		= 	0.94,
+        AttachmentReplacement 	= 	Bag,
+		AttachmentsProvided  	= 	AlicepackSecondary;AlicepackItemSlot1;AlicepackItemSlot2;AlicepackItemSlot3;AlicepackBottleRight;AlicepackPlushie;AlicepackUmbrellaRight;SchoolbagBalloonRight,				
+        ReplaceInSecondHand 	= 	Bag_ALICEpack_Army_LHand holdingbagleft,
+        ReplaceInPrimaryHand 	= 	Bag_ALICEpack_Army_RHand holdingbagright,
+        WorldStaticModel 		= 	ALICE_Pack_Ground,
+    }	
+ 
+    item Bag_ALICEpack_UrbanCamo_Tier_3
+    {
+        DisplayCategory = Bag,	
+        Type 					= 	Container,
+        DisplayName 			= 	Urban Camo Alice Pack - Tier 3,
+        ClothingItem 			= 	Bag_ALICEpack_UrbanCamo_Tier_3,
+        CanBeEquipped 			= 	Back,
+        WeightReduction			=	87,
+        Weight					=	2,
+        Capacity				=	31,
+        Icon					=	AliceBag_UrbanCamo,
+        OpenSound   			=   OpenBag,
+        CloseSound   			=   CloseBag,
+        PutInSound   			=   PutItemInBag,
+        BloodLocation 			= 	Bag,
+        RunSpeedModifier 		= 	0.94,
+        AttachmentReplacement 	= 	Bag,
+		AttachmentsProvided  	= 	AlicepackSecondary;AlicepackItemSlot1;AlicepackItemSlot2;AlicepackItemSlot3;AlicepackItemSlot4;AlicepackItemSlot5;AlicepackBottleRight;AlicepackBottleLeft;AlicepackPlushie;AlicepackUmbrellaRight;AlicepackFlashlight;SchoolbagBalloonRight,					
+        ReplaceInSecondHand 	= 	Bag_ALICEpack_Army_LHand holdingbagleft,
+        ReplaceInPrimaryHand 	= 	Bag_ALICEpack_Army_RHand holdingbagright,
+        WorldStaticModel 		= 	ALICE_Pack_Ground,
+    }
 
 	item Handbag_Secondary
 	{
@@ -1794,6 +1862,57 @@ recipe Upgrade Camo Alicepack
 
 	/*Modded Backpacks*/	
 
+recipe Upgrade Urban Camo Alicepack
+  	{
+	   Bag_ALICEpack_UrbanCamo,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=3,
+	   LeatherStrips/DenimStrips=3,	
+
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_ALICEpack_UrbanCamo_Tier_1,
+       OnGiveXP:Give20TailoringXP,	   
+	   Time:300.0,
+       AnimNode:Disassemble,
+	   Category:Tailoring,
+	   Tooltip:Tooltip_AttachAliceBackpackTier1,
+  	}
+recipe Upgrade Urban Camo Alicepack
+  	{
+	   Bag_ALICEpack_UrbanCamo_Tier_1,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=3,
+	   LeatherStrips/DenimStrips=3,	
+
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_ALICEpack_UrbanCamo_Tier_2,
+       OnGiveXP:Give20TailoringXP,	   
+	   Time:300.0,
+       AnimNode:Disassemble,
+	   SkillRequired:Tailoring=1,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_AttachAliceBackpackTier2,
+  	}	
+
+recipe Upgrade Urban Camo Alicepack
+  	{
+	   Bag_ALICEpack_UrbanCamo_Tier_2,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=3,
+	   LeatherStrips/DenimStrips=3,	
+
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_ALICEpack_UrbanCamo_Tier_3,
+       OnGiveXP:Give20TailoringXP,	   
+	   Time:300.0,
+       AnimNode:Disassemble,
+	   SkillRequired:Tailoring=2,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_AttachAliceBackpackTier3, 
+  	}	
 
 recipe Upgrade NBH Hazmat Pack
   	{

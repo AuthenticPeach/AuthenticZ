@@ -117,6 +117,45 @@ AttachedWeaponDefinitions.BalloonP3= {
 	},
 }
 
+AttachedWeaponDefinitions.Broom = {
+	id = "AZBroom",
+	chance = 100,
+	outfit = {"AuthenticJanitor"},
+	weaponLocation = {"Shovel Back"},
+	bloodLocations = nil,
+	addHoles = false,
+	daySurvived = 0,
+	weapons = {
+		"Base.Broom",
+	},
+}
+
+--AttachedWeaponDefinitions.Mop = {
+--	id = "AZMop",
+--	chance = 100,
+--	outfit = {"AuthenticJanitor"},
+--	weaponLocation = {"Shovel Back"},
+--	bloodLocations = nil,
+--	addHoles = false,
+--	daySurvived = 0,
+--	weapons = {
+--		"Base.Mop",
+--	},
+--}
+
+AttachedWeaponDefinitions.chainsawAsh= {
+	id = "chainsawAshEvilDead",
+	chance = 100,
+	outfit = {"AuthenticAshEvilDead","AuthenticLeatherFace","AuthenticChainsawMaid"},
+	weaponLocation =  {"Right Hand"},
+	bloodLocations = nil,
+	addHoles = false,
+	daySurvived = 0,
+	weapons = {
+		"AuthenticZClothing.Chainsaw",
+	},
+}
+
 AttachedWeaponDefinitions.CoffeeCup= {
 	id = "CoffeeCup",
 	chance = 100,
@@ -130,6 +169,19 @@ AttachedWeaponDefinitions.CoffeeCup= {
 	},
 }
 
+-- screwdriver on construction worker
+AttachedWeaponDefinitions.constructionWorkerScrewdriver2 = {
+	chance = 80,
+	outfit = {"AuthenticNateAnderson"},
+	weaponLocation = {"Belt Left Screwdriver", "Belt Right Screwdriver"},
+	bloodLocations = nil,
+	addHoles = false,
+	daySurvived = 0,
+	weapons = {
+		"Base.Screwdriver",
+	},
+}
+
 AttachedWeaponDefinitions.Pills= {
 	id = "Pills",
 	chance = 25,
@@ -140,6 +192,19 @@ AttachedWeaponDefinitions.Pills= {
 	daySurvived = 0,
 	weapons = {
 		"AuthenticZClothing.Authentic_Pills",
+	},
+}
+
+AttachedWeaponDefinitions.GardeningSpray = {
+	id = "AZGardeningSpray",
+	chance = 100,
+	outfit = {"AuthenticJanitor"},
+	weaponLocation = {"Holster Left", "Holster Right"},
+	bloodLocations = nil,
+	addHoles = false,
+	daySurvived = 0,
+	weapons = {
+		"farming.GardeningSprayEmpty",
 	},
 }
 
@@ -245,19 +310,6 @@ AttachedWeaponDefinitions.CigaretteHolder= {
 	daySurvived = 0,
 	weapons = {
 		"AuthenticZClothing.AuthenticCigaretteHolder",
-	},
-}
-
-AttachedWeaponDefinitions.chainsawAsh= {
-	id = "chainsawAshEvilDead",
-	chance = 100,
-	outfit = {"AuthenticAshEvilDead","AuthenticLeatherFace","AuthenticChainsawMaid"},
-	weaponLocation =  {"Right Hand"},
-	bloodLocations = nil,
-	addHoles = false,
-	daySurvived = 0,
-	weapons = {
-		"AuthenticZClothing.Chainsaw",
 	},
 }
 
@@ -380,19 +432,6 @@ AttachedWeaponDefinitions.HammerTime = {
 		"Base.ClubHammer",
 		"Base.WoodenMallet",
 		"Base.BallPeenHammer",
-	},
-}
-
--- screwdriver on construction worker
-AttachedWeaponDefinitions.constructionWorkerScrewdriver2 = {
-	chance = 80,
-	outfit = {"AuthenticNateAnderson"},
-	weaponLocation = {"Belt Left Screwdriver", "Belt Right Screwdriver"},
-	bloodLocations = nil,
-	addHoles = false,
-	daySurvived = 0,
-	weapons = {
-		"Base.Screwdriver",
 	},
 }
 
@@ -827,6 +866,44 @@ AttachedWeaponDefinitions.Football = {
 	},
 }
 
+AttachedWeaponDefinitions.ToiletPlungerOdd = {
+	id = "AZToiletPlungerOdd",
+	chance = 33,
+	outfit = {"AuthenticJanitor"},
+	weaponLocation = {"BucketHead", "PlungerFace", "PlungerHead"},
+	bloodLocations = nil,
+	addHoles = false,
+	daySurvived = 0,
+	weapons = {
+    "Base.Plunger",
+    "Base.BucketEmpty",	
+	},
+}
+AttachedWeaponDefinitions.Bucket = {
+	id = "BucketHead",
+	chance = 100,
+	outfit = {"AuthenticBub"},
+	weaponLocation = {"BucketHead"},
+	bloodLocations = nil,
+	addHoles = false,
+	daySurvived = 0,
+	weapons = {
+    "Base.BucketEmpty",
+	},
+}
+AttachedWeaponDefinitions.ToiletPlungerBelt = {
+	id = "AZToiletPlungerBelt",
+	chance = 100,
+	outfit = {"AuthenticJanitor"},
+	weaponLocation = {"Belt Left", "Belt Right"},
+	bloodLocations = nil,
+	addHoles = false,
+	daySurvived = 0,
+	weapons = {
+    "Base.Plunger",
+	},
+}
+
 AttachedWeaponDefinitions.TorchMelee = {
 	chance = 100,
 	outfit = {"AuthenticNMRIHBadass"},
@@ -862,7 +939,7 @@ AttachedWeaponDefinitions.AndySign = {
 	},
 }
 AttachedWeaponDefinitions.Bucket = {
-	id = "Bucket",
+	id = "BucketHead",
 	chance = 100,
 	outfit = {"AuthenticBub"},
 	weaponLocation = {"BucketHead"},
@@ -870,7 +947,7 @@ AttachedWeaponDefinitions.Bucket = {
 	addHoles = false,
 	daySurvived = 0,
 	weapons = {
-    "Base.Bucket",
+    "Base.BucketEmpty",
 	},
 }
 AttachedWeaponDefinitions.AuthenticLouis = {
@@ -1327,6 +1404,29 @@ AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticFootballPlayerBlue
 		AttachedWeaponDefinitions.Football,
 	},
 }
+AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticGhostFace = {
+	chance = 100;
+	weapons = {
+		AttachedWeaponDefinitions.KniveinHand,
+	},
+}
+AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticHalloween = {
+	chance = 100;
+	weapons = {
+		AttachedWeaponDefinitions.KniveinHand,
+	},
+}
+AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticJanitor = {
+	chance = 80;
+	maxitem = 2;	
+	weapons = {
+		AttachedWeaponDefinitions.Broom,
+		AttachedWeaponDefinitions.ToiletPlungerOdd,
+		AttachedWeaponDefinitions.ToiletPlungerBelt,
+--		AttachedWeaponDefinitions.Mop,
+		AttachedWeaponDefinitions.GardeningSpray,
+	},
+}
 AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticJasonPart3 = {
 	chance = 100;
 	weapons = {
@@ -1341,22 +1441,10 @@ AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticJasonPart2 = {
 		AttachedWeaponDefinitions.pickaxeInBack,
 	},
 }
-AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticHalloween = {
-	chance = 100;
-	weapons = {
-		AttachedWeaponDefinitions.KniveinHand,
-	},
-}
 AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticJoker = {
 	chance = 90;
 	weapons = {
 		AttachedWeaponDefinitions.handgunFlyboy,
-	},
-}
-AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticGhostFace = {
-	chance = 100;
-	weapons = {
-		AttachedWeaponDefinitions.KniveinHand,
 	},
 }
 AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticLeatherFace = {

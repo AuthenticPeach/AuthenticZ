@@ -3412,6 +3412,22 @@
 		<guid>69bbaea6-1cde-4dfd-874b-760921b36b58</guid>
 	</files>
 	<files>
+		<path>media/clothing/clothingItems/Bag_ALICEpack_UrbanCamo.xml</path>
+		<guid>3db442f3-2df0-4693-b6b8-262695a73640</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_ALICEpack_UrbanCamo_Tier_1.xml</path>
+		<guid>4efff8af-2277-40e9-bbc7-b70d19b38c1d</guid>
+	</files>
+		<files>
+		<path>media/clothing/clothingItems/Bag_ALICEpack_UrbanCamo_Tier_2.xml</path>
+		<guid>83282aab-7eff-47ea-856f-f2415e204592</guid>
+	</files>
+		<files>
+		<path>media/clothing/clothingItems/Bag_ALICEpack_UrbanCamo_Tier_3.xml</path>
+		<guid>1d5ad082-47a3-45da-a3f1-65a6f1fbbfe4</guid>
+	</files>	
+	<files>
 		<path>media/clothing/clothingItems/Bag_B4BEvangelo.xml</path>
 		<guid>a6518615-e27d-460f-b9bc-ba2a82e4bec1</guid>
 	</files>

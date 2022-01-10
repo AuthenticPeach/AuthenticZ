@@ -9,9 +9,15 @@
 	<m_AttachBone></m_AttachBone>
 	<m_MasksFolder>none</m_MasksFolder>
 	<textureChoices>clothes\Items\HeadPhonesBlack</textureChoices>
+	<textureChoices>clothes\Items\HeadPhonesBlackSpecial</textureChoices>
 	<textureChoices>clothes\Items\HeadPhonesBlue</textureChoices>
+	<textureChoices>clothes\Items\HeadPhonesBrightPink</textureChoices>
 	<textureChoices>clothes\Items\HeadPhonesBronze</textureChoices>
+	<textureChoices>clothes\Items\HeadPhonesGreen</textureChoices>
+	<textureChoices>clothes\Items\HeadPhonesLightBlue</textureChoices>
+	<textureChoices>clothes\Items\HeadPhonesLightBlueSpecial</textureChoices>
 	<textureChoices>clothes\Items\HeadPhonesPink</textureChoices>
 	<textureChoices>clothes\Items\HeadPhonesPurple</textureChoices>
-	<textureChoices>clothes\Items\HeadPhonesSeaGreen</textureChoices>	
+	<textureChoices>clothes\Items\HeadPhonesRose</textureChoices>
+	<textureChoices>clothes\Items\HeadPhonesSeaGreen</textureChoices>
 </clothingItem>
