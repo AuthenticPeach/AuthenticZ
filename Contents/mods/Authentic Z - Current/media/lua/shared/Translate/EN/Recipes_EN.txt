@@ -27,8 +27,8 @@ Recipes_EN = {
 	Recipe_Upgrade_Duffelbag = "Upgrade Duffelbag",	
 	Recipe_Upgrade_Hiking_Bag = "Upgrade Hiking Bag",
 	Recipe_Upgrade_Big_Hiking_Bag = "Upgrade Big Hiking Bag",
-	Recipe_Upgrade_Alicepack = "Upgrade Alice pack",
-	Recipe_Upgrade_Camo_Alicepack = "Upgrade Woodland Alice Pack",		
+	Recipe_Upgrade_Alicepack = "Upgrade Alice Pack",
+	Recipe_Upgrade_Camo_Alicepack = "Upgrade Woodland Alice Pack",			
 
 
 	Recipe_Upgrade_CEDA_Hazmat_Pack = "Upgrade CEDA Hazmat Pack",
@@ -42,11 +42,13 @@ Recipes_EN = {
 	Recipe_Reuse_Bag = "Reuse Bag",	
 	Recipe_Make_Backpack_Attachable = "Make Backpack Attachable",	
 
-	/* New*/	
-Upgrade Urban Camo Alicepack
 	Recipe_Upgrade_Evangelos_Backpack = "Upgrade Evangelo's Backpack",	
 	Recipe_Upgrade_Hoffmans_Backpack = "Upgrade Hoffman's Backpack",
 	Recipe_Upgrade_Walkers_Backpack = "Upgrade Walker's Backpack",
-	
-	Recipe_Upgrade_Walkers_Backpack = "Upgrade Walker's Backpack",
+
+
+/* New*/		
+	Recipe_Upgrade_Urban_Camo_Alice_Pack = "Upgrade Urban Camo Alice Pack",
+	Recipe_Detach_Walkie_from_Vest= "Detach Walkie from Vest",
+	Recipe_Attach_Walkie_to_Vest= "Attach Walkie to Vest",
 	}

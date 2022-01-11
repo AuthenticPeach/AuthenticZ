@@ -702,8 +702,8 @@ ItemName_EN = {
 	ItemName_AuthenticZClothing.Hat_FastFood_Donut = "Donut Server Hat",
 	
 	/* New */
-	ItemName_AuthenticZClothing.Authentic_HeadphonesNeck  = "Headphones",
-	ItemName_AuthenticZClothing.Authentic_HeadphonesNeck2 = "Headphones",
+	ItemName_AuthenticZClothing.Authentic_HeadphonesNeck  = "Headphones (On Neck)",
+	ItemName_AuthenticZClothing.Authentic_HeadphonesNeck2 = "Headphones (On Neck)",
 	ItemName_AuthenticZClothing.Bag_MilitaryWebbing_AZ 			= "Tactical Webbing",
 	ItemName_AuthenticZClothing.Bag_MilitaryWebbingTightened_AZ = "Tactical Webbing (Tightened)",	
 	ItemName_AuthenticZClothing.Bag_ALICEpack_UrbanCamo 	   = "Urban Camo Alice Pack",	
