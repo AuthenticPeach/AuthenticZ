@@ -829,7 +829,8 @@
         CloseSound   			=   CloseBag,
         PutInSound   			=   PutItemInBag,
         CanBeEquipped 			= 	FannyPackFront,	
-        RunSpeedModifier 		= 	0.98,			
+        RunSpeedModifier 		= 	0.98,
+		AcceptItemFunction      = 	AZ_TV110Vest.AcceptItemFunctionTV110,	
         WorldStaticModel 		= 	WorldItem-AuthenticTV110_Bag,       	
     }
     item Vest_BulletTV110_Bag_Radio
@@ -848,7 +849,8 @@
         CloseSound   			=   CloseBag,
         PutInSound   			=   PutItemInBag,
         CanBeEquipped 			= 	FannyPackFront,	
-        RunSpeedModifier 		= 	0.98,			
+        RunSpeedModifier 		= 	0.98,	
+		AcceptItemFunction      = 	AZ_TV110Vest.AcceptItemFunctionTV110,		
         WorldStaticModel 		= 	WorldItem-AuthenticTV110_Bag_Radio,       	
     }	
     item Vest_BulletTV110_BulletVest

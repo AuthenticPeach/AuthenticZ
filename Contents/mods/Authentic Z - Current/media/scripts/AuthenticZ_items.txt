@@ -218,7 +218,7 @@ module AuthenticZClothing {
         MaxDamage	=	0.1,
         BaseSpeed = 1,
         WeaponLength = 0.1,		
-		AttachmentType = Hammer,
+		AttachmentType = Walkie,
     }
     item AuthenticBalloon_Blue
     {

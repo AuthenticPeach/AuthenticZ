@@ -7,7 +7,7 @@ ContextMenu_EN = {
 	ContextMenu_ClosedJacket = "Close Jacket",
 	
 	ContextMenu_VestBag = "Use as Bag",
-	ContextMenu_VestBullet = "Use as Bullet Proof Vest",
+	ContextMenu_VestBullet = "Use as Bulletproof Vest",
 	ContextMenu_VestRadio = "Use as Radio",
 	
 	ContextMenu_WearHead = "Wear on Head",
