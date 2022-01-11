@@ -28,8 +28,13 @@ function AuthenticTorchBatteryInsert_TestIsValid(sourceItem, result)
 	return true -- the battery
 end
 
+function Recipe.OnCreate.GiveMeRadio(items, result, player)
+    player:getInventory():AddItem("Radio.WalkieTalkie5");
+end
+
 function Recipe.OnGiveXP.Tailoring20(recipe, ingredients, result, player)
     player:getXp():AddXP(Perks.Tailoring, 15);
 end
 
 Give20TailoringXP = Recipe.OnGiveXP.Tailoring20
+GiveMeRadio = Recipe.OnCreate.GiveMeRadio

@@ -612,17 +612,17 @@ ZombiesZoneDefinition.CrossroadsMall = {
 		gender="male",
 		room="hall",
 	},
-	Santa = {
-		name="Santa",
-		chance=1,
-		gender="male",
-		room="hall",
-		beardStyles="Long:100",	
-	},
-	SantaGreen = {
-		name="SantaGreen",
-		chance=1,
-	},	
+--	Santa = {
+---		name="Santa",
+--		chance=1,
+--		gender="male",
+--		room="hall",
+--		beardStyles="Long:100",	
+--	},
+--	SantaGreen = {
+--		name="SantaGreen",
+--		chance=1,
+--	},	
 	AuthenticDRTrueEyeCultM = {
 		name="AuthenticDRTrueEyeCult",
 		chance=2,
@@ -2223,7 +2223,7 @@ ZombiesZoneDefinition.School[Cheerleader] = Cheerleader;
 
 local Janitor = {
 		name="AuthenticJanitor",
-		chance=2,
+		chance=3,
 		gender="male",
 	};
 ZombiesZoneDefinition.School[Janitor] = Janitor;

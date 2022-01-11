@@ -343,6 +343,43 @@ recipe Convert to Torch
         OnCreate:Recipe.OnCreate.CloseUmbrella,
         Time:10.0,
     }   
+
+recipe Attach Walkie to Vest
+  	{
+   	   Radio.WalkieTalkie5,
+	   AuthenticZClothing.Vest_BulletTV110_BulletVest,
+
+   	   Result:AuthenticZClothing.Vest_BulletTV110_BulletVest_Radio,
+	   Time:50.0,
+	   Tooltip:Tooltip_AddWalkieTV110,
+  	}
+recipe Attach Walkie to Vest
+  	{
+   	   Radio.WalkieTalkie5,
+	   AuthenticZClothing.Vest_BulletTV110_Bag,
+
+   	   Result:AuthenticZClothing.Vest_BulletTV110_Bag_Radio,
+	   Time:50.0,
+	   Tooltip:Tooltip_AddWalkieTV110,
+  	}
+recipe Detach Walkie from Vest
+  	{
+	   AuthenticZClothing.Vest_BulletTV110_BulletVest_Radio,
+
+   	   Result: AuthenticZClothing.Vest_BulletTV110_BulletVest,
+	   OnCreate:GiveMeRadio,	   
+	   Time:50.0,
+	   Tooltip:Tooltip_RemoveWalkieTV110,
+  	}
+recipe Detach Walkie from Vest
+  	{
+	   AuthenticZClothing.Vest_BulletTV110_Bag_Radio,
+
+   	   Result:AuthenticZClothing.Vest_BulletTV110_Bag,
+	   OnCreate:GiveMeRadio,	   
+	   Time:50.0,
+	   Tooltip:Tooltip_RemoveWalkieTV110,	   
+  	}
 	
 recipe Draw Hitlist 1
   	{
@@ -386,7 +423,7 @@ recipe Open Medical Coat
    	   Result:AuthenticZClothing.Jacket_Doctor2,
 	   Time:30.0,
 	   Tooltip:Tooltip_OpenJacket,	   
-  	}
+  	}	
 recipe Tie Hoodie Around Waist
   	{
    	   HoodieUP_WhiteTINT,

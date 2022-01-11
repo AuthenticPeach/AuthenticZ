@@ -21,6 +21,7 @@ module AuthenticZClothing {
         Insulation = 0.1,
         WindResistance = 0.75,
         WaterResistance = 1.0,
+        FabricType = Denim,		
         WorldStaticModel = Poncho_Ground,
     }
     item PonchoBlackDOWN
@@ -43,6 +44,7 @@ module AuthenticZClothing {
         Insulation = 0.15,
         WindResistance = 0.8,
         WaterResistance = 1.0,
+        FabricType = Denim,			
         WorldStaticModel = Poncho_Ground,
     }
     item PonchoCamoDesert
@@ -64,6 +66,7 @@ module AuthenticZClothing {
         Insulation = 0.1,
         WindResistance = 0.75,
         WaterResistance = 1.0,
+        FabricType = Denim,			
         WorldStaticModel = Poncho_Ground,
     }
     item PonchoCamoDesertDOWN
@@ -86,6 +89,7 @@ module AuthenticZClothing {
         Insulation = 0.15,
         WindResistance = 0.8,
         WaterResistance = 1.0,
+        FabricType = Denim,			
         WorldStaticModel = Poncho_Ground,
     }	
     item PonchoCamoForest
@@ -107,6 +111,7 @@ module AuthenticZClothing {
         Insulation = 0.1,
         WindResistance = 0.75,
         WaterResistance = 1.0,
+        FabricType = Denim,			
         WorldStaticModel = Poncho_Ground,
     }
     item PonchoCamoForestDOWN
@@ -129,6 +134,7 @@ module AuthenticZClothing {
         Insulation = 0.15,
         WindResistance = 0.8,
         WaterResistance = 1.0,
+        FabricType = Denim,			
         WorldStaticModel = Poncho_Ground,
     }	
     item PonchoCamoForest2
@@ -150,6 +156,7 @@ module AuthenticZClothing {
         Insulation = 0.1,
         WindResistance = 0.75,
         WaterResistance = 1.0,
+        FabricType = Denim,			
         WorldStaticModel = Poncho_Ground,
     }
     item PonchoCamoForest2DOWN
@@ -172,6 +179,7 @@ module AuthenticZClothing {
         Insulation = 0.15,
         WindResistance = 0.8,
         WaterResistance = 1.0,
+        FabricType = Denim,			
         WorldStaticModel = Poncho_Ground,
     }
     item PonchoUrbanForest
@@ -193,6 +201,7 @@ module AuthenticZClothing {
         Insulation = 0.1,
         WindResistance = 0.75,
         WaterResistance = 1.0,
+        FabricType = Denim,			
         WorldStaticModel = Poncho_Ground,
     }
     item PonchoUrbanForestDOWN
@@ -215,6 +224,7 @@ module AuthenticZClothing {
         Insulation = 0.15,
         WindResistance = 0.8,
         WaterResistance = 1.0,
+        FabricType = Denim,			
         WorldStaticModel = Poncho_Ground,
     }		
     item PonchoOliveDrab
@@ -236,6 +246,7 @@ module AuthenticZClothing {
         Insulation = 0.1,
         WindResistance = 0.75,
         WaterResistance = 1.0,
+        FabricType = Denim,			
         WorldStaticModel = Poncho_Ground,
     }
     item PonchoOliveDrabDOWN
@@ -258,6 +269,7 @@ module AuthenticZClothing {
         Insulation = 0.15,
         WindResistance = 0.8,
         WaterResistance = 1.0,
+        FabricType = Denim,			
         WorldStaticModel = Poncho_Ground,
     }		
     item PonchoOrangePunch
@@ -276,6 +288,7 @@ module AuthenticZClothing {
         Insulation = 0.1,
         WindResistance = 0.75,
         WaterResistance = 1.0,
+        FabricType = Denim,			
         WorldStaticModel = Poncho_Ground,
     }
     item PonchoOrangePunchDOWN
@@ -298,6 +311,7 @@ module AuthenticZClothing {
         Insulation = 0.15,
         WindResistance = 0.8,
         WaterResistance = 1.0,
+        FabricType = Denim,			
         WorldStaticModel = Poncho_Ground,
     }	
     item PonchoWhiteTINT
@@ -319,6 +333,7 @@ module AuthenticZClothing {
         Insulation = 0.1,
         WindResistance = 0.75,
         WaterResistance = 1.0,
+        FabricType = Denim,			
         WorldStaticModel = Poncho_Ground,
     }
     item PonchoWhiteTINTDOWN
@@ -341,6 +356,7 @@ module AuthenticZClothing {
         Insulation = 0.15,
         WindResistance = 0.8,
         WaterResistance = 1.0,
+        FabricType = Denim,			
         WorldStaticModel = Poncho_Ground,
     }	
     item Jacket_ArmyCamoUrban
