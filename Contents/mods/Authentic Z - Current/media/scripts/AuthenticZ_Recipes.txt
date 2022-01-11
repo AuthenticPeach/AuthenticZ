@@ -381,18 +381,18 @@ recipe Detach Walkie from Vest
 	   Tooltip:Tooltip_RemoveWalkieTV110,	   
   	}
 
-recipe Use TV-110 as Bullet Proof Vest 
+recipe Use TV-110 as Bulletproof Vest 
     {
 	    AuthenticZClothing.Vest_BulletTV110_Bag_Radio,
-
+	    OnCreate:PleaseKeepColor,
         Result:AuthenticZClothing.Vest_BulletTV110_BulletVest_Radio,
         Time:10.0,
     }  
 	
-recipe Use TV-110 as Bullet Proof Vest 
+recipe Use TV-110 as Bulletproof Vest 
     {
 	    AuthenticZClothing.Vest_BulletTV110_Bag,
-
+	    OnCreate:PleaseKeepColor,
         Result:AuthenticZClothing.Vest_BulletTV110_BulletVest,
         Time:10.0,
     } 
@@ -400,7 +400,7 @@ recipe Use TV-110 as Bullet Proof Vest
 recipe Use TV-110 as Magazine Bag 
     {
 	    AuthenticZClothing.Vest_BulletTV110_BulletVest,
-
+	    OnCreate:PleaseKeepColor,
         Result:AuthenticZClothing.Vest_BulletTV110_Bag,
         Time:10.0,
     } 
@@ -408,7 +408,7 @@ recipe Use TV-110 as Magazine Bag
 recipe Use TV-110 as Magazine Bag 
     {
 	    AuthenticZClothing.Vest_BulletTV110_BulletVest_Radio,
-
+	    OnCreate:PleaseKeepColor,
         Result:AuthenticZClothing.Vest_BulletTV110_Bag_Radio,
         Time:10.0,
     } 	

@@ -49,6 +49,8 @@ Recipes_EN = {
 
 /* New*/		
 	Recipe_Upgrade_Urban_Camo_Alice_Pack = "Upgrade Urban Camo Alice Pack",
-	Recipe_Detach_Walkie_from_Vest= "Detach Walkie from Vest",
-	Recipe_Attach_Walkie_to_Vest= "Attach Walkie to Vest",
+	Recipe_Detach_Walkie_from_Vest = "Detach Walkie from Vest",
+	Recipe_Attach_Walkie_to_Vest = "Attach Walkie to Vest",
+	Recipe_Use_TV-110_as_Bulletproof_Vest = "Use TV-110 as Bulletproof Vest",
+	Recipe_Use_TV-110_as_Magazine_Bag = "Use TV-110 as Magazine Bag",
 	}
