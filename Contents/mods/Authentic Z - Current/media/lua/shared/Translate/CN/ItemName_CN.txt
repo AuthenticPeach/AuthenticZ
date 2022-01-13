@@ -697,11 +697,30 @@ ItemName_CN = {
 	ItemName_AuthenticZClothing.Bag_B4BWalker_Tier_3 = "沃尔克的背包T3",
 
 	ItemName_AuthenticZClothing.Hat_SummerWhite = "白色夏日帽",	
-	ItemName_AuthenticZClothing.Apron_DonutAZ = "甜甜圈店员围裙",
+	ItemName_AuthenticZClothing.ApronIceCream = "甜甜圈店员围裙",
 	ItemName_AuthenticZClothing.DungareesWhite = "白色工作服",	
 	ItemName_AuthenticZClothing.Gloves_LongWomenGlovesWhite = "白色长手套",
 	ItemName_AuthenticZClothing.Hat_BaseballCapWhite = "棒球帽（白色）",
 	ItemName_AuthenticZClothing.Hat_BaseballCapWhite_Reverse = "棒球帽（白色）",
 	ItemName_AuthenticZClothing.Hat_FastFood_Donut = "甜甜圈店员帽",
+
+	/* New */
+	ItemName_AuthenticZClothing.Authentic_HeadphonesNeck  = "头戴式耳机(挂在脖子)",
+	ItemName_AuthenticZClothing.Authentic_HeadphonesNeck2 = "头戴式耳机(挂在脖子)",
+	ItemName_AuthenticZClothing.Bag_MilitaryWebbing_AZ 			= "战术腰带",
+	ItemName_AuthenticZClothing.Bag_MilitaryWebbingTightened_AZ = "战术腰带(收紧)",	
+	ItemName_AuthenticZClothing.Bag_ALICEpack_UrbanCamo 	   = "城市迷彩军用背包",	
+	ItemName_AuthenticZClothing.Bag_ALICEpack_UrbanCamo_Tier_1 = "城市迷彩军用背包T1",	
+	ItemName_AuthenticZClothing.Bag_ALICEpack_UrbanCamo_Tier_2 = "城市迷彩军用背包T2",	
+	ItemName_AuthenticZClothing.Bag_ALICEpack_UrbanCamo_Tier_3 = "城市迷彩军用背包T3",		
+	ItemName_AuthenticZClothing.Hat_FootballHelmet_BlueStar = "橄榄球头盔",
+	ItemName_AuthenticZClothing.Hat_FootballHelmet_Chiefs = "橄榄球头盔",
+	ItemName_AuthenticZClothing.Hat_FootballHelmet_Packers = "橄榄球头盔",
+	ItemName_AuthenticZClothing.Hat_FootballHelmet_RedSkull = "橄榄球头盔",
+	ItemName_AuthenticZClothing.Hat_FootballHelmet_Patriots = "橄榄球头盔",
+	ItemName_AuthenticZClothing.Hat_RuneDuel 	 = "决斗大师头盔",
+	ItemName_AuthenticZClothing.InflatableTube_AZ = "充气筒",	
+	ItemName_AuthenticZClothing.Jacket_Doctor3 	 = "医用大衣",
+	ItemName_AuthenticZClothing.Shoes_TrainersAZ = "高帮鞋",
 
 }
