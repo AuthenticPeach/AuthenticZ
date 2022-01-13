@@ -515,11 +515,16 @@ module Base
 		mesh = WorldItems/WorldItem_AuthenticCigaretteHolder,
 		texture = clothes\Items\CigaretteHolder,			
     }	
+	model WorldItem-CostumeStoreSign
+    {
+		mesh = WorldItems/WorldItem_StoreSign,
+		texture = clothes\Items\StoreSign,		
+    }
 	model WorldItem-Cigarette
     {
 		mesh = WorldItems/WorldItem_Cigarette,
 		texture = Cigarette,		
-    }
+    }	
 	model WorldItem-DuelCap
     {
 		mesh = WorldItems/WorldItem_DuelCap,	

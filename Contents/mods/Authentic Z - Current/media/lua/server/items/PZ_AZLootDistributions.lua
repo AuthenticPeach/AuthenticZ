@@ -150,7 +150,9 @@ AuthenticZ.tab_addMagProcedural_Webbing  = function(x,count)
   table.insert(ProceduralDistributions.list[x].items,"AuthenticZClothing.Bag_UtilityBeltFront");
   table.insert(ProceduralDistributions.list[x].items, count);
   table.insert(ProceduralDistributions.list[x].items,"AuthenticZClothing.Bag_ALICEpack_UrbanCamo");
-  table.insert(ProceduralDistributions.list[x].items, count);  
+  table.insert(ProceduralDistributions.list[x].items, count); 
+  table.insert(ProceduralDistributions.list[x].items,"AuthenticZClothing.Vest_BulletTV110_Bag");
+  table.insert(ProceduralDistributions.list[x].items, count);   
 end
 --Torch Blue
 AuthenticZ.tab_addMagProcedural_Torch2  = function(x,count)

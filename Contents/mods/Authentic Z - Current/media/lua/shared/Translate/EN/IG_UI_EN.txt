@@ -55,7 +55,7 @@ IGUI_EN = {
 
 	IGUI_HotbarAttachment_SchoolbagBottleRight = "Schoolbag Bottle Slot",
 	IGUI_HotbarAttachment_SchoolbagBottleLeft = "Schoolbag Bottle Slot",	
-	IGUI_HotbarAttachment_DufflebagBottleRight = "Dufflebag Bottle Slot",,	
+	IGUI_HotbarAttachment_DufflebagBottleRight = "Duffel bag Bottle Slot",
 	IGUI_HotbarAttachment_HikingBagBottleRight = "Hikingbag Bottle Slot",
 	IGUI_HotbarAttachment_HikingBagBottleLeft = "Hikingbag Bottle Slot",	
 	IGUI_HotbarAttachment_BigHikingBagBottleRight = "BigHikingbag Bottle Slot",

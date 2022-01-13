@@ -5,37 +5,45 @@ module AuthenticZClothing {
 	item PZAZ_HitList
 	{
         DisplayCategory = Cartography,	
-        Weight	=	0.05,
-        Type	=	Map,
-        DisplayName	=	Zombie Hit-list #1,
-		Map = PZAZ_hitlist1,
-        Icon	=	PZAZ_hitlist,
+        Weight			=	0.05,
+        Type			=	Map,
+        DisplayName		=	Zombie Hit-list #1,
+		Map 			= PZAZ_hitlist1,
+        Icon			=	PZAZ_hitlist,
 		WorldStaticModel = Hit-list1Map,
 	}
 	item PZAZ_HitList2
 	{
         DisplayCategory = Cartography,	
-        Weight	=	0.05,
-        Type	=	Map,
-        DisplayName	=	Zombie Hit-list #2,
-		Map = PZAZ_hitlist2,
-        Icon	=	PZAZ_hitlist,
+        Weight			=	0.05,
+        Type			=	Map,
+        DisplayName		=	Zombie Hit-list #2,
+		Map 			= PZAZ_hitlist2,
+        Icon			=	PZAZ_hitlist,
 		WorldStaticModel = Hit-list2Map,
 	}
 	item PZAZ_HitList3
 	{
         DisplayCategory = Cartography,	
-        Weight	=	0.05,
-        Type	=	Map,
-        DisplayName	=	Zombie Hit-list #3,
-		Map = PZAZ_hitlist3,
-        Icon	=	PZAZ_hitlist,
+        Weight			=	0.05,
+        Type			=	Map,
+        DisplayName		=	Zombie Hit-list #3,
+		Map 			= PZAZ_hitlist3,
+        Icon			=	PZAZ_hitlist,
 		WorldStaticModel = Hit-list3Map,
 	}
-
+	item PZAZ_CostumeStoreSign
+	{
+        DisplayCategory = Household,	
+        Weight			=	15.0,
+        Type			=	Normal,
+        DisplayName		=	Costume Store Sign,
+        Icon			=	StoreSignCostume,
+		WorldStaticModel = WorldItem-CostumeStoreSign,
+	}
    item Spiffo
 	{
-        DisplayCategory = Raccoon,	
+        DisplayCategory 		=  	Raccoon,	
 		Weight					=	0.2,
 		Type					=	Normal,
 		DisplayName				=	Spiffo,
@@ -47,7 +55,7 @@ module AuthenticZClothing {
 	
     item SpiffoGrey
 	{
-        DisplayCategory = Raccoon,		
+        DisplayCategory 		= 	Raccoon,		
 		Weight					=	0.2,
 		Type					=	Normal,
 		DisplayName				=	PAWS Spiffo,
@@ -59,7 +67,7 @@ module AuthenticZClothing {
 
     item SpiffoHeart
 	{
-        DisplayCategory = Raccoon,		
+        DisplayCategory 		= 	Raccoon,		
 		Weight					=	0.2,
 		Type					=	Normal,
 		DisplayName				=	Heart Spiffo,
@@ -71,7 +79,7 @@ module AuthenticZClothing {
 	
     item SpiffoBlueberry
 	{
-        DisplayCategory = Raccoon,		
+        DisplayCategory 		= 	Raccoon,		
 		Weight					=	0.2,
 		Type					=	Normal,
 		DisplayName				=	Blueberry Spiffo,
@@ -83,7 +91,7 @@ module AuthenticZClothing {
 
     item SpiffoShamrock
 	{
-        DisplayCategory = Raccoon,		
+        DisplayCategory 		= 	Raccoon,		
 		Weight					=	0.2,
 		Type					=	Normal,
 		DisplayName				=	Shamrock Spiffo,
@@ -95,7 +103,7 @@ module AuthenticZClothing {
 
     item SpiffoPlushieRainbow
 	{
-        DisplayCategory = Raccoon,		
+        DisplayCategory 		= 	Raccoon,		
 		Weight					=	0.2,
 		Type					=	Normal,
 		DisplayName				=	Rainbow Spiffo,
@@ -107,7 +115,7 @@ module AuthenticZClothing {
 	
     item Doll
     {
-        DisplayCategory 	= Raccoon,		
+        DisplayCategory 	= 			Raccoon,		
         Type				=			Normal,
         DisplayName			=		    Doll,
         Icon				=			Doll,
@@ -332,8 +340,8 @@ module AuthenticZClothing {
         Type				=	Weapon,
         DisplayName			=	Coffee Cup,
         Icon				=	CoffeeCup,
-        primaryAnimMask 	= HoldingTorchRight,
-        secondaryAnimMask	= HoldingTorchLeft,		
+        primaryAnimMask 	= 	HoldingTorchRight,
+        secondaryAnimMask	= 	HoldingTorchLeft,		
         WeaponSprite		=	AuthenticCoffeeCup,
         MinAngle			=	0.1,
         MinimumSwingTime	=	2,
@@ -355,16 +363,16 @@ module AuthenticZClothing {
         BreakSound  		=   BreakMetalItem,
         TreeDamage  		=   0,
         CriticalChance		=	1,
-        CritDmgMultiplier 	= 1,
+        CritDmgMultiplier 	= 	1,
         MinDamage			=	0.1,
         MaxDamage			=	0.1,
-        BaseSpeed 			= 1,
-        WeaponLength 		= 0.2,		
-		AttachmentType 		= MeatCleaver,
+        BaseSpeed 			= 	1,
+        WeaponLength 		= 	0.2,		
+		AttachmentType 		= 	MeatCleaver,
     }
 	item AuthenticCanteenCadetBlue
     	{
-        DisplayCategory = WaterContainer, 		
+        DisplayCategory 		= 	WaterContainer, 		
        	Weight    		 		= 	0.2,
 		CanStoreWater			= 	TRUE,
         Type    				= 	Normal,
@@ -382,7 +390,7 @@ module AuthenticZClothing {
 
 	item AuthenticCanteenCadetBluefull
     	{
-        DisplayCategory = WaterContainer, 		
+        DisplayCategory 		=	WaterContainer, 		
 		IsWaterSource			=	TRUE,
 		Weight					=	1.5,
 		CanStoreWater			=	TRUE,
@@ -404,7 +412,7 @@ module AuthenticZClothing {
 	}
 	item AuthenticCanteenDarkGreen
     	{
-        DisplayCategory = WaterContainer, 		
+        DisplayCategory 		=	WaterContainer, 		
        	Weight    		 		= 	0.2,
 		CanStoreWater			= 	TRUE,
         Type    				= 	Normal,
@@ -422,7 +430,7 @@ module AuthenticZClothing {
 
 	item AuthenticCanteenDarkGreenfull
     	{
-        DisplayCategory = WaterContainer, 		
+        DisplayCategory 		= 	WaterContainer, 		
 		IsWaterSource			=	TRUE,
 		Weight					=	1.5,
 		CanStoreWater			=	TRUE,
@@ -444,7 +452,7 @@ module AuthenticZClothing {
 	}
 	item AuthenticCanteenDarkGrey
     	{
-        DisplayCategory = WaterContainer, 		
+        DisplayCategory 		=	WaterContainer, 		
        	Weight    		 		= 	0.2,
 		CanStoreWater			= 	TRUE,
         Type    				= 	Normal,
@@ -462,7 +470,7 @@ module AuthenticZClothing {
 
 	item AuthenticCanteenDarkGreyfull
     	{
-        DisplayCategory = WaterContainer, 		
+        DisplayCategory 		= 	WaterContainer, 		
 		IsWaterSource			=	TRUE,
 		Weight					=	1.5,
 		CanStoreWater			=	TRUE,
@@ -484,7 +492,7 @@ module AuthenticZClothing {
 	}
 	item AuthenticCanteenForestGreen
     	{
-        DisplayCategory = WaterContainer, 		
+        DisplayCategory 		= 	WaterContainer, 		
 		Weight    		 		= 	0.2,
 		CanStoreWater			= 	TRUE,
         Type    				= 	Normal,
@@ -503,7 +511,7 @@ module AuthenticZClothing {
 
 	item AuthenticCanteenForestGreenfull
     	{
-        DisplayCategory = WaterContainer, 		
+        DisplayCategory 		= 	WaterContainer, 		
 		IsWaterSource			=	TRUE,
 		Weight					=	1.5,
 		CanStoreWater			=	TRUE,
@@ -525,7 +533,7 @@ module AuthenticZClothing {
 	}
 	item AuthenticCanteenGrey
     	{
-        DisplayCategory = WaterContainer, 		
+        DisplayCategory 		= 	WaterContainer, 		
        	Weight    		 		= 	0.2,
 		CanStoreWater			= 	TRUE,
         Type    				= 	Normal,
@@ -543,7 +551,7 @@ module AuthenticZClothing {
 
 	item AuthenticCanteenGreyfull
     	{
-        DisplayCategory = WaterContainer, 		
+        DisplayCategory 		= 	WaterContainer, 		
 		IsWaterSource			=	TRUE,
 		Weight					=	1.5,
 		CanStoreWater			=	TRUE,
@@ -565,7 +573,7 @@ module AuthenticZClothing {
 	}
 	item AuthenticCanteenSilver
     	{
-        DisplayCategory = WaterContainer, 		
+        DisplayCategory 		= 	WaterContainer, 		
        	Weight    		 		= 	0.2,
 		CanStoreWater			= 	TRUE,
         Type    				= 	Normal,
@@ -583,7 +591,7 @@ module AuthenticZClothing {
 
 	item AuthenticCanteenSilverfull
     	{
-        DisplayCategory = WaterContainer, 		
+        DisplayCategory 		= 	WaterContainer, 		
 		IsWaterSource			=	TRUE,
 		Weight					=	1.5,
 		CanStoreWater			=	TRUE,
@@ -606,7 +614,7 @@ module AuthenticZClothing {
 	item AuthenticCigaretteHolder
 	{
 		DisplayCategory = Household,	
-		Count				=	5,
+		Count				=	1,
 		HungerChange		=	0,
 		Weight				=	0.1,
 		RequireInHandOrInventory	=	Lighter/Matches,
@@ -665,7 +673,7 @@ module AuthenticZClothing {
 
 	item Authentic_MilitaryFlashlightGrey
 	{
-        DisplayCategory = LightSource,	
+        DisplayCategory 	 = LightSource,	
 		DisplayName	 		 =	Grey Military Flashlight,
 		Icon			     =	MilitaryFlashlightGrey,
 		Type		  		 =	Drainable,
@@ -920,7 +928,7 @@ module AuthenticZClothing {
         ColorBlue = 190,
 		WorldStaticModel = HairDyeBlond,
     }
-  item HairDyeDarkerBrown
+	item HairDyeDarkerBrown
     {
         DisplayCategory = Appearance,		
         Weight	=	1,

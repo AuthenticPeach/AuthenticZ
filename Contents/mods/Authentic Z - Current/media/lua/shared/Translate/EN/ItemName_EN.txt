@@ -720,4 +720,6 @@ ItemName_EN = {
 	ItemName_AuthenticZClothing.Jacket_Doctor3 	 = "Medical Coat",
 	ItemName_AuthenticZClothing.Shoes_TrainersAZ = "High Top Sneakers",	
 	
+	ItemName_AuthenticZClothing.PZAZ_CostumeStoreSign = "Costume Sale Store Sign",	
+	
 }

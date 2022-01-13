@@ -20,8 +20,8 @@ local AZ_ClothingStore_distributionTable = {
                 {name="ClothingStoresSport", min=0, max=99, weightChance=40},
                 {name="ClothingStoresSummer", min=0, max=99, weightChance=40},
 				--AuthZ Stuff
-				{name="CostumeStoreClohingAZ", min=0, max=99, forceForZones="AZCostumeShop", forceForTiles="location_shop_generic_01_36;location_shop_generic_01_37;location_shop_generic_01_48;location_shop_generic_01_49;location_shop_generic_01_50;location_shop_generic_01_51;location_shop_generic_01_52"},
-				{name="CostumeStoreMicAZ", min=0, max=99, forceForZones="AZCostumeShop", forceForTiles="location_shop_generic_01_52"},
+				{name="CostumeStoreClothingAZ", min=0, max=99, forceForZones="AZCostumeShop", forceForTiles="location_shop_generic_01_36;location_shop_generic_01_37;location_shop_generic_01_48;location_shop_generic_01_49;location_shop_generic_01_50;location_shop_generic_01_51;location_shop_generic_01_52"},
+--				{name="CostumeStoreMicAZ", min=0, max=99, forceForZones="AZCostumeShop", forceForTiles="location_shop_generic_01_52"},
             }
         },
         counter = {
@@ -36,9 +36,9 @@ local AZ_ClothingStore_distributionTable = {
                 {name="ClothingStoresUnderwearWoman", min=0, max=99, weightChance=20},
                 {name="ClothingStoresUnderwearMan", min=0, max=99, weightChance=20},
 				--AuthZ Stuff
-				{name="CostumeStoreClohingAZ", min=0, max=99, forceForZones="AZCostumeShop", forceForTiles="fixtures_counters_01_56;fixtures_counters_01_58;fixtures_counters_01_59;fixtures_counters_01_61;fixtures_counters_01_62;fixtures_counters_01_63"},
-				{name="CostumeStoreMic2AZ", min=0, max=99, forceForZones="AZCostumeShop", forceForTiles="fixtures_counters_01_56;fixtures_counters_01_58;fixtures_counters_01_59;fixtures_counters_01_61;fixtures_counters_01_62;fixtures_counters_01_63"},
-				{name="CostumeStoreWeaponsAZ", min=0, max=99, forceForZones="AZCostumeShop", forceForTiles="fixtures_counters_01_56;fixtures_counters_01_58;fixtures_counters_01_59;fixtures_counters_01_61;fixtures_counters_01_62;fixtures_counters_01_63"},
+				{name="CostumeStoreClothingAZ", min=0, max=99, forceForZones="AZCostumeShop"},-- forceForTiles="fixtures_counters_01_56;fixtures_counters_01_58;fixtures_counters_01_59;fixtures_counters_01_61;fixtures_counters_01_62;fixtures_counters_01_63"
+				{name="CostumeStoreHatsAZ", min=0, max=99, forceForZones="AZCostumeShop"},--, forceForTiles="location_shop_generic_01_97"
+--				{name="CostumeStoreWeaponsAZ", min=0, max=99, forceForZones="AZCostumeShop", forceForTiles="fixtures_counters_01_56;fixtures_counters_01_58;fixtures_counters_01_59;fixtures_counters_01_61;fixtures_counters_01_62;fixtures_counters_01_63"},
             }
         },
         displaycase = {
@@ -46,7 +46,7 @@ local AZ_ClothingStore_distributionTable = {
             procList = {
                 {name="StoreDisplayWatches", min=0, max=99},
 				--AuthZ Stuff
-				{name="CostumeStoreHatsAZ", min=0, max=99, forceForZones="AZCostumeShop", forceForTiles="location_shop_generic_01_97"},
+				{name="CostumeStoreHatsAZ", min=0, max=99, forceForZones="AZCostumeShop"},--, forceForTiles="location_shop_generic_01_97"
 				{name="CostumeStoreMicAZ", min=0, max=99,  forceForZones="AZCostumeShop", forceForTiles="location_shop_generic_01_97"},
 			}
 		},
@@ -60,11 +60,10 @@ local AZ_ClothingStore_distributionTable = {
                 {name="ClothingStorageLegwear", min=0, max=99, weightChance=80},
                 {name="ClothingStorageWinter", min=0, max=99, weightChance=100},
 				--AuthZ Stuff
-				{name="CostumeStoreClohingAZ", min=0, max=99, forceForZones="AZCostumeShop"},
+				{name="CostumeStoreClothingAZ", min=0, max=99, forceForZones="AZCostumeShop"},
 				{name="CostumeStoreMicAZ", min=0, max=99, forceForZones="AZCostumeShop"},
-				{name="CostumeStoreMic2AZ", min=0, max=99, forceForZones="AZCostumeShop"},
 				{name="CostumeStoreHatsAZ", min=0, max=99, forceForZones="AZCostumeShop"},
-				{name="CostumeStoreWeaponsAZ", min=0, max=99, forceForZones="AZCostumeShop"},
+--				{name="CostumeStoreWeaponsAZ", min=0, max=99, forceForZones="AZCostumeShop"},
 			}
         },			
     },
@@ -76,8 +75,8 @@ local AZ_ClothingStore_distributionTable = {
                 {name="ClothingStorageAllJackets", min=0, max=99, weightChance=100},
                 {name="ClothingStorageAllShirts", min=0, max=99, weightChance=100},
 				--AuthZ Stuff
-				{name="CostumeStoreClohingAZ", min=0, max=99, forceForZones="AZCostumeShop", forceForTiles="location_shop_generic_01_36;location_shop_generic_01_37;location_shop_generic_01_48;location_shop_generic_01_49;location_shop_generic_01_50;location_shop_generic_01_51;location_shop_generic_01_52"},
-				{name="CostumeStoreMicAZ", min=0, max=99, forceForZones="AZCostumeShop", forceForTiles="location_shop_generic_01_52"},
+	--			{name="CostumeStoreClothingAZ", min=0, max=99, forceForZones="AZCostumeShop"},--, forceForTiles="location_shop_generic_01_36;location_shop_generic_01_37;location_shop_generic_01_48;location_shop_generic_01_49;location_shop_generic_01_50;location_shop_generic_01_51;location_shop_generic_01_52"
+				{name="CostumeStoreClothingAllAZ", min=0, max=99, forceForZones="AZCostumeShop", forceForTiles="location_shop_generic_01_52"},
             }
         },
         crate = {
@@ -90,11 +89,11 @@ local AZ_ClothingStore_distributionTable = {
                 {name="ClothingStorageLegwear", min=0, max=99, weightChance=80},
                 {name="ClothingStorageWinter", min=0, max=99, weightChance=100},
 				--AuthZ Stuff
-				{name="CostumeStoreClohingAZ", min=0, max=99, forceForZones="AZCostumeShop"},
-				{name="CostumeStoreMicAZ", min=0, max=99, forceForZones="AZCostumeShop"},
-				{name="CostumeStoreMic2AZ", min=0, max=99, forceForZones="AZCostumeShop"},
-				{name="CostumeStoreHatsAZ", min=0, max=99, forceForZones="AZCostumeShop"},
-				{name="CostumeStoreWeaponsAZ", min=0, max=99, forceForZones="AZCostumeShop"},
+--				{name="CostumeStoreClothingAZ", min=0, max=99, forceForZones="AZCostumeShop"},
+--				{name="CostumeStoreMicAZ", min=0, max=99, forceForZones="AZCostumeShop"},
+--				{name="CostumeStoreHatsAZ", min=0, max=99, forceForZones="AZCostumeShop"},
+--				{name="CostumeStoreWeaponsAZ", min=0, max=99, forceForZones="AZCostumeShop"},
+				{name="CostumeStoreMiscAllAZ", min=0, max=99, forceForZones="AZCostumeShop"},
             }
         },
         metal_shelves = {
@@ -107,6 +106,5 @@ local AZ_ClothingStore_distributionTable = {
         },
     },
 }
-
 
 table.insert(Distributions, 2, AZ_ClothingStore_distributionTable);
