@@ -243,6 +243,55 @@ module AuthenticZClothing {
 		BodyLocation = AmmoStrap2,
 		Icon = ClownTop,
 	}
+	item CultistRobe
+    	{
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Cultist Robe,
+        ClothingItem = CultistRobe,
+        BodyLocation = FullSuit,
+        BloodLocation = Trousers;Jumper,
+        Icon = CultistRobe,
+	CanHaveHoles = false,
+        RunSpeedModifier = 0.7,
+        ScratchDefense = 50,	
+	BiteDefense = 40
+        Insulation = 0.65,
+        WindResistance = 0.6,
+        WorldStaticModel = CultistRobe_Ground,
+   	}
+	item CultistSign
+    	{
+        DisplayCategory = Accessory,
+        Type = Clothing,
+        DisplayName = Cultist Sign,
+	ClothingItem = CultistSign,
+	BodyLocation = Necklace,
+	Icon = CultistSign,
+	CanHaveHoles = false,
+	Cosmetic = TRUE,
+	BiteDefense = 10,
+	ScratchDefense = 10,
+	ChanceToFall = 10,
+    	}
+	item CultistMask
+    	{
+	DisplayCategory = Accessory,
+	Type = Clothing,
+	DisplayName = Cultist Mask,
+	ClothingItem = CultistMask,
+	BodyLocation = MaskEyes,
+	Icon = CultistMask,
+	CanHaveHoles = false,
+	BloodLocation = Head,
+        BiteDefense = 30,
+        ScratchDefense = 50,
+        Insulation = 0.15,
+        WindResistance = 0.5,
+	ChanceToFall = 20,
+	WorldStaticModel = CultistMask_Ground,
+    	}
+
    	 item GearWinslow
     	{
 			DisplayCategory =  Junk,			

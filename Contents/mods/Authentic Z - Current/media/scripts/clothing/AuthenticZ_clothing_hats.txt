@@ -821,6 +821,22 @@ module AuthenticZClothing {
         Insulation = 0.10,
         Weight = 0.5,
     }
+	item CultistHat
+    {
+        DisplayCategory = Accessory,
+        Type = Clothing,
+        DisplayName = Cultist Hat,
+	ClothingItem = CultistHat,
+	BodyLocation = Hat,
+	Icon = CultistHat,
+	CanHaveHoles = false,
+	BloodLocation = Head,
+	BiteDefense = 30,
+	ScratchDefense = 40,
+	Insulation = 0.45,
+	WindResistance = 0.6,
+	WorldStaticModel = CultistHat_Ground,
+    }
 	item Hat_Cowboy_Freddy
 	{
 	    DisplayCategory = Accessory,	
