@@ -641,6 +641,22 @@
 		<guid>97a8a3a0-3f0c-4aeb-903b-2f1d84929f49</guid>
 	</files>
 	<files>
+		<path>media/clothing/clothingItems/CultistRobe.xml</path>
+		<guid>3cd1289c-50e3-4fd9-b6a7-45e59262ec32</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/CultistHat.xml</path>
+		<guid>c8e1d8b3-9ef5-43fe-aaa0-f52d489b1fe4</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/CultistSign.xml</path>
+		<guid>34610269-6ae4-4aa4-be21-7423574f018a</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/CultistMask.xml</path>
+		<guid>5807eb9f-41f7-4e0b-af18-6f68ee627114</guid>
+	</files>
+	<files>
 		<path>media/clothing/clothingItems/Corset_Red.xml</path>
 		<guid>8c3209b7-0920-4ad3-9d20-176604c8232f</guid>
 	</files>
