@@ -721,5 +721,8 @@ ItemName_EN = {
 	ItemName_AuthenticZClothing.Shoes_TrainersAZ = "High Top Sneakers",	
 	
 	ItemName_AuthenticZClothing.PZAZ_CostumeStoreSign = "Costume Sale Store Sign",	
+	ItemName_AuthenticZClothing.CultistMask = "Cultist Mask",	
+	ItemName_AuthenticZClothing.CultistSign = "Cultist Sign",	
+	ItemName_AuthenticZClothing.CultistSign = "Cultist Robe",	
 	
 }
