@@ -28,7 +28,7 @@ module AuthenticZClothing {
 		ChanceToFall = 40,
         Weight = 0.1,
 		WorldStaticModel = WorldItem_CigarAZ,
-    } 
+    } 	
 	item Hat_AuthenticCrashHelmetFULLDecalBobaFett
 	{
 	    DisplayCategory = Accessory,	

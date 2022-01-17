@@ -30,7 +30,7 @@ Recipes_ES = {
 	Recipe_Upgrade_Alicepack = "Mejorar Mochila grande",
 	Recipe_Upgrade_Camo_Alicepack = "Mejorar Mochila militar",		
 
-	/* New*/
+	
 	Recipe_Upgrade_CEDA_Hazmat_Pack = "Mejorar Mochila NBC CEDA",
 	Recipe_Upgrade_NBH_Hazmat_Pack = "Mejorar Mochila NBH",
 	Recipe_Upgrade_Moms_Backpack = "Mejorar Mochila de Mom",
@@ -40,12 +40,18 @@ Recipes_ES = {
 	
 	Recipe_Revert_Attachable = "Revertir adjuntable",	
 	Recipe_Reuse_Bag = "Reutilizar bolsa",	
-	Recipe_Make_Backpack_Attachable = "Convertir en acoplable",	
-
-	/* New*/	
+	Recipe_Make_Backpack_Attachable = "Convertir en acoplable",		
 
 	Recipe_Upgrade_Evangelos_Backpack = "Mejorar Mochila de Evangelo",	
 	Recipe_Upgrade_Hoffmans_Backpack = "Mejorar Mochila de Hoffman",
 	Recipe_Upgrade_Walkers_Backpack = "Mejorar Mochila de Walker",	
+	
+	
+	/* New*/		
+	Recipe_Upgrade_Urban_Camo_Alice_Pack = "Mejorar Mochila Alice de camuflaje urbano",
+	Recipe_Detach_Walkie_from_Vest = "Separar Walkie del chaleco",
+	Recipe_Attach_Walkie_to_Vest = "Adjuntar Walkie al chaleco",
+	Recipe_Use_TV-110_as_Bulletproof_Vest = "Usar TV-110 como chaleco antibalas",
+	Recipe_Use_TV-110_as_Magazine_Bag = "Usar TV-110 como bolsa para revistas",
 	
 	}

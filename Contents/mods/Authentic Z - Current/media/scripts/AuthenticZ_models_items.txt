@@ -572,7 +572,7 @@ module Base
 	}
 	model WorldItem_CigarAZ
     	{
-		mesh = MC Models/WorldItems/WorldItem_CigarAZ,
+		mesh = Skinned/MC Models/WorldItems/WorldItem_CigarAZ,
 		texture = clothes\Items\CigarAZCuban,
 		scale = 0.01,		
 	}	
@@ -641,7 +641,6 @@ module Base
     model WorldItem-MilitaryWebbing
 	{
 		mesh = WorldItems/WorldItem_MilitaryWebbing,
-		texture = clothes\Backpacks\MilitaryWebbing,
 		scale = 0.5,
 	}
 	

@@ -294,6 +294,13 @@ ZombiesZoneDefinition.Campgrounds= {
 	
 }
 
+ZombiesZoneDefinition.CultistGrounds = {
+	AuthenticCultists = {
+		name="AuthenticCultist",
+		chance=90,
+	},
+}
+
 ZombiesZoneDefinition.Clementine= {
 	AuthenticClementineM = {
 		name="AuthenticClementine",

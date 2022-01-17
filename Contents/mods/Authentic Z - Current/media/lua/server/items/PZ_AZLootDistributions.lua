@@ -126,6 +126,15 @@ AuthenticZ.tab_addMagProcedural_Carabiner  = function(x,count)
   table.insert(ProceduralDistributions.list[x].items,"AuthenticZClothing.AZ_MetalClip");
   table.insert(ProceduralDistributions.list[x].items, count);
 end
+--Cigar
+AuthenticZ.tab_addMagProcedural_Cigar  = function(x,count)
+  ProceduralDistributions = ProceduralDistributions or {};
+  ProceduralDistributions.list = ProceduralDistributions.list or {};
+  ProceduralDistributions.list[x] = ProceduralDistributions.list[x] or {};
+  ProceduralDistributions.list[x].items = ProceduralDistributions.list[x].items or {};
+  table.insert(ProceduralDistributions.list[x].items,"AuthenticZClothing.CigarAZ");
+  table.insert(ProceduralDistributions.list[x].items, count);
+end
 --Military Flashlights
 AuthenticZ.tab_addMagProcedural_AZMilitaryFlashlight  = function(x,count)
   ProceduralDistributions = ProceduralDistributions or {};
@@ -201,6 +210,16 @@ AuthenticZ.tab_addMagProcedural_AZCanteen("CrateCamping",1.0);
 AuthenticZ.tab_addMagProcedural_AZCanteen("ArmySurplusBackpacks",2.0);
 AuthenticZ.tab_addMagProcedural_AZCanteen("OtherGeneric",0.3);
 AuthenticZ.tab_addMagProcedural_AZCanteen("ToolStoreMisc",1.0);
+
+AuthenticZ.tab_addMagProcedural_Cigar("OtherGeneric",0.01);
+AuthenticZ.tab_addMagProcedural_Cigar("ArmySurplusMisc",0.01);
+AuthenticZ.tab_addMagProcedural_Cigar("GunStoreCounter",0.1);
+AuthenticZ.tab_addMagProcedural_Cigar("GunStoreDisplayCase",0.1);
+AuthenticZ.tab_addMagProcedural_Cigar("PoliceDesk",0.1);
+AuthenticZ.tab_addMagProcedural_Cigar("PrisonGuardLockers",0.3);
+AuthenticZ.tab_addMagProcedural_Cigar("PlankStashGun",1.0);
+AuthenticZ.tab_addMagProcedural_Cigar("PlankStashMoney",1.0);
+AuthenticZ.tab_addMagProcedural_Cigar("PlankStashMagazine",1.0);
 
 AuthenticZ.tab_addMagProcedural_Webbing("ArmySurplusBackpacks",0.5);
 AuthenticZ.tab_addMagProcedural_Webbing("ArmySurplusOutfit",0.5);

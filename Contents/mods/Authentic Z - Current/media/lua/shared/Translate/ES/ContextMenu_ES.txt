@@ -2,4 +2,14 @@ ContextMenu_ES = {
 	ContextMenu_Loosen = "Aflojar",
 	ContextMenu_Tighten = "Ajustar",
 	ContextMenu_TieOnWaist = "Atar alrededor de la cintura",
+	
+	ContextMenu_JacketOpen = "Abrir chaqueta",
+	ContextMenu_ClosedJacket = "Cerrar chaqueta",
+	
+	ContextMenu_VestBag = "Usar como bolsa",
+	ContextMenu_VestBullet = "Usar como chaleco antibalas",
+	ContextMenu_VestRadio = "Usar como radio",
+	
+	ContextMenu_WearHead = "Vestir en la cabeza",
+	ContextMenu_WearNeck = "Vestir en el cuello",
 } 

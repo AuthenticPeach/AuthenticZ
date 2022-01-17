@@ -680,7 +680,7 @@ ItemName_ES = {
 	ItemName_AuthenticZClothing.Hat_HardHat_Miner2 = "Casco de minero",
 
 
-	/* New */
+	/* 12-26-21 */
 	ItemName_AuthenticZClothing.TShirt_RedStriped = "Camiseta de rayas rojas",
 	ItemName_AuthenticZClothing.Trousers_SuitVeryRed = "Pantalones rojos",
 	ItemName_AuthenticZClothing.Bag_B4BHoffman_Tier_1 = "Mochila de Hoffman - Rango 1",	
@@ -694,10 +694,30 @@ ItemName_ES = {
 	ItemName_AuthenticZClothing.Bag_B4BWalker_Tier_3 = "Mochila de Walker - Rango 3",
 	
 	ItemName_AuthenticZClothing.Hat_SummerWhite = "Sombrero de verano blanco",
-	ItemName_AuthenticZClothing.Apron_DonutAZ = "Delantal con donas",
+	ItemName_AuthenticZClothing.ApronIceCream = "Delantal con donas",
 	ItemName_AuthenticZClothing.DungareesWhite = "Mono blanco",	
 	ItemName_AuthenticZClothing.Gloves_LongWomenGlovesWhite = "Guantes largos blancos",
 	ItemName_AuthenticZClothing.Hat_BaseballCapWhite = "Gorra de béisbol blanca",
 	ItemName_AuthenticZClothing.Hat_BaseballCapWhite_Reverse = "Gorra de béisbol blanca (Hacia atrás)",
 	ItemName_AuthenticZClothing.Hat_FastFood_Donut = "Sombrero con donas",
+	
+	/* New */
+	ItemName_AuthenticZClothing.Authentic_HeadphonesNeck  = "Auriculares (En el cuello)",
+	ItemName_AuthenticZClothing.Authentic_HeadphonesNeck2 = "Auriculares (En el cuello)",
+	ItemName_AuthenticZClothing.Bag_MilitaryWebbing_AZ 			= "Arnés táctico",
+	ItemName_AuthenticZClothing.Bag_MilitaryWebbingTightened_AZ = "Arnés táctico (Ajustado)",	
+	ItemName_AuthenticZClothing.Bag_ALICEpack_UrbanCamo 	   = "Mochila Alice de camuflaje urbano",	
+	ItemName_AuthenticZClothing.Bag_ALICEpack_UrbanCamo_Tier_1 = "Mochila Alice de camuflaje urbano - Rango 1",	
+	ItemName_AuthenticZClothing.Bag_ALICEpack_UrbanCamo_Tier_2 = "Mochila Alice de camuflaje urbano - Rango 2",	
+	ItemName_AuthenticZClothing.Bag_ALICEpack_UrbanCamo_Tier_3 = "Mochila Alice de camuflaje urbano - Rango 3",		
+	ItemName_AuthenticZClothing.Hat_FootballHelmet_BlueStar = "Casco de fútbol",
+	ItemName_AuthenticZClothing.Hat_FootballHelmet_Chiefs = "Casco de fútbol de los Chiefs",
+	ItemName_AuthenticZClothing.Hat_FootballHelmet_Packers = "Casco de fútbol de los Packers",
+	ItemName_AuthenticZClothing.Hat_FootballHelmet_RedSkull = "Casco de fútbol",
+	ItemName_AuthenticZClothing.Hat_FootballHelmet_Patriots = "Casco de fútbol de los Patriots",
+	ItemName_AuthenticZClothing.Hat_RuneDuel 	 = "Sombrero de duelista de fantasía",
+	ItemName_AuthenticZClothing.InflatableTube_AZ = "Tubo inflable",	
+	ItemName_AuthenticZClothing.Jacket_Doctor3 	 = "Bata de medico",
+	ItemName_AuthenticZClothing.Shoes_TrainersAZ = "Zapatillas de alto rendimiento",	
+	
 }

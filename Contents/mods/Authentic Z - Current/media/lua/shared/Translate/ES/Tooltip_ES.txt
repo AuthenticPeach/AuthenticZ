@@ -26,19 +26,27 @@ Tooltip_ES = {
 	Tooltip_HandTorch2 = "Ligeramente dañado",
 	Tooltip_Heart = "Dejó de latir hace algún tiempo ...",
 	Tooltip_HoodieCraft = "El color de la sudadera cambiará.",
-	Tooltip_JasonV = "Es mejor quemar esto antes de que regrese ..."
-	Tooltip_Kidney = "Esto no fue donado ..."
-	Tooltip_Liver = "El hígado viejo de alguien ..."
-	Tooltip_MeatChunk1 = "Probablemente no debería tocarlo ..."
-	Tooltip_MeatChunk2 = "Parece fresco ..."
-	Tooltip_MeatChunk3 = "Sangriento y asqueroso"	
-	Tooltip_MeatChunk4 = "Me hace sentir náuseas."	
-	Tooltip_MeatChunk5 = "Me alegro de que no me lo hayan arrancado ..."	
+	Tooltip_JasonV = "Es mejor quemar esto antes de que regrese ...",
+	Tooltip_Kidney = "Esto no fue donado ...",
+	Tooltip_Liver = "El hígado viejo de alguien ...",
+	Tooltip_MeatChunk1 = "Probablemente no debería tocarlo ...",
+	Tooltip_MeatChunk2 = "Parece fresco ...",
+	Tooltip_MeatChunk3 = "Sangriento y asqueroso",	
+	Tooltip_MeatChunk4 = "Me hace sentir náuseas.",	
+	Tooltip_MeatChunk5 = "Me alegro de que no me lo hayan arrancado ...",
+	Tooltip_OpenJacket = "Abre la chaqueta para menos aislamiento",
 	Tooltip_Scandroid = "La etiqueta dice "Estamos aquí, por diseño".", 
-	Tooltip_Stop = "¡Alto!"
+	Tooltip_Stop = "¡Alto!",
 	Tooltip_Stantz = "Ray Stantz solía usar esto ...",
 	Tooltip_Spengler = "Egon Spengler solía usar esto ...", 
 	Tooltip_Venkman = "Peter Venkman solía usar esto ...",
 	Tooltip_Winslow = "Tal vez quiera encontrar una vacuna contra el tétanos ..."
 	Tooltip_Zeddemore = "Winston Zeddemore solía usar esto ...",
+	
+	/* New*/	
+	Tooltip_TacticalWebbing = "Agrega 2 espacios para accesorios",
+	Tooltip_AddWalkieTV110 = "Conecta Walkie Talkie del ejército a TV-110",
+	Tooltip_AddWalkieTV110Bag = "Conecta el Walkie Talkie del ejército al TV-110. Saca todas las revistas antes de esto.",
+	Tooltip_RemoveWalkieTV110 = "Elimina Walkie Talkie del ejército de TV-110",
+	Tooltip_RemoveWalkieTV110Bag = "Elimina Walkie Talkie del ejército de TV-110, saca todas las revistas antes de esto.",
 	}

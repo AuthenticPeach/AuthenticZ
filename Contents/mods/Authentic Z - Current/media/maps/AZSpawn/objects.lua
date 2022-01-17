@@ -6,6 +6,7 @@ objects = {
   { name = "CampBlood2", type = "ZombiesType", x = 4625, y = 7800, z = 0, width = 105, height = 296 },
   { name = "Cultists", type = "ZombiesType", x = 4603, y = 8550, z = 0, width = 91, height = 112 },   
   { name = "CampBlood2", type = "ZombiesType", x = 4880, y = 7910, z = 0, width = 143, height = 97 },   
+  { name = "CultistGrounds", type = "ZombiesType", x = 13705, y = 6550, z = 0, width = 225, height = 100},   
   { name = "CrossroadsMall", type = "ZombiesType", x = 13872, y = 5788, z = 0, width = 111, height = 153},   
   { name = "CrossroadsMall", type = "ZombiesType", x = 13905, y = 5895, z = 0, width = 64, height = 22},   
   { name = "CrossroadsMall", type = "ZombiesType", x = 13872, y = 5774, z = 2, width = 111, height = 167},
@@ -96,6 +97,7 @@ objects = {
   { name = "CrossroadsMall", type = "ZombiesType", x = 13512, y = 1257, z = 0, width = 113, height = 148},
   { name = "CrossroadsMall", type = "ZombiesType", x = 13512, y = 1257, z = 2, width = 113, height = 148},
   { name = "CrossroadsMallFoodCourt", type = "ZombiesType", x = 13626, y = 1281, z = 0, width = 48, height = 32}, 
+  
   
   
   { name = "AZCostumeShop", type = "LootZone", x = 12566, y = 1320, z = 0, width = 19, height = 19}, --Costume Shop in LV (90s shop)

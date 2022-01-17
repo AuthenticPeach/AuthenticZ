@@ -7,6 +7,6 @@
 	<m_AllowRandomHue>false</m_AllowRandomHue>
 	<m_AllowRandomTint>false</m_AllowRandomTint>
 	<m_AttachBone></m_AttachBone>
-	<textureChoices>Clothes\Backpacks\MilitaryWebbingAZ</textureChoices>
-	<textureChoices>Clothes\Backpacks\MilitaryWebbingAZ</textureChoices>
+	<textureChoices>Clothes\Backpacks\MilitaryWebbingForestAZ</textureChoices>
+	<textureChoices>Clothes\Backpacks\MilitaryWebbingUrbanBlackAZ</textureChoices>
 </clothingItem>

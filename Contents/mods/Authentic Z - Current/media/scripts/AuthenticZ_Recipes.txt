@@ -44,6 +44,21 @@ recipe Convert into Item
 	   Time:30.0,
   	}
 
+recipe Convert into Item
+  	{
+   	   CigarAZ,
+
+   	   Result:CigarAZ2,
+	   Time:30.0,
+  	}
+
+recipe Convert into Wearable
+  	{
+   	   CigarAZ2,
+
+   	   Result:CigarAZ,
+	   Time:30.0,
+  	}
 
 recipe Make a Stack of Money
   	{

@@ -611,6 +611,27 @@ module AuthenticZClothing {
 		WorldStaticModel 		= 	AuthenticCanteenSilver,	
 		AttachmentType  		= 	Canteen,			
 	}
+	item CigarAZ2
+	{
+		DisplayCategory = Household,	
+		Type				=	Food,		
+		Count				=	1,
+		HungerChange		=	0,
+		Weight				=	0.1,
+		RequireInHandOrInventory	=	Lighter/Matches,
+		StressChange		=	-20,
+		DisplayName = Cigar,
+		ClothingItem = CigarAZ,
+		CustomContextMenu 	= Smoke,
+		CantBeFrozen 	 	= TRUE,
+		OnEat 			 	= OnEat_Cigarettes,
+		EatType 		 	= Cigarettes,		
+		BodyLocation = Mask,
+		Icon = CigarAZ,
+        Weight = 0.1,
+		CustomEatSound 		= ,		
+		WorldStaticModel = WorldItem_CigarAZ,
+    } 	
 	item AuthenticCigaretteHolder
 	{
 		DisplayCategory = Household,	
@@ -620,7 +641,7 @@ module AuthenticZClothing {
 		RequireInHandOrInventory	=	Lighter/Matches,
 		Type				=	Food,
 		DisplayName			=	Cigarette Holder,
-		StressChange		=	-10,
+		StressChange		=	-20,
 		Icon				=	CigaretteHolder,
 		CustomContextMenu 	= Smoke,
 		CantBeFrozen 	 	= TRUE,
