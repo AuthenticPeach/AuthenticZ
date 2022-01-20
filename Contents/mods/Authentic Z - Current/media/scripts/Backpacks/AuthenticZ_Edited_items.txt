@@ -2,6 +2,24 @@ module AuthenticZClothing {
   imports {
       Base
   }
+  
+    item BlowTorch
+    {
+        DisplayCategory 	= 	Tool,
+        Weight				=	1.0,
+        Type				=	Drainable,
+        UseWhileEquipped	=	FALSE,
+        UseDelta			=	0.01,
+        DisplayName			=	Propane Torch,
+        Icon				=	BlowTorch,
+        MetalValue 			= 	20,
+        KeepOnDeplete 		= 	true,
+		AttachmentType  	= 	Torch,		
+        StaticModel 		= 	BlowTorch,
+        WeightEmpty 		= 	0.3,
+        WorldStaticModel 	= 	BlowtorchGround,
+    }
+ 
 	item SheetRope
 	{
         DisplayCategory = Tool,	
@@ -1134,32 +1152,32 @@ module AuthenticZClothing {
 
     item GardenSaw
     {
-        DisplayCategory = Tool,	
-        Weight	=	0.7,
-        Type	=	Normal,
-        DisplayName	=	Garden Saw,
-        Icon	=	Handsaw,
-        MetalValue = 35,
-        StaticModel = GardenSaw,
-        SurvivalGear = TRUE,
-        Tags = Saw,
-		AttachmentType   = 			Saw,			
-        WorldStaticModel = GardenSawGround,
+        DisplayCategory 	= Tool,	
+        Weight				= 0.7,
+        Type				= Normal,
+        DisplayName			= Garden Saw,
+        Icon				= Handsaw,
+        MetalValue 			= 35,
+        StaticModel 		= GardenSaw,
+        SurvivalGear 		= TRUE,
+        Tags 				= Saw,
+		AttachmentType   	= Saw,			
+        WorldStaticModel 	= GardenSawGround,
     }
 
 	item Saw
 	{
-        DisplayCategory = Tool,	
-		Weight	=	0.7,
-		Type	=	Normal,
-		DisplayName	=	Saw,
-		Icon	=	Hacksaw,
-		MetalValue = 35,
-		StaticModel = Hacksaw,
-		SurvivalGear = TRUE,
-        Tags = Saw,
-		AttachmentType   = 			Saw,	
-        WorldStaticModel = HacksawGround,
+        DisplayCategory 	= 	Tool,	
+		Weight				=	0.7,
+		Type				=	Normal,
+		DisplayName			=	Saw,
+		Icon				=	Hacksaw,
+		MetalValue 			= 	35,
+		StaticModel			=	Hacksaw,
+		SurvivalGear 		= 	TRUE,
+        Tags 				= 	Saw,
+		AttachmentType   	= 	Saw,	
+        WorldStaticModel 	= 	HacksawGround,
 	}
 
 }		

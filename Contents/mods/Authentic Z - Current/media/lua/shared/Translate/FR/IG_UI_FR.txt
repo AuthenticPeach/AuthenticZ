@@ -39,11 +39,11 @@ IGUI_FR = {
 	IGUI_HotbarAttachment_BigHikingbagFlashlight = "Grand sac de randonnée Emplacement de lampe torche",	
 	IGUI_HotbarAttachment_AlicepackFlashlight = "Sac Militaire Emplacement de lampe torche",
 
-	IGUI_HotbarAttachment_SchoolbagUmbrellaLeft = "Sac à dos Emplacement de lampe torche",
-	IGUI_HotbarAttachment_DufflebagUmbrellaRight = "Sac marin Emplacement de lampe torche",
-	IGUI_HotbarAttachment_HikingbagUmbrellaLeft = "Sac de randonnée Emplacement de lampe torche",
-	IGUI_HotbarAttachment_BigHikingbagUmbrellaLeft = "Grand sac de randonnée Emplacement de lampe torche",	
-	IGUI_HotbarAttachment_AlicepackUmbrellaRight = "Sac Militaire Emplacement de lampe torche",
+	IGUI_HotbarAttachment_SchoolbagUmbrellaLeft = "Sac à dos Emplacement de parapluie",
+	IGUI_HotbarAttachment_DufflebagUmbrellaRight = "Sac marin Emplacement de parapluie",
+	IGUI_HotbarAttachment_HikingbagUmbrellaLeft = "Sac de randonnée Emplacement de parapluie",
+	IGUI_HotbarAttachment_BigHikingbagUmbrellaLeft = "Grand sac de randonnée Emplacement de parapluie",	
+	IGUI_HotbarAttachment_AlicepackUmbrellaRight = "Sac Militaire Emplacement de parapluie",
 
 	IGUI_HotbarAttachment_SchoolbagBalloonLeft = "Emplacement de ballon",
 	IGUI_HotbarAttachment_SchoolbagBalloonRight = "Emplacement de ballon",	
@@ -67,7 +67,7 @@ IGUI_FR = {
 	IGUI_HotbarAttachment_ARVNBottleRight = "Rucksack Emplacement de bouteille",
 	IGUI_HotbarAttachment_ARVNBottleLeft = "Rucksack Emplacement de bouteille",	
 	IGUI_HotbarAttachment_ARVNPlushie = "Rucksack Emplacement de peluche",
-	IGUI_HotbarAttachment_ARVNUmbrellaRight = "Rucksack Emplacement de lampe torche",
+	IGUI_HotbarAttachment_ARVNUmbrellaRight = "Rucksack Emplacement de parapluie",
 	IGUI_HotbarAttachment_ARVNItemSlot1 = "Rucksack Emplacement de d'objet 1",	
 	IGUI_HotbarAttachment_ARVNItemSlot2 = "Rucksack Emplacement de d'objet 2",
 	IGUI_HotbarAttachment_ARVNItemSlot3 = "Rucksack Emplacement de d'objet 3",	
@@ -75,8 +75,10 @@ IGUI_FR = {
 	IGUI_HotbarAttachment_ARVNItemSlot5 = "Rucksack Emplacement de d'objet 5",
 	IGUI_HotbarAttachment_ARVNFlashlight = "Rucksack Emplacement de lampe torche",
 	IGUI_HotbarAttachment_ARVNSecondary = "Rucksack comme sac secondaire",
-
-/* New*/
 	IGUI_HotbarAttachment_AZWebbingLeft = "Fente gauche de la sangle",
 	IGUI_HotbarAttachment_AZWebbingRight = "Fente droite de la sangle",
+	
+	-New-
+	IGUI_HotbarAttachment_DufflebagBalloonLeft = "Emplacement de ballon",
+	IGUI_CraftCategory_Tailoring = "Couture",
 }

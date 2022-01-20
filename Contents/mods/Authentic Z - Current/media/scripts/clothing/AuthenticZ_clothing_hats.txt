@@ -1412,7 +1412,7 @@ module AuthenticZClothing {
 		DisplayName = Witch Hat,
 		ClothingItem = Hat_Witchy_2,
 		BodyLocation = Hat,
-		Icon = HatRick,
+		Icon = WitchyHat2,
 		CanHaveHoles = false,
 		ChanceToFall = 70,
        	BloodLocation = Head,

@@ -4706,7 +4706,11 @@
 	<files>
 		<path>media/clothing/clothingItems/Jacket_Scandroid.xml</path>
 		<guid>8c80a404-dc1d-4b2a-a56a-8647f1f720a8</guid>
-	</files>	
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Jacket_Trenchcoat.xml</path>
+		<guid>d8b4a5a5-17b8-4918-a4b1-1c95130a3a97</guid>
+	</files>		
 	<files>
 		<path>media/clothing/clothingItems/Jacket_Zoey.xml</path>
 		<guid>bbd948ee-c428-4e61-a49b-5fcc60897f27</guid>

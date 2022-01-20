@@ -43,7 +43,7 @@ recipe Revert Attachable
 	   Time:30.0,
 	   Tooltip:Tooltip_AttachBackpackRevert,
   	}	
-recipeMake Backpack Attachable
+recipe Make Backpack Attachable
   	{
    	   AerosolbombTriggered,
 
@@ -203,6 +203,9 @@ recipe Make Backpack Attachable
 	   Time:30.0,
 	   Tooltip:Tooltip_AttachBackpack,
   	}
+
+
+	
 recipe Make Backpack Attachable
   	{
    	   ToyBear,

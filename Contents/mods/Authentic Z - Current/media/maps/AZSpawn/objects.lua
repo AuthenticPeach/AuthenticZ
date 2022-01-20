@@ -4,8 +4,8 @@ objects = {
   { name = "Airfield2", type = "ZombiesType", x = 12861, y = 6300, z = 0, width = 19, height = 139 }, 
 --  { name = "BacktotheFutureIII", type = "ZombiesType", x = 11670, y = 9880, z = 0, width = 70, height = 100 },
   { name = "CampBlood2", type = "ZombiesType", x = 4625, y = 7800, z = 0, width = 105, height = 296 },
-  { name = "Cultists", type = "ZombiesType", x = 4603, y = 8550, z = 0, width = 91, height = 112 },   
-  { name = "CampBlood2", type = "ZombiesType", x = 4880, y = 7910, z = 0, width = 143, height = 97 },   
+  { name = "CampBlood2", type = "ZombiesType", x = 4880, y = 7910, z = 0, width = 143, height = 97 },
+  { name = "CultistGrounds", type = "ZombiesType", x = 4603, y = 8550, z = 0, width = 91, height = 112 },     
   { name = "CultistGrounds", type = "ZombiesType", x = 13705, y = 6550, z = 0, width = 225, height = 100},   
   { name = "CrossroadsMall", type = "ZombiesType", x = 13872, y = 5788, z = 0, width = 111, height = 153},   
   { name = "CrossroadsMall", type = "ZombiesType", x = 13905, y = 5895, z = 0, width = 64, height = 22},   
@@ -29,6 +29,7 @@ objects = {
   { name = "IceCream", type = "ZombiesType", x = 6465, y = 5215, z = 0, width = 16, height = 16},
   { name = "IceCream", type = "ZombiesType", x = 13648, y = 5773, z = 0, width = 17, height = 17},
   { name = "MovieNight2", type = "ZombiesType", x = 13569, y = 5854, z = 0, width = 77, height = 72},
+  { name = "PlanetTerror", type = "ZombiesType", x = 5910, y = 5229, z = 0, width = 60, height = 45}, -- Western Riverside			
   { name = "Pony", type = "ZombiesType", x = 8530, y = 8440, z = 0, width = 135, height = 144},
   { name = "SpeakingEvent", type = "ZombiesType", x = 11926, y = 6856, z = 0, width = 135, height = 39},--Westpoint Meeting room
   { name = "Spiffos", type = "ZombiesType", x = 13870, y = 5750, z = 0, width = 16, height = 30},
@@ -62,7 +63,9 @@ objects = {
   { name = "BlockDuster", type = "ZombiesType", x = 12792, y = 1202, z = 0, width = 8, height = 18},--LV Near River
   { name = "BlockDuster", type = "ZombiesType", x = 6201, y = 5335, z = 0, width = 9, height = 14},--Riverside
   { name = "BlockDuster", type = "ZombiesType", x = 10603, y = 10446, z = 0, width = 14, height = 12},--Muldraugh
-  
+ 
+  { name = "Cementery", type = "ZombiesType", x = 12529, y = 3122, z = 0, width = 113, height = 300},
+ 
   { name = "DonutShop", type = "ZombiesType", x = 6484, y = 5215, z = 0, width = 18, height = 18}, --Riverside Shop
   { name = "DonutShop", type = "ZombiesType", x = 13465, y = 1342, z = 0, width = 19, height = 20}, --LV Shop
   { name = "IceCream", type = "ZombiesType", x = 13242, y = 1271, z = 0, width = 5, height = 22},

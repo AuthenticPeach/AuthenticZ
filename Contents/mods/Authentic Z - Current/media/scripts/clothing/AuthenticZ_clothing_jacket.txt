@@ -808,6 +808,28 @@ module AuthenticZClothing {
         WorldStaticModel = Jacket_Ground,		
     }
 
+     item Jacket_Trenchcoat
+    {
+        DisplayCategory = Clothing,	
+        Type = Clothing,
+        DisplayName = Trenchcoat,
+        ClothingItem = Jacket_Trenchcoat,
+        BodyLocation = Jacket,
+        IconsForTexture = JacketMediumBlack;JacketMediumDarkGrey;JacketMediumGrey,
+        BloodLocation = Jacket,
+        RunSpeedModifier = 0.95,
+        CombatSpeedModifier = 0.97,
+        BiteDefense = 20,
+        ScratchDefense = 40,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.40,
+        WindResistance = 0.6,
+        FabricType = Leather,
+        WaterResistance = 0.4,
+        Weight = 2,
+        WorldStaticModel = JacketLong_Ground,		
+    } 
+
     item Jacket_Zoey
     {
         DisplayCategory = Clothing,		

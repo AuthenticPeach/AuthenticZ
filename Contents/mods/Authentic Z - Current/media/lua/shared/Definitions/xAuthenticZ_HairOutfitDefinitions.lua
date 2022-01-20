@@ -105,7 +105,7 @@ local cat = {};
 cat.outfit = "AuthenticBobRoss";
 cat.haircut = "ShortAfroCurly:100";
 cat.beard = "Chin:100";
-cat.haircutColor = "0.60,0.46,0.30:100"
+cat.haircutColor = "0.60,0.46,0.30:100";
 table.insert(HairOutfitDefinitions.haircutOutfitDefinition, cat);
 local cat = {};
 cat.outfit = "AuthenticBub";

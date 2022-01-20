@@ -146,6 +146,8 @@ local SchoolbagUmbrellaLeft = {
 	animset = "back",
 	attachments = { -- list of possible item category and their modelAttachement group, the item category is defined in the item script		
 		Umbrella = "Schoolbag Umbrella Left",
+		Saw = "Schoolbag Saw Right",
+		Torch = "Schoolbag Torch Right",		
 	},
 }
 table.insert(ISHotbarAttachDefinition, SchoolbagUmbrellaLeft);
@@ -224,6 +226,8 @@ local DufflebagUmbrellaRight = {
 	animset = "back",
 	attachments = { -- list of possible item category and their modelAttachement group, the item category is defined in the item script		
 		Umbrella = "Dufflebag Umbrella Right",
+		Saw = "Dufflebag Saw Right",
+		Torch = "Dufflebag Torch Right",
 	},
 }
 table.insert(ISHotbarAttachDefinition, DufflebagUmbrellaRight);
@@ -241,26 +245,37 @@ local DufflebagBottleRight = {
 }
 table.insert(ISHotbarAttachDefinition, DufflebagBottleRight);
 
+local DufflebagBalloonLeft = {
+	type = "DufflebagBalloonLeft",
+	name = "Dufflebag Balloon Slot", -- Name shown in the slot icon
+	animset = "back",
+	attachments = { -- list of possible item category and their modelAttachement group, the item category is defined in the item script
+		-- Rope = "Item Slot 1",
+		BalloonSlot = "Dufflebag Balloon Left",				
+	},
+}
+table.insert(ISHotbarAttachDefinition, DufflebagBalloonLeft);
+
 local DufflebagItemSlot1 = {
 	type = "DufflebagItemSlot1",
 	name = "Dufflebag Item Slot 1", -- Name shown in the slot icon
 	animset = "back",
 	attachments = { -- list of possible item category and their modelAttachement group, the item category is defined in the item script		
 		Rope 				= "Dufflebag Rope Slot 1",
-		SheetRope 			= "Dufflebag Explosive Slot 1",				
+		SheetRope 			= "Dufflebag SheetRope Slot 1",				
 		FlareGun 			= "Dufflebag FlareGun Slot 1",
 		Explosive 			= "Dufflebag Explosive Slot 1",
 		AuthenticExplosive 	= "Dufflebag AuthenticExplosive Slot 1",		
 		GasMask 			= "Dufflebag GasMask Slot 1",
 		Walkie 				= "Dufflebag Walkie Slot 1",
 		
-		Hammer 				= "Dufflebag Walkie Slot 1",
-		Screwdriver 		= "Dufflebag Explosive Slot 1",
-		Knife			 	= "Dufflebag Rope Slot 1",	
-		Saucepan 			= "Dufflebag Rope Slot 1",	
-		Pan 				= "Dufflebag Rope Slot 1",	
-		Wrench 				= "Dufflebag Rope Slot 1",		
-		MeatCleaver 		= "Dufflebag Rope Slot 1",
+		Hammer 				= "Dufflebag Hammer Slot 1",
+		Screwdriver 		= "Dufflebag Screwdriver Slot 1",
+		Knife			 	= "Dufflebag Knife Slot 1",	
+		Saucepan 			= "Dufflebag Saucepan Slot 1",	
+		Pan 				= "Dufflebag Pan Slot 1",	
+		Wrench 				= "Dufflebag Wrench Slot 1",		
+		MeatCleaver 		= "Dufflebag Cleaver Slot 1",
 
 		Gear 				= "Dufflebag Walkie Slot 1",			
 	},
@@ -273,19 +288,20 @@ local DufflebagItemSlot2 = {
 	animset = "back",
 	attachments = { -- list of possible item category and their modelAttachement group, the item category is defined in the item script		
 		Rope 				= "Dufflebag Rope Slot 2",
-		SheetRope 			= "Dufflebag Explosive Slot 1",				
+		SheetRope 			= "Dufflebag SheetRope Slot 2",				
 		FlareGun 			= "Dufflebag FlareGun Slot 2",
 		Explosive 			= "Dufflebag Explosive Slot 2",
 		AuthenticExplosive 	= "Dufflebag AuthenticExplosive Slot 2",		
 		GasMask 			= "Dufflebag GasMask Slot 2",
-		Walkie 				= "Dufflebag Walkie Slot 2",	
-		Hammer 				= "Dufflebag Walkie Slot 2",
-		Screwdriver 		= "Dufflebag Explosive Slot 2",
-		Knife			 	= "Dufflebag Rope Slot 2",	
-		Saucepan 			= "Dufflebag Rope Slot 2",	
-		Pan 				= "Dufflebag Rope Slot 2",	
-		Wrench 				= "Dufflebag Rope Slot 2",		
-		MeatCleaver 		= "Dufflebag Rope Slot 2",
+		Walkie 				= "Dufflebag Walkie Slot 2",
+		
+		Hammer 				= "Dufflebag Hammer Slot 2",
+		Screwdriver 		= "Dufflebag Screwdriver Slot 2",
+		Knife			 	= "Dufflebag Knife Slot 2",	
+		Saucepan 			= "Dufflebag Saucepan Slot 2",	
+		Pan 				= "Dufflebag Pan Slot 2",	
+		Wrench 				= "Dufflebag Wrench Slot 2",		
+		MeatCleaver 		= "Dufflebag Cleaver Slot 2",
 
 		Gear 				= "Dufflebag Walkie Slot 2",			
 	},
@@ -298,19 +314,20 @@ local DufflebagItemSlot3 = { --Tier 3 Right Slot
 	animset = "back",
 	attachments = { -- list of possible item category and their modelAttachement group, the item category is defined in the item script		
 		Rope 				= "Dufflebag Rope Slot 3",
-		SheetRope 			= "Dufflebag Explosive Slot 1",				
+		SheetRope 			= "Dufflebag SheetRope Slot 3",				
 		FlareGun 			= "Dufflebag FlareGun Slot 3",
 		Explosive 			= "Dufflebag Explosive Slot 3",
 		AuthenticExplosive 	= "Dufflebag AuthenticExplosive Slot 3",		
 		GasMask 			= "Dufflebag GasMask Slot 3",
 		Walkie 				= "Dufflebag Walkie Slot 3",
-		Hammer 				= "Dufflebag Walkie Slot 3",
-		Screwdriver 		= "Dufflebag Explosive Slot 3",
-		Knife			 	= "Dufflebag Rope Slot 3",	
-		Saucepan 			= "Dufflebag Rope Slot 3",	
-		Pan 				= "Dufflebag Rope Slot 3",	
-		Wrench 				= "Dufflebag Rope Slot 3",		
-		MeatCleaver 		= "Dufflebag Rope Slot 3",
+		
+		Hammer 				= "Dufflebag Hammer Slot 3",
+		Screwdriver 		= "Dufflebag Screwdriver Slot 3",
+		Knife			 	= "Dufflebag Knife Slot 3",	
+		Saucepan 			= "Dufflebag Saucepan Slot 3",	
+		Pan 				= "Dufflebag Pan Slot 3",	
+		Wrench 				= "Dufflebag Wrench Slot 3",		
+		MeatCleaver 		= "Dufflebag Cleaver Slot 3",
 
 		Gear 				= "Dufflebag Walkie Slot 3",				
 	},
@@ -472,6 +489,8 @@ local HikingbagUmbrellaLeft = {
 	animset = "back",
 	attachments = { -- list of possible item category and their modelAttachement group, the item category is defined in the item script		
 		Umbrella = "HikingBag Umbrella Left",
+		Saw = "HikingBag Saw Right",
+		Torch = "HikingBag Torch Right",		
 	},
 }
 table.insert(ISHotbarAttachDefinition, HikingbagUmbrellaLeft);
@@ -643,6 +662,8 @@ local BigHikingbagUmbrellaLeft = {
 	animset = "back",
 	attachments = { -- list of possible item category and their modelAttachement group, the item category is defined in the item script		
 		Umbrella = "BigHikingBag Umbrella Right",
+		Saw = "BigHikingBag Saw Right",
+		Torch = "BigHikingBag Torch Right",		
 	},
 }
 table.insert(ISHotbarAttachDefinition, BigHikingbagUmbrellaLeft);
@@ -850,6 +871,8 @@ local AlicepackUmbrellaRight = {
 	animset = "back",
 	attachments = { -- list of possible item category and their modelAttachement group, the item category is defined in the item script		
 		Umbrella = "Alicepack Umbrella Right",
+		Saw = "Alicepack Saw Right",
+		Torch = "Alicepack Torch Right",		
 	},
 }
 table.insert(ISHotbarAttachDefinition, AlicepackUmbrellaRight);
@@ -1058,6 +1081,8 @@ local ARVNUmbrellaRight = {
 	animset = "back",
 	attachments = { -- list of possible item category and their modelAttachement group, the item category is defined in the item script		
 		Umbrella = "Alicepack Umbrella Right",
+		Saw = "Alicepack Saw Right",
+		Torch = "Alicepack Torch Right",		
 	},
 }
 table.insert(ISHotbarAttachDefinition, ARVNUmbrellaRight);

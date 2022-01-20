@@ -294,6 +294,22 @@ ZombiesZoneDefinition.Campgrounds= {
 	
 }
 
+ZombiesZoneDefinition.Cementery= {
+	Priest = {
+		name="Priest",
+		chance=3,
+	},
+	AuthenticFuneralFormal = {
+		name="AuthenticFuneralFormal",
+		chance=30,	
+	},
+	AuthenticFuneralCoat = {
+		name="AuthenticFuneralCoat",
+		chance=30,	
+	},	
+	
+}
+
 ZombiesZoneDefinition.CultistGrounds = {
 	AuthenticCultists = {
 		name="AuthenticCultist",

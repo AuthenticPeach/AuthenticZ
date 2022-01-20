@@ -1,4 +1,4 @@
-IGUI_PT = {
+IGUI_EN = {
 
     IGUI_Hair_BigAfro = "Grande afro",
     IGUI_Hair_DukeBuzzCut = "Corte de pente curto",
@@ -77,6 +77,9 @@ IGUI_PT = {
 	IGUI_HotbarAttachment_ARVNSecondary = "Mochila militar mala secundária",
 
 
-	IGUI_HotbarAttachment_AZWebbingLeft = "Webbing espaço esquerdo",
-	IGUI_HotbarAttachment_AZWebbingRight = "Webbing espaço direito",
-}
+	IGUI_HotbarAttachment_AZWebbingLeft = "teia espaço esquerdo",
+	IGUI_HotbarAttachment_AZWebbingRight = "teia espaço direito",
+
+
+        IGUI_HotbarAttachment_DufflebagBalloonLeft = "Espaço balão",
+        IGUI_CraftCategory_Tailoring = "Costurar",
