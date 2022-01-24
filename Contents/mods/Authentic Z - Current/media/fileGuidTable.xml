@@ -3966,6 +3966,10 @@
 	<files>
 		<path>media/clothing/clothingItems/Dress_Dimitrescu.xml</path>
 		<guid>3e7d6c4a-50a7-4cfb-82e3-f25f393b0dc8</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Dress_Knees_Black.xml</path>
+		<guid>6831f0df-a72f-48f5-975a-3dec446de4bb</guid>
 	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Dress_Maid.xml</path>

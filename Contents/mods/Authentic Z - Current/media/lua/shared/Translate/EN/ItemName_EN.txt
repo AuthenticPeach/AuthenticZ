@@ -701,7 +701,7 @@ ItemName_EN = {
 	ItemName_AuthenticZClothing.Hat_BaseballCapWhite_Reverse = "White Baseball Cap",
 	ItemName_AuthenticZClothing.Hat_FastFood_Donut = "Donut Server Hat",
 	
-	/* New */
+	/* 1-17-22  */
 	ItemName_AuthenticZClothing.Authentic_HeadphonesNeck  = "Headphones (On Neck)",
 	ItemName_AuthenticZClothing.Authentic_HeadphonesNeck2 = "Headphones (On Neck)",
 	ItemName_AuthenticZClothing.Bag_MilitaryWebbing_AZ 			= "Tactical Webbing",
@@ -723,6 +723,11 @@ ItemName_EN = {
 	ItemName_AuthenticZClothing.PZAZ_CostumeStoreSign = "Costume Sale Store Sign",	
 	ItemName_AuthenticZClothing.CultistMask = "Cultist Mask",	
 	ItemName_AuthenticZClothing.CultistSign = "Cultist Sign",	
-	ItemName_AuthenticZClothing.CultistRobe = "Cultist Robe",	
+	ItemName_AuthenticZClothing.CultistRobe = "Cultist Robe",
+	
+	/* New */	
+	ItemName_AuthenticZClothing.Dress_Knees_Black = "Knee-length Dress",
+	
+	
 	
 }

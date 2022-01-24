@@ -720,4 +720,9 @@ ItemName_ES = {
 	ItemName_AuthenticZClothing.Jacket_Doctor3 	 = "Bata de medico",
 	ItemName_AuthenticZClothing.Shoes_TrainersAZ = "Zapatillas de alto rendimiento",	
 	
+	ItemName_AuthenticZClothing.PZAZ_CostumeStoreSign = "Muestra de la tienda de venta de disfraces",	
+	ItemName_AuthenticZClothing.CultistMask = "Máscara cultista",	
+	ItemName_AuthenticZClothing.CultistSign = "Signo cultista",	
+	ItemName_AuthenticZClothing.CultistRobe = "Toga de cultista",
+	
 }

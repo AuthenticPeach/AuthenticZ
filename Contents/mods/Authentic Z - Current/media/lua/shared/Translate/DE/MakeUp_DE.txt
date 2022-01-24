@@ -1,13 +1,13 @@
 MakeUp_DE = {
-    MakeUpType_FullFaceClownFace1Color = "Farbenfrohes Clown Gesicht 1",
-    MakeUpType_FullFaceClownFace2Color= "Farbenfrohes Clown Gesicht 2",
-	MakeUpType_FullFaceFreddy = "Freddy",
-    MakeUpType_FullFaceInsane = "Insane",
+    MakeUpType_FullFaceClownFace1Color = "Buntes Clowngesicht 1",
+    MakeUpType_FullFaceClownFace2Color= "Buntes Clowngesicht 2",
+    MakeUpType_FullFaceFreddy = "Freddy",
+    MakeUpType_FullFaceInsane = "Verrückt",
     MakeUpType_FullFaceJoker = "Joker",
-    MakeUpType_FullFaceJokerColor = "Colorful Joker",
+    MakeUpType_FullFaceJokerColor = "Bunter Joker",
     MakeUpType_FullFaceMimeBlack = "Mime Black",
-    MakeUpType_FullFaceMimeRed = "Mime Red",
+    MakeUpType_FullFaceMimeRed = "Mime Rot",
     MakeUpType_FullFacePennywise = "Pennywise",
-    MakeUpType_FullFaceShotgunFace = "ShotgunFace",	
+    MakeUpType_FullFaceShotgunFace = "ShotgunFace",
 }
 

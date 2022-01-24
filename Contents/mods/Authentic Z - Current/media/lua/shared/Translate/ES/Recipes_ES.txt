@@ -47,7 +47,7 @@ Recipes_ES = {
 	Recipe_Upgrade_Walkers_Backpack = "Mejorar Mochila de Walker",	
 	
 	
-	/* New*/		
+	/* Update 1-17-22*/		
 	Recipe_Upgrade_Urban_Camo_Alice_Pack = "Mejorar Mochila Alice de camuflaje urbano",
 	Recipe_Detach_Walkie_from_Vest = "Separar Walkie del chaleco",
 	Recipe_Attach_Walkie_to_Vest = "Adjuntar Walkie al chaleco",

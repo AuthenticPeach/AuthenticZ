@@ -290,34 +290,6 @@ module AuthenticZClothing {
         WindResistance = 0.9,
 		WorldStaticModel = Hazmat_Ground,
     }
-    item Dress_Maid
-    {
-       DisplayCategory = Clothing,			
-        Type = Clothing,
-        DisplayName = Short Dress,
-        ClothingItem = Dress_Maid,
-        BodyLocation = Dress,
-        BloodLocation = ShortsShort;Shirt,
-        Icon = DressMaid,
-        Insulation = 0.1,
-        WindResistance = 0.05,
-        FabricType = Cotton,
-        WorldStaticModel = Dress_Short_Ground,		
-    }
-    item Dress_Nurse
-    {
-       DisplayCategory = Clothing,			
-        Type = Clothing,
-        DisplayName = Short Dress,
-        ClothingItem = Dress_Nurse,
-        BodyLocation = Dress,
-        BloodLocation = ShortsShort;Shirt,
-        Icon =  DressShortWhite,
-        Insulation = 0.1,
-        WindResistance = 0.05,
-        FabricType = Cotton,
-		WorldStaticModel = Dress_Short_Ground,
-    }
     item Dress_Dimitrescu
     {
        DisplayCategory = Clothing,			
@@ -332,6 +304,48 @@ module AuthenticZClothing {
         WindResistance = 0.2,
 		Tooltip = Tooltip_Dimitrescu,
 		WorldStaticModel = Dress_Long_Ground,
+    }	
+    item Dress_Maid
+    {
+       DisplayCategory = Clothing,			
+        Type = Clothing,
+        DisplayName = Short Dress,
+        ClothingItem = Dress_Maid,
+        BodyLocation = Dress,
+        BloodLocation = ShortsShort;Shirt,
+        Icon = DressMaid,
+        Insulation = 0.1,
+        WindResistance = 0.05,
+        FabricType = Cotton,
+        WorldStaticModel = Dress_Short_Ground,		
+    }
+    item Dress_Knees_Black
+    {
+       DisplayCategory = Clothing,			
+        Type = Clothing,
+        DisplayName = Knee-length Dress,
+        ClothingItem = Dress_Knees_Black,
+        BodyLocation = Dress,
+        BloodLocation = ShortsShort;Shirt,
+        Icon = DressShortBlack,
+        Insulation = 0.15,
+        WindResistance = 0.1,
+        FabricType = Cotton,
+        WorldStaticModel = Dress_Short_Ground,
+    }
+    item Dress_Nurse
+    {
+       DisplayCategory = Clothing,			
+        Type = Clothing,
+        DisplayName = Short Dress,
+        ClothingItem = Dress_Nurse,
+        BodyLocation = Dress,
+        BloodLocation = ShortsShort;Shirt,
+        Icon =  DressShortWhite,
+        Insulation = 0.1,
+        WindResistance = 0.05,
+        FabricType = Cotton,
+		WorldStaticModel = Dress_Short_Ground,
     }
     item Dress_LongBlack
     {

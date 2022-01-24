@@ -18,5 +18,5 @@ UI_optionscreen_binding_Hotbar 17 = "Raccourci 17",
 UI_optionscreen_binding_Hotbar 18 = "Raccourci 18",
 UI_optionscreen_binding_Hotbar 19 = "Raccourci 19",
 UI_optionscreen_binding_Hotbar 20 = "Raccourci 20",
-UI_optionscreen_binding_SlingBindings = "Raccourci supplÃ©mentaire d'Authentic Z",
+UI_optionscreen_binding_SlingBindings = "Raccourcis supplémentaires Authentic Z",
 }

@@ -76,7 +76,10 @@ IGUI_ES = {
 	IGUI_HotbarAttachment_ARVNFlashlight = "Mochila de montaña - Espacio de linterna",
 	IGUI_HotbarAttachment_ARVNSecondary = "Mochila de montaña - Espacio de contenedor secundario",
 	
-	/* New*/
 	IGUI_HotbarAttachment_AZWebbingLeft = "Arnés - Espacio izquierdo",
 	IGUI_HotbarAttachment_AZWebbingRight = "Arnés - Espacio derecho",
+	
+	/* New*/
+	IGUI_HotbarAttachment_DufflebagBalloonLeft = "Bolsa de deportes - Espacio de globo izquierdo",
+	
 }
