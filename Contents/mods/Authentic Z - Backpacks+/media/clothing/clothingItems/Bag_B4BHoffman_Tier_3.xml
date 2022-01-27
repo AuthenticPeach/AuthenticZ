@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media\models_X\skinned\Backpacks\BackpackHoffman.FBX</m_MaleModel>
+	<m_FemaleModel>media\models_X\skinned\Backpacks\BackpackHoffman.FBX</m_FemaleModel>
+	<m_GUID>45fdf03a-065c-462e-97ae-6ad3321bf34c</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>Clothes\Backpacks\BackpackHoffman</textureChoices>
+</clothingItem>

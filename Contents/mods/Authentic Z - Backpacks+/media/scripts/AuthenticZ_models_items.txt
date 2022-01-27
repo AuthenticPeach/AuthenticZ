@@ -1,0 +1,683 @@
+module Base
+{
+	model Authentic_AndySign
+	{
+		mesh = AuthenticAndySign,
+		texture = clothes\Items\AndySign,
+	}
+	model AuthenticBalloonBlue
+	{
+		mesh = Balloon,
+		texture = clothes\Items\BalloonBlue,
+	}
+	model AuthenticBalloonGreen
+	{
+		mesh = Balloon,
+		texture = clothes\Items\BalloonGreen,
+	}
+	model AuthenticBalloonRed
+	{
+		mesh = Balloon,
+		texture = clothes\Items\BalloonRed,
+	}
+	model AuthenticBalloonPurple
+	{
+		mesh = Balloon,
+		texture = clothes\Items\BalloonPurple,
+	}
+	model AuthenticBalloonWhite
+	{
+		mesh = Balloon,
+		texture = clothes\Items\BalloonWhite,
+	}
+	model AuthenticBalloonYellow
+	{
+		mesh = Balloon,
+		texture = clothes\Items\BalloonYellow,
+	}
+	model AuthenticBandages
+	{
+		mesh = AuthenticBandages,
+		texture = clothes\Items\AuthenticBandage,
+	}
+	model AuthenticBingodotter
+	{
+		mesh = Weapons/1Handed/BingoDabber,
+		texture = clothes\Items\BingoMarker,
+	}		
+	model AuthenticBrain
+	{
+		mesh = AuthenticBrain,
+		texture = clothes\Organs\Brain,
+	}
+	model AuthenticCanteenCadetBlue
+	{
+		mesh = AuthenticCanteen,
+		texture = clothes\Items\CanteenCadetBlue,
+	}
+	model AuthenticCanteenDarkGreen
+	{
+		mesh = AuthenticCanteen,
+		texture = clothes\Items\CanteenDarkGreen,
+	}
+	model AuthenticCanteenDarkGrey
+	{
+		mesh = AuthenticCanteen,
+		texture = clothes\Items\CanteenDarkGrey,
+	}
+	model AuthenticCanteenForestGreen
+	{
+		mesh = AuthenticCanteen,
+		texture = clothes\Items\CanteenForestGreen,
+	}
+	model AuthenticCanteenGrey
+	{
+		mesh = AuthenticCanteen,
+		texture = clothes\Items\CanteenGrey,
+	}
+	model AuthenticCanteenSilver
+	{
+		mesh = AuthenticCanteen,
+		texture = clothes\Items\CanteenSilver,
+	}
+	model AuthenticCigaretteHolder
+	{
+		mesh = AuthenticCigaretteHolder,
+		texture = clothes\Items\CigaretteHolder,	
+	}	
+	model AuthenticCricketBat
+	{
+		mesh = Weapons/2Handed/AuthenticCricketBat,
+		texture = clothes\Items\CricketBatShaun,
+	}
+	model AuthenticCoffeeCup
+	{
+		mesh = Weapons/1Handed/Authentic_CoffeeCup,
+		texture = clothes\Items\SeahorseCoffee,
+	}
+	model AuthenticIceStaff
+	{
+		mesh = Weapons/2Handed/AuthenticIceStaff,
+		texture = clothes\Items\IceStaff,
+	}		
+	model AuthenticHeart
+	{
+		mesh = AuthenticHeart,
+		texture = clothes\Organs\Heart,
+	}
+	model AuthenticLeft4Head
+	{
+		mesh = AuthenticLeft4DeadHand,
+		texture = clothes\Organs\L4Dhand,
+	}
+	model AuthenticLiver
+	{
+		mesh = AuthenticLiver,
+		texture = clothes\Organs\Liver,
+	}
+	model AuthenticKidney
+	{
+		mesh = AuthenticKidney,
+		texture = clothes\Organs\Kidney,
+	}
+	model AuthenticMeatChunk1
+	{
+		mesh = AuthenticMeatChunk01,
+		texture = clothes\Organs\Meat,
+	}
+	model AuthenticMeatChunk2
+	{
+		mesh = AuthenticMeatChunk02,
+		texture = clothes\Organs\Meat,
+	}
+	model AuthenticMeatChunk3
+	{
+		mesh = AuthenticMeatChunk03,
+		texture = clothes\Organs\Meat,
+	}
+	model AuthenticMeatChunk4
+	{
+		mesh = AuthenticMeatChunk04,
+		texture = clothes\Organs\Meat,
+	}
+	model AuthenticMeatChunk5
+	{
+		mesh = AuthenticMeatChunk05,
+		texture = clothes\Organs\Meat,
+	}
+	model AuthenticMinerLightBulb
+	{
+		mesh = AuthenticMinerLightbulb,
+		texture = WorldItems/LightBulb,
+		scale = 0.4,
+	}
+	model AuthenticMoneyStack
+	{
+		mesh = Authentic_MoneyStack,
+		texture = clothes\Items\MoneyStack,
+		scale = 100,
+	}
+	model AuthenticPaintBrush
+	{
+		mesh = Weapons/1Handed/Authentic_Paintbrush,
+		texture = clothes\Items\AuthenticPaintBrush,
+		scale = 100,
+	}
+	model AuthenticPaper
+	{
+		mesh = Newspaper,
+		texture = clothes\Items\Newspaper2,
+	}
+	model AuthenticPills
+	{
+		mesh = AuthenticPills,
+		texture = clothes\Items\AuthenticPillBottle,
+	}
+	model AuthenticRaiderStaff
+	{
+		mesh = Weapons/2Handed/AuthenticTuskanRaiderStaff,
+		texture = clothes\Items\SandpeopleStaff,
+	}	
+	model AuthenticSmokeGrenade
+	{
+		mesh = AuthenticSmokeGrenade,
+		texture = clothes\Items\AuthenticSmokeGrenade,
+	}	
+	model AuthenticWalkingCane
+	{
+		mesh = Weapons/2Handed/AuthenticWalkingCane,
+		texture = clothes\Items\WalkingCane,
+	}
+	model AuthenticWalkingCaneMetal
+	{
+		mesh = Weapons/2Handed/AuthenticWalkingCaneMetal,
+		texture = clothes\Items\WalkingCaneMetal,
+	}	
+	model ClownNose
+	{
+		mesh = ClownNose,
+		texture = F_Hair_Red,
+	}
+	model Cigarette
+	{
+		mesh = Cigarette,
+		texture = clothes\Items\Cigarette,
+	}
+	model CultistRobe_Ground
+	{
+		mesh = WorldItems/Clothing/CultistRobe_Ground,
+	}
+	model CultistHat_Ground
+	{
+		mesh = WorldItems/Clothing/CultistHat_Ground,
+		scale = 1.1,
+	}
+	model CultistMask_Ground
+	{
+		mesh = WorldItems/Clothing/CultistMask_Ground,
+		scale = 1.2,
+	}
+	model GasMaskNotWorn
+	{
+		mesh = GasMaskUnequiped,
+		texture = GasMask,
+	}
+	model Hit-list1Map
+	{
+		mesh = WorldItems/Map,
+		texture = media/ui/LootableMaps/PZAZ_hitlist.png,
+		scale = 0.6,
+	}
+	model Hit-list2Map
+	{
+		mesh = WorldItems/Map,
+		texture = media/ui/LootableMaps/PZAZ_hitlist_2.png,
+		scale = 0.6,
+	}
+	model Hit-list3Map
+	{
+		mesh = WorldItems/Map,
+		texture = media/ui/LootableMaps/PZAZ_hitlist_3.png,
+		scale = 0.6,
+	}	
+	model NewRope
+	{
+		mesh = RopeTan,
+		texture = clothes\Items\Rope3,
+		scale = 0.4,		
+	}
+	model NewRopeBlack
+	{
+		mesh = RopeBlack,
+		texture = clothes\Items\Rope2,
+		scale = 0.4,		
+	}		
+	model AuthenticAlienBlaster
+	{
+		mesh = Weapons/1Handed/AlienBlaster,
+		texture = AlienBlaster,
+	}
+	model AuthenticFlareGun
+	{
+		mesh = Weapons/1Handed/Authentic_FlareGun,
+		texture = clothes\Items\FlareGun,
+	}
+	model AuthenticFreddyKrueger
+	{
+		mesh = Weapons/1Handed/FreddyKruegerHand,
+		texture = FreddyKruegerGlove,
+	}
+	model Authentic_MilitaryFlashlightGrey
+	{
+		mesh = AuthenticMilitaryFlashlight,
+		texture = clothes\Items\MilitaryFlashlightGrey,
+	}
+	model Authentic_MilitaryFlashlightGreen
+	{
+		mesh = AuthenticMilitaryFlashlight,
+		texture = clothes\Items\MilitaryFlashlightGreen,
+	}
+	model Authentic_PipeBomb
+	{
+		mesh = AuthenticPipeBomb,
+		texture = clothes\Items\AuthenticPipeBomb,
+	}
+	model PomPomBlack
+	{
+		mesh = Weapons/1Handed/PomPom,
+		texture = clothes\Items\PomPomBlack,
+	}
+	model PomPomBlue
+	{
+		mesh = Weapons/1Handed/PomPom,
+		texture = clothes\Items\PomPomBlue,
+	}	
+	model PomPomRed
+	{
+		mesh = Weapons/1Handed/PomPom,
+		texture = clothes\Items\PomPomRed,
+	}	
+	model PomPomWhite
+	{
+		mesh = Weapons/1Handed/PomPom,
+		texture = clothes\Items\PomPomWhite,
+	}	
+	model StopSign
+	{
+		mesh = Weapons/1Handed/StopSign,
+		texture = clothes\Items\HandleSign,
+	}
+	model KnifeEnd
+	{
+		mesh = Weapons/1Handed/KnifeEnd,
+		texture = clothes\Items\BloodyKnife,
+	}
+	model MediumMetalSpear
+	{
+		mesh = Weapons/1Handed/MediumMetalSpear,
+		texture = MetalSpear,
+	}
+	model MetalSpike
+	{
+		mesh = Weapons/1Handed/MetalSpike,
+		texture = MetalSpear,
+	}
+	model RemoteControl
+	{
+		mesh = Remotecontrol,
+		texture = clothes\Items\RemoteControl,
+	}	
+    model SpiffoPlushieGrey
+    {
+        mesh = WorldItems/SpiffoPlushie,
+        texture = clothes\Items\SpiffoPlushieGrey,		
+        scale = 0.4,
+    }	
+    model SpiffoPlushieHeart
+    {
+        mesh = SpiffoPlushieFull,
+        texture = clothes\Items\SpiffoPlushiePinkHeart,		
+        scale = 0.4,
+    }
+    model SpiffoPlushieBlueberry
+    {
+        mesh = SpiffoPlushieFull,
+        texture = clothes\Items\SpiffoPlushieBlueberry,		
+        scale = 0.4,
+    }	
+    model SpiffoPlushieShamrock
+    {
+        mesh = SpiffoPlushieFull,
+        texture = clothes\Items\SpiffoPlushieShamrock,		
+        scale = 0.4,
+    }
+    model SpiffoPlushieRainbow
+    {
+        mesh = SpiffoPlushieFull,
+        texture = clothes\Items\SpiffoPlushieRainbow,		
+        scale = 0.4,
+    }		
+	model ShortMetalSpear
+	{
+		mesh = Weapons/1Handed/ShortMetalSpear,
+		texture = MetalSpear,
+	}
+	model ShortMetalSpike
+	{
+		mesh = Weapons/1Handed/ShortMetalSpike,
+		texture = MetalSpear,
+	}
+	model SpikePick
+	{
+		mesh = Weapons/1handed/SpikePick,
+		texture = Weapons/1Handed/IcePick,
+	}
+	model Stake2
+    {
+        mesh = Weapons/1Handed/Stake,
+	texture = clothes\Items\RollingPinBloody,
+    }
+	model WeaponSpritePipeBombSensor
+    {
+		mesh = Weapons/1Handed/WSPipeBombSensor,
+		texture = WorldItems/PipeBomb,
+		scale = 0.6,
+    }
+	model WeaponSpritePipeBomb
+    {
+		mesh = Weapons/1Handed/WSPipeBomb,
+		texture = WorldItems/PipeBomb,
+		scale = 0.4,
+	}
+	model WeaponSpriteSmokeBombSensor
+    {
+		mesh = Weapons/1Handed/WSSmokeBombSensor,
+		texture = WorldItems/SmokeBomb,
+		scale = 0.6,
+	}
+	model WeaponSpriteSmokeBomb
+    {
+		mesh = Weapons/1Handed/WSSmokeBomb,
+		texture = WorldItems/SmokeBomb,
+		scale = 0.6,
+	}
+	model WeaponSpriteFlameTrapSensor
+    {
+		mesh = Weapons/1Handed/WSFlameTrapSensor,
+		texture = WorldItems/FlameTrap,
+		scale = 0.6,
+	}
+	model WeaponSpriteFlameTrap
+    {
+		mesh = Weapons/1Handed/WSFlameTrap,
+		texture = WorldItems/FlameTrap,
+		scale = 0.6,
+	}
+	model WeaponSpriteAerosolBombSensor
+    {
+		mesh = Weapons/1Handed/WSAerosolBombSensor,
+		texture = WorldItems/AerosolBomb,
+		scale = 0.5,
+	}
+	model WeaponSpriteAerosolBomb
+    {
+		mesh = Weapons/1Handed/WSAerosolBomb,
+		texture = WorldItems/AerosolBomb,
+		scale = 0.5,
+	}	
+	model ToyBearSmall
+	{
+		mesh = WorldItems/ToyBear,
+		texture = WorldItems/ToyBear,
+		scale = 0.3,
+	}		
+	model Football3
+	{
+		mesh = ThrowableFootball,
+		texture = WorldItems/Football,
+	}
+    model WeddingVeilBlue_Ground
+    {
+        mesh = WorldItems/WeddingVeil_Ground,
+        texture = clothes\Hats\WeddingVeilBlue,
+        scale = 0.4,
+    }
+    model WeddingVeilPink_Ground
+    {
+        mesh = WorldItems/WeddingVeil_Ground,
+        texture = clothes\Hats\WeddingVeilPink,
+        scale = 0.4,
+    }	
+	model WorldItem_AndySign
+	{
+		mesh = WorldItems/WorldItem_AuthenticAndySign,
+		texture = clothes\Items\AndySign,
+	}
+	model WorldItem_Boater_Ground_Blue
+    {
+		mesh = WorldItems/WorldItem-Boater,
+		texture = clothes\Hats\BoaterBlue,
+    }
+	model WorldItem_Boater_Ground_Red
+    {
+		mesh = WorldItems/WorldItem-Boater,
+		texture = clothes\Hats\BoaterRed,
+    }
+	model WorldItem_Boater_Ground_Green
+    {
+		mesh = WorldItems/WorldItem-Boater,
+		texture = clothes\Hats\BoaterGreen,
+    }
+	model WorldItem_Boater_Ground_Purple
+    {
+		mesh = WorldItems/WorldItem-Boater,
+		texture = clothes\Hats\BoaterPurple,
+    }
+	model WorldItem_Boater_Ground_Yellow
+    {
+		mesh = WorldItems/WorldItem-Boater,
+		texture = clothes\Hats\BoaterYellow,
+    }
+	model WorldItem_BackpackEvangelo
+    {
+		mesh = Skinned/Backpacks/WorldItem-BackpackEvangelo,
+		texture = clothes\Backpacks\BackpackEvangelo,
+    }
+	model WorldItem_BackpackHoffman
+    {
+		mesh = Skinned/Backpacks/WorldItem-BackpackHoffman,
+		texture = clothes\Backpacks\BackpackHoffman,
+    }
+	model WorldItem_BackpackHolly
+    {
+		mesh = Skinned/Backpacks/WorldItem-BackpackHolly,
+		texture = clothes\Backpacks\BackpackHolly,
+    }
+	model WorldItem_BackpackL4DMedkit
+    {
+		mesh = Skinned/Backpacks/WorldItem-BackpackL4DMedkit,
+		texture = clothes\Backpacks\Left4DeadMedkitBackpack,
+    }
+	model WorldItem_BackpackMom
+    {
+		mesh = Skinned/Backpacks/WorldItem-BackpackMom,
+		texture = clothes\Backpacks\BackpackMom,
+    }
+	model WorldItem_BackpackWalker
+    {
+		mesh = Skinned/Backpacks/WorldItem-BackpackWalker,
+		texture = clothes\Backpacks\BackpackWalker,
+    }
+	model WorldItem-BalloonBlue
+	{
+		mesh = WorldItems/WorldItem_Balloon,
+		texture = clothes\Items\BalloonBlue,		
+	}
+	model WorldItem-BalloonGreen
+	{
+		mesh = WorldItems/WorldItem_Balloon,
+		texture = clothes\Items\BalloonGreen,		
+	}
+	model WorldItem-BalloonRed
+	{
+		mesh = WorldItems/WorldItem_Balloon,
+		texture = clothes\Items\BalloonRed,		
+	}
+	model WorldItem-BalloonPurple
+	{
+		mesh = WorldItems/WorldItem_Balloon,
+		texture = clothes\Items\BalloonPurple,		
+	}
+	model WorldItem-BalloonWhite
+	{
+		mesh = WorldItems/WorldItem_Balloon,
+		texture = clothes\Items\BalloonWhite,		
+	}
+	model WorldItem-BalloonYellow
+	{
+		mesh = WorldItems/WorldItem_Balloon,
+		texture = clothes\Items\BalloonYellow,		
+	}
+	model WorldItem_BunnyTailAZ
+    {
+		mesh = WorldItems/WorldItem_BunnyTail,
+		texture = clothes\Items\BunnyTail,
+        scale = 0.025,		
+    }
+	model WorldItem_BunnyEarsBlack
+    {
+		mesh = WorldItems/WorldItem_BunnyEars,
+		texture = clothes\Hats\BunnyEarsBlack,
+    }		
+	model WorldItem_Chainsaw
+    {
+		mesh = WorldItems/WorldItem_Chainsaw,
+		texture = chainsaw,		
+    }
+	model WorldItem-CigaretteHolder
+    {
+		mesh = WorldItems/WorldItem_AuthenticCigaretteHolder,
+		texture = clothes\Items\CigaretteHolder,			
+    }	
+	model WorldItem-CostumeStoreSign
+    {
+		mesh = WorldItems/WorldItem_StoreSign,
+		texture = clothes\Items\StoreSign,		
+    }
+	model WorldItem-Cigarette
+    {
+		mesh = WorldItems/WorldItem_Cigarette,
+		texture = Cigarette,		
+    }	
+	model WorldItem-DuelCap
+    {
+		mesh = WorldItems/WorldItem_DuelCap,	
+    }	
+	model WorldItem_UtilityBelt
+    {
+		mesh = Skinned/Backpacks/WorldItem-UtilityBeltTactical,
+		texture = clothes\Backpacks\UtilityBeltTactical,
+    }
+	model WorldItem_Minerlightbulb
+    {
+		mesh = WorldItems/WorldItem_AuthenticMinerLightbulb,
+		texture = WorldItems/LightBulb,
+		scale = 0.01,
+    }
+	model WorldItem_ProtonPack
+    {
+		mesh = Skinned/Backpacks/WorldItem-ProtonPack,
+		texture = clothes\Backpacks\ProtonPack,
+    }
+	model FlashLightGroundBlue
+    {
+        mesh = WorldItems/FlashLight,
+	texture = clothes\Items\FlashLightBlue,
+        scale = 0.4,
+    }
+	model FlashLightBlue
+	{
+		mesh = FlashLight,
+		texture = clothes\Items\FlashLightBlue,		
+	}
+	model WorldItem_CigarAZ
+    	{
+		mesh = Skinned/MC Models/WorldItems/WorldItem_CigarAZ,
+		texture = clothes\Items\CigarAZCuban,
+		scale = 0.01,		
+	}	
+	model WorldItem-DSLR
+    {
+		mesh = Static/Clothes/WorldItem_DSLR,
+		texture = clothes\Items\Camera,
+    }
+	model WorldItem_DimitrescuRose
+    {
+		mesh = Static/Clothes/WorldItem-DimitrescuRose,
+		texture = clothes\Items\DimitrescuRose,
+    }	
+	model WorldItem_FreddyClaw
+    {
+		mesh = Static/Clothes/WorldItem-FreddyClaw,
+		texture = clothes\Gloves\FreddyKruegerGlove,
+    }	
+	model WorldItem_HeadPhones
+	{
+		mesh = WorldItems/HeadPhones,
+		scale = 0.4,
+	}
+	model WorldItem-InflatableTube 
+    {
+		mesh = WorldItems/WorldItem_InflatableTube,
+    }	
+	model WorldItem-AZPetition
+    {
+		mesh =  WorldItems/WorldItem_AuthenticNewspaper,	
+		texture = clothes\Items\Newspaper2,
+    }	
+	model WorldItem-PillBottle
+    {
+		mesh = WorldItems/WorldItem_AuthenticPillBottle,
+		texture = clothes\Items\AuthenticPillBottle,
+    }	
+	model WorldItem-StovePipeHat
+    {
+		mesh =  WorldItems/WorldItem_StovePipeHat,
+		texture = clothes\Hats\StovePipeHat,
+    }	
+	model WorldItem-TrueEyeCult
+    {
+		mesh = WorldItems/WorldItem_TrueEyeCultMask,
+		texture = clothes\Masks\TrueEyeCult,
+    }
+	model WorldItem-AuthenticTV110
+	{
+		mesh = WorldItems/WorldItem_AZ_TV110,
+	}	
+	model WorldItem-AuthenticTV110_Radio
+	{
+		mesh = WorldItems/WorldItem_AZ_TV110_Radio,
+	}
+	
+	model WorldItem-AuthenticTV110_Bag
+	{
+		mesh = WorldItems/WorldItem_AZ_TV110_Mag,
+	}
+	model WorldItem-AuthenticTV110_Bag_Radio
+	{
+		mesh = WorldItems/WorldItem_AZ_TV110_Mag_Radio,
+	}
+	
+    model WorldItem-MilitaryWebbing
+	{
+		mesh = WorldItems/WorldItem_MilitaryWebbing,
+		scale = 0.5,
+	}
+	
+	model SheetRopeAZ
+	{
+		mesh = SheetRopeAZ,
+		texture = WorldItems/SheetRope,
+		scale = 0.15,
+	}	
+}
