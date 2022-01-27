@@ -4113,6 +4113,35 @@
 		</m_items>				
 </m_FemaleOutfits>
 
+<m_FemaleOutfits>
+		<m_Name>AuthenticFreeHugs</m_Name>
+		<m_Guid>3a078a90-fb2c-4797-a594-c3cec6f63b39</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowTopTint>false</m_AllowTopTint>		
+		<m_items> <!-- Red Plaid Skirt -->
+			<itemGUID>734f109a-430a-466e-9444-e60d5421c331</itemGUID>
+		</m_items>
+		<m_items> <!-- Black Scarf-->
+			<itemGUID>384654b6-f712-4ee9-b2c0-7202f3ec9dea</itemGUID>
+		</m_items>
+		<m_items> <!-- Black Hoodie-->
+			<itemGUID>e360c3fa-34ec-4877-8f0b-af51508f14c3</itemGUID>
+		</m_items>
+		<m_items> <!-- Black Stockings -->
+			<itemGUID>1c08ec23-70aa-4e3d-8848-138af25542c6</itemGUID>
+		</m_items>			
+		<m_items> <!-- High top Sneakers -->
+			<itemGUID>9150e7da-a78d-4988-a799-e06bff2dae4a</itemGUID>
+		</m_items>		
+		<m_items> <!-- Pearl Earrings-->
+			<itemGUID>5d9eec3d-7119-480e-8f8a-b7118463e482</itemGUID>
+		</m_items>
+		<m_items> <!-- Green Zombie Skin -->
+			<itemGUID>0baf5c3f-873f-4d20-ac06-7ee1f1456020</itemGUID>
+		</m_items>				
+</m_FemaleOutfits>
+
 <m_MaleOutfits> <m_Name>AuthenticFuneralCoat</m_Name>
 		<m_Guid>444fda17-b87f-4992-8d8c-e8d187511ed1</m_Guid>
 		<m_Top>false</m_Top>

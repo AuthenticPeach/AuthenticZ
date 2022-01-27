@@ -1556,7 +1556,59 @@ module AuthenticZClothing {
         Weight 			 = 2,
         WorldStaticModel = SuitJacket_Ground,		
     }
+
+    item HoodieDOWN_Black
+    {
+        DisplayCategory = Clothing,		
+        Type = Clothing,
+        DisplayName = Black Hoodie,
+        ClothingItem = HoodieDOWN_Black,
+        ClothingItemExtra = HoodieUP_Black;HoodieTied_Black,
+        ClothingItemExtraOption = UpHoodie;TieOnWaist,
+        BodyLocation = Jacket,
+        BloodLocation = Jumper,
+        Icon = HoodieBlack,
+        ScratchDefense = 10,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.6,
+        WindResistance = 0.25,
+        FabricType = Cotton,
+        WorldStaticModel = Hoodie_Ground,		
+    }
 	
+    item HoodieUP_Black
+    {
+        DisplayCategory = Clothing,		
+        Type = Clothing,
+        DisplayName = Black Hoodie,
+        ClothingItem = HoodieUP_Black,
+        ClothingItemExtra = HoodieDOWN_Black;HoodieTied_Black,
+        ClothingItemExtraOption = DownHoodie;TieOnWaist,
+        BodyLocation = Jacket,
+        BloodLocation = Jumper;FullHelmet,
+        Icon = HoodieBlack,
+        ScratchDefense = 10,
+        Insulation = 0.55,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+        WorldStaticModel = Hoodie_Ground,		
+    }	
+	
+    item HoodieTied_Black
+    {
+        DisplayCategory = Clothing,		
+        Type = Clothing,
+        DisplayName = Black Hoodie (Tied),
+        ClothingItem = HoodieTied_Black,
+        ClothingItemExtra = HoodieDOWN_Black;HoodieUP_Black,
+        ClothingItemExtraOption = DownHoodie;UpHoodie,	
+		BodyLocation = TorsoExtra,
+		BloodLocation = Apron,
+        Icon = HoodieBlack,
+        ScratchDefense = 10,
+        WorldStaticModel = Hoodie_Ground,		
+    }	
+
     item HoodieDOWN_Bengal
     {
         DisplayCategory = Clothing,		
@@ -2176,6 +2228,28 @@ module AuthenticZClothing {
         ScratchDefense = 10,
         WorldStaticModel = Hoodie_Ground,		
     }	
+
+    item Jacket_Reporter_LBMW
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = LBMW Reporter Jacket,
+        ClothingItem = Jacket_Reporter_LBMW,
+        BodyLocation = Jacket,
+        Icon = JacketRanger,
+        BloodLocation = Jacket,
+        RunSpeedModifier = 0.93,
+        CombatSpeedModifier = 0.98,
+        BiteDefense = 20,
+        ScratchDefense = 30,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.7,
+        WindResistance = 0.7,
+        FabricType = Cotton,
+        WaterResistance = 0.5,
+        Weight = 2,
+        WorldStaticModel = JacketCoat_Ground,
+    }
 
     item Jumper_PoloNeckCheeseRoyale
     {

@@ -240,7 +240,7 @@ cat.haircutColor = "0.99,0.92,0.55:100"; -- Blonde
 table.insert(HairOutfitDefinitions.haircutOutfitDefinition, cat);
 local cat = {};
 cat.outfit = "AuthenticElderly";
-cat.haircutColor = "0.80,0.80,0.80:100";
+cat.haircutColor = "0.80,0.80,0.80:100"; -- Grey color
 table.insert(HairOutfitDefinitions.haircutOutfitDefinition, cat);
 local cat = {};
 cat.outfit = "AuthenticEllis";
@@ -264,12 +264,17 @@ local cat = {};
 cat.outfit = "AuthenticFrancis";
 cat.haircut = "CrewCut:100";
 cat.beard = "Goatee:100";
-cat.haircutColor = "0.33,0.16,0.16:100"
+cat.haircutColor = "0.33,0.16,0.16:100" -- Bronw color
 table.insert(HairOutfitDefinitions.haircutOutfitDefinition, cat);
 local cat = {};
 cat.outfit = "AuthenticFreddyKrueger";
 cat.haircut = "Bald:100";
 cat.beard = "None:100";
+table.insert(HairOutfitDefinitions.haircutOutfitDefinition, cat);
+local cat = {};
+cat.outfit = "AuthenticFreeHugs";
+cat.haircut = "Rachel:100";
+cat.haircutColor = "0.80,0.80,0.80:100"; --- Grey color
 table.insert(HairOutfitDefinitions.haircutOutfitDefinition, cat);
 local cat = {};
 cat.outfit = "AuthenticFreshPrinceBelAir";

@@ -727,7 +727,20 @@ ItemName_EN = {
 	
 	/* New */	
 	ItemName_AuthenticZClothing.Dress_Knees_Black = "Knee-length Dress",
-	
+	ItemName_AuthenticZClothing.GreeneZ_F = "Green Female Zombie Skin",
+	ItemName_AuthenticZClothing.AuthenticIceStaff = "Fantasy Ice Staff",
+	ItemName_AuthenticZClothing.AuthenticRaiderStaff = "Sand Raider Stick",
+	ItemName_AuthenticZClothing.Scarf_Black = "Black Scarf",
+	ItemName_AuthenticZClothing.HoodieUP_Black   = "Black Hoodie",
+	ItemName_AuthenticZClothing.HoodieDOWN_Black = "Black Hoodie",
+	ItemName_AuthenticZClothing.HoodieTied_Black = "Black Hoodie (Tied)",
+	ItemName_AuthenticZClothing.Skirt_ShortRedPlaid = "Short Red Plaid Skirt",
+	ItemName_AuthenticZClothing.Authentic_PomPomRed = "Cheerleading Pom Pom",
+	ItemName_AuthenticZClothing.Authentic_PomPomRed = "Cheerleading Pom Pom",
+	ItemName_AuthenticZClothing.AuthenticWalkingCaneMetal =  "Metal Walking Cane",		
+	ItemName_AuthenticZClothing.AuthenticBouquetFlowers =  "Bouquet of Flowers",		
+	ItemName_AuthenticZClothing.AuthenticFreeHugsSign =  "Free Hugs Sign",		
+	ItemName_AuthenticZClothing.Jacket_Reporter_LBMW =  "LBMW Media Jacket",		
 	
 	
 }

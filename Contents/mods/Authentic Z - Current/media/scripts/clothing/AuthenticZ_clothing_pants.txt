@@ -312,6 +312,19 @@ module AuthenticZClothing {
         FabricType = Denim,
 		WorldStaticModel = Skirt_Short_Ground,	
     }
+    item Skirt_ShortRedPlaid
+    {
+       DisplayCategory = Clothing,		
+        Type = Clothing,
+        DisplayName = Short Red Plaid Skirt,
+        ClothingItem = Skirt_ShortRedPlaid,
+        BodyLocation = Skirt,
+        Icon = XianRed_Skirt,
+        BloodLocation = ShortsShort,
+        Insulation = 0.05,
+        FabricType = Cotton,
+		WorldStaticModel = Skirt_Short_Ground,
+    }
     item Skirt_ShortXian
     {
        DisplayCategory = Clothing,		

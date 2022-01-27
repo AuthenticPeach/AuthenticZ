@@ -189,11 +189,12 @@ module AuthenticZClothing {
         ClothingItem = BunnyTailAZ,
         BodyLocation = Tail,
         Icon = BunnyTailAZ,
+        Insulation = 0.05,		
         WorldStaticModel = WorldItem_BunnyTailAZ,
     }	
     item Clown_Coveralls
     {
-       DisplayCategory = Clothing,			
+       DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Clown Coveralls,
         ClothingItem = Clown_Coveralls,

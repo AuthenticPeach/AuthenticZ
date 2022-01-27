@@ -4072,6 +4072,10 @@
 		<guid>7d18ca16-fdb4-462e-b9a7-4f358cdd7525</guid>
 	</files>
 	<files>
+		<path>media/clothing/clothingItems/GreeneZ_F.xml</path>
+		<guid>0baf5c3f-873f-4d20-ac06-7ee1f1456020</guid>
+	</files>	
+	<files>
 		<path>media/clothing/clothingItems/Gloves_WhitePatriots.xml</path>
 		<guid>d1cd2c65-2e70-4284-b975-9638dbc17cf3</guid>
 	</files>	
@@ -4482,6 +4486,18 @@
 	<files>
 		<path>media/clothing/clothingItems/HoodieTied_Bengal.xml</path>
 		<guid>860ed528-4643-4cbd-ba78-6508231275f1</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/HoodieUP_Black.xml</path>
+		<guid>cc16bfe6-d473-4d58-84c4-1a0cbfe7bc6e</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/HoodieDOWN_Black.xml</path>
+		<guid>e360c3fa-34ec-4877-8f0b-af51508f14c3</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/HoodieTied_Black.xml</path>
+		<guid>da97f4ce-263e-42db-9d88-e06b6950ad55</guid>
 	</files>	
 	<files>
 		<path>media/clothing/clothingItems/HoodieUP_BluePlaid.xml</path>
@@ -4706,6 +4722,10 @@
 	<files>
 		<path>media/clothing/clothingItems/Jacket_PaddedEvangeloDOWN.xml</path>
 		<guid>18954d4d-d06c-4f4a-b6b9-6ba072bd0d61</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Jacket_Reporter_LBMW.xml</path>
+		<guid>9b37e2d0-0dbe-4b76-b45a-4b151ad751bc</guid>
 	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Jacket_Scandroid.xml</path>
@@ -4991,6 +5011,10 @@
 		<path>media/clothing/clothingItems/Rose_Dimitrescu.xml</path>
 		<guid>45a49acf-b95e-4aa3-b842-earosec040db</guid>
 	</files>
+	<files>
+		<path>media/clothing/clothingItems/Scarf_Black.xml</path>
+		<guid>384654b6-f712-4ee9-b2c0-7202f3ec9dea</guid>
+	</files>		
 	<files>
 		<path>media/clothing/clothingItems/Scarf_DarkGreen.xml</path>
 		<guid>227a10a3-5b89-436b-8bdf-ff8fafabe4de</guid>
@@ -5298,6 +5322,10 @@
 	<files>
 		<path>media/clothing/clothingItems/Skirt_ShortJessie.xml</path>
 		<guid>7ee5f7ae-6e8a-4445-b616-8d1224d80ac3</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Skirt_ShortRedPlaid.xml</path>
+		<guid>734f109a-430a-466e-9444-e60d5421c331</guid>
 	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Skirt_ShortXian.xml</path>

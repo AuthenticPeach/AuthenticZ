@@ -181,6 +181,15 @@ module AuthenticZClothing {
 		BodyLocation = Necklace,
 		Icon = CorpseSkin_F,
 	}
+	item GreeneZ_F
+	{
+       DisplayCategory = Clothing,		
+		Type = Clothing,
+		DisplayName = Green Female Zombie Skin,
+		ClothingItem = GreeneZ_F,
+		BodyLocation = Necklace,
+		Icon = CorpseSkinGreen_F,
+	}	
 	item BlueZskin_M1
 	{
        DisplayCategory = Clothing,		
@@ -615,6 +624,22 @@ module AuthenticZClothing {
 		Cosmetic = TRUE,
 		WorldStaticModel = WorldItem_DimitrescuRose,		
 	}
+    item Scarf_Black
+    {
+       DisplayCategory = Accessory,		
+        Type = Clothing,
+        DisplayName = Black Scarf,
+        ClothingItem = Scarf_Black,
+        BodyLocation = Scarf,
+        Icon = ScarfBlack,
+        Weight = 0.2,
+        BloodLocation = Neck,
+        ScratchDefense = 10,
+        Insulation = 1.0,
+        WindResistance = 1.0,
+        FabricType = Cotton,
+        WorldStaticModel = Scarf_Ground,
+    }	
     item Scarf_DarkGreen
     {
        DisplayCategory = Accessory,		

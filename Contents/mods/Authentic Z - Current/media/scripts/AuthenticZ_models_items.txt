@@ -40,6 +40,11 @@ module Base
 		mesh = AuthenticBandages,
 		texture = clothes\Items\AuthenticBandage,
 	}
+	model AuthenticBingodotter
+	{
+		mesh = Weapons/1Handed/BingoDabber,
+		texture = clothes\Items\BingoMarker,
+	}		
 	model AuthenticBrain
 	{
 		mesh = AuthenticBrain,
@@ -90,6 +95,11 @@ module Base
 		mesh = Weapons/1Handed/Authentic_CoffeeCup,
 		texture = clothes\Items\SeahorseCoffee,
 	}
+	model AuthenticIceStaff
+	{
+		mesh = Weapons/2Handed/AuthenticIceStaff,
+		texture = clothes\Items\IceStaff,
+	}		
 	model AuthenticHeart
 	{
 		mesh = AuthenticHeart,
@@ -163,6 +173,11 @@ module Base
 		mesh = AuthenticPills,
 		texture = clothes\Items\AuthenticPillBottle,
 	}
+	model AuthenticRaiderStaff
+	{
+		mesh = Weapons/2Handed/AuthenticTuskanRaiderStaff,
+		texture = clothes\Items\SandpeopleStaff,
+	}	
 	model AuthenticSmokeGrenade
 	{
 		mesh = AuthenticSmokeGrenade,
@@ -173,6 +188,11 @@ module Base
 		mesh = Weapons/2Handed/AuthenticWalkingCane,
 		texture = clothes\Items\WalkingCane,
 	}
+	model AuthenticWalkingCaneMetal
+	{
+		mesh = Weapons/2Handed/AuthenticWalkingCaneMetal,
+		texture = clothes\Items\WalkingCaneMetal,
+	}	
 	model ClownNose
 	{
 		mesh = ClownNose,
@@ -262,16 +282,26 @@ module Base
 		mesh = AuthenticPipeBomb,
 		texture = clothes\Items\AuthenticPipeBomb,
 	}
-	model PomPomWhite
-	{
-		mesh = Weapons/1Handed/PomPom,
-		texture = clothes\Items\PomPomWhite,
-	}
 	model PomPomBlack
 	{
 		mesh = Weapons/1Handed/PomPom,
 		texture = clothes\Items\PomPomBlack,
 	}
+	model PomPomBlue
+	{
+		mesh = Weapons/1Handed/PomPom,
+		texture = clothes\Items\PomPomBlue,
+	}	
+	model PomPomRed
+	{
+		mesh = Weapons/1Handed/PomPom,
+		texture = clothes\Items\PomPomRed,
+	}	
+	model PomPomWhite
+	{
+		mesh = Weapons/1Handed/PomPom,
+		texture = clothes\Items\PomPomWhite,
+	}	
 	model StopSign
 	{
 		mesh = Weapons/1Handed/StopSign,
