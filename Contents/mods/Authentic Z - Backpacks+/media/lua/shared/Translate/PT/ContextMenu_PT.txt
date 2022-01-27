@@ -1,0 +1,12 @@
+ContextMenu_PT = {
+	ContextMenu_Loosen = "Alargar",
+	ContextMenu_Tighten = "Apertar",
+	ContextMenu_TieOnWaist = "Atar à volta da cintura",
+	
+	ContextMenu_JacketOpen = "Abrir casaco",
+	ContextMenu_ClosedJacket = "Fechar casaco",
+	
+	ContextMenu_VestBag = "Usar como mala",
+	ContextMenu_VestBullet = "Usar como colete à prova de balas",
+	ContextMenu_VestRadio = "Usar como rádio",
+} 
