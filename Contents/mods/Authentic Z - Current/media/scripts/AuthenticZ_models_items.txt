@@ -10,40 +10,100 @@ module Base
 		mesh = Balloon,
 		texture = clothes\Items\BalloonBlue,
 	}
+	model AuthenticBalloon_Group_Blue
+	{
+		mesh = BalloonGroup3,
+		texture = clothes\Items\BalloonBlue,
+	}	
 	model AuthenticBalloonGreen
 	{
 		mesh = Balloon,
 		texture = clothes\Items\BalloonGreen,
 	}
+	model AuthenticBalloon_Group_Green
+	{
+		mesh = BalloonGroup3,
+		texture = clothes\Items\BalloonGreen,
+	}	
 	model AuthenticBalloonRed
 	{
 		mesh = Balloon,
 		texture = clothes\Items\BalloonRed,
 	}
+	model AuthenticBalloon_Group_Red
+	{
+		mesh = BalloonGroup3,
+		texture = clothes\Items\BalloonRed,
+	}
+	model AuthenticBalloonPink
+	{
+		mesh = Balloon,
+		texture = clothes\Items\BalloonPink,
+	}
+	model AuthenticBalloon_Group_Pink
+	{
+		mesh = BalloonGroup3,
+		texture = clothes\Items\BalloonPink,
+	}	
 	model AuthenticBalloonPurple
 	{
 		mesh = Balloon,
 		texture = clothes\Items\BalloonPurple,
 	}
+	model AuthenticBalloon_Group_Purple
+	{
+		mesh = BalloonGroup3,
+		texture = clothes\Items\BalloonPurple,
+	}	
 	model AuthenticBalloonWhite
 	{
 		mesh = Balloon,
 		texture = clothes\Items\BalloonWhite,
 	}
+	model AuthenticBalloon_Group_White
+	{
+		mesh = BalloonGroup3,
+		texture = clothes\Items\BalloonWhite,
+	}	
 	model AuthenticBalloonYellow
 	{
 		mesh = Balloon,
 		texture = clothes\Items\BalloonYellow,
 	}
+	model AuthenticBalloon_Group_Yellow
+	{
+		mesh = BalloonGroup3,
+		texture = clothes\Items\BalloonYellow,
+	}	
 	model AuthenticBandages
 	{
 		mesh = AuthenticBandages,
 		texture = clothes\Items\AuthenticBandage,
 	}
-	model AuthenticBingodotter
+	model AuthenticBingodotterPurple
 	{
 		mesh = Weapons/1Handed/BingoDabber,
-		texture = clothes\Items\BingoMarker,
+		texture = clothes\Items\BingoMarkerPurple,
+	}
+	model AuthenticBingodotterOrange
+	{
+		mesh = Weapons/1Handed/BingoDabber,
+		texture = clothes\Items\BingoMarkerOrange,
+	}	
+	model AuthenticBingodotterRed
+	{
+		mesh = Weapons/1Handed/BingoDabber,
+		texture = clothes\Items\BingoMarkerRed,
+	}	
+	model AuthenticBingodotterTeal
+	{
+		mesh = Weapons/1Handed/BingoDabber,
+		texture = clothes\Items\BingoMarkerTeal,
+	}	
+	model AuthenticBingodotterRed
+	{
+		mesh = Weapons/1Handed/BingoDabber,
+		texture = clothes\Items\BingoMarkerYellow,
 	}		
 	model AuthenticBrain
 	{
@@ -513,31 +573,72 @@ module Base
 		mesh = WorldItems/WorldItem_Balloon,
 		texture = clothes\Items\BalloonBlue,		
 	}
+	model WorldItem-BalloonGroupBlue
+	{
+		mesh = BalloonGroup3_Ground,
+		texture = clothes\Items\BalloonBlue,		
+	}	
 	model WorldItem-BalloonGreen
 	{
 		mesh = WorldItems/WorldItem_Balloon,
 		texture = clothes\Items\BalloonGreen,		
 	}
+	model WorldItem-BalloonGroupGreen
+	{
+		mesh = BalloonGroup3_Ground,
+		texture = clothes\Items\BalloonGreen,		
+	}	
 	model WorldItem-BalloonRed
 	{
 		mesh = WorldItems/WorldItem_Balloon,
 		texture = clothes\Items\BalloonRed,		
 	}
+	model WorldItem-BalloonGroupRed
+	{
+		mesh = BalloonGroup3_Ground,
+		texture = clothes\Items\BalloonRed,		
+	}
+	model WorldItem-BalloonPink
+	{
+		mesh = WorldItems/WorldItem_Balloon,
+		
+		texture = clothes\Items\BalloonPink,		
+	}
+	model WorldItem-BalloonGroupPurple
+	{
+		mesh = BalloonGroup3_Ground,
+		texture = clothes\Items\BalloonPurple,		
+	}	
 	model WorldItem-BalloonPurple
 	{
 		mesh = WorldItems/WorldItem_Balloon,
 		texture = clothes\Items\BalloonPurple,		
 	}
+	model WorldItem-BalloonGroupPurple
+	{
+		mesh = BalloonGroup3_Ground,
+		texture = clothes\Items\BalloonPurple,		
+	}	
 	model WorldItem-BalloonWhite
 	{
 		mesh = WorldItems/WorldItem_Balloon,
 		texture = clothes\Items\BalloonWhite,		
 	}
+	model WorldItem-BalloonGroupWhite
+	{
+		mesh = BalloonGroup3_Ground,
+		texture = clothes\Items\BalloonWhite,		
+	}	
 	model WorldItem-BalloonYellow
 	{
 		mesh = WorldItems/WorldItem_Balloon,
 		texture = clothes\Items\BalloonYellow,		
 	}
+	model WorldItem-BalloonGroupYellow
+	{
+		mesh = BalloonGroup3_Ground,
+		texture = clothes\Items\BalloonYellow,		
+	}	
 	model WorldItem_BunnyTailAZ
     {
 		mesh = WorldItems/WorldItem_BunnyTail,

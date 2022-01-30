@@ -8,6 +8,7 @@ require 'NPCs/BodyLocations'
 local group = BodyLocations.getGroup("Human")
 
 group:getOrCreateLocation("AmmoStrap2")
+group:getOrCreateLocation("TorsoRigPlus2")
 
 
 --local function isMod(mod_Name)

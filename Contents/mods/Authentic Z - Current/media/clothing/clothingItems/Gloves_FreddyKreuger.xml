@@ -8,5 +8,6 @@
 	<m_AllowRandomTint>false</m_AllowRandomTint>
 	<m_AttachBone></m_AttachBone>
 	<m_Masks>6</m_Masks>	
+	<m_MasksFolder>media/textures/Clothes/Hat/Masks</m_MasksFolder>	
 	<textureChoices>clothes\gloves\FreddyKruegerGlove</textureChoices>
 </clothingItem>
