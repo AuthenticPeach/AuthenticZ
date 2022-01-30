@@ -49,4 +49,6 @@ Tooltip_EN = {
 	Tooltip_AddWalkieTV110Bag = "Attaches Army Walkie Talkie to TV-110, Take out all magazines before this.",
 	Tooltip_RemoveWalkieTV110 = "Removes Army Walkie Talkie from TV-110",
 	Tooltip_RemoveWalkieTV110Bag = "Removes Army Walkie Talkie from TV-110, Take out all magazines before this.",
+	
+	Tooltip_TV110Bag = "Take out all items before this.",
 	}

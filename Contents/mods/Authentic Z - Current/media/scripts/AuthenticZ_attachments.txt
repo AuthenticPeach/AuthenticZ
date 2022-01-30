@@ -2092,21 +2092,21 @@ module Base
 
 		attachment BackPack_BigHikingBag_Tier1Item_Hammer
 		{
-			offset = 0.1090 -0.0020 -0.1440,
-			rotate = 90.0000 0.0000 -1.0000,
+			offset = 0.0810 -0.0060 -0.1440,
+			rotate = 90.0000 0.0000 -5.0000,
 			bone = Bip01_BackPack,
 		}
 
 		attachment BackPack_BigHikingBag_Tier1Item_Screwdriver
 		{
-			offset = 0.1150 -0.0030 0.0360,
+			offset = 0.0950 -0.0050 0.0360,
 			rotate = -90.0000 0.0000 6.0000,
 			bone = Bip01_BackPack,
 		}
 
 		attachment BackPack_BigHikingBag_Tier1Item_SheetRope
 		{
-			offset = 0.1050 -0.0020 -0.0470,
+			offset = 0.0890 -0.0040 -0.0470,
 			rotate = 82.0000 -5.0000 -7.0000,
 			bone = Bip01_BackPack,
 		}
@@ -2134,7 +2134,7 @@ module Base
 
 		attachment BackPack_BigHikingBag_Tier1Item_Wrench
 		{
-			offset = 0.0930 -0.0020 -0.1410,
+			offset = 0.0800 -0.0040 -0.1410,
 			rotate = 17.0000 -86.0000 -72.0000,
 			bone = Bip01_BackPack,
 		}

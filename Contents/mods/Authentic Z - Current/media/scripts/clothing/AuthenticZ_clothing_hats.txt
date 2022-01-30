@@ -9,7 +9,7 @@ module AuthenticZClothing {
 		DisplayName = Bunny Ears,
 		ClothingItem = BunnyEarsAZ,
 		BodyLocation = Hat,
-		Icon = AZBunnyEars,
+		IconsForTexture = AZBunnyEars;AZBunnyEarsWhite,
 		ChanceToFall = 80,
        	BloodLocation = Head,
         Insulation = 0.15,
