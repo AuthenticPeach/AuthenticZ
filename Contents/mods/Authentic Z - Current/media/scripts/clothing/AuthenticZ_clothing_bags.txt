@@ -362,8 +362,8 @@ module AuthenticZClothing {
         OpenSound   			=   OpenBag,
         CloseSound   			=   CloseBag,
         PutInSound   			=   PutItemInBag,
-        BodyLocation 			= 	TorsoRigPlus,
-        CanBeEquipped 			= 	TorsoRigPlus,
+        BodyLocation 			= 	TorsoRigPlus2,
+        CanBeEquipped 			= 	TorsoRigPlus2,
         RunSpeedModifier 		= 	0.98,
         WorldStaticModel 		= 	WorldItem_UtilityBelt,
     }
@@ -383,8 +383,8 @@ module AuthenticZClothing {
         OpenSound   			=   OpenBag,
         CloseSound   			=   CloseBag,
         PutInSound   			=   PutItemInBag,
-        BodyLocation 			= 	TorsoRigPlus,
-        CanBeEquipped 			= 	TorsoRigPlus,
+        BodyLocation 			= 	TorsoRigPlus2,
+        CanBeEquipped 			= 	TorsoRigPlus2,
         RunSpeedModifier 		= 	0.98,
         WorldStaticModel 		= 	WorldItem_UtilityBelt,
     }	
@@ -404,8 +404,8 @@ module AuthenticZClothing {
         OpenSound   			=   OpenBag,
         CloseSound   			=   CloseBag,
         PutInSound   			=   PutItemInBag,
-        BodyLocation 			= 	TorsoRigPlus,
-        CanBeEquipped 			= 	TorsoRigPlus,
+        BodyLocation 			= 	TorsoRigPlus2,
+        CanBeEquipped 			= 	TorsoRigPlus2,
         RunSpeedModifier 		= 	0.98,
         WorldStaticModel 		= 	WorldItem_UtilityBelt,
     }
@@ -425,8 +425,8 @@ module AuthenticZClothing {
         OpenSound   			=   OpenBag,
         CloseSound   			=   CloseBag,
         PutInSound   			=   PutItemInBag,
-        BodyLocation 			= 	TorsoRigPlus,
-        CanBeEquipped 			= 	TorsoRigPlus,
+        BodyLocation 			= 	TorsoRigPlus2,
+        CanBeEquipped 			= 	TorsoRigPlus2,
         RunSpeedModifier 		= 	0.98,
         WorldStaticModel 		= 	WorldItem_UtilityBelt,
     }
