@@ -100,30 +100,6 @@ recipe Convert into Wearable
 	   Time:30.0,
   	}
 
-recipe Convert into Item
-  	{
-   	   Postal_Petition,
-
-   	   Result:Newspaper,
-	   Time:30.0,
-  	}
-
-recipe Convert into Melee
-  	{
-   	   destroy HandTorch,
-
-   	   Result:TorchMelee,
-	   Time:30.0,
-  	}
-
-recipe Convert to Torch
-  	{
-   	   TorchMelee,
-
-   	   Result:HandTorch2,
-	   Time:30.0,
-  	}
-
     recipe Dismantle Headphones
     {
        Authentic_Headphones,
