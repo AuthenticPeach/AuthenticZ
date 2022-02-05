@@ -649,7 +649,37 @@ module Base
     {
 		mesh = WorldItems/WorldItem_BunnyEars,
 		texture = clothes\Hats\BunnyEarsBlack,
-    }		
+    }
+	model WorldItem_CanteenCadetBlue
+    {
+		mesh = WorldItems/WorldItem_Canteen,
+		texture = clothes\Items\CanteenCadetBlue,	
+    }
+	model WorldItem_CanteenDarkGreen
+    {
+		mesh = WorldItems/WorldItem_Canteen,
+		texture = clothes\Items\CanteenDarkGreen,	
+    }
+	model WorldItem_CanteenDarkGrey
+    {
+		mesh = WorldItems/WorldItem_Canteen,
+		texture = clothes\Items\CanteenDarkGrey,	
+    }
+	model WorldItem_CanteenForestGreen
+    {
+		mesh = WorldItems/WorldItem_Canteen,
+		texture = clothes\Items\CanteenForestGreen,	
+    }
+	model WorldItem_CanteenGrey
+    {
+		mesh = WorldItems/WorldItem_Canteen,
+		texture = clothes\Items\CanteenGrey,	
+    }
+	model WorldItem_CanteenSilver
+    {
+		mesh = WorldItems/WorldItem_Canteen,
+		texture = clothes\Items\CanteenSilver,	
+    }	
 	model WorldItem_Chainsaw
     {
 		mesh = WorldItems/WorldItem_Chainsaw,

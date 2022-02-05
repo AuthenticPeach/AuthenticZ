@@ -491,7 +491,7 @@ module AuthenticZClothing {
 		StaticModel 			= 	AuthenticCanteenCadetBlue,
 		primaryAnimMask 		= 	HoldingTorchRight,
         secondaryAnimMask 		= 	HoldingTorchLeft,
-		WorldStaticModel 		= 	AuthenticCanteenCadetBlue,
+		WorldStaticModel 		= 	WorldItem_CanteenCadetBlue,
 		AttachmentType  		= 	Canteen,		
 	}
 
@@ -514,7 +514,7 @@ module AuthenticZClothing {
 		StaticModel 			= 	AuthenticCanteenCadetBlue,
 		primaryAnimMask 		= 	HoldingTorchRight,
         secondaryAnimMask		= 	HoldingTorchLeft,
-		WorldStaticModel 		= 	AuthenticCanteenCadetBlue,
+		WorldStaticModel 		= 	WorldItem_CanteenCadetBlue,
 		AttachmentType  		= 	Canteen,			
 	}
 	item AuthenticCanteenDarkGreen
@@ -531,7 +531,7 @@ module AuthenticZClothing {
 		StaticModel 			= 	AuthenticCanteenDarkGreen,
 		primaryAnimMask 		= 	HoldingTorchRight,
         secondaryAnimMask 		= 	HoldingTorchLeft,
-		WorldStaticModel 		= 	AuthenticCanteenDarkGreen,	
+		WorldStaticModel 		= 	WorldItem_CanteenDarkGreen,	
 		AttachmentType 		 	= 	Canteen,			
 	}
 
@@ -554,7 +554,7 @@ module AuthenticZClothing {
 		StaticModel 			= 	AuthenticCanteenDarkGreen,
 		primaryAnimMask 		= 	HoldingTorchRight,
         secondaryAnimMask		= 	HoldingTorchLeft,
-		WorldStaticModel 		= 	AuthenticCanteenDarkGreen,	
+		WorldStaticModel 		= 	WorldItem_CanteenDarkGreen,	
 		AttachmentType  		= 	Canteen,			
 	}
 	item AuthenticCanteenDarkGrey
@@ -571,7 +571,7 @@ module AuthenticZClothing {
 		StaticModel 			= 	AuthenticCanteenDarkGrey,
 		primaryAnimMask 		= 	HoldingTorchRight,
         secondaryAnimMask 		= 	HoldingTorchLeft,
-		WorldStaticModel 		= 	AuthenticCanteenDarkGrey,	
+		WorldStaticModel 		= 	WorldItem_CanteenDarkGrey,	
 		AttachmentType  		= 	Canteen,			
 	}
 
@@ -594,7 +594,7 @@ module AuthenticZClothing {
 		StaticModel 			= 	AuthenticCanteenDarkGrey,
 		primaryAnimMask 		= 	HoldingTorchRight,
         secondaryAnimMask		= 	HoldingTorchLeft,
-		WorldStaticModel 		= 	AuthenticCanteenDarkGrey,	
+		WorldStaticModel 		= 	WorldItem_CanteenDarkGrey,	
 		AttachmentType  		= 	Canteen,			
 	}
 	item AuthenticCanteenForestGreen
@@ -611,7 +611,7 @@ module AuthenticZClothing {
 		StaticModel 			= 	AuthenticCanteenForestGreen,
 		primaryAnimMask 		= 	HoldingTorchRight,
         secondaryAnimMask 		= 	HoldingTorchLeft,
-		WorldStaticModel 		= 	AuthenticCanteenForestGreen,	
+		WorldStaticModel 		= 	WorldItem_CanteenForestGreen,	
 		AttachmentType  		= 	Canteen,			
 	}
 
@@ -635,7 +635,7 @@ module AuthenticZClothing {
 		StaticModel 			= 	AuthenticCanteenForestGreen,
 		primaryAnimMask 		= 	HoldingTorchRight,
         secondaryAnimMask		= 	HoldingTorchLeft,
-		WorldStaticModel 		= 	AuthenticCanteenForestGreen,
+		WorldStaticModel 		= 	WorldItem_CanteenForestGreen,
 		AttachmentType  		= 	Canteen,			
 	}
 	item AuthenticCanteenGrey
@@ -652,7 +652,7 @@ module AuthenticZClothing {
 		StaticModel 			= 	AuthenticCanteenGrey,
 		primaryAnimMask 		= 	HoldingTorchRight,
         secondaryAnimMask 		= 	HoldingTorchLeft,
-		WorldStaticModel 		= 	AuthenticCanteenGrey,	
+		WorldStaticModel 		= 	WorldItem_CanteenGrey,	
 		AttachmentType 			= 	Canteen,			
 	}
 
@@ -675,7 +675,7 @@ module AuthenticZClothing {
 		StaticModel 			= 	AuthenticCanteenGrey,
 		primaryAnimMask 		= 	HoldingTorchRight,
         secondaryAnimMask		= 	HoldingTorchLeft,
-		WorldStaticModel 		= 	AuthenticCanteenGrey,	
+		WorldStaticModel 		= 	WorldItem_CanteenGrey,	
 		AttachmentType  		= 	Canteen,			
 	}
 	item AuthenticCanteenSilver
@@ -692,7 +692,7 @@ module AuthenticZClothing {
 		StaticModel 			= 	AuthenticCanteenSilver,
 		primaryAnimMask 		= 	HoldingTorchRight,
         secondaryAnimMask 		= 	HoldingTorchLeft,
-		WorldStaticModel 		= 	AuthenticCanteenSilver,	
+		WorldStaticModel 		= 	WorldItem_CanteenSilver,	
 		AttachmentType  		= 	Canteen,			
 	}
 
@@ -715,7 +715,7 @@ module AuthenticZClothing {
 		StaticModel 			= 	AuthenticCanteenSilver,
 		primaryAnimMask 		= 	HoldingTorchRight,
         secondaryAnimMask		= 	HoldingTorchLeft,
-		WorldStaticModel 		= 	AuthenticCanteenSilver,	
+		WorldStaticModel 		= 	WorldItem_CanteenSilver,	
 		AttachmentType  		= 	Canteen,			
 	}
 	item CigarAZ2
