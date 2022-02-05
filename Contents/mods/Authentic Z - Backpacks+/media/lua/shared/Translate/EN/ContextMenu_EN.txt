@@ -11,5 +11,8 @@ ContextMenu_EN = {
 	ContextMenu_VestRadio = "Use as Radio",
 	
 	ContextMenu_WearHead = "Wear on Head",
-	ContextMenu_WearNeck = "Wear on Neck",	
+	ContextMenu_WearNeck = "Wear on Neck",
+	
+	ContextMenu_AfroPick = "Wear for Big Hair",	
+	ContextMenu_AfroPick2 = "Wear for Small Hair",	
 } 

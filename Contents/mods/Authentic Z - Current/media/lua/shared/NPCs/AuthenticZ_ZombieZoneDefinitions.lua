@@ -2325,6 +2325,7 @@ table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticTravelingBand", cha
 table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticMiner", chance=60, room="railroadrepair", gender="male"});
 table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticMiner", chance=10, room="railroad", gender="male"});
 table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticGMan", chance=3, room="newsroom", gender="male"});
+table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticFreeHugs", chance=0.0006, gender="female"});
 
 table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticBillOverbeck", chance=0.0009, gender="male"});
 table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticLouis", chance=0.0009, gender="male"});

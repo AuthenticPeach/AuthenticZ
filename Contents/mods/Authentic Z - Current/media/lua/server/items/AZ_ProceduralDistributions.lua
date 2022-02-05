@@ -410,7 +410,7 @@ local function preDistributionMerge()
             "Shirt_Jockey04", 5,
             "Shirt_Jockey05", 5,
             "Shirt_Jockey06", 5,
-            "AuthenticZClothing.Skirt_ShortRedPlaid", 5,			
+            "AuthenticZClothing.Skirt_ShortPlaid", 5,			
             "AuthenticZClothing.Sweater_Freddy", 5,
             "AuthenticZClothing.Tie_Full_BlueSpy", 3,
             "AuthenticZClothing.Tie_Full_Brad", 3,

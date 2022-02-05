@@ -1061,6 +1061,18 @@ module AuthenticZClothing {
         WindResistance = 0.40,
         WaterResistance = 0.25,
     	}
+	item AuthenticHairHeadband
+	{
+	    DisplayCategory = Accessory,	
+		Type = Clothing,
+		DisplayName = Sports Headband,
+		ClothingItem = Hat_Headband_AZ,
+		BodyLocation = Hat,
+		Icon = HatRick,
+		CanHaveHoles = false,
+		ChanceToFall = 30,
+       	BloodLocation = Head,
+    	}		
 	item Hat_HockeyMaskJason
 	{
 	    DisplayCategory 	= Accessory,	

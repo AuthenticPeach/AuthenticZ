@@ -735,12 +735,15 @@ ItemName_EN = {
 	ItemName_AuthenticZClothing.HoodieDOWN_Black = "Black Hoodie",
 	ItemName_AuthenticZClothing.HoodieTied_Black = "Black Hoodie (Tied)",
 	ItemName_AuthenticZClothing.Skirt_ShortRedPlaid = "Short Red Plaid Skirt",
+	ItemName_AuthenticZClothing.Skirt_ShortPlaid = "Short Red Plaid Skirt",
 	ItemName_AuthenticZClothing.Authentic_PomPomRed = "Cheerleading Pom Pom",
 	ItemName_AuthenticZClothing.Authentic_PomPomRed = "Cheerleading Pom Pom",
 	ItemName_AuthenticZClothing.AuthenticWalkingCaneMetal =  "Metal Walking Cane",		
 	ItemName_AuthenticZClothing.AuthenticBouquetFlowers =  "Bouquet of Flowers",		
 	ItemName_AuthenticZClothing.AuthenticFreeHugsSign =  "Free Hugs Sign",		
+	ItemName_AuthenticZClothing.AuthenticHairHeadband =  "Sports Headband",		
 	ItemName_AuthenticZClothing.Jacket_Reporter_LBMW =  "LBMW Media Jacket",		
 	
+	ItemName_AuthenticZClothing.Hairstyle_Afro_Pick =  "Afro Pick",		
 	
 }

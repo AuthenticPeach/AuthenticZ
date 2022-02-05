@@ -4088,6 +4088,10 @@
 		<guid>807e7c68-c717-4c46-a7e4-9ecc95b6d5ce</guid>
 	</files>
 	<files>
+		<path>media/clothing/clothingItems/Hairstyle_Afro_Pick2.xml</path>
+		<guid>1a3b787d-4341-426d-8162-7fe041b0a369</guid>
+	</files>	
+	<files>
 		<path>media/clothing/clothingItems/Hairstyle_Pennywise.xml</path>
 		<guid>2a55b646-dde9-4c2b-8a2a-16b09c74bfab</guid>
 	</files>
@@ -4362,6 +4366,10 @@
 	<files>
 		<path>media/clothing/clothingItems/Hat_HardHat_Miner2.xml</path>
 		<guid>d1991df9-3e9f-4ee3-b8ee-2a7daf5446e3</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Hat_Headband_AZ.xml</path>
+		<guid>d3464bb6-fa6c-4167-a4a4-eeca751b51ac</guid>
 	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Hat_JackoLantern.xml</path>
@@ -5114,6 +5122,10 @@
 	<files>
 		<path>media/clothing/clothingItems/Shirt_WhiteStriped.xml</path>
 		<guid>50f57bde-98da-41d7-b8d3-21718993621e</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Sign-FreeHugs.xml</path>
+		<guid>3df69b62-4c7b-4211-b386-f14a54268362</guid>
 	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Shoes_ArmyBootsOrange.xml</path>
@@ -5323,6 +5335,10 @@
 		<path>media/clothing/clothingItems/Skirt_ShortJessie.xml</path>
 		<guid>7ee5f7ae-6e8a-4445-b616-8d1224d80ac3</guid>
 	</files>
+	<files>
+		<path>media/clothing/clothingItems/Skirt_ShortPlaid.xml</path>
+		<guid>8e844add-8c10-4d8a-8f19-299258af8a01</guid>
+	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Skirt_ShortRedPlaid.xml</path>
 		<guid>734f109a-430a-466e-9444-e60d5421c331</guid>

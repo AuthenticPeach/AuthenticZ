@@ -501,13 +501,27 @@ module AuthenticZClothing {
 	}	
 	item Hairstyle_Afro_Pick
 	{
-       DisplayCategory = Accessory,		
-		Type = Clothing,
-		DisplayName = Afro Pick,
-		ClothingItem = Hairstyle_Afro_Pick,
-		BodyLocation = Hat,
+       DisplayCategory    = Accessory,		
+		Type 			  = Clothing,
+		DisplayName 	  = Afro Pick,
+		ClothingItem 	  = Hairstyle_Afro_Pick,
+        ClothingItemExtra = Hairstyle_Afro_Pick2,
+        ClothingItemExtraOption = AfroPick2,				
+		BodyLocation 	  = Hat,
+		IconsForTexture   = HairpickBlack;HairpickBlue;HairpickBlueDiamonds;HairpickSeaGreen;HairpickNeon;HairpickPink;HairpickPinkHearts;HairpickRed;HairpickWhite,
+		Weight 			  = 0.1,
+	}
+	item Hairstyle_Afro_Pick2
+	{
+       DisplayCategory  = Accessory,		
+		Type 			= Clothing,
+		DisplayName 	= Afro Pick,
+		ClothingItem 	= Hairstyle_Afro_Pick2,
+        ClothingItemExtra = Hairstyle_Afro_Pick,
+        ClothingItemExtraOption = AfroPick,				
+		BodyLocation 	= Hat,
 		IconsForTexture = HairpickBlack;HairpickBlue;HairpickBlueDiamonds;HairpickSeaGreen;HairpickNeon;HairpickPink;HairpickPinkHearts;HairpickRed;HairpickWhite,
-		Weight = 0.1,
+		Weight 			= 0.1,
 	}		
     item Hairstyle_Pennywise
     {

@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <clothingItem>
-	<m_MaleModel>skinned\Clothes\Bob_AfroPick</m_MaleModel>
-	<m_FemaleModel>skinned\Clothes\Bob_AfroPick</m_FemaleModel>
-	<m_GUID>807e7c68-c717-4c46-a7e4-9ecc95b6d5ce</m_GUID>
+	<m_MaleModel>skinned\Clothes\AfroPick_M</m_MaleModel>
+	<m_FemaleModel>skinned\Clothes\AfroPick_F</m_FemaleModel>
+	<m_GUID>1a3b787d-4341-426d-8162-7fe041b0a369</m_GUID>
 	<m_Static>true</m_Static>
 	<m_AllowRandomHue>false</m_AllowRandomHue>
 	<m_AllowRandomTint>false</m_AllowRandomTint>
