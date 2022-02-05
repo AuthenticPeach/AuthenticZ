@@ -2,6 +2,19 @@ module AuthenticZClothing {
   imports {
       Base
   }
+	item AuthenticHairHeadband
+	{
+	    DisplayCategory = Accessory,	
+		Type = Clothing,
+		DisplayName = Sports Headband,
+		ClothingItem = Hat_Headband_AZ,
+		BodyLocation = Hat,
+		IconsForTexture = Headband_Yellow;Headband_Pink,
+		CanHaveHoles = false,
+		ChanceToFall = 30,
+       	BloodLocation = Head,
+		WorldStaticModel = WorldItem_Headband,			
+    	}  
  	item BunnyEars
 	{
 	    DisplayCategory = Accessory,
@@ -1060,18 +1073,6 @@ module AuthenticZClothing {
         Insulation = 0.45,
         WindResistance = 0.40,
         WaterResistance = 0.25,
-    	}
-	item AuthenticHairHeadband
-	{
-	    DisplayCategory = Accessory,	
-		Type = Clothing,
-		DisplayName = Sports Headband,
-		ClothingItem = Hat_Headband_AZ,
-		BodyLocation = Hat,
-		Icon = HatRick,
-		CanHaveHoles = false,
-		ChanceToFall = 30,
-       	BloodLocation = Head,
     	}		
 	item Hat_HockeyMaskJason
 	{

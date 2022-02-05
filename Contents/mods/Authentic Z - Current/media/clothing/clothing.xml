@@ -3164,8 +3164,7 @@
 		</m_items>			
 </m_MaleOutfits>
 	
-<m_MaleOutfits>
-		<m_Name>AuthenticDukeNukem</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticDukeNukem</m_Name>
 		<m_Guid>f075dd9e-556c-4450-850b-30ab73be00e4</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -3209,15 +3208,30 @@
 		<m_AllowTopTint>false</m_AllowTopTint>
 		<m_items> <!-- Suit Pants -->
 			<itemGUID>52acd769-424a-4cbb-b02a-441cb723b747</itemGUID>
+			<subItems>  <!-- Khaki Pants -->
+				<itemGUID>d6ea6cbe-bbba-480e-9f02-271faf87a803</itemGUID>
+			</subItems>
+			<subItems> <!-- Coach Khaki Pants -->
+				<itemGUID>7c70bb66-1658-4308-b84d-b2ea126d7a79</itemGUID>
+			</subItems>			
 		</m_items>
 		<m_items> <!-- Suit Jacket -->
 			<itemGUID>eecd5923-4944-4b33-9c4c-66045ea6984e</itemGUID>
 		</m_items>	
-		<m_items> <!-- Black Short Formal Shirt -->
-			<itemGUID>7434ff13-3982-485f-8f6d-6d0b238aefd8</itemGUID>
+		<m_items> <!-- Formal Shirt TINT-->
+			<itemGUID>d556b848-5a37-400c-9322-2504bff33433</itemGUID>
+			<subItems> <!-- Shirt_FormalWhite -->
+				<itemGUID>ac7976de-2c73-44ea-9392-5d24ac1fb649</itemGUID>
+			</subItems>	
+			<subItems> <!-- Shirt_FormalWhite_ShortSleeve -->
+				<itemGUID>00d77803-6b57-453b-89b6-135d2d642719</itemGUID>
+			</subItems>	
+			<subItems> <!-- Shirt_FormalWhite_ShortSleeveTINT -->
+				<itemGUID>fa506bb5-26e7-4754-a08f-32a601019677</itemGUID>
+			</subItems>				
 		</m_items> 	
 		<m_items> <!-- Ties -->
-			<probability>0.8</probability>
+			<probability>0.3</probability>
 			<itemGUID>1be7cae9-82bd-473f-8de9-23a8d9ca3117</itemGUID>
 			<subItems>
 				<itemGUID>1fe17091-4008-4017-8631-6cee29928550</itemGUID>
@@ -3229,11 +3243,11 @@
 		<m_items> <!-- Shoes -->
 			<itemGUID>593bea3d-c127-4574-ac1e-2197dc56e486</itemGUID>
 		</m_items>
-		<m_items> <!-- Shades -->
-			<probability>0.3</probability>		
-			<itemGUID>6b01e5b3-860d-4361-b43f-7b8ea152f1bf</itemGUID>
-			<subItems>
-				<itemGUID>3d6530fd-b3c1-4ae3-ad23-657ed73c51fe</itemGUID>
+		<m_items> <!-- Glasss -->
+			<probability>0.5</probability>		
+			<itemGUID>825f5380-d6ef-4cf8-8d77-d3a115724f4a</itemGUID>
+			<subItems> <!-- Glasses_Reading -->
+				<itemGUID>9df22d1f-96cd-4d2c-88f2-4e7423d93649</itemGUID>
 			</subItems>
 			<subItems> <!-- Glasses -->
 				<itemGUID>6d702d88-4ca0-4bcb-9aee-d88f2be29e69</itemGUID>
@@ -3284,18 +3298,26 @@
 		<m_items> <!-- Pearl Earrings-->
 			<itemGUID>5d9eec3d-7119-480e-8f8a-b7118463e482</itemGUID>
 		</m_items>
-		<m_items> <!-- Shades -->
-			<probability>0.3</probability>		
-			<itemGUID>6b01e5b3-860d-4361-b43f-7b8ea152f1bf</itemGUID>
-			<subItems>
-				<itemGUID>3d6530fd-b3c1-4ae3-ad23-657ed73c51fe</itemGUID>
+		<m_items> <!-- Glasss -->
+			<probability>0.5</probability>		
+			<itemGUID>825f5380-d6ef-4cf8-8d77-d3a115724f4a</itemGUID>
+			<subItems> <!-- Glasses_Reading -->
+				<itemGUID>9df22d1f-96cd-4d2c-88f2-4e7423d93649</itemGUID>
 			</subItems>
 			<subItems> <!-- Glasses -->
 				<itemGUID>6d702d88-4ca0-4bcb-9aee-d88f2be29e69</itemGUID>
 			</subItems>			
 		</m_items>
-		<m_items> <!-- Black Lipstick-->
-			<itemGUID>93dae095-1c92-4068-8f81-f75f62e153d9</itemGUID>
+		<m_items>  <!-- Rings  -->
+			<probability>0.3</probability>
+			<itemGUID>4cbb081e-0e9a-4248-bec1-0aa226e082e1</itemGUID>
+			<subItems>
+				<itemGUID>e4b3135f-a541-4870-a7b9-2ba6f730bc5c</itemGUID>
+			</subItems>
+		</m_items>		
+		<m_items> <!-- Pink Lipstick-->
+			<probability>0.2</probability>		
+			<itemGUID>a5ebb962-e521-473a-840e-505667781742</itemGUID>
 		</m_items>				
 </m_FemaleOutfits>
 	
@@ -7126,6 +7148,52 @@
 			</subItems>
 		</m_items>	
 	</m_MaleOutfits>
+	
+	<m_FemaleOutfits>
+		<m_Name>AuthenticSchoolGirl</m_Name>
+		<m_Guid>69ccda73-be88-49e0-944e-18e27ee4969b</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowTopTint>false</m_AllowTopTint>	
+		<m_items> <!-- Headband -->
+			<probability>0.05</probability>				
+			<itemGUID>d3464bb6-fa6c-4167-a4a4-eeca751b51ac</itemGUID>
+		</m_items>		
+		<m_items> <!-- Skirt_Short -->
+			<itemGUID>bc9773d7-e020-4051-848e-aefd88d11d1d</itemGUID>
+			<subItems> <!-- Skirt_ShortPlaid -->
+				<itemGUID>8e844add-8c10-4d8a-8f19-299258af8a01</itemGUID>
+			</subItems>
+			<subItems> <!-- Skirt_ShortBlack -->
+				<itemGUID>8e844add-8c10-4d8a-8f19-299258af8a01</itemGUID>
+			</subItems>		
+		</m_items>
+		<m_items> <!-- Formal Shirt -->
+			<itemGUID>ac7976de-2c73-44ea-9392-5d24ac1fb649</itemGUID>
+		</m_items>			
+		<m_items> <!-- Tie -->
+			<probability>0.2</probability>		
+			<itemGUID>d53c3cb1-4c67-4627-b9d9-0da2cc024980</itemGUID>
+			<subItems> <!-- Tie_Worn-->
+				<itemGUID>1be7cae9-82bd-473f-8de9-23a8d9ca3117</itemGUID>
+			</subItems>			
+		</m_items>		
+		<m_items>  <!-- Sneakers-->
+			<itemGUID>6fed6e2b-3a72-4bac-aac5-09585984493d</itemGUID>
+			<subItems> <!-- Sneakers-->
+				<itemGUID>6fed6e2b-3a72-4bac-aac5-09585984493d</itemGUID>
+			</subItems>				
+			<subItems> <!-- Pink and White Sneakers -->
+				<itemGUID>fa11d705-bfd5-4f5c-a54d-32643315d2d8</itemGUID>
+			</subItems>
+			<subItems>  <!-- Black and Pink Sneakers -->
+				<itemGUID>87f87760-f0fb-4dae-bc54-190a11cfd708</itemGUID>
+			</subItems>			
+			<subItems> <!-- High Top Sneakers-->
+				<itemGUID>9150e7da-a78d-4988-a799-e06bff2dae4a</itemGUID>
+			</subItems>					
+		</m_items>			
+</m_FemaleOutfits>	
 
 	<m_MaleOutfits>
 		<m_Name>AuthenticShotgunFace</m_Name>
@@ -9080,7 +9148,7 @@
 		<m_items> <!-- Glasses-->
 			<probability>0.2</probability>
 			<itemGUID>6d702d88-4ca0-4bcb-9aee-d88f2be29e69</itemGUID>
-			<subItems>
+			<subItems> <!-- Glasses Reading-->
 				<itemGUID>9df22d1f-96cd-4d2c-88f2-4e7423d93649</itemGUID>
 			</subItems>
 		</m_items>
@@ -9173,7 +9241,7 @@
 			</subItems>
 			<subItems>
 				<itemGUID>dbb37ca8-c745-4457-a50e-1645b0e7942e</itemGUID>
-			</subItems>
+			</subItems>		
 		</m_items>
 		<m_items>
 			<itemGUID>19af00e4-ed4d-49bc-a893-a4a3376fe6da</itemGUID>

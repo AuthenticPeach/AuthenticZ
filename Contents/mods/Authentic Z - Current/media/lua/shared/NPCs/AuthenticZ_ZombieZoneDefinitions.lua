@@ -1769,6 +1769,31 @@ local AuthenticSexyNurse = {
 	};	
 ZombiesZoneDefinition.Doctor[AuthenticSexyNurse] = AuthenticSexyNurse;
 
+local AuthenticSexyNurse2 = {
+		name="AuthenticSexyNurse",
+		chance=3,
+		gender="female",
+	};	
+ZombiesZoneDefinition.NursingHome[AuthenticSexyNurse2] = AuthenticSexyNurse2;
+
+local AuthenticElderly = {
+		name="AuthenticElderly",
+		chance=70,
+	};	
+ZombiesZoneDefinition.NursingHome[AuthenticElderly] = AuthenticElderly;
+
+local Doctor5 = {
+		name="Doctor",
+		chance=4,
+	};	
+ZombiesZoneDefinition.NursingHome[Doctor5] = Doctor5;
+
+local Nurse5 = {
+		name="Nurse",
+		chance=10,
+	};	
+ZombiesZoneDefinition.NursingHome[Nurse5] = Nurse5;
+
 local AuthenticBiker2 = {
 		name="AuthenticBiker",
 		chance=3,
@@ -2244,6 +2269,13 @@ local Cheerleader = {
 	};
 ZombiesZoneDefinition.School[Cheerleader] = Cheerleader;
 
+local AuthenticSchoolGirl = {
+		name="AuthenticSchoolGirl",
+		chance=5,
+		gender="female",
+	};
+ZombiesZoneDefinition.School[AuthenticSchoolGirl] = AuthenticSchoolGirl;
+
 local Janitor = {
 		name="AuthenticJanitor",
 		chance=3,
@@ -2305,7 +2337,8 @@ table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticCEDAHazmatBlue", ch
 table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticCEDAHazmatRed", chance=0.001});
 table.insert(ZombiesZoneDefinition.Default,{name = "StudentMale", chance=0.5, gender="male"});
 table.insert(ZombiesZoneDefinition.Default,{name = "StudentFemale", chance=0.5, gender="female"});
-table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticCheerleader", chance=2, room="classroom", gender="female"});
+table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticCheerleader", chance=3, room="classroom", gender="female"});
+table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticSchoolGirl", chance=5, room="classroom", gender="female"});
 table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticCFTDJim", chance=.05, room="classroom", gender="male"});
 table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticSexyNurse", chance=1, room="medical", gender="female"});
 table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticSexyNurse", chance=10, room="medclinic", gender="female"});

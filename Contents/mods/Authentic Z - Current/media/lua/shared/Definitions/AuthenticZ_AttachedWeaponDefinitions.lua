@@ -60,9 +60,10 @@ AttachedWeaponDefinitions.Balloon= {
 		"AuthenticZClothing.AuthenticBalloon_White",
 		"AuthenticZClothing.AuthenticBalloon_Blue",
 		"AuthenticZClothing.AuthenticBalloon_Purple",
+		"AuthenticZClothing.AuthenticBalloon_Pink",
 		"AuthenticZClothing.AuthenticBalloon_Red",
 		"AuthenticZClothing.AuthenticBalloon_Green",
-		"AuthenticZClothing.AuthenticBalloon_Yellow",
+		"AuthenticZClothing.AuthenticBalloon_Yellow",		
 	},
 }
 AttachedWeaponDefinitions.BalloonP1= {
@@ -77,6 +78,7 @@ AttachedWeaponDefinitions.BalloonP1= {
 		"AuthenticZClothing.AuthenticBalloon_White",
 		"AuthenticZClothing.AuthenticBalloon_Blue",
 		"AuthenticZClothing.AuthenticBalloon_Purple",
+		"AuthenticZClothing.AuthenticBalloon_Pink",
 		"AuthenticZClothing.AuthenticBalloon_Red",
 		"AuthenticZClothing.AuthenticBalloon_Green",
 		"AuthenticZClothing.AuthenticBalloon_Yellow",		
@@ -94,6 +96,7 @@ AttachedWeaponDefinitions.BalloonP2= {
 		"AuthenticZClothing.AuthenticBalloon_White",
 		"AuthenticZClothing.AuthenticBalloon_Blue",
 		"AuthenticZClothing.AuthenticBalloon_Purple",
+		"AuthenticZClothing.AuthenticBalloon_Pink",
 		"AuthenticZClothing.AuthenticBalloon_Red",
 		"AuthenticZClothing.AuthenticBalloon_Green",
 		"AuthenticZClothing.AuthenticBalloon_Yellow",		
@@ -111,6 +114,7 @@ AttachedWeaponDefinitions.BalloonP3= {
 		"AuthenticZClothing.AuthenticBalloon_White",
 		"AuthenticZClothing.AuthenticBalloon_Blue",
 		"AuthenticZClothing.AuthenticBalloon_Purple",
+		"AuthenticZClothing.AuthenticBalloon_Pink",
 		"AuthenticZClothing.AuthenticBalloon_Red",
 		"AuthenticZClothing.AuthenticBalloon_Green",
 		"AuthenticZClothing.AuthenticBalloon_Yellow",		
@@ -179,6 +183,19 @@ AttachedWeaponDefinitions.constructionWorkerScrewdriver2 = {
 	daySurvived = 0,
 	weapons = {
 		"Base.Screwdriver",
+	},
+}
+
+AttachedWeaponDefinitions.ElderlyCane = {
+	chance = 100,
+	outfit = {"AuthenticElderly"},
+	weaponLocation = {"Left Hand", "Right Hand"},
+	bloodLocations = nil,
+	addHoles = false,
+	daySurvived = 0,
+	weapons = {
+    "AuthenticZClothing.AuthenticWalkingCane",
+    "AuthenticZClothing.AuthenticWalkingCaneMetal",
 	},
 }
 
@@ -1353,6 +1370,12 @@ AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticDRBradGarrison = {
 	maxitem = 2;
 	weapons = {
 		AttachedWeaponDefinitions.AuthenticDianneCaldwell,
+	},
+}
+AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticElderly = {
+	chance = 30;
+	weapons = {
+		AttachedWeaponDefinitions.ElderlyCane, 
 	},
 }
 AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticSnowGhillie = {

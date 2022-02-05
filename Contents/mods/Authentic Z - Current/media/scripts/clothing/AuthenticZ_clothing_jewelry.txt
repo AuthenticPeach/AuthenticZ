@@ -33,9 +33,9 @@ module AuthenticZClothing {
 		DisplayName = Free Hugs Sign,
 		ClothingItem = Sign-FreeHugs,
 		BodyLocation = Necklace_Long,
-		Icon = Necklace_Crucifix_Gold,
+		Icon = Sign_FreeHugs,
 		Weight = 0.2,
 		Cosmetic = TRUE,
-		WorldStaticModel = Necklace_SilverCrucifix_Ground,			
+		WorldStaticModel = WorldItem_FreeHugsSign,			
 	}		
 }

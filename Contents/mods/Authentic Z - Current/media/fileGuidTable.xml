@@ -4658,6 +4658,10 @@
 	<files>
 		<path>media/clothing/clothingItems/Jacket_Bateman.xml</path>
 		<guid>6062cc0d-2459-4035-a814-13cbcf9bc493</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Jacket_Black_Long.xml</path>
+		<guid>f2b7d9bf-8b29-4fd7-ba7b-7739c810daa7</guid>
 	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Jacket_Bill.xml</path>

@@ -673,7 +673,16 @@ module Base
 	model WorldItem-DuelCap
     {
 		mesh = WorldItems/WorldItem_DuelCap,	
-    }	
+    }
+	model WorldItem_FreeHugsSign
+	{
+		mesh = WorldItems/WorldItem_FreeHugsSign,
+		texture = clothes\Items\FreeHugsSign,		
+	}	
+	model WorldItem_Headband
+	{
+		mesh = WorldItems/WorldItem_AuthenticHeadband,
+	}	
 	model WorldItem_UtilityBelt
     {
 		mesh = Skinned/Backpacks/WorldItem-UtilityBeltTactical,
