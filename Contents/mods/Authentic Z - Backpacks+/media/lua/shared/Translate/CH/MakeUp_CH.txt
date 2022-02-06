@@ -1,13 +1,13 @@
 MakeUp_CH = {
-    MakeUpType_FullFaceClownFace1Color = "Â∞è‰?Â¶?1",
-    MakeUpType_FullFaceClownFace2Color= "Â∞è‰?Â¶?2",
-	MakeUpType_FullFaceFreddy = "ÂºóÈõ∑Ëø?,
-    MakeUpType_FullFaceInsane = "?ãÁ???,
-    MakeUpType_FullFaceJoker = "Â∞è‰?",
-    MakeUpType_FullFaceJokerColor = "Â∞è‰??±Ë?",
-    MakeUpType_FullFaceMimeBlack = "?ûÂ???Èª?",
-    MakeUpType_FullFaceMimeRed = "?ûÂ???Á¥?",
-    MakeUpType_FullFacePennywise = "Â∞è‰??ûÈ???,
-    MakeUpType_FullFaceShotgunFace = "ÊßçÁñ§??,	
-} 
+    MakeUpType_FullFaceClownFace1Color = "§p§°ß© 1",
+    MakeUpType_FullFaceClownFace2Color= "§p§°ß© 2",
+	MakeUpType_FullFaceFreddy = "•±πp≠}",
+    MakeUpType_FullFaceInsane = "∫∆®g™∫",
+    MakeUpType_FullFaceJoker = "§p§°",
+    MakeUpType_FullFaceJokerColor = "§p§°™·¡y",
+    MakeUpType_FullFaceMimeBlack = "∞◊º@¡y(∂¬)",
+    MakeUpType_FullFaceMimeRed = "∞◊º@¡y(¨ı)",
+    MakeUpType_FullFacePennywise = "§p§°¶^ªÓ¡y",
+    MakeUpType_FullFaceShotgunFace = "∫j¨Õ¡y",	
+}
 
