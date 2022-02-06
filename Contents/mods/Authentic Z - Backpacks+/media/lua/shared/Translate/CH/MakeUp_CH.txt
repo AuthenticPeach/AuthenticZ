@@ -1,13 +1,13 @@
 MakeUp_CH = {
-    MakeUpType_FullFaceClownFace1Color = "小丑妝 1",
-    MakeUpType_FullFaceClownFace2Color= "小丑妝 2",
-	MakeUpType_FullFaceFreddy = "弗雷迪",
-    MakeUpType_FullFaceInsane = "瘋狂的",
-    MakeUpType_FullFaceJoker = "小丑",
-    MakeUpType_FullFaceJokerColor = "小丑花臉",
-    MakeUpType_FullFaceMimeBlack = "啞劇臉(黑)",
-    MakeUpType_FullFaceMimeRed = "啞劇臉(紅)",
-    MakeUpType_FullFacePennywise = "小丑回魂臉",
-    MakeUpType_FullFaceShotgunFace = "槍疤臉",	
-}
+    MakeUpType_FullFaceClownFace1Color = "小�?�?1",
+    MakeUpType_FullFaceClownFace2Color= "小�?�?2",
+	MakeUpType_FullFaceFreddy = "弗雷�?,
+    MakeUpType_FullFaceInsane = "?��???,
+    MakeUpType_FullFaceJoker = "小�?",
+    MakeUpType_FullFaceJokerColor = "小�??��?",
+    MakeUpType_FullFaceMimeBlack = "?��???�?",
+    MakeUpType_FullFaceMimeRed = "?��???�?",
+    MakeUpType_FullFacePennywise = "小�??��???,
+    MakeUpType_FullFaceShotgunFace = "槍疤??,	
+} 
 

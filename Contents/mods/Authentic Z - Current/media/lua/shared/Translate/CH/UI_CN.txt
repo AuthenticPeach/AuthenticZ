@@ -1,23 +1,23 @@
 -- Encode this file as UTF-8
-UI_CH = {
+UI_CH = { 
 
-UI_ClothingType_AmmoStrap2 = "彈藥帶",
+UI_ClothingType_AmmoStrap2 = "彈藥�?,
 
-UI_optionscreen_binding_Hotbar 6 = "快捷鍵6",
-UI_optionscreen_binding_Hotbar 7 = "快捷鍵7",
-UI_optionscreen_binding_Hotbar 8 = "快捷鍵8",
-UI_optionscreen_binding_Hotbar 9 = "快捷鍵9",
-UI_optionscreen_binding_Hotbar 10 = "快捷鍵10",
-UI_optionscreen_binding_Hotbar 11 = "快捷鍵11",
-UI_optionscreen_binding_Hotbar 12 = "快捷鍵12",
-UI_optionscreen_binding_Hotbar 13 = "快捷鍵13",
-UI_optionscreen_binding_Hotbar 14 = "快捷鍵14",
-UI_optionscreen_binding_Hotbar 15 = "快捷鍵15",
-UI_optionscreen_binding_Hotbar 16 = "快捷鍵16",
-UI_optionscreen_binding_Hotbar 17 = "快捷鍵17",
-UI_optionscreen_binding_Hotbar 18 = "快捷鍵18",
-UI_optionscreen_binding_Hotbar 19 = "快捷鍵19",
-UI_optionscreen_binding_Hotbar 20 = "快捷鍵20",
-UI_optionscreen_binding_SlingBindings = "Authentic Z 快捷鍵設置",
+UI_optionscreen_binding_Hotbar 6 = "快捷??",
+UI_optionscreen_binding_Hotbar 7 = "快捷??",
+UI_optionscreen_binding_Hotbar 8 = "快捷??",
+UI_optionscreen_binding_Hotbar 9 = "快捷??",
+UI_optionscreen_binding_Hotbar 10 = "快捷??0",
+UI_optionscreen_binding_Hotbar 11 = "快捷??1",
+UI_optionscreen_binding_Hotbar 12 = "快捷??2",
+UI_optionscreen_binding_Hotbar 13 = "快捷??3",
+UI_optionscreen_binding_Hotbar 14 = "快捷??4",
+UI_optionscreen_binding_Hotbar 15 = "快捷??5",
+UI_optionscreen_binding_Hotbar 16 = "快捷??6",
+UI_optionscreen_binding_Hotbar 17 = "快捷??7",
+UI_optionscreen_binding_Hotbar 18 = "快捷??8",
+UI_optionscreen_binding_Hotbar 19 = "快捷??9",
+UI_optionscreen_binding_Hotbar 20 = "快捷??0",
+UI_optionscreen_binding_SlingBindings = "Authentic Z 快捷?�設�?,
 
 }
