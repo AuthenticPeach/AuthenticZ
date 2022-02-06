@@ -135,7 +135,7 @@ function PleaseKeepColor(item, resultItem, player)
 	local player_Inventory = player:getInventory();
 	local transferred_Items = {}; 
 	local dItem;
-	local texture
+	local texture;
 	
 	for i = 0, (item:size()-1) do 
 		dItem = item:get(i); 
@@ -166,7 +166,7 @@ function PleaseKeepColor(item, resultItem, player)
 		dInv:Remove(k3); 
 		newInv:AddItem(k3); 
 	end
-	resultItem:setTexture(texture)
+	resultItem:setTexture(texture);
 end
 
 

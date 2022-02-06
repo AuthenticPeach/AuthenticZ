@@ -69,6 +69,80 @@ function Recipe.OnGiveXP.Tailoring20(recipe, ingredients, result, player)
     player:getXp():AddXP(Perks.Tailoring, 15);
 end
 
+function KoniTestAZ_OnTest_ConvertClothing(item)
+    if instanceof(item, "Clothing") then
+        item:getModData().onTestDataIsEquipped = item:isEquipped();
+    end
+    return true;
+end
+
+function KoniTestAZ_OnCreate_ConvertClothing(items, result, character)
+    for i = 0, items:size() - 1 do
+        local item = items:get(i);
+        if instanceof(item, "Clothing") then
+            local baseVisual = item:getVisual();
+
+            if instanceof(result, "Clothing") then
+                print("Converting Clothing Item from " .. item:getFullType() .. " to " .. result:getFullType());
+                
+                local resultVisual = result:getVisual();
+
+                resultVisual:setTint(baseVisual:getTint(item:getClothingItem()));
+                resultVisual:setBaseTexture(baseVisual:getBaseTexture());
+                resultVisual:setTextureChoice(baseVisual:getTextureChoice());
+                resultVisual:setDecal(baseVisual:getDecal(item:getClothingItem()));
+                if result:IsInventoryContainer() and item:IsInventoryContainer() then
+                    result:getItemContainer():setItems(item:getItemContainer():getItems());
+                    -- Handle renamed bag
+                    if item:getName() ~= item:getScriptItem():getDisplayName() then
+                        result:setName(item:getName());
+                    end
+                end
+                result:setColor(item:getColor());
+                resultVisual:copyDirt(baseVisual);
+                resultVisual:copyBlood(baseVisual);
+                resultVisual:copyHoles(baseVisual);
+                resultVisual:copyPatches(baseVisual);
+                if result:IsClothing() then
+                    item:copyPatchesTo(result);
+                    result:setWetness(item:getWetness());
+                end
+
+                result:setCondition(item:getCondition());
+                result:setFavorite(item:isFavorite());
+                if item:hasModData() then
+                    result:copyModData(item:getModData());
+                end
+                result:synchWithVisual();
+
+                if result:getModData().onTestDataIsEquipped then
+                    result:getModData().onTestDataIsEquipped = nil;
+
+                    if instanceof(result, "InventoryContainer") and result:canBeEquipped() ~= "" then
+                        character:removeFromHands(result);
+                        character:setWornItem(result:canBeEquipped(), result);
+                        getPlayerInventory(character:getPlayerNum()):refreshBackpacks();
+                    elseif result:getCategory() == "Clothing" then
+                        if result:getBodyLocation() ~= "" then
+                            character:setWornItem(result:getBodyLocation(), result);
+                
+                            -- here we handle flating the mohawk!
+                            if character:getHumanVisual():getHairModel():contains("Mohawk") and (result:getBodyLocation() == "Hat" or result:getBodyLocation() == "FullHat") then
+                                character:getHumanVisual():setHairModel("MohawkFlat");
+                                character:resetModel();
+                                character:resetHairGrowingTime();
+                            end
+                        end
+                    end
+                    triggerEvent("OnClothingUpdated", character);
+                end
+
+                break;
+            end
+        end
+    end
+end
+
 Give20TailoringXP = Recipe.OnGiveXP.Tailoring20
 GiveMeRadio = Recipe.OnCreate.GiveMeRadio
 

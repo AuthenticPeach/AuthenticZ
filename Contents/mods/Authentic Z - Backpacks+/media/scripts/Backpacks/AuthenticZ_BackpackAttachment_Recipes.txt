@@ -19,14 +19,6 @@ recipe Make Backpack Attachable
 	   Time:30.0,
 	   Tooltip:Tooltip_AttachBackpack,
   	}	
-recipe Make Backpack Attachable
-  	{
-   	   SheetRope,
-
-   	   Result:AuthenticZClothing.SheetRope,
-	   Time:30.0,
-	   Tooltip:Tooltip_AttachBackpack,
-  	}
 recipe Revert Attachable
   	{
    	   AuthenticZClothing.Rope,
@@ -34,15 +26,7 @@ recipe Revert Attachable
    	   Result:Rope,
 	   Time:30.0,
 	   Tooltip:Tooltip_AttachBackpackRevert,
-  	}	
-recipe Revert Attachable
-  	{
-   	   AuthenticZClothing.SheetRope,
-
-   	   Result:SheetRope,
-	   Time:30.0,
-	   Tooltip:Tooltip_AttachBackpackRevert,
-  	}	
+  	}		
 recipe Make Backpack Attachable
   	{
    	   AerosolbombTriggered,

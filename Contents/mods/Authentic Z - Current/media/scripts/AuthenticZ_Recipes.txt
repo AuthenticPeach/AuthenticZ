@@ -452,18 +452,18 @@ recipe Open Medical Coat
 recipe Tie Hoodie Around Waist
   	{
    	   HoodieUP_WhiteTINT,
-
+	   OnTest:KoniTestAZ_OnTest_ConvertClothing,
+	   OnCreate:KoniTestAZ_OnCreate_ConvertClothing,
    	   Result:HoodieTied_WhiteTINT,
-	   Time:30.0,
-	   Tooltip:Tooltip_HoodieCraft,	   
+	   Time:30.0,	   
   	}	
 recipe Tie Hoodie Around Waist
   	{
    	   HoodieDOWN_WhiteTINT,
-
+	   OnTest:KoniTestAZ_OnTest_ConvertClothing,
+	   OnCreate:KoniTestAZ_OnCreate_ConvertClothing,
    	   Result:HoodieTied_WhiteTINT,
 	   Time:30.0,
-	   Tooltip:Tooltip_HoodieCraft,
   	}
 	
 	/* Modded - recipe */

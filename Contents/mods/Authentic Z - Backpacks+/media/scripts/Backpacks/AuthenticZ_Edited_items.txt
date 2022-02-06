@@ -20,18 +20,6 @@ module AuthenticZBackpacks+ {
         WorldStaticModel 	= 	BlowtorchGround,
     }
  
-	item SheetRope
-	{
-        DisplayCategory = Tool,	
-		Weight					=	0.8,
-		Type					=	Normal,
-		DisplayName				=	Sheet Rope,
-		Icon					=	SheetRope,
-		Tooltip 				= 	Tooltip_SheetRope,
-		WorldStaticModel 		= 	SheetRope,
-		AttachmentType  		= 	SheetRope,
-		StaticModel 			= 	SheetRopeAZ,
-	}
     item Rope
     {
         DisplayCategory = Tool,	
