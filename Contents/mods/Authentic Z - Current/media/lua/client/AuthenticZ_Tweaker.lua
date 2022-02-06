@@ -25,3 +25,6 @@ TweakItem("Base.SheetRope", "AttachmentType", "SheetRope");
 TweakItem("Base.SheetRope", "StaticModel", "SheetRopeAZ");
 TweakItem("Base.Rope", "AttachmentType", "Rope");
 TweakItem("Base.Rope", "StaticModel", "NewRope");
+TweakItem("Base.Saw", "AttachmentType", "Saw");
+TweakItem("Base.GardenSaw", "AttachmentType", "Saw");
+
