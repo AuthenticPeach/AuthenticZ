@@ -3215,9 +3215,18 @@
 				<itemGUID>7c70bb66-1658-4308-b84d-b2ea126d7a79</itemGUID>
 			</subItems>			
 		</m_items>
-		<m_items> <!-- Suit Jacket -->
-			<itemGUID>eecd5923-4944-4b33-9c4c-66045ea6984e</itemGUID>
-		</m_items>	
+		<m_items> <!-- Jumper_DiamondPatternTINT-->
+			<itemGUID>cc28eec7-cdb8-4f78-b919-926a0b140e4c</itemGUID>
+			<subItems> <!-- Jumper_PoloNeck -->
+				<itemGUID>5574c07e-1381-49d8-a0ba-40e5b2cf55cd</itemGUID>
+			</subItems>	
+			<subItems> <!-- Jumper_RoundNeck -->
+				<itemGUID>7a5f7b89-9de9-4c05-afb6-e62dca97b8a2</itemGUID>
+			</subItems>	
+			<subItems> <!-- Jumper_TankTopDiamondTINT -->
+				<itemGUID>4b278ded-d489-4b64-b457-e059a9963beb</itemGUID>
+			</subItems>				
+		</m_items> 		
 		<m_items> <!-- Formal Shirt TINT-->
 			<itemGUID>d556b848-5a37-400c-9322-2504bff33433</itemGUID>
 			<subItems> <!-- Shirt_FormalWhite -->
@@ -7192,7 +7201,14 @@
 			<subItems> <!-- High Top Sneakers-->
 				<itemGUID>9150e7da-a78d-4988-a799-e06bff2dae4a</itemGUID>
 			</subItems>					
-		</m_items>			
+		</m_items>	
+		<m_items> <!-- Schoolbag -->
+			<probability>0.25</probability>
+			<itemGUID>1bba5b1a-c6c6-4af7-ab69-43f583007159</itemGUID>
+			<subItems>
+				<itemGUID>f8988b1c-04bb-4b9a-8656-851d324d2fd0</itemGUID>
+			</subItems>
+		</m_items>		
 </m_FemaleOutfits>	
 
 	<m_MaleOutfits>
