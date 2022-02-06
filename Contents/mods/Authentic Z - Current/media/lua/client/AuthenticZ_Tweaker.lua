@@ -23,3 +23,5 @@ Events.OnGameBoot.Add(doTweaks);
 
 TweakItem("Base.SheetRope", "AttachmentType", "SheetRope");
 TweakItem("Base.SheetRope", "StaticModel", "SheetRopeAZ");
+TweakItem("Base.Rope", "AttachmentType", "Rope");
+TweakItem("Base.Rope", "StaticModel", "NewRope");

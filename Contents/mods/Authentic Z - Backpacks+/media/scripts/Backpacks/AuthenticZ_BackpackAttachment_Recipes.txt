@@ -10,23 +10,7 @@ recipe Make Backpack Attachable
    	   Result:AuthenticZClothing.Hat_GasMask,
 	   Time:30.0,
 	   Tooltip:Tooltip_AttachBackpack,
-  	}	
-recipe Make Backpack Attachable
-  	{
-   	   Rope,
-
-   	   Result:AuthenticZClothing.Rope,
-	   Time:30.0,
-	   Tooltip:Tooltip_AttachBackpack,
-  	}	
-recipe Revert Attachable
-  	{
-   	   AuthenticZClothing.Rope,
-
-   	   Result:Rope,
-	   Time:30.0,
-	   Tooltip:Tooltip_AttachBackpackRevert,
-  	}		
+  	}			
 recipe Make Backpack Attachable
   	{
    	   AerosolbombTriggered,

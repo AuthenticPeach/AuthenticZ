@@ -139,6 +139,7 @@ function PleaseKeepColor(item, resultItem, player)
 	
 	for i = 0, (item:size()-1) do 
 		dItem = item:get(i); 
+		
 		if dItem:getCategory() == "Container" then 
 		texture = dItem:getTexture()
 			if player:getClothingItem_Back() == dItem then 
