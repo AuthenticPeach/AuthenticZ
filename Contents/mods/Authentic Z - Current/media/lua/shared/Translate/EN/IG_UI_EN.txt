@@ -39,11 +39,11 @@ IGUI_EN = {
 	IGUI_HotbarAttachment_BigHikingbagFlashlight = "BigHikingbag Flashlight Slot",	
 	IGUI_HotbarAttachment_AlicepackFlashlight = "Alicepack Flashlight Slot",
 
-	IGUI_HotbarAttachment_SchoolbagUmbrellaLeft = "Schoolbag Umbrella Slot",
-	IGUI_HotbarAttachment_DufflebagUmbrellaRight = "Dufflebag Umbrella Slot",
-	IGUI_HotbarAttachment_HikingbagUmbrellaLeft = "Hikingbag Umbrella Slot",
-	IGUI_HotbarAttachment_BigHikingbagUmbrellaLeft = "BigHikingbag Umbrella Slot",	
-	IGUI_HotbarAttachment_AlicepackUmbrellaRight = "Alicepack Umbrella Slot",
+	IGUI_HotbarAttachment_SchoolbagUmbrellaLeft = "Schoolbag Utility Slot",
+	IGUI_HotbarAttachment_DufflebagUmbrellaRight = "Dufflebag Utility Slot",
+	IGUI_HotbarAttachment_HikingbagUmbrellaLeft = "Hikingbag Utility Slot",
+	IGUI_HotbarAttachment_BigHikingbagUmbrellaLeft = "BigHikingbag Utility Slot",	
+	IGUI_HotbarAttachment_AlicepackUmbrellaRight = "Alicepack Utility Slot",
 
 	IGUI_HotbarAttachment_SchoolbagBalloonLeft = "Balloon Slot",
 	IGUI_HotbarAttachment_SchoolbagBalloonRight = "Balloon Slot",	
@@ -67,7 +67,7 @@ IGUI_EN = {
 	IGUI_HotbarAttachment_ARVNBottleRight = "Rucksack Bottle Slot",
 	IGUI_HotbarAttachment_ARVNBottleLeft = "Rucksack Bottle Slot",	
 	IGUI_HotbarAttachment_ARVNPlushie = "Rucksack Plushie Slot",
-	IGUI_HotbarAttachment_ARVNUmbrellaRight = "Rucksack Umbrella Slot",
+	IGUI_HotbarAttachment_ARVNUmbrellaRight = "Rucksack Utility Slot",
 	IGUI_HotbarAttachment_ARVNItemSlot1 = "Rucksack Item Slot 1",	
 	IGUI_HotbarAttachment_ARVNItemSlot2 = "Rucksack Item Slot 2",
 	IGUI_HotbarAttachment_ARVNItemSlot3 = "Rucksack Item Slot 3",	
@@ -79,8 +79,10 @@ IGUI_EN = {
 	IGUI_HotbarAttachment_AZWebbingLeft = "Webbing Left Slot",
 	IGUI_HotbarAttachment_AZWebbingRight = "Webbing Right Slot",
 	
-/* New*/
+
 	IGUI_HotbarAttachment_DufflebagBalloonLeft = "Balloon Slot",
 	IGUI_CraftCategory_Tailoring = "Tailoring",
 	
+/* New*/	
+
 }
