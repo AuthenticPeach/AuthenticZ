@@ -242,6 +242,11 @@ module Base
 	{
 		mesh = AuthenticSmokeGrenade,
 		texture = clothes\Items\AuthenticSmokeGrenade,
+	}
+	model AuthenticTagillaSledgehammer
+	{
+		mesh = Weapons/2Handed/AuthenticTagillaSledgehammer,
+		texture = clothes\Items\TagillaSledgehammer,
 	}	
 	model AuthenticWalkingCane
 	{
