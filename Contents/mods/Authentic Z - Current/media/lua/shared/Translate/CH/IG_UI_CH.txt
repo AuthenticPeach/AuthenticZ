@@ -39,11 +39,11 @@ IGUI_CH = {
 	IGUI_HotbarAttachment_BigHikingbagFlashlight = "¤â¹qµ©±¾¼Ñ",	
 	IGUI_HotbarAttachment_AlicepackFlashlight = "¤â¹qµ©±¾¼Ñ",
 
-	IGUI_HotbarAttachment_SchoolbagUmbrellaLeft = "«B³Ê±¾¼Ñ",
-	IGUI_HotbarAttachment_DufflebagUmbrellaRight = "«B³Ê±¾¼Ñ",
-	IGUI_HotbarAttachment_HikingbagUmbrellaLeft = "«B³Ê±¾¼Ñ",
-	IGUI_HotbarAttachment_BigHikingbagUmbrellaLeft = "«B³Ê±¾¼Ñ",	
-	IGUI_HotbarAttachment_AlicepackUmbrellaRight = "«B³Ê±¾¼Ñ",
+	IGUI_HotbarAttachment_SchoolbagUmbrellaLeft = "¤u¨ã±¾¼Ñ",
+	IGUI_HotbarAttachment_DufflebagUmbrellaRight = "¤u¨ã±¾¼Ñ",
+	IGUI_HotbarAttachment_HikingbagUmbrellaLeft = "¤u¨ã±¾¼Ñ",
+	IGUI_HotbarAttachment_BigHikingbagUmbrellaLeft = "¤u¨ã±¾¼Ñ",	
+	IGUI_HotbarAttachment_AlicepackUmbrellaRight = "¤u¨ã±¾¼Ñ",
 
 	IGUI_HotbarAttachment_SchoolbagBalloonLeft = "®ð²y±¾¼Ñ",
 	IGUI_HotbarAttachment_SchoolbagBalloonRight = "®ð²y±¾¼Ñ",	
@@ -67,7 +67,7 @@ IGUI_CH = {
 	IGUI_HotbarAttachment_ARVNBottleRight = "¤ô²~±¾¼Ñ",
 	IGUI_HotbarAttachment_ARVNBottleLeft = "¤ô²~±¾¼Ñ",	
 	IGUI_HotbarAttachment_ARVNPlushie = "¤½¥J±¾¼Ñ",
-	IGUI_HotbarAttachment_ARVNUmbrellaRight = "«B³Ê±¾¼Ñ",
+	IGUI_HotbarAttachment_ARVNUmbrellaRight = "¤u¨ã±¾¼Ñ",
 	IGUI_HotbarAttachment_ARVNItemSlot1 = "¹D¨ã´¡¼Ñ1",	
 	IGUI_HotbarAttachment_ARVNItemSlot2 = "¹D¨ã´¡¼Ñ2",
 	IGUI_HotbarAttachment_ARVNItemSlot3 = "¹D¨ã´¡¼Ñ3",	
@@ -76,7 +76,12 @@ IGUI_CH = {
 	IGUI_HotbarAttachment_ARVNFlashlight = "¤â¹qµ©±¾¼Ñ",
 	IGUI_HotbarAttachment_ARVNSecondary = "ARVN­I¥]ÂX®e¥]",
 
-/* New*/
 	IGUI_HotbarAttachment_AZWebbingLeft = "Â´±a±¾¼Ñ(¥ª)",
-	IGUI_HotbarAttachment_AZWebbingRight = "Â´±a±¾¼Ñ(¥k)",
+	IGUI_HotbarAttachment_AZWebbingRight = "Â´±a±¾¼Ñ(¥k)",	
+
+	IGUI_HotbarAttachment_DufflebagBalloonLeft = "¨T²y±¾¼Ñ",
+	IGUI_CraftCategory_Tailoring = "µôÁ_",
+	
+/* New*/	
+
 }

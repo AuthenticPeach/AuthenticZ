@@ -160,6 +160,19 @@ AttachedWeaponDefinitions.chainsawAsh= {
 	},
 }
 
+AttachedWeaponDefinitions.CigaretteHolder= {
+	id = "AuthenticCigaretteHolder",
+	chance = 100,
+	outfit = {"AuthenticLadyD"},
+	weaponLocation =  {"Left Hand Item"},
+	bloodLocations = nil,
+	addHoles = false,
+	daySurvived = 0,
+	weapons = {
+		"AuthenticZClothing.AuthenticCigaretteHolder",
+	},
+}
+
 AttachedWeaponDefinitions.CoffeeCup= {
 	id = "CoffeeCup",
 	chance = 100,
@@ -317,16 +330,15 @@ AttachedWeaponDefinitions.StopSign= {
 	},
 }
 
-AttachedWeaponDefinitions.CigaretteHolder= {
-	id = "AuthenticCigaretteHolder",
+AttachedWeaponDefinitions.TagillaSledgehammer = {
 	chance = 100,
-	outfit = {"AuthenticLadyD"},
-	weaponLocation =  {"Left Hand Item"},
+	outfit = {"AuthenticTagilla"},
+	weaponLocation = {"Left Hand", "Right Hand"},
 	bloodLocations = nil,
 	addHoles = false,
 	daySurvived = 0,
 	weapons = {
-		"AuthenticZClothing.AuthenticCigaretteHolder",
+    "AuthenticZClothing.AuthenticTagillaSledgehammer",
 	},
 }
 
@@ -1792,6 +1804,13 @@ AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticSecretService = {
 	maxitem = 2;
 	weapons = {
 		AttachedWeaponDefinitions.handgunHolsterAZ,
+	},
+}
+AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticTagilla = {
+	chance = 100;
+	maxitem = 1;
+	weapons = {
+		AttachedWeaponDefinitions.TagillaSledgehammer,
 	},
 }
 AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticBillyChumpez = {

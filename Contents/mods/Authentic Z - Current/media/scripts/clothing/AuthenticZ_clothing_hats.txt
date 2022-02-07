@@ -290,6 +290,36 @@ module AuthenticZClothing {
 		WindResistance = 0.8,
         WorldStaticModel = BalaclavaFull_Ground,		
 	}
+    item Hat_BaseballCapBossTagilla
+    {
+	    DisplayCategory = Accessory,	
+        Type = Clothing,
+        DisplayName = Tagilla's Baseball Cap,
+        ClothingItem = Hat_BaseballCapBossTagilla,
+        ClothingItemExtra = Hat_BaseballCapBossTagilla_Reverse,	
+        ClothingItemExtraOption = ReverseCap,		
+        BodyLocation = Hat,
+        Icon = BaseballCapClementine,
+        CanHaveHoles = false,
+        ChanceToFall = 80,
+        Insulation = 0.10,
+        Weight = 0.5,
+    }
+    item Hat_BaseballCapBossTagilla_Reverse
+    {
+	    DisplayCategory = Accessory,	
+        Type = Clothing,
+        DisplayName = Tagilla's Baseball Cap,
+        ClothingItem = Hat_BaseballCapBossTagilla_Reverse,
+        ClothingItemExtra = Hat_BaseballCapBossTagilla,
+        ClothingItemExtraOption = ForwardCap,
+        BodyLocation = Hat,
+        Icon = BaseballCapClementine,
+        CanHaveHoles = false,
+        ChanceToFall = 80,
+        Insulation = 0.10,
+        Weight = 0.5,
+    }	
     item Hat_BaseballCapClementine
     {
 	    DisplayCategory = Accessory,	
@@ -1341,7 +1371,41 @@ module AuthenticZClothing {
         ColorRed = 93,
         ColorGreen = 63,
         ColorBlue = 211,			
-	}		
+	}
+	item Hat_TagillaMask
+	{
+	    DisplayCategory = Accessory,	
+		Type = Clothing,
+		DisplayName = Tagilla's Welding Mask,
+		ClothingItem = Hat_TagillaMask,
+		BodyLocation = Mask,
+		Icon = KillaHelmet,
+		BloodLocation = Head,
+		CanHaveHoles = false,
+		CombatSpeedModifier = 0.95,
+		BiteDefense = 100,
+        ScratchDefense = 100,
+        Insulation = 0.45,
+        WindResistance = 0.65,
+        WaterResistance = 1.0,
+	}
+	item Hat_TagillaMask2
+	{
+	    DisplayCategory = Accessory,	
+		Type = Clothing,
+		DisplayName = Gorilla Welding Mask,
+		ClothingItem = Hat_TagillaMask2,
+		BodyLocation = Mask,
+		Icon = KillaHelmet,
+		BloodLocation = Head,
+		CanHaveHoles = false,
+		CombatSpeedModifier = 0.95,
+		BiteDefense = 100,
+        ScratchDefense = 100,
+        Insulation = 0.45,
+        WindResistance = 0.65,
+        WaterResistance = 1.0,
+	}	
 	item Hat_TrueEyeCult
 	{
 	    DisplayCategory = Accessory,	

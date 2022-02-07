@@ -4180,6 +4180,14 @@
 		<guid>29217be2-42aa-44b7-9582-73dbf88b3bf8</guid>
 	</files>
 	<files>
+		<path>media/clothing/clothingItems/Hat_BaseballCapBossTagilla.xml</path>
+		<guid>347b2655-1d95-4039-a883-ea14d0f43519</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Hat_BaseballCapBossTagilla_Reverse.xml</path>
+		<guid>dfac4749-ec69-40d0-a2cd-f2151f50644e</guid>
+	</files>	
+	<files>
 		<path>media/clothing/clothingItems/Hat_BaseballCapClementine.xml</path>
 		<guid>9ee675a8-37f7-45df-b4df-91d0a8138338</guid>
 	</files>
@@ -4442,6 +4450,14 @@
 	<files>
 		<path>media/clothing/clothingItems/Hat_RuneDuel.xml</path>
 		<guid>75a3d8e2-60e2-480a-909e-fdcbc872f317</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Hat_TagillaMask.xml</path>
+		<guid>97a3fa4b-d725-4f28-9ed1-65705a5a6864</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Hat_TagillaMask2.xml</path>
+		<guid>f6259adc-0532-4cd8-a97c-17e4003acaaf</guid>
 	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Hat_TrueEyeCult.xml</path>
