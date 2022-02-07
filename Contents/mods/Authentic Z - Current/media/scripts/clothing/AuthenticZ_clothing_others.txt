@@ -536,9 +536,9 @@ module AuthenticZClothing {
 		Type = Clothing,
 		DisplayName = Inflatable Tube,
 		ClothingItem = InflatableTube,
-		BodyLocation = TorsoExtra,
+		BodyLocation = TorsoExtraPlus3,
 		BloodLocation = Apron,
-		IconsForTexture = InflatableTubeBlue;InflatableTubeDuck;InflatableTubePink;InflatableTubeYellow,
+		IconsForTexture = InflatableTubeBlue;InflatableTubeDuck;InflatableTubePink;InflatableTubeYellow;InflatableTubeGreen,
 		WorldStaticModel = WorldItem-InflatableTube,		
 	}	
     item Leg_Cherry
