@@ -271,7 +271,7 @@ module AuthenticZClothing {
 		DoorHitSound	=	SledgehammerHit,
 		KnockdownMod	=	3,
 		SplatBloodOnNoDeath	=	FALSE,
-		Icon	=	Sledgehamer,
+		Icon	=	TagillaSledgehammer,
 		RunAnim	=	Run_Weapon2,
         TwoHandWeapon = TRUE,
         BreakSound  =   SledgehammerBreak,
@@ -285,6 +285,7 @@ module AuthenticZClothing {
       	WeaponLength = 0.65,
       	RequiresEquippedBothHands = TRUE,
       	AttachmentType = BigBlade,
+		WorldStaticModel = WorldItem-TagillaSledgehammer,		
 	}
 	
     item AuthenticWalkingCane
