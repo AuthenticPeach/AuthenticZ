@@ -744,6 +744,8 @@ ItemName_EN = {
 	ItemName_AuthenticZClothing.AuthenticHairHeadband =  "Sports Headband",		
 	ItemName_AuthenticZClothing.Jacket_Reporter_LBMW =  "LBMW Media Jacket",		
 	
-	ItemName_AuthenticZClothing.Hairstyle_Afro_Pick =  "Afro Pick",		
+	ItemName_AuthenticZClothing.Hairstyle_Afro_Pick =  "Afro Pick",
 	
+	/* New */		
+	ItemName_AuthenticZClothing.AuthenticTagillaSledgehammer =  "Tagilla's Sledgehammer",
 }
