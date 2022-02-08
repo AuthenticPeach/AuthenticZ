@@ -301,7 +301,7 @@ ZombiesZoneDefinition.Cementery= {
 	},
 	AuthenticFuneralFormal = {
 		name="AuthenticFuneralFormal",
-		chance=30,	
+		chance=33,	
 	},
 	AuthenticFuneralCoat = {
 		name="AuthenticFuneralCoat",
@@ -921,6 +921,14 @@ ZombiesZoneDefinition.Left4Dead = {
 		mandatory="true",
 		gender="male",
 	},
+	AuthenticFuneralFormal = {
+		name="AuthenticFuneralFormal",
+		chance=20,	
+	},
+	AuthenticFuneralCoat = {
+		name="AuthenticFuneralCoat",
+		chance=20,	
+	},		
 }
 
 ZombiesZoneDefinition.LVCityHall = {

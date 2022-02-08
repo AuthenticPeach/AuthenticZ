@@ -173,8 +173,6 @@ recipe Make Backpack Attachable
 	   Tooltip:Tooltip_AttachBackpack,
   	}
 
-
-	
 recipe Make Backpack Attachable
   	{
    	   ToyBear,

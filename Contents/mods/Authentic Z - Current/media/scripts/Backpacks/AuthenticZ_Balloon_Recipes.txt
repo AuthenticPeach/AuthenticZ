@@ -7,9 +7,7 @@ module AuthenticZRecipes {
 	
 recipe Tie Balloons Together
   	{
-   	   AuthenticBalloon_Blue,
-	   AuthenticBalloon_Blue,
-	   AuthenticBalloon_Blue,
+   	   AuthenticBalloon_Blue=3,
 	   Thread/Twine,
 
    	   Result:AuthenticBalloonGroup_Blue,
@@ -17,9 +15,7 @@ recipe Tie Balloons Together
   	}
 recipe Tie Balloons Together
   	{
-   	   AuthenticBalloon_Green,
-	   AuthenticBalloon_Green,
-	   AuthenticBalloon_Green,
+   	   AuthenticBalloon_Green=3,
 	   Thread/Twine,
 
    	   Result:AuthenticBalloonGroup_Green,
@@ -27,9 +23,7 @@ recipe Tie Balloons Together
   	}
 recipe Tie Balloons Together
   	{
-   	   AuthenticBalloon_Pink,
-	   AuthenticBalloon_Pink,
-	   AuthenticBalloon_Pink,
+   	   AuthenticBalloon_Pink=3,
 	   Thread/Twine,
 
    	   Result:AuthenticBalloonGroup_Pink,
@@ -37,9 +31,7 @@ recipe Tie Balloons Together
   	}	
 recipe Tie Balloons Together
   	{
-   	   AuthenticBalloon_Purple,
-	   AuthenticBalloon_Purple,
-	   AuthenticBalloon_Purple,
+   	   AuthenticBalloon_Purple=3,
 	   Thread/Twine,
 
    	   Result:AuthenticBalloonGroup_Purple,
@@ -48,9 +40,7 @@ recipe Tie Balloons Together
 
 recipe Tie Balloons Together
   	{
-   	   AuthenticBalloon_White,
-	   AuthenticBalloon_White,
-	   AuthenticBalloon_White,
+   	   AuthenticBalloon_White=3,
 	   Thread/Twine,
 
    	   Result:AuthenticBalloonGroup_White,
@@ -59,9 +49,7 @@ recipe Tie Balloons Together
 
 recipe Tie Balloons Together
   	{
-   	   AuthenticBalloon_Red,
-	   AuthenticBalloon_Red,
-	   AuthenticBalloon_Red,
+   	   AuthenticBalloon_Red=3,
 	   Thread/Twine,
 
    	   Result:AuthenticBalloonGroup_Red,
@@ -70,12 +58,10 @@ recipe Tie Balloons Together
 
 recipe Tie Balloons Together
   	{
-   	   AuthenticBalloon_Yellow,
-	   AuthenticBalloon_Yellow,
-	   AuthenticBalloon_Yellow,
+   	   AuthenticBalloon_Yellow=3,
 	   Thread/Twine,
 
-   	   Result:AuthenticBalloonGroup_Yellow,
+   	   Result:AuthenticBalloon_Group_Yellow,
 	   Time:30.0,
   	}
 	
@@ -123,7 +109,7 @@ recipe Untie Balloons
   	}
 recipe Untie Balloons
   	{
-   	   AuthenticBalloonGroup_Yellow,
+   	   AuthenticBalloon_Group_Yellow,
 
    	   Result:AuthenticBalloon_Yellow=3,
 	   Time:50.0,

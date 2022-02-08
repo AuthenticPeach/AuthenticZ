@@ -5,6 +5,8 @@ objects = {
 --  { name = "BacktotheFutureIII", type = "ZombiesType", x = 11670, y = 9880, z = 0, width = 70, height = 100 },
   { name = "CampBlood2", type = "ZombiesType", x = 4625, y = 7800, z = 0, width = 105, height = 296 },
   { name = "CampBlood2", type = "ZombiesType", x = 4880, y = 7910, z = 0, width = 143, height = 97 },
+  { name = "Cementery", type = "ZombiesType", x = 11055, y = 6700, z = 0, width = 45, height = 31},--Westpoint
+  { name = "Cementery", type = "ZombiesType", x = 14546, y = 4957, z = 0, width = 40, height = 42},--Valley Station
   { name = "CultistGrounds", type = "ZombiesType", x = 4603, y = 8550, z = 0, width = 91, height = 112 },     
   { name = "CultistGrounds", type = "ZombiesType", x = 13705, y = 6550, z = 0, width = 225, height = 100},   
   { name = "CrossroadsMall", type = "ZombiesType", x = 13872, y = 5788, z = 0, width = 111, height = 153},   
