@@ -199,6 +199,23 @@ AttachedWeaponDefinitions.constructionWorkerScrewdriver2 = {
 	},
 }
 
+AttachedWeaponDefinitions.ElderlyBingo = {
+	chance = 100,
+	outfit = {"AuthenticElderly"},
+	weaponLocation = {"Left Hand", "Right Hand"},
+	bloodLocations = nil,
+	addHoles = false,
+	daySurvived = 0,
+	weapons = {
+    "AuthenticZClothing.AuthenticBingoDotter",
+    "AuthenticZClothing.AuthenticBingoDotterOrange",
+    "AuthenticZClothing.AuthenticBingoDotterRed",
+    "AuthenticZClothing.AuthenticBingoDotterTeal",
+    "AuthenticZClothing.AuthenticBingoDotterYellow",
+	},
+}
+
+
 AttachedWeaponDefinitions.ElderlyCane = {
 	chance = 100,
 	outfit = {"AuthenticElderly"},
@@ -1387,7 +1404,8 @@ AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticDRBradGarrison = {
 AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticElderly = {
 	chance = 30;
 	weapons = {
-		AttachedWeaponDefinitions.ElderlyCane, 
+		AttachedWeaponDefinitions.ElderlyCane,
+		AttachedWeaponDefinitions.ElderlyBingo,
 	},
 }
 AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticSnowGhillie = {

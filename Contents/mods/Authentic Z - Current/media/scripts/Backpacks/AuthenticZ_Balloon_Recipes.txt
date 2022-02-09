@@ -2,9 +2,7 @@ module AuthenticZRecipes {
   imports {
       Base
   }
-	/* List of Gear left to attach*/
-	/*Saws, Propane Torch*/	
-	
+
 recipe Tie Balloons Together
   	{
    	   AuthenticBalloon_Blue=3,

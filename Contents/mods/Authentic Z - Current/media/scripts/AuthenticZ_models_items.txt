@@ -100,7 +100,7 @@ module Base
 		mesh = Weapons/1Handed/BingoDabber,
 		texture = clothes\Items\BingoMarkerTeal,
 	}	
-	model AuthenticBingodotterRed
+	model AuthenticBingodotterYellow
 	{
 		mesh = Weapons/1Handed/BingoDabber,
 		texture = clothes\Items\BingoMarkerYellow,
@@ -603,6 +603,11 @@ module Base
 		mesh = BalloonGroup3_Ground,
 		texture = clothes\Items\BalloonRed,		
 	}
+	model WorldItem-BalloonGroupPink
+	{
+		mesh = BalloonGroup3_Ground,
+		texture = clothes\Items\BalloonPink,		
+	}		
 	model WorldItem-BalloonPink
 	{
 		mesh = WorldItems/WorldItem_Balloon,

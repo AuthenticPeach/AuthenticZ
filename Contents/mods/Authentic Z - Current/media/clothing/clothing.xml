@@ -5873,6 +5873,104 @@
 			</subItems>
 		</m_items>
 	</m_MaleOutfits>
+	
+<m_FemaleOutfits>
+		<m_Name>AuthenticNewsAnchor</m_Name>
+		<m_Guid>f73f006d-42bc-4d57-9314-fb987bdd1b64</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowTopTint>false</m_AllowTopTint>		
+		<m_items>   <!-- Dress Knees  -->
+			<itemGUID>8fe81905-2dcc-4c6b-95ce-286c2270d73d</itemGUID>
+			<subItems>  <!-- Dress Long  -->
+				<itemGUID>9b14424a-3800-428f-bd51-528ea74ef93c</itemGUID>
+			</subItems>
+			<subItems>  <!-- Dress Knees  -->
+				<itemGUID>8fe81905-2dcc-4c6b-95ce-286c2270d73d</itemGUID>
+			</subItems>	
+			<subItems>  <!-- Dress Normal  -->
+				<itemGUID>c3cab19e-c9b3-42a2-91e3-52937394d8d2</itemGUID>
+			</subItems>				
+		</m_items>	
+		<m_items> <!-- Black Stockings -->
+			<probability>0.2</probability>		
+			<itemGUID>1c08ec23-70aa-4e3d-8848-138af25542c6</itemGUID>
+		</m_items>			
+		<m_items> <!-- Shoes -->
+			<itemGUID>7741404b-9689-4608-a0f5-4e06597776f9</itemGUID>
+		</m_items>		
+		<m_items> <!-- Earrings -->
+			<itemGUID>7c3a8a34-9ffa-42e0-83f4-55088f99d8a4</itemGUID>
+			<subItems>
+				<itemGUID>497a8849-6914-40fb-b3a6-9e01629e3e8b</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>62486601-5800-4eba-b317-fbcd9a0e2892</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>09537be2-eebc-4f58-a76d-ac46ea5b3654</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>fc9184ea-72cd-4079-8457-5b9f7b5dab75</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>59341911-c4b8-4c30-a712-69df35ba228f</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>033be814-b060-457c-8ed6-43f7358606c3</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>b1c312bf-bc3b-4a52-a15d-fe5564399388</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>ee687253-26b0-4796-82ca-4f4a4976cf81</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>9221f803-d4ec-4947-b380-9c8b1fddebf0</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>877f93aa-33c7-4453-9c47-5097038f580c</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>404627a1-0fbe-4c95-921d-80eee1bac7f4</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items> <!-- Necklace -->
+			<probability>0.6</probability>
+			<itemGUID>b53aaf11-929c-4506-8310-e9b26d5f20eb</itemGUID>
+			<subItems>
+				<itemGUID>3cac5469-f9d2-4462-8fb2-063be1b63450</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>3ae13d94-8df6-45c7-9e99-ad03c7d411ce</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>00b778ca-59bd-45a4-9a72-a74e5a541469</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>354db6a5-970b-477b-a119-f4a65eaa776f</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items> <!-- Rings -->
+			<probability>0.5</probability>
+			<itemGUID>4cbb081e-0e9a-4248-bec1-0aa226e082e1</itemGUID>
+			<subItems>
+				<itemGUID>c6dd113b-3d04-4833-9f38-8e9840741c0c</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>fedba460-2edc-439d-89b6-f9607ddbf246</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>e4b3135f-a541-4870-a7b9-2ba6f730bc5c</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>5b484f12-b43c-4a83-9009-af05a59ec267</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items> <!-- Red Lipstick-->
+			<itemGUID>2c04ac25-bbc6-4e9b-8c58-78a46aafda7f</itemGUID>
+		</m_items>				
+</m_FemaleOutfits>	
 
 	<m_MaleOutfits>
 		<m_Name>AuthenticNBHHazmat</m_Name>

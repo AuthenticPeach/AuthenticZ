@@ -966,6 +966,22 @@ ZombiesZoneDefinition.LVCityHall = {
 }
 
 ZombiesZoneDefinition.LBMWStationHQ = { --
+	AuthenticNewsAnchor = {
+		name="AuthenticNewsAnchor",
+		chance=20,
+		room="studio",
+	},
+	AuthenticNewsAnchor = {
+		name="AuthenticNewsAnchor",
+		chance=20,
+		room="breakroom",
+	},	
+	OfficeWorkerSkirt = {
+		name="OfficeWorkerSkirt",
+		gender="female",
+		chance=30,
+		room="hall",
+	},	
 	OfficeWorkerSkirt = {
 		name="OfficeWorkerSkirt",
 		gender="female",
@@ -982,6 +998,33 @@ ZombiesZoneDefinition.LBMWStationHQ = { --
 }
 
 ZombiesZoneDefinition.LBMWRadioHQ = { --
+	OfficeWorkerSkirt = {
+		name="OfficeWorkerSkirt",
+		gender="female",
+		chance=30,
+		room="office",
+	},
+	OfficeWorker = {
+		name="OfficeWorker",
+		gender="male",
+		chance=30,
+		room="office",
+		beardStyles="null:80",
+	},
+}
+
+ZombiesZoneDefinition.NewNowNetwork = { --3NewNowNetwork
+	AuthenticNewsAnchor = {
+		name="AuthenticNewsAnchor",
+		chance=20,
+		room="studio",
+	},
+	OfficeWorkerSkirt = {
+		name="OfficeWorkerSkirt",
+		gender="female",
+		chance=30,
+		room="hall",
+	},	
 	OfficeWorkerSkirt = {
 		name="OfficeWorkerSkirt",
 		gender="female",

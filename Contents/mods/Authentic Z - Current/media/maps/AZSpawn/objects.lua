@@ -79,8 +79,10 @@ objects = {
   { name = "LVCityHall", type = "ZombiesType", x = 12549, y = 1510, z = 0, width = 32, height = 48},
   { name = "Spa", type = "ZombiesType", x = 12746, y = 1246, z = 0, width = 38, height = 35}, 
   { name = "LBMWStationHQ", type = "ZombiesType", x = 12309, y = 2038, z = 0, width = 63, height = 45}, 
+  { name = "LBMWStationHQ", type = "ZombiesType", x = 12309, y = 2038, z = 1, width = 63, height = 45}, 
   { name = "LBMWRadioHQ", type = "ZombiesType", x = 12462, y = 1754, z = 0, width = 31, height = 33}, 
-  { name = "3NewNowNetwork", type = "ZombiesType", x = 12630, y = 1883, z = 0, width = 29, height = 60}, 
+  { name = "NewNowNetwork", type = "ZombiesType", x = 12630, y = 1883, z = 1, width = 29, height = 60}, 
+  { name = "NewNowNetwork", type = "ZombiesType", x = 12630, y = 1883, z = 0, width = 29, height = 60}, 
   { name = "RomeroTheater", type = "ZombiesType", x = 12515, y = 1726, z = 0, width = 31, height = 59}, 
   
   { name = "ParkPlaza", type = "ZombiesType", x = 12543, y = 1094, z = 0, width = 13, height = 54},
