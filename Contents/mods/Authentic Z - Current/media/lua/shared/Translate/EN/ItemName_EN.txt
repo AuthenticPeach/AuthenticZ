@@ -748,4 +748,6 @@ ItemName_EN = {
 	
 	/* New */		
 	ItemName_AuthenticZClothing.AuthenticTagillaSledgehammer =  "Tagilla's Sledgehammer",
+	ItemName_AuthenticZClothing.Hat_BaseballCapBossTagilla =  "Boss Baseball Cap",
+	ItemName_AuthenticZClothing.Hat_BaseballCapBossTagilla_Reverse =  "Boss Baseball Cap",
 }
