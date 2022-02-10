@@ -303,7 +303,7 @@ module AuthenticZClothing {
         CanHaveHoles = false,
         ChanceToFall = 80,
         Insulation = 0.10,
-        Weight = 0.5,
+        Weight = 0.5,	
     }
     item Hat_BaseballCapBossTagilla_Reverse
     {
@@ -1388,6 +1388,7 @@ module AuthenticZClothing {
         Insulation = 0.45,
         WindResistance = 0.65,
         WaterResistance = 1.0,
+        WorldStaticModel = WorldItem-TagillaHelmet,			
 	}
 	item Hat_TagillaMask2
 	{
@@ -1405,6 +1406,7 @@ module AuthenticZClothing {
         Insulation = 0.45,
         WindResistance = 0.65,
         WaterResistance = 1.0,
+        WorldStaticModel = WorldItem-TagillaHelmet,			
 	}	
 	item Hat_TrueEyeCult
 	{

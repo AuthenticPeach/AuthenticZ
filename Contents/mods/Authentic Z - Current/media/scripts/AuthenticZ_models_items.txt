@@ -799,6 +799,12 @@ module Base
     {
 		mesh = WorldItems/WorldItem_TagillaSledgehammer,
 		texture = clothes\Items\TagillaSledgehammer,
+    }
+	model WorldItem-TagillaHelmet
+    {
+		mesh = WorldItems/WorldItem-TagillaHelmet,
+		texture = clothes\Masks\TagillaWeldingMask,
+		scale = 100,		
     }	
 	model WorldItem-TrueEyeCult
     {

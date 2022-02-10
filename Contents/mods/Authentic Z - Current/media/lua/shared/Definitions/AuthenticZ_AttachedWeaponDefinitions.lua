@@ -121,6 +121,22 @@ AttachedWeaponDefinitions.BalloonP3= {
 	},
 }
 
+
+AttachedWeaponDefinitions.BrickBusterVHS = {
+	id = "AZVHS",
+	chance = 100,
+	outfit = {"AuthenticBrickBuster"},
+	weaponLocation = {"Left Hand", "Right Hand"},
+	bloodLocations = nil,
+	addHoles = false,
+	daySurvived = 0,
+	weapons = {
+--    "Base.VHS",
+    "Base.VHS_Retail",
+--    "Base.VHS_Home",
+	},
+}
+
 AttachedWeaponDefinitions.Broom = {
 	id = "AZBroom",
 	chance = 100,
@@ -134,18 +150,18 @@ AttachedWeaponDefinitions.Broom = {
 	},
 }
 
---AttachedWeaponDefinitions.Mop = {
---	id = "AZMop",
---	chance = 100,
---	outfit = {"AuthenticJanitor"},
---	weaponLocation = {"Shovel Back"},
---	bloodLocations = nil,
---	addHoles = false,
---	daySurvived = 0,
---	weapons = {
---		"Base.Mop",
---	},
---}
+AttachedWeaponDefinitions.Mop = {
+	id = "AZMop",
+	chance = 100,
+	outfit = {"AuthenticJanitor"},
+	weaponLocation = {"Shovel Back"},
+	bloodLocations = nil,
+	addHoles = false,
+	daySurvived = 0,
+	weapons = {
+		"Base.Mop",
+	},
+}
 
 AttachedWeaponDefinitions.chainsawAsh= {
 	id = "chainsawAshEvilDead",
@@ -1281,6 +1297,13 @@ AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticBlackMamba = {
 		AttachedWeaponDefinitions.Katana, 
 	},
 }
+AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticBrickBuster = {
+	chance = 50;
+	maxitem = 1;	
+	weapons = {
+		AttachedWeaponDefinitions.BrickBusterVHS, 
+	},
+}
 AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticBobRoss = {
 	chance = 100;
 	weapons = {
@@ -1476,7 +1499,7 @@ AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticJanitor = {
 		AttachedWeaponDefinitions.Broom,
 		AttachedWeaponDefinitions.ToiletPlungerOdd,
 		AttachedWeaponDefinitions.ToiletPlungerBelt,
---		AttachedWeaponDefinitions.Mop,
+		AttachedWeaponDefinitions.Mop,
 		AttachedWeaponDefinitions.GardeningSpray,
 	},
 }

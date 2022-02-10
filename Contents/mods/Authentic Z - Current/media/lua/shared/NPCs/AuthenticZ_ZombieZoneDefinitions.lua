@@ -145,9 +145,9 @@ ZombiesZoneDefinition.BillMurray = {
 }
 
 ZombiesZoneDefinition.BlockDuster = {
-	AuthenticBillMurrayM = {
-		name="AuthenticBillMurray",
-		chance=4,
+	AuthenticBrickBuster = {
+		name="AuthenticBrickBuster",
+		chance=60,
 		gender="male",
 	},
 }
@@ -997,7 +997,7 @@ ZombiesZoneDefinition.LBMWStationHQ = { --
 	},
 }
 
-ZombiesZoneDefinition.LBMWRadioHQ = { --
+ZombiesZoneDefinition.LBMWRadioHQ = {
 	OfficeWorkerSkirt = {
 		name="OfficeWorkerSkirt",
 		gender="female",

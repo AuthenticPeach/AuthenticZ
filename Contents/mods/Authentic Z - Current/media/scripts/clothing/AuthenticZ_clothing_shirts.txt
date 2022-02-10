@@ -325,6 +325,20 @@
         WindResistance = 0.35,
         FabricType = Cotton,
 	    WorldStaticModel = TShirt_Ground,			
+    }
+    item TShirt_BrickBuster
+    {
+        DisplayCategory 	= Clothing,		
+        Type 				= Clothing,
+        DisplayName     	= BrickBuster T-Shirt,
+        ClothingItem    	= TShirt_BrickBuster,
+        BodyLocation    	= Tshirt,
+        Icon				= TShirtBrickBuster,
+        BloodLocation   	= Shirt,
+        Insulation 			= 0.3,
+        WindResistance  	= 0.35,
+        FabricType 			= Cotton,
+		WorldStaticModel 	= TShirt_Ground,	
     }	
     item Tshirt_Coach
     {

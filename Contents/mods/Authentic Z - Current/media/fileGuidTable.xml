@@ -5658,6 +5658,10 @@
 	<files>
 		<path>media/clothing/clothingItems/Tshirt_Badass.xml</path>
 		<guid>9339566a-8578-4435-9503-875ae8aa0e54</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/TShirt_BrickBuster.xml</path>
+		<guid>39ac4a91-96bf-4f88-8e0d-27861f48b616</guid>
 	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Tshirt_CheeseRoyale.xml</path>

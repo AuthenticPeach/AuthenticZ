@@ -28,3 +28,9 @@ TweakItem("Base.Rope", "StaticModel", "NewRope");
 TweakItem("Base.Saw", "AttachmentType", "Saw");
 TweakItem("Base.GardenSaw", "AttachmentType", "Saw");
 
+TweakItem("Base.Mop", "StaticModel", "Mop");
+TweakItem("Base.Mop", "AttachmentType", "Shovel");
+
+TweakItem("Base.VHS_Retail", "StaticModel", "VHSBox2");
+
+
