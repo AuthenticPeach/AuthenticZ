@@ -6,8 +6,8 @@ end
 ------------------- Miner Hat ----------------------------------------------
 ----------------------------------------------------------------------------
 local MinerLightBulb = {
-	type = "MinerLightBulb",-- Name shown in the slot icon
-	name = "Miner Hat", 
+	type = "MinerLightBulb",
+	name = "Miner Hat", -- Name shown in the slot icon
 	animset = "back", -- Animation name 
 	attachments = {
 		MinerLight = "MinerLight", -- defined in AttachedLocations.lua
