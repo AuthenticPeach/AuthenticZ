@@ -39,11 +39,11 @@ IGUI_CN = {
 	IGUI_HotbarAttachment_BigHikingbagFlashlight = "手电筒挂槽",	
 	IGUI_HotbarAttachment_AlicepackFlashlight = "手电筒挂槽",
 
-	IGUI_HotbarAttachment_SchoolbagUmbrellaLeft = "雨伞挂槽",
-	IGUI_HotbarAttachment_DufflebagUmbrellaRight = "雨伞挂槽",
-	IGUI_HotbarAttachment_HikingbagUmbrellaLeft = "雨伞挂槽",
-	IGUI_HotbarAttachment_BigHikingbagUmbrellaLeft = "雨伞挂槽",	
-	IGUI_HotbarAttachment_AlicepackUmbrellaRight = "雨伞挂槽",
+	IGUI_HotbarAttachment_SchoolbagUmbrellaLeft = "多功能挂槽",
+	IGUI_HotbarAttachment_DufflebagUmbrellaRight = "多功能挂槽",
+	IGUI_HotbarAttachment_HikingbagUmbrellaLeft = "多功能挂槽",
+	IGUI_HotbarAttachment_BigHikingbagUmbrellaLeft = "多功能挂槽",	
+	IGUI_HotbarAttachment_AlicepackUmbrellaRight = "多功能挂槽",
 
 	IGUI_HotbarAttachment_SchoolbagBalloonLeft = "气球挂槽",
 	IGUI_HotbarAttachment_SchoolbagBalloonRight = "气球挂槽",	
@@ -67,7 +67,7 @@ IGUI_CN = {
 	IGUI_HotbarAttachment_ARVNBottleRight = "水瓶挂槽",
 	IGUI_HotbarAttachment_ARVNBottleLeft = "水瓶挂槽",	
 	IGUI_HotbarAttachment_ARVNPlushie = "公仔挂槽",
-	IGUI_HotbarAttachment_ARVNUmbrellaRight = "雨伞挂槽",
+	IGUI_HotbarAttachment_ARVNUmbrellaRight = "多功能挂槽",
 	IGUI_HotbarAttachment_ARVNItemSlot1 = "道具插槽1",	
 	IGUI_HotbarAttachment_ARVNItemSlot2 = "道具插槽2",
 	IGUI_HotbarAttachment_ARVNItemSlot3 = "道具插槽3",	
@@ -76,7 +76,12 @@ IGUI_CN = {
 	IGUI_HotbarAttachment_ARVNFlashlight = "手电筒挂槽",
 	IGUI_HotbarAttachment_ARVNSecondary = "ARVN背包扩容包",
 
-/* New*/
+
 	IGUI_HotbarAttachment_AZWebbingLeft = "织带挂槽(左)",
 	IGUI_HotbarAttachment_AZWebbingRight = "织带挂槽(右)",
+
+/* New*/
+	IGUI_HotbarAttachment_DufflebagBalloonLeft = "气球挂槽",
+	IGUI_CraftCategory_Tailoring = "裁缝",
+	
 }

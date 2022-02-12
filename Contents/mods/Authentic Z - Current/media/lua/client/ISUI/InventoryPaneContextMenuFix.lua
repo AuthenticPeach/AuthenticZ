@@ -3,6 +3,7 @@
 --***********************************************************
 
 require "ISUI/ISToolTip"
+require "ISWorldObjectContextMenu"
 
 ISInventoryPaneContextMenu = {}
 ISInventoryPaneContextMenu.tooltipPool = {}

@@ -242,6 +242,7 @@ AttachedWeaponDefinitions.ElderlyCane = {
 	weapons = {
     "AuthenticZClothing.AuthenticWalkingCane",
     "AuthenticZClothing.AuthenticWalkingCaneMetal",
+    "AuthenticZClothing.AuthenticWalkingCaneGrandFather",
 	},
 }
 

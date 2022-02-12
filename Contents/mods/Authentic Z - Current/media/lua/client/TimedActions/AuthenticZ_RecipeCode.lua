@@ -2,8 +2,6 @@ require "recipecode"
 require "XpSystem/XpUpdate"
 
 Recipe = {}
-Recipe.GetItemTypes = {}
-Recipe.OnCanPerform = {}
 Recipe.OnCreate = {}
 Recipe.OnGiveXP = {}
 Recipe.OnTest = {}

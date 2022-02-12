@@ -723,4 +723,30 @@ ItemName_CN = {
 	ItemName_AuthenticZClothing.Jacket_Doctor3 	 = "医用大衣",
 	ItemName_AuthenticZClothing.Shoes_TrainersAZ = "高帮鞋",
 
+	ItemName_AuthenticZClothing.PZAZ_CostumeStoreSign = "服装店标志",	
+	ItemName_AuthenticZClothing.CultistMask = "邪教徒面具",	
+	ItemName_AuthenticZClothing.CultistSign = "邪教徒标志",	
+	ItemName_AuthenticZClothing.CultistRobe = "邪教徒长袍",
+	
+	/* New */	
+	ItemName_AuthenticZClothing.Dress_Knees_Black = "及膝连衣裙",
+	ItemName_AuthenticZClothing.GreeneZ_F = "女性僵尸涂装(绿色)",
+	ItemName_AuthenticZClothing.AuthenticIceStaff = "冰霜法杖",
+	ItemName_AuthenticZClothing.AuthenticRaiderStaff = "沙袭者棍棒",
+	ItemName_AuthenticZClothing.Scarf_Black = "黑色围巾",
+	ItemName_AuthenticZClothing.HoodieUP_Black   = "黑色卫衣",
+	ItemName_AuthenticZClothing.HoodieDOWN_Black = "黑色卫衣",
+	ItemName_AuthenticZClothing.HoodieTied_Black = "黑色卫衣(系着)",
+	ItemName_AuthenticZClothing.Skirt_ShortRedPlaid = "红色格子短裙",
+	ItemName_AuthenticZClothing.Skirt_ShortPlaid = "格子短裙",
+	ItemName_AuthenticZClothing.Authentic_PomPomRed = "啦啦队绒球",
+	ItemName_AuthenticZClothing.Authentic_PomPomRed = "啦啦队绒球",
+	ItemName_AuthenticZClothing.AuthenticWalkingCaneMetal =  "金属手杖",		
+	ItemName_AuthenticZClothing.AuthenticBouquetFlowers =  "一束鲜花",		
+	ItemName_AuthenticZClothing.AuthenticFreeHugsSign =  "免费拥抱标志",		
+	ItemName_AuthenticZClothing.AuthenticHairHeadband =  "运动头带",		
+	ItemName_AuthenticZClothing.Jacket_Reporter_LBMW =  "LBMW记者外套",		
+	
+	ItemName_AuthenticZClothing.Hairstyle_Afro_Pick =  "爆炸头精选",	
+
 }

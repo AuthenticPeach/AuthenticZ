@@ -253,6 +253,11 @@ module Base
 		mesh = Weapons/2Handed/AuthenticWalkingCane,
 		texture = clothes\Items\WalkingCane,
 	}
+	model AuthenticWalkingCaneGrandFather
+	{
+		mesh = Weapons/2Handed/WalkingCane_Grandfather,
+		texture = clothes\Items\WalkingCane_Grandfather,
+	}
 	model AuthenticWalkingCaneMetal
 	{
 		mesh = Weapons/2Handed/AuthenticWalkingCaneMetal,
@@ -750,6 +755,11 @@ module Base
 		mesh = FlashLight,
 		texture = clothes\Items\FlashLightBlue,		
 	}
+	model WorldItem_AuthenticWalkingCaneGrandFather
+	{
+		mesh = WorldItems/WorldItem-WalkingCane_Grandfather,
+		texture = clothes\Items\WalkingCane_Grandfather,
+	}	
 	model WorldItem_CigarAZ
     	{
 		mesh = Skinned/MC Models/WorldItems/WorldItem_CigarAZ,

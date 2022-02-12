@@ -11,5 +11,9 @@ ContextMenu_CN = {
 	ContextMenu_VestRadio = "作为电台使用",
 	
 	ContextMenu_WearHead = "穿戴在头部",
-	ContextMenu_WearNeck = "穿在脖子上",	
+	ContextMenu_WearNeck = "穿在脖子上",
+
+	ContextMenu_AfroPick = "穿戴",	
+	ContextMenu_AfroPick2 = "穿戴",	
+	
 } 
