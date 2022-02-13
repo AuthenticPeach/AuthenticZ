@@ -1,7 +1,7 @@
 --***********************************************************
 --**                LEMMY/ROBERT JOHNSON                   **
 --***********************************************************
-
+--[[
 
 require "ISUI/ISToolTip"
 require "ISWorldObjectContextMenu"
@@ -3546,3 +3546,4 @@ ISInventoryPaneContextMenu.onPlaceItemOnGround = function(items, playerObj)
     ISInventoryPaneContextMenu.placeItemCursor = ISPlace3DItemCursor:new(playerObj, items)
     getCell():setDrag(ISInventoryPaneContextMenu.placeItemCursor, playerNum)
 end
+--]]
