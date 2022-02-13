@@ -3318,9 +3318,6 @@
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
 		<m_AllowTopTint>false</m_AllowTopTint>		
-		<m_items> <!-- Black Short Skirt -->
-			<itemGUID>881fca20-d545-4cbd-9476-615c811f26d8</itemGUID>
-		</m_items>
 		<m_items> <!-- Suit Jacket -->
 			<itemGUID>eecd5923-4944-4b33-9c4c-66045ea6984e</itemGUID>
 		</m_items>			
@@ -3343,7 +3340,7 @@
 			<itemGUID>5d9eec3d-7119-480e-8f8a-b7118463e482</itemGUID>
 		</m_items>
 		<m_items> <!-- Glasss -->
-			<probability>0.5</probability>		
+			<probability>0.9</probability>		
 			<itemGUID>825f5380-d6ef-4cf8-8d77-d3a115724f4a</itemGUID>
 			<subItems> <!-- Glasses_Reading -->
 				<itemGUID>9df22d1f-96cd-4d2c-88f2-4e7423d93649</itemGUID>
@@ -3353,14 +3350,14 @@
 			</subItems>			
 		</m_items>
 		<m_items>  <!-- Rings  -->
-			<probability>0.3</probability>
+			<probability>0.5</probability>
 			<itemGUID>4cbb081e-0e9a-4248-bec1-0aa226e082e1</itemGUID>
 			<subItems>
 				<itemGUID>e4b3135f-a541-4870-a7b9-2ba6f730bc5c</itemGUID>
 			</subItems>
 		</m_items>		
 		<m_items> <!-- Pink Lipstick-->
-			<probability>0.2</probability>		
+			<probability>0.7</probability>		
 			<itemGUID>a5ebb962-e521-473a-840e-505667781742</itemGUID>
 		</m_items>				
 </m_FemaleOutfits>
