@@ -3332,6 +3332,9 @@
 		</m_items>			
 		<m_items> <!-- Shoes -->
 			<itemGUID>7741404b-9689-4608-a0f5-4e06597776f9</itemGUID>
+			<subItems> <!-- Slippers -->
+				<itemGUID>72d4a0e2-f559-403f-a650-d48a85752017</itemGUID>
+			</subItems>				
 		</m_items>		
 		<m_items> <!-- Pearl Necklace-->
 			<itemGUID>0ef4bbd5-b1ba-412a-8d68-ad83a6abfda6</itemGUID>
