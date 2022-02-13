@@ -258,6 +258,11 @@ module Base
 		mesh = Weapons/2Handed/WalkingCane_Grandfather,
 		texture = clothes\Items\WalkingCane_Grandfather,
 	}
+	model AuthenticWalkingCaneJP
+	{
+		mesh = Weapons/2Handed/AuthenticWalkingCaneJP,
+		texture = clothes\Items\WalkingCaneMosquito,
+	}	
 	model AuthenticWalkingCaneMetal
 	{
 		mesh = Weapons/2Handed/AuthenticWalkingCaneMetal,
@@ -759,6 +764,11 @@ module Base
 	{
 		mesh = WorldItems/WorldItem-WalkingCane_Grandfather,
 		texture = clothes\Items\WalkingCane_Grandfather,
+	}
+	model WorldItem_AuthenticWalkingCaneJP
+	{
+		mesh = WorldItems/WorldItem-WalkingCane_WalkingCaneJP,
+		texture = clothes\Items\WalkingCaneMosquito,
 	}	
 	model WorldItem_CigarAZ
     	{

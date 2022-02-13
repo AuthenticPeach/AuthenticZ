@@ -755,4 +755,6 @@ ItemName_EN = {
 	ItemName_AuthenticZClothing.AuthenticBingoDotterTeal =  "Teal Bingo Dabber",
 	ItemName_AuthenticZClothing.AuthenticBingoDotterYellow =  "Yellow Bingo Dabber",
 	
+	ItemName_AuthenticZClothing.AuthenticWalkingCaneJP =  "Mosquito Amber Walking Cane",
+	
 }

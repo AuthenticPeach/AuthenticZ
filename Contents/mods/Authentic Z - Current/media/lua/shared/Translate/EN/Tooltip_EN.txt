@@ -51,4 +51,8 @@ Tooltip_EN = {
 	Tooltip_RemoveWalkieTV110Bag = "Removes Army Walkie Talkie from TV-110, Take out all magazines before this.",
 	
 	Tooltip_TV110Bag = "Take out all items before this.",
+	
+/* New */
+
+	Tooltip_JPCane = "Life finds a way.",		
 	}
