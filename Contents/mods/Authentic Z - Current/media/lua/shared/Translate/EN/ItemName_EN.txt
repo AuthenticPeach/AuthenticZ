@@ -757,5 +757,7 @@ ItemName_EN = {
 	
 	ItemName_AuthenticZClothing.AuthenticWalkingCaneJP =  "Mosquito Amber Walking Cane",
 	ItemName_AuthenticZClothing.AuthenticWalkingCaneGrandFather =  "Antique Walking Cane",
+	ItemName_AuthenticZClothing.Dress_LongPolkadot =  "Long Polka Dot Dress",
+	ItemName_AuthenticZClothing.Dress_LongFlower =  "Long Floral Print Dress",
 	
 }

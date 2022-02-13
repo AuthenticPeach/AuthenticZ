@@ -1183,3 +1183,19 @@ local AZWebbingRight = {
 	},
 }
 table.insert(ISHotbarAttachDefinition, AZWebbingRight);
+table.remove(ISHotbarAttachDefinition.replacements);
+local BackReplacement = {
+	type = "Bag",
+	name = "Back",
+	animset = "back",
+	replacement = {
+		BigWeapon = "Big Weapon On Back with Bag",
+		BigBlade = "Big Blade On Back with Bag",
+		Racket = "Racket Back with Bag",
+		Shovel = "Shovel Back with Bag",
+		Guitar = "null",
+		GuitarAcoustic = "null",
+		Rifle = "Rifle On Back with Bag",
+	}
+}
+table.insert(ISHotbarAttachDefinition.replacements, BackReplacement);

@@ -3321,11 +3321,15 @@
 		<m_items> <!-- Suit Jacket -->
 			<itemGUID>eecd5923-4944-4b33-9c4c-66045ea6984e</itemGUID>
 		</m_items>			
-		<m_items> <!-- Black Short Formal Shirt -->
-			<itemGUID>7434ff13-3982-485f-8f6d-6d0b238aefd8</itemGUID>
+		<m_items>  <!-- Dress_LongFlower -->
+			<itemGUID>0a940df6-afc3-40f3-a8c0-b570c0b09d28</itemGUID>
+			<subItems> <!-- Dress_LongPolkadot -->
+				<itemGUID>cd5f1c0e-6be4-4f3c-8bb2-927bc82bdfeb</itemGUID>
+			</subItems>			
 		</m_items>
-		<m_items>  <!-- Dress Long Black -->
-			<itemGUID>42e5a20d-8929-485f-8851-e919cede14be</itemGUID>
+		<m_items> <!-- Maid Stockings -->
+			<probability>0.3</probability>		
+			<itemGUID>87b757a3-932b-41a7-b3ff-58b9728fb017</itemGUID>
 		</m_items>			
 		<m_items> <!-- Shoes -->
 			<itemGUID>7741404b-9689-4608-a0f5-4e06597776f9</itemGUID>

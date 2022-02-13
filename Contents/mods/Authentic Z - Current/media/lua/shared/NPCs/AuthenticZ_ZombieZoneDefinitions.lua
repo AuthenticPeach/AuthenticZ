@@ -2361,7 +2361,7 @@ AZ_ZombiesZoneDefinition.Default = ZombiesZoneDefinition.Default or {};
 
 table.insert(ZombiesZoneDefinition.Default,{name = "Police", chance=0.25});
 table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticBiker", chance=0.05});
-table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticBlackMamba", chance=0.002, gender="female"});
+table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticBlackMamba", chance=0.0009, gender="female"});
 table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticFreshPrinceBelAir", chance=0.005, gender="male"});
 table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticFitnessInstructor", chance=0.05});
 table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticNeonFitnessInstructor", chance=0.008, gender="female"});

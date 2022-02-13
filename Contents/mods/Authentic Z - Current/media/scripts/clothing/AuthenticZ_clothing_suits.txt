@@ -378,6 +378,21 @@ module AuthenticZClothing {
         FabricType = Cotton,
 		WorldStaticModel = Dress_Long_Ground,
     }
+    item Dress_LongFlower
+    {
+       DisplayCategory = Clothing,			
+        Type = Clothing,
+        DisplayName = Long Floral Print Dress,
+        ClothingItem = Dress_LongFlower,
+        BodyLocation = Dress,
+        BloodLocation = Trousers;Shirt,
+        Icon = DressLongBlue,
+        RunSpeedModifier = 0.90,
+        Insulation = 0.3,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+		WorldStaticModel = Dress_Long_Ground,
+    }	
     item Dress_NormalBlue
     {
        DisplayCategory = Clothing,			
@@ -408,6 +423,21 @@ module AuthenticZClothing {
         FabricType = Cotton,
 		WorldStaticModel = Dress_Long_Ground,
     }
+    item Dress_LongPolkadot
+    {
+       DisplayCategory = Clothing,			
+        Type = Clothing,
+        DisplayName = Long Polka Dot Dress,
+        ClothingItem = Dress_LongPolkadot,
+        BodyLocation = Dress,
+        BloodLocation = Trousers;Shirt,
+        Icon = DressLongPink,
+        RunSpeedModifier = 0.90,
+        Insulation = 0.3,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+		WorldStaticModel = Dress_Long_Ground,
+    }	
     item Dress_NormalPink
     {
        DisplayCategory = Clothing,			

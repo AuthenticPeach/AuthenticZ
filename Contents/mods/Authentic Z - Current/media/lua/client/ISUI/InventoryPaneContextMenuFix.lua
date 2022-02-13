@@ -1221,14 +1221,14 @@ ISInventoryPaneContextMenu.doWearClothingTooltip = function(playerObj, newItem, 
 		tooltip.description = tooltip.description .. text;
 	end
 
---[[
+
 	-- combat speed -- TODO: Better calcul!
 	if previousCombatModifier > 0 and previousCombatModifier > newCombatModifier then
 		text = " <RGB:0,1,0> " .. getText("Tooltip_CombatSpeed") .. ": +";
 		text = " <RGB:1,0,0> " .. getText("Tooltip_CombatSpeed") .. ": ";
 	end
 	tooltip.description = tooltip.description ..  text .. newCombatModifier-previousCombatModifier;
---]]
+
 
 	option.toolTip = tooltip;
 

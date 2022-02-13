@@ -1,4 +1,4 @@
-require "AZRecipecode"
+require "Recipecode"
 require "XpSystem/XpUpdate"
 
 AZRecipe = {}

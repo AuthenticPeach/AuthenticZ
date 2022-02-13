@@ -3992,9 +3992,17 @@
 		<guid>e0a65bd3-7c40-4d31-9973-83893c86410f</guid>
 	</files>
 	<files>
+		<path>media/clothing/clothingItems/Dress_LongFlower.xml</path>
+		<guid>e0a65bd3-7c40-4d31-9973-83893c86410f</guid>
+	</files>	
+	<files>
 		<path>media/clothing/clothingItems/Dress_LongPink.xml</path>
 		<guid>9b14424a-3800-428f-bd51-528ea74ef93c</guid>
 	</files>
+	<files>
+		<path>media/clothing/clothingItems/Dress_LongPolkadot.xml</path>
+		<guid>cd5f1c0e-6be4-4f3c-8bb2-927bc82bdfeb</guid>
+	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Dress_Nurse.xml</path>
 		<guid>1906e905-2fcf-407f-97af-4bd32ff05fa2</guid>
