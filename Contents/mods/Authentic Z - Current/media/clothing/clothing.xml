@@ -3326,15 +3326,16 @@
 		</m_items>
 		<m_items>  <!-- Dress Long Black -->
 			<itemGUID>42e5a20d-8929-485f-8851-e919cede14be</itemGUID>
-		</m_items>	
-		<m_items> <!-- Black Stockings -->
-			<itemGUID>1c08ec23-70aa-4e3d-8848-138af25542c6</itemGUID>
 		</m_items>			
 		<m_items> <!-- Shoes -->
 			<itemGUID>7741404b-9689-4608-a0f5-4e06597776f9</itemGUID>
 			<subItems> <!-- Slippers -->
 				<itemGUID>72d4a0e2-f559-403f-a650-d48a85752017</itemGUID>
 			</subItems>				
+		</m_items>
+		<m_items> <!-- White gloves -->
+			<probability>0.2</probability>		
+			<itemGUID>7d18ca16-fdb4-462e-b9a7-4f358cdd7525</itemGUID>
 		</m_items>		
 		<m_items> <!-- Pearl Necklace-->
 			<itemGUID>0ef4bbd5-b1ba-412a-8d68-ad83a6abfda6</itemGUID>
