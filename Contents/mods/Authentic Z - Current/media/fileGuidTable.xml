@@ -3828,6 +3828,10 @@
 		<guid>100e4cdc-b3e4-4394-8aa4-0dded5a332e4</guid>
 	</files>
 	<files>
+		<path>media/clothing/clothingItems/Bag_Handbag_RightHand.xml</path>
+		<guid>afd70021-9288-4317-b758-bb147943918d</guid>
+	</files>	
+	<files>
 		<path>media/clothing/clothingItems/Bag_Suitecase_RightHand.xml</path>
 		<guid>7a2db817-dc9e-43d0-8928-71b3674c9714</guid>
 	</files>
@@ -3993,7 +3997,7 @@
 	</files>
 	<files>
 		<path>media/clothing/clothingItems/Dress_LongFlower.xml</path>
-		<guid>e0a65bd3-7c40-4d31-9973-83893c86410f</guid>
+		<guid>0a940df6-afc3-40f3-a8c0-b570c0b09d28</guid>
 	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Dress_LongPink.xml</path>

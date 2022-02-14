@@ -1431,6 +1431,7 @@ AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticDRBradGarrison = {
 }
 AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticElderly = {
 	chance = 30;
+	maxitem = 1;	
 	weapons = {
 		AttachedWeaponDefinitions.ElderlyCane,
 		AttachedWeaponDefinitions.ElderlyBingo,

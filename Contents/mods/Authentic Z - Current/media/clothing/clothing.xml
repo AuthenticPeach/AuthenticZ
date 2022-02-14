@@ -3319,7 +3319,8 @@
 		<m_Pants>false</m_Pants>
 		<m_AllowTopTint>false</m_AllowTopTint>		
 		<m_items> <!-- Suit Jacket -->
-			<itemGUID>eecd5923-4944-4b33-9c4c-66045ea6984e</itemGUID>
+			<probability>0.2</probability>		
+			<itemGUID>e284f0ef-48aa-4357-982f-98bcf728a238</itemGUID>
 		</m_items>			
 		<m_items>  <!-- Dress_LongFlower -->
 			<itemGUID>0a940df6-afc3-40f3-a8c0-b570c0b09d28</itemGUID>

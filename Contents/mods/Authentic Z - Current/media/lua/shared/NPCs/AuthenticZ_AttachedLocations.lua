@@ -21,6 +21,7 @@ group:getOrCreateLocation("Right Hand Item"):setAttachmentName("stop_sign_right"
 group:getOrCreateLocation("BucketHead"):setAttachmentName("Bip01_Head")
 group:getOrCreateLocation("PlungerFace"):setAttachmentName("AZ_PlungerFace")
 group:getOrCreateLocation("PlungerHead"):setAttachmentName("AZ_PlungerHead")
+group:getOrCreateLocation("Purse Right Arm"):setAttachmentName("Purse_R_UpperArm")
 group:getOrCreateLocation("MinerLight"):setAttachmentName("knife_head")
 group:getOrCreateLocation("Military Flashlight Left"):setAttachmentName("MilitaryFlashlight_L")
 group:getOrCreateLocation("Military Flashlight Right"):setAttachmentName("MilitaryFlashlight_R")

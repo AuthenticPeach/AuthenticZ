@@ -451,6 +451,28 @@ module AuthenticZClothing {
         ReplaceInPrimaryHand = Bag_Satchel_RHand holdingbagright,
         WorldStaticModel = Satchel_Ground,
     }	
+
+	item Handbag2
+    {
+	    DisplayCategory = Container,	
+        WeightReduction	=	40,
+        Weight	=	1,
+        Type	=	Container,
+        Capacity	=	8,
+		DisplayName	=	Handbag,
+		Icon	=	Purseblack,
+		CanBeEquipped = Back,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        ClothingItem = Bag_Handbag_RightHand,
+        BloodLocation = Bag,
+        RunSpeedModifier = 0.99,
+        AttachmentReplacement = Bag,
+		ReplaceInSecondHand = Bag_Handbag_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_Handbag_RHand holdingbagright,
+		WorldStaticModel = Handbag_Ground,
+    }
 	
 	item Suitcase2
     {
