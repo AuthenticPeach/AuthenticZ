@@ -1400,100 +1400,6 @@ ZombiesZoneDefinition.ScrapYard = {
 	},
 }
 
-ZombiesZoneDefinition.SecretBase = {
-	Priest = {
-		name="Priest",
-		gender="male",
-		chance=5,
-	},
-	ArmyInstructor = {
-		name="ArmyInstructor",
-		chance=5,
-		gender="male",
-	},
-	ArmyCamoGreen = {
-		name="ArmyCamoGreen",
-		chance=30,
-	},
-	ArmyCamoDesert = {
-		name="ArmyCamoDesert",
-		chance=5,
-	},
-	AuthenticSecretService = {
-		name="AuthenticSecretService",
-		gender="male",
-		chance=5,
-	},	
-	OfficeWorkerSkirt = {
-		name="OfficeWorkerSkirt",
-		chance=10,
-		gender="female",
-	},
-	OfficeWorker = {
-		name="OfficeWorker",
-		chance=10,
-		gender="male",
-		beardStyles="null:80",
-	},
-	Doctor = {
-		name="Doctor",
-		chance=7,
-	},
-	ArmyServiceUniform = {
-		name="ArmyServiceUniform",
-		chance=10,
-		room="garage",
-	},
-	AuthenticKleiner = {
-		name="AuthenticKleiner",
-		toSpawn=1,
-		gender="male",
-		mandatory="true",
-		room="medical",
-	},
-	AuthenticGordonFreeman = {
-		name="AuthenticGordonFreeman",
-		gender="male",
-		chance=10,
-		room="empty",
-	},		
-	AuthenticErinRedfire = {
-		name="AuthenticErinRedfire",
-		chance=3,
-		gender="female",
-		room="office",
-	},		
-	AuthenticHazardSuit = {
-		name="AuthenticHazardSuit",
-		toSpawn=1,
-		mandatory="true",
-		room="medical",
-	},
-	AuthenticCEDAHazmatGreentM = {
-		name="AuthenticCEDAHazmatGreen",
-		toSpawn=1,
-		mandatory="true",
-		room="medical",
-	},
-	AuthenticCEDAHazmatBlackM = {
-		name="AuthenticCEDAHazmatBlack",
-		toSpawn=1,
-		mandatory="true",
-		room="medical",
-	},	
-	AuthenticNBHHazmatM = {
-		name="AuthenticNBHHazmat",
-		toSpawn=1,
-		mandatory="true",
-		room="medical",
-	},		
-	AuthenticBubM = {
-		name="AuthenticBub",
-		chance=3,
-		gender="male",
-	},		
-}
-
 ZombiesZoneDefinition.SpeakingEvent = {
 	AuthenticAbeLincolnM = {
 		name="AuthenticAbeLincoln",
@@ -2045,16 +1951,24 @@ ZombiesZoneDefinition.SecretBase[AuthenticKleiner] = AuthenticKleiner;
 
 local ArmyServiceUniform = {
 		name="ArmyServiceUniform",
+		gender="male",			
 		toSpawn=1,
 		mandatory="true",
 		room="garage",		
 	};
 ZombiesZoneDefinition.SecretBase[ArmyServiceUniform] = ArmyServiceUniform;
 
+local ArmyServiceUniform2 = {
+		name="ArmyServiceUniform",
+		gender="male",			
+		chance=5,
+		room="garage",		
+	};
+ZombiesZoneDefinition.SecretBase[ArmyServiceUniform2] = ArmyServiceUniform2;
+
 local AuthenticHazardSuit = {
 		name="AuthenticHazardSuit",
-		toSpawn=1,
-		mandatory="true",
+		chance=5,
 		room="medical",
 	};
 ZombiesZoneDefinition.SecretBase[AuthenticHazardSuit] = AuthenticHazardSuit;
