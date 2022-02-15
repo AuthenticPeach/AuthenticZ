@@ -7,8 +7,8 @@
 	<m_AllowRandomTint>false</m_AllowRandomTint>
 	<m_AllowRandomHue>true</m_AllowRandomHue>		
 	<m_AttachBone></m_AttachBone>
-	<m_BaseTextures>clothes\dress_textures\Dress_Flower</m_BaseTextures>
 	<m_BaseTextures>clothes\dress_textures\Dress_long_Flower</m_BaseTextures>
+	<m_BaseTextures>clothes\dress_textures\Dress_long_Flower2</m_BaseTextures>
 	<m_BaseTextures>clothes\dress_textures\Dress_long_FlowerBlack</m_BaseTextures>
 	<m_BaseTextures>clothes\dress_textures\Dress_long_FlowerBlackBlue</m_BaseTextures>
 </clothingItem>

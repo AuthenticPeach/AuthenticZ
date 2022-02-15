@@ -242,6 +242,7 @@ module AuthenticZClothing {
 		Weight = 0.1,
 		Cosmetic = TRUE,
 		ChanceToFall = 25,
+		WorldStaticModel = WorldItem-ClownNose,		
 	}	
 	item ClownTop
 	{

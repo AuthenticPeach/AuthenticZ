@@ -771,11 +771,15 @@ module Base
 		texture = clothes\Items\WalkingCaneMosquito,
 	}	
 	model WorldItem_CigarAZ
-    	{
+    {
 		mesh = Skinned/MC Models/WorldItems/WorldItem_CigarAZ,
 		texture = clothes\Items\CigarAZCuban,
 		scale = 0.01,		
-	}	
+	}
+	model WorldItem-ClownNose
+    {
+		mesh = WorldItems/WorldItem_ClownNose,
+    }	
 	model WorldItem-DSLR
     {
 		mesh = Static/Clothes/WorldItem_DSLR,

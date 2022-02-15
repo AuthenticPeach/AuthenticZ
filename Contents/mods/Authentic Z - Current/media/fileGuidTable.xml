@@ -3974,18 +3974,14 @@
 	<files>
 		<path>media/clothing/clothingItems/Dress_Knees_Black.xml</path>
 		<guid>6831f0df-a72f-48f5-975a-3dec446de4bb</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Dress_Flower.xml</path>
+		<guid>e65ab9a1-2736-4018-ba1b-18c0b72782e2</guid>
 	</files>	
 	<files>
-		<path>media/clothing/clothingItems/Dress_Maid.xml</path>
-		<guid>6737efcc-495a-4e5d-9861-2fed853f7033</guid>
-	</files>
-	<files>
-		<path>media/clothing/clothingItems/Dress_NormalBlue.xml</path>
-		<guid>57357fce-58e9-47fd-af90-ff9ba129d782</guid>
-	</files>
-	<files>
-		<path>media/clothing/clothingItems/Dress_NormalPink.xml</path>
-		<guid>1de86fdf-476e-44ea-a869-350123b8cf20</guid>
+		<path>media/clothing/clothingItems/Dress_Flower_Knees.xml</path>
+		<guid>be4c9ec9-2c04-40dd-a556-3cdcdce64fc4</guid>
 	</files>
 	<files>
 		<path>media/clothing/clothingItems/Dress_LongBlack.xml</path>
@@ -4008,6 +4004,18 @@
 		<guid>cd5f1c0e-6be4-4f3c-8bb2-927bc82bdfeb</guid>
 	</files>	
 	<files>
+		<path>media/clothing/clothingItems/Dress_Maid.xml</path>
+		<guid>6737efcc-495a-4e5d-9861-2fed853f7033</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Dress_NormalBlue.xml</path>
+		<guid>57357fce-58e9-47fd-af90-ff9ba129d782</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Dress_NormalPink.xml</path>
+		<guid>1de86fdf-476e-44ea-a869-350123b8cf20</guid>
+	</files>	
+	<files>
 		<path>media/clothing/clothingItems/Dress_Nurse.xml</path>
 		<guid>1906e905-2fcf-407f-97af-4bd32ff05fa2</guid>
 	</files>
@@ -4015,6 +4023,14 @@
 		<path>media/clothing/clothingItems/Dress_Maid.xml</path>
 		<guid>6737efcc-495a-4e5d-9861-2fed853f7033</guid>
 	</files>
+	<files>
+		<path>media/clothing/clothingItems/Dress_Polkadot.xml</path>
+		<guid>5375c0d8-946f-4062-b833-52dda2747806</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Dress_Polkadot_Knees.xml</path>
+		<guid>fd7d65c5-125c-43f0-82d6-18719a239979</guid>
+	</files>		
 	<files>
 		<path>media/clothing/clothingItems/Dress_Purna.xml</path>
 		<guid>4bc6034a-95cc-487c-a081-3b1671cc716c</guid>

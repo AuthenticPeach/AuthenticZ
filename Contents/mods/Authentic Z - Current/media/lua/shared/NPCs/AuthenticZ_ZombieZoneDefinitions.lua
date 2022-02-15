@@ -2142,7 +2142,7 @@ ZombiesZoneDefinition.Offices[AuthenticSamRivot] = AuthenticSamRivot;
 
 local AuthenticLeonKennedy = {
 		name="AuthenticLeonKennedy",
-		chance=2,
+		chance=1,
 		gender="male",
 	};
 ZombiesZoneDefinition.Police[AuthenticLeonKennedy] = AuthenticLeonKennedy;

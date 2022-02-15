@@ -1,8 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <outfitManager>
 
-	<m_MaleOutfits>
-		<m_Name>AuthenticAbeLincoln</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticAbeLincoln</m_Name>
 		<m_Guid>a541548a-9933-4bbc-bff1-4931cb5d5c94</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -40,8 +39,7 @@
 		</m_items>
 	</m_MaleOutfits>
 	
-	<m_MaleOutfits>
-		<m_Name>AuthenticAndyDotD</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticAndyDotD</m_Name>
 		<m_Guid>a51e5ab3-ef37-43c7-aded-33fb1f707903</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -69,8 +67,7 @@
 		</m_items>			
 	</m_MaleOutfits>	
 	
-	<m_MaleOutfits>
-		<m_Name>AuthenticAshEvilDead</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticAshEvilDead</m_Name>
 		<m_Guid>e00cb8c4-eb3e-47a1-8d8a-4d0cd378bcb7</m_Guid><!-- 27a4a77f-6be6-4fbf-85a1-ca97b6e38685 -->
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -98,8 +95,7 @@
 		</m_items>			
 	</m_MaleOutfits>
 
-	<m_MaleOutfits>
-		<m_Name>AuthenticB4BEvangelo</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticB4BEvangelo</m_Name>
 		<m_Guid>e00cb8c4-eb3e-47a1-8d8a-4d0cd378bcb7</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -136,8 +132,7 @@
 		</m_items>			
 	</m_MaleOutfits>
 
-	<m_FemaleOutfits>
-		<m_Name>AuthenticB4BHolly</m_Name>
+<m_FemaleOutfits> <m_Name>AuthenticB4BHolly</m_Name>
 		<m_Guid>c57b312f-9701-4221-af05-b3a579f54166</m_Guid>
 		<m_Pants>false</m_Pants>
 		<m_AllowPantsHue>false</m_AllowPantsHue>
@@ -176,8 +171,7 @@
 		</m_items>		
 	</m_FemaleOutfits>
 
-	<m_MaleOutfits>
-		<m_Name>AuthenticB4BHoffman</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticB4BHoffman</m_Name>
 		<m_Guid>1b405bed-e73b-4005-8157-cccfb0c5cb20</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -214,8 +208,7 @@
 		</m_items>			
 	</m_MaleOutfits>
 
-	<m_FemaleOutfits>
-		<m_Name>AuthenticB4BMom</m_Name>
+<m_FemaleOutfits> <m_Name>AuthenticB4BMom</m_Name>
 		<m_Guid>165741cf-3fac-4eb6-97d4-9d8bead55420</m_Guid>
 		<m_Pants>false</m_Pants>
 		<m_AllowPantsHue>false</m_AllowPantsHue>
@@ -248,8 +241,7 @@
 		</m_items>		
 	</m_FemaleOutfits>	
 	
-	<m_MaleOutfits>
-		<m_Name>AuthenticB4BWalker</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticB4BWalker</m_Name>
 		<m_Guid>ab04c72c-b4ea-4b64-b6c0-c9badf10a8f7</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -292,8 +284,7 @@
 		</m_items>			
 	</m_MaleOutfits>	
 	
-<m_MaleOutfits>
-		<m_Name>AuthenticBankRobber</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticBankRobber</m_Name>
 		<m_Guid>35dd7ab7-ee6f-4605-a293-fd98c8906901</m_Guid>
 		<m_items> <!-- Hoodie-->
 			<probability>0.8</probability>
@@ -387,8 +378,7 @@
 		</m_items>
 	</m_MaleOutfits>
 
-<m_FemaleOutfits>
-		<m_Name>AuthenticBankRobber</m_Name>
+<m_FemaleOutfits> <m_Name>AuthenticBankRobber</m_Name>
 		<m_Guid>35dd7ab7-ee6f-4605-a293-fd98c8906901</m_Guid>
 		<m_items> <!-- Hoodie-->
 			<probability>0.8</probability>
@@ -482,8 +472,7 @@
 		</m_items>
 	</m_FemaleOutfits>
 
-	<m_MaleOutfits>
-		<m_Name>AuthenticBarbershopQuartetBlue</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticBarbershopQuartetBlue</m_Name>
 		<m_Guid>45575f6d-7775-4449-b264-1a7341f1f7ed</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -514,8 +503,7 @@
 		</m_items>			
 	</m_MaleOutfits>
 	
-	<m_MaleOutfits>
-		<m_Name>AuthenticBarbershopQuartetGreen</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticBarbershopQuartetGreen</m_Name>
 		<m_Guid>8044ddc0-2d32-481f-9d64-0628939dcd90</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -546,8 +534,7 @@
 		</m_items>			
 	</m_MaleOutfits>
 
-	<m_MaleOutfits>
-		<m_Name>AuthenticBarbershopQuartetPurple</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticBarbershopQuartetPurple</m_Name>
 		<m_Guid>55bb3f0c-d9c4-47e8-befd-40ed81424a0f</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -578,8 +565,7 @@
 		</m_items>			
 	</m_MaleOutfits>
 
-	<m_MaleOutfits>
-		<m_Name>AuthenticBarbershopQuartetRed</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticBarbershopQuartetRed</m_Name>
 		<m_Guid>e2013e7c-8a99-4671-b186-5bfbbed65c8b</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -610,8 +596,7 @@
 		</m_items>			
 	</m_MaleOutfits>	
 	
-	<m_MaleOutfits>
-		<m_Name>AuthenticBarbershopQuartetYellow</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticBarbershopQuartetYellow</m_Name>
 		<m_Guid>e78f2229-83ca-4495-b96a-30ce1a66b9e2</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -642,8 +627,7 @@
 		</m_items>			
 	</m_MaleOutfits>	
 
-	<m_MaleOutfits>
-		<m_Name>AuthenticBigDaddy</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticBigDaddy</m_Name>
 		<m_Guid>0565f054-6675-4562-aafa-894b63fd6058</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -665,8 +649,7 @@
 		</m_items>		
 	</m_MaleOutfits>	
 
-	<m_MaleOutfits>
-		<m_Name>AuthenticBillMurray</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticBillMurray</m_Name>
 		<m_Guid>53ef6e41-99b6-4440-a4b6-0a7552bb407d</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -691,8 +674,7 @@
 		</m_items>		
 	</m_MaleOutfits>
 	
-	<m_MaleOutfits>
-		<m_Name>AuthenticBillOverbeck</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticBillOverbeck</m_Name>
 		<m_Guid>6e916ae2-436b-4ab8-a237-93bf217eea4d</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -1040,8 +1022,7 @@
 		</m_items>
 	</m_FemaleOutfits>
 
-<m_FemaleOutfits>
-		<m_Name>AuthenticBlackMamba</m_Name>
+<m_FemaleOutfits> <m_Name>AuthenticBlackMamba</m_Name>
 		<m_Guid>1f4b249d-d186-4ad7-9491-0367e13964e4</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>	
@@ -1068,8 +1049,7 @@
 		</m_items>		
 </m_FemaleOutfits>	
 
-<m_MaleOutfits>
-		<m_Name>AuthenticBobRoss</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticBobRoss</m_Name>
 		<m_Guid>ac6eb892-e53c-400c-b4e8-b9579d90294a</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -1113,7 +1093,7 @@
 		</m_items>
 	</m_MaleOutfits>
 
-	<m_MaleOutfits> <m_Name>AuthenticBrickBuster</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticBrickBuster</m_Name>
 		<m_Guid>91a39331-edb2-418d-ad62-923c3965b02c</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -1148,8 +1128,7 @@
 		</m_items>	
 	</m_MaleOutfits>
 	
-	<m_FemaleOutfits>
-		<m_Name>AuthenticBrideBlue</m_Name>
+<m_FemaleOutfits> <m_Name>AuthenticBrideBlue</m_Name>
 		<m_Guid>371f703d-95e8-4b5d-8c0e-b2f5e75db6f7</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -1657,8 +1636,7 @@
 		</m_items>			
 </m_MaleOutfits>	
 
-	<m_MaleOutfits>
-		<m_Name>AuthenticCEDAHazmatBlack</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticCEDAHazmatBlack</m_Name>
 		<m_Guid>d6b0f9b0-0b87-49e8-b7db-069644859db0</m_Guid>
 		<m_Pants>false</m_Pants>
 		<m_AllowPantsHue>false</m_AllowPantsHue>
@@ -1680,8 +1658,7 @@
 		</m_items>		
 	</m_MaleOutfits>
 
-	<m_FemaleOutfits>
-		<m_Name>AuthenticCEDAHazmatBlack</m_Name>
+<m_FemaleOutfits> <m_Name>AuthenticCEDAHazmatBlack</m_Name>
 		<m_Guid>d6b0f9b0-0b87-49e8-b7db-069644859db0</m_Guid>
 		<m_Pants>false</m_Pants>
 		<m_AllowPantsHue>false</m_AllowPantsHue>
@@ -1703,8 +1680,7 @@
 		</m_items>		
 	</m_FemaleOutfits>
 	
-	<m_MaleOutfits>
-		<m_Name>AuthenticCEDAHazmatBlue</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticCEDAHazmatBlue</m_Name>
 		<m_Guid>d6b0f9b0-0b87-49e8-b7db-069644859db0</m_Guid>
 		<m_Pants>false</m_Pants>
 		<m_AllowPantsHue>false</m_AllowPantsHue>
@@ -1726,8 +1702,7 @@
 		</m_items>		
 	</m_MaleOutfits>
 
-	<m_FemaleOutfits>
-		<m_Name>AuthenticCEDAHazmatBlue</m_Name>
+<m_FemaleOutfits> <m_Name>AuthenticCEDAHazmatBlue</m_Name>
 		<m_Guid>d6b0f9b0-0b87-49e8-b7db-069644859db0</m_Guid>
 		<m_Pants>false</m_Pants>
 		<m_AllowPantsHue>false</m_AllowPantsHue>
@@ -1747,10 +1722,9 @@
 		<m_items> <!-- Shoes -->
 			<itemGUID>593bea3d-c127-4574-ac1e-2197dc56e486</itemGUID>
 		</m_items>		
-	</m_FemaleOutfits>	
+</m_FemaleOutfits>	
 
-	<m_MaleOutfits>
-		<m_Name>AuthenticCEDAHazmatGreen</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticCEDAHazmatGreen</m_Name>
 		<m_Guid>85072ebe-529a-467c-b571-5062de3bbc9f</m_Guid>
 		<m_Pants>false</m_Pants>
 		<m_AllowPantsHue>false</m_AllowPantsHue>
@@ -2646,8 +2620,7 @@
 		</m_items>
 </m_MaleOutfits>
 
-<m_MaleOutfits>
-		<m_Name>AuthenticCultist</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticCultist</m_Name>
 		<m_Guid>ca517152-28f8-4495-9384-cd42ae73eb1b</m_Guid>
 		<m_Top>true</m_Top>
 		<m_Pants>true</m_Pants>
@@ -2666,8 +2639,7 @@
 
 </m_MaleOutfits>
 
-<m_FemaleOutfits>
-		<m_Name>AuthenticCultist</m_Name>
+<m_FemaleOutfits> <m_Name>AuthenticCultist</m_Name>
 		<m_Guid>ca517152-28f8-4495-9384-cd42ae73eb1b</m_Guid>
 		<m_Top>true</m_Top>
 		<m_Pants>true</m_Pants>
@@ -2968,8 +2940,7 @@
 		</m_items>			
 	</m_MaleOutfits>
 
-<m_FemaleOutfits>
-		<m_Name>AuthenticDIPurnaJackson</m_Name>
+<m_FemaleOutfits> <m_Name>AuthenticDIPurnaJackson</m_Name>
 		<m_Guid>aae6606d-7bb1-4b6f-a513-d519bc729031</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -2988,8 +2959,7 @@
 		</m_items>		
 	</m_FemaleOutfits>	
 
-<m_FemaleOutfits>
-		<m_Name>AuthenticDIXianMei</m_Name>
+<m_FemaleOutfits> <m_Name>AuthenticDIXianMei</m_Name>
 		<m_Guid>c18682d1-507d-4dc9-9b20-7326986ac1a8</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -3011,8 +2981,7 @@
 		</m_items>			
 </m_FemaleOutfits>	
 
-<m_MaleOutfits>
-		<m_Name>AuthenticDRBradGarrison</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticDRBradGarrison</m_Name>
 		<m_Guid>3ccb19df-6701-49e5-8fa4-0a8763cf0b0c</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -3037,8 +3006,7 @@
 		</m_items>		
 </m_MaleOutfits>
 
-<m_MaleOutfits>
-		<m_Name>AuthenticDRChuckGreene</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticDRChuckGreene</m_Name>
 		<m_Guid>779614c5-0907-49ff-94a5-03b8a85cea10</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -3063,8 +3031,7 @@
 		</m_items>			
 </m_MaleOutfits>
 	
-<m_MaleOutfits>
-		<m_Name>AuthenticDRFrankWest</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticDRFrankWest</m_Name>
 		<m_Guid>c7f07ca6-f92a-440b-9da9-8acf9f38f0df</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -3099,8 +3066,7 @@
 		</m_items>			
 </m_MaleOutfits>
 
-<m_FemaleOutfits>
-		<m_Name>AuthenticDRJessieMcCarney</m_Name>
+<m_FemaleOutfits> <m_Name>AuthenticDRJessieMcCarney</m_Name>
 		<m_Guid>3be0021e-0b8c-4c78-91ea-44e2f8ea9355</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -3134,8 +3100,7 @@
 		</m_items>			
 </m_FemaleOutfits>	
 	
-<m_MaleOutfits>
-		<m_Name>AuthenticDRTrueEyeCult</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticDRTrueEyeCult</m_Name>
 		<m_Guid>d7edcd32-3457-41c3-b92b-82a4cc28166d</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -3160,8 +3125,7 @@
 		</m_items>		
 </m_MaleOutfits>
 
-<m_MaleOutfits>
-		<m_Name>AuthenticDocBrown</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticDocBrown</m_Name>
 		<m_Guid>35dd7ab7-ee6f-4605-a293-fd98c8906901</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -3326,7 +3290,19 @@
 			<itemGUID>0a940df6-afc3-40f3-a8c0-b570c0b09d28</itemGUID>
 			<subItems> <!-- Dress_LongPolkadot -->
 				<itemGUID>cd5f1c0e-6be4-4f3c-8bb2-927bc82bdfeb</itemGUID>
-			</subItems>			
+			</subItems>
+			<subItems> <!-- Dress_Polkadot -->
+				<itemGUID>5375c0d8-946f-4062-b833-52dda2747806</itemGUID>
+			</subItems>	
+			<subItems> <!-- Dress_Polkadot_Knees -->
+				<itemGUID>fd7d65c5-125c-43f0-82d6-18719a239979</itemGUID>
+			</subItems>	
+			<subItems> <!-- Dress_Flower -->
+				<itemGUID>e65ab9a1-2736-4018-ba1b-18c0b72782e2</itemGUID>
+			</subItems>	
+			<subItems> <!-- Dress_Flower_Knees -->
+				<itemGUID>be4c9ec9-2c04-40dd-a556-3cdcdce64fc4</itemGUID>
+			</subItems>				
 		</m_items>
 		<m_items> <!-- Maid Stockings -->
 			<probability>0.3</probability>		
@@ -3375,8 +3351,7 @@
 		</m_items>				
 </m_FemaleOutfits>
 	
-<m_MaleOutfits>
-		<m_Name>AuthenticEllis</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticEllis</m_Name>
 		<m_Guid>0952f0cd-0a9d-4d54-b0dc-b731fe578282</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -3408,8 +3383,7 @@
 		</m_items>			
 </m_MaleOutfits>	
 	
-<m_FemaleOutfits>
-		<m_Name>AuthenticErinFontaine</m_Name>
+<m_FemaleOutfits> <m_Name>AuthenticErinFontaine</m_Name>
 		<m_Guid>0c341055-9c79-4d85-b201-39b7d4c46286</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -3454,8 +3428,7 @@
 		</m_items>		
 </m_FemaleOutfits>	
 
-<m_MaleOutfits>
-		<m_Name>AuthenticFootballPlayerBlueStar</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticFootballPlayerBlueStar</m_Name>
 		<m_Guid>21f24adf-4b09-49a8-8ea5-7f5620f5d563</m_Guid>
 		<m_Pants>false</m_Pants>
 		<m_items>  <!-- Blue Star Jersey -->
@@ -3481,8 +3454,7 @@
 		</m_items>			
 </m_MaleOutfits>
 
-<m_MaleOutfits>
-		<m_Name>AuthenticFootballChiefs</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticFootballChiefs</m_Name>
 		<m_Guid>c7957d85-2494-44bf-8317-f69dd1851035</m_Guid>
 		<m_Pants>false</m_Pants>
 		<m_items>  <!-- Chiefs Jersey -->
@@ -3535,8 +3507,7 @@
 		</m_items>			
 </m_MaleOutfits>
 
-<m_MaleOutfits>
-		<m_Name>AuthenticFootballGreenBayPacker</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticFootballGreenBayPacker</m_Name>
 		<m_Guid>c7957d85-2494-44bf-8317-f69dd1851035</m_Guid>
 		<m_Pants>false</m_Pants>
 		<m_items>  <!-- Greenbay Jersey -->
@@ -3589,8 +3560,7 @@
 		</m_items>			
 </m_MaleOutfits>
 
-<m_MaleOutfits>
-		<m_Name>AuthenticFootballPatriots</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticFootballPatriots</m_Name>
 		<m_Guid>0f42a073-ea41-48b0-bfbd-185c9445d99f</m_Guid>
 		<m_Pants>false</m_Pants>
 		<m_items>  <!-- NE Patriots Jersey -->
@@ -3643,8 +3613,7 @@
 		</m_items>			
 </m_MaleOutfits>	
 	
-<m_MaleOutfits>
-		<m_Name>AuthenticFootballPlayerRedSkull</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticFootballPlayerRedSkull</m_Name>
 		<m_Guid>eb71a1d5-0448-4782-97ae-b50e443a5006</m_Guid>
 		<m_Pants>false</m_Pants>
 		<m_items>  <!-- Red Skull Jersey -->
@@ -3670,8 +3639,7 @@
 		</m_items>		
 </m_MaleOutfits>	
 
-<m_MaleOutfits>
-		<m_Name>AuthenticFreshPrinceBelAir</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticFreshPrinceBelAir</m_Name>
 		<m_Guid>96e760c8-3103-4fa9-bb43-7b30f7d6c154</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -3696,8 +3664,7 @@
 		</m_items>			
 </m_MaleOutfits>
 
-<m_MaleOutfits>
-		<m_Name>AuthenticFitnessInstructor</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticFitnessInstructor</m_Name>
 		<m_Guid>1fdccfc7-3383-4a08-aa4c-67675c5c8a57</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -3813,8 +3780,7 @@
 		</m_items>
 </m_MaleOutfits>
 	
-<m_FemaleOutfits>
-		<m_Name>AuthenticFitnessInstructor</m_Name>
+<m_FemaleOutfits> <m_Name>AuthenticFitnessInstructor</m_Name>
 		<m_Guid>1fdccfc7-3383-4a08-aa4c-67675c5c8a57</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -3919,8 +3885,7 @@
 		</m_items>
 </m_FemaleOutfits>
 	
-<m_FemaleOutfits>
-		<m_Name>AuthenticNeonFitnessInstructor</m_Name>
+<m_FemaleOutfits> <m_Name>AuthenticNeonFitnessInstructor</m_Name>
 		<m_Guid>4e21cbbb-0f7d-43f9-9fa4-9d8e5f5a6d3f</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -4004,8 +3969,7 @@
 		</m_items>	
 </m_FemaleOutfits>		
 
-<m_MaleOutfits>
-		<m_Name>AuthenticFlyboy</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticFlyboy</m_Name>
 		<m_Guid>e4190458-4709-4f93-8989-98d75bc515e6</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -4030,8 +3994,7 @@
 		</m_items>			
 </m_MaleOutfits>	
 	
-<m_MaleOutfits>
-		<m_Name>AuthenticFrancis</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticFrancis</m_Name>
 		<m_Guid>6e916ae2-436b-4ab8-a237-93bf217eea4d</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -4141,8 +4104,7 @@
 		</m_items>
 </m_MaleOutfits>
 
-<m_FemaleOutfits>
-		<m_Name>AuthenticFuneralFormal</m_Name>
+<m_FemaleOutfits> <m_Name>AuthenticFuneralFormal</m_Name>
 		<m_Guid>93d59d22-d886-40ef-a933-db7c5cb6be38</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -4189,8 +4151,7 @@
 		</m_items>				
 </m_FemaleOutfits>
 
-<m_FemaleOutfits>
-		<m_Name>AuthenticFreeHugs</m_Name>
+<m_FemaleOutfits> <m_Name>AuthenticFreeHugs</m_Name>
 		<m_Guid>3a078a90-fb2c-4797-a594-c3cec6f63b39</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -4277,8 +4238,7 @@
 		</m_items>
 </m_MaleOutfits>
 
-<m_FemaleOutfits>
-		<m_Name>AuthenticFuneralCoat</m_Name>
+<m_FemaleOutfits> <m_Name>AuthenticFuneralCoat</m_Name>
 		<m_Guid>444fda17-b87f-4992-8d8c-e8d187511ed1</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -5136,8 +5096,7 @@
 		</m_items>		
 </m_MaleOutfits>
 
-<m_MaleOutfits>
-		<m_Name>AuthenticJasonPart2</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticJasonPart2</m_Name>
 		<m_Guid>bc0008a2-43b0-42a5-b65a-a947f3a498af</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -5168,8 +5127,7 @@
 		</m_items>			
 </m_MaleOutfits>
 	
-<m_MaleOutfits>
-		<m_Name>AuthenticJasonPart3</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticJasonPart3</m_Name>
 		<m_Guid>c0ee6dde-062a-4b42-9a9c-95054fb2375c</m_Guid>
 		<m_items> <!-- Jason Hockey Mask  -->
 			<itemGUID>3f69a2cd-417f-4cac-908c-ee57680554f1</itemGUID>
@@ -5194,8 +5152,7 @@
 		</m_items>			
 </m_MaleOutfits>	
 	
-<m_FemaleOutfits>
-		<m_Name>AuthenticJillValentine</m_Name>
+<m_FemaleOutfits> <m_Name>AuthenticJillValentine</m_Name>
 		<m_Guid>d3769786-8363-4324-9073-622e1482a25c</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -5304,8 +5261,7 @@
 		</m_items>		
 </m_FemaleOutfits>	
 
-	<m_MaleOutfits>
-		<m_Name>AuthenticJimmyGibbs</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticJimmyGibbs</m_Name>
 		<m_Guid>2127396b-a10b-497a-acc4-f051660c0a9e</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -5327,8 +5283,7 @@
 		</m_items>			
 	</m_MaleOutfits>
 	
-	<m_MaleOutfits>
-		<m_Name>AuthenticJoker</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticJoker</m_Name>
 		<m_Guid>922ce435-facb-4097-9ceb-a5c2bffea717</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -5370,8 +5325,7 @@
 		</m_items>
 	</m_MaleOutfits>	
 
-	<m_MaleOutfits>
-		<m_Name>AuthenticKilla</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticKilla</m_Name>
 		<m_Guid>c3dab516-ec45-46e0-b27d-dd77ae419415</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -5396,8 +5350,7 @@
 		</m_items>			
 	</m_MaleOutfits>
 
-	<m_MaleOutfits>
-		<m_Name>AuthenticKleiner</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticKleiner</m_Name>
 		<m_Guid>869706bc-7005-41f5-a322-84cb4c7a3d62</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -5444,8 +5397,7 @@
 		</m_items>
 	</m_MaleOutfits>	
 
-	<m_FemaleOutfits>
-		<m_Name>AuthenticLadyD</m_Name>
+<m_FemaleOutfits> <m_Name>AuthenticLadyD</m_Name>
 		<m_Guid>40bc9f1e-39c7-48ff-aceb-f8145f057f49</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -5479,8 +5431,7 @@
 		</m_items>		
 	</m_FemaleOutfits>
 
-	<m_MaleOutfits>
-		<m_Name>AuthenticLeatherFace</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticLeatherFace</m_Name>
 		<m_Guid>d1191397-ef70-481e-a944-8c2d2e4cd396</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -5517,8 +5468,7 @@
 		</m_items>			
 	</m_MaleOutfits>
 
-	<m_MaleOutfits>
-		<m_Name>AuthenticLeonKennedy</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticLeonKennedy</m_Name>
 		<m_Guid>bfb8593f-1401-4380-ba5b-97b5ba5c336e</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -5589,8 +5539,7 @@
 		</m_items>			
 	</m_MaleOutfits>
 	
-	<m_MaleOutfits>
-		<m_Name>AuthenticLouis</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticLouis</m_Name>
 		<m_Guid>6e916ae2-436b-4ab8-a237-93bf217eea4d</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -5622,8 +5571,7 @@
 		</m_items>			
 	</m_MaleOutfits>		
 
-	<m_MaleOutfits>
-		<m_Name>AuthenticMadMax</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticMadMax</m_Name>
 		<m_Guid>b3e7fb9f-221d-4c48-8a90-7c7cd20878ed</m_Guid>
 		<m_Pants>false</m_Pants>
 		<m_items>  <!-- Black Jacket -->
@@ -5670,8 +5618,7 @@
 		</m_items>			
 	</m_MaleOutfits>
 
-	<m_FemaleOutfits>
-		<m_Name>AuthenticMaid</m_Name>
+<m_FemaleOutfits> <m_Name>AuthenticMaid</m_Name>
 		<m_Guid>ca3f3ea3-4a27-400f-bd96-a57a975e2a79</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -5693,8 +5640,7 @@
 		</m_items>
 	</m_FemaleOutfits>
 	
-	<m_MaleOutfits>
-		<m_Name>AuthenticMartyMcFly</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticMartyMcFly</m_Name>
 		<m_Guid>2c19faa7-dc8a-4161-b4b0-0b6c9fc2c4b6</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -5732,8 +5678,7 @@
 		</m_items>			
 	</m_MaleOutfits>
 
-	<m_MaleOutfits>
-		<m_Name>AuthenticMiner</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticMiner</m_Name>
 		<m_Guid>9d658d51-da3e-4348-9491-fd7a64e9226b</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -5785,8 +5730,7 @@
 		</m_items>			
 	</m_MaleOutfits>	
 
-	<m_MaleOutfits>
-		<m_Name>AuthenticNakedBlueVeins</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticNakedBlueVeins</m_Name>
 		<m_Guid>d7000000-b4a7-4077-9b7f-07b5cea33227</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -5810,8 +5754,7 @@
 		</m_items>		
 	</m_MaleOutfits>
 
-	<m_FemaleOutfits>
-		<m_Name>AuthenticNakedBlueVeins</m_Name>
+<m_FemaleOutfits> <m_Name>AuthenticNakedBlueVeins</m_Name>
 		<m_Guid>d7000000-b4a7-4077-9b7f-07b5cea33227</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -5832,8 +5775,7 @@
 		</m_items>		
 	</m_FemaleOutfits>	
 
-<m_MaleOutfits>
-		<m_Name>AuthenticNateAnderson</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticNateAnderson</m_Name>
 		<m_Guid>ec1e890d-ab6b-4d56-9434-4b215c51a74e</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>	
@@ -5868,8 +5810,7 @@
 		</m_items>			
 </m_MaleOutfits>
 
-	<m_MaleOutfits>
-		<m_Name>AuthenticNewsAnchor</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticNewsAnchor</m_Name>
 		<m_Guid>f73f006d-42bc-4d57-9314-fb987bdd1b64</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -5919,8 +5860,7 @@
 		</m_items>
 	</m_MaleOutfits>
 	
-<m_FemaleOutfits>
-		<m_Name>AuthenticNewsAnchor</m_Name>
+<m_FemaleOutfits> <m_Name>AuthenticNewsAnchor</m_Name>
 		<m_Guid>f73f006d-42bc-4d57-9314-fb987bdd1b64</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -6017,8 +5957,7 @@
 		</m_items>				
 </m_FemaleOutfits>	
 
-	<m_MaleOutfits>
-		<m_Name>AuthenticNBHHazmat</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticNBHHazmat</m_Name>
 		<m_Guid>0ca27bce-8a93-4565-8de1-52112e02d856</m_Guid>
 		<m_Pants>false</m_Pants>
 		<m_AllowPantsHue>false</m_AllowPantsHue>
@@ -6043,8 +5982,7 @@
 		</m_items>		
 	</m_MaleOutfits>
 
-	<m_FemaleOutfits>
-		<m_Name>AuthenticNBHHazmat</m_Name>
+<m_FemaleOutfits> <m_Name>AuthenticNBHHazmat</m_Name>
 		<m_Guid>0ca27bce-8a93-4565-8de1-52112e02d856</m_Guid>
 		<m_Pants>false</m_Pants>
 		<m_AllowPantsHue>false</m_AllowPantsHue>
@@ -6069,8 +6007,7 @@
 		</m_items>		
 	</m_FemaleOutfits>	
 	
-	<m_MaleOutfits>
-		<m_Name>AuthenticNick</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticNick</m_Name>
 		<m_Guid>f416f265-24d4-4ab2-be2d-2108f33c14ef</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -6108,8 +6045,7 @@
 		</m_items>			
 	</m_MaleOutfits>		
 
-	<m_FemaleOutfits>
-		<m_Name>AuthenticNMRIHBadass</m_Name>
+<m_FemaleOutfits> <m_Name>AuthenticNMRIHBadass</m_Name>
 		<m_Guid>b1aa0754-422c-465f-b1c3-dcb052bb9df9</m_Guid>
 		<m_Pants>false</m_Pants>
 		<m_AllowPantsHue>false</m_AllowPantsHue>
@@ -6140,8 +6076,7 @@
 		</m_items>		
 	</m_FemaleOutfits>
 
-	<m_MaleOutfits>
-		<m_Name>AuthenticNMRIHBateman</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticNMRIHBateman</m_Name>
 		<m_Guid>4604e6f5-000b-47da-aa34-9b110558743c</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -6169,8 +6104,7 @@
 		</m_items>		
 	</m_MaleOutfits>
 
-	<m_MaleOutfits>
-		<m_Name>AuthenticNMRIHButcher</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticNMRIHButcher</m_Name>
 		<m_Guid>fe83837b-de5b-4535-a45f-ba48af2fdf71</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -6195,8 +6129,7 @@
 		</m_items>		
 	</m_MaleOutfits>
 	
-	<m_MaleOutfits>
-		<m_Name>AuthenticNMRIHHunter</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticNMRIHHunter</m_Name>
 		<m_Guid>112e9e3e-d311-4806-8d60-ceddcf459bdc</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -6239,8 +6172,7 @@
 		</m_items>		
 	</m_MaleOutfits>
 
-	<m_MaleOutfits>
-		<m_Name>AuthenticNMRIHJive</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticNMRIHJive</m_Name>
 		<m_Guid>97355e7e-1cc0-4d34-8a38-02a786b90b00</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -6268,8 +6200,7 @@
 		</m_items>		
 	</m_MaleOutfits>
 
-	<m_MaleOutfits>
-		<m_Name>AuthenticNMRIHMolotov</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticNMRIHMolotov</m_Name>
 		<m_Guid>edcaaa5c-edec-422d-b3f1-db65201a89b3</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -6300,8 +6231,7 @@
 		</m_items>		
 	</m_MaleOutfits>
 
-	<m_MaleOutfits>
-		<m_Name>AuthenticNMRIHRoje</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticNMRIHRoje</m_Name>
 		<m_Guid>45d68ddb-974c-4a93-988e-9c978f1db0a6</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -6339,8 +6269,7 @@
 		</m_items>		
 	</m_MaleOutfits>		
 	
-	<m_MaleOutfits>
-		<m_Name>AuthenticNMRIHVegan</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticNMRIHVegan</m_Name>
 		<m_Guid>b6ab02cb-5fa0-402a-8ab0-8dfac6a616cd</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -6356,8 +6285,7 @@
 		</m_items>
 	</m_MaleOutfits>
 
-	<m_MaleOutfits>
-		<m_Name>AuthenticNMRIHWally</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticNMRIHWally</m_Name>
 		<m_Guid>0af1ccb1-f03b-472a-a6a4-c7f97bc12e35</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -6388,8 +6316,7 @@
 		</m_items>		
 	</m_MaleOutfits>
 
-	<m_MaleOutfits>
-		<m_Name>Party2</m_Name>
+<m_MaleOutfits> <m_Name>Party2</m_Name>
 		<m_Guid>3f5dfd5c-f645-4a7e-b0b1-1a55100a2913</m_Guid>
 		<m_items> <!-- Newspaper hat -->
 			<itemGUID>93333161-cfa9-4bdb-bb21-8c5e90fd9214</itemGUID>
@@ -6433,8 +6360,7 @@
 		</m_items>
 	</m_MaleOutfits>
 
-	<m_FemaleOutfits>
-		<m_Name>Party2</m_Name>
+<m_FemaleOutfits> <m_Name>Party2</m_Name>
 		<m_Guid>3f5dfd5c-f645-4a7e-b0b1-1a55100a2913</m_Guid>
 		<m_items> <!-- Newspaper hat -->
 			<itemGUID>93333161-cfa9-4bdb-bb21-8c5e90fd9214</itemGUID>
@@ -6548,8 +6474,7 @@
 		</m_items>
 	</m_FemaleOutfits>
 
-<m_MaleOutfits>
-		<m_Name>AuthenticPizzaDelivery</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticPizzaDelivery</m_Name>
 		<m_Guid>856a8f8e-b32b-4d49-9860-329e6d7a61c9</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -6605,8 +6530,7 @@
 		</m_items>
 	</m_MaleOutfits>
 	
-<m_FemaleOutfits>
-		<m_Name>AuthenticPizzaDelivery</m_Name>
+<m_FemaleOutfits> <m_Name>AuthenticPizzaDelivery</m_Name>
 		<m_Guid>856a8f8e-b32b-4d49-9860-329e6d7a61c9</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -6731,8 +6655,7 @@
 		</m_items>
 	</m_FemaleOutfits>	
 
-	<m_MaleOutfits>
-		<m_Name>AuthenticPoncho</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticPoncho</m_Name>
 		<m_Guid>3b730e3e-71dc-4454-a0ef-5650880313fb</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -6836,8 +6759,7 @@
 		</m_items>
 	</m_MaleOutfits>
 	
-<m_FemaleOutfits>
-		<m_Name>AuthenticPoncho</m_Name>
+<m_FemaleOutfits> <m_Name>AuthenticPoncho</m_Name>
 		<m_Guid>3b730e3e-71dc-4454-a0ef-5650880313fb</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -6936,9 +6858,8 @@
 			</subItems>
 		</m_items>
 	</m_FemaleOutfits>	
-					
-	<m_MaleOutfits>
-		<m_Name>AuthenticPolitician</m_Name>
+
+<m_MaleOutfits> <m_Name>AuthenticPolitician</m_Name>
 		<m_Guid>599438fb-dc20-4772-b496-00de12069b20</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -6985,8 +6906,7 @@
 		</m_items>
 	</m_MaleOutfits>
 
-	<m_MaleOutfits>
-		<m_Name>AuthenticPostalDude</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticPostalDude</m_Name>
 		<m_Guid>1904afdd-3e34-4443-85b9-06fd15f3b4fc</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -7030,8 +6950,7 @@
 		</m_items>
 	</m_MaleOutfits>
 
-	<m_MaleOutfits>
-		<m_Name>AuthenticPrisonerClassic</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticPrisonerClassic</m_Name>
 		<m_Guid>53e70219-6302-4cf1-a013-d67595a9c7e3</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -7050,8 +6969,7 @@
 		</m_items>			
 	</m_MaleOutfits>			
 
-<m_MaleOutfits>
-		<m_Name>AuthenticRickGrimes</m_Name> <!-- Name of the outfit -->
+<m_MaleOutfits> <m_Name>AuthenticRickGrimes</m_Name> <!-- Name of the outfit -->
 		<m_Guid>1fc501ec-3d70-4a9d-828a-77a23dbcffd9</m_Guid> <!-- Another unique GUID for the outfit-->
 		<m_Top>false</m_Top> <!-- Will it spawn with a default tank top? false = no -->
 		<m_Pants>false</m_Pants> <!-- Will it spawn with a default pants? false = no -->
@@ -7097,8 +7015,7 @@
 		</m_items>			
 	</m_MaleOutfits>
 
-	<m_FemaleOutfits>
-		<m_Name>AuthenticRochelle</m_Name>
+<m_FemaleOutfits> <m_Name>AuthenticRochelle</m_Name>
 		<m_Guid>a5b48b6c-5f6c-43d4-80be-8e64c8a61608</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -7130,8 +7047,7 @@
 		</m_items>			
 	</m_FemaleOutfits>	
 
-	<m_MaleOutfits>
-		<m_Name>AuthenticSamRivot</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticSamRivot</m_Name>
 		<m_Guid>31d68d5a-46e0-4042-8264-5148929bc9dd</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -7193,8 +7109,7 @@
 		</m_items>
 	</m_MaleOutfits>
 
-	<m_MaleOutfits>
-		<m_Name>AuthenticSecretService</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticSecretService</m_Name>
 		<m_Guid>347e1a55-4bf5-4df0-b0a3-beb90d15cbba</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -7251,8 +7166,7 @@
 		</m_items>
 	</m_MaleOutfits>
 
-	<m_FemaleOutfits>
-		<m_Name>AuthenticSexyBunny</m_Name>
+<m_FemaleOutfits> <m_Name>AuthenticSexyBunny</m_Name>
 		<m_Guid>97515ecc-8066-4615-910f-93cceb99ba5a</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -7280,8 +7194,7 @@
 		</m_items>
 	</m_FemaleOutfits>	
 
-	<m_FemaleOutfits>
-		<m_Name>AuthenticSexyNurse</m_Name>
+<m_FemaleOutfits> <m_Name>AuthenticSexyNurse</m_Name>
 		<m_Guid>763d2ad2-755b-403d-8956-faece607a019</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -7304,8 +7217,7 @@
 		</m_items>
 	</m_FemaleOutfits>
 
-	<m_MaleOutfits>
-		<m_Name>AuthenticShaunoftheDead</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticShaunoftheDead</m_Name>
 		<m_Guid>85eeaad9-a10a-42f2-b1f2-a4fe334a7b11</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -7352,8 +7264,7 @@
 		</m_items>	
 	</m_MaleOutfits>
 	
-	<m_FemaleOutfits>
-		<m_Name>AuthenticSchoolGirl</m_Name>
+<m_FemaleOutfits> <m_Name>AuthenticSchoolGirl</m_Name>
 		<m_Guid>69ccda73-be88-49e0-944e-18e27ee4969b</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -7405,8 +7316,7 @@
 		</m_items>		
 </m_FemaleOutfits>	
 
-	<m_MaleOutfits>
-		<m_Name>AuthenticShotgunFace</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticShotgunFace</m_Name>
 		<m_Guid>e5a2e3a6-7665-4ced-b1cd-a06257b1f4ce</m_Guid>
 		<m_Top>true</m_Top>
 		<m_Pants>true</m_Pants>
@@ -7421,8 +7331,7 @@
 		</m_items>				
 	</m_MaleOutfits>
 	
-	<m_MaleOutfits>
-		<m_Name>AuthenticShotgunFace2</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticShotgunFace2</m_Name>
 		<m_Guid>e0a2e3a6-7665-4ced-b1cd-a06257b1f4ce</m_Guid>
 		<m_Top>true</m_Top>
 		<m_Pants>true</m_Pants>
@@ -7434,9 +7343,7 @@
 		</m_items>					
 	</m_MaleOutfits>
 	
-
-	<m_FemaleOutfits>
-		<m_Name>AuthenticShotgunFace</m_Name>
+<m_FemaleOutfits> <m_Name>AuthenticShotgunFace</m_Name>
 		<m_Guid>e5a2e3a6-7665-4ced-b1cd-a06257b1f4ce</m_Guid>
 		<m_Top>true</m_Top>
 		<m_Pants>true</m_Pants>
@@ -7457,8 +7364,7 @@
 		</m_items>				
 	</m_FemaleOutfits>
 
-	<m_MaleOutfits>
-		<m_Name>AuthenticSnowGhillie</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticSnowGhillie</m_Name>
 		<m_Guid>91c092d2-b5aa-4abf-b021-2d219354166e</m_Guid>
 		<m_Pants>false</m_Pants>
 		<m_AllowPantsHue>false</m_AllowPantsHue>
@@ -7483,8 +7389,7 @@
 		</m_items>		
 	</m_MaleOutfits>
 	
-	<m_FemaleOutfits>
-		<m_Name>AuthenticSnowGhillie</m_Name>
+<m_FemaleOutfits> <m_Name>AuthenticSnowGhillie</m_Name>
 		<m_Guid>91c092d2-b5aa-4abf-b021-2d219354166e</m_Guid>
 		<m_Pants>false</m_Pants>
 		<m_AllowPantsHue>false</m_AllowPantsHue>
@@ -7508,8 +7413,8 @@
 			<itemGUID>593bea3d-c127-4574-ac1e-2197dc56e486</itemGUID>
 		</m_items>		
 	</m_FemaleOutfits>	
-<m_MaleOutfits>
-		<m_Name>AuthenticSoDEdJones</m_Name>
+	
+<m_MaleOutfits> <m_Name>AuthenticSoDEdJones</m_Name>
 		<m_Guid>3165c483-1384-4028-a24a-db7766c227db</m_Guid>
 		<m_Pants>false</m_Pants>
 		<m_items> <!-- Baseball Cap -->
@@ -7543,9 +7448,9 @@
 		<m_items> <!-- White Zed Skin -->
 			<itemGUID>9c87b588-b784-4560-bada-fd4cf7e44d48</itemGUID>
 		</m_items>			
-	</m_MaleOutfits>		
-	<m_MaleOutfits>
-		<m_Name>AuthenticSportsFan</m_Name>
+	</m_MaleOutfits>
+	
+<m_MaleOutfits> <m_Name>AuthenticSportsFan</m_Name>
 		<m_Guid>ed23a870-6fda-431f-8646-24bb1a389705</m_Guid>
 		<m_Pants>false</m_Pants>
 		<m_items>  <!-- Baseball Shirt -->
@@ -7620,8 +7525,7 @@
 		</m_items>
 	</m_MaleOutfits>
 	
-	<m_FemaleOutfits>
-		<m_Name>AuthenticSportsFan</m_Name>
+<m_FemaleOutfits> <m_Name>AuthenticSportsFan</m_Name>
 		<m_Guid>ed23a870-6fda-431f-8646-24bb1a389705</m_Guid>
 		<m_Pants>false</m_Pants>
 		<m_items> <!-- Baseball Shirt -->
@@ -7758,8 +7662,7 @@
 		</m_items>
 	</m_FemaleOutfits>	
 
-	<m_MaleOutfits>
-		<m_Name>AuthenticSurvivorCovid</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticSurvivorCovid</m_Name>
 		<m_Guid>abc00068-a25c-4709-a160-396eff75a9ad</m_Guid>
 		<m_AllowPantsHue>false</m_AllowPantsHue>
 		<m_items>  <!-- Sweaters -->
@@ -7891,8 +7794,7 @@
 		</m_items>		
 	</m_MaleOutfits>	
 	
-	<m_FemaleOutfits>
-		<m_Name>AuthenticSurvivorCovid</m_Name>
+<m_FemaleOutfits> <m_Name>AuthenticSurvivorCovid</m_Name>
 		<m_Guid>abc00068-a25c-4709-a160-396eff75a9ad</m_Guid>
 		<m_AllowPantsHue>false</m_AllowPantsHue>
 		<m_items>  <!-- Sweaters -->
@@ -8093,8 +7995,7 @@
 		</m_items>		
 	</m_FemaleOutfits>
 	
-	<m_MaleOutfits>
-		<m_Name>AuthenticSurvivorHazardSuit</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticSurvivorHazardSuit</m_Name>
 		<m_Guid>1e2140d9-6c01-45b3-833b-00f19ac40216</m_Guid>
 		<m_Pants>false</m_Pants>
 		<m_AllowPantsHue>false</m_AllowPantsHue>
@@ -8120,8 +8021,7 @@
 		</m_items>		
 	</m_MaleOutfits>
 	
-	<m_FemaleOutfits>
-		<m_Name>AuthenticSurvivorHazardSuit</m_Name>
+<m_FemaleOutfits> <m_Name>AuthenticSurvivorHazardSuit</m_Name>
 		<m_Guid>1e2140d9-6c01-45b3-833b-00f19ac40216</m_Guid>
 		<m_Pants>false</m_Pants>
 		<m_AllowPantsHue>false</m_AllowPantsHue>
@@ -8147,8 +8047,7 @@
 		</m_items>		
 	</m_FemaleOutfits>
 
-	<m_MaleOutfits>
-		<m_Name>AuthenticSurvivorL4D</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticSurvivorL4D</m_Name>
 		<m_Guid>617b6f93-b988-4e55-91f4-95d1e8767524</m_Guid>
 		<m_Pants>false</m_Pants>
 		<m_AllowPantsHue>false</m_AllowPantsHue>
@@ -8200,8 +8099,7 @@
 		</m_items>		
 	</m_MaleOutfits>
 
-	<m_MaleOutfits>
-		<m_Name>AuthenticSurvivorPolice</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticSurvivorPolice</m_Name>
 		<m_Guid>5ec74a01-ab94-4688-89dc-3b9a79996c23</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -8300,8 +8198,7 @@
 		</m_items>		
 	</m_MaleOutfits>
 
-<m_FemaleOutfits>
-		<m_Name>AuthenticSurvivorPolice</m_Name>
+<m_FemaleOutfits> <m_Name>AuthenticSurvivorPolice</m_Name>
 		<m_Guid>5ec74a01-ab94-4688-89dc-3b9a79996c23</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -8400,8 +8297,7 @@
 		</m_items>		
 </m_FemaleOutfits>
 
-<m_MaleOutfits>
-		<m_Name>AuthenticSurvivorRanger</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticSurvivorRanger</m_Name>
 		<m_Guid>13b1baed-4903-4a02-8e7e-e6da9c3dfaa2</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -8489,8 +8385,7 @@
 		</m_items>		
 	</m_MaleOutfits>
 
-<m_FemaleOutfits>
-		<m_Name>AuthenticSurvivorRanger</m_Name>
+<m_FemaleOutfits> <m_Name>AuthenticSurvivorRanger</m_Name>
 		<m_Guid>13b1baed-4903-4a02-8e7e-e6da9c3dfaa2</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -8578,8 +8473,7 @@
 		</m_items>		
 </m_FemaleOutfits>
 
-	<m_MaleOutfits>
-		<m_Name>AuthenticSurvivorSplatter</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticSurvivorSplatter</m_Name>
 		<m_Guid>bdc1ac41-4dfa-4558-b400-00284725df91</m_Guid>
 		<m_AllowPantsHue>false</m_AllowPantsHue>
 		<m_AllowTopTint>false</m_AllowTopTint>
@@ -8659,8 +8553,7 @@
 		</m_items>		
 	</m_MaleOutfits>
 
-	<m_FemaleOutfits>
-		<m_Name>AuthenticSurvivorSplatter</m_Name>
+<m_FemaleOutfits> <m_Name>AuthenticSurvivorSplatter</m_Name>
 		<m_Guid>bdc1ac41-4dfa-4558-b400-00284725df91</m_Guid>
 		<m_items>  <!-- Aprons -->
 			<itemGUID>4d389214-6bf7-4959-a204-ce077f0bd194</itemGUID>
@@ -8733,8 +8626,7 @@
 			</subItems>
 		</m_items>		
 	</m_FemaleOutfits>
-	<m_MaleOutfits>
-		<m_Name>AuthenticSwimmer</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticSwimmer</m_Name>
 		<m_Guid>1244c133-278b-4fe7-8663-eafeb5bf6846</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -8770,8 +8662,7 @@
 			</subItems>			
 		</m_items>		
 	</m_MaleOutfits>
-	<m_FemaleOutfits>
-		<m_Name>AuthenticSwimmer</m_Name>
+<m_FemaleOutfits> <m_Name>AuthenticSwimmer</m_Name>
 		<m_Guid>1244c133-278b-4fe7-8663-eafeb5bf6846</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -8809,8 +8700,7 @@
 		</m_items>
 	</m_FemaleOutfits>
 
-	<m_MaleOutfits>
-		<m_Name>AuthenticTagilla</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticTagilla</m_Name>
 		<m_Guid>7e6c9967-6ada-4abc-b179-8435eead00d4</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -8853,8 +8743,7 @@
 		</m_items>				
 	</m_MaleOutfits>
 	
-	<m_MaleOutfits>
-		<m_Name>AuthenticTF2SpyRed</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticTF2SpyRed</m_Name>
 		<m_Guid>aeadc0aa-8363-49b4-a97f-cd6557fd5bc7</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -8904,8 +8793,7 @@
 		</m_items>		
 	</m_MaleOutfits>
 
-	<m_MaleOutfits>
-		<m_Name>AuthenticTF2SpyBlue</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticTF2SpyBlue</m_Name>
 		<m_Guid>711e73d5-2d61-4caf-b3f2-3b991e5050de</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -8955,8 +8843,7 @@
 		</m_items>		
 	</m_MaleOutfits>	
 	
-	<m_MaleOutfits>
-		<m_Name>AuthenticTheyLive</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticTheyLive</m_Name>
 		<m_Guid>47c009c1-94f5-483d-a63c-a9a84672f1d2</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -8988,8 +8875,7 @@
 		</m_items>			
 	</m_MaleOutfits>	
 	
-	<m_MaleOutfits>
-		<m_Name>AuthenticThriller</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticThriller</m_Name>
 		<m_Guid>6cd92850-2681-4c26-ada8-d58f68a7c9f6</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -9014,8 +8900,7 @@
 		</m_items>			
 	</m_MaleOutfits>		
 	
-<m_MaleOutfits>
-		<m_Name>AuthenticTravelingBand</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticTravelingBand</m_Name>
 		<m_Guid>2789148e-3786-43ca-9fed-7d360b463cf8</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -9047,8 +8932,7 @@
 		</m_items>
 </m_MaleOutfits>	
 
-<m_FemaleOutfits>
-		<m_Name>AuthenticTravelingBand</m_Name>
+<m_FemaleOutfits> <m_Name>AuthenticTravelingBand</m_Name>
 		<m_Guid>2789148e-3786-43ca-9fed-7d360b463cf8</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -9080,8 +8964,7 @@
 		</m_items>
 </m_FemaleOutfits>	
 
-	<m_MaleOutfits>
-		<m_Name>AuthenticUncleSam</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticUncleSam</m_Name>
 		<m_Guid>746f60c4-28e2-4343-9a80-16dd6be65ea5</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -9118,8 +9001,7 @@
 		</m_items>			
 	</m_MaleOutfits>
 
-	<m_MaleOutfits>
-		<m_Name>AuthenticWaldo</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticWaldo</m_Name>
 		<m_Guid>4ebb58d7-3b90-4917-92a5-933597ba7657</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -9147,8 +9029,7 @@
 		</m_items>		
 	</m_MaleOutfits>
 	
-<m_MaleOutfits>
-		<m_Name>AuthenticWildSalesMan</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticWildSalesMan</m_Name>
 		<m_Guid>fd2b0bd5-dd15-4043-a4ab-36e759ece22e</m_Guid>
 		<m_items> <!-- Jacket -->
 			<itemGUID>e284f0ef-48aa-4357-982f-98bcf728a238</itemGUID>
@@ -9210,8 +9091,7 @@
 		</m_items>
 	</m_MaleOutfits>
 
-	<m_MaleOutfits>
-		<m_Name>AuthenticWinslow</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticWinslow</m_Name>
 		<m_Guid>4ed740b1-3645-4247-91dd-355ed6f2b731</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -9239,8 +9119,7 @@
 		</m_items>		
 	</m_MaleOutfits>		
 	
-<m_FemaleOutfits>
-		<m_Name>AuthenticZoey</m_Name>
+<m_FemaleOutfits> <m_Name>AuthenticZoey</m_Name>
 		<m_Guid>ec1e890d-ab6b-4d56-9434-4b215c51a74e</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>	
@@ -9274,8 +9153,7 @@
 		</m_items>		
 </m_FemaleOutfits>	
 
-	<m_FemaleOutfits>
-		<m_Name>Mannequin1</m_Name>
+<m_FemaleOutfits> <m_Name>Mannequin1</m_Name>
 		<m_Guid>f51a63a7-ddc7-4bba-ad92-8dce563f4960</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -9317,8 +9195,7 @@
 		</m_items>
 	</m_FemaleOutfits>
 	
-	<m_FemaleOutfits>
-		<m_Name>Mannequin2</m_Name>
+<m_FemaleOutfits> <m_Name>Mannequin2</m_Name>
 		<m_Guid>03d3bacc-31fa-446e-8422-b6ec8ed34803</m_Guid>
 		<m_items> <!-- Bikini -->
 			<itemGUID>a81de2bb-5f47-485e-a561-3bd4301f62be</itemGUID>
@@ -9340,8 +9217,7 @@
 		</m_items>
 	</m_FemaleOutfits>	
 
-	<m_FemaleOutfits>
-		<m_Name>StudentFemale</m_Name>
+<m_FemaleOutfits> <m_Name>StudentFemale</m_Name>
 		<m_Guid>3f469f0f-d2fb-4005-a607-acc66fe4d64e</m_Guid>			
 		<m_items> <!-- Headphones-->
 			<probability>0.01</probability>
@@ -9456,8 +9332,7 @@
 		</m_items>
 	</m_FemaleOutfits>
 
-	<m_FemaleOutfits>
-		<m_Name>VarsityFemale</m_Name>
+<m_FemaleOutfits> <m_Name>VarsityFemale</m_Name>
 		<m_Guid>1568831d-115a-451c-bac0-3a745c1d6772</m_Guid>
 		<m_Pants>false</m_Pants>
 		<m_AllowPantsHue>false</m_AllowPantsHue>
@@ -9525,8 +9400,7 @@
 		</m_items>
 	</m_FemaleOutfits>
 
-	<m_MaleOutfits>
-		<m_Name>VarsityMale</m_Name>
+<m_MaleOutfits> <m_Name>VarsityMale</m_Name>
 		<m_Guid>ef2b0225-1bf1-4818-bf92-523d2e2ac823</m_Guid>
 		<m_Pants>false</m_Pants>
 		<m_AllowPantsHue>false</m_AllowPantsHue>
@@ -9597,8 +9471,7 @@
 		</m_items>
 	</m_MaleOutfits>
 
-	<m_MaleOutfits>
-		<m_Name>StudentMale</m_Name>
+<m_MaleOutfits> <m_Name>StudentMale</m_Name>
 		<m_Guid>ae10039d-7818-4096-a9ee-12411c3cef11</m_Guid>
 		<m_items> <!-- Headphones-->
 			<probability>0.01</probability>

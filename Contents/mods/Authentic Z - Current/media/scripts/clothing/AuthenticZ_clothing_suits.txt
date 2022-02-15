@@ -305,21 +305,36 @@ module AuthenticZClothing {
         WindResistance = 0.2,
 		Tooltip = Tooltip_Dimitrescu,
 		WorldStaticModel = Dress_Long_Ground,
-    }	
-    item Dress_Maid
+    }
+    item Dress_Flower
     {
        DisplayCategory = Clothing,			
         Type = Clothing,
-        DisplayName = Short Dress,
-        ClothingItem = Dress_Maid,
+        DisplayName = Floral Print Dress,
+        ClothingItem = Dress_Flower,
         BodyLocation = Dress,
-        BloodLocation = ShortsShort;Shirt,
-        Icon = DressMaid,
-        Insulation = 0.1,
-        WindResistance = 0.05,
+        BloodLocation = Trousers;Shirt,
+        Icon = DressMediumWhite,
+        RunSpeedModifier = 0.90,
+        Insulation = 0.3,
+        WindResistance = 0.2,
         FabricType = Cotton,
-        WorldStaticModel = Dress_Short_Ground,		
+		WorldStaticModel = Dress_Long_Ground,
     }
+    item Dress_Flower_Knees
+    {
+       DisplayCategory = Clothing,			
+        Type = Clothing,
+        DisplayName = Short Floral Print Dress,
+        ClothingItem = Dress_Flower_Knees,
+        BodyLocation = Dress,
+        BloodLocation = Trousers;Shirt,
+        Icon = DressShortWhite,
+        Insulation = 0.15,
+        WindResistance = 0.1,
+        FabricType = Cotton,
+		WorldStaticModel = Dress_Short_Ground,
+    }		
     item Dress_Knees_Black
     {
        DisplayCategory = Clothing,			
@@ -333,20 +348,6 @@ module AuthenticZClothing {
         WindResistance = 0.1,
         FabricType = Cotton,
         WorldStaticModel = Dress_Short_Ground,
-    }
-    item Dress_Nurse
-    {
-       DisplayCategory = Clothing,			
-        Type = Clothing,
-        DisplayName = Short Dress,
-        ClothingItem = Dress_Nurse,
-        BodyLocation = Dress,
-        BloodLocation = ShortsShort;Shirt,
-        Icon =  DressShortWhite,
-        Insulation = 0.1,
-        WindResistance = 0.05,
-        FabricType = Cotton,
-		WorldStaticModel = Dress_Short_Ground,
     }
     item Dress_LongBlack
     {
@@ -386,28 +387,13 @@ module AuthenticZClothing {
         ClothingItem = Dress_LongFlower,
         BodyLocation = Dress,
         BloodLocation = Trousers;Shirt,
-        Icon = DressLongBlue,
+        Icon = DressLongWhite,
         RunSpeedModifier = 0.90,
         Insulation = 0.3,
         WindResistance = 0.2,
         FabricType = Cotton,
 		WorldStaticModel = Dress_Long_Ground,
     }	
-    item Dress_NormalBlue
-    {
-       DisplayCategory = Clothing,			
-        Type = Clothing,
-        DisplayName = Blue Dress,
-        ClothingItem = Dress_NormalBlue,
-        BodyLocation = Dress,
-        BloodLocation = Trousers;Shirt,
-        Icon = DressMediumBlue,
-        RunSpeedModifier = 0.93,
-        Insulation = 0.20,
-        WindResistance = 0.15,
-        FabricType = Cotton,
-		WorldStaticModel = Dress_Mid_Ground,
-    }
     item Dress_LongPink
     {
        DisplayCategory = Clothing,			
@@ -431,12 +417,41 @@ module AuthenticZClothing {
         ClothingItem = Dress_LongPolkadot,
         BodyLocation = Dress,
         BloodLocation = Trousers;Shirt,
-        Icon = DressLongPink,
+        Icon = DressLongWhite,
         RunSpeedModifier = 0.90,
         Insulation = 0.3,
         WindResistance = 0.2,
         FabricType = Cotton,
 		WorldStaticModel = Dress_Long_Ground,
+    }
+    item Dress_Maid
+    {
+       DisplayCategory = Clothing,			
+        Type = Clothing,
+        DisplayName = Short Dress,
+        ClothingItem = Dress_Maid,
+        BodyLocation = Dress,
+        BloodLocation = ShortsShort;Shirt,
+        Icon = DressMaid,
+        Insulation = 0.1,
+        WindResistance = 0.05,
+        FabricType = Cotton,
+        WorldStaticModel = Dress_Short_Ground,		
+    }	
+    item Dress_NormalBlue
+    {
+       DisplayCategory = Clothing,			
+        Type = Clothing,
+        DisplayName = Blue Dress,
+        ClothingItem = Dress_NormalBlue,
+        BodyLocation = Dress,
+        BloodLocation = Trousers;Shirt,
+        Icon = DressMediumBlue,
+        RunSpeedModifier = 0.93,
+        Insulation = 0.20,
+        WindResistance = 0.15,
+        FabricType = Cotton,
+		WorldStaticModel = Dress_Mid_Ground,
     }	
     item Dress_NormalPink
     {
@@ -453,6 +468,20 @@ module AuthenticZClothing {
         FabricType = Cotton,
 		WorldStaticModel = Dress_Mid_Ground,
     }
+    item Dress_Nurse
+    {
+       DisplayCategory = Clothing,			
+        Type = Clothing,
+        DisplayName = Short Dress,
+        ClothingItem = Dress_Nurse,
+        BodyLocation = Dress,
+        BloodLocation = ShortsShort;Shirt,
+        Icon =  DressShortWhite,
+        Insulation = 0.1,
+        WindResistance = 0.05,
+        FabricType = Cotton,
+		WorldStaticModel = Dress_Short_Ground,
+    }	
     item Dress_Purna
     {
        DisplayCategory = Clothing,			
@@ -466,6 +495,35 @@ module AuthenticZClothing {
         WindResistance = 0.05,
         FabricType = Cotton,
         WorldStaticModel = Dress_Short_Ground,		
+    }
+    item Dress_Polkadot
+    {
+       DisplayCategory = Clothing,			
+        Type = Clothing,
+        DisplayName = Polka Dot Dress,
+        ClothingItem = Dress_Polkadot,
+        BodyLocation = Dress,
+        BloodLocation = Trousers;Shirt,
+        Icon = DressMediumWhite,
+        RunSpeedModifier = 0.90,
+        Insulation = 0.3,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+		WorldStaticModel = Dress_Long_Ground,
+    }
+    item Dress_Polkadot_Knees
+    {
+       DisplayCategory = Clothing,			
+        Type = Clothing,
+        DisplayName = Short Polka Dot Dress,
+        ClothingItem = Dress_Polkadot_Knees,
+        BodyLocation = Dress,
+        BloodLocation = Trousers;Shirt,
+        Icon = DressShortWhite,
+        Insulation = 0.15,
+        WindResistance = 0.1,
+        FabricType = Cotton,
+		WorldStaticModel = Dress_Short_Ground,
     }	
     item Dress_Short2
     {

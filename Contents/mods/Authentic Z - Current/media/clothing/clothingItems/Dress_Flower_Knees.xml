@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel></m_FemaleModel>
+	<m_GUID>be4c9ec9-2c04-40dd-a556-3cdcdce64fc4</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AllowRandomHue>true</m_AllowRandomHue>		
+	<m_AttachBone></m_AttachBone>
+	<m_BaseTextures>clothes\dress_textures\Dress_Flower_Knees</m_BaseTextures>
+	<m_BaseTextures>clothes\dress_textures\Dress_Flower2_Knees</m_BaseTextures>
+	<m_BaseTextures>clothes\dress_textures\Dress_FlowerBlackBlue_Knees</m_BaseTextures>
+	<m_BaseTextures>clothes\dress_textures\Dress_FlowerBlack_Knees</m_BaseTextures>
+</clothingItem>
