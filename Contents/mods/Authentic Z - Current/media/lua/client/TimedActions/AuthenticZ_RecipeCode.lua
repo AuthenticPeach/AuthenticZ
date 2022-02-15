@@ -143,6 +143,61 @@ function KoniTestAZ_OnCreate_ConvertClothing(items, result, character)
     end
 end
 
+-- Transfer drainable amount
+function AZKeepDrainableContent_OnCreate(items, result, player)
+    if instanceof(result, "Drainable") then
+        for i=0, items:size()-1 do
+            local item = items:get(i);
+            if instanceof(item, "Drainable") then
+                result:setUsedDelta(item:getUsedDelta());
+                break;
+            end
+        end
+    end
+end
+
+-- Transfer a food nutriment into an other
+function AZKeepFoodContent_OnCreate(items, result, player)
+    if instanceof(result, "Food") then
+        for i=0, items:size()-1 do
+            local item = items:get(i);
+            if instanceof(item, "Food") then
+                
+                result:setBaseHunger(item:getBaseHunger());
+                result:setHungChange(item:getHungChange());
+                result:setThirstChange(item:getThirstChange());
+                result:setBoredomChange(item:getBoredomChange());
+                result:setUnhappyChange(item:getUnhappyChange());
+                result:setCarbohydrates(item:getCarbohydrates());
+                result:setLipids(item:getLipids());
+                result:setProteins(item:getProteins());
+                result:setCalories(item:getCalories());
+                result:setTaintedWater(item:isTaintedWater());
+
+                result:setCooked(item:isCooked());
+                result:setBurnt(item:isBurnt());
+                result:setPoisonDetectionLevel(item:getPoisonDetectionLevel());
+                result:setPoisonPower(item:getPoisonPower());
+
+                if item:getSpices() then
+                    result:setSpices(item:getSpices());
+                    result:setSpices(item:getSpices());
+                end
+
+                if item:haveExtraItems() then
+                    local extras = item:getExtraItems();
+                    for i = 0, extras:size() - 1 do
+                        local extra = extras:get(i);
+                        result:addExtraItem(extra);
+                    end
+                end
+
+                break;
+            end
+        end
+    end
+end
+
 Give20TailoringXP = AZRecipe.OnGiveXP.Tailoring20
 GiveMeRadio = AZRecipe.OnCreate.GiveMeRadio
 

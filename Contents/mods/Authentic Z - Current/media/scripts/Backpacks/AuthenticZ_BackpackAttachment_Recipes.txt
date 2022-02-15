@@ -225,6 +225,7 @@ recipe Make Backpack Attachable
   	{
    	   Pop,
 
+	   OnCreate:AZKeepFoodContent_OnCreate,
    	   Result:AuthenticZClothing.Pop,
 	   Time:30.0,
 	   Tooltip:Tooltip_AttachBackpack,
@@ -233,6 +234,7 @@ recipe Make Backpack Attachable
   	{
    	   Pop2,
 
+	   OnCreate:AZKeepFoodContent_OnCreate,
    	   Result:AuthenticZClothing.Pop2,
 	   Time:30.0,
 	   Tooltip:Tooltip_AttachBackpack,
@@ -241,25 +243,10 @@ recipe Make Backpack Attachable
   	{
    	   Pop3,
 
+	   OnCreate:AZKeepFoodContent_OnCreate,
    	   Result:AuthenticZClothing.Pop3,
 	   Time:30.0,
 	   Tooltip:Tooltip_AttachBackpack,
-  	}	
-recipe Revert Attachable
-  	{
-   	   AuthenticZClothing.Saw,
-
-   	   Result:Saw,
-	   Time:30.0,
-	   Tooltip:Tooltip_AttachBackpackRevert,
-  	}
-recipe Revert Attachable
-  	{
-   	   AuthenticZClothing.GardenSaw,
-
-   	   Result:GardenSaw,
-	   Time:30.0,
-	   Tooltip:Tooltip_AttachBackpackRevert,
   	}	
 recipe Revert Attachable
   	{
@@ -489,6 +476,7 @@ recipe Make Backpack Attachable
   	{
    	   destroy Base.WaterBottleFull,
 
+	   OnCreate:AZKeepDrainableContent_OnCreate,
    	   Result:AuthenticZClothing.WaterBottleFull,
 	   Time:30.0,
 	   Tooltip:Tooltip_AttachBackpack,
@@ -497,6 +485,7 @@ recipe Make Backpack Attachable
   	{
    	   destroy Base.WaterPopBottle,
 
+	   OnCreate:AZKeepDrainableContent_OnCreate,
    	   Result:AuthenticZClothing.WaterPopBottle,
 	   Time:30.0,
 	   Tooltip:Tooltip_AttachBackpack,
@@ -505,6 +494,7 @@ recipe Make Backpack Attachable
   	{
    	   destroy Base.PopBottle,
 
+	   OnCreate:AZKeepFoodContent_OnCreate,
    	   Result:AuthenticZClothing.PopBottle,
 	   Time:30.0,
 	   Tooltip:Tooltip_AttachBackpack,
