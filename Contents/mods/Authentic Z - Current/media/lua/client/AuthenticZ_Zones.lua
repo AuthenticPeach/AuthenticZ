@@ -41,7 +41,7 @@ local function OnGameStart()
 		--getWorld():registerZone("CrossroadsMallMiscShops", "ZombiesType", 13935, 5771, 0, 65, 63) -- Top Right Shops
 		--getWorld():registerZone("CrossroadsMallCoffeeShop", "ZombiesType", 13953, 5902, 0, 13, 7) -- Front Coffee shop	
 		--getWorld():registerZone("CrossroadsMallDeptStore", "ZombiesType", 13902, 5822, 0, 100, 78) -- Bottom Right shop			
-		getWorld():registerZone("DayZBleu", "ZombiesType", 10470, 12843, 0, 48, 57) -- Southern March Ridge
+--		getWorld():registerZone("DayZBleu", "ZombiesType", 10470, 12843, 0, 48, 57) -- Southern March Ridge
 		getWorld():registerZone("Dianne", "ZombiesType", 8426, 11720, 0, 53, 50) --East edge of Rosewood			
 		getWorld():registerZone("Dinner", "ZombiesType", 3699, 8455, 0, 9, 16)--Ekron Diner Station                        --
 		getWorld():registerZone("Dormitory", "ZombiesType", 10048, 12611, 0, 76, 56)--March Ridge Dormitory				
@@ -52,8 +52,8 @@ local function OnGameStart()
 --		getWorld():registerZone("ExclusionZone", "ZombiesType", 3015, 5787, 0, 50, 45)--West end of map w/ barricade (S)
 --		getWorld():registerZone("ExclusionZone", "ZombiesType", 10583, 13442, 0, 50, 50)--Southern end of map w/ barricade
 --		getWorld():registerZone("FancyHotel", "ZombiesType", 10599, 9791, 0, 54, 50) -- Sunstar Motel Muldraugh		
-		getWorld():registerZone("FishingZone", "ZombiesType", 12479, 5295, 0, 50, 50)			
-		getWorld():registerZone("FishingZone", "ZombiesType", 12483, 5297, 0, 50, 50)                                   --
+--		getWorld():registerZone("FishingZone", "ZombiesType", 12479, 5295, 0, 50, 50)			
+--		getWorld():registerZone("FishingZone", "ZombiesType", 12483, 5297, 0, 50, 50)                                   --
 		getWorld():registerZone("FishingZone", "ZombiesType", 12919, 6850, 0, 50, 50) --River near cursed bridge         --
 		getWorld():registerZone("FishingZone", "ZombiesType", 12919, 6852, 0, 50, 50)--cont               
 		getWorld():registerZone("FishingZone", "ZombiesType", 12924, 6855, 0, 50, 50)--cont
@@ -113,7 +113,7 @@ local function OnGameStart()
 		getWorld():registerZone("PizzaDelivery", "ZombiesType", 9901, 12662, 0, 15, 27) --North March Ridge
 		getWorld():registerZone("PizzaDelivery", "ZombiesType", 14070, 5544, 0, 20, 22) --North March Ridge	
 		getWorld():registerZone("PlanetTerror", "ZombiesType", 5910, 5229, 0, 60, 45) -- Western Riverside			
-		getWorld():registerZone("Postal2", "ZombiesType", 10899, 9774, 0, 70, 36)  -- Muldraugh Trailerpark	
+--		getWorld():registerZone("Postal2", "ZombiesType", 10899, 9774, 0, 70, 36)  -- Muldraugh Trailerpark	
 --		getWorld():registerZone("Psycho", "ZombiesType", 3835, 6162, 0, 40, 68) --Abandoned Warehouse	
 		getWorld():registerZone("ResidentEvil", "ZombiesType", 10599, 9203, 0, 40, 59)  -- Northern Muldraugh
 --		getWorld():registerZone("TheDregs", "ZombiesType", 11551, 10001, 0, 70, 100) -- Muldraugh Trainyard		
@@ -130,6 +130,8 @@ function RWMVolume:verifyItem(_item)
     end
 end
 
+--Have bags keep inventory items during craft
+--TODO, Fix part on keeping texture
 function PleaseKeepColor(item, resultItem, player)
 
 	local player_Inventory = player:getInventory();

@@ -715,7 +715,7 @@ ItemName_EN = {
 	ItemName_AuthenticZClothing.Hat_FootballHelmet_Packers = "Packers Football Helmet",
 	ItemName_AuthenticZClothing.Hat_FootballHelmet_RedSkull = "Football Helmet",
 	ItemName_AuthenticZClothing.Hat_FootballHelmet_Patriots = "Patriots Football Helmet",
-	ItemName_AuthenticZClothing.Hat_RuneDuel 	 = "Fantasy Duelist Hat",
+	ItemName_AuthenticZClothing.Hat_RuneDuel = "Fantasy Duelist Hat",
 	ItemName_AuthenticZClothing.InflatableTube_AZ = "Inflatable Tube",	
 	ItemName_AuthenticZClothing.Jacket_Doctor3 	 = "Medical Coat",
 	ItemName_AuthenticZClothing.Shoes_TrainersAZ = "High Top Sneakers",	
@@ -737,7 +737,6 @@ ItemName_EN = {
 	ItemName_AuthenticZClothing.Skirt_ShortRedPlaid = "Short Red Plaid Skirt",
 	ItemName_AuthenticZClothing.Skirt_ShortPlaid = "Short Plaid Skirt",
 	ItemName_AuthenticZClothing.Authentic_PomPomRed = "Cheerleading Pom Pom",
-	ItemName_AuthenticZClothing.Authentic_PomPomRed = "Cheerleading Pom Pom",
 	ItemName_AuthenticZClothing.AuthenticWalkingCaneMetal =  "Metal Walking Cane",		
 	ItemName_AuthenticZClothing.AuthenticBouquetFlowers =  "Bouquet of Flowers",		
 	ItemName_AuthenticZClothing.AuthenticFreeHugsSign =  "Free Hugs Sign",		
@@ -746,10 +745,12 @@ ItemName_EN = {
 	
 	ItemName_AuthenticZClothing.Hairstyle_Afro_Pick2 =  "Afro Pick",
 	
-	/* New */		
+	/* New */
+	ItemName_AuthenticZClothing.Authentic_PomPomBlue = "Cheerleading Pom Pom",	
 	ItemName_AuthenticZClothing.AuthenticTagillaSledgehammer =  "Tagilla's Sledgehammer",
 	ItemName_AuthenticZClothing.Hat_BaseballCapBossTagilla =  "Boss Baseball Cap",
 	ItemName_AuthenticZClothing.Hat_BaseballCapBossTagilla_Reverse =  "Boss Baseball Cap",	
+	ItemName_AuthenticZClothing.AuthenticBingoDotter =  "Purple Bingo Dabber",
 	ItemName_AuthenticZClothing.AuthenticBingoDotterOrange =  "Orange Bingo Dabber",
 	ItemName_AuthenticZClothing.AuthenticBingoDotterRed =  "Red Bingo Dabber",
 	ItemName_AuthenticZClothing.AuthenticBingoDotterTeal =  "Teal Bingo Dabber",
@@ -758,6 +759,10 @@ ItemName_EN = {
 	ItemName_AuthenticZClothing.AuthenticWalkingCaneJP =  "Mosquito Amber Walking Cane",
 	ItemName_AuthenticZClothing.AuthenticWalkingCaneGrandFather =  "Antique Walking Cane",
 	ItemName_AuthenticZClothing.Dress_LongPolkadot =  "Long Polka Dot Dress",
+	ItemName_AuthenticZClothing.Dress_Polkadot =  "Polka Dot Dress",
+	ItemName_AuthenticZClothing.Dress_Polkadot_Knees =  "Short Polka Dot Dress",
 	ItemName_AuthenticZClothing.Dress_LongFlower =  "Long Floral Print Dress",
+	ItemName_AuthenticZClothing.Dress_Flower =  "Floral Print Dress",
+	ItemName_AuthenticZClothing.Dress_Flower_Knees =  "Short Floral Print Dress",
 	
 }

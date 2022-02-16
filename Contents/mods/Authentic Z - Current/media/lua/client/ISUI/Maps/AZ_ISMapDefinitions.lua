@@ -1,3 +1,4 @@
+--This file is dedicated towards the functionality of the Hit-lists (Custom Annotated maps)
 require 'Maps/ISMapDefinitions'
 
 local MINZ = 0

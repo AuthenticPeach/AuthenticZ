@@ -1,3 +1,4 @@
+--This file is dedicated towards tweaking particular item scripts to have certain tags
 local TweakItemData = {};
 
 --Prep code to make the changes to all item in the TweakItemData table.

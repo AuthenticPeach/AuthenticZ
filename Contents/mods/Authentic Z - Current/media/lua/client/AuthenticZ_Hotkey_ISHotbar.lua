@@ -1,3 +1,4 @@
+--This file is dedicated towards adding new keyBindings for the hotbar slots
 require "ISUI/ISPanelJoypad"
 
 function ISHotbar:getSlotForKey(key)
@@ -16,6 +17,11 @@ function ISHotbar:getSlotForKey(key)
 	if key == getCore():getKey("Hotbar 13") then return 13; end	
 	if key == getCore():getKey("Hotbar 14") then return 14; end	
 	if key == getCore():getKey("Hotbar 15") then return 15; end	
+	if key == getCore():getKey("Hotbar 16") then return 16; end	
+	if key == getCore():getKey("Hotbar 17") then return 17; end	
+	if key == getCore():getKey("Hotbar 18") then return 18; end	
+	if key == getCore():getKey("Hotbar 19") then return 19; end	
+	if key == getCore():getKey("Hotbar 20") then return 20; end	
 
 	return -1
 end

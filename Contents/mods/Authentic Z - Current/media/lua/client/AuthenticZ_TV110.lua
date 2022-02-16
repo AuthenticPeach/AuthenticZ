@@ -1,3 +1,5 @@
+--This file is dedicated towards the TV110's ability to only carry ammo
+
 AZ_TV110Vest = {}
 AZ_TV110Vest.AcceptItemFunctionTV110 = function(inventoryContainer, inventoryItem)
 local scriptItem = inventoryItem:getScriptItem()

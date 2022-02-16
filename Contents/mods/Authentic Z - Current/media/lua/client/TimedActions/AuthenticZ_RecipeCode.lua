@@ -1,3 +1,4 @@
+-- This file is dedicated towards the recipe functions that the recipe scripts call upon. 
 require "Recipecode"
 require "XpSystem/XpUpdate"
 

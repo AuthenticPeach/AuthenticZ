@@ -1,7 +1,5 @@
 require "Definitions/AttachedWeaponDefinitions"
 -- define weapons to be attached to zombies when creating them
--- random knives inside their neck, spear in their stomach, meatcleaver in their back...
--- this is used in IsoZombie.addRandomAttachedWeapon()
 
 --These will be applied to all zombies on random. 
 --Chance for a Meat chunk!
@@ -121,7 +119,6 @@ AttachedWeaponDefinitions.BalloonP3= {
 	},
 }
 
-
 AttachedWeaponDefinitions.BrickBusterVHS = {
 	id = "AZVHS",
 	chance = 100,
@@ -230,7 +227,6 @@ AttachedWeaponDefinitions.ElderlyBingo = {
     "AuthenticZClothing.AuthenticBingoDotterYellow",
 	},
 }
-
 
 AttachedWeaponDefinitions.ElderlyCane = {
 	chance = 100,
@@ -452,6 +448,8 @@ AttachedWeaponDefinitions.HazardassaultRifleOnBack = {
 	weapons = {
 		"Base.AssaultRifle",
 		"Base.AssaultRifle2",
+		"Base.VarmintRifle",
+		"Base.HuntingRifle",		
 	},
 }
 
@@ -464,21 +462,6 @@ AttachedWeaponDefinitions.SnowGhillie = {
 	bloodLocations = nil,
 	addHoles = false,
 	daySurvived = 125,
-	weapons = {
-		"Base.VarmintRifle",
-		"Base.HuntingRifle",
-	},
-}
-
--- varmint/hunting rifle on back
-AttachedWeaponDefinitions.HazardSuitRifle = {
-	id = "HazardSuitRifle",
-	chance = 30,
-	outfit = {"AuthenticSurvivorHazardSuit", "HazardSuitRifle"},
-	weaponLocation =  {"Rifle On Back"},
-	bloodLocations = nil,
-	addHoles = false,
-	daySurvived = 0,
 	weapons = {
 		"Base.VarmintRifle",
 		"Base.HuntingRifle",
@@ -514,7 +497,7 @@ AttachedWeaponDefinitions.handaxeLoganCarter = {
 	},
 }
 
--- varmint/hunting rifle on back
+-- M16 as Leg
 AttachedWeaponDefinitions.M16Cherry = {
 	id = "CherryLeg",
 	chance = 100,
@@ -564,20 +547,6 @@ AttachedWeaponDefinitions.SpikedBat = {
 	},
 }
 
--- hammer/axe in belt left (so we keep knives for belt right if we got multiple items)
-AttachedWeaponDefinitions.hammerBeltAZ = {
-	chance = 80,
-	outfit = {"AuthenticDISamB"},
-	weaponLocation = {"Belt Left"},
-	bloodLocations = nil,
-	addHoles = false,
-	daySurvived = 0,
-	weapons = {
-		"Base.HandAxe",
-		"Base.Hammer",
-		"Base.HammerStone",
-	},
-}
 AttachedWeaponDefinitions.HammerOnlyBelt = {
 	chance = 100,
 	outfit = {"AuthenticDISamB", "AuthenticNMRIHJive"},
@@ -681,7 +650,7 @@ AttachedWeaponDefinitions.MinerLightbulb = {
 		"AuthenticZClothing.Authentic_MinerLightbulb",
 	},
 }
--- Knife in Right Hand
+-- Kitchen Knife in Right Hand
 AttachedWeaponDefinitions.KniveinHand = {
 	chance = 100,
 	outfit = {"AuthenticHalloween", "AuthenticTrueEyeCult", "AuthenticJasonPart2", "AuthenticGhostFace"},
@@ -693,6 +662,7 @@ AttachedWeaponDefinitions.KniveinHand = {
 		"Base.KitchenKnife",
 	},
 }
+--Hunting Knife in Right Hand
 AttachedWeaponDefinitions.HuntingKniveinHand = {
 	chance = 100,
 	outfit = {"AuthenticDRTrueEyeCult"},
@@ -704,6 +674,7 @@ AttachedWeaponDefinitions.HuntingKniveinHand = {
 		"Base.HuntingKnife",
 	},
 }
+
 AttachedWeaponDefinitions.axeRochelle = {
 	chance = 100,
 	outfit = {"AuthenticRochelle", "AuthenticNMRIHBateman"},
@@ -729,7 +700,7 @@ AttachedWeaponDefinitions.shotgunMadMax = {
 	},
 }
 
--- shotgun on police's back
+-- sawnoff shotgun on back
 AttachedWeaponDefinitions.shotgunDukeNukem = {
 	id = "shotgunDukeNukem",
 	chance = 100,
@@ -865,8 +836,8 @@ AttachedWeaponDefinitions.PomPom2= {--For Later
 	addHoles = false,
 	daySurvived = 0,
 	weapons = {
-    "AuthenticZClothing.Authentic_PomPomWhite",
-	"AuthenticZClothing.Authentic_PomPomBlack",
+    "AuthenticZClothing.Authentic_PomPomRed",
+	"AuthenticZClothing.Authentic_PomPomBlue",
 	},
 }
 
@@ -946,18 +917,7 @@ AttachedWeaponDefinitions.ToiletPlungerOdd = {
     "Base.BucketEmpty",	
 	},
 }
-AttachedWeaponDefinitions.Bucket = {
-	id = "BucketHead",
-	chance = 100,
-	outfit = {"AuthenticBub"},
-	weaponLocation = {"BucketHead"},
-	bloodLocations = nil,
-	addHoles = false,
-	daySurvived = 0,
-	weapons = {
-    "Base.BucketEmpty",
-	},
-}
+
 AttachedWeaponDefinitions.ToiletPlungerBelt = {
 	id = "AZToiletPlungerBelt",
 	chance = 100,
@@ -982,6 +942,7 @@ AttachedWeaponDefinitions.TorchMelee = {
     "AuthenticZClothing.TorchMelee",
 	},
 }
+
 AttachedWeaponDefinitions.WaldoCane = {
 	chance = 100,
 	outfit = {"AuthenticWaldo"},
@@ -993,6 +954,7 @@ AttachedWeaponDefinitions.WaldoCane = {
     "AuthenticZClothing.AuthenticWalkingCane",
 	},
 }
+
 AttachedWeaponDefinitions.AndySign = {
 	id = "AndySign",
 	chance = 100,
@@ -1005,18 +967,7 @@ AttachedWeaponDefinitions.AndySign = {
     "AuthenticZClothing.Authentic_AndyBoard",
 	},
 }
-AttachedWeaponDefinitions.Bucket = {
-	id = "BucketHead",
-	chance = 100,
-	outfit = {"AuthenticBub"},
-	weaponLocation = {"BucketHead"},
-	bloodLocations = nil,
-	addHoles = false,
-	daySurvived = 0,
-	weapons = {
-    "Base.BucketEmpty",
-	},
-}
+
 AttachedWeaponDefinitions.AuthenticLouis = {
 	chance = 100,
 	outfit = {"AuthenticLouis"},
@@ -1028,6 +979,7 @@ AttachedWeaponDefinitions.AuthenticLouis = {
     "Base.Pistol3",
 	},
 }
+
 AttachedWeaponDefinitions.handgunBub = {
 	chance = 100,
 	outfit = {"AuthenticBub"},
@@ -1317,10 +1269,9 @@ AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticBobRoss = {
 }
 AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticBub = {
 	chance = 100;
-	maxitem = 3;
+	maxitem = 1;
 	weapons = {
 		AttachedWeaponDefinitions.handgunBub,
-		AttachedWeaponDefinitions.Bucket,
 	},
 }
 AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticChainsawMaid = {
@@ -1407,10 +1358,9 @@ AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticDIPurnaJackson = {
 }
 AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticDISamB = {
 	chance = 100;
-	maxitem = 2;
+	maxitem = 1;
 	weapons = {
 		AttachedWeaponDefinitions.HammerOnlyBelt,
-		AttachedWeaponDefinitions.hammerBeltAZ,
 	},
 }
 
@@ -1827,7 +1777,6 @@ AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticDawnoftheDead = {
 	weapons = {
 		AttachedWeaponDefinitions.shotgunPoliceAZ,
 		AttachedWeaponDefinitions.HazardassaultRifleOnBack,
-		AttachedWeaponDefinitions.HazardSuitRifle,
 		AttachedWeaponDefinitions.handgunHolsterAZ,
 		AttachedWeaponDefinitions.knivesBeltAZ,
 		AttachedWeaponDefinitions.nightstickAZ,
@@ -1839,7 +1788,6 @@ AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticSurvivorHazardSuit
 	weapons = {
 		AttachedWeaponDefinitions.shotgunPoliceAZ,
 		AttachedWeaponDefinitions.HazardassaultRifleOnBack,
-		AttachedWeaponDefinitions.HazardSuitRifle,
 		AttachedWeaponDefinitions.handgunHolsterAZ,
 		AttachedWeaponDefinitions.knivesBeltAZ,
 		AttachedWeaponDefinitions.HammerTime,
