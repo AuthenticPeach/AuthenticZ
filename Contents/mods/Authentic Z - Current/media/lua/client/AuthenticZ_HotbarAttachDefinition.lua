@@ -735,6 +735,7 @@ local AlicepackBottleLeft = {
 	attachments = { -- list of possible item category and their modelAttachement group, the item category is defined in the item script
 		WaterBottle = "Alicepack Waterbottle Left",
 		Canteen = "Alicepack Canteen Left",
+		Sodacan = "Alicepack Sodacan Left",		
 		PillBottle = "Alicepack PillBottle Left",		
 	},
 }
