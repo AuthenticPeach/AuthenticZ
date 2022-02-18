@@ -1397,7 +1397,7 @@ module AuthenticZClothing {
 		DisplayName = Gorilla Welding Mask,
 		ClothingItem = Hat_TagillaMask2,
 		BodyLocation = Mask,
-		Icon = MaskTagilla,
+		Icon = MaskTagillaGorilla,
 		BloodLocation = Head,
 		CanHaveHoles = false,
 		CombatSpeedModifier = 0.95,
@@ -1406,7 +1406,7 @@ module AuthenticZClothing {
         Insulation = 0.45,
         WindResistance = 0.65,
         WaterResistance = 1.0,
-        WorldStaticModel = WorldItem-TagillaHelmet,			
+        WorldStaticModel = WorldItem-TagillaHelmetGorilla,			
 	}	
 	item Hat_TrueEyeCult
 	{

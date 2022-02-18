@@ -8711,6 +8711,12 @@
 		</m_items>			
 		<m_items> <!-- Tagilla Welding Mask -->
 			<itemGUID>97a3fa4b-d725-4f28-9ed1-65705a5a6864</itemGUID>
+			<subItems>
+				<itemGUID>97a3fa4b-d725-4f28-9ed1-65705a5a6864</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>f6259adc-0532-4cd8-a97c-17e4003acaaf</itemGUID>
+			</subItems>			
 		</m_items>
 		<m_items> <!-- Gold Necklace-->
 			<itemGUID>3ae13d94-8df6-45c7-9e99-ad03c7d411ce</itemGUID>
