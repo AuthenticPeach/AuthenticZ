@@ -2,8 +2,6 @@ module AuthenticZClothing{
   imports {
       Base
   }
-	/* List of Gear left to attach*/
-	/*Saws, Propane Torch*/	
 	
 	item Bag_Schoolbag_Tier_1
     {

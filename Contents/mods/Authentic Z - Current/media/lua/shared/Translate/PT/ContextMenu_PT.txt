@@ -1,4 +1,4 @@
-ContextMenu_EN = {
+ContextMenu_PT = {
 	ContextMenu_Loosen = "Alargar",
 	ContextMenu_Tighten = "Apertar",
 	ContextMenu_TieOnWaist = "Atar à volta da cintura",

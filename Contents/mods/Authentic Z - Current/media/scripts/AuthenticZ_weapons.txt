@@ -1738,6 +1738,7 @@ module AuthenticZClothing {
         BaseSpeed = 1,
         WeaponLength = 0.1,		
 		AttachmentType = Wrench,
+        OBSOLETE = TRUE,			
     }
     item Stake2
 	{

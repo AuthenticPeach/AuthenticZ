@@ -243,6 +243,23 @@ module AuthenticZBackpacks+ {
 		WorldStaticModel 		= 	WorldItem-BalloonBlue,			
 		AttachmentType 			= BalloonSlot,
     }
+
+    item AuthenticBalloonGroup_Blue
+    {
+		DisplayCategory = Household,	
+        Type					=	Normal,
+        DisplayName				=	Group of Blue Balloons,
+        Icon					=	Balloon_Blue,
+        Weight					=	0.1,
+        primaryAnimMask 		= 	HoldingUmbrellaRight,
+        secondaryAnimMask 		= 	HoldingUmbrellaLeft,
+        StaticModel 			= 	AuthenticBalloon_Group_Blue,
+        ProtectFromRainWhenEquipped 	= 	TRUE,
+        EquippedNoSprint 		= 	TRUE,
+		WorldStaticModel 		= 	WorldItem-BalloonGroupBlue,			
+		AttachmentType 			= 	BalloonSlot,
+    }
+
     item AuthenticBalloon_Green
     {
 		DisplayCategory 			= Household,	
@@ -257,6 +274,51 @@ module AuthenticZBackpacks+ {
         EquippedNoSprint 			= 	TRUE,
 		AttachmentType  			= 	BalloonSlot,
 		WorldStaticModel 			= 	WorldItem-BalloonGreen,			
+    }
+    item AuthenticBalloonGroup_Green
+    {
+		DisplayCategory = Household,	
+        Type					=	Normal,
+        DisplayName				=	Group of Green Balloons,
+        Icon					=	Balloon_Green,
+        Weight					=	0.1,
+        primaryAnimMask 		= 	HoldingUmbrellaRight,
+        secondaryAnimMask 		= 	HoldingUmbrellaLeft,
+        StaticModel 			= 	AuthenticBalloon_Group_Green,
+        ProtectFromRainWhenEquipped 	= 	TRUE,
+        EquippedNoSprint 		= 	TRUE,
+		WorldStaticModel 		= 	WorldItem-BalloonGroupGreen,			
+		AttachmentType 			= 	BalloonSlot,
+    }
+    item AuthenticBalloon_Pink
+    {
+		DisplayCategory 			= Household,		
+        Type						=	Normal,
+        DisplayName					=	Pink Balloon,
+        Icon						=	Balloon_Pink,
+        Weight						=	0.1,
+        primaryAnimMask 			= 	HoldingUmbrellaRight,
+        secondaryAnimMask 			= 	HoldingUmbrellaLeft,
+        StaticModel 				= 	AuthenticBalloonPink,
+        ProtectFromRainWhenEquipped = 	TRUE,
+        EquippedNoSprint 			= 	TRUE,
+		AttachmentType  			= 	BalloonSlot,
+		WorldStaticModel 			= 	WorldItem-BalloonPink,			
+    }
+    item AuthenticBalloonGroup_Pink
+    {
+		DisplayCategory = Household,	
+        Type					=	Normal,
+        DisplayName				=	Group of Pink Balloons,
+        Icon					=	Balloon_Pink,
+        Weight					=	0.1,
+        primaryAnimMask 		= 	HoldingUmbrellaRight,
+        secondaryAnimMask 		= 	HoldingUmbrellaLeft,
+        StaticModel 			= 	AuthenticBalloon_Group_Pink,
+        ProtectFromRainWhenEquipped 	= 	TRUE,
+        EquippedNoSprint 		= 	TRUE,
+		WorldStaticModel 		= 	WorldItem-BalloonGroupPink,			
+		AttachmentType 			= BalloonSlot,
     }		
     item AuthenticBalloon_Purple
     {
@@ -270,8 +332,23 @@ module AuthenticZBackpacks+ {
         StaticModel 				= 	AuthenticBalloonPurple,
         ProtectFromRainWhenEquipped = 	TRUE,
         EquippedNoSprint 			= 	TRUE,
-		AttachmentType  			= BalloonSlot,
-		WorldStaticModel 		= 	WorldItem-BalloonPurple,			
+		AttachmentType  			= 	BalloonSlot,
+		WorldStaticModel 			= 	WorldItem-BalloonPurple,			
+    }
+    item AuthenticBalloonGroup_Purple
+    {
+		DisplayCategory = Household,	
+        Type					=	Normal,
+        DisplayName				=	Group of Purple Balloons,
+        Icon					=	Balloon_Purple,
+        Weight					=	0.1,
+        primaryAnimMask 		= 	HoldingUmbrellaRight,
+        secondaryAnimMask 		= 	HoldingUmbrellaLeft,
+        StaticModel 			= 	AuthenticBalloon_Group_Purple,
+        ProtectFromRainWhenEquipped 	= 	TRUE,
+        EquippedNoSprint 		= 	TRUE,
+		WorldStaticModel 		= 	WorldItem-BalloonGroupPurple,			
+		AttachmentType 			= BalloonSlot,
     }	
     item AuthenticBalloon_Red
     {
@@ -287,6 +364,21 @@ module AuthenticZBackpacks+ {
         EquippedNoSprint 				= 	TRUE,
 		AttachmentType  				= 	BalloonSlot,
 		WorldStaticModel 				= 	WorldItem-BalloonRed,			
+    }
+    item AuthenticBalloonGroup_Red
+    {
+		DisplayCategory = Household,	
+        Type					=	Normal,
+        DisplayName				=	Group of Red Balloons,
+        Icon					=	Balloon_Red,
+        Weight					=	0.1,
+        primaryAnimMask 		= 	HoldingUmbrellaRight,
+        secondaryAnimMask 		= 	HoldingUmbrellaLeft,
+        StaticModel 			= 	AuthenticBalloon_Group_Red,
+        ProtectFromRainWhenEquipped 	= 	TRUE,
+        EquippedNoSprint 		= 	TRUE,
+		WorldStaticModel 		= 	WorldItem-BalloonGroupRed,			
+		AttachmentType 			= BalloonSlot,
     }	
     item AuthenticBalloon_White
     {
@@ -303,9 +395,24 @@ module AuthenticZBackpacks+ {
 		AttachmentType 				= 	BalloonSlot,
 		WorldStaticModel 			= 	WorldItem-BalloonWhite,			
     }
+    item AuthenticBalloonGroup_White
+    {
+		DisplayCategory = Household,	
+        Type					=	Normal,
+        DisplayName				=	Group of White Balloons,
+        Icon					=	Balloon_White,
+        Weight					=	0.1,
+        primaryAnimMask 		= 	HoldingUmbrellaRight,
+        secondaryAnimMask 		= 	HoldingUmbrellaLeft,
+        StaticModel 			= 	AuthenticBalloon_Group_White,
+        ProtectFromRainWhenEquipped 	= 	TRUE,
+        EquippedNoSprint 		= 	TRUE,
+		WorldStaticModel 		= 	WorldItem-BalloonGroupWhite,			
+		AttachmentType 			= 	BalloonSlot,
+    }	
     item AuthenticBalloon_Yellow
     {
-		DisplayCategory = Household,		
+		DisplayCategory 				= Household,		
         Type							=	Normal,
         DisplayName						=	Yellow Balloon,
         Icon							=	Balloon_Yellow,
@@ -318,20 +425,20 @@ module AuthenticZBackpacks+ {
 		AttachmentType  				= 	BalloonSlot,
 		WorldStaticModel 				= 	WorldItem-BalloonYellow,		
     }	
-    item AuthenticBalloon_Group
+    item AuthenticBalloon_Group_Yellow
     {
-		DisplayCategory = Household,		
-        Type							=	Normal,
-        DisplayName						=	Group of Balloons,
-        Icon							=	Balloon_Group1,
-        Weight							=	0.2,
-        primaryAnimMask 				= 	HoldingUmbrellaRight,
-        secondaryAnimMask 				= 	HoldingUmbrellaLeft,
-        StaticModel 					= 	AuthenticBalloonWhite,
+		DisplayCategory 		= Household,	
+        Type					=	Normal,
+        DisplayName				=	Group of Yellow Balloons,
+        Icon					=	Balloon_Yellow,
+        Weight					=	0.1,
+        primaryAnimMask 		= 	HoldingUmbrellaRight,
+        secondaryAnimMask 		= 	HoldingUmbrellaLeft,
+        StaticModel 			= 	AuthenticBalloon_Group_Yellow,
         ProtectFromRainWhenEquipped 	= 	TRUE,
-        EquippedNoSprint 				= 	TRUE,
-		AttachmentType  				= 	BalloonSlot,
-		WorldStaticModel 				= 	WorldItem-BalloonBlue,			
+        EquippedNoSprint 		= 	TRUE,
+		WorldStaticModel 		= 	WorldItem-BalloonGroupYellow,			
+		AttachmentType 			= 	BalloonSlot,		
     }	
     item Authentic_CoffeeCup
     {

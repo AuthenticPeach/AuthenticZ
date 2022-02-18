@@ -18,6 +18,7 @@ module AuthenticZBackpacks+ {
         StaticModel 		= 	BlowTorch,
         WeightEmpty 		= 	0.3,
         WorldStaticModel 	= 	BlowtorchGround,
+        OBSOLETE			=	TRUE,		
     }
  
     item Rope
@@ -30,7 +31,8 @@ module AuthenticZBackpacks+ {
         SurvivalGear 			= 	TRUE,
         WorldStaticModel 		=	Rope,
 		AttachmentType  		= 	Rope,	
-		StaticModel 			= 	NewRope,		
+		StaticModel 			= 	NewRope,
+        OBSOLETE 				= 	TRUE,		
     }
 
 	item Hat_GasMask
@@ -1151,6 +1153,7 @@ module AuthenticZBackpacks+ {
         Tags 				= Saw,
 		AttachmentType   	= Saw,			
         WorldStaticModel 	= GardenSawGround,
+		OBSOLETE 			= TRUE,
     }
 
 	item Saw
@@ -1166,6 +1169,7 @@ module AuthenticZBackpacks+ {
         Tags 				= 	Saw,
 		AttachmentType   	= 	Saw,	
         WorldStaticModel 	= 	HacksawGround,
+	    OBSOLETE 			= 	TRUE,	
 	}
 
 }		

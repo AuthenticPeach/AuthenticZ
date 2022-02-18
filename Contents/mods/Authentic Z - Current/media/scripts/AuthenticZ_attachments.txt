@@ -3121,7 +3121,7 @@ module Base
 
 		attachment BackpackSecondary_AlicepackLunchbox
 		{
-			offset = 0.0410 0.1110 -0.2450,
+			offset = 0.0410 0.1110 -0.1950,
 			rotate = 112.0000 21.0000 170.0000,
 			bone = Bip01_BackPack,
 		}

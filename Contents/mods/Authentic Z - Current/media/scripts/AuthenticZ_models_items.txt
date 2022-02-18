@@ -359,22 +359,22 @@ module Base
 	}
 	model PomPomBlack
 	{
-		mesh = Weapons/1Handed/PomPom,
+		mesh = Weapons/1Handed/AZPomPom,
 		texture = clothes\Items\PomPomBlack,
 	}
 	model PomPomBlue
 	{
-		mesh = Weapons/1Handed/PomPom,
+		mesh = Weapons/1Handed/AZPomPom,
 		texture = clothes\Items\PomPomBlue,
 	}	
 	model PomPomRed
 	{
-		mesh = Weapons/1Handed/PomPom,
+		mesh = Weapons/1Handed/AZPomPom,
 		texture = clothes\Items\PomPomRed,
 	}	
 	model PomPomWhite
 	{
-		mesh = Weapons/1Handed/PomPom,
+		mesh = Weapons/1Handed/AZPomPom,
 		texture = clothes\Items\PomPomWhite,
 	}	
 	model StopSign
@@ -827,8 +827,7 @@ module Base
 	model WorldItem-TagillaHelmet
     {
 		mesh = WorldItems/WorldItem-TagillaHelmet,
-		texture = clothes\Masks\TagillaWeldingMask,
-		scale = 100,		
+		texture = clothes\Hats\TagillaWeldingMask,	
     }	
 	model WorldItem-TrueEyeCult
     {

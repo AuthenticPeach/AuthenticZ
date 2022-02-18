@@ -1,4 +1,4 @@
-ItemName_EN = {
+ItemName_PT = {
 
 /* Bags */
 

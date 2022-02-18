@@ -41,10 +41,19 @@ Recipes_PT = {
 	Recipe_Revert_Attachable = "Reverter anexo",
 	Recipe_Reuse_Bag = "Reutilisar mala",	
 	Recipe_Make_Backpack_Attachable = "Fazer anexo para mochila",
-
-	/* New*/	
+	
 
 	Recipe_Upgrade_Evangelos_Backpack = "Melhorar a mochila do Evangelo",	
 	Recipe_Upgrade_Hoffmans_Backpack = "Melhorar a mochila do Hoffman",
 	Recipe_Upgrade_Walkers_Backpack = "Melhorar a mochila do Walker",
-	}
+	
+
+        Recipe_Upgrade_Urban_Camo_Alice_Pack = "Melhorar Urban Camo Alice Pack",
+	Recipe_Detach_Walkie_from_Vest = "Tirar Walkie do colete",
+	Recipe_Attach_Walkie_to_Vest = "Anexar Walkie ao colete",
+	Recipe_Use_TV-110_as_Bulletproof_Vest = "Usar TV-110 como colete à prova de balas",
+	Recipe_Use_TV-110_as_Magazine_Bag = "Usar TV-110 como bolsa de munição",
+
+        Recipe_Revert_Attachable_Item = "Reveter anexo de item",
+	Recipe_Make_Backpack_Attachable_Item = "Fazer mochila anexo de item",	
+	

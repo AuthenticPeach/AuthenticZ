@@ -6,8 +6,8 @@ end
 ------------------- Miner Hat ----------------------------------------------
 ----------------------------------------------------------------------------
 local MinerLightBulb = {
-	type = "MinerLightBulb",-- Name shown in the slot icon
-	name = "Miner Hat", 
+	type = "MinerLightBulb",
+	name = "Miner Hat", -- Name shown in the slot icon
 	animset = "back", -- Animation name 
 	attachments = {
 		MinerLight = "MinerLight", -- defined in AttachedLocations.lua
@@ -735,6 +735,7 @@ local AlicepackBottleLeft = {
 	attachments = { -- list of possible item category and their modelAttachement group, the item category is defined in the item script
 		WaterBottle = "Alicepack Waterbottle Left",
 		Canteen = "Alicepack Canteen Left",
+		Sodacan = "Alicepack Sodacan Left",		
 		PillBottle = "Alicepack PillBottle Left",		
 	},
 }
@@ -1183,3 +1184,19 @@ local AZWebbingRight = {
 	},
 }
 table.insert(ISHotbarAttachDefinition, AZWebbingRight);
+table.remove(ISHotbarAttachDefinition.replacements);
+local BackReplacement = {
+	type = "Bag",
+	name = "Back",
+	animset = "back",
+	replacement = {
+		BigWeapon = "Big Weapon On Back with Bag",
+		BigBlade = "Big Blade On Back with Bag",
+		Racket = "Racket Back with Bag",
+		Shovel = "Shovel Back with Bag",
+		Guitar = "null",
+		GuitarAcoustic = "null",
+		Rifle = "Rifle On Back with Bag",
+	}
+}
+table.insert(ISHotbarAttachDefinition.replacements, BackReplacement);

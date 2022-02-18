@@ -801,6 +801,7 @@ module AuthenticZClothing {
         ColorGreen = 67,
         ColorBlue = 33,
 		WorldStaticModel = HairDyeBlackDarkBrown,
+        OBSOLETE = TRUE,			
     }
     item HairDyeBlonde2
     {
@@ -816,6 +817,7 @@ module AuthenticZClothing {
         ColorGreen = 240,
         ColorBlue = 190,
 		WorldStaticModel = HairDyeBlond,
+        OBSOLETE = TRUE,		
     }
 	item HairDyeDarkerBrown
     {
@@ -831,6 +833,7 @@ module AuthenticZClothing {
         ColorGreen = 33,
         ColorBlue = 20,
 		WorldStaticModel = HairDyeBlackDarkBrown,
+        OBSOLETE = TRUE,			
     }
     item HairDyePurple
     {
@@ -846,6 +849,7 @@ module AuthenticZClothing {
         ColorGreen = 112,
         ColorBlue = 219,
 		WorldStaticModel = HairDyePink,
+        OBSOLETE = TRUE,			
     }
     item Authentic_WalkieTalkie
     {
