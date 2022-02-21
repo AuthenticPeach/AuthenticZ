@@ -4,27 +4,6 @@ module Base
 	{
 		mesh = Skinned/FemaleBody,
 
-		attachment knife_head
-		{
-			offset = -0.0570 0.0030 0.0840,
-			rotate = -0.0570 21.0000 -96.0000,
-			bone = Bip01_Head,
-		}
-
-		attachment stomach
-		{
-			offset = 0.0330 0.0030 0.2750,
-			rotate = 3.0000 84.0000 -99.0000,
-			bone = Bip01_Spine,
-		}
-
-		attachment knife_in_back
-		{
-			offset = 0.1100 0.0450 -0.1330,
-			rotate = -180.0000 -62.0000 84.0000,
-			bone = Bip01_Spine1,
-		}
-
 		attachment Canteen_L
 		{
 			offset = -0.1410 -0.0890 0.0700,
@@ -2169,8 +2148,8 @@ module Base
 
 		attachment BackPack_Alicepack_Sodacan_Left
 		{
-			offset = 0.0420 0.1200 -0.1210,
-			rotate = 88.0000 74.0000 1.0000,
+			offset = 0.0200 0.1230 -0.0800,
+			rotate = 61.0000 72.0000 29.0000,
 			bone = Bip01_BackPack,
 		}
 
@@ -2197,7 +2176,7 @@ module Base
 
 		attachment BackPack_Alicepack_Sodacan_Right
 		{
-			offset = 0.0420 -0.1250 -0.1200,
+			offset = 0.0300 -0.1270 -0.0760,
 			rotate = 105.0000 -74.0000 14.0000,
 			bone = Bip01_BackPack,
 		}
@@ -2750,7 +2729,7 @@ module Base
 
 		attachment BackpackSecondary_AlicepackLunchbox
 		{
-			offset = 0.0410 0.1110 -0.2450,
+			offset = 0.0410 0.1110 -0.1950,
 			rotate = 112.0000 21.0000 170.0000,
 			bone = Bip01_BackPack,
 		}
@@ -3010,27 +2989,6 @@ module Base
 	model MaleBody
 	{
 		mesh = Skinned/MaleBody,
-
-		attachment knife_head
-		{
-			offset = -0.0570 0.0030 0.0840,
-			rotate = -0.0570 21.0000 -96.0000,
-			bone = Bip01_Head,
-		}
-
-		attachment stomach
-		{
-			offset = 0.0350 0.0020 0.2220,
-			rotate = 3.0000 84.0000 -99.0000,
-			bone = Bip01_Spine,
-		}
-
-		attachment knife_in_back
-		{
-			offset = 0.1080 0.0020 -0.1830,
-			rotate = 180.0000 -71.0000 84.0000,
-			bone = Bip01_Spine1,
-		}
 
 		attachment Bip01_L_Shoulder
 		{

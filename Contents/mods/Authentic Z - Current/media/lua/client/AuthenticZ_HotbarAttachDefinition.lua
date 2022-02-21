@@ -147,7 +147,7 @@ local SchoolbagUmbrellaLeft = {
 	attachments = { -- list of possible item category and their modelAttachement group, the item category is defined in the item script		
 		Umbrella = "Schoolbag Umbrella Left",
 		Saw = "Schoolbag Saw Right",
-		Torch = "Schoolbag Torch Right",		
+		Tool = "Schoolbag Torch Right",		
 	},
 }
 table.insert(ISHotbarAttachDefinition, SchoolbagUmbrellaLeft);
@@ -227,7 +227,7 @@ local DufflebagUmbrellaRight = {
 	attachments = { -- list of possible item category and their modelAttachement group, the item category is defined in the item script		
 		Umbrella = "Dufflebag Umbrella Right",
 		Saw = "Dufflebag Saw Right",
-		Torch = "Dufflebag Torch Right",
+		Tool = "Dufflebag Torch Right",
 	},
 }
 table.insert(ISHotbarAttachDefinition, DufflebagUmbrellaRight);
@@ -490,7 +490,7 @@ local HikingbagUmbrellaLeft = {
 	attachments = { -- list of possible item category and their modelAttachement group, the item category is defined in the item script		
 		Umbrella = "HikingBag Umbrella Left",
 		Saw = "HikingBag Saw Right",
-		Torch = "HikingBag Torch Right",		
+		Tool = "HikingBag Torch Right",		
 	},
 }
 table.insert(ISHotbarAttachDefinition, HikingbagUmbrellaLeft);
@@ -663,7 +663,7 @@ local BigHikingbagUmbrellaLeft = {
 	attachments = { -- list of possible item category and their modelAttachement group, the item category is defined in the item script		
 		Umbrella = "BigHikingBag Umbrella Right",
 		Saw = "BigHikingBag Saw Right",
-		Torch = "BigHikingBag Torch Right",		
+		Tool = "BigHikingBag Torch Right",		
 	},
 }
 table.insert(ISHotbarAttachDefinition, BigHikingbagUmbrellaLeft);
@@ -873,7 +873,7 @@ local AlicepackUmbrellaRight = {
 	attachments = { -- list of possible item category and their modelAttachement group, the item category is defined in the item script		
 		Umbrella = "Alicepack Umbrella Right",
 		Saw = "Alicepack Saw Right",
-		Torch = "Alicepack Torch Right",		
+		Tool = "Alicepack Torch Right",		
 	},
 }
 table.insert(ISHotbarAttachDefinition, AlicepackUmbrellaRight);
@@ -1083,7 +1083,7 @@ local ARVNUmbrellaRight = {
 	attachments = { -- list of possible item category and their modelAttachement group, the item category is defined in the item script		
 		Umbrella = "Alicepack Umbrella Right",
 		Saw = "Alicepack Saw Right",
-		Torch = "Alicepack Torch Right",		
+		Tool = "Alicepack Torch Right",		
 	},
 }
 table.insert(ISHotbarAttachDefinition, ARVNUmbrellaRight);

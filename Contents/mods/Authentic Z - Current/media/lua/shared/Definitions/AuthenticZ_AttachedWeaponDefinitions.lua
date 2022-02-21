@@ -838,17 +838,17 @@ AttachedWeaponDefinitions.PomPom= {
 	"AuthenticZClothing.Authentic_PomPomBlack",
 	},
 }
-AttachedWeaponDefinitions.PomPom2= {--For Later
+AttachedWeaponDefinitions.PomPom2= {
 	id = "PomPom2",
 	chance = 100,
-	outfit = {"AuthenticCheerleader"},
+	outfit = {"AuthenticCheerleaderLV"},
 	weaponLocation = {"Left Hand", "Right Hand"},
 	bloodLocations = nil,
 	addHoles = false,
 	daySurvived = 0,
 	weapons = {
     "AuthenticZClothing.Authentic_PomPomRed",
-	"AuthenticZClothing.Authentic_PomPomBlue",
+	"AuthenticZClothing.Authentic_PomPomBlack",
 	},
 }
 
@@ -1297,6 +1297,14 @@ AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticCheerleader = {
 	weapons = {
 		AttachedWeaponDefinitions.PomPom,
 		AttachedWeaponDefinitions.PomPom,
+	},
+}
+AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticCheerleaderLV = {
+	chance = 100;
+	maxitem = 2;
+	weapons = {
+		AttachedWeaponDefinitions.PomPom2,
+		AttachedWeaponDefinitions.PomPom2,
 	},
 }
 AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticClown = {

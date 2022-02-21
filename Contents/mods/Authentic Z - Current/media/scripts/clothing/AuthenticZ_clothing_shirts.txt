@@ -44,6 +44,17 @@
         FabricType = Cotton,
 		WorldStaticModel = Shirt_Ground,		
 	}
+    item Shirt_CropTopLVCheerleader
+    {
+        Type = Clothing,
+        DisplayName = Cheerleader Crop Top,
+        ClothingItem = Shirt_CropTopLVCheerleader,
+        BodyLocation = Tshirt,
+        Icon	=	TubeTopSleevedGeneric,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = CropTop_Ground,
+    }	
 	item Shirt_DenimBlack
 	{
         DisplayCategory = Clothing,		
@@ -834,7 +845,7 @@
         DisplayName = Crye Precision AVS MBAV,
         ClothingItem = Vest_BulletTagilla,
         BodyLocation = TorsoExtra,
-        Icon = BulletVestKilla,
+        Icon = BulletVestTagilla,
         BloodLocation = ShirtNoSleeves,
         Insulation = 0.65,
         WindResistance = 0.30,

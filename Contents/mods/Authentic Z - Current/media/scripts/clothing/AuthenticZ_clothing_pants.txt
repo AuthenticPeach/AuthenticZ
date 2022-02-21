@@ -272,10 +272,23 @@ module AuthenticZClothing {
         WindResistance = 0.05,
         FabricType = Cotton,
         WorldStaticModel = ShortShorts_Ground,		
-    }		
+    }	
+    item Skirt_LVCheerleader
+    {
+		DisplayCategory = Clothing,		
+        Type = Clothing,
+        DisplayName = LV Cheerleader Short Skirt,
+        ClothingItem = Skirt_LVCheerleader,
+        BodyLocation = Skirt,
+        Icon = Cheerleader_Skirt,
+        BloodLocation = ShortsShort,
+        Insulation = 0.05,
+        FabricType = Cotton,
+		WorldStaticModel = Skirt_Short_Ground,
+    }	
     item Skirt_ShortBlack
     {
-       DisplayCategory = Clothing,		
+		DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Short Black Skirt,
         ClothingItem = Skirt_ShortBlack,
@@ -288,7 +301,7 @@ module AuthenticZClothing {
     }
     item Skirt_ShortCheerleader
     {
-       DisplayCategory = Clothing,		
+		DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Cheerleader Short Skirt,
         ClothingItem = Skirt_ShortCheerleader,

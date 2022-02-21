@@ -22,6 +22,7 @@ local function TweakItem(itemName, itemProperty, propertyValue)
 end
 Events.OnGameBoot.Add(doTweaks);
 
+TweakItem("Base.BlowTorch","AttachmentType", "Tool");
 TweakItem("Base.SheetRope", "AttachmentType", "SheetRope");
 TweakItem("Base.SheetRope", "StaticModel", "SheetRopeAZ");
 TweakItem("Base.Rope", "AttachmentType", "Rope");

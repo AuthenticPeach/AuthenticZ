@@ -780,6 +780,44 @@ ZombiesZoneDefinition.FishingZone = {
 	},	
 }
 
+ZombiesZoneDefinition.FootballField = {
+	AuthenticFootballPlayerBlueStar = {
+		name="AuthenticFootballPlayerBlueStar",
+		chance=15,
+		gender="male",
+	},
+	AuthenticFootballPlayerRedSkull = {
+		name="AuthenticFootballPlayerRedSkull",
+		chance=15,
+		gender="male",
+	},	
+	AuthenticCheerleaderLV = {
+		name="AuthenticCheerleaderLV",
+		chance=7,
+		gender="female",
+	},
+	VarsityM = {
+		name="VarsityMale",
+		chance=30,
+		gender="male",
+	},
+	VarsityF = {
+		name="VarsityFemale",
+		chance=30,
+		gender="female",
+	},
+	Security = {
+		name="Security",
+		chance=3,
+		gender="male",
+	},
+	AuthenticSportsFan = {
+		name="AuthenticSportsFan",
+		chance=15,
+	},	
+	
+}
+
 ZombiesZoneDefinition.GhillieBrush = {
 	Ghillie = {
 		name="Ghillie",
@@ -1269,6 +1307,7 @@ ZombiesZoneDefinition.ParkPlaza = {
 	AuthenticCountrySinger = {
 		name="AuthenticCountrySinger",
 		chance=10,
+		gender="male",		
 	},	
 	Mannequin1 = {
 		name="Mannequin1",
@@ -1519,6 +1558,75 @@ ZombiesZoneDefinition.TheyLive = {
 		gender="male",
 		mandatory="true",
 	},		
+}
+ZombiesZoneDefinition.University = {
+	AuthenticCheerleaderLV = {
+		name="AuthenticCheerleaderLV",
+		chance=7,
+		gender="female",
+	},
+	AuthenticSchoolGirlLV = {
+		name="AuthenticSchoolGirl",
+		chance=5,
+		gender="female",
+	},
+	BaseballPlayer_KY = {
+		name="BaseballPlayer_KY",
+		chance=3,
+	},	
+	StudentM = {
+		name="StudentMale",
+		chance=4,
+		gender="male",
+	},
+	StudentF = {
+		name="StudentFemale",
+		chance=4,
+		gender="female",
+	},
+	VarsityM = {
+		name="VarsityMale",
+		chance=25,
+		gender="male",
+	},
+	VarsityF = {
+		name="VarsityFemale",
+		chance=25,
+		gender="female",
+	},	
+	Teacher = {
+		name="Teacher",
+		chance=10,
+	},	
+	Security = {
+		name="Security",
+		chance=3,
+		gender="male",
+	},
+	AuthenticSportsFan = {
+		name="AuthenticSportsFan",
+		chance=2,
+	},	
+	ShellSuit_Black = {
+		name="ShellSuit_Black",
+		chance=2,
+	},
+	ShellSuit_Blue = {
+		name="ShellSuit_Blue",
+		chance=2,
+	},
+	ShellSuit_Green = {
+		name="ShellSuit_Green",
+		chance=2,
+	},
+	ShellSuit_Pink = {
+		name="ShellSuit_Pink",
+		chance=2,
+	},
+	ShellSuit_Teal = {
+		name="ShellSuit_Teal",
+		chance=2,
+	},	
 }
 --[[
 ZombiesZoneDefinition.TrueEyeCult = {

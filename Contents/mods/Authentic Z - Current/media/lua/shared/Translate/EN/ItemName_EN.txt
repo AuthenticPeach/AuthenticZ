@@ -10,7 +10,7 @@ ItemName_EN = {
 	ItemName_AuthenticZClothing.Bag_SchoolBagNBH = "NBH Hazmat Pack",	
 	ItemName_AuthenticZClothing.Bag_ProtonPack_Back = "Proton Pack",
 	ItemName_AuthenticZClothing.Bag_UtilityBeltFront = "Utility Belt (Tightened)",
-	ItemName_AuthenticZClothing.Bag_UtilityBelt_Loose = "Utility Belt (Loosened)",
+	ItemName_AuthenticZClothing.Bag_UtilityBeltFront_Loose = "Utility Belt (Loosened)",
 	ItemName_AuthenticZClothing.Bag_UtilityBeltDesert = "Desert Utility Belt (Tightened)",
 	ItemName_AuthenticZClothing.Bag_UtilityBeltDesert_Loose	= "Desert Utility Belt (Loosened)",
 	ItemName_AuthenticZClothing.Suitcase2 = "Suitcase",	
@@ -718,8 +718,7 @@ ItemName_EN = {
 	ItemName_AuthenticZClothing.Hat_RuneDuel = "Fantasy Duelist Hat",
 	ItemName_AuthenticZClothing.InflatableTube_AZ = "Inflatable Tube",	
 	ItemName_AuthenticZClothing.Jacket_Doctor3 	 = "Medical Coat",
-	ItemName_AuthenticZClothing.Shoes_TrainersAZ = "High Top Sneakers",	
-	
+	ItemName_AuthenticZClothing.Shoes_TrainersAZ = "High Top Sneakers",		
 	ItemName_AuthenticZClothing.PZAZ_CostumeStoreSign = "Costume Sale Store Sign",	
 	ItemName_AuthenticZClothing.CultistMask = "Cultist Mask",	
 	ItemName_AuthenticZClothing.CultistSign = "Cultist Sign",	
@@ -741,11 +740,10 @@ ItemName_EN = {
 	ItemName_AuthenticZClothing.AuthenticBouquetFlowers =  "Bouquet of Flowers",		
 	ItemName_AuthenticZClothing.AuthenticFreeHugsSign =  "Free Hugs Sign",		
 	ItemName_AuthenticZClothing.AuthenticHairHeadband =  "Sports Headband",		
-	ItemName_AuthenticZClothing.Jacket_Reporter_LBMW =  "LBMW Media Jacket",		
-	
+	ItemName_AuthenticZClothing.Jacket_Reporter_LBMW =  "LBMW Media Jacket",			
 	ItemName_AuthenticZClothing.Hairstyle_Afro_Pick2 =  "Afro Pick",
 	
-	/* New */
+	/* Update 2-20-21 */
 	ItemName_AuthenticZClothing.Authentic_PomPomBlue = "Cheerleading Pom Pom",	
 	ItemName_AuthenticZClothing.AuthenticTagillaSledgehammer =  "Tagilla's Sledgehammer",
 	ItemName_AuthenticZClothing.Hat_BaseballCapBossTagilla =  "Boss Baseball Cap",
@@ -756,8 +754,7 @@ ItemName_EN = {
 	ItemName_AuthenticZClothing.AuthenticBingoDotterOrange =  "Orange Bingo Dabber",
 	ItemName_AuthenticZClothing.AuthenticBingoDotterRed =  "Red Bingo Dabber",
 	ItemName_AuthenticZClothing.AuthenticBingoDotterTeal =  "Teal Bingo Dabber",
-	ItemName_AuthenticZClothing.AuthenticBingoDotterYellow =  "Yellow Bingo Dabber",
-	
+	ItemName_AuthenticZClothing.AuthenticBingoDotterYellow =  "Yellow Bingo Dabber",	
 	ItemName_AuthenticZClothing.AuthenticWalkingCaneJP =  "Mosquito Amber Walking Cane",
 	ItemName_AuthenticZClothing.AuthenticWalkingCaneGrandFather =  "Antique Walking Cane",
 	ItemName_AuthenticZClothing.Dress_LongPolkadot =  "Long Polka Dot Dress",
@@ -765,9 +762,12 @@ ItemName_EN = {
 	ItemName_AuthenticZClothing.Dress_Polkadot_Knees =  "Short Polka Dot Dress",
 	ItemName_AuthenticZClothing.Dress_LongFlower =  "Long Floral Print Dress",
 	ItemName_AuthenticZClothing.Dress_Flower =  "Floral Print Dress",
-	ItemName_AuthenticZClothing.Dress_Flower_Knees =  "Short Floral Print Dress",
-	
+	ItemName_AuthenticZClothing.Dress_Flower_Knees =  "Short Floral Print Dress",	
 	ItemName_AuthenticZClothing.Vest_BulletTagilla =  "Crye Precision AVS MBAV",
 	ItemName_AuthenticZClothing.Trousers_Tagilla = "Tactical Pants",
+	
+	/* New */	
+	ItemName_AuthenticZClothing.Shirt_CropTopLVCheerleader = "UoLV Cheerleader Top",
+	ItemName_AuthenticZClothing.Skirt_LVCheerleader = "UoLV Short Skirt",
 	
 }
