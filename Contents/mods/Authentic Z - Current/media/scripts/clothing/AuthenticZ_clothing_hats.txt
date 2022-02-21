@@ -1170,6 +1170,7 @@ module AuthenticZClothing {
         Insulation = 0.45,
         WindResistance = 0.65,
         WaterResistance = 1.0,
+		WorldStaticModel = WorldItem-KilaHelmet,		
 	}
 	item Hat_LeatherFace
 	{
@@ -1380,15 +1381,15 @@ module AuthenticZClothing {
 		ClothingItem = Hat_TagillaMask,
 		BodyLocation = Mask,
 		Icon = MaskTagilla,
-		BloodLocation = Head,
 		CanHaveHoles = false,
-		CombatSpeedModifier = 0.95,
-		BiteDefense = 100,
-        ScratchDefense = 100,
-        Insulation = 0.45,
-        WindResistance = 0.65,
+		BloodLocation = Head,
+        BiteDefense = 30,
+        ScratchDefense = 50,
+        Insulation = 0.25,
+        WindResistance = 0.55,
         WaterResistance = 1.0,
-        WorldStaticModel = WorldItem-TagillaHelmet,			
+        WorldStaticModel = WorldItem-TagillaHelmet,
+		Tooltip = Tooltip_TagillaHelmet,		
 	}
 	item Hat_TagillaMask2
 	{
@@ -1400,11 +1401,10 @@ module AuthenticZClothing {
 		Icon = MaskTagillaGorilla,
 		BloodLocation = Head,
 		CanHaveHoles = false,
-		CombatSpeedModifier = 0.95,
-		BiteDefense = 100,
-        ScratchDefense = 100,
-        Insulation = 0.45,
-        WindResistance = 0.65,
+        BiteDefense = 30,
+        ScratchDefense = 50,
+        Insulation = 0.25,
+        WindResistance = 0.55,
         WaterResistance = 1.0,
         WorldStaticModel = WorldItem-TagillaHelmetGorilla,			
 	}	
@@ -1423,7 +1423,7 @@ module AuthenticZClothing {
         ChanceToFall  = 30,
         Insulation 	  = 0.25,
         WindResistance = 0.55,
-		WorldStaticModel = WorldItem-TrueEyeCult,		
+		WorldStaticModel = WorldItem-TrueEyeCult,	
 	}
 	item Hat_UncleSam
 	{

@@ -8724,30 +8724,28 @@
 		<m_items> <!-- Red Fingerless Gloves -->
 			<itemGUID>6208b99b-cb39-4f04-a64d-881296f88c53</itemGUID>
 		</m_items>
+		<m_items> <!--  Tagilla's Tactical Pants  -->
+			<itemGUID>b2807cd5-27bd-4b1f-afe5-c544dad467b0</itemGUID>
+		</m_items>		
 		<m_items> <!-- Long Socks -->
 			<itemGUID>fb86bd5f-1931-4b24-a5d7-bd6a43769991</itemGUID>
 		</m_items>			
 		<m_items> <!-- Military Boots -->
 			<itemGUID>227cb2d5-05a5-44ed-872d-ac4ca16e80bc</itemGUID>
 		</m_items>
-
+		<m_items> <!-- Bird Bulletproof Vest -->
+			<itemGUID>ecc9db72-b07d-4440-ad88-5f94739fba23</itemGUID>
+		</m_items>	
 		
 		<m_items> <!-- Bandage & Tattoo on right Arm  -->
 			<itemGUID>227cb2d5-05a5-44ed-872d-ac4ca16e80bc</itemGUID>
 		</m_items>
 		<m_items> <!-- Tattoo on chest  -->
 			<itemGUID>227cb2d5-05a5-44ed-872d-ac4ca16e80bc</itemGUID>
-		</m_items>		
-		<m_items> <!--  Tagilla's Tactical Pants  -->
-			<itemGUID>c4ee4f31-3117-45ee-b450-fb08287b8bb4</itemGUID>
-		</m_items>
-		<m_items> <!-- Bird Bulletproof Vest -->
-			<itemGUID>48cd4891-d895-48a8-8410-3ecef5c158bb</itemGUID>
-		</m_items>		
-
-		<m_items> <!-- White Zed Skin -->
-			<itemGUID>9c87b588-b784-4560-bada-fd4cf7e44d48</itemGUID>
-		</m_items>				
+		</m_items>			
+		<m_items> <!-- Tattoo'd White Zed Skin -->
+			<itemGUID>580f5639-375f-4a9f-9ece-01a772bc3653</itemGUID>
+		</m_items>						
 	</m_MaleOutfits>
 	
 <m_MaleOutfits> <m_Name>AuthenticTF2SpyRed</m_Name>

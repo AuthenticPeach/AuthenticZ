@@ -715,7 +715,7 @@ ItemName_EN = {
 	ItemName_AuthenticZClothing.Hat_FootballHelmet_Packers = "Packers Football Helmet",
 	ItemName_AuthenticZClothing.Hat_FootballHelmet_RedSkull = "Football Helmet",
 	ItemName_AuthenticZClothing.Hat_FootballHelmet_Patriots = "Patriots Football Helmet",
-	ItemName_AuthenticZClothing.Hat_RuneDuel 	 = "Fantasy Duelist Hat",
+	ItemName_AuthenticZClothing.Hat_RuneDuel = "Fantasy Duelist Hat",
 	ItemName_AuthenticZClothing.InflatableTube_AZ = "Inflatable Tube",	
 	ItemName_AuthenticZClothing.Jacket_Doctor3 	 = "Medical Coat",
 	ItemName_AuthenticZClothing.Shoes_TrainersAZ = "High Top Sneakers",	
@@ -725,7 +725,7 @@ ItemName_EN = {
 	ItemName_AuthenticZClothing.CultistSign = "Cultist Sign",	
 	ItemName_AuthenticZClothing.CultistRobe = "Cultist Robe",
 	
-	/* New */	
+	/* Update 2-6-21 */	
 	ItemName_AuthenticZClothing.Dress_Knees_Black = "Knee-length Dress",
 	ItemName_AuthenticZClothing.GreeneZ_F = "Green Female Zombie Skin",
 	ItemName_AuthenticZClothing.AuthenticIceStaff = "Fantasy Ice Staff",
@@ -735,8 +735,7 @@ ItemName_EN = {
 	ItemName_AuthenticZClothing.HoodieDOWN_Black = "Black Hoodie",
 	ItemName_AuthenticZClothing.HoodieTied_Black = "Black Hoodie (Tied)",
 	ItemName_AuthenticZClothing.Skirt_ShortRedPlaid = "Short Red Plaid Skirt",
-	ItemName_AuthenticZClothing.Skirt_ShortPlaid = "Short Red Plaid Skirt",
-	ItemName_AuthenticZClothing.Authentic_PomPomRed = "Cheerleading Pom Pom",
+	ItemName_AuthenticZClothing.Skirt_ShortPlaid = "Short Plaid Skirt",
 	ItemName_AuthenticZClothing.Authentic_PomPomRed = "Cheerleading Pom Pom",
 	ItemName_AuthenticZClothing.AuthenticWalkingCaneMetal =  "Metal Walking Cane",		
 	ItemName_AuthenticZClothing.AuthenticBouquetFlowers =  "Bouquet of Flowers",		
@@ -744,6 +743,31 @@ ItemName_EN = {
 	ItemName_AuthenticZClothing.AuthenticHairHeadband =  "Sports Headband",		
 	ItemName_AuthenticZClothing.Jacket_Reporter_LBMW =  "LBMW Media Jacket",		
 	
-	ItemName_AuthenticZClothing.Hairstyle_Afro_Pick =  "Afro Pick",		
+	ItemName_AuthenticZClothing.Hairstyle_Afro_Pick2 =  "Afro Pick",
+	
+	/* New */
+	ItemName_AuthenticZClothing.Authentic_PomPomBlue = "Cheerleading Pom Pom",	
+	ItemName_AuthenticZClothing.AuthenticTagillaSledgehammer =  "Tagilla's Sledgehammer",
+	ItemName_AuthenticZClothing.Hat_BaseballCapBossTagilla =  "Boss Baseball Cap",
+	ItemName_AuthenticZClothing.Hat_BaseballCapBossTagilla_Reverse =  "Boss Baseball Cap",	
+	ItemName_AuthenticZClothing.Hat_TagillaMask = "Tagilla's Welder Mask",	
+	ItemName_AuthenticZClothing.Hat_TagillaMask2 = "Gorilla Print Welder Mask",	
+	ItemName_AuthenticZClothing.AuthenticBingoDotter =  "Purple Bingo Dabber",
+	ItemName_AuthenticZClothing.AuthenticBingoDotterOrange =  "Orange Bingo Dabber",
+	ItemName_AuthenticZClothing.AuthenticBingoDotterRed =  "Red Bingo Dabber",
+	ItemName_AuthenticZClothing.AuthenticBingoDotterTeal =  "Teal Bingo Dabber",
+	ItemName_AuthenticZClothing.AuthenticBingoDotterYellow =  "Yellow Bingo Dabber",
+	
+	ItemName_AuthenticZClothing.AuthenticWalkingCaneJP =  "Mosquito Amber Walking Cane",
+	ItemName_AuthenticZClothing.AuthenticWalkingCaneGrandFather =  "Antique Walking Cane",
+	ItemName_AuthenticZClothing.Dress_LongPolkadot =  "Long Polka Dot Dress",
+	ItemName_AuthenticZClothing.Dress_Polkadot =  "Polka Dot Dress",
+	ItemName_AuthenticZClothing.Dress_Polkadot_Knees =  "Short Polka Dot Dress",
+	ItemName_AuthenticZClothing.Dress_LongFlower =  "Long Floral Print Dress",
+	ItemName_AuthenticZClothing.Dress_Flower =  "Floral Print Dress",
+	ItemName_AuthenticZClothing.Dress_Flower_Knees =  "Short Floral Print Dress",
+	
+	ItemName_AuthenticZClothing.Vest_BulletTagilla =  "Crye Precision AVS MBAV",
+	ItemName_AuthenticZClothing.Trousers_Tagilla = "Tactical Pants",
 	
 }

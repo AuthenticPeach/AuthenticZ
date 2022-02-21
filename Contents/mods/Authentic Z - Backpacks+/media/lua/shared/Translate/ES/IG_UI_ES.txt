@@ -39,11 +39,11 @@ IGUI_ES = {
 	IGUI_HotbarAttachment_BigHikingbagFlashlight = "Mochila de excursión grande - Espacio de linterna",	
 	IGUI_HotbarAttachment_AlicepackFlashlight = "Mochila grande - Espacio de linterna",
 
-	IGUI_HotbarAttachment_SchoolbagUmbrellaLeft = "Mochila escolar - Espacio de paraguas",
-	IGUI_HotbarAttachment_DufflebagUmbrellaRight = "Bolsa de deportes - Espacio de paraguas",
-	IGUI_HotbarAttachment_HikingbagUmbrellaLeft = "Mochila de senderismo - Espacio de paraguas",
-	IGUI_HotbarAttachment_BigHikingbagUmbrellaLeft = "Mochila de excursión grande - Espacio de paraguas",	
-	IGUI_HotbarAttachment_AlicepackUmbrellaRight = "Mochila grande - Espacio de paraguas",
+	IGUI_HotbarAttachment_SchoolbagUmbrellaLeft = "Mochila escolar - Espacio de utilidad",
+	IGUI_HotbarAttachment_DufflebagUmbrellaRight = "Bolsa de deportes - Espacio de utilidad",
+	IGUI_HotbarAttachment_HikingbagUmbrellaLeft = "Mochila de senderismo - Espacio de utilidad",
+	IGUI_HotbarAttachment_BigHikingbagUmbrellaLeft = "Mochila de excursión grande - Espacio de utilidad",	
+	IGUI_HotbarAttachment_AlicepackUmbrellaRight = "Mochila grande - Espacio de utilidad",
 
 	IGUI_HotbarAttachment_SchoolbagBalloonLeft = "Mochila escolar - Espacio de globo izquierdo",
 	IGUI_HotbarAttachment_SchoolbagBalloonRight = "Mochila escolar - Espacio de globo derecho",	
@@ -67,7 +67,7 @@ IGUI_ES = {
 	IGUI_HotbarAttachment_ARVNBottleRight = "Mochila de montaña -  Espacio de botella derecho",
 	IGUI_HotbarAttachment_ARVNBottleLeft = "Mochila de montaña -  Espacio de botella izquierdo",	
 	IGUI_HotbarAttachment_ARVNPlushie = "Mochila de montaña - Espacio de peluche",
-	IGUI_HotbarAttachment_ARVNUmbrellaRight = "Mochila de montaña - Espacio de paraguas",
+	IGUI_HotbarAttachment_ARVNUmbrellaRight = "Mochila de montaña - Espacio de utilidad",
 	IGUI_HotbarAttachment_ARVNItemSlot1 = "Mochila de montaña - Espacio 1",	
 	IGUI_HotbarAttachment_ARVNItemSlot2 = "Mochila de montaña - Espacio 2",
 	IGUI_HotbarAttachment_ARVNItemSlot3 = "Mochila de montaña - Espacio 3",	
@@ -81,5 +81,6 @@ IGUI_ES = {
 	
 	/* New*/
 	IGUI_HotbarAttachment_DufflebagBalloonLeft = "Bolsa de deportes - Espacio de globo izquierdo",
+	IGUI_CraftCategory_Tailoring = "Sastrería",
 	
 }

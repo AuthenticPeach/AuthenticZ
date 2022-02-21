@@ -42,17 +42,19 @@ Recipes_CN = {
 	Recipe_Reuse_Bag = "重复使用",	
 	Recipe_Make_Backpack_Attachable = "转换成可挂",
 	
-	/* New*/	
-	
 	Recipe_Upgrade_Evangelos_Backpack = "升级伊万杰洛背包",	
 	Recipe_Upgrade_Hoffmans_Backpack = "升级霍夫曼背包",
 	Recipe_Upgrade_Walkers_Backpack = "升级沃尔克背包",
 
-	/* New*/		
+	/* Update 1-17-22*/		
 	Recipe_Upgrade_Urban_Camo_Alice_Pack = "升级军用背包",
 	Recipe_Detach_Walkie_from_Vest = "拿掉对讲机",
 	Recipe_Attach_Walkie_to_Vest = "挂上对讲机",
 	Recipe_Use_TV-110_as_Bulletproof_Vest = "将TV-110用作防弹衣",
 	Recipe_Use_TV-110_as_Magazine_Bag = "将TV-110用作弹药包",
+	
+	/* New */	
+	Recipe_Revert_Attachable_Item = "转为非可挂道具",
+	Recipe_Make_Backpack_Attachable_Item = "转换成可挂道具",	
 	
 	}

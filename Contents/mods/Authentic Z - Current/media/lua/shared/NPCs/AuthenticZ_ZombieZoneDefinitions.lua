@@ -1645,7 +1645,12 @@ ZombiesZoneDefinition.WorldsEnd = {  --
 	},		
 }
 
-
+local AuthenticTagilla = {
+		name="AuthenticTagilla",
+		gender="male",		
+		chance=1,
+	};
+ZombiesZoneDefinition.Factory[AuthenticTagilla] = AuthenticTagilla;
 
 local AuthenticFitnessInstructor = {
 		name="AuthenticFitnessInstructor",
@@ -2182,7 +2187,7 @@ ZombiesZoneDefinition.Prison[InmateKhakiLowerZone] = InmateKhakiLowerZone;
 local AuthenticPostalDude = {
 		name="AuthenticPostalDude",
 		gender="male",			
-		chance=2,
+		chance=1,
 	};
 ZombiesZoneDefinition.TrailerPark[AuthenticPostalDude] = AuthenticPostalDude;
 

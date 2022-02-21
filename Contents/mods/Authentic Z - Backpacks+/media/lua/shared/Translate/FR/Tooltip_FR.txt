@@ -43,10 +43,17 @@ Tooltip_FR = {
 	Tooltip_Winslow = "Je pourrais vouloir trouver un vaccin contre le tétanos ..."
 	Tooltip_Zeddemore = "Winston Zeddemore avait l'habitude de porter ceci ...",
 
-/* New*/	
+/* Update 1-17-22*/		
 	Tooltip_TacticalWebbing = "Ajoute 2 emplacements aux sangles",
 	Tooltip_AddWalkieTV110 = "Attache le talkie-walkie de l'armée à TV-110",
 	Tooltip_AddWalkieTV110Bag = "Attache le talkie-walkie de l'armée à TV-110, enlevez tous les magazines avant cela.",
 	Tooltip_RemoveWalkieTV110 = "Retire le talkie-walkie de l'armée de TV-110",
 	Tooltip_RemoveWalkieTV110Bag = "Retire le talkie-walkie de l'armée de TV-110, enlevez tous les magazines avant cela.",
+
+	Tooltip_TV110Bag = "Retirer tous les objets avant d'effectuer ceci.",
+	
+/* New */
+
+	Tooltip_JPCane = "La vie trouve un chemin.",		
+	Tooltip_TagillaHelmet = "UBEY",			
 	}

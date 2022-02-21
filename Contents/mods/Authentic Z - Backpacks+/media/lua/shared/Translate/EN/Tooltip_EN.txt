@@ -43,7 +43,7 @@ Tooltip_EN = {
 	Tooltip_Winslow = "I might want to find a tetanus shot...."
 	Tooltip_Zeddemore = "Winston Zeddemore used to wear this....",
 
-/* New*/	
+/* Update 1-17-22*/	
 	Tooltip_TacticalWebbing = "Adds 2 Attachment Slots",
 	Tooltip_AddWalkieTV110 = "Attaches Army Walkie Talkie to TV-110",
 	Tooltip_AddWalkieTV110Bag = "Attaches Army Walkie Talkie to TV-110, Take out all magazines before this.",
@@ -51,4 +51,9 @@ Tooltip_EN = {
 	Tooltip_RemoveWalkieTV110Bag = "Removes Army Walkie Talkie from TV-110, Take out all magazines before this.",
 	
 	Tooltip_TV110Bag = "Take out all items before this.",
+	
+/* New */
+
+	Tooltip_JPCane = "Life finds a way.",		
+	Tooltip_TagillaHelmet = "UBEY",			
 	}

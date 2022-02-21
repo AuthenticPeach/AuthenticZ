@@ -418,8 +418,8 @@ ItemName_ES = {
 	ItemName_AuthenticZClothing.RemoteControl_Box =  "Caja de control remoto",	
 	ItemName_AuthenticZClothing.Stake2 =  "Apostar",	
 	ItemName_AuthenticZClothing.Stop_Sign =  "Señal de alto",		
-	ItemName_AuthenticZClothing.TorchMelee =  "Antorcha de mano",	
-	ItemName_AuthenticZClothing.HandTorch2 =  "Antorcha de mano",
+	ItemName_AuthenticZClothing.TorchMelee =  "Linterna de mano",	
+	ItemName_AuthenticZClothing.HandTorch2 =  "Linterna de mano",
 	ItemName_AuthenticZClothing.Football3 = "Fútbol",
 
 	/* 10-23-21 Update */
@@ -701,7 +701,7 @@ ItemName_ES = {
 	ItemName_AuthenticZClothing.Hat_BaseballCapWhite_Reverse = "Gorra de béisbol blanca (Hacia atrás)",
 	ItemName_AuthenticZClothing.Hat_FastFood_Donut = "Sombrero con donas",
 	
-	/* New */
+	/* 1-17-22  */
 	ItemName_AuthenticZClothing.Authentic_HeadphonesNeck  = "Auriculares (En el cuello)",
 	ItemName_AuthenticZClothing.Authentic_HeadphonesNeck2 = "Auriculares (En el cuello)",
 	ItemName_AuthenticZClothing.Bag_MilitaryWebbing_AZ 			= "Arnés táctico",
@@ -724,5 +724,50 @@ ItemName_ES = {
 	ItemName_AuthenticZClothing.CultistMask = "Máscara cultista",	
 	ItemName_AuthenticZClothing.CultistSign = "Signo cultista",	
 	ItemName_AuthenticZClothing.CultistRobe = "Toga de cultista",
+	
+	/* Update 2-6-21 */	
+	ItemName_AuthenticZClothing.Dress_Knees_Black = "Vestido hasta la rodilla",
+	ItemName_AuthenticZClothing.GreeneZ_F = "Piel de zombie mujer verde",
+	ItemName_AuthenticZClothing.AuthenticIceStaff = "Bastón de hielo de fantasía",
+	ItemName_AuthenticZClothing.AuthenticRaiderStaff = "Bastón de asaltante de arena",
+	ItemName_AuthenticZClothing.Scarf_Black = "Bufanda negra",
+	ItemName_AuthenticZClothing.HoodieUP_Black   = "Sudadera negra",
+	ItemName_AuthenticZClothing.HoodieDOWN_Black = "Sudadera negra",
+	ItemName_AuthenticZClothing.HoodieTied_Black = "Sudadera negra (Atada)",
+	ItemName_AuthenticZClothing.Skirt_ShortRedPlaid = "Pollera corta a cuadros roja",
+	ItemName_AuthenticZClothing.Skirt_ShortPlaid = "Pollera corta a cuadros",
+	ItemName_AuthenticZClothing.Authentic_PomPomRed = "Pom Pom de porrista",
+	ItemName_AuthenticZClothing.AuthenticWalkingCaneMetal =  "Bastón de metal",		
+	ItemName_AuthenticZClothing.AuthenticBouquetFlowers =  "Ramo de flores",		
+	ItemName_AuthenticZClothing.AuthenticFreeHugsSign =  "Letrero de abrazos gratis",		
+	ItemName_AuthenticZClothing.AuthenticHairHeadband =  "Vincha deportiva",		
+	ItemName_AuthenticZClothing.Jacket_Reporter_LBMW =  "Chaqueta de reportero LBMW",		
+	
+	ItemName_AuthenticZClothing.Hairstyle_Afro_Pick =  "Selección afro",	
+	
+	/* New */
+	ItemName_AuthenticZClothing.Authentic_PomPomBlue = "Pom Pom de porrista",	
+	ItemName_AuthenticZClothing.AuthenticTagillaSledgehammer =  "Almádena de Tagilla",
+	ItemName_AuthenticZClothing.Hat_BaseballCapBossTagilla =  "Gorra de béisol del jefe",
+	ItemName_AuthenticZClothing.Hat_BaseballCapBossTagilla_Reverse =  "Gorra de béisol del jefe (Hacia atrás)",	
+	ItemName_AuthenticZClothing.Hat_TagillaMask = "Máscara de soldador de Tagilla",	
+	ItemName_AuthenticZClothing.Hat_TagillaMask2 = "Máscara de soldador con estampado de gorila",	
+	ItemName_AuthenticZClothing.AuthenticBingoDotter =  "Marcador púrpura para Bingo",
+	ItemName_AuthenticZClothing.AuthenticBingoDotterOrange =  "Marcador naranja para Bingo",
+	ItemName_AuthenticZClothing.AuthenticBingoDotterRed =  "Marcador rojo para Bingo",
+	ItemName_AuthenticZClothing.AuthenticBingoDotterTeal =  "Marcador verde azulado para Bingo",
+	ItemName_AuthenticZClothing.AuthenticBingoDotterYellow =  "Marcador amarillo para Bingo",
+	
+	ItemName_AuthenticZClothing.AuthenticWalkingCaneJP =  "Bastón con mosquito en ambar",
+	ItemName_AuthenticZClothing.AuthenticWalkingCaneGrandFather =  "Bastón antiguo",
+	ItemName_AuthenticZClothing.Dress_LongPolkadot =  "Vestido largo a lunares",
+	ItemName_AuthenticZClothing.Dress_Polkadot =  "Vestido a lunares",
+	ItemName_AuthenticZClothing.Dress_Polkadot_Knees =  "Vestido a lunares corto",
+	ItemName_AuthenticZClothing.Dress_LongFlower =  "Vestido largo floreado",
+	ItemName_AuthenticZClothing.Dress_Flower =  "Vestido floreado",
+	ItemName_AuthenticZClothing.Dress_Flower_Knees =  "Vestido corto floreado",
+	
+	ItemName_AuthenticZClothing.Vest_BulletTagilla =  "Chaleco antibalas MBAV",
+	ItemName_AuthenticZClothing.Trousers_Tagilla = "Pantalones tácticos",
 	
 }

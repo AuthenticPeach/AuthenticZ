@@ -7,13 +7,12 @@ ItemName_CH = {
 	ItemName_AuthenticZClothing.Bag_B4BHolly = "霍莉的背包",
 	ItemName_AuthenticZClothing.Bag_B4BMom = "老媽的背包",
 	ItemName_AuthenticZClothing.Bag_B4BWalker = "沃克的背包",
-	ItemName_AuthenticZClothing.Bag_SchoolBagCEDA = "C.E.D.A 危險品背包",
 	ItemName_AuthenticZClothing.Bag_SchoolBagNBH = "核生化危險品背包",	
 	ItemName_AuthenticZClothing.Bag_ProtonPack_Back = "質子背包",
    	ItemName_AuthenticZClothing.Bag_UtilityBeltFront = "多用途腰帶(收緊)",
-  	ItemName_AuthenticZClothing.Bag_UtilityBeltFront_Loose = "多用途腰帶(寬鬆)",
-    ItemName_AuthenticZClothing.Bag_UtilityBeltDesert = "沙漠多用途腰帶(收緊)",
-    ItemName_AuthenticZClothing.Bag_UtilityBeltDesert_Loose    = "沙漠多用途腰帶(寬鬆)",	
+  	ItemName_AuthenticZClothing.Bag_UtilityBelt_Loose = "多用途腰帶(寬鬆)",
+        ItemName_AuthenticZClothing.Bag_UtilityBeltDesert = "沙漠多用途腰帶(收緊)",
+        ItemName_AuthenticZClothing.Bag_UtilityBeltDesert_Loose    = "沙漠多用途腰帶(寬鬆)",	
 	ItemName_AuthenticZClothing.Suitcase2 = "手提箱",
 
 /* 配飾 */	
@@ -34,7 +33,6 @@ ItemName_CH = {
 	ItemName_AuthenticZClothing.Boilersuit_Pennywise = "小醜還魂衣袍",	
 	ItemName_AuthenticZClothing.Boilersuit_PrisonerClassic = "囚犯連體褲(經典款)",	
 	ItemName_AuthenticZClothing.Clown_Coveralls = "小醜袍",
-	ItemName_AuthenticZClothing.CEDAHazmatSuit = "C.E.D.A 危險品防護服",
 	ItemName_AuthenticZClothing.NBHHazmatSuit = "核生化防護服",
 	ItemName_AuthenticZClothing.Dress_Maid = "女僕裝",	
 	ItemName_AuthenticZClothing.Dress_Nurse = "護士裝",
@@ -247,7 +245,6 @@ ItemName_CH = {
 	ItemName_AuthenticZClothing.AmmoStrap_Bullets2 = "子彈背帶",
 	ItemName_AuthenticZClothing.AmmoStrap_Shells2 =  "霰彈背帶",
 	ItemName_AuthenticZClothing.Apron_GreenSeaHorse =  "海馬咖啡店圍裙",
-
 	ItemName_AuthenticZClothing.Apron_Short = "圍裙(短款)",
 	ItemName_AuthenticZClothing.Apron_Yellow = "圍裙(黃色)",
 	ItemName_AuthenticZClothing.Authentic_Headphones =  "頭戴式耳機",		
@@ -415,11 +412,11 @@ ItemName_CH = {
 	ItemName_AuthenticZClothing.MetalSpike =  "金屬尖刺",
 	ItemName_AuthenticZClothing.ShortMetalSpike =  "金屬尖刺(短款)",
 	ItemName_AuthenticZClothing.KnifeEnd =  "鋸齒刀片",	
-	ItemName_AuthenticZClothing.SpikePick =  "Long Metal Pick",	
+	ItemName_AuthenticZClothing.SpikePick =  "金屬髮棒",	
 	ItemName_AuthenticZClothing.ShortMetalSpear =  "金屬尖刺(短款)",
 	ItemName_AuthenticZClothing.MediumMetalSpike =  "金屬尖刺",
 	ItemName_AuthenticZClothing.RemoteControl_Box =  "遙控盒子",	
-	ItemName_AuthenticZClothing.Stake2 =  "楹",	
+	ItemName_AuthenticZClothing.Stake2 =  "樁",	
 	ItemName_AuthenticZClothing.Stop_Sign =  "停車牌",		
 	ItemName_AuthenticZClothing.TorchMelee =  "手電筒",	
 	ItemName_AuthenticZClothing.HandTorch2 =  "手電筒",
@@ -435,7 +432,6 @@ ItemName_CH = {
 	ItemName_AuthenticZClothing.Tshirt_SportKilla = "運動T恤(基拉)", 
 	ItemName_AuthenticZClothing.Tshirt_SportPinkBlackBlue = "運動T恤(三色)", 
 	ItemName_AuthenticZClothing.Tshirt_SportPopcicle = "運動T恤",  
-	ItemName_AuthenticZClothing.Tshirt_SportPurple = "運動T恤(紫色)",  
 	ItemName_AuthenticZClothing.Tshirt_SpiffoNEW = "運動T恤(浣熊新款)"
 	ItemName_AuthenticZClothing.Tshirt_Icon = "帶LOGO的T恤",
 
@@ -683,7 +679,8 @@ ItemName_CH = {
 	ItemName_AuthenticZClothing.Socks_Long_StockingsBlack = "兔女郎絲襪",
 	ItemName_AuthenticZClothing.Hat_HardHat_Miner2 = "2號礦工帽",
 
-	/* New */
+
+	/* 12-26-21 */
 	ItemName_AuthenticZClothing.TShirt_RedStriped = "紅色條紋T恤",
 	ItemName_AuthenticZClothing.Trousers_SuitVeryRed = "紅色長褲",
 	ItemName_AuthenticZClothing.Bag_B4BHoffman_Tier_1 = "霍夫曼的背包T1",	
@@ -704,7 +701,7 @@ ItemName_CH = {
 	ItemName_AuthenticZClothing.Hat_BaseballCapWhite_Reverse = "棒球帽（白色）",
 	ItemName_AuthenticZClothing.Hat_FastFood_Donut = "甜甜圈店員帽",
 
-	/* New */
+	/* 1-17-22  */
 	ItemName_AuthenticZClothing.Authentic_HeadphonesNeck  = "頭戴式耳機(掛在脖子)",
 	ItemName_AuthenticZClothing.Authentic_HeadphonesNeck2 = "頭戴式耳機(掛在脖子)",
 	ItemName_AuthenticZClothing.Bag_MilitaryWebbing_AZ 			= "戰術腰帶",
@@ -728,25 +725,49 @@ ItemName_CH = {
 	ItemName_AuthenticZClothing.CultistSign = "邪教徒的標誌",	
 	ItemName_AuthenticZClothing.CultistRobe = "邪教徒的長袍",
 	
-	/* 0203 */	
-                ItemName_AuthenticZClothing.Dress_Knees_Black = "及膝連衣裙",
-                ItemName_AuthenticZClothing.GreeneZ_F = "綠色女性活屍皮膚",
-                ItemName_AuthenticZClothing.AuthenticIceStaff = "夢幻冰杖",
-                ItemName_AuthenticZClothing.AuthenticRaiderStaff = "沙襲手杖",
-                ItemName_AuthenticZClothing.Scarf_Black = "黑色圍巾",
-                ItemName_AuthenticZClothing.HoodieUP_Black = "黑色連帽衫",
-                ItemName_AuthenticZClothing.HoodieDOWN_Black = "黑色連帽衫",
-                ItemName_AuthenticZClothing.HoodieTied_Black = "黑色連帽衫（繫帶）",
-                ItemName_AuthenticZClothing.Skirt_ShortRedPlaid = "紅色格子短裙",
-                ItemName_AuthenticZClothing.Skirt_ShortPlaid = "格子短裙",
-                ItemName_AuthenticZClothing.Authentic_PomPomRed = "啦啦隊絨球",
-                ItemName_AuthenticZClothing.Authentic_PomPomRed = "啦啦隊絨球",
-                ItemName_AuthenticZClothing.AuthenticWalkingCaneMetal = "金屬手杖",
-                ItemName_AuthenticZClothing.AuthenticBouquetFlowers = "花束",
-                ItemName_AuthenticZClothing.AuthenticFreeHugsSign = "免費擁抱標誌",
-	  ItemName_AuthenticZClothing.AuthenticHairHeadband =  "運動頭帶",	
-                ItemName_AuthenticZClothing.Jacket_Reporter_LBMW = "LBMW 媒體夾克",	
+	/* Update 2-6-21 */	
+        ItemName_AuthenticZClothing.Dress_Knees_Black = "及膝連衣裙",
+        ItemName_AuthenticZClothing.GreeneZ_F = "綠色女性活屍皮膚",
+        ItemName_AuthenticZClothing.AuthenticIceStaff = "夢幻冰杖",
+        ItemName_AuthenticZClothing.AuthenticRaiderStaff = "沙襲手杖",
+        ItemName_AuthenticZClothing.Scarf_Black = "黑色圍巾",
+        ItemName_AuthenticZClothing.HoodieUP_Black = "黑色連帽衫",
+        ItemName_AuthenticZClothing.HoodieDOWN_Black = "黑色連帽衫",
+        ItemName_AuthenticZClothing.HoodieTied_Black = "黑色連帽衫（繫帶）",
+        ItemName_AuthenticZClothing.Skirt_ShortRedPlaid = "紅色格子短裙",
+        ItemName_AuthenticZClothing.Skirt_ShortPlaid = "格子短裙",
+        ItemName_AuthenticZClothing.Authentic_PomPomRed = "啦啦隊絨球",
+        ItemName_AuthenticZClothing.AuthenticWalkingCaneMetal = "金屬手杖",
+        ItemName_AuthenticZClothing.AuthenticBouquetFlowers = "花束",
+        ItemName_AuthenticZClothing.AuthenticFreeHugsSign = "免費擁抱標誌",
+	ItemName_AuthenticZClothing.AuthenticHairHeadband =  "運動頭帶",	
+        ItemName_AuthenticZClothing.Jacket_Reporter_LBMW = "LBMW 媒體夾克",	
 
-                ItemName_AuthenticZClothing.Hairstyle_Afro_Pick =  "Afro 髮梳",	
+        ItemName_AuthenticZClothing.Hairstyle_Afro_Pick2 =  "Afro 髮梳",	
 
+	/* New */
+	ItemName_AuthenticZClothing.Authentic_PomPomBlue = "拉拉隊常用的藍色彩球",	
+	ItemName_AuthenticZClothing.AuthenticTagillaSledgehammer =  "Tagilla 的大槌",
+	ItemName_AuthenticZClothing.Hat_BaseballCapBossTagilla =  "Tagilla 的棒球帽",
+	ItemName_AuthenticZClothing.Hat_BaseballCapBossTagilla_Reverse =  "Tagilla 的棒球反戴帽",	
+	ItemName_AuthenticZClothing.Hat_TagillaMask = "Tagilla 的焊工面罩",	
+	ItemName_AuthenticZClothing.Hat_TagillaMask2 = "Gorilla 的焊接口罩",	
+	ItemName_AuthenticZClothing.AuthenticBingoDotter =  "紫色賓果玩偶",
+	ItemName_AuthenticZClothing.AuthenticBingoDotterOrange =  "橙色賓果玩偶",
+	ItemName_AuthenticZClothing.AuthenticBingoDotterRed =  "紅色賓果玩偶",
+	ItemName_AuthenticZClothing.AuthenticBingoDotterTeal =  "蒂爾賓果玩偶",
+	ItemName_AuthenticZClothing.AuthenticBingoDotterYellow =  "黃色賓果玩偶",
+	
+	ItemName_AuthenticZClothing.AuthenticWalkingCaneJP =  "針型琥珀手杖",
+	ItemName_AuthenticZClothing.AuthenticWalkingCaneGrandFather =  "仿古手杖",
+	ItemName_AuthenticZClothing.Dress_LongPolkadot =  "長圓點連衣裙",
+	ItemName_AuthenticZClothing.Dress_Polkadot =  "“圓點連衣裙",
+	ItemName_AuthenticZClothing.Dress_Polkadot_Knees =  "短圓點連衣裙",
+	ItemName_AuthenticZClothing.Dress_LongFlower =  "長印花連衣裙",
+	ItemName_AuthenticZClothing.Dress_Flower =  "印花連衣裙",
+	ItemName_AuthenticZClothing.Dress_Flower_Knees =  "印花短裙",
+	
+	ItemName_AuthenticZClothing.Vest_BulletTagilla =  "Tagilla 的 CP 戰術背心",
+	ItemName_AuthenticZClothing.Trousers_Tagilla = "戰術褲",
+	
 }

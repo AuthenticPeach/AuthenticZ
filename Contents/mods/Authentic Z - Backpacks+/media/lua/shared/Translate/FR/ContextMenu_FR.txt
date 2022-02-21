@@ -12,4 +12,7 @@ ContextMenu_FR = {
 	
 	ContextMenu_WearHead = "Porter sur la tête",
 	ContextMenu_WearNeck = "Porter autour du cou",
+	
+	ContextMenu_AfroPick = "Porter pour une grosse touffe",	
+	ContextMenu_AfroPick2 = "Porter pour une petite touffe"
 } 

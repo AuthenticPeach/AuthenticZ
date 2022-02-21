@@ -128,9 +128,7 @@ AttachedWeaponDefinitions.BrickBusterVHS = {
 	addHoles = false,
 	daySurvived = 0,
 	weapons = {
---    "Base.VHS",
     "Base.VHS_Retail",
---    "Base.VHS_Home",
 	},
 }
 
@@ -157,6 +155,19 @@ AttachedWeaponDefinitions.Mop = {
 	daySurvived = 0,
 	weapons = {
 		"Base.Mop",
+	},
+}
+
+AttachedWeaponDefinitions.CandleCultist = {
+	id = "AZCandle",
+	chance = 100,
+	outfit = {"AuthenticCultist"},
+	weaponLocation = {"Left Hand", "Right Hand"},
+	bloodLocations = nil,
+	addHoles = false,
+	daySurvived = 0,
+	weapons = {
+    "Base.Candle",
 	},
 }
 
@@ -1322,6 +1333,13 @@ AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticCrossingGuard = {
 	chance = 100;
 	weapons = {
 		AttachedWeaponDefinitions.StopSign,
+	},
+}
+AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticCultist = {
+	chance = 66;
+	maxitem = 1;
+	weapons = {
+		AttachedWeaponDefinitions.CandleCultist,
 	},
 }
 AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticDianneCaldwell = {

@@ -803,6 +803,11 @@ module Base
 	model WorldItem-InflatableTube 
     {
 		mesh = WorldItems/WorldItem_InflatableTube,
+    }
+	model WorldItem-KilaHelmet
+    {
+		mesh = WorldItems/WorldItem-KilaHelmet,
+		texture = clothes\Hats\KillaClean,	
     }	
 	model WorldItem-AZPetition
     {

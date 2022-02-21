@@ -9,4 +9,9 @@ ContextMenu_PT = {
 	ContextMenu_VestBag = "Usar como mala",
 	ContextMenu_VestBullet = "Usar como colete à prova de balas",
 	ContextMenu_VestRadio = "Usar como rádio",
-} 
+
+        ContextMenu_WearHead = "Usar na cabeçaa",
+	ContextMenu_WearNeck = "usar no pescoço",
+
+        ContextMenu_AfroPick = "Usar para cabelo grande",	
+	ContextMenu_AfroPick2 = "Usar para cabelo pequeno",	

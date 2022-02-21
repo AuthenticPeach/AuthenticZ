@@ -827,6 +827,22 @@
         BulletDefense = 100,		
         WorldStaticModel = BulletVest_Ground,		
     }
+    item Vest_BulletTagilla
+    {
+        DisplayCategory = Clothing,	
+        Type = Clothing,
+        DisplayName = Crye Precision AVS MBAV,
+        ClothingItem = Vest_BulletTagilla,
+        BodyLocation = TorsoExtra,
+        Icon = BulletVestKilla,
+        BloodLocation = ShirtNoSleeves,
+        Insulation = 0.65,
+        WindResistance = 0.30,
+        BiteDefense = 30,
+        ScratchDefense = 55,
+        BulletDefense = 100,		
+        WorldStaticModel = BulletVest_Ground,		
+    }	
     item Vest_BulletTV110_Bag
     {
         DisplayCategory 		= 	Bag,	

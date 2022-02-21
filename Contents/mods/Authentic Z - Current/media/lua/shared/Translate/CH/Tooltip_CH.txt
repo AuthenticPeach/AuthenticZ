@@ -14,8 +14,8 @@ Tooltip_CH = {
 	Tooltip_AttachAliceBackpackTier2 = "增加插槽：道具3，公仔，雨傘",
 	Tooltip_AttachAliceBackpackTier3 = "增加插槽：道具4，道具5，水瓶2，手電筒",
 	
-	Tooltip_AuthenticFlareGun = "一把12口徑的獵戶座信號槍"
-	Tooltip_AuthenticAndyBoard = "血跡斑斑的",
+        Tooltip_AuthenticFlareGun = "一把12口徑的獵戶座信號槍",
+        Tooltip_AuthenticAndyBoard = "血跡斑斑的",
 	Tooltip_PostalDude = "你願意在我的請願書上簽名嗎？",
 	Tooltip_Carabiner = "用於將物品掛在背包上",
 	Tooltip_Pills = "藥丸在這裡！",
@@ -33,8 +33,9 @@ Tooltip_CH = {
 	Tooltip_MeatChunk2 = "聞起來是新鮮的...",
 	Tooltip_MeatChunk3 = "沾滿了血，很噁心",
 	Tooltip_MeatChunk4 = "讓我感到作嘔",
-	Tooltip_MeatChunk5 = "感謝上帝這東西不是從我身上扯下來的...",		
-	Tooltip_Scandroid = "牌子上寫著 "我們來這裡，有意為之".", 
+	Tooltip_MeatChunk5 = "感謝上帝這東西不是從我身上扯下來的...",	
+	Tooltip_OpenJacket = "打開護套以減少絕緣",		
+	Tooltip_Scandroid = "牌子上寫著 "我們來這裡，有意為之."", 
 	Tooltip_Stop = "停！"
 	Tooltip_Stantz = "雷·斯坦茨曾穿過它...",
 	Tooltip_Spengler = "埃貢·斯賓格勒曾穿過它...", 
@@ -42,10 +43,17 @@ Tooltip_CH = {
 	Tooltip_Winslow = "我可能需要打一針破傷風..."
 	Tooltip_Zeddemore = "溫斯頓·澤德莫爾曾穿過它...",
 
-	/* New*/	
+/* Update 1-17-22*/	
 	Tooltip_TacticalWebbing = "增加2個掛槽",
 	Tooltip_AddWalkieTV110 = "把對講機掛到TV-110上",
 	Tooltip_AddWalkieTV110Bag = "請先把彈藥都拿出來再掛對講機",
 	Tooltip_RemoveWalkieTV110 = "把對講機從TV-110上拿下來",
 	Tooltip_RemoveWalkieTV110Bag = "請先把彈藥都拿出來再操作",
+
+	Tooltip_TV110Bag = "請先把所有物品都拿出來再操作.",
+	
+/* New */
+	
+	Tooltip_JPCane = "生命會自己找到出路.",		
+	Tooltip_TagillaHelmet = "UBEY",			
 	}

@@ -55,4 +55,5 @@ Tooltip_EN = {
 /* New */
 
 	Tooltip_JPCane = "Life finds a way.",		
+	Tooltip_TagillaHelmet = "UBEY",			
 	}

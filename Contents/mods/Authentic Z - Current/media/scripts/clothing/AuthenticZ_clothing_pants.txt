@@ -477,7 +477,7 @@ module AuthenticZClothing {
     }
     item Trousers_DefaultJeans
     {
-       DisplayCategory = Clothing,		
+		DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Jeans,
         ClothingItem = Trousers_DefaultJeans,
@@ -492,6 +492,22 @@ module AuthenticZClothing {
         FabricType = Denim,
         WorldStaticModel = Trousers_Ground,		
     }
+   	item Trousers_DesignerTINT
+    {
+		DisplayCategory = Clothing,		
+        Type = Clothing,
+        DisplayName = Designer Pants,
+        ClothingItem = Trousers_DesignerTINT,
+        BodyLocation = Pants,
+        Icon = TrousersChef,
+        BloodLocation = Trousers,
+        ScratchDefense = 10,
+        Insulation = 0.75,
+        WindResistance = 0.75,
+        WaterResistance = 0.35,
+        FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,		
+    }	
     item Trousers_FiremanNMRIH
     {
        DisplayCategory = Clothing,		
@@ -852,6 +868,22 @@ module AuthenticZClothing {
         FabricType = Cotton,
         WorldStaticModel = Trousers_Ground,		
     }
+    item Trousers_Tagilla
+    {
+       DisplayCategory = Clothing,		
+        Type = Clothing,
+        DisplayName = Tactical Pants,
+        ClothingItem = Trousers_Tagilla,
+        BodyLocation = Pants,
+        Icon = TrousersBub,
+        BloodLocation = Trousers,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        Insulation = 0.3,
+        WindResistance = 0.1,
+        FabricType = Denim,
+        WorldStaticModel = Trousers_Ground,		
+    }	
     item Trousers_UncleSam
     {
        DisplayCategory = Clothing,		

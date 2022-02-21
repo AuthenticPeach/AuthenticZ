@@ -1,4 +1,4 @@
-IGUI_EN = {
+IGUI_PT = {
 
     IGUI_Hair_BigAfro = "Grande afro",
     IGUI_Hair_DukeBuzzCut = "Corte de pente curto",
@@ -39,11 +39,11 @@ IGUI_EN = {
 	IGUI_HotbarAttachment_BigHikingbagFlashlight = "Mala de caminhada grande espaço lanterna ",	
 	IGUI_HotbarAttachment_AlicepackFlashlight = "Alicepack espaço lanterna",
 
-	IGUI_HotbarAttachment_SchoolbagUmbrellaLeft = "Mala de escola espaço guarda-chuva",
-	IGUI_HotbarAttachment_DufflebagUmbrellaRight = "Saco de viagem espaço guarda-chuva",
-	IGUI_HotbarAttachment_HikingbagUmbrellaLeft = "Mala de caminhada espaço guarda-chuva",
-	IGUI_HotbarAttachment_BigHikingbagUmbrellaLeft = "Mala de caminhada grande espaço guarda-chuva",	
-	IGUI_HotbarAttachment_AlicepackUmbrellaRight = "Alicepack espaço guarda-chuva",
+	IGUI_HotbarAttachment_SchoolbagUmbrellaLeft = "Mala de escola espaço de utilidades",
+	IGUI_HotbarAttachment_DufflebagUmbrellaRight = "Saco de viagem espaço de utilidades",
+	IGUI_HotbarAttachment_HikingbagUmbrellaLeft = "Mala de caminhada espaço de utilidades",
+	IGUI_HotbarAttachment_BigHikingbagUmbrellaLeft = "Mala de caminhada grande espaço de utilidades",	
+	IGUI_HotbarAttachment_AlicepackUmbrellaRight = "Alicepack espaço de utilidades",
 
 	IGUI_HotbarAttachment_SchoolbagBalloonLeft = "Espaço balão",
 	IGUI_HotbarAttachment_SchoolbagBalloonRight = "Espaço balão",	
@@ -67,7 +67,7 @@ IGUI_EN = {
 	IGUI_HotbarAttachment_ARVNBottleRight = "Mochila militar espaço garrafa",
 	IGUI_HotbarAttachment_ARVNBottleLeft = "Mochila militar espaço garrafa",	
 	IGUI_HotbarAttachment_ARVNPlushie = "Mochila militar espaço peluche",
-	IGUI_HotbarAttachment_ARVNUmbrellaRight = "Mochila militar espaço guarda-chuva",
+	IGUI_HotbarAttachment_ARVNUmbrellaRight = "Mochila militar espaço de utilidades",
 	IGUI_HotbarAttachment_ARVNItemSlot1 = "Mochila militar espaço 1",	
 	IGUI_HotbarAttachment_ARVNItemSlot2 = "Mochila militar espaço 2",
 	IGUI_HotbarAttachment_ARVNItemSlot3 = "Mochila militar espaço 3",	

@@ -751,7 +751,7 @@ ItemName_EN = {
 	ItemName_AuthenticZClothing.Hat_BaseballCapBossTagilla =  "Boss Baseball Cap",
 	ItemName_AuthenticZClothing.Hat_BaseballCapBossTagilla_Reverse =  "Boss Baseball Cap",	
 	ItemName_AuthenticZClothing.Hat_TagillaMask = "Tagilla's Welder Mask",	
-	ItemName_AuthenticZClothing.Hat_TagillaMask2 = "Gorilla Welder Mask",	
+	ItemName_AuthenticZClothing.Hat_TagillaMask2 = "Gorilla Print Welder Mask",	
 	ItemName_AuthenticZClothing.AuthenticBingoDotter =  "Purple Bingo Dabber",
 	ItemName_AuthenticZClothing.AuthenticBingoDotterOrange =  "Orange Bingo Dabber",
 	ItemName_AuthenticZClothing.AuthenticBingoDotterRed =  "Red Bingo Dabber",
@@ -766,5 +766,8 @@ ItemName_EN = {
 	ItemName_AuthenticZClothing.Dress_LongFlower =  "Long Floral Print Dress",
 	ItemName_AuthenticZClothing.Dress_Flower =  "Floral Print Dress",
 	ItemName_AuthenticZClothing.Dress_Flower_Knees =  "Short Floral Print Dress",
+	
+	ItemName_AuthenticZClothing.Vest_BulletTagilla =  "Crye Precision AVS MBAV",
+	ItemName_AuthenticZClothing.Trousers_Tagilla = "Tactical Pants",
 	
 }

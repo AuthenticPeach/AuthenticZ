@@ -12,4 +12,7 @@ ContextMenu_ES = {
 	
 	ContextMenu_WearHead = "Vestir en la cabeza",
 	ContextMenu_WearNeck = "Vestir en el cuello",
+	
+	ContextMenu_AfroPick = "Ropa para cabello grande",	
+	ContextMenu_AfroPick2 = "Ropa para cabello pequeño",	
 } 

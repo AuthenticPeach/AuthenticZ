@@ -5584,6 +5584,10 @@
 		<guid>b63133df-07bb-46db-91ca-cc10f2048669</guid>
 	</files>
 	<files>
+		<path>media/clothing/clothingItems/Trousers_DesignerTINT.xml</path>
+		<guid>2330e3c7-2f27-49a8-8c47-fb0809578ac8</guid>
+	</files>	
+	<files>
 		<path>media/clothing/clothingItems/Trousers_FiremanNMRIH.xml</path>
 		<guid>1d016b87-4db1-4d5c-b68a-c436086c19e3</guid>
 	</files>	
@@ -5658,6 +5662,10 @@
 	<files>
 		<path>media/clothing/clothingItems/Trousers_SuitVeryRed.xml</path>
 		<guid>5e26c5ef-fa40-4787-a6d9-17197ba31c7a</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Trousers_Tagilla.xml</path>
+		<guid>b2807cd5-27bd-4b1f-afe5-c544dad467b0</guid>
 	</files>	
 	<files>
 		<path>media/clothing/clothingItems/TrousersMesh_Bill.xml</path>
@@ -5819,6 +5827,10 @@
 		<path>media/clothing/clothingItems/Vest_BulletKilla.xml</path>
 		<guid>48cd4891-d895-48a8-8410-3ecef5c158bb</guid>
 	</files>
+	<files>
+		<path>media/clothing/clothingItems/Vest_BulletTagilla.xml</path>
+		<guid>ecc9db72-b07d-4440-ad88-5f94739fba23</guid>
+	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Vest_BulletTV110_Bag.xml</path>
 		<guid>64f4ef49-cffa-4acf-bb36-abbff9aed6db</guid>

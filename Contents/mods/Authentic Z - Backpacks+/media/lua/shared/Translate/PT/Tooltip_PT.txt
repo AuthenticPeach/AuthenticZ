@@ -1,4 +1,4 @@
-Tooltip_EN = {
+Tooltip_PT = {
 	Tooltip_AttachBackpack = "Ajusta item para agarrar na mochila amelhorada",
 	Tooltip_AttachBackpackRevert = "Reverter item para forma inicial",
 	Tooltip_AttachBackpackTier1 = "Adicionar espaços: Mala secundária, garrafa d'água, balão",
@@ -49,3 +49,8 @@ Tooltip_EN = {
 	Tooltip_AddWalkieTV110Bag = "Tira tudo primeiro, depois anexa Walkie Talkie militar ao TV-110.",
 	Tooltip_RemoveWalkieTV110 = "Retira Walkie Talkie militar do TV-110",
 	Tooltip_RemoveWalkieTV110Bag = "Tira tudo primeiro, depois retira Walkie Talkie militar do TV-110.",
+
+        Tooltip_TV110Bag = "Retira todos os items antes disto.",
+
+        Tooltip_JPCane = "A vida encontra uma maneira.",		
+	Tooltip_TagillaHelmet = "UBEY",	

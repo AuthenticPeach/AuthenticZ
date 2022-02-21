@@ -43,10 +43,17 @@ Tooltip_ES = {
 	Tooltip_Winslow = "Tal vez quiera encontrar una vacuna contra el tétanos ..."
 	Tooltip_Zeddemore = "Winston Zeddemore solía usar esto ...",
 	
-	/* New*/	
+	/* Update 1-17-22*/		
 	Tooltip_TacticalWebbing = "Agrega 2 espacios para accesorios",
 	Tooltip_AddWalkieTV110 = "Conecta Walkie Talkie del ejército a TV-110",
 	Tooltip_AddWalkieTV110Bag = "Conecta el Walkie Talkie del ejército al TV-110. Saca todas las revistas antes de esto.",
 	Tooltip_RemoveWalkieTV110 = "Elimina Walkie Talkie del ejército de TV-110",
 	Tooltip_RemoveWalkieTV110Bag = "Elimina Walkie Talkie del ejército de TV-110, saca todas las revistas antes de esto.",
+	
+	Tooltip_TV110Bag = "Sacar todos los objetos antes.",
+	
+	/* New */
+
+	Tooltip_JPCane = "La vida encuentra un camino.",		
+	Tooltip_TagillaHelmet = "UBEY",	
 	}
