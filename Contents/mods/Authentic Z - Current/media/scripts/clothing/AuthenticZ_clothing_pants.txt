@@ -280,7 +280,7 @@ module AuthenticZClothing {
         DisplayName = LV Cheerleader Short Skirt,
         ClothingItem = Skirt_LVCheerleader,
         BodyLocation = Skirt,
-        Icon = Cheerleader_Skirt,
+        Icon = CheerleaderLV_Skirt,
         BloodLocation = ShortsShort,
         Insulation = 0.05,
         FabricType = Cotton,

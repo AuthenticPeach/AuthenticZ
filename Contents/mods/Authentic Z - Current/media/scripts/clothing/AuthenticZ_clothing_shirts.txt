@@ -50,7 +50,7 @@
         DisplayName = Cheerleader Crop Top,
         ClothingItem = Shirt_CropTopLVCheerleader,
         BodyLocation = Tshirt,
-        Icon	=	TubeTopSleevedGeneric,
+        Icon	=	TubeTopSleevedLVCheerleader,
         BloodLocation = Shirt,
         FabricType = Cotton,
         WorldStaticModel = CropTop_Ground,
