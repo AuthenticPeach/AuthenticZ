@@ -265,7 +265,7 @@ AuthenticZ.tab_addMagProcedural_Torch2("GigamartHouseElectronics",2.0);
 AuthenticZ.tab_addMagProcedural_Torch2("ElectronicStoreMisc",1.0);
 AuthenticZ.tab_addMagProcedural_Torch2("CrateElectronics",1.0);
 
-AuthenticZ.tab_addMagProcedural_Plushies("CrateToys",0.001)
-AuthenticZ.tab_addMagProcedural_Plushies("DaycareCounter",0.001)
-AuthenticZ.tab_addMagProcedural_Plushies("DaycareShelves",0.001)
-AuthenticZ.tab_addMagProcedural_Plushies("GigamartToys",0.001)
+AuthenticZ.tab_addMagProcedural_Plushies("CrateToys",0.002)
+AuthenticZ.tab_addMagProcedural_Plushies("DaycareCounter",0.002)
+AuthenticZ.tab_addMagProcedural_Plushies("DaycareShelves",0.002)
+AuthenticZ.tab_addMagProcedural_Plushies("GigamartToys",0.002)
