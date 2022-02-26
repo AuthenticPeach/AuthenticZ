@@ -3,7 +3,7 @@ module AuthenticZRecipes{
       Base
   }
 
-recipe Make Backpack Attachable
+recipe Make Backpack Attachable Item
   	{
    	   Hat_GasMask,
 
@@ -11,7 +11,7 @@ recipe Make Backpack Attachable
 	   Time:30.0,
 	   Tooltip:Tooltip_AttachBackpack,
   	}			
-recipe Make Backpack Attachable
+recipe Make Backpack Attachable Item
   	{
    	   AerosolbombTriggered,
 
@@ -19,7 +19,7 @@ recipe Make Backpack Attachable
 	   Time:30.0,
 	   Tooltip:Tooltip_AttachBackpack,
   	}
-recipe Make Backpack Attachable
+recipe Make Backpack Attachable Item
   	{
    	   Base.Aerosolbomb,
 
@@ -27,7 +27,7 @@ recipe Make Backpack Attachable
 	   Time:30.0,
 	   Tooltip:Tooltip_AttachBackpack,
   	}	
-recipe Make Backpack Attachable
+recipe Make Backpack Attachable Item
   	{
    	   AerosolbombSensorV1,
 
@@ -35,7 +35,7 @@ recipe Make Backpack Attachable
 	   Time:30.0,
 	   Tooltip:Tooltip_AttachBackpack,
   	}	
-recipe Make Backpack Attachable
+recipe Make Backpack Attachable Item
   	{
    	   AerosolbombSensorV2,
 
@@ -43,7 +43,7 @@ recipe Make Backpack Attachable
 	   Time:30.0,
 	   Tooltip:Tooltip_AttachBackpack,
   	}	
-recipe Make Backpack Attachable
+recipe Make Backpack Attachable Item
   	{
    	   AerosolbombSensorV3,
 
@@ -51,7 +51,7 @@ recipe Make Backpack Attachable
 	   Time:30.0,
 	   Tooltip:Tooltip_AttachBackpack,
   	}	
-recipe Make Backpack Attachable
+recipe Make Backpack Attachable Item
   	{
    	   AerosolbombRemote,
 
@@ -59,7 +59,7 @@ recipe Make Backpack Attachable
 	   Time:30.0,
 	   Tooltip:Tooltip_AttachBackpack,
   	}	
-recipe Make Backpack Attachable
+recipe Make Backpack Attachable Item
   	{
    	   FlameTrap,
 
@@ -67,7 +67,7 @@ recipe Make Backpack Attachable
 	   Time:30.0,
 	   Tooltip:Tooltip_AttachBackpack,
   	}	
-recipe Make Backpack Attachable
+recipe Make Backpack Attachable Item
   	{
    	   FlameTrapTriggered,
 
@@ -75,7 +75,7 @@ recipe Make Backpack Attachable
 	   Time:30.0,
 	   Tooltip:Tooltip_AttachBackpack,
   	}
-recipe Make Backpack Attachable
+recipe Make Backpack Attachable Item
   	{
    	   FlameTrapSensorV1,
 
@@ -83,7 +83,7 @@ recipe Make Backpack Attachable
 	   Time:30.0,
 	   Tooltip:Tooltip_AttachBackpack,
   	}	
-recipe Make Backpack Attachable
+recipe Make Backpack Attachable Item
   	{
    	   FlameTrapSensorV2,
 
@@ -91,7 +91,7 @@ recipe Make Backpack Attachable
 	   Time:30.0,
 	   Tooltip:Tooltip_AttachBackpack,
   	}	
-recipe Make Backpack Attachable
+recipe Make Backpack Attachable Item
   	{
    	   FlameTrapSensorV3,
 
@@ -99,7 +99,7 @@ recipe Make Backpack Attachable
 	   Time:30.0,
 	   Tooltip:Tooltip_AttachBackpack,
   	}	
-recipe Make Backpack Attachable
+recipe Make Backpack Attachable Item
   	{
    	   FlameTrapRemote,
 
@@ -107,7 +107,7 @@ recipe Make Backpack Attachable
 	   Time:30.0,
 	   Tooltip:Tooltip_AttachBackpack,
   	}
-recipe Make Backpack Attachable
+recipe Make Backpack Attachable Item
   	{
    	   SmokeBomb,
 
@@ -115,7 +115,7 @@ recipe Make Backpack Attachable
 	   Time:30.0,
 	   Tooltip:Tooltip_AttachBackpack,
   	}
-recipe Make Backpack Attachable
+recipe Make Backpack Attachable Item
   	{
    	   PipeBombTriggered,
 
@@ -123,7 +123,7 @@ recipe Make Backpack Attachable
 	   Time:30.0,
 	   Tooltip:Tooltip_AttachBackpack,
   	}
-recipe Make Backpack Attachable
+recipe Make Backpack Attachable Item
   	{
    	   PipeBombSensorV1,
 
@@ -131,7 +131,7 @@ recipe Make Backpack Attachable
 	   Time:30.0,
 	   Tooltip:Tooltip_AttachBackpack,
   	}	
-recipe Make Backpack Attachable
+recipe Make Backpack Attachable Item
   	{
    	   PipeBombSensorV2,
 
@@ -139,7 +139,7 @@ recipe Make Backpack Attachable
 	   Time:30.0,
 	   Tooltip:Tooltip_AttachBackpack,
   	}
-recipe Make Backpack Attachable
+recipe Make Backpack Attachable Item
   	{
    	   PipeBombSensorV3,
 
@@ -147,7 +147,7 @@ recipe Make Backpack Attachable
 	   Time:30.0,
 	   Tooltip:Tooltip_AttachBackpack,
   	}	
-recipe Make Backpack Attachable
+recipe Make Backpack Attachable Item
   	{
    	   PipeBombRemote,
 
@@ -155,7 +155,7 @@ recipe Make Backpack Attachable
 	   Time:30.0,
 	   Tooltip:Tooltip_AttachBackpack,
   	}
-recipe Make Backpack Attachable
+recipe Make Backpack Attachable Item
   	{
    	   PipeBomb,
 
@@ -163,7 +163,7 @@ recipe Make Backpack Attachable
 	   Time:30.0,
 	   Tooltip:Tooltip_AttachBackpack,
   	}	
-recipe Make Backpack Attachable
+recipe Make Backpack Attachable Item
   	{
    	   Molotov,
 
@@ -172,9 +172,7 @@ recipe Make Backpack Attachable
 	   Tooltip:Tooltip_AttachBackpack,
   	}
 
-
-	
-recipe Make Backpack Attachable
+recipe Make Backpack Attachable Item
   	{
    	   ToyBear,
 
@@ -182,7 +180,7 @@ recipe Make Backpack Attachable
 	   Time:30.0,
 	   Tooltip:Tooltip_AttachBackpack,
   	}
-recipe Make Backpack Attachable
+recipe Make Backpack Attachable Item
   	{
    	   Doll,
 
@@ -190,7 +188,7 @@ recipe Make Backpack Attachable
 	   Time:30.0,
 	   Tooltip:Tooltip_AttachBackpack,
   	}	
-recipe Make Backpack Attachable
+recipe Make Backpack Attachable Item
   	{
    	   Spiffo,
 
@@ -198,7 +196,7 @@ recipe Make Backpack Attachable
 	   Time:30.0,
 	   Tooltip:Tooltip_AttachBackpack,
   	}
-recipe Make Backpack Attachable
+recipe Make Backpack Attachable Item
   	{
    	   ClosedUmbrellaBlue,
 
@@ -206,7 +204,7 @@ recipe Make Backpack Attachable
 	   Time:30.0,
 	   Tooltip:Tooltip_AttachBackpack,
   	}
-recipe Make Backpack Attachable
+recipe Make Backpack Attachable Item
   	{
    	   ClosedUmbrellaRed,
 
@@ -214,7 +212,7 @@ recipe Make Backpack Attachable
 	   Time:30.0,
 	   Tooltip:Tooltip_AttachBackpack,
   	}
-recipe Make Backpack Attachable
+recipe Make Backpack Attachable Item
   	{
    	   ClosedUmbrellaBlack,
 
@@ -222,7 +220,7 @@ recipe Make Backpack Attachable
 	   Time:30.0,
 	   Tooltip:Tooltip_AttachBackpack,
   	}
-recipe Make Backpack Attachable
+recipe Make Backpack Attachable Item
   	{
    	   Pop,
 
@@ -230,7 +228,7 @@ recipe Make Backpack Attachable
 	   Time:30.0,
 	   Tooltip:Tooltip_AttachBackpack,
   	}
-recipe Make Backpack Attachable
+recipe Make Backpack Attachable Item
   	{
    	   Pop2,
 
@@ -238,29 +236,13 @@ recipe Make Backpack Attachable
 	   Time:30.0,
 	   Tooltip:Tooltip_AttachBackpack,
   	}	
-recipe Make Backpack Attachable
+recipe Make Backpack Attachable Item
   	{
    	   Pop3,
 
    	   Result:AuthenticZBackpacks+.Pop3,
 	   Time:30.0,
 	   Tooltip:Tooltip_AttachBackpack,
-  	}	
-recipe Revert Attachable
-  	{
-   	   AuthenticZBackpacks+.Saw,
-
-   	   Result:Saw,
-	   Time:30.0,
-	   Tooltip:Tooltip_AttachBackpackRevert,
-  	}
-recipe Revert Attachable
-  	{
-   	   AuthenticZBackpacks+.GardenSaw,
-
-   	   Result:GardenSaw,
-	   Time:30.0,
-	   Tooltip:Tooltip_AttachBackpackRevert,
   	}	
 recipe Revert Attachable
   	{
@@ -470,7 +452,7 @@ recipe Revert Attachable
 	   Time:30.0,
 	   Tooltip:Tooltip_AttachBackpackRevert,
   	}		
-recipe Make Backpack Attachable
+recipe Make Backpack Attachable Item
   	{
    	   Base.PopBottleEmpty,
 
@@ -478,7 +460,7 @@ recipe Make Backpack Attachable
 	   Time:30.0,
 	   Tooltip:Tooltip_AttachBackpack,
   	}	
-recipe Make Backpack Attachable
+recipe Make Backpack Attachable Item
   	{
    	   Base.WaterBottleEmpty,
 
@@ -486,7 +468,7 @@ recipe Make Backpack Attachable
 	   Time:30.0,
 	   Tooltip:Tooltip_AttachBackpack,
   	}
-recipe Make Backpack Attachable
+recipe Make Backpack Attachable Item
   	{
    	   destroy Base.WaterBottleFull,
 
@@ -495,7 +477,7 @@ recipe Make Backpack Attachable
 	   Time:30.0,
 	   Tooltip:Tooltip_AttachBackpack,
   	}	
-recipe Make Backpack Attachable
+recipe Make Backpack Attachable Item
   	{
    	   destroy Base.WaterPopBottle,
 
@@ -504,7 +486,7 @@ recipe Make Backpack Attachable
 	   Time:30.0,
 	   Tooltip:Tooltip_AttachBackpack,
   	}
-recipe Make Backpack Attachable
+recipe Make Backpack Attachable Item
   	{
    	   destroy Base.PopBottle,
 

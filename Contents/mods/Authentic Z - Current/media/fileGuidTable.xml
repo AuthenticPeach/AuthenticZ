@@ -5858,7 +5858,11 @@
 	<files>
 		<path>media/clothing/clothingItems/Vest_Hunting_Wally.xml</path>
 		<guid>082c8db4-91db-4f83-83e4-4083aff9e590</guid>
-	</files>	
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Vest_HighViz_Press.xml</path>
+		<guid>fb86d17a-1b2c-4414-b918-a2e5d73159d5</guid>
+	</files>
 	<files>
 		<path>media/clothing/clothingItems/Vest_BulletRPD.xml</path>
 		<guid>388ae021-e2a0-40e7-9a31-b825a1703df6</guid>

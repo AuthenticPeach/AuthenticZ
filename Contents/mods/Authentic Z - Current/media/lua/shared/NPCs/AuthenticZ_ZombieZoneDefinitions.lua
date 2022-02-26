@@ -732,23 +732,23 @@ ZombiesZoneDefinition.Dormitory = {
 	},
 	AuthenticEllisM = {
 		name="AuthenticEllis",
-		chance=3,
+		chance=1,
 		gender="male",
 	},
 	AuthenticCoachM = {
 		name="AuthenticCoach",
-		chance=3,
+		chance=1,
 		mandatory="true",
 		gender="male",
 	},
 	AuthenticRochelleM = {
 		name="AuthenticRochelle",
-		chance=2,
+		chance=1,
 		gender="female",
 	},
 	AuthenticNickM = {
 		name="AuthenticNick",
-		chance=3,
+		chance=1,
 		gender="male",
 	},	
 }
@@ -1014,6 +1014,16 @@ ZombiesZoneDefinition.LBMWStationHQ = { --
 		chance=20,
 		room="breakroom",
 	},	
+	AuthenticReporter1Formal = {
+		name="AuthenticReporter1Formal",
+		chance=3,
+		room="hall",
+	},
+	AuthenticReporter2LBMW = {
+		name="AuthenticReporter2LBMW",
+		chance=5,
+		room="hall",
+	},		
 	OfficeWorkerSkirt = {
 		name="OfficeWorkerSkirt",
 		gender="female",
@@ -1042,6 +1052,11 @@ ZombiesZoneDefinition.LBMWRadioHQ = {
 		chance=30,
 		room="office",
 	},
+	AuthenticReporter1Formal = {
+		name="AuthenticReporter1Formal",
+		chance=5,
+		room="hall",
+	},		
 	OfficeWorker = {
 		name="OfficeWorker",
 		gender="male",
@@ -1057,6 +1072,16 @@ ZombiesZoneDefinition.NewNowNetwork = { --3NewNowNetwork
 		chance=20,
 		room="studio",
 	},
+	AuthenticReporter1Formal = {
+		name="AuthenticReporter1Formal",
+		chance=5,
+		room="hall",
+	},	
+	AuthenticReporter1Formal = {
+		name="AuthenticReporter1Formal",
+		chance=5,
+		room="hall",
+	},		
 	OfficeWorkerSkirt = {
 		name="OfficeWorkerSkirt",
 		gender="female",
@@ -1422,6 +1447,39 @@ ZombiesZoneDefinition.ResidentEvil = {
 		gender="male",
 		mandatory="true",
 	},		
+}
+
+ZombiesZoneDefinition.RomeroTheater = {
+	AuthenticAbeLincoln = {
+		name="AuthenticAbeLincoln",
+		chance=1,
+		gender="male",
+	},
+	AuthenticPolitician = {
+		name="AuthenticPolitician",
+		chance=3,
+		gender="male",
+	},	
+	AuthenticElderly = {
+		name="AuthenticElderly",
+		chance=15,
+	},
+	AuthenticFuneralFormal = {
+		name="AuthenticFuneralFormal",
+		chance=15,
+	},
+	Tourist = {
+		name="Tourist",
+		chance=10,
+	},	
+	Classy = {
+		name="Classy",
+		chance=20,
+	},
+	Golfer = {
+		name="Golfer",
+		chance=15,
+	},	
 }
 
 ZombiesZoneDefinition.ScrapYard = {

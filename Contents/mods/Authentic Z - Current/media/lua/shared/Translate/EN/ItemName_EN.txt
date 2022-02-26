@@ -769,5 +769,15 @@ ItemName_EN = {
 	/* New */	
 	ItemName_AuthenticZClothing.Shirt_CropTopLVCheerleader = "UoLV Cheerleader Top",
 	ItemName_AuthenticZClothing.Skirt_LVCheerleader = "UoLV Short Skirt",
+	ItemName_AuthenticZClothing.ReporterMicrophone_Media01 = "Press Reporter Microphone - Triple N",
+	ItemName_AuthenticZClothing.ReporterMicrophoneMuffler_Media01 = "Press Reporter Microphone - Triple N",
+	ItemName_AuthenticZClothing.ReporterMicrophone_Media02 = "Press Reporter Microphone - LBMW Radio",
+	ItemName_AuthenticZClothing.ReporterMicrophoneMuffler_Media02 = "Press Reporter Microphone - LBMW Radio",
+	ItemName_AuthenticZClothing.ReporterMicrophone_Media03 = "Press Reporter Microphone - LBMW TV",
+	ItemName_AuthenticZClothing.ReporterMicrophoneMuffler_Media03 = "Press Reporter Microphone - LBMW TV",
+	ItemName_AuthenticZClothing.ReporterMicrophone_Media04 = "Press Reporter Microphone - Dice Media",
+	ItemName_AuthenticZClothing.ReporterMicrophoneMuffler_Media04 = "Press Reporter Microphone - Dice Media",
+	ItemName_AuthenticZClothing.ReporterMicrophone_Media05 = "Press Reporter Microphone - Conspiracy Media",
+	ItemName_AuthenticZClothing.ReporterMicrophoneMuffler_Media05 = "Press Reporter Microphone - Conspiracy Media",
 	
 }

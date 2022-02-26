@@ -237,7 +237,57 @@ module Base
 	{
 		mesh = Weapons/2Handed/AuthenticTuskanRaiderStaff,
 		texture = clothes\Items\SandpeopleStaff,
+	}
+	model AuthenticReporterMicrophone_Media01
+	{
+		mesh = Weapons/1Handed/AZReporterMic,
+		texture = clothes\Items\ReporterMic3N,
+	}
+	model AuthenticReporterMicrophoneMuffler_Media01
+	{
+		mesh = Weapons/1Handed/AZReporterMicMuffler,
+		texture = clothes\Items\ReporterMic3N,
+	}
+	model AuthenticReporterMicrophone_Media02
+	{
+		mesh = Weapons/1Handed/AZReporterMic,
+		texture = clothes\Items\ReporterMicLBMWRadio,
+	}
+	model AuthenticReporterMicrophoneMuffler_Media02
+	{
+		mesh = Weapons/1Handed/AZReporterMicMuffler,
+		texture = clothes\Items\ReporterMicLBMWRadio,
 	}	
+	model AuthenticReporterMicrophone_Media03
+	{
+		mesh = Weapons/1Handed/AZReporterMic,
+		texture = clothes\Items\ReporterMicLBMWTV,
+	}
+	model AuthenticReporterMicrophoneMuffler_Media03
+	{
+		mesh = Weapons/1Handed/AZReporterMicMuffler,
+		texture = clothes\Items\ReporterMicLBMWTV,
+	}	
+	model AuthenticReporterMicrophone_Media04
+	{
+		mesh = Weapons/1Handed/AZReporterMic,
+		texture = clothes\Items\ReporterMicDice,
+	}
+	model AuthenticReporterMicrophoneMuffler_Media04
+	{
+		mesh = Weapons/1Handed/AZReporterMicMuffler,
+		texture = clothes\Items\ReporterMicDice,
+	}
+	model AuthenticReporterMicrophone_Media05
+	{
+		mesh = Weapons/1Handed/AZReporterMic,
+		texture = clothes\Items\ReporterMicALEX,
+	}
+	model AuthenticReporterMicrophoneMuffler_Media05
+	{
+		mesh = Weapons/1Handed/AZReporterMicMuffler,
+		texture = clothes\Items\ReporterMicALEX,
+	}		
 	model AuthenticSmokeGrenade
 	{
 		mesh = AuthenticSmokeGrenade,
@@ -327,11 +377,6 @@ module Base
 		texture = clothes\Items\Rope2,
 		scale = 0.4,		
 	}		
-	model AuthenticAlienBlaster
-	{
-		mesh = Weapons/1Handed/AlienBlaster,
-		texture = AlienBlaster,
-	}
 	model AuthenticFlareGun
 	{
 		mesh = Weapons/1Handed/Authentic_FlareGun,
@@ -732,7 +777,57 @@ module Base
 	model WorldItem_Headband
 	{
 		mesh = WorldItems/WorldItem_AuthenticHeadband,
-	}	
+	}
+	model WorldItem_ReporterMicMuffler_Media01
+	{
+		mesh = WorldItems/WorldItem_AZReporterMicMuffler,
+		texture = clothes\Items\ReporterMic3N,		
+	}
+	model WorldItem_ReporterMicMuffler_Media02
+	{
+		mesh = WorldItems/WorldItem_AZReporterMicMuffler,
+		texture = clothes\Items\ReporterMicLBMWRadio,		
+	}
+	model WorldItem_ReporterMicMuffler_Media03
+	{
+		mesh = WorldItems/WorldItem_AZReporterMicMuffler,
+		texture = clothes\Items\ReporterMicLBMWTV,		
+	}
+	model WorldItem_ReporterMicMuffler_Media04
+	{
+		mesh = WorldItems/WorldItem_AZReporterMicMuffler,
+		texture = clothes\Items\ReporterMicDice,		
+	}
+	model WorldItem_ReporterMicMuffler_Media05
+	{
+		mesh = WorldItems/WorldItem_AZReporterMicMuffler,
+		texture = clothes\Items\ReporterMicALEX,		
+	}
+	model WorldItem_ReporterMic_Media01
+	{
+		mesh = WorldItems/WorldItem_AZReporterMic,
+		texture = clothes\Items\ReporterMic3N,		
+	}
+	model WorldItem_ReporterMic_Media02
+	{
+		mesh = WorldItems/WorldItem_AZReporterMic,
+		texture = clothes\Items\ReporterMicLBMWRadio,		
+	}
+	model WorldItem_ReporterMic_Media03
+	{
+		mesh = WorldItems/WorldItem_AZReporterMic,
+		texture = clothes\Items\ReporterMicLBMWTV,		
+	}
+	model WorldItem_ReporterMic_Media04
+	{
+		mesh = WorldItems/WorldItem_AZReporterMic,
+		texture = clothes\Items\ReporterMicDice,		
+	}
+	model WorldItem_ReporterMic_Media05
+	{
+		mesh = WorldItems/WorldItem_AZReporterMic,
+		texture = clothes\Items\ReporterMicALEX,		
+	}		
 	model WorldItem_UtilityBelt
     {
 		mesh = Skinned/Backpacks/WorldItem-UtilityBeltTactical,

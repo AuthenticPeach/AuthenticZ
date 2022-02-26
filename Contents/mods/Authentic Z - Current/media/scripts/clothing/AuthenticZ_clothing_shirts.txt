@@ -926,32 +926,45 @@
         ScratchDefense 			= 55,
         BulletDefense 			= 100,		
         WorldStaticModel 		= WorldItem-AuthenticTV110_Radio,	        
+    }
+    item Vest_HighViz_Press
+    {
+        DisplayCategory  = Clothing,
+        Type 			 = Clothing,
+        DisplayName 	 = High Visibility Press Vest,
+        ClothingItem 	 = Vest_HighViz_Press,
+        BodyLocation 	 = TorsoExtra,
+        IconsForTexture  = ConstructionVestPress;ConstructionVestPressOrange,
+        BloodLocation 	 = ShirtNoSleeves,
+        Insulation 		 = 0.1,
+        WindResistance	 = 0.05,
+        WorldStaticModel = HuntingVest_Ground,
     }	
     item Vest_Hunting_Beige
     {
         DisplayCategory = Clothing,		
-        Type = Clothing,
-        DisplayName = Beige Hunting Vest,
-        ClothingItem = Vest_Hunting_Beige,
-        BodyLocation = TorsoExtra,
-        Icon = Huntingvest_Beige,
-        BloodLocation = ShirtNoSleeves,
-        Insulation = 0.75,
-        WindResistance = 0.75,
-        WorldStaticModel = HuntingVest_Ground,		
+        Type 			= Clothing,
+        DisplayName 	= Beige Hunting Vest,
+        ClothingItem 	= Vest_Hunting_Beige,
+        BodyLocation 	= TorsoExtra,
+        Icon 			= Huntingvest_Beige,
+        BloodLocation 	= ShirtNoSleeves,
+        Insulation 		= 0.75,
+        WindResistance 	= 0.75,
+        WorldStaticModel= HuntingVest_Ground,		
     }
     item Vest_Hunting_Wally
     {
         DisplayCategory = Clothing,		
-        Type = Clothing,
-        DisplayName = Hunting Vest,
-        ClothingItem = Vest_Hunting_Wally,
-        BodyLocation = TorsoExtra,
-        Icon = Huntingvest_Beige,
-        BloodLocation = ShirtNoSleeves,
-        Insulation = 0.75,
-        WindResistance = 0.75,
-        WorldStaticModel = HuntingVest_Ground,		
+        Type 			= Clothing,
+        DisplayName 	= Hunting Vest,
+        ClothingItem 	= Vest_Hunting_Wally,
+        BodyLocation 	= TorsoExtra,
+        Icon 			= Huntingvest_Beige,
+        BloodLocation 	= ShirtNoSleeves,
+        Insulation 		= 0.75,
+        WindResistance 	= 0.75,
+        WorldStaticModel= HuntingVest_Ground,		
     }		
     item Vest_Rim_Duke
     {

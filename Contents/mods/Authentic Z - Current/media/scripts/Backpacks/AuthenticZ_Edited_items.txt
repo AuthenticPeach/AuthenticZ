@@ -18,8 +18,23 @@ module AuthenticZClothing {
         StaticModel 		= 	BlowTorch,
         WeightEmpty 		= 	0.3,
         WorldStaticModel 	= 	BlowtorchGround,
+        OBSOLETE			=	TRUE,		
     }
  
+    item Rope
+    {
+        DisplayCategory = Tool,	
+        Weight					=	0.3,
+        Type					=	Normal,
+        DisplayName				=	Rope,
+        Icon					=	Rope,
+        SurvivalGear 			= 	TRUE,
+        WorldStaticModel 		=	Rope,
+		AttachmentType  		= 	Rope,	
+		StaticModel 			= 	NewRope,
+        OBSOLETE 				= 	TRUE,		
+    }
+
 	item SheetRope
 	{
         DisplayCategory = Tool,	
@@ -31,19 +46,8 @@ module AuthenticZClothing {
 		WorldStaticModel 		= 	SheetRope,
 		AttachmentType  		= 	SheetRope,
 		StaticModel 			= 	SheetRopeAZ,
+        OBSOLETE 				= 	TRUE,			
 	}
-    item Rope
-    {
-        DisplayCategory = Tool,	
-        Weight					=	0.3,
-        Type					=	Normal,
-        DisplayName				=	Rope,
-        Icon					=	Rope,
-        SurvivalGear 			= 	TRUE,
-        WorldStaticModel 		=	Rope,
-		AttachmentType  		= 	Rope,	
-		StaticModel 			= 	NewRope,		
-    }
 
 	item Hat_GasMask
 	{
@@ -1163,6 +1167,7 @@ module AuthenticZClothing {
         Tags 				= Saw,
 		AttachmentType   	= Saw,			
         WorldStaticModel 	= GardenSawGround,
+		OBSOLETE 			= TRUE,
     }
 
 	item Saw
@@ -1178,6 +1183,7 @@ module AuthenticZClothing {
         Tags 				= 	Saw,
 		AttachmentType   	= 	Saw,	
         WorldStaticModel 	= 	HacksawGround,
+	    OBSOLETE 			= 	TRUE,	
 	}
 
 }		
