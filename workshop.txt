@@ -90,5 +90,7 @@ description=
 description=
 description=[h2] Want some fun companion mods? Try These! [/h2]
 description= [url=https://steamcommunity.com/workshop/filedetails/?id=2530389024][img] https://imgur.com/c2etyho.png [/img][/url] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2458631365&searchtext=expanded+helis][img]https://imgur.com/7cfSt7Q.png [/img][/url] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2507488373][img] https://imgur.com/2j9Zsn9.png [/img][/url]
+description=
+description=I do not give you permission to use the AuthenticZ assets for anything outside of gameplay functionality, unless specially given by me. My assets are considered Steam workshop items and can not be used to create NFTs. NFTs violate Steam TOS. 
 tags=Build 41;Clothing/Armor;Items;Misc;Models;Multiplayer;Pop Culture;Realistic;Textures
 visibility=public
