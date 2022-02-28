@@ -987,16 +987,17 @@ module AuthenticZClothing {
 	
 	item PopBottleEmpty
 	{
-        DisplayCategory = Raccoon,		
-		Weight	=	0.1,
-		CanStoreWater	=	TRUE,
-		Type	=	Normal,
-		DisplayName	=	Empty Pop Bottle,
-		ReplaceOnUseOn	=	WaterSource-WaterPopBottle,
-		Icon	=	Pop_empty,
-		MetalValue = 5,
-		WorldStaticModel 	= EmptyPopBottle,
-        AttachmentType  	= 	WaterBottle,			
+        DisplayCategory 	= 	WaterContainer,		
+		Weight				=	0.1,
+		CanStoreWater		=	TRUE,
+		Type				=	Normal,
+		DisplayName			=	Empty Pop Bottle,
+		ReplaceOnUseOn		=	WaterSource-WaterPopBottle,
+		Icon				=	Pop_empty,
+		MetalValue			= 	5,
+		WorldStaticModel 	= 	EmptyPopBottle,
+        AttachmentType  	= 	WaterBottle,
+		StaticModel 		= 	PopBottle,				
 	}	
 	item WaterBottleEmpty
 	{

@@ -982,7 +982,8 @@ module AuthenticZBackpacks+ {
 		Icon	=	Pop_empty,
 		MetalValue = 5,
 		WorldStaticModel 	= EmptyPopBottle,
-        AttachmentType  	= 	WaterBottle,			
+        AttachmentType  	= 	WaterBottle,
+		StaticModel 		= 	PopBottle,		
 	}	
 	item WaterBottleEmpty
 	{
