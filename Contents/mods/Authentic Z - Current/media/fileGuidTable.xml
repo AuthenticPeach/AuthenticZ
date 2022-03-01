@@ -4782,6 +4782,14 @@
 	<files>
 		<path>media/clothing/clothingItems/Jacket_Reporter_LBMW.xml</path>
 		<guid>9b37e2d0-0dbe-4b76-b45a-4b151ad751bc</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Jacket_Reporter_3N.xml</path>
+		<guid>71f3b0b2-4a39-4034-b925-ff1af89ccd3d</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Jacket_Reporter_Radio.xml</path>
+		<guid>6cd0957f-d27d-4818-ae4a-64dd2c257bc3</guid>
 	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Jacket_Scandroid.xml</path>

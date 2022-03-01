@@ -362,6 +362,36 @@ AttachedWeaponDefinitions.PoliticianMoney= {
 	},
 }
 
+AttachedWeaponDefinitions.ReporterMicAll = {
+	id = "AZReporterMicAll",
+	chance = 100,
+	outfit = {"AuthenticReporter1Formal"},
+	weaponLocation = {"Left Hand", "Right Hand"},
+	bloodLocations = nil,
+	addHoles = false,
+	daySurvived = 0,
+	weapons = {
+    "AuthenticZClothing.ReporterMicrophoneMuffler_Media01",
+    "AuthenticZClothing.ReporterMicrophoneMuffler_Media01",
+    "AuthenticZClothing.ReporterMicrophone_Media01",
+    "AuthenticZClothing.ReporterMicrophone_Media01",
+    "AuthenticZClothing.ReporterMicrophoneMuffler_Media02",
+    "AuthenticZClothing.ReporterMicrophoneMuffler_Media02",
+    "AuthenticZClothing.ReporterMicrophone_Media02",
+    "AuthenticZClothing.ReporterMicrophone_Media02",
+    "AuthenticZClothing.ReporterMicrophoneMuffler_Media03",
+    "AuthenticZClothing.ReporterMicrophoneMuffler_Media03",
+    "AuthenticZClothing.ReporterMicrophone_Media03",
+    "AuthenticZClothing.ReporterMicrophone_Media03",	
+	"AuthenticZClothing.ReporterMicrophoneMuffler_Media04",
+    "AuthenticZClothing.ReporterMicrophoneMuffler_Media04",
+    "AuthenticZClothing.ReporterMicrophoneMuffler_Media05",
+    "AuthenticZClothing.ReporterMicrophone_Media04",
+    "AuthenticZClothing.ReporterMicrophone_Media04",
+    "AuthenticZClothing.ReporterMicrophone_Media05",	
+	},
+}
+
 AttachedWeaponDefinitions.ReporterMicLBMW = {
 	id = "AZReporterMicLBMW",
 	chance = 100,
@@ -396,10 +426,42 @@ AttachedWeaponDefinitions.ReporterMicLBMW = {
 	},
 }
 
-AttachedWeaponDefinitions.ReporterMic3N= {
-	id = "ReporterMic3N",
+AttachedWeaponDefinitions.ReporterMicLBMWRadio = {
+	id = "AZReporterMicLBMWRadio",
 	chance = 100,
-	outfit = {"AuthenticReporter2LBMW"},
+	outfit = {"AuthenticReporter3LMBWRadio"},
+	weaponLocation = {"Left Hand", "Right Hand"},
+	bloodLocations = nil,
+	addHoles = false,
+	daySurvived = 0,
+	weapons = {
+    "AuthenticZClothing.ReporterMicrophoneMuffler_Media02",
+    "AuthenticZClothing.ReporterMicrophoneMuffler_Media02",
+    "AuthenticZClothing.ReporterMicrophone_Media02",
+    "AuthenticZClothing.ReporterMicrophone_Media02",
+    "AuthenticZClothing.ReporterMicrophoneMuffler_Media02",
+    "AuthenticZClothing.ReporterMicrophoneMuffler_Media02",
+    "AuthenticZClothing.ReporterMicrophone_Media02",
+    "AuthenticZClothing.ReporterMicrophone_Media02",
+    "AuthenticZClothing.ReporterMicrophoneMuffler_Media02",
+    "AuthenticZClothing.ReporterMicrophoneMuffler_Media02",
+    "AuthenticZClothing.ReporterMicrophone_Media02",
+    "AuthenticZClothing.ReporterMicrophone_Media02",
+    "AuthenticZClothing.ReporterMicrophoneMuffler_Media02",
+    "AuthenticZClothing.ReporterMicrophoneMuffler_Media02",
+    "AuthenticZClothing.ReporterMicrophone_Media02",
+    "AuthenticZClothing.ReporterMicrophone_Media02",	
+    "AuthenticZClothing.ReporterMicrophoneMuffler_Media04",
+    "AuthenticZClothing.ReporterMicrophone_Media04",
+    "AuthenticZClothing.ReporterMicrophoneMuffler_Media05",	
+    "AuthenticZClothing.ReporterMicrophone_Media05",	
+	},
+}
+
+AttachedWeaponDefinitions.ReporterMic3N= {
+	id = "AZReporterMic3N",
+	chance = 100,
+	outfit = {"AuthenticReporter43N"},
 	weaponLocation = {"Left Hand", "Right Hand"},
 	bloodLocations = nil,
 	addHoles = false,
@@ -407,16 +469,22 @@ AttachedWeaponDefinitions.ReporterMic3N= {
 	weapons = {
     "AuthenticZClothing.ReporterMicrophoneMuffler_Media01",
     "AuthenticZClothing.ReporterMicrophoneMuffler_Media01",
-    "AuthenticZClothing.ReporterMicrophoneMuffler_Media02",
-    "AuthenticZClothing.ReporterMicrophoneMuffler_Media02",
-    "AuthenticZClothing.ReporterMicrophoneMuffler_Media04",
+    "AuthenticZClothing.ReporterMicrophone_Media01",
+    "AuthenticZClothing.ReporterMicrophone_Media01",
+    "AuthenticZClothing.ReporterMicrophoneMuffler_Media01",
+    "AuthenticZClothing.ReporterMicrophoneMuffler_Media01",
+    "AuthenticZClothing.ReporterMicrophone_Media01",
+    "AuthenticZClothing.ReporterMicrophone_Media01",
+    "AuthenticZClothing.ReporterMicrophoneMuffler_Media01",
+    "AuthenticZClothing.ReporterMicrophoneMuffler_Media01",
+    "AuthenticZClothing.ReporterMicrophone_Media01",
+    "AuthenticZClothing.ReporterMicrophone_Media01",
+    "AuthenticZClothing.ReporterMicrophoneMuffler_Media01",
+    "AuthenticZClothing.ReporterMicrophoneMuffler_Media01",
+    "AuthenticZClothing.ReporterMicrophone_Media01",
+    "AuthenticZClothing.ReporterMicrophone_Media01",	
     "AuthenticZClothing.ReporterMicrophoneMuffler_Media04",
     "AuthenticZClothing.ReporterMicrophoneMuffler_Media05",
-    "AuthenticZClothing.ReporterMicrophone_Media01",
-    "AuthenticZClothing.ReporterMicrophone_Media01",
-    "AuthenticZClothing.ReporterMicrophone_Media02",
-    "AuthenticZClothing.ReporterMicrophone_Media02",
-    "AuthenticZClothing.ReporterMicrophone_Media04",
     "AuthenticZClothing.ReporterMicrophone_Media04",
     "AuthenticZClothing.ReporterMicrophone_Media05",
 	
@@ -1759,7 +1827,7 @@ AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticReporter1Formal = 
 	chance = 100;
 	maxitem = 1;
 	weapons = {
-		AttachedWeaponDefinitions.ReporterMic3N,
+		AttachedWeaponDefinitions.ReporterMicAll,
 	},
 }
 AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticReporter2LBMW = {
@@ -1767,6 +1835,20 @@ AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticReporter2LBMW = {
 	maxitem = 1;
 	weapons = {
 		AttachedWeaponDefinitions.ReporterMicLBMW,
+	},
+}
+AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticReporter3LMBWRadio = {
+	chance = 100;
+	maxitem = 1;
+	weapons = {
+		AttachedWeaponDefinitions.ReporterMicLBMWRadio,
+	},
+}
+AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticReporter43N = {
+	chance = 100;
+	maxitem = 1;
+	weapons = {
+		AttachedWeaponDefinitions.ReporterMic3N,
 	},
 }
 AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticRickGrimes = {

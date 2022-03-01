@@ -780,4 +780,8 @@ ItemName_EN = {
 	ItemName_AuthenticZClothing.ReporterMicrophone_Media05 = "Press Reporter Microphone - Conspiracy Media",
 	ItemName_AuthenticZClothing.ReporterMicrophoneMuffler_Media05 = "Press Reporter Microphone - Conspiracy Media",
 	
+	ItemName_AuthenticZClothing.Jacket_Reporter_LBMW = "LBMW Reporter Jacket",
+	ItemName_AuthenticZClothing.Jacket_Reporter_Radio = "LBMW Radio Reporter Jacket",
+	ItemName_AuthenticZClothing.Jacket_Reporter_3N = "Triple 3N Reporter Jacket",
+	
 }
