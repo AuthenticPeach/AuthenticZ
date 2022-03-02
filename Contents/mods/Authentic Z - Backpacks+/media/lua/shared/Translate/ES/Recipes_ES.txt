@@ -48,7 +48,7 @@ Recipes_ES = {
 	
 	
 	/* Update 1-17-22*/		
-	Recipe_Upgrade_Urban_Camo_Alice_Pack = "Mejorar Mochila Alice de camuflaje urbano",
+	Recipe_Upgrade_Urban_Camo_Alicepack = "Mejorar Mochila Alice de camuflaje urbano",
 	Recipe_Detach_Walkie_from_Vest = "Separar Walkie del chaleco",
 	Recipe_Attach_Walkie_to_Vest = "Adjuntar Walkie al chaleco",
 	Recipe_Use_TV-110_as_Bulletproof_Vest = "Usar TV-110 como chaleco antibalas",

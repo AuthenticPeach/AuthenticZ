@@ -769,5 +769,21 @@ ItemName_EN = {
 	/* New */	
 	ItemName_AuthenticZClothing.Shirt_CropTopLVCheerleader = "UoLV Cheerleader Top",
 	ItemName_AuthenticZClothing.Skirt_LVCheerleader = "UoLV Short Skirt",
+	ItemName_AuthenticZClothing.ReporterMicrophone_Media01 = "Press Reporter Microphone - Triple N",
+	ItemName_AuthenticZClothing.ReporterMicrophoneMuffler_Media01 = "Press Reporter Microphone - Triple N",
+	ItemName_AuthenticZClothing.ReporterMicrophone_Media02 = "Press Reporter Microphone - LBMW Radio",
+	ItemName_AuthenticZClothing.ReporterMicrophoneMuffler_Media02 = "Press Reporter Microphone - LBMW Radio",
+	ItemName_AuthenticZClothing.ReporterMicrophone_Media03 = "Press Reporter Microphone - LBMW TV",
+	ItemName_AuthenticZClothing.ReporterMicrophoneMuffler_Media03 = "Press Reporter Microphone - LBMW TV",
+	ItemName_AuthenticZClothing.ReporterMicrophone_Media04 = "Press Reporter Microphone - Dice Media",
+	ItemName_AuthenticZClothing.ReporterMicrophoneMuffler_Media04 = "Press Reporter Microphone - Dice Media",
+	ItemName_AuthenticZClothing.ReporterMicrophone_Media05 = "Press Reporter Microphone - Conspiracy Media",
+	ItemName_AuthenticZClothing.ReporterMicrophoneMuffler_Media05 = "Press Reporter Microphone - Conspiracy Media",
+	
+	ItemName_AuthenticZClothing.Jacket_Reporter_LBMW = "LBMW Reporter Jacket",
+	ItemName_AuthenticZClothing.Jacket_Reporter_Radio = "LBMW Radio Reporter Jacket",
+	ItemName_AuthenticZClothing.Jacket_Reporter_3N = "Triple 3N Reporter Jacket",
+	ItemName_AuthenticZClothing.BoomMicrophone = "Boom Microphone",
+	ItemName_AuthenticZClothing.BroadcastCamera = "EVV-9000 HYPER Broadcast Video Camera",
 	
 }

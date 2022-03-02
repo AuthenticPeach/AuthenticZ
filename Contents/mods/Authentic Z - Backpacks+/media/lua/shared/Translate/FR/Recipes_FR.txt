@@ -48,7 +48,7 @@ Recipes_FR = {
 
 
 /* UPDATE 17-01*/		
-	Recipe_Upgrade_Urban_Camo_Alice_Pack = "Améliorer le sac Militaire Urban Camo",
+	Recipe_Upgrade_Urban_Camo_Alicepack = "Améliorer le sac Militaire Urban Camo",
 	Recipe_Detach_Walkie_from_Vest = "Détacher le Talkie-Walkie de la veste",
 	Recipe_Attach_Walkie_to_Vest = "Attacher le Talkie-Walkie de la veste",
 	Recipe_Use_TV-110_as_Bulletproof_Vest = "Utiliser TV-110 comme gilet pare-balles",

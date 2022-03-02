@@ -48,7 +48,7 @@ Recipes_PT = {
 	Recipe_Upgrade_Walkers_Backpack = "Melhorar a mochila do Walker",
 	
 
-        Recipe_Upgrade_Urban_Camo_Alice_Pack = "Melhorar Urban Camo Alice Pack",
+        Recipe_Upgrade_Urban_Camo_Alicepack = "Melhorar Urban Camo Alice Pack",
 	Recipe_Detach_Walkie_from_Vest = "Tirar Walkie do colete",
 	Recipe_Attach_Walkie_to_Vest = "Anexar Walkie ao colete",
 	Recipe_Use_TV-110_as_Bulletproof_Vest = "Usar TV-110 como colete à prova de balas",

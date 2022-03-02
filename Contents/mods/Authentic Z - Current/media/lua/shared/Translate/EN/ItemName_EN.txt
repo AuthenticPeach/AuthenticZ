@@ -783,5 +783,7 @@ ItemName_EN = {
 	ItemName_AuthenticZClothing.Jacket_Reporter_LBMW = "LBMW Reporter Jacket",
 	ItemName_AuthenticZClothing.Jacket_Reporter_Radio = "LBMW Radio Reporter Jacket",
 	ItemName_AuthenticZClothing.Jacket_Reporter_3N = "Triple 3N Reporter Jacket",
+	ItemName_AuthenticZClothing.BoomMicrophone = "Boom Microphone",
+	ItemName_AuthenticZClothing.BroadcastCamera = "EVV-9000 HYPER Broadcast Video Camera",
 	
 }

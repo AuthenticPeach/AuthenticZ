@@ -39,7 +39,7 @@ Recipes_RU = {
 	
 	Recipe_Revert_Attachable = "Сделать Незакрепляемым предметом",
 	Recipe_Reuse_Bag = "Использовать Сумку снова",
-	Recipe_Make_Backpack_Attachable = "Сделать рюкзак Закрепляемым предметом",	
+	Recipe_Make_Backpack_Attachable_Item = "Сделать рюкзак Закрепляемым предметом",	
 	
 	Recipe_Upgrade_Evangelos_Backpack = "Улучшить Рюкзак Эванджело",	
 	Recipe_Upgrade_Hoffmans_Backpack = "Улучшить Рюкзак Хоффмана",

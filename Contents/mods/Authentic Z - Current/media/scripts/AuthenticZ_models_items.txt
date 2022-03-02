@@ -110,6 +110,11 @@ module Base
 		mesh = AuthenticBrain,
 		texture = clothes\Organs\Brain,
 	}
+	model AuthenticBoomMicrophone
+	{
+		mesh = Weapons/2Handed/AuthenticBoomMic,
+		texture = clothes\Items\BoomMicrophone,
+	}	
 	model AuthenticCanteenCadetBlue
 	{
 		mesh = AuthenticCanteen,
@@ -703,6 +708,11 @@ module Base
 	{
 		mesh = BalloonGroup3_Ground,
 		texture = clothes\Items\BalloonYellow,		
+	}
+	model WorldItem-BoomMicrophone
+	{
+		mesh =  WorldItems/WorldItem_BoomMic,
+		texture = clothes\Items\BoomMicrophone,		
 	}	
 	model WorldItem_BunnyTailAZ
     {

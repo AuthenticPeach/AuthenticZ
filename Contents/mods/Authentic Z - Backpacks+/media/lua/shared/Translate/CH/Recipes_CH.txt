@@ -49,7 +49,7 @@ Recipes_CH = {
 	Recipe_Upgrade_Walkers_Backpack = "升級沃爾克背包",
 
 	/* New*/		
-	Recipe_Upgrade_Urban_Camo_Alice_Pack = "升級軍用背包",
+	Recipe_Upgrade_Urban_Camo_Alicepack = "升級軍用背包",
 	Recipe_Detach_Walkie_from_Vest = "拿掉對講機",
 	Recipe_Attach_Walkie_to_Vest = "掛上對講機",
 	Recipe_Use_TV-110_as_Bulletproof_Vest = "將TV-110用作防彈衣",

@@ -3,7 +3,7 @@ UI_EN = {
 
 UI_ClothingType_AmmoStrap2 = "Ammo Strap 2",
 
-UI_optionscreen_binding_Hotbar_6 = "Hotbar 6",
+UI_optionscreen_binding_Hotbar 6 = "Hotbar 6",
 UI_optionscreen_binding_Hotbar 7 = "Hotbar 7",
 UI_optionscreen_binding_Hotbar 8 = "Hotbar 8",
 UI_optionscreen_binding_Hotbar 9 = "Hotbar 9",

@@ -46,7 +46,7 @@ Recipe_Upgrade_Walkers_Backpack = "Wanderer-Rucksack aufrüsten",
 
 
 /* Neu*/
-Recipe_Upgrade_Urban_Camo_Alice_Pack = "Alicerucksack Urban Camo upgraden",
+Recipe_Upgrade_Urban_Camo_Alicepack = "Alicerucksack Urban Camo upgraden",
 Recipe_Detach_Walkie_from_Vest = "Walkie von der Weste lösen",
 Recipe_Attach_Walkie_to_Vest = "Walkie an der Weste befestigen",
 Recipe_Use_TV-110_as_Bulletproof_Vest = "Verwende TV-110 als kugelsichere Weste",
