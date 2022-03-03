@@ -1891,13 +1891,7 @@ local AuthenticSexyNurse = {
 		gender="female",
 	};	
 ZombiesZoneDefinition.Doctor[AuthenticSexyNurse] = AuthenticSexyNurse;
-
-local AuthenticSexyNurse2 = {
-		name="AuthenticSexyNurse",
-		chance=3,
-		gender="female",
-	};	
-ZombiesZoneDefinition.NursingHome[AuthenticSexyNurse2] = AuthenticSexyNurse2;
+ZombiesZoneDefinition.NursingHome[AuthenticSexyNurse] = AuthenticSexyNurse;
 
 local AuthenticElderly = {
 		name="AuthenticElderly",
