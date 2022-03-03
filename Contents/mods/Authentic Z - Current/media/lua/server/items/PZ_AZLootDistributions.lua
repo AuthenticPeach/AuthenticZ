@@ -190,7 +190,9 @@ AuthenticZ.tab_addMagProcedural_Plushies  = function(x,count)
   table.insert(ProceduralDistributions.list[x].items,"AuthenticZClothing.SpiffoPlushieRainbow");
   table.insert(ProceduralDistributions.list[x].items, count);     
   table.insert(ProceduralDistributions.list[x].items,"AuthenticZClothing.SpiffoPlushieShamrock");
-  table.insert(ProceduralDistributions.list[x].items, count);   
+  table.insert(ProceduralDistributions.list[x].items, count);  
+  table.insert(ProceduralDistributions.list[x].items,"AuthenticZClothing.Flamingo");
+  table.insert(ProceduralDistributions.list[x].items, count);    
 end
 
 AuthenticZ.tab_addMagProcedural_items("BookstoreBooks",1.0);
@@ -265,7 +267,7 @@ AuthenticZ.tab_addMagProcedural_Torch2("GigamartHouseElectronics",2.0);
 AuthenticZ.tab_addMagProcedural_Torch2("ElectronicStoreMisc",1.0);
 AuthenticZ.tab_addMagProcedural_Torch2("CrateElectronics",1.0);
 
-AuthenticZ.tab_addMagProcedural_Plushies("CrateToys",0.002)
-AuthenticZ.tab_addMagProcedural_Plushies("DaycareCounter",0.002)
-AuthenticZ.tab_addMagProcedural_Plushies("DaycareShelves",0.002)
-AuthenticZ.tab_addMagProcedural_Plushies("GigamartToys",0.002)
+AuthenticZ.tab_addMagProcedural_Plushies("CrateToys",0.003)
+AuthenticZ.tab_addMagProcedural_Plushies("DaycareCounter",0.003)
+AuthenticZ.tab_addMagProcedural_Plushies("DaycareShelves",0.003)
+AuthenticZ.tab_addMagProcedural_Plushies("GigamartToys",0.003)

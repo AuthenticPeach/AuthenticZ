@@ -779,6 +779,11 @@ module Base
     {
 		mesh = WorldItems/WorldItem_DuelCap,	
     }
+	model WorldItem_FlamingoPlushie
+	{
+		mesh = WorldItems/WorldItem_FlamingoPlushie,
+		texture = clothes\Items\FlamingoPlushie,		
+	}		
 	model WorldItem_FreeHugsSign
 	{
 		mesh = WorldItems/WorldItem_FreeHugsSign,

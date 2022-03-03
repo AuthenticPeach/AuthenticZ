@@ -41,6 +41,18 @@ module AuthenticZClothing {
         Icon			=	StoreSignCostume,
 		WorldStaticModel = WorldItem-CostumeStoreSign,
 	}
+   item Flamingo
+	{
+        DisplayCategory 		=  	Raccoon,	
+		Weight					=	0.2,
+		Type					=	Normal,
+		DisplayName				=	Flamingo,
+		Icon					=	FlamingoPlushie,
+		WorldStaticModel 		= 	WorldItem_FlamingoPlushie,
+        AttachmentType  		= 	SpiffoPlushie,
+		StaticModel 			= 	WorldItem_FlamingoPlushie,		
+	}
+		
    item Spiffo
 	{
         DisplayCategory 		=  	Raccoon,	
