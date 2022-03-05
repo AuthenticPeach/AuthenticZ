@@ -710,7 +710,8 @@ local AlicepackSecondary = {
 		FirstAidKit = "Alicepack FirstAidKit",	
 		Bag_L4DeadMedkit = "Alicepack Bag_L4DeadMedkit",	
 		Lunchbox = "Alicepack Lunchbox",
-		PistolCase = "Alicepack PistolCase",		
+		PistolCase = "Alicepack PistolCase",
+
 	},
 }
 table.insert(ISHotbarAttachDefinition, AlicepackSecondary);
