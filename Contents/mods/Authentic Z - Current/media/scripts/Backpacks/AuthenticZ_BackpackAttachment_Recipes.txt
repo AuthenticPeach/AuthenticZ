@@ -223,6 +223,14 @@ recipe Make Backpack Attachable Item
   	}
 recipe Make Backpack Attachable Item
   	{
+   	   ClosedUmbrellaWhite,
+
+   	   Result:AuthenticZClothing.ClosedUmbrellaWhite,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpack,
+  	}	
+recipe Make Backpack Attachable Item
+  	{
    	   Pop,
 
 	   OnCreate:AZKeepFoodContent_OnCreate,

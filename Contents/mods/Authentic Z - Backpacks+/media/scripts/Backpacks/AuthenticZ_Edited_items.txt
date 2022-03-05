@@ -1020,22 +1020,22 @@ module AuthenticZBackpacks+ {
 	}
 	item WaterPopBottle
 	{
-        DisplayCategory = WaterContainer,		
-		IsWaterSource	=	TRUE,
-		Weight	=	0.8,
-		CanStoreWater	=	TRUE,
-		Type	=	Drainable,
+        DisplayCategory 	=	WaterContainer,		
+		IsWaterSource		=	TRUE,
+		Weight				=	0.8,
+		CanStoreWater		=	TRUE,
+		Type				=	Drainable,
 		UseWhileEquipped	=	FALSE,
-		UseDelta	=	0.1,
-		DisplayName	=	Water Bottle,
+		UseDelta			=	0.1,
+		DisplayName			=	Water Bottle,
 		ReplaceOnDeplete	=	PopBottleEmpty,
-		ReplaceOnUseOn	=	WaterSource-WaterPopBottle,
-		Icon	=	Pop_water,
-		CustomContextMenu = Drink,
-		CustomEatSound = DrinkingFromBottlePlastic,
-		StaticModel 		= 			PopBottle,
-		WorldStaticModel 	= 			EmptyPopBottle,
-        AttachmentType  	= 			WaterBottle,		
+		ReplaceOnUseOn		=	WaterSource-WaterPopBottle,
+		Icon				=	Pop_water,
+		CustomContextMenu 	= 	Drink,
+		CustomEatSound 		= 	DrinkingFromBottlePlastic,
+		StaticModel 		= 	PopBottle,
+		WorldStaticModel 	= 	EmptyPopBottle,
+        AttachmentType  	= 	WaterBottle,		
 	}
 
     item Pop

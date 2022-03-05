@@ -1181,7 +1181,7 @@ recipe Make Secondary Bag
 	   Plasticbag,
 	   AZ_MetalClip,
 
-	   OnCreate:PleaseKeepColor,
+	   OnCreate:KoniTestAZ_OnCreate_ConvertClothing,
    	   Result:Plasticbag_Secondary,
 	   Time:80.0,
   	}
@@ -1191,7 +1191,7 @@ recipe Make Secondary Bag
 	   Garbagebag,
 	   AZ_MetalClip,
 
-	   OnCreate:PleaseKeepColor,
+	   OnCreate:KoniTestAZ_OnCreate_ConvertClothing,
    	   Result:Garbagebag_Secondary,
 	   Time:80.0,
   	}	
@@ -1201,7 +1201,7 @@ recipe Make Secondary Bag
 	   Handbag,
 	   AZ_MetalClip,
 
-	   OnCreate:PleaseKeepColor,
+	   OnCreate:KoniTestAZ_OnCreate_ConvertClothing,
    	   Result:Handbag_Secondary,
 	   Time:80.0,
   	}	
@@ -1211,7 +1211,7 @@ recipe Make Secondary Bag
 	   Purse,
 	   AZ_MetalClip,
 
-	   OnCreate:PleaseKeepColor,
+	   OnCreate:KoniTestAZ_OnCreate_ConvertClothing,
    	   Result:Purse_Secondary,
 	   Time:80.0,
   	}
@@ -1221,7 +1221,7 @@ recipe Make Secondary Bag
 	   Tote,
 	   AZ_MetalClip,
 
-	   OnCreate:PleaseKeepColor,
+	   OnCreate:KoniTestAZ_OnCreate_ConvertClothing,
    	   Result:Tote_Secondary,
 	   Time:80.0,
   	}
@@ -1231,7 +1231,7 @@ recipe Make Secondary Bag
 	   EmptySandbag,
 	   AZ_MetalClip,
 
-	   OnCreate:PleaseKeepColor,
+	   OnCreate:KoniTestAZ_OnCreate_ConvertClothing,
    	   Result:EmptySandbag_Secondary,
 	   Time:80.0,
   	}
@@ -1241,7 +1241,7 @@ recipe Make Secondary Bag
 	   Toolbox/Bag_JanitorToolbox,
 	   AZ_MetalClip,
 
-	   OnCreate:PleaseKeepColor,
+	   OnCreate:KoniTestAZ_OnCreate_ConvertClothing,
    	   Result:Toolbox_Secondary,
 	   Time:80.0,
   	}	
@@ -1251,7 +1251,7 @@ recipe Make Secondary Bag
 	   FirstAidKit,
 	   AZ_MetalClip,
 
-	   OnCreate:PleaseKeepColor,
+	   OnCreate:KoniTestAZ_OnCreate_ConvertClothing,
    	   Result:FirstAidKit_Secondary,
 	   Time:80.0,
   	}	
@@ -1261,7 +1261,7 @@ recipe Make Secondary Bag
 	   Lunchbox,
 	   AZ_MetalClip,
 
-	   OnCreate:PleaseKeepColor,
+	   OnCreate:KoniTestAZ_OnCreate_ConvertClothing,
    	   Result:Lunchbox_Secondary,
 	   Time:80.0,
   	}
@@ -1271,7 +1271,7 @@ recipe Make Secondary Bag
 	   Lunchbox2,
 	   AZ_MetalClip,
 
-	   OnCreate:PleaseKeepColor,
+	   OnCreate:KoniTestAZ_OnCreate_ConvertClothing,
    	   Result:Lunchbox2_Secondary,
 	   Time:80.0,
   	}	
@@ -1281,7 +1281,7 @@ recipe Make Secondary Bag
 	   PistolCase1/PistolCase2/PistolCase3,
 	   AZ_MetalClip,
 
-	   OnCreate:PleaseKeepColor,
+	   OnCreate:KoniTestAZ_OnCreate_ConvertClothing,
    	   Result:PistolCase_Secondary,
 	   Time:80.0,
   	}
@@ -1291,7 +1291,7 @@ recipe Make Secondary Bag
 	   SeedBag,
 	   AZ_MetalClip,
 
-	   OnCreate:PleaseKeepColor,
+	   OnCreate:KoniTestAZ_OnCreate_ConvertClothing,
    	   Result:SeedBag_Secondary,
 	   Time:80.0,
   	}		
@@ -1301,7 +1301,7 @@ recipe Reuse Bag
 	   Plasticbag_Secondary,
 
 	   CanBeDoneFromFloor:true,
-	   OnCreate:PleaseKeepColor,
+	   OnCreate:KoniTestAZ_OnCreate_ConvertClothing,
    	   Result:Plasticbag_Secondary,
 	   Time:30.0,
   	}
@@ -1311,7 +1311,7 @@ recipe Reuse Bag
 	   Garbagebag_Secondary,
 
 	   CanBeDoneFromFloor:true,
-	   OnCreate:PleaseKeepColor,
+	   OnCreate:KoniTestAZ_OnCreate_ConvertClothing,
    	   Result:Garbagebag_Secondary,
 	   Time:30.0,
   	}	
@@ -1321,7 +1321,7 @@ recipe Reuse Bag
 	   Handbag_Secondary,
 
 	   CanBeDoneFromFloor:true,	   
-	   OnCreate:PleaseKeepColor,
+	   OnCreate:KoniTestAZ_OnCreate_ConvertClothing,
    	   Result:Handbag_Secondary,
 	   Time:30.0,
   	}	
@@ -1331,7 +1331,7 @@ recipe Reuse Bag
 	   Purse_Secondary,
 	   
 	   CanBeDoneFromFloor:true,
-	   OnCreate:PleaseKeepColor,
+	   OnCreate:KoniTestAZ_OnCreate_ConvertClothing,
    	   Result:Purse_Secondary,
 	   Time:30.0,
   	}
@@ -1341,7 +1341,7 @@ recipe Reuse Bag
 	   Tote_Secondary,
 
 	   CanBeDoneFromFloor:true,
-	   OnCreate:PleaseKeepColor,
+	   OnCreate:KoniTestAZ_OnCreate_ConvertClothing,
    	   Result:Tote_Secondary,
 	   Time:30.0,
   	}
@@ -1351,7 +1351,7 @@ recipe Reuse Bag
 	   EmptySandbag_Secondary,
 
 	   CanBeDoneFromFloor:true,
-	   OnCreate:PleaseKeepColor,
+	   OnCreate:KoniTestAZ_OnCreate_ConvertClothing,
    	   Result:EmptySandbag_Secondary,
 	   Time:30.0,
   	}
@@ -1361,7 +1361,7 @@ recipe Reuse Bag
 	   Toolbox_Secondary,
 
 	   CanBeDoneFromFloor:true,
-	   OnCreate:PleaseKeepColor,
+	   OnCreate:KoniTestAZ_OnCreate_ConvertClothing,
    	   Result:Toolbox_Secondary,
 	   Time:30.0,
   	}
@@ -1371,7 +1371,7 @@ recipe Reuse Bag
 	   FirstAidKit_Secondary,
 
 	   CanBeDoneFromFloor:true,
-	   OnCreate:PleaseKeepColor,
+	   OnCreate:KoniTestAZ_OnCreate_ConvertClothing,
    	   Result:FirstAidKit_Secondary,
 	   Time:30.0,
   	}	
@@ -1381,7 +1381,7 @@ recipe Reuse Bag
 	   Lunchbox_Secondary,
 
 	   CanBeDoneFromFloor:true,
-	   OnCreate:PleaseKeepColor,
+	   OnCreate:KoniTestAZ_OnCreate_ConvertClothing,
    	   Result:Lunchbox_Secondary,
 	   Time:30.0,
   	}
@@ -1391,7 +1391,7 @@ recipe Reuse Bag
 	   Lunchbox2_Secondary,
 
 	   CanBeDoneFromFloor:true,
-	   OnCreate:PleaseKeepColor,
+	   OnCreate:KoniTestAZ_OnCreate_ConvertClothing,
    	   Result:Lunchbox2_Secondary,
 	   Time:30.0,
   	}	
@@ -1401,7 +1401,7 @@ recipe Reuse Bag
 	   PistolCase_Secondary,
 
 	   CanBeDoneFromFloor:true,
-	   OnCreate:PleaseKeepColor,
+	   OnCreate:KoniTestAZ_OnCreate_ConvertClothing,
    	   Result:PistolCase_Secondary,
 	   Time:30.0,
   	}
@@ -1411,7 +1411,7 @@ recipe Reuse Bag
 	   SeedBag_Secondary,
 
 	   CanBeDoneFromFloor:true,
-	   OnCreate:PleaseKeepColor,
+	   OnCreate:KoniTestAZ_OnCreate_ConvertClothing,
    	   Result:SeedBag_Secondary,
 	   Time:30.0,
   	}
@@ -1421,7 +1421,7 @@ recipe Reuse Bag
 	   Bag_L4DeadMedkit,
 
 	   CanBeDoneFromFloor:true,	   
-	   OnCreate:PleaseKeepColor,
+	   OnCreate:KoniTestAZ_OnCreate_ConvertClothing,
    	   Result:Bag_L4DeadMedkit,	   
 	   Time:30.0,
   	}	
@@ -1434,7 +1434,7 @@ recipe Upgrade School Bag
        Thread=3,
 	   LeatherStrips/DenimStrips=3,	   
 
-	   OnCreate:PleaseKeepColor,
+	   OnCreate:KoniTestAZ_OnCreate_ConvertClothing,
    	   Result:Bag_Schoolbag_Tier_1,
 	   OnGiveXP:Give20TailoringXP,	   
 	   Time:300.0,
@@ -1451,7 +1451,7 @@ recipe Upgrade School Bag
        Thread=3,
 	   LeatherStrips/DenimStrips=3,	
 
-	   OnCreate:PleaseKeepColor,
+	   OnCreate:KoniTestAZ_OnCreate_ConvertClothing,
    	   Result:Bag_Schoolbag_Tier_2,
 	   OnGiveXP:Give20TailoringXP,	   
 	   Time:300.0,
@@ -1469,7 +1469,7 @@ recipe Upgrade School Bag
        Thread=3,
 	   LeatherStrips/DenimStrips=3,	
 	
-	   OnCreate:PleaseKeepColor,	
+	   OnCreate:KoniTestAZ_OnCreate_ConvertClothing,	
    	   Result:Bag_Schoolbag_Tier_3,
        OnGiveXP:Give20TailoringXP,	   
 	   Time:300.0,
@@ -1487,7 +1487,7 @@ recipe Upgrade Duffelbag 	/* Colored Duffles*/
        Thread=3,
 	   LeatherStrips/DenimStrips=3,		   
 
-	   OnCreate:PleaseKeepColor,
+	   OnCreate:KoniTestAZ_OnCreate_ConvertClothing,
    	   Result:Bag_DuffelBagTINT_Tier_1,
        OnGiveXP:Give20TailoringXP,		   
 	   Time:300.0,
@@ -1504,7 +1504,7 @@ recipe Upgrade Duffelbag
        Thread=3,
 	   LeatherStrips/DenimStrips=3,	
 
-	   OnCreate:PleaseKeepColor,
+	   OnCreate:KoniTestAZ_OnCreate_ConvertClothing,
    	   Result:Bag_DuffelBagTINT_Tier_2,
        OnGiveXP:Give20TailoringXP,	   
 	   Time:300.0,
@@ -1522,7 +1522,7 @@ recipe Upgrade Duffelbag
        Thread=3,
 	   LeatherStrips/DenimStrips=3,	
 
-	   OnCreate:PleaseKeepColor,
+	   OnCreate:KoniTestAZ_OnCreate_ConvertClothing,
    	   Result:Bag_DuffelBagTINT_Tier_3,
        OnGiveXP:Give20TailoringXP,	   
 	   Time:300.0,
@@ -1540,7 +1540,7 @@ recipe Upgrade Duffelbag  /* Greys*/
        Thread=3,
 	   LeatherStrips/DenimStrips=3,		   
 
-	   OnCreate:PleaseKeepColor,
+	   OnCreate:KoniTestAZ_OnCreate_ConvertClothing,
    	   Result:Bag_DuffelBagGrey_Tier_1,
        OnGiveXP:Give20TailoringXP,		   
 	   Time:300.0,
@@ -1557,7 +1557,7 @@ recipe Upgrade Duffelbag
        Thread=3,
 	   LeatherStrips/DenimStrips=3,	
 
-	   OnCreate:PleaseKeepColor,
+	   OnCreate:KoniTestAZ_OnCreate_ConvertClothing,
    	   Result:Bag_DuffelBagGrey_Tier_2,
        OnGiveXP:Give20TailoringXP,	   
 	   Time:300.0,
@@ -1575,7 +1575,7 @@ recipe Upgrade Duffelbag
        Thread=3,
 	   LeatherStrips/DenimStrips=3,	
 
-	   OnCreate:PleaseKeepColor,
+	   OnCreate:KoniTestAZ_OnCreate_ConvertClothing,
    	   Result:Bag_DuffelBagGrey_Tier_3,
        OnGiveXP:Give20TailoringXP,	   
 	   Time:300.0,
@@ -1593,7 +1593,7 @@ recipe Upgrade Duffelbag 	/* Regular with 3 variations*/
        Thread=3,
 	   LeatherStrips/DenimStrips=3,		   
 
-	   OnCreate:PleaseKeepColor,
+	   OnCreate:KoniTestAZ_OnCreate_ConvertClothing,
    	   Result:Bag_DuffelBag_Tier_1,
        OnGiveXP:Give20TailoringXP,		   
 	   Time:300.0,
@@ -1610,7 +1610,7 @@ recipe Upgrade Duffelbag
        Thread=3,
 	   LeatherStrips/DenimStrips=3,	
 
-	   OnCreate:PleaseKeepColor,
+	   OnCreate:KoniTestAZ_OnCreate_ConvertClothing,
    	   Result:Bag_DuffelBag_Tier_2,
        OnGiveXP:Give20TailoringXP,	   
 	   Time:300.0,
@@ -1628,7 +1628,7 @@ recipe Upgrade Duffelbag
        Thread=3,
 	   LeatherStrips/DenimStrips=3,	
 
-	   OnCreate:PleaseKeepColor,
+	   OnCreate:KoniTestAZ_OnCreate_ConvertClothing,
    	   Result:Bag_DuffelBag_Tier_3,
        OnGiveXP:Give20TailoringXP,	   
 	   Time:300.0,
@@ -1646,7 +1646,7 @@ recipe Upgrade Hiking Bag
        Thread=3,
 	   LeatherStrips/DenimStrips=3,	
 
-	   OnCreate:PleaseKeepColor,
+	   OnCreate:KoniTestAZ_OnCreate_ConvertClothing,
    	   Result:Bag_NormalHikingBag_Tier_1,
        OnGiveXP:Give20TailoringXP,	   
 	   Time:300.0,
@@ -1662,7 +1662,7 @@ recipe Upgrade Hiking Bag
        Thread=3,
 	   LeatherStrips/DenimStrips=3,	
 
-	   OnCreate:PleaseKeepColor,
+	   OnCreate:KoniTestAZ_OnCreate_ConvertClothing,
    	   Result:Bag_NormalHikingBag_Tier_2,
        OnGiveXP:Give20TailoringXP,	   
 	   Time:300.0,
@@ -1680,7 +1680,7 @@ recipe Upgrade Hiking Bag
        Thread=3,
 	   LeatherStrips/DenimStrips=3,	
 
-	   OnCreate:PleaseKeepColor,
+	   OnCreate:KoniTestAZ_OnCreate_ConvertClothing,
    	   Result:Bag_NormalHikingBag_Tier_3,
        OnGiveXP:Give20TailoringXP,	   
 	   Time:300.0,
@@ -1698,7 +1698,7 @@ recipe Upgrade Big Hiking Bag
        Thread=3,
 	   LeatherStrips/DenimStrips=3,	
 
-	   OnCreate:PleaseKeepColor,
+	   OnCreate:KoniTestAZ_OnCreate_ConvertClothing,
    	   Result:Bag_BigHikingBag_Tier_1,
        OnGiveXP:Give20TailoringXP,	   
 	   Time:300.0,
@@ -1714,7 +1714,7 @@ recipe Upgrade Big Hiking Bag
        Thread=3,
 	   LeatherStrips/DenimStrips=3,	
 
-	   OnCreate:PleaseKeepColor,
+	   OnCreate:KoniTestAZ_OnCreate_ConvertClothing,
    	   Result:Bag_BigHikingBag_Tier_2,
        OnGiveXP:Give20TailoringXP,	   
 	   Time:300.0,
@@ -1732,7 +1732,7 @@ recipe Upgrade Big Hiking Bag
        Thread=3,
 	   LeatherStrips/DenimStrips=3,	
 
-	   OnCreate:PleaseKeepColor,
+	   OnCreate:KoniTestAZ_OnCreate_ConvertClothing,
    	   Result:Bag_BigHikingBag_Tier_3,
        OnGiveXP:Give20TailoringXP,	   
 	   Time:300.0,
@@ -1750,7 +1750,7 @@ recipe Upgrade Alicepack
        Thread=3,
 	   LeatherStrips/DenimStrips=3,	
 
-	   OnCreate:PleaseKeepColor,
+	   OnCreate:KoniTestAZ_OnCreate_ConvertClothing,
    	   Result:Bag_ALICEpack_Tier_1,
        OnGiveXP:Give20TailoringXP,	   
 	   Time:300.0,
@@ -1766,7 +1766,7 @@ recipe Upgrade Alicepack
        Thread=3,
 	   LeatherStrips/DenimStrips=3,	
 
-	   OnCreate:PleaseKeepColor,
+	   OnCreate:KoniTestAZ_OnCreate_ConvertClothing,
    	   Result:Bag_ALICEpack_Tier_2,
        OnGiveXP:Give20TailoringXP,	   
 	   Time:300.0,
@@ -1784,7 +1784,7 @@ recipe Upgrade Alicepack
        Thread=3,
 	   LeatherStrips/DenimStrips=3,	
 
-	   OnCreate:PleaseKeepColor,
+	   OnCreate:KoniTestAZ_OnCreate_ConvertClothing,
    	   Result:Bag_ALICEpack_Tier_3,
        OnGiveXP:Give20TailoringXP,	   
 	   Time:300.0,
@@ -1802,7 +1802,7 @@ recipe Upgrade Camo Alicepack
        Thread=3,
 	   LeatherStrips/DenimStrips=3,	
 
-	   OnCreate:PleaseKeepColor,
+	   OnCreate:KoniTestAZ_OnCreate_ConvertClothing,
    	   Result:Bag_ALICEpack_Army_Tier_1,
        OnGiveXP:Give20TailoringXP,	   
 	   Time:300.0,
@@ -1818,7 +1818,7 @@ recipe Upgrade Camo Alicepack
        Thread=3,
 	   LeatherStrips/DenimStrips=3,	
 
-	   OnCreate:PleaseKeepColor,
+	   OnCreate:KoniTestAZ_OnCreate_ConvertClothing,
    	   Result:Bag_ALICEpack_Army_Tier_2,
        OnGiveXP:Give20TailoringXP,	   
 	   Time:300.0,
@@ -1836,7 +1836,7 @@ recipe Upgrade Camo Alicepack
        Thread=3,
 	   LeatherStrips/DenimStrips=3,	
 
-	   OnCreate:PleaseKeepColor,
+	   OnCreate:KoniTestAZ_OnCreate_ConvertClothing,
    	   Result:Bag_ALICEpack_Army_Tier_3,
        OnGiveXP:Give20TailoringXP,	   
 	   Time:300.0,
@@ -1857,7 +1857,7 @@ recipe Upgrade Urban Camo Alicepack
        Thread=3,
 	   LeatherStrips/DenimStrips=3,	
 
-	   OnCreate:PleaseKeepColor,
+	   OnCreate:KoniTestAZ_OnCreate_ConvertClothing,
    	   Result:Bag_ALICEpack_UrbanCamo_Tier_1,
        OnGiveXP:Give20TailoringXP,	   
 	   Time:300.0,
@@ -1873,7 +1873,7 @@ recipe Upgrade Urban Camo Alicepack
        Thread=3,
 	   LeatherStrips/DenimStrips=3,	
 
-	   OnCreate:PleaseKeepColor,
+	   OnCreate:KoniTestAZ_OnCreate_ConvertClothing,
    	   Result:Bag_ALICEpack_UrbanCamo_Tier_2,
        OnGiveXP:Give20TailoringXP,	   
 	   Time:300.0,
@@ -1891,7 +1891,7 @@ recipe Upgrade Urban Camo Alicepack
        Thread=3,
 	   LeatherStrips/DenimStrips=3,	
 
-	   OnCreate:PleaseKeepColor,
+	   OnCreate:KoniTestAZ_OnCreate_ConvertClothing,
    	   Result:Bag_ALICEpack_UrbanCamo_Tier_3,
        OnGiveXP:Give20TailoringXP,	   
 	   Time:300.0,
@@ -1909,7 +1909,7 @@ recipe Upgrade NBH Hazmat Pack
        Thread=3,
 	   LeatherStrips/DenimStrips=3,	   
 
-	   OnCreate:PleaseKeepColor,
+	   OnCreate:KoniTestAZ_OnCreate_ConvertClothing,
    	   Result:Bag_SchoolBagNBH_Tier_1,
        OnGiveXP:Give20TailoringXP,	   
 	   Time:300.0,
@@ -1925,7 +1925,7 @@ recipe Upgrade NBH Hazmat Pack
        Thread=3,
 	   LeatherStrips/DenimStrips=3,	
 
-	   OnCreate:PleaseKeepColor,
+	   OnCreate:KoniTestAZ_OnCreate_ConvertClothing,
    	   Result:Bag_SchoolBagNBH_Tier_2,
        OnGiveXP:Give20TailoringXP,	   
 	   Time:300.0,
@@ -1943,7 +1943,7 @@ recipe Upgrade NBH Hazmat Pack
        Thread=3,
 	   LeatherStrips/DenimStrips=3,	
 	
-	   OnCreate:PleaseKeepColor,	
+	   OnCreate:KoniTestAZ_OnCreate_ConvertClothing,	
    	   Result:Bag_SchoolBagNBH_Tier_3,
        OnGiveXP:Give20TailoringXP,	   
 	   Time:300.0,
@@ -1961,7 +1961,7 @@ recipe Upgrade CEDA Hazmat Pack
        Thread=3,
 	   LeatherStrips/DenimStrips=3,	   
 
-	   OnCreate:PleaseKeepColor,
+	   OnCreate:KoniTestAZ_OnCreate_ConvertClothing,
    	   Result:Bag_SchoolBagCEDA_Tier_1,
        OnGiveXP:Give20TailoringXP,	   
 	   Time:300.0,
@@ -1977,7 +1977,7 @@ recipe Upgrade CEDA Hazmat Pack
        Thread=3,
 	   LeatherStrips/DenimStrips=3,	
 
-	   OnCreate:PleaseKeepColor,
+	   OnCreate:KoniTestAZ_OnCreate_ConvertClothing,
    	   Result:Bag_SchoolBagCEDA_Tier_2,
        OnGiveXP:Give20TailoringXP,	   
 	   Time:300.0,
@@ -1995,7 +1995,7 @@ recipe Upgrade CEDA Hazmat Pack
        Thread=3,
 	   LeatherStrips/DenimStrips=3,	
 	
-	   OnCreate:PleaseKeepColor,	
+	   OnCreate:KoniTestAZ_OnCreate_ConvertClothing,	
    	   Result:Bag_SchoolBagCEDA_Tier_3,
        OnGiveXP:Give20TailoringXP,	   
 	   Time:300.0,
@@ -2013,7 +2013,7 @@ recipe Upgrade CEDA Hazmat Pack
        Thread=3,
 	   LeatherStrips/DenimStrips=3,	   
 
-	   OnCreate:PleaseKeepColor,
+	   OnCreate:KoniTestAZ_OnCreate_ConvertClothing,
    	   Result:Bag_SchoolBagCEDABlack_Tier_1,
        OnGiveXP:Give20TailoringXP,	   
 	   Time:300.0,
@@ -2029,7 +2029,7 @@ recipe Upgrade CEDA Hazmat Pack
        Thread=3,
 	   LeatherStrips/DenimStrips=3,	
 
-	   OnCreate:PleaseKeepColor,
+	   OnCreate:KoniTestAZ_OnCreate_ConvertClothing,
    	   Result:Bag_SchoolBagCEDABlack_Tier_2,
        OnGiveXP:Give20TailoringXP,	   
 	   Time:300.0,
@@ -2047,7 +2047,7 @@ recipe Upgrade CEDA Hazmat Pack
        Thread=3,
 	   LeatherStrips/DenimStrips=3,	
 	
-	   OnCreate:PleaseKeepColor,	
+	   OnCreate:KoniTestAZ_OnCreate_ConvertClothing,	
    	   Result:Bag_SchoolBagCEDABlack_Tier_3,
        OnGiveXP:Give20TailoringXP,	   
 	   Time:300.0,
@@ -2065,7 +2065,7 @@ recipe Upgrade CEDA Hazmat Pack
        Thread=3,
 	   LeatherStrips/DenimStrips=3,	   
 
-	   OnCreate:PleaseKeepColor,
+	   OnCreate:KoniTestAZ_OnCreate_ConvertClothing,
    	   Result:Bag_SchoolBagCEDARed_Tier_1,
        OnGiveXP:Give20TailoringXP,	   
 	   Time:300.0,
@@ -2081,7 +2081,7 @@ recipe Upgrade CEDA Hazmat Pack
        Thread=3,
 	   LeatherStrips/DenimStrips=3,	
 
-	   OnCreate:PleaseKeepColor,
+	   OnCreate:KoniTestAZ_OnCreate_ConvertClothing,
    	   Result:Bag_SchoolBagCEDARed_Tier_2,
        OnGiveXP:Give20TailoringXP,	   
 	   Time:300.0,
@@ -2099,7 +2099,7 @@ recipe Upgrade CEDA Hazmat Pack
        Thread=3,
 	   LeatherStrips/DenimStrips=3,	
 	
-	   OnCreate:PleaseKeepColor,	
+	   OnCreate:KoniTestAZ_OnCreate_ConvertClothing,	
    	   Result:Bag_SchoolBagCEDARed_Tier_3,
        OnGiveXP:Give20TailoringXP,	   
 	   Time:300.0,
@@ -2117,7 +2117,7 @@ recipe Upgrade CEDA Hazmat Pack
        Thread=3,
 	   LeatherStrips/DenimStrips=3,	   
 
-	   OnCreate:PleaseKeepColor,
+	   OnCreate:KoniTestAZ_OnCreate_ConvertClothing,
    	   Result:Bag_SchoolBagCEDABlue_Tier_1,
        OnGiveXP:Give20TailoringXP,	   
 	   Time:300.0,
@@ -2133,7 +2133,7 @@ recipe Upgrade CEDA Hazmat Pack
        Thread=3,
 	   LeatherStrips/DenimStrips=3,	
 
-	   OnCreate:PleaseKeepColor,
+	   OnCreate:KoniTestAZ_OnCreate_ConvertClothing,
    	   Result:Bag_SchoolBagCEDABlue_Tier_2,
        OnGiveXP:Give20TailoringXP,	   
 	   Time:300.0,
@@ -2151,7 +2151,7 @@ recipe Upgrade CEDA Hazmat Pack
        Thread=3,
 	   LeatherStrips/DenimStrips=3,	
 	
-	   OnCreate:PleaseKeepColor,	
+	   OnCreate:KoniTestAZ_OnCreate_ConvertClothing,	
    	   Result:Bag_SchoolBagCEDABlue_Tier_3,
        OnGiveXP:Give20TailoringXP,	   
 	   Time:300.0,
@@ -2238,7 +2238,7 @@ recipe Upgrade Moms Backpack
        Thread=3,
 	   LeatherStrips/DenimStrips=3,	   
 
-	   OnCreate:PleaseKeepColor,
+	   OnCreate:KoniTestAZ_OnCreate_ConvertClothing,
    	   Result:Bag_B4BMom_Tier_1,
        OnGiveXP:Give20TailoringXP,	   
 	   Time:300.0,
@@ -2254,7 +2254,7 @@ recipe Upgrade Moms Backpack
        Thread=3,
 	   LeatherStrips/DenimStrips=3,	
 
-	   OnCreate:PleaseKeepColor,
+	   OnCreate:KoniTestAZ_OnCreate_ConvertClothing,
    	   Result:Bag_B4BMom_Tier_2,
        OnGiveXP:Give20TailoringXP,	   
 	   Time:300.0,
@@ -2272,7 +2272,7 @@ recipe Upgrade Moms Backpack
        Thread=3,
 	   LeatherStrips/DenimStrips=3,	
 	
-	   OnCreate:PleaseKeepColor,	
+	   OnCreate:KoniTestAZ_OnCreate_ConvertClothing,	
    	   Result:Bag_B4BMom_Tier_3,
        OnGiveXP:Give20TailoringXP,	   
 	   Time:300.0,
@@ -2359,7 +2359,7 @@ recipe Upgrade Hollys Backpack
        Thread=3,
 	   LeatherStrips/DenimStrips=3,	   
 
-	   OnCreate:PleaseKeepColor,
+	   OnCreate:KoniTestAZ_OnCreate_ConvertClothing,
    	   Result:Bag_B4BHolly_Tier_1,
        OnGiveXP:Give20TailoringXP,	   
 	   Time:300.0,
@@ -2375,7 +2375,7 @@ recipe Upgrade Hollys Backpack
        Thread=3,
 	   LeatherStrips/DenimStrips=3,	
 
-	   OnCreate:PleaseKeepColor,
+	   OnCreate:KoniTestAZ_OnCreate_ConvertClothing,
    	   Result:Bag_B4BHolly_Tier_2,
        OnGiveXP:Give20TailoringXP,	   
 	   Time:300.0,
@@ -2393,7 +2393,7 @@ recipe Upgrade Hollys Backpack
        Thread=3,
 	   LeatherStrips/DenimStrips=3,	
 	
-	   OnCreate:PleaseKeepColor,	
+	   OnCreate:KoniTestAZ_OnCreate_ConvertClothing,	
    	   Result:Bag_B4BHolly_Tier_3,
        OnGiveXP:Give20TailoringXP,	   
 	   Time:300.0,
@@ -2480,7 +2480,7 @@ recipe Upgrade Hoffmans Backpack
        Thread=3,
 	   LeatherStrips/DenimStrips=3,	   
 
-	   OnCreate:PleaseKeepColor,
+	   OnCreate:KoniTestAZ_OnCreate_ConvertClothing,
    	   Result:Bag_B4BHoffman_Tier_1,
        OnGiveXP:Give20TailoringXP,	   
 	   Time:300.0,
@@ -2496,7 +2496,7 @@ recipe Upgrade Hoffmans Backpack
        Thread=3,
 	   LeatherStrips/DenimStrips=3,	
 
-	   OnCreate:PleaseKeepColor,
+	   OnCreate:KoniTestAZ_OnCreate_ConvertClothing,
    	   Result:Bag_B4BHoffman_Tier_2,
        OnGiveXP:Give20TailoringXP,	   
 	   Time:300.0,
@@ -2514,7 +2514,7 @@ recipe Upgrade Hoffmans Backpack
        Thread=3,
 	   LeatherStrips/DenimStrips=3,	
 	
-	   OnCreate:PleaseKeepColor,	
+	   OnCreate:KoniTestAZ_OnCreate_ConvertClothing,	
    	   Result:Bag_B4BHoffman_Tier_3,
        OnGiveXP:Give20TailoringXP,	   
 	   Time:300.0,
@@ -2601,7 +2601,7 @@ recipe Upgrade Evangelos Backpack
        Thread=3,
 	   LeatherStrips/DenimStrips=3,	   
 
-	   OnCreate:PleaseKeepColor,
+	   OnCreate:KoniTestAZ_OnCreate_ConvertClothing,
    	   Result:Bag_B4BEvangelo_Tier_1,
        OnGiveXP:Give20TailoringXP,	   
 	   Time:300.0,
@@ -2617,7 +2617,7 @@ recipe Upgrade Evangelos Backpack
        Thread=3,
 	   LeatherStrips/DenimStrips=3,	
 
-	   OnCreate:PleaseKeepColor,
+	   OnCreate:KoniTestAZ_OnCreate_ConvertClothing,
    	   Result:Bag_B4BEvangelo_Tier_2,
        OnGiveXP:Give20TailoringXP,	   
 	   Time:300.0,
@@ -2635,7 +2635,7 @@ recipe Upgrade Evangelos Backpack
        Thread=3,
 	   LeatherStrips/DenimStrips=3,	
 	
-	   OnCreate:PleaseKeepColor,	
+	   OnCreate:KoniTestAZ_OnCreate_ConvertClothing,	
    	   Result:Bag_B4BEvangelo_Tier_3,
        OnGiveXP:Give20TailoringXP,	   
 	   Time:300.0,
@@ -2722,7 +2722,7 @@ recipe Upgrade Walkers Backpack
        Thread=3,
 	   LeatherStrips/DenimStrips=3,	   
 
-	   OnCreate:PleaseKeepColor,
+	   OnCreate:KoniTestAZ_OnCreate_ConvertClothing,
    	   Result:Bag_B4BWalker_Tier_1,
        OnGiveXP:Give20TailoringXP,	   
 	   Time:300.0,
@@ -2738,7 +2738,7 @@ recipe Upgrade Walkers Backpack
        Thread=3,
 	   LeatherStrips/DenimStrips=3,	
 
-	   OnCreate:PleaseKeepColor,
+	   OnCreate:KoniTestAZ_OnCreate_ConvertClothing,
    	   Result:Bag_B4BWalker_Tier_2,
        OnGiveXP:Give20TailoringXP,	   
 	   Time:300.0,
@@ -2756,7 +2756,7 @@ recipe Upgrade Walkers Backpack
        Thread=3,
 	   LeatherStrips/DenimStrips=3,	
 	
-	   OnCreate:PleaseKeepColor,	
+	   OnCreate:KoniTestAZ_OnCreate_ConvertClothing,	
    	   Result:Bag_B4BWalker_Tier_3,
        OnGiveXP:Give20TailoringXP,	   
 	   Time:300.0,
@@ -2843,7 +2843,7 @@ recipe Upgrade Rucksack
        Thread=3,
 	   LeatherStrips/DenimStrips=3,	   
 
-	   OnCreate:PleaseKeepColor,
+	   OnCreate:KoniTestAZ_OnCreate_ConvertClothing,
    	   Result:Bag_ARVN_Rucksack_Tier_1,
        OnGiveXP:Give20TailoringXP,	   
 	   Time:300.0,
@@ -2859,7 +2859,7 @@ recipe Upgrade Rucksack
        Thread=3,
 	   LeatherStrips/DenimStrips=3,	
 
-	   OnCreate:PleaseKeepColor,
+	   OnCreate:KoniTestAZ_OnCreate_ConvertClothing,
    	   Result:Bag_ARVN_Rucksack_Tier_2,
        OnGiveXP:Give20TailoringXP,	   
 	   Time:300.0,
@@ -2877,7 +2877,7 @@ recipe Upgrade Rucksack
        Thread=3,
 	   LeatherStrips/DenimStrips=3,	
 	
-	   OnCreate:PleaseKeepColor,	
+	   OnCreate:KoniTestAZ_OnCreate_ConvertClothing,	
    	   Result:Bag_ARVN_Rucksack_Tier_3,
        OnGiveXP:Give20TailoringXP,	   
 	   Time:300.0,

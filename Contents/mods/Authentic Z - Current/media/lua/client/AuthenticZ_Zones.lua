@@ -42,8 +42,8 @@ local function OnGameStart()
 		--getWorld():registerZone("CrossroadsMallCoffeeShop", "ZombiesType", 13953, 5902, 0, 13, 7) -- Front Coffee shop	
 		--getWorld():registerZone("CrossroadsMallDeptStore", "ZombiesType", 13902, 5822, 0, 100, 78) -- Bottom Right shop			
 --		getWorld():registerZone("DayZBleu", "ZombiesType", 10470, 12843, 0, 48, 57) -- Southern March Ridge
-		getWorld():registerZone("Dianne", "ZombiesType", 8426, 11720, 0, 53, 50) --East edge of Rosewood			
-		getWorld():registerZone("Dinner", "ZombiesType", 3699, 8455, 0, 9, 16)--Ekron Diner Station                        --
+--		getWorld():registerZone("Dianne", "ZombiesType", 8426, 11720, 0, 53, 50) --East edge of Rosewood			
+--		getWorld():registerZone("Dinner", "ZombiesType", 3699, 8455, 0, 9, 16)--Ekron Diner Station                        --
 		getWorld():registerZone("Dormitory", "ZombiesType", 10048, 12611, 0, 76, 56)--March Ridge Dormitory				
 		getWorld():registerZone("EvilDead", "ZombiesType", 10933, 9366, 0, 50, 22) --Northern Muldraugh Walled house	
 --		getWorld():registerZone("ExclusionZone", "ZombiesType", 12504, 4502, 0, 53, 250)--Northern end of Map above Valley Station (W)
@@ -92,7 +92,7 @@ local function OnGameStart()
 		getWorld():registerZone("ScrapYard", "ZombiesType", 5786, 5389, 0, 18, 60)   -- Junk yard in Western Riverside		
 		getWorld():registerZone("Militia", "ZombiesType", 9780, 13080, 0, 49, 51)--Bottom Left of March Ridge
 --		getWorld():registerZone("MovieNight", "ZombiesType", 13569, 5854, 0, 77, 72) --Movie Theater Valley Station		
-		getWorld():registerZone("Nate", "ZombiesType", 11600, 8860, 0, 41, 41) --Mid Dixie 		
+--		getWorld():registerZone("Nate", "ZombiesType", 11600, 8860, 0, 41, 41) --Mid Dixie 		
 		getWorld():registerZone("Nukem", "ZombiesType", 7661, 8870, 0, 58, 69) -- Middle of nowhere in farmlands
 --		getWorld():registerZone("Pony", "ZombiesType", 8530, 8440, 0, 135, 144)         --Lickskillet		
 --		getWorld():registerZone("SpeakingEvent", "ZombiesType", 11926, 6856, 0, 13, 39) --Westpoint Meeting room
@@ -119,7 +119,7 @@ local function OnGameStart()
 --		getWorld():registerZone("TheDregs", "ZombiesType", 11551, 10001, 0, 70, 100) -- Muldraugh Trainyard		
 		getWorld():registerZone("TheyLive", "ZombiesType", 6401, 5355, 0, 4, 40) -- Riverside Alley
 --		getWorld():registerZone("TrueEyeCult", "ZombiesType", 13894, 5774, 2, 15, 10) -- Crossroads Mall Offices  		
-		getWorld():registerZone("WorldsEnd", "ZombiesType", 12650, 4750, 0, 50, 150) --Northern Valley Station		
+--		getWorld():registerZone("WorldsEnd", "ZombiesType", 12650, 4750, 0, 50, 150) --Northern Valley Station		
 	end
 end
 
