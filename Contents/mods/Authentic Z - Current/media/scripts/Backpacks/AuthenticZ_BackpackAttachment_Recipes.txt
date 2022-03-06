@@ -507,5 +507,27 @@ recipe Make Backpack Attachable Item
 	   Time:30.0,
 	   Tooltip:Tooltip_AttachBackpack,
   	}
+
+recipe Open Sleeping Bag
+  	{
+	   AuthenticZClothing.SleepingBagRoll,
+
+   	   Result:AuthenticZClothing.SleepingBag,
+	   Time:100.0,
+       AnimNode:RipSheets,	   
+	   Tooltip:Tooltip_AZSleepingBag,
+	   Prop1:SleepingBagRoll,	   
+  	}	
+
+recipe Close Sleeping Bag
+  	{
+	   AuthenticZClothing.SleepingBag,
+
+   	   Result:AuthenticZClothing.SleepingBagRoll,
+	   Time:200.0,
+       AnimNode:RipSheets,	   
+	   Tooltip:Tooltip_AZSleepingBag2,
+	   Prop1:SleepingBagRoll,
+  	}
 	
 }		

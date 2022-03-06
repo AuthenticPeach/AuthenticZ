@@ -139,7 +139,7 @@ module AuthenticZClothing {
 	
 	item ToyBear
 	{
-        DisplayCategory = Raccoon,		
+        DisplayCategory 	= 	Raccoon,		
 		Weight				=	0.2,
 		Type				=	Normal,
 		DisplayName			=	Toy Bear,
@@ -151,7 +151,7 @@ module AuthenticZClothing {
 
 	item ToyBearSmall
 	{
-        DisplayCategory = Raccoon,		
+        DisplayCategory 	= 	Raccoon,		
 		Weight				=	0.2,
 		Type				=	Normal,
 		DisplayName			=	Toy Bear,
@@ -160,10 +160,34 @@ module AuthenticZClothing {
         AttachmentType  	= 	SpiffoPlushie,		
 		StaticModel 		= 	ToyBearSmall,	
 	}			
+
+    item SleepingBag
+	{
+        DisplayCategory 		= 	Household,		
+		Weight					=	1.0,
+		Type					=	Normal,
+		DisplayName				=	Sleeping Bag,
+		Icon					=	SleepingBagCadetBlue,
+		WorldStaticModel 		= 	WorldItem_SleepingBag,
+        AttachmentType  		= 	Tool,
+		StaticModel 			= 	SleepingBag,		
+	}
+	
+    item SleepingBagRoll
+	{
+        DisplayCategory 		= 	Household,		
+		Weight					=	1.0,
+		Type					=	Normal,
+		DisplayName				=	Sleeping Bag (Rolled Up),
+		Icon					=	SleepingBagCadetBlue,
+		WorldStaticModel 		= 	WorldItem_SleepingBagRoll,
+        AttachmentType  		= 	Tool,
+		StaticModel 			= 	SleepingBagRoll,		
+	}	
 	
     item AuthenticBalloon_Blue
     {
-		DisplayCategory = Household,	
+		DisplayCategory 		= 	Household,	
         Type					=	Normal,
         DisplayName				=	Blue Balloon,
         Icon					=	Balloon_Blue,

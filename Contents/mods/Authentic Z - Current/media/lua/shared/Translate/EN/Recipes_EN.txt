@@ -54,8 +54,12 @@ Recipes_EN = {
 	Recipe_Use_TV-110_as_Bulletproof_Vest = "Use TV-110 as Bulletproof Vest",
 	Recipe_Use_TV-110_as_Magazine_Bag = "Use TV-110 as Magazine Bag",
 
-/* New */	
+/* 2-20-22 */	
 	Recipe_Revert_Attachable_Item = "Revert Attachable Item",
 	Recipe_Make_Backpack_Attachable_Item = "Make Backpack Attachable Item",	
+
+/* New */	
+	Recipe_Open_Sleeping_Bag = "Open Sleeping Bag",
+	Recipe_Close_Sleeping_Bag = "Close Sleeping Bag",	
 	
 	}

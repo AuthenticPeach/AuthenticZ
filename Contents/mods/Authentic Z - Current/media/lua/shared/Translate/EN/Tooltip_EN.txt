@@ -52,8 +52,12 @@ Tooltip_EN = {
 	
 	Tooltip_TV110Bag = "Take out all items before this.",
 	
-/* New */
-
+/* Update 2-20-22 */
 	Tooltip_JPCane = "Life finds a way.",		
-	Tooltip_TagillaHelmet = "UBEY",			
+	Tooltip_TagillaHelmet = "UBEY",	
+	
+/* New */
+	Tooltip_AZSleepingBag = "Unwrap and Place.",		
+	Tooltip_AZSleepingBag2 = "Right-Click to Sleep.",	
+	
 	}

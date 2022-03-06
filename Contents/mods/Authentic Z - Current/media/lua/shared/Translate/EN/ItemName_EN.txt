@@ -787,4 +787,9 @@ ItemName_EN = {
 	ItemName_AuthenticZClothing.BroadcastCamera = "EVV-9000 HYPER Broadcast Video Camera",
 	ItemName_AuthenticZClothing.Flamingo = "Fifi the Flamingo",
 	
+	ItemName_AuthenticZClothing.SleepingBag = "Sleeping Bag",
+	ItemName_AuthenticZClothing.SleepingBagRoll = "Sleeping Bag (Rolled Up)",
+	
+	
+	
 }
