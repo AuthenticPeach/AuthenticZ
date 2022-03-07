@@ -4182,8 +4182,8 @@ module Base
 
 		attachment BackPack_Schoolbag_PlushieRubberDuck
 		{
-			offset = -0.0090 0.0380 -0.2530,
-			rotate = 2.0000 -59.0000 90.0000,
+			offset = 0.0580 -0.0970 -0.1250,
+			rotate = 2.0000 -70.0000 90.0000,
 			bone = Bip01_BackPack,
 		}
 

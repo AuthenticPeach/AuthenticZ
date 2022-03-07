@@ -41,6 +41,19 @@ module AuthenticZClothing {
         Icon			=	StoreSignCostume,
 		WorldStaticModel = WorldItem-CostumeStoreSign,
 	}
+	
+    item Rubberducky3
+    {
+        DisplayCategory		 	= 	Raccoon,
+        Weight					=	0.1,
+        Type					=	Normal,
+        DisplayName				=	Rubber Duck,
+        Icon					=	Rubberducky,
+        WorldStaticModel 		= 	Rubberducky,
+        AttachmentType  		= 	RubberDuck,
+		StaticModel 			= 	Rubberducky,			
+    }	
+	
    item Flamingo
 	{
         DisplayCategory 		=  	Raccoon,	

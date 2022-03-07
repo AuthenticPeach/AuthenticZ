@@ -5,6 +5,16 @@ module AuthenticZRecipes{
 
 recipe Make Backpack Attachable Item
   	{
+   	   Rubberducky,
+	   AZ_MetalClip,	   
+
+   	   Result:AuthenticZClothing.Rubberducky3,
+	   Time:50.0,
+	   Tooltip:Tooltip_AttachBackpack,
+  	}	
+
+recipe Make Backpack Attachable Item
+  	{
    	   Hat_GasMask,
 
    	   Result:AuthenticZClothing.Hat_GasMask,
