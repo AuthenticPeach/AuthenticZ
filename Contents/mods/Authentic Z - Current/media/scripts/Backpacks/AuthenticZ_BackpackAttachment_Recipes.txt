@@ -539,5 +539,50 @@ recipe Close Sleeping Bag
 	   Tooltip:Tooltip_AZSleepingBag2,
 	   Prop1:SleepingBagRoll,
   	}
+
+recipe Unroll Mattress
+  	{
+	   AuthenticZClothing.MattressRoll,
+
+   	   Result:Base.Mattress,
+	   Time:100.0,
+       AnimNode:RipSheets,	   
+	   Tooltip:Tooltip_AZSleepingBag,
+	   Prop1:SleepingBagRoll,	   
+  	}	
+
+recipe Roll up Mattress
+  	{
+	   Base.Mattress,
+
+   	   Result:AuthenticZClothing.MattressRoll,
+	   Time:200.0,
+       AnimNode:RipSheets,	   
+	   Tooltip:Tooltip_AZSleepingBag2,
+	   Prop1:SleepingBagRoll,
+  	}
+	
+recipe Make Backpack Attachable Item
+  	{
+	   camping.CampingTentKit,
+
+   	   Result:AuthenticZClothing.CampingTentKit,
+	   Time:200.0,
+       AnimNode:RipSheets,	   
+	   Tooltip:Tooltip_AZSleepingBag2,
+	   Prop1:SleepingBagRoll,
+  	}
+
+recipe Make Backpack Attachable Item
+  	{
+	   camping.CampfireKit,
+
+   	   Result:AuthenticZClothing.CampfireKit,
+	   Time:200.0,
+       AnimNode:RipSheets,	   
+	   Tooltip:Tooltip_AZSleepingBag2,
+	   Prop1:SleepingBagRoll,
+  	}
+
 	
 }		

@@ -352,6 +352,11 @@ module Base
 		mesh = GasMaskUnequiped,
 		texture = GasMask,
 	}
+	model WelderMaskNotWorn
+	{
+		mesh = WelderMaskUnequiped,
+		texture = WelderMask,
+	}	
 	model Hit-list1Map
 	{
 		mesh = WorldItems/Map,
@@ -466,7 +471,7 @@ module Base
 	model SleepingBag
 	{
 		mesh = SleepingbagRoll,
-		texture = clothes\Items\SleepingbagRollBlue,
+		texture = clothes\Items\SleepingbagLightBlue,
 	}		
     model SpiffoPlushieGrey
     {
@@ -602,7 +607,7 @@ module Base
 	model WorldItem_SleepingBag
 	{
 		mesh = WorldItems/WorldItem_Sleepingbag,
-		texture = clothes\Items\SleepingbagRollBlue,
+		texture = clothes\Items\SleepingbagLightBlue,
 	}	
 	model WorldItem_Boater_Ground_Blue
     {

@@ -37,7 +37,7 @@ module AuthenticZClothing {
 
 	item SheetRope
 	{
-        DisplayCategory = Tool,	
+        DisplayCategory 		= 	Tool,	
 		Weight					=	0.8,
 		Type					=	Normal,
 		DisplayName				=	Sheet Rope,

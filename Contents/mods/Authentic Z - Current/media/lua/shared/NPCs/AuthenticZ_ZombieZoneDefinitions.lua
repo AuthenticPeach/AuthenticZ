@@ -2535,6 +2535,7 @@ table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticFitnessInstructor",
 table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticFitnessInstructor", chance=25, room="fitness"});
 
 -------------------------- Schools --------------------------
+table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticCheerleaderLV", chance=3, room="laboratory", gender="female"});
 table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticCheerleader", chance=3, room="classroom", gender="female"});
 table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticSchoolGirl", chance=5, room="classroom", gender="female"});
 table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticCFTDJim", chance=.05, room="classroom", gender="male"});
