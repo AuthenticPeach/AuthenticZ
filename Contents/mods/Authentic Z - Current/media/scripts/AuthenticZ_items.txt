@@ -912,16 +912,27 @@ module AuthenticZClothing {
         WeaponLength = 0.1,		
 		AttachmentType = Walkie,
     }
+	item AZ_DiceHung
+	{
+        DisplayCategory  =  Household,	
+        Weight			 =	0.1,
+        Type			 =	Normal,
+        DisplayName		 = 	Chain of Dice,
+        Icon			 =	DiceHung,
+        AttachmentType   = 	RubberDuck,			
+		StaticModel 	 =  DiceHung,		
+		WorldStaticModel =	DiceHung_Ground,
+	}		
 	item AZ_MetalClip
 	{
-        DisplayCategory = Material,	
+        DisplayCategory  =	Material,	
         Weight			 =	0.05,
         Type			 =	Normal,
         DisplayName		 = 	Carabiner Clip,
         Icon			 =	CarabinerClip,
 		WorldStaticModel =	Paperclip,
 		Tooltip 		 = 	Tooltip_Carabiner,
-	}	
+	}
 	item Torch2
 	{
         DisplayCategory = LightSource,	

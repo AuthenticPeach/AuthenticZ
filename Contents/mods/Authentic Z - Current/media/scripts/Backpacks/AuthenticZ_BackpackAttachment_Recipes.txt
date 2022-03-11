@@ -15,6 +15,17 @@ recipe Make Backpack Attachable Item
 
 recipe Make Backpack Attachable Item
   	{
+   	   Dice,
+	   AZ_MetalClip,	   
+	   Paperclip,
+	   
+   	   Result:AuthenticZClothing.Rubberducky3,
+	   Time:50.0,
+	   Tooltip:Tooltip_AttachBackpack,
+  	}
+
+recipe Make Backpack Attachable Item
+  	{
    	   Hat_GasMask,
 
    	   Result:AuthenticZClothing.Hat_GasMask,
