@@ -194,9 +194,23 @@ module AuthenticZClothing {
 		DisplayName				=	Sleeping Bag (Rolled Up),
 		Icon					=	SleepingBagCadetBlue,
 		WorldStaticModel 		= 	WorldItem_SleepingBagRoll,
-        AttachmentType  		= 	Tool,
+        AttachmentType  		= 	SleepingBag,
 		StaticModel 			= 	SleepingBagRoll,		
 	}	
+
+    item AuthenticGlowstick_Red
+    {
+		DisplayCategory 		= 	Household,	
+        Type					=	Normal,
+        DisplayName				=	Red Glowstick,
+        Icon					=	Glowstick-Red,
+        Weight					=	0.1,
+        primaryAnimMask 		= 	HoldingUmbrellaRight,
+        secondaryAnimMask 		= 	HoldingUmbrellaLeft,
+        StaticModel 			= 	AuthenticGlowstick,
+		WorldStaticModel 		= 	WorldItem-AuthenticGlowstick,			
+		AttachmentType 			= 	Hammer,
+    }	
 	
     item AuthenticBalloon_Blue
     {

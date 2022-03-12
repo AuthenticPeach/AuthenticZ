@@ -790,6 +790,8 @@ ItemName_EN = {
 	
 	ItemName_AuthenticZClothing.SleepingBag = "Sleeping Bag",
 	ItemName_AuthenticZClothing.SleepingBagRoll = "Sleeping Bag (Rolled Up)",
+	
+	ItemName_AuthenticZClothing.AuthenticGlowstick_Red = "Red Glowstick",
 
 	
 	

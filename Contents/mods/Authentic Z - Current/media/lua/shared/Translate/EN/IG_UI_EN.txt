@@ -45,6 +45,10 @@ IGUI_EN = {
 	IGUI_HotbarAttachment_BigHikingbagUmbrellaLeft = "BigHikingbag Utility Slot",	
 	IGUI_HotbarAttachment_AlicepackUmbrellaRight = "Alicepack Utility Slot",
 
+	IGUI_HotbarAttachment_HikingbagSleepingRoll = "Hikingbag Sleeping Bag",
+	IGUI_HotbarAttachment_BigHikingbagSleepingRoll = "BigHikingbag Sleeping Bag",	
+	IGUI_HotbarAttachment_AlicepackSleepingRoll = "Alicepack Sleeping Bag",
+
 	IGUI_HotbarAttachment_SchoolbagBalloonLeft = "Balloon Slot",
 	IGUI_HotbarAttachment_SchoolbagBalloonRight = "Balloon Slot",	
 	IGUI_HotbarAttachment_SchoolbagPlushie = "Schoolbag Plushie Slot",
@@ -84,5 +88,7 @@ IGUI_EN = {
 	IGUI_CraftCategory_Tailoring = "Tailoring",
 	
 /* New*/	
+
+
 
 }

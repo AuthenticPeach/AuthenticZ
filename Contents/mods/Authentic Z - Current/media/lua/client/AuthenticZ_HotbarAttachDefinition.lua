@@ -494,10 +494,19 @@ local HikingbagUmbrellaLeft = {
 		Umbrella = "HikingBag Umbrella Left",
 		Saw = "HikingBag Saw Right",
 		Tool = "HikingBag Torch Right",
-		SleepingBag = "HikingBag Sleeping Bag",	
 	},
 }
 table.insert(ISHotbarAttachDefinition, HikingbagUmbrellaLeft);
+
+local HikingbagSleepingRoll = {
+	type = "HikingbagSleepingRoll",
+	name = "Sleeping Bag Slot", -- Name shown in the slot icon
+	animset = "back",
+	attachments = { -- list of possible item category and their modelAttachement group, the item category is defined in the item script		
+		SleepingBag = "HikingBag Sleeping Bag",			
+	},
+}
+table.insert(ISHotbarAttachDefinition, HikingbagSleepingRoll);
 
 local HikingBagFlashlight = {
 	type = "HikingBagFlashlight",
@@ -667,11 +676,20 @@ local BigHikingbagUmbrellaLeft = {
 	attachments = { -- list of possible item category and their modelAttachement group, the item category is defined in the item script		
 		Umbrella = "BigHikingBag Umbrella Right",
 		Saw = "BigHikingBag Saw Right",
-		Tool = "BigHikingBag Torch Right",
-		SleepingBag = "BigHikingBag Sleeping Bag",			
+		Tool = "BigHikingBag Torch Right",		
 	},
 }
 table.insert(ISHotbarAttachDefinition, BigHikingbagUmbrellaLeft);
+
+local BigHikingbagSleepingRoll = {
+	type = "BigHikingbagSleepingRoll",
+	name = "Sleeping Bag Slot", -- Name shown in the slot icon
+	animset = "back",
+	attachments = { -- list of possible item category and their modelAttachement group, the item category is defined in the item script		
+		SleepingBag = "BigHikingBag Sleeping Bag",			
+	},
+}
+table.insert(ISHotbarAttachDefinition, BigHikingbagSleepingRoll);
 
 local BigHikingbagFlashlight = {
 	type = "BigHikingbagFlashlight",
@@ -880,11 +898,20 @@ local AlicepackUmbrellaRight = {
 	attachments = { -- list of possible item category and their modelAttachement group, the item category is defined in the item script		
 		Umbrella = "Alicepack Umbrella Right",
 		Saw = "Alicepack Saw Right",
-		Tool = "Alicepack Torch Right",
-		SleepingBag = "Alicepack Sleeping Bag",			
+		Tool = "Alicepack Torch Right",	
 	},
 }
 table.insert(ISHotbarAttachDefinition, AlicepackUmbrellaRight);
+
+local AlicepackSleepingRoll = {
+	type = "AlicepackSleepingRoll",
+	name = "Sleeping Bag Slot", -- Name shown in the slot icon
+	animset = "back",
+	attachments = { -- list of possible item category and their modelAttachement group, the item category is defined in the item script		
+		SleepingBag = "Alicepack Sleeping Bag",			
+	},
+}
+table.insert(ISHotbarAttachDefinition, AlicepackSleepingRoll);
 
 local AlicepackFlashlight = {
 	type = "AlicepackFlashlight",

@@ -1462,8 +1462,8 @@ module Base
 
 		attachment BackPack_Hikingbag_SleepingBag
 		{
-			offset = 0.0130 0.0960 0.0890,
-			rotate = -84.0000 -60.0000 3.0000,
+			offset = -0.0080 0.0030 -0.2010,
+			rotate = -90.0000 0.0000 -2.0000,
 			bone = Bip01_BackPack,
 		}
 
@@ -1973,8 +1973,8 @@ module Base
 
 		attachment BackPack_BigHikingBag_SleepingBag
 		{
-			offset = 0.0130 0.0960 0.0890,
-			rotate = -84.0000 -60.0000 3.0000,
+			offset = 0.0120 -0.0010 -0.2160,
+			rotate = -90.0000 0.0000 -2.0000,
 			bone = Bip01_BackPack,
 		}
 
@@ -2012,13 +2012,13 @@ module Base
 			rotate = -17.0000 -62.0000 68.0000,
 			bone = Bip01_BackPack,
 		}
-		
+
 		attachment BackPack_BigHikingbag_PlushieRubberDuck
 		{
 			offset = 0.0370 -0.1110 -0.1430,
 			rotate = -151.0000 -80.0000 -59.0000,
 			bone = Bip01_BackPack,
-		}		
+		}
 
 		attachment BackPack_BigHikingBag_Waterbottle_Left
 		{
@@ -2624,7 +2624,7 @@ module Base
 
 		attachment BackPack_Alicepack_SleepingBag
 		{
-			offset = 0.0580 -0.0040 0.1550,
+			offset = 0.0390 -0.0050 0.1600,
 			rotate = -90.0000 1.0000 -2.0000,
 			bone = Bip01_BackPack,
 		}
