@@ -49,7 +49,7 @@
         Type = Clothing,
         DisplayName = Cheerleader Crop Top,
         ClothingItem = Shirt_CropTopLVCheerleader,
-        BodyLocation = Tshirt,
+        BodyLocation = Shirt,
         Icon	=	TubeTopSleevedLVCheerleader,
         BloodLocation = Shirt,
         FabricType = Cotton,
