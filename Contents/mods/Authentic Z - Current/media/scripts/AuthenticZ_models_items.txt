@@ -492,7 +492,28 @@ module Base
 	{
 		mesh = SleepingbagRoll,
 		texture = clothes\Items\SleepingbagLightBlue,
-	}		
+	}
+    model PlushieFox_Static
+    {
+        mesh = WorldItems/PlushieFox,
+        scale = 0.4,
+    }
+    model PlushieHedgehog_Static
+    {
+        mesh = WorldItems/WorldItem_PlushieHedgehogAZ,
+        texture = WorldItems/PlushieHedgehog,		
+        scale = 0.4,
+    }
+    model PlushieRabbit_Static
+    {
+        mesh = WorldItems/PlushieRabbit,
+        scale = 0.4,
+    }
+    model PlushieSquirrel_Static
+    {
+        mesh = WorldItems/PlushieSquirrel,
+        scale = 0.4,
+    }	
     model SpiffoPlushieGrey
     {
         mesh = WorldItems/SpiffoPlushie,
@@ -779,7 +800,6 @@ module Base
 	model WorldItem_BunnyEarsBlack
     {
 		mesh = WorldItems/WorldItem_BunnyEars,
-		texture = clothes\Hats\BunnyEarsBlack,
     }
 	model WorldItem_CanteenCadetBlue
     {
