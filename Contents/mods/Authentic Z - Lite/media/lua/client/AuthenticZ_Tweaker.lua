@@ -22,22 +22,8 @@ local function TweakItem(itemName, itemProperty, propertyValue)
 end
 Events.OnGameBoot.Add(doTweaks);
 
-TweakItem("Base.BlowTorch","AttachmentType", "Tool");
-TweakItem("Base.SheetRope", "AttachmentType", "SheetRope");
-TweakItem("Base.SheetRope", "StaticModel", "SheetRopeAZ");
-TweakItem("Base.Rope", "AttachmentType", "Rope");
-TweakItem("Base.Rope", "StaticModel", "NewRope");
-TweakItem("Base.Saw", "AttachmentType", "Saw");
-TweakItem("Base.GardenSaw", "AttachmentType", "Saw");
-
 TweakItem("Base.Mop", "StaticModel", "MopAZ");
 TweakItem("Base.Mop", "AttachmentType", "Shovel");
 
 TweakItem("Base.VHS_Retail", "StaticModel", "VHSBox2");
-
-
-TweakItem("Base.WeldingMask", "AttachmentType", "GasMask");
-TweakItem("Base.WeldingMask", "StaticModel", "WelderMaskNotWorn");
-
-
 
