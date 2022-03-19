@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel></m_FemaleModel>
+	<m_GUID>289f3637-39e6-492e-9469-8d611177debd</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_BaseTextures>clothes\shirt_tshirt_textures\Shirt_LumberjackShortBlue</m_BaseTextures>
+	<m_BaseTextures>clothes\shirt_tshirt_textures\Shirt_LumberjackShortBlue</m_BaseTextures>	
+	<m_BaseTextures>clothes\shirt_tshirt_textures\Shirt_LumberjackShortRed</m_BaseTextures>
+	<m_BaseTextures>clothes\shirt_tshirt_textures\Shirt_LumberjackShortRed</m_BaseTextures>	
+	<m_BaseTextures>clothes\shirt_tshirt_textures\Shirt_LumberjackShortYellow</m_BaseTextures>
+	<m_BaseTextures>clothes\shirt_tshirt_textures\Shirt_LumberjackShortYellow</m_BaseTextures>	
+	<m_BaseTextures>clothes\shirt_tshirt_textures\Shirt_LumberjackShortGreen</m_BaseTextures>
+	<m_BaseTextures>clothes\shirt_tshirt_textures\Shirt_LumberjackShortGreen</m_BaseTextures>	
+	<m_BaseTextures>clothes\shirt_tshirt_textures\Shirt_LumberjackShortGrey</m_BaseTextures>
+	<m_BaseTextures>clothes\shirt_tshirt_textures\Shirt_LumberjackShortGrey</m_BaseTextures>	
+	<m_BaseTextures>clothes\shirt_tshirt_textures\Shirt_LumberjackShortOrange</m_BaseTextures>
+	<m_BaseTextures>clothes\shirt_tshirt_textures\Shirt_LumberjackOrange</m_BaseTextures>	
+</clothingItem>

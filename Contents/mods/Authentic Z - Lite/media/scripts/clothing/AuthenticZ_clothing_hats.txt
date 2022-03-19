@@ -1,0 +1,1517 @@
+module AuthenticZClothing {
+  imports {
+      Base
+  }
+	item AuthenticHairHeadband
+	{
+	    DisplayCategory = Accessory,	
+		Type = Clothing,
+		DisplayName = Sports Headband,
+		ClothingItem = Hat_Headband_AZ,
+		BodyLocation = Hat,
+		IconsForTexture = Headband_Yellow;Headband_Pink,
+		CanHaveHoles = false,
+		ChanceToFall = 30,
+       	BloodLocation = Head,
+		WorldStaticModel = WorldItem_Headband,			
+    	}  
+ 	item BunnyEars
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Bunny Ears,
+		ClothingItem = BunnyEarsAZ,
+		BodyLocation = Hat,
+		IconsForTexture = AZBunnyEars;AZBunnyEarsWhite,
+		ChanceToFall = 80,
+       	BloodLocation = Head,
+        Insulation = 0.15,
+        WindResistance = 0.1,
+        Weight = 0.5,
+		WorldStaticModel = WorldItem_BunnyEarsBlack,	
+    } 
+	item CigarAZ
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Cigar,
+		ClothingItem = CigarAZ,
+		BodyLocation = Necklace,
+		Icon = CigarAZ,
+		ChanceToFall = 40,
+        Weight = 0.1,
+		WorldStaticModel = WorldItem_CigarAZ,
+    } 	
+	item Hat_AuthenticCrashHelmetFULLDecalBobaFett
+	{
+	    DisplayCategory = Accessory,	
+		Type = Clothing,
+		DisplayName = Motorcycle Helmet,
+		ClothingItem = Hat_AuthenticCrashHelmetFULLDecalBobaFett,
+		BodyLocation = FullHat,
+		Icon = HelmetMotorcycleFullBobaFett,
+		BloodLocation = FullHelmet,
+		CanHaveHoles = false,
+		CombatSpeedModifier = 0.95,
+		BiteDefense = 100,
+        ScratchDefense = 100,
+        ChanceToFall = 3,
+        Insulation = 1.0,
+        WindResistance = 1.0,
+	} 
+	item Hat_AuthenticCrashHelmetFULLDecalEvelKnievel
+	{
+	    DisplayCategory = Accessory,	
+		Type = Clothing,
+		DisplayName = Motorcycle Helmet,
+		ClothingItem = Hat_AuthenticCrashHelmetFULLDecalEvelKnievel,
+		BodyLocation = FullHat,
+		Icon = HelmetMotorcycleFullEvelKnievel,
+		BloodLocation = FullHelmet,
+		CanHaveHoles = false,
+		CombatSpeedModifier = 0.95,
+		BiteDefense = 100,
+        ScratchDefense = 100,
+        ChanceToFall = 3,
+        Insulation = 1.0,
+        WindResistance = 1.0,
+	} 
+	item Hat_AuthenticCrashHelmetFULLDecalGreenDragon
+	{
+	    DisplayCategory = Accessory,	
+		Type = Clothing,
+		DisplayName = Motorcycle Helmet,
+		ClothingItem = Hat_AuthenticCrashHelmetFULLDecalGreenDragon,
+		BodyLocation = FullHat,
+		Icon =HelmetMotorcycleFullGreenDragon,
+		BloodLocation = FullHelmet,
+		CanHaveHoles = false,
+		CombatSpeedModifier = 0.95,
+		BiteDefense = 100,
+        ScratchDefense = 100,
+        ChanceToFall = 3,
+        Insulation = 1.0,
+        WindResistance = 1.0,
+	}
+	item Hat_AuthenticCrashHelmetFULLDecalKiss
+	{
+	    DisplayCategory = Accessory,	
+		Type = Clothing,
+		DisplayName = Motorcycle Helmet,
+		ClothingItem = Hat_AuthenticCrashHelmetFULLDecalKiss,
+		BodyLocation = FullHat,
+		Icon = HelmetMotorcycleFullKiss,
+		BloodLocation = FullHelmet,
+		CanHaveHoles = false,
+		CombatSpeedModifier = 0.95,
+		BiteDefense = 100,
+        ScratchDefense = 100,
+        ChanceToFall = 3,
+        Insulation = 1.0,
+        WindResistance = 1.0,
+	}  
+	item Hat_AuthenticCrashHelmetFULLDecalOptimus
+	{
+	    DisplayCategory = Accessory,	
+		Type = Clothing,
+		DisplayName = Motorcycle Helmet,
+		ClothingItem = Hat_AuthenticCrashHelmetFULLDecalOptimus,
+		BodyLocation = FullHat,
+		Icon = HelmetMotorcycleFullOptimus,
+		BloodLocation = FullHelmet,
+		CanHaveHoles = false,
+		CombatSpeedModifier = 0.95,
+		BiteDefense = 100,
+        ScratchDefense = 100,
+        ChanceToFall = 3,
+        Insulation = 1.0,
+        WindResistance = 1.0,
+	}
+	item Hat_AuthenticCrashHelmetFULLDecalPowerRangerRed
+	{
+	    DisplayCategory = Accessory,	
+		Type = Clothing,
+		DisplayName = Motorcycle Helmet,
+		ClothingItem = Hat_AuthenticCrashHelmetFULLDecalPowerRangerRed,
+		BodyLocation = FullHat,
+		Icon = HelmetMotorcycleFullPowerRangerRed,
+		BloodLocation = FullHelmet,
+		CanHaveHoles = false,
+		CombatSpeedModifier = 0.95,
+		BiteDefense = 100,
+        ScratchDefense = 100,
+        ChanceToFall = 3,
+        Insulation = 1.0,
+        WindResistance = 1.0,
+	}  	
+	item Hat_AuthenticCrashHelmetFULLDecalShark
+	{
+	    DisplayCategory = Accessory,	
+		Type = Clothing,
+		DisplayName = Motorcycle Helmet,
+		ClothingItem = Hat_AuthenticCrashHelmetFULLDecalShark,
+		BodyLocation = FullHat,
+		IconsForTexture = HelmetMotorcycleFullJaws,
+		BloodLocation = FullHelmet,
+		CanHaveHoles = false,
+		CombatSpeedModifier = 0.95,
+		BiteDefense = 100,
+        ScratchDefense = 100,
+        ChanceToFall = 3,
+        Insulation = 1.0,
+        WindResistance = 1.0,
+	}	
+	item Hat_AuthenticCrashHelmetFULLDecalSnowLeopard
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Motorcycle Helmet,
+		ClothingItem = Hat_AuthenticCrashHelmetFULLDecalSnowLeopard,
+		BodyLocation = FullHat,
+		Icon = HelmetMotorcycleFullSnowLeopard,
+		BloodLocation = FullHelmet,
+		CanHaveHoles = false,
+		CombatSpeedModifier = 0.95,
+		BiteDefense = 100,
+        ScratchDefense = 100,
+        ChanceToFall = 3,
+        Insulation = 1.0,
+        WindResistance = 1.0,
+	}
+	item Hat_AuthenticCrashHelmetFULLDecalVenom
+	{
+	    DisplayCategory = Accessory,	
+		Type = Clothing,
+		DisplayName = Motorcycle Helmet,
+		ClothingItem = Hat_AuthenticCrashHelmetFULLDecalVenom,
+		BodyLocation = FullHat,
+		Icon = HelmetMotorcycleFullVenom,
+		BloodLocation = FullHelmet,
+		CanHaveHoles = false,
+		CombatSpeedModifier = 0.95,
+		BiteDefense = 100,
+        ScratchDefense = 100,
+        ChanceToFall = 3,
+        Insulation = 1.0,
+        WindResistance = 1.0,
+	}	
+	item Hat_AuthenticCrashHelmetFULLDecalSimple
+	{
+	    DisplayCategory = Accessory,	
+		Type = Clothing,
+		DisplayName = Motorcycle Helmet,
+		ClothingItem = Hat_AuthenticCrashHelmetFULLDecalSimple,
+		BodyLocation = FullHat,
+		Icon = HelmetMotorcycleFullBurger,
+		BloodLocation = FullHelmet,
+		CanHaveHoles = false,
+		CombatSpeedModifier = 0.95,
+		BiteDefense = 100,
+        ScratchDefense = 100,
+        ChanceToFall = 3,
+        Insulation = 1.0,
+        WindResistance = 1.0,
+	}
+	item Hat_AuthenticCrashHelmetFULLRacing
+	{
+	    DisplayCategory = Accessory,	
+		Type = Clothing,
+		DisplayName = Motorcycle Helmet,
+		ClothingItem = Hat_AuthenticCrashHelmetFULLRacing,
+		BodyLocation = FullHat,
+		IconsForTexture = HelmetMotorcycleFullUma;HelmetMotorcycleFullBlue2;HelmetMotorcycleFullGreen;HelmetMotorcycleFullPurple;HelmetMotorcycleFullYellow;HelmetMotorcycleFullOrange;HelmetMotorcycleFullYellow2;HelmetMotorcycleFullPurple2,
+		BloodLocation = FullHelmet,
+		CanHaveHoles = false,
+		CombatSpeedModifier = 0.95,
+		BiteDefense = 100,
+        ScratchDefense = 100,
+        ChanceToFall = 3,
+        Insulation = 1.0,
+        WindResistance = 1.0,
+	}
+	item Hat_AuthenticCrashHelmetFULLTINT
+	{
+	    DisplayCategory = Accessory,	
+		Type = Clothing,
+		DisplayName = Motorcycle Helmet,
+		ClothingItem = Hat_AuthenticCrashHelmetFULLTINT,
+		BodyLocation = FullHat,
+		IconsForTexture = HelmetMotorcycleFullBlue;HelmetMotorcycleFullBlack;HelmetMotorcycleFullRed;HelmetMotorcycleFullWhite;HelmetMotorcycleFullWhite;HelmetMotorcycleFullWhite,
+		BloodLocation = FullHelmet,
+		CanHaveHoles = false,
+		CombatSpeedModifier = 0.95,
+		BiteDefense = 100,
+        ScratchDefense = 100,
+        ChanceToFall = 3,
+        Insulation = 1.0,
+        WindResistance = 1.0,
+	}
+	item Hat_AuthenticCrashHelmet
+	{
+	    DisplayCategory = Accessory,	
+		Type = Clothing,
+		DisplayName = Crash Helmet,
+		ClothingItem = Hat_AuthenticCrashHelmet,
+		BodyLocation = Hat,
+		IconsForTexture = HelmetMotorcycleGolden;HelmetMotorcycleFlagALT,
+		BloodLocation = Head,
+		CanHaveHoles = false,
+        BiteDefense = 100,
+        ScratchDefense = 100,
+        ChanceToFall = 10,
+        Insulation = 0.8,
+        WindResistance = 0.8,
+	}
+	item Hat_BalaclavaSpyBlue
+	{
+	    DisplayCategory = Accessory,	
+		Type = Clothing,
+		DisplayName = Blue Open Balaclava,
+		ClothingItem = Hat_BalaclavaSpyBlue,
+		BodyLocation = Mask,
+		Icon = BalaclavaOpen,
+		CanHaveHoles = false,
+		BloodLocation = Head,
+		Insulation = 0.8,
+		WindResistance = 0.8,
+        WorldStaticModel = BalaclavaFull_Ground,		
+	}
+	item Hat_BalaclavaSpyRed
+	{
+	    DisplayCategory = Accessory,	
+		Type = Clothing,
+		DisplayName = Red Open Balaclava,
+		ClothingItem = Hat_BalaclavaSpyRed,
+		BodyLocation = Mask,
+		Icon = BalaclavaOpen,
+		CanHaveHoles = false,
+		BloodLocation = Head,
+		Insulation = 0.8,
+		WindResistance = 0.8,
+        WorldStaticModel = BalaclavaFull_Ground,		
+	}
+    item Hat_BaseballCapBossTagilla
+    {
+	    DisplayCategory = Accessory,	
+        Type = Clothing,
+        DisplayName = Tagilla's Baseball Cap,
+        ClothingItem = Hat_BaseballCapBossTagilla,
+        ClothingItemExtra = AuthenticZClothing.Hat_BaseballCapBossTagilla_Reverse,	
+        ClothingItemExtraOption = ReverseCap,		
+        BodyLocation = Hat,
+        Icon = BaseballCapTagilla,
+        CanHaveHoles = false,
+        ChanceToFall = 80,
+        Insulation = 0.10,
+        Weight = 0.5,	
+    }
+    item Hat_BaseballCapBossTagilla_Reverse
+    {
+	    DisplayCategory = Accessory,	
+        Type = Clothing,
+        DisplayName = Tagilla's Baseball Cap,
+        ClothingItem = Hat_BaseballCapBossTagilla_Reverse,
+        ClothingItemExtra = AuthenticZClothing.Hat_BaseballCapBossTagilla,
+        ClothingItemExtraOption = ForwardCap,
+        BodyLocation = Hat,
+        Icon = BaseballCapTagilla,
+        CanHaveHoles = false,
+        ChanceToFall = 80,
+        Insulation = 0.10,
+        Weight = 0.5,
+    }	
+    item Hat_BaseballCapClementine
+    {
+	    DisplayCategory = Accessory,	
+        Type = Clothing,
+        DisplayName = Clementine's Baseball Cap,
+        ClothingItem = Hat_BaseballCapClementine,
+        ClothingItemExtra = AuthenticZClothing.Hat_BaseballCapClementine_Reverse,	
+        ClothingItemExtraOption = ReverseCap,		
+        BodyLocation = Hat,
+        Icon = BaseballCapClementine,
+        CanHaveHoles = false,
+        ChanceToFall = 80,
+        Insulation = 0.10,
+        Weight = 0.5,
+    }
+    item Hat_BaseballCapClementine_Reverse
+    {
+	    DisplayCategory = Accessory,	
+        Type = Clothing,
+        DisplayName = Clementine's Baseball Cap,
+        ClothingItem = Hat_BaseballCapClementine_Reverse,
+        ClothingItemExtra = AuthenticZClothing.Hat_BaseballCapClementine,
+        ClothingItemExtraOption = ForwardCap,
+        BodyLocation = Hat,
+        Icon = BaseballCapClementine,
+        CanHaveHoles = false,
+        ChanceToFall = 80,
+        Insulation = 0.10,
+        Weight = 0.5,
+    }
+    item Hat_BaseballCapEllis
+    {
+	    DisplayCategory = Accessory,	
+        Type = Clothing,
+        DisplayName = Ellis's Baseball Cap,
+        ClothingItem = Hat_BaseballCapEllis,
+        ClothingItemExtra = AuthenticZClothing.Hat_BaseballCapEllis_Reverse,	
+        ClothingItemExtraOption = ReverseCap,		
+        BodyLocation = Hat,
+        Icon = BaseballCapEllis,
+        CanHaveHoles = false,
+        ChanceToFall = 80,
+        Insulation = 0.10,
+        Weight = 0.5,
+    }
+    item Hat_BaseballCapEllis_Reverse
+    {
+	    DisplayCategory = Accessory,	
+        Type = Clothing,
+        DisplayName = Ellis's Baseball Cap,
+        ClothingItem = Hat_BaseballCapEllis_Reverse,
+        ClothingItemExtra = AuthenticZClothing.Hat_BaseballCapEllis,
+        ClothingItemExtraOption = ForwardCap,
+        BodyLocation = Hat,
+        Icon = BaseballCapEllis,
+        CanHaveHoles = false,
+        ChanceToFall = 80,
+        Insulation = 0.10,
+        Weight = 0.5,
+    }
+    item Hat_BaseballCapDayZ
+    {
+	    DisplayCategory = Accessory,	
+        Type = Clothing,
+        DisplayName = DayZ Hero Baseball Cap,
+        ClothingItem = Hat_BaseballCapDayZ,
+		ClothingItemExtra = AuthenticZClothing.Hat_BaseballCapDayZ_Reverse,
+        ClothingItemExtraOption = ReverseCap,	
+        BodyLocation = Hat,
+        Icon = BaseballCapDayZ,
+        CanHaveHoles = false,
+        ChanceToFall = 80,
+        Insulation = 0.10,
+        Weight = 0.5,
+    }
+    item Hat_BaseballCapDayZ_Reverse
+    {
+	    DisplayCategory = Accessory,	
+        Type = Clothing,
+        DisplayName = Baseball Cap,
+        ClothingItem = Hat_BaseballCapDayZ_Reverse,
+        ClothingItemExtra = AuthenticZClothing.Hat_BaseballCapDayZ,
+        ClothingItemExtraOption = ForwardCap,
+        BodyLocation = Hat,
+        Icon = BaseballCapDayZ,
+        CanHaveHoles = false,
+        Insulation = 0.10,
+        Weight = 0.5,
+    }
+    item Hat_BaseballCapHolly
+    {
+	    DisplayCategory = Accessory,	
+        Type = Clothing,
+        DisplayName = Holly's Baseball Cap,
+        ClothingItem = Hat_BaseballCapHolly,
+        ClothingItemExtra = AuthenticZClothing.Hat_BaseballCapHolly_Reverse,	
+        ClothingItemExtraOption = ReverseCap,		
+        BodyLocation = Hat,
+        Icon = BaseballCapHolly,
+        CanHaveHoles = false,
+        ChanceToFall = 80,
+        Insulation = 0.10,
+        Weight = 0.5,
+    }
+    item Hat_BaseballCapHolly_Reverse
+    {
+	    DisplayCategory = Accessory,	
+        Type = Clothing,
+        DisplayName = Holly's Baseball Cap,
+        ClothingItem = Hat_BaseballCapHolly_Reverse,
+        ClothingItemExtra = AuthenticZClothing.Hat_BaseballCapHolly,
+        ClothingItemExtraOption = ForwardCap,
+        BodyLocation = Hat,
+        Icon = BaseballCapHolly,
+        CanHaveHoles = false,
+        ChanceToFall = 80,
+        Insulation = 0.10,
+        Weight = 0.5,
+    }
+    item Hat_BaseballCapHunter
+    {
+	    DisplayCategory = Accessory,	
+        Type = Clothing,
+        DisplayName = Hunter's Baseball Cap,
+        ClothingItem = Hat_BaseballCapHunter,
+        ClothingItemExtra = AuthenticZClothing.Hat_BaseballCapHunter_Reverse,	
+        ClothingItemExtraOption = ReverseCap,		
+        BodyLocation = Hat,
+        Icon = BaseballCapHunter,
+        CanHaveHoles = false,
+        ChanceToFall = 80,
+        Insulation = 0.10,
+        Weight = 0.5,
+    }
+    item Hat_BaseballCapHunter_Reverse
+    {
+	    DisplayCategory = Accessory,	
+        Type = Clothing,
+        DisplayName = Hunter's Baseball Cap,
+        ClothingItem = Hat_BaseballCapHunter_Reverse,
+        ClothingItemExtra = AuthenticZClothing.Hat_BaseballCapHunter,
+        ClothingItemExtraOption = ForwardCap,
+        BodyLocation = Hat,
+        Icon = BaseballCapHunter,
+        CanHaveHoles = false,
+        ChanceToFall = 80,
+        Insulation = 0.10,
+        Weight = 0.5,
+    }	
+    item Hat_BaseballCapJohnMorgan
+    {
+	    DisplayCategory = Accessory,	
+        Type = Clothing,
+        DisplayName = John Morgan's Baseball Cap,
+        ClothingItem = Hat_BaseballCapJohnMorgan,
+		ClothingItemExtra = AuthenticZClothing.Hat_BaseballCapJohnMorgan_Reverse,
+        ClothingItemExtraOption = ReverseCap,	
+        BodyLocation = Hat,
+        Icon = BaseballCapJohnMorgan,
+        CanHaveHoles = false,
+        ChanceToFall = 80,
+        Insulation = 0.10,
+        Weight = 0.5,
+    }
+    item Hat_BaseballCapJohnMorgan_Reverse
+    {
+	    DisplayCategory = Accessory,	
+        Type = Clothing,
+        DisplayName = John Morgan's Baseball Cap,
+        ClothingItem = Hat_BaseballCapJohnMorgan_Reverse,
+        ClothingItemExtra = AuthenticZClothing.Hat_BaseballCapJohnMorgan,
+        ClothingItemExtraOption = ForwardCap,
+        BodyLocation = Hat,
+        Icon = BaseballCapJohnMorgan,
+        CanHaveHoles = false,
+        Insulation = 0.10,
+        Weight = 0.5,
+    }
+    item Hat_BaseballCapPrinceBelAir
+    {
+ 	    DisplayCategory = Accessory,       
+		Type = Clothing,
+        DisplayName = Basketball Cap,
+        ClothingItem = Hat_BaseballCapPrinceBelAir,
+		ClothingItemExtra = AuthenticZClothing.Hat_BaseballCapPrinceBelAir_Reverse,
+        ClothingItemExtraOption = ReverseCap,	
+        BodyLocation = Hat,
+        Icon = BaseballCapBelAir,
+        CanHaveHoles = false,
+        ChanceToFall = 80,
+        Insulation = 0.10,
+        Weight = 0.5,
+    }
+    item Hat_BaseballCapPrinceBelAir_Reverse
+    {
+	    DisplayCategory = Accessory,	
+        Type = Clothing,
+        DisplayName =  Basketball Cap,
+        ClothingItem = Hat_BaseballCapPrinceBelAir_Reverse,
+        ClothingItemExtra = AuthenticZClothing.Hat_BaseballCapPrinceBelAir,
+        ClothingItemExtraOption = ForwardCap,
+        BodyLocation = Hat,
+        Icon = BaseballCapBelAir,
+        CanHaveHoles = false,
+        Insulation = 0.10,
+        Weight = 0.5,
+    }
+    item Hat_BaseballCapRedDI
+    {
+	    DisplayCategory = Accessory,	
+        Type = Clothing,
+        DisplayName = Star Baseball Cap,
+        ClothingItem = Hat_BaseballCapRedDI,
+		ClothingItemExtra = AuthenticZClothing.Hat_BaseballCapRedDI_Reverse,
+        ClothingItemExtraOption = ReverseCap,	
+        BodyLocation = Hat,
+        Icon = BaseballCapRedDI,
+        CanHaveHoles = false,
+        ChanceToFall = 80,
+        Insulation = 0.10,
+        Weight = 0.5,
+    }
+    item Hat_BaseballCapRedDI_Reverse
+    {
+	    DisplayCategory = Accessory,	
+        Type = Clothing,
+        DisplayName =  Star Baseball Cap,
+        ClothingItem = Hat_BaseballCapRedDI_Reverse,
+        ClothingItemExtra = AuthenticZClothing.Hat_BaseballCapRedDI,
+        ClothingItemExtraOption = ForwardCap,
+        BodyLocation = Hat,
+        Icon = BaseballCapRedDI,
+        CanHaveHoles = false,
+        Insulation = 0.10,
+        Weight = 0.5,
+    }
+    item Hat_BaseballCapSeaHorse
+    {
+	    DisplayCategory = Accessory,	
+        Type = Clothing,
+        DisplayName = Seahorse Baseball Cap,
+        ClothingItem = Hat_BaseballCapSeaHorse,
+		ClothingItemExtra = AuthenticZClothing.Hat_BaseballCapSeaHorse_Reverse,
+        ClothingItemExtraOption = ReverseCap,	
+        BodyLocation = Hat,
+        Icon = BaseballCapBlack,
+        CanHaveHoles = false,
+        ChanceToFall = 80,
+        Insulation = 0.10,
+        Weight = 0.5,
+    }
+    item Hat_BaseballCapSeaHorse_Reverse
+    {
+	    DisplayCategory = Accessory,	
+        Type = Clothing,
+        DisplayName =  Seahorse Baseball Cap,
+        ClothingItem = Hat_BaseballCapSeaHorse_Reverse,
+        ClothingItemExtra = AuthenticZClothing.Hat_BaseballCapSeaHorse,
+        ClothingItemExtraOption = ForwardCap,
+        BodyLocation = Hat,
+        Icon = BaseballCapBlack,
+        CanHaveHoles = false,
+        Insulation = 0.10,
+        Weight = 0.5,
+    }
+    item Hat_BaseballCapWalker
+    {
+	    DisplayCategory = Accessory,
+        Type = Clothing,
+        DisplayName = Walker's Baseball Cap,
+        ClothingItem = Hat_BaseballCapWalker,
+        ClothingItemExtra = AuthenticZClothing.Hat_BaseballCapWalker_Reverse,	
+        ClothingItemExtraOption = ReverseCap,		
+        BodyLocation = Hat,
+        Icon = BaseballCapWalker,
+        CanHaveHoles = false,
+        ChanceToFall = 80,
+        Insulation = 0.10,
+        Weight = 0.5,
+    }
+    item Hat_BaseballCapWalker_Reverse
+    {
+	    DisplayCategory = Accessory,	
+        Type = Clothing,
+        DisplayName = Walker's Baseball Cap,
+        ClothingItem = Hat_BaseballCapWalker_Reverse,
+        ClothingItemExtra = AuthenticZClothing.Hat_BaseballCapWalker,
+        ClothingItemExtraOption = ForwardCap,
+        BodyLocation = Hat,
+        Icon = BaseballCapWalker,
+        CanHaveHoles = false,
+        ChanceToFall = 80,
+        Insulation = 0.10,
+        Weight = 0.5,
+    }
+    item Hat_BaseballCapWhite
+    {
+	    DisplayCategory = Accessory,
+        Type = Clothing,
+        DisplayName = White Baseball Cap,
+        ClothingItem = Hat_BaseballCapWhite,
+        ClothingItemExtra = AuthenticZClothing.Hat_BaseballCapWhite_Reverse,	
+        ClothingItemExtraOption = ReverseCap,		
+        BodyLocation = Hat,
+        Icon = BaseballCapWhite,
+        CanHaveHoles = false,
+        ChanceToFall = 80,
+        Insulation = 0.10,
+        Weight = 0.5,
+    }
+    item Hat_BaseballCapWhite_Reverse
+    {
+	    DisplayCategory = Accessory,	
+        Type = Clothing,
+        DisplayName = White Baseball Cap,
+        ClothingItem = Hat_BaseballCapWhite_Reverse,
+        ClothingItemExtra = AuthenticZClothing.Hat_BaseballCapWhite,
+        ClothingItemExtraOption = ForwardCap,
+        BodyLocation = Hat,
+        Icon = BaseballCapWhite,
+        CanHaveHoles = false,
+        ChanceToFall = 80,
+        Insulation = 0.10,
+        Weight = 0.5,
+    }	
+    item Hat_BandanaTiedDesert
+    {
+	    DisplayCategory = Accessory,	
+        Type = Clothing,
+        DisplayName = Bandana (Tied),
+        ClothingItem = Hat_BandanaTiedDesert,
+        BodyLocation = Hat,
+        ClothingItemExtra = AuthenticZClothing.Hat_BandanaDesert;AuthenticZClothing.Hat_BandanaMaskDesert,
+        ClothingItemExtraOption = UntieBandana;TieBandanaFace,
+        Icon = RamboBandana_Tan,
+        CanHaveHoles = false,
+        ChanceToFall = 5,
+        Insulation = 0.10,
+        Weight = 0.1,
+    }	
+    item Hat_BandanaMaskDesert
+    {
+	    DisplayCategory = Accessory,	
+        Type = Clothing,
+        DisplayName = Desert Bandana (Face),
+        ClothingItem = Hat_BandanaMaskDesert,
+        BodyLocation = Mask,
+        ClothingItemExtra = AuthenticZClothing.Hat_BandanaDesert;AuthenticZClothing.Hat_BandanaTiedDesert,
+        ClothingItemExtraOption = UntieBandana;TieBandana,
+        Icon = Handkerchief_Tan,
+        CanHaveHoles = false,
+        ChanceToFall = 5,
+        Insulation = 0.10,
+        Weight = 0.1,
+    }
+	item Hat_BandanaDesert
+	{
+	    DisplayCategory = Accessory,	
+		Type = Clothing,
+		DisplayName = Desert Bandana (Head),
+		ClothingItem = Hat_BandanaDesert,
+		BodyLocation = Hat,
+		Icon = Bandana_Tan,
+		ClothingItemExtra = AuthenticZClothing.Hat_BandanaTiedDesert;AuthenticZClothing.Hat_BandanaMaskDesert,
+        ClothingItemExtraOption = TieBandana;TieBandanaFace,
+		CanHaveHoles = false,
+		ChanceToFall = 5,
+		Insulation = 0.10,
+	}	
+    item Hat_BandanaTiedRed
+    {
+	    DisplayCategory = Accessory,	
+        Type = Clothing,
+        DisplayName = Red Bandana (Tied),
+        ClothingItem = Hat_BandanaTiedRed,
+        BodyLocation = Hat,
+        ClothingItemExtra = AuthenticZClothing.Hat_BandanaRed;AuthenticZClothing.Hat_BandanaMaskRed,
+        ClothingItemExtraOption = UntieBandana;TieBandanaFace,
+        Icon = RamboBandanna_Red,
+        CanHaveHoles = false,
+        ChanceToFall = 5,
+        Insulation = 0.10,
+        Weight = 0.1,
+    }	
+    item Hat_BandanaMaskRed
+    {
+	    DisplayCategory = Accessory,	
+        Type = Clothing,
+        DisplayName = Red Bandana (Face),
+        ClothingItem = Hat_BandanaMaskRed,
+        BodyLocation = Mask,
+        ClothingItemExtra = AuthenticZClothing.Hat_BandanaRed;AuthenticZClothing.Hat_BandanaTiedRed,
+        ClothingItemExtraOption = UntieBandana;TieBandana,
+        Icon = Handkerchief_Red,
+        CanHaveHoles = false,
+        ChanceToFall = 5,
+        Insulation = 0.10,
+        Weight = 0.1,
+    }
+	item Hat_BandanaRed
+	{
+	    DisplayCategory = Accessory,	
+		Type = Clothing,
+		DisplayName = Bandana (Head),
+		ClothingItem = Hat_BandanaRed,
+		BodyLocation = Hat,
+		IconsForTexture = BandanaRed,
+		ClothingItemExtra = AuthenticZClothing.Hat_BandanaTiedRed;AuthenticZClothing.Hat_BandanaMaskRed,
+        ClothingItemExtraOption = TieBandana;TieBandanaFace,
+		CanHaveHoles = false,
+		ChanceToFall = 5,
+		Insulation = 0.10,
+	}
+	item Hat_BeanyGrey
+	{
+	    DisplayCategory = Accessory,	
+		Type = Clothing,
+		DisplayName = Beanie Hat,
+		ClothingItem = Hat_BeanyGrey,
+		BodyLocation = Hat,
+		Icon = BeanieGeneric,
+		CanHaveHoles = false,
+		ChanceToFall = 40,
+        BloodLocation = Head,
+		Insulation = 0.6,
+		WindResistance = 0.3,
+		Weight = 0.5,
+	}
+	item Hat_BeretBlack
+    {
+	    DisplayCategory = Accessory,	
+        Type = Clothing,
+        DisplayName = Black Beret,
+        ClothingItem = Hat_BeretBlack,
+        BodyLocation = Hat,
+        Icon = BeretBlack,
+        CanHaveHoles = false,
+        ChanceToFall = 80,
+        Insulation = 0.3,
+        BloodLocation = Head,
+        Weight = 0.5,
+    }	
+	item Hat_BeretMime
+    {
+	    DisplayCategory = Accessory,	
+        Type = Clothing,
+        DisplayName = Red Beret,
+        ClothingItem = Hat_BeretMime,
+        BodyLocation = Hat,
+        Icon = BeretRed,
+        CanHaveHoles = false,
+        ChanceToFall = 80,
+        Insulation = 0.3,
+        BloodLocation = Head,
+        Weight = 0.5,		
+    }		
+	item Hat_Boater_Blue
+	{
+	    DisplayCategory = Accessory,	
+		Type = Clothing,
+		DisplayName = Blue Boater,
+		ClothingItem = Hat_Boater_Blue,
+		BodyLocation = Hat,
+		Icon = BoaterBlue,
+		ChanceToFall = 80,
+        BloodLocation = Head,
+        Insulation = 0.15,
+        WindResistance = 0.1,
+        Weight = 0.5,
+		WorldStaticModel = WorldItem_Boater_Ground_Blue,
+    	}
+	item Hat_Boater_Green
+	{
+	    DisplayCategory = Accessory,	
+		Type = Clothing,
+		DisplayName = Green Boater,
+		ClothingItem = Hat_Boater_Green,
+		BodyLocation = Hat,
+		Icon = BoaterGreen,
+		ChanceToFall = 80,
+        BloodLocation = Head,
+        Insulation = 0.15,
+        WindResistance = 0.1,
+       	Weight = 0.5,
+		WorldStaticModel = WorldItem_Boater_Ground_Green,	
+    	}
+	item Hat_Boater_Purple
+	{
+	    DisplayCategory = Accessory,	
+		Type = Clothing,
+		DisplayName = Purple Boater,
+		ClothingItem = Hat_Boater_Purple,
+		BodyLocation = Hat,
+		Icon = BoaterPurple,
+		ChanceToFall = 80,
+       	BloodLocation = Head,
+        Insulation = 0.15,
+        WindResistance = 0.1,
+        Weight = 0.5,
+		WorldStaticModel = WorldItem_Boater_Ground_Purple,	
+    	}
+	item Hat_Boater_Red
+	{
+	    DisplayCategory = Accessory,	
+		Type = Clothing,
+		DisplayName = Red Boater,
+		ClothingItem = Hat_Boater_Red,
+		BodyLocation = Hat,
+		Icon = BoaterRed,
+		ChanceToFall = 80,
+        BloodLocation = Head,
+        Insulation = 0.15,
+        WindResistance = 0.1,
+        Weight = 0.5,
+		WorldStaticModel = WorldItem_Boater_Ground_Red,
+    	}
+	item Hat_Boater_Yellow
+	{
+	    DisplayCategory = Accessory,	
+		Type = Clothing,
+		DisplayName = Yellow Boater,
+		ClothingItem = Hat_Boater_Yellow,
+		BodyLocation = Hat,
+		Icon = BoaterYellow,
+		ChanceToFall = 80,
+        BloodLocation = Head,
+        Insulation = 0.15,
+        WindResistance = 0.1,
+        Weight = 0.5,
+		WorldStaticModel = WorldItem_Boater_Ground_Yellow,
+    }
+   item Hat_CheeseHat
+    {
+	    DisplayCategory = Accessory,	
+        Type = Clothing,
+        DisplayName = Cheese Hat,
+        ClothingItem = Hat_CheeseHat,
+        BodyLocation = Hat,
+        Icon = CheeseHat,
+        CanHaveHoles = false,
+        ChanceToFall = 80,
+        Insulation = 0.10,
+        Weight = 0.5,
+    }
+	item CultistHat
+    {
+        DisplayCategory = Accessory,
+        Type = Clothing,
+        DisplayName = Cultist Hat,
+	ClothingItem = CultistHat,
+	BodyLocation = Hat,
+	Icon = CultistHat,
+	CanHaveHoles = false,
+	BloodLocation = Head,
+	BiteDefense = 30,
+	ScratchDefense = 40,
+	Insulation = 0.45,
+	WindResistance = 0.6,
+	WorldStaticModel = CultistHat_Ground,
+    }
+	item Hat_Cowboy_Freddy
+	{
+	    DisplayCategory = Accessory,	
+		Type = Clothing,
+		DisplayName = Brown Cowboy Hat,
+		ClothingItem = Hat_Cowboy_Freddy,
+		BodyLocation = Hat,
+		IconsForTexture = HatCowboyBrown,
+		CanHaveHoles = false,
+		ChanceToFall = 80,
+        Insulation = 0.3,
+        WindResistance = 0.2,
+        BloodLocation = Head,
+	}	
+	item Hat_DeathMask
+	{
+	    DisplayCategory = Accessory,	
+		Type = Clothing,
+		DisplayName = Death Mask,
+		ClothingItem = Hat_DeathMask,
+		BodyLocation = MaskEyes,
+		Icon = HockeyMask,
+		CanHaveHoles = false,
+		BloodLocation = Head,
+        BiteDefense = 30,
+        ScratchDefense = 50,
+        ChanceToFall = 30,
+        Insulation = 0.25,
+        WindResistance = 0.55,
+	}
+	item Hat_Dimitrescu
+	{
+	    DisplayCategory = Accessory,	
+		Type = Clothing,
+		DisplayName = Lady Dimitrescu's Hat,
+		ClothingItem = Hat_Dimitrescu,
+		BodyLocation = Hat,
+		IconsForTexture = HatDimitrescu,
+		CanHaveHoles = false,
+        Insulation = 0.3,
+        WindResistance = 0.2,
+        BloodLocation = Head,
+	}	
+	item Hat_DRLegoHead
+	{
+	    DisplayCategory = Accessory,	
+		Type = Clothing,
+		DisplayName = ServBot Mask,
+		ClothingItem = Hat_DRLegoHead,
+		BodyLocation = FullHat,
+		BloodLocation = Head,
+		Icon = LegoHead,
+		CanHaveHoles = false,
+		CombatSpeedModifier = 0.95,
+		BiteDefense = 100,
+        ScratchDefense = 100,
+        ChanceToFall = 10,
+        Insulation = 0.50,
+        WindResistance = 0.65,
+        WaterResistance = 1.0,
+	}
+	item Hat_FastFood_Donut
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Donut Server Hat,
+		ClothingItem = Hat_FastFood_Donut,
+		BodyLocation = Hat,
+		Icon = CookHatIceCream,
+		CanHaveHoles = false,
+		ChanceToFall = 80,
+		Weight = 0.3,
+	}	
+	item Hat_FootballHelmet_BlueStar
+	{
+	    DisplayCategory = Accessory,	
+		Type = Clothing,
+		DisplayName = Football Helmet,
+		ClothingItem = Hat_FootballHelmet_BlueStar,
+		BodyLocation = FullHat,
+		IconsForTexture = HelmetFootballBlue,
+		BloodLocation = FullHelmet,
+		CanHaveHoles = false,
+		CombatSpeedModifier = 0.95,
+		BiteDefense = 100,
+        ScratchDefense = 100,
+        ChanceToFall = 0,
+        Insulation = 0.55,
+        WindResistance = 0.35,
+        WaterResistance = 0.85,
+        Weight = 1.5,
+	}
+	item Hat_FootballHelmet_Chiefs
+	{
+	    DisplayCategory = Accessory,	
+		Type = Clothing,
+		DisplayName = Chiefs Football Helmet,
+		ClothingItem = Hat_FootballHelmet_Chiefs,
+		BodyLocation = FullHat,
+		IconsForTexture = HelmetFootballRedder,
+		BloodLocation = FullHelmet,
+		CanHaveHoles = false,
+		CombatSpeedModifier = 0.95,
+		BiteDefense = 100,
+        ScratchDefense = 100,
+        ChanceToFall = 0,
+        Insulation = 0.55,
+        WindResistance = 0.35,
+        WaterResistance = 0.85,
+        Weight = 1.5,
+	}
+	item Hat_FootballHelmet_Packers
+	{
+	    DisplayCategory = Accessory,	
+		Type = Clothing,
+		DisplayName = Packers Football Helmet,
+		ClothingItem = Hat_FootballHelmet_Packers,
+		BodyLocation = FullHat,
+		IconsForTexture = HelmetFootballGreenBay,
+		BloodLocation = FullHelmet,
+		CanHaveHoles = false,
+		CombatSpeedModifier = 0.95,
+		BiteDefense = 100,
+        ScratchDefense = 100,
+        ChanceToFall = 0,
+        Insulation = 0.55,
+        WindResistance = 0.35,
+        WaterResistance = 0.85,
+        Weight = 1.5,
+	}
+	item Hat_FootballHelmet_RedSkull
+	{
+	    DisplayCategory = Accessory,	
+		Type = Clothing,
+		DisplayName = Football Helmet,
+		ClothingItem = Hat_FootballHelmet_RedSkull,
+		BodyLocation = FullHat,
+		IconsForTexture = HelmetFootballRed,
+		BloodLocation = FullHelmet,
+		CanHaveHoles = false,
+		CombatSpeedModifier = 0.95,
+		BiteDefense = 100,
+        ScratchDefense = 100,
+        ChanceToFall = 0,
+        Insulation = 0.55,
+        WindResistance = 0.35,
+        WaterResistance = 0.85,
+        Weight = 1.5,
+	}	
+	item Hat_FootballHelmet_Patriots
+	{
+	    DisplayCategory = Accessory,	
+		Type = Clothing,
+		DisplayName = Patriots Football Helmet,
+		ClothingItem = Hat_FootballHelmet_Patriots,
+		BodyLocation = FullHat,
+		Icon = HelmetFootballWhite,
+		BloodLocation = FullHelmet,
+		CanHaveHoles = false,
+		CombatSpeedModifier = 0.95,
+		BiteDefense = 100,
+        ScratchDefense = 100,
+        ChanceToFall = 0,
+        Insulation = 0.55,
+        WindResistance = 0.35,
+        WaterResistance = 0.85,
+        Weight = 1.5,
+	}	
+	item Hat_GhostFace
+	{
+	    DisplayCategory = Accessory,	
+		Type = Clothing,
+		DisplayName = Ghost Face Mask,
+		ClothingItem = Hat_GhostFace,
+		BodyLocation = MaskEyes,
+		Icon = Mask_Scream,
+		CanHaveHoles = false,
+		BloodLocation = Head,
+        BiteDefense = 30,
+       	ScratchDefense = 50,
+        Insulation = 0.25,
+        WindResistance = 0.55,
+	}	
+    item Hat_Gibus
+    {
+	    DisplayCategory = Accessory,	
+        Type = Clothing,
+        DisplayName = Ghostly Gibus,
+        ClothingItem = Hat_Gibus,
+        BodyLocation = Hat,
+        Icon = HatGibus,
+        CanHaveHoles = false,
+        ChanceToFall = 80,
+        Insulation = 0.10,
+        Weight = 0.5,
+    }
+    item Hat_Gibus2
+    {
+	    DisplayCategory = Accessory,	
+        Type = Clothing,
+        DisplayName = Ghostly Gibus,
+        ClothingItem = Hat_Gibus2,
+		BodyLocation = Necklace,
+        Icon = HatGibus,
+        CanHaveHoles = false,
+        ChanceToFall = 80,
+        Insulation = 0.10,
+        Weight = 0.5,
+    }	
+	item Hat_Grimes
+	{
+	    DisplayCategory = Accessory,	
+		Type = Clothing,
+		DisplayName = Brown Sheriff Hat,
+		ClothingItem = Hat_Grimes,
+		BodyLocation = Hat,
+		Icon = HatRick,
+		CanHaveHoles = false,
+		ChanceToFall = 70,
+       	BloodLocation = Head,
+        Insulation = 0.45,
+        WindResistance = 0.40,
+        WaterResistance = 0.25,
+    	}		
+	item Hat_HockeyMaskJason
+	{
+	    DisplayCategory 	= Accessory,	
+		Type 				= Clothing,
+		DisplayName 		= Jason's Hockey Mask,
+		ClothingItem		= Hat_HockeyMaskJason,
+		BodyLocation 		= MaskEyes,
+		Icon 				= HockeyMask,
+		CanHaveHoles 		= false,
+		BloodLocation 		= Head,
+        BiteDefense 		= 30,
+        ScratchDefense 		= 50,
+        ChanceToFall 		= 30,
+        Insulation 			= 0.25,
+        WindResistance 		= 0.55,
+		Tooltip 			= Tooltip_JasonV,
+	}		
+	item Hat_JackoLantern
+	{
+	    DisplayCategory = Accessory,	
+		Type = Clothing,
+		DisplayName = Jack-O-Lantern,
+		ClothingItem = Hat_JackoLantern,
+		BodyLocation = FullHat,
+		BloodLocation = Head,
+		Icon = JackoLantern,
+		CanHaveHoles = false,
+		CombatSpeedModifier = 0.95,
+		BiteDefense = 100,
+        ScratchDefense = 100,
+        ChanceToFall = 10,
+        Insulation = 0.50,
+        WindResistance = 0.65,
+        WaterResistance = 1.0,
+	}
+	item Hat_JasonSack
+	{
+	    DisplayCategory = Accessory,	
+		Type = Clothing,
+		DisplayName = Jason's Rugsack,
+		ClothingItem = Hat_JasonSack,
+		BodyLocation = FullHat,
+		BloodLocation = Head,
+		Icon = JasonRugsack,
+		CanHaveHoles = false,
+        BiteDefense = 30,
+       	ScratchDefense = 50,
+        Insulation = 0.25,
+        WindResistance = 0.55,
+	}	
+	item Hat_KillaHelmet
+	{
+	    DisplayCategory = Accessory,	
+		Type = Clothing,
+		DisplayName = Killa's Helemet,
+		ClothingItem = Hat_KillaHelmet,
+		BodyLocation = FullHat,
+		Icon = KillaHelmet,
+		BloodLocation = FullHelmet,
+		CanHaveHoles = false,
+		CombatSpeedModifier = 0.95,
+		BiteDefense = 100,
+        ScratchDefense = 100,
+        Insulation = 0.45,
+        WindResistance = 0.65,
+        WaterResistance = 1.0,
+		WorldStaticModel = WorldItem-KilaHelmet,		
+	}
+	item Hat_LeatherFace
+	{
+	    DisplayCategory = Accessory,	
+		Type = Clothing,
+		DisplayName = Leather Face Mask,
+		ClothingItem = Hat_LeatherFace,
+		BodyLocation = MaskEyes,
+		Icon = LeatherFace,
+		CanHaveHoles = false,
+		BloodLocation = Head,
+        BiteDefense = 30,
+       	ScratchDefense = 50,
+        ChanceToFall = 30,
+        Insulation = 0.25,
+        WindResistance = 0.55,
+	}	
+    item Hat_Maid
+    {
+	    DisplayCategory = Accessory,
+        Type = Clothing,
+        DisplayName = Maid Hat,
+        ClothingItem = Hat_Maid,
+        BodyLocation = Hat,
+        Icon = HatMaid,
+        CanHaveHoles = false,
+        ChanceToFall = 80,
+        Insulation = 0.10,
+        Weight = 0.5,
+    }
+	item Hat_MichaelMyers
+	{
+	    DisplayCategory = Accessory,	
+		Type = Clothing,
+		DisplayName = Michael Myers Mask,
+		ClothingItem = Hat_MichaelMyers,
+		BodyLocation = MaskEyes,
+		Icon = MichaelMyersMask,
+		CanHaveHoles = false,
+		BloodLocation = Head,
+        BiteDefense = 30,
+       	ScratchDefense = 50,
+        Insulation = 0.25,
+        WindResistance = 0.55,
+	}
+	item Hat_HardHat_Miner2
+	{
+	    DisplayCategory 	= Accessory,	
+		Type 				 = Clothing,
+		DisplayName 		 = Mining Helmet,
+		ClothingItem 		 = Hat_HardHat_Miner2,
+		BodyLocation 		 = Hat,
+		Icon 				 = HardHatMiner,
+		CanHaveHoles 		 = false,
+		BloodLocation 		 = Head,
+		BiteDefense 		 = 100,
+        ScratchDefense  	 = 100,
+        Insulation 			 = 0.15,
+        WindResistance  	 = 0.20,
+		AttachmentsProvided  = MinerLightBulb,			
+	}	
+    item Hat_Nurse
+    {
+		DisplayCategory = Accessory,
+        Type = Clothing,
+        DisplayName = Nurse Hat,
+        ClothingItem = Hat_Nurse,
+        BodyLocation = Hat,
+        Icon = NurseHat,
+        CanHaveHoles = false,
+        ChanceToFall = 80,
+        Insulation = 0.10,
+        Weight = 0.5,
+    }
+    item Hat_RuneDuel
+    {
+	    DisplayCategory  = Accessory,	
+        Type 			 = Clothing,
+        DisplayName 	 = Fantasy Duelist Hat,
+        ClothingItem 	 = Hat_RuneDuel,
+        BodyLocation 	 = Hat,
+        IconsForTexture  = DuelistCap;DuelistCapBlue;DuelistCapGrey,
+        CanHaveHoles 	 = false,
+        ChanceToFall 	 = 80,
+        Insulation 		 = 0.10,
+        Weight 			 = 0.5,
+		WorldStaticModel = WorldItem-DuelCap,
+    }	
+    item Hat_StovePipe
+    {
+	    DisplayCategory = Accessory,	
+        Type 			 = Clothing,
+        DisplayName 	 = Stove Pipe Hat,
+        ClothingItem 	 = Hat_StovePipe,
+        BodyLocation 	 = Hat,
+        Icon 			 = StovePipeHat,
+        CanHaveHoles 	 = false,
+        ChanceToFall 	 = 80,
+        Insulation 		 = 0.10,
+        Weight 			 = 0.5,
+		WorldStaticModel = WorldItem-StovePipeHat,
+    }
+	item Hat_SummerWhite
+	{
+	    DisplayCategory = Accessory,	
+		Type = Clothing,
+		DisplayName = White Summer Hat,
+		ClothingItem = Hat_SummerWhite,
+		BodyLocation = Hat,
+		IconsForTexture = HatLillieWhite,
+		CanHaveHoles = false,
+        Insulation = 0.3,
+        WindResistance = 0.2,
+        BloodLocation = Head,
+	}			
+	item Hat_SweatbandRBW
+	{
+		DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Sweatband,
+		ClothingItem = Hat_SweatbandRBW,
+		BodyLocation = Hat,
+		Icon = SweatbandWhite,
+		CanHaveHoles = false,
+		ChanceToFall = 50,
+        BloodLocation = Head,
+        Insulation = 0.05,
+        WindResistance = 0.05,
+        Weight = 0.1,
+	}
+
+	item Hat_SweatbandOGP
+	{
+	    DisplayCategory = Accessory,	
+		Type = Clothing,
+		DisplayName = Sweatband,
+		ClothingItem = Hat_SweatbandOGP,
+		BodyLocation = Hat,
+		Icon = SweatbandWhite,
+		CanHaveHoles = false,
+		ChanceToFall = 50,
+        BloodLocation = Head,
+        Insulation = 0.05,
+        WindResistance = 0.05,
+        Weight = 0.1,
+	}
+	item Hat_SweatbandBlue
+	{
+	    DisplayCategory = Accessory,	
+		Type = Clothing,
+		DisplayName = Sweatband,
+		ClothingItem = Hat_SweatbandBlue,
+		BodyLocation = Hat,
+		Icon = SweatbandWhite,
+		CanHaveHoles = false,
+		ChanceToFall = 50,
+        BloodLocation = Head,
+        Insulation = 0.05,
+        WindResistance = 0.05,
+        Weight = 0.1,
+        ColorRed = 0,
+        ColorGreen = 174,
+        ColorBlue = 239,
+		
+	}	
+	item Hat_SweatbandPink
+	{
+	    DisplayCategory = Accessory,	
+		Type = Clothing,
+		DisplayName = Sweatband,
+		ClothingItem = Hat_SweatbandPink,
+		BodyLocation = Hat,
+		Icon = SweatbandWhite,
+		CanHaveHoles = false,
+		ChanceToFall = 50,
+        BloodLocation = Head,
+        Insulation = 0.05,
+        WindResistance = 0.05,
+        Weight = 0.1,
+        ColorRed = 162,
+        ColorGreen = 40,
+        ColorBlue = 255,
+		
+	}	
+	item Hat_SweatbandPurple
+	{
+	    DisplayCategory = Accessory,	
+		Type = Clothing,
+		DisplayName = Sweatband,
+		ClothingItem = Hat_SweatbandPurple,
+		BodyLocation = Hat,
+		Icon = SweatbandWhite,
+		CanHaveHoles = false,
+		ChanceToFall = 50,
+        BloodLocation = Head,
+        Insulation = 0.05,
+        WindResistance = 0.05,
+        Weight = 0.1,
+        ColorRed = 93,
+        ColorGreen = 63,
+        ColorBlue = 211,			
+	}
+	item Hat_TagillaMask
+	{
+	    DisplayCategory = Accessory,	
+		Type = Clothing,
+		DisplayName = Tagilla's Welding Mask,
+		ClothingItem = Hat_TagillaMask,
+		BodyLocation = Mask,
+		Icon = MaskTagilla,
+		CanHaveHoles = false,
+		BloodLocation = Head,
+        BiteDefense = 30,
+        ScratchDefense = 50,
+        Insulation = 0.25,
+        WindResistance = 0.55,
+        WaterResistance = 1.0,
+        WorldStaticModel = WorldItem-TagillaHelmet,
+		Tooltip = Tooltip_TagillaHelmet,		
+	}
+	item Hat_TagillaMask2
+	{
+	    DisplayCategory = Accessory,	
+		Type = Clothing,
+		DisplayName = Gorilla Welding Mask,
+		ClothingItem = Hat_TagillaMask2,
+		BodyLocation = Mask,
+		Icon = MaskTagillaGorilla,
+		BloodLocation = Head,
+		CanHaveHoles = false,
+        BiteDefense = 30,
+        ScratchDefense = 50,
+        Insulation = 0.25,
+        WindResistance = 0.55,
+        WaterResistance = 1.0,
+        WorldStaticModel = WorldItem-TagillaHelmetGorilla,			
+	}	
+	item Hat_TrueEyeCult
+	{
+	    DisplayCategory = Accessory,	
+		Type 		  = Clothing,
+		DisplayName   = True Eye Cult Mask,
+		ClothingItem  = Hat_TrueEyeCult,
+		BodyLocation  = MaskEyes,
+		Icon 		  = TrueEyeCultMask,
+		CanHaveHoles  = false,
+		BloodLocation = Head,
+        BiteDefense	  = 30,
+       	ScratchDefense = 50,
+        ChanceToFall  = 30,
+        Insulation 	  = 0.25,
+        WindResistance = 0.55,
+		WorldStaticModel = WorldItem-TrueEyeCult,	
+	}
+	item Hat_UncleSam
+	{
+	    DisplayCategory = Accessory,	
+		Type = Clothing,
+		DisplayName = Uncle Sam Hat,
+		ClothingItem = Hat_UncleSam,
+		BodyLocation = Hat,
+		Icon = UncleSamHat,
+		CanHaveHoles = false,
+		ChanceToFall = 70,
+       	BloodLocation = Head,
+        Insulation = 0.45,
+        WindResistance = 0.40,
+        WaterResistance = 0.25,
+    	}
+	item Hat_WeddingVeilBlue
+	{
+	    DisplayCategory = Accessory,	
+		Type = Clothing,
+		DisplayName = Blue Wedding Veil,
+		ClothingItem = Hat_WeddingVeilBlue,
+		BodyLocation = Hat,
+		Icon = VeilWeddingBlue,
+		CanHaveHoles = false,
+		ChanceToFall = 80,
+		Weight = 0.5,
+		WorldStaticModel = WeddingVeilBlue_Ground,
+	}
+	item Hat_WeddingVeilPink
+	{
+	    DisplayCategory = Accessory,	
+		Type = Clothing,
+		DisplayName = Pink Wedding Veil,
+		ClothingItem = Hat_WeddingVeilPink,
+		BodyLocation = Hat,
+		Icon = VeilWeddingPink,
+		CanHaveHoles = false,
+		ChanceToFall = 80,
+		Weight = 0.5,
+		WorldStaticModel = WeddingVeilPink_Ground,
+	}
+	item Hat_WinslowHelmet
+	{
+	    DisplayCategory = Accessory,	
+		Type = Clothing,
+		DisplayName = Winslow Helmet,
+		ClothingItem = Hat_WinslowHelmet,
+		BodyLocation = FullHat,
+		BloodLocation = FullHelmet,
+		Icon = Winslow_Helmet,
+		CanHaveHoles = false,
+		CombatSpeedModifier = 0.95,
+		BiteDefense = 100,
+        ScratchDefense 		= 100,
+        Insulation 			= 0.70,
+        WindResistance 		= 0.70,
+        WaterResistance 	= 1.0,
+		Tooltip 			= Tooltip_Winslow,
+	}
+	item Hat_Witchy_2
+	{
+	    DisplayCategory = Accessory,	
+		Type = Clothing,
+		DisplayName = Witch Hat,
+		ClothingItem = Hat_Witchy_2,
+		BodyLocation = Hat,
+		Icon = WitchyHat2,
+		CanHaveHoles = false,
+		ChanceToFall = 70,
+       	BloodLocation = Head,
+        Insulation = 0.45,
+        WindResistance = 0.40,
+        WaterResistance = 0.25,
+    	}
+	item Hat_WoolyHatWaldo
+	{
+	    DisplayCategory = Accessory,	
+		Type = Clothing,
+		DisplayName = Waldo's Woolly Hat,
+		ClothingItem = Hat_WoolyHatWaldo,
+		BodyLocation = Hat,
+		Icon = WoolHatWaldo,
+		CanHaveHoles = false,
+		ChanceToFall = 40,
+        BloodLocation = Head,
+        Insulation = 0.90,
+        WindResistance = 0.90,
+        Weight = 0.5,
+    }		
+}

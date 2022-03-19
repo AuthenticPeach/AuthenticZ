@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media\models_X\skinned\Backpacks\BackpackEvangelo.FBX</m_MaleModel>
+	<m_FemaleModel>media\models_X\skinned\Backpacks\BackpackEvangelo.FBX</m_FemaleModel>
+	<m_GUID>82382d38-9ba4-494d-b9bd-a6143bbd9223</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>Clothes\Backpacks\BackpackEvangelo</textureChoices>
+</clothingItem>

@@ -1,0 +1,13 @@
+MakeUp_ES = {
+    MakeUpType_FullFaceClownFace1Color = "Cara de payaso colorido 1",
+    MakeUpType_FullFaceClownFace2Color= "Cara de payaso colorido 2",
+	MakeUpType_FullFaceFreddy = "Freddy",
+    MakeUpType_FullFaceInsane = "Demente",
+    MakeUpType_FullFaceJoker = "Joker",
+    MakeUpType_FullFaceJokerColor = "Joker colorido",
+    MakeUpType_FullFaceMimeBlack = "Mimo negro",
+    MakeUpType_FullFaceMimeRed = "Mimo rojo",
+    MakeUpType_FullFacePennywise = "Pennywise",
+    MakeUpType_FullFaceShotgunFace = "Lastimado por una escopeta",	
+}
+

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media\models_X\Static\Clothes\M_HockeyMask.X</m_MaleModel>
+	<m_FemaleModel>media\models_X\Static\Clothes\F_HockeyMask.X</m_FemaleModel>
+	<m_GUID>3f69a2cd-417f-4cac-908c-ee57680554f1</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone>Bip01_Head</m_AttachBone>
+	<m_MasksFolder>media/textures/Clothes/Hat/Masks</m_MasksFolder>
+	<textureChoices>Clothes/Masks/HockeyMaskJasonIII</textureChoices>
+</clothingItem>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media\models_X\Skinned\Clothes\Sign-FreeHugs.FBX</m_MaleModel>
+	<m_FemaleModel>media\models_X\Skinned\Clothes\Sign-FreeHugs_F.FBX</m_FemaleModel>
+	<m_GUID>3df69b62-4c7b-4211-b386-f14a54268362</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_MasksFolder>media/textures/Clothes/Hat/Masks</m_MasksFolder>	
+	<textureChoices>Clothes\Items\FreeHugsSign</textureChoices>
+</clothingItem>

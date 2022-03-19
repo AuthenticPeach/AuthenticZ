@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media\models_X\Skinned\Clothes\ClownTop.X</m_MaleModel>
+	<m_FemaleModel>media\models_X\Skinned\Clothes\ClownTop.X</m_FemaleModel>
+	<m_GUID>44a20134-7d25-49a9-8cf6-11dda7b6a2eb</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>ClownDillow</textureChoices>
+	<textureChoices>clothes\Collar\ClownCollar</textureChoices>
+	<textureChoices>clothes\Collar\ClownCollar2</textureChoices>	
+</clothingItem>

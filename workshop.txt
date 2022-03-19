@@ -76,6 +76,8 @@ description=
 description=[b]Q: Does this work with Multiplayer???? [/b]
 description=A: Yes. This mod has been extensively tested in MP across many servers.
 description=
+description=[b]Q: Can this mod be implemented to a live server or do I need to completely make a new world for it? [/b]
+description=A: The mod will partially work on an ongoing save. Some things will work, other things will not. It's best to start a new save with it to get all of the features. 
 description=
 description=[b]Q: When joining a modded server, I get the error "File doesn't match the one on the server" How to fix?? [/b]
 description=[url=https://theindiestone.com/forums/index.php?/topic/42925-how-to-fix-updated-mods-in-build-41-multiplayer/]

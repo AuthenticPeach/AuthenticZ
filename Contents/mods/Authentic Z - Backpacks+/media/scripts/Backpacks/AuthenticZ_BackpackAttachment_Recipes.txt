@@ -206,6 +206,69 @@ recipe Make Backpack Attachable Item
   	}
 recipe Make Backpack Attachable Item
   	{
+   	   FurbertSquirrel,
+	   AZ_MetalClip,	   
+
+   	   Result:AuthenticZBackpacks+.FurbertSquirrel,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpack,
+  	}
+recipe Make Backpack Attachable Item
+  	{
+   	   FluffyfootBunny,
+	   AZ_MetalClip,	   
+
+   	   Result:AuthenticZBackpacks+.FluffyfootBunny,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpack,
+  	}
+recipe Make Backpack Attachable Item
+  	{
+   	   MoleyMole,
+	   AZ_MetalClip,	   
+
+   	   Result:AuthenticZBackpacks+.MoleyMole,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpack,
+  	}	
+recipe Make Backpack Attachable Item
+  	{
+   	   PancakeHedgehog,
+	   AZ_MetalClip,	   
+
+   	   Result:AuthenticZBackpacks+.PancakeHedgehog,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpack,
+  	}
+recipe Make Backpack Attachable Item
+  	{
+   	   FreddyFox,
+	   AZ_MetalClip,	   
+
+   	   Result:AuthenticZBackpacks+.FreddyFox,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpack,
+  	}
+recipe Make Backpack Attachable Item
+  	{
+   	   JacquesBeaver,
+	   AZ_MetalClip,	   
+
+   	   Result:AuthenticZBackpacks+.JacquesBeaver,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpack,
+  	}	
+recipe Make Backpack Attachable Item
+  	{
+   	   BorisBadger,
+	   AZ_MetalClip,	   
+
+   	   Result:AuthenticZBackpacks+.BorisBadger,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpack,
+  	}			
+recipe Make Backpack Attachable Item
+  	{
    	   ClosedUmbrellaRed,
 
    	   Result:AuthenticZBackpacks+.ClosedUmbrellaRed,

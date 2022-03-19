@@ -5,27 +5,6 @@ module AuthenticZRecipes{
 
 recipe Make Backpack Attachable Item
   	{
-   	   Rubberducky,
-	   AZ_MetalClip,	   
-
-   	   Result:AuthenticZClothing.Rubberducky3,
-	   Time:50.0,
-	   Tooltip:Tooltip_AttachBackpack,
-  	}	
-
-recipe Make Backpack Attachable Item
-  	{
-   	   Dice,
-	   AZ_MetalClip,	   
-	   Paperclip,
-	   
-   	   Result:AuthenticZClothing.Rubberducky3,
-	   Time:50.0,
-	   Tooltip:Tooltip_AttachBackpack,
-  	}
-
-recipe Make Backpack Attachable Item
-  	{
    	   Hat_GasMask,
 
    	   Result:AuthenticZClothing.Hat_GasMask,
@@ -196,7 +175,29 @@ recipe Make Backpack Attachable Item
 
 recipe Make Backpack Attachable Item
   	{
+   	   Rubberducky,
+	   AZ_MetalClip,	   
+
+   	   Result:AuthenticZClothing.Rubberducky3,
+	   Time:50.0,
+	   Tooltip:Tooltip_AttachBackpack,
+  	}	
+
+recipe Make Backpack Attachable Item
+  	{
+   	   Dice,
+	   AZ_MetalClip,	   
+	   Paperclip,
+	   
+   	   Result:AuthenticZClothing.Rubberducky3,
+	   Time:50.0,
+	   Tooltip:Tooltip_AttachBackpack,
+  	}
+
+recipe Make Backpack Attachable Item
+  	{
    	   ToyBear,
+	   AZ_MetalClip,
 
    	   Result:AuthenticZClothing.ToyBear,
 	   Time:30.0,
@@ -205,6 +206,7 @@ recipe Make Backpack Attachable Item
 recipe Make Backpack Attachable Item
   	{
    	   Doll,
+	   AZ_MetalClip,	   
 
    	   Result:AuthenticZClothing.Doll,
 	   Time:30.0,
@@ -213,11 +215,75 @@ recipe Make Backpack Attachable Item
 recipe Make Backpack Attachable Item
   	{
    	   Spiffo,
+	   AZ_MetalClip,	   
 
    	   Result:AuthenticZClothing.Spiffo,
 	   Time:30.0,
 	   Tooltip:Tooltip_AttachBackpack,
   	}
+recipe Make Backpack Attachable Item
+  	{
+   	   FurbertSquirrel,
+	   AZ_MetalClip,	   
+
+   	   Result:AuthenticZClothing.FurbertSquirrel,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpack,
+  	}
+recipe Make Backpack Attachable Item
+  	{
+   	   FluffyfootBunny,
+	   AZ_MetalClip,	   
+
+   	   Result:AuthenticZClothing.FluffyfootBunny,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpack,
+  	}
+recipe Make Backpack Attachable Item
+  	{
+   	   MoleyMole,
+	   AZ_MetalClip,	   
+
+   	   Result:AuthenticZClothing.MoleyMole,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpack,
+  	}	
+recipe Make Backpack Attachable Item
+  	{
+   	   PancakeHedgehog,
+	   AZ_MetalClip,	   
+
+   	   Result:AuthenticZClothing.PancakeHedgehog,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpack,
+  	}
+recipe Make Backpack Attachable Item
+  	{
+   	   FreddyFox,
+	   AZ_MetalClip,	   
+
+   	   Result:AuthenticZClothing.FreddyFox,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpack,
+  	}
+recipe Make Backpack Attachable Item
+  	{
+   	   JacquesBeaver,
+	   AZ_MetalClip,	   
+
+   	   Result:AuthenticZClothing.JacquesBeaver,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpack,
+  	}	
+recipe Make Backpack Attachable Item
+  	{
+   	   BorisBadger,
+	   AZ_MetalClip,	   
+
+   	   Result:AuthenticZClothing.BorisBadger,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpack,
+  	}		
 recipe Make Backpack Attachable Item
   	{
    	   ClosedUmbrellaBlue,
@@ -528,72 +594,5 @@ recipe Make Backpack Attachable Item
 	   Time:30.0,
 	   Tooltip:Tooltip_AttachBackpack,
   	}
-
-recipe Open Sleeping Bag
-  	{
-	   AuthenticZClothing.SleepingBagRoll,
-
-   	   Result:AuthenticZClothing.SleepingBag,
-	   Time:100.0,
-       AnimNode:RipSheets,	   
-	   Tooltip:Tooltip_AZSleepingBag,
-	   Prop1:SleepingBagRoll,	   
-  	}	
-
-recipe Close Sleeping Bag
-  	{
-	   AuthenticZClothing.SleepingBag,
-
-   	   Result:AuthenticZClothing.SleepingBagRoll,
-	   Time:200.0,
-       AnimNode:RipSheets,	   
-	   Tooltip:Tooltip_AZSleepingBag2,
-	   Prop1:SleepingBagRoll,
-  	}
-
-recipe Unroll Mattress
-  	{
-	   AuthenticZClothing.MattressRoll,
-
-   	   Result:Base.Mattress,
-	   Time:100.0,
-       AnimNode:RipSheets,	   
-	   Tooltip:Tooltip_AZSleepingBag,
-	   Prop1:SleepingBagRoll,	   
-  	}	
-
-recipe Roll up Mattress
-  	{
-	   Base.Mattress,
-
-   	   Result:AuthenticZClothing.MattressRoll,
-	   Time:200.0,
-       AnimNode:RipSheets,	   
-	   Tooltip:Tooltip_AZSleepingBag2,
-	   Prop1:SleepingBagRoll,
-  	}
-	
-recipe Make Backpack Attachable Item
-  	{
-	   camping.CampingTentKit,
-
-   	   Result:AuthenticZClothing.CampingTentKit,
-	   Time:200.0,
-       AnimNode:RipSheets,	   
-	   Tooltip:Tooltip_AZSleepingBag2,
-	   Prop1:SleepingBagRoll,
-  	}
-
-recipe Make Backpack Attachable Item
-  	{
-	   camping.CampfireKit,
-
-   	   Result:AuthenticZClothing.CampfireKit,
-	   Time:200.0,
-       AnimNode:RipSheets,	   
-	   Tooltip:Tooltip_AZSleepingBag2,
-	   Prop1:SleepingBagRoll,
-  	}
-
 	
 }		

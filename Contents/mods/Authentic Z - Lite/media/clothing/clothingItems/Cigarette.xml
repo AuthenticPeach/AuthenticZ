@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\Clothes\Cigarette</m_MaleModel>
+	<m_FemaleModel>skinned\Clothes\Cigarette</m_FemaleModel>
+	<m_GUID>410485f1-a2d9-4936-bc38-2deb0c9d0ec5</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_MasksFolder>none</m_MasksFolder>
+	<textureChoices>clothes\Items\Cigarette</textureChoices>
+</clothingItem>
