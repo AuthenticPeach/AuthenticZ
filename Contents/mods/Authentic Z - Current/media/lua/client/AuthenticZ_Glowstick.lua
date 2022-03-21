@@ -8,14 +8,14 @@ local player = getPlayer()
 	
 	if getPlayer():getPrimaryHandItem() then         -- check if the player have a item on his hand in the first place
 	
-		if player:getPrimaryHandItem():getType() == "AuthenticZClothing.AuthenticGlowstick_Red" then
+		if player:getPrimaryHandItem():getType() == "AuthenticGlowstick_Red" then
 		
 			if lightByPlayer[player] ~= nil then
 				lightByPlayer[player]:setActive(false)
 				getCell():removeLamppost(lightByPlayer[player])
 			end
 			
-			lightByPlayer[player] = IsoLightSource.new(player:getX(), player:getY(), player:getZ(), 1.0, 0.0, 0.0, 4)  -- THIS GIVE GREEN LIGHT R G B
+			lightByPlayer[player] = IsoLightSource.new(player:getX(), player:getY(), player:getZ(), 1.0, 0.0, 1.0, 4)  -- THIS GIVE GREEN LIGHT R G B
 			getCell():addLamppost(lightByPlayer[player])
 			
 		else
