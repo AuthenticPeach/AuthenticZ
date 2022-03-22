@@ -302,6 +302,7 @@ module AuthenticZClothing {
         StaticModel 			= 	AuthenticBalloonBlue,
 		WorldStaticModel 		= 	WorldItem-BalloonBlue,			
 		AttachmentType 			= 	BalloonSlot,
+        PartType 				= 	Balloon,		
     }
 
     item AuthenticBalloonGroup_Blue
@@ -1022,8 +1023,10 @@ module AuthenticZClothing {
         Type			 =	Normal,
         DisplayName		 = 	Carabiner Clip,
         Icon			 =	CarabinerClip,
-		WorldStaticModel =	Paperclip,
+		StaticModel 	 =  Carabiner,			
+		WorldStaticModel =	WorldItem_Carabiner,
 		Tooltip 		 = 	Tooltip_Carabiner,
+        ModelWeaponPart  = AuthenticBalloon_Blue AuthenticBalloon_Blue balloon balloon,		
 	}
 	item Torch2
 	{
