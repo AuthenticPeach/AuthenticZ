@@ -285,8 +285,22 @@ module AuthenticZClothing {
         Weight					=	0.1,
         primaryAnimMask 		= 	HoldingUmbrellaRight,
         secondaryAnimMask 		= 	HoldingUmbrellaLeft,
-        StaticModel 			= 	AuthenticGlowstick,
-		WorldStaticModel 		= 	WorldItem-AuthenticGlowstick,			
+        StaticModel 			= 	AuthenticGlowstickRed,
+		WorldStaticModel 		= 	WorldItem-AuthenticGlowstickRed,			
+		AttachmentType 			= 	Hammer,
+    }
+
+    item AuthenticGlowstick_Blank
+    {
+		DisplayCategory 		= 	Household,	
+        Type					=	Normal,
+        DisplayName				=	Drained Glowstick,
+        Icon					=	Glowstick-Red,
+        Weight					=	0.1,
+        primaryAnimMask 		= 	HoldingUmbrellaRight,
+        secondaryAnimMask 		= 	HoldingUmbrellaLeft,
+        StaticModel 			= 	AuthenticGlowstickBlank,
+		WorldStaticModel 		= 	WorldItem-AuthenticGlowstickBlank,			
 		AttachmentType 			= 	Hammer,
     }	
 	
