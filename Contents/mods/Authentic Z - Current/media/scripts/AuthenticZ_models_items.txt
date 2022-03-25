@@ -328,15 +328,15 @@ module Base
 		mesh = Weapons/2Handed/AuthenticWalkingCaneMetal,
 		texture = clothes\Items\WalkingCaneMetal,
 	}
+	model AuthenticGlowstickBlue
+	{
+		mesh = AZGlowstick,
+		texture = clothes\Items\GlowstickBlue,
+	}	
 	model AuthenticGlowstickRed
 	{
 		mesh = AZGlowstick,
 		texture = clothes\Items\GlowstickRed,
-	}
-	model AuthenticGlowstickBlank
-	{
-		mesh = AZGlowstick,
-		texture = clothes\Items\GlowstickBlank,
 	}	
 	model ClownNose
 	{
@@ -729,15 +729,20 @@ module Base
 		mesh = WorldItems/WorldItem_AuthenticAndySign,
 		texture = clothes\Items\AndySign,
 	}
-	model WorldItem-AuthenticGlowstickRed
-	{
-		mesh =  WorldItems/WorldItem-AZGlowstick,
-		texture = clothes\Items\GlowstickRed,
-	}
 	model WorldItem-AuthenticGlowstickBlank
 	{
 		mesh =  WorldItems/WorldItem-AZGlowstick,
 		texture = clothes\Items\GlowstickBlank,
+	}	
+	model WorldItem-AuthenticGlowstickBlue
+	{
+		mesh =  WorldItems/WorldItem-AZGlowstick,
+		texture = clothes\Items\GlowstickBlank,
+	}		
+	model WorldItem-AuthenticGlowstickRed
+	{
+		mesh =  WorldItems/WorldItem-AZGlowstick,
+		texture = clothes\Items\GlowstickRed,
 	}	
 	model WorldItem_SleepingBagRoll
 	{

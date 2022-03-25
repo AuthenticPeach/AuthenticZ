@@ -59,9 +59,7 @@ function saber_switch(key)
 			getSoundManager():PlayWorldSoundWav('saber_off', false, player:getSquare(), 0, 0, 0, true);
 			player:setPrimaryHandItem(item_off);
 			getCell():removeLamppost(lightByPlayer[player])    -- Remove Blue Light
-		
-		
-		
+				
       end
 	  
 	  else

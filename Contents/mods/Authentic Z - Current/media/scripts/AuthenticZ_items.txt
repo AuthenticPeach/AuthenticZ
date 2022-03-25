@@ -290,6 +290,20 @@ module AuthenticZClothing {
 		AttachmentType 			= 	Hammer,
     }
 
+    item AuthenticGlowstick_Blue
+    {
+		DisplayCategory 		= 	Household,	
+        Type					=	Normal,
+        DisplayName				=	Blue Glowstick,
+        Icon					=	Glowstick-Blue,
+        Weight					=	0.1,
+        primaryAnimMask 		= 	HoldingUmbrellaRight,
+        secondaryAnimMask 		= 	HoldingUmbrellaLeft,
+        StaticModel 			= 	AuthenticGlowstickBlue,
+		WorldStaticModel 		= 	WorldItem-AuthenticGlowstickBlue,			
+		AttachmentType 			= 	Hammer,
+    }
+
     item AuthenticGlowstick_Blank
     {
 		DisplayCategory 		= 	Household,	
@@ -302,6 +316,17 @@ module AuthenticZClothing {
         StaticModel 			= 	AuthenticGlowstickBlank,
 		WorldStaticModel 		= 	WorldItem-AuthenticGlowstickBlank,			
 		AttachmentType 			= 	Hammer,
+    }	
+
+    item AuthenticGlowstick_Pack
+    {
+		DisplayCategory 		= 	Household,	
+        Type					=	Normal,
+        DisplayName				=	Pack of Glowsticks,
+        Icon					=	Glowstick-Red,
+        Weight					=	0.3,
+        StaticModel 			= 	AuthenticGlowstickPack,
+		WorldStaticModel 		= 	WorldItem-AuthenticGlowstickPack,			
     }	
 	
     item AuthenticBalloon_Blue
