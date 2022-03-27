@@ -328,11 +328,41 @@ module Base
 		mesh = Weapons/2Handed/AuthenticWalkingCaneMetal,
 		texture = clothes\Items\WalkingCaneMetal,
 	}
+	model AuthenticGlowstickBlank
+	{
+		mesh = AZGlowstick,
+		texture = clothes\Items\GlowstickBlank,
+	}	
 	model AuthenticGlowstickBlue
 	{
 		mesh = AZGlowstick,
 		texture = clothes\Items\GlowstickBlue,
 	}	
+	model AuthenticGlowstickGreen
+	{
+		mesh = AZGlowstick,
+		texture = clothes\Items\GlowstickGreen,
+	}
+	model AuthenticGlowstickOrange
+	{
+		mesh = AZGlowstick,
+		texture = clothes\Items\GlowstickOrange,
+	}	
+	model AuthenticGlowstickPink
+	{
+		mesh = AZGlowstick,
+		texture = clothes\Items\GlowstickPink,
+	}
+	model AuthenticGlowstickPurple
+	{
+		mesh = AZGlowstick,
+		texture = clothes\Items\GlowstickPurple,
+	}		
+	model AuthenticGlowstickYellow
+	{
+		mesh = AZGlowstick,
+		texture = clothes\Items\GlowstickYellow,
+	}
 	model AuthenticGlowstickRed
 	{
 		mesh = AZGlowstick,
@@ -377,6 +407,11 @@ module Base
 		mesh = GasMaskUnequiped,
 		texture = GasMask,
 	}
+	model GlowstickPack
+	{
+		mesh = GasMaskUnequiped,
+		texture = clothes\Items\GlowstickPack,
+	}	
 	model WelderMaskNotWorn
 	{
 		mesh = WelderMaskUnequiped,
@@ -737,12 +772,37 @@ module Base
 	model WorldItem-AuthenticGlowstickBlue
 	{
 		mesh =  WorldItems/WorldItem-AZGlowstick,
-		texture = clothes\Items\GlowstickBlank,
+		texture = clothes\Items\GlowstickBlue,
+	}
+	model WorldItem-AuthenticGlowstickGreen
+	{
+		mesh =  WorldItems/WorldItem-AZGlowstick,
+		texture = clothes\Items\GlowstickGreen,
+	}	
+	model WorldItem-AuthenticGlowstickOrange
+	{
+		mesh =  WorldItems/WorldItem-AZGlowstick,
+		texture = clothes\Items\GlowstickOrange,
 	}		
+	model WorldItem-AuthenticGlowstickPink
+	{
+		mesh =  WorldItems/WorldItem-AZGlowstick,
+		texture = clothes\Items\GlowstickPink,
+	}	
+	model WorldItem-AuthenticGlowstickPurple
+	{
+		mesh =  WorldItems/WorldItem-AZGlowstick,
+		texture = clothes\Items\GlowstickPurple,
+	}	
 	model WorldItem-AuthenticGlowstickRed
 	{
 		mesh =  WorldItems/WorldItem-AZGlowstick,
 		texture = clothes\Items\GlowstickRed,
+	}
+	model WorldItem-AuthenticGlowstickYellow
+	{
+		mesh =  WorldItems/WorldItem-AZGlowstick,
+		texture = clothes\Items\GlowstickYellow,
 	}	
 	model WorldItem_SleepingBagRoll
 	{
@@ -1105,6 +1165,11 @@ module Base
 		mesh =  WorldItems/WorldItem_AuthenticNewspaper,	
 		texture = clothes\Items\Newspaper2,
     }
+	model WorldItem-GlowstickPack
+    {
+		mesh = WorldItems/WorldItem_GlowstickPack,
+		texture = clothes\Items\GlowstickPack,
+    }	
 	model WorldItem-PillBottle
     {
 		mesh = WorldItems/WorldItem_AuthenticPillBottle,

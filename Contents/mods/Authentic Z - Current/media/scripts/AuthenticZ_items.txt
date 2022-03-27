@@ -282,7 +282,7 @@ module AuthenticZClothing {
         Type					=	Normal,
         DisplayName				=	Red Glowstick,
         Icon					=	Glowstick-Red,
-        Weight					=	0.1,
+        Weight					=	0.2,
         primaryAnimMask 		= 	HoldingUmbrellaRight,
         secondaryAnimMask 		= 	HoldingUmbrellaLeft,
         StaticModel 			= 	AuthenticGlowstickRed,
@@ -293,26 +293,99 @@ module AuthenticZClothing {
     item AuthenticGlowstick_Blue
     {
 		DisplayCategory 		= 	Household,	
-        Type					=	Normal,
+        Type					=	Drainable,
+		UseWhileUnequipped  	=   TRUE,
+		UseDelta				=	0.0002,
+		ReplaceOnDeplete		=	AuthenticGlowstick_Blank,
         DisplayName				=	Blue Glowstick,
         Icon					=	Glowstick-Blue,
-        Weight					=	0.1,
+        Weight					=	0.2,
         primaryAnimMask 		= 	HoldingUmbrellaRight,
         secondaryAnimMask 		= 	HoldingUmbrellaLeft,
         StaticModel 			= 	AuthenticGlowstickBlue,
 		WorldStaticModel 		= 	WorldItem-AuthenticGlowstickBlue,			
 		AttachmentType 			= 	Hammer,
     }
-
-    item AuthenticGlowstick_Blank
+	
+    item AuthenticGlowstick_Green
     {
 		DisplayCategory 		= 	Household,	
         Type					=	Normal,
-        DisplayName				=	Drained Glowstick,
-        Icon					=	Glowstick-Red,
-        Weight					=	0.1,
+        DisplayName				=	Green Glowstick,
+        Icon					=	Glowstick-Green,
+        Weight					=	0.2,
         primaryAnimMask 		= 	HoldingUmbrellaRight,
         secondaryAnimMask 		= 	HoldingUmbrellaLeft,
+        StaticModel 			= 	AuthenticGlowstickGreen,
+		WorldStaticModel 		= 	WorldItem-AuthenticGlowstickGreen,			
+		AttachmentType 			= 	Hammer,
+    }	
+
+    item AuthenticGlowstick_Orange
+    {
+		DisplayCategory 		= 	Household,	
+        Type					=	Normal,
+        DisplayName				=	Orange Glowstick,
+        Icon					=	Glowstick-Orange,
+        Weight					=	0.2,
+        primaryAnimMask 		= 	HoldingUmbrellaRight,
+        secondaryAnimMask 		= 	HoldingUmbrellaLeft,
+        StaticModel 			= 	AuthenticGlowstickOrange,
+		WorldStaticModel 		= 	WorldItem-AuthenticGlowstickOrange,			
+		AttachmentType 			= 	Hammer,
+    }
+
+    item AuthenticGlowstick_Pink
+    {
+		DisplayCategory 		= 	Household,	
+        Type					=	Normal,
+        DisplayName				=	Pink Glowstick,
+        Icon					=	Glowstick-Pink,
+        Weight					=	0.2,
+        primaryAnimMask 		= 	HoldingUmbrellaRight,
+        secondaryAnimMask 		= 	HoldingUmbrellaLeft,
+        StaticModel 			= 	AuthenticGlowstickPink,
+		WorldStaticModel 		= 	WorldItem-AuthenticGlowstickPink,			
+		AttachmentType 			= 	Hammer,
+    }
+
+    item AuthenticGlowstick_Purple
+    {
+		DisplayCategory 		= 	Household,	
+        Type					=	Normal,
+        DisplayName				=	Purple Glowstick,
+        Icon					=	Glowstick-Purple,
+        Weight					=	0.2,
+        primaryAnimMask 		= 	HoldingUmbrellaRight,
+        secondaryAnimMask 		= 	HoldingUmbrellaLeft,
+        StaticModel 			= 	AuthenticGlowstickPurple,
+		WorldStaticModel 		= 	WorldItem-AuthenticGlowstickPurple,			
+		AttachmentType 			= 	Hammer,
+    }
+
+    item AuthenticGlowstick_Yellow
+    {
+		DisplayCategory 		= 	Household,	
+        Type					=	Normal,
+        DisplayName				=	Yellow Glowstick,
+        Icon					=	Glowstick-Yellow,
+        Weight					=	0.2,
+        primaryAnimMask 		= 	HoldingUmbrellaRight,
+        secondaryAnimMask 		= 	HoldingUmbrellaLeft,
+        StaticModel 			= 	AuthenticGlowstickYellow,
+		WorldStaticModel 		= 	WorldItem-AuthenticGlowstickYellow,			
+		AttachmentType 			= 	Hammer,
+    }
+
+    item AuthenticGlowstick_Blank
+    {
+        DisplayCategory 		= 	LightSource,	
+		Type    				=   Normal,
+        DisplayName				=	Drained Glowstick,
+        Icon					=	Glowstick-Grey,
+        Weight					=	0.2,
+        primaryAnimMask 		= 	HoldingUmbrellaRight,
+        secondaryAnimMask 		= 	HoldingUmbrellaLeft,		
         StaticModel 			= 	AuthenticGlowstickBlank,
 		WorldStaticModel 		= 	WorldItem-AuthenticGlowstickBlank,			
 		AttachmentType 			= 	Hammer,
@@ -324,9 +397,9 @@ module AuthenticZClothing {
         Type					=	Normal,
         DisplayName				=	Pack of Glowsticks,
         Icon					=	Glowstick-Red,
-        Weight					=	0.3,
-        StaticModel 			= 	AuthenticGlowstickPack,
-		WorldStaticModel 		= 	WorldItem-AuthenticGlowstickPack,			
+        Weight					=	0.4,
+        StaticModel 			= 	GlowstickPack,
+		WorldStaticModel 		= 	WorldItem-GlowstickPack,			
     }	
 	
     item AuthenticBalloon_Blue
