@@ -429,10 +429,11 @@ module AuthenticZClothing{
         ClothingItem = Bag_SpiffoBackpackAZ_Tier1,
         BloodLocation = Bag,
         RunSpeedModifier = 0.97,
-        AttachmentReplacement = Bag,
-        ReplaceInSecondHand = Bag_SpiffoBackpackAZ_Lhand holdingbagleft,
-        ReplaceInPrimaryHand = Bag_SpiffoBackpackAZ_Rhand holdingbagright,
-        WorldStaticModel = SpiffoBackpack,
+        AttachmentReplacement 	= Bag,
+		AttachmentsProvided  	= SchoolbagBagSecondary;SchoolbagBottleRight;SchoolbagBalloonRight,		
+        ReplaceInSecondHand 	= Bag_SpiffoBackpackAZ_Lhand holdingbagleft,
+        ReplaceInPrimaryHand 	= Bag_SpiffoBackpackAZ_Rhand holdingbagright,
+        WorldStaticModel 		= SpiffoBackpack,
     }
 
 	item Bag_SpiffoBackpackAZ_Tier_2
@@ -452,6 +453,7 @@ module AuthenticZClothing{
         BloodLocation = Bag,
         RunSpeedModifier = 0.97,
         AttachmentReplacement = Bag,
+		AttachmentsProvided  = 	SchoolbagBagSecondary;SchoolbagItemSlot1;SchoolbagBottleRight;SchoolbagPlushie;SchoolbagUmbrellaLeft;SchoolbagBalloonRight,	
         ReplaceInSecondHand = Bag_SpiffoBackpackAZ_Lhand holdingbagleft,
         ReplaceInPrimaryHand = Bag_SpiffoBackpackAZ_Rhand holdingbagright,
         WorldStaticModel = SpiffoBackpack,
@@ -474,6 +476,7 @@ module AuthenticZClothing{
         BloodLocation = Bag,
         RunSpeedModifier = 0.97,
         AttachmentReplacement = Bag,
+		AttachmentsProvided  = 	SchoolbagBagSecondary;SchoolbagItemSlot2;SchoolbagItemSlot3;SchoolbagBottleRight;SchoolbagPlushie;SchoolbagUmbrellaLeft;SchoolbagFlashlight;SchoolbagBalloonRight,		
         ReplaceInSecondHand = Bag_SpiffoBackpackAZ_Lhand holdingbagleft,
         ReplaceInPrimaryHand = Bag_SpiffoBackpackAZ_Rhand holdingbagright,
         WorldStaticModel = SpiffoBackpack,
@@ -494,11 +497,12 @@ module AuthenticZClothing{
         PutInSound   =   PutItemInBag,
         ClothingItem = Bag_PAWSBackpackAZ_Tier1,
         BloodLocation = Bag,
-        RunSpeedModifier = 0.97,
-        AttachmentReplacement = Bag,
-        ReplaceInSecondHand = Bag_PAWSBackpackAZ_Lhand holdingbagleft,
-        ReplaceInPrimaryHand = Bag_PAWSBackpackAZ_Rhand holdingbagright,
-        WorldStaticModel = PAWSBackpack,
+        RunSpeedModifier 		= 	0.97,
+        AttachmentReplacement   = 	Bag,
+		AttachmentsProvided  	= 	SchoolbagBagSecondary;SchoolbagBottleRight;SchoolbagBalloonRight,		
+        ReplaceInSecondHand 	= 	Bag_PAWSBackpackAZ_Lhand holdingbagleft,
+        ReplaceInPrimaryHand 	= 	Bag_PAWSBackpackAZ_Rhand holdingbagright,
+        WorldStaticModel 		= 	PAWSBackpack,
     }
 	
     item Bag_PAWSBackpackAZ_Tier_2
@@ -518,6 +522,7 @@ module AuthenticZClothing{
         BloodLocation = Bag,
         RunSpeedModifier = 0.97,
         AttachmentReplacement = Bag,
+		AttachmentsProvided  	= 	SchoolbagBagSecondary;SchoolbagItemSlot1;SchoolbagBottleRight;SchoolbagPlushie;SchoolbagUmbrellaLeft;SchoolbagBalloonRight,	
         ReplaceInSecondHand = Bag_PAWSBackpackAZ_Lhand holdingbagleft,
         ReplaceInPrimaryHand = Bag_PAWSBackpackAZ_Rhand holdingbagright,
         WorldStaticModel = PAWSBackpack,
@@ -538,11 +543,12 @@ module AuthenticZClothing{
         PutInSound   =   PutItemInBag,
         ClothingItem = Bag_PAWSBackpackAZ_Tier3,
         BloodLocation = Bag,
-        RunSpeedModifier = 0.97,
-        AttachmentReplacement = Bag,
-        ReplaceInSecondHand = Bag_PAWSBackpackAZ_Lhand holdingbagleft,
-        ReplaceInPrimaryHand = Bag_PAWSBackpackAZ_Rhand holdingbagright,
-        WorldStaticModel = PAWSBackpack,
+        RunSpeedModifier 		= 	0.97,
+        AttachmentReplacement 	= 	Bag,
+		AttachmentsProvided  	= 	SchoolbagBagSecondary;SchoolbagItemSlot2;SchoolbagItemSlot3;SchoolbagBottleRight;SchoolbagPlushie;SchoolbagUmbrellaLeft;SchoolbagFlashlight;SchoolbagBalloonRight,		
+        ReplaceInSecondHand 	= 	Bag_PAWSBackpackAZ_Lhand holdingbagleft,
+        ReplaceInPrimaryHand 	= 	Bag_PAWSBackpackAZ_Rhand holdingbagright,
+        WorldStaticModel 		= 	PAWSBackpack,
     }	
 
     item Bag_DuffelBag_Tier_1
