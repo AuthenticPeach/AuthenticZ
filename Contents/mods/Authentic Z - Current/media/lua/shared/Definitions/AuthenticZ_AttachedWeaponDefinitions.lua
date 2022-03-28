@@ -132,6 +132,19 @@ AttachedWeaponDefinitions.BrickBusterVHS = {
 	},
 }
 
+AttachedWeaponDefinitions.BoomMic = {
+	id = "BoomMic",
+	chance = 100,
+	outfit = {"AuthenticReporter5Cameraman"},
+	weaponLocation = {"Shovel Back"},
+	bloodLocations = nil,
+	addHoles = false,
+	daySurvived = 0,
+	weapons = {
+		"AuthenticZClothing.BoomMicrophone",
+	},
+}
+
 AttachedWeaponDefinitions.Broom = {
 	id = "AZBroom",
 	chance = 100,
@@ -501,6 +514,19 @@ AttachedWeaponDefinitions.StopSign= {
 	daySurvived = 0,
 	weapons = {
 		"AuthenticZClothing.Stop_Sign",
+	},
+}
+
+AttachedWeaponDefinitions.GhostbusterTrap= {
+	id = "GhostbusterTrap",
+	chance = 100,
+	outfit = {"AuthenticGhostbusterSpengler", "AuthenticGhostbusterStantz","AuthenticGhostbusterVenkman", "AuthenticGhostbusterZeddemore"},
+	weaponLocation =  {"Left Hand Item", "Right Hand Item"},
+	bloodLocations = nil,
+	addHoles = false,
+	daySurvived = 0,
+	weapons = {
+		"AuthenticZClothing.AuthenticGhostbusterTrap",
 	},
 }
 
@@ -1597,6 +1623,30 @@ AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticGhostFace = {
 		AttachedWeaponDefinitions.KniveinHand,
 	},
 }
+AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticGhostbusterSpengler = {
+	chance = 25;
+	weapons = {
+		AttachedWeaponDefinitions.GhostbusterTrap,
+	},
+}
+AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticGhostbusterStantz = {
+	chance = 25;
+	weapons = {
+		AttachedWeaponDefinitions.GhostbusterTrap,
+	},
+}
+AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticGhostbusterVenkman = {
+	chance = 25;
+	weapons = {
+		AttachedWeaponDefinitions.GhostbusterTrap,
+	},
+}
+AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticGhostbusterZeddemore = {
+	chance = 25;
+	weapons = {
+		AttachedWeaponDefinitions.GhostbusterTrap,
+	},
+}
 AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticHalloween = {
 	chance = 100;
 	weapons = {
@@ -1849,6 +1899,13 @@ AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticReporter43N = {
 	maxitem = 1;
 	weapons = {
 		AttachedWeaponDefinitions.ReporterMic3N,
+	},
+}
+AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticReporter5Cameraman = {
+	chance = 33;
+	maxitem = 1;
+	weapons = {
+		AttachedWeaponDefinitions.BoomMic,
 	},
 }
 AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticRickGrimes = {

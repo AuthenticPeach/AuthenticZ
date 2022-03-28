@@ -208,6 +208,19 @@ module AuthenticZClothing {
 		BodyLocation = TankTop,
 		Icon = CorpseSkin_M,
 	}
+	
+    item BroadcastCamera
+    {
+		DisplayCategory 		= 	Household,	
+        Type					=	Clothing,
+		ClothingItem 			= 	CameraBroadcasting,
+        DisplayName				=	EVV-9000 HYPER Broadcast Video Camera,
+        Icon					=	Glowstick-Red,
+        Weight					=	3.0,
+		BodyLocation 			= 	Necklace,
+		WorldStaticModel 		= 	WorldItem-BroadcastingCamera,			
+    }	
+	
 	item CameraDSLR
 	{
        DisplayCategory = Clothing,		
@@ -219,6 +232,7 @@ module AuthenticZClothing {
 		Weight = 0.7,
 		WorldStaticModel = WorldItem-DSLR,
 	}
+	
 	item Cigarette
 	{
        DisplayCategory = Clothing,		

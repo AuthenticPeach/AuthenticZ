@@ -466,16 +466,18 @@ recipe Tie Hoodie Around Waist
 	   Time:30.0,
   	}
 	
-	recipe Open Pack of Glowsticks
+recipe Open Pack of Glowsticks
    {
      AuthenticGlowstick_Pack,
 
-     Result:Battery,
+     Result:AuthenticGlowstick_Blank=3,
+     RemoveResultItem:true,	 
      Time:80,
      OnCreate:OpenGlowStickPackage,
      StopOnWalk:false,
      Prop2:GlowstickPack,
 	 AnimNode:RipSheets,
+	 Tooltip:Tooltip_GlowStickPack,	   
    }	
 	
 	/* Modded - recipe */

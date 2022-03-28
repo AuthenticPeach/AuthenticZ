@@ -3811,6 +3811,58 @@
 		<path>media/clothing/clothingItems/Bag_SchoolBagNBH.xml</path>
 		<guid>100e4cdc-b3e4-4394-8aa4-0dded5a332e4</guid>
 	</files>
+	
+	<!--Spiffo Bags Additions -->
+	<files>
+		<path>media/clothing/clothingItems/Bag_SpiffoBackpackAZ.xml</path>
+		<guid>b5842d18-9feb-4f9d-9dac-abd956f7cfac</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_SpiffoBackpackAZ_Rhand.xml</path>
+		<guid>4dbff32f-3735-40a0-a76f-3c8b94f82457</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_SpiffoBackpackAZ_Lhand.xml</path>
+		<guid>c5fbab3b-580d-4d23-8051-9fc932965661</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_SpiffoBackpackAZ_Tier_1.xml</path>
+		<guid>afbb8e1c-fee1-49a6-a78c-2ab4695f6e36</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_SpiffoBackpackAZ_Tier_2.xml</path>
+		<guid>3adafd2e-96a5-4ad5-9ac8-601fc83ae4cb</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_SpiffoBackpackAZ_Tier_3.xml</path>
+		<guid>7348ea38-84c9-4494-ae92-2332aef79e69</guid>
+	</files>	
+	<files>
+		<path>media/clothing/clothingItems/Bag_PAWSBackpackAZ.xml</path>
+		<guid>fe012841-872b-474a-9382-3e99c132d135</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_PAWSBackpackAZ_Rhand.xml</path>
+		<guid>edfc7ef1-7f63-41cd-b65b-0b16594262dd</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_PAWSBackpackAZ_Lhand.xml</path>
+		<guid>2819ae28-32f6-4453-af59-e267fc7ce792</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_PAWSBackpackAZ_Tier_1.xml</path>
+		<guid>5c368f7c-ae98-40eb-9af4-d7fb220d68aa</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_PAWSBackpackAZ_Tier_2.xml</path>
+		<guid>24a6e8c2-9e71-4849-a19d-df1efaea71ef</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_PAWSBackpackAZ_Tier_3.xml</path>
+		<guid>4b9935e1-191a-436f-b3cd-8a90187f7aff</guid>
+	</files>		
+	
+	<!-- End of Spiffo Bags Additions -->		
 	<files>
 		<path>media/clothing/clothingItems/Bag_Handbag_RightHand.xml</path>
 		<guid>afd70021-9288-4317-b758-bb147943918d</guid>
@@ -3930,7 +3982,11 @@
 	<files>
 		<path>media/clothing/clothingItems/CameraDSLR.xml</path>
 		<guid>01d90dcf-d42f-4dcb-a702-397423dce587</guid>
-	</files>		
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/CameraBroadcasting.xml</path>
+		<guid>46bae820-64d9-4795-8252-001dfbc2cec9</guid>
+	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Cigarette.xml</path>
 		<guid>410485f1-a2d9-4936-bc38-2deb0c9d0ec5</guid>

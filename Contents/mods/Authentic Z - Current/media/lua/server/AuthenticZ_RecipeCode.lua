@@ -41,7 +41,7 @@ function OpenGlowStickPackage(items, result, player)
     "AuthenticZClothing.AuthenticGlowstick_Purple",
     "AuthenticZClothing.AuthenticGlowstick_Yellow",
 	};
-    player:getInventory():AddItem("SheetPaper2");
+    player:getInventory():Remove("AuthenticGlowstick_Pack");
     for x=0, gets do
         ItemGet(player, itemSet);
     end

@@ -148,7 +148,7 @@ module Base
 	model AuthenticCigaretteHolder
 	{
 		mesh = AuthenticCigaretteHolder,
-		texture = clothes\Items\CigaretteHolder,	
+		texture = clothes\Items\CigaretteHolder,
 	}
 	model AuthenticCricketBat
 	{
@@ -160,6 +160,11 @@ module Base
 		mesh = Weapons/1Handed/Authentic_CoffeeCup,
 		texture = clothes\Items\SeahorseCoffee,
 	}
+	model AuthenticGhostbusterTrap
+	{
+		mesh = AuthenticGhostbusterTrap,
+		texture = clothes\Items\GhostbustersTrap,
+	}	
 	model AuthenticIceStaff
 	{
 		mesh = Weapons/2Handed/AuthenticIceStaff,
@@ -596,6 +601,19 @@ module Base
 		mesh = SleepingbagRoll,
 		texture = clothes\Items\SleepingbagLightBlue,
 	}
+	model SpiffoBackpack
+    {
+        mesh = WorldItems/WorldItem_SpiffoBackpack,
+        texture = clothes\Backpacks\Bag_SpiffoBackpack,
+        scale= 1.0,
+    }
+
+    model PAWSBackpack
+    {
+        mesh = WorldItems/WorldItem_SpiffoBackpack,
+        texture = clothes\Backpacks\Bag_PAWSBackpack,
+        scale = 1.0,
+    }
 	model PlushieBadger_Static
     {
         mesh = WorldItems/WorldItem_PlushieBadgerAZ,
@@ -764,6 +782,16 @@ module Base
 		mesh = WorldItems/WorldItem_AuthenticAndySign,
 		texture = clothes\Items\AndySign,
 	}
+	model WorldItem-BroadcastingCamera
+	{
+		mesh = WorldItems/WorldItem_BroadcastingCamera,
+		texture = clothes\Items\BroadcastingCamera,
+	}
+	model WorldItem-GhostbusterTrap
+	{
+		mesh =  WorldItems/WorldItem_GhostbusterTrap,
+		texture = clothes\Items\GhostbustersTrap,
+	}	
 	model WorldItem-AuthenticGlowstickBlank
 	{
 		mesh =  WorldItems/WorldItem-AZGlowstick,

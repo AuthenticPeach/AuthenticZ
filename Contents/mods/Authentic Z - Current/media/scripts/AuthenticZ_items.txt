@@ -396,7 +396,7 @@ module AuthenticZClothing {
 		DisplayCategory 		= 	Household,	
         Type					=	Normal,
         DisplayName				=	Pack of Glowsticks,
-        Icon					=	Glowstick-Red,
+        Icon					=	CandyPackagei,
         Weight					=	0.4,
         StaticModel 			= 	GlowstickPack,
 		WorldStaticModel 		= 	WorldItem-GlowstickPack,			
@@ -727,7 +727,6 @@ module AuthenticZClothing {
 		WorldStaticModel 		= 	WorldItem_CanteenForestGreen,	
 		AttachmentType  		= 	Canteen,			
 	}
-
 
 	item AuthenticCanteenForestGreenfull
     	{

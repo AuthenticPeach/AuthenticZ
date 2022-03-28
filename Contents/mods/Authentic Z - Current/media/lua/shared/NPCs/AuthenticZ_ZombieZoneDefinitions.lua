@@ -1018,7 +1018,19 @@ ZombiesZoneDefinition.LBMWStationHQ = { --
 		name="AuthenticReporter1Formal",
 		chance=8,
 		room="hall",
-	},	
+	},
+	AuthenticReporter5Cameraman = {
+		name="AuthenticReporter5Cameraman",
+		gender="male",
+		chance=10,
+		room="studio",
+	},		
+	AuthenticReporter5Cameraman2 = {
+		name="AuthenticReporter5Cameraman",
+		gender="male",
+		chance=5,
+		room="hall",
+	},		
 	AuthenticReporter2LBMW = {
 		name="AuthenticReporter2LBMW",
 		chance=8,
@@ -1046,6 +1058,12 @@ ZombiesZoneDefinition.LBMWStationHQ = { --
 }
 
 ZombiesZoneDefinition.LBMWRadioHQ = {
+	AuthenticReporter5Cameraman = {
+		name="AuthenticReporter5Cameraman",
+		gender="male",
+		chance=5,
+		room="hall",
+	},	
 	OfficeWorkerSkirt = {
 		name="OfficeWorkerSkirt",
 		gender="female",
@@ -1076,7 +1094,19 @@ ZombiesZoneDefinition.NewNowNetwork = { --3NewNowNetwork
 		name="AuthenticReporter43N",
 		chance=8,
 		room="hall",
-	},		
+	},
+	AuthenticReporter5Cameraman = {
+		name="AuthenticReporter5Cameraman",
+		gender="male",
+		chance=10,
+		room="studio",
+	},	
+	AuthenticReporter5Cameraman2 = {
+		name="AuthenticReporter5Cameraman",
+		gender="male",
+		chance=5,
+		room="hall",
+	},	
 	OfficeWorkerSkirt = {
 		name="OfficeWorkerSkirt",
 		gender="female",

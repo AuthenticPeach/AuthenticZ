@@ -117,6 +117,19 @@ AuthenticZ.tab_addMagProcedural_L4DMedkit2  = function(x,count)
   table.insert(ProceduralDistributions.list[x].items, count);       
 end
 
+--SpiffoBags
+AuthenticZ.tab_addMagProcedural_SpiffoBackpack  = function(x,count)
+  ProceduralDistributions = ProceduralDistributions or {};
+  ProceduralDistributions.list = ProceduralDistributions.list or {};
+  ProceduralDistributions.list[x] = ProceduralDistributions.list[x] or {};
+  ProceduralDistributions.list[x].junk = ProceduralDistributions.list[x].junk or {};
+  ProceduralDistributions.list[x].junk.items = ProceduralDistributions.list[x].junk.items or {};
+  table.insert(ProceduralDistributions.list[x].junk.items,"AuthenticZClothing.Bag_SpiffoBackpackAZ");
+  table.insert(ProceduralDistributions.list[x].junk.items, count);  
+  table.insert(ProceduralDistributions.list[x].junk.items,"AuthenticZClothing.Bag_PAWSBackpackAZ");
+  table.insert(ProceduralDistributions.list[x].junk.items, count);
+end
+
 --Carabiner
 AuthenticZ.tab_addMagProcedural_Carabiner  = function(x,count)
   ProceduralDistributions = ProceduralDistributions or {};
@@ -271,3 +284,9 @@ AuthenticZ.tab_addMagProcedural_Plushies("CrateToys",0.003)
 AuthenticZ.tab_addMagProcedural_Plushies("DaycareCounter",0.003)
 AuthenticZ.tab_addMagProcedural_Plushies("DaycareShelves",0.003)
 AuthenticZ.tab_addMagProcedural_Plushies("GigamartToys",0.003)
+
+AuthenticZ.tab_addMagProcedural_SpiffoBackpack("CrateToys",0.002)
+AuthenticZ.tab_addMagProcedural_SpiffoBackpack("DaycareCounter",0.002)
+AuthenticZ.tab_addMagProcedural_SpiffoBackpack("DaycareShelves",0.002)
+AuthenticZ.tab_addMagProcedural_SpiffoBackpack("GigamartToys",0.002)
+

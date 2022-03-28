@@ -347,6 +347,50 @@ module AuthenticZClothing {
 		WorldStaticModel 		= 	WorldItem_ProtonPack,
     }
 
+	item Bag_SpiffoBackpackAZ
+    {
+        DisplayCategory = Raccoon,
+        WeightReduction	=	20,
+        Weight	=	1,
+        Type	=	Container,
+        Capacity	=	10,
+        DisplayName	=	Spiffo Backpack,
+        Icon = SpiffoBackpack2,
+        CanBeEquipped = Back,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        ClothingItem = Bag_SpiffoBackpackAZ,
+        BloodLocation = Bag,
+        RunSpeedModifier = 0.97,
+        AttachmentReplacement = Bag,
+        ReplaceInSecondHand = Bag_SpiffoBackpackAZ_Lhand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_SpiffoBackpackAZ_Rhand holdingbagright,
+        WorldStaticModel = SpiffoBackpack,
+    }
+
+    item Bag_PAWSBackpackAZ
+    {
+        DisplayCategory = Raccoon,
+        WeightReduction	=	30,
+        Weight	=	1,
+        Type	=	Container,
+        Capacity	=	15,
+        DisplayName	=	PAWS Backpack,
+        Icon = PAWSBackpack2,
+        CanBeEquipped = Back,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        ClothingItem = Bag_PAWSBackpackAZ,
+        BloodLocation = Bag,
+        RunSpeedModifier = 0.97,
+        AttachmentReplacement = Bag,
+        ReplaceInSecondHand = Bag_PAWSBackpackAZ_Lhand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_PAWSBackpackAZ_Rhand holdingbagright,
+        WorldStaticModel = PAWSBackpack,
+    }
+
     item Bag_UtilityBeltFront
     {
        DisplayCategory = Bag,	

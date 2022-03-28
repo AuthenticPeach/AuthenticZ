@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\Clothes\AZBroadcastingCamera</m_MaleModel>
+	<m_FemaleModel>skinned\Clothes\AZBroadcastingCamera</m_FemaleModel>
+	<m_GUID>46bae820-64d9-4795-8252-001dfbc2cec9</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_MasksFolder>none</m_MasksFolder>
+	<textureChoices>clothes\Items\BroadcastingCamera</textureChoices>
+</clothingItem>

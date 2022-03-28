@@ -792,7 +792,15 @@ ItemName_EN = {
 	ItemName_AuthenticZClothing.SleepingBag = "Sleeping Bag",
 	ItemName_AuthenticZClothing.SleepingBagRoll = "Sleeping Bag (Rolled Up)",
 	
+	ItemName_AuthenticZClothing.AuthenticGlowstick_Pack = "Pack of Glowsticks",
+	ItemName_AuthenticZClothing.AuthenticGlowstick_Blank = "Drained Glowstick",
+	ItemName_AuthenticZClothing.AuthenticGlowstick_Blue = "Blue Glowstick",
+	ItemName_AuthenticZClothing.AuthenticGlowstick_Green = "Green Glowstick",
 	ItemName_AuthenticZClothing.AuthenticGlowstick_Red = "Red Glowstick",
+	ItemName_AuthenticZClothing.AuthenticGlowstick_Orange = "Orange Glowstick",
+	ItemName_AuthenticZClothing.AuthenticGlowstick_Pink = "Pink Glowstick",
+	ItemName_AuthenticZClothing.AuthenticGlowstick_Purple = "Purple Glowstick",
+	ItemName_AuthenticZClothing.AuthenticGlowstick_Yellow = "Yellow Glowstick",
 
 	ItemName_AuthenticZClothing.BorisBadger = "Boris The Badger",	
 	ItemName_AuthenticZClothing.FluffyfootBunny = "Fluffyfoot The Bunny",
@@ -802,7 +810,13 @@ ItemName_EN = {
 	ItemName_AuthenticZClothing.MoleyMole = "Moley The Mole",
 	ItemName_AuthenticZClothing.PancakeHedgehog = "Pancake The Hedgehog",
 	
-	
-	
+	ItemName_AuthenticZClothing.Bag_PAWSBackpackAZ = "PAWS Backpack",	
+	ItemName_AuthenticZClothing.Bag_PAWSBackpackAZ_Tier_1 = "PAWS Backpack - Tier 1",	
+	ItemName_AuthenticZClothing.Bag_PAWSBackpackAZ_Tier_2 = "PAWS Backpack - Tier 2",	
+	ItemName_AuthenticZClothing.Bag_PAWSBackpackAZ_Tier_3 = "PAWS Backpack - Tier 3",		
+	ItemName_AuthenticZClothing.Bag_SpiffoBackpackAZ = "Spiffo Backpack",	
+	ItemName_AuthenticZClothing.Bag_SpiffoBackpackAZ_Tier_1 = "Spiffo Backpack - Tier 1",	
+	ItemName_AuthenticZClothing.Bag_SpiffoBackpackAZ_Tier_2 = "Spiffo Backpack - Tier 2",	
+	ItemName_AuthenticZClothing.Bag_SpiffoBackpackAZ_Tier_3 = "Spiffo Backpack - Tier 3",		
 	
 }

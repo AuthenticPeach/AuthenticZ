@@ -45,94 +45,85 @@ function saber_switch(key)
 	  if getPlayer():getPrimaryHandItem() then         -- check if the player have a item on his hand in the first place
  --	  if getPlayer():getPrimaryHandItem():getType() and getPlayer():getSecondaryHandItem() and getPlayer():getAttachedSlot() then      
 
-	  -- Turn Saber ON (Blue)
+	  -- Turn Glowstick ON (Blue)
       if player:getPrimaryHandItem():getType() == "AuthenticGlowstick_Blank" then
         local item_on = InventoryItemFactory.CreateItem("AuthenticGlowstick_Blue")
         
-			getSoundManager():PlayWorldSoundWav('saber_on', false, player:getSquare(), 0, 0, 0, true);
 			player:setPrimaryHandItem(item_on);
 			
 			
-	  -- Turn Saber OFF (Blue)
+	  -- Turn Glowstick OFF (Blue)
       elseif player:getPrimaryHandItem():getType() == "AuthenticGlowstick_Blue" then
         local item_off = InventoryItemFactory.CreateItem("AuthenticGlowstick_Blank")
         
-			getSoundManager():PlayWorldSoundWav('saber_off', false, player:getSquare(), 0, 0, 0, true);
 			player:setPrimaryHandItem(item_off);
 			getCell():removeLamppost(lightByPlayer[player])    -- Remove Blue Light
 			
-	  -- Turn Saber ON (Red)
+	  -- Turn Glowstick ON (Red)
       elseif player:getPrimaryHandItem():getType() == "AuthenticGlowstick_Blank" then
         local item_on = InventoryItemFactory.CreateItem("AuthenticGlowstick_Red")
         
-			getSoundManager():PlayWorldSoundWav('saber_on', false, player:getSquare(), 0, 0, 0, true);
 			player:setPrimaryHandItem(item_on);
 			
-	  -- Turn Saber OFF (Red)
+	  -- Turn Glowstick OFF (Red)
       elseif player:getPrimaryHandItem():getType() == "AuthenticGlowstick_Red" then
         local item_off = InventoryItemFactory.CreateItem("AuthenticGlowstick_Blank")
         
-			getSoundManager():PlayWorldSoundWav('saber_off', false, player:getSquare(), 0, 0, 0, true);
 			player:setPrimaryHandItem(item_off);
 			getCell():removeLamppost(lightByPlayer[player])    -- Remove Red Light
 
-	  -- Turn Saber ON (Pink)
+	  -- Turn Glowstick ON (Pink)
       elseif player:getPrimaryHandItem():getType() == "AuthenticGlowstick_Blank" then
         local item_on = InventoryItemFactory.CreateItem("AuthenticGlowstick_Pink")
         
-			getSoundManager():PlayWorldSoundWav('saber_on', false, player:getSquare(), 0, 0, 0, true);
+
 			player:setPrimaryHandItem(item_on);
 			
-	  -- Turn Saber OFF (Pink)
+	  -- Turn Glowstick OFF (Pink)
       elseif player:getPrimaryHandItem():getType() == "AuthenticGlowstick_Pink" then
         local item_off = InventoryItemFactory.CreateItem("AuthenticGlowstick_Blank")
         
-			getSoundManager():PlayWorldSoundWav('saber_off', false, player:getSquare(), 0, 0, 0, true);
+
 			player:setPrimaryHandItem(item_off);
 			getCell():removeLamppost(lightByPlayer[player])    -- Remove Pink Light
 			
-	  -- Turn Saber ON (Purple)
+	  -- Turn Glowstick ON (Purple)
       elseif player:getPrimaryHandItem():getType() == "AuthenticGlowstick_Blank" then
         local item_on = InventoryItemFactory.CreateItem("AuthenticGlowstick_Purple")
         
-			getSoundManager():PlayWorldSoundWav('saber_on', false, player:getSquare(), 0, 0, 0, true);
+
 			player:setPrimaryHandItem(item_on);
 			
-	  -- Turn Saber OFF (Purple)
+	  -- Turn Glowstick OFF (Purple)
       elseif player:getPrimaryHandItem():getType() == "AuthenticGlowstick_Purple" then
         local item_off = InventoryItemFactory.CreateItem("AuthenticGlowstick_Blank")
         
-			getSoundManager():PlayWorldSoundWav('saber_off', false, player:getSquare(), 0, 0, 0, true);
 			player:setPrimaryHandItem(item_off);
 			getCell():removeLamppost(lightByPlayer[player])    -- Remove Purple Light
 
-	  -- Turn Saber ON (Green)
+	  -- Turn Glowstick ON (Green)
       elseif player:getPrimaryHandItem():getType() == "AuthenticGlowstick_Blank" then
         local item_on = InventoryItemFactory.CreateItem("AuthenticGlowstick_Green")
         
-			getSoundManager():PlayWorldSoundWav('saber_on', false, player:getSquare(), 0, 0, 0, true);
 			player:setPrimaryHandItem(item_on);
 			
-	  -- Turn Saber OFF (Green)
+	  -- Turn Glowstick OFF (Green)
       elseif player:getPrimaryHandItem():getType() == "AuthenticGlowstick_Green" then
         local item_off = InventoryItemFactory.CreateItem("AuthenticGlowstick_Blank")
         
-			getSoundManager():PlayWorldSoundWav('saber_off', false, player:getSquare(), 0, 0, 0, true);
 			player:setPrimaryHandItem(item_off);
 			getCell():removeLamppost(lightByPlayer[player])    -- Remove Green Light		
 
-	  -- Turn Saber ON (Yellow)
+	  -- Turn Glowstick ON (Yellow)
       elseif player:getPrimaryHandItem():getType() == "AuthenticGlowstick_Blank" then
         local item_on = InventoryItemFactory.CreateItem("AuthenticGlowstick_Yellow")
         
-			getSoundManager():PlayWorldSoundWav('saber_on', false, player:getSquare(), 0, 0, 0, true);
 			player:setPrimaryHandItem(item_on);
 			
-	  -- Turn Saber OFF (Yellow)
+	  -- Turn Glowstick OFF (Yellow)
       elseif player:getPrimaryHandItem():getType() == "AuthenticGlowstick_Yellow" then
         local item_off = InventoryItemFactory.CreateItem("AuthenticGlowstick_Blank")
         
-			getSoundManager():PlayWorldSoundWav('saber_off', false, player:getSquare(), 0, 0, 0, true);
 			player:setPrimaryHandItem(item_off);
 			getCell():removeLamppost(lightByPlayer[player])    -- Remove Yellow Light				
 			
@@ -144,77 +135,6 @@ function saber_switch(key)
   end
 end
 
-
-
-function saber_idle()
-	local player = getPlayer();
-	
-	
-	if player:getPrimaryHandItem() then
-			
-	if player:getPrimaryHandItem():getType() == "AuthenticGlowstick_Blue" then -- BLUE
-			BluetimeDown = BluetimeDown - 1;
-			if BluetimeDown <= 0 then 
-				BluetimeDown = 100;
-			end
-			if BluetimeDown == 99 then
-				getSoundManager():PlayWorldSoundWav('saber_idle', false, getPlayer():getSquare(), 0, 0, 0, false);
-			end
-	elseif player:getPrimaryHandItem():getType() == "AuthenticGlowstick_Red" then -- Red
-			BluetimeDown = BluetimeDown - 1;
-			if BluetimeDown <= 0 then 
-				BluetimeDown = 100;
-			end
-			if BluetimeDown == 99 then
-				getSoundManager():PlayWorldSoundWav('saber_idle', false, getPlayer():getSquare(), 0, 0, 0, false);
-			end			
-	elseif player:getPrimaryHandItem():getType() == "AuthenticGlowstick_Yellow" then -- BLUE
-			BluetimeDown = BluetimeDown - 1;
-			if BluetimeDown <= 0 then 
-				BluetimeDown = 100;
-			end
-			if BluetimeDown == 99 then
-				getSoundManager():PlayWorldSoundWav('saber_idle', false, getPlayer():getSquare(), 0, 0, 0, false);
-			end
-	elseif player:getPrimaryHandItem():getType() == "AuthenticGlowstick_Green" then -- BLUE
-			BluetimeDown = BluetimeDown - 1;
-			if BluetimeDown <= 0 then 
-				BluetimeDown = 100;
-			end
-			if BluetimeDown == 99 then
-				getSoundManager():PlayWorldSoundWav('saber_idle', false, getPlayer():getSquare(), 0, 0, 0, false);
-			end
-	elseif player:getPrimaryHandItem():getType() == "AuthenticGlowstick_Orange" then -- Orange
-			BluetimeDown = BluetimeDown - 1;
-			if BluetimeDown <= 0 then 
-				BluetimeDown = 100;
-			end
-			if BluetimeDown == 99 then
-				getSoundManager():PlayWorldSoundWav('saber_idle', false, getPlayer():getSquare(), 0, 0, 0, false);
-			end			
-		
-	elseif player:getPrimaryHandItem():getType() == "AuthenticGlowstick_Pink" then -- Pink
-			BluetimeDown = BluetimeDown - 1;
-			if BluetimeDown <= 0 then 
-				BluetimeDown = 100;
-			end
-			if BluetimeDown == 99 then
-				getSoundManager():PlayWorldSoundWav('saber_idle', false, getPlayer():getSquare(), 0, 0, 0, false);
-			end
-	elseif player:getPrimaryHandItem():getType() == "AuthenticGlowstick_Purple" then -- Purple
-			BluetimeDown = BluetimeDown - 1;
-			if BluetimeDown <= 0 then 
-				BluetimeDown = 100;
-			end
-			if BluetimeDown == 99 then
-				getSoundManager():PlayWorldSoundWav('saber_idle', false, getPlayer():getSquare(), 0, 0, 0, false);
-			end			
-		end
-	end
-	
-end
-
-
 function saber_color(player)
 
 	if player:getPrimaryHandItem() then
@@ -225,8 +145,7 @@ function saber_color(player)
 				lightByPlayer[player]:setActive(false)
 				getCell():removeLamppost(lightByPlayer[player])
 			end
-			
-	
+				
 				lightByPlayer[player] = IsoLightSource.new(player:getX(), player:getY(), player:getZ(), 0.0, 0.3, 1.0, 4)
 				getCell():addLamppost(lightByPlayer[player])
 	
@@ -236,8 +155,7 @@ function saber_color(player)
 				lightByPlayer[player]:setActive(false)
 				getCell():removeLamppost(lightByPlayer[player])
 			end
-			
-	
+				
 				lightByPlayer[player] = IsoLightSource.new(player:getX(), player:getY(), player:getZ(), 1.0, 0.0, 0.0, 4)
 				getCell():addLamppost(lightByPlayer[player])	
 				
@@ -248,7 +166,6 @@ function saber_color(player)
 				getCell():removeLamppost(lightByPlayer[player])
 			end
 			
-	
 				lightByPlayer[player] = IsoLightSource.new(player:getX(), player:getY(), player:getZ(), 0.0, 1.0, 0.0, 4)
 				getCell():addLamppost(lightByPlayer[player])
 
@@ -258,8 +175,7 @@ function saber_color(player)
 				lightByPlayer[player]:setActive(false)
 				getCell():removeLamppost(lightByPlayer[player])
 			end
-			
-	
+				
 				lightByPlayer[player] = IsoLightSource.new(player:getX(), player:getY(), player:getZ(), 1.0, 0.0, 1.0, 4)
 				getCell():addLamppost(lightByPlayer[player])		
 
@@ -269,8 +185,7 @@ function saber_color(player)
 				lightByPlayer[player]:setActive(false)
 				getCell():removeLamppost(lightByPlayer[player])
 			end
-			
-	
+				
 				lightByPlayer[player] = IsoLightSource.new(player:getX(), player:getY(), player:getZ(), 1.0, 1.0, 0.0, 4)
 				getCell():addLamppost(lightByPlayer[player])
 
@@ -280,8 +195,7 @@ function saber_color(player)
 				lightByPlayer[player]:setActive(false)
 				getCell():removeLamppost(lightByPlayer[player])
 			end
-			
-	
+				
 				lightByPlayer[player] = IsoLightSource.new(player:getX(), player:getY(), player:getZ(), 1.0, 0.50, 0.0, 4)
 				getCell():addLamppost(lightByPlayer[player])
 
@@ -291,8 +205,7 @@ function saber_color(player)
 				lightByPlayer[player]:setActive(false)
 				getCell():removeLamppost(lightByPlayer[player])
 			end
-			
-	
+				
 				lightByPlayer[player] = IsoLightSource.new(player:getX(), player:getY(), player:getZ(), 1.0, 0.0, 0.25, 4)
 				getCell():addLamppost(lightByPlayer[player])				
 	
@@ -305,7 +218,6 @@ end
 
 
 Events.OnKeyPressed.Add(saber_switch)
-Events.OnPlayerUpdate.Add(saber_idle);
 Events.OnPlayerUpdate.Add(saber_color);
 
 -- 332 updates in 10 seconds
