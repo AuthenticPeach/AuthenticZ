@@ -168,7 +168,6 @@ recipe Convert into Wearable
        Prop1:Screwdriver,
     }
 
-
     recipe Install Light Mechanism
     {
        Hat_HardHat_Miner,

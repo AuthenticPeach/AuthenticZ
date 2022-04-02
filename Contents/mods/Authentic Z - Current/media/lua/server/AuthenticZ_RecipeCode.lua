@@ -30,9 +30,7 @@ function AuthenticTorchBatteryInsert_TestIsValid(sourceItem, result)
 	return true -- the battery
 end
 
-function OpenGlowStickPackage(items, result, player)
-    local gets = ZombRand(1);
-    local itemSet =  {
+local GlowStickList = {
     "AuthenticZClothing.AuthenticGlowstick_Red",
     "AuthenticZClothing.AuthenticGlowstick_Blue",
     "AuthenticZClothing.AuthenticGlowstick_Green",
@@ -40,16 +38,11 @@ function OpenGlowStickPackage(items, result, player)
     "AuthenticZClothing.AuthenticGlowstick_Pink",
     "AuthenticZClothing.AuthenticGlowstick_Purple",
     "AuthenticZClothing.AuthenticGlowstick_Yellow",
-	};
-    player:getInventory():Remove("AuthenticGlowstick_Pack");
-    for x=0, gets do
-        ItemGet(player, itemSet);
-    end
-end
-function ItemGet(player, itemSet)
- player:getInventory():AddItem(itemSet[ZombRand(#itemSet)]);
- player:getInventory():AddItem(itemSet[ZombRand(#itemSet)]);
- player:getInventory():AddItem(itemSet[ZombRand(#itemSet)]);
+}
+function OpenGlowStickPackage(items, result, player)
+ player:getInventory():AddItem(GlowStickList[ZombRand(#GlowStickList)+1]);
+ player:getInventory():AddItem(GlowStickList[ZombRand(#GlowStickList)+1]);
+ player:getInventory():AddItem(GlowStickList[ZombRand(#GlowStickList)+1]);
 end
 
 function AZRecipe.OnCreate.GiveMeRadio(items, result, player)

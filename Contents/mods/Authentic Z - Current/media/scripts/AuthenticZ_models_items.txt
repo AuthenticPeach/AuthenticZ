@@ -656,6 +656,11 @@ module Base
         texture = WorldItems/PlushieMole,	
         scale = 0.4,
     }
+	model PugOtisPlushie
+	{
+		mesh = PlushieOtisPugAZ,
+		texture = clothes\Items\PugPlushie,		
+	}	
 	model SpiffoPlushieGrey
     {
         mesh = WorldItems/SpiffoPlushie,
@@ -1056,6 +1061,11 @@ module Base
 	{
 		mesh = WorldItems/WorldItem_AuthenticHeadband,
 	}
+	model WorldItem_PugOtisPlushie
+	{
+		mesh = WorldItems/WorldItem_PlushieOtisPugAZ,
+		texture = clothes\Items\PugPlushie,		
+	}	
 	model WorldItem_ReporterMicMuffler_Media01
 	{
 		mesh = WorldItems/WorldItem_AZReporterMicMuffler,

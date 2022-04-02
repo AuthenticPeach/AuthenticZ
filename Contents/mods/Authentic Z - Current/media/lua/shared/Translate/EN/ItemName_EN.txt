@@ -817,6 +817,10 @@ ItemName_EN = {
 	ItemName_AuthenticZClothing.Bag_SpiffoBackpackAZ = "Spiffo Backpack",	
 	ItemName_AuthenticZClothing.Bag_SpiffoBackpackAZ_Tier_1 = "Spiffo Backpack - Tier 1",	
 	ItemName_AuthenticZClothing.Bag_SpiffoBackpackAZ_Tier_2 = "Spiffo Backpack - Tier 2",	
-	ItemName_AuthenticZClothing.Bag_SpiffoBackpackAZ_Tier_3 = "Spiffo Backpack - Tier 3",		
+	ItemName_AuthenticZClothing.Bag_SpiffoBackpackAZ_Tier_3 = "Spiffo Backpack - Tier 3",
+	
+	ItemName_AuthenticZClothing.OtisPug = "Otis the Pug",	
+
+	
 	
 }

@@ -65,6 +65,18 @@ module AuthenticZClothing {
         AttachmentType  		= 	SpiffoPlushie,
 		StaticModel 			= 	WorldItem_FlamingoPlushie,		
 	}
+
+   item OtisPug
+	{
+        DisplayCategory 		=  	Raccoon,	
+		Weight					=	0.2,
+		Type					=	Normal,
+		DisplayName				=	Otis the Pug,
+		Icon					=	PugPlushieOtis,
+		WorldStaticModel 		= 	WorldItem_PugOtisPlushie,
+        AttachmentType  		= 	SpiffoPlushie,
+		StaticModel 			= 	PugOtisPlushie,		
+	}
 		
    item Spiffo
 	{
@@ -290,14 +302,31 @@ module AuthenticZClothing {
 		AttachmentType 			= 	Hammer,
     }
 
-    item AuthenticGlowstick_Blue
+    item AuthenticGlowstick_Red_On
     {
 		DisplayCategory 		= 	Household,	
         Type					=	Drainable,
 		UseWhileUnequipped  	=   TRUE,
 		UseDelta				=	0.0002,
 		ReplaceOnDeplete		=	AuthenticGlowstick_Blank,
-        DisplayName				=	Blue Glowstick,
+        DisplayName				=	Red Glowstick (Activated),
+        Icon					=	Glowstick-Red,
+        Weight					=	0.2,
+        primaryAnimMask 		= 	HoldingUmbrellaRight,
+        secondaryAnimMask 		= 	HoldingUmbrellaLeft,
+        StaticModel 			= 	AuthenticGlowstickRed,
+		WorldStaticModel 		= 	WorldItem-AuthenticGlowstickRed,			
+		AttachmentType 			= 	Hammer,
+    }
+
+    item AuthenticGlowstick_Blue_On
+    {
+		DisplayCategory 		= 	Household,	
+        Type					=	Drainable,
+		UseWhileUnequipped  	=   TRUE,
+		UseDelta				=	0.0002,
+		ReplaceOnDeplete		=	AuthenticGlowstick_Blank,
+        DisplayName				=	Blue Glowstick (Activated),
         Icon					=	Glowstick-Blue,
         Weight					=	0.2,
         primaryAnimMask 		= 	HoldingUmbrellaRight,
@@ -306,6 +335,118 @@ module AuthenticZClothing {
 		WorldStaticModel 		= 	WorldItem-AuthenticGlowstickBlue,			
 		AttachmentType 			= 	Hammer,
     }
+
+    item AuthenticGlowstick_Green_On
+    {
+		DisplayCategory 		= 	Household,	
+        Type					=	Drainable,
+		UseWhileUnequipped  	=   TRUE,
+		UseDelta				=	0.0002,
+		ReplaceOnDeplete		=	AuthenticGlowstick_Blank,
+        DisplayName				=	Green Glowstick (Activated),
+        Icon					=	Glowstick-Green,
+        Weight					=	0.2,
+        primaryAnimMask 		= 	HoldingUmbrellaRight,
+        secondaryAnimMask 		= 	HoldingUmbrellaLeft,
+        StaticModel 			= 	AuthenticGlowstickGreen,
+		WorldStaticModel 		= 	WorldItem-AuthenticGlowstickGreen,			
+		AttachmentType 			= 	Hammer,
+    }
+
+    item AuthenticGlowstick_Orange_On
+    {
+		DisplayCategory 		= 	Household,	
+        Type					=	Drainable,
+		UseWhileUnequipped  	=   TRUE,
+		UseDelta				=	0.0002,
+		ReplaceOnDeplete		=	AuthenticGlowstick_Blank,
+        DisplayName				=	Orange Glowstick (Activated),
+        Icon					=	Glowstick-Orange,
+        Weight					=	0.2,
+        primaryAnimMask 		= 	HoldingUmbrellaRight,
+        secondaryAnimMask 		= 	HoldingUmbrellaLeft,
+        StaticModel 			= 	AuthenticGlowstickOrange,
+		WorldStaticModel 		= 	WorldItem-AuthenticGlowstickOrange,			
+		AttachmentType 			= 	Hammer,
+    }
+	
+	item AuthenticGlowstick_Pink_On
+    {
+		DisplayCategory 		= 	Household,	
+        Type					=	Drainable,
+		UseWhileUnequipped  	=   TRUE,
+		UseDelta				=	0.0002,
+		ReplaceOnDeplete		=	AuthenticGlowstick_Blank,
+        DisplayName				=	Pink Glowstick (Activated),
+        Icon					=	Glowstick-Pink,
+        Weight					=	0.2,
+        primaryAnimMask 		= 	HoldingUmbrellaRight,
+        secondaryAnimMask 		= 	HoldingUmbrellaLeft,
+        StaticModel 			= 	AuthenticGlowstickPink,
+		WorldStaticModel 		= 	WorldItem-AuthenticGlowstickPink,			
+		AttachmentType 			= 	Hammer,
+    }
+	item AuthenticGlowstick_Purple_On
+    {
+		DisplayCategory 		= 	Household,	
+        Type					=	Drainable,
+		UseWhileUnequipped  	=   TRUE,
+		UseDelta				=	0.0002,
+		ReplaceOnDeplete		=	AuthenticGlowstick_Blank,
+        DisplayName				=	Purple Glowstick (Activated),
+        Icon					=	Glowstick-Purple,
+        Weight					=	0.2,
+        primaryAnimMask 		= 	HoldingUmbrellaRight,
+        secondaryAnimMask 		= 	HoldingUmbrellaLeft,
+        StaticModel 			= 	AuthenticGlowstickPurple,
+		WorldStaticModel 		= 	WorldItem-AuthenticGlowstickPurple,			
+		AttachmentType 			= 	Hammer,
+    }
+	
+	item AuthenticGlowstick_Yellow_On
+    {
+		DisplayCategory 		= 	Household,	
+        Type					=	Drainable,
+		UseWhileUnequipped  	=   TRUE,
+		UseDelta				=	0.0002,
+		ReplaceOnDeplete		=	AuthenticGlowstick_Blank,
+        DisplayName				=	Yellow Glowstick (Activated),
+        Icon					=	Glowstick-Yellow,
+        Weight					=	0.2,
+        primaryAnimMask 		= 	HoldingUmbrellaRight,
+        secondaryAnimMask 		= 	HoldingUmbrellaLeft,
+        StaticModel 			= 	AuthenticGlowstickYellow,
+		WorldStaticModel 		= 	WorldItem-AuthenticGlowstickYellow,			
+		AttachmentType 			= 	Hammer,
+    }
+
+    item AuthenticGlowstick_Red
+    {
+		DisplayCategory 		= 	Household,	
+        Type					=	Normal,
+        DisplayName				=	Red Glowstick,
+        Icon					=	Glowstick-Red,
+        Weight					=	0.2,
+        primaryAnimMask 		= 	HoldingUmbrellaRight,
+        secondaryAnimMask 		= 	HoldingUmbrellaLeft,
+        StaticModel 			= 	AuthenticGlowstickRed,
+		WorldStaticModel 		= 	WorldItem-AuthenticGlowstickRed,			
+		AttachmentType 			= 	Hammer,
+    }
+	
+    item AuthenticGlowstick_Blue
+    {
+		DisplayCategory 		= 	Household,	
+        Type					=	Normal,
+        DisplayName				=	Blue Glowstick,
+        Icon					=	Glowstick-Blue,
+        Weight					=	0.2,
+        primaryAnimMask 		= 	HoldingUmbrellaRight,
+        secondaryAnimMask 		= 	HoldingUmbrellaLeft,
+        StaticModel 			= 	AuthenticGlowstickBlue,
+		WorldStaticModel 		= 	WorldItem-AuthenticGlowstickBlue,			
+		AttachmentType 			= 	Hammer,
+    }	
 	
     item AuthenticGlowstick_Green
     {
@@ -405,14 +546,15 @@ module AuthenticZClothing {
     item AuthenticBalloon_Blue
     {
 		DisplayCategory 		= 	Household,	
-        Type					=	Normal,
+        Type					=	WeaponPart,
         DisplayName				=	Blue Balloon,
         Icon					=	Balloon_Blue,
         Weight					=	0.05,
         primaryAnimMask 		= 	HoldingUmbrellaRight,
         secondaryAnimMask 		= 	HoldingUmbrellaLeft,
         StaticModel 			= 	AuthenticBalloonBlue,
-		WorldStaticModel 		= 	WorldItem-BalloonBlue,			
+		WorldStaticModel 		= 	WorldItem-BalloonBlue,
+		MountOn					=   AZ_MetalClip,
 		AttachmentType 			= 	BalloonSlot,
         PartType 				= 	Balloon,		
     }
@@ -1131,7 +1273,7 @@ module AuthenticZClothing {
 	{
         DisplayCategory  =	Material,	
         Weight			 =	0.05,
-        Type			 =	Normal,
+        Type			 =	Weapon,
         DisplayName		 = 	Carabiner Clip,
         Icon			 =	CarabinerClip,
 		StaticModel 	 =  Carabiner,			

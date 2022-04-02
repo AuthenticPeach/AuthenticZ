@@ -1,41 +1,192 @@
 -- COLORED LIGHT FOR HOLDING OBJECT
 -- by NinjaWizard
---[[
+
+local LIGHT_RADIUS = 2;
+
 local lightByPlayer = {}
 
-function GlowstickEquiped()
-local player = getPlayer() 
+function glowstick_color(player)
+
+local hand1 = player:getPrimaryHandItem()
+local hand2 = player:getSecondaryHandItem()
+--local hand3 = items:get(i)
+
+	if hand1 then 
 	
-	if getPlayer():getPrimaryHandItem() then         -- check if the player have a item on his hand in the first place
+		if hand1:getType() == "AuthenticGlowstick_Blue_On"   then  -- BLUE
 	
-		if player:getPrimaryHandItem():getType() == "AuthenticGlowstick_Red" then
-		
+			if lightByPlayer[player] ~= nil then
+				lightByPlayer[player]:setActive(false)
+				getCell():removeLamppost(lightByPlayer[player])
+			end
+				
+				lightByPlayer[player] = IsoLightSource.new(player:getX(), player:getY(), player:getZ(), 0.0, 0.0, 1.0, 4)
+				getCell():addLamppost(lightByPlayer[player])
+	
+
+		elseif hand1:getType() == "AuthenticGlowstick_Red_On" then  -- RED
+	
+			if lightByPlayer[player] ~= nil then
+				lightByPlayer[player]:setActive(false)
+				getCell():removeLamppost(lightByPlayer[player])
+			end
+				
+				lightByPlayer[player] = IsoLightSource.new(player:getX(), player:getY(), player:getZ(), 1.0, 0.0, 0.0, 4)
+				getCell():addLamppost(lightByPlayer[player])
+				
+		elseif hand1:getType() == "AuthenticGlowstick_Green_On" then  -- Green
+	
 			if lightByPlayer[player] ~= nil then
 				lightByPlayer[player]:setActive(false)
 				getCell():removeLamppost(lightByPlayer[player])
 			end
 			
-			lightByPlayer[player] = IsoLightSource.new(player:getX(), player:getY(), player:getZ(), 1.0, 0.0, 1.0, 4)  -- THIS GIVE GREEN LIGHT R G B
-			getCell():addLamppost(lightByPlayer[player])
-			
+				lightByPlayer[player] = IsoLightSource.new(player:getX(), player:getY(), player:getZ(), 0.0, 1.0, 0.0, 4)
+				getCell():addLamppost(lightByPlayer[player])
+
+		elseif hand1:getType() == "AuthenticGlowstick_Purple_On" then  -- Purple
+	
+			if lightByPlayer[player] ~= nil then
+				lightByPlayer[player]:setActive(false)
+				getCell():removeLamppost(lightByPlayer[player])
+			end
+				
+				lightByPlayer[player] = IsoLightSource.new(player:getX(), player:getY(), player:getZ(), 1.0, 0.0, 1.0, 4)
+				getCell():addLamppost(lightByPlayer[player])		
+
+		elseif hand1:getType() == "AuthenticGlowstick_Yellow_On" then  -- Yellow
+	
+			if lightByPlayer[player] ~= nil then
+				lightByPlayer[player]:setActive(false)
+				getCell():removeLamppost(lightByPlayer[player])
+			end
+				
+				lightByPlayer[player] = IsoLightSource.new(player:getX(), player:getY(), player:getZ(), 1.0, 1.0, 0.0, 4)
+				getCell():addLamppost(lightByPlayer[player])
+
+		elseif hand1:getType() == "AuthenticGlowstick_Orange_On" then  -- Orange
+	
+			if lightByPlayer[player] ~= nil then
+				lightByPlayer[player]:setActive(false)
+				getCell():removeLamppost(lightByPlayer[player])
+			end
+				
+				lightByPlayer[player] = IsoLightSource.new(player:getX(), player:getY(), player:getZ(), 1.0, 0.50, 0.0, 4)
+				getCell():addLamppost(lightByPlayer[player])
+
+		elseif hand1:getType() == "AuthenticGlowstick_Pink_On" then  -- Pink
+	
+			if lightByPlayer[player] ~= nil then
+				lightByPlayer[player]:setActive(false)
+				getCell():removeLamppost(lightByPlayer[player])
+			end
+				
+				lightByPlayer[player] = IsoLightSource.new(player:getX(), player:getY(), player:getZ(), 1.0, 0.0, 0.25, 4)
+				getCell():addLamppost(lightByPlayer[player])			
+	
 		else
-		
-		getCell():removeLamppost(lightByPlayer[player])
-		
-		end
+	--			getCell():removeLamppost(lightByPlayer[player])  
+		end	
 	else
+
+	end
+	if hand2 then 
+	
+		if hand2:getType() == "AuthenticGlowstick_Blue_On"    then  -- Blue  
+	
+			if lightByPlayer[player] ~= nil then
+				lightByPlayer[player]:setActive(false)
+				getCell():removeLamppost(lightByPlayer[player])
+			end				
+				lightByPlayer[player] = IsoLightSource.new(player:getX(), player:getY(), player:getZ(), 0.0, 0.0, 1.0, 4)
+				getCell():addLamppost(lightByPlayer[player])
+	
+		elseif hand2:getType() == "AuthenticGlowstick_Red_On" then  -- RED
+	
+			if lightByPlayer[player] ~= nil then
+				lightByPlayer[player]:setActive(false)
+				getCell():removeLamppost(lightByPlayer[player])
+			end		
+				lightByPlayer[player] = IsoLightSource.new(player:getX(), player:getY(), player:getZ(), 1.0, 0.0, 0.0, 4)
+				getCell():addLamppost(lightByPlayer[player])
+				
+		elseif hand2:getType() == "AuthenticGlowstick_Green_On" then  -- Green
+	
+			if lightByPlayer[player] ~= nil then
+				lightByPlayer[player]:setActive(false)
+				getCell():removeLamppost(lightByPlayer[player])
+			end		
+				lightByPlayer[player] = IsoLightSource.new(player:getX(), player:getY(), player:getZ(), 0.0, 1.0, 0.0, 4)
+				getCell():addLamppost(lightByPlayer[player])
+				
+		elseif hand2:getType() == "AuthenticGlowstick_Purple_On" then  -- Purple
+	
+			if lightByPlayer[player] ~= nil then
+				lightByPlayer[player]:setActive(false)
+				getCell():removeLamppost(lightByPlayer[player])
+			end		
+				lightByPlayer[player] = IsoLightSource.new(player:getX(), player:getY(), player:getZ(), 1.0, 0.0, 1.0, 4)
+				getCell():addLamppost(lightByPlayer[player])
+				
+		elseif hand2:getType() == "AuthenticGlowstick_Yellow_On" then  -- Yellow
+	
+			if lightByPlayer[player] ~= nil then
+				lightByPlayer[player]:setActive(false)
+				getCell():removeLamppost(lightByPlayer[player])
+			end		
+				lightByPlayer[player] = IsoLightSource.new(player:getX(), player:getY(), player:getZ(), 1.0, 1.0, 0.0, 4)
+				getCell():addLamppost(lightByPlayer[player])
+				
+		elseif hand2:getType() == "AuthenticGlowstick_Orange_On" then  -- Orange
+	
+			if lightByPlayer[player] ~= nil then
+				lightByPlayer[player]:setActive(false)
+				getCell():removeLamppost(lightByPlayer[player])
+			end		
+				lightByPlayer[player] = IsoLightSource.new(player:getX(), player:getY(), player:getZ(), 1.0, 0.50, 0.0, 4)
+				getCell():addLamppost(lightByPlayer[player])					
+	--			getCell():removeLamppost(lightByPlayer[player]) 
+	
+		elseif hand2:getType() == "AuthenticGlowstick_Pink_On" then  -- Pink
+	
+			if lightByPlayer[player] ~= nil then
+				lightByPlayer[player]:setActive(false)
+				getCell():removeLamppost(lightByPlayer[player])
+			end		
+				lightByPlayer[player] = IsoLightSource.new(player:getX(), player:getY(), player:getZ(), 1.0, 0.0, 0.25, 4)
+				getCell():addLamppost(lightByPlayer[player])					
+	--			getCell():removeLamppost(lightByPlayer[player]) 	
+
+		end	
+	else
+        local item_off = InventoryItemFactory.CreateItem("AuthenticGlowstick_Blank")
+        
+			player:setPrimaryHandItem(item_off);
+			getCell():removeLamppost(lightByPlayer[player])    -- Remove Blue Light	
 	end
 end
+--[[
+function saber_color2(items, result, player)
 
-Events.OnEquipPrimary.Add(GlowstickEquiped);
-Events.OnEquipSecondary.Add(GlowstickEquiped);
+			if lightByPlayer[player] ~= nil then
+				lightByPlayer[player]:setActive(false)
+				getCell():removeLamppost(lightByPlayer[player])
+			end
+			
+    for i=0, items:size()-1 do
+       if items:get(i):getType() == "AuthenticGlowstick_Blue_On"  then
+       		local original = items:get(i);
+		result:setUsedDelta(original:getUsedDelta())			
+		if original:isFavorite() then result:setFavorite(true) end;
+		if original:getAttachedSlot() ~= nil then result:setAttachedSlot(original:getAttachedSlot()) end;
+				
+			lightByPlayer[player] = IsoLightSource.new(player:getX(), player:getY(), player:getZ(), 0.0, 0.0, 1.0, 4)
+			getCell():addLamppost(lightByPlayer[player])
+	end
+    end
+end
 --]]
-local LIGHT_RADIUS = 1;
-local BluetimeDown = 0;
-
-local lightByPlayer = {}
-
-function saber_switch(key)
+function glowstick_switch(key)
   local player = getPlayer()    
   
   
@@ -53,7 +204,7 @@ function saber_switch(key)
 			
 			
 	  -- Turn Glowstick OFF (Blue)
-      elseif player:getPrimaryHandItem():getType() == "AuthenticGlowstick_Blue" then
+      elseif player:getPrimaryHandItem():getType() == "AuthenticGlowstick_Blue_On" then
         local item_off = InventoryItemFactory.CreateItem("AuthenticGlowstick_Blank")
         
 			player:setPrimaryHandItem(item_off);
@@ -61,12 +212,12 @@ function saber_switch(key)
 			
 	  -- Turn Glowstick ON (Red)
       elseif player:getPrimaryHandItem():getType() == "AuthenticGlowstick_Blank" then
-        local item_on = InventoryItemFactory.CreateItem("AuthenticGlowstick_Red")
+        local item_on = InventoryItemFactory.CreateItem("AuthenticGlowstick_Red_On")
         
 			player:setPrimaryHandItem(item_on);
 			
 	  -- Turn Glowstick OFF (Red)
-      elseif player:getPrimaryHandItem():getType() == "AuthenticGlowstick_Red" then
+      elseif player:getPrimaryHandItem():getType() == "AuthenticGlowstick_Red_On" then
         local item_off = InventoryItemFactory.CreateItem("AuthenticGlowstick_Blank")
         
 			player:setPrimaryHandItem(item_off);
@@ -74,13 +225,13 @@ function saber_switch(key)
 
 	  -- Turn Glowstick ON (Pink)
       elseif player:getPrimaryHandItem():getType() == "AuthenticGlowstick_Blank" then
-        local item_on = InventoryItemFactory.CreateItem("AuthenticGlowstick_Pink")
+        local item_on = InventoryItemFactory.CreateItem("AuthenticGlowstick_Pink_On")
         
 
 			player:setPrimaryHandItem(item_on);
 			
 	  -- Turn Glowstick OFF (Pink)
-      elseif player:getPrimaryHandItem():getType() == "AuthenticGlowstick_Pink" then
+      elseif player:getPrimaryHandItem():getType() == "AuthenticGlowstick_Pink_On" then
         local item_off = InventoryItemFactory.CreateItem("AuthenticGlowstick_Blank")
         
 
@@ -89,13 +240,13 @@ function saber_switch(key)
 			
 	  -- Turn Glowstick ON (Purple)
       elseif player:getPrimaryHandItem():getType() == "AuthenticGlowstick_Blank" then
-        local item_on = InventoryItemFactory.CreateItem("AuthenticGlowstick_Purple")
+        local item_on = InventoryItemFactory.CreateItem("AuthenticGlowstick_Purple_On")
         
 
 			player:setPrimaryHandItem(item_on);
 			
 	  -- Turn Glowstick OFF (Purple)
-      elseif player:getPrimaryHandItem():getType() == "AuthenticGlowstick_Purple" then
+      elseif player:getPrimaryHandItem():getType() == "AuthenticGlowstick_Purple_On" then
         local item_off = InventoryItemFactory.CreateItem("AuthenticGlowstick_Blank")
         
 			player:setPrimaryHandItem(item_off);
@@ -103,12 +254,12 @@ function saber_switch(key)
 
 	  -- Turn Glowstick ON (Green)
       elseif player:getPrimaryHandItem():getType() == "AuthenticGlowstick_Blank" then
-        local item_on = InventoryItemFactory.CreateItem("AuthenticGlowstick_Green")
+        local item_on = InventoryItemFactory.CreateItem("AuthenticGlowstick_Green_On")
         
 			player:setPrimaryHandItem(item_on);
 			
 	  -- Turn Glowstick OFF (Green)
-      elseif player:getPrimaryHandItem():getType() == "AuthenticGlowstick_Green" then
+      elseif player:getPrimaryHandItem():getType() == "AuthenticGlowstick_Green_On" then
         local item_off = InventoryItemFactory.CreateItem("AuthenticGlowstick_Blank")
         
 			player:setPrimaryHandItem(item_off);
@@ -116,12 +267,12 @@ function saber_switch(key)
 
 	  -- Turn Glowstick ON (Yellow)
       elseif player:getPrimaryHandItem():getType() == "AuthenticGlowstick_Blank" then
-        local item_on = InventoryItemFactory.CreateItem("AuthenticGlowstick_Yellow")
+        local item_on = InventoryItemFactory.CreateItem("AuthenticGlowstick_Yellow_On")
         
 			player:setPrimaryHandItem(item_on);
 			
 	  -- Turn Glowstick OFF (Yellow)
-      elseif player:getPrimaryHandItem():getType() == "AuthenticGlowstick_Yellow" then
+      elseif player:getPrimaryHandItem():getType() == "AuthenticGlowstick_Yellow_On" then
         local item_off = InventoryItemFactory.CreateItem("AuthenticGlowstick_Blank")
         
 			player:setPrimaryHandItem(item_off);
@@ -135,90 +286,11 @@ function saber_switch(key)
   end
 end
 
-function saber_color(player)
 
-	if player:getPrimaryHandItem() then
-	
-		if player:getPrimaryHandItem():getType() == "AuthenticGlowstick_Blue" then  -- BLUE
-	
-			if lightByPlayer[player] ~= nil then
-				lightByPlayer[player]:setActive(false)
-				getCell():removeLamppost(lightByPlayer[player])
-			end
-				
-				lightByPlayer[player] = IsoLightSource.new(player:getX(), player:getY(), player:getZ(), 0.0, 0.3, 1.0, 4)
-				getCell():addLamppost(lightByPlayer[player])
-	
-		elseif player:getPrimaryHandItem():getType() == "AuthenticGlowstick_Red" then  -- RED
-	
-			if lightByPlayer[player] ~= nil then
-				lightByPlayer[player]:setActive(false)
-				getCell():removeLamppost(lightByPlayer[player])
-			end
-				
-				lightByPlayer[player] = IsoLightSource.new(player:getX(), player:getY(), player:getZ(), 1.0, 0.0, 0.0, 4)
-				getCell():addLamppost(lightByPlayer[player])	
-				
-		elseif player:getPrimaryHandItem():getType() == "AuthenticGlowstick_Green" then  -- Green
-	
-			if lightByPlayer[player] ~= nil then
-				lightByPlayer[player]:setActive(false)
-				getCell():removeLamppost(lightByPlayer[player])
-			end
-			
-				lightByPlayer[player] = IsoLightSource.new(player:getX(), player:getY(), player:getZ(), 0.0, 1.0, 0.0, 4)
-				getCell():addLamppost(lightByPlayer[player])
-
-		elseif player:getPrimaryHandItem():getType() == "AuthenticGlowstick_Purple" then  -- Purple
-	
-			if lightByPlayer[player] ~= nil then
-				lightByPlayer[player]:setActive(false)
-				getCell():removeLamppost(lightByPlayer[player])
-			end
-				
-				lightByPlayer[player] = IsoLightSource.new(player:getX(), player:getY(), player:getZ(), 1.0, 0.0, 1.0, 4)
-				getCell():addLamppost(lightByPlayer[player])		
-
-		elseif player:getPrimaryHandItem():getType() == "AuthenticGlowstick_Yellow" then  -- Yellow
-	
-			if lightByPlayer[player] ~= nil then
-				lightByPlayer[player]:setActive(false)
-				getCell():removeLamppost(lightByPlayer[player])
-			end
-				
-				lightByPlayer[player] = IsoLightSource.new(player:getX(), player:getY(), player:getZ(), 1.0, 1.0, 0.0, 4)
-				getCell():addLamppost(lightByPlayer[player])
-
-		elseif player:getPrimaryHandItem():getType() == "AuthenticGlowstick_Orange" then  -- Orange
-	
-			if lightByPlayer[player] ~= nil then
-				lightByPlayer[player]:setActive(false)
-				getCell():removeLamppost(lightByPlayer[player])
-			end
-				
-				lightByPlayer[player] = IsoLightSource.new(player:getX(), player:getY(), player:getZ(), 1.0, 0.50, 0.0, 4)
-				getCell():addLamppost(lightByPlayer[player])
-
-		elseif player:getPrimaryHandItem():getType() == "AuthenticGlowstick_Pink" then  -- Pink
-	
-			if lightByPlayer[player] ~= nil then
-				lightByPlayer[player]:setActive(false)
-				getCell():removeLamppost(lightByPlayer[player])
-			end
-				
-				lightByPlayer[player] = IsoLightSource.new(player:getX(), player:getY(), player:getZ(), 1.0, 0.0, 0.25, 4)
-				getCell():addLamppost(lightByPlayer[player])				
-	
-		else
-				--getCell():removeLamppost(lightByPlayer[player])
-		end
-	else
-	end
-end
-
-
-Events.OnKeyPressed.Add(saber_switch)
-Events.OnPlayerUpdate.Add(saber_color);
+Events.OnKeyPressed.Add(glowstick_switch)
+Events.OnPlayerUpdate.Add(glowstick_color);
+--Events.OnPlayerUpdate.Add(saber_color2);
 
 -- 332 updates in 10 seconds
 -- 316 ticks in 10 seconds
+--]]

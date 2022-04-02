@@ -10,6 +10,7 @@ recipe Tie Balloons Together
 
    	   Result:AuthenticBalloonGroup_Blue,
 	   Time:30.0,
+	   StopOnWalk:false,
   	}
 recipe Tie Balloons Together
   	{
@@ -26,6 +27,7 @@ recipe Tie Balloons Together
 
    	   Result:AuthenticBalloonGroup_Pink,
 	   Time:30.0,
+	   StopOnWalk:false,
   	}	
 recipe Tie Balloons Together
   	{
@@ -34,6 +36,7 @@ recipe Tie Balloons Together
 
    	   Result:AuthenticBalloonGroup_Purple,
 	   Time:30.0,
+	   StopOnWalk:false,
   	}
 
 recipe Tie Balloons Together
@@ -43,6 +46,7 @@ recipe Tie Balloons Together
 
    	   Result:AuthenticBalloonGroup_White,
 	   Time:30.0,
+	   StopOnWalk:false,
   	}
 
 recipe Tie Balloons Together
@@ -52,6 +56,7 @@ recipe Tie Balloons Together
 
    	   Result:AuthenticBalloonGroup_Red,
 	   Time:30.0,
+	   StopOnWalk:false,
   	}
 
 recipe Tie Balloons Together
@@ -61,6 +66,7 @@ recipe Tie Balloons Together
 
    	   Result:AuthenticBalloon_Group_Yellow,
 	   Time:30.0,
+	   StopOnWalk:false,
   	}
 	
 recipe Untie Balloons
@@ -69,6 +75,7 @@ recipe Untie Balloons
 
    	   Result:AuthenticBalloon_Blue=3,
 	   Time:50.0,
+	   StopOnWalk:false,	   
   	}
 recipe Untie Balloons
   	{
@@ -76,6 +83,7 @@ recipe Untie Balloons
 
    	   Result:AuthenticBalloon_Green=3,
 	   Time:50.0,
+	   StopOnWalk:false,
   	}
 recipe Untie Balloons
   	{
@@ -83,6 +91,7 @@ recipe Untie Balloons
 
    	   Result:AuthenticBalloon_Pink=3,
 	   Time:50.0,
+	   StopOnWalk:false,	
   	}
 recipe Untie Balloons
   	{
@@ -90,6 +99,7 @@ recipe Untie Balloons
 
    	   Result:AuthenticBalloon_Purple=3,
 	   Time:50.0,
+	   StopOnWalk:false,	   
   	}
 recipe Untie Balloons
   	{
@@ -97,6 +107,7 @@ recipe Untie Balloons
 
    	   Result:AuthenticBalloon_White=3,
 	   Time:50.0,
+	   StopOnWalk:false,	
   	}
 recipe Untie Balloons
   	{
@@ -104,6 +115,7 @@ recipe Untie Balloons
 
    	   Result:AuthenticBalloon_Red=3,
 	   Time:50.0,
+	   StopOnWalk:false,	
   	}
 recipe Untie Balloons
   	{
@@ -111,6 +123,63 @@ recipe Untie Balloons
 
    	   Result:AuthenticBalloon_Yellow=3,
 	   Time:50.0,
+	   StopOnWalk:false,	
   	}	
+recipe Activate Glowstick
+  	{
+   	   AuthenticGlowstick_Red,
 
+   	   Result:AuthenticGlowstick_Red_On,
+	   Time:75.0,
+	   StopOnWalk:false,	   
+  	}
+recipe Activate Glowstick
+  	{
+   	   AuthenticGlowstick_Green,
+
+   	   Result:AuthenticGlowstick_Green_On,
+	   Time:75.0,
+	   StopOnWalk:false,
+  	}
+recipe Activate Glowstick
+  	{
+   	   AuthenticGlowstick_Orange,
+
+   	   Result:AuthenticGlowstick_Orange_On,
+	   Time:75.0,
+	   StopOnWalk:false,
+  	}
+recipe Activate Glowstick
+  	{
+   	   AuthenticGlowstick_Blue,
+
+   	   Result:AuthenticGlowstick_Blue_On,
+	   Time:75.0,
+	   StopOnWalk:false,
+  	}
+recipe Activate Glowstick
+  	{
+   	   AuthenticGlowstick_Pink,
+
+   	   Result:AuthenticGlowstick_Pink_On,
+	   Time:75.0,
+	   StopOnWalk:false,
+  	}
+recipe Activate Glowstick
+  	{
+   	   AuthenticGlowstick_Purple,
+
+   	   Result:AuthenticGlowstick_Purple_On,
+	   Time:75.0,
+	   StopOnWalk:false,
+  	}
+recipe Activate Glowstick
+  	{
+   	   AuthenticGlowstick_Yellow,
+
+   	   Result:AuthenticGlowstick_Yellow_On,
+	   Time:75.0,
+	   StopOnWalk:false,
+  	}
+	
 }		
