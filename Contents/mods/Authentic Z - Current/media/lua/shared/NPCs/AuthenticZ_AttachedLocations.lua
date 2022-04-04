@@ -478,7 +478,7 @@ group:getOrCreateLocation("Webbing MeatCleaver Left_AZ"):setAttachmentName("Webb
 group:getOrCreateLocation("Webbing Waterbottle Left_AZ"):setAttachmentName("Webbing_Waterbottle_Left_AZ")
 group:getOrCreateLocation("Webbing Canteen Left_AZ"):setAttachmentName("Webbing_Canteen_Left_AZ")
 group:getOrCreateLocation("Webbing Military Flashlight Left_AZ"):setAttachmentName("Webbing_Flashlight_Left_AZ")
-group:getOrCreateLocation("Webbing Holster Left"):setAttachmentName("Webbing_Holster_Left")
+group:getOrCreateLocation("Webbing Holster Left_AZ"):setAttachmentName("Webbing_Holster_Left_AZ")
 
 group:getOrCreateLocation("Webbing Rope Right_AZ"):setAttachmentName("Webbing_Rope_Right_AZ")
 group:getOrCreateLocation("Webbing SheetRope Right_AZ"):setAttachmentName("Webbing_SheetRope_Right_AZ")

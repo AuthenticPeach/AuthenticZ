@@ -1142,6 +1142,7 @@ local ARVNPlushie = {
 		SpiffoPlushie = "Alicepack Plushie Spiffo",
 		Doll = "Alicepack Plushie Doll",
 		TeddyBear = "Alicepack Plushie TeddyBear",
+		RubberDuck = "Alicepack Plushie RubberDuck",
 	},
 }
 table.insert(ISHotbarAttachDefinition, ARVNPlushie);
