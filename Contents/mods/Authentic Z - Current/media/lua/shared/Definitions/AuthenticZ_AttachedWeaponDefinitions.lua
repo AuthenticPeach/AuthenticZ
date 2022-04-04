@@ -145,6 +145,19 @@ AttachedWeaponDefinitions.BoomMic = {
 	},
 }
 
+AttachedWeaponDefinitions.BouquetFlowers = {
+	id = "AZBouquetFlowers",
+	chance = 100,
+	outfit = {"AuthenticFuneralFormal","AuthenticFuneralCoat"},
+	weaponLocation = {"Left Hand", "Right Hand"},
+	bloodLocations = nil,
+	addHoles = false,
+	daySurvived = 0,
+	weapons = {
+    "AuthenticZClothing.Authentic_BouquetFlowers",
+	},
+}
+
 AttachedWeaponDefinitions.Broom = {
 	id = "AZBroom",
 	chance = 100,
@@ -1558,6 +1571,20 @@ AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticDRBradGarrison = {
 	maxitem = 2;
 	weapons = {
 		AttachedWeaponDefinitions.AuthenticDianneCaldwell,
+	},
+}
+AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticFuneralFormal = {
+	chance = 12;
+	maxitem = 2;
+	weapons = {
+		AttachedWeaponDefinitions.BouquetFlowers,
+	},
+}
+AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticFuneralCoat = {
+	chance = 12;
+	maxitem = 2;
+	weapons = {
+		AttachedWeaponDefinitions.BouquetFlowers,
 	},
 }
 AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticElderly = {

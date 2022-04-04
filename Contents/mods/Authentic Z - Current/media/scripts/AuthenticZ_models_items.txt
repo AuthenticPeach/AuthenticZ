@@ -660,6 +660,11 @@ module Base
 	{
 		mesh = PlushieOtisPugAZ,
 		texture = clothes\Items\PugPlushie,		
+	}
+	model RoseBouquet
+	{
+		mesh = Weapons/1Handed/AZRoseBouquet,
+		texture = clothes\Items\FuneralRose,		
 	}	
 	model SpiffoPlushieGrey
     {
@@ -983,6 +988,11 @@ module Base
 		mesh =  WorldItems/WorldItem_BoomMic,
 		texture = clothes\Items\BoomMicrophone,		
 	}
+	model WorldItem-FuneralRose
+	{
+		mesh =  WorldItems/WorldItem_RoseBouquet,
+		texture = clothes\Items\FuneralRose,		
+	}	
 	model WorldItem_BunnyTailAZ
     {
 		mesh = WorldItems/WorldItem_BunnyTail,

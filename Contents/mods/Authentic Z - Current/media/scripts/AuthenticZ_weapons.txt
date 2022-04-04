@@ -123,9 +123,48 @@ module AuthenticZClothing {
 		AttachmentType 				= 	BigWeapon,
 		WorldStaticModel 			= 	WorldItem-BoomMicrophone,
     }
+
+    item Authentic_BouquetFlowers
+    {
+	    DisplayCategory 			= 	Household,		
+        Weight						=	0.3,
+        Type						=	Weapon,
+        DisplayName					=	Bouquet of Flowers,
+        Icon						=	BouquetFlowersAZ,
+        StaticModel 				= 	RoseBouquet,
+        WeaponSprite				=	RoseBouquet,
+        MinAngle					=	0.1,
+        MinimumSwingTime			=	2,
+        KnockBackOnNoDeath			=	FALSE,
+        SwingAmountBeforeImpact		=	0.02,
+        Categories					=	Improvised;SmallBlunt,
+        ConditionLowerChanceOneIn	=	2,
+        SplatNumber					=	1,
+        PushBackMod					=	0.1,
+        SubCategory					=	Swinging,
+        ConditionMax				=	1,
+        MaxHitCount					=	2,
+        DoorDamage					=	1,
+        SwingAnim					=	Bat,
+        MinRange					=	0.14,
+        SwingTime					=	2,
+        KnockdownMod				=	0,
+        SplatBloodOnNoDeath			=	FALSE,
+        BreakSound  				=   BreakMetalItem,
+        TreeDamage  				=   0,
+        CriticalChance				=	1,
+        CritDmgMultiplier 			= 	1,
+        MinDamage					=	0.1,
+        MaxDamage					=	0.1,
+        BaseSpeed 					= 	1,
+        WeaponLength 				= 	0.1,		
+		AttachmentType 				= 	Walkie,
+		WorldStaticModel 			= 	WorldItem-FuneralRose,		
+    }	
+	
     item Authentic_CoffeeCup
     {
-        DisplayCategory = Junk,	
+        DisplayCategory 	= 	Junk,	
         Weight				=	0.2,
         Type				=	Weapon,
         DisplayName			=	Coffee Cup,
@@ -458,7 +497,7 @@ module AuthenticZClothing {
 	
     item AuthenticWalkingCaneMetal
 	{
-        DisplayCategory = Sports,
+        DisplayCategory 	=	Sports,
 		MaxRange			=	1.25,
 		WeaponSprite		=	AuthenticWalkingCaneMetal,
 		MinAngle			=	0.80,
@@ -1301,6 +1340,7 @@ module AuthenticZClothing {
 		Tags				= 	Write,
 		AttachmentType 		= 	AuthenticExplosive,		
 	}
+	
     item Authentic_Pills
     {
 	    DisplayCategory = FirstAid,		

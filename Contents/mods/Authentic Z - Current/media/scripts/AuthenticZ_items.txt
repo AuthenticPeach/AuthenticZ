@@ -537,7 +537,7 @@ module AuthenticZClothing {
 		DisplayCategory 		= 	Household,	
         Type					=	Normal,
         DisplayName				=	Pack of Glowsticks,
-        Icon					=	CandyPackagei,
+        Icon					=	GlowstickPack,
         Weight					=	0.4,
         StaticModel 			= 	GlowstickPack,
 		WorldStaticModel 		= 	WorldItem-GlowstickPack,			

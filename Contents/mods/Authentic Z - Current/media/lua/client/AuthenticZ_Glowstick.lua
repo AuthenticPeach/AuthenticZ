@@ -5,10 +5,13 @@ local LIGHT_RADIUS = 2;
 
 local lightByPlayer = {}
 
-function glowstick_color(player)
+function glowstick_color(item, player)
 
 local hand1 = player:getPrimaryHandItem()
 local hand2 = player:getSecondaryHandItem()
+local hand3 = self.fromHotbar
+local hotbar = getPlayerHotbar(self.character:getPlayerNum())
+
 --local hand3 = items:get(i)
 
 	if hand1 then 
@@ -84,8 +87,7 @@ local hand2 = player:getSecondaryHandItem()
 				lightByPlayer[player] = IsoLightSource.new(player:getX(), player:getY(), player:getZ(), 1.0, 0.0, 0.25, 4)
 				getCell():addLamppost(lightByPlayer[player])			
 	
-		else
-	--			getCell():removeLamppost(lightByPlayer[player])  
+		else 
 		end	
 	else
 
@@ -156,14 +158,31 @@ local hand2 = player:getSecondaryHandItem()
 				lightByPlayer[player] = IsoLightSource.new(player:getX(), player:getY(), player:getZ(), 1.0, 0.0, 0.25, 4)
 				getCell():addLamppost(lightByPlayer[player])					
 	--			getCell():removeLamppost(lightByPlayer[player]) 	
-
+		else
 		end	
 	else
-        local item_off = InventoryItemFactory.CreateItem("AuthenticGlowstick_Blank")
-        
-			player:setPrimaryHandItem(item_off);
-			getCell():removeLamppost(lightByPlayer[player])    -- Remove Blue Light	
 	end
+-	
+	if hand3 then
+	
+	if hand3:getType() == "AuthenticGlowstick_Blue_On"   then  -- BLUE
+		local slot = item:getAttachedSlot()
+	
+			if lightByPlayer[player] ~= nil then
+				lightByPlayer[player]:setActive(false)
+				getCell():removeLamppost(lightByPlayer[player])
+			end
+				
+				lightByPlayer[player] = IsoLightSource.new(player:getX(), player:getY(), player:getZ(), 0.0, 0.0, 1.0, 4)
+				getCell():addLamppost(lightByPlayer[player])	
+			
+		
+			
+		
+	else 		
+	end
+	else 
+end
 end
 --[[
 function saber_color2(items, result, player)

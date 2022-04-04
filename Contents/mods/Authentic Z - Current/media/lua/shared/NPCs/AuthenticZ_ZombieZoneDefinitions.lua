@@ -297,6 +297,7 @@ ZombiesZoneDefinition.Campgrounds= {
 ZombiesZoneDefinition.Cementery= {
 	Priest = {
 		name="Priest",
+		gender="male",		
 		chance=3,
 	},
 	AuthenticFuneralFormal = {
