@@ -5433,9 +5433,6 @@
 		<m_items> <!-- Maid Stockings -->
 			<itemGUID>87b757a3-932b-41a7-b3ff-58b9728fb017</itemGUID>
 		</m_items>		
-		<m_items> <!-- Pale Shoes -->
-			<itemGUID>74bd6c9d-5ec6-4445-ba65-3c46e6015ca6</itemGUID>
-		</m_items>
 		<m_items> <!-- Pearl Earrings -->
 			<itemGUID>5d9eec3d-7119-480e-8f8a-b7118463e482</itemGUID>
 		</m_items>

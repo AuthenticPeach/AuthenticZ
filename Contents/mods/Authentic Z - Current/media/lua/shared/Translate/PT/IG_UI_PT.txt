@@ -81,5 +81,11 @@ IGUI_PT = {
 	IGUI_HotbarAttachment_AZWebbingRight = "teia espaço direito",
 
 
-        IGUI_HotbarAttachment_DufflebagBalloonLeft = "Espaço balão",
-        IGUI_CraftCategory_Tailoring = "Costurar",
+    IGUI_HotbarAttachment_DufflebagBalloonLeft = "Espaço balão",
+    IGUI_CraftCategory_Tailoring = "Costurar",
+
+
+    IGUI_HotbarAttachment_HikingbagSleepingRoll = "Saco de dormir de campismo",
+	IGUI_HotbarAttachment_BigHikingbagSleepingRoll = "Grande saco de dormir de campismo",	
+	IGUI_HotbarAttachment_AlicepackSleepingRoll = "Saco de dormir Alicepack",
+}

@@ -293,13 +293,14 @@ module AuthenticZClothing {
     }
     item Dress_Dimitrescu
     {
-       DisplayCategory = Clothing,			
+        DisplayCategory = Clothing,			
         Type = Clothing,
         DisplayName = Lady Dimitrescu's Dress,
         ClothingItem = Dress_Dimitrescu,
         BodyLocation = FullSuit,
         BloodLocation = Trousers;Jumper,
         Icon = DressLongDimitrescu,
+		CanHaveHoles = false,
         RunSpeedModifier = 0.90,
         Insulation = 0.3,
         WindResistance = 0.2,

@@ -766,7 +766,7 @@ ItemName_EN = {
 	ItemName_AuthenticZClothing.Vest_BulletTagilla =  "Crye Precision AVS MBAV",
 	ItemName_AuthenticZClothing.Trousers_Tagilla = "Tactical Pants",
 	
-	/* New */	
+	/* Update 3-18-21 */	
 	ItemName_AuthenticZClothing.Shirt_CropTopLVCheerleader = "UoLV Cheerleader Top",
 	ItemName_AuthenticZClothing.Skirt_LVCheerleader = "UoLV Short Skirt",
 	ItemName_AuthenticZClothing.ReporterMicrophone_Media01 = "Press Reporter Microphone - Triple N",
