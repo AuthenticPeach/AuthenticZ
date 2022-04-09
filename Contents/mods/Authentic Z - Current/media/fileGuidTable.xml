@@ -4004,6 +4004,10 @@
 		<guid>45a49acf-b95e-4aa3-b842-ea7d37c040db</guid>
 	</files>
 	<files>
+		<path>media/clothing/clothingItems/ClownNoseTINT.xml</path>
+		<guid>062324f6-6c13-4c0c-a405-bbcb10827d51</guid>
+	</files>	
+	<files>
 		<path>media/clothing/clothingItems/ClownTop.xml</path>
 		<guid>44a20134-7d25-49a9-8cf6-11dda7b6a2eb</guid>
 	</files>

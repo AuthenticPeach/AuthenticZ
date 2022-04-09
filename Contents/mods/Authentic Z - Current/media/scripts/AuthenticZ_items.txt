@@ -1102,6 +1102,25 @@ module AuthenticZClothing {
 		WorldStaticModel 		= 	Authentic_PipeBomb,
         AttachmentType  		= 	AuthenticExplosive,			
 	}
+
+    item AuthenticRoadsideTriangle
+    {
+        DisplayCategory 		= 	LightSource,	
+        DisplayName				=	Roadside Triangle,
+        Icon					=	Glowstick-Grey,
+        Weight					=	0.2,
+		Type				=	Drainable,		
+		Weight				=	0.5,		
+		LightDistance		=	25,
+		DisappearOnUse		=	FALSE,
+		TorchCone			=	TRUE,
+		UseDelta			=	0.0005,
+		LightStrength		=	0.8,
+		ActivatedItem		=	TRUE,
+		MetalValue 			= 	10,
+		cantBeConsolided 	=	TRUE,		
+		WorldStaticModel 		= 	WorldItem_RoadsideTriangle,			
+    }
    
 	item AuthenticSmokeBomb
     {

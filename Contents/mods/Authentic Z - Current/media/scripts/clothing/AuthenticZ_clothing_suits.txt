@@ -305,7 +305,7 @@ module AuthenticZClothing {
         Insulation = 0.3,
         WindResistance = 0.2,
 		Tooltip = Tooltip_Dimitrescu,
-		WorldStaticModel = Dress_Long_Ground,
+		WorldStaticModel = WorldItem-LadyDimitrescuDress,
     }
     item Dress_Flower
     {

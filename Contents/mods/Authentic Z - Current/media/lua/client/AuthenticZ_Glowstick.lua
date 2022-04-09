@@ -1,6 +1,6 @@
 -- COLORED LIGHT FOR HOLDING OBJECT
 -- by NinjaWizard
-
+--[[
 local LIGHT_RADIUS = 2;
 
 local lightByPlayer = {}
@@ -9,8 +9,8 @@ function glowstick_color(item, player)
 
 local hand1 = player:getPrimaryHandItem()
 local hand2 = player:getSecondaryHandItem()
-local hand3 = self.fromHotbar
-local hotbar = getPlayerHotbar(self.character:getPlayerNum())
+--local hand3 = self.fromHotbar
+--local hotbar = getPlayerHotbar(self.character:getPlayerNum())
 
 --local hand3 = items:get(i)
 
@@ -162,7 +162,7 @@ local hotbar = getPlayerHotbar(self.character:getPlayerNum())
 		end	
 	else
 	end
--	
+--[[	
 	if hand3 then
 	
 	if hand3:getType() == "AuthenticGlowstick_Blue_On"   then  -- BLUE
@@ -182,7 +182,7 @@ local hotbar = getPlayerHotbar(self.character:getPlayerNum())
 	else 		
 	end
 	else 
-end
+end --]]
 end
 --[[
 function saber_color2(items, result, player)

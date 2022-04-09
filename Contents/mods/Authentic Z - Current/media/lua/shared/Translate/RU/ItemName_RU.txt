@@ -695,5 +695,3 @@ ItemName_RU = {
 	ItemName_AuthenticZClothing.Hat_BaseballCapWhite_Reverse = "Белая бейсболка",
 	ItemName_AuthenticZClothing.Hat_FastFood_Donut = "Шапочка продавца пончиков",
 }
-
-}

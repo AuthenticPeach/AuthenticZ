@@ -257,7 +257,20 @@ module AuthenticZClothing {
 		Cosmetic = TRUE,
 		ChanceToFall = 25,
 		WorldStaticModel = WorldItem-ClownNose,		
-	}	
+	}
+	item ClownNoseTINT
+	{
+       DisplayCategory = Clothing,		
+		Type = Clothing,
+		DisplayName = Clown Nose,
+		ClothingItem = ClownNoseTINT,
+		BodyLocation = Eyes,
+		Icon = ClownNoseWhite,
+		Weight = 0.1,
+		Cosmetic = TRUE,
+		ChanceToFall = 25,
+		WorldStaticModel = WorldItem-ClownNose,		
+	}		
 	item ClownTop
 	{
        DisplayCategory = Clothing,		
@@ -759,8 +772,10 @@ module AuthenticZClothing {
     {
        DisplayCategory = Accessory,		
 		Type = Clothing,
+		DisplayName = Lady Dimitrescu Zombie Skin,		
 		ClothingItem = Skin_White_Dimitrescu,
 		BodyLocation = TankTop,
+		Icon = CorpseSkin_F,		
     }	
     item Skin_White_Zed_W
     {

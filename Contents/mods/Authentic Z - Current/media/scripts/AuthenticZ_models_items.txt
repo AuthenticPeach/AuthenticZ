@@ -1053,6 +1053,11 @@ module Base
 		mesh = WorldItems/WorldItem_Cigarette,
 		texture = Cigarette,		
     }
+	model WorldItem-LadyDimitrescuDress
+    {
+		mesh = WorldItems/WorldItem_DressDimitrescu,
+		texture = clothes\dress_textures\LadyDimitrescuDress,		
+    }	
 	model WorldItem-DuelCap
     {
 		mesh = WorldItems/WorldItem_DuelCap,	
@@ -1126,6 +1131,11 @@ module Base
 		mesh = WorldItems/WorldItem_AZReporterMic,
 		texture = clothes\Items\ReporterMicALEX,		
 	}
+	model WorldItem_RoadsideTriangle
+	{
+		mesh = WorldItems/WorldItem_RoadsideTriangle,
+		texture = clothes\Items\RoadsideTriangle,		
+	}	
 	model WorldItem_UtilityBelt
     {
 		mesh = Skinned/Backpacks/WorldItem-UtilityBeltTactical,

@@ -2009,6 +2009,12 @@ local AuthenticMaid2 = {
 		gender="female",
 	};
 ZombiesZoneDefinition.HotelRich[AuthenticMaid2] = AuthenticMaid2;
+local AuthenticLadyD = {
+		name="AuthenticLadyD",
+		chance=1,
+		gender="female",
+	};
+ZombiesZoneDefinition.HotelRich[AuthenticLadyD] = AuthenticLadyD;
 local AuthenticDIPurnaJacksonM = {
 		name="AuthenticDIPurnaJacksonM",
 		chance=2,
