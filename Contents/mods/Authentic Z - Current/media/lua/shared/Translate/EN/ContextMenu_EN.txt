@@ -20,5 +20,8 @@ ContextMenu_EN = {
 	ContextMenu_WearNormally = "Wear on Head",	
 	
 	ContextMenu_WearShoeCovers = "Wear Shoe Covers",	
-	ContextMenu_TakeOffShoeCovers = "Take Off Shoe Covers",		
+	ContextMenu_TakeOffShoeCovers = "Take Off Shoe Covers",	
+
+	ContextMenu_TipHatBack = "Tip Hat Back",	
+	ContextMenu_TipHatForward = "Tip Hat Forward",		
 } 

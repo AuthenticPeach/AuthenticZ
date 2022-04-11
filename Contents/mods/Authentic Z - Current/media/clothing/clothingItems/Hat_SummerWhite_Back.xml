@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media\models_X\Static\Clothes\LadyDHat_Back.FBX</m_MaleModel>
+	<m_FemaleModel>media\models_X\Static\Clothes\LadyDHat_Back.FBX</m_FemaleModel>
+	<m_GUID>a962d788-f35e-40d8-846c-64c985b3a6f7</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone>Bip01_Head</m_AttachBone>
+	<m_MasksFolder>media/textures/Clothes/Hat/Masks</m_MasksFolder>
+	<textureChoices>clothes\Hats\SummerHatWhite</textureChoices>
+</clothingItem>

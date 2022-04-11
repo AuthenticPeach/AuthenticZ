@@ -4410,6 +4410,10 @@
 	<files>
 		<path>media/clothing/clothingItems/Hat_Dimitrescu.xml</path>
 		<guid>f64de544-9a94-456c-9676-7e70817179c9</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Hat_Dimitrescu_Back.xml</path>
+		<guid>ef684ea0-4943-4e78-aeb6-1ba1d130faa8</guid>
 	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Hat_DRLegoHead.xml</path>
@@ -4494,6 +4498,14 @@
 	<files>
 		<path>media/clothing/clothingItems/Hat_Nurse.xml</path>
 		<guid>ac4a488f-2bbc-4337-8e45-ec522e747bbd</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Hat_RuneDuel.xml</path>
+		<guid>75a3d8e2-60e2-480a-909e-fdcbc872f317</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Hat_RuneDuel_Back.xml</path>
+		<guid>fd8efb68-986f-42be-b964-6223c1c96489</guid>
 	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Hat_StovePipe.xml</path>
@@ -4502,6 +4514,10 @@
 	<files>
 		<path>media/clothing/clothingItems/Hat_SummerWhite.xml</path>
 		<guid>165d60a9-9ca1-4c71-a467-deb9ba793941</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Hat_SummerWhite_Back.xml</path>
+		<guid>a962d788-f35e-40d8-846c-64c985b3a6f7</guid>
 	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Hat_SweatbandRBW.xml</path>
@@ -4534,10 +4550,6 @@
 	<files>
 		<path>media/clothing/clothingItems/Hat_WeddingVeilBlue.xml</path>
 		<guid>28cadbe0-cf32-4eb0-937b-5ab48070675f</guid>
-	</files>
-	<files>
-		<path>media/clothing/clothingItems/Hat_RuneDuel.xml</path>
-		<guid>75a3d8e2-60e2-480a-909e-fdcbc872f317</guid>
 	</files>
 	<files>
 		<path>media/clothing/clothingItems/Hat_TagillaMask.xml</path>

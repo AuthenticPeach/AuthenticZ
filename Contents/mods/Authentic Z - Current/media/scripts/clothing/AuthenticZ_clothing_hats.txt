@@ -896,19 +896,11 @@ module AuthenticZClothing {
 	}	
 	item Hat_DeathMask
 	{
-	    DisplayCategory = Accessory,	
 		Type = Clothing,
-		DisplayName = Death Mask,
 		ClothingItem = Hat_DeathMask,
 		BodyLocation = MaskEyes,
-		Icon = HockeyMask,
-		CanHaveHoles = false,
 		BloodLocation = Head,
-        BiteDefense = 30,
-        ScratchDefense = 50,
-        ChanceToFall = 30,
-        Insulation = 0.25,
-        WindResistance = 0.55,
+		OBSOLETE = TRUE,
 	}
 	item Hat_Dimitrescu
 	{
@@ -916,13 +908,30 @@ module AuthenticZClothing {
 		Type = Clothing,
 		DisplayName = Lady Dimitrescu's Hat,
 		ClothingItem = Hat_Dimitrescu,
+        ClothingItemExtra = AuthenticZClothing.Hat_Dimitrescu_Back,
+        ClothingItemExtraOption = TipHatBack,			
 		BodyLocation = Hat,
-		IconsForTexture = HatDimitrescu,
+		Icon = HatDimitrescu,
 		CanHaveHoles = false,
         Insulation = 0.3,
         WindResistance = 0.2,
         BloodLocation = Head,
-	}	
+	}
+	item Hat_Dimitrescu_Back
+	{
+	    DisplayCategory = Accessory,	
+		Type = Clothing,
+		DisplayName = Lady Dimitrescu's Hat,
+		ClothingItem = Hat_Dimitrescu_Back,
+        ClothingItemExtra = AuthenticZClothing.Hat_Dimitrescu,
+        ClothingItemExtraOption = TipHatForward,			
+		BodyLocation = Hat,
+		Icon = HatDimitrescu,
+		CanHaveHoles = false,
+        Insulation = 0.3,
+        WindResistance = 0.2,
+        BloodLocation = Head,
+	}		
 	item Hat_DRLegoHead
 	{
 	    DisplayCategory = Accessory,	
@@ -1257,6 +1266,24 @@ module AuthenticZClothing {
         ClothingItem 	 = Hat_RuneDuel,
         BodyLocation 	 = Hat,
         IconsForTexture  = DuelistCap;DuelistCapBlue;DuelistCapGrey,
+        ClothingItemExtra = AuthenticZClothing.Hat_RuneDuel_Back,
+        ClothingItemExtraOption = TipHatBack,		
+        CanHaveHoles 	 = false,
+        ChanceToFall 	 = 80,
+        Insulation 		 = 0.10,
+        Weight 			 = 0.5,
+		WorldStaticModel = WorldItem-DuelCap,
+    }	
+    item Hat_RuneDuel_Back
+    {
+	    DisplayCategory  = Accessory,	
+        Type 			 = Clothing,
+        DisplayName 	 = Fantasy Duelist Hat,
+        ClothingItem 	 = Hat_RuneDuel_Back,
+        BodyLocation 	 = Hat,
+        IconsForTexture  = DuelistCap;DuelistCapBlue;DuelistCapGrey,
+        ClothingItemExtra = AuthenticZClothing.Hat_RuneDuel,
+        ClothingItemExtraOption = TipHatForward,		
         CanHaveHoles 	 = false,
         ChanceToFall 	 = 80,
         Insulation 		 = 0.10,
@@ -1283,13 +1310,30 @@ module AuthenticZClothing {
 		Type = Clothing,
 		DisplayName = White Summer Hat,
 		ClothingItem = Hat_SummerWhite,
+        ClothingItemExtra = AuthenticZClothing.Hat_SummerWhite_Back,
+        ClothingItemExtraOption = TipHatBack,			
 		BodyLocation = Hat,
 		IconsForTexture = HatLillieWhite,
 		CanHaveHoles = false,
         Insulation = 0.3,
         WindResistance = 0.2,
         BloodLocation = Head,
-	}			
+	}
+	item Hat_SummerWhite_Back
+	{
+	    DisplayCategory = Accessory,	
+		Type = Clothing,
+		DisplayName = White Summer Hat,
+		ClothingItem = Hat_SummerWhite_Back,
+        ClothingItemExtra = AuthenticZClothing.Hat_SummerWhite,
+        ClothingItemExtraOption = TipHatForward,		
+		BodyLocation = Hat,
+		IconsForTexture = HatLillieWhite,
+		CanHaveHoles = false,
+        Insulation = 0.3,
+        WindResistance = 0.2,
+        BloodLocation = Head,
+	}	
 	item Hat_SweatbandRBW
 	{
 		DisplayCategory = Accessory,
