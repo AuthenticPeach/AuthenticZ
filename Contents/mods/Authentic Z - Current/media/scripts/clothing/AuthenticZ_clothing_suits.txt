@@ -542,12 +542,14 @@ module AuthenticZClothing {
     }
     item HazmatSuit2
     {
-       DisplayCategory = Clothing,			
+        DisplayCategory = Clothing,			
         Type = Clothing,
         DisplayName = Hazmat Suit,
         ClothingItem = HazmatSuit2,
         BodyLocation = FullSuitHead,
         BloodLocation = Trousers;Jumper,
+        ClothingItemExtra = AuthenticZClothing.HazmatSuit2NoShoes,
+        ClothingItemExtraOption = TakeOffShoeCovers,			
         Icon = Hazmatsuit,
         RunSpeedModifier = 0.75,
         ScratchDefense = 15,
@@ -555,7 +557,25 @@ module AuthenticZClothing {
         Insulation = 0.65,
         WindResistance = 0.9,
         WorldStaticModel = Hazmat_Ground,
-    }	
+    }
+    item HazmatSuit2NoShoes
+    {
+       DisplayCategory = Clothing,			
+        Type = Clothing,
+        DisplayName = Hazmat Suit,
+        ClothingItem = HazmatSuit2NoShoes,
+        BodyLocation = FullSuitHead,
+        BloodLocation = Trousers;Jumper,
+        ClothingItemExtra = AuthenticZClothing.HazmatSuit2,
+        ClothingItemExtraOption = WearShoeCovers,			
+        Icon = Hazmatsuit,
+        RunSpeedModifier = 0.98,
+        ScratchDefense = 15,
+        BiteDefense = 5,
+        Insulation = 0.65,
+        WindResistance = 0.9,
+        WorldStaticModel = Hazmat_Ground,
+    }		
     item Mime_Overalls
     {
        DisplayCategory = Clothing,			

@@ -4564,6 +4564,10 @@
 		<guid>32bf5f44-ef49-47e2-9ff6-5147951d52ae</guid>
 	</files>
 	<files>
+		<path>media/clothing/clothingItems/HazmatSuit2NoShoes.xml</path>
+		<guid>b571c9f7-c7b4-4c97-aa39-efffdb97766c</guid>
+	</files>	
+	<files>
 		<path>media/clothing/clothingItems/HazmatSuitCEDA.xml</path>
 		<guid>a920d2dd-414f-44fe-ba15-4553a28c4b6b</guid>
 	</files>

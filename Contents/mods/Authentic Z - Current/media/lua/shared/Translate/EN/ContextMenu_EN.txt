@@ -15,4 +15,10 @@ ContextMenu_EN = {
 	
 	ContextMenu_AfroPick = "Wear for Big Hair",	
 	ContextMenu_AfroPick2 = "Wear for Small Hair",	
+	
+	ContextMenu_HatsOnHats = "Wear Hat on Hat",	
+	ContextMenu_WearNormally = "Wear on Head",	
+	
+	ContextMenu_WearShoeCovers = "Wear Shoe Covers",	
+	ContextMenu_TakeOffShoeCovers = "Take Off Shoe Covers",		
 } 
