@@ -1086,6 +1086,7 @@ module AuthenticZClothing {
         ChanceToFall = 80,
         Insulation = 0.10,
         Weight = 0.5,
+		WorldStaticModel = WorldItem_Gibus,			
     }
     item Hat_Gibus2
     {
@@ -1101,6 +1102,7 @@ module AuthenticZClothing {
         ChanceToFall = 80,
         Insulation = 0.10,
         Weight = 0.5,
+		WorldStaticModel = WorldItem_Gibus,		
     }	
 	item Hat_Grimes
 	{

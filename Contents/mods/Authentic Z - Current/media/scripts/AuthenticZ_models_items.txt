@@ -1062,6 +1062,11 @@ module Base
     {
 		mesh = WorldItems/WorldItem_DuelCap,	
     }
+	model WorldItem_Gibus
+	{
+		mesh = WorldItems/WorldItem_Gibus,
+		texture = clothes\Hats\Gibus,		
+	}
 	model WorldItem_FlamingoPlushie
 	{
 		mesh = WorldItems/WorldItem_FlamingoPlushie,

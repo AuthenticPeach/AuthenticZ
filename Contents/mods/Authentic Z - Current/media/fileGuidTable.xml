@@ -5276,6 +5276,10 @@
 		<guid>725cf8ef-b572-4627-b59a-53c30c2c23ea</guid>
 	</files>
 	<files>
+		<path>media/clothing/clothingItems/Shoes_ClownPolka.xml</path>
+		<guid>c1d1bb73-02ed-4885-b2ce-d89f67039d34</guid>
+	</files>	
+	<files>
 		<path>media/clothing/clothingItems/Shoes_BillMurray.xml</path>
 		<guid>a4e56057-6eee-4453-96f4-12613ee1a25f</guid>
 	</files>	
