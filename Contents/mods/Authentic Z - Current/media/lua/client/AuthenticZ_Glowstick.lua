@@ -1,6 +1,6 @@
 -- COLORED LIGHT FOR HOLDING OBJECT
 -- by NinjaWizard
---[[
+
 local LIGHT_RADIUS = 2;
 
 local lightByPlayer = {}
