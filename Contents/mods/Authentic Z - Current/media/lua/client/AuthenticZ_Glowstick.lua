@@ -306,7 +306,7 @@ function glowstick_switch(key)
 end
 
 
-Events.OnKeyPressed.Add(glowstick_switch)
+Events.OnKeyPressed.Add(glowstick_switch);
 Events.OnPlayerUpdate.Add(glowstick_color);
 --Events.OnPlayerUpdate.Add(saber_color2);
 
