@@ -4570,6 +4570,10 @@
 	<files>
 		<path>media/clothing/clothingItems/Hat_Witchy_2.xml</path>
 		<guid>afa17cee-93fc-4949-922f-8272bcf59fcd</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Hat_Witchy_2_Back.xml</path>
+		<guid>222b5d9e-9c56-41d7-9ea9-54fb216b25f5</guid>
 	</files>	
 	<files>
 		<path>media/clothing/clothingItems/HazmatSuit2.xml</path>

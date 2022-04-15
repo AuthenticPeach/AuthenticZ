@@ -1273,6 +1273,11 @@ module Base
 		mesh = WorldItems/WorldItem_TrueEyeCultMask,
 		texture = clothes\Masks\TrueEyeCult,
     }
+	model WorldItem-Witchy2Hat
+    {
+		mesh = WorldItems/WorldItem_WitchyHat2,
+		texture = clothes\Hats\Witchy2Hat,
+    }	
 	model WorldItem-AuthenticTV110
 	{
 		mesh = WorldItems/WorldItem_AZ_TV110,
