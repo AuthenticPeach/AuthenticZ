@@ -1062,6 +1062,16 @@ module Base
     {
 		mesh = WorldItems/WorldItem_DuelCap,	
     }
+	model WorldItem_LadyDSummerHat
+    {
+		mesh = WorldItems/WorldItem-LadyDHat,
+		texture = clothes\Hats\SummerHatWhite,		
+    }	
+	model WorldItem_LadyDHat
+    {
+		mesh = WorldItems/WorldItem-LadyDHat,
+		texture = clothes\Hats\SummerHatBlack,		
+    }		
 	model WorldItem_Gibus
 	{
 		mesh = WorldItems/WorldItem_Gibus,

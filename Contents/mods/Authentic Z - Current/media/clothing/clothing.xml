@@ -9301,8 +9301,8 @@
 		<m_items> <!-- Cigarette -->
 			<itemGUID>410485f1-a2d9-4936-bc38-2deb0c9d0ec5</itemGUID> 
 		</m_items>		
-		<m_items> <!-- Navy Blue Suit Pants -->
-			<itemGUID>bd1f51ec-22ef-4bb7-a7da-b09bc3c0e331</itemGUID>
+		<m_items> <!-- Joker Suit Pants -->
+			<itemGUID>0b5f0e20-c2ad-4539-82bd-fdff8d5baa50</itemGUID>
 		</m_items>
 		<m_items> <!-- Long Socks -->
 			<itemGUID>fb86bd5f-1931-4b24-a5d7-bd6a43769991</itemGUID>
@@ -9310,14 +9310,14 @@
 		<m_items> <!-- Shoes -->
 			<itemGUID>593bea3d-c127-4574-ac1e-2197dc56e486</itemGUID>
 		</m_items>
-		<m_items> <!-- Tie -->
-			<itemGUID>dd850db6-d8db-4881-a4ae-e0e10c09744d</itemGUID>
+		<m_items> <!-- Red Tie-->
+			<itemGUID>b7a21a90-03ca-4c52-b65e-11a245fb53bb</itemGUID>
 		</m_items>
 		<m_items> <!-- White Formal shirt -->
 			<itemGUID>ac7976de-2c73-44ea-9392-5d24ac1fb649</itemGUID>
 		</m_items>
-		<m_items> <!-- Suit Jacket -->
-			<itemGUID>f56d9112-e74a-4d9c-b371-8235f9badbf5</itemGUID>
+		<m_items> <!-- Joker Suit Jacket -->
+			<itemGUID>59dd8d97-af02-4848-addc-be91d0f39fc7</itemGUID>
 		</m_items>
 		<m_items> <!-- Balaclava Red -->
 			<itemGUID>29217be2-42aa-44b7-9582-73dbf88b3bf8</itemGUID>

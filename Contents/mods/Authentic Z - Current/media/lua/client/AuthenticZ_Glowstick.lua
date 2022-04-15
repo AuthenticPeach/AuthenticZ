@@ -2,15 +2,12 @@
 -- by NinjaWizard
 
 local LIGHT_RADIUS = 2;
-
 local lightByPlayer = {}
 
-function glowstick_color(item, player)
+function glowstick_color(player)
 
 local hand1 = player:getPrimaryHandItem()
 local hand2 = player:getSecondaryHandItem()
---local hand3 = self.fromHotbar
---local hotbar = getPlayerHotbar(self.character:getPlayerNum())
 
 --local hand3 = items:get(i)
 

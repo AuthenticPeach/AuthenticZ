@@ -916,6 +916,7 @@ module AuthenticZClothing {
         Insulation = 0.3,
         WindResistance = 0.2,
         BloodLocation = Head,
+		WorldStaticModel = WorldItem_LadyDHat,	
 	}
 	item Hat_Dimitrescu_Back
 	{
@@ -931,6 +932,7 @@ module AuthenticZClothing {
         Insulation = 0.3,
         WindResistance = 0.2,
         BloodLocation = Head,
+		WorldStaticModel = WorldItem_LadyDHat,			
 	}		
 	item Hat_DRLegoHead
 	{
@@ -1320,6 +1322,7 @@ module AuthenticZClothing {
         Insulation = 0.3,
         WindResistance = 0.2,
         BloodLocation = Head,
+		WorldStaticModel = WorldItem_LadyDSummerHat,			
 	}
 	item Hat_SummerWhite_Back
 	{
@@ -1335,6 +1338,7 @@ module AuthenticZClothing {
         Insulation = 0.3,
         WindResistance = 0.2,
         BloodLocation = Head,
+		WorldStaticModel = WorldItem_LadyDSummerHat,			
 	}	
 	item Hat_SweatbandRBW
 	{
