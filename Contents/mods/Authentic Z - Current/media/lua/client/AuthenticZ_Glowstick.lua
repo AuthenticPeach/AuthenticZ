@@ -1,5 +1,4 @@
 -- COLORED LIGHT FOR HOLDING OBJECT
--- by NinjaWizard
 
 local LIGHT_RADIUS = 2;
 local lightByPlayer = {}
@@ -8,8 +7,20 @@ function glowstick_color(player)
 
 local hand1 = player:getPrimaryHandItem()
 local hand2 = player:getSecondaryHandItem()
+local hand3 = nil
 
---local hand3 = items:get(i)
+local plHotbar = getPlayerHotbar(player:getPlayerNum());
+if plHotbar ~= nil then
+	local inv = player:getInventory():getItems()
+	for i=1, inv:size() do
+		local item = inv:get(i-1)
+		if plHotbar:isInHotbar(item) and item:getAttachmentType() and item:getAttachedSlot() ~= -1 then
+			hand3 = item
+			break
+		end
+	end	
+end
+
 
 	if hand1 then 
 	
@@ -159,27 +170,77 @@ local hand2 = player:getSecondaryHandItem()
 		end	
 	else
 	end
---[[	
-	if hand3 then
+	if hand3 then 
 	
-	if hand3:getType() == "AuthenticGlowstick_Blue_On"   then  -- BLUE
-		local slot = item:getAttachedSlot()
+		if hand3:getType() == "AuthenticGlowstick_Blue_On"    then  -- Blue  
 	
 			if lightByPlayer[player] ~= nil then
 				lightByPlayer[player]:setActive(false)
 				getCell():removeLamppost(lightByPlayer[player])
-			end
-				
+			end				
 				lightByPlayer[player] = IsoLightSource.new(player:getX(), player:getY(), player:getZ(), 0.0, 0.0, 1.0, 4)
-				getCell():addLamppost(lightByPlayer[player])	
-			
-		
-			
-		
-	else 		
+				getCell():addLamppost(lightByPlayer[player])
+	
+		elseif hand3:getType() == "AuthenticGlowstick_Red_On" then  -- RED
+	
+			if lightByPlayer[player] ~= nil then
+				lightByPlayer[player]:setActive(false)
+				getCell():removeLamppost(lightByPlayer[player])
+			end		
+				lightByPlayer[player] = IsoLightSource.new(player:getX(), player:getY(), player:getZ(), 1.0, 0.0, 0.0, 4)
+				getCell():addLamppost(lightByPlayer[player])
+				
+		elseif hand3:getType() == "AuthenticGlowstick_Green_On" then  -- Green
+	
+			if lightByPlayer[player] ~= nil then
+				lightByPlayer[player]:setActive(false)
+				getCell():removeLamppost(lightByPlayer[player])
+			end		
+				lightByPlayer[player] = IsoLightSource.new(player:getX(), player:getY(), player:getZ(), 0.0, 1.0, 0.0, 4)
+				getCell():addLamppost(lightByPlayer[player])
+				
+		elseif hand3:getType() == "AuthenticGlowstick_Purple_On" then  -- Purple
+	
+			if lightByPlayer[player] ~= nil then
+				lightByPlayer[player]:setActive(false)
+				getCell():removeLamppost(lightByPlayer[player])
+			end		
+				lightByPlayer[player] = IsoLightSource.new(player:getX(), player:getY(), player:getZ(), 1.0, 0.0, 1.0, 4)
+				getCell():addLamppost(lightByPlayer[player])
+				
+		elseif hand3:getType() == "AuthenticGlowstick_Yellow_On" then  -- Yellow
+	
+			if lightByPlayer[player] ~= nil then
+				lightByPlayer[player]:setActive(false)
+				getCell():removeLamppost(lightByPlayer[player])
+			end		
+				lightByPlayer[player] = IsoLightSource.new(player:getX(), player:getY(), player:getZ(), 1.0, 1.0, 0.0, 4)
+				getCell():addLamppost(lightByPlayer[player])
+				
+		elseif hand3:getType() == "AuthenticGlowstick_Orange_On" then  -- Orange
+	
+			if lightByPlayer[player] ~= nil then
+				lightByPlayer[player]:setActive(false)
+				getCell():removeLamppost(lightByPlayer[player])
+			end		
+				lightByPlayer[player] = IsoLightSource.new(player:getX(), player:getY(), player:getZ(), 1.0, 0.50, 0.0, 4)
+				getCell():addLamppost(lightByPlayer[player])					
+	--			getCell():removeLamppost(lightByPlayer[player]) 
+	
+		elseif hand3:getType() == "AuthenticGlowstick_Pink_On" then  -- Pink
+	
+			if lightByPlayer[player] ~= nil then
+				lightByPlayer[player]:setActive(false)
+				getCell():removeLamppost(lightByPlayer[player])
+			end		
+				lightByPlayer[player] = IsoLightSource.new(player:getX(), player:getY(), player:getZ(), 1.0, 0.0, 0.25, 4)
+				getCell():addLamppost(lightByPlayer[player])					
+	--			getCell():removeLamppost(lightByPlayer[player]) 	
+		else
+		end	
+	else
 	end
-	else 
-end --]]
+	
 end
 --[[
 function saber_color2(items, result, player)
@@ -204,8 +265,10 @@ end
 --]]
 function glowstick_switch(key)
   local player = getPlayer()    
-  
-  
+ 
+--	local playerInv = self.character:getInventory()
+--	return playerInv:contains(self.coal) 
+  --playerInv:contains(self.coal)
     if key == Keyboard.KEY_6 then  -- activate lightsaber
       
 	  
