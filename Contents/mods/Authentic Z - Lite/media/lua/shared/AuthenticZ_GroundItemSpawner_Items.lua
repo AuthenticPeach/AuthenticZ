@@ -3,7 +3,7 @@ GroundItemSpawnerItems = GroundItemSpawnerItems or {};
 -- Spawn the Costume Store Sign
 table.insert(GroundItemSpawnerItems, {
     -- The Full Item Type to spawn
-    itemFullType = "AuthenticZClothing.PZAZ_CostumeStoreSign",
+    itemFullType = "AuthenticZLite.PZAZ_CostumeStoreSign",
 
     -- The world position to spawn at
     x = 12587,

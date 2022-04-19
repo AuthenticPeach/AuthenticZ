@@ -21,39 +21,6 @@ function AuthenticTorchBatteryRemoval_OnCreate(items, result, player)
 	end
 end
 
--- check when refilling the blowtorch that blowtorch is not full and propane tank not empty
-function AZRecipe.OnTest.RefillBlowTorchAZ(item)
-    if item:getType() == "AuthenticZClothing.BlowTorch" then
-        if item:getUsedDelta() == 1 then return false; end
-    elseif item:getType() == "PropaneTank" then
-        if item:getUsedDelta() == 0 then return false; end
-    end
-    return true;
-end
-
--- Fill entirely the blowtorch with the remaining propane
-function AZRecipe.OnCreate.RefillBlowTorchAZ(items, result, player)
-    local previousBT = nil;
-    local propaneTank = nil;
-    for i=0, items:size()-1 do
-       if items:get(i):getType() == "AuthenticZClothing.BlowTorch" then
-           previousBT = items:get(i);
-       elseif items:get(i):getType() == "PropaneTank" then
-           propaneTank = items:get(i);
-       end
-    end
-    result:setUsedDelta(previousBT:getUsedDelta() + result:getUseDelta() * 30);
-
-    while result:getUsedDelta() < 1 and propaneTank:getUsedDelta() > 0 do
-        result:setUsedDelta(result:getUsedDelta() + result:getUseDelta() * 30);
-        propaneTank:Use();
-    end
-
-    if result:getUsedDelta() > 1 then
-        result:setUsedDelta(1);
-    end
-end
-
 -- Return true if AZRecipe is valid, false otherwise
 function AuthenticTorchBatteryInsert_TestIsValid(sourceItem, result)
 		if sourceItem:getType() == "Torch2" or sourceItem:getType() == "HandTorch2" or sourceItem:getType() == "Authentic_MinerLightbulb" or sourceItem:getType() == "Authentic_MilitaryFlashlightGrey" or sourceItem:getType() == "Authentic_MilitaryFlashlightGreen" then

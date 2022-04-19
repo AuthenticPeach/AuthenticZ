@@ -1,10 +1,24 @@
-module AuthenticZClothing {
+module AuthenticZLite {
   imports {
       Base
   }
+	item Blue_LongJohns
+    {
+        DisplayCategory = Clothing,			
+        Type = Clothing,
+        DisplayName = Blue Long Johns,
+        ClothingItem = Blue_LongJohns,
+        BodyLocation = Torso1Legs1,
+        BloodLocation = Trousers;ShirtLongSleeves,
+        Icon = LongjohnsBlue,
+        Insulation = 0.3,
+        WindResistance = 0.15,
+        FabricType = Cotton,
+		WorldStaticModel = BoilerSuit_Ground,
+    }  
     item Boilersuit_BigDaddy
     {
-       DisplayCategory = Clothing,		
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Big Daddy's Coveralls,
         ClothingItem = Boilersuit_BigDaddy,
@@ -20,18 +34,18 @@ module AuthenticZClothing {
     }
     item Boilersuit_BlackMamba
     {
-       DisplayCategory = Clothing,			
-        Type = Clothing,
-        DisplayName = Uma's Coveralls,
-        ClothingItem = Boilersuit_BlackMamba,
-        BodyLocation = FullSuit,
-        Icon = BoilerSuitUma,
-        BloodLocation = Trousers;Jumper,
+        DisplayCategory  = Clothing,			
+        Type 			 = Clothing,
+        DisplayName 	 = Uma's Coveralls,
+        ClothingItem 	 = Boilersuit_BlackMamba,
+        BodyLocation 	 = FullSuit,
+        Icon 			 = BoilerSuitUma,
+        BloodLocation 	 = Trousers;Jumper,
         RunSpeedModifier = 0.9,
-        ScratchDefense = 10,
-        Insulation = 0.45,
-        WindResistance = 0.35,
-        FabricType = Leather,
+        ScratchDefense 	 = 10,
+        Insulation 		 = 0.45,
+        WindResistance 	 = 0.35,
+        FabricType 		 = Leather,
 		WorldStaticModel = BoilerSuit_Ground,
     }	
     item Boilersuit_CrossingGuard
@@ -52,7 +66,7 @@ module AuthenticZClothing {
     }
     item Boilersuit_PrisonerClassic
     {
-       DisplayCategory = Clothing,			
+        DisplayCategory = Clothing,			
         Type = Clothing,
         DisplayName = Classic Prisoner Jumpsuit,
         ClothingItem = Boilersuit_PrisonerClassic,
@@ -68,7 +82,7 @@ module AuthenticZClothing {
     }
     item Boilersuit_GhostbustersSpengler
     {
-       DisplayCategory = Clothing,			
+        DisplayCategory = Clothing,			
         Type = Clothing,
         DisplayName = Ghostbuster Coveralls,
         ClothingItem = Boilersuit_GhostbustersSpengler,
@@ -85,7 +99,7 @@ module AuthenticZClothing {
     }
     item Boilersuit_GhostbustersStantz
     {
-       DisplayCategory = Clothing,			
+        DisplayCategory = Clothing,			
         Type = Clothing,
         DisplayName = Ghostbuster Coveralls,
         ClothingItem = Boilersuit_GhostbustersStantz,
@@ -102,7 +116,7 @@ module AuthenticZClothing {
     }
     item Boilersuit_GhostbustersVenkman
     {
-       DisplayCategory = Clothing,			
+        DisplayCategory = Clothing,			
         Type = Clothing,
         DisplayName = Ghostbuster Coveralls,
         ClothingItem = Boilersuit_GhostbustersVenkman,
@@ -119,7 +133,7 @@ module AuthenticZClothing {
     }
     item Boilersuit_GhostbustersZeddemore
     {
-       DisplayCategory = Clothing,			
+        DisplayCategory = Clothing,			
         Type = Clothing,
         DisplayName = Ghostbuster Coveralls,
         ClothingItem = Boilersuit_GhostbustersZeddemore,
@@ -136,7 +150,7 @@ module AuthenticZClothing {
     }
     item Boilersuit_Halloween
     {
-       DisplayCategory = Clothing,			
+        DisplayCategory = Clothing,			
         Type = Clothing,
         DisplayName = Halloween Coveralls,
         ClothingItem = Boilersuit_Halloween,
@@ -152,7 +166,7 @@ module AuthenticZClothing {
     }
     item Boilersuit_Pennywise
     {
-       DisplayCategory = Clothing,			
+        DisplayCategory = Clothing,			
         Type = Clothing,
         DisplayName = Pennywise's Gown,
         ClothingItem = Boilersuit_Pennywise,
@@ -167,7 +181,7 @@ module AuthenticZClothing {
     }
     item Boilersuit_PrisonerClassic
     {
-       DisplayCategory = Clothing,			
+        DisplayCategory = Clothing,			
         Type = Clothing,
         DisplayName = Classic Prisoner Jumpsuit,
         ClothingItem = Boilersuit_PrisonerClassic,
@@ -183,7 +197,7 @@ module AuthenticZClothing {
     }
     item BunnyTail
     {
-       DisplayCategory = Clothing,			
+        DisplayCategory = Clothing,			
         Type = Clothing,
         DisplayName = Bunny Tail,
         ClothingItem = BunnyTailAZ,
@@ -194,7 +208,7 @@ module AuthenticZClothing {
     }	
     item Clown_Coveralls
     {
-       DisplayCategory = Clothing,		
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Clown Coveralls,
         ClothingItem = Clown_Coveralls,
@@ -213,108 +227,370 @@ module AuthenticZClothing {
     }
     item CEDAHazmatSuit
     {
-       DisplayCategory = Clothing,			
+        DisplayCategory = Clothing,			
         Type = Clothing,
-        DisplayName = Green CEDA Hazmat Suit,
+        DisplayName = CEDA Hazmat Suit,
         ClothingItem = HazmatSuitCEDA,
         BodyLocation = FullSuitHead,
         BloodLocation = Trousers;Jumper,
+        ClothingItemExtra = AuthenticZLite.HazmatSuitCEDANoShoes;AuthenticZLite.HazmatSuitCEDANoMask;AuthenticZLite.HazmatSuitCEDANoMaskNoShoes,
+        ClothingItemExtraOption = TakeOffShoeCovers;TakeOffMask;TakeOffShoeCoversAndMask,			
         Icon = CEDAHazmatsuit,
         RunSpeedModifier = 0.75,
         ScratchDefense = 15,
         BiteDefense = 5,
         Insulation = 0.65,
         WindResistance = 0.9,
-		WorldStaticModel = Hazmat_Ground,
+        WorldStaticModel = Hazmat_Ground,
     }
+    item HazmatSuitCEDANoShoes
+    {
+       DisplayCategory = Clothing,			
+        Type = Clothing,
+        DisplayName = CEDA Hazmat Suit,
+        ClothingItem = HazmatSuitCEDANoShoes,
+        BodyLocation = FullSuitHead,
+        BloodLocation = Trousers;Jumper,
+        ClothingItemExtra = AuthenticZLite.CEDAHazmatSuit;AuthenticZLite.HazmatSuitCEDANoMask;AuthenticZLite.HazmatSuitCEDANoMaskNoShoes,
+        ClothingItemExtraOption = WearNormally2;TakeOffMask;TakeOffShoeCoversAndMask,			
+        Icon = CEDAHazmatsuit,
+        RunSpeedModifier = 0.98,
+        ScratchDefense = 15,
+        BiteDefense = 5,
+        Insulation = 0.65,
+        WindResistance = 0.9,
+        WorldStaticModel = Hazmat_Ground,
+    }
+    item HazmatSuitCEDANoMaskNoShoes
+    {
+       DisplayCategory = Clothing,			
+        Type = Clothing,
+        DisplayName = CEDA Hazmat Suit,
+        ClothingItem = HazmatSuitCEDANoMaskNoShoes,
+        BodyLocation = FullSuitHead,
+        BloodLocation = Trousers;Jumper,
+        ClothingItemExtra = AuthenticZLite.CEDAHazmatSuit;AuthenticZLite.HazmatSuitCEDANoMask;AuthenticZLite.HazmatSuitCEDANoShoes,
+        ClothingItemExtraOption = WearNormally2;TakeOffMask;TakeOffShoeCovers,	
+        Icon = CEDAHazmatsuit,
+        RunSpeedModifier = 0.98,
+        ScratchDefense = 10,
+        BiteDefense = 5,
+        Insulation = 0.25,
+        WindResistance = 0.50,
+        WorldStaticModel = Hazmat_Ground,
+    }
+    item HazmatSuitCEDANoMask
+    {
+       DisplayCategory = Clothing,			
+        Type = Clothing,
+        DisplayName = CEDA Hazmat Suit,
+        ClothingItem = HazmatSuitCEDANoMask,
+        BodyLocation = FullSuitHead,
+        BloodLocation = Trousers;Jumper,
+        ClothingItemExtra = AuthenticZLite.CEDAHazmatSuit;AuthenticZLite.HazmatSuitCEDANoMaskNoShoes;AuthenticZLite.HazmatSuitCEDANoShoes,
+        ClothingItemExtraOption = WearNormally2;TakeOffShoeCoversAndMask;TakeOffShoeCovers,		
+        Icon = CEDAHazmatsuit,
+        RunSpeedModifier = 0.75,
+        ScratchDefense = 10,
+        BiteDefense = 5,
+        Insulation = 0.25,
+        WindResistance = 0.50,
+        WorldStaticModel = Hazmat_Ground,
+    }	
+	
     item CEDAHazmatSuitBlack
     {
-       DisplayCategory = Clothing,		
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = CEDA Hazmat Suit,
         ClothingItem = HazmatSuitCEDABlack,
         BodyLocation = FullSuitHead,
         BloodLocation = Trousers;Jumper,
         Icon = CEDAHazmatsuitBlack,
+        ClothingItemExtra = AuthenticZLite.CEDAHazmatSuitBlackNoShoes;AuthenticZLite.CEDAHazmatSuitBlackNoMask;AuthenticZLite.CEDAHazmatSuitBlackNoMaskNoShoes,
+        ClothingItemExtraOption = TakeOffShoeCovers;TakeOffMask;TakeOffShoeCoversAndMask,			
         RunSpeedModifier = 0.75,
         ScratchDefense = 15,
         BiteDefense = 5,
         Insulation = 0.65,
         WindResistance = 0.9,
-		WorldStaticModel = Hazmat_Ground,
+        WorldStaticModel = Hazmat_Ground,
     }
-    item CEDAHazmatSuitBlue
+    item CEDAHazmatSuitBlackNoShoes
     {
        DisplayCategory = Clothing,			
+        Type = Clothing,
+        DisplayName = CEDA Hazmat Suit,
+        ClothingItem = CEDAHazmatSuitBlackNoShoes,
+        BodyLocation = FullSuitHead,
+        BloodLocation = Trousers;Jumper,
+        ClothingItemExtra = AuthenticZLite.CEDAHazmatSuitBlack;AuthenticZLite.CEDAHazmatSuitBlackNoMask;AuthenticZLite.CEDAHazmatSuitBlackNoMaskNoShoes,
+        ClothingItemExtraOption = WearNormally2;TakeOffMask;TakeOffShoeCoversAndMask,			
+        Icon = CEDAHazmatsuitBlack,
+        RunSpeedModifier = 0.98,
+        ScratchDefense = 15,
+        BiteDefense = 5,
+        Insulation = 0.65,
+        WindResistance = 0.9,
+        WorldStaticModel = Hazmat_Ground,
+    }
+    item CEDAHazmatSuitBlackNoMaskNoShoes
+    {
+       DisplayCategory = Clothing,			
+        Type = Clothing,
+        DisplayName = CEDA Hazmat Suit,
+        ClothingItem = CEDAHazmatSuitBlackNoMaskNoShoes,
+        BodyLocation = FullSuitHead,
+        BloodLocation = Trousers;Jumper,
+        ClothingItemExtra = AuthenticZLite.CEDAHazmatSuitBlack;AuthenticZLite.CEDAHazmatSuitBlackNoMask;AuthenticZLite.CEDAHazmatSuitBlackNoShoes,
+        ClothingItemExtraOption = WearNormally2;TakeOffMask;TakeOffShoeCovers,	
+        Icon = CEDAHazmatsuitBlack,
+        RunSpeedModifier = 0.98,
+        ScratchDefense = 10,
+        BiteDefense = 5,
+        Insulation = 0.25,
+        WindResistance = 0.50,
+        WorldStaticModel = Hazmat_Ground,
+    }
+    item CEDAHazmatSuitBlackNoMask
+    {
+       DisplayCategory = Clothing,			
+        Type = Clothing,
+        DisplayName = CEDA Hazmat Suit,
+        ClothingItem = CEDAHazmatSuitBlackNoMask,
+        BodyLocation = FullSuitHead,
+        BloodLocation = Trousers;Jumper,
+        ClothingItemExtra = AuthenticZLite.CEDAHazmatSuitBlack;AuthenticZLite.CEDAHazmatSuitBlackNoMaskNoShoes;AuthenticZLite.CEDAHazmatSuitBlackNoShoes,
+        ClothingItemExtraOption = WearNormally2;TakeOffShoeCoversAndMask;TakeOffShoeCovers,		
+        Icon = CEDAHazmatsuitBlack,
+        RunSpeedModifier = 0.75,
+        ScratchDefense = 10,
+        BiteDefense = 5,
+        Insulation = 0.25,
+        WindResistance = 0.50,
+        WorldStaticModel = Hazmat_Ground,
+    }	
+    item CEDAHazmatSuitBlue
+    {
+        DisplayCategory = Clothing,			
         Type = Clothing,
         DisplayName = CEDA Hazmat Suit,
         ClothingItem = HazmatSuitCEDABlue,
         BodyLocation = FullSuitHead,
         BloodLocation = Trousers;Jumper,
         Icon = CEDAHazmatsuitBlue,
+        ClothingItemExtra = AuthenticZLite.CEDAHazmatSuitBlueNoShoes;AuthenticZLite.CEDAHazmatSuitBlueNoMask;AuthenticZLite.CEDAHazmatSuitBlueNoMaskNoShoes,
+        ClothingItemExtraOption = TakeOffShoeCovers;TakeOffMask;TakeOffShoeCoversAndMask,			
         RunSpeedModifier = 0.75,
         ScratchDefense = 15,
         BiteDefense = 5,
         Insulation = 0.65,
         WindResistance = 0.9,
-		WorldStaticModel = Hazmat_Ground,
+        WorldStaticModel = Hazmat_Ground,
     }
-    item CEDAHazmatSuitRed
+    item CEDAHazmatSuitBlueNoShoes
     {
        DisplayCategory = Clothing,			
+        Type = Clothing,
+        DisplayName = CEDA Hazmat Suit,
+        ClothingItem = CEDAHazmatSuitBlueNoShoes,
+        BodyLocation = FullSuitHead,
+        BloodLocation = Trousers;Jumper,
+        ClothingItemExtra = AuthenticZLite.CEDAHazmatSuitBlue;AuthenticZLite.CEDAHazmatSuitBlueNoMask;AuthenticZLite.CEDAHazmatSuitBlueNoMaskNoShoes,
+        ClothingItemExtraOption = WearNormally2;TakeOffMask;TakeOffShoeCoversAndMask,			
+        Icon = CEDAHazmatSuitBlue,
+        RunSpeedModifier = 0.98,
+        ScratchDefense = 15,
+        BiteDefense = 5,
+        Insulation = 0.65,
+        WindResistance = 0.9,
+        WorldStaticModel = Hazmat_Ground,
+    }
+    item CEDAHazmatSuitBlueNoMaskNoShoes
+    {
+       DisplayCategory = Clothing,			
+        Type = Clothing,
+        DisplayName = CEDA Hazmat Suit,
+        ClothingItem = CEDAHazmatSuitBlueNoMaskNoShoes,
+        BodyLocation = FullSuitHead,
+        BloodLocation = Trousers;Jumper,
+        ClothingItemExtra = AuthenticZLite.CEDAHazmatSuitBlue;AuthenticZLite.CEDAHazmatSuitBlueNoMask;AuthenticZLite.CEDAHazmatSuitBlueNoShoes,
+        ClothingItemExtraOption = WearNormally2;TakeOffMask;TakeOffShoeCovers,	
+        Icon = CEDAHazmatSuitBlue,
+        RunSpeedModifier = 0.98,
+        ScratchDefense = 10,
+        BiteDefense = 5,
+        Insulation = 0.25,
+        WindResistance = 0.50,
+        WorldStaticModel = Hazmat_Ground,
+    }
+    item CEDAHazmatSuitBlueNoMask
+    {
+       DisplayCategory = Clothing,			
+        Type = Clothing,
+        DisplayName = CEDA Hazmat Suit,
+        ClothingItem = CEDAHazmatSuitBlueNoMask,
+        BodyLocation = FullSuitHead,
+        BloodLocation = Trousers;Jumper,
+        ClothingItemExtra = AuthenticZLite.CEDAHazmatSuitBlue;AuthenticZLite.CEDAHazmatSuitBlueNoMaskNoShoes;AuthenticZLite.CEDAHazmatSuitBlueNoShoes,
+        ClothingItemExtraOption = WearNormally2;TakeOffShoeCoversAndMask;TakeOffShoeCovers,		
+        Icon = CEDAHazmatSuitBlue,
+        RunSpeedModifier = 0.75,
+        ScratchDefense = 10,
+        BiteDefense = 5,
+        Insulation = 0.25,
+        WindResistance = 0.50,
+        WorldStaticModel = Hazmat_Ground,
+    }	
+    item CEDAHazmatSuitRed
+    {
+        DisplayCategory = Clothing,			
         Type = Clothing,
         DisplayName = Red CEDA Hazmat Suit,
         ClothingItem = HazmatSuitCEDARed,
         BodyLocation = FullSuitHead,
         BloodLocation = Trousers;Jumper,
         Icon = CEDAHazmatsuitRed,
+        ClothingItemExtra = AuthenticZLite.CEDAHazmatSuitRedNoShoes;AuthenticZLite.CEDAHazmatSuitRedNoMask;AuthenticZLite.CEDAHazmatSuitRedNoMaskNoShoes,
+        ClothingItemExtraOption = TakeOffShoeCovers;TakeOffMask;TakeOffShoeCoversAndMask,			
         RunSpeedModifier = 0.75,
         ScratchDefense = 15,
         BiteDefense = 5,
         Insulation = 0.65,
         WindResistance = 0.9,
-		WorldStaticModel = Hazmat_Ground,
+        WorldStaticModel = Hazmat_Ground,
+    }
+    item CEDAHazmatSuitRedNoShoes
+    {
+       DisplayCategory = Clothing,			
+        Type = Clothing,
+        DisplayName = CEDA Hazmat Suit,
+        ClothingItem = CEDAHazmatSuitRedNoShoes,
+        BodyLocation = FullSuitHead,
+        BloodLocation = Trousers;Jumper,
+        ClothingItemExtra = AuthenticZLite.CEDAHazmatSuitRed;AuthenticZLite.CEDAHazmatSuitRedNoMask;AuthenticZLite.CEDAHazmatSuitRedNoMaskNoShoes,
+        ClothingItemExtraOption = WearNormally2;TakeOffMask;TakeOffShoeCoversAndMask,			
+        Icon = CEDAHazmatSuitRed,
+        RunSpeedModifier = 0.98,
+        ScratchDefense = 15,
+        BiteDefense = 5,
+        Insulation = 0.65,
+        WindResistance = 0.9,
+        WorldStaticModel = Hazmat_Ground,
+    }
+    item CEDAHazmatSuitRedNoMaskNoShoes
+    {
+       DisplayCategory = Clothing,			
+        Type = Clothing,
+        DisplayName = CEDA Hazmat Suit,
+        ClothingItem = CEDAHazmatSuitRedNoMaskNoShoes,
+        BodyLocation = FullSuitHead,
+        BloodLocation = Trousers;Jumper,
+        ClothingItemExtra = AuthenticZLite.CEDAHazmatSuitRed;AuthenticZLite.CEDAHazmatSuitRedNoMask;AuthenticZLite.CEDAHazmatSuitRedNoShoes,
+        ClothingItemExtraOption = WearNormally2;TakeOffMask;TakeOffShoeCovers,	
+        Icon = CEDAHazmatSuitRed,
+        RunSpeedModifier = 0.98,
+        ScratchDefense = 10,
+        BiteDefense = 5,
+        Insulation = 0.25,
+        WindResistance = 0.50,
+        WorldStaticModel = Hazmat_Ground,
+    }
+    item CEDAHazmatSuitRedNoMask
+    {
+       DisplayCategory = Clothing,			
+        Type = Clothing,
+        DisplayName = CEDA Hazmat Suit,
+        ClothingItem = CEDAHazmatSuitRedNoMask,
+        BodyLocation = FullSuitHead,
+        BloodLocation = Trousers;Jumper,
+        ClothingItemExtra = AuthenticZLite.CEDAHazmatSuitRed;AuthenticZLite.CEDAHazmatSuitRedNoMaskNoShoes;AuthenticZLite.CEDAHazmatSuitRedNoShoes,
+        ClothingItemExtraOption = WearNormally2;TakeOffShoeCoversAndMask;TakeOffShoeCovers,		
+        Icon = CEDAHazmatSuitRed,
+        RunSpeedModifier = 0.75,
+        ScratchDefense = 10,
+        BiteDefense = 5,
+        Insulation = 0.25,
+        WindResistance = 0.50,
+        WorldStaticModel = Hazmat_Ground,
     }	
     item NBHHazmatSuit
     {
-       DisplayCategory = Clothing,			
+        DisplayCategory = Clothing,			
         Type = Clothing,
         DisplayName = Nuclear Biohazard Suit,
         ClothingItem = HazmatSuitNBH,
         BodyLocation = FullSuit,
         BloodLocation = Trousers;Jumper,
+        ClothingItemExtra = AuthenticZLite.NBHHazmatSuitNoShoes,
+        ClothingItemExtraOption = TakeOffShoeCovers,		
         Icon = NBHHazmatsuit,
         RunSpeedModifier = 0.75,
+        ScratchDefense = 10,
+        BiteDefense = 5,
+        Insulation = 0.25,
+        WindResistance = 0.50,
+		WorldStaticModel = Hazmat_Ground,
+    }
+    item NBHHazmatSuitNoShoes
+    {
+        DisplayCategory = Clothing,			
+        Type = Clothing,
+        DisplayName = Nuclear Biohazard Suit,
+        ClothingItem = HazmatSuitNBHNoShoes,
+        BodyLocation = FullSuitHead,
+        BloodLocation = Trousers;Jumper,
+        ClothingItemExtra = AuthenticZLite.NBHHazmatSuit,
+        ClothingItemExtraOption = WearNormally2,			
+        Icon = NBHHazmatsuit,
+        RunSpeedModifier = 0.98,
         ScratchDefense = 15,
         BiteDefense = 5,
         Insulation = 0.65,
         WindResistance = 0.9,
-		WorldStaticModel = Hazmat_Ground,
+        WorldStaticModel = Hazmat_Ground,
     }
     item Dress_Dimitrescu
     {
-       DisplayCategory = Clothing,			
+        DisplayCategory = Clothing,			
         Type = Clothing,
         DisplayName = Lady Dimitrescu's Dress,
         ClothingItem = Dress_Dimitrescu,
         BodyLocation = FullSuit,
         BloodLocation = Trousers;Jumper,
         Icon = DressLongDimitrescu,
+		CanHaveHoles = false,
         RunSpeedModifier = 0.90,
         Insulation = 0.3,
         WindResistance = 0.2,
 		Tooltip = Tooltip_Dimitrescu,
-		WorldStaticModel = Dress_Long_Ground,
+		WorldStaticModel = WorldItem-LadyDimitrescuDress,
     }
+    item Dress_DimitrescuALT
+    {
+        DisplayCategory = Clothing,			
+        Type = Clothing,
+        DisplayName = Lady Dimitrescu's Dress,
+        ClothingItem = Dress_DimitrescuALT,
+        BodyLocation = FullSuit,
+        BloodLocation = Trousers;Jumper,
+        Icon = DressLongDimitrescu,
+		CanHaveHoles = false,
+        RunSpeedModifier = 0.90,
+        Insulation = 0.3,
+        WindResistance = 0.2,
+		Tooltip = Tooltip_Dimitrescu,
+		WorldStaticModel = WorldItem-LadyDimitrescuDress,
+    }	
     item Dress_Flower
     {
-       DisplayCategory = Clothing,			
+        DisplayCategory = Clothing,			
         Type = Clothing,
         DisplayName = Floral Print Dress,
         ClothingItem = Dress_Flower,
         BodyLocation = Dress,
         BloodLocation = Trousers;Shirt,
-        Icon = DressMediumWhite,
+        IconsForTexture = DressMediumFlower;DressMediumFlower2;DressMediumBlackBlueFlower;DressMediumBlackFlower,
         RunSpeedModifier = 0.90,
         Insulation = 0.3,
         WindResistance = 0.2,
@@ -323,13 +599,13 @@ module AuthenticZClothing {
     }
     item Dress_Flower_Knees
     {
-       DisplayCategory = Clothing,			
+        DisplayCategory = Clothing,			
         Type = Clothing,
         DisplayName = Short Floral Print Dress,
         ClothingItem = Dress_Flower_Knees,
         BodyLocation = Dress,
         BloodLocation = Trousers;Shirt,
-        Icon = DressShortWhite,
+        IconsForTexture = DressShortFlower1;DressShortFlower2;DressShortFlowerBlack;DressShortFlowerBlackBlue,
         Insulation = 0.15,
         WindResistance = 0.1,
         FabricType = Cotton,
@@ -337,7 +613,7 @@ module AuthenticZClothing {
     }		
     item Dress_Knees_Black
     {
-       DisplayCategory = Clothing,			
+        DisplayCategory = Clothing,			
         Type = Clothing,
         DisplayName = Knee-length Dress,
         ClothingItem = Dress_Knees_Black,
@@ -351,7 +627,7 @@ module AuthenticZClothing {
     }
     item Dress_LongBlack
     {
-       DisplayCategory = Clothing,		
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Long Black Dress,
         ClothingItem = Dress_LongBlack,
@@ -366,7 +642,7 @@ module AuthenticZClothing {
     }
     item Dress_LongBlue
     {
-       DisplayCategory = Clothing,			
+        DisplayCategory = Clothing,			
         Type = Clothing,
         DisplayName = Long Blue Dress,
         ClothingItem = Dress_LongBlue,
@@ -387,7 +663,7 @@ module AuthenticZClothing {
         ClothingItem = Dress_LongFlower,
         BodyLocation = Dress,
         BloodLocation = Trousers;Shirt,
-        Icon = DressLongWhite,
+        IconsForTexture = DressLongFlower1;DressLongFlower2;DressLongFlowerBlack;DressLongFlowerBlackBlue,
         RunSpeedModifier = 0.90,
         Insulation = 0.3,
         WindResistance = 0.2,
@@ -411,13 +687,13 @@ module AuthenticZClothing {
     }
     item Dress_LongPolkadot
     {
-       DisplayCategory = Clothing,			
+        DisplayCategory = Clothing,			
         Type = Clothing,
         DisplayName = Long Polka Dot Dress,
         ClothingItem = Dress_LongPolkadot,
         BodyLocation = Dress,
         BloodLocation = Trousers;Shirt,
-        Icon = DressLongWhite,
+        IconsForTexture = DressLongPolkaDotPink1;DressLongPolkaDotBlue2,
         RunSpeedModifier = 0.90,
         Insulation = 0.3,
         WindResistance = 0.2,
@@ -470,7 +746,7 @@ module AuthenticZClothing {
     }
     item Dress_Nurse
     {
-       DisplayCategory = Clothing,			
+        DisplayCategory = Clothing,			
         Type = Clothing,
         DisplayName = Short Dress,
         ClothingItem = Dress_Nurse,
@@ -484,7 +760,7 @@ module AuthenticZClothing {
     }	
     item Dress_Purna
     {
-       DisplayCategory = Clothing,			
+        DisplayCategory = Clothing,			
         Type = Clothing,
         DisplayName = Short Sleeveless Dress,
         ClothingItem = Dress_Purna,
@@ -498,13 +774,13 @@ module AuthenticZClothing {
     }
     item Dress_Polkadot
     {
-       DisplayCategory = Clothing,			
+        DisplayCategory = Clothing,			
         Type = Clothing,
         DisplayName = Polka Dot Dress,
         ClothingItem = Dress_Polkadot,
         BodyLocation = Dress,
         BloodLocation = Trousers;Shirt,
-        Icon = DressMediumWhite,
+        IconsForTexture = DressMediumPolkaDotPink1;DressMediumPolkaDotPink2;DressMediumPolkaDotBlue2,
         RunSpeedModifier = 0.90,
         Insulation = 0.3,
         WindResistance = 0.2,
@@ -513,13 +789,13 @@ module AuthenticZClothing {
     }
     item Dress_Polkadot_Knees
     {
-       DisplayCategory = Clothing,			
+        DisplayCategory = Clothing,			
         Type = Clothing,
         DisplayName = Short Polka Dot Dress,
         ClothingItem = Dress_Polkadot_Knees,
         BodyLocation = Dress,
         BloodLocation = Trousers;Shirt,
-        Icon = DressShortWhite,
+        IconsForTexture = DressShortPolkaDotPink2;DressShortPolkaDotBlue2,
         Insulation = 0.15,
         WindResistance = 0.1,
         FabricType = Cotton,
@@ -541,18 +817,74 @@ module AuthenticZClothing {
     }
     item HazmatSuit2
     {
-       DisplayCategory = Clothing,			
+        DisplayCategory = Clothing,			
         Type = Clothing,
         DisplayName = Hazmat Suit,
         ClothingItem = HazmatSuit2,
         BodyLocation = FullSuitHead,
         BloodLocation = Trousers;Jumper,
+        ClothingItemExtra = AuthenticZLite.HazmatSuit2NoShoes;AuthenticZLite.HazmatSuit2NoMask;AuthenticZLite.HazmatSuit2NoMaskNoShoes,
+        ClothingItemExtraOption = TakeOffShoeCovers;TakeOffMask;TakeOffShoeCoversAndMask,			
         Icon = Hazmatsuit,
         RunSpeedModifier = 0.75,
         ScratchDefense = 15,
         BiteDefense = 5,
         Insulation = 0.65,
         WindResistance = 0.9,
+        WorldStaticModel = Hazmat_Ground,
+    }
+    item HazmatSuit2NoShoes
+    {
+       DisplayCategory = Clothing,			
+        Type = Clothing,
+        DisplayName = Hazmat Suit,
+        ClothingItem = HazmatSuit2NoShoes,
+        BodyLocation = FullSuitHead,
+        BloodLocation = Trousers;Jumper,
+        ClothingItemExtra = AuthenticZLite.HazmatSuit2;AuthenticZLite.HazmatSuit2NoMask;AuthenticZLite.HazmatSuit2NoMaskNoShoes,
+        ClothingItemExtraOption = WearNormally2;TakeOffMask;TakeOffShoeCoversAndMask,			
+        Icon = Hazmatsuit,
+        RunSpeedModifier = 0.98,
+        ScratchDefense = 15,
+        BiteDefense = 5,
+        Insulation = 0.65,
+        WindResistance = 0.9,
+        WorldStaticModel = Hazmat_Ground,
+    }
+    item HazmatSuit2NoMaskNoShoes
+    {
+       DisplayCategory = Clothing,			
+        Type = Clothing,
+        DisplayName = Hazmat Suit,
+        ClothingItem = HazmatSuit2NoMaskNoShoes,
+        BodyLocation = FullSuitHead,
+        BloodLocation = Trousers;Jumper,
+        ClothingItemExtra = AuthenticZLite.HazmatSuit2;AuthenticZLite.HazmatSuit2NoMask;AuthenticZLite.HazmatSuit2NoShoes,
+        ClothingItemExtraOption = WearNormally2;TakeOffMask;TakeOffShoeCovers,	
+        Icon = Hazmatsuit,
+        RunSpeedModifier = 0.98,
+        ScratchDefense = 10,
+        BiteDefense = 5,
+        Insulation = 0.25,
+        WindResistance = 0.50,
+        WorldStaticModel = Hazmat_Ground,
+    }
+    item HazmatSuit2NoMask
+    {
+       DisplayCategory = Clothing,			
+        Type = Clothing,
+        DisplayName = Hazmat Suit,
+        ClothingItem = HazmatSuit2NoMask,
+        BodyLocation = FullSuitHead,
+        BloodLocation = Trousers;Jumper,
+        ClothingItemExtra = AuthenticZLite.HazmatSuit2;AuthenticZLite.HazmatSuit2NoMaskNoShoes;AuthenticZLite.HazmatSuit2NoShoes,
+        ClothingItemExtraOption = WearNormally2;TakeOffShoeCoversAndMask;TakeOffShoeCovers,		
+        Icon = Hazmatsuit,
+        RunSpeedModifier = 0.75,
+        ScratchDefense = 10,
+        BiteDefense = 5,
+        Insulation = 0.25,
+        WindResistance = 0.50,
         WorldStaticModel = Hazmat_Ground,
     }	
     item Mime_Overalls

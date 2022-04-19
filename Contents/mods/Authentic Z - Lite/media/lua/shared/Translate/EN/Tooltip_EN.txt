@@ -58,6 +58,8 @@ Tooltip_EN = {
 	
 /* New */
 	Tooltip_AZSleepingBag = "Unwrap and Place.",		
-	Tooltip_AZSleepingBag2 = "Right-Click to Sleep.",	
+	Tooltip_AZSleepingBag2 = "Right-Click to Sleep.",
+	
+	Tooltip_GlowStickPack = "Open to get 3 random glowsticks!",	
 	
 	}

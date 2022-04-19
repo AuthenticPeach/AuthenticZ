@@ -341,7 +341,7 @@ ItemName_EN = {
 	ItemName_AuthenticZClothing.Hat_HockeyMaskJason =  "Jason's Hockey Mask",
 	ItemName_AuthenticZClothing.Hat_JackoLantern =  "Jack-O-Lantern",
 	ItemName_AuthenticZClothing.Hat_JasonSack =  "Jason's Rugsack",
-	ItemName_AuthenticZClothing.Hat_KillaHelmet =  "Killa's Helemet",		
+	ItemName_AuthenticZClothing.Hat_KillaHelmet =  "Killa's Helmet",		
 	ItemName_AuthenticZClothing.Hat_LeatherFace =  "Leather Face Mask"
 	ItemName_AuthenticZClothing.Hat_Maid =  "Maid Hat"
 	ItemName_AuthenticZClothing.Hat_MichaelMyers =  "Michael Myers Mask"
@@ -766,7 +766,7 @@ ItemName_EN = {
 	ItemName_AuthenticZClothing.Vest_BulletTagilla =  "Crye Precision AVS MBAV",
 	ItemName_AuthenticZClothing.Trousers_Tagilla = "Tactical Pants",
 	
-	/* New */	
+	/* Update 3-18-21 */	
 	ItemName_AuthenticZClothing.Shirt_CropTopLVCheerleader = "UoLV Cheerleader Top",
 	ItemName_AuthenticZClothing.Skirt_LVCheerleader = "UoLV Short Skirt",
 	ItemName_AuthenticZClothing.ReporterMicrophone_Media01 = "Press Reporter Microphone - Triple N",
@@ -788,12 +788,6 @@ ItemName_EN = {
 	ItemName_AuthenticZClothing.Flamingo = "Fifi the Flamingo",
 	ItemName_AuthenticZClothing.AZ_DiceHung = "Chain of Dice",
 	ItemName_AuthenticZClothing.Rubberducky3 = "Rubber Duck",
-	
-	ItemName_AuthenticZClothing.SleepingBag = "Sleeping Bag",
-	ItemName_AuthenticZClothing.SleepingBagRoll = "Sleeping Bag (Rolled Up)",
-	
-	ItemName_AuthenticZClothing.AuthenticGlowstick_Red = "Red Glowstick",
-
 	ItemName_AuthenticZClothing.BorisBadger = "Boris The Badger",	
 	ItemName_AuthenticZClothing.FluffyfootBunny = "Fluffyfoot The Bunny",
 	ItemName_AuthenticZClothing.FreddyFox = "Freddy The Fox",
@@ -802,7 +796,77 @@ ItemName_EN = {
 	ItemName_AuthenticZClothing.MoleyMole = "Moley The Mole",
 	ItemName_AuthenticZClothing.PancakeHedgehog = "Pancake The Hedgehog",
 	
+	ItemName_AuthenticZClothing.SleepingBag = "Sleeping Bag",
+	ItemName_AuthenticZClothing.SleepingBagRoll = "Sleeping Bag (Rolled Up)",
 	
+	/* New */	
 	
+	ItemName_AuthenticZClothing.AuthenticGlowstick_Pack = "Pack of Glowsticks",
+	ItemName_AuthenticZClothing.AuthenticGlowstick_Blank = "Drained Glowstick",
+	ItemName_AuthenticZClothing.AuthenticGlowstick_Blue = "Blue Glowstick",
+	ItemName_AuthenticZClothing.AuthenticGlowstick_Blue_On = "Blue Glowstick (Activated)",
+	ItemName_AuthenticZClothing.AuthenticGlowstick_Green = "Green Glowstick",
+	ItemName_AuthenticZClothing.AuthenticGlowstick_Green_On = "Green Glowstick (Activated)",
+	ItemName_AuthenticZClothing.AuthenticGlowstick_Red = "Red Glowstick",
+	ItemName_AuthenticZClothing.AuthenticGlowstick_Red_On = "Red Glowstick (Activated)",
+	ItemName_AuthenticZClothing.AuthenticGlowstick_Orange = "Orange Glowstick",
+	ItemName_AuthenticZClothing.AuthenticGlowstick_Orange_On = "Orange Glowstick (Activated)",
+	ItemName_AuthenticZClothing.AuthenticGlowstick_Pink = "Pink Glowstick",
+	ItemName_AuthenticZClothing.AuthenticGlowstick_Pink_On = "Pink Glowstick (Activated)",
+	ItemName_AuthenticZClothing.AuthenticGlowstick_Purple = "Purple Glowstick",
+	ItemName_AuthenticZClothing.AuthenticGlowstick_Purple_On = "Purple Glowstick (Activated)",
+	ItemName_AuthenticZClothing.AuthenticGlowstick_Yellow = "Yellow Glowstick",
+	ItemName_AuthenticZClothing.AuthenticGlowstick_Yellow_On = "Yellow Glowstick (Activated)",	
+	
+	ItemName_AuthenticZClothing.Bag_PAWSBackpackAZ 	= "PAWS Backpack",	
+	ItemName_AuthenticZClothing.Bag_PAWSBackpackAZ_Tier_1 = "PAWS Backpack - Tier 1",	
+	ItemName_AuthenticZClothing.Bag_PAWSBackpackAZ_Tier_2 = "PAWS Backpack - Tier 2",	
+	ItemName_AuthenticZClothing.Bag_PAWSBackpackAZ_Tier_3 = "PAWS Backpack - Tier 3",		
+	ItemName_AuthenticZClothing.Bag_SpiffoBackpackAZ = "Spiffo Backpack",	
+	ItemName_AuthenticZClothing.Bag_SpiffoBackpackAZ_Tier_1 = "Spiffo Backpack - Tier 1",	
+	ItemName_AuthenticZClothing.Bag_SpiffoBackpackAZ_Tier_2 = "Spiffo Backpack - Tier 2",	
+	ItemName_AuthenticZClothing.Bag_SpiffoBackpackAZ_Tier_3 = "Spiffo Backpack - Tier 3",
+	
+	ItemName_AuthenticZClothing.OtisPug = "Otis the Pug",
+	
+	ItemName_AuthenticZClothing.Authentic_BouquetFlowers = "Bouquet of Flowers",
+	ItemName_AuthenticZClothing.AuthenticGhostbusterTrap = "GhostBuster Trap",
+
+	ItemName_AuthenticZClothing.Blue_LongJohns = "Blue Long Johns",	
+	ItemName_AuthenticZClothing.ClownNoseTINT = "Clown Nose",		
+	ItemName_AuthenticZClothing.Dress_DimitrescuALT = "Lady Dimitrescu's Dress",
+	
+	ItemName_AuthenticZClothing.Skin_White_Dimitrescu = "Lady Dimitrescu Zombie Skin",
+	ItemName_AuthenticZClothing.Shoes_ClownPolka = "Polka-Dot Clown Shoes",
+	ItemName_AuthenticZClothing.Gloves_White_Reflective = "Reflective Gloves",	
+	ItemName_AuthenticZClothing.Hat_Dimitrescu_Back =  "Lady Dimitrescu's Hat",
+	ItemName_AuthenticZClothing.Hat_RuneDuel_Back = "Fantasy Duelist Hat",	
+	ItemName_AuthenticZClothing.Hat_SummerWhite_Back = "White Summer Hat",
+	ItemName_AuthenticZClothing.Hat_Witchy_2_Back = "Witch Hat",
+	
+	ItemName_AuthenticZClothing.AuthenticRoadsideTriangle = "Roadside Triangle",
+
+	ItemName_AuthenticZClothing.HazmatSuitNBHNoShoes = "Nuclear Biohazard Suit",
+	
+	ItemName_AuthenticZClothing.HazmatSuit2NoShoes = "Hazmat Suit",
+	ItemName_AuthenticZClothing.HazmatSuit2NoMaskNoShoes = "Hazmat Suit",
+	ItemName_AuthenticZClothing.HazmatSuit2NoMask = "Hazmat Suit",
+	
+	ItemName_AuthenticZClothing.HazmatSuitCEDANoShoes = "CEDA Hazmat Suit",
+	ItemName_AuthenticZClothing.HazmatSuitCEDANoMaskNoShoes = "CEDA Hazmat Suit",
+	ItemName_AuthenticZClothing.HazmatSuitCEDANoMask = "CEDA Hazmat Suit",
+	
+	ItemName_AuthenticZClothing.CEDAHazmatSuitBlackNoShoes = "CEDA Hazmat Suit",
+	ItemName_AuthenticZClothing.CEDAHazmatSuitBlackNoMaskNoShoes = "CEDA Hazmat Suit",
+	ItemName_AuthenticZClothing.CEDAHazmatSuitBlackNoMask = "CEDA Hazmat Suit",
+	
+	ItemName_AuthenticZClothing.CEDAHazmatSuitBlueNoShoes = "CEDA Hazmat Suit",
+	ItemName_AuthenticZClothing.CEDAHazmatSuitBlueNoMaskNoShoes = "CEDA Hazmat Suit",
+	ItemName_AuthenticZClothing.CEDAHazmatSuitBlueNoMask = "CEDA Hazmat Suit",
+	
+	ItemName_AuthenticZClothing.CEDAHazmatSuitRedNoShoes = "CEDA Hazmat Suit",
+	ItemName_AuthenticZClothing.CEDAHazmatSuitRedNoMaskNoShoes = "CEDA Hazmat Suit",
+	ItemName_AuthenticZClothing.CEDAHazmatSuitRedNoMask = "CEDA Hazmat Suit",
+	ItemName_AuthenticZClothing.CEDAHazmatSuitRedNoMask = "CEDA Hazmat Suit",
 	
 }

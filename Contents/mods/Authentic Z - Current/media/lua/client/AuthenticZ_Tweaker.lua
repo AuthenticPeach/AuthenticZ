@@ -35,7 +35,6 @@ TweakItem("Base.Mop", "AttachmentType", "Shovel");
 
 TweakItem("Base.VHS_Retail", "StaticModel", "VHSBox2");
 
-
 TweakItem("Base.WeldingMask", "AttachmentType", "GasMask");
 TweakItem("Base.WeldingMask", "StaticModel", "WelderMaskNotWorn");
 

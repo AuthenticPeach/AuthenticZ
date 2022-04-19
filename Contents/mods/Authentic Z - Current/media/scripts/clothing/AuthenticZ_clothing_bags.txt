@@ -311,7 +311,7 @@ module AuthenticZClothing {
         Type					 =	Container,
         Capacity				 =	15,
         DisplayName				 =	NBH Hazmat Pack,
-        Icon 					 = 	Backpack_Grey,
+        Icon 					 = 	Backpack_GreyAZ,
         CanBeEquipped 			 = 	Back,
         OpenSound   			 =  OpenBag,
         CloseSound  		 	 =  CloseBag,

@@ -1627,12 +1627,16 @@ ZombiesZoneDefinition.TheDregs = {
 		chance=5,
 		gender="male",			
 	},		
-	AuthenticTf2SpyBlueM = {
+	AuthenticTf2SpyBlue = {
 		name="AuthenticTF2SpyBlue",
-		toSpawn=1,
+		chance=3,
 		gender="male",
-		mandatory="true",
-	},		
+	},
+	AuthenticTF2SpyRed= {
+		name="AuthenticTF2SpyRed",
+		chance=3,
+		gender="male",
+	},	
 }
 
 ZombiesZoneDefinition.TheyLive = {
@@ -2506,6 +2510,7 @@ table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticUncleSam", chance=0
 table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticDukeNukem", chance=0.001, gender="male"});
 table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticTheyLive", chance=0.0001, gender="male"});
 table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticTF2SpyBlue", chance=0.0001, gender="male"});
+table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticTF2SpyRed", chance=0.0001, gender="male"});
 -------------------------- Clowns --------------------------
 table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticClownMime", chance=0.04});
 table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticClown", chance=0.04, gender="male"});

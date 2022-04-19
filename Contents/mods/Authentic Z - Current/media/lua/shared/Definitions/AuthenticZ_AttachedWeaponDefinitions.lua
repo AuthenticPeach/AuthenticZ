@@ -571,7 +571,7 @@ AttachedWeaponDefinitions.handgunRickGrimes = {
 AttachedWeaponDefinitions.revolverTF2Spy = {
 	id = "revolverTf2Shpee",
 	chance = 100,
-	outfit = {"AuthenticTF2SpyBlue"},
+	outfit = {"AuthenticTF2SpyBlue", "AuthenticTF2SpyRed"},
 	weaponLocation =  {"Holster Left", "Holster Right"},
 	bloodLocations = nil,
 	addHoles = false,
@@ -1942,6 +1942,12 @@ AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticRickGrimes = {
 	},
 }
 AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticTF2SpyBlue = {
+	chance = 100;
+	weapons = {
+		AttachedWeaponDefinitions.revolverTF2Spy,
+	},
+}
+AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticTF2SpyRed = {
 	chance = 100;
 	weapons = {
 		AttachedWeaponDefinitions.revolverTF2Spy,

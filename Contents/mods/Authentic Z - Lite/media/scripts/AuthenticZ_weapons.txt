@@ -1,4 +1,4 @@
-module AuthenticZClothing {
+module AuthenticZLite {
   imports {
       Base
   }
@@ -123,9 +123,48 @@ module AuthenticZClothing {
 		AttachmentType 				= 	BigWeapon,
 		WorldStaticModel 			= 	WorldItem-BoomMicrophone,
     }
+
+    item Authentic_BouquetFlowers
+    {
+	    DisplayCategory 			= 	Household,		
+        Weight						=	0.3,
+        Type						=	Weapon,
+        DisplayName					=	Bouquet of Flowers,
+        Icon						=	BouquetFlowersAZ,
+        StaticModel 				= 	RoseBouquet,
+        WeaponSprite				=	RoseBouquet,
+        MinAngle					=	0.1,
+        MinimumSwingTime			=	2,
+        KnockBackOnNoDeath			=	FALSE,
+        SwingAmountBeforeImpact		=	0.02,
+        Categories					=	Improvised;SmallBlunt,
+        ConditionLowerChanceOneIn	=	2,
+        SplatNumber					=	1,
+        PushBackMod					=	0.1,
+        SubCategory					=	Swinging,
+        ConditionMax				=	1,
+        MaxHitCount					=	2,
+        DoorDamage					=	1,
+        SwingAnim					=	Bat,
+        MinRange					=	0.14,
+        SwingTime					=	2,
+        KnockdownMod				=	0,
+        SplatBloodOnNoDeath			=	FALSE,
+        BreakSound  				=   BreakMetalItem,
+        TreeDamage  				=   0,
+        CriticalChance				=	1,
+        CritDmgMultiplier 			= 	1,
+        MinDamage					=	0.1,
+        MaxDamage					=	0.1,
+        BaseSpeed 					= 	1,
+        WeaponLength 				= 	0.1,		
+		AttachmentType 				= 	Walkie,
+		WorldStaticModel 			= 	WorldItem-FuneralRose,		
+    }	
+	
     item Authentic_CoffeeCup
     {
-        DisplayCategory = Junk,	
+        DisplayCategory 	= 	Junk,	
         Weight				=	0.2,
         Type				=	Weapon,
         DisplayName			=	Coffee Cup,
@@ -458,7 +497,7 @@ module AuthenticZClothing {
 	
     item AuthenticWalkingCaneMetal
 	{
-        DisplayCategory = Sports,
+        DisplayCategory 	=	Sports,
 		MaxRange			=	1.25,
 		WeaponSprite		=	AuthenticWalkingCaneMetal,
 		MinAngle			=	0.80,
@@ -760,6 +799,49 @@ module AuthenticZClothing {
 		HitSound	=	PenHit,
 		SwingSound = PenSwing,
 	}	
+	
+   item AuthenticGhostbusterTrap
+	{
+        DisplayCategory 			= 	ToolWeapon,	
+		Type						=	Weapon,
+		Categories					=	SmallBlunt,		
+		DisplayName					=	GhostBuster Trap,
+		WeaponSprite				=	AuthenticGhostbusterTrap,
+		Weight						=	1,	
+		Icon						=	GhostbustersTrap,		
+		MaxRange					=	1,
+		MinAngle					=	0.65,
+		MinimumSwingTime			=	3,
+		KnockBackOnNoDeath			=	TRUE,
+		SwingAmountBeforeImpact		=	0.02,
+		ConditionLowerChanceOneIn	=	25,
+		SplatNumber					=	1,
+		PushBackMod					=	0.5,
+		SubCategory					=	Swinging,
+		ConditionMax				=	10,
+		MaxHitCount					=	1,
+		DoorDamage					=	9,
+		CanBarricade				=	TRUE,
+		SwingAnim					=	Bat,
+		MinRange					=	0.61,
+		SwingTime					=	3,
+		KnockdownMod				=	0,
+		SplatBloodOnNoDeath			=	TRUE,
+		RunAnim						=	Run_Weapon2,
+        IdleAnim					=	Idle_Weapon2,
+        BreakSound  				=   BreakMetalItem,
+        TreeDamage  				=   0,
+        MetalValue 					= 	10,
+        CriticalChance				=	20,
+        CritDmgMultiplier 			= 	2,
+        MinDamage					=	0.5,
+        MaxDamage					=	1,
+        BaseSpeed		 			=	1,
+	    WeaponLength 				= 	0.23,
+	    AttachmentType 				= 	Hammer,
+		WorldStaticModel 			= 	WorldItem-GhostbusterTrap,
+    }	
+	
     item Postal_Petition
     {
         DisplayCategory = Household,		
@@ -1258,6 +1340,7 @@ module AuthenticZClothing {
 		Tags				= 	Write,
 		AttachmentType 		= 	AuthenticExplosive,		
 	}
+	
     item Authentic_Pills
     {
 	    DisplayCategory = FirstAid,		
@@ -2151,46 +2234,6 @@ module AuthenticZClothing {
 	    AttachmentType 				= 	Hammer,
 		WorldStaticModel 			= 	WorldItem_ReporterMicMuffler_Media05,
     }		
-    item RemoteControl_Box
-    {
-        DisplayCategory = Electronics,	
-		Weight	=	0.3,
-        Type	=	Weapon,
-        DisplayName	=	Remote Control Box,
-        Icon	=	Notebook,
-        StaticModel = Remotecontrol,
-        primaryAnimMask = HoldingTorchRight,
-        secondaryAnimMask = HoldingTorchLeft,
-
-		WeaponSprite	=	Remotecontrol,
-        MinAngle	=	0.1,
-        MinimumSwingTime	=	2,
-        KnockBackOnNoDeath	=	FALSE,
-        SwingAmountBeforeImpact	=	0.02,
-        Categories	=	Improvised;SmallBlunt,
-        ConditionLowerChanceOneIn	=	2,
-        SplatNumber	=	1,
-        PushBackMod	=	0.1,
-        SubCategory	=	Swinging,
-        ConditionMax	=	1,
-        MaxHitCount	=	2,
-        DoorDamage	=	1,
-        SwingAnim	=	Bat,
-        MinRange	=	0.14,
-        SwingTime	=	2,
-        KnockdownMod	=	0,
-        SplatBloodOnNoDeath	=	FALSE,
-        BreakSound  =   BreakMetalItem,
-        TreeDamage  =   0,
-        CriticalChance	=	1,
-        CritDmgMultiplier = 1,
-        MinDamage	=	0.1,
-        MaxDamage	=	0.1,
-        BaseSpeed = 1,
-        WeaponLength = 0.1,		
-		AttachmentType = Wrench,
-        OBSOLETE = TRUE,			
-    }
     item Stake2
 	{
         DisplayCategory = WeaponCrafted,	
@@ -2221,18 +2264,18 @@ module AuthenticZClothing {
 		SplatBloodOnNoDeath	=	FALSE,
 		Icon		=	Stake,
 		RunAnim		=	Run_Weapon2,
-        	IdleAnim	=	Idle_Weapon2,
-        	BreakSound  	=   StakeBreak,
-        	TreeDamage  	=   	0,
-        	EnduranceMod 	= 	0.5,
-        	CriticalChance	=	10,
-        	CritDmgMultiplier = 10,
-        	MinDamage	=	0.25,
-        	MaxDamage	=	0.53,
-			WeaponLength = 0.18,
-			HitFloorSound	=	StakeHit,
-        	ImpactSound	=	StakeHit,
-        	DoorHitSound = StakeHit,
+        IdleAnim	=	Idle_Weapon2,
+        BreakSound  	=   StakeBreak,
+        TreeDamage  	=   	0,
+        EnduranceMod 	= 	0.5,
+        CriticalChance	=	10,
+        CritDmgMultiplier = 10,
+        MinDamage	=	0.25,
+        MaxDamage	=	0.53,
+		WeaponLength = 0.18,
+		HitFloorSound	=	StakeHit,
+        ImpactSound	=	StakeHit,
+        DoorHitSound = StakeHit,
 		HitSound	=	StakeHit,
 		SwingSound = StakeSwing,
 		AttachmentType = Screwdriver,

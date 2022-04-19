@@ -1,4 +1,4 @@
- module AuthenticZClothing {
+module AuthenticZLite {
   imports {
       Base
   }
@@ -468,20 +468,6 @@
         Type = Clothing,
         DisplayName = Lego Head T-Shirt,
         ClothingItem = Tshirt_LegoHead,
-        BodyLocation = Tshirt,
-        Icon	=	TshirtGeneric,
-        BloodLocation = Shirt,
-        Insulation = 0.3,
-        WindResistance = 0.35,
-        FabricType = Cotton,
-		WorldStaticModel = TShirt_Ground,	
-    }
-	item Tshirt_LogoTest
-    {
-        DisplayCategory = Clothing,	
-        Type = Clothing,
-        DisplayName = Amphibious Frog T-Shirt,
-        ClothingItem = TShirt_Amphibian,
         BodyLocation = Tshirt,
         Icon	=	TshirtGeneric,
         BloodLocation = Shirt,
@@ -1078,7 +1064,6 @@
         FabricType = Cotton,
 		WorldStaticModel = BulletVest_Ground,
     }
-
     item Vest_Waistcoat_Mime
     {
         DisplayCategory = Clothing,		
@@ -1094,5 +1079,4 @@
         FabricType = Cotton,
 		WorldStaticModel = BulletVest_Ground,
     }	
-
 }

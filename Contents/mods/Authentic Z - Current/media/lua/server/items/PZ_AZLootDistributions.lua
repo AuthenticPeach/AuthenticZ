@@ -244,11 +244,11 @@ AuthenticZ.tab_addMagProcedural_items("LivingRoomShelf",0.05);
 AuthenticZ.tab_addMagProcedural_items("MagazineRackMixed",0.05);
 AuthenticZ.tab_addMagProcedural_items("PostOfficeMagazines",0.05);
 
-AuthenticZ.tab_addMagProcedural_AZCanteen("CrateCarpentry",1.0);
+AuthenticZ.tab_addMagProcedural_AZCanteen("CrateCarpentry",0.8);
 AuthenticZ.tab_addMagProcedural_AZCanteen("CrateCamping",1.0);
-AuthenticZ.tab_addMagProcedural_AZCanteen("ArmySurplusBackpacks",2.0);
-AuthenticZ.tab_addMagProcedural_AZCanteen("OtherGeneric",0.3);
-AuthenticZ.tab_addMagProcedural_AZCanteen("ToolStoreMisc",1.0);
+AuthenticZ.tab_addMagProcedural_AZCanteen("ArmySurplusBackpacks",1.5);
+AuthenticZ.tab_addMagProcedural_AZCanteen("OtherGeneric",0.2);
+AuthenticZ.tab_addMagProcedural_AZCanteen("ToolStoreMisc",0.8);
 
 AuthenticZ.tab_addMagProcedural_Cigar("OtherGeneric",0.01);
 AuthenticZ.tab_addMagProcedural_Cigar("ArmySurplusMisc",0.01);
@@ -285,22 +285,25 @@ AuthenticZ.tab_addMagProcedural_L4DMedkit("LibraryCounter",0.1);
 AuthenticZ.tab_addMagProcedural_L4DMedkit("BathroomCounter",0.1);
 AuthenticZ.tab_addMagProcedural_L4DMedkit("DaycareCounter",0.1);
 --test
-AuthenticZ.tab_addMagProcedural_GlowstickPack("ArmyStorageElectronics",1.0);
-AuthenticZ.tab_addMagProcedural_GlowstickPack("ToolStoreAccessories",0.5);
-AuthenticZ.tab_addMagProcedural_GlowstickPack("CrateCamping",1.0);
-AuthenticZ.tab_addMagProcedural_GlowstickPack("CampingStoreGear",1.0);
-AuthenticZ.tab_addMagProcedural_GlowstickPack("ToolStoreTools",1.0);
-AuthenticZ.tab_addMagProcedural_GlowstickPack("ToolStoreMisc",1.0);
-AuthenticZ.tab_addMagProcedural_GlowstickPack("OtherGeneric",1.0);
+AuthenticZ.tab_addMagProcedural_GlowstickPack("ArmyStorageElectronics",1.5);
+AuthenticZ.tab_addMagProcedural_GlowstickPack("ToolStoreAccessories",1.5);
+AuthenticZ.tab_addMagProcedural_GlowstickPack("CrateCamping",3.0);
+AuthenticZ.tab_addMagProcedural_GlowstickPack("CrateCamping",3.0);
+AuthenticZ.tab_addMagProcedural_GlowstickPack("CampingStoreGear",3.0);
+AuthenticZ.tab_addMagProcedural_GlowstickPack("CampingStoreGear",3.0);
+AuthenticZ.tab_addMagProcedural_GlowstickPack("ToolStoreTools",3.0);
+AuthenticZ.tab_addMagProcedural_GlowstickPack("ToolStoreTools",3.0);
+AuthenticZ.tab_addMagProcedural_GlowstickPack("ToolStoreMisc",3.0);
+AuthenticZ.tab_addMagProcedural_GlowstickPack("ToolStoreMisc",3.0);
+AuthenticZ.tab_addMagProcedural_GlowstickPack("OtherGeneric",1.5);
 
-AuthenticZ.tab_addMagProcedural_Glowsticks("PoliceDesk",0.5);
-AuthenticZ.tab_addMagProcedural_Glowsticks("PrisonGuardLockers",0.5);
-AuthenticZ.tab_addMagProcedural_Glowsticks("FireDeptLockers",0.5);
+AuthenticZ.tab_addMagProcedural_Glowsticks("PoliceDesk",0.8);
+AuthenticZ.tab_addMagProcedural_Glowsticks("PrisonGuardLockers",0.9);
+AuthenticZ.tab_addMagProcedural_Glowsticks("FireDeptLockers",0.9);
+AuthenticZ.tab_addMagProcedural_Glowsticks("StoreShelfElectronics",0.8);
+AuthenticZ.tab_addMagProcedural_Glowsticks("ElectronicStoreMisc",0.8);
+AuthenticZ.tab_addMagProcedural_Glowsticks("ElectronicStoreLights",0.8);
 --test
-AuthenticZ.tab_addMagProcedural_Glowsticks("StoreShelfElectronics",0.3);
-AuthenticZ.tab_addMagProcedural_Glowsticks("ElectronicStoreMisc",0.3);
-AuthenticZ.tab_addMagProcedural_Glowsticks("ElectronicStoreLights",0.3);
-
 AuthenticZ.tab_addMagProcedural_AZMilitaryFlashlight("ArmyStorageElectronics",1.0);
 AuthenticZ.tab_addMagProcedural_AZMilitaryFlashlight("ArmySurplusHeadwear",4.0);
 AuthenticZ.tab_addMagProcedural_AZMilitaryFlashlight("ArmySurplusBackpacks",2.0);

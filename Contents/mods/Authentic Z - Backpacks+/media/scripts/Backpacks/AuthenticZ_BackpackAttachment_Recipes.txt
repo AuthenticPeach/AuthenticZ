@@ -7,7 +7,7 @@ recipe Make Backpack Attachable Item
   	{
    	   Hat_GasMask,
 
-   	   Result:AuthenticZBackpacks.Hat_GasMask,
+   	   Result:AuthenticZBackpacks+.Hat_GasMask,
 	   Time:30.0,
 	   Tooltip:Tooltip_AttachBackpack,
   	}			

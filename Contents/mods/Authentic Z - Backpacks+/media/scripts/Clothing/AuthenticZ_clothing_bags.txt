@@ -271,7 +271,7 @@ module AuthenticZBackpacks+ {
 		Type 					= Container,
 		DisplayName 			= Tactical Webbing,
 		ClothingItem 			= Bag_MilitaryWebbing_AZ,
-		ClothingItemExtra 		= AuthenticZClothing.Bag_MilitaryWebbingTightened_AZ,
+		ClothingItemExtra 		= AuthenticZBackpacks+.Bag_MilitaryWebbingTightened_AZ,
         ClothingItemExtraOption = Tighten,		
 		BodyLocation 			= Tail,
 		CanBeEquipped 			= Tail,
@@ -290,7 +290,7 @@ module AuthenticZBackpacks+ {
 		Type 					= Container,
 		DisplayName 			= Tactical Webbing (Tightened),
 		ClothingItem		 	= Bag_MilitaryWebbingTightened_AZ,
-		ClothingItemExtra 		= AuthenticZClothing.Bag_MilitaryWebbing_AZ,
+		ClothingItemExtra 		= AuthenticZBackpacks+.Bag_MilitaryWebbing_AZ,
         ClothingItemExtraOption = Loosen,		
 		BodyLocation 			= Tail,
 		CanBeEquipped 			= Tail,
@@ -346,6 +346,50 @@ module AuthenticZBackpacks+ {
         ReplaceInPrimaryHand	= 	Bag_ProtonPack_RHand holdingbagright,
 		WorldStaticModel 		= 	WorldItem_ProtonPack,
     }
+	
+	item Bag_SpiffoBackpackAZ
+    {
+        DisplayCategory = Raccoon,
+        WeightReduction	=	20,
+        Weight	=	1,
+        Type	=	Container,
+        Capacity	=	10,
+        DisplayName	=	Spiffo Backpack,
+        Icon = SpiffoBackpack2,
+        CanBeEquipped = Back,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        ClothingItem = Bag_SpiffoBackpackAZ,
+        BloodLocation = Bag,
+        RunSpeedModifier = 0.97,
+        AttachmentReplacement = Bag,
+        ReplaceInSecondHand = Bag_SpiffoBackpackAZ_Lhand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_SpiffoBackpackAZ_Rhand holdingbagright,
+        WorldStaticModel = SpiffoBackpack,
+    }
+
+    item Bag_PAWSBackpackAZ
+    {
+        DisplayCategory = Raccoon,
+        WeightReduction	=	30,
+        Weight	=	1,
+        Type	=	Container,
+        Capacity	=	15,
+        DisplayName	=	PAWS Backpack,
+        Icon = PAWSBackpack2,
+        CanBeEquipped = Back,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        ClothingItem = Bag_PAWSBackpackAZ,
+        BloodLocation = Bag,
+        RunSpeedModifier = 0.97,
+        AttachmentReplacement = Bag,
+        ReplaceInSecondHand = Bag_PAWSBackpackAZ_Lhand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_PAWSBackpackAZ_Rhand holdingbagright,
+        WorldStaticModel = PAWSBackpack,
+    }	
 
     item Bag_UtilityBeltFront
     {
@@ -354,7 +398,7 @@ module AuthenticZBackpacks+ {
         DisplayName				=	Utility Belt (Tightened),
         ClothingItem 			= 	Bag_UtilityBeltFront,		
         WeightReduction			=	66,
-        ClothingItemExtra 		=	AuthenticZClothing.Bag_UtilityBeltFront_Loose,
+        ClothingItemExtra 		=	AuthenticZBackpacks+.Bag_UtilityBeltFront_Loose,
         ClothingItemExtraOption = 	Loosen,
         Weight					=	0.2,
         Capacity				=	2,
@@ -375,7 +419,7 @@ module AuthenticZBackpacks+ {
         DisplayName				=	Utility Belt (Loosened),
         ClothingItem 			= 	Bag_UtilityBeltFront_Loose,		
         WeightReduction			=	66,
-        ClothingItemExtra 		=	AuthenticZClothing.Bag_UtilityBeltFront,
+        ClothingItemExtra 		=	AuthenticZBackpacks+.Bag_UtilityBeltFront,
         ClothingItemExtraOption = 	Tighten,
         Weight					=	0.2,
         Capacity				=	2,
@@ -396,7 +440,7 @@ module AuthenticZBackpacks+ {
         DisplayName				=	Utility Belt (Tightened),
         ClothingItem 			= 	Bag_UtilityBeltDesert,		
         WeightReduction			=	66,
-        ClothingItemExtra 		=	AuthenticZClothing.Bag_UtilityBeltDesert_Loose,
+        ClothingItemExtra 		=	AuthenticZBackpacks+.Bag_UtilityBeltDesert_Loose,
         ClothingItemExtraOption = 	Loosen,
         Weight					=	0.2,
         Capacity				=	2,
@@ -417,7 +461,7 @@ module AuthenticZBackpacks+ {
         DisplayName				=	Utility Belt (Loosened),
         ClothingItem 			= 	Bag_UtilityBeltDesert_Loose,		
         WeightReduction			=	66,
-        ClothingItemExtra 		=	AuthenticZClothing.Bag_UtilityBeltDesert,
+        ClothingItemExtra 		=	AuthenticZBackpacks+.Bag_UtilityBeltDesert,
         ClothingItemExtraOption = 	Tighten,
         Weight					=	0.2,
         Capacity				=	2,
@@ -447,9 +491,8 @@ module AuthenticZBackpacks+ {
         ClothingItem = Bag_SatchelAZ,
         BloodLocation = Bag,
         RunSpeedModifier = 0.99,
-        ReplaceInSecondHand = Bag_Satchel_LHand holdingbagleft,
-        ReplaceInPrimaryHand = Bag_Satchel_RHand holdingbagright,
         WorldStaticModel = Satchel_Ground,
+		OBSOLETE = TRUE,
     }	
 	
 	item Suitcase2
@@ -469,9 +512,8 @@ module AuthenticZBackpacks+ {
         BloodLocation = Bag,
         RunSpeedModifier = 0.97,
         AttachmentReplacement = Bag,
-        ReplaceInSecondHand = Bag_Suitcase_LHand holdingbagleft,
-        ReplaceInPrimaryHand = Bag_Suitcase_RHand holdingbagright,
 		WorldStaticModel = Suitcase_Ground,
+		OBSOLETE = TRUE,	
     }
 	
 }

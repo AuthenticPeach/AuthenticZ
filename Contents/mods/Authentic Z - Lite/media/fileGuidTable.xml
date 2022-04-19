@@ -3811,6 +3811,58 @@
 		<path>media/clothing/clothingItems/Bag_SchoolBagNBH.xml</path>
 		<guid>100e4cdc-b3e4-4394-8aa4-0dded5a332e4</guid>
 	</files>
+	
+	<!--Spiffo Bags Additions -->
+	<files>
+		<path>media/clothing/clothingItems/Bag_SpiffoBackpackAZ.xml</path>
+		<guid>b5842d18-9feb-4f9d-9dac-abd956f7cfac</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_SpiffoBackpackAZ_Rhand.xml</path>
+		<guid>4dbff32f-3735-40a0-a76f-3c8b94f82457</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_SpiffoBackpackAZ_Lhand.xml</path>
+		<guid>c5fbab3b-580d-4d23-8051-9fc932965661</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_SpiffoBackpackAZ_Tier_1.xml</path>
+		<guid>afbb8e1c-fee1-49a6-a78c-2ab4695f6e36</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_SpiffoBackpackAZ_Tier_2.xml</path>
+		<guid>3adafd2e-96a5-4ad5-9ac8-601fc83ae4cb</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_SpiffoBackpackAZ_Tier_3.xml</path>
+		<guid>7348ea38-84c9-4494-ae92-2332aef79e69</guid>
+	</files>	
+	<files>
+		<path>media/clothing/clothingItems/Bag_PAWSBackpackAZ.xml</path>
+		<guid>fe012841-872b-474a-9382-3e99c132d135</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_PAWSBackpackAZ_Rhand.xml</path>
+		<guid>edfc7ef1-7f63-41cd-b65b-0b16594262dd</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_PAWSBackpackAZ_Lhand.xml</path>
+		<guid>2819ae28-32f6-4453-af59-e267fc7ce792</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_PAWSBackpackAZ_Tier_1.xml</path>
+		<guid>5c368f7c-ae98-40eb-9af4-d7fb220d68aa</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_PAWSBackpackAZ_Tier_2.xml</path>
+		<guid>24a6e8c2-9e71-4849-a19d-df1efaea71ef</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_PAWSBackpackAZ_Tier_3.xml</path>
+		<guid>4b9935e1-191a-436f-b3cd-8a90187f7aff</guid>
+	</files>		
+	
+	<!-- End of Spiffo Bags Additions -->		
 	<files>
 		<path>media/clothing/clothingItems/Bag_Handbag_RightHand.xml</path>
 		<guid>afd70021-9288-4317-b758-bb147943918d</guid>
@@ -3880,6 +3932,10 @@
 		<guid>8742d2e1-041e-4b67-bfc3-917834f3be9a</guid>
 	</files>
 	<files>
+		<path>media/clothing/clothingItems/Blue_LongJohns.xml</path>
+		<guid>61c18d35-e88e-4a02-81a4-5a8113052eb5</guid>
+	</files>	
+	<files>
 		<path>media/clothing/clothingItems/Boilersuit_BigDaddy.xml</path>
 		<guid>1d7487a9-c72f-4629-9be9-375f99b5eb91</guid>
 	</files>
@@ -3930,7 +3986,11 @@
 	<files>
 		<path>media/clothing/clothingItems/CameraDSLR.xml</path>
 		<guid>01d90dcf-d42f-4dcb-a702-397423dce587</guid>
-	</files>		
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/CameraBroadcasting.xml</path>
+		<guid>46bae820-64d9-4795-8252-001dfbc2cec9</guid>
+	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Cigarette.xml</path>
 		<guid>410485f1-a2d9-4936-bc38-2deb0c9d0ec5</guid>
@@ -3947,6 +4007,10 @@
 		<path>media/clothing/clothingItems/ClownNose.xml</path>
 		<guid>45a49acf-b95e-4aa3-b842-ea7d37c040db</guid>
 	</files>
+	<files>
+		<path>media/clothing/clothingItems/ClownNoseTINT.xml</path>
+		<guid>062324f6-6c13-4c0c-a405-bbcb10827d51</guid>
+	</files>	
 	<files>
 		<path>media/clothing/clothingItems/ClownTop.xml</path>
 		<guid>44a20134-7d25-49a9-8cf6-11dda7b6a2eb</guid>
@@ -3971,6 +4035,10 @@
 		<path>media/clothing/clothingItems/Dress_Dimitrescu.xml</path>
 		<guid>3e7d6c4a-50a7-4cfb-82e3-f25f393b0dc8</guid>
 	</files>
+	<files>
+		<path>media/clothing/clothingItems/Dress_DimitrescuALT.xml</path>
+		<guid>bb2b6fa8-880c-402c-a75d-18c46d4da110</guid>
+	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Dress_Knees_Black.xml</path>
 		<guid>6831f0df-a72f-48f5-975a-3dec446de4bb</guid>
@@ -4350,6 +4418,10 @@
 	<files>
 		<path>media/clothing/clothingItems/Hat_Dimitrescu.xml</path>
 		<guid>f64de544-9a94-456c-9676-7e70817179c9</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Hat_Dimitrescu_Back.xml</path>
+		<guid>ef684ea0-4943-4e78-aeb6-1ba1d130faa8</guid>
 	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Hat_DRLegoHead.xml</path>
@@ -4434,6 +4506,14 @@
 	<files>
 		<path>media/clothing/clothingItems/Hat_Nurse.xml</path>
 		<guid>ac4a488f-2bbc-4337-8e45-ec522e747bbd</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Hat_RuneDuel.xml</path>
+		<guid>75a3d8e2-60e2-480a-909e-fdcbc872f317</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Hat_RuneDuel_Back.xml</path>
+		<guid>fd8efb68-986f-42be-b964-6223c1c96489</guid>
 	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Hat_StovePipe.xml</path>
@@ -4442,6 +4522,10 @@
 	<files>
 		<path>media/clothing/clothingItems/Hat_SummerWhite.xml</path>
 		<guid>165d60a9-9ca1-4c71-a467-deb9ba793941</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Hat_SummerWhite_Back.xml</path>
+		<guid>a962d788-f35e-40d8-846c-64c985b3a6f7</guid>
 	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Hat_SweatbandRBW.xml</path>
@@ -4476,10 +4560,6 @@
 		<guid>28cadbe0-cf32-4eb0-937b-5ab48070675f</guid>
 	</files>
 	<files>
-		<path>media/clothing/clothingItems/Hat_RuneDuel.xml</path>
-		<guid>75a3d8e2-60e2-480a-909e-fdcbc872f317</guid>
-	</files>
-	<files>
 		<path>media/clothing/clothingItems/Hat_TagillaMask.xml</path>
 		<guid>97a3fa4b-d725-4f28-9ed1-65705a5a6864</guid>
 	</files>
@@ -4498,31 +4578,99 @@
 	<files>
 		<path>media/clothing/clothingItems/Hat_Witchy_2.xml</path>
 		<guid>afa17cee-93fc-4949-922f-8272bcf59fcd</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Hat_Witchy_2_Back.xml</path>
+		<guid>222b5d9e-9c56-41d7-9ea9-54fb216b25f5</guid>
 	</files>	
 	<files>
 		<path>media/clothing/clothingItems/HazmatSuit2.xml</path>
 		<guid>32bf5f44-ef49-47e2-9ff6-5147951d52ae</guid>
 	</files>
 	<files>
+		<path>media/clothing/clothingItems/HazmatSuit2NoShoes.xml</path>
+		<guid>b571c9f7-c7b4-4c97-aa39-efffdb97766c</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/HazmatSuit2NoMaskNoShoes.xml</path>
+		<guid>efca25c6-3a91-402b-b336-0bb22ec68438</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/HazmatSuit2NoMask.xml</path>
+		<guid>0ffe0e4f-0580-4b98-8fdf-1415129ba46e</guid>
+	</files>	
+	<files>
 		<path>media/clothing/clothingItems/HazmatSuitCEDA.xml</path>
 		<guid>a920d2dd-414f-44fe-ba15-4553a28c4b6b</guid>
 	</files>
+	<files>
+		<path>media/clothing/clothingItems/HazmatSuitCEDANoShoes.xml</path>
+		<guid>6a18e56e-b89d-42c6-b5ec-3dbe953bd918</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/HazmatSuitCEDANoMaskNoShoes.xml</path>
+		<guid>041e86d4-2a38-40e7-8f20-a5a8e0303864</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/HazmatSuitCEDANoMask.xml</path>
+		<guid>18bd535e-6064-4de3-9bd6-53713af26e68</guid>
+	</files>	
 	<files>
 		<path>media/clothing/clothingItems/HazmatSuitCEDABlack.xml</path>
 		<guid>18d429c8-a34c-4a54-b243-83e23f70c69e</guid>
 	</files>
 	<files>
+		<path>media/clothing/clothingItems/CEDAHazmatSuitBlackNoShoes.xml</path>
+		<guid>eedef4a1-ce6a-4645-8948-6c4dfc4d7687</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/CEDAHazmatSuitBlackNoMaskNoShoes.xml</path>
+		<guid>5d48bbd2-085d-4b76-8250-81f8be8c2d89</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/CEDAHazmatSuitBlackNoMask.xml</path>
+		<guid>5b54dd45-e2c7-4135-8cee-d099d2d4defe</guid>
+	</files>	
+	<files>
 		<path>media/clothing/clothingItems/HazmatSuitCEDABlue.xml</path>
 		<guid>c5969fdb-8603-49a3-92f2-d5862d3014ca</guid>
 	</files>
 	<files>
+		<path>media/clothing/clothingItems/CEDAHazmatSuitBlueNoShoes.xml</path>
+		<guid>1c2af366-577d-4c32-a11c-da3712d7099d</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/CEDAHazmatSuitBlueNoMaskNoShoes.xml</path>
+		<guid>058b91d0-b536-4656-bc31-f4d2b379ec72</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/CEDAHazmatSuitBlueNoMask.xml</path>
+		<guid>95fc976d-8d55-453e-8cf9-b00478225ec5</guid>
+	</files>	
+	<files>
 		<path>media/clothing/clothingItems/HazmatSuitCEDARed.xml</path>
 		<guid>3c3d8211-7235-4a9a-ac40-07a10ae29dca</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/CEDAHazmatSuitRedNoShoes.xml</path>
+		<guid>da77b75d-8315-4163-b329-4aeb83d68a48</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/CEDAHazmatSuitRedNoMaskNoShoes.xml</path>
+		<guid>3e57affe-c13b-4f24-a501-9aafa9705cfc</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/CEDAHazmatSuitRedNoMask.xml</path>
+		<guid>4c75c2cb-4aa6-491a-bf85-774fc8532970</guid>
 	</files>	
 	<files>
 		<path>media/clothing/clothingItems/HazmatSuitNBH.xml</path>
 		<guid>3235b13b-9c27-4445-bb53-7a453985b6a6</guid>
 	</files>
+	<files>
+		<path>media/clothing/clothingItems/HazmatSuitNBHNoShoes.xml</path>
+		<guid>03e6b39a-6b6e-4ed3-aec5-db3d04cf26a9</guid>
+	</files>	
 	<files>
 		<path>media/clothing/clothingItems/HoodieTied_Checkered.xml</path>
 		<guid>150da59c-789f-4a6b-b5c8-6b14b22fa6f6</guid>
@@ -5199,6 +5347,10 @@
 		<path>media/clothing/clothingItems/Shoes_ClownAuthentic.xml</path>
 		<guid>725cf8ef-b572-4627-b59a-53c30c2c23ea</guid>
 	</files>
+	<files>
+		<path>media/clothing/clothingItems/Shoes_ClownPolka.xml</path>
+		<guid>c1d1bb73-02ed-4885-b2ce-d89f67039d34</guid>
+	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Shoes_BillMurray.xml</path>
 		<guid>a4e56057-6eee-4453-96f4-12613ee1a25f</guid>

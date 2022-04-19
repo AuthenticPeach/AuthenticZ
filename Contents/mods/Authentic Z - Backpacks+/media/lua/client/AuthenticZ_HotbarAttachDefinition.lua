@@ -147,7 +147,7 @@ local SchoolbagUmbrellaLeft = {
 	attachments = { -- list of possible item category and their modelAttachement group, the item category is defined in the item script		
 		Umbrella = "Schoolbag Umbrella Left",
 		Saw = "Schoolbag Saw Right",
-		Torch = "Schoolbag Torch Right",		
+		Tool = "Schoolbag Torch Right",
 	},
 }
 table.insert(ISHotbarAttachDefinition, SchoolbagUmbrellaLeft);
@@ -159,7 +159,8 @@ local SchoolbagPlushie = {
 	attachments = { -- list of possible item category and their modelAttachement group, the item category is defined in the item script		
 		SpiffoPlushie = "Schoolbag Plushie Spiffo",
 		Doll = "Schoolbag Plushie Doll",
-		TeddyBear = "Schoolbag Plushie TeddyBear",		
+		TeddyBear = "Schoolbag Plushie TeddyBear",
+		RubberDuck = "Schoolbag Plushie RubberDuck",				
 	},
 }
 table.insert(ISHotbarAttachDefinition, SchoolbagPlushie);
@@ -216,6 +217,7 @@ local DufflebagPlushie = {
 		SpiffoPlushie = "Dufflebag Plushie Spiffo",
 		Doll = "Dufflebag Plushie Doll",
 		TeddyBear = "Dufflebag Plushie TeddyBear",
+		RubberDuck = "Dufflebag Plushie RubberDuck",			
 	},
 }
 table.insert(ISHotbarAttachDefinition, DufflebagPlushie);
@@ -227,7 +229,7 @@ local DufflebagUmbrellaRight = {
 	attachments = { -- list of possible item category and their modelAttachement group, the item category is defined in the item script		
 		Umbrella = "Dufflebag Umbrella Right",
 		Saw = "Dufflebag Saw Right",
-		Torch = "Dufflebag Torch Right",
+		Tool = "Dufflebag Torch Right",	
 	},
 }
 table.insert(ISHotbarAttachDefinition, DufflebagUmbrellaRight);
@@ -479,6 +481,7 @@ local HikingBagPlushie = {
 		SpiffoPlushie = "HikingBag Plushie Spiffo",
 		Doll = "HikingBag Plushie Doll",
 		TeddyBear = "HikingBag Plushie TeddyBear",
+		RubberDuck = "HikingBag Plushie RubberDuck",		
 	},
 }
 table.insert(ISHotbarAttachDefinition, HikingBagPlushie);
@@ -490,11 +493,21 @@ local HikingbagUmbrellaLeft = {
 	attachments = { -- list of possible item category and their modelAttachement group, the item category is defined in the item script		
 		Umbrella = "HikingBag Umbrella Left",
 		Saw = "HikingBag Saw Right",
-		Torch = "HikingBag Torch Right",		
+		Tool = "HikingBag Torch Right",
 	},
 }
 table.insert(ISHotbarAttachDefinition, HikingbagUmbrellaLeft);
-
+--[[
+local HikingbagSleepingRoll = {
+	type = "HikingbagSleepingRoll",
+	name = "Sleeping Bag Slot", -- Name shown in the slot icon
+	animset = "back",
+	attachments = { -- list of possible item category and their modelAttachement group, the item category is defined in the item script		
+		SleepingBag = "HikingBag Sleeping Bag",			
+	},
+}
+table.insert(ISHotbarAttachDefinition, HikingbagSleepingRoll);
+]]--
 local HikingBagFlashlight = {
 	type = "HikingBagFlashlight",
 	name = "Flashlight Slot", -- Name shown in the slot icon
@@ -663,11 +676,21 @@ local BigHikingbagUmbrellaLeft = {
 	attachments = { -- list of possible item category and their modelAttachement group, the item category is defined in the item script		
 		Umbrella = "BigHikingBag Umbrella Right",
 		Saw = "BigHikingBag Saw Right",
-		Torch = "BigHikingBag Torch Right",		
+		Tool = "BigHikingBag Torch Right",		
 	},
 }
 table.insert(ISHotbarAttachDefinition, BigHikingbagUmbrellaLeft);
-
+--[[
+local BigHikingbagSleepingRoll = {
+	type = "BigHikingbagSleepingRoll",
+	name = "Sleeping Bag Slot", -- Name shown in the slot icon
+	animset = "back",
+	attachments = { -- list of possible item category and their modelAttachement group, the item category is defined in the item script		
+		SleepingBag = "BigHikingBag Sleeping Bag",			
+	},
+}
+table.insert(ISHotbarAttachDefinition, BigHikingbagSleepingRoll);
+]]--
 local BigHikingbagFlashlight = {
 	type = "BigHikingbagFlashlight",
 	name = "Flashlight Slot", -- Name shown in the slot icon
@@ -686,6 +709,7 @@ local BigHikingbagPlushie = {
 		SpiffoPlushie = "BigHikingBag Plushie Spiffo",
 		Doll = "BigHikingBag Plushie Doll",
 		TeddyBear = "BigHikingBag Plushie TeddyBear",
+		RubberDuck = "BigHikingBag Plushie RubberDuck",		
 	},
 }
 table.insert(ISHotbarAttachDefinition, BigHikingbagPlushie);
@@ -710,7 +734,8 @@ local AlicepackSecondary = {
 		FirstAidKit = "Alicepack FirstAidKit",	
 		Bag_L4DeadMedkit = "Alicepack Bag_L4DeadMedkit",	
 		Lunchbox = "Alicepack Lunchbox",
-		PistolCase = "Alicepack PistolCase",		
+		PistolCase = "Alicepack PistolCase",
+
 	},
 }
 table.insert(ISHotbarAttachDefinition, AlicepackSecondary);
@@ -873,11 +898,21 @@ local AlicepackUmbrellaRight = {
 	attachments = { -- list of possible item category and their modelAttachement group, the item category is defined in the item script		
 		Umbrella = "Alicepack Umbrella Right",
 		Saw = "Alicepack Saw Right",
-		Torch = "Alicepack Torch Right",		
+		Tool = "Alicepack Torch Right",	
 	},
 }
 table.insert(ISHotbarAttachDefinition, AlicepackUmbrellaRight);
-
+--[[
+local AlicepackSleepingRoll = {
+	type = "AlicepackSleepingRoll",
+	name = "Sleeping Bag Slot", -- Name shown in the slot icon
+	animset = "back",
+	attachments = { -- list of possible item category and their modelAttachement group, the item category is defined in the item script		
+		SleepingBag = "Alicepack Sleeping Bag",			
+	},
+}
+table.insert(ISHotbarAttachDefinition, AlicepackSleepingRoll);
+]]--
 local AlicepackFlashlight = {
 	type = "AlicepackFlashlight",
 	name = "Flashlight Slot", -- Name shown in the slot icon
@@ -896,6 +931,7 @@ local AlicepackPlushie = {
 		SpiffoPlushie = "Alicepack Plushie Spiffo",
 		Doll = "Alicepack Plushie Doll",
 		TeddyBear = "Alicepack Plushie TeddyBear",
+		RubberDuck = "Alicepack Plushie RubberDuck",
 	},
 }
 table.insert(ISHotbarAttachDefinition, AlicepackPlushie);
@@ -1083,7 +1119,7 @@ local ARVNUmbrellaRight = {
 	attachments = { -- list of possible item category and their modelAttachement group, the item category is defined in the item script		
 		Umbrella = "Alicepack Umbrella Right",
 		Saw = "Alicepack Saw Right",
-		Torch = "Alicepack Torch Right",		
+		Tool = "Alicepack Torch Right",		
 	},
 }
 table.insert(ISHotbarAttachDefinition, ARVNUmbrellaRight);
@@ -1106,6 +1142,7 @@ local ARVNPlushie = {
 		SpiffoPlushie = "Alicepack Plushie Spiffo",
 		Doll = "Alicepack Plushie Doll",
 		TeddyBear = "Alicepack Plushie TeddyBear",
+		RubberDuck = "Alicepack Plushie RubberDuck",
 	},
 }
 table.insert(ISHotbarAttachDefinition, ARVNPlushie);

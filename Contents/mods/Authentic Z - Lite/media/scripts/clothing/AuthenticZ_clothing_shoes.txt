@@ -1,4 +1,4 @@
-module AuthenticZClothing {
+module AuthenticZLite {
   imports {
       Base
   }
@@ -103,6 +103,28 @@ module AuthenticZClothing {
 		Icon = ShoesClown,
 		StompPower = 2.1,
 		ConditionLowerChanceOneIn = 12,
+        ConditionMax = 24,
+        RunSpeedModifier = 0.95,
+        RemoveOnBroken = false,
+        ScratchDefense = 20,
+        BiteDefense = 10,
+        Insulation = 0.25,
+        WindResistance = 0.25,
+        WaterResistance = 0.25,
+		WorldStaticModel = Shoes_Ground,
+    }
+ 	item Shoes_ClownPolka
+	{
+       DisplayCategory = Clothing,	
+	   Type = Clothing,
+	   DisplayName = Clown Shoes,
+		ClothingItem = Shoes_ClownPolka,
+		BodyLocation = Shoes,
+		BodyLocation = Shoes,
+		BloodLocation = Shoes,
+		Icon = ShoesClownPolka,
+		StompPower = 2.1,
+		ConditionLowerChanceOneIn = 12,
         	ConditionMax = 24,
         	RunSpeedModifier = 0.95,
         	RemoveOnBroken = false,
@@ -112,7 +134,7 @@ module AuthenticZClothing {
         	WindResistance = 0.25,
         	WaterResistance = 0.25,
 			WorldStaticModel = Shoes_Ground,
-    	}	
+    	}		
 	item Shoes_JimmyGibbs
 	{
        DisplayCategory = Clothing,
@@ -504,7 +526,7 @@ module AuthenticZClothing {
         Weight = 0.1,
         WorldStaticModel = Socks_Long_Ground,		
 	}		
-		item Socks_Long_MaidStockings
+	item Socks_Long_MaidStockings
 	{
        DisplayCategory = Clothing,		
 		Type = Clothing,
@@ -532,7 +554,7 @@ module AuthenticZClothing {
         Weight = 0.1,
         WorldStaticModel = Socks_Long_Ground,		
 	}	
-		item Socks_Long_NurseThigh
+	item Socks_Long_NurseThigh
 	{
        DisplayCategory = Clothing,		
 		Type = Clothing,
@@ -644,5 +666,4 @@ module AuthenticZClothing {
         Weight = 0.1,
         WorldStaticModel = Socks_Long_Ground,			
 	}
-	
 }

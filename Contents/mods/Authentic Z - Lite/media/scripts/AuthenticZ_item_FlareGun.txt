@@ -1,4 +1,4 @@
-module AuthenticZClothing {
+module AuthenticZLite {
   imports {
       Base
   }
@@ -52,7 +52,7 @@ module AuthenticZClothing {
         InsertAmmoSound = StormyShotgunInsertRound,
         EjectAmmoSound = Stormy9mmClipEject,
         RackSound = stormyShotgunPump,
-        AmmoType = AuthenticZClothing.Flare12GaugeShot,
+        AmmoType = AuthenticZLite.Flare12GaugeShot,
         WeaponReloadType = shotgun,
         JamGunChance 	= 0,
         haveChamber 	= FALSE,

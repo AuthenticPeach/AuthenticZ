@@ -10,11 +10,11 @@ AttachedWeaponDefinitions.MeatChunk = {
 	addHoles = false,
 	daySurvived = 0,
 	weapons = {
-		"AuthenticZClothing.AuthenticMeatChunk1",
-		"AuthenticZClothing.AuthenticMeatChunk2",
-		"AuthenticZClothing.AuthenticMeatChunk3",
-		"AuthenticZClothing.AuthenticMeatChunk4",
-		"AuthenticZClothing.AuthenticMeatChunk5",
+		"AuthenticZLite.AuthenticMeatChunk1",
+		"AuthenticZLite.AuthenticMeatChunk2",
+		"AuthenticZLite.AuthenticMeatChunk3",
+		"AuthenticZLite.AuthenticMeatChunk4",
+		"AuthenticZLite.AuthenticMeatChunk5",
 	},
 }
 --Chance for an organ!
@@ -25,11 +25,11 @@ AttachedWeaponDefinitions.Organ = {
 	addHoles = false,
 	daySurvived = 0,
 	weapons = {
-		"AuthenticZClothing.AuthenticOrgan_Liver",
-		"AuthenticZClothing.AuthenticOrgan_Brain",
---		"AuthenticZClothing.AuthenticOrgan_Hand",
-		"AuthenticZClothing.AuthenticOrgan_Heart",
-		"AuthenticZClothing.AuthenticOrgan_Kidney",
+		"AuthenticZLite.AuthenticOrgan_Liver",
+		"AuthenticZLite.AuthenticOrgan_Brain",
+--		"AuthenticZLite.AuthenticOrgan_Hand",
+		"AuthenticZLite.AuthenticOrgan_Heart",
+		"AuthenticZLite.AuthenticOrgan_Kidney",
 }
 }
 -- For Specific Outfits --
@@ -42,7 +42,7 @@ AttachedWeaponDefinitions.Bandages= {
 	addHoles = false,
 	daySurvived = 0,
 	weapons = {
-		"AuthenticZClothing.Authentic_Bandages",
+		"AuthenticZLite.Authentic_Bandages",
 	},
 }
 
@@ -55,13 +55,13 @@ AttachedWeaponDefinitions.Balloon= {
 	addHoles = false,
 	daySurvived = 0,
 	weapons = {
-		"AuthenticZClothing.AuthenticBalloon_White",
-		"AuthenticZClothing.AuthenticBalloon_Blue",
-		"AuthenticZClothing.AuthenticBalloon_Purple",
-		"AuthenticZClothing.AuthenticBalloon_Pink",
-		"AuthenticZClothing.AuthenticBalloon_Red",
-		"AuthenticZClothing.AuthenticBalloon_Green",
-		"AuthenticZClothing.AuthenticBalloon_Yellow",		
+		"AuthenticZLite.AuthenticBalloon_White",
+		"AuthenticZLite.AuthenticBalloon_Blue",
+		"AuthenticZLite.AuthenticBalloon_Purple",
+		"AuthenticZLite.AuthenticBalloon_Pink",
+		"AuthenticZLite.AuthenticBalloon_Red",
+		"AuthenticZLite.AuthenticBalloon_Green",
+		"AuthenticZLite.AuthenticBalloon_Yellow",		
 	},
 }
 AttachedWeaponDefinitions.BalloonP1= {
@@ -73,13 +73,13 @@ AttachedWeaponDefinitions.BalloonP1= {
 	addHoles = false,
 	daySurvived = 0,
 	weapons = {
-		"AuthenticZClothing.AuthenticBalloon_White",
-		"AuthenticZClothing.AuthenticBalloon_Blue",
-		"AuthenticZClothing.AuthenticBalloon_Purple",
-		"AuthenticZClothing.AuthenticBalloon_Pink",
-		"AuthenticZClothing.AuthenticBalloon_Red",
-		"AuthenticZClothing.AuthenticBalloon_Green",
-		"AuthenticZClothing.AuthenticBalloon_Yellow",		
+		"AuthenticZLite.AuthenticBalloon_White",
+		"AuthenticZLite.AuthenticBalloon_Blue",
+		"AuthenticZLite.AuthenticBalloon_Purple",
+		"AuthenticZLite.AuthenticBalloon_Pink",
+		"AuthenticZLite.AuthenticBalloon_Red",
+		"AuthenticZLite.AuthenticBalloon_Green",
+		"AuthenticZLite.AuthenticBalloon_Yellow",		
 	},
 }
 AttachedWeaponDefinitions.BalloonP2= {
@@ -91,13 +91,13 @@ AttachedWeaponDefinitions.BalloonP2= {
 	addHoles = false,
 	daySurvived = 0,
 	weapons = {
-		"AuthenticZClothing.AuthenticBalloon_White",
-		"AuthenticZClothing.AuthenticBalloon_Blue",
-		"AuthenticZClothing.AuthenticBalloon_Purple",
-		"AuthenticZClothing.AuthenticBalloon_Pink",
-		"AuthenticZClothing.AuthenticBalloon_Red",
-		"AuthenticZClothing.AuthenticBalloon_Green",
-		"AuthenticZClothing.AuthenticBalloon_Yellow",		
+		"AuthenticZLite.AuthenticBalloon_White",
+		"AuthenticZLite.AuthenticBalloon_Blue",
+		"AuthenticZLite.AuthenticBalloon_Purple",
+		"AuthenticZLite.AuthenticBalloon_Pink",
+		"AuthenticZLite.AuthenticBalloon_Red",
+		"AuthenticZLite.AuthenticBalloon_Green",
+		"AuthenticZLite.AuthenticBalloon_Yellow",		
 	},
 }
 AttachedWeaponDefinitions.BalloonP3= {
@@ -109,13 +109,13 @@ AttachedWeaponDefinitions.BalloonP3= {
 	addHoles = false,
 	daySurvived = 0,
 	weapons = {
-		"AuthenticZClothing.AuthenticBalloon_White",
-		"AuthenticZClothing.AuthenticBalloon_Blue",
-		"AuthenticZClothing.AuthenticBalloon_Purple",
-		"AuthenticZClothing.AuthenticBalloon_Pink",
-		"AuthenticZClothing.AuthenticBalloon_Red",
-		"AuthenticZClothing.AuthenticBalloon_Green",
-		"AuthenticZClothing.AuthenticBalloon_Yellow",		
+		"AuthenticZLite.AuthenticBalloon_White",
+		"AuthenticZLite.AuthenticBalloon_Blue",
+		"AuthenticZLite.AuthenticBalloon_Purple",
+		"AuthenticZLite.AuthenticBalloon_Pink",
+		"AuthenticZLite.AuthenticBalloon_Red",
+		"AuthenticZLite.AuthenticBalloon_Green",
+		"AuthenticZLite.AuthenticBalloon_Yellow",		
 	},
 }
 
@@ -180,7 +180,7 @@ AttachedWeaponDefinitions.chainsawAsh= {
 	addHoles = false,
 	daySurvived = 0,
 	weapons = {
-		"AuthenticZClothing.Chainsaw",
+		"AuthenticZLite.Chainsaw",
 	},
 }
 
@@ -193,7 +193,7 @@ AttachedWeaponDefinitions.CigaretteHolder= {
 	addHoles = false,
 	daySurvived = 0,
 	weapons = {
-		"AuthenticZClothing.AuthenticCigaretteHolder",
+		"AuthenticZLite.AuthenticCigaretteHolder",
 	},
 }
 
@@ -206,7 +206,7 @@ AttachedWeaponDefinitions.CoffeeCup= {
 	addHoles = false,
 	daySurvived = 0,
 	weapons = {
-		"AuthenticZClothing.Authentic_CoffeeCup",
+		"AuthenticZLite.Authentic_CoffeeCup",
 	},
 }
 
@@ -231,11 +231,11 @@ AttachedWeaponDefinitions.ElderlyBingo = {
 	addHoles = false,
 	daySurvived = 0,
 	weapons = {
-    "AuthenticZClothing.AuthenticBingoDotter",
-    "AuthenticZClothing.AuthenticBingoDotterOrange",
-    "AuthenticZClothing.AuthenticBingoDotterRed",
-    "AuthenticZClothing.AuthenticBingoDotterTeal",
-    "AuthenticZClothing.AuthenticBingoDotterYellow",
+    "AuthenticZLite.AuthenticBingoDotter",
+    "AuthenticZLite.AuthenticBingoDotterOrange",
+    "AuthenticZLite.AuthenticBingoDotterRed",
+    "AuthenticZLite.AuthenticBingoDotterTeal",
+    "AuthenticZLite.AuthenticBingoDotterYellow",
 	},
 }
 
@@ -247,13 +247,13 @@ AttachedWeaponDefinitions.ElderlyCane = {
 	addHoles = false,
 	daySurvived = 0,
 	weapons = {
-    "AuthenticZClothing.AuthenticWalkingCane",
-    "AuthenticZClothing.AuthenticWalkingCaneMetal",
-    "AuthenticZClothing.AuthenticWalkingCaneGrandFather",
-    "AuthenticZClothing.AuthenticWalkingCane",
-    "AuthenticZClothing.AuthenticWalkingCaneMetal",
-    "AuthenticZClothing.AuthenticWalkingCaneGrandFather",	
-    "AuthenticZClothing.AuthenticWalkingCaneJP",
+    "AuthenticZLite.AuthenticWalkingCane",
+    "AuthenticZLite.AuthenticWalkingCaneMetal",
+    "AuthenticZLite.AuthenticWalkingCaneGrandFather",
+    "AuthenticZLite.AuthenticWalkingCane",
+    "AuthenticZLite.AuthenticWalkingCaneMetal",
+    "AuthenticZLite.AuthenticWalkingCaneGrandFather",	
+    "AuthenticZLite.AuthenticWalkingCaneJP",
 	},
 }
 
@@ -266,7 +266,7 @@ AttachedWeaponDefinitions.Pills= {
 	addHoles = false,
 	daySurvived = 0,
 	weapons = {
-		"AuthenticZClothing.Authentic_Pills",
+		"AuthenticZLite.Authentic_Pills",
 	},
 }
 
@@ -332,7 +332,7 @@ AttachedWeaponDefinitions.PaintBrush= {
 	addHoles = false,
 	daySurvived = 0,
 	weapons = {
-		"AuthenticZClothing.Authentic_Paintbrush",
+		"AuthenticZLite.Authentic_Paintbrush",
 	},
 }
 AttachedWeaponDefinitions.PaintBrush2= {
@@ -357,8 +357,8 @@ AttachedWeaponDefinitions.PoliticianMoney= {
 	addHoles = false,
 	daySurvived = 0,
 	weapons = {
-		"AuthenticZClothing.Authentic_MoneyStack",
-		"AuthenticZClothing.Authentic_MoneyStack",
+		"AuthenticZLite.Authentic_MoneyStack",
+		"AuthenticZLite.Authentic_MoneyStack",
 	},
 }
 
@@ -371,24 +371,24 @@ AttachedWeaponDefinitions.ReporterMicAll = {
 	addHoles = false,
 	daySurvived = 0,
 	weapons = {
-    "AuthenticZClothing.ReporterMicrophoneMuffler_Media01",
-    "AuthenticZClothing.ReporterMicrophoneMuffler_Media01",
-    "AuthenticZClothing.ReporterMicrophone_Media01",
-    "AuthenticZClothing.ReporterMicrophone_Media01",
-    "AuthenticZClothing.ReporterMicrophoneMuffler_Media02",
-    "AuthenticZClothing.ReporterMicrophoneMuffler_Media02",
-    "AuthenticZClothing.ReporterMicrophone_Media02",
-    "AuthenticZClothing.ReporterMicrophone_Media02",
-    "AuthenticZClothing.ReporterMicrophoneMuffler_Media03",
-    "AuthenticZClothing.ReporterMicrophoneMuffler_Media03",
-    "AuthenticZClothing.ReporterMicrophone_Media03",
-    "AuthenticZClothing.ReporterMicrophone_Media03",	
-	"AuthenticZClothing.ReporterMicrophoneMuffler_Media04",
-    "AuthenticZClothing.ReporterMicrophoneMuffler_Media04",
-    "AuthenticZClothing.ReporterMicrophoneMuffler_Media05",
-    "AuthenticZClothing.ReporterMicrophone_Media04",
-    "AuthenticZClothing.ReporterMicrophone_Media04",
-    "AuthenticZClothing.ReporterMicrophone_Media05",	
+    "AuthenticZLite.ReporterMicrophoneMuffler_Media01",
+    "AuthenticZLite.ReporterMicrophoneMuffler_Media01",
+    "AuthenticZLite.ReporterMicrophone_Media01",
+    "AuthenticZLite.ReporterMicrophone_Media01",
+    "AuthenticZLite.ReporterMicrophoneMuffler_Media02",
+    "AuthenticZLite.ReporterMicrophoneMuffler_Media02",
+    "AuthenticZLite.ReporterMicrophone_Media02",
+    "AuthenticZLite.ReporterMicrophone_Media02",
+    "AuthenticZLite.ReporterMicrophoneMuffler_Media03",
+    "AuthenticZLite.ReporterMicrophoneMuffler_Media03",
+    "AuthenticZLite.ReporterMicrophone_Media03",
+    "AuthenticZLite.ReporterMicrophone_Media03",	
+	"AuthenticZLite.ReporterMicrophoneMuffler_Media04",
+    "AuthenticZLite.ReporterMicrophoneMuffler_Media04",
+    "AuthenticZLite.ReporterMicrophoneMuffler_Media05",
+    "AuthenticZLite.ReporterMicrophone_Media04",
+    "AuthenticZLite.ReporterMicrophone_Media04",
+    "AuthenticZLite.ReporterMicrophone_Media05",	
 	},
 }
 
@@ -401,28 +401,28 @@ AttachedWeaponDefinitions.ReporterMicLBMW = {
 	addHoles = false,
 	daySurvived = 0,
 	weapons = {
-    "AuthenticZClothing.ReporterMicrophoneMuffler_Media03",
-    "AuthenticZClothing.ReporterMicrophoneMuffler_Media03",
-    "AuthenticZClothing.ReporterMicrophone_Media03",
-    "AuthenticZClothing.ReporterMicrophone_Media03",
-    "AuthenticZClothing.ReporterMicrophoneMuffler_Media03",
-    "AuthenticZClothing.ReporterMicrophoneMuffler_Media03",
-    "AuthenticZClothing.ReporterMicrophone_Media03",
-    "AuthenticZClothing.ReporterMicrophone_Media03",
-    "AuthenticZClothing.ReporterMicrophoneMuffler_Media03",
-    "AuthenticZClothing.ReporterMicrophoneMuffler_Media03",
-    "AuthenticZClothing.ReporterMicrophone_Media03",
-    "AuthenticZClothing.ReporterMicrophone_Media03",
-    "AuthenticZClothing.ReporterMicrophoneMuffler_Media03",
-    "AuthenticZClothing.ReporterMicrophoneMuffler_Media03",
-    "AuthenticZClothing.ReporterMicrophone_Media03",
-    "AuthenticZClothing.ReporterMicrophone_Media03",	
-	"AuthenticZClothing.ReporterMicrophoneMuffler_Media04",
-    "AuthenticZClothing.ReporterMicrophoneMuffler_Media04",
-    "AuthenticZClothing.ReporterMicrophoneMuffler_Media05",
-    "AuthenticZClothing.ReporterMicrophone_Media04",
-    "AuthenticZClothing.ReporterMicrophone_Media04",
-    "AuthenticZClothing.ReporterMicrophone_Media05",	
+    "AuthenticZLite.ReporterMicrophoneMuffler_Media03",
+    "AuthenticZLite.ReporterMicrophoneMuffler_Media03",
+    "AuthenticZLite.ReporterMicrophone_Media03",
+    "AuthenticZLite.ReporterMicrophone_Media03",
+    "AuthenticZLite.ReporterMicrophoneMuffler_Media03",
+    "AuthenticZLite.ReporterMicrophoneMuffler_Media03",
+    "AuthenticZLite.ReporterMicrophone_Media03",
+    "AuthenticZLite.ReporterMicrophone_Media03",
+    "AuthenticZLite.ReporterMicrophoneMuffler_Media03",
+    "AuthenticZLite.ReporterMicrophoneMuffler_Media03",
+    "AuthenticZLite.ReporterMicrophone_Media03",
+    "AuthenticZLite.ReporterMicrophone_Media03",
+    "AuthenticZLite.ReporterMicrophoneMuffler_Media03",
+    "AuthenticZLite.ReporterMicrophoneMuffler_Media03",
+    "AuthenticZLite.ReporterMicrophone_Media03",
+    "AuthenticZLite.ReporterMicrophone_Media03",	
+	"AuthenticZLite.ReporterMicrophoneMuffler_Media04",
+    "AuthenticZLite.ReporterMicrophoneMuffler_Media04",
+    "AuthenticZLite.ReporterMicrophoneMuffler_Media05",
+    "AuthenticZLite.ReporterMicrophone_Media04",
+    "AuthenticZLite.ReporterMicrophone_Media04",
+    "AuthenticZLite.ReporterMicrophone_Media05",	
 	},
 }
 
@@ -435,26 +435,26 @@ AttachedWeaponDefinitions.ReporterMicLBMWRadio = {
 	addHoles = false,
 	daySurvived = 0,
 	weapons = {
-    "AuthenticZClothing.ReporterMicrophoneMuffler_Media02",
-    "AuthenticZClothing.ReporterMicrophoneMuffler_Media02",
-    "AuthenticZClothing.ReporterMicrophone_Media02",
-    "AuthenticZClothing.ReporterMicrophone_Media02",
-    "AuthenticZClothing.ReporterMicrophoneMuffler_Media02",
-    "AuthenticZClothing.ReporterMicrophoneMuffler_Media02",
-    "AuthenticZClothing.ReporterMicrophone_Media02",
-    "AuthenticZClothing.ReporterMicrophone_Media02",
-    "AuthenticZClothing.ReporterMicrophoneMuffler_Media02",
-    "AuthenticZClothing.ReporterMicrophoneMuffler_Media02",
-    "AuthenticZClothing.ReporterMicrophone_Media02",
-    "AuthenticZClothing.ReporterMicrophone_Media02",
-    "AuthenticZClothing.ReporterMicrophoneMuffler_Media02",
-    "AuthenticZClothing.ReporterMicrophoneMuffler_Media02",
-    "AuthenticZClothing.ReporterMicrophone_Media02",
-    "AuthenticZClothing.ReporterMicrophone_Media02",	
-    "AuthenticZClothing.ReporterMicrophoneMuffler_Media04",
-    "AuthenticZClothing.ReporterMicrophone_Media04",
-    "AuthenticZClothing.ReporterMicrophoneMuffler_Media05",	
-    "AuthenticZClothing.ReporterMicrophone_Media05",	
+    "AuthenticZLite.ReporterMicrophoneMuffler_Media02",
+    "AuthenticZLite.ReporterMicrophoneMuffler_Media02",
+    "AuthenticZLite.ReporterMicrophone_Media02",
+    "AuthenticZLite.ReporterMicrophone_Media02",
+    "AuthenticZLite.ReporterMicrophoneMuffler_Media02",
+    "AuthenticZLite.ReporterMicrophoneMuffler_Media02",
+    "AuthenticZLite.ReporterMicrophone_Media02",
+    "AuthenticZLite.ReporterMicrophone_Media02",
+    "AuthenticZLite.ReporterMicrophoneMuffler_Media02",
+    "AuthenticZLite.ReporterMicrophoneMuffler_Media02",
+    "AuthenticZLite.ReporterMicrophone_Media02",
+    "AuthenticZLite.ReporterMicrophone_Media02",
+    "AuthenticZLite.ReporterMicrophoneMuffler_Media02",
+    "AuthenticZLite.ReporterMicrophoneMuffler_Media02",
+    "AuthenticZLite.ReporterMicrophone_Media02",
+    "AuthenticZLite.ReporterMicrophone_Media02",	
+    "AuthenticZLite.ReporterMicrophoneMuffler_Media04",
+    "AuthenticZLite.ReporterMicrophone_Media04",
+    "AuthenticZLite.ReporterMicrophoneMuffler_Media05",	
+    "AuthenticZLite.ReporterMicrophone_Media05",	
 	},
 }
 
@@ -467,26 +467,26 @@ AttachedWeaponDefinitions.ReporterMic3N= {
 	addHoles = false,
 	daySurvived = 0,
 	weapons = {
-    "AuthenticZClothing.ReporterMicrophoneMuffler_Media01",
-    "AuthenticZClothing.ReporterMicrophoneMuffler_Media01",
-    "AuthenticZClothing.ReporterMicrophone_Media01",
-    "AuthenticZClothing.ReporterMicrophone_Media01",
-    "AuthenticZClothing.ReporterMicrophoneMuffler_Media01",
-    "AuthenticZClothing.ReporterMicrophoneMuffler_Media01",
-    "AuthenticZClothing.ReporterMicrophone_Media01",
-    "AuthenticZClothing.ReporterMicrophone_Media01",
-    "AuthenticZClothing.ReporterMicrophoneMuffler_Media01",
-    "AuthenticZClothing.ReporterMicrophoneMuffler_Media01",
-    "AuthenticZClothing.ReporterMicrophone_Media01",
-    "AuthenticZClothing.ReporterMicrophone_Media01",
-    "AuthenticZClothing.ReporterMicrophoneMuffler_Media01",
-    "AuthenticZClothing.ReporterMicrophoneMuffler_Media01",
-    "AuthenticZClothing.ReporterMicrophone_Media01",
-    "AuthenticZClothing.ReporterMicrophone_Media01",	
-    "AuthenticZClothing.ReporterMicrophoneMuffler_Media04",
-    "AuthenticZClothing.ReporterMicrophoneMuffler_Media05",
-    "AuthenticZClothing.ReporterMicrophone_Media04",
-    "AuthenticZClothing.ReporterMicrophone_Media05",
+    "AuthenticZLite.ReporterMicrophoneMuffler_Media01",
+    "AuthenticZLite.ReporterMicrophoneMuffler_Media01",
+    "AuthenticZLite.ReporterMicrophone_Media01",
+    "AuthenticZLite.ReporterMicrophone_Media01",
+    "AuthenticZLite.ReporterMicrophoneMuffler_Media01",
+    "AuthenticZLite.ReporterMicrophoneMuffler_Media01",
+    "AuthenticZLite.ReporterMicrophone_Media01",
+    "AuthenticZLite.ReporterMicrophone_Media01",
+    "AuthenticZLite.ReporterMicrophoneMuffler_Media01",
+    "AuthenticZLite.ReporterMicrophoneMuffler_Media01",
+    "AuthenticZLite.ReporterMicrophone_Media01",
+    "AuthenticZLite.ReporterMicrophone_Media01",
+    "AuthenticZLite.ReporterMicrophoneMuffler_Media01",
+    "AuthenticZLite.ReporterMicrophoneMuffler_Media01",
+    "AuthenticZLite.ReporterMicrophone_Media01",
+    "AuthenticZLite.ReporterMicrophone_Media01",	
+    "AuthenticZLite.ReporterMicrophoneMuffler_Media04",
+    "AuthenticZLite.ReporterMicrophoneMuffler_Media05",
+    "AuthenticZLite.ReporterMicrophone_Media04",
+    "AuthenticZLite.ReporterMicrophone_Media05",
 	
 	},
 }
@@ -500,7 +500,7 @@ AttachedWeaponDefinitions.StopSign= {
 	addHoles = false,
 	daySurvived = 0,
 	weapons = {
-		"AuthenticZClothing.Stop_Sign",
+		"AuthenticZLite.Stop_Sign",
 	},
 }
 
@@ -512,7 +512,7 @@ AttachedWeaponDefinitions.TagillaSledgehammer = {
 	addHoles = false,
 	daySurvived = 0,
 	weapons = {
-    "AuthenticZClothing.AuthenticTagillaSledgehammer",
+    "AuthenticZLite.AuthenticTagillaSledgehammer",
 	},
 }
 
@@ -671,7 +671,7 @@ AttachedWeaponDefinitions.CricketBat = {
 	addHoles = false,
 	daySurvived = 0,
 	weapons = {
-		"AuthenticZClothing.AuthenticCricketBat",
+		"AuthenticZLite.AuthenticCricketBat",
 	},
 }
 
@@ -787,7 +787,7 @@ AttachedWeaponDefinitions.MinerLightbulb = {
 	addHoles = false,
 	daySurvived = 0,
 	weapons = {
-		"AuthenticZClothing.Authentic_MinerLightbulb",
+		"AuthenticZLite.Authentic_MinerLightbulb",
 	},
 }
 -- Kitchen Knife in Right Hand
@@ -950,7 +950,7 @@ AttachedWeaponDefinitions.PostalPaper= {
 	addHoles = false,
 	daySurvived = 0,
 	weapons = {
-    "AuthenticZClothing.Postal_Petition",
+    "AuthenticZLite.Postal_Petition",
 	},
 }
 
@@ -963,8 +963,8 @@ AttachedWeaponDefinitions.PomPom= {
 	addHoles = false,
 	daySurvived = 0,
 	weapons = {
-    "AuthenticZClothing.Authentic_PomPomWhite",
-	"AuthenticZClothing.Authentic_PomPomBlack",
+    "AuthenticZLite.Authentic_PomPomWhite",
+	"AuthenticZLite.Authentic_PomPomBlack",
 	},
 }
 AttachedWeaponDefinitions.PomPom2= {
@@ -976,8 +976,8 @@ AttachedWeaponDefinitions.PomPom2= {
 	addHoles = false,
 	daySurvived = 0,
 	weapons = {
-    "AuthenticZClothing.Authentic_PomPomRed",
-	"AuthenticZClothing.Authentic_PomPomBlack",
+    "AuthenticZLite.Authentic_PomPomRed",
+	"AuthenticZLite.Authentic_PomPomBlack",
 	},
 }
 
@@ -1026,8 +1026,8 @@ AttachedWeaponDefinitions.PipeBomb = {
 	addHoles = false,
 	daySurvived = 0,
 	weapons = {
-    "AuthenticZClothing.AuthenticPipeBomb",
-	"AuthenticZClothing.AuthenticSmokeBomb",
+    "AuthenticZLite.AuthenticPipeBomb",
+	"AuthenticZLite.AuthenticSmokeBomb",
 	},
 }
 
@@ -1040,7 +1040,7 @@ AttachedWeaponDefinitions.Football = {
 	addHoles = false,
 	daySurvived = 0,
 	weapons = {
-    "AuthenticZClothing.Football3",
+    "AuthenticZLite.Football3",
 	},
 }
 
@@ -1079,7 +1079,7 @@ AttachedWeaponDefinitions.TorchMelee = {
 	addHoles = false,
 	daySurvived = 0,
 	weapons = {
-    "AuthenticZClothing.TorchMelee",
+    "AuthenticZLite.TorchMelee",
 	},
 }
 
@@ -1091,7 +1091,7 @@ AttachedWeaponDefinitions.WaldoCane = {
 	addHoles = false,
 	daySurvived = 0,
 	weapons = {
-    "AuthenticZClothing.AuthenticWalkingCane",
+    "AuthenticZLite.AuthenticWalkingCane",
 	},
 }
 
@@ -1104,7 +1104,7 @@ AttachedWeaponDefinitions.AndySign = {
 	addHoles = false,
 	daySurvived = 0,
 	weapons = {
-    "AuthenticZClothing.Authentic_AndyBoard",
+    "AuthenticZLite.Authentic_AndyBoard",
 	},
 }
 
@@ -1178,7 +1178,7 @@ AttachedWeaponDefinitions.SpikesWinslowLArm = {
 	addHoles = false,
 	daySurvived = 0,
 	weapons = {
-		"AuthenticZClothing.ShortMetalSpike",
+		"AuthenticZLite.ShortMetalSpike",
 	},
 }
 -- Winslow Spikes
@@ -1191,7 +1191,7 @@ AttachedWeaponDefinitions.SpikesWinslowLArmWood = {
 	addHoles = false,
 	daySurvived = 0,
 	weapons = {
-		"AuthenticZClothing.Stake2",
+		"AuthenticZLite.Stake2",
 	},
 }
 -- Winslow Spikes
@@ -1204,7 +1204,7 @@ AttachedWeaponDefinitions.SpikesWinslowRArm = {
 	addHoles = false,
 	daySurvived = 0,
 	weapons = {
-		"AuthenticZClothing.ShortMetalSpike",
+		"AuthenticZLite.ShortMetalSpike",
 	},
 }
 -- Winslow Spikes
@@ -1217,7 +1217,7 @@ AttachedWeaponDefinitions.SpikesWinslowLegs = {
 	addHoles = false,
 	daySurvived = 0,
 	weapons = {
-		"AuthenticZClothing.ShortMetalSpike",
+		"AuthenticZLite.ShortMetalSpike",
 	},
 }
 AttachedWeaponDefinitions.SpikesWinslowBack = {
@@ -1229,7 +1229,7 @@ AttachedWeaponDefinitions.SpikesWinslowBack = {
 	addHoles = false,
 	daySurvived = 0,
 	weapons = {
-		"AuthenticZClothing.ShortMetalSpike",	
+		"AuthenticZLite.ShortMetalSpike",	
 	},
 }
 
@@ -1243,7 +1243,7 @@ AttachedWeaponDefinitions.SpikesWinslowTorso = {
 	addHoles = false,
 	daySurvived = 0,
 	weapons = {
-		"AuthenticZClothing.ShortMetalSpike",
+		"AuthenticZLite.ShortMetalSpike",
 	},
 }
 -- Winslow Spikes
@@ -1256,7 +1256,7 @@ AttachedWeaponDefinitions.SpikesWinslowLTorsoBlade = {
 	addHoles = false,
 	daySurvived = 0,
 	weapons = {
-		"AuthenticZClothing.KnifeEnd",
+		"AuthenticZLite.KnifeEnd",
 	},
 }
 -- Winslow Spikes
@@ -1269,7 +1269,7 @@ AttachedWeaponDefinitions.SpikesWinslowMetalPicks = {
 	addHoles = false,
 	daySurvived = 0,
 	weapons = {
-		"AuthenticZClothing.SpikePick",
+		"AuthenticZLite.SpikePick",
 	},
 }
 
@@ -1281,7 +1281,7 @@ AttachedWeaponDefinitions.AuthenticWalkieTalkie = {
 	addHoles = false,
 	daySurvived = 0,
 	weapons = {
-    "AuthenticZClothing.Authentic_WalkieTalkie",
+    "AuthenticZLite.Authentic_WalkieTalkie",
 	},
 }
 
@@ -1294,12 +1294,12 @@ AttachedWeaponDefinitions.AuthenticCanteen = {
 	addHoles = false,
 	daySurvived = 0,
 	weapons = {
-    "AuthenticZClothing.AuthenticCanteenSilver",
-	"AuthenticZClothing.AuthenticCanteenGrey",
-	"AuthenticZClothing.AuthenticCanteenForestGreen",
-	"AuthenticZClothing.AuthenticCanteenDarkGrey",
-	"AuthenticZClothing.AuthenticCanteenDarkGreen",
-	"AuthenticZClothing.AuthenticCanteenCadetBlue",
+    "AuthenticZLite.AuthenticCanteenSilver",
+	"AuthenticZLite.AuthenticCanteenGrey",
+	"AuthenticZLite.AuthenticCanteenForestGreen",
+	"AuthenticZLite.AuthenticCanteenDarkGrey",
+	"AuthenticZLite.AuthenticCanteenDarkGreen",
+	"AuthenticZLite.AuthenticCanteenCadetBlue",
 	},
 }
 
@@ -1312,8 +1312,8 @@ AttachedWeaponDefinitions.AuthenticMilitaryFlashlight = {
 	addHoles = false,
 	daySurvived = 0,
 	weapons = {
-    "AuthenticZClothing.Authentic_MilitaryFlashlightGreen",
-	"AuthenticZClothing.Authentic_MilitaryFlashlightGrey",
+    "AuthenticZLite.Authentic_MilitaryFlashlightGreen",
+	"AuthenticZLite.Authentic_MilitaryFlashlightGrey",
 	},
 }
 

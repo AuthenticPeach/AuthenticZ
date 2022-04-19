@@ -1,4 +1,4 @@
-module AuthenticZClothing {
+module AuthenticZLite {
   imports {
       Base
   }
@@ -9,7 +9,7 @@ module AuthenticZClothing {
 		DisplayName = Bullets Ammo Strap,
 		ClothingItem = AmmoStrap_Bullets2,
 		BodyLocation = AmmoStrap2,
-		ClothingItemExtra = AuthenticZClothing.AmmoStrap_Shells,
+		ClothingItemExtra = AuthenticZLite.AmmoStrap_Shells,
 		Icon = AmmoStrapFlipped,
 		Tooltip = Tooltip_AmmoStrap,
 		WorldStaticModel = AmmoStrap_Ground,		
@@ -22,7 +22,7 @@ module AuthenticZClothing {
 		DisplayName = Shells Ammo Strap,
 		ClothingItem = AmmoStrap_Shells2,
 		BodyLocation = AmmoStrap2,
-		ClothingItemExtra = AuthenticZClothing.AmmoStrap_Bullets,
+		ClothingItemExtra = AuthenticZLite.AmmoStrap_Bullets,
 		Icon = AmmoStrapFlipped,
 		Tooltip = Tooltip_AmmoStrap,
 		WorldStaticModel = AmmoStrap_Ground,		
@@ -80,7 +80,7 @@ module AuthenticZClothing {
 		Type 					= Clothing,
 		DisplayName 			= Headphones,
 		ClothingItem 			= Authentic_Headphones,
-		ClothingItemExtra		= AuthenticZClothing.Authentic_HeadphonesNeck,
+		ClothingItemExtra		= AuthenticZLite.Authentic_HeadphonesNeck,
         ClothingItemExtraOption = WearNeck,			
 		BodyLocation 			= Necklace,
 		Icon 					= Headphones,
@@ -94,7 +94,7 @@ module AuthenticZClothing {
 		Type 					= Clothing,
 		DisplayName 			= Headphones,
 		ClothingItem 			= Authentic_HeadphonesNeck,
-		ClothingItemExtra 		= AuthenticZClothing.Authentic_Headphones,
+		ClothingItemExtra 		= AuthenticZLite.Authentic_Headphones,
         ClothingItemExtraOption = WearHead,		
 		BodyLocation 			= Necklace_Long,
 		Icon 		 			= Headphones,
@@ -108,10 +108,10 @@ module AuthenticZClothing {
 		Type 	 		 		= Clothing,
 		DisplayName 	 		= Headphones,
 		ClothingItem 	 		= Authentic_Headphones2,
-		ClothingItemExtra 		= AuthenticZClothing.Authentic_HeadphonesNeck2,
+		ClothingItemExtra 		= AuthenticZLite.Authentic_HeadphonesNeck2,
         ClothingItemExtraOption = WearNeck,	
 		BodyLocation 	 		= Necklace,
-		IconsForTexture  		= HeadphonesBlack;HeadphonesBlackSpecial;HeadphonesBlue;HeadphonesBrightPink;HeadphonesGold;HeadphonesGreen;HeadphonesLightBlue;HeadphonesLightBlueSpecial;HeadphonesPink;HeadphonesPurple;HeadphonesRose;HeadphonesSeaGreen,
+		IconsForTexture  		= HeadphonesBlack;HeadphonesBlackSpecial;HeadphonesBlue;HeadphonesBrightPink;HeadphonesGold;HeadphonesGreen;HeadphonesLightBlue;HeadphonesLightBlueSpecial;HeadphonesPink;HeadphonesPurple;HeadphonesRose;HeadphonesSeaGreen;HeadphonesWhite;HeadphonesWhiteSpecial,
 		Weight 			 		= 0.3,
 		ChanceToFall 	 		= 25,
 		WorldStaticModel 		= WorldItem_HeadPhones,
@@ -122,10 +122,10 @@ module AuthenticZClothing {
 		Type 					= Clothing,
 		DisplayName 			= Headphones,
 		ClothingItem 			= Authentic_HeadphonesNeck2,
-		ClothingItemExtra 		= AuthenticZClothing.Authentic_Headphones2,
+		ClothingItemExtra 		= AuthenticZLite.Authentic_Headphones2,
         ClothingItemExtraOption = WearHead,		
 		BodyLocation 			= Necklace_Long,
-		IconsForTexture  		= HeadphonesBlack;HeadphonesBlackSpecial;HeadphonesBlue;HeadphonesBrightPink;HeadphonesGold;HeadphonesGreen;HeadphonesLightBlue;HeadphonesLightBlueSpecial;HeadphonesPink;HeadphonesPurple;HeadphonesRose;HeadphonesSeaGreen,
+		IconsForTexture  		= HeadphonesBlack;HeadphonesBlackSpecial;HeadphonesBlue;HeadphonesBrightPink;HeadphonesGold;HeadphonesGreen;HeadphonesLightBlue;HeadphonesLightBlueSpecial;HeadphonesPink;HeadphonesPurple;HeadphonesRose;HeadphonesSeaGreenl;HeadphonesWhite;HeadphonesWhiteSpecial,
 		Weight 					= 0.3,
 		ChanceToFall 			= 25,
 		WorldStaticModel 		= WorldItem_HeadPhones,
@@ -208,6 +208,19 @@ module AuthenticZClothing {
 		BodyLocation = TankTop,
 		Icon = CorpseSkin_M,
 	}
+	
+    item BroadcastCamera
+    {
+		DisplayCategory 		= 	Household,	
+        Type					=	Clothing,
+		ClothingItem 			= 	CameraBroadcasting,
+        DisplayName				=	EVV-9000 HYPER Broadcast Video Camera,
+        Icon					=	Glowstick-Red,
+        Weight					=	3.0,
+		BodyLocation 			= 	Necklace,
+		WorldStaticModel 		= 	WorldItem-BroadcastingCamera,			
+    }	
+	
 	item CameraDSLR
 	{
        DisplayCategory = Clothing,		
@@ -219,6 +232,7 @@ module AuthenticZClothing {
 		Weight = 0.7,
 		WorldStaticModel = WorldItem-DSLR,
 	}
+	
 	item Cigarette
 	{
        DisplayCategory = Clothing,		
@@ -243,7 +257,20 @@ module AuthenticZClothing {
 		Cosmetic = TRUE,
 		ChanceToFall = 25,
 		WorldStaticModel = WorldItem-ClownNose,		
-	}	
+	}
+	item ClownNoseTINT
+	{
+       DisplayCategory = Clothing,		
+		Type = Clothing,
+		DisplayName = Clown Nose,
+		ClothingItem = ClownNoseTINT,
+		BodyLocation = Eyes,
+		Icon = ClownNoseWhite,
+		Weight = 0.1,
+		Cosmetic = TRUE,
+		ChanceToFall = 25,
+		WorldStaticModel = WorldItem-ClownNose,		
+	}		
 	item ClownTop
 	{
        DisplayCategory = Clothing,		
@@ -283,32 +310,33 @@ module AuthenticZClothing {
 		BiteDefense = 10,
 		ScratchDefense = 10,
 		ChanceToFall = 10,
+        WorldStaticModel = CultistSign_Ground,		
     	}
 	item CultistMask
-    	{
-	DisplayCategory = Accessory,
-	Type = Clothing,
-	DisplayName = Cultist Mask,
-	ClothingItem = CultistMask,
-	BodyLocation = MaskEyes,
-	Icon = CultistMask,
-	CanHaveHoles = false,
-	BloodLocation = Head,
+    {
+		DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Cultist Mask,
+		ClothingItem = CultistMask,
+		BodyLocation = MaskEyes,
+		Icon = CultistMask,
+		CanHaveHoles = false,
+		BloodLocation = Head,
         BiteDefense = 30,
         ScratchDefense = 50,
         Insulation = 0.15,
         WindResistance = 0.5,
-	ChanceToFall = 20,
-	WorldStaticModel = CultistMask_Ground,
-    	}
+		ChanceToFall = 20,
+		WorldStaticModel = CultistMask_Ground,
+    }
 
-   	 item GearWinslow
-    	{
-			DisplayCategory =  Junk,			
-        	Type 	     	=  Clothing,
-        	ClothingItem 	=  GearWinslow,
-        	BodyLocation 	=  Necklace,
-    	}
+   	item GearWinslow
+    {
+		DisplayCategory =  Junk,			
+        Type 	     	=  Clothing,
+        ClothingItem 	=  GearWinslow,
+        BodyLocation 	=  Necklace,
+    }
 	item Glasses_AviatorsSunset
 	{
        DisplayCategory = Accessory,		
@@ -335,7 +363,7 @@ module AuthenticZClothing {
 	}
 	item Gloves_FreddyKreuger
 	{
-       DisplayCategory   = Clothing,		
+        DisplayCategory   = Clothing,		
 		Type 			 = Clothing,
 		DisplayName 	 = Freddy Krueger Hand,
 		ClothingItem 	 = Gloves_FreddyKreuger,
@@ -471,6 +499,20 @@ module AuthenticZClothing {
         WindResistance = 1.0,
         WorldStaticModel = Gloves_Ground,		
 	}
+	item Gloves_White_Reflective
+	{
+        DisplayCategory = Clothing,		
+		Type = Clothing,
+		DisplayName = Reflective Gloves,
+		ClothingItem = Gloves_White,
+		BodyLocation = Hands,
+		BloodLocation = Hands,
+		Icon = GlovesWoolyWhite,
+		Weight = 0.1,
+        Insulation = 1.0,
+        WindResistance = 1.0,
+        WorldStaticModel = Gloves_Ground,		
+	}	
 	item Gloves_WhitePatriots
 	{
        DisplayCategory = Clothing,		
@@ -506,7 +548,7 @@ module AuthenticZClothing {
 		Type 			  = Clothing,
 		DisplayName 	  = Afro Pick,
 		ClothingItem 	  = Hairstyle_Afro_Pick,
-        ClothingItemExtra = AuthenticZClothing.Hairstyle_Afro_Pick2,
+        ClothingItemExtra = AuthenticZLite.Hairstyle_Afro_Pick2,
         ClothingItemExtraOption = AfroPick2,	
 		BodyLocation 	  = Hat,
 		IconsForTexture   = HairpickBlack;HairpickBlue;HairpickBlueDiamonds;HairpickSeaGreen;HairpickNeon;HairpickPink;HairpickPinkHearts;HairpickRed;HairpickWhite,
@@ -518,7 +560,7 @@ module AuthenticZClothing {
 		Type 			= Clothing,
 		DisplayName 	= Afro Pick,
 		ClothingItem 	= Hairstyle_Afro_Pick2,
-        ClothingItemExtra = AuthenticZClothing.Hairstyle_Afro_Pick,
+        ClothingItemExtra = AuthenticZLite.Hairstyle_Afro_Pick,
         ClothingItemExtraOption = AfroPick,							
 		BodyLocation 	= Hat,
 		IconsForTexture = HairpickBlack;HairpickBlue;HairpickBlueDiamonds;HairpickSeaGreen;HairpickNeon;HairpickPink;HairpickPinkHearts;HairpickRed;HairpickWhite,
@@ -745,8 +787,10 @@ module AuthenticZClothing {
     {
        DisplayCategory = Accessory,		
 		Type = Clothing,
+		DisplayName = Lady Dimitrescu Zombie Skin,		
 		ClothingItem = Skin_White_Dimitrescu,
 		BodyLocation = TankTop,
+		Icon = CorpseSkin_F,		
     }	
     item Skin_White_Zed_W
     {

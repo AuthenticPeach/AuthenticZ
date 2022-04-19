@@ -15,7 +15,7 @@ local Bag_L4DeadMedkit = { --Need new kit/model
             "Vest_HighViz", 200,
             "FirstAidKit", 200, --get loot to work
             "HandTorch", 200,
-            --"Reflective/Grip Gloves", 200,
+            "Gloves_White_Reflective", 200,
             "AuthenticRoadsideTriangle", 200,
 
 	},

@@ -14,7 +14,7 @@ module Base
 	{
 		mesh = BalloonGroup3,
 		texture = clothes\Items\BalloonBlue,
-	}	
+	}
 	model AuthenticBalloonGreen
 	{
 		mesh = Balloon,
@@ -24,7 +24,7 @@ module Base
 	{
 		mesh = BalloonGroup3,
 		texture = clothes\Items\BalloonGreen,
-	}	
+	}
 	model AuthenticBalloonRed
 	{
 		mesh = Balloon,
@@ -44,7 +44,7 @@ module Base
 	{
 		mesh = BalloonGroup3,
 		texture = clothes\Items\BalloonPink,
-	}	
+	}
 	model AuthenticBalloonPurple
 	{
 		mesh = Balloon,
@@ -54,7 +54,7 @@ module Base
 	{
 		mesh = BalloonGroup3,
 		texture = clothes\Items\BalloonPurple,
-	}	
+	}
 	model AuthenticBalloonWhite
 	{
 		mesh = Balloon,
@@ -64,7 +64,7 @@ module Base
 	{
 		mesh = BalloonGroup3,
 		texture = clothes\Items\BalloonWhite,
-	}	
+	}
 	model AuthenticBalloonYellow
 	{
 		mesh = Balloon,
@@ -74,7 +74,7 @@ module Base
 	{
 		mesh = BalloonGroup3,
 		texture = clothes\Items\BalloonYellow,
-	}	
+	}
 	model AuthenticBandages
 	{
 		mesh = AuthenticBandages,
@@ -89,22 +89,22 @@ module Base
 	{
 		mesh = Weapons/1Handed/BingoDabber,
 		texture = clothes\Items\BingoMarkerOrange,
-	}	
+	}
 	model AuthenticBingodotterRed
 	{
 		mesh = Weapons/1Handed/BingoDabber,
 		texture = clothes\Items\BingoMarkerRed,
-	}	
+	}
 	model AuthenticBingodotterTeal
 	{
 		mesh = Weapons/1Handed/BingoDabber,
 		texture = clothes\Items\BingoMarkerTeal,
-	}	
+	}
 	model AuthenticBingodotterYellow
 	{
 		mesh = Weapons/1Handed/BingoDabber,
 		texture = clothes\Items\BingoMarkerYellow,
-	}		
+	}
 	model AuthenticBrain
 	{
 		mesh = AuthenticBrain,
@@ -114,7 +114,7 @@ module Base
 	{
 		mesh = Weapons/2Handed/AuthenticBoomMic,
 		texture = clothes\Items\BoomMicrophone,
-	}	
+	}
 	model AuthenticCanteenCadetBlue
 	{
 		mesh = AuthenticCanteen,
@@ -148,8 +148,8 @@ module Base
 	model AuthenticCigaretteHolder
 	{
 		mesh = AuthenticCigaretteHolder,
-		texture = clothes\Items\CigaretteHolder,	
-	}	
+		texture = clothes\Items\CigaretteHolder,
+	}
 	model AuthenticCricketBat
 	{
 		mesh = Weapons/2Handed/AuthenticCricketBat,
@@ -160,11 +160,16 @@ module Base
 		mesh = Weapons/1Handed/Authentic_CoffeeCup,
 		texture = clothes\Items\SeahorseCoffee,
 	}
+	model AuthenticGhostbusterTrap
+	{
+		mesh = AuthenticGhostbusterTrap,
+		texture = clothes\Items\GhostbustersTrap,
+	}	
 	model AuthenticIceStaff
 	{
 		mesh = Weapons/2Handed/AuthenticIceStaff,
 		texture = clothes\Items\IceStaff,
-	}		
+	}
 	model AuthenticHeart
 	{
 		mesh = AuthenticHeart,
@@ -262,7 +267,7 @@ module Base
 	{
 		mesh = Weapons/1Handed/AZReporterMicMuffler,
 		texture = clothes\Items\ReporterMicLBMWRadio,
-	}	
+	}
 	model AuthenticReporterMicrophone_Media03
 	{
 		mesh = Weapons/1Handed/AZReporterMic,
@@ -272,7 +277,7 @@ module Base
 	{
 		mesh = Weapons/1Handed/AZReporterMicMuffler,
 		texture = clothes\Items\ReporterMicLBMWTV,
-	}	
+	}
 	model AuthenticReporterMicrophone_Media04
 	{
 		mesh = Weapons/1Handed/AZReporterMic,
@@ -292,7 +297,7 @@ module Base
 	{
 		mesh = Weapons/1Handed/AZReporterMicMuffler,
 		texture = clothes\Items\ReporterMicALEX,
-	}		
+	}
 	model AuthenticSmokeGrenade
 	{
 		mesh = AuthenticSmokeGrenade,
@@ -302,7 +307,7 @@ module Base
 	{
 		mesh = Weapons/2Handed/AuthenticTagillaSledgehammer,
 		texture = clothes\Items\TagillaSledgehammer,
-	}	
+	}
 	model AuthenticWalkingCane
 	{
 		mesh = Weapons/2Handed/AuthenticWalkingCane,
@@ -317,7 +322,7 @@ module Base
 	{
 		mesh = Weapons/2Handed/AuthenticWalkingCaneJP,
 		texture = clothes\Items\WalkingCaneMosquito,
-	}	
+	}
 	model AuthenticWalkingCaneMetal
 	{
 		mesh = Weapons/2Handed/AuthenticWalkingCaneMetal,
@@ -327,12 +332,47 @@ module Base
 	{
 		mesh = Weapons/2Handed/AuthenticWalkingCaneMetal,
 		texture = clothes\Items\WalkingCaneMetal,
+	}
+	model AuthenticGlowstickBlank
+	{
+		mesh = AZGlowstick,
+		texture = clothes\Items\GlowstickBlank,
 	}	
-	model AuthenticGlowstick
+	model AuthenticGlowstickBlue
+	{
+		mesh = AZGlowstick,
+		texture = clothes\Items\GlowstickBlue,
+	}	
+	model AuthenticGlowstickGreen
+	{
+		mesh = AZGlowstick,
+		texture = clothes\Items\GlowstickGreen,
+	}
+	model AuthenticGlowstickOrange
+	{
+		mesh = AZGlowstick,
+		texture = clothes\Items\GlowstickOrange,
+	}	
+	model AuthenticGlowstickPink
+	{
+		mesh = AZGlowstick,
+		texture = clothes\Items\GlowstickPink,
+	}
+	model AuthenticGlowstickPurple
+	{
+		mesh = AZGlowstick,
+		texture = clothes\Items\GlowstickPurple,
+	}		
+	model AuthenticGlowstickYellow
+	{
+		mesh = AZGlowstick,
+		texture = clothes\Items\GlowstickYellow,
+	}
+	model AuthenticGlowstickRed
 	{
 		mesh = AZGlowstick,
 		texture = clothes\Items\GlowstickRed,
-	}		
+	}	
 	model ClownNose
 	{
 		mesh = ClownNose,
@@ -357,26 +397,36 @@ module Base
 		mesh = WorldItems/Clothing/CultistMask_Ground,
 		scale = 1.2,
 	}
+	model CultistSign_Ground
+	{
+		mesh = WorldItems/WorldItem-CultistSign,
+		texture = clothes\CultistItems\CultistSign\CultistSign,		
+	}	
 	model DiceHung
 	{
 		mesh = DiceHung,
 		texture = clothes\Items\HungDice,
-	}		
+	}
 	model DiceHung_Ground
 	{
 		mesh = WorldItems/WorldItem_DiceHung,
 		texture = clothes\Items\HungDice,
-	}	
+	}
 	model GasMaskNotWorn
 	{
 		mesh = GasMaskUnequiped,
 		texture = GasMask,
 	}
+	model GlowstickPack
+	{
+		mesh = WorldItems/WorldItem_GlowstickPack,
+		texture = clothes\Items\GlowstickPack,
+	}	
 	model WelderMaskNotWorn
 	{
 		mesh = WelderMaskUnequiped,
 		texture = WelderMask,
-	}	
+	}
 	model Hit-list1Map
 	{
 		mesh = WorldItems/Map,
@@ -394,7 +444,7 @@ module Base
 		mesh = WorldItems/Map,
 		texture = media/ui/LootableMaps/PZAZ_hitlist_3.png,
 		scale = 0.6,
-	}	
+	}
 	model NewRope
 	{
 		mesh = RopeTan,
@@ -406,7 +456,7 @@ module Base
 		mesh = RopeBlack,
 		texture = clothes\Items\Rope2,
 		scale = 0.4,		
-	}		
+	}
 	model AuthenticFlareGun
 	{
 		mesh = Weapons/1Handed/Authentic_FlareGun,
@@ -432,6 +482,63 @@ module Base
 		mesh = AuthenticPipeBomb,
 		texture = clothes\Items\AuthenticPipeBomb,
 	}
+	model Carabiner
+	{
+		mesh = Carabiner,
+		texture = clothes\Items\CarabinerClip,
+		scale = 0.6,
+
+		attachment Balloon01
+		{
+			offset = 0.0190 0.0620 0.0050,
+			rotate = -62.0000 64.0000 123.0000,
+		}
+		attachment Balloon02
+		{
+			offset = 0.0190 0.0620 0.0050,
+			rotate = -62.0000 64.0000 123.0000,
+		}
+		attachment Balloon03
+		{
+			offset = 0.0190 0.0620 0.0050,
+			rotate = -62.0000 64.0000 123.0000,
+		}
+		attachment Balloon04
+		{
+			offset = 0.0190 0.0620 0.0050,
+			rotate = -62.0000 64.0000 123.0000,
+		}
+		attachment Balloon05
+		{
+			offset = 0.0190 0.0620 0.0050,
+			rotate = -62.0000 64.0000 123.0000,
+		}
+		attachment Balloon06
+		{
+			offset = 0.0190 0.0620 0.0050,
+			rotate = -62.0000 64.0000 123.0000,
+		}
+		attachment Balloon07
+		{
+			offset = 0.0190 0.0620 0.0050,
+			rotate = -62.0000 64.0000 123.0000,
+		}
+		attachment Balloon08
+		{
+			offset = 0.0190 0.0620 0.0050,
+			rotate = -62.0000 64.0000 123.0000,
+		}
+		attachment Balloon09
+		{
+			offset = 0.0190 0.0620 0.0050,
+			rotate = -62.0000 64.0000 123.0000,
+		}
+		attachment Balloon10
+		{
+			offset = 0.0190 0.0620 0.0050,
+			rotate = -62.0000 64.0000 123.0000,
+		}		
+	}
 	model PomPomBlack
 	{
 		mesh = Weapons/1Handed/AZPomPom,
@@ -441,17 +548,17 @@ module Base
 	{
 		mesh = Weapons/1Handed/AZPomPom,
 		texture = clothes\Items\PomPomBlue,
-	}	
+	}
 	model PomPomRed
 	{
 		mesh = Weapons/1Handed/AZPomPom,
 		texture = clothes\Items\PomPomRed,
-	}	
+	}
 	model PomPomWhite
 	{
 		mesh = Weapons/1Handed/AZPomPom,
 		texture = clothes\Items\PomPomWhite,
-	}	
+	}
 	model StopSign
 	{
 		mesh = Weapons/1Handed/StopSign,
@@ -477,18 +584,18 @@ module Base
 		mesh = WorldItems/WorldItem_MopAZ,
 		texture = WorldItems/Mop,
 		scale = 0.4,
-	}	
+	}
 	model RemoteControl
 	{
 		mesh = Remotecontrol,
 		texture = clothes\Items\RemoteControl,
 	}
-    model Rubberducky
+	model Rubberducky
     {
         mesh = WorldItems/Rubberducky,
         texture = WorldItems\RubberDuck,		
         scale = 0.4,
-    }	
+    }
 	model SleepingBagRoll
 	{
 		mesh = SleepingbagRoll,
@@ -499,78 +606,101 @@ module Base
 		mesh = SleepingbagRoll,
 		texture = clothes\Items\SleepingbagLightBlue,
 	}
-    model PlushieBadger_Static
+	model SpiffoBackpack
+    {
+        mesh = WorldItems/WorldItem_SpiffoBackpack,
+        texture = clothes\Backpacks\Bag_SpiffoBackpack,
+        scale= 1.0,
+    }
+
+    model PAWSBackpack
+    {
+        mesh = WorldItems/WorldItem_SpiffoBackpack,
+        texture = clothes\Backpacks\Bag_PAWSBackpack,
+        scale = 1.0,
+    }
+	model PlushieBadger_Static
     {
         mesh = WorldItems/WorldItem_PlushieBadgerAZ,
         texture = WorldItems/PlushieBadger,		
         scale = 0.4,
     }
-    model PlushieBeaver_Static
+	model PlushieBeaver_Static
     {
         mesh = WorldItems/WorldItem_PlushieBeaverAZ,
         texture = WorldItems/PlushieBeaver,		
         scale = 0.4,
-    }		
-    model PlushieFox_Static
+    }
+	model PlushieFox_Static
     {
         mesh = WorldItems/WorldItem_PlushieFoxAZ,
         texture = WorldItems/PlushieFox,		
         scale = 0.4,
     }
-    model PlushieHedgehog_Static
+	model PlushieHedgehog_Static
     {
         mesh = WorldItems/WorldItem_PlushieHedgehogAZ,
         texture = WorldItems/PlushieHedgehog,		
         scale = 0.4,
     }
-    model PlushieRabbit_Static
+	model PlushieRabbit_Static
     {
         mesh = WorldItems/WorldItem_PlushieRabbitAZ,	
         texture = WorldItems/PlushieMole,	
         scale = 0.4,
     }
-    model PlushieSquirrel_Static
+	model PlushieSquirrel_Static
     {
         mesh = WorldItems/WorldItem_PlushieSquirrelAZ,	
         texture = WorldItems/PlushieSquirrel,	
         scale = 0.4,
-    }	
-    model PlushieMole_Static
+    }
+	model PlushieMole_Static
     {
         mesh = WorldItems/WorldItem_PlushieMoleAZ,
         texture = WorldItems/PlushieMole,	
         scale = 0.4,
-    }		
-    model SpiffoPlushieGrey
+    }
+	model PugOtisPlushie
+	{
+		mesh = PlushieOtisPugAZ,
+		texture = clothes\Items\PugPlushie,		
+	}
+	model RoseBouquet
+	{
+		mesh = Weapons/1Handed/AZRoseBouquet,
+		texture = clothes\Items\FuneralRose,		
+	}	
+	model SpiffoPlushieGrey
     {
         mesh = WorldItems/SpiffoPlushie,
         texture = clothes\Items\SpiffoPlushieGrey,		
         scale = 0.4,
-    }	
-    model SpiffoPlushieHeart
+    }
+	model SpiffoPlushieHeart
     {
         mesh = SpiffoPlushieFull,
         texture = clothes\Items\SpiffoPlushiePinkHeart,		
         scale = 0.4,
     }
-    model SpiffoPlushieBlueberry
+	model SpiffoPlushieBlueberry
     {
         mesh = SpiffoPlushieFull,
         texture = clothes\Items\SpiffoPlushieBlueberry,		
         scale = 0.4,
-    }	
-    model SpiffoPlushieShamrock
+    }
+	model SpiffoPlushieShamrock
     {
         mesh = SpiffoPlushieFull,
         texture = clothes\Items\SpiffoPlushieShamrock,		
         scale = 0.4,
     }
-    model SpiffoPlushieRainbow
+	model SpiffoPlushieRainbow
     {
         mesh = SpiffoPlushieFull,
         texture = clothes\Items\SpiffoPlushieRainbow,		
         scale = 0.4,
-    }		
+    }
 	model ShortMetalSpear
 	{
 		mesh = Weapons/1Handed/ShortMetalSpear,
@@ -638,39 +768,84 @@ module Base
 		mesh = Weapons/1Handed/WSAerosolBomb,
 		texture = WorldItems/AerosolBomb,
 		scale = 0.5,
-	}	
+	}
 	model ToyBearSmall
 	{
 		mesh = WorldItems/ToyBear,
 		texture = WorldItems/ToyBear,
 		scale = 0.3,
-	}		
+	}
 	model Football3
 	{
 		mesh = ThrowableFootball,
 		texture = WorldItems/Football,
 	}
-    model WeddingVeilBlue_Ground
+	model WeddingVeilBlue_Ground
     {
         mesh = WorldItems/WeddingVeil_Ground,
         texture = clothes\Hats\WeddingVeilBlue,
         scale = 0.4,
     }
-    model WeddingVeilPink_Ground
+	model WeddingVeilPink_Ground
     {
         mesh = WorldItems/WeddingVeil_Ground,
         texture = clothes\Hats\WeddingVeilPink,
         scale = 0.4,
-    }	
+    }
 	model WorldItem_AndySign
 	{
 		mesh = WorldItems/WorldItem_AuthenticAndySign,
 		texture = clothes\Items\AndySign,
 	}
-	model WorldItem-AuthenticGlowstick
+	model WorldItem-BroadcastingCamera
+	{
+		mesh = WorldItems/WorldItem_BroadcastingCamera,
+		texture = clothes\Items\BroadcastingCamera,
+	}
+	model WorldItem-GhostbusterTrap
+	{
+		mesh =  WorldItems/WorldItem_GhostbusterTrap,
+		texture = clothes\Items\GhostbustersTrap,
+	}	
+	model WorldItem-AuthenticGlowstickBlank
+	{
+		mesh =  WorldItems/WorldItem-AZGlowstick,
+		texture = clothes\Items\GlowstickBlank,
+	}	
+	model WorldItem-AuthenticGlowstickBlue
+	{
+		mesh =  WorldItems/WorldItem-AZGlowstick,
+		texture = clothes\Items\GlowstickBlue,
+	}
+	model WorldItem-AuthenticGlowstickGreen
+	{
+		mesh =  WorldItems/WorldItem-AZGlowstick,
+		texture = clothes\Items\GlowstickGreen,
+	}	
+	model WorldItem-AuthenticGlowstickOrange
+	{
+		mesh =  WorldItems/WorldItem-AZGlowstick,
+		texture = clothes\Items\GlowstickOrange,
+	}		
+	model WorldItem-AuthenticGlowstickPink
+	{
+		mesh =  WorldItems/WorldItem-AZGlowstick,
+		texture = clothes\Items\GlowstickPink,
+	}	
+	model WorldItem-AuthenticGlowstickPurple
+	{
+		mesh =  WorldItems/WorldItem-AZGlowstick,
+		texture = clothes\Items\GlowstickPurple,
+	}	
+	model WorldItem-AuthenticGlowstickRed
 	{
 		mesh =  WorldItems/WorldItem-AZGlowstick,
 		texture = clothes\Items\GlowstickRed,
+	}
+	model WorldItem-AuthenticGlowstickYellow
+	{
+		mesh =  WorldItems/WorldItem-AZGlowstick,
+		texture = clothes\Items\GlowstickYellow,
 	}	
 	model WorldItem_SleepingBagRoll
 	{
@@ -681,7 +856,7 @@ module Base
 	{
 		mesh = WorldItems/WorldItem_Sleepingbag,
 		texture = clothes\Items\SleepingbagLightBlue,
-	}	
+	}
 	model WorldItem_Boater_Ground_Blue
     {
 		mesh = WorldItems/WorldItem-Boater,
@@ -746,7 +921,7 @@ module Base
 	{
 		mesh = BalloonGroup3_Ground,
 		texture = clothes\Items\BalloonBlue,		
-	}	
+	}
 	model WorldItem-BalloonGreen
 	{
 		mesh = WorldItems/WorldItem_Balloon,
@@ -756,7 +931,7 @@ module Base
 	{
 		mesh = BalloonGroup3_Ground,
 		texture = clothes\Items\BalloonGreen,		
-	}	
+	}
 	model WorldItem-BalloonRed
 	{
 		mesh = WorldItems/WorldItem_Balloon,
@@ -771,7 +946,7 @@ module Base
 	{
 		mesh = BalloonGroup3_Ground,
 		texture = clothes\Items\BalloonPink,		
-	}		
+	}
 	model WorldItem-BalloonPink
 	{
 		mesh = WorldItems/WorldItem_Balloon,
@@ -782,7 +957,7 @@ module Base
 	{
 		mesh = BalloonGroup3_Ground,
 		texture = clothes\Items\BalloonPurple,		
-	}	
+	}
 	model WorldItem-BalloonPurple
 	{
 		mesh = WorldItems/WorldItem_Balloon,
@@ -792,7 +967,7 @@ module Base
 	{
 		mesh = BalloonGroup3_Ground,
 		texture = clothes\Items\BalloonPurple,		
-	}	
+	}
 	model WorldItem-BalloonWhite
 	{
 		mesh = WorldItems/WorldItem_Balloon,
@@ -802,7 +977,7 @@ module Base
 	{
 		mesh = BalloonGroup3_Ground,
 		texture = clothes\Items\BalloonWhite,		
-	}	
+	}
 	model WorldItem-BalloonYellow
 	{
 		mesh = WorldItems/WorldItem_Balloon,
@@ -817,6 +992,11 @@ module Base
 	{
 		mesh =  WorldItems/WorldItem_BoomMic,
 		texture = clothes\Items\BoomMicrophone,		
+	}
+	model WorldItem-FuneralRose
+	{
+		mesh =  WorldItems/WorldItem_RoseBouquet,
+		texture = clothes\Items\FuneralRose,		
 	}	
 	model WorldItem_BunnyTailAZ
     {
@@ -857,7 +1037,7 @@ module Base
     {
 		mesh = WorldItems/WorldItem_Canteen,
 		texture = clothes\Items\CanteenSilver,	
-    }	
+    }
 	model WorldItem_Chainsaw
     {
 		mesh = WorldItems/WorldItem_Chainsaw,
@@ -867,7 +1047,7 @@ module Base
     {
 		mesh = WorldItems/WorldItem_AuthenticCigaretteHolder,
 		texture = clothes\Items\CigaretteHolder,			
-    }	
+    }
 	model WorldItem-CostumeStoreSign
     {
 		mesh = WorldItems/WorldItem_StoreSign,
@@ -877,25 +1057,50 @@ module Base
     {
 		mesh = WorldItems/WorldItem_Cigarette,
 		texture = Cigarette,		
+    }
+	model WorldItem-LadyDimitrescuDress
+    {
+		mesh = WorldItems/WorldItem_DressDimitrescu,
+		texture = clothes\dress_textures\LadyDimitrescuDress,		
     }	
 	model WorldItem-DuelCap
     {
 		mesh = WorldItems/WorldItem_DuelCap,	
     }
+	model WorldItem_LadyDSummerHat
+    {
+		mesh = WorldItems/WorldItem-LadyDHat,
+		texture = clothes\Hats\SummerHatWhite,		
+    }	
+	model WorldItem_LadyDHat
+    {
+		mesh = WorldItems/WorldItem-LadyDHat,
+		texture = clothes\Hats\SummerHatBlack,		
+    }		
+	model WorldItem_Gibus
+	{
+		mesh = WorldItems/WorldItem_Gibus,
+		texture = clothes\Hats\Gibus,		
+	}
 	model WorldItem_FlamingoPlushie
 	{
 		mesh = WorldItems/WorldItem_FlamingoPlushie,
 		texture = clothes\Items\FlamingoPlushie,		
-	}		
+	}
 	model WorldItem_FreeHugsSign
 	{
 		mesh = WorldItems/WorldItem_FreeHugsSign,
 		texture = clothes\Items\FreeHugsSign,		
-	}	
+	}
 	model WorldItem_Headband
 	{
 		mesh = WorldItems/WorldItem_AuthenticHeadband,
 	}
+	model WorldItem_PugOtisPlushie
+	{
+		mesh = WorldItems/WorldItem_PlushieOtisPugAZ,
+		texture = clothes\Items\PugPlushie,		
+	}	
 	model WorldItem_ReporterMicMuffler_Media01
 	{
 		mesh = WorldItems/WorldItem_AZReporterMicMuffler,
@@ -945,7 +1150,12 @@ module Base
 	{
 		mesh = WorldItems/WorldItem_AZReporterMic,
 		texture = clothes\Items\ReporterMicALEX,		
-	}		
+	}
+	model WorldItem_RoadsideTriangle
+	{
+		mesh = WorldItems/WorldItem_RoadsideTriangle,
+		texture = clothes\Items\RoadsideTriangle,		
+	}	
 	model WorldItem_UtilityBelt
     {
 		mesh = Skinned/Backpacks/WorldItem-UtilityBeltTactical,
@@ -982,17 +1192,23 @@ module Base
 	{
 		mesh = WorldItems/WorldItem-WalkingCane_WalkingCaneJP,
 		texture = clothes\Items\WalkingCaneMosquito,
-	}	
+	}
 	model WorldItem_CigarAZ
     {
 		mesh = Skinned/MC Models/WorldItems/WorldItem_CigarAZ,
 		texture = clothes\Items\CigarAZCuban,
 		scale = 0.01,		
 	}
+	model WorldItem_Carabiner
+	{
+		mesh = WorldItems/WorldItem-AZCarabiner,
+		texture = clothes\Items\CarabinerClip,
+		scale = 0.6,
+	}
 	model WorldItem-ClownNose
     {
 		mesh = WorldItems/WorldItem_ClownNose,
-    }	
+    }
 	model WorldItem-DSLR
     {
 		mesh = Static/Clothes/WorldItem_DSLR,
@@ -1002,12 +1218,12 @@ module Base
     {
 		mesh = Static/Clothes/WorldItem-DimitrescuRose,
 		texture = clothes\Items\DimitrescuRose,
-    }	
+    }
 	model WorldItem_FreddyClaw
     {
 		mesh = Static/Clothes/WorldItem-FreddyClaw,
 		texture = clothes\Gloves\FreddyKruegerGlove,
-    }	
+    }
 	model WorldItem_HeadPhones
 	{
 		mesh = WorldItems/HeadPhones,
@@ -1021,17 +1237,22 @@ module Base
     {
 		mesh = WorldItems/WorldItem-KilaHelmet,
 		texture = clothes\Hats\KillaClean,	
-    }	
+    }
 	model WorldItem-AZPetition
     {
 		mesh =  WorldItems/WorldItem_AuthenticNewspaper,	
 		texture = clothes\Items\Newspaper2,
+    }
+	model WorldItem-GlowstickPack
+    {
+		mesh = WorldItems/WorldItem_GlowstickPack,
+		texture = clothes\Items\GlowstickPack,
     }	
 	model WorldItem-PillBottle
     {
 		mesh = WorldItems/WorldItem_AuthenticPillBottle,
 		texture = clothes\Items\AuthenticPillBottle,
-    }	
+    }
 	model WorldItem-StovePipeHat
     {
 		mesh =  WorldItems/WorldItem_StovePipeHat,
@@ -1051,21 +1272,25 @@ module Base
     {
 		mesh = WorldItems/WorldItem-TagillaHelmetGorilla,
 		texture = clothes\Hats\TagillaWeldingMaskGorilla,	
-    }	
+    }
 	model WorldItem-TrueEyeCult
     {
 		mesh = WorldItems/WorldItem_TrueEyeCultMask,
 		texture = clothes\Masks\TrueEyeCult,
     }
+	model WorldItem-Witchy2Hat
+    {
+		mesh = WorldItems/WorldItem_WitchyHat2,
+		texture = clothes\Hats\Witchy2Hat,
+    }	
 	model WorldItem-AuthenticTV110
 	{
 		mesh = WorldItems/WorldItem_AZ_TV110,
-	}	
+	}
 	model WorldItem-AuthenticTV110_Radio
 	{
 		mesh = WorldItems/WorldItem_AZ_TV110_Radio,
 	}
-	
 	model WorldItem-AuthenticTV110_Bag
 	{
 		mesh = WorldItems/WorldItem_AZ_TV110_Mag,
@@ -1074,17 +1299,15 @@ module Base
 	{
 		mesh = WorldItems/WorldItem_AZ_TV110_Mag_Radio,
 	}
-	
-    model WorldItem-MilitaryWebbing
+	model WorldItem-MilitaryWebbing
 	{
 		mesh = WorldItems/WorldItem_MilitaryWebbing,
 		scale = 0.5,
 	}
-	
 	model SheetRopeAZ
 	{
 		mesh = SheetRopeAZ,
 		texture = WorldItems/SheetRope,
 		scale = 0.15,
-	}	
+	}
 }

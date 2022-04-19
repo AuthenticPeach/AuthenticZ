@@ -5,6 +5,7 @@ local function preDistributionMerge()
         rolls = 2,
         items = {
 --Hats		
+            "AuthenticZClothing.AuthenticGlowstick_Pack", 5,	
             "AuthenticZClothing.AuthenticHairHeadband", 5,
             "AuthenticZClothing.Hat_BaseballCapClementine", 5,
             "AuthenticZClothing.Hat_BaseballCapEllis", 5,
@@ -72,7 +73,8 @@ local function preDistributionMerge()
     ProceduralDistributions.list.CostumeStoreClothingAZ = {
         rolls = 2,
         items = {
---Clothing					
+--Clothing	
+            "AuthenticZClothing.AuthenticGlowstick_Pack", 5,					
             "AuthenticZClothing.Apron_GreenSeaHorse", 5,
             "AuthenticZClothing.Apron_Short", 5,
             "AuthenticZClothing.Apron_Yellow", 5,
@@ -143,7 +145,8 @@ local function preDistributionMerge()
             "AuthenticZClothing.Vest_Waistcoat_Joker_Orange", 5,
             "AuthenticZClothing.Vest_Waistcoat_Mime", 5,
             "AuthenticZClothing.WeddingDressBlue", 5,		
-            "AuthenticZClothing.WeddingDressPink", 5,			
+            "AuthenticZClothing.WeddingDressPink", 5,
+			
         },
         junk = {
             rolls = 1,
@@ -153,7 +156,10 @@ local function preDistributionMerge()
             "AuthenticZClothing.AuthenticBalloon_White", 1,    
             "AuthenticZClothing.AuthenticBalloon_Yellow", 1,
             "AuthenticZClothing.AuthenticBalloon_Blue", 1,
-            "AuthenticZClothing.AuthenticBalloon_Green", 1,            
+            "AuthenticZClothing.AuthenticBalloon_Green", 1,
+            "AuthenticZClothing.AuthenticGlowstick_Red", 1,         
+            "AuthenticZClothing.AuthenticGlowstick_Green", 1,         
+            "AuthenticZClothing.AuthenticGlowstick_Yellow", 1,                
             }
         }
     }	
@@ -161,7 +167,8 @@ local function preDistributionMerge()
     ProceduralDistributions.list.CostumeStoreWeaponsAZ = {
         rolls = 2,
         items = {
---"Weapons"					
+--"Weapons"	
+            "AuthenticZClothing.AuthenticGlowstick_Pack", 5,					
             "AuthenticZClothing.Authentic_PomPomWhite", 5,			
             "AuthenticZClothing.Authentic_PomPomBlack", 5,
             "AuthenticZClothing.Authentic_PomPomBlue", 5,
@@ -192,6 +199,9 @@ local function preDistributionMerge()
             "AuthenticZClothing.AuthenticBalloon_Yellow", 1,
             "AuthenticZClothing.AuthenticBalloon_Blue", 1,
             "AuthenticZClothing.AuthenticBalloon_Green", 1,         
+            "AuthenticZClothing.AuthenticGlowstick_Red", 1,         
+            "AuthenticZClothing.AuthenticGlowstick_Green", 1,         
+            "AuthenticZClothing.AuthenticGlowstick_Yellow", 1,         
             }
         }
     }		
@@ -227,6 +237,7 @@ local function preDistributionMerge()
             "AuthenticZClothing.ToyBear", 1,
             "AuthenticZClothing.ToyBearSmall", 1,
             "AuthenticZClothing.Doll", 1,
+            "AuthenticZClothing.AuthenticGlowstick_Pack", 5,			
 --Backpacks					
             "AuthenticZClothing.Bag_ProtonPack_Back", 5,
             "AuthenticZClothing.Bag_L4DeadMedkit", 5,
@@ -254,7 +265,10 @@ local function preDistributionMerge()
             "AuthenticZClothing.AuthenticBalloon_White", 1,    
             "AuthenticZClothing.AuthenticBalloon_Yellow", 1,
             "AuthenticZClothing.AuthenticBalloon_Blue", 1,
-            "AuthenticZClothing.AuthenticBalloon_Green", 1,  
+            "AuthenticZClothing.AuthenticBalloon_Green", 1, 
+            "AuthenticZClothing.AuthenticGlowstick_Red", 1,         
+            "AuthenticZClothing.AuthenticGlowstick_Green", 1,         
+            "AuthenticZClothing.AuthenticGlowstick_Yellow", 1,    			
             }
         }
     }	
@@ -302,6 +316,7 @@ local function preDistributionMerge()
             "AuthenticZClothing.ToyBear", 1,
             "AuthenticZClothing.ToyBearSmall", 1,
             "AuthenticZClothing.Doll", 1,
+            "AuthenticZClothing.AuthenticGlowstick_Pack", 5,				
 --Skins		
             "AuthenticZClothing.BlueZskin_F1", 5,
             "AuthenticZClothing.BlueZskin_F2", 5,
@@ -374,13 +389,17 @@ local function preDistributionMerge()
             "Modjeska", 3,
             "Hat_PartyHat_TINT", 5,
             "Hat_PartyHat_Stars", 5,
+            "AuthenticZClothing.AuthenticGlowstick_Pack", 5,				
             "AuthenticZClothing.AuthenticFreeHugsSign", 1,			
             "AuthenticZClothing.AuthenticBalloon_Purple", 1,    
             "AuthenticZClothing.AuthenticBalloon_Red", 1,    
             "AuthenticZClothing.AuthenticBalloon_White", 1,    
             "AuthenticZClothing.AuthenticBalloon_Yellow", 1,
             "AuthenticZClothing.AuthenticBalloon_Blue", 1,
-            "AuthenticZClothing.AuthenticBalloon_Green", 1, 
+            "AuthenticZClothing.AuthenticBalloon_Green", 1,
+            "AuthenticZClothing.AuthenticGlowstick_Red", 1,         
+            "AuthenticZClothing.AuthenticGlowstick_Green", 1,         
+            "AuthenticZClothing.AuthenticGlowstick_Yellow", 1,    			
             }
         }
     }
@@ -472,13 +491,17 @@ local function preDistributionMerge()
             "Chocolate", 3,          
             "Popcorn", 2,          
             "Marshmallows", 2,          
-            "Modjeska", 3,          
+            "Modjeska", 3, 
+            "AuthenticZClothing.AuthenticGlowstick_Pack", 5,				
             "AuthenticZClothing.AuthenticBalloon_Purple", 1,    
             "AuthenticZClothing.AuthenticBalloon_Red", 1,    
             "AuthenticZClothing.AuthenticBalloon_White", 1,    
             "AuthenticZClothing.AuthenticBalloon_Yellow", 1,
             "AuthenticZClothing.AuthenticBalloon_Blue", 1,
-            "AuthenticZClothing.AuthenticBalloon_Green", 1,  
+            "AuthenticZClothing.AuthenticBalloon_Green", 1,
+            "AuthenticZClothing.AuthenticGlowstick_Red", 1,         
+            "AuthenticZClothing.AuthenticGlowstick_Green", 1,         
+            "AuthenticZClothing.AuthenticGlowstick_Yellow", 1,    			
             }
         }
     }

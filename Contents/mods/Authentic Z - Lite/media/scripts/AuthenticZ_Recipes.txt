@@ -127,6 +127,47 @@ recipe Convert into Wearable
        Prop2:WorldItem_HeadPhones,
     }	
 
+    recipe Dismantle Ghostbuster Trap
+    {
+       AuthenticGhostbusterTrap,
+       keep [Recipe.GetItemTypes.Screwdriver],
+
+       Result:ElectronicsScrap,
+	   Time:100.0,
+       OnGiveXP:Recipe.OnGiveXP.DismantleElectronics,
+       Category:Electrical,
+       AnimNode:Disassemble,
+       Prop1:Screwdriver,
+       Prop2:AuthenticGhostbusterTrap,
+    }
+
+    recipe Dismantle Ghostbuster Trap
+    {
+       AuthenticGhostbusterTrap,
+       keep [Recipe.GetItemTypes.Screwdriver],
+
+       Result:ElectronicsScrap,
+	   Time:100.0,
+       OnGiveXP:Recipe.OnGiveXP.DismantleElectronics,
+       Category:Electrical,
+       AnimNode:Disassemble,
+       Prop1:Screwdriver,
+       Prop2:AuthenticGhostbusterTrap,
+    }
+
+    recipe Dismantle Broadcast Video Camera
+    {
+       BroadcastCamera,
+       keep [Recipe.GetItemTypes.Screwdriver],
+
+       Result:ElectronicsScrap,
+	   Time:100.0,
+       OnGiveXP:Recipe.OnGiveXP.DismantleElectronics,
+       Category:Electrical,
+       AnimNode:Disassemble,
+       Prop1:Screwdriver,
+    }
+
     recipe Install Light Mechanism
     {
        Hat_HardHat_Miner,
@@ -144,7 +185,7 @@ recipe Convert into Wearable
 	
 	recipe Remove Battery
    {
-     keep AuthenticZClothing.Authentic_MilitaryFlashlightGrey,
+     keep AuthenticZLite.Authentic_MilitaryFlashlightGrey,
 
      Result:Battery,
      Time:50,
@@ -155,10 +196,10 @@ recipe Convert into Wearable
 
   	 recipe Insert Battery into Military Flashlight
    {
-     destroy AuthenticZClothing.Authentic_MilitaryFlashlightGrey,
+     destroy AuthenticZLite.Authentic_MilitaryFlashlightGrey,
      destroy Battery,
 
-     Result:AuthenticZClothing.Authentic_MilitaryFlashlightGrey,
+     Result:AuthenticZLite.Authentic_MilitaryFlashlightGrey,
      Time:50,
      OnTest:AuthenticTorchBatteryInsert_TestIsValid,
      OnCreate:Recipe.OnCreate.TorchBatteryInsert,
@@ -178,10 +219,10 @@ recipe Convert into Wearable
 
   	 recipe Insert Battery into Military Flashlight
    {
-     destroy AuthenticZClothing.Authentic_MilitaryFlashlightGreen,
+     destroy AuthenticZLite.Authentic_MilitaryFlashlightGreen,
      destroy Battery,
 
-     Result:AuthenticZClothing.Authentic_MilitaryFlashlightGreen,
+     Result:AuthenticZLite.Authentic_MilitaryFlashlightGreen,
      Time:30,
      OnTest:AuthenticTorchBatteryInsert_TestIsValid,
      OnCreate:Recipe.OnCreate.TorchBatteryInsert,
@@ -190,7 +231,7 @@ recipe Convert into Wearable
    
 	recipe Remove Battery
    {
-     keep AuthenticZClothing.Torch2,
+     keep AuthenticZLite.Torch2,
 
      Result:Battery,
      Time:30,
@@ -202,10 +243,10 @@ recipe Convert into Wearable
 
   	 recipe Insert Battery into Flashlight
    {
-     destroy AuthenticZClothing.Torch2,
+     destroy AuthenticZLite.Torch2,
      destroy Battery,
 
-     Result:AuthenticZClothing.Torch2,
+     Result:AuthenticZLite.Torch2,
      Time:30,
      OnTest:AuthenticTorchBatteryInsert_TestIsValid,
      OnCreate:Recipe.OnCreate.TorchBatteryInsert,
@@ -215,7 +256,7 @@ recipe Convert into Wearable
 
 	recipe Remove Battery
    {
-     keep AuthenticZClothing.HandTorch2,
+     keep AuthenticZLite.HandTorch2,
 
      Result:Battery,
      Time:30,
@@ -227,10 +268,10 @@ recipe Convert into Wearable
 
   	 recipe Insert Battery into Flashlight
    {
-     destroy AuthenticZClothing.HandTorch2,
+     destroy AuthenticZLite.HandTorch2,
      destroy Battery,
 
-     Result:AuthenticZClothing.HandTorch2,
+     Result:AuthenticZLite.HandTorch2,
      Time:30,
      OnTest:AuthenticTorchBatteryInsert_TestIsValid,
      OnCreate:Recipe.OnCreate.TorchBatteryInsert,
@@ -240,10 +281,10 @@ recipe Convert into Wearable
    
   	 recipe Insert Battery into Miner Hat
    {
-     destroy AuthenticZClothing.Authentic_MinerLightbulb,
+     destroy AuthenticZLite.Authentic_MinerLightbulb,
      destroy Battery,
 
-     Result:AuthenticZClothing.Authentic_MinerLightbulb,
+     Result:AuthenticZLite.Authentic_MinerLightbulb,
      Time:50,
      OnTest:AuthenticTorchBatteryInsert_TestIsValid,
      OnCreate:Recipe.OnCreate.TorchBatteryInsert,
@@ -253,7 +294,7 @@ recipe Convert into Wearable
 
 	recipe Remove Battery
    {
-     keep AuthenticZClothing.Authentic_MinerLightbulb,
+     keep AuthenticZLite.Authentic_MinerLightbulb,
 
      Result:Battery,
      Time:50,
@@ -265,7 +306,7 @@ recipe Convert into Wearable
 
     recipe Open Umbrella
     {
-        AuthenticZClothing.ClosedUmbrellaBlue,
+        AuthenticZLite.ClosedUmbrellaBlue,
 
         Result:UmbrellaBlue,
         OnCreate:Recipe.OnCreate.OpenUmbrella,
@@ -276,14 +317,14 @@ recipe Convert into Wearable
     {
         UmbrellaBlue,
 
-        Result:AuthenticZClothing.ClosedUmbrellaBlue,
+        Result:AuthenticZLite.ClosedUmbrellaBlue,
         OnCreate:Recipe.OnCreate.CloseUmbrella,
         Time:10.0,
     }
 
     recipe Open Umbrella
     {
-        AuthenticZClothing.ClosedUmbrellaRed,
+        AuthenticZLite.ClosedUmbrellaRed,
 
         Result:UmbrellaRed,
         OnCreate:Recipe.OnCreate.OpenUmbrella,
@@ -294,14 +335,14 @@ recipe Convert into Wearable
     {
         UmbrellaRed,
 
-        Result:AuthenticZClothing.ClosedUmbrellaRed,
+        Result:AuthenticZLite.ClosedUmbrellaRed,
         OnCreate:Recipe.OnCreate.CloseUmbrella,
         Time:10.0,
     }
 
     recipe Open Umbrella
     {
-        AuthenticZClothing.ClosedUmbrellaBlack,
+        AuthenticZLite.ClosedUmbrellaBlack,
 
         Result:UmbrellaBlack,
         OnCreate:Recipe.OnCreate.OpenUmbrella,
@@ -312,14 +353,14 @@ recipe Convert into Wearable
     {
         UmbrellaBlack,
 
-        Result:AuthenticZClothing.ClosedUmbrellaBlack,
+        Result:AuthenticZLite.ClosedUmbrellaBlack,
         OnCreate:Recipe.OnCreate.CloseUmbrella,
         Time:10.0,
     }
 
     recipe Open Umbrella
     {
-        AuthenticZClothing.ClosedUmbrellaWhite,
+        AuthenticZLite.ClosedUmbrellaWhite,
 
         Result:UmbrellaWhite,
         OnCreate:Recipe.OnCreate.OpenUmbrella,
@@ -330,7 +371,7 @@ recipe Convert into Wearable
     {
         UmbrellaWhite,
 
-        Result:AuthenticZClothing.ClosedUmbrellaWhite,
+        Result:AuthenticZLite.ClosedUmbrellaWhite,
         OnCreate:Recipe.OnCreate.CloseUmbrella,
         Time:10.0,
     }   
@@ -338,35 +379,35 @@ recipe Convert into Wearable
 recipe Attach Walkie to Vest
   	{
    	   Radio.WalkieTalkie5,
-	   AuthenticZClothing.Vest_BulletTV110_BulletVest,
+	   AuthenticZLite.Vest_BulletTV110_BulletVest,
 
-   	   Result:AuthenticZClothing.Vest_BulletTV110_BulletVest_Radio,
+   	   Result:AuthenticZLite.Vest_BulletTV110_BulletVest_Radio,
 	   Time:50.0,
 	   Tooltip:Tooltip_AddWalkieTV110,
   	}
 recipe Attach Walkie to Vest
   	{
    	   Radio.WalkieTalkie5,
-	   AuthenticZClothing.Vest_BulletTV110_Bag,
+	   AuthenticZLite.Vest_BulletTV110_Bag,
 
-   	   Result:AuthenticZClothing.Vest_BulletTV110_Bag_Radio,
+   	   Result:AuthenticZLite.Vest_BulletTV110_Bag_Radio,
 	   Time:50.0,
 	   Tooltip:Tooltip_AddWalkieTV110Bag,
   	}
 recipe Detach Walkie from Vest
   	{
-	   AuthenticZClothing.Vest_BulletTV110_BulletVest_Radio,
+	   AuthenticZLite.Vest_BulletTV110_BulletVest_Radio,
 
-   	   Result: AuthenticZClothing.Vest_BulletTV110_BulletVest,
+   	   Result: AuthenticZLite.Vest_BulletTV110_BulletVest,
 	   OnCreate:GiveMeRadio,	   
 	   Time:50.0,
 	   Tooltip:Tooltip_RemoveWalkieTV110,
   	}
 recipe Detach Walkie from Vest
   	{
-	   AuthenticZClothing.Vest_BulletTV110_Bag_Radio,
+	   AuthenticZLite.Vest_BulletTV110_Bag_Radio,
 
-   	   Result:AuthenticZClothing.Vest_BulletTV110_Bag,
+   	   Result:AuthenticZLite.Vest_BulletTV110_Bag,
 	   OnCreate:GiveMeRadio,	   
 	   Time:150.0,
 	   Tooltip:Tooltip_RemoveWalkieTV110Bag,	   
@@ -374,35 +415,35 @@ recipe Detach Walkie from Vest
 
 recipe Use TV-110 as Bulletproof Vest 
     {
-	    AuthenticZClothing.Vest_BulletTV110_Bag_Radio,
+	    AuthenticZLite.Vest_BulletTV110_Bag_Radio,
 	    OnCreate:PleaseKeepColor,		
-        Result:AuthenticZClothing.Vest_BulletTV110_BulletVest_Radio,
+        Result:AuthenticZLite.Vest_BulletTV110_BulletVest_Radio,
         Time:150.0,
 		Tooltip:Tooltip_TV110Bag,		
     }  
 	
 recipe Use TV-110 as Bulletproof Vest 
     {
-	    AuthenticZClothing.Vest_BulletTV110_Bag,
+	    AuthenticZLite.Vest_BulletTV110_Bag,
 	    OnCreate:PleaseKeepColor,		
-        Result:AuthenticZClothing.Vest_BulletTV110_BulletVest,
+        Result:AuthenticZLite.Vest_BulletTV110_BulletVest,
         Time:150.0,
 		Tooltip:Tooltip_TV110Bag,		
     } 
 
 recipe Use TV-110 as Magazine Bag 
     {
-	    AuthenticZClothing.Vest_BulletTV110_BulletVest,
+	    AuthenticZLite.Vest_BulletTV110_BulletVest,
 	    OnCreate:PleaseKeepColor,
-        Result:AuthenticZClothing.Vest_BulletTV110_Bag,
+        Result:AuthenticZLite.Vest_BulletTV110_Bag,
         Time:150.0,		
     } 
 
 recipe Use TV-110 as Magazine Bag 
     {
-	    AuthenticZClothing.Vest_BulletTV110_BulletVest_Radio,
+	    AuthenticZLite.Vest_BulletTV110_BulletVest_Radio,
 	    OnCreate:PleaseKeepColor,
-        Result:AuthenticZClothing.Vest_BulletTV110_Bag_Radio,
+        Result:AuthenticZLite.Vest_BulletTV110_Bag_Radio,
         Time:150.0,	
     } 	
 	
@@ -445,7 +486,7 @@ recipe Open Medical Coat
   	{
    	   Base.JacketLong_Doctor,
 
-   	   Result:AuthenticZClothing.Jacket_Doctor2,
+   	   Result:AuthenticZLite.Jacket_Doctor2,
 	   Time:30.0,
 	   Tooltip:Tooltip_OpenJacket,	   
   	}	
@@ -465,6 +506,20 @@ recipe Tie Hoodie Around Waist
    	   Result:HoodieTied_WhiteTINT,
 	   Time:30.0,
   	}
+	
+recipe Open Pack of Glowsticks
+   {
+     AuthenticGlowstick_Pack,
+
+     Result:AuthenticGlowstick_Blank=3,
+     RemoveResultItem:true,	 
+     Time:120,
+     OnCreate:OpenGlowStickPackage,
+     StopOnWalk:false,
+     Prop2:GlowstickPack,
+	 AnimNode:RipSheets,
+	 Tooltip:Tooltip_GlowStickPack,	   
+   }	
 	
 	/* Modded - recipe */
 recipe Convert into Wearable

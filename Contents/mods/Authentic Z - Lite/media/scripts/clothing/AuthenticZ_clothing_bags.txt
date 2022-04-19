@@ -1,4 +1,4 @@
-module AuthenticZClothing {
+module AuthenticZLite {
   imports {
       Base
   }
@@ -222,24 +222,6 @@ module AuthenticZClothing {
 		WorldStaticModel 			= 	SchoolBag_Ground,
     }	
 	
-	item Bag_JerryCanBack
-    {
-        DisplayCategory = Bag,	
-        Weight			=	6,
-        Type			=	Drainable,
-		UseWhileEquipped	=	FALSE,
-		UseDelta		=	0.125,
-        DisplayName		=	Jerrycan,
-        Icon			= Petrol,
-        CanBeEquipped		= Back,
-        ClothingItem 		= Bag_JerryCanBack,
-        BloodLocation 		= Bag,
-        RunSpeedModifier 	= 0.80,
-        AttachmentReplacement   = Bag,
-        ReplaceInSecondHand     = Bag_JerryCanLeft holdingbagleft,
-        ReplaceInPrimaryHand    = Bag_JerryCanRight holdingbagright,
-    }
-
 	item Bag_L4DeadMedkit
     {
         Type					 =	Container,	
@@ -271,7 +253,7 @@ module AuthenticZClothing {
 		Type 					= Container,
 		DisplayName 			= Tactical Webbing,
 		ClothingItem 			= Bag_MilitaryWebbing_AZ,
-		ClothingItemExtra 		= AuthenticZClothing.Bag_MilitaryWebbingTightened_AZ,
+		ClothingItemExtra 		= AuthenticZLite.Bag_MilitaryWebbingTightened_AZ,
         ClothingItemExtraOption = Tighten,		
 		BodyLocation 			= TorsoRigPlus2,
 		CanBeEquipped 			= TorsoRigPlus2,
@@ -290,7 +272,7 @@ module AuthenticZClothing {
 		Type 					= Container,
 		DisplayName 			= Tactical Webbing (Tightened),
 		ClothingItem		 	= Bag_MilitaryWebbingTightened_AZ,
-		ClothingItemExtra 		= AuthenticZClothing.Bag_MilitaryWebbing_AZ,
+		ClothingItemExtra 		= AuthenticZLite.Bag_MilitaryWebbing_AZ,
         ClothingItemExtraOption = Loosen,		
 		BodyLocation 			= TorsoRigPlus2,
 		CanBeEquipped 			= TorsoRigPlus2,
@@ -311,7 +293,7 @@ module AuthenticZClothing {
         Type					 =	Container,
         Capacity				 =	15,
         DisplayName				 =	NBH Hazmat Pack,
-        Icon 					 = 	Backpack_Grey,
+        Icon 					 = 	Backpack_GreyAZ,
         CanBeEquipped 			 = 	Back,
         OpenSound   			 =  OpenBag,
         CloseSound  		 	 =  CloseBag,
@@ -347,6 +329,50 @@ module AuthenticZClothing {
 		WorldStaticModel 		= 	WorldItem_ProtonPack,
     }
 
+	item Bag_SpiffoBackpackAZ
+    {
+        DisplayCategory = Raccoon,
+        WeightReduction	=	20,
+        Weight	=	1,
+        Type	=	Container,
+        Capacity	=	10,
+        DisplayName	=	Spiffo Backpack,
+        Icon = SpiffoBackpack2,
+        CanBeEquipped = Back,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        ClothingItem = Bag_SpiffoBackpackAZ,
+        BloodLocation = Bag,
+        RunSpeedModifier = 0.97,
+        AttachmentReplacement = Bag,
+        ReplaceInSecondHand = Bag_SpiffoBackpackAZ_Lhand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_SpiffoBackpackAZ_Rhand holdingbagright,
+        WorldStaticModel = SpiffoBackpack,
+    }
+
+    item Bag_PAWSBackpackAZ
+    {
+        DisplayCategory = Raccoon,
+        WeightReduction	=	30,
+        Weight	=	1,
+        Type	=	Container,
+        Capacity	=	15,
+        DisplayName	=	PAWS Backpack,
+        Icon = PAWSBackpack2,
+        CanBeEquipped = Back,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        ClothingItem = Bag_PAWSBackpackAZ,
+        BloodLocation = Bag,
+        RunSpeedModifier = 0.97,
+        AttachmentReplacement = Bag,
+        ReplaceInSecondHand = Bag_PAWSBackpackAZ_Lhand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_PAWSBackpackAZ_Rhand holdingbagright,
+        WorldStaticModel = PAWSBackpack,
+    }
+
     item Bag_UtilityBeltFront
     {
        DisplayCategory = Bag,	
@@ -354,7 +380,7 @@ module AuthenticZClothing {
         DisplayName				=	Utility Belt (Tightened),
         ClothingItem 			= 	Bag_UtilityBeltFront,		
         WeightReduction			=	66,
-        ClothingItemExtra 		=	AuthenticZClothing.Bag_UtilityBeltFront_Loose,
+        ClothingItemExtra 		=	AuthenticZLite.Bag_UtilityBeltFront_Loose,
         ClothingItemExtraOption = 	Loosen,
         Weight					=	0.2,
         Capacity				=	2,
@@ -375,7 +401,7 @@ module AuthenticZClothing {
         DisplayName				=	Utility Belt (Loosened),
         ClothingItem 			= 	Bag_UtilityBeltFront_Loose,		
         WeightReduction			=	66,
-        ClothingItemExtra 		=	AuthenticZClothing.Bag_UtilityBeltFront,
+        ClothingItemExtra 		=	AuthenticZLite.Bag_UtilityBeltFront,
         ClothingItemExtraOption = 	Tighten,
         Weight					=	0.2,
         Capacity				=	2,
@@ -396,7 +422,7 @@ module AuthenticZClothing {
         DisplayName				=	Utility Belt (Tightened),
         ClothingItem 			= 	Bag_UtilityBeltDesert,		
         WeightReduction			=	66,
-        ClothingItemExtra 		=	AuthenticZClothing.Bag_UtilityBeltDesert_Loose,
+        ClothingItemExtra 		=	AuthenticZLite.Bag_UtilityBeltDesert_Loose,
         ClothingItemExtraOption = 	Loosen,
         Weight					=	0.2,
         Capacity				=	2,
@@ -417,7 +443,7 @@ module AuthenticZClothing {
         DisplayName				=	Utility Belt (Loosened),
         ClothingItem 			= 	Bag_UtilityBeltDesert_Loose,		
         WeightReduction			=	66,
-        ClothingItemExtra 		=	AuthenticZClothing.Bag_UtilityBeltDesert,
+        ClothingItemExtra 		=	AuthenticZLite.Bag_UtilityBeltDesert,
         ClothingItemExtraOption = 	Tighten,
         Weight					=	0.2,
         Capacity				=	2,
@@ -430,27 +456,6 @@ module AuthenticZClothing {
         RunSpeedModifier 		= 	0.98,
         WorldStaticModel 		= 	WorldItem_UtilityBelt,
     }
-
-    item Bag_Satchel
-    {
-        DisplayCategory = Bag,	
-        WeightReduction	=	30,
-        Weight	=	1,
-        Type	=	Container,
-        Capacity	=	15,
-        DisplayName	=	Satchel,
-        IconsForTexture = Satchel_Leather;Satchel_Green;Satchel_Khaki,
-        CanBeEquipped = AmmoStrap,
-        OpenSound   =   OpenBag,
-        CloseSound   =   CloseBag,
-        PutInSound   =   PutItemInBag,
-        ClothingItem = Bag_SatchelAZ,
-        BloodLocation = Bag,
-        RunSpeedModifier = 0.99,
-        ReplaceInSecondHand = Bag_Satchel_LHand holdingbagleft,
-        ReplaceInPrimaryHand = Bag_Satchel_RHand holdingbagright,
-        WorldStaticModel = Satchel_Ground,
-    }	
 
 	item Handbag2
     {

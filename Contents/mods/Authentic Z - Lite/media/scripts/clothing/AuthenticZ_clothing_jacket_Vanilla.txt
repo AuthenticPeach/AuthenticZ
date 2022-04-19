@@ -1,4 +1,4 @@
-module AuthenticZClothing {
+module AuthenticZLite {
   imports {
       Base
   }
@@ -8,7 +8,7 @@ module AuthenticZClothing {
         Type = Clothing,
         DisplayName = Medical Coat,
         ClothingItem = Jacket_Doctor2,
-        ClothingItemExtra = AuthenticZClothing.Jacket_Doctor3,
+        ClothingItemExtra = AuthenticZLite.Jacket_Doctor3,
         ClothingItemExtraOption = ClosedJacket,		
         BodyLocation = Jacket,
         Icon = JacketDoctor,
@@ -29,7 +29,7 @@ module AuthenticZClothing {
         Type = Clothing,
         DisplayName = Medical Coat,
         ClothingItem = JacketLong_Doctor,
-        ClothingItemExtra = AuthenticZClothing.Jacket_Doctor2,
+        ClothingItemExtra = AuthenticZLite.Jacket_Doctor2,
         ClothingItemExtraOption = JacketOpen,		
         BodyLocation = Jacket,
         Icon = JacketDoctor,
@@ -44,5 +44,4 @@ module AuthenticZClothing {
         Weight = 2,
         WorldStaticModel = JacketLong_Ground,		
     }
-
 }

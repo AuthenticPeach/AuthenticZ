@@ -310,32 +310,33 @@ module AuthenticZClothing {
 		BiteDefense = 10,
 		ScratchDefense = 10,
 		ChanceToFall = 10,
+        WorldStaticModel = CultistSign_Ground,		
     	}
 	item CultistMask
-    	{
-	DisplayCategory = Accessory,
-	Type = Clothing,
-	DisplayName = Cultist Mask,
-	ClothingItem = CultistMask,
-	BodyLocation = MaskEyes,
-	Icon = CultistMask,
-	CanHaveHoles = false,
-	BloodLocation = Head,
+    {
+		DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Cultist Mask,
+		ClothingItem = CultistMask,
+		BodyLocation = MaskEyes,
+		Icon = CultistMask,
+		CanHaveHoles = false,
+		BloodLocation = Head,
         BiteDefense = 30,
         ScratchDefense = 50,
         Insulation = 0.15,
         WindResistance = 0.5,
-	ChanceToFall = 20,
-	WorldStaticModel = CultistMask_Ground,
-    	}
+		ChanceToFall = 20,
+		WorldStaticModel = CultistMask_Ground,
+    }
 
-   	 item GearWinslow
-    	{
-			DisplayCategory =  Junk,			
-        	Type 	     	=  Clothing,
-        	ClothingItem 	=  GearWinslow,
-        	BodyLocation 	=  Necklace,
-    	}
+   	item GearWinslow
+    {
+		DisplayCategory =  Junk,			
+        Type 	     	=  Clothing,
+        ClothingItem 	=  GearWinslow,
+        BodyLocation 	=  Necklace,
+    }
 	item Glasses_AviatorsSunset
 	{
        DisplayCategory = Accessory,		
@@ -362,7 +363,7 @@ module AuthenticZClothing {
 	}
 	item Gloves_FreddyKreuger
 	{
-       DisplayCategory   = Clothing,		
+        DisplayCategory   = Clothing,		
 		Type 			 = Clothing,
 		DisplayName 	 = Freddy Krueger Hand,
 		ClothingItem 	 = Gloves_FreddyKreuger,
@@ -498,6 +499,20 @@ module AuthenticZClothing {
         WindResistance = 1.0,
         WorldStaticModel = Gloves_Ground,		
 	}
+	item Gloves_White_Reflective
+	{
+        DisplayCategory = Clothing,		
+		Type = Clothing,
+		DisplayName = Reflective Gloves,
+		ClothingItem = Gloves_White,
+		BodyLocation = Hands,
+		BloodLocation = Hands,
+		Icon = GlovesWoolyWhite,
+		Weight = 0.1,
+        Insulation = 1.0,
+        WindResistance = 1.0,
+        WorldStaticModel = Gloves_Ground,		
+	}	
 	item Gloves_WhitePatriots
 	{
        DisplayCategory = Clothing,		
