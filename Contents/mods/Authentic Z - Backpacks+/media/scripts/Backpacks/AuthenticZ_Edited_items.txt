@@ -2,7 +2,20 @@ module AuthenticZBackpacks+ {
   imports {
       Base
   }
-  
+    item Chainsaw
+    {
+        DisplayCategory 	= 	Tool,
+        Weight				=	1.0,
+        Type				=	Drainable,
+        UseWhileEquipped	=	FALSE,
+        DisplayName			=	Chainsaw,
+        Icon				=	BlowTorch,
+        KeepOnDeplete 		= 	true,
+		AttachmentType  	= 	Torch,		
+        StaticModel 		= 	BlowTorch,
+        WeightEmpty 		= 	0.3,
+        OBSOLETE			=	TRUE,		
+    }  
     item BlowTorch
     {
         DisplayCategory 	= 	Tool,
@@ -29,6 +42,19 @@ module AuthenticZBackpacks+ {
         DisplayName				=	Rope,
         Icon					=	Rope,
         SurvivalGear 			= 	TRUE,
+        WorldStaticModel 		=	Rope,
+		AttachmentType  		= 	Rope,	
+		StaticModel 			= 	NewRope,
+        OBSOLETE 				= 	TRUE,		
+    }
+
+    item SheetRope
+    {
+        DisplayCategory 		= 	Tool,	
+        Weight					=	0.3,
+        Type					=	Normal,
+        DisplayName				=	SheetRope,
+        Icon					=	Rope,
         WorldStaticModel 		=	Rope,
 		AttachmentType  		= 	Rope,	
 		StaticModel 			= 	NewRope,

@@ -5,6 +5,7 @@ module AuthenticZBackpacks+ {
 
     item Bag_ALICEpack_UrbanCamo
     {
+        Icon	=	AliceBag_UrbanCamo1,	
         DisplayCategory = Bag,
         Type = Container,
         DisplayName = Urban Camo Alice Pack,
@@ -13,7 +14,6 @@ module AuthenticZBackpacks+ {
         WeightReduction	=	87,
         Weight	=	2,
         Capacity	=	28,
-        Icon	=	AliceBag_UrbanCamo,
         OpenSound   =   OpenBag,
         CloseSound   =   CloseBag,
         PutInSound   =   PutItemInBag,
@@ -238,6 +238,7 @@ module AuthenticZBackpacks+ {
         AttachmentReplacement   = Bag,
         ReplaceInSecondHand     = Bag_JerryCanLeft holdingbagleft,
         ReplaceInPrimaryHand    = Bag_JerryCanRight holdingbagright,
+        OBSOLETE			=	TRUE,			
     }
 
 	item Bag_L4DeadMedkit

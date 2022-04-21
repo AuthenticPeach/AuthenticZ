@@ -1,4 +1,4 @@
-module AuthenticZClothing {
+module AuthenticZBackpacks+ {
   imports {
       Base
   }
