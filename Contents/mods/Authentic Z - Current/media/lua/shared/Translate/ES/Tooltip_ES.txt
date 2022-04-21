@@ -52,8 +52,14 @@ Tooltip_ES = {
 	
 	Tooltip_TV110Bag = "Sacar todos los objetos antes.",
 	
-	/* New */
-
+	/* Update 2-20-22 */
 	Tooltip_JPCane = "La vida encuentra un camino.",		
 	Tooltip_TagillaHelmet = "UBEY",	
-	}
+	
+	/* New */
+	Tooltip_AZSleepingBag = "Desenrollar y colocar.",		
+	Tooltip_AZSleepingBag2 = "Click derecho para dormir.",
+	
+	Tooltip_GlowStickPack = "Ábrelo para obtener 3 barras luminosas al azar!",	
+	
+}

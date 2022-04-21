@@ -39,8 +39,7 @@ Recipes_ES = {
 	Recipe_Upgrade_Rucksack = "Mejorar Mochila de montaña",
 	
 	Recipe_Revert_Attachable = "Revertir adjuntable",	
-	Recipe_Reuse_Bag = "Reutilizar bolsa",	
-	Recipe_Make_Backpack_Attachable = "Convertir en acoplable",		
+	Recipe_Reuse_Bag = "Reutilizar bolsa",		
 
 	Recipe_Upgrade_Evangelos_Backpack = "Mejorar Mochila de Evangelo",	
 	Recipe_Upgrade_Hoffmans_Backpack = "Mejorar Mochila de Hoffman",
@@ -48,14 +47,18 @@ Recipes_ES = {
 	
 	
 	/* Update 1-17-22*/		
-	Recipe_Upgrade_Urban_Camo_Alicepack = "Mejorar Mochila Alice de camuflaje urbano",
+	Recipe_Upgrade_Urban_Camo_Alice_Pack = "Mejorar Mochila Alice de camuflaje urbano",
 	Recipe_Detach_Walkie_from_Vest = "Separar Walkie del chaleco",
 	Recipe_Attach_Walkie_to_Vest = "Adjuntar Walkie al chaleco",
 	Recipe_Use_TV-110_as_Bulletproof_Vest = "Usar TV-110 como chaleco antibalas",
 	Recipe_Use_TV-110_as_Magazine_Bag = "Usar TV-110 como bolsa para revistas",
 	
-	/* New */	
+	/* 2-20-22 */
 	Recipe_Revert_Attachable_Item = "Revertir objeto acoplable",
-	Recipe_Make_Backpack_Attachable_Item = "Hacer mochila un objeto acoplable",	
+	Recipe_Make_Backpack_Attachable_Item = "Convertir en objeto acoplable",	
+	
+	/* New */	
+	Recipe_Open_Sleeping_Bag = "Desenrollar saco de dormir",
+	Recipe_Close_Sleeping_Bag = "Enrollar saco de dormir",
 	
 	}

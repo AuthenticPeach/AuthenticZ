@@ -13,6 +13,17 @@ ContextMenu_ES = {
 	ContextMenu_WearHead = "Vestir en la cabeza",
 	ContextMenu_WearNeck = "Vestir en el cuello",
 	
-	ContextMenu_AfroPick = "Ropa para cabello grande",	
-	ContextMenu_AfroPick2 = "Ropa para cabello pequeÃ±o",	
+	ContextMenu_AfroPick = "Vestir para cabello grande",	
+	ContextMenu_AfroPick2 = "Vestir para cabello pequeño",	
+	
+	ContextMenu_HatsOnHats = "Usar sombrero en sombrero",	
+	ContextMenu_WearNormally = "Vestir en la cabeza",	
+	
+	ContextMenu_TakeOffShoeCovers = "Sacar cubrezapatos",	
+	ContextMenu_TakeOffShoeCoversAndMask = "Sacar cubrezapatos y mascarilla",	
+	ContextMenu_TakeOffMask = "Sacar mascarilla",	
+	ContextMenu_WearNormally2 = "Vestir con cubrezapatos y mascarilla",	
+
+	ContextMenu_TipHatBack = "Inclinar sombrero hacia atrás",	
+	ContextMenu_TipHatForward = "Inclinar sombrero hacia adelante",	
 } 

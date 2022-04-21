@@ -267,7 +267,7 @@ ItemName_ES = {
 	ItemName_AuthenticZClothing.Gloves_Black =  "Guantes negros",	
 	ItemName_AuthenticZClothing.Gloves_LeatherWalker =  "Guantes de cuero de Walker",	
 	ItemName_AuthenticZClothing.Gloves_White =  "Guantes blancos",	
-	ItemName_AuthenticZClothing.Hairstyle_Afro_Pick =  "Afro Pick",		
+	ItemName_AuthenticZClothing.Hairstyle_Afro_Pick =  "Selección afro",		
 	ItemName_AuthenticZClothing.Rose_Dimitrescu =  "Rosa negra",	
 	ItemName_AuthenticZClothing.Scarf_DarkGreen =  "Bufanda verde oscura",	
 	ItemName_AuthenticZClothing.Tie_Full_BlueSpy =  "Corbata azul",	
@@ -340,7 +340,7 @@ ItemName_ES = {
 	ItemName_AuthenticZClothing.Hat_Grimes =  "Sombrero de sheriff marrón",
 	ItemName_AuthenticZClothing.Hat_HockeyMaskJason =  "Máscara de hockey de Jason",
 	ItemName_AuthenticZClothing.Hat_JackoLantern =  "Calabaza con farol",
-	ItemName_AuthenticZClothing.Hat_JasonSack =  "Mochila de Jason",
+	ItemName_AuthenticZClothing.Hat_JasonSack =  "Saco de Jason",
 	ItemName_AuthenticZClothing.Hat_KillaHelmet =  "Casco de Killa",		
 	ItemName_AuthenticZClothing.Hat_LeatherFace =  "Máscara de Leather Face"
 	ItemName_AuthenticZClothing.Hat_Maid =  "Sombrero de sirvienta"
@@ -533,15 +533,15 @@ ItemName_ES = {
 
 	/* CEDA of 3 colors --in case you exclude some items on purpose, I will list them here without messing up your current category of list */
 
-	ItemName_AuthenticZClothing.Bag_SchoolBagCEDABlack = "Mochila de la CEDA negra",
-	ItemName_AuthenticZClothing.Bag_SchoolBagCEDABlue = "Mochila de la CEDA azul",
-	ItemName_AuthenticZClothing.Bag_SchoolBagCEDARed = "Mochila de la CEDA roja",
-	ItemName_AuthenticZClothing.Bag_SchoolBagCEDA = "Mochila de la CEDA verde",
+	ItemName_AuthenticZClothing.Bag_SchoolBagCEDABlack = "Mochila negra de la CEDA",
+	ItemName_AuthenticZClothing.Bag_SchoolBagCEDABlue = "Mochila azul de la CEDA",
+	ItemName_AuthenticZClothing.Bag_SchoolBagCEDARed = "Mochila roja de la CEDA",
+	ItemName_AuthenticZClothing.Bag_SchoolBagCEDA = "Mochila verde de la CEDA",
 	ItemName_AuthenticZClothing.Bag_JerryCanBack = "Jerrycan",
 	ItemName_AuthenticZClothing.Bag_L4DeadMedkit = "Kit de primeros auxilios",
 	ItemName_AuthenticZClothing.Bag_Satchel = "Cartera",
 	
-	/* New */	
+	/* 11-24-21 Update */
 	ItemName_AuthenticZClothing.Shorts_LongSportBluePurple = "Shorts deportivos largos púrpura",
 	ItemName_AuthenticZClothing.Shorts_LongSportLightBlue = "Shorts deportivos largos celestes",	
 	ItemName_AuthenticZClothing.Shorts_LongSportNeon = "Shorts deportivos largos de neón",
@@ -553,22 +553,22 @@ ItemName_ES = {
 	ItemName_AuthenticZClothing.Shorts_ShortSport_PinkBlackBlue = "Shorts deportivos a rayas",
 	ItemName_AuthenticZClothing.Shorts_ShortSport_Popcicle = "Shorts deportivos a rayas",		
 	ItemName_AuthenticZClothing.Shorts_ShortSport_Sunset = "Shorts deportivos a rayas",
-	ItemName_AuthenticZClothing.PonchoBlack = "Poncho negro",
-	ItemName_AuthenticZClothing.PonchoBlackDOWN = "Poncho negro",
-	ItemName_AuthenticZClothing.PonchoCamoDesert = "Poncho de camuflaje del desierto",	
-	ItemName_AuthenticZClothing.PonchoCamoDesertDOWN = "Poncho de camuflaje del desierto",
-	ItemName_AuthenticZClothing.PonchoCamoForest = "Poncho de camuflaje del bosque",	
-	ItemName_AuthenticZClothing.PonchoCamoForestDOWN = "Poncho de camuflaje del bosque",
-	ItemName_AuthenticZClothing.PonchoCamoForest2 = "Poncho de camuflaje del bosque",	
-	ItemName_AuthenticZClothing.PonchoCamoForest2DOWN = "Poncho de camuflaje del bosque",
-	ItemName_AuthenticZClothing.PonchoUrbanForest = "Poncho de camuflaje urbano",	
-	ItemName_AuthenticZClothing.PonchoUrbanForestDOWN = "Poncho de camuflaje urbano",
-	ItemName_AuthenticZClothing.PonchoOliveDrab = "Poncho verde oliva",	
-	ItemName_AuthenticZClothing.PonchoOliveDrabDOWN = "Poncho verde oliva",	
-	ItemName_AuthenticZClothing.PonchoOrangePunch = "Poncho naranja",	
-	ItemName_AuthenticZClothing.PonchoOrangePunchDOWN = "Poncho naranja",	
-	ItemName_AuthenticZClothing.PonchoWhiteTINT = "Poncho",	
-	ItemName_AuthenticZClothing.PonchoWhiteTINTDOWN = "Poncho",		
+	ItemName_AuthenticZClothing.PonchoBlack = "Chubasquero negro",
+	ItemName_AuthenticZClothing.PonchoBlackDOWN = "Chubasquero negro",
+	ItemName_AuthenticZClothing.PonchoCamoDesert = "Chubasquero de camuflaje del desierto",	
+	ItemName_AuthenticZClothing.PonchoCamoDesertDOWN = "Chubasquero de camuflaje del desierto",
+	ItemName_AuthenticZClothing.PonchoCamoForest = "Chubasquero de camuflaje del bosque",	
+	ItemName_AuthenticZClothing.PonchoCamoForestDOWN = "Chubasquero de camuflaje del bosque",
+	ItemName_AuthenticZClothing.PonchoCamoForest2 = "Chubasquero de camuflaje del bosque",	
+	ItemName_AuthenticZClothing.PonchoCamoForest2DOWN = "Chubasquero de camuflaje del bosque",
+	ItemName_AuthenticZClothing.PonchoUrbanForest = "Chubasquero de camuflaje urbano",	
+	ItemName_AuthenticZClothing.PonchoUrbanForestDOWN = "Chubasquero de camuflaje urbano",
+	ItemName_AuthenticZClothing.PonchoOliveDrab = "Chubasquero verde oliva",	
+	ItemName_AuthenticZClothing.PonchoOliveDrabDOWN = "Chubasquero verde oliva",	
+	ItemName_AuthenticZClothing.PonchoOrangePunch = "Chubasquero naranja",	
+	ItemName_AuthenticZClothing.PonchoOrangePunchDOWN = "Chubasquero naranja",	
+	ItemName_AuthenticZClothing.PonchoWhiteTINT = "Chubasquero",	
+	ItemName_AuthenticZClothing.PonchoWhiteTINTDOWN = "Chubasquero",		
 	ItemName_AuthenticZClothing.Tshirt_SportBluePurple = "Camiseta deportiva púrpura",
 	ItemName_AuthenticZClothing.Tshirt_SportGrey = "Camiseta deportiva gris",
 	ItemName_AuthenticZClothing.Tshirt_SportGold = "Camiseta deportiva dorada",
@@ -578,10 +578,10 @@ ItemName_ES = {
 	ItemName_AuthenticZClothing.Tshirt_SportSunset = "Camiseta deportiva a rayas",  		
 	ItemName_AuthenticZClothing.Tshirt_SportWatermelon = "Camiseta deportiva rosa", 
 	ItemName_AuthenticZClothing.Tshirt_SportWhite = "Camiseta deportiva blanca",  
-	ItemName_AuthenticZClothing.CEDAHazmatSuit = "Traje verde de la CEDA",
-	ItemName_AuthenticZClothing.CEDAHazmatSuitBlack = "Traje negro de la CEDA",
-	ItemName_AuthenticZClothing.CEDAHazmatSuitBlue = "Traje azul de la CEDA",
-	ItemName_AuthenticZClothing.CEDAHazmatSuitRed = "Traje rojo de la CEDA",
+	ItemName_AuthenticZClothing.CEDAHazmatSuit = "Traje de materiales peligrosos verde de la CEDA",
+	ItemName_AuthenticZClothing.CEDAHazmatSuitBlack = "Traje de materiales peligrosos negro de la CEDA",
+	ItemName_AuthenticZClothing.CEDAHazmatSuitBlue = "Traje de materiales peligrosos azul de la CEDA",
+	ItemName_AuthenticZClothing.CEDAHazmatSuitRed = "Traje de materiales peligrosos rojo de la CEDA",
 	ItemName_AuthenticZClothing.HazmatSuit2 = "Traje de materiales peligrosos",	
 	ItemName_AuthenticZClothing.Socks_LegWarmersNeonBlue = "Calentadores de piernas azules",
 	ItemName_AuthenticZClothing.Socks_LegWarmersNeonPink = "Calentadores de piernas rosa",
@@ -628,20 +628,20 @@ ItemName_ES = {
 	ItemName_AuthenticZClothing.Lunchbox2_Secondary = "Porta alimentos",	
 	ItemName_AuthenticZClothing.PistolCase_Secondary = "Caja de arma",
 	
-	/* New */	
+	/* 11-26-21 update */	
 	ItemName_AuthenticZClothing.AuthenticCigaretteHolder = "Canastilla de cigarro"
-	ItemName_AuthenticZClothing.Bag_SchoolBagCEDA_Tier_1 = "Mochila de la CEDA - Rango 1",	
-	ItemName_AuthenticZClothing.Bag_SchoolBagCEDA_Tier_2 = "Mochila de la CEDA - Rango 2",
-	ItemName_AuthenticZClothing.Bag_SchoolBagCEDA_Tier_3 = "Mochila de la CEDA - Rango 3",
-	ItemName_AuthenticZClothing.Bag_SchoolBagCEDABlack_Tier_1 = "Mochila de la CEDA - Rango 1",	
-	ItemName_AuthenticZClothing.Bag_SchoolBagCEDABlack_Tier_2 = "Mochila de la CEDA - Rango 2",
-	ItemName_AuthenticZClothing.Bag_SchoolBagCEDABlack_Tier_3 = "Mochila de la CEDA - Rango 3",
-	ItemName_AuthenticZClothing.Bag_SchoolBagCEDARed_Tier_1 = "Mochila de la CEDA - Rango 1",	
-	ItemName_AuthenticZClothing.Bag_SchoolBagCEDARed_Tier_2 = "Mochila de la CEDA - Rango 2",
-	ItemName_AuthenticZClothing.Bag_SchoolBagCEDARed_Tier_3 = "Mochila de la CEDA - Rango 3",
-	ItemName_AuthenticZClothing.Bag_SchoolBagCEDABlue_Tier_1 = "Mochila de la CEDA - Rango 1",	
-	ItemName_AuthenticZClothing.Bag_SchoolBagCEDABlue_Tier_2 = "Mochila de la CEDA - Rango 2",
-	ItemName_AuthenticZClothing.Bag_SchoolBagCEDABlue_Tier_3 = "Mochila de la CEDA - Rango 3",
+	ItemName_AuthenticZClothing.Bag_SchoolBagCEDA_Tier_1 = "Mochila verde de la CEDA - Rango 1",	
+	ItemName_AuthenticZClothing.Bag_SchoolBagCEDA_Tier_2 = "Mochila verde de la CEDA - Rango 2",
+	ItemName_AuthenticZClothing.Bag_SchoolBagCEDA_Tier_3 = "Mochila verde de la CEDA - Rango 3",
+	ItemName_AuthenticZClothing.Bag_SchoolBagCEDABlack_Tier_1 = "Mochila negra de la CEDA - Rango 1",	
+	ItemName_AuthenticZClothing.Bag_SchoolBagCEDABlack_Tier_2 = "Mochila negra de la CEDA - Rango 2",
+	ItemName_AuthenticZClothing.Bag_SchoolBagCEDABlack_Tier_3 = "Mochila negra de la CEDA - Rango 3",
+	ItemName_AuthenticZClothing.Bag_SchoolBagCEDARed_Tier_1 = "Mochila roja de la CEDA - Rango 1",	
+	ItemName_AuthenticZClothing.Bag_SchoolBagCEDARed_Tier_2 = "Mochila roja de la CEDA - Rango 2",
+	ItemName_AuthenticZClothing.Bag_SchoolBagCEDARed_Tier_3 = "Mochila roja de la CEDA - Rango 3",
+	ItemName_AuthenticZClothing.Bag_SchoolBagCEDABlue_Tier_1 = "Mochila azul de la CEDA - Rango 1",	
+	ItemName_AuthenticZClothing.Bag_SchoolBagCEDABlue_Tier_2 = "Mochila azul de la CEDA - Rango 2",
+	ItemName_AuthenticZClothing.Bag_SchoolBagCEDABlue_Tier_3 = "Mochila azul de la CEDA - Rango 3",
 	
 	ItemName_AuthenticZClothing.Bag_SchoolBagNBH_Tier_1 = "Mochila NBH - Rango 1",	
 	ItemName_AuthenticZClothing.Bag_SchoolBagNBH_Tier_2 = "Mochila NBH - Rango 2",
@@ -653,7 +653,7 @@ ItemName_ES = {
 	ItemName_AuthenticZClothing.Bag_B4BHolly_Tier_2 = "Mochila de Holly - Rango 2",
 	ItemName_AuthenticZClothing.Bag_B4BHolly_Tier_3 = "Mochila de Holly - Rango 3",
 	
-	/* New */	
+	/* 11-30-21 update  */
 	ItemName_AuthenticZClothing.ToyBearSmall = "Osito de peluche",	
 	ItemName_AuthenticZClothing.SpiffoGrey = "PAWS Spiffo",
 	ItemName_AuthenticZClothing.SpiffoPlushieHeart = "Spiffo Corazón",
@@ -694,7 +694,7 @@ ItemName_ES = {
 	ItemName_AuthenticZClothing.Bag_B4BWalker_Tier_3 = "Mochila de Walker - Rango 3",
 	
 	ItemName_AuthenticZClothing.Hat_SummerWhite = "Sombrero de verano blanco",
-	ItemName_AuthenticZClothing.ApronIceCream = "Delantal con donas",
+	ItemName_AuthenticZClothing.Apron_DonutAZ = "Delantal con donas",
 	ItemName_AuthenticZClothing.DungareesWhite = "Mono blanco",	
 	ItemName_AuthenticZClothing.Gloves_LongWomenGlovesWhite = "Guantes largos blancos",
 	ItemName_AuthenticZClothing.Hat_BaseballCapWhite = "Gorra de béisbol blanca",
@@ -719,7 +719,6 @@ ItemName_ES = {
 	ItemName_AuthenticZClothing.InflatableTube_AZ = "Tubo inflable",	
 	ItemName_AuthenticZClothing.Jacket_Doctor3 	 = "Bata de medico",
 	ItemName_AuthenticZClothing.Shoes_TrainersAZ = "Zapatillas de alto rendimiento",	
-	
 	ItemName_AuthenticZClothing.PZAZ_CostumeStoreSign = "Muestra de la tienda de venta de disfraces",	
 	ItemName_AuthenticZClothing.CultistMask = "Máscara cultista",	
 	ItemName_AuthenticZClothing.CultistSign = "Signo cultista",	
@@ -742,10 +741,9 @@ ItemName_ES = {
 	ItemName_AuthenticZClothing.AuthenticFreeHugsSign =  "Letrero de abrazos gratis",		
 	ItemName_AuthenticZClothing.AuthenticHairHeadband =  "Vincha deportiva",		
 	ItemName_AuthenticZClothing.Jacket_Reporter_LBMW =  "Chaqueta de reportero LBMW",		
+	ItemName_AuthenticZClothing.Hairstyle_Afro_Pick2 =  "Selección afro",	
 	
-	ItemName_AuthenticZClothing.Hairstyle_Afro_Pick =  "Selección afro",	
-	
-	/* New */
+	/* Update 2-20-21 */
 	ItemName_AuthenticZClothing.Authentic_PomPomBlue = "Pom Pom de porrista",	
 	ItemName_AuthenticZClothing.AuthenticTagillaSledgehammer =  "Almádena de Tagilla",
 	ItemName_AuthenticZClothing.Hat_BaseballCapBossTagilla =  "Gorra de béisol del jefe",
@@ -757,7 +755,6 @@ ItemName_ES = {
 	ItemName_AuthenticZClothing.AuthenticBingoDotterRed =  "Marcador rojo para Bingo",
 	ItemName_AuthenticZClothing.AuthenticBingoDotterTeal =  "Marcador verde azulado para Bingo",
 	ItemName_AuthenticZClothing.AuthenticBingoDotterYellow =  "Marcador amarillo para Bingo",
-	
 	ItemName_AuthenticZClothing.AuthenticWalkingCaneJP =  "Bastón con mosquito en ambar",
 	ItemName_AuthenticZClothing.AuthenticWalkingCaneGrandFather =  "Bastón antiguo",
 	ItemName_AuthenticZClothing.Dress_LongPolkadot =  "Vestido largo a lunares",
@@ -766,8 +763,109 @@ ItemName_ES = {
 	ItemName_AuthenticZClothing.Dress_LongFlower =  "Vestido largo floreado",
 	ItemName_AuthenticZClothing.Dress_Flower =  "Vestido floreado",
 	ItemName_AuthenticZClothing.Dress_Flower_Knees =  "Vestido corto floreado",
-	
 	ItemName_AuthenticZClothing.Vest_BulletTagilla =  "Chaleco antibalas MBAV",
 	ItemName_AuthenticZClothing.Trousers_Tagilla = "Pantalones tácticos",
+	
+	/* Update 3-18-21 */
+	ItemName_AuthenticZClothing.Shirt_CropTopLVCheerleader = "Top de animadora UoLV",
+	ItemName_AuthenticZClothing.Skirt_LVCheerleader = "Falda corta UoLV",
+	ItemName_AuthenticZClothing.ReporterMicrophone_Media01 = "Micrófono de reportero de prensa - Triple N",
+	ItemName_AuthenticZClothing.ReporterMicrophoneMuffler_Media01 = "Micrófono de reportero de prensa - Triple N",
+	ItemName_AuthenticZClothing.ReporterMicrophone_Media02 = "Micrófono de reportero de prensa - LBMW Radio",
+	ItemName_AuthenticZClothing.ReporterMicrophoneMuffler_Media02 = "Micrófono de reportero de prensa - LBMW Radio",
+	ItemName_AuthenticZClothing.ReporterMicrophone_Media03 = "Micrófono de reportero de prensa - LBMW TV",
+	ItemName_AuthenticZClothing.ReporterMicrophoneMuffler_Media03 = "Micrófono de reportero de prensa - LBMW TV",
+	ItemName_AuthenticZClothing.ReporterMicrophone_Media04 = "Micrófono de reportero de prensa - Dice Media",
+	ItemName_AuthenticZClothing.ReporterMicrophoneMuffler_Media04 = "Micrófono de reportero de prensa - Dice Media",
+	ItemName_AuthenticZClothing.ReporterMicrophone_Media05 = "Micrófono de reportero de prensa - Conspiracy Media",
+	ItemName_AuthenticZClothing.ReporterMicrophoneMuffler_Media05 = "Micrófono de reportero de prensa - Conspiracy Media",
+	
+	ItemName_AuthenticZClothing.Jacket_Reporter_LBMW = "Chaqueta de reportero LBMW",
+	ItemName_AuthenticZClothing.Jacket_Reporter_Radio = "Chaqueta de reportero LBMW de radio",
+	ItemName_AuthenticZClothing.Jacket_Reporter_3N = "Chaqueta de reportero Triple 3N",
+	ItemName_AuthenticZClothing.BoomMicrophone = "Micrófono boom",
+	ItemName_AuthenticZClothing.BroadcastCamera = "Cámara de video para transmisión EVV-9000 HYPER",
+	ItemName_AuthenticZClothing.Flamingo = "Fifi el flamingo",
+	ItemName_AuthenticZClothing.AZ_DiceHung = "Cadena de dados",
+	ItemName_AuthenticZClothing.Rubberducky3 = "Pato de goma",
+	ItemName_AuthenticZClothing.BorisBadger = "Boris el tejón",	
+	ItemName_AuthenticZClothing.FluffyfootBunny = "Fluffyfoot el conejo",
+	ItemName_AuthenticZClothing.FreddyFox = "Freddy el zorro",
+	ItemName_AuthenticZClothing.FurbertSquirrel = "Furbert la ardilla",	
+	ItemName_AuthenticZClothing.JacquesBeaver = "Jacques el castor",
+	ItemName_AuthenticZClothing.MoleyMole = "Moley el topo",
+	ItemName_AuthenticZClothing.PancakeHedgehog = "Pancake el erizo",
+	
+	ItemName_AuthenticZClothing.SleepingBag = "Saco de dormir",
+	ItemName_AuthenticZClothing.SleepingBagRoll = "Saco de dormir (Enrollado)",
+	
+	/* New */	
+	
+	ItemName_AuthenticZClothing.AuthenticGlowstick_Pack = "Paquete de barras luminosas",
+	ItemName_AuthenticZClothing.AuthenticGlowstick_Blank = "Barra luminosa agotada",
+	ItemName_AuthenticZClothing.AuthenticGlowstick_Blue = "Barra luminosa azul",
+	ItemName_AuthenticZClothing.AuthenticGlowstick_Blue_On = "Barra luminosa azul (Activada)",
+	ItemName_AuthenticZClothing.AuthenticGlowstick_Green = "Barra luminosa verde",
+	ItemName_AuthenticZClothing.AuthenticGlowstick_Green_On = "Barra luminosa verde (Activada)",
+	ItemName_AuthenticZClothing.AuthenticGlowstick_Red = "Barra luminosa roja",
+	ItemName_AuthenticZClothing.AuthenticGlowstick_Red_On = "Barra luminosa roja (Activada)",
+	ItemName_AuthenticZClothing.AuthenticGlowstick_Orange = "Barra luminosa naranja",
+	ItemName_AuthenticZClothing.AuthenticGlowstick_Orange_On = "Barra luminosa naranja (Activada)",
+	ItemName_AuthenticZClothing.AuthenticGlowstick_Pink = "Barra luminosa rosa",
+	ItemName_AuthenticZClothing.AuthenticGlowstick_Pink_On = "Barra luminosa rosa (Activada)",
+	ItemName_AuthenticZClothing.AuthenticGlowstick_Purple = "Barra luminosa púrpura",
+	ItemName_AuthenticZClothing.AuthenticGlowstick_Purple_On = "Barra luminosa púrpura (Activada)",
+	ItemName_AuthenticZClothing.AuthenticGlowstick_Yellow = "Barra luminosa amarilla",
+	ItemName_AuthenticZClothing.AuthenticGlowstick_Yellow_On = "Barra luminosa amarilla (Activada)",	
+	
+	ItemName_AuthenticZClothing.Bag_PAWSBackpackAZ 	= "Mochila PAWS",	
+	ItemName_AuthenticZClothing.Bag_PAWSBackpackAZ_Tier_1 = "Mochila PAWS - Rango 1",	
+	ItemName_AuthenticZClothing.Bag_PAWSBackpackAZ_Tier_2 = "Mochila PAWS - Rango 2",	
+	ItemName_AuthenticZClothing.Bag_PAWSBackpackAZ_Tier_3 = "Mochila PAWS - Rango 3",		
+	ItemName_AuthenticZClothing.Bag_SpiffoBackpackAZ = "Mochila Spiffo",	
+	ItemName_AuthenticZClothing.Bag_SpiffoBackpackAZ_Tier_1 = "Mochila Spiffo - Rango 1",	
+	ItemName_AuthenticZClothing.Bag_SpiffoBackpackAZ_Tier_2 = "Mochila Spiffo - Rango 2",	
+	ItemName_AuthenticZClothing.Bag_SpiffoBackpackAZ_Tier_3 = "Mochila Spiffo - Rango 3",
+	
+	ItemName_AuthenticZClothing.OtisPug = "Otis el Pug",
+	
+	ItemName_AuthenticZClothing.Authentic_BouquetFlowers = "Ramo de flores",
+	ItemName_AuthenticZClothing.AuthenticGhostbusterTrap = "Trampa cazafantasmas",
+
+	ItemName_AuthenticZClothing.Blue_LongJohns = "Calzoncillos largos azules",	
+	ItemName_AuthenticZClothing.ClownNoseTINT = "Nariz de payaso",		
+	ItemName_AuthenticZClothing.Dress_DimitrescuALT = "Vestido de Lady Dimitrescu",
+	
+	ItemName_AuthenticZClothing.Skin_White_Dimitrescu = "Piel de zombie de Lady Dimitrescu",
+	ItemName_AuthenticZClothing.Shoes_ClownPolka = "Zapatos de payaso de lunares",
+	ItemName_AuthenticZClothing.Gloves_White_Reflective = "Guantes reflectores",	
+	ItemName_AuthenticZClothing.Hat_Dimitrescu_Back =  "Sombrero de Lady Dimitrescu",
+	ItemName_AuthenticZClothing.Hat_RuneDuel_Back = "Sombrero de duelista de fantasía",	
+	ItemName_AuthenticZClothing.Hat_SummerWhite_Back = "Sombrero de verano blanco",
+	ItemName_AuthenticZClothing.Hat_Witchy_2_Back = "Sombrero de bruja",
+	
+	ItemName_AuthenticZClothing.AuthenticRoadsideTriangle = "Triángulo de carretera",
+
+	ItemName_AuthenticZClothing.HazmatSuitNBHNoShoes = "Traje de riesgo biológico nuclear",
+	
+	ItemName_AuthenticZClothing.HazmatSuit2NoShoes = "Traje de materiales peligrosos",
+	ItemName_AuthenticZClothing.HazmatSuit2NoMaskNoShoes = "Traje de materiales peligrosos",
+	ItemName_AuthenticZClothing.HazmatSuit2NoMask = "Traje de materiales peligrosos",
+	
+	ItemName_AuthenticZClothing.HazmatSuitCEDANoShoes = "Traje de materiales peligrosos verde de la CEDA",
+	ItemName_AuthenticZClothing.HazmatSuitCEDANoMaskNoShoes = "Traje de materiales peligrosos verde de la CEDA",
+	ItemName_AuthenticZClothing.HazmatSuitCEDANoMask = "Traje de materiales peligrosos verde de la CEDA",
+	
+	ItemName_AuthenticZClothing.CEDAHazmatSuitBlackNoShoes = "Traje de materiales peligrosos negro de la CEDA",
+	ItemName_AuthenticZClothing.CEDAHazmatSuitBlackNoMaskNoShoes = "Traje de materiales peligrosos negro de la CEDA",
+	ItemName_AuthenticZClothing.CEDAHazmatSuitBlackNoMask = "Traje de materiales peligrosos negro de la CEDA",
+	
+	ItemName_AuthenticZClothing.CEDAHazmatSuitBlueNoShoes = "Traje de materiales peligrosos azul de la CEDA",
+	ItemName_AuthenticZClothing.CEDAHazmatSuitBlueNoMaskNoShoes = "Traje de materiales peligrosos azul de la CEDA",
+	ItemName_AuthenticZClothing.CEDAHazmatSuitBlueNoMask = "Traje de materiales peligrosos azul de la CEDA",
+	
+	ItemName_AuthenticZClothing.CEDAHazmatSuitRedNoShoes = "Traje de materiales peligrosos rojo de la CEDA",
+	ItemName_AuthenticZClothing.CEDAHazmatSuitRedNoMaskNoShoes = "Traje de materiales peligrosos rojo de la CEDA",
+	ItemName_AuthenticZClothing.CEDAHazmatSuitRedNoMask = "Traje de materiales peligrosos rojo de la CEDA",
 	
 }
