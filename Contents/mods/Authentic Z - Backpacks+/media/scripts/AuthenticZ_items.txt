@@ -1,4 +1,4 @@
-module AuthenticZBackpacks+ {
+module AuthenticZClothing {
   imports {
       Base
   }
@@ -40,6 +40,7 @@ module AuthenticZBackpacks+ {
         DisplayName		=	Costume Store Sign,
         Icon			=	StoreSignCostume,
 		WorldStaticModel = WorldItem-CostumeStoreSign,
+        OBSOLETE = TRUE,			
 	}
 	
     item Rubberducky3
@@ -992,6 +993,7 @@ module AuthenticZBackpacks+ {
         Weight = 0.1,
 		CustomEatSound 		= ,		
 		WorldStaticModel = WorldItem_CigarAZ,
+        OBSOLETE = TRUE,			
     } 	
 	item AuthenticCigaretteHolder
 	{
@@ -1011,6 +1013,7 @@ module AuthenticZBackpacks+ {
 		EatType 		 	= Cigarettes,
 		WorldStaticModel 	= WorldItem-CigaretteHolder,
 		CustomEatSound 		= ,
+        OBSOLETE = TRUE,			
 	}	
 
 	item Authentic_MilitaryFlashlightGrey
@@ -1276,6 +1279,7 @@ module AuthenticZBackpacks+ {
         BaseSpeed = 1,
         WeaponLength = 0.1,		
 		AttachmentType = Walkie,
+        OBSOLETE = TRUE,			
     }
 	item AZ_DiceHung
 	{
@@ -1343,6 +1347,7 @@ module AuthenticZBackpacks+ {
         ExtraDamage  =   0.001,
         ExplosionRange  =   2,
         WorldStaticModel = Football,
+        OBSOLETE = TRUE,			
     }	
     item HandTorch2
     {
@@ -1364,5 +1369,6 @@ module AuthenticZBackpacks+ {
         secondaryAnimMask = HoldingTorchLeft,
 		Tooltip = Tooltip_HandTorch2,
 		WorldStaticModel = HandTorch,
+        OBSOLETE = TRUE,			
     }
 }		

@@ -1,10 +1,5 @@
 module Base
 {
-	model Authentic_AndySign
-	{
-		mesh = AuthenticAndySign,
-		texture = clothes\Items\AndySign,
-	}
 	model AuthenticBalloonBlue
 	{
 		mesh = Balloon,
@@ -857,31 +852,6 @@ module Base
 		mesh = WorldItems/WorldItem_Sleepingbag,
 		texture = clothes\Items\SleepingbagLightBlue,
 	}
-	model WorldItem_Boater_Ground_Blue
-    {
-		mesh = WorldItems/WorldItem-Boater,
-		texture = clothes\Hats\BoaterBlue,
-    }
-	model WorldItem_Boater_Ground_Red
-    {
-		mesh = WorldItems/WorldItem-Boater,
-		texture = clothes\Hats\BoaterRed,
-    }
-	model WorldItem_Boater_Ground_Green
-    {
-		mesh = WorldItems/WorldItem-Boater,
-		texture = clothes\Hats\BoaterGreen,
-    }
-	model WorldItem_Boater_Ground_Purple
-    {
-		mesh = WorldItems/WorldItem-Boater,
-		texture = clothes\Hats\BoaterPurple,
-    }
-	model WorldItem_Boater_Ground_Yellow
-    {
-		mesh = WorldItems/WorldItem-Boater,
-		texture = clothes\Hats\BoaterYellow,
-    }
 	model WorldItem_BackpackEvangelo
     {
 		mesh = Skinned/Backpacks/WorldItem-BackpackEvangelo,
@@ -1037,11 +1007,6 @@ module Base
     {
 		mesh = WorldItems/WorldItem_Canteen,
 		texture = clothes\Items\CanteenSilver,	
-    }
-	model WorldItem_Chainsaw
-    {
-		mesh = WorldItems/WorldItem_Chainsaw,
-		texture = chainsaw,		
     }
 	model WorldItem-CigaretteHolder
     {
