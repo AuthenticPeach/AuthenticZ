@@ -3,6 +3,15 @@ module AuthenticZRecipes {
       Base
   }
 
+
+recipe Convert into Wearable
+  	{
+   	   Movables.location_community_school_01_34/Movables.location_community_school_01_33/Movables.location_community_school_01_32/Movables.location_community_school_01_35,
+
+   	   Result:Authentic_Headphones,
+	   Time:30.0,
+  	}
+
 recipe Convert into Wearable
   	{
    	   Headphones,
@@ -10,7 +19,6 @@ recipe Convert into Wearable
    	   Result:Authentic_Headphones,
 	   Time:30.0,
   	}
-
 
 recipe Convert into Wearable
   	{

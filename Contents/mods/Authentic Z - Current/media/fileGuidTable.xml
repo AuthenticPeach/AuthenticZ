@@ -3884,6 +3884,18 @@
 		<guid>9be34d22-4b22-4897-a343-3f271357fa80</guid>
 	</files>
 	<files>
+		<path>media/clothing/clothingItems/Bag_RoadsideDuffel.xml</path>
+		<guid>fc0c890f-46e6-429d-a6a6-75699ff2568f</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_RoadsideDuffel_RHand.xml</path>
+		<guid>c2d9e5b6-19a6-4fac-955e-9b71e7fb4709</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_RoadsideDuffel_LHand.xml</path>
+		<guid>de2ffd2b-e5a5-4cc9-852a-00141d35aab3</guid>
+	</files>	
+	<files>
 		<path>media/clothing/clothingItems/Bag_UtilityBeltDesert.xml</path>
 		<guid>16c75bcc-d7bb-4f0f-b178-d3c7a7a55b60</guid>
 	</files>

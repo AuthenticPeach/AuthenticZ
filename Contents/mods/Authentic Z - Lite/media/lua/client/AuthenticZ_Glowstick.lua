@@ -24,6 +24,9 @@ local function glowstickUpdate(player)
 
 	local plHotbar = getPlayerHotbar(player:getPlayerNum());
 	local inv = player:getInventory():getItems()
+	
+	if plHotbar == nil then return  end 
+	plHotbar.needsRefresh = true
 	for i=1, inv:size() do
 		local item = inv:get(i-1)
 		if plHotbar:isInHotbar(item) and item:getAttachmentType() and item:getAttachedSlot() ~= -1 or item == player:getPrimaryHandItem() or item == player:getSecondaryHandItem() then
