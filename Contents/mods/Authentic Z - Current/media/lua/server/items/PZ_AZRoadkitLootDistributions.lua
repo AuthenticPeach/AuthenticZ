@@ -1,11 +1,13 @@
---[[
 require 'Items/SuburbsDistributions'
 
 -- Left 4 Dead Medkit filler medical items
-local Bag_L4DeadMedkit = { --Need new kit/model
+local Bag_RoadsideDuffel = {
 	rolls = 2,
 	items = {
             "CarBatteryCharger", 200,
+            "Battery", 200,
+            "Authentic_Bandages", 200,
+            "Authentic_Pills", 200,
             "PonchoGreen", 80,
             "PonchoYellow", 80,
             "PonchoYellow", 80,
@@ -21,5 +23,4 @@ local Bag_L4DeadMedkit = { --Need new kit/model
 	},
 	fillRand = 0,
 };
-SuburbsDistributions["Bag_L4DeadMedkit"] = Bag_L4DeadMedkit; 
---]]
+SuburbsDistributions["Bag_RoadsideDuffel"] = Bag_RoadsideDuffel; 

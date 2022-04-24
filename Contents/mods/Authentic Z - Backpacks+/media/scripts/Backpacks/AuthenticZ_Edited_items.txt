@@ -2,6 +2,250 @@ module AuthenticZBackpacks+ {
   imports {
       Base
   }
+
+
+    item Rubberducky3
+    {
+        DisplayCategory		 	= 	Raccoon,
+        Weight					=	0.1,
+        Type					=	Normal,
+        DisplayName				=	Rubber Duck,
+        Icon					=	Rubberducky,
+        WorldStaticModel 		= 	Rubberducky,
+        AttachmentType  		= 	RubberDuck,
+		StaticModel 			= 	Rubberducky,
+       OBSOLETE			=	TRUE,			
+    }	
+	
+   item Flamingo
+	{
+        DisplayCategory 		=  	Raccoon,	
+		Weight					=	0.2,
+		Type					=	Normal,
+		DisplayName				=	Flamingo,
+		Icon					=	FlamingoPlushie,
+		WorldStaticModel 		= 	WorldItem_FlamingoPlushie,
+        AttachmentType  		= 	SpiffoPlushie,
+		StaticModel 			= 	WorldItem_FlamingoPlushie,		
+       OBSOLETE			=	TRUE,			
+	}
+
+   item OtisPug
+	{
+        DisplayCategory 		=  	Raccoon,	
+		Weight					=	0.2,
+		Type					=	Normal,
+		DisplayName				=	Otis the Pug,
+		Icon					=	PugPlushieOtis,
+		WorldStaticModel 		= 	WorldItem_PugOtisPlushie,
+        AttachmentType  		= 	SpiffoPlushie,
+		StaticModel 			= 	PugOtisPlushie,		
+       OBSOLETE			=	TRUE,			
+	}
+		
+   item Spiffo
+	{
+        DisplayCategory 		=  	Raccoon,	
+		Weight					=	0.2,
+		Type					=	Normal,
+		DisplayName				=	Spiffo,
+		Icon					=	PlushSpiffo,
+		WorldStaticModel 		= 	SpiffoPlushie,
+        AttachmentType  		= 	SpiffoPlushie,
+		StaticModel 			= 	SpiffoPlushie,	
+       OBSOLETE			=	TRUE,			
+	}
+	
+    item SpiffoGrey
+	{
+        DisplayCategory 		= 	Raccoon,		
+		Weight					=	0.2,
+		Type					=	Normal,
+		DisplayName				=	PAWS Spiffo,
+		Icon					=	PlushSpiffoGrey,
+		WorldStaticModel 		= 	SpiffoPlushieGrey,
+        AttachmentType  		= 	SpiffoPlushie,
+		StaticModel 			= 	SpiffoPlushieGrey,	
+       OBSOLETE			=	TRUE,			
+	}	
+
+    item SpiffoHeart
+	{
+        DisplayCategory 		= 	Raccoon,		
+		Weight					=	0.2,
+		Type					=	Normal,
+		DisplayName				=	Heart Spiffo,
+		Icon					=	SpiffoPink,
+		WorldStaticModel 		= 	SpiffoPlushieHeart,
+        AttachmentType  		= 	SpiffoPlushie,
+		StaticModel 			= 	SpiffoPlushieHeart,	
+       OBSOLETE			=	TRUE,			
+	}
+	
+    item SpiffoBlueberry
+	{
+        DisplayCategory 		= 	Raccoon,		
+		Weight					=	0.2,
+		Type					=	Normal,
+		DisplayName				=	Blueberry Spiffo,
+		Icon					=	SpiffoBlue,
+		WorldStaticModel 		= 	SpiffoPlushieBlueberry,
+        AttachmentType  		= 	SpiffoPlushie,
+		StaticModel 			= 	SpiffoPlushieBlueberry,	
+       OBSOLETE			=	TRUE,			
+	}
+
+    item SpiffoShamrock
+	{
+        DisplayCategory 		= 	Raccoon,		
+		Weight					=	0.2,
+		Type					=	Normal,
+		DisplayName				=	Shamrock Spiffo,
+		Icon					=	SpiffoGreen,
+		WorldStaticModel 		= 	SpiffoPlushieShamrock,
+        AttachmentType  		= 	SpiffoPlushie,
+		StaticModel 			= 	SpiffoPlushieShamrock,	
+       OBSOLETE			=	TRUE,			
+	}
+
+    item SpiffoPlushieRainbow
+	{
+        DisplayCategory 		= 	Raccoon,		
+		Weight					=	0.2,
+		Type					=	Normal,
+		DisplayName				=	Rainbow Spiffo,
+		Icon					=	SpiffoRainbow,
+		WorldStaticModel 		= 	SpiffoPlushieRainbow,
+        AttachmentType  		= 	SpiffoPlushie,
+		StaticModel 			= 	SpiffoPlushieRainbow,
+       OBSOLETE			=	TRUE,			
+	}	
+
+    item Doll
+    {
+        DisplayCategory 	= 			Raccoon,		
+        Type				=			Normal,
+        DisplayName			=		    Doll,
+        Icon				=			Doll,
+        Weight				=			0.1,
+        WorldStaticModel 	= 			Doll,
+        AttachmentType  	= 			Doll,
+		StaticModel 		= 			Doll,
+       OBSOLETE			=	TRUE,				
+    }
+	
+	item ToyBear
+	{
+        DisplayCategory 	= 	Raccoon,		
+		Weight				=	0.2,
+		Type				=	Normal,
+		DisplayName			=	Toy Bear,
+		Icon				=	ToyBear,
+		WorldStaticModel 	= 	ToyBear,
+        AttachmentType  	= 	TeddyBear,		
+		StaticModel 		= 	ToyBear,	
+       OBSOLETE			=	TRUE,				
+	}
+
+	item ToyBearSmall
+	{
+        DisplayCategory 	= 	Raccoon,		
+		Weight				=	0.2,
+		Type				=	Normal,
+		DisplayName			=	Toy Bear,
+		Icon				=	ToyBear,
+		WorldStaticModel 	= 	ToyBearSmall,
+        AttachmentType  	= 	SpiffoPlushie,		
+		StaticModel 		= 	ToyBearSmall,	
+       OBSOLETE			=	TRUE,			
+	}			
+
+
+item BorisBadger
+	{
+        DisplayCategory  = 	Raccoon,		
+		Weight           = 	0.2,
+		Type             = 	Normal,
+		DisplayName      = 	Boris The Badger,
+		Icon             = 	Plush_Badger,
+        AttachmentType   = 	SpiffoPlushie,
+		StaticModel 	 = 	PlushieBadger_Static,			
+		WorldStaticModel = 	PlushieBadger_Ground,
+       OBSOLETE			=	TRUE,		
+	}
+    item JacquesBeaver
+	{
+        DisplayCategory  = 	Raccoon,		
+		Weight           = 	0.2,
+		Type             = 	Normal,
+		DisplayName      = 	Jacques The Beaver,
+		Icon             = 	Plush_Beaver,
+        AttachmentType   = 	SpiffoPlushie,
+		StaticModel 	 = 	PlushieBeaver_Static,			
+		WorldStaticModel = 	PlushieBeaver_Ground,
+       OBSOLETE			=	TRUE,		
+	}
+    item FreddyFox
+	{
+        DisplayCategory  = 	Raccoon,		
+		Weight           = 	0.2,
+		Type             = 	Normal,
+		DisplayName      = 	Freddy The Fox,
+		Icon             = 	Plush_Fox,
+        AttachmentType   = 	SpiffoPlushie,
+		StaticModel 	 = 	PlushieFox_Static,			
+		WorldStaticModel = 	PlushieFox_Ground,
+       OBSOLETE			=	TRUE,		
+	}
+    item PancakeHedgehog
+	{
+        DisplayCategory  = 	Raccoon,		
+		Weight           = 	0.2,
+		Type             = 	Normal,
+		DisplayName      = 	Pancake The Hedgehog,
+		Icon             = 	Plush_Hedgehog,
+        AttachmentType   = 	SpiffoPlushie,
+		StaticModel 	 = 	PlushieHedgehog_Static,			
+		WorldStaticModel = 	PlushieHedgehog_Ground,
+       OBSOLETE			=	TRUE,		
+	}
+    item MoleyMole
+	{
+        DisplayCategory  = 	Raccoon,		
+		Weight           = 	0.2,
+		Type             = 	Normal,
+		DisplayName      = 	Moley The Mole,
+		Icon             = 	Plush_Mole,
+        AttachmentType   = 	SpiffoPlushie,
+		StaticModel 	 = 	PlushieMole_Static,			
+		WorldStaticModel = 	PlushieMole_Ground,
+       OBSOLETE			=	TRUE,		
+	}
+    item FluffyfootBunny
+	{
+        DisplayCategory  = 	Raccoon,		
+		Weight           = 	0.2,
+		Type             = 	Normal,
+		DisplayName      = 	Fluffyfoot The Bunny,
+		Icon             = 	Plush_Rabbit,
+        AttachmentType   = 	SpiffoPlushie,
+		StaticModel 	 = 	PlushieRabbit_Static,			
+		WorldStaticModel = 	PlushieRabbit_Ground,
+       OBSOLETE			=	TRUE,		
+	}
+    item FurbertSquirrel
+	{
+        DisplayCategory  = 	Raccoon,		
+		Weight           = 	0.2,
+		Type             = 	Normal,
+		DisplayName      = 	Furbert The Squirrel,
+		Icon             = 	Plush_Squirrel,
+        AttachmentType   = 	SpiffoPlushie,
+		StaticModel 	 = 	PlushieSquirrel_Static,			
+		WorldStaticModel = 	PlushieSquirrel_Ground,\
+       OBSOLETE			=	TRUE,		
+	}
+
     item Chainsaw
     {
         DisplayCategory 	= 	Tool,

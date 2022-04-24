@@ -211,6 +211,16 @@ AuthenticZ.tab_addMagProcedural_Torch2  = function(x,count)
   table.insert(ProceduralDistributions.list[x].items, count);
 end
 
+--Roadside DuffelBag
+AuthenticZ.tab_Bag_RoadsideDuffel  = function(x,count)
+  ProceduralDistributions = ProceduralDistributions or {};
+  ProceduralDistributions.list = ProceduralDistributions.list or {};
+  ProceduralDistributions.list[x] = ProceduralDistributions.list[x] or {};
+  ProceduralDistributions.list[x].items = ProceduralDistributions.list[x].items or {};
+  table.insert(ProceduralDistributions.list[x].items,"AuthenticZClothing.Bag_RoadsideDuffel");
+  table.insert(ProceduralDistributions.list[x].items, count);
+end
+
 --Toy Plushies
 AuthenticZ.tab_addMagProcedural_Plushies  = function(x,count)
   ProceduralDistributions = ProceduralDistributions or {};
@@ -296,6 +306,18 @@ AuthenticZ.tab_addMagProcedural_GlowstickPack("ToolStoreTools",3.0);
 AuthenticZ.tab_addMagProcedural_GlowstickPack("ToolStoreMisc",3.0);
 AuthenticZ.tab_addMagProcedural_GlowstickPack("ToolStoreMisc",3.0);
 AuthenticZ.tab_addMagProcedural_GlowstickPack("OtherGeneric",1.5);
+AuthenticZ.tab_addMagProcedural_GlowstickPack("CrateRandomJunk",0.5);
+AuthenticZ.tab_addMagProcedural_GlowstickPack("GarageTools",0.2);
+AuthenticZ.tab_addMagProcedural_GlowstickPack("GunStoreMagazineRack",1.5);
+AuthenticZ.tab_addMagProcedural_GlowstickPack("MagazineRackMaps",0.5);
+AuthenticZ.tab_addMagProcedural_GlowstickPack("MagazineRackMixed",0.5);
+AuthenticZ.tab_addMagProcedural_GlowstickPack("BandMerchClothes",20);
+AuthenticZ.tab_addMagProcedural_GlowstickPack("BandMerchShelves",20);
+AuthenticZ.tab_addMagProcedural_GlowstickPack("BandPracticeClothing",5);
+AuthenticZ.tab_addMagProcedural_GlowstickPack("ClothingStorageHeadwear",1);
+AuthenticZ.tab_addMagProcedural_GlowstickPack("ClothingStoresHeadwear",1);
+AuthenticZ.tab_addMagProcedural_GlowstickPack("CrateClothesRandom",1);
+AuthenticZ.tab_addMagProcedural_GlowstickPack("GigamartHouseElectronics",2);
 
 AuthenticZ.tab_addMagProcedural_Glowsticks("PoliceDesk",0.8);
 AuthenticZ.tab_addMagProcedural_Glowsticks("PrisonGuardLockers",0.9);
@@ -303,6 +325,23 @@ AuthenticZ.tab_addMagProcedural_Glowsticks("FireDeptLockers",0.9);
 AuthenticZ.tab_addMagProcedural_Glowsticks("StoreShelfElectronics",0.8);
 AuthenticZ.tab_addMagProcedural_Glowsticks("ElectronicStoreMisc",0.8);
 AuthenticZ.tab_addMagProcedural_Glowsticks("ElectronicStoreLights",0.8);
+AuthenticZ.tab_addMagProcedural_Glowsticks("CrateRandomJunk",0.5);
+AuthenticZ.tab_addMagProcedural_Glowsticks("GarageTools",0.5);
+AuthenticZ.tab_addMagProcedural_Glowsticks("GymLockers",0.5);
+AuthenticZ.tab_addMagProcedural_Glowsticks("HospitalLockers",0.5);
+AuthenticZ.tab_addMagProcedural_Glowsticks("RandomFiller",0.5);
+AuthenticZ.tab_addMagProcedural_Glowsticks("SchoolLockers",0.1);
+AuthenticZ.tab_addMagProcedural_Glowsticks("SecurityLockers",0.1);
+AuthenticZ.tab_addMagProcedural_Glowsticks("StripClubDressers",5.0);
+AuthenticZ.tab_addMagProcedural_Glowsticks("WardrobeChild",0.1);
+AuthenticZ.tab_addMagProcedural_Glowsticks("BandMerchClothes",20);
+AuthenticZ.tab_addMagProcedural_Glowsticks("BandMerchShelves",20);
+AuthenticZ.tab_addMagProcedural_Glowsticks("BandPracticeClothing",5);
+AuthenticZ.tab_addMagProcedural_Glowsticks("ClothingStorageHeadwear",1);
+AuthenticZ.tab_addMagProcedural_Glowsticks("ClothingStoresHeadwear",1);
+AuthenticZ.tab_addMagProcedural_Glowsticks("CrateClothesRandom",1);
+AuthenticZ.tab_addMagProcedural_Glowsticks("GigamartHouseElectronics",4);
+AuthenticZ.tab_addMagProcedural_Glowsticks("GigamartLightbulb",0.5);
 --test
 AuthenticZ.tab_addMagProcedural_AZMilitaryFlashlight("ArmyStorageElectronics",1.0);
 AuthenticZ.tab_addMagProcedural_AZMilitaryFlashlight("ArmySurplusHeadwear",4.0);
@@ -313,6 +352,20 @@ AuthenticZ.tab_addMagProcedural_Ponchos("CampingStoreClothes",6.0);
 AuthenticZ.tab_addMagProcedural_Ponchos("ArmySurplusOutfit",6.0);
 
 AuthenticZ.tab_addMagProcedural_Fitness("CrateFitnessWeights",2.0);
+
+
+AuthenticZ.tab_Bag_RoadsideDuffel("MechanicShelfTools",2.0);
+AuthenticZ.tab_Bag_RoadsideDuffel("OtherGeneric",0.3);
+AuthenticZ.tab_Bag_RoadsideDuffel("ToolStoreTools",2.0);
+AuthenticZ.tab_Bag_RoadsideDuffel("ToolStoreMisc",2.0);
+AuthenticZ.tab_Bag_RoadsideDuffel("ArmyHangarTools",2.0);
+AuthenticZ.tab_Bag_RoadsideDuffel("CarSupplyTools",2.0);
+AuthenticZ.tab_Bag_RoadsideDuffel("CrateRandomJunk",2.0);
+AuthenticZ.tab_Bag_RoadsideDuffel("CrateTools",2.0);
+AuthenticZ.tab_Bag_RoadsideDuffel("GarageMechanics",0.5);
+AuthenticZ.tab_Bag_RoadsideDuffel("GarageTools",1.0);
+AuthenticZ.tab_Bag_RoadsideDuffel("MechanicShelfTools",2.0);
+AuthenticZ.tab_Bag_RoadsideDuffel("GigamartTools",2.0);
 
 AuthenticZ.tab_addMagProcedural_Torch2("MechanicShelfTools",2.0);
 AuthenticZ.tab_addMagProcedural_Torch2("OtherGeneric",0.3);
