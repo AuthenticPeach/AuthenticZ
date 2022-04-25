@@ -15,7 +15,4 @@
 	<m_Masks>9</m_Masks>
 	<m_Masks>10</m_Masks>
 	<textureChoices>clothes\dress_textures\LadyDimitrescuDress</textureChoices>
-	<textureChoices>clothes\dress_textures\LadyDimitrescuDressALT</textureChoices>
-	<textureChoices>clothes\dress_textures\LadyDimitrescuDressALT2</textureChoices>
-	<textureChoices>clothes\dress_textures\LadyDimitrescuDressFrozen</textureChoices>
 </clothingItem>

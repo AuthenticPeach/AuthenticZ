@@ -1096,11 +1096,29 @@ module Base
 	{
 		mesh = WorldItems/WorldItem_AuthenticHeadband,
 	}
+	model WorldItem_HawaiianLei
+    {
+		mesh = WorldItems/WorldItem_HawaiianLei,
+    }
+	model WorldItem_MichaelMyersMask
+	{
+		mesh = WorldItems/WorldItem_MichaelMyersMask,		
+	}	
+    model WorldItem-Necklace_GoldCrucifix
+    {
+        mesh = WorldItems/Necklace_Crucifix_Ground,
+        texture =  clothes\Jewelry\WorldItem-Necklace_B,
+    }		
+    model WorldItem-Necklace_B
+    {
+        mesh = WorldItems/WorldItem-Necklace_B,
+        texture =  clothes\Jewelry\WorldItem-Necklace_B,
+    }		
 	model WorldItem_PugOtisPlushie
 	{
 		mesh = WorldItems/WorldItem_PlushieOtisPugAZ,
 		texture = clothes\Items\PugPlushie,		
-	}	
+	}
 	model WorldItem_ReporterMicMuffler_Media01
 	{
 		mesh = WorldItems/WorldItem_AZReporterMicMuffler,

@@ -1218,6 +1218,17 @@ module Base
 		mesh = WorldItems/WorldItem_AuthenticPillBottle,
 		texture = clothes\Items\AuthenticPillBottle,
     }
+    model WorldItem-Necklace_GoldCrucifix
+    {
+        mesh = WorldItems/Necklace_Crucifix_Ground,
+        texture =  clothes\Jewelry\WorldItem-Necklace_B,
+    }		
+    model WorldItem-Necklace_B
+    {
+        mesh = WorldItems/WorldItem-Necklace_B,
+        texture =  clothes\Jewelry\NecklaceB,
+        scale = 0.4,
+    }	
 	model WorldItem-StovePipeHat
     {
 		mesh =  WorldItems/WorldItem_StovePipeHat,

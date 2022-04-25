@@ -4594,6 +4594,10 @@
 	<files>
 		<path>media/clothing/clothingItems/Hat_Witchy_2_Back.xml</path>
 		<guid>222b5d9e-9c56-41d7-9ea9-54fb216b25f5</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/HawaiianLei.xml</path>
+		<guid>aea23d06-0499-4eb1-91fb-583906602ef2</guid>
 	</files>	
 	<files>
 		<path>media/clothing/clothingItems/HazmatSuit2.xml</path>

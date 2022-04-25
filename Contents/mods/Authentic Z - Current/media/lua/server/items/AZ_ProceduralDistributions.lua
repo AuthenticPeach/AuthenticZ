@@ -502,7 +502,135 @@ local function preDistributionMerge()
             "AuthenticZClothing.AuthenticGlowstick_Red", 1,         
             "AuthenticZClothing.AuthenticGlowstick_Green", 1,         
             "AuthenticZClothing.AuthenticGlowstick_Yellow", 1,    			
-            }
+            },
+		}	
+	}
+	
+	ProceduralDistributions.list.LazerTagAZ = {
+        rolls = 4,
+        items = {
+-- Glowsticks					
+            "AuthenticZClothing.AuthenticGlowstick_Red", 5,
+            "AuthenticZClothing.AuthenticGlowstick_Blue", 5,
+            "AuthenticZClothing.AuthenticGlowstick_Green", 5,
+            "AuthenticZClothing.AuthenticGlowstick_Orange", 5,
+            "AuthenticZClothing.AuthenticGlowstick_Purple", 5,		
+            "AuthenticZClothing.AuthenticGlowstick_Pink", 5,		
+            "AuthenticZClothing.AuthenticGlowstick_Yellow", 5,	
+        },			
+        junk = {
+            rolls = 3,
+            items = {				
+            "AuthenticZClothing.AuthenticGlowstick_Red", 1,
+            "AuthenticZClothing.AuthenticGlowstick_Blue", 1,
+            "AuthenticZClothing.AuthenticGlowstick_Green", 1,
+            "AuthenticZClothing.AuthenticGlowstick_Orange", 1,
+            "AuthenticZClothing.AuthenticGlowstick_Purple", 1,		
+            "AuthenticZClothing.AuthenticGlowstick_Pink", 1,		
+            "AuthenticZClothing.AuthenticGlowstick_Yellow", 1,	    			
+            },			
+        }
+    }
+
+
+	ProceduralDistributions.list.NightClubGlowsticksAZ = {
+        rolls = 2,
+        items = {
+-- Glowsticks					
+            "AuthenticZClothing.AuthenticGlowstick_Red", 1,
+            "AuthenticZClothing.AuthenticGlowstick_Blue", 1,
+            "AuthenticZClothing.AuthenticGlowstick_Green", 1,
+            "AuthenticZClothing.AuthenticGlowstick_Orange", 1,
+            "AuthenticZClothing.AuthenticGlowstick_Purple", 1,		
+            "AuthenticZClothing.AuthenticGlowstick_Pink", 1,		
+            "AuthenticZClothing.AuthenticGlowstick_Yellow", 1,
+        },		
+        junk = {
+            rolls = 2,
+            items = {				
+            "AuthenticZClothing.AuthenticGlowstick_Red", 1,
+            "AuthenticZClothing.AuthenticGlowstick_Blue", 1,
+            "AuthenticZClothing.AuthenticGlowstick_Green", 1,
+            "AuthenticZClothing.AuthenticGlowstick_Orange", 1,
+            "AuthenticZClothing.AuthenticGlowstick_Purple", 1,		
+            "AuthenticZClothing.AuthenticGlowstick_Pink", 1,		
+            "AuthenticZClothing.AuthenticGlowstick_Yellow", 1,	    			
+            },			
+        }
+    }
+
+	ProceduralDistributions.list.NightClubCounterAZ = {
+        rolls = 2,
+        items = {
+-- Glowsticks					
+            "AuthenticZClothing.AuthenticGlowstick_Pack", 10,
+            "AuthenticZClothing.AuthenticGlowstick_Pack", 10,
+            "AuthenticZClothing.AuthenticGlowstick_Pack", 10,
+            "AuthenticZClothing.AuthenticGlowstick_Pack", 10,
+            "AuthenticZClothing.AuthenticGlowstick_Pack", 10,
+            "AuthenticZClothing.AuthenticGlowstick_Pack", 10,
+        },		
+        junk = {
+            rolls = 2,
+            items = {				
+            "AuthenticZClothing.AuthenticGlowstick_Red", 1,
+            "AuthenticZClothing.AuthenticGlowstick_Blue", 1,
+            "AuthenticZClothing.AuthenticGlowstick_Green", 1,
+            "AuthenticZClothing.AuthenticGlowstick_Orange", 1,
+            "AuthenticZClothing.AuthenticGlowstick_Purple", 1,		
+            "AuthenticZClothing.AuthenticGlowstick_Pink", 1,		
+            "AuthenticZClothing.AuthenticGlowstick_Yellow", 1,	    			
+            },			
+        }
+    }
+
+	ProceduralDistributions.list.NightClubLockerAZ = {
+        rolls = 10,
+        items = {
+-- Glowsticks					
+            "AuthenticZClothing.AuthenticGlowstick_Pack", 10,
+            "AuthenticZClothing.AuthenticGlowstick_Pack", 10,
+            "AuthenticZClothing.AuthenticGlowstick_Pack", 10,
+            "AuthenticZClothing.AuthenticGlowstick_Pack", 10,
+            "AuthenticZClothing.AuthenticGlowstick_Pack", 10,
+            "AuthenticZClothing.AuthenticGlowstick_Pack", 10,
+            "AuthenticZClothing.AuthenticGlowstick_Pack", 10,
+        },		
+        junk = {
+            rolls = 3,
+            items = {				
+            "AuthenticZClothing.AuthenticGlowstick_Red", 1,
+            "AuthenticZClothing.AuthenticGlowstick_Blue", 1,
+            "AuthenticZClothing.AuthenticGlowstick_Green", 1,
+            "AuthenticZClothing.AuthenticGlowstick_Orange", 1,
+            "AuthenticZClothing.AuthenticGlowstick_Purple", 1,		
+            "AuthenticZClothing.AuthenticGlowstick_Pink", 1,		
+            "AuthenticZClothing.AuthenticGlowstick_Yellow", 1,	    			
+            },			
+        }
+    }
+
+	ProceduralDistributions.list.NightClubShelvesAZ = {
+        rolls = 5,
+        items = {
+-- Glowsticks					
+            "AuthenticZClothing.AuthenticGlowstick_Pack", 10,
+            "AuthenticZClothing.AuthenticGlowstick_Pack", 10,
+            "AuthenticZClothing.AuthenticGlowstick_Pack", 10,
+            "AuthenticZClothing.AuthenticGlowstick_Pack", 10,
+            "AuthenticZClothing.AuthenticGlowstick_Pack", 10,
+        },			
+        junk = {
+            rolls = 2,
+            items = {				
+            "AuthenticZClothing.AuthenticGlowstick_Red", 1,
+            "AuthenticZClothing.AuthenticGlowstick_Blue", 1,
+            "AuthenticZClothing.AuthenticGlowstick_Green", 1,
+            "AuthenticZClothing.AuthenticGlowstick_Orange", 1,
+            "AuthenticZClothing.AuthenticGlowstick_Purple", 1,		
+            "AuthenticZClothing.AuthenticGlowstick_Pink", 1,		
+            "AuthenticZClothing.AuthenticGlowstick_Yellow", 1,	    			
+            },			
         }
     }
 

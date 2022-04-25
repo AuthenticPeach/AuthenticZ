@@ -2,6 +2,18 @@ module AuthenticZClothing {
   imports {
       Base
   }
+    item HawaiianLei
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Hawaiian Lei,
+		ClothingItem = HawaiianLei,
+		BodyLocation = Necklace_Long,
+		Icon = HawaiianLeiOrchid,
+		Weight = 0.1,
+		Cosmetic = TRUE,
+		WorldStaticModel = WorldItem_HawaiianLei,		
+	}
     item Necklace_B
 	{
 	    DisplayCategory = Accessory,
@@ -9,11 +21,11 @@ module AuthenticZClothing {
 		DisplayName = Gold B Necklace,
 		ClothingItem = Necklace_B,
 		BodyLocation = Necklace_Long,
-		Icon = Necklace_SilverCrucifix,
+		Icon = Necklace_Crucifix_Gold,
 		Weight = 0.1,
 		Cosmetic = TRUE,
-		WorldStaticModel = Necklace_SilverCrucifix_Ground,		
-	}
+		WorldStaticModel = WorldItem-Necklace_B,		
+	}	
     item Necklace_GoldCrucifix
 	{
 	    DisplayCategory = Accessory,	
@@ -24,7 +36,7 @@ module AuthenticZClothing {
 		Icon = Necklace_Crucifix_Gold,
 		Weight = 0.1,
 		Cosmetic = TRUE,
-		WorldStaticModel = Necklace_SilverCrucifix_Ground,			
+		WorldStaticModel = WorldItem-Necklace_GoldCrucifix,			
 	}	
     item AuthenticFreeHugsSign
 	{

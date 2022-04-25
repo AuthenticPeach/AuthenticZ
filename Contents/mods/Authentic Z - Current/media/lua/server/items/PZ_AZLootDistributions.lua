@@ -163,7 +163,7 @@ AuthenticZ.tab_addMagProcedural_Glowsticks  = function(x,count)
   table.insert(ProceduralDistributions.list[x].items, count);
 end
 
---Individual Glowsticks
+-- Glowstick Packs
 AuthenticZ.tab_addMagProcedural_GlowstickPack  = function(x,count)
   ProceduralDistributions = ProceduralDistributions or {};
   ProceduralDistributions.list = ProceduralDistributions.list or {};
@@ -294,7 +294,7 @@ AuthenticZ.tab_addMagProcedural_L4DMedkit("ClassroomMisc",0.1);
 AuthenticZ.tab_addMagProcedural_L4DMedkit("LibraryCounter",0.1);
 AuthenticZ.tab_addMagProcedural_L4DMedkit("BathroomCounter",0.1);
 AuthenticZ.tab_addMagProcedural_L4DMedkit("DaycareCounter",0.1);
---test
+
 AuthenticZ.tab_addMagProcedural_GlowstickPack("ArmyStorageElectronics",1.5);
 AuthenticZ.tab_addMagProcedural_GlowstickPack("ToolStoreAccessories",1.5);
 AuthenticZ.tab_addMagProcedural_GlowstickPack("CrateCamping",3.0);

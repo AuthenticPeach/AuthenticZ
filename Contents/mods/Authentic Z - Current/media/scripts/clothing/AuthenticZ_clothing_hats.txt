@@ -1232,6 +1232,7 @@ module AuthenticZClothing {
        	ScratchDefense = 50,
         Insulation = 0.25,
         WindResistance = 0.55,
+		WorldStaticModel = WorldItem_MichaelMyersMask,		
 	}
 	item Hat_HardHat_Miner2
 	{
