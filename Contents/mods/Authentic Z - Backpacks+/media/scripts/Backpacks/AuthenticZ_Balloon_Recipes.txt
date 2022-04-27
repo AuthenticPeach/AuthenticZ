@@ -186,6 +186,68 @@ recipe Untie Balloons
         OnCreate:Recipe.OnCreate.CloseUmbrella,
         Time:10.0,
     }   
+recipe Activate Glowstick
+  	{
+   	   AuthenticGlowstick_Red,
 
+   	   Result:AuthenticGlowstick_Red_On,
+	   Prop2:AuthenticGlowstickRed,
+	   Time:75.0,
+	   StopOnWalk:false,	   
+  	}
+recipe Activate Glowstick
+  	{
+   	   AuthenticGlowstick_Green,
+
+   	   Result:AuthenticGlowstick_Green_On,
+	   Prop2:AuthenticGlowstickGreen,
+	   Time:75.0,
+	   StopOnWalk:false,
+  	}
+recipe Activate Glowstick
+  	{
+   	   AuthenticGlowstick_Orange,
+
+   	   Result:AuthenticGlowstick_Orange_On,
+	   Prop2:AuthenticGlowstickOrange,	   
+	   Time:75.0,
+	   StopOnWalk:false,
+  	}
+recipe Activate Glowstick
+  	{
+   	   AuthenticGlowstick_Blue,
+
+   	   Result:AuthenticGlowstick_Blue_On,
+	   Prop2:AuthenticGlowstickBlue,	   
+	   Time:75.0,
+	   StopOnWalk:false,
+  	}
+recipe Activate Glowstick
+  	{
+   	   AuthenticGlowstick_Pink,
+
+   	   Result:AuthenticGlowstick_Pink_On,
+	   Prop2:AuthenticGlowstickPink,	   
+	   Time:75.0,
+	   StopOnWalk:false,
+  	}
+recipe Activate Glowstick
+  	{
+   	   AuthenticGlowstick_Purple,
+
+   	   Result:AuthenticGlowstick_Purple_On,
+	   Prop2:AuthenticGlowstickPurple,		   
+	   Time:75.0,
+	   StopOnWalk:false,
+  	}
+recipe Activate Glowstick
+  	{
+   	   AuthenticGlowstick_Yellow,
+
+   	   Result:AuthenticGlowstick_Yellow_On,
+	   Prop2:AuthenticGlowstickYellow,		   
+	   Time:75.0,
+	   StopOnWalk:false,
+  	}
 
 }		
