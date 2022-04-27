@@ -1,0 +1,14 @@
+module AuthenticZClothing {
+  imports {
+      Base
+  }	
+	item AlienBody
+	{
+       DisplayCategory = Clothing,		
+		Type = Clothing,
+		DisplayName = Alien Body,
+		ClothingItem = AlienBody,
+		BodyLocation = Torso1Legs1,
+		Icon = ClownTop,
+	}
+}

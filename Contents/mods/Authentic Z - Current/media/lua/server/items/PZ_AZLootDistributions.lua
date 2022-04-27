@@ -254,11 +254,11 @@ AuthenticZ.tab_addMagProcedural_items("LivingRoomShelf",0.05);
 AuthenticZ.tab_addMagProcedural_items("MagazineRackMixed",0.05);
 AuthenticZ.tab_addMagProcedural_items("PostOfficeMagazines",0.05);
 
-AuthenticZ.tab_addMagProcedural_AZCanteen("CrateCarpentry",0.8);
+AuthenticZ.tab_addMagProcedural_AZCanteen("CrateCarpentry",0.5);
 AuthenticZ.tab_addMagProcedural_AZCanteen("CrateCamping",1.0);
-AuthenticZ.tab_addMagProcedural_AZCanteen("ArmySurplusBackpacks",1.5);
-AuthenticZ.tab_addMagProcedural_AZCanteen("OtherGeneric",0.2);
-AuthenticZ.tab_addMagProcedural_AZCanteen("ToolStoreMisc",0.8);
+AuthenticZ.tab_addMagProcedural_AZCanteen("ArmySurplusBackpacks",1.0);
+AuthenticZ.tab_addMagProcedural_AZCanteen("OtherGeneric",0.15);
+AuthenticZ.tab_addMagProcedural_AZCanteen("ToolStoreMisc",0.7);
 
 AuthenticZ.tab_addMagProcedural_Cigar("OtherGeneric",0.01);
 AuthenticZ.tab_addMagProcedural_Cigar("ArmySurplusMisc",0.01);

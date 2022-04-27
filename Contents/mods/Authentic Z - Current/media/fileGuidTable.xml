@@ -3360,6 +3360,10 @@
 	
 	<!-- Authentic Z Custom Clothing -->
 	<files>
+		<path>media/clothing/clothingItems/AlienBody.xml</path>
+		<guid>13f54462-7a4e-4c8f-8dba-f5212a522b1f</guid>
+	</files>	
+	<files>
 		<path>media/clothing/clothingItems/Arm_LeftBone.xml</path>
 		<guid>6a41ec7b-a82d-46ee-b57b-37097c8e19f4</guid>
 	</files>
