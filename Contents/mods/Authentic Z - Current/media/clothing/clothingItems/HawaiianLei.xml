@@ -8,4 +8,6 @@
 	<m_AllowRandomTint>false</m_AllowRandomTint>
 	<m_AttachBone></m_AttachBone>
 	<textureChoices>Clothes\Jewelry\HawaiianLeiOrchid</textureChoices>
+	<textureChoices>Clothes\Jewelry\HawaiianLeiGreen</textureChoices>
+	<textureChoices>Clothes\Jewelry\HawaiianLeiBlue</textureChoices>
 </clothingItem>

@@ -798,7 +798,7 @@ ItemName_EN = {
 	ItemName_AuthenticZClothing.SleepingBag = "Sleeping Bag",
 	ItemName_AuthenticZClothing.SleepingBagRoll = "Sleeping Bag (Rolled Up)",
 	
-	/* New */	
+	/*  Update 4-20-22 */	
 	
 	ItemName_AuthenticZClothing.AuthenticGlowstick_Pack = "Pack of Glowsticks",
 	ItemName_AuthenticZClothing.AuthenticGlowstick_Blank = "Drained Glowstick",
@@ -867,5 +867,6 @@ ItemName_EN = {
 	ItemName_AuthenticZClothing.CEDAHazmatSuitRedNoMaskNoShoes = "CEDA Hazmat Suit",
 	ItemName_AuthenticZClothing.CEDAHazmatSuitRedNoMask = "CEDA Hazmat Suit",
 
+	/* New */	
 	
 }

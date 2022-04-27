@@ -3472,6 +3472,28 @@
 		</m_items>		
 </m_FemaleOutfits>	
 
+ <!-- Fat Zombies! -->
+
+<m_MaleOutfits> <m_Name>AuthenticFat01</m_Name>
+		<m_Guid>709cc2a0-f585-4654-88d7-1913f6807448</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_items> <!-- Fat Skin 01 Dad Bod -->
+			<itemGUID>13f54462-7a4e-4c8f-8dba-f5212a522b1f</itemGUID>
+		</m_items>				
+	</m_MaleOutfits>
+	
+<m_FemaleOutfits> <m_Name>AuthenticFat01</m_Name>
+		<m_Guid>709cc2a0-f585-4654-88d7-1913f6807448</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_items> <!-- Fat Skin 01 -->
+			<itemGUID>13f54462-7a4e-4c8f-8dba-f5212a522b1f</itemGUID>
+		</m_items>				
+	</m_FemaleOutfits>		
+
+ <!-- End of Fat Zombies -->
+
 <m_MaleOutfits> <m_Name>AuthenticFootballPlayerBlueStar</m_Name>
 		<m_Guid>21f24adf-4b09-49a8-8ea5-7f5620f5d563</m_Guid>
 		<m_Pants>false</m_Pants>
@@ -9199,7 +9221,11 @@
 		<m_items> <!-- Inflatable Tube -->
 			<probability>0.1</probability>
 			<itemGUID>5693e609-df9e-458a-97f3-43a9e77d100d</itemGUID>
-		</m_items>			
+		</m_items>
+		<m_items> <!-- Hawaiian Lei -->
+			<probability>0.4</probability>
+			<itemGUID>aea23d06-0499-4eb1-91fb-583906602ef2</itemGUID>
+		</m_items>		
 		<m_items> <!-- Swimming Trunks -->	
 			<itemGUID>eb4fee3c-106c-48cc-8e10-c236fc2fa72e</itemGUID>
 			<subItems><!-- Green -->
@@ -9232,6 +9258,10 @@
 				<itemGUID>6b01e5b3-860d-4361-b43f-7b8ea152f1bf</itemGUID>
 			</subItems>
 		</m_items>
+		<m_items> <!-- Hawaiian Lei -->
+			<probability>0.4</probability>
+			<itemGUID>aea23d06-0499-4eb1-91fb-583906602ef2</itemGUID>
+		</m_items>			
 		<m_items> <!-- Flip Flops -->
 			<probability>0.4</probability>			
 			<itemGUID>46780aae-03ef-45d7-a0e8-36278f328576</itemGUID>
@@ -9768,6 +9798,10 @@
 				<itemGUID>5f283dfd-d41f-448d-9e1a-243792c179b4</itemGUID>
 			</subItems>
 		</m_items>
+		<m_items>  <!-- Hawaiian Lei -->
+			<probability>0.3</probability>		
+			<itemGUID>aea23d06-0499-4eb1-91fb-583906602ef2</itemGUID>
+		</m_items>		
 		<m_items>  <!-- Shoes slippers -->
 			<itemGUID>72d4a0e2-f559-403f-a650-d48a85752017</itemGUID>
 		</m_items>
