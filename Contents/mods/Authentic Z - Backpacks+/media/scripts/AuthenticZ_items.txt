@@ -1324,6 +1324,7 @@ module AuthenticZClothing {
 		primaryAnimMask = HoldingTorchRight,
         secondaryAnimMask = HoldingTorchLeft,
         WorldStaticModel = FlashLightGroundBlue,
+        OBSOLETE = TRUE,		
 	}	
     item Football3
     {

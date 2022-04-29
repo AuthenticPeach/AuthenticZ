@@ -1058,6 +1058,11 @@ module Base
 		mesh = WorldItems/WorldItem_Cigarette,
 		texture = Cigarette,		
     }
+	model WorldItem-RoadsideDufflebag
+    {
+		mesh = WorldItems/WorldItem_RoadsideDufflebag,
+		texture = clothes\Backpacks\RoadsideDuffelBag,		
+    }	
 	model WorldItem-LadyDimitrescuDress
     {
 		mesh = WorldItems/WorldItem_DressDimitrescu,

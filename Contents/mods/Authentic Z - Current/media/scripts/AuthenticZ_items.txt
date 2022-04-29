@@ -41,6 +41,17 @@ module AuthenticZClothing {
         Icon			=	StoreSignCostume,
 		WorldStaticModel = WorldItem-CostumeStoreSign,
 	}
+
+	item PZAZ_SealedMedkit
+	{
+        DisplayCategory = Household,	
+        Weight			=	3.0,
+        Type			=	Normal,
+        DisplayName		=	Sealed Medkit,
+        Icon			=	FirstAid,
+        Medical 		= 	TRUE,		
+		WorldStaticModel = LunchBoxMedic_Ground,
+	}
 	
     item Rubberducky3
     {

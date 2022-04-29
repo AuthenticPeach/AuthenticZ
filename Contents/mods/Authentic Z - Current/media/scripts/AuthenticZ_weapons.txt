@@ -365,6 +365,7 @@ module AuthenticZClothing {
         BaseSpeed = 0.9,
       	WeaponLength = 0.65,
       	RequiresEquippedBothHands = TRUE,
+		Tags = Sledgehammer,
       	AttachmentType = BigBlade,
 		WorldStaticModel = WorldItem-TagillaSledgehammer,		
 	}

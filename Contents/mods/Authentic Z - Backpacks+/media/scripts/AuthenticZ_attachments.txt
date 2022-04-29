@@ -487,6 +487,13 @@ module Base
 			bone = Bip01_BackPack,
 		}
 
+		attachment BackPack_Schoolbag_PlushieRubberDuck
+		{
+			offset = -0.0120 -0.1000 -0.1110,
+			rotate = 2.0000 -69.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
 		attachment BackPack_Schoolbag_PlushieTeddyBear
 		{
 			offset = 0.0450 0.0380 -0.2520,
@@ -659,6 +666,13 @@ module Base
 		{
 			offset = 0.0920 -0.0770 -0.2640,
 			rotate = 2.0000 -3.0000 89.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BackPack_Dufflebag_PlushieRubberDuck
+		{
+			offset = 0.0490 -0.1670 -0.2140,
+			rotate = 8.0000 -80.0000 96.0000,
 			bone = Bip01_BackPack,
 		}
 
@@ -1054,6 +1068,13 @@ module Base
 			bone = Bip01_BackPack,
 		}
 
+		attachment BackPack_Hikingbag_SleepingBag
+		{
+			offset = -0.0080 0.0030 -0.2010,
+			rotate = -90.0000 0.0000 -2.0000,
+			bone = Bip01_BackPack,
+		}
+
 		attachment BackPack_Hikingbag_Torch
 		{
 			offset = 0.0130 0.0960 0.0890,
@@ -1079,6 +1100,13 @@ module Base
 		{
 			offset = 0.0780 -0.0540 -0.2260,
 			rotate = 2.0000 -18.0000 89.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BackPack_Hikingbag_PlushieRubberDuck
+		{
+			offset = 0.0370 -0.1110 -0.1430,
+			rotate = -151.0000 -80.0000 -59.0000,
 			bone = Bip01_BackPack,
 		}
 
@@ -1189,8 +1217,8 @@ module Base
 
 		attachment BackPack_Hikingbag_Tier1Item_GasMask
 		{
-			offset = -0.0900 0.0040 0.0430,
-			rotate = -90.0000 0.0000 -90.0000,
+			offset = 0.1170 -0.0050 -0.1900,
+			rotate = 179.0000 -7.0000 90.0000,
 			bone = Bip01_BackPack,
 		}
 
@@ -1287,8 +1315,8 @@ module Base
 
 		attachment BackPack_Hikingbag_Tier2Item_GasMask
 		{
-			offset = -0.0900 0.0040 0.0430,
-			rotate = -90.0000 0.0000 -90.0000,
+			offset = 0.1030 0.0690 -0.0820,
+			rotate = 175.0000 -5.0000 57.0000,
 			bone = Bip01_BackPack,
 		}
 
@@ -1383,10 +1411,10 @@ module Base
 			bone = Bip01_BackPack,
 		}
 
-		attachment BackPack_Hikingbag_Tier3Item_GasMask
+		attachment BackPack_HikingBag_Tier3Item_GasMask
 		{
-			offset = -0.0900 0.0040 0.0430,
-			rotate = -90.0000 0.0000 -90.0000,
+			offset = 0.1110 -0.0920 -0.0930,
+			rotate = -178.0000 1.0000 117.0000,
 			bone = Bip01_BackPack,
 		}
 
@@ -1551,6 +1579,13 @@ module Base
 			bone = Bip01_BackPack,
 		}
 
+		attachment BackPack_BigHikingBag_SleepingBag
+		{
+			offset = 0.0120 -0.0010 -0.2160,
+			rotate = -90.0000 0.0000 -2.0000,
+			bone = Bip01_BackPack,
+		}
+
 		attachment BackPack_BigHikingBag_Torch
 		{
 			offset = 0.0130 0.0960 0.0890,
@@ -1583,6 +1618,13 @@ module Base
 		{
 			offset = 0.0500 -0.0780 -0.3060,
 			rotate = -17.0000 -62.0000 68.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BackPack_BigHikingbag_PlushieRubberDuck
+		{
+			offset = 0.0370 -0.1110 -0.1430,
+			rotate = -151.0000 -80.0000 -59.0000,
 			bone = Bip01_BackPack,
 		}
 
@@ -2188,6 +2230,13 @@ module Base
 			bone = Bip01_Spine1,
 		}
 
+		attachment BackPack_Alicepack_SleepingBag
+		{
+			offset = 0.0390 -0.0050 0.1600,
+			rotate = -90.0000 1.0000 -2.0000,
+			bone = Bip01_BackPack,
+		}
+
 		attachment BackPack_Alicepack_Saw
 		{
 			offset = -0.0080 0.1140 0.1080,
@@ -2220,6 +2269,13 @@ module Base
 		{
 			offset = 0.1180 -0.0530 -0.2160,
 			rotate = 2.0000 -16.0000 89.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BackPack_Alicepack_PlushieRubberDuck
+		{
+			offset = 0.0710 -0.1310 -0.0780,
+			rotate = -87.0000 -81.0000 -3.0000,
 			bone = Bip01_BackPack,
 		}
 
@@ -3354,6 +3410,13 @@ module Base
 			bone = Bip01_BackPack,
 		}
 
+		attachment BackPack_Schoolbag_PlushieRubberDuck
+		{
+			offset = 0.0580 -0.0970 -0.1250,
+			rotate = 2.0000 -70.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
 		attachment BackPack_Schoolbag_PlushieTeddyBear
 		{
 			offset = 0.0450 0.0380 -0.2550,
@@ -3533,6 +3596,13 @@ module Base
 		{
 			offset = 0.1370 -0.1390 -0.3040,
 			rotate = 2.0000 -63.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BackPack_Dufflebag_PlushieRubberDuck
+		{
+			offset = 0.0240 -0.1880 -0.2290,
+			rotate = -25.0000 -59.0000 59.0000,
 			bone = Bip01_BackPack,
 		}
 
@@ -3921,6 +3991,13 @@ module Base
 			bone = Bip01_BackPack,
 		}
 
+		attachment BackPack_Hikingbag_SleepingBag
+		{
+			offset = 0.0130 0.0960 0.0890,
+			rotate = -84.0000 -60.0000 3.0000,
+			bone = Bip01_BackPack,
+		}
+
 		attachment BackPack_Hikingbag_Torch
 		{
 			offset = 0.0130 0.0960 0.0890,
@@ -3953,6 +4030,13 @@ module Base
 		{
 			offset = 0.0620 -0.0520 -0.3060,
 			rotate = 2.0000 -63.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BackPack_Hikingbag_PlushieRubberDuck
+		{
+			offset = 0.0550 -0.1010 -0.1320,
+			rotate = 2.0000 -59.0000 90.0000,
 			bone = Bip01_BackPack,
 		}
 
@@ -4411,6 +4495,13 @@ module Base
 			bone = Bip01_Spine1,
 		}
 
+		attachment BackPack_BigHikingBag_SleepingBag
+		{
+			offset = 0.0130 0.0960 0.0890,
+			rotate = -84.0000 -60.0000 3.0000,
+			bone = Bip01_BackPack,
+		}
+
 		attachment BackPack_BigHikingBag_Saw
 		{
 			offset = 0.0130 0.0910 0.1690,
@@ -4450,6 +4541,13 @@ module Base
 		{
 			offset = 0.0500 -0.0780 -0.3060,
 			rotate = -17.0000 -62.0000 68.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BackPack_BigHikingbag_PlushieRubberDuck
+		{
+			offset = 0.0250 -0.1070 -0.1430,
+			rotate = 1.0000 -60.0000 87.0000,
 			bone = Bip01_BackPack,
 		}
 
@@ -5062,6 +5160,13 @@ module Base
 			bone = Bip01_BackPack,
 		}
 
+		attachment BackPack_Alicepack_SleepingBag
+		{
+			offset = 0.0130 0.0960 0.0890,
+			rotate = -84.0000 -60.0000 3.0000,
+			bone = Bip01_BackPack,
+		}
+
 		attachment BackPack_Alicepack_Saw
 		{
 			offset = -0.0080 0.1140 0.1080,
@@ -5094,6 +5199,13 @@ module Base
 		{
 			offset = 0.0500 -0.0780 -0.3060,
 			rotate = -17.0000 -62.0000 68.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BackPack_Alicepack_PlushieRubberDuck
+		{
+			offset = 0.0950 -0.1260 -0.1020,
+			rotate = -160.0000 -66.0000 -80.0000,
 			bone = Bip01_BackPack,
 		}
 

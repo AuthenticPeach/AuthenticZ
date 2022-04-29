@@ -515,10 +515,21 @@ recipe Open Pack of Glowsticks
      Time:120,
      OnCreate:OpenGlowStickPackage,
      StopOnWalk:false,
-     Prop2:GlowstickPack,
 	 AnimNode:RipSheets,
 	 Tooltip:Tooltip_GlowStickPack,	   
    }	
+
+recipe Open Sealed Medkit
+   {
+     PZAZ_SealedMedkit,
+
+     Result:AuthenticGlowstick_Blank=3,
+     RemoveResultItem:true,	 
+     Time:120,
+     OnCreate:OpenSealedMedkit,
+     StopOnWalk:false,
+	 AnimNode:RipSheets,
+   }
 	
 	/* Modded - recipe */
 recipe Convert into Wearable

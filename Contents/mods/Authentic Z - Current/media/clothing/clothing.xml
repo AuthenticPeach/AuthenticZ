@@ -2911,6 +2911,10 @@
 		<m_items> <!-- Left Gold Bracelet-->
 			<itemGUID>14830a20-18ff-458c-afa4-8c7c288746a4</itemGUID>
 		</m_items>
+		<m_items> <!-- Hawaiian Lei -->
+			<probability>0.2</probability>
+			<itemGUID>aea23d06-0499-4eb1-91fb-583906602ef2</itemGUID>
+		</m_items>			
 		<m_items> <!-- Black Zombie Skin -->
 			<itemGUID>44ee984a-1926-42e9-b9ac-41652dd31426</itemGUID>
 		</m_items>		
@@ -2933,6 +2937,10 @@
 		<m_items> <!-- Dog Tags  -->
 			<itemGUID>88321000-2b08-4537-9c51-4b5eca360c92</itemGUID>
 		</m_items>
+		<m_items> <!-- Hawaiian Lei -->
+			<probability>0.2</probability>
+			<itemGUID>aea23d06-0499-4eb1-91fb-583906602ef2</itemGUID>
+		</m_items>			
 		<m_items> <!-- Fingerless Gloves -->
 			<itemGUID>cf0b766a-c273-49b0-bee4-5a0bb6496491</itemGUID>
 		</m_items>
@@ -2979,6 +2987,10 @@
 		<m_items> <!-- Logan Carter Red T-Shirt -->
 			<itemGUID>5b8e3890-777f-45cd-a74b-a4283e23d18d5</itemGUID>
 		</m_items>
+		<m_items> <!-- Hawaiian Lei -->
+			<probability>0.2</probability>
+			<itemGUID>aea23d06-0499-4eb1-91fb-583906602ef2</itemGUID>
+		</m_items>		
 		<m_items> <!-- Tan Zed Skin Man -->
 			<itemGUID>5317283e-c343-4dca-9ae8-deb75be1c3ec</itemGUID>
 		</m_items>			
@@ -2998,6 +3010,10 @@
 		<m_items> <!-- Black Boots -->
 			<itemGUID>2717dfdb-49ef-401a-9715-c4487ce6abea</itemGUID>
 		</m_items>
+		<m_items> <!-- Hawaiian Lei -->
+			<probability>0.2</probability>
+			<itemGUID>aea23d06-0499-4eb1-91fb-583906602ef2</itemGUID>
+		</m_items>			
 		<m_items> <!-- Black Zed Skin Woman -->
 			<itemGUID>bb0817fc-29a8-4e55-9856-cf739326c5ca</itemGUID>
 		</m_items>		
@@ -3020,6 +3036,10 @@
 		<m_items> <!-- Formal Shirt -->
 			<itemGUID>ac7976de-2c73-44ea-9392-5d24ac1fb649</itemGUID>
 		</m_items>
+		<m_items> <!-- Hawaiian Lei -->
+			<probability>0.2</probability>
+			<itemGUID>aea23d06-0499-4eb1-91fb-583906602ef2</itemGUID>
+		</m_items>			
 		<m_items> <!-- Tan Zed Skin Woman -->
 			<itemGUID>75659e42-c52e-411d-a12a-bfbb9273cab2</itemGUID>
 		</m_items>			

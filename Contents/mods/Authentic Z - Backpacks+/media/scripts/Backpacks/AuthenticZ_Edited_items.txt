@@ -305,6 +305,28 @@ item BorisBadger
         OBSOLETE 				= 	TRUE,		
     }
 
+	item Torch2
+	{
+        DisplayCategory = LightSource,	
+		LightDistance	=	25,
+		Weight	=	1,
+		DisappearOnUse	=	FALSE,
+		Type	=	Drainable,
+		TorchCone	=	TRUE,
+		UseDelta	=	0.0009,
+		LightStrength	=	2,
+		TorchDot = 0.66,
+		DisplayName	=	Flashlight,
+		ActivatedItem	=	TRUE,
+		Icon	=	FlashlightBlue,
+		MetalValue = 10,
+		cantBeConsolided = TRUE,
+		StaticModel = FlashLightBlue,
+		primaryAnimMask = HoldingTorchRight,
+        secondaryAnimMask = HoldingTorchLeft,
+        WorldStaticModel = FlashLightGroundBlue,	
+	}	
+
 	item Hat_GasMask
 	{
 	    DisplayCategory = Accessory,

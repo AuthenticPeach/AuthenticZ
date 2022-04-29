@@ -45,6 +45,38 @@ function OpenGlowStickPackage(items, result, player)
  player:getInventory():AddItem(GlowStickList[ZombRand(#GlowStickList)+1]);
 end
 
+local SealedMedkit = {
+            "AlcoholWipes",
+            "AlcoholWipes",
+            "Bandage",
+            "Bandage",
+            "Bandage",
+            "Bandaid",
+            "Bandaid",
+            "Bandaid",
+            "CottonBalls",
+            "CottonBalls",
+            "CottonBalls",
+            "Disinfectant",
+            "Gloves_Surgical",
+            "Scalpel",
+            "Scissors",
+            "SutureNeedle",
+            "SutureNeedle",
+            "SutureNeedleHolder",
+            "Tweezers",
+}
+function OpenSealedMedkit(items, result, player)
+ player:getInventory():AddItem(SealedMedkit[ZombRand(#SealedMedkit)+1]);
+ player:getInventory():AddItem(SealedMedkit[ZombRand(#SealedMedkit)+1]);
+ player:getInventory():AddItem(SealedMedkit[ZombRand(#SealedMedkit)+1]);
+ player:getInventory():AddItem(SealedMedkit[ZombRand(#SealedMedkit)+1]);
+ player:getInventory():AddItem(SealedMedkit[ZombRand(#SealedMedkit)+1]);
+ player:getInventory():AddItem(SealedMedkit[ZombRand(#SealedMedkit)+1]);
+ player:getInventory():AddItem(SealedMedkit[ZombRand(#SealedMedkit)+1]);
+ player:getInventory():AddItem(SealedMedkit[ZombRand(#SealedMedkit)+1]);
+end
+
 function AZRecipe.OnCreate.GiveMeRadio(items, result, player)
     player:getInventory():AddItem("Radio.WalkieTalkie5");
 end
