@@ -131,17 +131,7 @@ local AZ_NightClub_distributionTable = {
         shelves = {
             procedural = true,
             procList = {
-                {name="ClothingStoresDress", min=0, max=99, weightChance=20},
-                {name="ClothingStoresJackets", min=0, max=99, weightChance=40},
-                {name="ClothingStoresJacketsFormal", min=0, max=99, weightChance=10},
-                {name="ClothingStoresJumpers", min=0, max=99, weightChance=60},
-                {name="ClothingStoresOvershirts", min=0, max=99, weightChance=80},
-                {name="ClothingStoresPants", min=0, max=99, weightChance=100},
-                {name="ClothingStoresPantsFormal", min=0, max=99, weightChance=10},
-                {name="ClothingStoresShirts", min=0, max=99, weightChance=100},
-                {name="ClothingStoresShirtsFormal", min=0, max=99, weightChance=10},
-                {name="ClothingStoresSport", min=0, max=99, weightChance=40},
-                {name="ClothingStoresSummer", min=0, max=99, weightChance=40},
+                {name="BarShelfLiquor", min=0, max=99},
 				--AuthZ Stuff
 				{name="NightClubShelvesAZ", min=0, max=99, forceForZones="AZNightClub", forceForTiles="location_shop_generic_01_36;location_shop_generic_01_37;location_shop_generic_01_48;location_shop_generic_01_49;location_shop_generic_01_50;location_shop_generic_01_51;location_shop_generic_01_52"},
             }
@@ -150,13 +140,10 @@ local AZ_NightClub_distributionTable = {
             procedural = true,
             procList = {
                 {name="StoreCounterCleaning", min=0, max=99, forceForTiles="location_shop_accessories_01_0;location_shop_accessories_01_1;location_shop_accessories_01_2;location_shop_accessories_01_3;location_shop_accessories_01_20;location_shop_accessories_01_21;location_shop_accessories_01_22;location_shop_accessories_01_23;fixtures_sinks_01_0;fixtures_sinks_01_1;fixtures_sinks_01_2;fixtures_sinks_01_3;fixtures_sinks_01_4;fixtures_sinks_01_5;fixtures_sinks_01_6;fixtures_sinks_01_7;fixtures_sinks_01_8;fixtures_sinks_01_9;fixtures_sinks_01_10;fixtures_sinks_01_11;fixtures_sinks_01_16;fixtures_sinks_01_17;fixtures_sinks_01_18;fixtures_sinks_01_19"},
-                {name="StoreCounterBagsFancy", min=0, max=1, weightChance=100},
-                {name="ClothingStoresGloves", min=0, max=99, weightChance=40},
-                {name="ClothingStoresEyewear", min=0, max=99, weightChance=100},
-                {name="ClothingStoresHeadwear", min=0, max=99, weightChance=60},
-                {name="ClothingStoresSocks", min=0, max=99, weightChance=20},
-                {name="ClothingStoresUnderwearWoman", min=0, max=99, weightChance=20},
-                {name="ClothingStoresUnderwearMan", min=0, max=99, weightChance=20},
+                {name="BarCounterGlasses", min=1, max=99, weightChance=100},
+                {name="BarCounterMisc", min=1, max=99, weightChance=20},
+                {name="BarCounterWeapon", min=1, max=1, weightChance=100},
+                {name="BarCounterLiquor", min=0, max=2, weightChance=20},
 				--AuthZ Stuff
 				{name="NightClubCounterAZ", min=0, max=99, forceForZones="AZNightClub"},--, forceForTiles="location_shop_generic_01_97"
             }
@@ -166,8 +153,7 @@ local AZ_NightClub_distributionTable = {
         desk = {
             procedural = true,
             procList = {
-                {name="ClothingStorageAllJackets", min=0, max=99, weightChance=100},
-                {name="ClothingStorageAllShirts", min=0, max=99, weightChance=100},
+                {name="OfficeDesk", min=0, max=99, weightChance=100},
 				--AuthZ Stuff
 				{name="NightClubGlowsticksAZ", min=0, max=99, forceForZones="AZNightClub", forceForTiles="location_shop_generic_01_52"},
             }
@@ -175,8 +161,7 @@ local AZ_NightClub_distributionTable = {
         bin = {
             procedural = true,
             procList = {
-                {name="ClothingStorageAllJackets", min=0, max=99, weightChance=100},
-                {name="ClothingStorageAllShirts", min=0, max=99, weightChance=100},
+                {name="BinBar", min=0, max=99},
 				--AuthZ Stuff
 				{name="NightClubGlowsticksAZ", min=0, max=99, forceForZones="AZNightClub", forceForTiles="location_shop_generic_01_52"},
             }
@@ -184,8 +169,7 @@ local AZ_NightClub_distributionTable = {
         filingcabinet = {
             procedural = true,
             procList = {
-                {name="ClothingStorageAllJackets", min=0, max=99, weightChance=100},
-                {name="ClothingStorageAllShirts", min=0, max=99, weightChance=100},
+                {name="FilingCabinetGeneric", min=0, max=99},
 				--AuthZ Stuff
 				{name="NightClubCounterAZ", min=0, max=99, forceForZones="AZNightClub", forceForTiles="location_shop_generic_01_52"},
             }
@@ -193,9 +177,7 @@ local AZ_NightClub_distributionTable = {
         metal_shelves = {
             procedural = true,
             procList = {
-                {name="ClothingStorageFootwear", min=0, max=99, weightChance=40},
-                {name="ClothingStorageHeadwear", min=0, max=99, weightChance=20},
-                {name="ClothingStorageLegwear", min=0, max=99, weightChance=100},
+                {name="OfficeShelfSupplies", min=0, max=99},
 				--AuthZ Stuff
 				{name="NightClubShelvesAZ", min=0, max=99, forceForZones="AZNightClub"},--, forceForTiles="location_shop_generic_01_97"
 				
@@ -206,14 +188,10 @@ local AZ_NightClub_distributionTable = {
 		counter = {
             procedural = true,
             procList = {
-                {name="StoreCounterCleaning", min=0, max=99, forceForTiles="location_shop_accessories_01_0;location_shop_accessories_01_1;location_shop_accessories_01_2;location_shop_accessories_01_3;location_shop_accessories_01_20;location_shop_accessories_01_21;location_shop_accessories_01_22;location_shop_accessories_01_23;fixtures_sinks_01_0;fixtures_sinks_01_1;fixtures_sinks_01_2;fixtures_sinks_01_3;fixtures_sinks_01_4;fixtures_sinks_01_5;fixtures_sinks_01_6;fixtures_sinks_01_7;fixtures_sinks_01_8;fixtures_sinks_01_9;fixtures_sinks_01_10;fixtures_sinks_01_11;fixtures_sinks_01_16;fixtures_sinks_01_17;fixtures_sinks_01_18;fixtures_sinks_01_19"},
-                {name="StoreCounterBagsFancy", min=0, max=1, weightChance=100},
-                {name="ClothingStoresGloves", min=0, max=99, weightChance=40},
-                {name="ClothingStoresEyewear", min=0, max=99, weightChance=100},
-                {name="ClothingStoresHeadwear", min=0, max=99, weightChance=60},
-                {name="ClothingStoresSocks", min=0, max=99, weightChance=20},
-                {name="ClothingStoresUnderwearWoman", min=0, max=99, weightChance=20},
-                {name="ClothingStoresUnderwearMan", min=0, max=99, weightChance=20},
+                {name="JanitorChemicals", min=0, max=99, weightChance=100},
+                {name="JanitorCleaning", min=0, max=1, forceForTiles="fixtures_sinks_01_0;fixtures_sinks_01_1;fixtures_sinks_01_2;fixtures_sinks_01_3;fixtures_sinks_01_4;fixtures_sinks_01_5;fixtures_sinks_01_6;fixtures_sinks_01_7;fixtures_sinks_01_8;fixtures_sinks_01_9;fixtures_sinks_01_10;fixtures_sinks_01_11;fixtures_sinks_01_16;fixtures_sinks_01_17;fixtures_sinks_01_18;fixtures_sinks_01_19"},
+                {name="JanitorMisc", min=1, max=1, weightChance=100},
+                {name="JanitorTools", min=0, max=1, weightChance=100},
 				--AuthZ Stuff
 				{name="NightClubCounterAZ", min=0, max=99, forceForZones="AZNightClub"},--, forceForTiles="location_shop_generic_01_97"
             }
@@ -221,9 +199,9 @@ local AZ_NightClub_distributionTable = {
         metal_shelves = {
             procedural = true,
             procList = {
-                {name="ClothingStorageFootwear", min=0, max=99, weightChance=40},
-                {name="ClothingStorageHeadwear", min=0, max=99, weightChance=20},
-                {name="ClothingStorageLegwear", min=0, max=99, weightChance=100},
+                {name="JanitorTools", min=1, max=1, weightChance=100},
+                {name="JanitorCleaning", min=1, max=1, weightChance=100},
+                {name="JanitorChemicals", min=0, max=99, weightChance=100},
 				--AuthZ Stuff
 				{name="NightClubShelvesAZ", min=0, max=99, forceForZones="AZNightClub"},--, forceForTiles="location_shop_generic_01_97"
  
@@ -234,14 +212,9 @@ local AZ_NightClub_distributionTable = {
 		counter = {
             procedural = true,
             procList = {
-                {name="StoreCounterCleaning", min=0, max=99, forceForTiles="location_shop_accessories_01_0;location_shop_accessories_01_1;location_shop_accessories_01_2;location_shop_accessories_01_3;location_shop_accessories_01_20;location_shop_accessories_01_21;location_shop_accessories_01_22;location_shop_accessories_01_23;fixtures_sinks_01_0;fixtures_sinks_01_1;fixtures_sinks_01_2;fixtures_sinks_01_3;fixtures_sinks_01_4;fixtures_sinks_01_5;fixtures_sinks_01_6;fixtures_sinks_01_7;fixtures_sinks_01_8;fixtures_sinks_01_9;fixtures_sinks_01_10;fixtures_sinks_01_11;fixtures_sinks_01_16;fixtures_sinks_01_17;fixtures_sinks_01_18;fixtures_sinks_01_19"},
-                {name="StoreCounterBagsFancy", min=0, max=1, weightChance=100},
-                {name="ClothingStoresGloves", min=0, max=99, weightChance=40},
-                {name="ClothingStoresEyewear", min=0, max=99, weightChance=100},
-                {name="ClothingStoresHeadwear", min=0, max=99, weightChance=60},
-                {name="ClothingStoresSocks", min=0, max=99, weightChance=20},
-                {name="ClothingStoresUnderwearWoman", min=0, max=99, weightChance=20},
-                {name="ClothingStoresUnderwearMan", min=0, max=99, weightChance=20},
+                {name="BathroomCounter", min=0, max=99},
+                {name="BathroomCounterEmpty", min=0, max=99, forceForRooms="armysurplus;bank;bar;breakroom;church;classroom;daycare;empty;factory;fitness;firestorage;grocery;gym;meetingroom;metalshop;motelroom;policestorage;spiffoskitchen;restaurant;restaurantkitchen"},
+                {name="BathroomCounterNoMeds", min=0, max=99, forceForItems="fixtures_bathroom_01_28;fixtures_bathroom_01_29;fixtures_bathroom_01_37;fixtures_bathroom_01_38"},       
 				--AuthZ Stuff
 				{name="NightClubCounterAZ", min=0, max=99, forceForZones="AZNightClub"},
             }
@@ -251,30 +224,24 @@ local AZ_NightClub_distributionTable = {
         metal_shelves = {
             procedural = true,
             procList = {
-                {name="ClothingStorageFootwear", min=0, max=99, weightChance=40},
-                {name="ClothingStorageHeadwear", min=0, max=99, weightChance=20},
-                {name="ClothingStorageLegwear", min=0, max=99, weightChance=100},
-				--AuthZ Stuff
-				{name="NightClubShelvesAZ", min=0, max=99, forceForZones="AZNightClub"},--, forceForTiles="location_shop_generic_01_97"
- 
+            {name="OfficeShelfSupplies", min=0, max=99},
+			--AuthZ Stuff
+			{name="NightClubShelvesAZ", min=0, max=99, forceForZones="AZNightClub"},--, forceForTiles="location_shop_generic_01_97"
+				
             }
         },
         locker = {
             procedural = true,
             procList = {
-                {name="ClothingStorageFootwear", min=0, max=99, weightChance=40},
-                {name="ClothingStorageHeadwear", min=0, max=99, weightChance=20},
-                {name="ClothingStorageLegwear", min=0, max=99, weightChance=100},
+            {name="SecurityLockers", min=0, max=99, forceForTiles="furniture_storage_02_8;furniture_storage_02_9;furniture_storage_02_10;furniture_storage_02_11"},
 				--AuthZ Stuff
-				{name="NightClubLockerAZ", min=0, max=99, forceForZones="AZNightClub"},--, forceForTiles="location_shop_generic_01_97"
- 
+			{name="NightClubLockerAZ", min=0, max=99, forceForZones="AZNightClub"},--, forceForTiles="location_shop_generic_01_97"
             }
         },
         bin = {
             procedural = true,
             procList = {
-                {name="ClothingStorageAllJackets", min=0, max=99, weightChance=100},
-                {name="ClothingStorageAllShirts", min=0, max=99, weightChance=100},
+                {name="BinBar", min=0, max=99},
 				--AuthZ Stuff
 				{name="NightClubGlowsticksAZ", min=0, max=99, forceForZones="AZNightClub", forceForTiles="location_shop_generic_01_52"},
             }

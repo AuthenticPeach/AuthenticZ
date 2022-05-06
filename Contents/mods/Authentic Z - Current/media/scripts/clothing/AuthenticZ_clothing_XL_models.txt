@@ -1,0 +1,17 @@
+module AuthenticZClothing {
+  imports {
+      Base
+  }	
+	item Fat01_AmmoStrap
+	{
+       DisplayCategory = Clothing,		
+		Type = Clothing,
+		DisplayName = Bullets Ammo Strap,
+		ClothingItem = Fat01_AmmoStrap,
+		BodyLocation = AmmoStrap,
+		Icon = AmmoStrapFlipped,
+		Tooltip = Tooltip_AmmoStrap,
+		WorldStaticModel = AmmoStrap_Ground,		
+		
+	}
+}

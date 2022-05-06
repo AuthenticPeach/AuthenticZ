@@ -1047,7 +1047,7 @@ module AuthenticZClothing {
 
 	item Authentic_MilitaryFlashlightGreen
 	{
-        DisplayCategory = LightSource,	
+        DisplayCategory 	= 	LightSource,	
 		DisplayName			=	Green Military Flashlight,	
 		Icon				=	MilitaryFlashlightGreen,
 		Type				=	Drainable,		
@@ -1069,7 +1069,7 @@ module AuthenticZClothing {
 
 	item Authentic_MinerLightbulb
 	{
-        DisplayCategory = LightSource,	
+        DisplayCategory 	 =  LightSource,	
 		Type		  		 =	Drainable,	
 		DisplayName	 		 =	Mining Helmet Light,
 		Icon			     =	LightBulb,
@@ -1118,18 +1118,18 @@ module AuthenticZClothing {
     {
         DisplayCategory 		= 	LightSource,	
         DisplayName				=	Roadside Triangle,
-        Icon					=	Glowstick-Grey,
+        Icon					=	RoadsideTriangle,
         Weight					=	0.2,
-		Type				=	Drainable,		
-		Weight				=	0.5,		
-		LightDistance		=	25,
-		DisappearOnUse		=	FALSE,
-		TorchCone			=	TRUE,
-		UseDelta			=	0.0005,
-		LightStrength		=	0.8,
-		ActivatedItem		=	TRUE,
-		MetalValue 			= 	10,
-		cantBeConsolided 	=	TRUE,		
+		Type					=	Drainable,		
+		Weight					=	0.5,		
+		LightDistance			=	25,
+		DisappearOnUse			=	FALSE,
+		TorchCone				=	TRUE,
+		UseDelta				=	0.0005,
+		LightStrength			=	0.8,
+		ActivatedItem			=	TRUE,
+		MetalValue 				= 	10,
+		cantBeConsolided 		=	TRUE,		
 		WorldStaticModel 		= 	WorldItem_RoadsideTriangle,			
     }
    
@@ -1278,7 +1278,6 @@ module AuthenticZClothing {
         SwingTime	=	2,
         KnockdownMod	=	0,
         SplatBloodOnNoDeath	=	FALSE,
-        BreakSound  =   BreakMetalItem,
         TreeDamage  =   0,
         CriticalChance	=	1,
         CritDmgMultiplier = 1,
@@ -1287,6 +1286,7 @@ module AuthenticZClothing {
         BaseSpeed = 1,
         WeaponLength = 0.1,		
 		AttachmentType = Walkie,
+        OBSOLETE = TRUE,		
     }
 	item AZ_DiceHung
 	{
@@ -1303,13 +1303,12 @@ module AuthenticZClothing {
 	{
         DisplayCategory  =	Material,	
         Weight			 =	0.05,
-        Type			 =	Weapon,
+        Type			 =	Normal,
         DisplayName		 = 	Carabiner Clip,
         Icon			 =	CarabinerClip,
 		StaticModel 	 =  Carabiner,			
 		WorldStaticModel =	WorldItem_Carabiner,
 		Tooltip 		 = 	Tooltip_Carabiner,
-        ModelWeaponPart  = AuthenticBalloon_Blue AuthenticBalloon_Blue balloon balloon,		
 	}
 	item Torch2
 	{

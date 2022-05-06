@@ -9,6 +9,23 @@ module AuthenticZClothing {
 		DisplayName = Alien Body,
 		ClothingItem = AlienBody,
 		BodyLocation = Torso1Legs1,
-		Icon = ClownTop,
+		Icon = AZGrayAlien,
 	}
+	item FatBody01
+	{
+       DisplayCategory = Clothing,		
+		Type = Clothing,
+		ClothingItem = FatBody01_DadBod,
+		BodyLocation = Torso1Legs1,
+		Icon = AZDadBod,
+	}
+	item FatBody01_DadBod
+	{
+       DisplayCategory = Clothing,		
+		Type = Clothing,
+		DisplayName = Dad Bod,
+		ClothingItem = FatBody01_DadBod,
+		BodyLocation = Torso1Legs1,
+		Icon = AZDadBod,
+	}	
 }

@@ -1304,7 +1304,6 @@ module Base
 	model WorldItem-Witchy2Hat
     {
 		mesh = WorldItems/WorldItem_WitchyHat2,
-		texture = clothes\Hats\Witchy2Hat,
     }	
 	model WorldItem-AuthenticTV110
 	{

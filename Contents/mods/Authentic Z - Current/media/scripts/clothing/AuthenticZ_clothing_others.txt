@@ -215,7 +215,7 @@ module AuthenticZClothing {
         Type					=	Clothing,
 		ClothingItem 			= 	CameraBroadcasting,
         DisplayName				=	EVV-9000 HYPER Broadcast Video Camera,
-        Icon					=	Glowstick-Red,
+        Icon					=	BroadcastingCamera,
         Weight					=	3.0,
 		BodyLocation 			= 	Necklace,
 		WorldStaticModel 		= 	WorldItem-BroadcastingCamera,			

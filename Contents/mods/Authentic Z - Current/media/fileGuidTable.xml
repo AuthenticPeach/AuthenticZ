@@ -4126,6 +4126,10 @@
 	<files>
 		<path>media/clothing/clothingItems/DungareesWhite.xml</path>
 		<guid>08b9e408-a4cd-4ec7-8a6f-e3ee3aabf7ec</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/FatBody01_DadBod.xml</path>
+		<guid>8d396317-7d2e-4766-83b6-010ebc189957</guid>
 	</files>	
 	<files>
 		<path>media/clothing/clothingItems/GearWinslow.xml</path>
@@ -4178,10 +4182,14 @@
 	<files>
 		<path>media/clothing/clothingItems/Gloves_RHand.xml</path>
 		<guid>eb52d9e1-7161-4966-a0ab-ac0365e46b4f</guid>
-	</files>	
+	</files>
 	<files>
 		<path>media/clothing/clothingItems/Gloves_White.xml</path>
 		<guid>7d18ca16-fdb4-462e-b9a7-4f358cdd7525</guid>
+	</files>	
+	<files>
+		<path>media/clothing/clothingItems/Gloves_White_Reflective.xml</path>
+		<guid>5c822bdd-a456-4421-a4f7-d11e9c905cb6</guid>
 	</files>
 	<files>
 		<path>media/clothing/clothingItems/GreeneZ_F.xml</path>
@@ -6119,4 +6127,10 @@
 		<path>media/clothing/clothingItems/Gloves_ArmBoneR.xml</path>
 		<guid>6e7fb312-cb8b-4bf4-8062-c2a72851e190</guid>
 	</files>
+	<!-- Authentic Z Fat Zombie Clothing -->
+	<files>
+		<path>media/clothing/clothingItems/Fat01_AmmoStrap.xml</path>
+		<guid>4c3355c9-5b21-4beb-a624-8bb1d85e6445</guid>
+	</files>
+	
 </fileGuidTable>

@@ -1844,7 +1844,7 @@ ZombiesZoneDefinition.WorldsEnd = {  --
 local AuthenticTagilla = {
 		name="AuthenticTagilla",
 		gender="male",		
-		chance=1,
+		chance=0.5,
 	};
 ZombiesZoneDefinition.Factory[AuthenticTagilla] = AuthenticTagilla;
 
@@ -2635,3 +2635,5 @@ table.insert(ZombiesZoneDefinition.Default,{name = "Jockey03", chance=10, room="
 table.insert(ZombiesZoneDefinition.Default,{name = "Jockey06", chance=10, room="stable", gender="male"});
 table.insert(ZombiesZoneDefinition.Default,{name = "Jockey04", chance=10, room="stable", gender="female"});
 table.insert(ZombiesZoneDefinition.Default,{name = "Jockey05", chance=10, room="stable", gender="female"});
+-------------------------- Fat Zombies -------------------------- 
+table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticFat01", chance=0.001, gender="male"});

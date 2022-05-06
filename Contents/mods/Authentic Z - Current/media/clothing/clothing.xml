@@ -3499,8 +3499,57 @@
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
 		<m_items> <!-- Fat Skin 01 Dad Bod -->
-			<itemGUID>13f54462-7a4e-4c8f-8dba-f5212a522b1f</itemGUID>
-		</m_items>				
+			<itemGUID>8d396317-7d2e-4766-83b6-010ebc189957</itemGUID>
+		</m_items>
+		<m_items>  <!-- Golf Cap / Baseball Cap / BucketHat -->
+			<probability>0.4</probability>
+			<itemGUID>a28f9c54-8481-4399-8d5b-77ac69491846</itemGUID>
+			<subItems>
+				<itemGUID>7b339ad5-da2e-42a5-8a51-ee87239a943c</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>a2e8922f-f703-4d0f-9c3e-d72bc373054e</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items> <!-- Suit Pants -->
+			<itemGUID>52acd769-424a-4cbb-b02a-441cb723b747</itemGUID>
+			<subItems>  <!-- Khaki Pants -->
+				<itemGUID>d6ea6cbe-bbba-480e-9f02-271faf87a803</itemGUID>
+			</subItems>
+			<subItems> <!-- Coach Khaki Pants -->
+				<itemGUID>7c70bb66-1658-4308-b84d-b2ea126d7a79</itemGUID>
+			</subItems>	
+			<subItems> <!-- Navy Blue Suit Pants -->
+			<itemGUID>bd1f51ec-22ef-4bb7-a7da-b09bc3c0e331</itemGUID>
+			</subItems>			
+		</m_items>		
+		<m_items> <!-- Ammo Strap -->	
+			<itemGUID>4c3355c9-5b21-4beb-a624-8bb1d85e6445</itemGUID> 
+		</m_items>		
+		<m_items> <!-- Cigarette -->
+			<probability>0.1</probability>		
+			<itemGUID>410485f1-a2d9-4936-bc38-2deb0c9d0ec5</itemGUID> 
+		</m_items>
+		<m_items> <!-- Hawaiian Lei -->
+			<probability>0.05</probability>
+			<itemGUID>aea23d06-0499-4eb1-91fb-583906602ef2</itemGUID>
+		</m_items>			
+		<m_items> <!-- Watches -->
+			<probability>0.1</probability>
+			<itemGUID>5fc22466-2942-4ba1-8c33-2a8528b73021</itemGUID>
+			<subItems>
+				<itemGUID>ce1a8520-7120-432e-8a3a-aa7b3094f0bb</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>c7cc655b-284a-4087-85a6-d7c116385fb0</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>0383956a-3fbd-4001-9749-69e2ba70b134</itemGUID>
+			</subItems>
+		</m_items>		
+		<m_items> <!-- Shoes -->
+			<itemGUID>7741404b-9689-4608-a0f5-4e06597776f9</itemGUID>
+		</m_items>		
 	</m_MaleOutfits>
 	
 <m_FemaleOutfits> <m_Name>AuthenticFat01</m_Name>
