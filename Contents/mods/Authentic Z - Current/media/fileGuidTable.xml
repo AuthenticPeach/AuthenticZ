@@ -6132,5 +6132,9 @@
 		<path>media/clothing/clothingItems/Fat01_AmmoStrap.xml</path>
 		<guid>4c3355c9-5b21-4beb-a624-8bb1d85e6445</guid>
 	</files>
+	<files>
+		<path>media/clothing/clothingItems/Fat01_Vest_HighViz.xml</path>
+		<guid>aeada436-d1d1-40ac-bd1e-d863d78146a7</guid>
+	</files>	
 	
 </fileGuidTable>

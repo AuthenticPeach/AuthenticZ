@@ -11,7 +11,17 @@ module AuthenticZClothing {
 		BodyLocation = AmmoStrap,
 		Icon = AmmoStrapFlipped,
 		Tooltip = Tooltip_AmmoStrap,
-		WorldStaticModel = AmmoStrap_Ground,		
-		
+		WorldStaticModel = AmmoStrap_Ground,			
 	}
+
+    item Fat01_Vest_HighViz
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        ClothingItem = Fat01_Vest_HighViz,
+        BodyLocation = TorsoExtra,
+        Icon = ConstructionVest,
+        BloodLocation = ShirtNoSleeves,
+    }
+	
 }

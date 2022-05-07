@@ -297,6 +297,7 @@ ZombiesZoneDefinition.Campgrounds= {
 ZombiesZoneDefinition.Cementery= {
 	Priest = {
 		name="Priest",
+		gender="male",		
 		chance=3,
 	},
 	AuthenticFuneralFormal = {
@@ -1018,7 +1019,19 @@ ZombiesZoneDefinition.LBMWStationHQ = { --
 		name="AuthenticReporter1Formal",
 		chance=8,
 		room="hall",
-	},	
+	},
+	AuthenticReporter5Cameraman = {
+		name="AuthenticReporter5Cameraman",
+		gender="male",
+		chance=10,
+		room="studio",
+	},		
+	AuthenticReporter5Cameraman2 = {
+		name="AuthenticReporter5Cameraman",
+		gender="male",
+		chance=5,
+		room="hall",
+	},		
 	AuthenticReporter2LBMW = {
 		name="AuthenticReporter2LBMW",
 		chance=8,
@@ -1046,6 +1059,12 @@ ZombiesZoneDefinition.LBMWStationHQ = { --
 }
 
 ZombiesZoneDefinition.LBMWRadioHQ = {
+	AuthenticReporter5Cameraman = {
+		name="AuthenticReporter5Cameraman",
+		gender="male",
+		chance=5,
+		room="hall",
+	},	
 	OfficeWorkerSkirt = {
 		name="OfficeWorkerSkirt",
 		gender="female",
@@ -1076,7 +1095,19 @@ ZombiesZoneDefinition.NewNowNetwork = { --3NewNowNetwork
 		name="AuthenticReporter43N",
 		chance=8,
 		room="hall",
-	},		
+	},
+	AuthenticReporter5Cameraman = {
+		name="AuthenticReporter5Cameraman",
+		gender="male",
+		chance=10,
+		room="studio",
+	},	
+	AuthenticReporter5Cameraman2 = {
+		name="AuthenticReporter5Cameraman",
+		gender="male",
+		chance=5,
+		room="hall",
+	},	
 	OfficeWorkerSkirt = {
 		name="OfficeWorkerSkirt",
 		gender="female",
@@ -1398,12 +1429,14 @@ ZombiesZoneDefinition.Postal2 = {
 }
 
 ZombiesZoneDefinition.Psycho = {
+--[[
 	AuthenticWinslowM = {
 		name="AuthenticWinslow",
 		toSpawn=1,
 		gender="male",
 		mandatory="true"
 	},
+	--]]
 	AuthenticNakedBlueVeinsM = {
 		name="AuthenticNakedBlueVeins",
 		toSpawn=1,
@@ -1412,11 +1445,13 @@ ZombiesZoneDefinition.Psycho = {
 }
 
 ZombiesZoneDefinition.Psycho2 = {
+--[[
 	AuthenticWinslowM2 = {
 		name="AuthenticWinslow",
 		chance=5,
 		gender="male",
 	},
+		--]]
 	AuthenticNakedBlueVeinsM2 = {
 		name="AuthenticNakedBlueVeins",
 		chance=15,
@@ -1596,12 +1631,16 @@ ZombiesZoneDefinition.TheDregs = {
 		chance=5,
 		gender="male",			
 	},		
-	AuthenticTf2SpyBlueM = {
+	AuthenticTf2SpyBlue = {
 		name="AuthenticTF2SpyBlue",
-		toSpawn=1,
+		chance=3,
 		gender="male",
-		mandatory="true",
-	},		
+	},
+	AuthenticTF2SpyRed= {
+		name="AuthenticTF2SpyRed",
+		chance=3,
+		gender="male",
+	},	
 }
 
 ZombiesZoneDefinition.TheyLive = {
@@ -1809,7 +1848,7 @@ ZombiesZoneDefinition.WorldsEnd = {  --
 local AuthenticTagilla = {
 		name="AuthenticTagilla",
 		gender="male",		
-		chance=1,
+		chance=0.5,
 	};
 ZombiesZoneDefinition.Factory[AuthenticTagilla] = AuthenticTagilla;
 
@@ -1978,6 +2017,12 @@ local AuthenticMaid2 = {
 		gender="female",
 	};
 ZombiesZoneDefinition.HotelRich[AuthenticMaid2] = AuthenticMaid2;
+local AuthenticLadyD = {
+		name="AuthenticLadyD",
+		chance=1,
+		gender="female",
+	};
+ZombiesZoneDefinition.HotelRich[AuthenticLadyD] = AuthenticLadyD;
 local AuthenticDIPurnaJacksonM = {
 		name="AuthenticDIPurnaJacksonM",
 		chance=2,
@@ -2469,6 +2514,7 @@ table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticUncleSam", chance=0
 table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticDukeNukem", chance=0.001, gender="male"});
 table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticTheyLive", chance=0.0001, gender="male"});
 table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticTF2SpyBlue", chance=0.0001, gender="male"});
+table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticTF2SpyRed", chance=0.0001, gender="male"});
 -------------------------- Clowns --------------------------
 table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticClownMime", chance=0.04});
 table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticClown", chance=0.04, gender="male"});
@@ -2504,7 +2550,7 @@ table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticFreddyKrueger", cha
 table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticHalloween", chance=0.00001, gender="male"});
 table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticJasonPart2", chance=0.00001, gender="male"});
 table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticJasonPart3", chance=0.00001, gender="male"});
-table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticWinslow", chance=0.00001, gender="male"});
+--table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticWinslow", chance=0.00001, gender="male"});
 -------------------------- Room Based Spawns --------------------------
 table.insert(ZombiesZoneDefinition.Default,{name = "Cook_IceCream", chance=55, room="icecream"});
 table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticSportsFan", chance=5, room="recreation"});
@@ -2593,3 +2639,5 @@ table.insert(ZombiesZoneDefinition.Default,{name = "Jockey03", chance=10, room="
 table.insert(ZombiesZoneDefinition.Default,{name = "Jockey06", chance=10, room="stable", gender="male"});
 table.insert(ZombiesZoneDefinition.Default,{name = "Jockey04", chance=10, room="stable", gender="female"});
 table.insert(ZombiesZoneDefinition.Default,{name = "Jockey05", chance=10, room="stable", gender="female"});
+-------------------------- Fat Zombies -------------------------- 
+--table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticFat01", chance=0.001, gender="male"});

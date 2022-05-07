@@ -3520,11 +3520,14 @@
 				<itemGUID>7c70bb66-1658-4308-b84d-b2ea126d7a79</itemGUID>
 			</subItems>	
 			<subItems> <!-- Navy Blue Suit Pants -->
-			<itemGUID>bd1f51ec-22ef-4bb7-a7da-b09bc3c0e331</itemGUID>
+				<itemGUID>bd1f51ec-22ef-4bb7-a7da-b09bc3c0e331</itemGUID>
 			</subItems>			
 		</m_items>		
 		<m_items> <!-- Ammo Strap -->	
 			<itemGUID>4c3355c9-5b21-4beb-a624-8bb1d85e6445</itemGUID> 
+			<subItems> <!-- Vests -->
+				<itemGUID>aeada436-d1d1-40ac-bd1e-d863d78146a7</itemGUID>
+			</subItems>					
 		</m_items>		
 		<m_items> <!-- Cigarette -->
 			<probability>0.1</probability>		
@@ -3552,14 +3555,6 @@
 		</m_items>		
 	</m_MaleOutfits>
 	
-<m_FemaleOutfits> <m_Name>AuthenticFat01</m_Name>
-		<m_Guid>709cc2a0-f585-4654-88d7-1913f6807448</m_Guid>
-		<m_Top>false</m_Top>
-		<m_Pants>false</m_Pants>
-		<m_items> <!-- Fat Skin 01 -->
-			<itemGUID>13f54462-7a4e-4c8f-8dba-f5212a522b1f</itemGUID>
-		</m_items>				
-	</m_FemaleOutfits>		
 
  <!-- End of Fat Zombies -->
 
