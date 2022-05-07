@@ -354,18 +354,18 @@ AuthenticZ.tab_addMagProcedural_Ponchos("ArmySurplusOutfit",6.0);
 AuthenticZ.tab_addMagProcedural_Fitness("CrateFitnessWeights",2.0);
 
 
-AuthenticZ.tab_Bag_RoadsideDuffel("MechanicShelfTools",2.0);
+AuthenticZ.tab_Bag_RoadsideDuffel("MechanicShelfTools",1.0);
 AuthenticZ.tab_Bag_RoadsideDuffel("OtherGeneric",0.3);
-AuthenticZ.tab_Bag_RoadsideDuffel("ToolStoreTools",2.0);
-AuthenticZ.tab_Bag_RoadsideDuffel("ToolStoreMisc",2.0);
-AuthenticZ.tab_Bag_RoadsideDuffel("ArmyHangarTools",2.0);
-AuthenticZ.tab_Bag_RoadsideDuffel("CarSupplyTools",2.0);
-AuthenticZ.tab_Bag_RoadsideDuffel("CrateRandomJunk",2.0);
-AuthenticZ.tab_Bag_RoadsideDuffel("CrateTools",2.0);
+AuthenticZ.tab_Bag_RoadsideDuffel("ToolStoreTools",1.0);
+AuthenticZ.tab_Bag_RoadsideDuffel("ToolStoreMisc",1.0);
+AuthenticZ.tab_Bag_RoadsideDuffel("ArmyHangarTools",1.25);
+AuthenticZ.tab_Bag_RoadsideDuffel("CarSupplyTools",1.25);
+AuthenticZ.tab_Bag_RoadsideDuffel("CrateRandomJunk",1.25);
+AuthenticZ.tab_Bag_RoadsideDuffel("CrateTools",1.25);
 AuthenticZ.tab_Bag_RoadsideDuffel("GarageMechanics",0.5);
-AuthenticZ.tab_Bag_RoadsideDuffel("GarageTools",1.0);
-AuthenticZ.tab_Bag_RoadsideDuffel("MechanicShelfTools",2.0);
-AuthenticZ.tab_Bag_RoadsideDuffel("GigamartTools",2.0);
+AuthenticZ.tab_Bag_RoadsideDuffel("GarageTools",1.25);
+AuthenticZ.tab_Bag_RoadsideDuffel("MechanicShelfTools",1.0);
+AuthenticZ.tab_Bag_RoadsideDuffel("GigamartTools",1.0);
 
 AuthenticZ.tab_addMagProcedural_Torch2("MechanicShelfTools",2.0);
 AuthenticZ.tab_addMagProcedural_Torch2("OtherGeneric",0.3);

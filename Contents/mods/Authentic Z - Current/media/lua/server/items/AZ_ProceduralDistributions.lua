@@ -567,12 +567,93 @@ local function preDistributionMerge()
         rolls = 2,
         items = {
 -- Glowsticks					
-            "AuthenticZClothing.AuthenticGlowstick_Pack", 10,
-            "AuthenticZClothing.AuthenticGlowstick_Pack", 10,
-            "AuthenticZClothing.AuthenticGlowstick_Pack", 10,
-            "AuthenticZClothing.AuthenticGlowstick_Pack", 10,
-            "AuthenticZClothing.AuthenticGlowstick_Pack", 10,
-            "AuthenticZClothing.AuthenticGlowstick_Pack", 10,
+            "AuthenticZClothing.AuthenticGlowstick_Pack", 20,
+            "AuthenticZClothing.AuthenticGlowstick_Pack", 20,
+            "AuthenticZClothing.AuthenticGlowstick_Pack", 20,
+            "AuthenticZClothing.AuthenticGlowstick_Pack", 20,
+            "AuthenticZClothing.AuthenticGlowstick_Pack", 20,
+            "AuthenticZClothing.AuthenticGlowstick_Pack", 20,
+			"WhiskeyFull", 2,
+            "Wine", 4,
+            "Wine", 4,
+            "BeerCan", 10,
+            "BeerCan", 10,
+            "BeerBottle", 10,
+            "BeerBottle", 10,
+            "BeerBottle", 10,
+			
+			"CardDeck", 6,
+            "Cigarettes", 10,
+            "Crisps", 10,
+            "Dice", 6,
+            "Lighter", 10,
+            "Matches", 10,
+            "Peanuts", 10,
+            "Pickles", 6,
+            "Pop", 10,
+            "Pop2", 10,
+            "Pop3", 10,
+            "PopBottle", 6,
+            "TortillaChips", 10,
+
+			"GlassTumbler", 50,
+            "GlassTumbler", 20,
+            "GlassWine", 20,
+            "PlasticCup", 20,		
+			
+            "Bleach", 4,
+            "CleaningLiquid2", 2,			
+        },		
+        junk = {
+            rolls = 2,
+            items = {				
+            "AuthenticZClothing.AuthenticGlowstick_Red", 1,
+            "AuthenticZClothing.AuthenticGlowstick_Blue", 1,
+            "AuthenticZClothing.AuthenticGlowstick_Green", 1,
+            "AuthenticZClothing.AuthenticGlowstick_Orange", 1,
+            "AuthenticZClothing.AuthenticGlowstick_Purple", 1,		
+            "AuthenticZClothing.AuthenticGlowstick_Pink", 1,		
+            "AuthenticZClothing.AuthenticGlowstick_Yellow", 1,
+            "AuthenticZClothing.AuthenticGlowstick_Red", 1,
+            "AuthenticZClothing.AuthenticGlowstick_Blue", 1,
+            "AuthenticZClothing.AuthenticGlowstick_Green", 1,
+            "AuthenticZClothing.AuthenticGlowstick_Orange", 1,
+            "AuthenticZClothing.AuthenticGlowstick_Purple", 1,		
+            "AuthenticZClothing.AuthenticGlowstick_Pink", 1,		
+            "AuthenticZClothing.AuthenticGlowstick_Yellow", 1,			
+            "Bag_ShotgunDblSawnoffBag", 1,			
+            "BaseballBat", 1,
+            "DoubleBarrelShotgunSawnoff", 1,			
+            },			
+        }
+    }
+
+	ProceduralDistributions.list.NightClubLockerAZ = {
+        rolls = 5,
+        items = {
+-- Glowsticks					
+            "AuthenticZClothing.AuthenticGlowstick_Pack", 20,
+            "AuthenticZClothing.AuthenticGlowstick_Pack", 20,
+            "AuthenticZClothing.AuthenticGlowstick_Pack", 20,
+            "AuthenticZClothing.AuthenticGlowstick_Pack", 20,
+            "AuthenticZClothing.AuthenticGlowstick_Pack", 20,
+			
+            "9mmClip", 2,
+            "Bag_FannyPackFront", 1.5,
+            "Belt2", 2,
+            "Bullets38Box", 5,
+            "Bullets9mmBox", 5,
+            "Disc_Retail", 2,
+            "Earbuds", 3,
+            "Glasses_Aviators", 1,
+            "Headphones", 3,
+            "HolsterDouble", 0.5,
+            "HolsterSimple", 1,
+            "Nightstick", 2,
+            "Pistol", 5,
+            "Radio.CDplayer", 3,
+            "Radio.WalkieTalkie4", 3,
+            "Revolver_Short", 5,			
         },		
         junk = {
             rolls = 2,
@@ -588,34 +669,8 @@ local function preDistributionMerge()
         }
     }
 
-	ProceduralDistributions.list.NightClubLockerAZ = {
-        rolls = 10,
-        items = {
--- Glowsticks					
-            "AuthenticZClothing.AuthenticGlowstick_Pack", 10,
-            "AuthenticZClothing.AuthenticGlowstick_Pack", 10,
-            "AuthenticZClothing.AuthenticGlowstick_Pack", 10,
-            "AuthenticZClothing.AuthenticGlowstick_Pack", 10,
-            "AuthenticZClothing.AuthenticGlowstick_Pack", 10,
-            "AuthenticZClothing.AuthenticGlowstick_Pack", 10,
-            "AuthenticZClothing.AuthenticGlowstick_Pack", 10,
-        },		
-        junk = {
-            rolls = 3,
-            items = {				
-            "AuthenticZClothing.AuthenticGlowstick_Red", 1,
-            "AuthenticZClothing.AuthenticGlowstick_Blue", 1,
-            "AuthenticZClothing.AuthenticGlowstick_Green", 1,
-            "AuthenticZClothing.AuthenticGlowstick_Orange", 1,
-            "AuthenticZClothing.AuthenticGlowstick_Purple", 1,		
-            "AuthenticZClothing.AuthenticGlowstick_Pink", 1,		
-            "AuthenticZClothing.AuthenticGlowstick_Yellow", 1,	    			
-            },			
-        }
-    }
-
 	ProceduralDistributions.list.NightClubShelvesAZ = {
-        rolls = 5,
+        rolls = 3,
         items = {
 -- Glowsticks					
             "AuthenticZClothing.AuthenticGlowstick_Pack", 10,
@@ -623,6 +678,15 @@ local function preDistributionMerge()
             "AuthenticZClothing.AuthenticGlowstick_Pack", 10,
             "AuthenticZClothing.AuthenticGlowstick_Pack", 10,
             "AuthenticZClothing.AuthenticGlowstick_Pack", 10,
+            "AuthenticZClothing.AuthenticGlowstick_Pack", 10,
+			"BeerCan", 10,
+            "BeerCan", 10,
+            "BeerBottle", 10,
+            "BeerBottle", 10,
+            "Wine", 4,
+            "Wine", 4,
+            "Wine2", 4,
+            "WhiskeyFull", 2,		
         },			
         junk = {
             rolls = 2,

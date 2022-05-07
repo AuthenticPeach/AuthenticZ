@@ -1429,12 +1429,14 @@ ZombiesZoneDefinition.Postal2 = {
 }
 
 ZombiesZoneDefinition.Psycho = {
+--[[
 	AuthenticWinslowM = {
 		name="AuthenticWinslow",
 		toSpawn=1,
 		gender="male",
 		mandatory="true"
 	},
+	--]]
 	AuthenticNakedBlueVeinsM = {
 		name="AuthenticNakedBlueVeins",
 		toSpawn=1,
@@ -1443,11 +1445,13 @@ ZombiesZoneDefinition.Psycho = {
 }
 
 ZombiesZoneDefinition.Psycho2 = {
+--[[
 	AuthenticWinslowM2 = {
 		name="AuthenticWinslow",
 		chance=5,
 		gender="male",
 	},
+		--]]
 	AuthenticNakedBlueVeinsM2 = {
 		name="AuthenticNakedBlueVeins",
 		chance=15,
@@ -2546,7 +2550,7 @@ table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticFreddyKrueger", cha
 table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticHalloween", chance=0.00001, gender="male"});
 table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticJasonPart2", chance=0.00001, gender="male"});
 table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticJasonPart3", chance=0.00001, gender="male"});
-table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticWinslow", chance=0.00001, gender="male"});
+--table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticWinslow", chance=0.00001, gender="male"});
 -------------------------- Room Based Spawns --------------------------
 table.insert(ZombiesZoneDefinition.Default,{name = "Cook_IceCream", chance=55, room="icecream"});
 table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticSportsFan", chance=5, room="recreation"});

@@ -112,5 +112,6 @@ objects = {
   { name = "AZLaserTag", type = "LootZone", x = 12347, y = 1287, z = 0, width = 31, height = 32}, --Laser Tag in LV 
   { name = "AZLaserTag", type = "LootZone", x = 12347, y = 1287, z = 1, width = 31, height = 32}, --Laser Tag in LV
   { name = "AZNightClub", type = "LootZone", x = 12414, y = 1303, z = 0, width = 31, height = 39}, --Night Club in LV 
+  { name = "AZNightClub", type = "LootZone", x = 12440, y = 1361, z = 0, width = 34, height = 32}, --Rave Warehouse in LV 
   
 }
