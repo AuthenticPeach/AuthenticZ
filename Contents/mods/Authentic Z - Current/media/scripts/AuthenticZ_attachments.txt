@@ -508,6 +508,13 @@ module Base
 			bone = Bip01_Spine1,
 		}
 
+		attachment BackPack_Schoolbag_FlashlightHandTorch
+		{
+			offset = 0.1530 -0.0620 -0.0090,
+			rotate = -40.0000 52.0000 121.0000,
+			bone = Bip01_Spine1,
+		}
+
 		attachment BackPack_Schoolbag_Saw
 		{
 			offset = 0.0020 0.0800 0.1230,
@@ -632,6 +639,13 @@ module Base
 			offset = 0.0450 0.0410 0.1620,
 			rotate = -60.0000 4.0000 -3.0000,
 			bone = Bip01_BackPack,
+		}
+
+		attachment BackPack_Dufflebag_FlashlightHandTorch
+		{
+			offset = 0.1520 0.0620 -0.0050,
+			rotate = -46.0000 57.0000 129.0000,
+			bone = Bip01_Spine1,
 		}
 
 		attachment BackPack_Dufflebag_Flashlight
@@ -1052,6 +1066,13 @@ module Base
 			offset = 0.1160 0.2220 -0.0480,
 			rotate = -155.0000 -64.0000 -123.0000,
 			bone = Bip01_BackPack,
+		}
+
+		attachment BackPack_Hikingbag_FlashlightHandTorch
+		{
+			offset = 0.1500 -0.0600 -0.0080,
+			rotate = -46.0000 57.0000 129.0000,
+			bone = Bip01_Spine1,
 		}
 
 		attachment BackPack_Hikingbag_Flashlight
@@ -1569,6 +1590,13 @@ module Base
 		{
 			offset = 0.0060 -0.0890 0.0540,
 			rotate = 84.0000 14.0000 110.0000,
+			bone = Bip01_Spine1,
+		}
+
+		attachment BackPack_BigHikingBag_FlashlightHandTorch
+		{
+			offset = 0.1500 -0.0620 0.0010,
+			rotate = -37.0000 50.0000 119.0000,
 			bone = Bip01_Spine1,
 		}
 
@@ -2221,6 +2249,13 @@ module Base
 			offset = 0.0300 -0.1270 -0.0760,
 			rotate = 105.0000 -74.0000 14.0000,
 			bone = Bip01_BackPack,
+		}
+
+		attachment BackPack_Alicepack_FlashlightHandTorch
+		{
+			offset = 0.1440 -0.0820 -0.0080,
+			rotate = -40.0000 52.0000 122.0000,
+			bone = Bip01_Spine1,
 		}
 
 		attachment BackPack_Alicepack_Flashlight
@@ -3445,6 +3480,13 @@ module Base
 			bone = Bip01_BackPack,
 		}
 
+		attachment BackPack_Schoolbag_FlashlightHandTorch
+		{
+			offset = 0.1530 -0.0620 -0.0090,
+			rotate = -40.0000 52.0000 121.0000,
+			bone = Bip01_Spine1,
+		}
+
 		attachment BackPack_Schoolbag_Flashlight
 		{
 			offset = 0.0060 -0.0890 0.0540,
@@ -3561,6 +3603,13 @@ module Base
 		{
 			offset = 0.0100 0.0140 0.0880,
 			rotate = 84.0000 35.0000 97.0000,
+			bone = Bip01_Spine1,
+		}
+
+		attachment BackPack_Dufflebag_FlashlightHandTorch
+		{
+			offset = 0.1520 0.0620 -0.0050,
+			rotate = -46.0000 57.0000 129.0000,
 			bone = Bip01_Spine1,
 		}
 
@@ -3975,6 +4024,13 @@ module Base
 			offset = 0.1160 0.2220 -0.0480,
 			rotate = -155.0000 -64.0000 -123.0000,
 			bone = Bip01_BackPack,
+		}
+
+		attachment BackPack_Hikingbag_FlashlightHandTorch
+		{
+			offset = 0.1500 -0.0600 -0.0080,
+			rotate = -46.0000 57.0000 129.0000,
+			bone = Bip01_Spine1,
 		}
 
 		attachment BackPack_Hikingbag_Flashlight
@@ -4486,6 +4542,13 @@ module Base
 			offset = 0.0410 0.1110 -0.2450,
 			rotate = 112.0000 21.0000 170.0000,
 			bone = Bip01_BackPack,
+		}
+
+		attachment BackPack_BigHikingBag_FlashlightHandTorch
+		{
+			offset = 0.1500 -0.0620 0.0010,
+			rotate = -37.0000 50.0000 119.0000,
+			bone = Bip01_Spine1,
 		}
 
 		attachment BackPack_BigHikingBag_Flashlight
@@ -5144,6 +5207,13 @@ module Base
 			offset = 0.0420 -0.1250 -0.1200,
 			rotate = 105.0000 -74.0000 14.0000,
 			bone = Bip01_BackPack,
+		}
+
+		attachment BackPack_Alicepack_FlashlightHandTorch
+		{
+			offset = 0.1440 -0.0820 -0.0080,
+			rotate = -40.0000 52.0000 122.0000,
+			bone = Bip01_Spine1,
 		}
 
 		attachment BackPack_Alicepack_Flashlight
@@ -6069,7 +6139,5 @@ module Base
 			rotate = 4.0000 -3.0000 -71.0000,
 			bone = Bip01_Spine,
 		}
-
-
 	}
 }

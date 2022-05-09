@@ -1372,6 +1372,7 @@ module AuthenticZClothing {
         StaticModel = HandTorch,
         primaryAnimMask = HoldingTorchRight,
         secondaryAnimMask = HoldingTorchLeft,
+        AttachmentType   = 	Flashlight,			
 		Tooltip = Tooltip_HandTorch2,
 		WorldStaticModel = HandTorch,
     }

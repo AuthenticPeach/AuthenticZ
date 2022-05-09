@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<hairStyles>
+	<male>
+		<name>DukeBuzzCut</name>
+		<model>skinned\hair\Bob_DukeBuzzCut</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="Hat" />
+		<alternate category="Group01" style="Hat" />
+		<alternate category="Group02" style="Hat" />
+		<alternate category="Group04" style="Hat" />
+		<alternate category="Group05" style="DukeBuzzCut" />
+		<level>1</level>
+		<trimChoices>Demi</trimChoices>
+		<trimChoices>Spike</trimChoices>
+		<trimChoices>LeftParting</trimChoices>
+		<trimChoices>RightParting</trimChoices>
+		<trimChoices>Short</trimChoices>
+		<trimChoices>CrewCut</trimChoices>
+		<trimChoices>CentreParting</trimChoices>
+		<trimChoices>Picard</trimChoices>
+		<trimChoices>Baldspot</trimChoices>
+		<trimChoices>Hat</trimChoices>
+		<trimChoices>Messy</trimChoices>
+		<trimChoices>Cornrows</trimChoices>
+	</male>	
+	<male>
+		<name>Balding</name>
+		<model>skinned/hair/bob_Balding</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="Hat" />
+		<alternate category="Group01" style="Picard" />
+		<alternate category="Group02" style="Picard" />
+		<alternate category="Group04" style="Picard" />
+		<alternate category="Group05" style="Balding" />
+		<level>1</level>
+	</male>
+	<male>
+		<name>BigAfro</name>
+		<model>skinned/hair/Bob_AfroBig</model>
+		<texture>F_HairCurly_Short</texture>
+		<alternate category="default" style="PonyTail" />
+		<alternate category="Group01" style="Mullet" />
+		<alternate category="Group02" style="PonyTail" />
+		<alternate category="Group04" style="Mullet" />
+		<alternate category="Group05" style="PonyTail" />
+		<level>3</level>
+		<growReference>true</growReference>
+		<trimChoices>Mullet</trimChoices>
+		<trimChoices>Metal</trimChoices>
+		<trimChoices>LongBraids</trimChoices>
+		<trimChoices>LongBraids02</trimChoices>		
+	</male>	
+</hairStyles>

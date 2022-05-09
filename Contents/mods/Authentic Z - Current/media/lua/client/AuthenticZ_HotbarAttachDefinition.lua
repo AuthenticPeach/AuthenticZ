@@ -136,6 +136,7 @@ local SchoolbagFlashlight = {
 	animset = "back",
 	attachments = { -- list of possible item category and their modelAttachement group, the item category is defined in the item script		
 		MilitaryFlashlight = "Schoolbag Military Flashlight",
+		Flashlight = "Schoolbag Flashlight",
 	},
 }
 table.insert(ISHotbarAttachDefinition, SchoolbagFlashlight);
@@ -342,6 +343,7 @@ local DufflebagFlashlight = {
 	animset = "back",
 	attachments = { -- list of possible item category and their modelAttachement group, the item category is defined in the item script		
 		MilitaryFlashlight = "Dufflebag Military Flashlight",
+		Flashlight = "Dufflebag Flashlight",
 	},
 }
 table.insert(ISHotbarAttachDefinition, DufflebagFlashlight);
@@ -514,6 +516,7 @@ local HikingBagFlashlight = {
 	animset = "back",
 	attachments = { -- list of possible item category and their modelAttachement group, the item category is defined in the item script		
 		MilitaryFlashlight = "HikingBag Military Flashlight",
+		Flashlight = "HikingBag Flashlight",
 	},
 }
 table.insert(ISHotbarAttachDefinition, HikingBagFlashlight);
@@ -697,6 +700,7 @@ local BigHikingbagFlashlight = {
 	animset = "back",
 	attachments = { -- list of possible item category and their modelAttachement group, the item category is defined in the item script		
 		MilitaryFlashlight = "BigHikingBag Military Flashlight",
+		Flashlight = "BigHikingBag Flashlight",
 	},
 }
 table.insert(ISHotbarAttachDefinition, BigHikingbagFlashlight);
@@ -919,6 +923,7 @@ local AlicepackFlashlight = {
 	animset = "back",
 	attachments = { -- list of possible item category and their modelAttachement group, the item category is defined in the item script		
 		MilitaryFlashlight = "Alicepack Military Flashlight",
+		Flashlight = "Alicepack Flashlight",
 	},
 }
 table.insert(ISHotbarAttachDefinition, AlicepackFlashlight);
@@ -1130,6 +1135,7 @@ local ARVNFlashlight = {
 	animset = "back",
 	attachments = { -- list of possible item category and their modelAttachement group, the item category is defined in the item script		
 		MilitaryFlashlight = "Alicepack Military Flashlight",
+		Flashlight = "Alicepack Flashlight",		
 	},
 }
 table.insert(ISHotbarAttachDefinition, ARVNFlashlight);

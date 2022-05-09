@@ -38,5 +38,7 @@ TweakItem("Base.VHS_Retail", "StaticModel", "VHSBox2");
 TweakItem("Base.WeldingMask", "AttachmentType", "GasMask");
 TweakItem("Base.WeldingMask", "StaticModel", "WelderMaskNotWorn");
 
+TweakItem("Base.HandTorch", "AttachmentType", "Flashlight");
+
 
 

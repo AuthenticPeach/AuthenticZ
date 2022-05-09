@@ -83,10 +83,10 @@ IGUI_EN = {
 	IGUI_HotbarAttachment_DufflebagBalloonLeft = "Balloon Slot",
 	IGUI_CraftCategory_Tailoring = "Tailoring",
 	
-/* New*/	
-
 	IGUI_HotbarAttachment_HikingbagSleepingRoll = "Hikingbag Sleeping Bag",
 	IGUI_HotbarAttachment_BigHikingbagSleepingRoll = "BigHikingbag Sleeping Bag",	
 	IGUI_HotbarAttachment_AlicepackSleepingRoll = "Alicepack Sleeping Bag",
-
+	
+/* New*/	
+	IGUI_AuthenticZ_Manage_Slots = "AuthenticZ Manage Attachment Slots",
 }

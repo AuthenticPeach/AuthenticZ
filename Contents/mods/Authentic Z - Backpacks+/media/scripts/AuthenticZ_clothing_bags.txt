@@ -5,7 +5,7 @@ module AuthenticZBackpacks+ {
 
     item Bag_ALICEpack_UrbanCamo
     {
-        Icon	=	AliceBag_UrbanCamo1,	
+        Icon	=	AliceBag,	
         DisplayCategory = Bag,
         Type = Container,
         DisplayName = Urban Camo Alice Pack,
@@ -279,7 +279,7 @@ module AuthenticZBackpacks+ {
 		Capacity 				= 5,
 		WeightReduction			= 40,
 		RunSpeedModifier 		= 1,
-		IconsForTexture 		= MilitaryWebbing_ForestCamo;MilitaryWebbing_UrbanBlack,
+		IconsForTexture = MilitaryWebbing_ForestCamo;MilitaryWebbing_UrbanBlack,
 		Tooltip 		 		= Tooltip_TacticalWebbing,
 		AttachmentsProvided  	= AZWebbingLeft;AZWebbingRight,
 		WorldStaticModel 		= WorldItem-MilitaryWebbing,		
@@ -298,7 +298,7 @@ module AuthenticZBackpacks+ {
 		Capacity 				= 5,
 		WeightReduction			= 40,
 		RunSpeedModifier 		= 1,
-		IconsForTexture 		= MilitaryWebbing_ForestCamo;MilitaryWebbing_UrbanBlack,
+		IconsForTexture = MilitaryWebbing_ForestCamo;MilitaryWebbing_UrbanBlack,
 		Tooltip 				= Tooltip_TacticalWebbing,
 		AttachmentsProvided  	= AZWebbingLeft;AZWebbingRight,
 		WorldStaticModel 		= WorldItem-MilitaryWebbing,		
