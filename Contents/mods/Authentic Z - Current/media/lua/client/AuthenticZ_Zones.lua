@@ -138,12 +138,16 @@ function PleaseKeepColor(item, resultItem, player)
 	local transferred_Items = {}; 
 	local dItem;
 	local texture;
+	local backpack = item:get(0)	
+	local backpackVisual = backpack:getVisual()
+	local resultVisual = resultItem:getVisual()
+
 	
 	for i = 0, (item:size()-1) do 
 		dItem = item:get(i); 
 		
 		if dItem:getCategory() == "Container" then 
-		texture = dItem:getTexture()
+
 			if player:getClothingItem_Back() == dItem then 
 				player:setClothingItem_Back(nil);
 			end
@@ -169,7 +173,10 @@ function PleaseKeepColor(item, resultItem, player)
 		dInv:Remove(k3); 
 		newInv:AddItem(k3); 
 	end
-	resultItem:setTexture(texture);
+	if backpackVisual and resultVisual then
+		resultVisual:setTextureChoice(backpackVisual:getTextureChoice());
+		resultItem:synchWithVisual();
+	end
 end
 
 

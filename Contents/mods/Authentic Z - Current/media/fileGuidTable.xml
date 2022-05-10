@@ -6133,8 +6133,55 @@
 		<guid>4c3355c9-5b21-4beb-a624-8bb1d85e6445</guid>
 	</files>
 	<files>
+			<path>media/clothing/clothingItems/Fat01_AmmoStrap2.xml</path>
+		<guid>4c3355c9-5b21-4beb-a624-8bb1d85e6445</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Fat01_Apron.xml</path>
+		<guid>63ee1f86-b556-4a54-8451-1fc41a958332</guid>
+	</files>	
+	<files>
+		<path>media/clothing/clothingItems/Fat01_Coveralls.xml</path>
+		<guid>f5906f8b-003e-43c1-a2d9-2064c5b25d24</guid>
+	</files>
+	<files>
+				<path>media/clothing/clothingItems/Fat01_HoodieUP.xml</path>
+		<guid>d8a600ea-6485-405b-8c9f-d7a20b9242b1</guid>
+	</files>
+	<files>
+				<path>media/clothing/clothingItems/Fat01_HoodieDown.xml</path>
+		<guid>662ed7ec-d0ab-4196-939d-8921bd6c9dc4</guid>
+	</files>	
+	<files>
+		<path>media/clothing/clothingItems/Fat01_Jacket.xml</path>
+		<guid>dc5b30b7-fddf-452a-8ecc-f9c71e80d109</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Fat01_JacketLeather.xml</path>
+		<guid>d774e147-b0bf-4f19-b4c2-dffeca5fa1c9</guid>
+	</files>
+	<files>
+				<path>media/clothing/clothingItems/Fat01_JacketLong.xml</path>
+		<guid>7b568e28-d85e-45b2-b73f-92775170f635</guid>
+	</files>
+	<files>
+				<path>media/clothing/clothingItems/Fat01_PonchoUP.xml</path>
+		<guid>842efdb2-0d1f-4ceb-965c-02a0386b86d3</guid>
+	</files>
+	<files>
+				<path>media/clothing/clothingItems/Fat01_PonchoDown.xml</path>
+		<guid>4e839c86-c5e6-4433-aa57-a262f59b2f37</guid>
+	</files>	
+	<files>
+		<path>media/clothing/clothingItems/Fat01_SportShorts.xml</path>
+		<guid>f1cba17f-e61f-4df5-b5c3-f35168da234d</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Fat01_ShellPants.xml</path>
+		<guid>01297d6d-164d-42f0-99a1-fd746a0bbe26</guid>
+	</files>
+	<files>
 		<path>media/clothing/clothingItems/Fat01_Vest_HighViz.xml</path>
 		<guid>aeada436-d1d1-40ac-bd1e-d863d78146a7</guid>
 	</files>	
-	
 </fileGuidTable>
