@@ -27,5 +27,23 @@ module AuthenticZClothing {
 		ClothingItem = FatBody01_DadBod,
 		BodyLocation = Torso1Legs1,
 		Icon = AZDadBod,
+	}
+	item FatBody02_BurgerLover
+	{
+       DisplayCategory = Clothing,		
+		Type = Clothing,
+		DisplayName = Burger Lover Bod,
+		ClothingItem = FatBody02_BurgerLover,
+		BodyLocation = Torso1Legs1,
+		Icon = AZDadBod,
 	}	
+	item FatBody03_ObeseBod
+	{
+       DisplayCategory = Clothing,		
+		Type = Clothing,
+		DisplayName = Obese Bod,
+		ClothingItem = FatBody03_ObeseBod,
+		BodyLocation = Torso1Legs1,
+		Icon = AZDadBod,
+	}		
 }

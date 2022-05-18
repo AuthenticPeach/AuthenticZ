@@ -566,13 +566,6 @@ module AuthenticZClothing {
 		IconsForTexture = HairpickBlack;HairpickBlue;HairpickBlueDiamonds;HairpickSeaGreen;HairpickNeon;HairpickPink;HairpickPinkHearts;HairpickRed;HairpickWhite,
 		Weight 			= 0.1,
 	}		
-    item Hairstyle_Pennywise
-    {
-       DisplayCategory = Accessory,		
-		Type = Clothing,
-		ClothingItem = Hairstyle_Pennywise,
-		BodyLocation = Hat,
-    }
 	item InflatableTube_AZ
 	{
 		DisplayCategory = Clothing,		

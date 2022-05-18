@@ -2475,6 +2475,14 @@ local SportsFan = {
 	};
 ZombiesZoneDefinition.Boxing[SportsFan] = SportsFan;
 
+local Fat01 = {
+		name="AuthenticFat01",	
+		gender="male",			
+		chance=5,
+	};
+ZombiesZoneDefinition.Spiffo[Fat01] = Fat01;
+ZombiesZoneDefinition.PizzaWhirled[Fat01] = Fat01;
+
 -- total chance can be over 100% we don't care as we'll roll on the totalChance and not a 100 (unlike the specific outfits on top of this)
 AZ_ZombiesZoneDefinition.Default = ZombiesZoneDefinition.Default or {};
 
@@ -2640,4 +2648,4 @@ table.insert(ZombiesZoneDefinition.Default,{name = "Jockey06", chance=10, room="
 table.insert(ZombiesZoneDefinition.Default,{name = "Jockey04", chance=10, room="stable", gender="female"});
 table.insert(ZombiesZoneDefinition.Default,{name = "Jockey05", chance=10, room="stable", gender="female"});
 -------------------------- Fat Zombies -------------------------- 
-table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticFat01", chance=0.001, gender="male"});
+table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticFat01", chance=0.07, gender="male"});

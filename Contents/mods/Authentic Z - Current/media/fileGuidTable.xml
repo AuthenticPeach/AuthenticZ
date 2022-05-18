@@ -4130,6 +4130,14 @@
 	<files>
 		<path>media/clothing/clothingItems/FatBody01_DadBod.xml</path>
 		<guid>8d396317-7d2e-4766-83b6-010ebc189957</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/FatBody02_BurgerLover.xml</path>
+		<guid>655ef936-d617-4984-8472-831d8797218c</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/FatBody03_ObeseBod.xml</path>
+		<guid>8f6fc28a-f951-4891-8d21-d71ca5475169</guid>
 	</files>	
 	<files>
 		<path>media/clothing/clothingItems/GearWinslow.xml</path>
@@ -6127,17 +6135,170 @@
 		<path>media/clothing/clothingItems/Gloves_ArmBoneR.xml</path>
 		<guid>6e7fb312-cb8b-4bf4-8062-c2a72851e190</guid>
 	</files>
+	<!-- Authentic Z Hair/Beard Styles/Wigs -->	
+	<files>
+		<path>media/clothing/clothingItems/AZ_BeardStyle01.xml</path>
+		<guid>655ef936-d617-4984-8472-831d8797218c</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/AZ_BeardStyle02.xml</path>
+		<guid>8f6fc28a-f951-4891-8d21-d71ca5475169</guid>
+	</files>	
+	<files>
+		<path>media/clothing/clothingItems/AZ_BeardStyle03.xml</path>
+		<guid>efc414d4-cbc8-46da-8f48-ac2790b83b71</guid>
+	</files>	
+	<files>
+		<path>media/clothing/clothingItems/AZ_BeardStyle04.xml</path>
+		<guid>646c15bb-4864-4bef-a553-c52e17be43ad</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/AZ_BeardStyle05.xml</path>
+		<guid>3ac7509a-c1aa-47c2-88de-613432fb3460</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/AZ_BeardStyle06.xml</path>
+		<guid>8ed861e9-c4d0-4468-bb68-3a1bfb978635</guid>
+	</files>	
+	<files>
+		<path>media/clothing/clothingItems/AZ_BeardStyle07.xml</path>
+		<guid>99fe2728-513d-4db8-96b8-7ff3a31958bb</guid>
+	</files>	
+	<files>
+		<path>media/clothing/clothingItems/AZ_BeardStyle08.xml</path>
+		<guid>82db5da3-62db-4d8e-9c88-96ba02405f7c</guid>
+	</files>	
+	<files>
+		<path>media/clothing/clothingItems/AZ_BeardStyle09.xml</path>
+		<guid>055dfb9b-7309-4925-b7e1-700058a57497</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/AZ_HairStyle01.xml</path>
+		<guid>3aea2b47-6126-4cde-92b1-a4880dfcff23</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/AZ_HairStyle02.xml</path>
+		<guid>bf78358f-c861-4794-8a07-2d4878f01bbb</guid>
+	</files>	
+	<files>
+		<path>media/clothing/clothingItems/AZ_HairStyle03.xml</path>
+		<guid>553f5a51-c446-4662-8fb7-221da223866e</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/AZ_HairStyle04.xml</path>
+		<guid>dfb7fbd9-489e-4ff8-a878-068ffeb78b03</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/AZ_HairStyle05.xml</path>
+		<guid>2697c755-ea70-478a-8d70-f131a078f7ce</guid>
+	</files>	
+	<files>
+		<path>media/clothing/clothingItems/AZ_HairStyle06.xml</path>
+		<guid>98d0e8f1-0601-46b3-a1a6-35d25bf92c6b</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/AZ_HairStyle07.xml</path>
+		<guid>1c8f82e5-7108-4dcc-af6c-33ec1a084f17</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/AZ_HairStyle08.xml</path>
+		<guid>66076bf7-af9d-4b68-a8af-db9980eef68e</guid>
+	</files>	
+	<files>
+		<path>media/clothing/clothingItems/AZ_HairStyle09.xml</path>
+		<guid>170f9e97-5a14-4111-9fc0-c1c932000c68</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/AZ_HairStyle10.xml</path>
+		<guid>e194a8ea-598e-4ba9-a447-c893d7832e30</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/AZ_HairStyle11.xml</path>
+		<guid>16286b92-c22a-4eaf-85c3-7b44d259bc5d</guid>
+	</files>	
+	<files>
+		<path>media/clothing/clothingItems/AZ_HairStyle12.xml</path>
+		<guid>5f1d6d0f-3130-40f9-b887-73dcbd601d86</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/AZ_HairStyle13.xml</path>
+		<guid>1b01c908-05a3-4b96-9aff-09705526190c</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/AZ_HairStyle14.xml</path>
+		<guid>ae103afd-c48d-4b8b-bd2a-cb0e50421469</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/AZ_HairStyle15.xml</path>
+		<guid>6a88f30a-35bf-45d9-a2da-bf9b44b75aa6</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/AZ_HairStyle16.xml</path>
+		<guid>ab8032ce-3bf6-4107-9c9d-aeaeb141c736</guid>
+	</files>	
+	<files>
+		<path>media/clothing/clothingItems/AZ_HairStyle17.xml</path>
+		<guid>ee1baa2e-6430-4d31-b456-1e605fc0c16d</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/AZ_HairStyle18.xml</path>
+		<guid>20e80298-4f0d-4a56-b8ee-2deed81e64bc</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/AZ_HairStyle19.xml</path>
+		<guid>79fb660c-90e1-4c0a-9b7d-ae94bb6dffc9</guid>
+	</files>	
+	<files>
+		<path>media/clothing/clothingItems/AZ_HairStyle20.xml</path>
+		<guid>7a014eb2-683f-405c-8669-392119df3129</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/AZ_HairStyle21.xml</path>
+		<guid>99af282e-2bf9-4e6e-80c5-38276a51a481</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/AZ_HairStyle22.xml</path>
+		<guid>819c0ce0-e120-45c1-9231-e1b18487a209</guid>
+	</files>	
+	<files>
+		<path>media/clothing/clothingItems/AZ_HairStyle23.xml</path>
+		<guid>2bf0c8ab-c5f2-44c5-bb51-c4a841559d90</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/AZ_HairStyle24.xml</path>
+		<guid>6dd2be88-68a5-4502-9408-9fbbd5244280</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/AZ_HairStyle25.xml</path>
+		<guid>96a18356-7e49-44ad-b0e4-61a5bd705561</guid>
+	</files>	
+	<files>
+		<path>media/clothing/clothingItems/AZ_HairStyle26.xml</path>
+		<guid>3983ea59-c1ce-4c94-a795-bce2fa2e7568</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/AZ_HairStyle27.xml</path>
+		<guid>17915d18a-a32d-421d-9d6e-417a8292042c</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/AZ_HairStyle28.xml</path>
+		<guid>a3ceb8926-a401-464e-91bf-33e8ec9a7ef6</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/AZ_HairStyle29.xml</path>
+		<guid>5f64bb89-02de-4cce-9b5d-a0f4ec9e48d4</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/AZ_HairStyle30.xml</path>
+		<guid>20c91354-0612-4913-9f7c-d15d4c2c4ede</guid>
+	</files>	
 	<!-- Authentic Z Fat Zombie Clothing -->
 	<files>
 		<path>media/clothing/clothingItems/Fat01_AmmoStrap.xml</path>
 		<guid>4c3355c9-5b21-4beb-a624-8bb1d85e6445</guid>
 	</files>
 	<files>
-			<path>media/clothing/clothingItems/Fat01_AmmoStrap2.xml</path>
-		<guid>4c3355c9-5b21-4beb-a624-8bb1d85e6445</guid>
-	</files>
-	<files>
-		<path>media/clothing/clothingItems/Fat01_Apron.xml</path>
+	<path>media/clothing/clothingItems/Fat01_Apron.xml</path>
 		<guid>63ee1f86-b556-4a54-8451-1fc41a958332</guid>
 	</files>	
 	<files>
@@ -6145,11 +6306,11 @@
 		<guid>f5906f8b-003e-43c1-a2d9-2064c5b25d24</guid>
 	</files>
 	<files>
-				<path>media/clothing/clothingItems/Fat01_HoodieUP.xml</path>
+	<path>media/clothing/clothingItems/Fat01_HoodieUP.xml</path>
 		<guid>d8a600ea-6485-405b-8c9f-d7a20b9242b1</guid>
 	</files>
 	<files>
-				<path>media/clothing/clothingItems/Fat01_HoodieDown.xml</path>
+	<path>media/clothing/clothingItems/Fat01_HoodieDown.xml</path>
 		<guid>662ed7ec-d0ab-4196-939d-8921bd6c9dc4</guid>
 	</files>	
 	<files>
@@ -6161,27 +6322,87 @@
 		<guid>d774e147-b0bf-4f19-b4c2-dffeca5fa1c9</guid>
 	</files>
 	<files>
-				<path>media/clothing/clothingItems/Fat01_JacketLong.xml</path>
+		<path>media/clothing/clothingItems/Fat01_JacketLong.xml</path>
 		<guid>7b568e28-d85e-45b2-b73f-92775170f635</guid>
 	</files>
 	<files>
-				<path>media/clothing/clothingItems/Fat01_PonchoUP.xml</path>
+		<path>media/clothing/clothingItems/Fat01_PonchoUP.xml</path>
 		<guid>842efdb2-0d1f-4ceb-965c-02a0386b86d3</guid>
 	</files>
 	<files>
-				<path>media/clothing/clothingItems/Fat01_PonchoDown.xml</path>
+		<path>media/clothing/clothingItems/Fat01_PonchoDown.xml</path>
 		<guid>4e839c86-c5e6-4433-aa57-a262f59b2f37</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Fat01_TShirt.xml</path>
+		<guid>a3c5ca65-034d-434a-8282-6e549c764ece</guid>
 	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Fat01_SportShorts.xml</path>
 		<guid>f1cba17f-e61f-4df5-b5c3-f35168da234d</guid>
 	</files>
 	<files>
-		<path>media/clothing/clothingItems/Fat01_ShellPants.xml</path>
+			<path>media/clothing/clothingItems/Fat01_ShellPants.xml</path>
 		<guid>01297d6d-164d-42f0-99a1-fd746a0bbe26</guid>
 	</files>
 	<files>
 		<path>media/clothing/clothingItems/Fat01_Vest_HighViz.xml</path>
 		<guid>aeada436-d1d1-40ac-bd1e-d863d78146a7</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Fat02_AmmoStrap.xml</path>
+		<guid>4c3355c9-5b21-4beb-a624-8bb1d85e6445</guid>
+	</files>
+	<files>
+	<path>media/clothing/clothingItems/Fat02_Apron.xml</path>
+		<guid>63ee1f86-b556-4a54-8451-1fc41a958332</guid>
 	</files>	
+	<files>
+		<path>media/clothing/clothingItems/Fat02_Coveralls.xml</path>
+		<guid>f5906f8b-003e-43c1-a2d9-2064c5b25d24</guid>
+	</files>
+	<files>
+	<path>media/clothing/clothingItems/Fat02_HoodieUP.xml</path>
+		<guid>d8a600ea-6485-405b-8c9f-d7a20b9242b1</guid>
+	</files>
+	<files>
+	<path>media/clothing/clothingItems/Fat02_HoodieDown.xml</path>
+		<guid>662ed7ec-d0ab-4196-939d-8921bd6c9dc4</guid>
+	</files>	
+	<files>
+		<path>media/clothing/clothingItems/Fat02_Jacket.xml</path>
+		<guid>dc5b30b7-fddf-452a-8ecc-f9c71e80d109</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Fat02_JacketLeather.xml</path>
+		<guid>d774e147-b0bf-4f19-b4c2-dffeca5fa1c9</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Fat02_JacketLong.xml</path>
+		<guid>7b568e28-d85e-45b2-b73f-92775170f635</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Fat02_PonchoUP.xml</path>
+		<guid>842efdb2-0d1f-4ceb-965c-02a0386b86d3</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Fat02_PonchoDown.xml</path>
+		<guid>4e839c86-c5e6-4433-aa57-a262f59b2f37</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Fat02_TShirt.xml</path>
+		<guid>a3c5ca65-034d-434a-8282-6e549c764ece</guid>
+	</files>	
+	<files>
+		<path>media/clothing/clothingItems/Fat02_SportShorts.xml</path>
+		<guid>f1cba17f-e61f-4df5-b5c3-f35168da234d</guid>
+	</files>
+	<files>
+			<path>media/clothing/clothingItems/Fat02_ShellPants.xml</path>
+		<guid>01297d6d-164d-42f0-99a1-fd746a0bbe26</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Fat02_Vest_HighViz.xml</path>
+		<guid>aeada436-d1d1-40ac-bd1e-d863d78146a7</guid>
+	</files>		
 </fileGuidTable>

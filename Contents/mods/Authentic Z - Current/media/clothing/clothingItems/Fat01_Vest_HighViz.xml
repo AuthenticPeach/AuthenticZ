@@ -11,5 +11,10 @@
 	<textureChoices>clothes\bulletvest\highvisvest</textureChoices>
 	<textureChoices>clothes\bulletvest\huntingvest_orange</textureChoices>	
 	<textureChoices>clothes\bulletvest\huntingvest_grey</textureChoices>		
+	<textureChoices>clothes\bulletvest\huntingvest_camo</textureChoices>
+	<textureChoices>clothes\bulletvest\huntingvest_orange</textureChoices>	
+	<textureChoices>clothes\bulletvest\huntingvest_grey</textureChoices>		
 	<textureChoices>clothes\bulletvest\huntingvest_camo</textureChoices>	
+	<textureChoices>clothes\Jumper\Jumper_TankTop</textureChoices>	
+	<textureChoices>clothes\Jumper\Jumper_TankTop_Diamond</textureChoices>	
 </clothingItem>
