@@ -6351,58 +6351,114 @@
 	</files>
 	<files>
 		<path>media/clothing/clothingItems/Fat02_AmmoStrap.xml</path>
-		<guid>4c3355c9-5b21-4beb-a624-8bb1d85e6445</guid>
+		<guid>39ed3174-8aff-4e8f-8ecb-ee929780c325</guid>
 	</files>
 	<files>
 	<path>media/clothing/clothingItems/Fat02_Apron.xml</path>
-		<guid>63ee1f86-b556-4a54-8451-1fc41a958332</guid>
+		<guid>01aece41-7110-4150-82bb-108cc1e52de9</guid>
 	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Fat02_Coveralls.xml</path>
-		<guid>f5906f8b-003e-43c1-a2d9-2064c5b25d24</guid>
+		<guid>f101bb2c-32d6-4789-935a-bcea540c84ed</guid>
 	</files>
 	<files>
 	<path>media/clothing/clothingItems/Fat02_HoodieUP.xml</path>
-		<guid>d8a600ea-6485-405b-8c9f-d7a20b9242b1</guid>
+		<guid>c1b28835-8c17-4916-a784-54c319019aa4</guid>
 	</files>
 	<files>
 	<path>media/clothing/clothingItems/Fat02_HoodieDown.xml</path>
-		<guid>662ed7ec-d0ab-4196-939d-8921bd6c9dc4</guid>
+		<guid>fcc864a4-7b1b-465d-980e-d096481da383</guid>
 	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Fat02_Jacket.xml</path>
-		<guid>dc5b30b7-fddf-452a-8ecc-f9c71e80d109</guid>
+		<guid>4a2116f6-7a0a-44f0-bf53-7e92a38e238e</guid>
 	</files>
 	<files>
 		<path>media/clothing/clothingItems/Fat02_JacketLeather.xml</path>
-		<guid>d774e147-b0bf-4f19-b4c2-dffeca5fa1c9</guid>
+		<guid>6f8a2837-25cf-428a-80a5-b7db89844ed9</guid>
 	</files>
 	<files>
 		<path>media/clothing/clothingItems/Fat02_JacketLong.xml</path>
-		<guid>7b568e28-d85e-45b2-b73f-92775170f635</guid>
+		<guid>9b54b24d-2e6f-4387-be14-dba6a77c8153</guid>
 	</files>
 	<files>
 		<path>media/clothing/clothingItems/Fat02_PonchoUP.xml</path>
-		<guid>842efdb2-0d1f-4ceb-965c-02a0386b86d3</guid>
+		<guid>0d9baa53-e21b-427c-a767-1c5623b4f067</guid>
 	</files>
 	<files>
 		<path>media/clothing/clothingItems/Fat02_PonchoDown.xml</path>
-		<guid>4e839c86-c5e6-4433-aa57-a262f59b2f37</guid>
+		<guid>20348fb1-c2aa-42a1-bae6-94a8f43cf542</guid>
 	</files>
 	<files>
 		<path>media/clothing/clothingItems/Fat02_TShirt.xml</path>
-		<guid>a3c5ca65-034d-434a-8282-6e549c764ece</guid>
+		<guid>795826d5-2ef1-4784-bfb6-e63acee2408b</guid>
 	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Fat02_SportShorts.xml</path>
-		<guid>f1cba17f-e61f-4df5-b5c3-f35168da234d</guid>
+		<guid>63ad58eb-cda1-48ba-8392-c39f3da7b5ea</guid>
 	</files>
 	<files>
-			<path>media/clothing/clothingItems/Fat02_ShellPants.xml</path>
-		<guid>01297d6d-164d-42f0-99a1-fd746a0bbe26</guid>
+		<path>media/clothing/clothingItems/Fat02_ShellPants.xml</path>
+		<guid>9510f899-5f42-448a-966a-c9a5a5fc8f15</guid>
 	</files>
 	<files>
 		<path>media/clothing/clothingItems/Fat02_Vest_HighViz.xml</path>
-		<guid>aeada436-d1d1-40ac-bd1e-d863d78146a7</guid>
-	</files>		
+		<guid>49a2c8ad-45fb-4ba0-b14b-8db1c7821b58</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Fat03_AmmoStrap.xml</path>
+		<guid>67be1753-b1c1-4dfd-a597-954710eac401</guid>
+	</files>
+	<files>
+	<path>media/clothing/clothingItems/Fat03_Apron.xml</path>
+		<guid>da5c4475-d8c5-44d4-b0f1-4ce64b544bbb</guid>
+	</files>	
+	<files>
+		<path>media/clothing/clothingItems/Fat03_Coveralls.xml</path>
+		<guid>0c6003a6-e605-4141-a280-64c3a840d610</guid>
+	</files>
+	<files>
+	<path>media/clothing/clothingItems/Fat03_HoodieUP.xml</path>
+		<guid>a83b2644-29e7-4ff1-8875-3eac909d64a7</guid>
+	</files>
+	<files>
+	<path>media/clothing/clothingItems/Fat03_HoodieDown.xml</path>
+		<guid>da03838b-81d9-4d8f-a139-cb9beb2a459d</guid>
+	</files>	
+	<files>
+		<path>media/clothing/clothingItems/Fat03_Jacket.xml</path>
+		<guid>58505b49-ae4b-4be0-ac20-9d95508ec258</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Fat03_JacketLeather.xml</path>
+		<guid>1f0cc07e-dca1-4e1d-b5de-984b90b4aa6a</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Fat03_JacketLong.xml</path>
+		<guid>41b6deaf-fd95-4338-9e4b-c192dc92f287</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Fat03_PonchoUP.xml</path>
+		<guid>1bdd0348-dd60-4082-9361-1ada00e7e662</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Fat03_PonchoDown.xml</path>
+		<guid>90ae1f77-d6a1-456f-81a3-87351eb53e34</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Fat03_TShirt.xml</path>
+		<guid>54b8b1c3-83cb-48b7-9455-45dc1f57f069</guid>
+	</files>	
+	<files>
+		<path>media/clothing/clothingItems/Fat03_SportShorts.xml</path>
+		<guid>f8734bc0-a2b2-43c1-ab25-b22995c33d40</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Fat03_ShellPants.xml</path>
+		<guid>6b6e36ad-f838-4540-99d2-38dcdbcee8b8</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Fat03_Vest_HighViz.xml</path>
+		<guid>0bf3682c-3ac3-4981-bcf1-de22b79c43dc</guid>
+	</files>	
 </fileGuidTable>

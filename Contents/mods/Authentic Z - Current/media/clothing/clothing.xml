@@ -3710,7 +3710,7 @@
 			<itemGUID>4c3355c9-5b21-4beb-a624-8bb1d85e6445</itemGUID> 					
 		</m_items>		
 		<m_items> <!-- Cigarette -->
-			<probability>0.1</probability>		
+			<probability>0.05</probability>		
 			<itemGUID>410485f1-a2d9-4936-bc38-2deb0c9d0ec5</itemGUID> 
 		</m_items>
 		<m_items> <!-- Hawaiian Lei -->
