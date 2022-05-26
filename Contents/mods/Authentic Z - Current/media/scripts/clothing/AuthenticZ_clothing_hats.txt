@@ -1444,7 +1444,8 @@ module AuthenticZClothing {
         WindResistance = 0.55,
         WaterResistance = 1.0,
         WorldStaticModel = WorldItem-TagillaHelmet,
-		Tooltip = Tooltip_TagillaHelmet,		
+		Tooltip = Tooltip_TagillaHelmet,
+		Tags = WeldingMask,		
 	}
 	item Hat_TagillaMask2
 	{
@@ -1461,7 +1462,8 @@ module AuthenticZClothing {
         Insulation = 0.25,
         WindResistance = 0.55,
         WaterResistance = 1.0,
-        WorldStaticModel = WorldItem-TagillaHelmetGorilla,			
+        WorldStaticModel = WorldItem-TagillaHelmetGorilla,
+		Tags = WeldingMask,		
 	}	
 	item Hat_TrueEyeCult
 	{

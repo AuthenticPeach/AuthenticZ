@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <clothingItem>
-	<m_MaleModel>skinned\Beards\Bob_Beard_Only</m_MaleModel>
-	<m_FemaleModel>skinned\Beards\Bob_Beard_Only</m_FemaleModel>
+	<m_MaleModel>skinned\Beards\Bob_Beard_Moustache</m_MaleModel>
+	<m_FemaleModel>skinned\Beards\Bob_Beard_Moustache</m_FemaleModel>
 	<m_GUID>99fe2728-513d-4db8-96b8-7ff3a31958bb</m_GUID>
 	<m_Static>true</m_Static>
 	<m_AllowRandomHue>false</m_AllowRandomHue>
