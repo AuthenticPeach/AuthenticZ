@@ -1445,20 +1445,20 @@ module AuthenticZClothing {
     }	
     item Jacket_Varsity_AZ
     {
-        DisplayCategory = Clothing,
-        Type = Clothing,
-        DisplayName = Varsity Jacket,
-        ClothingItem = Jacket_Varsity_AZ,
-        BodyLocation = Jacket,
-        BloodLocation = Jacket,
-        Icon = JacketVarsity_Alpha,
-        ScratchDefense = 20,
-        BiteDefense = 10,
-        NeckProtectionModifier = 0.3,
-        Insulation = 0.60,
-        WindResistance = 0.5,
-        FabricType = Cotton,
-        WorldStaticModel = JacketCoat_Ground,
+        DisplayCategory 		= Clothing,
+        Type 					= Clothing,
+        DisplayName 			= Varsity Jacket,
+        ClothingItem 			= Jacket_Varsity_AZ,
+        BodyLocation 			= Jacket,
+        BloodLocation 			= Jacket,
+        Icon 					= JacketVarsity_Alpha,
+        ScratchDefense		 	= 20,
+        BiteDefense 			= 10,
+        NeckProtectionModifier 	= 0.3,
+        Insulation 				= 0.60,
+        WindResistance 			= 0.5,
+        FabricType		 		= Cotton,
+        WorldStaticModel 		= JacketCoat_Ground,
     }	
     item Suit_JacketBlue
     {
