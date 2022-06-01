@@ -869,6 +869,7 @@ ItemName_EN = {
 
 	/* New 5-31-22 */	
 
+	ItemName_AuthenticZClothing.AuthenticCigaretteHolder_Cig = "Cigarette Holder with Cigarette",
 	ItemName_AuthenticZClothing.AZ_OvenMitts = "Oven Mitts",
 	ItemName_AuthenticZClothing.Go_Sign = "Go Sign",
 	ItemName_AuthenticZClothing.Hat_EarMuffs_AZ  = "Ear Muffs",

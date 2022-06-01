@@ -1006,8 +1006,7 @@ module AuthenticZClothing {
     } 
 	item AuthenticCigaretteHolder
 	{
-		DisplayCategory 	= 	Household,
-        DisplayCategory = GreenFireItem,
+		DisplayCategory 	= 	Household
 		DisplayName			=	Cigarette Holder,
 		Icon				=	CigaretteHolder,
 		Weight				=	0.2,		
