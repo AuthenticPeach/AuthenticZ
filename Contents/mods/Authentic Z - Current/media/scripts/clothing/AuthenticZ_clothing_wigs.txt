@@ -271,7 +271,18 @@ module AuthenticZClothing {
         ClothingItem = AZ_HairStyle30,
         BodyLocation = Hat,
         Icon = Wig,
-    }		
+    }	
+
+    item AZ_HairStyle30
+    {
+       DisplayCategory = Accessory,		
+		Type = Clothing,
+        DisplayName = Rainbow Wig,		
+		ClothingItem = AZ_HairStyle31,
+		BodyLocation = Hat,
+        Icon = Wig,		
+    }
+	
     item Hairstyle_Pennywise
     {
        DisplayCategory = Accessory,		

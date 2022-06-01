@@ -125,7 +125,7 @@ module AuthenticZClothing {
 		ClothingItemExtra 		= AuthenticZClothing.Authentic_Headphones2,
         ClothingItemExtraOption = WearHead,		
 		BodyLocation 			= Necklace_Long,
-		IconsForTexture  		= HeadphonesBlack;HeadphonesBlackSpecial;HeadphonesBlue;HeadphonesBrightPink;HeadphonesGold;HeadphonesGreen;HeadphonesLightBlue;HeadphonesLightBlueSpecial;HeadphonesPink;HeadphonesPurple;HeadphonesRose;HeadphonesSeaGreenl;HeadphonesWhite;HeadphonesWhiteSpecial,
+		IconsForTexture  		= HeadphonesBlack;HeadphonesBlackSpecial;HeadphonesBlue;HeadphonesBrightPink;HeadphonesGold;HeadphonesGreen;HeadphonesLightBlue;HeadphonesLightBlueSpecial;HeadphonesPink;HeadphonesPurple;HeadphonesRose;HeadphonesSeaGreen;HeadphonesWhite;HeadphonesWhiteSpecial,
 		Weight 					= 0.3,
 		ChanceToFall 			= 25,
 		WorldStaticModel 		= WorldItem_HeadPhones,
@@ -412,6 +412,23 @@ module AuthenticZClothing {
         FabricType = Leather,
         WorldStaticModel = Gloves_Ground,		
 	}
+	item Gloves_OvenMitts
+	{
+        DisplayCategory = Clothing,		
+		Type 			= Clothing,
+		DisplayName 	= Oven Mitts,
+		ClothingItem = AZ_OvenMitts,
+		BodyLocation = Hands,
+		BloodLocation = Hands,
+		Icon = OvenMitt,
+		ScratchDefense = 25,
+        BiteDefense = 10,
+        Weight = 0.1,
+        Insulation = 1.0,
+        WindResistance = 1.0,
+        FabricType = Leather,
+        WorldStaticModel = OvenMitt_Ground,		
+	}	
 	item Gloves_Black
 	{
        DisplayCategory = Clothing,		
@@ -541,7 +558,75 @@ module AuthenticZClothing {
         WindResistance = 0.5,
         FabricType = Cotton,
         WorldStaticModel = GlovesLong_Ground,
-	}	
+	}
+	item Hat_EarMuffs_AZ
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Ear Muffs,
+		ClothingItem = Hat_EarMuffs_AZ,
+		ClothingItemExtra		= AuthenticZClothing.Hat_EarMuffs_Neck,
+        ClothingItemExtraOption = WearNeck,		
+		BodyLocation = Necklace,
+		Icon = EarMuffs,
+		CanHaveHoles = false,
+		ChanceToFall = 30,
+        BloodLocation = Head,
+        Insulation = 0.4,
+        WindResistance = 0.4,
+        Weight = 0.3,
+    }	
+	item Hat_EarMuffs_Neck
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Ear Muffs (Neck),
+		ClothingItem = Hat_EarMuffs_Neck,
+		ClothingItemExtra 		= AuthenticZClothing.Hat_EarMuffs_AZ,
+        ClothingItemExtraOption = WearHead,			
+		BodyLocation = Necklace_Long,
+		Icon = EarMuffs,
+		CanHaveHoles = false,
+		ChanceToFall = 30,
+        BloodLocation = Head,
+        Insulation = 0.4,
+        WindResistance = 0.4,
+        Weight = 0.3,
+    }
+	item Hat_EarMuff_Protectors_AZ
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Ear Protectors,
+		ClothingItem = Hat_EarMuff_Protectors_AZ,
+		ClothingItemExtra		= AuthenticZClothing.Hat_EarMuff_Protectors_Neck,
+        ClothingItemExtraOption = WearNeck,		
+		BodyLocation = Necklace,
+		Icon = EarProtectors,
+		CanHaveHoles = false,
+		ChanceToFall = 30,
+        BloodLocation = Head,
+        Insulation = 0.35,
+        WindResistance = 0.35,
+        Weight = 0.3,
+    }	
+	item Hat_EarMuff_Protectors_Neck
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Ear Protectors (Neck),
+		ClothingItem = Hat_EarMuff_Protectors_Neck,
+		ClothingItemExtra 		= AuthenticZClothing.Hat_EarMuff_Protectors_AZ,
+        ClothingItemExtraOption = WearHead,			
+		BodyLocation = Necklace_Long,
+		Icon = EarProtectors,
+		CanHaveHoles = false,
+		ChanceToFall = 30,
+        BloodLocation = Head,
+        Insulation = 0.35,
+        WindResistance = 0.35,
+        Weight = 0.3,
+    }	
 	item Hairstyle_Afro_Pick
 	{
        DisplayCategory    = Accessory,		

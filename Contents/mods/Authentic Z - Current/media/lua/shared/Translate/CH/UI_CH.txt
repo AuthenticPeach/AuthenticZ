@@ -1,23 +1,23 @@
 -- Encode this file as UTF-8
 UI_CH = {
 
-UI_ClothingType_AmmoStrap2 = "¼uÃÄ±a",
-
-UI_optionscreen_binding_Hotbar 6 = "§Ö±¶Áä6",
-UI_optionscreen_binding_Hotbar 7 = "§Ö±¶Áä7",
-UI_optionscreen_binding_Hotbar 8 = "§Ö±¶Áä8",
-UI_optionscreen_binding_Hotbar 9 = "§Ö±¶Áä9",
-UI_optionscreen_binding_Hotbar 10 = "§Ö±¶Áä10",
-UI_optionscreen_binding_Hotbar 11 = "§Ö±¶Áä11",
-UI_optionscreen_binding_Hotbar 12 = "§Ö±¶Áä12",
-UI_optionscreen_binding_Hotbar 13 = "§Ö±¶Áä13",
-UI_optionscreen_binding_Hotbar 14 = "§Ö±¶Áä14",
-UI_optionscreen_binding_Hotbar 15 = "§Ö±¶Áä15",
-UI_optionscreen_binding_Hotbar 16 = "§Ö±¶Áä16",
-UI_optionscreen_binding_Hotbar 17 = "§Ö±¶Áä17",
-UI_optionscreen_binding_Hotbar 18 = "§Ö±¶Áä18",
-UI_optionscreen_binding_Hotbar 19 = "§Ö±¶Áä19",
-UI_optionscreen_binding_Hotbar 20 = "§Ö±¶Áä20",
-UI_optionscreen_binding_SlingBindings = "Authentic Z §Ö±¶Áä³]¸m",
+UI_ClothingType_AmmoStrap2 = "å½ˆè—¥å¸¶",
+ 
+UI_optionscreen_binding_Hotbar 6 = "å¿«æ·éµ6",
+UI_optionscreen_binding_Hotbar 7 = "å¿«æ·éµ7",
+UI_optionscreen_binding_Hotbar 8 = "å¿«æ·éµ8",
+UI_optionscreen_binding_Hotbar 9 = "å¿«æ·éµ9",
+UI_optionscreen_binding_Hotbar 10 = "å¿«æ·éµ10",
+UI_optionscreen_binding_Hotbar 11 = "å¿«æ·éµ11",
+UI_optionscreen_binding_Hotbar 12 = "å¿«æ·éµ12",
+UI_optionscreen_binding_Hotbar 13 = "å¿«æ·éµ13",
+UI_optionscreen_binding_Hotbar 14 = "å¿«æ·éµ14",
+UI_optionscreen_binding_Hotbar 15 = "å¿«æ·éµ15",
+UI_optionscreen_binding_Hotbar 16 = "å¿«æ·éµ16",
+UI_optionscreen_binding_Hotbar 17 = "å¿«æ·éµ17",
+UI_optionscreen_binding_Hotbar 18 = "å¿«æ·éµ18",
+UI_optionscreen_binding_Hotbar 19 = "å¿«æ·éµ19",
+UI_optionscreen_binding_Hotbar 20 = "å¿«æ·éµ20",
+UI_optionscreen_binding_SlingBindings = "Authentic Z å¿«æ·éµè¨­ç½®",
 
 }

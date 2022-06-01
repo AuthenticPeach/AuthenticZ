@@ -3416,6 +3416,10 @@
 		<guid>69bbaea6-1cde-4dfd-874b-760921b36b58</guid>
 	</files>
 	<files>
+		<path>media/clothing/clothingItems/AZ_OvenMitts.xml</path>
+		<guid>17c8dc6a-cd3e-4441-92fb-2c6dc9dcbce2</guid>
+	</files>	
+	<files>
 		<path>media/clothing/clothingItems/Bag_ALICEpack_UrbanCamo.xml</path>
 		<guid>3db442f3-2df0-4693-b6b8-262695a73640</guid>
 	</files>
@@ -4133,11 +4137,15 @@
 	</files>
 	<files>
 		<path>media/clothing/clothingItems/FatBody02_BurgerLover.xml</path>
-		<guid>655ef936-d617-4984-8472-831d8797218c</guid>
+		<guid>4fb1ba51-7001-4f4e-995a-e1e7650dae70</guid>
 	</files>
 	<files>
 		<path>media/clothing/clothingItems/FatBody03_ObeseBod.xml</path>
-		<guid>8f6fc28a-f951-4891-8d21-d71ca5475169</guid>
+		<guid>621e545c-35f4-45c2-953d-6df1564e8f67</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/FatBody03_ObeseBod_Clown.xml</path>
+		<guid>39f5e471-b1fd-4cff-9aaf-7213430aed62</guid>
 	</files>	
 	<files>
 		<path>media/clothing/clothingItems/GearWinslow.xml</path>
@@ -4460,6 +4468,22 @@
 		<guid>5f7a3b56-e59b-41c4-88cd-3e5021cc4c7a</guid>
 	</files>
 	<files>
+		<path>media/clothing/clothingItems/Hat_EarMuffs_AZ.xml</path>
+		<guid>7bb90dbb-3b02-45c3-85bf-eed607d1f9bb</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Hat_EarMuffs_Neck.xml</path>
+		<guid>353b1d3e-1ab1-45a1-9368-5dbef3617133</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Hat_EarMuff_Protectors_AZ.xml</path>
+		<guid>a6d1f48d-74a1-4353-9718-b1bacf5566be</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Hat_EarMuff_Protectors_Neck.xml</path>
+		<guid>ba78e404-4246-48fd-ab5f-31400204b4bf</guid>
+	</files>	
+	<files>
 		<path>media/clothing/clothingItems/Hat_FastFood_Donut.xml</path>
 		<guid>5eed625b-18e4-4bc2-bdc7-1b3f4d5fe470</guid>
 	</files>	
@@ -4588,9 +4612,21 @@
 		<guid>358ec97d-4d24-47c3-ab3b-87fc799329f9</guid>
 	</files>
 	<files>
+		<path>media/clothing/clothingItems/Hat_WeddingVeilPink_Front.xml</path>
+		<guid>17c8dc6a-cd3e-4441-92fb-2c6dc9dcbce2</guid>
+	</files>	
+	<files>
+		<path>media/clothing/clothingItems/Hat_WeddingVeil_Front.xml</path>
+		<guid>7ff132e6-94f8-4f66-8c14-3b40b2fa0c7d</guid>
+	</files>	
+	<files>
 		<path>media/clothing/clothingItems/Hat_WeddingVeilBlue.xml</path>
 		<guid>28cadbe0-cf32-4eb0-937b-5ab48070675f</guid>
 	</files>
+	<files>
+		<path>media/clothing/clothingItems/Hat_WeddingVeilBlue_Front.xml</path>
+		<guid>0e856da0-1503-49a0-8bc8-f56fba48293f</guid>
+	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Hat_TagillaMask.xml</path>
 		<guid>97a3fa4b-d725-4f28-9ed1-65705a5a6864</guid>
@@ -4982,7 +5018,11 @@
 	<files>
 		<path>media/clothing/clothingItems/Jacket_Trenchcoat.xml</path>
 		<guid>d8b4a5a5-17b8-4918-a4b1-1c95130a3a97</guid>
-	</files>		
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Jacket_Varsity_AZ.xml</path>
+		<guid>60dc9cab-ba5f-4a2d-9f7f-a0c6d7156e39</guid>
+	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Jacket_Zoey.xml</path>
 		<guid>bbd948ee-c428-4e61-a49b-5fcc60897f27</guid>
@@ -6291,6 +6331,10 @@
 	<files>
 		<path>media/clothing/clothingItems/AZ_HairStyle30.xml</path>
 		<guid>20c91354-0612-4913-9f7c-d15d4c2c4ede</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/AZ_HairStyle31.xml</path>
+		<guid>b76499b3-ce2c-4f3a-97ef-81496b303d68</guid>
 	</files>	
 	<!-- Authentic Z Fat Zombie Clothing -->
 	<files>
@@ -6424,6 +6468,10 @@
 	<files>
 		<path>media/clothing/clothingItems/Fat03_TShirt.xml</path>
 		<guid>54b8b1c3-83cb-48b7-9455-45dc1f57f069</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Fat03_Shoes.xml</path>
+		<guid>dca66f80-0385-431f-b9d5-43646027f8e8</guid>
 	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Fat03_SportShorts.xml</path>

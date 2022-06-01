@@ -527,6 +527,8 @@ AttachedWeaponDefinitions.StopSign= {
 	daySurvived = 0,
 	weapons = {
 		"AuthenticZClothing.Stop_Sign",
+		"AuthenticZClothing.Stop_Sign",
+		"AuthenticZClothing.Go_Sign",
 	},
 }
 

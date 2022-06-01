@@ -1443,6 +1443,23 @@ module AuthenticZClothing {
         Weight = 2,
         WorldStaticModel = Jacket_Ground,			
     }	
+    item Jacket_Varsity_AZ
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Varsity Jacket,
+        ClothingItem = Jacket_Varsity_AZ,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = JacketVarsity_Alpha,
+        ScratchDefense = 20,
+        BiteDefense = 10,
+        NeckProtectionModifier = 0.3,
+        Insulation = 0.60,
+        WindResistance = 0.5,
+        FabricType = Cotton,
+        WorldStaticModel = JacketCoat_Ground,
+    }	
     item Suit_JacketBlue
     {
         DisplayCategory = Clothing,		
@@ -1555,6 +1572,26 @@ module AuthenticZClothing {
         FabricType 		 = Cotton,
         Weight 			 = 2,
         WorldStaticModel = SuitJacket_Ground,		
+    }
+	
+    item Jacket_StraightJacket
+    {
+        DisplayCategory = Clothing,		
+        Type = Clothing,
+        DisplayName = Straight Jacket,
+        ClothingItem = Jacket_StraightJacket,
+        BodyLocation = Jacket,
+        Icon = JacketZoey,
+        BloodLocation = Jacket,
+        RunSpeedModifier = 0.95,
+        BiteDefense = 10,
+        ScratchDefense = 25,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.5,
+        WindResistance = 0.35,
+        FabricType = Cotton,
+        Weight = 2,
+        WorldStaticModel = Jacket_Ground,			
     }
 
     item HoodieDOWN_Black

@@ -98,6 +98,14 @@ recipe Convert into Wearable
    	   Result:Postal_Petition,
 	   Time:30.0,
   	}
+	
+recipe Convert into Wearable
+  	{
+   	   OvenMitt=2,
+
+   	   Result:AZ_OvenMitts,
+	   Time:30.0,
+  	}	
 
     recipe Dismantle Headphones
     {
@@ -530,6 +538,22 @@ recipe Open Sealed Medkit
      StopOnWalk:false,
 	 AnimNode:RipSheets,
    }
+
+recipe Wear on Neck
+  	{
+   	   Hat_EarMuffs,
+
+   	   Result:Hat_EarMuffs_AZ,
+	   Time:30.0,
+  	}
+	
+recipe Wear on Neck
+  	{
+   	   Hat_EarMuff_Protectors,
+
+   	   Result:Hat_EarMuff_Protectors_AZ,
+	   Time:30.0,
+  	}	
 	
 	/* Modded - recipe */
 recipe Convert into Wearable

@@ -1579,6 +1579,46 @@ module AuthenticZClothing {
         Tags = CutPlant,
  	}
 
+    item Go_Sign
+    {
+        DisplayCategory = ToolWeapon,	
+        Weight	=	1.0,
+        Type	=	Weapon,
+        DisplayName	=	Go Sign,
+        Icon	=	GoStopSign,
+        StaticModel = GoSign,
+        primaryAnimMask = HoldingTorchRight,
+        secondaryAnimMask = HoldingTorchLeft,	
+        WeaponSprite	=	GoSign,
+        MinAngle	=	0.6,
+        MinimumSwingTime	=	2,
+        KnockBackOnNoDeath	=	FALSE,
+        SwingAmountBeforeImpact	=	0.02,
+        Categories	=	Improvised;SmallBlunt,
+        ConditionLowerChanceOneIn	=	10,
+        SplatNumber	=	1,
+        PushBackMod	=	0.3,
+        SubCategory	=	Swinging,
+        ConditionMax	=	5,
+        MaxHitCount	=	2,
+        DoorDamage	=	1,
+        SwingAnim	=	Bat,
+        MinRange	=	0.68,
+        SwingTime	=	2,
+        KnockdownMod	=	0,
+        SplatBloodOnNoDeath	=	FALSE,
+        BreakSound  =   BreakMetalItem,
+        TreeDamage  =   0,
+		Tooltip = Tooltip_Go,
+        CriticalChance	=	30,
+        CritDmgMultiplier = 2,
+        MinDamage	=	0.4,
+        MaxDamage	=	0.7,
+        BaseSpeed = 1,
+        WeaponLength = 0.3,		
+		AttachmentType = Wrench,
+    }
+
     item ShortMetalSpike
     {
         DisplayCategory = WeaponCrafted,	

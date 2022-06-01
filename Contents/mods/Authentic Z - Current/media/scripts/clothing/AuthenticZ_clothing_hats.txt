@@ -1187,7 +1187,8 @@ module AuthenticZClothing {
         Insulation = 0.45,
         WindResistance = 0.65,
         WaterResistance = 1.0,
-		WorldStaticModel = WorldItem-KilaHelmet,		
+		WorldStaticModel = WorldItem-KilaHelmet,
+		Tags = WeldingMask,			
 	}
 	item Hat_LeatherFace
 	{
@@ -1503,6 +1504,8 @@ module AuthenticZClothing {
 		Type = Clothing,
 		DisplayName = Blue Wedding Veil,
 		ClothingItem = Hat_WeddingVeilBlue,
+        ClothingItemExtra = AuthenticZClothing.Hat_WeddingVeilBlue_Front,
+        ClothingItemExtraOption = PullVeilForward,		
 		BodyLocation = Hat,
 		Icon = VeilWeddingBlue,
 		CanHaveHoles = false,
@@ -1510,12 +1513,59 @@ module AuthenticZClothing {
 		Weight = 0.5,
 		WorldStaticModel = WeddingVeilBlue_Ground,
 	}
+	item Hat_WeddingVeilBlue_Front
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Wedding Veil (Down),
+		ClothingItem = Hat_WeddingVeilBlue_Front,
+        ClothingItemExtra = AuthenticZClothing.Hat_WeddingVeilBlue,
+        ClothingItemExtraOption = PullVeilBack,		
+		BodyLocation = Hat,
+		Icon = VeilWeddingBlue,
+		CanHaveHoles = false,
+		ChanceToFall = 80,
+		Weight = 0.5,
+		WorldStaticModel = WeddingVeil_Ground,
+	}	
+	item Hat_WeddingVeil_AZ
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Wedding Veil,
+		ClothingItem = Hat_WeddingVeil,
+        ClothingItemExtra = AuthenticZClothing.Hat_WeddingVeil_Front,
+        ClothingItemExtraOption = PullVeilForward,		
+		BodyLocation = Hat,
+		Icon = VeilWedding,
+		CanHaveHoles = false,
+		ChanceToFall = 80,
+		Weight = 0.5,
+		WorldStaticModel = WeddingVeil_Ground,
+	}	
+	item Hat_WeddingVeil_Front
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Wedding Veil (Down),
+		ClothingItem = Hat_WeddingVeil_Front,
+        ClothingItemExtra = AuthenticZClothing.Hat_WeddingVeil_AZ,
+        ClothingItemExtraOption = PullVeilBack,		
+		BodyLocation = Hat,
+		Icon = VeilWedding,
+		CanHaveHoles = false,
+		ChanceToFall = 80,
+		Weight = 0.5,
+		WorldStaticModel = WeddingVeil_Ground,
+	}
 	item Hat_WeddingVeilPink
 	{
 	    DisplayCategory = Accessory,	
 		Type = Clothing,
 		DisplayName = Pink Wedding Veil,
 		ClothingItem = Hat_WeddingVeilPink,
+        ClothingItemExtra = AuthenticZClothing.Hat_WeddingVeilPink_Front,
+        ClothingItemExtraOption = PullVeilForward,		
 		BodyLocation = Hat,
 		Icon = VeilWeddingPink,
 		CanHaveHoles = false,
@@ -1523,6 +1573,21 @@ module AuthenticZClothing {
 		Weight = 0.5,
 		WorldStaticModel = WeddingVeilPink_Ground,
 	}
+	item Hat_WeddingVeilPink_Front
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Pink Wedding Veil (Down),
+		ClothingItem = Hat_WeddingVeilPink_Front,
+        ClothingItemExtra = AuthenticZClothing.Hat_WeddingVeilPink,
+        ClothingItemExtraOption = PullVeilBack,		
+		BodyLocation = Hat,
+		Icon = VeilWeddingPink,
+		CanHaveHoles = false,
+		ChanceToFall = 80,
+		Weight = 0.5,
+		WorldStaticModel = WeddingVeil_Ground,
+	}	
 	item Hat_WinslowHelmet
 	{
 	    DisplayCategory = Accessory,	

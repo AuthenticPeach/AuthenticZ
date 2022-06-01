@@ -867,6 +867,18 @@ ItemName_EN = {
 	ItemName_AuthenticZClothing.CEDAHazmatSuitRedNoMaskNoShoes = "CEDA Hazmat Suit",
 	ItemName_AuthenticZClothing.CEDAHazmatSuitRedNoMask = "CEDA Hazmat Suit",
 
-	/* New */	
+	/* New 5-31-22 */	
+
+	ItemName_AuthenticZClothing.AZ_OvenMitts = "Oven Mitts",
+	ItemName_AuthenticZClothing.Go_Sign = "Go Sign",
+	ItemName_AuthenticZClothing.Hat_EarMuffs_AZ  = "Ear Muffs",
+	ItemName_AuthenticZClothing.Hat_EarMuffs_Neck = "Ear Muffs (On Neck)",		
+	ItemName_AuthenticZClothing.Hat_EarMuff_Protectors_AZ = "Ear Protectors",		
+	ItemName_AuthenticZClothing.Hat_EarMuff_Protectors_Neck = "Ear Protectors (On Neck)",
+	ItemName_AuthenticZClothing.Hat_WeddingVeil_Front_AZ = "Wedding Veil",
+	ItemName_AuthenticZClothing.Hat_WeddingVeil_Front = "Wedding Veil (Down)",
+	ItemName_AuthenticZClothing.Hat_WeddingVeilBlue_Front = "Blue Wedding Veil (Down)",
+	ItemName_AuthenticZClothing.Hat_WeddingVeilPink_Front = "Pink Wedding Veil (Down)",
+	ItemName_AuthenticZClothing.Jacket_StraightJacket = "Straight Jacket",
 	
 }

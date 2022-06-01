@@ -2012,6 +2012,92 @@
 		</m_items>		
 </m_MaleOutfits>
 
+<m_MaleOutfits> <m_Name>AuthenticClownGeneric</m_Name>
+		<m_Guid>7f340c13-dd52-4c67-8e5c-a8be4efb8b3c</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowTopTint>false</m_AllowTopTint>	
+		<m_items> <!-- Clown Suit -->
+			<itemGUID>13092f4b-c55e-4ff3-afab-f5fb82751d9c</itemGUID>
+		</m_items>
+		<m_items> <!-- Clown Top -->
+			<itemGUID>44a20134-7d25-49a9-8cf6-11dda7b6a2eb</itemGUID>
+		</m_items>		
+		<m_items> <!-- Long Socks -->
+			<itemGUID>fb86bd5f-1931-4b24-a5d7-bd6a43769991</itemGUID>
+		</m_items>	
+		<m_items> <!-- Clown Shoes -->
+			<itemGUID>725cf8ef-b572-4627-b59a-53c30c2c23ea</itemGUID>
+			<subItems> <!-- Clown Shoes -->
+				<itemGUID>725cf8ef-b572-4627-b59a-53c30c2c23ea</itemGUID>
+			</subItems>				
+			<subItems> <!-- Polka dot Clown Shoes -->
+				<itemGUID>c1d1bb73-02ed-4885-b2ce-d89f67039d34a</itemGUID>
+			</subItems>				
+		</m_items>
+		<m_items> <!-- Rim Tank Top -->
+			<itemGUID>48e002a3-87ae-4781-acb6-b65830ba39f1</itemGUID>
+		</m_items>
+		<m_items> <!-- White gloves -->
+			<itemGUID>7d18ca16-fdb4-462e-b9a7-4f358cdd7525</itemGUID>
+		</m_items>		
+		<m_items> <!-- Makeup -->
+			<itemGUID>733535da-1381-4e20-a0f0-1976e2a6fdd0</itemGUID>
+			<subItems>
+				<itemGUID>9699c96e-322a-4d19-8d02-7ff7cb04fa12</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>a6bce9c8-2984-40e4-8a40-e88623df9a53</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>b6f83858-a314-4a26-958b-0be42111d2dd</itemGUID>
+			</subItems>			
+			<subItems>
+				<itemGUID>58ac7cec-9859-4ef5-b205-053687a7c75d</itemGUID>
+			</subItems>	
+			<subItems>
+				<itemGUID>1de80565-3076-4599-9bdd-69cbc4d5f9a7</itemGUID>
+			</subItems>	
+		</m_items>
+		<m_items> <!-- Clown Nose -->
+			<itemGUID>45a49acf-b95e-4aa3-b842-ea7d37c040db</itemGUID>
+			<subItems> <!-- Clown Nose TINT-->
+				<itemGUID>062324f6-6c13-4c0c-a405-bbcb10827d51</itemGUID>
+			</subItems>				
+		</m_items>		
+</m_MaleOutfits>
+
+<m_MaleOutfits> <m_Name>AuthenticClownObese</m_Name>
+		<m_Guid>0cb2d4dd-cdf9-4351-9904-84d56e4a4963</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_items> <!-- Level 3 Obese Body - Clown Makeup -->
+			<itemGUID>39f5e471-b1fd-4cff-9aaf-7213430aed62</itemGUID>
+		</m_items>	
+		<m_items> <!-- Rainbow Hairstyle -->
+			<itemGUID>b76499b3-ce2c-4f3a-97ef-81496b303d68</itemGUID>
+		</m_items>		
+		<m_items> <!-- Clown Pants -->
+			<itemGUID>5d2a63e8-0d47-4ffa-b566-bdb8e540fa9d</itemGUID>
+		</m_items>
+		<m_items> <!-- Clown Shoes -->
+			<itemGUID>725cf8ef-b572-4627-b59a-53c30c2c23ea</itemGUID>		
+		</m_items>	
+		<m_items> <!-- Rim Tank Top -->
+			<itemGUID>48e002a3-87ae-4781-acb6-b65830ba39f1</itemGUID>
+		</m_items>
+		<m_items> <!-- White gloves -->
+			<itemGUID>7d18ca16-fdb4-462e-b9a7-4f358cdd7525</itemGUID>
+		</m_items>		
+		<m_items> <!-- Clown Nose -->
+			<itemGUID>45a49acf-b95e-4aa3-b842-ea7d37c040db</itemGUID>
+			<subItems> <!-- Clown Nose TINT-->
+				<itemGUID>062324f6-6c13-4c0c-a405-bbcb10827d51</itemGUID>
+			</subItems>				
+		</m_items>		
+</m_MaleOutfits>
+
 <m_MaleOutfits> <m_Name>AuthenticClownBarotrauma</m_Name>
 		<m_Guid>458f0e17-fb25-4328-98d2-11ad20507f19</m_Guid>
 		<m_Top>false</m_Top>
@@ -3754,7 +3840,7 @@
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
 		<m_items> <!-- Fat Skin 02 Fast-Food-Lover Bod -->
-			<itemGUID>655ef936-d617-4984-8472-831d8797218</itemGUID>
+			<itemGUID>4fb1ba51-7001-4f4e-995a-e1e7650dae70</itemGUID>
 		</m_items>
 		<m_items> <!-- BeardStyles -->
 			<probability>0.5</probability>
@@ -4009,7 +4095,7 @@
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
 		<m_items> <!-- Fat Skin 03 Fast-Food-Lover Bod -->
-			<itemGUID>8f6fc28a-f951-4891-8d21-d71ca5475169</itemGUID>
+			<itemGUID>621e545c-35f4-45c2-953d-6df1564e8f67</itemGUID>
 		</m_items>
 		<m_items> <!-- BeardStyles -->
 			<probability>0.5</probability>
@@ -4202,13 +4288,7 @@
 			</subItems>
 		</m_items>		
 		<m_items> <!-- Shoes -->
-			<itemGUID>6fed6e2b-3a72-4bac-aac5-09585984493d</itemGUID>
-			<subItems>
-				<itemGUID>593bea3d-c127-4574-ac1e-2197dc56e486</itemGUID>
-			</subItems>
-			<subItems>
-				<itemGUID>7741404b-9689-4608-a0f5-4e06597776f9</itemGUID>
-			</subItems>			
+			<itemGUID>dca66f80-0385-431f-b9d5-43646027f8e8</itemGUID>	
 		</m_items>		
 	</m_MaleOutfits>
 
@@ -5762,6 +5842,30 @@
 			<itemGUID>593bea3d-c127-4574-ac1e-2197dc56e486</itemGUID>
 		</m_items>		
 </m_FemaleOutfits>
+
+<m_MaleOutfits> <m_Name>AuthenticHotlineMiami</m_Name>
+		<m_Guid>eead5224-f857-467b-a112-ce0dc6feb903</m_Guid>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_items> <!-- Raccoon Hat (Placeholder for Chicken Hat -->
+			<itemGUID>dff2aab3-dd76-4383-b681-b6421211a2db</itemGUID>
+		</m_items>		
+		<m_items> <!--  Jacket_Varsity_AZ -->
+			<itemGUID>60dc9cab-ba5f-4a2d-9f7f-a0c6d7156e39</itemGUID>
+		</m_items>
+		<m_items> <!--   T-shirt White TINT  -->
+			<itemGUID>2256166c-64a6-4f81-8285-0779cab92fbd</itemGUID>			
+		</m_items>	
+		<m_items> <!-- Jeans -->
+			<itemGUID>8973893f-f324-4cdb-a32b-43cd0378174f</itemGUID>
+		</m_items>
+		<m_items> <!-- Long Socks -->
+			<itemGUID>fb86bd5f-1931-4b24-a5d7-bd6a43769991</itemGUID>
+		</m_items>
+		<m_items> <!-- High Top Sneakers-->
+				<itemGUID>9150e7da-a78d-4988-a799-e06bff2dae4a</itemGUID>
+		</m_items>		
+</m_MaleOutfits>
 
 <m_FemaleOutfits> <m_Name>Hunter</m_Name>
 		<m_Guid>c66532f5-350b-43c6-8ec8-0ac170158de7</m_Guid>

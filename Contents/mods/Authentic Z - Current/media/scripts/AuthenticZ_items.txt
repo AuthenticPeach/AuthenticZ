@@ -1003,25 +1003,35 @@ module AuthenticZClothing {
         Weight = 0.1,
 		CustomEatSound 		= ,		
 		WorldStaticModel = WorldItem_CigarAZ,
-    } 	
+    } 
 	item AuthenticCigaretteHolder
 	{
-		DisplayCategory = Household,	
+		DisplayCategory 	= 	Household,
+        DisplayCategory = GreenFireItem,
+		DisplayName			=	Cigarette Holder,
+		Icon				=	CigaretteHolder,
+		Weight				=	0.2,		
+		WorldStaticModel 	= 	WorldItem-CigaretteHolder,
+	}	
+	item AuthenticCigaretteHolder_Cig
+	{
+		DisplayCategory 	= 	Household,
+		Type				=	Food,	
+		DisplayName			=	Cigarette Holder with Cigarette,
+		Icon				=	CigaretteHolder,
+		Weight				=	0.2,		
 		Count				=	1,
 		HungerChange		=	0,
-		Weight				=	0.1,
+		StressChange		=	-20,		
 		RequireInHandOrInventory	=	Lighter/Matches,
-		Type				=	Food,
-		DisplayName			=	Cigarette Holder,
-		StressChange		=	-20,
-		Icon				=	CigaretteHolder,
-		CustomContextMenu 	= Smoke,
-		CantBeFrozen 	 	= TRUE,
-		OnEat 			 	= OnEat_Cigarettes,
-		StaticModel 	 	= AuthenticCigaretteHolder,
-		EatType 		 	= Cigarettes,
-		WorldStaticModel 	= WorldItem-CigaretteHolder,
-		CustomEatSound 		= ,
+		CustomContextMenu 	= 	Smoke,
+		CantBeFrozen 	 	= 	TRUE,
+		OnEat 			 	= 	OnEat_Cigarettes,
+		EatType 		 	= 	Cigarettes,
+		ReplaceOnUse		= 	AuthenticCigaretteHolder,		
+		CustomEatSound 		= 	,
+		StaticModel 	 	=	AuthenticCigaretteHolder,		
+		WorldStaticModel 	= 	WorldItem-CigaretteHolder,		
 	}	
 
 	item Authentic_MilitaryFlashlightGrey

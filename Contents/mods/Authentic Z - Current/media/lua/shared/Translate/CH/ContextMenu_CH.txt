@@ -1,18 +1,18 @@
 ContextMenu_CH = {
-	ContextMenu_Loosen = "ÃP¶}",
-	ContextMenu_Tighten = "¦¬ºò",
-	ContextMenu_TieOnWaist = "Ã´¦b¸y³¡",
+	ContextMenu_Loosen = "é¬†é–‹",
+	ContextMenu_Tighten = "æ”¶ç·Š",
+	ContextMenu_TieOnWaist = "ç¹«åœ¨è…°éƒ¨",
 	
-	ContextMenu_JacketOpen = "¸Ñ¶}¦©¤l",
-	ContextMenu_ClosedJacket = "Ã´¤W¦©¤l",
+	ContextMenu_JacketOpen = "è§£é–‹æ‰£å­",
+	ContextMenu_ClosedJacket = "ç¹«ä¸Šæ‰£å­",
 	
-	ContextMenu_VestBag = "§@¬°­I¥]¨Ï¥Î",
-	ContextMenu_VestBullet = "§@¬°¨¾¼u¦ç¨Ï¥Î",
-	ContextMenu_VestRadio = "§@¬°¹q¥x¨Ï¥Î",
+	ContextMenu_VestBag = "ä½œç‚ºèƒŒåŒ…ä½¿ç”¨",
+	ContextMenu_VestBullet = "ä½œç‚ºé˜²å½ˆè¡£ä½¿ç”¨",
+	ContextMenu_VestRadio = "ä½œç‚ºé›»å°ä½¿ç”¨",
 	
-	ContextMenu_WearHead = "¬ïÀ¹¦bÀY³¡",
-	ContextMenu_WearNeck = "¬ï¦b²ä¤l¤W",	
+	ContextMenu_WearHead = "ç©¿æˆ´åœ¨é ­éƒ¨",
+	ContextMenu_WearNeck = "ç©¿åœ¨è„–å­ä¸Š",	
 
-	ContextMenu_AfroPick = "Afro ¤j¾v«¬",	
-	ContextMenu_AfroPick2 = "Afro ¤p¾v«¬",	
+	ContextMenu_AfroPick = "Afro å¤§é«®å‹",	
+	ContextMenu_AfroPick2 = "Afro å°é«®å‹",	
 } 

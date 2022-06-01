@@ -421,6 +421,11 @@ module Base
 	{
 		mesh = WorldItems/WorldItem_GlowstickPack,
 		texture = clothes\Items\GlowstickPack,
+	}
+	model GoSign
+	{
+		mesh = Weapons/1Handed/StopSign,
+		texture = clothes\Items\GoHandleSign,
 	}	
 	model WelderMaskNotWorn
 	{
