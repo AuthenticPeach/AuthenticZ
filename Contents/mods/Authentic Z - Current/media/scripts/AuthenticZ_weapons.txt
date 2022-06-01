@@ -1669,8 +1669,7 @@ module AuthenticZClothing {
         Tags = CutPlant,
  	}
     item KnifeEnd
-    {
-        DisplayCategory = WeaponCrafted,	
+    {	
         MaxRange	=	0.9,
         WeaponSprite	=	KnifeEnd,
         DisplayName	=	Jagged Blade,
@@ -1714,8 +1713,6 @@ module AuthenticZClothing {
 		HitFloorSound	=	BladeHit,
 		ImpactSound	=	BladeHit,
 		HitSound	=	BladeHit,
-		AttachmentType = Knife,
-        Tags = CutPlant,
  	}
     item SpikePick
     {
@@ -1768,7 +1765,6 @@ module AuthenticZClothing {
  	}	
     item ShortMetalSpear
     {
-        DisplayCategory = WeaponCrafted,	
         MaxRange	=	0.9,
         WeaponSprite	=	ShortMetalSpear,
         DisplayName	=	Metal Spike,
@@ -1813,12 +1809,10 @@ module AuthenticZClothing {
         ImpactSound	=	BladeHit,
 		HitSound	=	BladeHit,
 		AttachmentType = Knife,
-        Tags = CutPlant,
  	}
 
     item MediumMetalSpike
-    {
-        DisplayCategory = WeaponCrafted,	
+    {	
         MaxRange	=	0.9,
         WeaponSprite	=	MediumMetalSpear,
         DisplayName	=	Metal Spike,
@@ -1863,7 +1857,6 @@ module AuthenticZClothing {
         ImpactSound	=	BladeHit,
 		HitSound	=	BladeHit,
 		AttachmentType = Knife,
-        Tags = CutPlant,
 	 }
     item ReporterMicrophone_Media01
 	{
