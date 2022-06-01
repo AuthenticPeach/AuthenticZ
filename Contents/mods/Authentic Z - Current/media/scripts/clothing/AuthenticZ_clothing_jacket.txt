@@ -1581,7 +1581,7 @@ module AuthenticZClothing {
         DisplayName = Straight Jacket,
         ClothingItem = Jacket_StraightJacket,
         BodyLocation = Jacket,
-        Icon = JacketZoey,
+        Icon = StraightJacket,
         BloodLocation = Jacket,
         RunSpeedModifier = 0.95,
         BiteDefense = 10,

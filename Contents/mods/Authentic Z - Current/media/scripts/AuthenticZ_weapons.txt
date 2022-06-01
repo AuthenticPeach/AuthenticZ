@@ -1856,7 +1856,6 @@ module AuthenticZClothing {
         HitFloorSound	=	BladeHit,
         ImpactSound	=	BladeHit,
 		HitSound	=	BladeHit,
-		AttachmentType = Knife,
 	 }
     item ReporterMicrophone_Media01
 	{
@@ -2267,10 +2266,50 @@ module AuthenticZClothing {
 	    WeaponLength 				= 	0.23,
 	    AttachmentType 				= 	Hammer,
 		WorldStaticModel 			= 	WorldItem_ReporterMicMuffler_Media05,
-    }		
+    }
+    item TrashCanLid_MNG
+	{
+        DisplayCategory 			= 	ToolWeapon,	
+		Type						=	Weapon,
+		Categories					=	SmallBlunt,		
+		DisplayName					=	Trash Can Lid,
+		WeaponSprite				=	TrashCanLid,
+		Weight						=	1.5,	
+		Icon						=	TrashcanLid,		
+		MaxRange					=	1,
+		MinAngle					=	0.65,
+		MinimumSwingTime			=	3,
+		KnockBackOnNoDeath			=	TRUE,
+		SwingAmountBeforeImpact		=	0.02,
+		ConditionLowerChanceOneIn	=	25,
+		SplatNumber					=	1,
+		PushBackMod					=	0.5,
+		SubCategory					=	Swinging,
+		ConditionMax				=	10,
+		MaxHitCount					=	1,
+		DoorDamage					=	9,
+		CanBarricade				=	TRUE,
+		SwingAnim					=	Bat,
+		MinRange					=	0.61,
+		SwingTime					=	3,
+		KnockdownMod				=	0,
+		SplatBloodOnNoDeath			=	TRUE,
+		RunAnim						=	Run_Weapon2,
+        IdleAnim					=	Idle_Weapon2,
+        BreakSound  				=   BreakMetalItem,
+        TreeDamage  				=   0,
+        MetalValue 					= 	10,
+        CriticalChance				=	20,
+        CritDmgMultiplier 			= 	2,
+        MinDamage					=	0.5,
+        MaxDamage					=	1,
+        BaseSpeed		 			=	1,
+	    WeaponLength 				= 	0.23,
+		AttachmentType			= 	BigWeapon,
+		WorldStaticModel 			= 	WorldItem_TrashCanLid,
+    }	
     item RemoteControl_Box
     {
-        DisplayCategory = Electronics,	
 		Weight	=	0.3,
         Type	=	Weapon,
         DisplayName	=	Remote Control Box,
@@ -2301,7 +2340,6 @@ module AuthenticZClothing {
         MaxDamage	=	0.1,
         BaseSpeed = 1,
         WeaponLength = 0.1,		
-		AttachmentType = Wrench,
         OBSOLETE = TRUE,			
     }
     item Stake2

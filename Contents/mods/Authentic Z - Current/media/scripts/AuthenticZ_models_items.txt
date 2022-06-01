@@ -774,6 +774,11 @@ module Base
 		texture = WorldItems/AerosolBomb,
 		scale = 0.5,
 	}
+	model TrashCanLid
+    {
+		mesh = Weapons/1Handed/TrashcanLid,
+		texture = clothes\Items\TrashcanLid,
+    }		
 	model ToyBearSmall
 	{
 		mesh = WorldItems/ToyBear,
@@ -1184,6 +1189,11 @@ module Base
 		mesh = WorldItems/WorldItem_RoadsideTriangle,
 		texture = clothes\Items\RoadsideTriangle,		
 	}	
+	model WorldItem_TrashCanLid
+    {
+		mesh = WorldItems/WorldItem_TrashcanLid,
+		texture = clothes\Items\TrashcanLid,
+    }	
 	model WorldItem_UtilityBelt
     {
 		mesh = Skinned/Backpacks/WorldItem-UtilityBeltTactical,

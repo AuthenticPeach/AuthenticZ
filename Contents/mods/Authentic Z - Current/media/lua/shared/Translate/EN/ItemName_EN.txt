@@ -881,5 +881,6 @@ ItemName_EN = {
 	ItemName_AuthenticZClothing.Hat_WeddingVeilBlue_Front = "Blue Wedding Veil (Down)",
 	ItemName_AuthenticZClothing.Hat_WeddingVeilPink_Front = "Pink Wedding Veil (Down)",
 	ItemName_AuthenticZClothing.Jacket_StraightJacket = "Straight Jacket",
+	ItemName_AuthenticZClothing.TrashCanLid_MNG = "Trash Can Lid",
 	
 }
