@@ -5016,6 +5016,10 @@
 		<guid>8c80a404-dc1d-4b2a-a56a-8647f1f720a8</guid>
 	</files>
 	<files>
+		<path>media/clothing/clothingItems/Jacket_StraightJacket.xml</path>
+		<guid>75ce22f2-e985-4a06-8b60-d06d3ec97d27</guid>
+	</files>	
+	<files>
 		<path>media/clothing/clothingItems/Jacket_Trenchcoat.xml</path>
 		<guid>d8b4a5a5-17b8-4918-a4b1-1c95130a3a97</guid>
 	</files>
