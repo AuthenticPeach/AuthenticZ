@@ -2305,7 +2305,8 @@ module AuthenticZClothing {
         MaxDamage					=	1,
         BaseSpeed		 			=	1,
 	    WeaponLength 				= 	0.23,
-		AttachmentType			= 	BigWeapon,
+		AttachmentType			= 	BigBlade,
+        StaticModel					= TrashCanLidBack,		
 		WorldStaticModel 			= 	WorldItem_TrashCanLid,
     }	
     item RemoteControl_Box

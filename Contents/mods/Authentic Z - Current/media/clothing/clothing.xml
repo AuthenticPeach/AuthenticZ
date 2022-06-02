@@ -10320,18 +10320,18 @@
 		<m_Guid>2789148e-3786-43ca-9fed-7d360b463cf8</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
-		<m_items>
+		<m_items> <!-- Tshirt_Rock -->
 			<itemGUID>9f206e28-4fd0-4213-8b89-6eb02d784186</itemGUID>
 		</m_items>
-		<m_items>
+		<m_items> <!-- Trousers_Denim -->
 			<itemGUID>229b23f6-8e8f-4f16-837b-4fe950c48bfc</itemGUID>
-			<subItems>
+			<subItems> <!-- Trousers_JeanBaggy -->
 				<itemGUID>8973893f-f324-4cdb-a32b-43cd0378174f</itemGUID>
 			</subItems>
 		</m_items>
-		<m_items>
+		<m_items> <!-- Shoes_ArmyBoots -->
 			<itemGUID>227cb2d5-05a5-44ed-872d-ac4ca16e80bc</itemGUID>
-			<subItems>
+			<subItems> <!-- Shoes_BlackBoots -->
 				<itemGUID>2717dfdb-49ef-401a-9715-c4487ce6abea</itemGUID>
 			</subItems>
 		</m_items> 

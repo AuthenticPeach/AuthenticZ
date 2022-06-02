@@ -778,7 +778,12 @@ module Base
     {
 		mesh = Weapons/1Handed/TrashcanLid,
 		texture = clothes\Items\TrashcanLid,
-    }		
+    }	
+	model TrashCanLidBack
+    {
+		mesh = Weapons/1Handed/TrashCanLidBack,
+		texture = clothes\Items\TrashcanLid,
+    }	
 	model ToyBearSmall
 	{
 		mesh = WorldItems/ToyBear,
