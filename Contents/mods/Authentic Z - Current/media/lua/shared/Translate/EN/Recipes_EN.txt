@@ -56,9 +56,11 @@ Recipes_EN = {
 /* 2-20-22 */	
 	Recipe_Revert_Attachable_Item = "Revert Attachable Item",
 	Recipe_Make_Backpack_Attachable_Item = "Make Backpack Attachable Item",	
-
-/* New */	
+	
 	Recipe_Open_Sleeping_Bag = "Open Sleeping Bag",
 	Recipe_Close_Sleeping_Bag = "Close Sleeping Bag",	
+	
+/* New */
+	Recipe_Attach_Cigarette_to_Cigarette_Holder = "Attach Cigarette to Cigarette Holder",		
 	
 	}

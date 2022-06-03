@@ -3,6 +3,15 @@ module AuthenticZRecipes {
       Base
   }
 
+recipe Attach Cigarette to Cigarette Holder
+  	{
+   	   AuthenticCigaretteHolder,
+   	   Cigarettes=1,
+
+   	   Result:AuthenticCigaretteHolder_Cig,
+	   Time:30.0,
+  	}
+
 recipe Convert into Wearable
   	{
    	   Headphones,

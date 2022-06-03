@@ -214,8 +214,61 @@ function AZKeepFoodContent_OnCreate(items, result, player)
     end
 end
 
+function OnEat_CigarAZ(food, character, percent)
+    local script = food:getScriptItem()
+    percent = percent * (food:getStressChange() * 100) / script:getStressChange()
+    local bodyDamage = character:getBodyDamage()
+    local stats = character:getStats()
+	--Satisfy smoker trait	
+    if character:HasTrait("Smoker") then
+        bodyDamage:setUnhappynessLevel(bodyDamage:getUnhappynessLevel() - 10 * percent);
+        if bodyDamage:getUnhappynessLevel() < 0 then
+            bodyDamage:setUnhappynessLevel(0);
+        end
+        stats:setStress(stats:getStress() - 10 * percent);
+        if stats:getStress() < 0 then
+            stats:setStress(0);
+        end
+        local reduceSFC = stats:getMaxStressFromCigarettes()
+        stats:setStressFromCigarettes(stats:getStressFromCigarettes() - reduceSFC * percent);
+        character:setTimeSinceLastSmoke(stats:getStressFromCigarettes() / stats:getMaxStressFromCigarettes());
+    else
+
+        bodyDamage:setFoodSicknessLevel(bodyDamage:getFoodSicknessLevel() + 14 * percent);
+        if bodyDamage:getFoodSicknessLevel() > 100 then
+            bodyDamage:setFoodSicknessLevel(100);
+        end
+    end
+end
+function OnEat_CigaretteHolder(food, character, percent)
+    local script = food:getScriptItem()
+    percent = percent * (food:getStressChange() * 100) / script:getStressChange()
+    local bodyDamage = character:getBodyDamage()
+    local stats = character:getStats()
+	--Satisfy smoker trait	
+    if character:HasTrait("Smoker") then
+        bodyDamage:setUnhappynessLevel(bodyDamage:getUnhappynessLevel() - 10 * percent);
+        if bodyDamage:getUnhappynessLevel() < 0 then
+            bodyDamage:setUnhappynessLevel(0);
+        end
+        stats:setStress(stats:getStress() - 10 * percent);
+        if stats:getStress() < 0 then
+            stats:setStress(0);
+        end
+        local reduceSFC = stats:getMaxStressFromCigarettes()
+        stats:setStressFromCigarettes(stats:getStressFromCigarettes() - reduceSFC * percent);
+        character:setTimeSinceLastSmoke(stats:getStressFromCigarettes() / stats:getMaxStressFromCigarettes());
+    else
+--        bodyDamage:setUnhappynessLevel(bodyDamage:getUnhappynessLevel() + 5);
+
+        bodyDamage:setFoodSicknessLevel(bodyDamage:getFoodSicknessLevel() + 14 * percent);
+        if bodyDamage:getFoodSicknessLevel() > 100 then
+            bodyDamage:setFoodSicknessLevel(100);
+        end
+    end
+end
+
 Give20TailoringXP = AZRecipe.OnGiveXP.Tailoring20
 GiveMeRadio = AZRecipe.OnCreate.GiveMeRadio
-
 RefillBlowTorch_OnCreateAZ = AZRecipe.OnCreate.RefillBlowTorchAZ
 RefillBlowTorch_OnTestAZ = AZRecipe.OnTest.RefillBlowTorchAZ

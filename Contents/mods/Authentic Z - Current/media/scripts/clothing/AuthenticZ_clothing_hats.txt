@@ -1490,7 +1490,7 @@ module AuthenticZClothing {
 		DisplayName = Uncle Sam Hat,
 		ClothingItem = Hat_UncleSam,
 		BodyLocation = Hat,
-		Icon = UncleSamHat,
+		IconsForTexture = UncleSamHat;UncleSamHat;UncleSamHat2,
 		CanHaveHoles = false,
 		ChanceToFall = 70,
        	BloodLocation = Head,
