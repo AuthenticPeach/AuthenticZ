@@ -361,6 +361,19 @@ module AuthenticZClothing {
 		Cosmetic = TRUE,
 		ChanceToFall = 50,
 	}
+	item Glasses_Popeyes
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Pop Eyes Glasses,
+		ClothingItem = Glasses_Popeyes,
+		BodyLocation = Eyes,
+		IconsForTexture = PopeyesRed;PopeyesBlue,
+		Weight = 0.1,
+		Cosmetic = TRUE,
+		ChanceToFall = 50,
+		WorldStaticModel = PopEyes_Ground,		
+	}	
 	item Gloves_FreddyKreuger
 	{
         DisplayCategory   = Clothing,		

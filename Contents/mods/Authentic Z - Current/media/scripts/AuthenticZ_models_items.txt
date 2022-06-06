@@ -564,6 +564,10 @@ module Base
 		mesh = Weapons/1Handed/AZPomPom,
 		texture = clothes\Items\PomPomWhite,
 	}
+	model PopEyes_Ground
+	{
+		mesh = WorldItems/WorldItem_PopEyesGlasses,
+	}	
 	model StopSign
 	{
 		mesh = Weapons/1Handed/StopSign,
@@ -1003,11 +1007,16 @@ module Base
 		mesh = BalloonGroup3_Ground,
 		texture = clothes\Items\BalloonYellow,		
 	}
+	model WorldItem-ClownConeHat
+	{
+		mesh =  WorldItems/WorldItem_ClownConeHat,
+		texture = clothes\Hats\ClownConeHat,		
+	}
 	model WorldItem-BoomMicrophone
 	{
 		mesh =  WorldItems/WorldItem_BoomMic,
-		texture = clothes\Items\BoomMicrophone,		
-	}
+		texture = clothes\Hats\ClownConeHat,		
+	}	
 	model WorldItem-FuneralRose
 	{
 		mesh =  WorldItems/WorldItem_RoseBouquet,

@@ -3962,6 +3962,10 @@
 	<files>
 		<path>media/clothing/clothingItems/Boilersuit_BlackMamba.xml</path>
 		<guid>3caa69d8-d08c-4d26-a266-5b0bd2e95e7c</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Boilersuit_ClownSuit.xml</path>
+		<guid>3f3abe70-0094-4f70-9fe7-761d361a1d2c</guid>
 	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Boilersuit_CrossingGuard.xml</path>
@@ -4154,6 +4158,10 @@
 	<files>
 		<path>media/clothing/clothingItems/Glasses_AviatorsSunset.xml</path>
 		<guid>882e870c-c037-46f7-b6d3-5f350bc692eb</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Glasses_Popeyes.xml</path>
+		<guid>ad26e7f2-eaf2-4de1-9bc8-1ab432ee70e1</guid>
 	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Glasses_ReadingBlack.xml</path>
@@ -4447,6 +4455,10 @@
 		<path>media/clothing/clothingItems/Hat_CheeseHat.xml</path>
 		<guid>5bf612e0-4932-46d1-85a5-16e2723c7a69</guid>
 	</files>
+	<files>
+		<path>media/clothing/clothingItems/Hat_ClownConeHead.xml</path>
+		<guid>64cb6c48-3dcd-4435-9d7e-320b90b7248a</guid>
+	</files>		
 	<files>
 		<path>media/clothing/clothingItems/Hat_Cowboy_Freddy.xml</path>
 		<guid>b8f47c01-7e0a-415d-9681-146872198455</guid>

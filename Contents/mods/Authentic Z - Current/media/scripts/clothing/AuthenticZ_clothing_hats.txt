@@ -864,6 +864,20 @@ module AuthenticZClothing {
         Insulation = 0.10,
         Weight = 0.5,
     }
+   item Hat_ClownConeHead
+    {
+	    DisplayCategory = Accessory,	
+        Type = Clothing,
+        DisplayName = Clown Cone Hat,
+        ClothingItem = Hat_ClownConeHead,
+        BodyLocation = Hat,
+        Icon = ClownConeHead,
+        CanHaveHoles = false,
+        ChanceToFall = 20,
+        Insulation = 0.10,
+        Weight = 0.5,
+		WorldStaticModel = WorldItem-ClownConeHat,
+    }
 	item CultistHat
     {
         DisplayCategory = Accessory,
