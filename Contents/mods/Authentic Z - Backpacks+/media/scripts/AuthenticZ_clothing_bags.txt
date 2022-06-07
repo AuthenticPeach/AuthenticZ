@@ -5,7 +5,7 @@ module AuthenticZBackpacks+ {
 
     item Bag_ALICEpack_UrbanCamo
     {
-        Icon	=	AliceBag,	
+        Icon	=	AliceBag_UrbanCamo,	
         DisplayCategory = Bag,
         Type = Container,
         DisplayName = Urban Camo Alice Pack,

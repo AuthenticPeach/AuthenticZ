@@ -599,6 +599,11 @@ module Base
 		mesh = Remotecontrol,
 		texture = clothes\Items\RemoteControl,
 	}
+	model RotaryPhone
+	{
+		mesh = Weapons/1Handed/RotaryPhone,
+		texture = clothes\Items\RotaryPhone,
+	}	
 	model Rubberducky
     {
         mesh = WorldItems/Rubberducky,
@@ -1305,6 +1310,11 @@ module Base
 		mesh = WorldItems/WorldItem_AuthenticPillBottle,
 		texture = clothes\Items\AuthenticPillBottle,
     }
+	model WorldItem-RotaryPhone
+    {
+		mesh = WorldItems/WorldItem_RotaryPhone,
+		texture = clothes\Items\RotaryPhone,
+    }	
 	model WorldItem-StovePipeHat
     {
 		mesh =  WorldItems/WorldItem_StovePipeHat,
