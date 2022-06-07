@@ -55,11 +55,11 @@ Tooltip_EN = {
 /* Update 2-20-22 */
 	Tooltip_JPCane = "Life finds a way.",		
 	Tooltip_TagillaHelmet = "UBEY",	
-	
-/* New */
+/* Update 5-07-22 */	
 	Tooltip_AZSleepingBag = "Unwrap and Place.",		
 	Tooltip_AZSleepingBag2 = "Right-Click to Sleep.",
-	
 	Tooltip_GlowStickPack = "Open to get 3 random glowsticks!",	
 	
+/* New */	
+	Tooltip_RotaryPhone  = "Say Hello to your Aunt Alicia, Bub!",		
 	}

@@ -517,6 +517,19 @@ AttachedWeaponDefinitions.ReporterMic3N= {
 	},
 }
 
+AttachedWeaponDefinitions.RotaryPhone= {
+	id = "RotaryPhone",
+	chance = 100,
+	outfit = {"AuthenticBub"},
+	weaponLocation =  {"Right Hand Item"},
+	bloodLocations = nil,
+	addHoles = false,
+	daySurvived = 0,
+	weapons = {
+		"AuthenticZClothing.RotaryPhone_AZ",
+	},
+}
+
 AttachedWeaponDefinitions.StopSign= {
 	id = "stopSign",
 	chance = 100,
@@ -1346,9 +1359,10 @@ AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticBobRoss = {
 }
 AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticBub = {
 	chance = 100;
-	maxitem = 1;
+	maxitem = 2;
 	weapons = {
 		AttachedWeaponDefinitions.handgunBub,
+		AttachedWeaponDefinitions.RotaryPhone,
 	},
 }
 AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticChainsawMaid = {

@@ -2275,7 +2275,7 @@ module AuthenticZClothing {
 		DisplayName					=	Rotary Phone,
 		WeaponSprite				=	RotaryPhone,
 		Weight						=	1,	
-		Icon						=	AZMic3N,		
+		Icon						=	RotaryPhone,		
 		MaxRange					=	1,
 		MinAngle					=	0.65,
 		MinimumSwingTime			=	3,
