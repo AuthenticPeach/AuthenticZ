@@ -141,7 +141,7 @@ ItemName_EN = {
 	ItemName_AuthenticZClothing.Tshirt_Badass = "Badass's Shirt",
 	ItemName_AuthenticZClothing.Tshirt_Coach = "Coach's T-Shirt",
 	ItemName_AuthenticZClothing.Tshirt_CheeseRoyale = "Burger T-Shirt",
-	ItemName_AuthenticZClothing.Tshirt_CheeseRoyale2 = "MilkShake T-Shirt",
+	ItemName_AuthenticZClothing.Tshirt_CheeseRoyale2 = "Milkshake T-Shirt",
 	ItemName_AuthenticZClothing.Tshirt_Ellis = "Ellis's T-Shirt",
 	ItemName_AuthenticZClothing.Tshirt_Holly = "Holly's T-Shirt",
 	ItemName_AuthenticZClothing.Tshirt_JohnMorgan = "John Morgan's T-Shirt",
@@ -867,11 +867,14 @@ ItemName_EN = {
 	ItemName_AuthenticZClothing.CEDAHazmatSuitRedNoMaskNoShoes = "CEDA Hazmat Suit",
 	ItemName_AuthenticZClothing.CEDAHazmatSuitRedNoMask = "CEDA Hazmat Suit",
 
-	/* New 5-31-22 */	
+	/* New 6-06-22 */	
 
 	ItemName_AuthenticZClothing.AuthenticCigaretteHolder_Cig = "Cigarette Holder with Cigarette",
 	ItemName_AuthenticZClothing.AZ_OvenMitts = "Oven Mitts",
 	ItemName_AuthenticZClothing.Boilersuit_ClownSuit = "Clown Coveralls",
+	ItemName_AuthenticZClothing.Boilersuit_Wrinkles = "Clown Coveralls",
+	ItemName_AuthenticZClothing.ClownTopBlue = "Clown Top",
+	ItemName_AuthenticZClothing.ClownTopWhite = "Clown Top",
 	ItemName_AuthenticZClothing.Glasses_Popeyes = "Pop Eyes Glasses",
 	ItemName_AuthenticZClothing.Go_Sign = "Go Sign",
 	ItemName_AuthenticZClothing.Hat_EarMuffs_AZ  = "Ear Muffs",

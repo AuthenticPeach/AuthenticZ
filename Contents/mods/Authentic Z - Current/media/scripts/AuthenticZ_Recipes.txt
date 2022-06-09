@@ -157,20 +157,6 @@ recipe Convert into Wearable
        Prop2:AuthenticGhostbusterTrap,
     }
 
-    recipe Dismantle Ghostbuster Trap
-    {
-       AuthenticGhostbusterTrap,
-       keep [Recipe.GetItemTypes.Screwdriver],
-
-       Result:ElectronicsScrap,
-	   Time:100.0,
-       OnGiveXP:Recipe.OnGiveXP.DismantleElectronics,
-       Category:Electrical,
-       AnimNode:Disassemble,
-       Prop1:Screwdriver,
-       Prop2:AuthenticGhostbusterTrap,
-    }
-
     recipe Dismantle Broadcast Video Camera
     {
        BroadcastCamera,

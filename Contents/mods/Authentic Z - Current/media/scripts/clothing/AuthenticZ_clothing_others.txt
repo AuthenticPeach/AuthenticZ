@@ -269,7 +269,7 @@ module AuthenticZClothing {
 		Weight = 0.1,
 		Cosmetic = TRUE,
 		ChanceToFall = 25,
-		WorldStaticModel = WorldItem-ClownNose,		
+		WorldStaticModel = WorldItem-ClownNose,
 	}		
 	item ClownTop
 	{
@@ -280,6 +280,24 @@ module AuthenticZClothing {
 		BodyLocation = AmmoStrap2,
 		Icon = ClownTop,
 	}
+	item ClownTopBlue
+	{
+       DisplayCategory = Clothing,		
+		Type = Clothing,
+		DisplayName = Clown Top,
+		ClothingItem = ClownTopBlue,
+		BodyLocation = AmmoStrap2,
+		IconsForTexture = ClownTopBlue;ClownTopBlue2,
+	}
+	item ClownTopWhite
+	{
+       DisplayCategory = Clothing,		
+		Type = Clothing,
+		DisplayName = Clown Top,
+		ClothingItem = ClownTopWhite,
+		BodyLocation = AmmoStrap2,
+		Icon = ClownTop_White,
+	}	
 	item CultistRobe
     	{
         DisplayCategory = Clothing,

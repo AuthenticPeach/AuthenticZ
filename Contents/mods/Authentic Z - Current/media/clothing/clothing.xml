@@ -2012,7 +2012,7 @@
 		</m_items>		
 </m_MaleOutfits>
 
-<m_MaleOutfits> <m_Name>AuthenticClownGeneric</m_Name>
+<m_MaleOutfits> <m_Name>AuthenticClownParty</m_Name>
 		<m_Guid>7f340c13-dd52-4c67-8e5c-a8be4efb8b3c</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -2028,7 +2028,10 @@
 			<itemGUID>ad26e7f2-eaf2-4de1-9bc8-1ab432ee70e1</itemGUID>
 		</m_items>		
 		<m_items> <!-- Clown Top -->
-			<itemGUID>44a20134-7d25-49a9-8cf6-11dda7b6a2eb</itemGUID>
+			<itemGUID>26265f21-6bbe-4d19-a71c-5e0e39baab09</itemGUID>
+			<subItems> <!-- Clown Top White-->
+				<itemGUID>86760a8e-5dbd-4908-97e4-5307275696df</itemGUID>
+			</subItems>				
 		</m_items>		
 		<m_items> <!-- Long Socks -->
 			<itemGUID>fb86bd5f-1931-4b24-a5d7-bd6a43769991</itemGUID>
@@ -2052,18 +2055,9 @@
 			<itemGUID>733535da-1381-4e20-a0f0-1976e2a6fdd0</itemGUID>
 			<subItems>
 				<itemGUID>9699c96e-322a-4d19-8d02-7ff7cb04fa12</itemGUID>
-			</subItems>
-			<subItems>
-				<itemGUID>a6bce9c8-2984-40e4-8a40-e88623df9a53</itemGUID>
-			</subItems>
-			<subItems>
-				<itemGUID>b6f83858-a314-4a26-958b-0be42111d2dd</itemGUID>
-			</subItems>			
+			</subItems>		
 			<subItems>
 				<itemGUID>58ac7cec-9859-4ef5-b205-053687a7c75d</itemGUID>
-			</subItems>	
-			<subItems>
-				<itemGUID>1de80565-3076-4599-9bdd-69cbc4d5f9a7</itemGUID>
 			</subItems>	
 		</m_items>
 		<m_items> <!-- Clown Nose -->
@@ -2256,6 +2250,35 @@
 			<itemGUID>2a55b646-dde9-4c2b-8a2a-16b09c74bfab</itemGUID>
 		</m_items>		
 	</m_MaleOutfits>
+
+<m_MaleOutfits> <m_Name>AuthenticClownWrinkles</m_Name>
+		<m_Guid>cc110bb4-bb41-4bac-adb9-9a867eb1316b</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowTopTint>false</m_AllowTopTint>	
+		<m_items> <!--  Wrinkles Clown Suit -->
+			<itemGUID>3f3abe70-0094-4f70-9fe7-761d361a1d2c</itemGUID>
+		</m_items>
+		<m_items> <!-- Clown Cone Mask Placeholder -->
+			<itemGUID>64cb6c48-3dcd-4435-9d7e-320b90b7248a</itemGUID>
+		</m_items>			
+		<m_items> <!-- Clown Top White-->
+			<itemGUID>86760a8e-5dbd-4908-97e4-5307275696df</itemGUID>			
+		</m_items>		
+		<m_items> <!-- Long Socks -->
+			<itemGUID>fb86bd5f-1931-4b24-a5d7-bd6a43769991</itemGUID>
+		</m_items>	
+		<m_items> <!-- Clown Shoes -->
+			<itemGUID>725cf8ef-b572-4627-b59a-53c30c2c23ea</itemGUID>							
+		</m_items>
+		<m_items> <!-- Rim Tank Top -->
+			<itemGUID>48e002a3-87ae-4781-acb6-b65830ba39f1</itemGUID>
+		</m_items>
+		<m_items> <!-- Black Leather Gloves Full -->
+			<itemGUID>83e89687-4183-4889-9cb5-30fddda481d8</itemGUID>
+		</m_items>			
+	
+</m_MaleOutfits>
 
 <m_MaleOutfits> <m_Name>AuthenticCoach</m_Name>
 		<m_Guid>84b2c214-214a-41d0-bad4-360568fe6b80</m_Guid>

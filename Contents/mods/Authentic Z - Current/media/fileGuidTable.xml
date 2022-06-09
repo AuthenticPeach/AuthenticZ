@@ -4000,6 +4000,10 @@
 		<guid>fb9b2061-0427-49ab-9b56-bcc19f3a7d0b</guid>
 	</files>
 	<files>
+		<path>media/clothing/clothingItems/Boilersuit_Wrinkles.xml</path>
+		<guid>a8a5f1fe-d0ef-4e6d-a963-630ed6e20d99</guid>
+	</files>	
+	<files>
 		<path>media/clothing/clothingItems/BunnyEarsAZ.xml</path>
 		<guid>da076ab3-f8d4-4a29-b465-5344768c42ab</guid>
 	</files>	
@@ -4039,6 +4043,14 @@
 		<path>media/clothing/clothingItems/ClownTop.xml</path>
 		<guid>44a20134-7d25-49a9-8cf6-11dda7b6a2eb</guid>
 	</files>
+	<files>
+		<path>media/clothing/clothingItems/ClownTopBlue.xml</path>
+		<guid>26265f21-6bbe-4d19-a71c-5e0e39baab09</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/ClownTopWhite.xml</path>
+		<guid>86760a8e-5dbd-4908-97e4-5307275696df</guid>
+	</files>	
 	<files>
 		<path>media/clothing/clothingItems/CultistRobe.xml</path>
 		<guid>3cd1289c-50e3-4fd9-b6a7-45e59262ec32</guid>

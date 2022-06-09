@@ -2287,7 +2287,7 @@ module AuthenticZClothing {
 		SubCategory					=	Swinging,
 		ConditionMax				=	10,
 		MaxHitCount					=	1,
-		DoorDamage					=	9,
+		DoorDamage					=	4,
 		CanBarricade				=	TRUE,
 		SwingAnim					=	Bat,
 		MinRange					=	0.61,
