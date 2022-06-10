@@ -142,6 +142,16 @@ cat.beard = "None:100";--Turquoise,         Purple        SeaGreen             R
 cat.haircutColor = "0,0.90,0.93:12;0.40,0.99,0.40:14;0.75,0.24,0.99:12;0.89,0.07,0.19:14;0.98,0.86,0.05:12;0.99,0.71,0.08:12;0.89,0.44,0.10:12;0.20,0.20,0.99:12";
 table.insert(HairOutfitDefinitions.haircutOutfitDefinition, cat);
 local cat = {};
+cat.outfit = "AuthenticClownObese";
+cat.beard = "None:100";--Turquoise,         Purple        SeaGreen             Red           gummi Yellow    PackerGold          MarsYellow       Royal Blue
+cat.haircutColor = "0,0.90,0.93:12;0.40,0.99,0.40:14;0.75,0.24,0.99:12;0.89,0.07,0.19:14;0.98,0.86,0.05:12;0.99,0.71,0.08:12;0.89,0.44,0.10:12;0.20,0.20,0.99:12";
+table.insert(HairOutfitDefinitions.haircutOutfitDefinition, cat);
+local cat = {};
+cat.outfit = "AuthenticClownWrinkles";
+cat.haircut = "Bald:100";
+cat.beard = "None:100";
+table.insert(HairOutfitDefinitions.haircutOutfitDefinition, cat);
+local cat = {};
 cat.outfit = "AuthenticClownMime";
 cat.beard = "None:100";
 table.insert(HairOutfitDefinitions.haircutOutfitDefinition, cat);

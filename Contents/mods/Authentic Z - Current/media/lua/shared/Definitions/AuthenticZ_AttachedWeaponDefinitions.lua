@@ -49,7 +49,7 @@ AttachedWeaponDefinitions.Bandages= {
 AttachedWeaponDefinitions.Balloon= {
 	id = "PZBalloon",
 	chance = 100,
-	outfit = {"AuthenticClownBarotrauma","AuthenticClown","AuthenticClownParty"},
+	outfit = {"AuthenticClownBarotrauma","AuthenticClown","AuthenticClownParty","AuthenticClownObese","AuthenticClownWrinkles"},
 	weaponLocation =  {"Balloon Left", "Balloon Right", "Balloon Center"},
 	bloodLocations = nil,
 	addHoles = false,
@@ -1403,6 +1403,20 @@ AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticClownBarotrauma = 
 	},
 }
 AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticClownParty = {
+	chance = 40;
+	maxitem = 1;
+	weapons = {
+		AttachedWeaponDefinitions.Balloon,
+	},
+}
+AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticClownObese = {
+	chance = 40;
+	maxitem = 1;
+	weapons = {
+		AttachedWeaponDefinitions.Balloon,
+	},
+}
+AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticClownWrinkles = {
 	chance = 40;
 	maxitem = 1;
 	weapons = {

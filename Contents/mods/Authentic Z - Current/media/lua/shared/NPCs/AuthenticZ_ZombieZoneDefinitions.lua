@@ -2540,7 +2540,10 @@ table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticTF2SpyRed", chance=
 -------------------------- Clowns --------------------------
 table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticClownMime", chance=0.04});
 table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticClown", chance=0.04, gender="male"});
+table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticClownParty", chance=0.04, gender="male"});
 table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticClownBarotrauma", chance=0.01, gender="male"});
+table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticClownObese", chance=0.01, gender="male"});
+table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticClownWrinkles", chance=0.01, gender="male"});
 table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticClownPennywise", chance=0.00001, gender="male"});
 -------------------------- Football Players --------------------------
 table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticFootballPlayerBlueStar", chance=0.01, gender="male"});
