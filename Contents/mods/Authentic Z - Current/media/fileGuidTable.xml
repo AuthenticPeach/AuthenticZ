@@ -4680,6 +4680,10 @@
 		<guid>222b5d9e-9c56-41d7-9ea9-54fb216b25f5</guid>
 	</files>
 	<files>
+		<path>media/clothing/clothingItems/Hat_WrinklesMask.xml</path>
+		<guid>bd263e15-0c25-4647-aa57-ba2cb5217128</guid>
+	</files>	
+	<files>
 		<path>media/clothing/clothingItems/HawaiianLei.xml</path>
 		<guid>aea23d06-0499-4eb1-91fb-583906602ef2</guid>
 	</files>	

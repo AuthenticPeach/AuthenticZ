@@ -1348,6 +1348,10 @@ module Base
 	model WorldItem-Witchy2Hat
     {
 		mesh = WorldItems/WorldItem_WitchyHat2,
+    }
+	model WorldItem-WrinklesMask
+    {
+		mesh = WorldItems/WorldItem_WrinklesMask,
     }	
 	model WorldItem-AuthenticTV110
 	{

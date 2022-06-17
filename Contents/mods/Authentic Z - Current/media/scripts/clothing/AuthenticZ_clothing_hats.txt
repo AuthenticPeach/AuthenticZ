@@ -1669,7 +1669,21 @@ module AuthenticZClothing {
         WindResistance = 0.40,
         WaterResistance = 0.25,
 		WorldStaticModel = WorldItem-Witchy2Hat,		
-    	}		
+    	}
+   item Hat_WrinklesMask
+    {
+	    DisplayCategory = Accessory,	
+        Type = Clothing,
+        DisplayName = Wrinkles the Clown Mask,
+        ClothingItem = Hat_WrinklesMask,
+        BodyLocation = Hat,
+        Icon = WrinklesMask,
+        CanHaveHoles = false,
+        ChanceToFall = 20,
+        Insulation = 0.10,
+        Weight = 0.5,
+		WorldStaticModel = WorldItem-WrinklesMask,
+    }			
 	item Hat_WoolyHatWaldo
 	{
 	    DisplayCategory = Accessory,	
