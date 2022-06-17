@@ -4468,6 +4468,10 @@
 		<guid>5bf612e0-4932-46d1-85a5-16e2723c7a69</guid>
 	</files>
 	<files>
+		<path>media/clothing/clothingItems/Hat_ChickenHeadJacket.xml</path>
+		<guid>bd263e15-0c25-4647-aa57-ba2cb5217128</guid>
+	</files>	
+	<files>
 		<path>media/clothing/clothingItems/Hat_ClownConeHead.xml</path>
 		<guid>64cb6c48-3dcd-4435-9d7e-320b90b7248a</guid>
 	</files>		

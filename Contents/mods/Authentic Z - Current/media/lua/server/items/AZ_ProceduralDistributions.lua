@@ -34,6 +34,7 @@ local function preDistributionMerge()
             "Hat_FurryEars", 5,
             "WeldingMask", 5,
             "AuthenticZClothing.Hat_CheeseHat", 5,
+            "AuthenticZClothing.ChickenHatJacket", 5,
             "AuthenticZClothing.Hat_Dimitrescu", 5,
             "AuthenticZClothing.Hat_DRLegoHead", 5,
             "AuthenticZClothing.Hat_GhostFace", 5,
@@ -339,8 +340,10 @@ local function preDistributionMerge()
             "AuthenticZClothing.Hat_BaseballCapHunter", 5,
             "AuthenticZClothing.Hat_BaseballCapSeaHorse", 5,
             "AuthenticZClothing.Hat_BaseballCapWalker", 5,
+            "AuthenticZClothing.ChickenHatJacket", 5,			
             "AuthenticZClothing.AuthenticFreeHugsSign", 1,			
             "AuthenticZClothing.BunnyEars", 5,
+
             "Hat_Bandana", 5,
             "Hat_BandanaTINT", 5,			
             "Hat_Antlers", 5,

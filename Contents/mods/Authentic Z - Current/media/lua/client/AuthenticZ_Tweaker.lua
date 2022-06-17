@@ -23,6 +23,12 @@ end
 Events.OnGameBoot.Add(doTweaks);
 
 TweakItem("Base.BlowTorch","AttachmentType", "Tool");
+
+TweakItem("Base.ClosedUmbrellaRed", "AttachmentType", "Umbrella");
+TweakItem("Base.ClosedUmbrellaBlue", "AttachmentType", "Umbrella");
+TweakItem("Base.ClosedUmbrellaBlack", "AttachmentType", "Umbrella");
+TweakItem("Base.ClosedUmbrellaWhite", "AttachmentType", "Umbrella");
+
 TweakItem("Base.SheetRope", "AttachmentType", "SheetRope");
 TweakItem("Base.SheetRope", "StaticModel", "SheetRopeAZ");
 TweakItem("Base.Rope", "AttachmentType", "Rope");
@@ -39,6 +45,7 @@ TweakItem("Base.WeldingMask", "AttachmentType", "GasMask");
 TweakItem("Base.WeldingMask", "StaticModel", "WelderMaskNotWorn");
 
 TweakItem("Base.HandTorch", "AttachmentType", "Flashlight");
+
 
 
 

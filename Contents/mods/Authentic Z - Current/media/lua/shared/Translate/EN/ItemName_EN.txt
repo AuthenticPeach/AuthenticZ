@@ -873,6 +873,7 @@ ItemName_EN = {
 	ItemName_AuthenticZClothing.AZ_OvenMitts = "Oven Mitts",
 	ItemName_AuthenticZClothing.Boilersuit_ClownSuit = "Clown Coveralls",
 	ItemName_AuthenticZClothing.Boilersuit_Wrinkles = "Clown Coveralls",
+	ItemName_AuthenticZClothing.Hat_ChickenHeadJacket = "Rooster Mask",
 	ItemName_AuthenticZClothing.ClownTopBlue = "Clown Top",
 	ItemName_AuthenticZClothing.ClownTopWhite = "Clown Top",
 	ItemName_AuthenticZClothing.Glasses_Popeyes = "Pop Eyes Glasses",

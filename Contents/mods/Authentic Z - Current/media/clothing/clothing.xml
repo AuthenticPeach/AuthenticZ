@@ -4124,7 +4124,7 @@
 		<m_Guid>2dc732db-1a5f-43b5-be02-e51895b16d2f</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
-		<m_items> <!-- Fat Skin 03 Fast-Food-Lover Bod -->
+		<m_items> <!-- Fat Skin 03 Obese Bod -->
 			<itemGUID>621e545c-35f4-45c2-953d-6df1564e8f67</itemGUID>
 		</m_items>
 		<m_items> <!-- BeardStyles -->
@@ -5877,8 +5877,8 @@
 		<m_Guid>eead5224-f857-467b-a112-ce0dc6feb903</m_Guid>
 		<m_Pants>false</m_Pants>
 		<m_AllowPantsHue>false</m_AllowPantsHue>
-		<m_items> <!-- Raccoon Hat (Placeholder for Chicken Hat -->
-			<itemGUID>dff2aab3-dd76-4383-b681-b6421211a2db</itemGUID>
+		<m_items> <!-- Chicken Hat Jacket -->
+			<itemGUID>bd263e15-0c25-4647-aa57-ba2cb5217128</itemGUID>
 		</m_items>		
 		<m_items> <!--  Jacket_Varsity_AZ -->
 			<itemGUID>60dc9cab-ba5f-4a2d-9f7f-a0c6d7156e39</itemGUID>
@@ -8749,6 +8749,30 @@
 			</subItems>
 		</m_items>		
 </m_FemaleOutfits>	
+
+<m_MaleOutfits> <m_Name>AuthenticShockmaster</m_Name>
+		<m_Guid>ba78e404-4246-48fd-ab5f-31400204b4bf</m_Guid>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_items> <!-- Chicken Hat Jacket (Placeholder for Glitter Stormtrooper) -->
+			<itemGUID>bd263e15-0c25-4647-aa57-ba2cb5217128</itemGUID>
+		</m_items>		
+		<m_items> <!--  Jacket_Varsity_AZ (Placeholder for Black Open vest) -->
+			<itemGUID>60dc9cab-ba5f-4a2d-9f7f-a0c6d7156e39</itemGUID>
+		</m_items>
+		<m_items> <!--   Obese Bod  -->
+			<itemGUID>621e545c-35f4-45c2-953d-6df1564e8f67</itemGUID>			
+		</m_items>	
+		<m_items> <!-- Jeans -->
+			<itemGUID>8973893f-f324-4cdb-a32b-43cd0378174f</itemGUID>
+		</m_items>
+		<m_items> <!-- Long Socks -->
+			<itemGUID>fb86bd5f-1931-4b24-a5d7-bd6a43769991</itemGUID>
+		</m_items>
+		<m_items> <!-- Shoes -->
+			<itemGUID>dca66f80-0385-431f-b9d5-43646027f8e8</itemGUID>	
+		</m_items>			
+</m_MaleOutfits>
 
 <m_MaleOutfits> <m_Name>AuthenticShotgunFace</m_Name>
 		<m_Guid>e5a2e3a6-7665-4ced-b1cd-a06257b1f4ce</m_Guid>

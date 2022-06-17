@@ -361,6 +361,12 @@ cat.beard = "None:100";
 cat.haircutColor =  "0.33,0.16,0.16:100"; --Brown 
 table.insert(HairOutfitDefinitions.haircutOutfitDefinition, cat);
 local cat = {};
+cat.outfit = "AuthenticHotlineMiami";
+cat.haircut = "Messy:100";
+cat.beard = "None:100";
+cat.haircutColor = "0.99,0.92,0.55:100"; -- Blonde
+table.insert(HairOutfitDefinitions.haircutOutfitDefinition, cat);
+local cat = {};
 cat.outfit = "AuthenticFat01";
 cat.haircut = "Bald:100";
 cat.beard = "None:100";
@@ -574,6 +580,12 @@ table.insert(HairOutfitDefinitions.haircutOutfitDefinition, cat);
 local cat = {};
 cat.outfit = "AuthenticSchoolGirl";
 cat.haircut = "Hat:5;OverEye:5;Bun:6;Back:6;Long:6;Kate:5;Long2:6;Ponytail:6;Longcurly:5;Long2curly:6;BobCurly:5;KateCurly:6;OverEyeCurly:5;RachelCurly:5;Rachel:6;CentrePartingLong:5;Grungey:6;GrungeyParted:6";
+table.insert(HairOutfitDefinitions.haircutOutfitDefinition, cat);
+local cat = {};
+cat.outfit = "AuthenticShockmaster";
+cat.haircut = "Short:100";
+cat.beard = "None:100";
+cat.haircutColor = "0.33,0.16,0.16:100"; --Brown
 table.insert(HairOutfitDefinitions.haircutOutfitDefinition, cat);
 local cat = {};
 cat.outfit = "AuthenticTagilla";

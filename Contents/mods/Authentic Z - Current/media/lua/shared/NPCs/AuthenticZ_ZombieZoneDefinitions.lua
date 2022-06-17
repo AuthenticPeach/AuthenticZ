@@ -2469,6 +2469,13 @@ local AuthenticMaid = {
 	};
 ZombiesZoneDefinition.FancyHotel[AuthenticMaid] = AuthenticMaid;
 
+local AuthenticShockmaster = {
+		name="AuthenticShockmaster",
+		gender="male",			
+		chance=1,
+	};
+ZombiesZoneDefinition.Boxing[AuthenticShockmaster] = AuthenticShockmaster;
+
 local SportsFan = {
 		name="SportsFan",	
 		chance=15,
@@ -2598,6 +2605,7 @@ table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticGMan", chance=3, ro
 table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticSexyNurse", chance=5, room="stripclub", gender="female"});
 table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticSexyBunny", chance=10, room="stripclub", gender="female"});
 table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticGrindhouseCherry", chance=1, room="stripclub", gender="female"});
+table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticHotlineMiami", chance=1, room="stripclub", gender="male"});
 
 -------------------------- Fitness / Gyms -------------------------- 
 table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticNeonFitnessInstructor", chance=20, room="gym", gender="female"});

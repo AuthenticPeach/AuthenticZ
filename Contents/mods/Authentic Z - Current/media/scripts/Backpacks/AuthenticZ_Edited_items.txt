@@ -845,6 +845,7 @@ module AuthenticZClothing {
         HitSound	=	UmbrellaHit,
         SwingSound = UmbrellaSwing,
         AttachmentType  		= 	Umbrella,		
+		OBSOLETE 			= TRUE,		
     }
 
     item ClosedUmbrellaRed
@@ -890,7 +891,8 @@ module AuthenticZClothing {
         DoorHitSound = UmbrellaHit,
         HitSound	=	UmbrellaHit,
         SwingSound = UmbrellaSwing,
-        AttachmentType  		= 	Umbrella,				
+        AttachmentType  		= 	Umbrella,		
+		OBSOLETE 			= TRUE,		
     }
 
     item ClosedUmbrellaBlack
@@ -936,7 +938,8 @@ module AuthenticZClothing {
         DoorHitSound = UmbrellaHit,
         HitSound	=	UmbrellaHit,
         SwingSound = UmbrellaSwing,
-        AttachmentType  		= 	Umbrella,				
+        AttachmentType  		= 	Umbrella,	
+		OBSOLETE 			= TRUE,		
     }
 
     item ClosedUmbrellaWhite
@@ -982,7 +985,8 @@ module AuthenticZClothing {
         DoorHitSound = UmbrellaHit,
         HitSound				=	UmbrellaHit,
         SwingSound 				= 	UmbrellaSwing,
-        AttachmentType  		= 	Umbrella,				
+        AttachmentType  		= 	Umbrella,
+		OBSOLETE 			= TRUE,		
     }
 	
 	item PopBottleEmpty

@@ -23,7 +23,7 @@ module AuthenticZClothing {
 	{
        DisplayCategory = Clothing,		
 		Type = Clothing,
-		DisplayName = Dad Bod,
+/*		DisplayName = Dad Bod, */	
 		ClothingItem = FatBody01_DadBod,
 		BodyLocation = Torso1Legs1,
 		Icon = AZDadBod,
@@ -32,7 +32,7 @@ module AuthenticZClothing {
 	{
        DisplayCategory = Clothing,		
 		Type = Clothing,
-		DisplayName = Burger Lover Bod,
+/*		DisplayName = Burger Lover Bod, */	
 		ClothingItem = FatBody02_BurgerLover,
 		BodyLocation = Torso1Legs1,
 		Icon = AZDadBod,
@@ -41,7 +41,7 @@ module AuthenticZClothing {
 	{
        DisplayCategory = Clothing,		
 		Type = Clothing,
-		DisplayName = Obese Bod,
+/*		DisplayName = Obese Bod, */	
 		ClothingItem = FatBody03_ObeseBod,
 		BodyLocation = Torso1Legs1,
 		Icon = AZDadBod,

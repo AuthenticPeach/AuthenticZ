@@ -864,6 +864,20 @@ module AuthenticZClothing {
         Insulation = 0.10,
         Weight = 0.5,
     }
+   item Hat_ChickenHeadJacket
+    {
+	    DisplayCategory = Accessory,	
+        Type = Clothing,
+        DisplayName = Chicken Mask,
+        ClothingItem = Hat_ChickenHeadJacket,
+        BodyLocation = Hat,
+        Icon = ChickenHatJacket,
+        CanHaveHoles = false,
+        ChanceToFall = 20,
+        Insulation = 0.10,
+        Weight = 0.5,
+		WorldStaticModel = WorldItem-ChickenHeadJacket,
+    }	
    item Hat_ClownConeHead
     {
 	    DisplayCategory = Accessory,	

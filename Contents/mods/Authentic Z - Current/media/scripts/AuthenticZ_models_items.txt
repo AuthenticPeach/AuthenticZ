@@ -1077,6 +1077,11 @@ module Base
 		mesh = WorldItems/WorldItem_AuthenticCigaretteHolder,
 		texture = clothes\Items\CigaretteHolder,			
     }
+	model WorldItem-ChickenHeadJacket
+    {
+		mesh = WorldItems/WorldItem_ChickenHeadJacket,
+		texture = clothes\Masks\ChickenMask,		
+    }	
 	model WorldItem-CostumeStoreSign
     {
 		mesh = WorldItems/WorldItem_StoreSign,
