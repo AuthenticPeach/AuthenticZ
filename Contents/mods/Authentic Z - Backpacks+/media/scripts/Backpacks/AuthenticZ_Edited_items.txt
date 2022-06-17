@@ -1122,7 +1122,8 @@ item BorisBadger
         DoorHitSound = UmbrellaHit,
         HitSound	=	UmbrellaHit,
         SwingSound = UmbrellaSwing,
-        AttachmentType  		= 	Umbrella,		
+        AttachmentType  		= 	Umbrella,
+       OBSOLETE			=	TRUE,			
     }
 
     item ClosedUmbrellaRed
@@ -1168,7 +1169,8 @@ item BorisBadger
         DoorHitSound = UmbrellaHit,
         HitSound	=	UmbrellaHit,
         SwingSound = UmbrellaSwing,
-        AttachmentType  		= 	Umbrella,				
+        AttachmentType  		= 	Umbrella,
+       OBSOLETE			=	TRUE,			
     }
 
     item ClosedUmbrellaBlack
@@ -1214,7 +1216,8 @@ item BorisBadger
         DoorHitSound = UmbrellaHit,
         HitSound	=	UmbrellaHit,
         SwingSound = UmbrellaSwing,
-        AttachmentType  		= 	Umbrella,				
+        AttachmentType  		= 	Umbrella,
+       OBSOLETE			=	TRUE,			
     }
 
     item ClosedUmbrellaWhite
@@ -1260,7 +1263,8 @@ item BorisBadger
         DoorHitSound = UmbrellaHit,
         HitSound				=	UmbrellaHit,
         SwingSound 				= 	UmbrellaSwing,
-        AttachmentType  		= 	Umbrella,				
+        AttachmentType  		= 	Umbrella,	
+       OBSOLETE			=	TRUE,			
     }
 	
 	item PopBottleEmpty
