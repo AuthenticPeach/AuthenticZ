@@ -453,11 +453,12 @@ module AuthenticZClothing {
 		BloodLocation = Hands,
 		Icon = OvenMitt,
 		ScratchDefense = 25,
+        CombatSpeedModifier = 0.90,		
         BiteDefense = 10,
         Weight = 0.1,
         Insulation = 1.0,
         WindResistance = 1.0,
-        FabricType = Leather,
+        FabricType = Denim,
         WorldStaticModel = OvenMitt_Ground,		
 	}	
 	item Gloves_Black
