@@ -50,7 +50,7 @@ module AuthenticZClothing {
 	{
        DisplayCategory = Clothing,		
 		Type = Clothing,
-		DisplayName = Obese Bod,
+/*		DisplayName = Obese Bod, */
 		ClothingItem = FatBody03_ObeseBod_Clown,
 		BodyLocation = Torso1Legs1,
 		Icon = AZDadBod,

@@ -152,6 +152,22 @@ module AuthenticZClothing {
         Weight = 2,
         WorldStaticModel = JacketLong_Ground,
     }
+    item Fat03_Overalls
+    {
+       DisplayCategory = Clothing,			
+        Type = Clothing,
+        DisplayName = Overalls XL,
+        ClothingItem = Fat03_Overalls,
+        BodyLocation = FullSuit,
+        Icon = OverallsOrange,
+        BloodLocation = Trousers;Jumper,
+        RunSpeedModifier = 0.9,
+        ScratchDefense = 10,
+        Insulation = 0.65,
+        WindResistance = 0.45,
+        FabricType = Denim,
+		WorldStaticModel = BoilerSuit_Ground,
+    }		
     item Fat03_PonchoUP
     {
         DisplayCategory = Clothing,		
@@ -206,7 +222,7 @@ module AuthenticZClothing {
         ClothingItemExtra = Shorts_ShortSport,
         ClothingItemExtraOption = Tighten,			
         BodyLocation = Pants,
-        IconsForTexture = ShortsLongAthleticBlue;ShortsLongAthleticGreen;ShortsLongAthleticRed;ShortsLongAthleticPurple,
+        IconsForTexture = ShortsLongAthleticBlue;ShortsLongAthleticGreen;ShortsLongAthleticRed;ShortsLongAthleticPurple;ShortsLongDenim;ShortsLongDenimBlack;ShortsLongDenimDark;ShortsLongDenim;ShortsLongDenimBlack;ShortsLongDenimDark;ShortsLongDenim;ShortsLongDenimBlack;ShortsLongDenimDark;ShortsLongDenim;ShortsLongDenimBlack;ShortsLongDenimDark;ShortsLongDenim;ShortsLongDenimBlack;ShortsLongDenimDark,
         BloodLocation = Trousers,
         Insulation = 0.15,
         WindResistance = 0.05,
@@ -223,7 +239,7 @@ module AuthenticZClothing {
         ClothingItemExtraOption = Tighten,		
         BodyLocation = Pants,
         BloodLocation = Trousers,
-        IconsForTexture = TracksuitPantsBlack;TracksuitPantsBlue;TracksuitPantsGreen;TracksuitPantsTeal;TracksuitPantsGeneric;TrousersAthleticVegan;TrousersAthleticGrey;TrousersBill;TrousersBrad;Trousers;Trousers;Trousers,
+        IconsForTexture = TracksuitPantsBlack;TracksuitPantsBlue;TracksuitPantsGreen;TracksuitPantsTeal;TracksuitPantsGeneric;TrousersAthleticVegan;TrousersAthleticGrey;TrousersBill;TrousersBrad;Trousers;Trousers;Trousers;Trousers;Trousers;Trousers;Trousers;Trousers;Trousers;Trousers;Trousers;Trousers;Trousers;Trousers;Trousers,
         ScratchDefense = 5,
         Insulation = 0.30,
         WindResistance = 0.4,

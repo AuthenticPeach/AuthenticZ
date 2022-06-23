@@ -950,6 +950,17 @@ module AuthenticZClothing {
         Type = Clothing,
         ClothingItem =  Tattoo_Wally,
         BodyLocation = LeftWrist,
+    }
+	item Tie_Big_Long
+    {
+        DisplayCategory = Accessory,	
+        Type = Clothing,
+        DisplayName = Long Tie,
+        ClothingItem = Tie_Big_Long,
+        BodyLocation = Neck,
+        Icon = TieMulticolour,
+        Weight = 0.1,
+		WorldStaticModel = Tie_Ground,
     }	
 	item Tie_Full_BlueSpy
     {

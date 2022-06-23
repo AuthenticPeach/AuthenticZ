@@ -5790,6 +5790,10 @@
 	<files>
 		<path>media/clothing/clothingItems/Tattoo_Wally.xml</path>
 		<guid>02a76d61-bee5-41ca-80e7-3952c88d5319</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Tie_Big_Long.xml</path>
+		<guid>865f0982-28e3-46d1-a263-3b803082d207</guid>
 	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Tie_Full_BlueSpy.xml</path>
@@ -6501,6 +6505,10 @@
 		<path>media/clothing/clothingItems/Fat03_Jacket.xml</path>
 		<guid>58505b49-ae4b-4be0-ac20-9d95508ec258</guid>
 	</files>
+	<files>
+		<path>media/clothing/clothingItems/Fat03_Overalls.xml</path>
+		<guid>9e6693f9-d80a-4c60-8f0b-13ae407323f0</guid>
+	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Fat03_TShirt.xml</path>
 		<guid>54b8b1c3-83cb-48b7-9455-45dc1f57f069</guid>

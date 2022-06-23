@@ -2078,15 +2078,18 @@
 		</m_items>	
 		<m_items> <!-- Rainbow Hairstyle -->
 			<itemGUID>b76499b3-ce2c-4f3a-97ef-81496b303d68</itemGUID>
+		</m_items>
+		<m_items> <!-- Big Tie -->
+			<itemGUID>865f0982-28e3-46d1-a263-3b803082d207</itemGUID>
 		</m_items>		
 		<m_items> <!-- Clown Pants -->
 			<itemGUID>5d2a63e8-0d47-4ffa-b566-bdb8e540fa9d</itemGUID>
 		</m_items>
-		<m_items> <!-- Clown Shoes -->
-			<itemGUID>725cf8ef-b572-4627-b59a-53c30c2c23ea</itemGUID>		
+		<m_items> <!-- Shoes -->
+			<itemGUID>dca66f80-0385-431f-b9d5-43646027f8e8</itemGUID>		
 		</m_items>	
-		<m_items> <!-- Rim Tank Top -->
-			<itemGUID>48e002a3-87ae-4781-acb6-b65830ba39f1</itemGUID>
+		<m_items> <!-- Orange Overalls -->
+			<itemGUID>9e6693f9-d80a-4c60-8f0b-13ae407323f0</itemGUID>
 		</m_items>
 		<m_items> <!-- White gloves -->
 			<itemGUID>7d18ca16-fdb4-462e-b9a7-4f358cdd7525</itemGUID>
