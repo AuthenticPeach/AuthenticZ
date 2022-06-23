@@ -1319,6 +1319,10 @@ module Base
     {
 		mesh = WorldItems/WorldItem_RotaryPhone,
 		texture = clothes\Items\RotaryPhone,
+    }
+	model WorldItem-StormtrooperAZ
+    {
+		mesh =  WorldItems/WorldItem_AuthenticZStormtrooperHelmet,
     }	
 	model WorldItem-StovePipeHat
     {

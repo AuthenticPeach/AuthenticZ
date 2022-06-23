@@ -152,6 +152,22 @@ module AuthenticZClothing {
         Weight = 2,
         WorldStaticModel = JacketLong_Ground,
     }
+    item Fat03_Jeans
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Jeans (XXXL),
+        ClothingItem = Fat03_Jeans,
+        ClothingItemExtra = Trousers_JeanBaggy,
+        ClothingItemExtraOption = Tighten,		
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        IconsForTexture = TracksuitPantsBlack;TracksuitPantsBlue;TracksuitPantsGreen;TracksuitPantsTeal;TracksuitPantsGeneric;TrousersAthleticVegan;TrousersAthleticGrey;TrousersBill;TrousersBrad;Trousers;Trousers;Trousers;Trousers;Trousers;Trousers;Trousers;Trousers;Trousers;Trousers;Trousers;Trousers;Trousers;Trousers;Trousers,
+        ScratchDefense = 5,
+        Insulation = 0.30,
+        WindResistance = 0.4,
+        WorldStaticModel = Trousers_Shellsuit_Ground,
+    }	
     item Fat03_Overalls
     {
        DisplayCategory = Clothing,			
@@ -282,7 +298,20 @@ module AuthenticZClothing {
         WindResistance = 0.35,
         FabricType = Cotton,
 		WorldStaticModel = TShirt_Ground,	
-    }	
+    }
+    item Fat03_Vest_BlackOpen
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Vest (XXXL),			
+        ClothingItem = Fat03_Vest_BlackOpen,
+        ClothingItemExtra = Vest_Waistcoat,
+        ClothingItemExtraOption = Tighten,		
+        BodyLocation = TorsoExtra,
+        Icon = Vest_Black,
+        BloodLocation = ShirtNoSleeves,
+        WorldStaticModel = HuntingVest_Ground,		
+    }		
     item Fat03_Vest_HighViz
     {
         DisplayCategory = Clothing,
@@ -294,5 +323,6 @@ module AuthenticZClothing {
         BodyLocation = TorsoExtra,
         IconsForTexture = ConstructionVest;Huntingvest_Orange;Huntingvest_Grey;Huntingvest_Camo;Huntingvest_Orange;Huntingvest_Grey;Huntingvest_Camo;SweaterVestWhite;SweaterVestArgyle,
         BloodLocation = ShirtNoSleeves,
+        WorldStaticModel = HuntingVest_Ground,		
     }	
 }

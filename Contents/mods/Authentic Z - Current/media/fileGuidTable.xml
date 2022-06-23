@@ -4598,6 +4598,14 @@
 	<files>
 		<path>media/clothing/clothingItems/Hat_RuneDuel_Back.xml</path>
 		<guid>fd8efb68-986f-42be-b964-6223c1c96489</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Hat_StormtrooperHelmetAZ.xml</path>
+		<guid>7bb90dbb-3b02-45c3-85bf-eed607d1f9bb</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Hat_StormtrooperHelmetSparklesAZ.xml</path>
+		<guid>a6d1f48d-74a1-4353-9718-b1bacf5566be</guid>
 	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Hat_StovePipe.xml</path>
@@ -6506,6 +6514,10 @@
 		<guid>58505b49-ae4b-4be0-ac20-9d95508ec258</guid>
 	</files>
 	<files>
+		<path>media/clothing/clothingItems/Fat03_Jeans.xml</path>
+		<guid>051501dc-9d56-4530-8f6b-3121854e02d8</guid>
+	</files>	
+	<files>
 		<path>media/clothing/clothingItems/Fat03_Overalls.xml</path>
 		<guid>9e6693f9-d80a-4c60-8f0b-13ae407323f0</guid>
 	</files>	
@@ -6525,6 +6537,10 @@
 		<path>media/clothing/clothingItems/Fat03_ShellPants.xml</path>
 		<guid>6b6e36ad-f838-4540-99d2-38dcdbcee8b8</guid>
 	</files>
+	<files>
+		<path>media/clothing/clothingItems/Fat03_Vest_BlackOpen.xml</path>
+		<guid>b5d1d9d6-9834-4817-846f-a7bc22693835</guid>
+	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Fat03_Vest_HighViz.xml</path>
 		<guid>0bf3682c-3ac3-4981-bcf1-de22b79c43dc</guid>
