@@ -2073,6 +2073,9 @@
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
 		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_items> <!-- Hat_Boater_Small -->
+			<itemGUID>e00f09b6-18dd-4558-877e-ca0099f2e205</itemGUID>
+		</m_items>		
 		<m_items> <!-- Level 3 Obese Body - Clown Makeup -->
 			<itemGUID>39f5e471-b1fd-4cff-9aaf-7213430aed62</itemGUID>
 		</m_items>	
@@ -8763,8 +8766,8 @@
 		<m_items> <!--   Black Open vest -->
 			<itemGUID>b5d1d9d6-9834-4817-846f-a7bc22693835</itemGUID>
 		</m_items>
-		<m_items> <!--   Obese Bod  -->
-			<itemGUID>621e545c-35f4-45c2-953d-6df1564e8f67</itemGUID>			
+		<m_items> <!--  Shockmaster Obese Bod  -->
+			<itemGUID>7699fbb0-8c4d-4b17-8d91-199ef9536ecd</itemGUID>			
 		</m_items>	
 		<m_items> <!-- Fat 03 Jeans -->
 			<itemGUID>051501dc-9d56-4530-8f6b-3121854e02d8</itemGUID>

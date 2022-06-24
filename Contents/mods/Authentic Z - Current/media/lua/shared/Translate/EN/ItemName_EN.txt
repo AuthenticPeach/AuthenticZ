@@ -870,7 +870,9 @@ ItemName_EN = {
 	/* New 6-06-22 */	
 
 	ItemName_AuthenticZClothing.AuthenticCigaretteHolder_Cig = "Cigarette Holder with Cigarette",
+	ItemName_AuthenticZClothing.AZ_HairStyle30 = "Rainbow Wig",
 	ItemName_AuthenticZClothing.AZ_OvenMitts = "Oven Mitts",
+	ItemName_AuthenticZClothing.BigLollipop = "Big Lollipop",
 	ItemName_AuthenticZClothing.Boilersuit_ClownSuit = "Clown Coveralls",
 	ItemName_AuthenticZClothing.Boilersuit_Wrinkles = "Clown Coveralls",
 	ItemName_AuthenticZClothing.ClownTopBlue = "Clown Top",

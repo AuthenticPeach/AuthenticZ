@@ -119,6 +119,19 @@ AttachedWeaponDefinitions.BalloonP3= {
 	},
 }
 
+AttachedWeaponDefinitions.BigLollipop = {
+	id = "AZBigLollipop",
+	chance = 100,
+	outfit = {"AuthenticClownObese"},
+	weaponLocation = {"Left Hand", "Right Hand"},
+	bloodLocations = nil,
+	addHoles = false,
+	daySurvived = 0,
+	weapons = {
+    "AuthenticZClothing.BigLollipop",
+	},
+}
+
 AttachedWeaponDefinitions.BrickBusterVHS = {
 	id = "AZVHS",
 	chance = 100,
@@ -1411,9 +1424,10 @@ AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticClownParty = {
 }
 AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticClownObese = {
 	chance = 40;
-	maxitem = 1;
+	maxitem = 2;
 	weapons = {
 		AttachedWeaponDefinitions.Balloon,
+		AttachedWeaponDefinitions.BigLollipop,
 	},
 }
 AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticClownWrinkles = {

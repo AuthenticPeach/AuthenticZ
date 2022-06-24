@@ -37,7 +37,7 @@ module AuthenticZClothing {
         MinDamage	=	0.1,
         MaxDamage	=	0.2,
         BaseSpeed = 1,
-        WeaponLength = 0.2,		
+        WeaponLength 			= 	0.2,		
 		AttachmentType			= 	BigWeapon,
         WorldStaticModel 		= 	WorldItem_AndySign,		
 		Tooltip 				= 	Tooltip_AuthenticAndyBoard,		

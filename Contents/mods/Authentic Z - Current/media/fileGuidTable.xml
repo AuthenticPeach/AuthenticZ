@@ -4162,6 +4162,10 @@
 	<files>
 		<path>media/clothing/clothingItems/FatBody03_ObeseBod_Clown.xml</path>
 		<guid>39f5e471-b1fd-4cff-9aaf-7213430aed62</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/FatBody03_ObeseBod_Shockmaster.xml</path>
+		<guid>7699fbb0-8c4d-4b17-8d91-199ef9536ecd</guid>
 	</files>	
 	<files>
 		<path>media/clothing/clothingItems/GearWinslow.xml</path>
@@ -4455,6 +4459,10 @@
 		<path>media/clothing/clothingItems/Hat_Boater_Purple.xml</path>
 		<guid>0e620b64-c716-4015-9321-5030f41dacf6</guid>
 	</files>
+	<files>
+		<path>media/clothing/clothingItems/Hat_Boater_Small.xml</path>
+		<guid>e00f09b6-18dd-4558-877e-ca0099f2e205</guid>
+	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Hat_Boater_Red.xml</path>
 		<guid>87b69ca0-0d06-472e-bb0b-902761c394ea</guid>

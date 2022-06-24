@@ -372,7 +372,8 @@ module Base
 	{
 		mesh = AZGlowstick,
 		texture = clothes\Items\GlowstickRed,
-	}	
+	}
+	
 	model ClownNose
 	{
 		mesh = ClownNose,
@@ -487,6 +488,11 @@ module Base
 		mesh = AuthenticPipeBomb,
 		texture = clothes\Items\AuthenticPipeBomb,
 	}
+    model BigLollipop
+    {
+        mesh = Weapons/1Handed/BigLollipop,
+        texture =  clothes\Items\BigLolipop,
+    }	
 	model Carabiner
 	{
 		mesh = Carabiner,
@@ -1139,6 +1145,11 @@ module Base
     {
 		mesh = WorldItems/WorldItem_HawaiianLei,
     }
+    model WorldItem-BigLollipop
+    {
+        mesh = WorldItems/WorldItem_BigLollipop,
+        texture =  clothes\Items\BigLolipop,
+    }	
 	model WorldItem_MichaelMyersMask
 	{
 		mesh = WorldItems/WorldItem_MichaelMyersMask,		
@@ -1212,6 +1223,10 @@ module Base
 	{
 		mesh = WorldItems/WorldItem_RoadsideTriangle,
 		texture = clothes\Items\RoadsideTriangle,		
+	}
+	model WorldItem_SmallBoater
+	{
+		mesh = WorldItems/WorldItem-SmallBoater,	
 	}	
 	model WorldItem_TrashCanLid
     {

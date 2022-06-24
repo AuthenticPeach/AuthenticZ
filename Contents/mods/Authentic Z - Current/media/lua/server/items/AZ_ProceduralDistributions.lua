@@ -14,6 +14,8 @@ local function preDistributionMerge()
             "AuthenticZClothing.Hat_BaseballCapHunter", 5,
             "AuthenticZClothing.Hat_BaseballCapSeaHorse", 5,
             "AuthenticZClothing.Hat_BaseballCapWalker", 5,
+            "AuthenticZClothing.Hat_Boater_Small", 5
+            "AuthenticZClothing.AZ_HairStyle30", 5		
             "Hat_Bandana", 5,
             "Hat_BandanaTINT", 5,
             "AuthenticZClothing.BunnyEars", 5,
@@ -192,6 +194,7 @@ local function preDistributionMerge()
             rolls = 2,
             items = {
             "Candycane", 5,
+            "AuthenticZClothing.BigLollipop", 5,
             "CandyPackage", 2,
             "MintCandy", 5,            
             "Chocolate", 2,          
@@ -260,6 +263,7 @@ local function preDistributionMerge()
             rolls = 3,
             items = {
             "Candycane", 5,
+            "AuthenticZClothing.BigLollipop", 5,			
             "CandyPackage", 2,
             "MintCandy", 5,            
             "Chocolate", 2,          
@@ -342,6 +346,8 @@ local function preDistributionMerge()
             "AuthenticZClothing.Hat_BaseballCapHunter", 5,
             "AuthenticZClothing.Hat_BaseballCapSeaHorse", 5,
             "AuthenticZClothing.Hat_BaseballCapWalker", 5,
+            "AuthenticZClothing.Hat_Boater_Small", 5
+            "AuthenticZClothing.AZ_HairStyle30", 5				
             "AuthenticZClothing.ChickenHatJacket", 5,			
             "AuthenticZClothing.AuthenticFreeHugsSign", 1,			
             "AuthenticZClothing.BunnyEars", 5,
@@ -395,7 +401,8 @@ local function preDistributionMerge()
             items = {
             "Candycane", 5,
             "CandyPackage", 2,
-            "MintCandy", 5,            
+            "MintCandy", 5,
+            "AuthenticZClothing.BigLollipop", 5,            
             "Chocolate", 3,          
             "Popcorn", 2,          
             "Marshmallows", 2,          

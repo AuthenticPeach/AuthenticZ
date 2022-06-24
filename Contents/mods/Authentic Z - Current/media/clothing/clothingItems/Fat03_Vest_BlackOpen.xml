@@ -8,5 +8,5 @@
 	<m_AllowRandomTint>false</m_AllowRandomTint>
 	<m_AttachBone></m_AttachBone>
 	<m_UnderlayMasksFolder>media/textures/Clothes/Vest/Masks</m_UnderlayMasksFolder>
-	<textureChoices>clothes\OpenJacket\Jacket_FrankWest</textureChoices>
+	<textureChoices>clothes\OpenJacket\Jacket_Shockmaster</textureChoices>
 </clothingItem>

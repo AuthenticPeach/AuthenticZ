@@ -162,11 +162,11 @@ module AuthenticZClothing {
         ClothingItemExtraOption = Tighten,		
         BodyLocation = Pants,
         BloodLocation = Trousers,
-        IconsForTexture = TracksuitPantsBlack;TracksuitPantsBlue;TracksuitPantsGreen;TracksuitPantsTeal;TracksuitPantsGeneric;TrousersAthleticVegan;TrousersAthleticGrey;TrousersBill;TrousersBrad;Trousers;Trousers;Trousers;Trousers;Trousers;Trousers;Trousers;Trousers;Trousers;Trousers;Trousers;Trousers;Trousers;Trousers;Trousers,
+        Icon = TrousersDenimBlue,
         ScratchDefense = 5,
         Insulation = 0.30,
         WindResistance = 0.4,
-        WorldStaticModel = Trousers_Shellsuit_Ground,
+        WorldStaticModel = Trousers_Ground,
     }	
     item Fat03_Overalls
     {

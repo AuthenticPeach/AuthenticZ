@@ -279,7 +279,7 @@ module AuthenticZClothing {
 		Type = Clothing,
         DisplayName = Rainbow Wig,		
 		ClothingItem = AZ_HairStyle31,
-		BodyLocation = Hat,
+		BodyLocation = Necklace,
         Icon = Wig,		
     }
 	

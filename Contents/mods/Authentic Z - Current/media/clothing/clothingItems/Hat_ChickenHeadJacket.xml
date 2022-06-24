@@ -8,7 +8,6 @@
 	<m_AllowRandomTint>false</m_AllowRandomTint>
 	<m_AttachBone>Bip01_Head</m_AttachBone>
 	<m_HatCategory>default</m_HatCategory>
-
 	<m_MasksFolder>media/textures/Clothes/Hat/Masks</m_MasksFolder>
 	<textureChoices>clothes\Masks\ChickenMask</textureChoices>
 </clothingItem>

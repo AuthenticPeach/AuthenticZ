@@ -54,5 +54,14 @@ module AuthenticZClothing {
 		ClothingItem = FatBody03_ObeseBod_Clown,
 		BodyLocation = Torso1Legs1,
 		Icon = AZDadBod,
-	}	
+	}
+	item FatBody03_ObeseBod_Shockmaster
+	{
+       DisplayCategory = Clothing,		
+		Type = Clothing,
+/*		DisplayName = Obese Bod, */
+		ClothingItem = FatBody03_ObeseBod_Shockmaster,
+		BodyLocation = Torso1Legs1,
+		Icon = AZDadBod,
+	}		
 }

@@ -835,7 +835,22 @@ module AuthenticZClothing {
         WindResistance = 0.1,
         Weight = 0.5,
 		WorldStaticModel = WorldItem_Boater_Ground_Red,
-    	}
+    }
+	item Hat_Boater_Small
+	{
+	    DisplayCategory = Accessory,	
+		Type = Clothing,
+		DisplayName = Small Boater,
+		ClothingItem = Hat_Boater_Small,
+		BodyLocation = Hat,
+		IconsForTexture = BoaterBlue;BoaterGreen;BoaterPurple;BoaterRed;BoaterYellow,
+		ChanceToFall = 80,
+        BloodLocation = Head,
+        Insulation = 0.15,
+        WindResistance = 0.1,
+        Weight = 0.4,
+		WorldStaticModel = WorldItem_SmallBoater,
+    }			
 	item Hat_Boater_Yellow
 	{
 	    DisplayCategory = Accessory,	
@@ -1357,7 +1372,7 @@ module AuthenticZClothing {
 		CombatSpeedModifier = 0.95,
 		BiteDefense = 100,
         ScratchDefense = 100,
-        ChanceToFall = 0,
+        ChanceToFall = 75,
         Insulation = 0.55,
         WindResistance = 0.35,
         WaterResistance = 0.85,
