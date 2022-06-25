@@ -3,6 +3,15 @@ module AuthenticZRecipes {
       Base
   }
 
+recipe Attach Cigarette to Cigarette Holder
+  	{
+   	   AuthenticCigaretteHolder,
+   	   Cigarettes=1,
+
+   	   Result:AuthenticCigaretteHolder_Cig,
+	   Time:30.0,
+  	}
+
 recipe Convert into Wearable
   	{
    	   Headphones,
@@ -10,7 +19,6 @@ recipe Convert into Wearable
    	   Result:Authentic_Headphones,
 	   Time:30.0,
   	}
-
 
 recipe Convert into Wearable
   	{
@@ -99,6 +107,14 @@ recipe Convert into Wearable
    	   Result:Postal_Petition,
 	   Time:30.0,
   	}
+	
+recipe Convert into Wearable
+  	{
+   	   OvenMitt=2,
+
+   	   Result:Gloves_OvenMitts,
+	   Time:30.0,
+  	}	
 
     recipe Dismantle Headphones
     {
@@ -126,20 +142,6 @@ recipe Convert into Wearable
        Prop1:Screwdriver,
        Prop2:WorldItem_HeadPhones,
     }	
-
-    recipe Dismantle Ghostbuster Trap
-    {
-       AuthenticGhostbusterTrap,
-       keep [Recipe.GetItemTypes.Screwdriver],
-
-       Result:ElectronicsScrap,
-	   Time:100.0,
-       OnGiveXP:Recipe.OnGiveXP.DismantleElectronics,
-       Category:Electrical,
-       AnimNode:Disassemble,
-       Prop1:Screwdriver,
-       Prop2:AuthenticGhostbusterTrap,
-    }
 
     recipe Dismantle Ghostbuster Trap
     {
@@ -302,7 +304,7 @@ recipe Convert into Wearable
      OnCreate:AuthenticTorchBatteryRemoval_OnCreate,
      Prop2:Authentic_MinerLightbulb,
    }  
-
+ 
 recipe Attach Walkie to Vest
   	{
    	   Radio.WalkieTalkie5,
@@ -443,10 +445,37 @@ recipe Open Pack of Glowsticks
      Time:120,
      OnCreate:OpenGlowStickPackage,
      StopOnWalk:false,
-     Prop2:GlowstickPack,
 	 AnimNode:RipSheets,
 	 Tooltip:Tooltip_GlowStickPack,	   
    }	
+
+recipe Open Sealed Medkit
+   {
+     PZAZ_SealedMedkit,
+
+     Result:AuthenticGlowstick_Blank=3,
+     RemoveResultItem:true,	 
+     Time:120,
+     OnCreate:OpenSealedMedkit,
+     StopOnWalk:false,
+	 AnimNode:RipSheets,
+   }
+
+recipe Wear on Neck
+  	{
+   	   Hat_EarMuffs,
+
+   	   Result:Hat_EarMuffs_AZ,
+	   Time:30.0,
+  	}
+	
+recipe Wear on Neck
+  	{
+   	   Hat_EarMuff_Protectors,
+
+   	   Result:Hat_EarMuff_Protectors_AZ,
+	   Time:30.0,
+  	}	
 	
 	/* Modded - recipe */
 recipe Convert into Wearable

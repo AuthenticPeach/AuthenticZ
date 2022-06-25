@@ -112,7 +112,7 @@ recipe Convert into Wearable
   	{
    	   OvenMitt=2,
 
-   	   Result:AZ_OvenMitts,
+   	   Result:Gloves_OvenMitts,
 	   Time:30.0,
   	}	
 
