@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\CustomBodies\FatBody02_M\FatBod_M_02_HuntingVest</m_MaleModel>
+	<m_FemaleModel>skinned\CustomBodies\FatBody02_M\FatBod_M_02_HuntingVest</m_FemaleModel>
+	<m_GUID>49a2c8ad-45fb-4ba0-b14b-8db1c7821b58</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_UnderlayMasksFolder>media/textures/Clothes/Vest/Masks</m_UnderlayMasksFolder>
+	<textureChoices>clothes\bulletvest\highvisvest</textureChoices>
+	<textureChoices>clothes\bulletvest\huntingvest_orange</textureChoices>	
+	<textureChoices>clothes\bulletvest\huntingvest_grey</textureChoices>		
+	<textureChoices>clothes\bulletvest\huntingvest_camo</textureChoices>
+	<textureChoices>clothes\bulletvest\huntingvest_orange</textureChoices>	
+	<textureChoices>clothes\bulletvest\huntingvest_grey</textureChoices>		
+	<textureChoices>clothes\bulletvest\huntingvest_camo</textureChoices>	
+	<textureChoices>clothes\Jumper\Jumper_TankTop</textureChoices>	
+	<textureChoices>clothes\Jumper\Jumper_TankTop_Diamond</textureChoices>	
+</clothingItem>

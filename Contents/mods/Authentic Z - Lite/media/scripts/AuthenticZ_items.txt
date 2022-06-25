@@ -264,6 +264,24 @@ module AuthenticZLite {
 		WorldStaticModel = 	PlushieSquirrel_Ground,
 	}
 
+	item BigLollipop
+	{
+		DisplayName = Big Lollipop,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.4,
+		Icon = BigLollipop,
+		HungerChange = -15,
+		UnhappyChange = -20,
+		Calories = 160,
+		Carbohydrates = 10,
+		Lipids = 0.5,
+		Proteins = 0,
+	    AttachmentType 				= 	Hammer,		
+		StaticModel 	 			= 	BigLollipop,			
+		WorldStaticModel 			=   WorldItem-BigLollipop,
+	}
+
     item SleepingBag
 	{
         DisplayCategory 		= 	Household,		
@@ -1107,7 +1125,7 @@ module AuthenticZLite {
     {
         DisplayCategory 		= 	LightSource,	
         DisplayName				=	Roadside Triangle,
-        Icon					=	Glowstick-Grey,
+        Icon					=	RoadsideTriangle,
         Weight					=	0.2,
 		Type				=	Drainable,		
 		Weight				=	0.5,		

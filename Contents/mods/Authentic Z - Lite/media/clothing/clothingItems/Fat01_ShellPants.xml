@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\CustomBodies\FatBody01_M\FatBod_M_01_ShellPants</m_MaleModel>
+	<m_FemaleModel>skinned\CustomBodies\FatBody01_M\FatBod_M_01_ShellPants</m_FemaleModel>
+	<m_GUID>01297d6d-164d-42f0-99a1-fd746a0bbe26</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>clothes\trousers_mesh\trousers_shellsuit_black</textureChoices>
+	<textureChoices>clothes\trousers_mesh\Trousers_ShellSuit_Blue</textureChoices>
+	<textureChoices>clothes\trousers_mesh\Trousers_ShellSuit_Green</textureChoices>
+	<textureChoices>clothes\trousers_mesh\Trousers_ShellSuit_Teal</textureChoices>
+	<textureChoices>clothes\trousers_mesh\Trousers_ShellSuit_White</textureChoices>
+	
+	<textureChoices>clothes\trousers_mesh\Trousers_Sport</textureChoices>
+	<textureChoices>clothes\trousers_mesh\Trousers_SportKilla</textureChoices>
+	<textureChoices>clothes\trousers_mesh\TrousersMesh_OliveDrab</textureChoices>
+	<textureChoices>clothes\trousers_mesh\TrousersMesh_SuitBrown</textureChoices>
+	<textureChoices>clothes\trousers_mesh\TrousersMesh_DenimLight</textureChoices>
+	<textureChoices>clothes\trousers_mesh\TrousersMesh_DenimBlack</textureChoices>
+	<textureChoices>clothes\trousers_mesh\TrousersMesh_Denim</textureChoices>
+	<textureChoices>clothes\trousers_mesh\TrousersMesh_DenimLight</textureChoices>
+	<textureChoices>clothes\trousers_mesh\TrousersMesh_DenimBlack</textureChoices>
+	<textureChoices>clothes\trousers_mesh\TrousersMesh_Denim</textureChoices>
+	<textureChoices>clothes\trousers_mesh\TrousersMesh_DenimLight</textureChoices>
+	<textureChoices>clothes\trousers_mesh\TrousersMesh_DenimBlack</textureChoices>
+	<textureChoices>clothes\trousers_mesh\TrousersMesh_Denim</textureChoices>
+	<textureChoices>clothes\trousers_mesh\TrousersMesh_DenimLight</textureChoices>
+	<textureChoices>clothes\trousers_mesh\TrousersMesh_DenimBlack</textureChoices>
+	<textureChoices>clothes\trousers_mesh\TrousersMesh_Denim</textureChoices>
+	<textureChoices>clothes\trousers_mesh\TrousersMesh_DenimLight</textureChoices>
+	<textureChoices>clothes\trousers_mesh\TrousersMesh_DenimBlack</textureChoices>
+	<textureChoices>clothes\trousers_mesh\TrousersMesh_Denim</textureChoices>	
+</clothingItem>

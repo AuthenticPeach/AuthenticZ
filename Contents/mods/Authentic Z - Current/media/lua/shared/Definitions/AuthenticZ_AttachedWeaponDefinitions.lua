@@ -296,6 +296,19 @@ AttachedWeaponDefinitions.ElderlyCane = {
 	},
 }
 
+AttachedWeaponDefinitions.FeatherDuster = {
+	id = "AZFeatherDuster",
+	chance = 100,
+	outfit = {"AuthenticMaid"},
+	weaponLocation = {"Left Hand", "Right Hand"},
+	bloodLocations = nil,
+	addHoles = false,
+	daySurvived = 0,
+	weapons = {
+    "AuthenticZClothing.Authentic_FeatherDuster",
+	},
+}
+
 AttachedWeaponDefinitions.Pills= {
 	id = "Pills",
 	chance = 25,
@@ -1713,6 +1726,13 @@ AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticMadMax = {
 	chance = 70;
 	weapons = {
 		AttachedWeaponDefinitions.shotgunMadMax,
+	},
+}
+AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticMaid = {
+	chance = 33;
+	maxitem = 2;	
+	weapons = {
+		AttachedWeaponDefinitions.FeatherDuster,
 	},
 }
 AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticMiner = {

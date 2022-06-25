@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\CustomBodies\FatBody01_M\FatBod_M_01_PonchoDOWN</m_MaleModel>
+	<m_FemaleModel>skinned\CustomBodies\FatBody01_M\FatBod_M_01_PonchoDOWN</m_FemaleModel>
+	<m_GUID>4e839c86-c5e6-4433-aa57-a262f59b2f37</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_Masks>12</m_Masks>
+	<m_Masks>13</m_Masks>
+	<m_Masks>14</m_Masks>
+	<m_Masks>15</m_Masks>
+	<m_UnderlayMasksFolder>media/textures/Clothes/Poncho/Masks</m_UnderlayMasksFolder>
+	<textureChoices>clothes\Poncho\Poncho_Green</textureChoices>
+	<textureChoices>clothes\Poncho\Poncho_Yellow</textureChoices>
+</clothingItem>

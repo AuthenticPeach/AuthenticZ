@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\CustomBodies\FatBody01_M</m_MaleModel>
+	<m_FemaleModel>skinned\CustomBodies\FatBody01_M</m_FemaleModel>
+	<m_GUID>8d396317-7d2e-4766-83b6-010ebc189957</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_Masks>0</m_Masks>
+	<m_Masks>1</m_Masks>
+	<m_Masks>2</m_Masks>
+	<m_Masks>3</m_Masks>
+	<m_Masks>4</m_Masks>
+	<m_Masks>5</m_Masks>
+	<m_Masks>6</m_Masks>
+	<m_Masks>7</m_Masks>
+	<m_Masks>8</m_Masks>
+	<m_Masks>9</m_Masks>
+	<m_Masks>10</m_Masks>
+	<m_Masks>11</m_Masks>
+	<m_Masks>12</m_Masks>
+	<m_Masks>13</m_Masks>
+	<m_Masks>14</m_Masks>
+	<m_Masks>15</m_Masks>
+	<textureChoices>Body\BodyTextures\M_ZedBody01_level1</textureChoices>
+	<textureChoices>Body\BodyTextures\M_ZedBody01_level2</textureChoices>
+	<textureChoices>Body\BodyTextures\M_ZedBody01_level3</textureChoices>	
+	<textureChoices>Body\BodyTextures\M_ZedBody02_level1</textureChoices>
+	<textureChoices>Body\BodyTextures\M_ZedBody02_level2</textureChoices>
+	<textureChoices>Body\BodyTextures\M_ZedBody02_level3</textureChoices>
+	<textureChoices>Body\BodyTextures\M_ZedBody03_level1</textureChoices>
+	<textureChoices>Body\BodyTextures\M_ZedBody03_level2</textureChoices>
+	<textureChoices>Body\BodyTextures\M_ZedBody03_level3</textureChoices>
+	<textureChoices>Body\BodyTextures\M_ZedBody04_level1</textureChoices>
+	<textureChoices>Body\BodyTextures\M_ZedBody04_level2</textureChoices>
+	<textureChoices>Body\BodyTextures\M_ZedBody04_level3</textureChoices>
+	<textureChoices>Body\BodyTextures\M_ZedBody02_Tattoo</textureChoices>
+</clothingItem>

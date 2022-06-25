@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\CustomBodies\FatBody03_M\FatBod_M_03_HuntingVest</m_MaleModel>
+	<m_FemaleModel>skinned\CustomBodies\FatBody03_M\FatBod_M_03_HuntingVest</m_FemaleModel>
+	<m_GUID>b5d1d9d6-9834-4817-846f-a7bc22693835</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_UnderlayMasksFolder>media/textures/Clothes/Vest/Masks</m_UnderlayMasksFolder>
+	<textureChoices>clothes\OpenJacket\Jacket_Shockmaster</textureChoices>
+</clothingItem>

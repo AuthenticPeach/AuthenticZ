@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\CustomBodies\FatBody02_M\FatBod_M_02_Apron</m_MaleModel>
+	<m_FemaleModel>skinned\CustomBodies\FatBody02_M\FatBod_M_02_Apron</m_FemaleModel>
+	<m_GUID>01aece41-7110-4150-82bb-108cc1e52de9</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>clothes\apron\Apron_Black</textureChoices>
+	<textureChoices>clothes\apron\Apron_White</textureChoices>
+	<textureChoices>clothes\apron\Apron_Yellow</textureChoices>
+	<textureChoices>clothes\apron\Apron_YellowOrange</textureChoices>	
+</clothingItem>

@@ -215,7 +215,7 @@ module AuthenticZLite {
         Type					=	Clothing,
 		ClothingItem 			= 	CameraBroadcasting,
         DisplayName				=	EVV-9000 HYPER Broadcast Video Camera,
-        Icon					=	Glowstick-Red,
+        Icon					=	BroadcastingCamera,
         Weight					=	3.0,
 		BodyLocation 			= 	Necklace,
 		WorldStaticModel 		= 	WorldItem-BroadcastingCamera,			
@@ -280,6 +280,24 @@ module AuthenticZLite {
 		BodyLocation = AmmoStrap2,
 		Icon = ClownTop,
 	}
+	item ClownTopBlue
+	{
+       DisplayCategory = Clothing,		
+		Type = Clothing,
+		DisplayName = Clown Top,
+		ClothingItem = ClownTopBlue,
+		BodyLocation = AmmoStrap2,
+		IconsForTexture = ClownTopBlue;ClownTopBlue2,
+	}
+	item ClownTopWhite
+	{
+       DisplayCategory = Clothing,		
+		Type = Clothing,
+		DisplayName = Clown Top,
+		ClothingItem = ClownTopWhite,
+		BodyLocation = AmmoStrap2,
+		Icon = ClownTop_White,
+	}	
 	item CultistRobe
     	{
         DisplayCategory = Clothing,
@@ -361,6 +379,19 @@ module AuthenticZLite {
 		Cosmetic = TRUE,
 		ChanceToFall = 50,
 	}
+	item Glasses_Popeyes
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Pop Eyes Glasses,
+		ClothingItem = Glasses_Popeyes,
+		BodyLocation = Eyes,
+		IconsForTexture = PopeyesRed;PopeyesBlue,
+		Weight = 0.1,
+		Cosmetic = TRUE,
+		ChanceToFall = 50,
+		WorldStaticModel = PopEyes_Ground,		
+	}	
 	item Gloves_FreddyKreuger
 	{
         DisplayCategory   = Clothing,		
@@ -412,6 +443,24 @@ module AuthenticZLite {
         FabricType = Leather,
         WorldStaticModel = Gloves_Ground,		
 	}
+	item Gloves_OvenMitts
+	{
+        DisplayCategory = Clothing,		
+		Type 			= Clothing,
+		DisplayName 	= Oven Mitts,
+		ClothingItem = AZ_OvenMitts,
+		BodyLocation = Hands,
+		BloodLocation = Hands,
+		Icon = OvenMitt,
+		ScratchDefense = 25,
+        CombatSpeedModifier = 0.90,		
+        BiteDefense = 10,
+        Weight = 0.1,
+        Insulation = 1.0,
+        WindResistance = 1.0,
+        FabricType = Denim,
+        WorldStaticModel = OvenMitt_Ground,		
+	}		
 	item Gloves_Black
 	{
        DisplayCategory = Clothing,		
@@ -542,6 +591,74 @@ module AuthenticZLite {
         FabricType = Cotton,
         WorldStaticModel = GlovesLong_Ground,
 	}	
+	item Hat_EarMuffs_AZ
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Ear Muffs,
+		ClothingItem = Hat_EarMuffs_AZ,
+		ClothingItemExtra		= AuthenticZClothing.Hat_EarMuffs_Neck,
+        ClothingItemExtraOption = WearNeck,		
+		BodyLocation = Necklace,
+		Icon = EarMuffs,
+		CanHaveHoles = false,
+		ChanceToFall = 30,
+        BloodLocation = Head,
+        Insulation = 0.4,
+        WindResistance = 0.4,
+        Weight = 0.3,
+    }	
+	item Hat_EarMuffs_Neck
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Ear Muffs (Neck),
+		ClothingItem = Hat_EarMuffs_Neck,
+		ClothingItemExtra 		= AuthenticZClothing.Hat_EarMuffs_AZ,
+        ClothingItemExtraOption = WearHead,			
+		BodyLocation = Necklace_Long,
+		Icon = EarMuffs,
+		CanHaveHoles = false,
+		ChanceToFall = 30,
+        BloodLocation = Head,
+        Insulation = 0.4,
+        WindResistance = 0.4,
+        Weight = 0.3,
+    }
+	item Hat_EarMuff_Protectors_AZ
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Ear Protectors,
+		ClothingItem = Hat_EarMuff_Protectors_AZ,
+		ClothingItemExtra		= AuthenticZClothing.Hat_EarMuff_Protectors_Neck,
+        ClothingItemExtraOption = WearNeck,		
+		BodyLocation = Necklace,
+		Icon = EarProtectors,
+		CanHaveHoles = false,
+		ChanceToFall = 30,
+        BloodLocation = Head,
+        Insulation = 0.35,
+        WindResistance = 0.35,
+        Weight = 0.3,
+    }	
+	item Hat_EarMuff_Protectors_Neck
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Ear Protectors (Neck),
+		ClothingItem = Hat_EarMuff_Protectors_Neck,
+		ClothingItemExtra 		= AuthenticZClothing.Hat_EarMuff_Protectors_AZ,
+        ClothingItemExtraOption = WearHead,			
+		BodyLocation = Necklace_Long,
+		Icon = EarProtectors,
+		CanHaveHoles = false,
+		ChanceToFall = 30,
+        BloodLocation = Head,
+        Insulation = 0.35,
+        WindResistance = 0.35,
+        Weight = 0.3,
+    }		
 	item Hairstyle_Afro_Pick
 	{
        DisplayCategory    = Accessory,		
@@ -841,6 +958,17 @@ module AuthenticZLite {
         ClothingItem =  Tattoo_Wally,
         BodyLocation = LeftWrist,
     }	
+	item Tie_Big_Long
+    {
+        DisplayCategory = Accessory,	
+        Type = Clothing,
+        DisplayName = Long Tie,
+        ClothingItem = Tie_Big_Long,
+        BodyLocation = Neck,
+        Icon = TieMulticolour,
+        Weight = 0.1,
+		WorldStaticModel = Tie_Ground,
+    }		
 	item Tie_Full_BlueSpy
     {
         DisplayCategory = Accessory,	

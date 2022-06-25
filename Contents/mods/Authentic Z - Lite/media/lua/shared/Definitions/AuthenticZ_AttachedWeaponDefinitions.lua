@@ -49,7 +49,7 @@ AttachedWeaponDefinitions.Bandages= {
 AttachedWeaponDefinitions.Balloon= {
 	id = "PZBalloon",
 	chance = 100,
-	outfit = {"AuthenticClownBarotrauma","AuthenticClown"},
+	outfit = {"AuthenticClownBarotrauma","AuthenticClown","AuthenticClownParty","AuthenticClownObese","AuthenticClownWrinkles"},
 	weaponLocation =  {"Balloon Left", "Balloon Right", "Balloon Center"},
 	bloodLocations = nil,
 	addHoles = false,
@@ -119,6 +119,19 @@ AttachedWeaponDefinitions.BalloonP3= {
 	},
 }
 
+AttachedWeaponDefinitions.BigLollipop = {
+	id = "AZBigLollipop",
+	chance = 100,
+	outfit = {"AuthenticClownObese"},
+	weaponLocation = {"Left Hand", "Right Hand"},
+	bloodLocations = nil,
+	addHoles = false,
+	daySurvived = 0,
+	weapons = {
+    "AuthenticZLite.BigLollipop",
+	},
+}
+
 AttachedWeaponDefinitions.BrickBusterVHS = {
 	id = "AZVHS",
 	chance = 100,
@@ -129,6 +142,32 @@ AttachedWeaponDefinitions.BrickBusterVHS = {
 	daySurvived = 0,
 	weapons = {
     "Base.VHS_Retail",
+	},
+}
+
+AttachedWeaponDefinitions.BoomMic = {
+	id = "BoomMic",
+	chance = 100,
+	outfit = {"AuthenticReporter5Cameraman"},
+	weaponLocation = {"Shovel Back"},
+	bloodLocations = nil,
+	addHoles = false,
+	daySurvived = 0,
+	weapons = {
+		"AuthenticZLite.BoomMicrophone",
+	},
+}
+
+AttachedWeaponDefinitions.BouquetFlowers = {
+	id = "AZBouquetFlowers",
+	chance = 100,
+	outfit = {"AuthenticFuneralFormal","AuthenticFuneralCoat"},
+	weaponLocation = {"Left Hand", "Right Hand"},
+	bloodLocations = nil,
+	addHoles = false,
+	daySurvived = 0,
+	weapons = {
+    "AuthenticZLite.Authentic_BouquetFlowers",
 	},
 }
 
@@ -254,6 +293,19 @@ AttachedWeaponDefinitions.ElderlyCane = {
     "AuthenticZLite.AuthenticWalkingCaneMetal",
     "AuthenticZLite.AuthenticWalkingCaneGrandFather",	
     "AuthenticZLite.AuthenticWalkingCaneJP",
+	},
+}
+
+AttachedWeaponDefinitions.FeatherDuster = {
+	id = "AZFeatherDuster",
+	chance = 100,
+	outfit = {"AuthenticMaid"},
+	weaponLocation = {"Left Hand", "Right Hand"},
+	bloodLocations = nil,
+	addHoles = false,
+	daySurvived = 0,
+	weapons = {
+    "AuthenticZLite.Authentic_FeatherDuster",
 	},
 }
 
@@ -491,6 +543,19 @@ AttachedWeaponDefinitions.ReporterMic3N= {
 	},
 }
 
+AttachedWeaponDefinitions.RotaryPhone= {
+	id = "RotaryPhone",
+	chance = 100,
+	outfit = {"AuthenticBub"},
+	weaponLocation =  {"Right Hand Item"},
+	bloodLocations = nil,
+	addHoles = false,
+	daySurvived = 0,
+	weapons = {
+		"AuthenticZLite.RotaryPhone_AZ",
+	},
+}
+
 AttachedWeaponDefinitions.StopSign= {
 	id = "stopSign",
 	chance = 100,
@@ -501,6 +566,21 @@ AttachedWeaponDefinitions.StopSign= {
 	daySurvived = 0,
 	weapons = {
 		"AuthenticZLite.Stop_Sign",
+		"AuthenticZLite.Stop_Sign",
+		"AuthenticZLite.Go_Sign",
+	},
+}
+
+AttachedWeaponDefinitions.GhostbusterTrap= {
+	id = "GhostbusterTrap",
+	chance = 100,
+	outfit = {"AuthenticGhostbusterSpengler", "AuthenticGhostbusterStantz","AuthenticGhostbusterVenkman", "AuthenticGhostbusterZeddemore"},
+	weaponLocation =  {"Left Hand Item", "Right Hand Item"},
+	bloodLocations = nil,
+	addHoles = false,
+	daySurvived = 0,
+	weapons = {
+		"AuthenticZLite.AuthenticGhostbusterTrap",
 	},
 }
 
@@ -532,7 +612,7 @@ AttachedWeaponDefinitions.handgunRickGrimes = {
 AttachedWeaponDefinitions.revolverTF2Spy = {
 	id = "revolverTf2Shpee",
 	chance = 100,
-	outfit = {"AuthenticTF2SpyBlue"},
+	outfit = {"AuthenticTF2SpyBlue", "AuthenticTF2SpyRed"},
 	weaponLocation =  {"Holster Left", "Holster Right"},
 	bloodLocations = nil,
 	addHoles = false,
@@ -1169,7 +1249,6 @@ AttachedWeaponDefinitions.AuthenticNick = {
 	},
 }
 
-
 AttachedWeaponDefinitions.AuthenticWalkieTalkie = {
 	chance = 100,
 	outfit = {"AuthenticB4BHoffman"},
@@ -1306,9 +1385,10 @@ AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticBobRoss = {
 }
 AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticBub = {
 	chance = 100;
-	maxitem = 1;
+	maxitem = 2;
 	weapons = {
 		AttachedWeaponDefinitions.handgunBub,
+		AttachedWeaponDefinitions.RotaryPhone,
 	},
 }
 AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticChainsawMaid = {
@@ -1340,7 +1420,30 @@ AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticClown = {
 		AttachedWeaponDefinitions.Balloon,
 	},
 }
+
 AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticClownBarotrauma = {
+	chance = 40;
+	maxitem = 1;
+	weapons = {
+		AttachedWeaponDefinitions.Balloon,
+	},
+}
+AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticClownParty = {
+	chance = 40;
+	maxitem = 1;
+	weapons = {
+		AttachedWeaponDefinitions.Balloon,
+	},
+}
+AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticClownObese = {
+	chance = 40;
+	maxitem = 2;
+	weapons = {
+		AttachedWeaponDefinitions.Balloon,
+		AttachedWeaponDefinitions.BigLollipop,
+	},
+}
+AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticClownWrinkles = {
 	chance = 40;
 	maxitem = 1;
 	weapons = {
@@ -1431,6 +1534,20 @@ AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticDRBradGarrison = {
 		AttachedWeaponDefinitions.AuthenticDianneCaldwell,
 	},
 }
+AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticFuneralFormal = {
+	chance = 12;
+	maxitem = 2;
+	weapons = {
+		AttachedWeaponDefinitions.BouquetFlowers,
+	},
+}
+AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticFuneralCoat = {
+	chance = 12;
+	maxitem = 2;
+	weapons = {
+		AttachedWeaponDefinitions.BouquetFlowers,
+	},
+}
 AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticElderly = {
 	chance = 30;
 	maxitem = 1;	
@@ -1492,6 +1609,30 @@ AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticGhostFace = {
 	chance = 100;
 	weapons = {
 		AttachedWeaponDefinitions.KniveinHand,
+	},
+}
+AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticGhostbusterSpengler = {
+	chance = 25;
+	weapons = {
+		AttachedWeaponDefinitions.GhostbusterTrap,
+	},
+}
+AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticGhostbusterStantz = {
+	chance = 25;
+	weapons = {
+		AttachedWeaponDefinitions.GhostbusterTrap,
+	},
+}
+AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticGhostbusterVenkman = {
+	chance = 25;
+	weapons = {
+		AttachedWeaponDefinitions.GhostbusterTrap,
+	},
+}
+AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticGhostbusterZeddemore = {
+	chance = 25;
+	weapons = {
+		AttachedWeaponDefinitions.GhostbusterTrap,
 	},
 }
 AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticHalloween = {
@@ -1585,6 +1726,13 @@ AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticMadMax = {
 	chance = 70;
 	weapons = {
 		AttachedWeaponDefinitions.shotgunMadMax,
+	},
+}
+AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticMaid = {
+	chance = 33;
+	maxitem = 2;	
+	weapons = {
+		AttachedWeaponDefinitions.FeatherDuster,
 	},
 }
 AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticMiner = {
@@ -1748,6 +1896,13 @@ AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticReporter43N = {
 		AttachedWeaponDefinitions.ReporterMic3N,
 	},
 }
+AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticReporter5Cameraman = {
+	chance = 33;
+	maxitem = 1;
+	weapons = {
+		AttachedWeaponDefinitions.BoomMic,
+	},
+}
 AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticRickGrimes = {
 	chance = 100;
 	weapons = {
@@ -1755,6 +1910,12 @@ AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticRickGrimes = {
 	},
 }
 AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticTF2SpyBlue = {
+	chance = 100;
+	weapons = {
+		AttachedWeaponDefinitions.revolverTF2Spy,
+	},
+}
+AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticTF2SpyRed = {
 	chance = 100;
 	weapons = {
 		AttachedWeaponDefinitions.revolverTF2Spy,

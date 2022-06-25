@@ -14,8 +14,8 @@ local function preDistributionMerge()
             "AuthenticZClothing.Hat_BaseballCapHunter", 5,
             "AuthenticZClothing.Hat_BaseballCapSeaHorse", 5,
             "AuthenticZClothing.Hat_BaseballCapWalker", 5,
-            "AuthenticZClothing.Hat_Boater_Small", 5
-            "AuthenticZClothing.AZ_HairStyle30", 5		
+            "AuthenticZClothing.Hat_Boater_Small", 5,
+            "AuthenticZClothing.AZ_HairStyle30", 5,	
             "Hat_Bandana", 5,
             "Hat_BandanaTINT", 5,
             "AuthenticZClothing.BunnyEars", 5,
@@ -176,6 +176,7 @@ local function preDistributionMerge()
         items = {
 --"Weapons"	
             "AuthenticZClothing.AuthenticGlowstick_Pack", 5,					
+            "AuthenticZClothing.Authentic_FeatherDuster", 5,					
             "AuthenticZClothing.Authentic_PomPomWhite", 5,			
             "AuthenticZClothing.Authentic_PomPomBlack", 5,
             "AuthenticZClothing.Authentic_PomPomBlue", 5,
@@ -294,6 +295,7 @@ local function preDistributionMerge()
             "AuthenticZClothing.Authentic_PomPomRed", 5,
             "AuthenticZClothing.AuthenticWalkingCane", 5,		
             "AuthenticZClothing.AuthenticCricketBat", 5,
+            "AuthenticZClothing.Authentic_FeatherDuster", 5,
             "AuthenticZClothing.AuthenticWalkingCaneGrandFather", 5,			
             "AuthenticZClothing.AuthenticWalkingCaneJP", 5,			
             "AuthenticZClothing.AuthenticCigaretteHolder", 1,			
@@ -346,8 +348,8 @@ local function preDistributionMerge()
             "AuthenticZClothing.Hat_BaseballCapHunter", 5,
             "AuthenticZClothing.Hat_BaseballCapSeaHorse", 5,
             "AuthenticZClothing.Hat_BaseballCapWalker", 5,
-            "AuthenticZClothing.Hat_Boater_Small", 5
-            "AuthenticZClothing.AZ_HairStyle30", 5				
+            "AuthenticZClothing.Hat_Boater_Small", 5,
+            "AuthenticZClothing.AZ_HairStyle30", 5,			
             "AuthenticZClothing.ChickenHatJacket", 5,			
             "AuthenticZClothing.AuthenticFreeHugsSign", 1,			
             "AuthenticZClothing.BunnyEars", 5,

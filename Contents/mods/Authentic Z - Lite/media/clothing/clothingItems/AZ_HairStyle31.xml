@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\Hair\Bob_Balding</m_MaleModel>
+	<m_FemaleModel>skinned\Hair\Bob_Balding</m_FemaleModel>
+	<m_GUID>b76499b3-ce2c-4f3a-97ef-81496b303d68</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_MasksFolder>media/textures/Clothes/Hat/Masks</m_MasksFolder>
+	<textureChoices>Clothes\Hairstyles\Rainbow_Hair_Balding</textureChoices>
+</clothingItem>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\Beards\Bob_Beard_Moustache</m_MaleModel>
+	<m_FemaleModel>skinned\Beards\Bob_Beard_Moustache</m_FemaleModel>
+	<m_GUID>99fe2728-513d-4db8-96b8-7ff3a31958bb</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_MasksFolder>media/textures/Clothes/Hat/Masks</m_MasksFolder>
+	<textureChoices>Clothes\Hairstyles\F_Hair_Black</textureChoices>
+	<textureChoices>Clothes\Hairstyles\F_Hair_Blonde</textureChoices>
+	<textureChoices>Clothes\Hairstyles\F_Hair_Brown</textureChoices>
+	<textureChoices>Clothes\Hairstyles\F_Hair_Ginger</textureChoices>
+	<textureChoices>Clothes\Hairstyles\F_Hair_Orange</textureChoices>
+	<textureChoices>Clothes\Hairstyles\F_Hair_Olive</textureChoices>
+	<textureChoices>Clothes\Hairstyles\F_Hair_TanBrown</textureChoices>
+	<textureChoices>Clothes\Hairstyles\F_Hair_White</textureChoices>
+</clothingItem>

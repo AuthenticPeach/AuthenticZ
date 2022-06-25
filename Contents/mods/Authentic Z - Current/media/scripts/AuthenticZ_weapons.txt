@@ -240,6 +240,45 @@ module AuthenticZClothing {
 		AttachmentType 		= 	Shovel,
 	}
 
+    item Authentic_FeatherDuster
+    {
+        DisplayCategory 	= 	Junk,	
+        Weight				=	0.2,
+        Type				=	Weapon,
+        DisplayName			=	Feather Duster,
+        Icon				=	FeatherDuster,
+        primaryAnimMask 	= 	HoldingTorchRight,
+        secondaryAnimMask	= 	HoldingTorchLeft,		
+        WeaponSprite		=	FeatherDuster,
+        MinAngle			=	0.1,
+        MinimumSwingTime	=	2,
+        KnockBackOnNoDeath	=	FALSE,
+        SwingAmountBeforeImpact	=	0.02,
+        Categories			=	Improvised;SmallBlunt,
+        ConditionLowerChanceOneIn	=	2,
+        SplatNumber			=	1,
+        PushBackMod			=	0.1,
+        SubCategory			=	Swinging,
+        ConditionMax		=	1,
+        MaxHitCount			=	2,
+        DoorDamage			=	1,
+        SwingAnim			=	Bat,
+        MinRange			=	0.14,
+        SwingTime			=	2,
+        KnockdownMod		=	0,
+        SplatBloodOnNoDeath	=	FALSE,
+        BreakSound  		=   BreakMetalItem,
+        TreeDamage  		=   0,
+        CriticalChance		=	1,
+        CritDmgMultiplier 	= 	1,
+        MinDamage			=	0.1,
+        MaxDamage			=	0.1,
+        BaseSpeed 			= 	1,
+        WeaponLength 		= 	0.2,		
+		AttachmentType 		= 	MeatCleaver,
+		WorldStaticModel	= 	WorldItem-FeatherDuster,			
+    }
+
     item AuthenticIceStaff
 	{
 		DisplayCategory 	= 	Sports,	
@@ -2353,7 +2392,6 @@ module AuthenticZClothing {
     }	
     item RemoteControl_Box
     {
-		Weight	=	0.3,
         Type	=	Weapon,
         DisplayName	=	Remote Control Box,
         Icon	=	Notebook,

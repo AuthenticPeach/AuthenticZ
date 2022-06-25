@@ -10,4 +10,6 @@
 	<m_HatCategory>default</m_HatCategory>
 	<m_MasksFolder>media/textures/Clothes/Hat/Masks</m_MasksFolder>
 	<textureChoices>clothes\Hats\UncleSamHat</textureChoices>
+	<textureChoices>clothes\Hats\UncleSamHat</textureChoices>
+	<textureChoices>clothes\Hats\UncleSamHat2</textureChoices>
 </clothingItem>

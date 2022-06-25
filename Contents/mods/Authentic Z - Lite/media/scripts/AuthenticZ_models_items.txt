@@ -372,7 +372,8 @@ module Base
 	{
 		mesh = AZGlowstick,
 		texture = clothes\Items\GlowstickRed,
-	}	
+	}
+	
 	model ClownNose
 	{
 		mesh = ClownNose,
@@ -421,6 +422,11 @@ module Base
 	{
 		mesh = WorldItems/WorldItem_GlowstickPack,
 		texture = clothes\Items\GlowstickPack,
+	}
+	model GoSign
+	{
+		mesh = Weapons/1Handed/StopSign,
+		texture = clothes\Items\GoHandleSign,
 	}	
 	model WelderMaskNotWorn
 	{
@@ -482,6 +488,11 @@ module Base
 		mesh = AuthenticPipeBomb,
 		texture = clothes\Items\AuthenticPipeBomb,
 	}
+    model BigLollipop
+    {
+        mesh = Weapons/1Handed/BigLollipop,
+        texture =  clothes\Items\BigLolipop,
+    }	
 	model Carabiner
 	{
 		mesh = Carabiner,
@@ -539,6 +550,11 @@ module Base
 			rotate = -62.0000 64.0000 123.0000,
 		}		
 	}
+	model FeatherDuster
+	{
+		mesh = Weapons/1Handed/FeatherDuster,
+		texture = clothes\Items\FeatherDuster,
+	}	
 	model PomPomBlack
 	{
 		mesh = Weapons/1Handed/AZPomPom,
@@ -559,6 +575,10 @@ module Base
 		mesh = Weapons/1Handed/AZPomPom,
 		texture = clothes\Items\PomPomWhite,
 	}
+	model PopEyes_Ground
+	{
+		mesh = WorldItems/WorldItem_PopEyesGlasses,
+	}	
 	model StopSign
 	{
 		mesh = Weapons/1Handed/StopSign,
@@ -590,6 +610,11 @@ module Base
 		mesh = Remotecontrol,
 		texture = clothes\Items\RemoteControl,
 	}
+	model RotaryPhone
+	{
+		mesh = Weapons/1Handed/RotaryPhone,
+		texture = clothes\Items\RotaryPhone,
+	}	
 	model Rubberducky
     {
         mesh = WorldItems/Rubberducky,
@@ -769,6 +794,16 @@ module Base
 		texture = WorldItems/AerosolBomb,
 		scale = 0.5,
 	}
+	model TrashCanLid
+    {
+		mesh = Weapons/1Handed/TrashcanLid,
+		texture = clothes\Items\TrashcanLid,
+    }	
+	model TrashCanLidBack
+    {
+		mesh = Weapons/1Handed/TrashCanLidBack,
+		texture = clothes\Items\TrashcanLid,
+    }	
 	model ToyBearSmall
 	{
 		mesh = WorldItems/ToyBear,
@@ -806,6 +841,11 @@ module Base
 	{
 		mesh =  WorldItems/WorldItem_GhostbusterTrap,
 		texture = clothes\Items\GhostbustersTrap,
+	}	
+	model WorldItem-FeatherDuster
+	{
+		mesh =  WorldItems/WorldItem_FeatherDuster,
+		texture = clothes\Items\FeatherDuster,
 	}	
 	model WorldItem-AuthenticGlowstickBlank
 	{
@@ -988,11 +1028,16 @@ module Base
 		mesh = BalloonGroup3_Ground,
 		texture = clothes\Items\BalloonYellow,		
 	}
+	model WorldItem-ClownConeHat
+	{
+		mesh =  WorldItems/WorldItem_ClownConeHat,
+		texture = clothes\Hats\ClownConeHat,		
+	}
 	model WorldItem-BoomMicrophone
 	{
 		mesh =  WorldItems/WorldItem_BoomMic,
-		texture = clothes\Items\BoomMicrophone,		
-	}
+		texture = clothes\Hats\ClownConeHat,		
+	}	
 	model WorldItem-FuneralRose
 	{
 		mesh =  WorldItems/WorldItem_RoseBouquet,
@@ -1048,6 +1093,11 @@ module Base
 		mesh = WorldItems/WorldItem_AuthenticCigaretteHolder,
 		texture = clothes\Items\CigaretteHolder,			
     }
+	model WorldItem-ChickenHeadJacket
+    {
+		mesh = WorldItems/WorldItem_ChickenHeadJacket,
+		texture = clothes\Masks\ChickenMask,		
+    }	
 	model WorldItem-CostumeStoreSign
     {
 		mesh = WorldItems/WorldItem_StoreSign,
@@ -1058,6 +1108,11 @@ module Base
 		mesh = WorldItems/WorldItem_Cigarette,
 		texture = Cigarette,		
     }
+	model WorldItem-RoadsideDufflebag
+    {
+		mesh = WorldItems/WorldItem_RoadsideDufflebag,
+		texture = clothes\Backpacks\RoadsideDuffelBag,		
+    }	
 	model WorldItem-LadyDimitrescuDress
     {
 		mesh = WorldItems/WorldItem_DressDimitrescu,
@@ -1096,11 +1151,34 @@ module Base
 	{
 		mesh = WorldItems/WorldItem_AuthenticHeadband,
 	}
+	model WorldItem_HawaiianLei
+    {
+		mesh = WorldItems/WorldItem_HawaiianLei,
+    }
+    model WorldItem-BigLollipop
+    {
+        mesh = WorldItems/WorldItem_BigLollipop,
+        texture =  clothes\Items\BigLolipop,
+    }	
+	model WorldItem_MichaelMyersMask
+	{
+		mesh = WorldItems/WorldItem_MichaelMyersMask,		
+	}	
+    model WorldItem-Necklace_GoldCrucifix
+    {
+        mesh = WorldItems/Necklace_Crucifix_Ground,
+        texture =  clothes\Jewelry\WorldItem-Necklace_B,
+    }		
+    model WorldItem-Necklace_B
+    {
+        mesh = WorldItems/WorldItem-Necklace_B,
+        texture =  clothes\Jewelry\WorldItem-Necklace_B,
+    }		
 	model WorldItem_PugOtisPlushie
 	{
 		mesh = WorldItems/WorldItem_PlushieOtisPugAZ,
 		texture = clothes\Items\PugPlushie,		
-	}	
+	}
 	model WorldItem_ReporterMicMuffler_Media01
 	{
 		mesh = WorldItems/WorldItem_AZReporterMicMuffler,
@@ -1155,7 +1233,16 @@ module Base
 	{
 		mesh = WorldItems/WorldItem_RoadsideTriangle,
 		texture = clothes\Items\RoadsideTriangle,		
+	}
+	model WorldItem_SmallBoater
+	{
+		mesh = WorldItems/WorldItem-SmallBoater,	
 	}	
+	model WorldItem_TrashCanLid
+    {
+		mesh = WorldItems/WorldItem_TrashcanLid,
+		texture = clothes\Items\TrashcanLid,
+    }	
 	model WorldItem_UtilityBelt
     {
 		mesh = Skinned/Backpacks/WorldItem-UtilityBeltTactical,
@@ -1253,6 +1340,15 @@ module Base
 		mesh = WorldItems/WorldItem_AuthenticPillBottle,
 		texture = clothes\Items\AuthenticPillBottle,
     }
+	model WorldItem-RotaryPhone
+    {
+		mesh = WorldItems/WorldItem_RotaryPhone,
+		texture = clothes\Items\RotaryPhone,
+    }
+	model WorldItem-StormtrooperAZ
+    {
+		mesh =  WorldItems/WorldItem_AuthenticZStormtrooperHelmet,
+    }	
 	model WorldItem-StovePipeHat
     {
 		mesh =  WorldItems/WorldItem_StovePipeHat,
@@ -1281,7 +1377,10 @@ module Base
 	model WorldItem-Witchy2Hat
     {
 		mesh = WorldItems/WorldItem_WitchyHat2,
-		texture = clothes\Hats\Witchy2Hat,
+    }
+	model WorldItem-WrinklesMask
+    {
+		mesh = WorldItems/WorldItem_WrinklesMask,
     }	
 	model WorldItem-AuthenticTV110
 	{

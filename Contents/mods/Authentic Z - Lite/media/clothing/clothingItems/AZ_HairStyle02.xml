@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\Hair\Bob_Hair_PonyTail</m_MaleModel>
+	<m_FemaleModel>skinned\Hair\Kate_Hair_Bob</m_FemaleModel>
+	<m_GUID>bf78358f-c861-4794-8a07-2d4878f01bbb</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_MasksFolder>media/textures/Clothes/Hat/Masks</m_MasksFolder>
+	<textureChoices>Clothes\Hairstyles\F_Hair_Black</textureChoices>
+	<textureChoices>Clothes\Hairstyles\F_Hair_Black</textureChoices>
+	<textureChoices>Clothes\Hairstyles\F_Hair_Blonde</textureChoices>
+	<textureChoices>Clothes\Hairstyles\F_Hair_Brown</textureChoices>
+	<textureChoices>Clothes\Hairstyles\F_Hair_Brown</textureChoices>
+	<textureChoices>Clothes\Hairstyles\F_Hair_Ginger</textureChoices>	
+	<textureChoices>Clothes\Hairstyles\F_Hair_Grey</textureChoices>
+	<textureChoices>Clothes\Hairstyles\F_Hair_Grey</textureChoices>
+	<textureChoices>Clothes\Hairstyles\F_Hair_LightBrown</textureChoices>
+	<textureChoices>Clothes\Hairstyles\F_Hair_LightBrown</textureChoices>
+	<textureChoices>Clothes\Hairstyles\F_Hair_LightGrey</textureChoices>
+	<textureChoices>Clothes\Hairstyles\F_Hair_LightGrey</textureChoices>
+	<textureChoices>Clothes\Hairstyles\F_Hair_Olive</textureChoices>
+	<textureChoices>Clothes\Hairstyles\F_Hair_Olive</textureChoices>
+	<textureChoices>Clothes\Hairstyles\F_Hair_Orange</textureChoices>	
+	<textureChoices>Clothes\Hairstyles\F_Hair_TanBrown</textureChoices>
+	<textureChoices>Clothes\Hairstyles\F_Hair_TanBrown</textureChoices>
+	<textureChoices>Clothes\Hairstyles\F_Hair_TanBrown2</textureChoices>
+	<textureChoices>Clothes\Hairstyles\F_Hair_TanBrown2</textureChoices>
+	<textureChoices>Clothes\Hairstyles\F_Hair_White</textureChoices>
+</clothingItem>

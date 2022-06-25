@@ -550,6 +550,11 @@ module Base
 			rotate = -62.0000 64.0000 123.0000,
 		}		
 	}
+	model FeatherDuster
+	{
+		mesh = Weapons/1Handed/FeatherDuster,
+		texture = clothes\Items\FeatherDuster,
+	}	
 	model PomPomBlack
 	{
 		mesh = Weapons/1Handed/AZPomPom,
@@ -836,6 +841,11 @@ module Base
 	{
 		mesh =  WorldItems/WorldItem_GhostbusterTrap,
 		texture = clothes\Items\GhostbustersTrap,
+	}
+	model WorldItem-FeatherDuster
+	{
+		mesh =  WorldItems/WorldItem_FeatherDuster,
+		texture = clothes\Items\FeatherDuster,
 	}	
 	model WorldItem-AuthenticGlowstickBlank
 	{

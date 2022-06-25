@@ -2,6 +2,18 @@ module AuthenticZLite {
   imports {
       Base
   }
+    item HawaiianLei
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Hawaiian Lei,
+		ClothingItem = HawaiianLei,
+		BodyLocation = Necklace_Long,
+		IconsForTexture = HawaiianLeiOrchid;HawaiianLeiGreen;HawaiianLeiBlue,
+		Weight = 0.1,
+		Cosmetic = TRUE,
+		WorldStaticModel = WorldItem_HawaiianLei,		
+	}  
     item Necklace_B
 	{
 	    DisplayCategory = Accessory,

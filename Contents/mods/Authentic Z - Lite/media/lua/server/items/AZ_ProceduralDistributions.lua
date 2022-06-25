@@ -5,6 +5,7 @@ local function preDistributionMerge()
         rolls = 2,
         items = {
 --Hats		
+            "AuthenticZLite.AuthenticGlowstick_Pack", 5,	
             "AuthenticZLite.AuthenticHairHeadband", 5,
             "AuthenticZLite.Hat_BaseballCapClementine", 5,
             "AuthenticZLite.Hat_BaseballCapEllis", 5,
@@ -13,6 +14,8 @@ local function preDistributionMerge()
             "AuthenticZLite.Hat_BaseballCapHunter", 5,
             "AuthenticZLite.Hat_BaseballCapSeaHorse", 5,
             "AuthenticZLite.Hat_BaseballCapWalker", 5,
+            "AuthenticZLite.Hat_Boater_Small", 5,
+            "AuthenticZLite.AZ_HairStyle30", 5,	
             "Hat_Bandana", 5,
             "Hat_BandanaTINT", 5,
             "AuthenticZLite.BunnyEars", 5,
@@ -33,6 +36,7 @@ local function preDistributionMerge()
             "Hat_FurryEars", 5,
             "WeldingMask", 5,
             "AuthenticZLite.Hat_CheeseHat", 5,
+            "AuthenticZLite.ChickenHatJacket", 5,
             "AuthenticZLite.Hat_Dimitrescu", 5,
             "AuthenticZLite.Hat_DRLegoHead", 5,
             "AuthenticZLite.Hat_GhostFace", 5,
@@ -44,6 +48,8 @@ local function preDistributionMerge()
             "AuthenticZLite.Hat_MichaelMyers", 5,
             "AuthenticZLite.Hat_Nurse", 5,
             "AuthenticZLite.Hat_RuneDuel", 5,
+            "AuthenticZLite.Hat_StormtrooperHelmetAZ", 5,
+            "AuthenticZLite.Hat_StormtrooperHelmetSparklesAZ", 5,			
             "AuthenticZLite.Hat_StovePipe", 5,
             "AuthenticZLite.Hat_TrueEyeCult", 5,
             "AuthenticZLite.Hat_TagillaMask", 5,
@@ -72,7 +78,8 @@ local function preDistributionMerge()
     ProceduralDistributions.list.CostumeStoreClothingAZ = {
         rolls = 2,
         items = {
---Clothing					
+--Clothing	
+            "AuthenticZLite.AuthenticGlowstick_Pack", 5,					
             "AuthenticZLite.Apron_GreenSeaHorse", 5,
             "AuthenticZLite.Apron_Short", 5,
             "AuthenticZLite.Apron_Yellow", 5,
@@ -90,6 +97,8 @@ local function preDistributionMerge()
             "AuthenticZLite.Boilersuit_GhostbustersZeddemore", 5,
             "AuthenticZLite.CEDAHazmatSuitBlue", 1,
             "AuthenticZLite.CEDAHazmatSuitRed", 1,
+            "AuthenticZLite.HawaiianLei", 1,
+            "AuthenticZLite.Glasses_Popeyes", 1,
             "JacketLong_Doctor", 1,
             "JacketLong_Santa", 1,
             "JacketLong_SantaGreen", 1,
@@ -143,7 +152,8 @@ local function preDistributionMerge()
             "AuthenticZLite.Vest_Waistcoat_Joker_Orange", 5,
             "AuthenticZLite.Vest_Waistcoat_Mime", 5,
             "AuthenticZLite.WeddingDressBlue", 5,		
-            "AuthenticZLite.WeddingDressPink", 5,			
+            "AuthenticZLite.WeddingDressPink", 5,
+			
         },
         junk = {
             rolls = 1,
@@ -153,7 +163,10 @@ local function preDistributionMerge()
             "AuthenticZLite.AuthenticBalloon_White", 1,    
             "AuthenticZLite.AuthenticBalloon_Yellow", 1,
             "AuthenticZLite.AuthenticBalloon_Blue", 1,
-            "AuthenticZLite.AuthenticBalloon_Green", 1,            
+            "AuthenticZLite.AuthenticBalloon_Green", 1,
+            "AuthenticZLite.AuthenticGlowstick_Red", 1,         
+            "AuthenticZLite.AuthenticGlowstick_Green", 1,         
+            "AuthenticZLite.AuthenticGlowstick_Yellow", 1,                
             }
         }
     }	
@@ -161,7 +174,9 @@ local function preDistributionMerge()
     ProceduralDistributions.list.CostumeStoreWeaponsAZ = {
         rolls = 2,
         items = {
---"Weapons"					
+--"Weapons"	
+            "AuthenticZLite.AuthenticGlowstick_Pack", 5,					
+            "AuthenticZLite.Authentic_FeatherDuster", 5,					
             "AuthenticZLite.Authentic_PomPomWhite", 5,			
             "AuthenticZLite.Authentic_PomPomBlack", 5,
             "AuthenticZLite.Authentic_PomPomBlue", 5,
@@ -180,6 +195,7 @@ local function preDistributionMerge()
             rolls = 2,
             items = {
             "Candycane", 5,
+            "AuthenticZLite.BigLollipop", 5,
             "CandyPackage", 2,
             "MintCandy", 5,            
             "Chocolate", 2,          
@@ -192,6 +208,9 @@ local function preDistributionMerge()
             "AuthenticZLite.AuthenticBalloon_Yellow", 1,
             "AuthenticZLite.AuthenticBalloon_Blue", 1,
             "AuthenticZLite.AuthenticBalloon_Green", 1,         
+            "AuthenticZLite.AuthenticGlowstick_Red", 1,         
+            "AuthenticZLite.AuthenticGlowstick_Green", 1,         
+            "AuthenticZLite.AuthenticGlowstick_Yellow", 1,         
             }
         }
     }		
@@ -203,7 +222,8 @@ local function preDistributionMerge()
             "AuthenticZLite.BunnyTail", 5,			
             "AuthenticZLite.CameraDSLR", 5,
             "AuthenticZLite.ClownNose", 5,
-            "AuthenticZLite.ClownTop", 5,		
+            "AuthenticZLite.ClownTop", 5,
+            "AuthenticZLite.HawaiianLei", 5,			
             "Glasses_Aviators", 5,		
             "Gloves_FingerlessGloves", 5,		
             "Gloves_Surgical", 5,		
@@ -214,6 +234,7 @@ local function preDistributionMerge()
             "AuthenticZLite.AuthenticFreeHugsSign", 1,
             "AuthenticZLite.HairDyeBlonde2", 5,
             "AuthenticZLite.HairDyePurple", 5,
+            "AuthenticZLite.Glasses_Popeyes", 1,			
             "AuthenticZLite.Rose_Dimitrescu", 2,
             "AuthenticZLite.SpiffoPlushieRainbow", 1,
             "AuthenticZLite.SpiffoShamrock", 1,
@@ -227,6 +248,7 @@ local function preDistributionMerge()
             "AuthenticZLite.ToyBear", 1,
             "AuthenticZLite.ToyBearSmall", 1,
             "AuthenticZLite.Doll", 1,
+            "AuthenticZLite.AuthenticGlowstick_Pack", 5,			
 --Backpacks					
             "AuthenticZLite.Bag_ProtonPack_Back", 5,
             "AuthenticZLite.Bag_L4DeadMedkit", 5,
@@ -242,6 +264,7 @@ local function preDistributionMerge()
             rolls = 3,
             items = {
             "Candycane", 5,
+            "AuthenticZLite.BigLollipop", 5,			
             "CandyPackage", 2,
             "MintCandy", 5,            
             "Chocolate", 2,          
@@ -254,7 +277,10 @@ local function preDistributionMerge()
             "AuthenticZLite.AuthenticBalloon_White", 1,    
             "AuthenticZLite.AuthenticBalloon_Yellow", 1,
             "AuthenticZLite.AuthenticBalloon_Blue", 1,
-            "AuthenticZLite.AuthenticBalloon_Green", 1,  
+            "AuthenticZLite.AuthenticBalloon_Green", 1, 
+            "AuthenticZLite.AuthenticGlowstick_Red", 1,         
+            "AuthenticZLite.AuthenticGlowstick_Green", 1,         
+            "AuthenticZLite.AuthenticGlowstick_Yellow", 1,    			
             }
         }
     }	
@@ -269,6 +295,7 @@ local function preDistributionMerge()
             "AuthenticZLite.Authentic_PomPomRed", 5,
             "AuthenticZLite.AuthenticWalkingCane", 5,		
             "AuthenticZLite.AuthenticCricketBat", 5,
+            "AuthenticZLite.Authentic_FeatherDuster", 5,
             "AuthenticZLite.AuthenticWalkingCaneGrandFather", 5,			
             "AuthenticZLite.AuthenticWalkingCaneJP", 5,			
             "AuthenticZLite.AuthenticCigaretteHolder", 1,			
@@ -279,6 +306,7 @@ local function preDistributionMerge()
             "AuthenticZLite.CameraDSLR", 5,
             "AuthenticZLite.ClownNose", 5,
             "AuthenticZLite.ClownTop", 5,		
+            "AuthenticZLite.HawaiianLei", 5,		
             "AuthenticZLite.CultistSign", 5,		
             "AuthenticZLite.CigarAZ", 5,		
             "Glasses_Aviators", 5,		
@@ -289,6 +317,7 @@ local function preDistributionMerge()
             "AuthenticZLite.Hairstyle_Afro_Pick", 5,
             "AuthenticZLite.HairDyeBlonde2", 5,
             "AuthenticZLite.HairDyePurple", 5,
+            "AuthenticZLite.Glasses_Popeyes", 1,			
             "AuthenticZLite.Rose_Dimitrescu", 5,
             "AuthenticZLite.SpiffoPlushieRainbow", 1,
             "AuthenticZLite.SpiffoShamrock", 1,
@@ -302,6 +331,7 @@ local function preDistributionMerge()
             "AuthenticZLite.ToyBear", 1,
             "AuthenticZLite.ToyBearSmall", 1,
             "AuthenticZLite.Doll", 1,
+            "AuthenticZLite.AuthenticGlowstick_Pack", 5,				
 --Skins		
             "AuthenticZLite.BlueZskin_F1", 5,
             "AuthenticZLite.BlueZskin_F2", 5,
@@ -318,8 +348,14 @@ local function preDistributionMerge()
             "AuthenticZLite.Hat_BaseballCapHunter", 5,
             "AuthenticZLite.Hat_BaseballCapSeaHorse", 5,
             "AuthenticZLite.Hat_BaseballCapWalker", 5,
+            "AuthenticZLite.Hat_Boater_Small", 5,
+            "AuthenticZLite.AZ_HairStyle30", 5,			
+            "AuthenticZLite.ChickenHatJacket", 5,			
             "AuthenticZLite.AuthenticFreeHugsSign", 1,			
             "AuthenticZLite.BunnyEars", 5,
+            "AuthenticZLite.Hat_StormtrooperHelmetAZ", 5,
+            "AuthenticZLite.Hat_StormtrooperHelmetSparklesAZ", 5,
+
             "Hat_Bandana", 5,
             "Hat_BandanaTINT", 5,			
             "Hat_Antlers", 5,
@@ -367,20 +403,25 @@ local function preDistributionMerge()
             items = {
             "Candycane", 5,
             "CandyPackage", 2,
-            "MintCandy", 5,            
+            "MintCandy", 5,
+            "AuthenticZLite.BigLollipop", 5,            
             "Chocolate", 3,          
             "Popcorn", 2,          
             "Marshmallows", 2,          
             "Modjeska", 3,
             "Hat_PartyHat_TINT", 5,
             "Hat_PartyHat_Stars", 5,
+            "AuthenticZLite.AuthenticGlowstick_Pack", 5,				
             "AuthenticZLite.AuthenticFreeHugsSign", 1,			
             "AuthenticZLite.AuthenticBalloon_Purple", 1,    
             "AuthenticZLite.AuthenticBalloon_Red", 1,    
             "AuthenticZLite.AuthenticBalloon_White", 1,    
             "AuthenticZLite.AuthenticBalloon_Yellow", 1,
             "AuthenticZLite.AuthenticBalloon_Blue", 1,
-            "AuthenticZLite.AuthenticBalloon_Green", 1, 
+            "AuthenticZLite.AuthenticBalloon_Green", 1,
+            "AuthenticZLite.AuthenticGlowstick_Red", 1,         
+            "AuthenticZLite.AuthenticGlowstick_Green", 1,         
+            "AuthenticZLite.AuthenticGlowstick_Yellow", 1,    			
             }
         }
     }
@@ -417,6 +458,7 @@ local function preDistributionMerge()
             "Jacket_Shellsuit_Pink", 1,
             "Jacket_Shellsuit_TINT", 1,
             "Jacket_Shellsuit_Teal", 1,
+            "AuthenticZLite.HawaiianLei", 1,			
             "AuthenticZLite.Jacket_Reporter_LBMW", 1,
             "AuthenticZLite.Mime_Overalls", 5,
             "Shirt_Scrubs", 5,
@@ -472,14 +514,210 @@ local function preDistributionMerge()
             "Chocolate", 3,          
             "Popcorn", 2,          
             "Marshmallows", 2,          
-            "Modjeska", 3,          
+            "Modjeska", 3, 
+            "AuthenticZLite.AuthenticGlowstick_Pack", 5,				
             "AuthenticZLite.AuthenticBalloon_Purple", 1,    
             "AuthenticZLite.AuthenticBalloon_Red", 1,    
             "AuthenticZLite.AuthenticBalloon_White", 1,    
             "AuthenticZLite.AuthenticBalloon_Yellow", 1,
             "AuthenticZLite.AuthenticBalloon_Blue", 1,
-            "AuthenticZLite.AuthenticBalloon_Green", 1,  
-            }
+            "AuthenticZLite.AuthenticBalloon_Green", 1,
+            "AuthenticZLite.AuthenticGlowstick_Red", 1,         
+            "AuthenticZLite.AuthenticGlowstick_Green", 1,         
+            "AuthenticZLite.AuthenticGlowstick_Yellow", 1,    			
+            },
+		}	
+	}
+	
+	ProceduralDistributions.list.LazerTagAZ = {
+        rolls = 4,
+        items = {
+-- Glowsticks					
+            "AuthenticZLite.AuthenticGlowstick_Red", 5,
+            "AuthenticZLite.AuthenticGlowstick_Blue", 5,
+            "AuthenticZLite.AuthenticGlowstick_Green", 5,
+            "AuthenticZLite.AuthenticGlowstick_Orange", 5,
+            "AuthenticZLite.AuthenticGlowstick_Purple", 5,		
+            "AuthenticZLite.AuthenticGlowstick_Pink", 5,		
+            "AuthenticZLite.AuthenticGlowstick_Yellow", 5,	
+        },			
+        junk = {
+            rolls = 3,
+            items = {				
+            "AuthenticZLite.AuthenticGlowstick_Red", 1,
+            "AuthenticZLite.AuthenticGlowstick_Blue", 1,
+            "AuthenticZLite.AuthenticGlowstick_Green", 1,
+            "AuthenticZLite.AuthenticGlowstick_Orange", 1,
+            "AuthenticZLite.AuthenticGlowstick_Purple", 1,		
+            "AuthenticZLite.AuthenticGlowstick_Pink", 1,		
+            "AuthenticZLite.AuthenticGlowstick_Yellow", 1,	    			
+            },			
+        }
+    }
+
+
+	ProceduralDistributions.list.NightClubGlowsticksAZ = {
+        rolls = 2,
+        items = {
+-- Glowsticks					
+            "AuthenticZLite.AuthenticGlowstick_Red", 1,
+            "AuthenticZLite.AuthenticGlowstick_Blue", 1,
+            "AuthenticZLite.AuthenticGlowstick_Green", 1,
+            "AuthenticZLite.AuthenticGlowstick_Orange", 1,
+            "AuthenticZLite.AuthenticGlowstick_Purple", 1,		
+            "AuthenticZLite.AuthenticGlowstick_Pink", 1,		
+            "AuthenticZLite.AuthenticGlowstick_Yellow", 1,
+        },		
+        junk = {
+            rolls = 2,
+            items = {				
+            "AuthenticZLite.AuthenticGlowstick_Red", 1,
+            "AuthenticZLite.AuthenticGlowstick_Blue", 1,
+            "AuthenticZLite.AuthenticGlowstick_Green", 1,
+            "AuthenticZLite.AuthenticGlowstick_Orange", 1,
+            "AuthenticZLite.AuthenticGlowstick_Purple", 1,		
+            "AuthenticZLite.AuthenticGlowstick_Pink", 1,		
+            "AuthenticZLite.AuthenticGlowstick_Yellow", 1,	    			
+            },			
+        }
+    }
+
+	ProceduralDistributions.list.NightClubCounterAZ = {
+        rolls = 2,
+        items = {
+-- Glowsticks					
+            "AuthenticZLite.AuthenticGlowstick_Pack", 20,
+            "AuthenticZLite.AuthenticGlowstick_Pack", 20,
+            "AuthenticZLite.AuthenticGlowstick_Pack", 20,
+            "AuthenticZLite.AuthenticGlowstick_Pack", 20,
+            "AuthenticZLite.AuthenticGlowstick_Pack", 20,
+            "AuthenticZLite.AuthenticGlowstick_Pack", 20,
+			"WhiskeyFull", 2,
+            "Wine", 4,
+            "Wine", 4,
+            "BeerCan", 10,
+            "BeerCan", 10,
+            "BeerBottle", 10,
+            "BeerBottle", 10,
+            "BeerBottle", 10,
+			
+			"CardDeck", 6,
+            "Cigarettes", 10,
+            "Crisps", 10,
+            "Dice", 6,
+            "Lighter", 10,
+            "Matches", 10,
+            "Peanuts", 10,
+            "Pickles", 6,
+            "Pop", 10,
+            "Pop2", 10,
+            "Pop3", 10,
+            "PopBottle", 6,
+            "TortillaChips", 10,
+
+			"GlassTumbler", 50,
+            "GlassTumbler", 20,
+            "GlassWine", 20,
+            "PlasticCup", 20,		
+			
+            "Bleach", 4,
+            "CleaningLiquid2", 2,			
+        },		
+        junk = {
+            rolls = 2,
+            items = {				
+            "AuthenticZLite.AuthenticGlowstick_Red", 1,
+            "AuthenticZLite.AuthenticGlowstick_Blue", 1,
+            "AuthenticZLite.AuthenticGlowstick_Green", 1,
+            "AuthenticZLite.AuthenticGlowstick_Orange", 1,
+            "AuthenticZLite.AuthenticGlowstick_Purple", 1,		
+            "AuthenticZLite.AuthenticGlowstick_Pink", 1,		
+            "AuthenticZLite.AuthenticGlowstick_Yellow", 1,
+            "AuthenticZLite.AuthenticGlowstick_Red", 1,
+            "AuthenticZLite.AuthenticGlowstick_Blue", 1,
+            "AuthenticZLite.AuthenticGlowstick_Green", 1,
+            "AuthenticZLite.AuthenticGlowstick_Orange", 1,
+            "AuthenticZLite.AuthenticGlowstick_Purple", 1,		
+            "AuthenticZLite.AuthenticGlowstick_Pink", 1,		
+            "AuthenticZLite.AuthenticGlowstick_Yellow", 1,			
+            "Bag_ShotgunDblSawnoffBag", 1,			
+            "BaseballBat", 1,
+            "DoubleBarrelShotgunSawnoff", 1,			
+            },			
+        }
+    }
+
+	ProceduralDistributions.list.NightClubLockerAZ = {
+        rolls = 5,
+        items = {
+-- Glowsticks					
+            "AuthenticZLite.AuthenticGlowstick_Pack", 20,
+            "AuthenticZLite.AuthenticGlowstick_Pack", 20,
+            "AuthenticZLite.AuthenticGlowstick_Pack", 20,
+            "AuthenticZLite.AuthenticGlowstick_Pack", 20,
+            "AuthenticZLite.AuthenticGlowstick_Pack", 20,
+			
+            "9mmClip", 2,
+            "Bag_FannyPackFront", 1.5,
+            "Belt2", 2,
+            "Bullets38Box", 5,
+            "Bullets9mmBox", 5,
+            "Disc_Retail", 2,
+            "Earbuds", 3,
+            "Glasses_Aviators", 1,
+            "Headphones", 3,
+            "HolsterDouble", 0.5,
+            "HolsterSimple", 1,
+            "Nightstick", 2,
+            "Pistol", 5,
+            "Radio.CDplayer", 3,
+            "Radio.WalkieTalkie4", 3,
+            "Revolver_Short", 5,			
+        },		
+        junk = {
+            rolls = 2,
+            items = {				
+            "AuthenticZLite.AuthenticGlowstick_Red", 1,
+            "AuthenticZLite.AuthenticGlowstick_Blue", 1,
+            "AuthenticZLite.AuthenticGlowstick_Green", 1,
+            "AuthenticZLite.AuthenticGlowstick_Orange", 1,
+            "AuthenticZLite.AuthenticGlowstick_Purple", 1,		
+            "AuthenticZLite.AuthenticGlowstick_Pink", 1,		
+            "AuthenticZLite.AuthenticGlowstick_Yellow", 1,	    			
+            },			
+        }
+    }
+
+	ProceduralDistributions.list.NightClubShelvesAZ = {
+        rolls = 3,
+        items = {
+-- Glowsticks					
+            "AuthenticZLite.AuthenticGlowstick_Pack", 10,
+            "AuthenticZLite.AuthenticGlowstick_Pack", 10,
+            "AuthenticZLite.AuthenticGlowstick_Pack", 10,
+            "AuthenticZLite.AuthenticGlowstick_Pack", 10,
+            "AuthenticZLite.AuthenticGlowstick_Pack", 10,
+            "AuthenticZLite.AuthenticGlowstick_Pack", 10,
+			"BeerCan", 10,
+            "BeerCan", 10,
+            "BeerBottle", 10,
+            "BeerBottle", 10,
+            "Wine", 4,
+            "Wine", 4,
+            "Wine2", 4,
+            "WhiskeyFull", 2,		
+        },			
+        junk = {
+            rolls = 2,
+            items = {				
+            "AuthenticZLite.AuthenticGlowstick_Red", 1,
+            "AuthenticZLite.AuthenticGlowstick_Blue", 1,
+            "AuthenticZLite.AuthenticGlowstick_Green", 1,
+            "AuthenticZLite.AuthenticGlowstick_Orange", 1,
+            "AuthenticZLite.AuthenticGlowstick_Purple", 1,		
+            "AuthenticZLite.AuthenticGlowstick_Pink", 1,		
+            "AuthenticZLite.AuthenticGlowstick_Yellow", 1,	    			
+            },			
         }
     }
 
