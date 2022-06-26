@@ -938,26 +938,22 @@ ZombiesZoneDefinition.Killa = { --
 ZombiesZoneDefinition.Left4Dead = {
 	AuthenticBillOverbeckM = {
 		name="AuthenticBillOverbeck",
-		toSpawn=1,
-		mandatory="true",
+		chance=0.5,
 		gender="male",
 	},
 	AuthenticZoeyM = {
 		name="AuthenticZoey",
-		toSpawn=1,
-		mandatory="true",
+		chance=0.5,
 		gender="female",
 	},
 	AuthenticLouisM = {
 		name="AuthenticLouis",
-		toSpawn=1,
-		mandatory="true",
+		chance=0.5,
 		gender="male",
 	},
 	AuthenticFrancisM = {
 		name="AuthenticFrancis",
-		toSpawn=1,
-		mandatory="true",
+		chance=0.5,
 		gender="male",
 	},
 	AuthenticFuneralFormal = {

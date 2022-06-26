@@ -28,7 +28,7 @@ ContextMenu_EN = {
 	ContextMenu_TipHatForward = "Tip Hat Forward",	
 
 
-	/* New 5-31-22 */	
+	/* New 6-25-22 */	
 
 	ContextMenu_PullVeilBack = "Pull Veil Back",	
 	ContextMenu_PullVeilForward = "Pull Veil Forward",		

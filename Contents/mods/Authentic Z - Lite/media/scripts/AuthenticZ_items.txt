@@ -1383,4 +1383,27 @@ module AuthenticZLite {
 		Tooltip = Tooltip_HandTorch2,
 		WorldStaticModel = HandTorch,
     }
+	item FlameTrap
+    {
+        MaxRange	=	10,
+        Type	=	Weapon,
+        MinimumSwingTime	=	1.5,
+		SwingAnim	=	Throw,
+        WeaponSprite = WeaponSpriteFlameTrap,
+        UseSelf	=	TRUE,
+        DisplayName	=	Flame Trap,
+        SwingTime	=	1.5,
+        SwingAmountBeforeImpact	=	0.1,
+        PhysicsObject	=	Molotov,
+        MinDamage	=	0,
+        MaxDamage	=	0,
+        MaxHitCount	=	0,
+        Icon	=	BottleWithGas,
+        FirePower  =   97,
+        FireRange  =   6,
+        ExplosionSound  =   FlameTrapExplode,
+        SwingSound = FlameTrapThrow,
+        AttachmentType  		= 	Explosive,			
+		OBSOLETE 			= TRUE,				
+    }	
 }		

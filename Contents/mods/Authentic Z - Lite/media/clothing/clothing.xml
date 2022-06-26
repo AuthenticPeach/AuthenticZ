@@ -10575,10 +10575,6 @@
 		<m_items> <!-- Jeans -->
 			<itemGUID>8973893f-f324-4cdb-a32b-43cd0378174f</itemGUID>
 		</m_items>
-<!-- 		<m_items> <!-- Straight Jacket 
-			<probability>0.35</probability>		
-			<itemGUID>75ce22f2-e985-4a06-8b60-d06d3ec97d27</itemGUID>
-		</m_items>		-->		
 		<m_items> <!-- Long Socks -->
 			<itemGUID>fb86bd5f-1931-4b24-a5d7-bd6a43769991</itemGUID>
 		</m_items>	

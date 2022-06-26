@@ -60,7 +60,10 @@ Recipes_EN = {
 	Recipe_Open_Sleeping_Bag = "Open Sleeping Bag",
 	Recipe_Close_Sleeping_Bag = "Close Sleeping Bag",	
 	
-/* New */
+/* 6-25-22 */
 	Recipe_Attach_Cigarette_to_Cigarette_Holder = "Attach Cigarette to Cigarette Holder",		
+	Recipe_Wear_on_Neck = "Wear on Neck",		
+	Recipe_Open_Sealed_Medkit = "Open Sealed Medkit",		
+	Recipe_Open_Pack_of_Glowsticks = "Open Pack of Glowsticks",		
 	
 	}

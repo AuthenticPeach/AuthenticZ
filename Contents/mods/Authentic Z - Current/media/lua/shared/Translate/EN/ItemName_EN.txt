@@ -867,7 +867,7 @@ ItemName_EN = {
 	ItemName_AuthenticZClothing.CEDAHazmatSuitRedNoMaskNoShoes = "CEDA Hazmat Suit",
 	ItemName_AuthenticZClothing.CEDAHazmatSuitRedNoMask = "CEDA Hazmat Suit",
 
-	/* New 6-06-22 */	
+	/* New 6-24-22 */	
 
 	ItemName_AuthenticZClothing.AuthenticCigaretteHolder_Cig = "Cigarette Holder with Cigarette",
 	ItemName_AuthenticZClothing.Authentic_FeatherDuster = "Feather Duster",	
