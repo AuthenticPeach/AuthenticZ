@@ -773,8 +773,6 @@ module AuthenticZClothing {
 		RainFactor 				= 	1,
 		Tooltip 				= 	Tooltip_item_RainFromGround,
 		StaticModel 			= 	AuthenticCanteenCadetBlue,
-		primaryAnimMask 		= 	HoldingTorchRight,
-        secondaryAnimMask 		= 	HoldingTorchLeft,
 		WorldStaticModel 		= 	WorldItem_CanteenCadetBlue,
 		AttachmentType  		= 	Canteen,		
 	}
@@ -796,8 +794,6 @@ module AuthenticZClothing {
 		RainFactor 				= 	1,
 		Tooltip 				= 	Tooltip_item_RainFromGround,
 		StaticModel 			= 	AuthenticCanteenCadetBlue,
-		primaryAnimMask 		= 	HoldingTorchRight,
-        secondaryAnimMask		= 	HoldingTorchLeft,
 		WorldStaticModel 		= 	WorldItem_CanteenCadetBlue,
 		AttachmentType  		= 	Canteen,			
 	}
@@ -813,8 +809,6 @@ module AuthenticZClothing {
 		RainFactor 				= 	1,
 		Tooltip 				= 	Tooltip_item_RainFromGround,
 		StaticModel 			= 	AuthenticCanteenDarkGreen,
-		primaryAnimMask 		= 	HoldingTorchRight,
-        secondaryAnimMask 		= 	HoldingTorchLeft,
 		WorldStaticModel 		= 	WorldItem_CanteenDarkGreen,	
 		AttachmentType 		 	= 	Canteen,			
 	}
@@ -836,8 +830,6 @@ module AuthenticZClothing {
 		RainFactor 				= 	1,
 		Tooltip 				= 	Tooltip_item_RainFromGround,
 		StaticModel 			= 	AuthenticCanteenDarkGreen,
-		primaryAnimMask 		= 	HoldingTorchRight,
-        secondaryAnimMask		= 	HoldingTorchLeft,
 		WorldStaticModel 		= 	WorldItem_CanteenDarkGreen,	
 		AttachmentType  		= 	Canteen,			
 	}
@@ -853,8 +845,6 @@ module AuthenticZClothing {
 		RainFactor 				= 	1,
 		Tooltip 				= 	Tooltip_item_RainFromGround,
 		StaticModel 			= 	AuthenticCanteenDarkGrey,
-		primaryAnimMask 		= 	HoldingTorchRight,
-        secondaryAnimMask 		= 	HoldingTorchLeft,
 		WorldStaticModel 		= 	WorldItem_CanteenDarkGrey,	
 		AttachmentType  		= 	Canteen,			
 	}
@@ -876,8 +866,6 @@ module AuthenticZClothing {
 		RainFactor 				= 	1,
 		Tooltip 				= 	Tooltip_item_RainFromGround,
 		StaticModel 			= 	AuthenticCanteenDarkGrey,
-		primaryAnimMask 		= 	HoldingTorchRight,
-        secondaryAnimMask		= 	HoldingTorchLeft,
 		WorldStaticModel 		= 	WorldItem_CanteenDarkGrey,	
 		AttachmentType  		= 	Canteen,			
 	}
@@ -893,8 +881,6 @@ module AuthenticZClothing {
 		RainFactor 				= 	1,
 		Tooltip 				= 	Tooltip_item_RainFromGround,
 		StaticModel 			= 	AuthenticCanteenForestGreen,
-		primaryAnimMask 		= 	HoldingTorchRight,
-        secondaryAnimMask 		= 	HoldingTorchLeft,
 		WorldStaticModel 		= 	WorldItem_CanteenForestGreen,	
 		AttachmentType  		= 	Canteen,			
 	}
@@ -916,8 +902,6 @@ module AuthenticZClothing {
 		Icon					=	CanteenForestGreen,
 		Tooltip 				= 	Tooltip_item_RainFromGround,
 		StaticModel 			= 	AuthenticCanteenForestGreen,
-		primaryAnimMask 		= 	HoldingTorchRight,
-        secondaryAnimMask		= 	HoldingTorchLeft,
 		WorldStaticModel 		= 	WorldItem_CanteenForestGreen,
 		AttachmentType  		= 	Canteen,			
 	}
@@ -933,8 +917,6 @@ module AuthenticZClothing {
 		RainFactor 				= 	1,
 		Tooltip 				= 	Tooltip_item_RainFromGround,
 		StaticModel 			= 	AuthenticCanteenGrey,
-		primaryAnimMask 		= 	HoldingTorchRight,
-        secondaryAnimMask 		= 	HoldingTorchLeft,
 		WorldStaticModel 		= 	WorldItem_CanteenGrey,	
 		AttachmentType 			= 	Canteen,			
 	}
@@ -956,8 +938,6 @@ module AuthenticZClothing {
 		RainFactor 				= 	1,
 		Tooltip 				= 	Tooltip_item_RainFromGround,
 		StaticModel 			= 	AuthenticCanteenGrey,
-		primaryAnimMask 		= 	HoldingTorchRight,
-        secondaryAnimMask		= 	HoldingTorchLeft,
 		WorldStaticModel 		= 	WorldItem_CanteenGrey,	
 		AttachmentType  		= 	Canteen,			
 	}
@@ -973,47 +953,41 @@ module AuthenticZClothing {
 		RainFactor 				= 	1,
 		Tooltip 				= 	Tooltip_item_RainFromGround,
 		StaticModel 			= 	AuthenticCanteenSilver,
-		primaryAnimMask 		= 	HoldingTorchRight,
-        secondaryAnimMask 		= 	HoldingTorchLeft,
 		WorldStaticModel 		= 	WorldItem_CanteenSilver,	
 		AttachmentType  		= 	Canteen,			
 	}
 
 	item AuthenticCanteenSilverfull
     	{
-        DisplayCategory 		= 	WaterContainer, 		
+        DisplayCategory 		= 	WaterContainer, 
+		Type					=	Drainable,		
+		DisplayName				=	Canteen with Water,
+		Weight					=	1.5,		
 		IsWaterSource			=	TRUE,
-		Weight					=	1.5,
 		CanStoreWater			=	TRUE,
-		Type					=	Drainable,
 		UseWhileEquipped		=	FALSE,
 		IsCookable				=	TRUE,
 		UseDelta				=	0.05,
-		DisplayName				=	Canteen with Water,
 		ReplaceOnDeplete		=	AuthenticCanteenSilver,
 		ReplaceOnUseOn			=	WaterSource-AuthenticCanteenSilverfull,
 		Icon					=	CanteenSilver,
 		RainFactor 				= 	1,
 		Tooltip 				= 	Tooltip_item_RainFromGround,
 		StaticModel 			= 	AuthenticCanteenSilver,
-		primaryAnimMask 		= 	HoldingTorchRight,
-        secondaryAnimMask		= 	HoldingTorchLeft,
 		WorldStaticModel 		= 	WorldItem_CanteenSilver,	
 		AttachmentType  		= 	Canteen,			
 	}
-	item CigarAZ2
+	item CigarAZHalf
 	{
 		DisplayCategory 		= Household,	
 		Type					= Food,	
-		DisplayName 			= Cigar,
-		ClothingItem			= CigarAZ,	
-		BodyLocation 			= Mask,		
-		Icon					= CigarAZ,
-        Weight 					= 0.1,		
+		DisplayName 			= Half-Smoked Cigar,
+		Icon					= CigarHalfAZ,
+        Weight 					= 0.06,		
 		Count					= 1,
 		HungerChange			= 0,
-		StressChange			= -20,
-		BoredomChange			= -20,		
+		StressChange			= -10,
+		BoredomChange			= -10,		
 		RequireInHandOrInventory =	Lighter/Matches,
 		CustomContextMenu 		= Smoke,
 		CantBeFrozen 	 		= TRUE,
@@ -1021,10 +995,31 @@ module AuthenticZClothing {
 		EatType 		 		= Cigarettes,		
 		CustomEatSound 			= ,		
 		WorldStaticModel 		= WorldItem_CigarAZ,
-    } 
+    }
+	item CigarAZ2
+	{
+		DisplayCategory 		= Household,	
+		Type					= Food,	
+		DisplayName 			= Cigar,
+		Icon					= CigarAZ,
+        Weight 					= 0.1,		
+		Count					= 1,
+		HungerChange			= 0,
+		StressChange			= -10,
+		BoredomChange			= -10,		
+		RequireInHandOrInventory =	Lighter/Matches,
+		CustomContextMenu 		= Smoke,
+		CantBeFrozen 	 		= TRUE,
+		OnEat 			 		= OnEat_CigarAZ,
+		EatType 		 		= Cigarettes,
+		ReplaceOnUse			= CigarAZHalf,			
+		CustomEatSound 			= ,		
+		WorldStaticModel 		= WorldItem_CigarAZ,
+    } 	
 	item AuthenticCigaretteHolder
 	{
-		DisplayCategory 	= 	Household
+		DisplayCategory 	= 	Household,
+		Type				=	Food,	
 		DisplayName			=	Cigarette Holder,
 		Icon				=	CigaretteHolder,
 		Weight				=	0.2,		
@@ -1039,7 +1034,7 @@ module AuthenticZClothing {
 		Weight				=	0.2,		
 		Count				=	1,
 		HungerChange		=	0,
-		StressChange		=	-20,		
+		StressChange		=	-10,		
 		RequireInHandOrInventory	=	Lighter/Matches,
 		CustomContextMenu 	= 	Smoke,
 		CantBeFrozen 	 	= 	TRUE,

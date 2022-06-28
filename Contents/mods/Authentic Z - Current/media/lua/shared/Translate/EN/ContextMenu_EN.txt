@@ -31,5 +31,7 @@ ContextMenu_EN = {
 	/* New 6-25-22 */	
 
 	ContextMenu_PullVeilBack = "Pull Veil Back",	
-	ContextMenu_PullVeilForward = "Pull Veil Forward",		
+	ContextMenu_PullVeilForward = "Pull Veil Forward",	
+	
+	ContextMenu_SwapSides = "Swap Sides",		
 } 

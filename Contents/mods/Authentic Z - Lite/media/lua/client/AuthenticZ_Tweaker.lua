@@ -22,6 +22,11 @@ local function TweakItem(itemName, itemProperty, propertyValue)
 end
 Events.OnGameBoot.Add(doTweaks);
 
+TweakItem("Base.AmmoStrap_Bullets", "ClothingItemExtra", "AuthenticZLite.AmmoStrap_Bullets2");
+TweakItem("Base.AmmoStrap_Bullets", "ClothingItemExtraOption", "SwapSides");
+TweakItem("Base.AmmoStrap_Shells", "ClothingItemExtra", "AuthenticZLite.AmmoStrap_Shells2");
+TweakItem("Base.AmmoStrap_Shells", "ClothingItemExtraOption", "SwapSides");
+
 TweakItem("Base.Mop", "StaticModel", "MopAZ");
 TweakItem("Base.Mop", "AttachmentType", "Shovel");
 

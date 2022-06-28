@@ -10,6 +10,8 @@ recipe Attach Cigarette to Cigarette Holder
 
    	   Result:AuthenticCigaretteHolder_Cig,
 	   Time:30.0,
+       Prop1:Cigarette,
+       Prop2:AuthenticCigaretteHolder,	   
   	}
 
 recipe Convert into Wearable
@@ -464,7 +466,8 @@ recipe Open Sealed Medkit
 recipe Wear on Neck
   	{
    	   Hat_EarMuffs,
-
+	   OnTest:KoniTestAZ_OnTest_ConvertClothing,
+	   OnCreate:KoniTestAZ_OnCreate_ConvertClothing,
    	   Result:Hat_EarMuffs_AZ,
 	   Time:30.0,
   	}

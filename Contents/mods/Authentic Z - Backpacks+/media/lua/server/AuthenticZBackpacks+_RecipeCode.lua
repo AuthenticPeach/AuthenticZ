@@ -20,12 +20,6 @@ function AuthenticTorchBatteryRemoval_OnCreate(items, result, player)
 		end
 	end
 end
---Get new headphones to work with radios
-function RWMVolume:verifyItem(_item)
-    if _item:getFullType() == "Base.Headphones" or _item:getFullType() == "Base.Earbuds" or _item:getFullType() == "AuthenticZClothing.Authentic_Headphones" or _item:getFullType() == "AuthenticZClothing.Authentic_Headphones2" then
-        return true;
-    end
-end
 
 --Have bags keep inventory items during craft
 --TODO, Fix part on keeping texture

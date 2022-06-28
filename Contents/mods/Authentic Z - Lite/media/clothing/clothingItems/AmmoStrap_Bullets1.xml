@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media\models_X\Skinned\Clothes\Bob_AmmoStrap.X</m_MaleModel>
+	<m_FemaleModel>media\models_X\Skinned\Clothes\Kate_AmmoStrap.X</m_FemaleModel>
+	<m_GUID>33fcfe7e-057a-412d-8eb9-73490d90311d</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>clothes\straps\ammostrap_bullets</textureChoices>
+</clothingItem>

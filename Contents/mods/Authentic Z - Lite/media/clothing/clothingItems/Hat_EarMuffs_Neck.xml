@@ -7,7 +7,6 @@
 	<m_AllowRandomHue>false</m_AllowRandomHue>
 	<m_AllowRandomTint>true</m_AllowRandomTint>
 	<m_AttachBone></m_AttachBone>
-	<m_HatCategory>Group04</m_HatCategory>
-	<m_MasksFolder>media/textures/Clothes/Hat/Masks</m_MasksFolder>
+	<m_MasksFolder>none</m_MasksFolder>
 	<textureChoices>earmuff_white</textureChoices>
 </clothingItem>

@@ -25,5 +25,12 @@ ContextMenu_EN = {
 	ContextMenu_WearNormally2 = "Wear with Mask and Shoe Covers",	
 
 	ContextMenu_TipHatBack = "Tip Hat Back",	
-	ContextMenu_TipHatForward = "Tip Hat Forward",		
+	ContextMenu_TipHatForward = "Tip Hat Forward",
+
+	/* New 6-25-22 */	
+
+	ContextMenu_PullVeilBack = "Pull Veil Back",	
+	ContextMenu_PullVeilForward = "Pull Veil Forward",	
+	
+	ContextMenu_SwapSides = "Swap Sides",		
 } 

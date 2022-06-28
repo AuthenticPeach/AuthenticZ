@@ -5692,10 +5692,10 @@ module Base
 			bone = Bip01_BackPack,
 		}
 
-		attachment BackpackSecondary_AlicepackBag_L4DeadMedkit
+		attachment BackpackSecondary_AlicepackFirstAidKit
 		{
-			offset = 0.0170 -0.0040 -0.1610,
-			rotate = 91.0000 1.0000 -10.0000,
+			offset = 0.0410 0.1110 -0.2450,
+			rotate = 112.0000 21.0000 170.0000,
 			bone = Bip01_BackPack,
 		}
 

@@ -3370,7 +3370,15 @@
 	<files>
 		<path>media/clothing/clothingItems/Arm_LeftHandBone.xml</path>
 		<guid>b09cc3d9-b820-4652-8f0f-ae355176ce02</guid>
-	</files>		
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/AmmoStrap_Bullets1.xml</path>
+		<guid>33fcfe7e-057a-412d-8eb9-73490d90311d</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/AmmoStrap_Shells1.xml</path>
+		<guid>2377f1dc-6e1e-4695-b350-b970f7f687cc</guid>
+	</files>	
 	<files>
 		<path>media/clothing/clothingItems/AmmoStrap_Bullets2.xml</path>
 		<guid>ed044c6d-21c0-4c58-a4f6-3c9d3afd3499</guid>
@@ -4505,7 +4513,7 @@
 	</files>
 	<files>
 		<path>media/clothing/clothingItems/Hat_EarMuffs_AZ.xml</path>
-		<guid>7bb90dbb-3b02-45c3-85bf-eed607d1f9bb</guid>
+		<guid>58eac417-3c76-4106-8218-5b80e85b7389</guid>
 	</files>
 	<files>
 		<path>media/clothing/clothingItems/Hat_EarMuffs_Neck.xml</path>
@@ -4513,12 +4521,12 @@
 	</files>
 	<files>
 		<path>media/clothing/clothingItems/Hat_EarMuff_Protectors_AZ.xml</path>
-		<guid>a6d1f48d-74a1-4353-9718-b1bacf5566be</guid>
+		<guid>8c23d4a5-7495-42b0-9a4a-f4aa17607037</guid>
 	</files>
 	<files>
 		<path>media/clothing/clothingItems/Hat_EarMuff_Protectors_Neck.xml</path>
-		<guid>ba78e404-4246-48fd-ab5f-31400204b4bf</guid>
-	</files>	
+		<guid>4aa36083-2b95-454d-82a9-92b719745e20</guid>
+	</files>
 	<files>
 		<path>media/clothing/clothingItems/Hat_FastFood_Donut.xml</path>
 		<guid>5eed625b-18e4-4bc2-bdc7-1b3f4d5fe470</guid>

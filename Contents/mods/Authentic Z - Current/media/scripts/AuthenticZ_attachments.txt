@@ -2806,7 +2806,7 @@ module Base
 
 		attachment BackpackSecondary_AlicepackBag_L4DeadMedkit
 		{
-			offset = 0.0170 -0.0040 -0.1610,
+			offset = 0.0170 -0.0040 -0.1140,
 			rotate = 91.0000 1.0000 -10.0000,
 			bone = Bip01_BackPack,
 		}

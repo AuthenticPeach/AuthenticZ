@@ -22,6 +22,11 @@ local function TweakItem(itemName, itemProperty, propertyValue)
 end
 Events.OnGameBoot.Add(doTweaks);
 
+TweakItem("Base.AmmoStrap_Bullets", "ClothingItemExtra", "AuthenticZClothing.AmmoStrap_Bullets2");
+TweakItem("Base.AmmoStrap_Bullets", "ClothingItemExtraOption", "SwapSides");
+TweakItem("Base.AmmoStrap_Shells", "ClothingItemExtra", "AuthenticZClothing.AmmoStrap_Shells2");
+TweakItem("Base.AmmoStrap_Shells", "ClothingItemExtraOption", "SwapSides");
+
 TweakItem("Base.BlowTorch","AttachmentType", "Tool");
 
 TweakItem("Base.ClosedUmbrellaRed", "AttachmentType", "Umbrella");
@@ -45,6 +50,7 @@ TweakItem("Base.WeldingMask", "AttachmentType", "GasMask");
 TweakItem("Base.WeldingMask", "StaticModel", "WelderMaskNotWorn");
 
 TweakItem("Base.HandTorch", "AttachmentType", "Flashlight");
+
 
 
 

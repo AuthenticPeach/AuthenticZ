@@ -2,29 +2,60 @@ module AuthenticZLite {
   imports {
       Base
   }
+	item AmmoStrap_Bullets1
+	{
+       DisplayCategory = Accessory,		
+		Type = Clothing,
+		DisplayName = Bullets Ammo Strap,
+		ClothingItem = AmmoStrap_Bullets1,
+		BodyLocation = AmmoStrap,
+		ClothingItemExtra = AuthenticZLite.AmmoStrap_Bullets2,
+        ClothingItemExtraOption = SwapSides,				
+		Icon = AmmoStrap,
+		Tags = ReloadFastBullets,
+		WorldStaticModel = AmmoStrap_Ground,		
+		
+	}
+	item AmmoStrap_Shells1
+	{
+       DisplayCategory = Accessory,		
+		Type = Clothing,
+		DisplayName = Shells Ammo Strap,
+		ClothingItem = AmmoStrap_Shells1,
+		BodyLocation = AmmoStrap,
+		ClothingItemExtra = AuthenticZLite.AmmoStrap_Shells2,
+        ClothingItemExtraOption = SwapSides,				
+		Icon = AmmoStrap,
+		Tooltip = Tooltip_AmmoStrap,
+		Tags = ReloadFastShells,		
+		WorldStaticModel = AmmoStrap_Ground,		
+	}  
 	item AmmoStrap_Bullets2
 	{
-       DisplayCategory = Clothing,		
+       DisplayCategory = Accessory,		
 		Type = Clothing,
 		DisplayName = Bullets Ammo Strap,
 		ClothingItem = AmmoStrap_Bullets2,
 		BodyLocation = AmmoStrap2,
-		ClothingItemExtra = AuthenticZLite.AmmoStrap_Shells,
+		ClothingItemExtra = AuthenticZLite.AmmoStrap_Bullets1,
+        ClothingItemExtraOption = SwapSides,				
 		Icon = AmmoStrapFlipped,
-		Tooltip = Tooltip_AmmoStrap,
+		Tags = ReloadFastBullets,
 		WorldStaticModel = AmmoStrap_Ground,		
 		
 	}
 	item AmmoStrap_Shells2
 	{
-       DisplayCategory = Clothing,		
+       DisplayCategory = Accessory,		
 		Type = Clothing,
 		DisplayName = Shells Ammo Strap,
 		ClothingItem = AmmoStrap_Shells2,
 		BodyLocation = AmmoStrap2,
-		ClothingItemExtra = AuthenticZLite.AmmoStrap_Bullets,
+		ClothingItemExtra = AuthenticZLite.AmmoStrap_Shells1,
+        ClothingItemExtraOption = SwapSides,				
 		Icon = AmmoStrapFlipped,
 		Tooltip = Tooltip_AmmoStrap,
+		Tags = ReloadFastShells,		
 		WorldStaticModel = AmmoStrap_Ground,		
 	}
 	item Apron_DonutAZ
@@ -597,7 +628,7 @@ module AuthenticZLite {
 		Type = Clothing,
 		DisplayName = Ear Muffs,
 		ClothingItem = Hat_EarMuffs_AZ,
-		ClothingItemExtra		= AuthenticZClothing.Hat_EarMuffs_Neck,
+		ClothingItemExtra		= AuthenticZLite.Hat_EarMuffs_Neck,
         ClothingItemExtraOption = WearNeck,		
 		BodyLocation = Necklace,
 		Icon = EarMuffs,
@@ -614,7 +645,7 @@ module AuthenticZLite {
 		Type = Clothing,
 		DisplayName = Ear Muffs (Neck),
 		ClothingItem = Hat_EarMuffs_Neck,
-		ClothingItemExtra 		= AuthenticZClothing.Hat_EarMuffs_AZ,
+		ClothingItemExtra 		= AuthenticZLite.Hat_EarMuffs_AZ,
         ClothingItemExtraOption = WearHead,			
 		BodyLocation = Necklace_Long,
 		Icon = EarMuffs,
@@ -631,7 +662,7 @@ module AuthenticZLite {
 		Type = Clothing,
 		DisplayName = Ear Protectors,
 		ClothingItem = Hat_EarMuff_Protectors_AZ,
-		ClothingItemExtra		= AuthenticZClothing.Hat_EarMuff_Protectors_Neck,
+		ClothingItemExtra		= AuthenticZLite.Hat_EarMuff_Protectors_Neck,
         ClothingItemExtraOption = WearNeck,		
 		BodyLocation = Necklace,
 		Icon = EarProtectors,
@@ -648,7 +679,7 @@ module AuthenticZLite {
 		Type = Clothing,
 		DisplayName = Ear Protectors (Neck),
 		ClothingItem = Hat_EarMuff_Protectors_Neck,
-		ClothingItemExtra 		= AuthenticZClothing.Hat_EarMuff_Protectors_AZ,
+		ClothingItemExtra 		= AuthenticZLite.Hat_EarMuff_Protectors_AZ,
         ClothingItemExtraOption = WearHead,			
 		BodyLocation = Necklace_Long,
 		Icon = EarProtectors,

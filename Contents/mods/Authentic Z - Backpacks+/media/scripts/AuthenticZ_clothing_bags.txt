@@ -1,4 +1,4 @@
-module AuthenticZBackpacks+ {
+module AuthenticZBackpacksPlus {
   imports {
       Base
   }
@@ -272,7 +272,7 @@ module AuthenticZBackpacks+ {
 		Type 					= Container,
 		DisplayName 			= Tactical Webbing,
 		ClothingItem 			= Bag_MilitaryWebbing_AZ,
-		ClothingItemExtra 		= AuthenticZBackpacks+.Bag_MilitaryWebbingTightened_AZ,
+		ClothingItemExtra 		= AuthenticZBackpacksPlus.Bag_MilitaryWebbingTightened_AZ,
         ClothingItemExtraOption = Tighten,		
 		BodyLocation 			= Tail,
 		CanBeEquipped 			= Tail,
@@ -291,7 +291,7 @@ module AuthenticZBackpacks+ {
 		Type 					= Container,
 		DisplayName 			= Tactical Webbing (Tightened),
 		ClothingItem		 	= Bag_MilitaryWebbingTightened_AZ,
-		ClothingItemExtra 		= AuthenticZBackpacks+.Bag_MilitaryWebbing_AZ,
+		ClothingItemExtra 		= AuthenticZBackpacksPlus.Bag_MilitaryWebbing_AZ,
         ClothingItemExtraOption = Loosen,		
 		BodyLocation 			= Tail,
 		CanBeEquipped 			= Tail,
@@ -420,7 +420,7 @@ module AuthenticZBackpacks+ {
         DisplayName				=	Utility Belt (Tightened),
         ClothingItem 			= 	Bag_UtilityBeltFront,		
         WeightReduction			=	66,
-        ClothingItemExtra 		=	AuthenticZBackpacks+.Bag_UtilityBeltFront_Loose,
+        ClothingItemExtra 		=	AuthenticZBackpacksPlus.Bag_UtilityBeltFront_Loose,
         ClothingItemExtraOption = 	Loosen,
         Weight					=	0.2,
         Capacity				=	2,
@@ -441,7 +441,7 @@ module AuthenticZBackpacks+ {
         DisplayName				=	Utility Belt (Loosened),
         ClothingItem 			= 	Bag_UtilityBeltFront_Loose,		
         WeightReduction			=	66,
-        ClothingItemExtra 		=	AuthenticZBackpacks+.Bag_UtilityBeltFront,
+        ClothingItemExtra 		=	AuthenticZBackpacksPlus.Bag_UtilityBeltFront,
         ClothingItemExtraOption = 	Tighten,
         Weight					=	0.2,
         Capacity				=	2,
@@ -462,7 +462,7 @@ module AuthenticZBackpacks+ {
         DisplayName				=	Utility Belt (Tightened),
         ClothingItem 			= 	Bag_UtilityBeltDesert,		
         WeightReduction			=	66,
-        ClothingItemExtra 		=	AuthenticZBackpacks+.Bag_UtilityBeltDesert_Loose,
+        ClothingItemExtra 		=	AuthenticZBackpacksPlus.Bag_UtilityBeltDesert_Loose,
         ClothingItemExtraOption = 	Loosen,
         Weight					=	0.2,
         Capacity				=	2,
@@ -483,7 +483,7 @@ module AuthenticZBackpacks+ {
         DisplayName				=	Utility Belt (Loosened),
         ClothingItem 			= 	Bag_UtilityBeltDesert_Loose,		
         WeightReduction			=	66,
-        ClothingItemExtra 		=	AuthenticZBackpacks+.Bag_UtilityBeltDesert,
+        ClothingItemExtra 		=	AuthenticZBackpacksPlus.Bag_UtilityBeltDesert,
         ClothingItemExtraOption = 	Tighten,
         Weight					=	0.2,
         Capacity				=	2,

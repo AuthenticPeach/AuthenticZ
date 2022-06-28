@@ -1,4 +1,4 @@
-module AuthenticZBackpacks+ {
+module AuthenticZBackpacksPlus {
   imports {
       Base
   }

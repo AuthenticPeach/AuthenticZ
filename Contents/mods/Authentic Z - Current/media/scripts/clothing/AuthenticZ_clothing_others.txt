@@ -2,29 +2,60 @@ module AuthenticZClothing {
   imports {
       Base
   }
+	item AmmoStrap_Bullets1
+	{
+       DisplayCategory = Accessory,		
+		Type = Clothing,
+		DisplayName = Bullets Ammo Strap,
+		ClothingItem = AmmoStrap_Bullets1,
+		BodyLocation = AmmoStrap,
+		ClothingItemExtra = AuthenticZClothing.AmmoStrap_Bullets2,
+        ClothingItemExtraOption = SwapSides,				
+		Icon = AmmoStrap,
+		Tags = ReloadFastBullets,
+		WorldStaticModel = AmmoStrap_Ground,		
+		
+	}
+	item AmmoStrap_Shells1
+	{
+       DisplayCategory = Accessory,		
+		Type = Clothing,
+		DisplayName = Shells Ammo Strap,
+		ClothingItem = AmmoStrap_Shells2,
+		BodyLocation = AmmoStrap,
+		ClothingItemExtra = AuthenticZClothing.AmmoStrap_Shells2,
+        ClothingItemExtraOption = SwapSides,				
+		Icon = AmmoStrap,
+		Tooltip = Tooltip_AmmoStrap,
+		Tags = ReloadFastShells,		
+		WorldStaticModel = AmmoStrap_Ground,		
+	}  
 	item AmmoStrap_Bullets2
 	{
-       DisplayCategory = Clothing,		
+       DisplayCategory = Accessory,		
 		Type = Clothing,
 		DisplayName = Bullets Ammo Strap,
 		ClothingItem = AmmoStrap_Bullets2,
 		BodyLocation = AmmoStrap2,
-		ClothingItemExtra = AuthenticZClothing.AmmoStrap_Shells,
+		ClothingItemExtra = AuthenticZClothing.AmmoStrap_Bullets1,
+        ClothingItemExtraOption = SwapSides,				
 		Icon = AmmoStrapFlipped,
-		Tooltip = Tooltip_AmmoStrap,
+		Tags = ReloadFastBullets,
 		WorldStaticModel = AmmoStrap_Ground,		
 		
 	}
 	item AmmoStrap_Shells2
 	{
-       DisplayCategory = Clothing,		
+       DisplayCategory = Accessory,		
 		Type = Clothing,
 		DisplayName = Shells Ammo Strap,
 		ClothingItem = AmmoStrap_Shells2,
 		BodyLocation = AmmoStrap2,
-		ClothingItemExtra = AuthenticZClothing.AmmoStrap_Bullets,
+		ClothingItemExtra = AuthenticZClothing.AmmoStrap_Shells1,
+        ClothingItemExtraOption = SwapSides,				
 		Icon = AmmoStrapFlipped,
 		Tooltip = Tooltip_AmmoStrap,
+		Tags = ReloadFastShells,		
 		WorldStaticModel = AmmoStrap_Ground,		
 	}
 	item Apron_DonutAZ
