@@ -666,5 +666,4 @@ module AuthenticZClothing {
         Weight = 0.1,
         WorldStaticModel = Socks_Long_Ground,			
 	}
-	
 }

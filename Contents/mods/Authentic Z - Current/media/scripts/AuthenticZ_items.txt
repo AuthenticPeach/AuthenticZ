@@ -575,7 +575,7 @@ module AuthenticZClothing {
     item AuthenticBalloon_Blue
     {
 		DisplayCategory 		= 	Household,	
-        Type					=	WeaponPart,
+        Type					=	Normal,
         DisplayName				=	Blue Balloon,
         Icon					=	Balloon_Blue,
         Weight					=	0.05,
@@ -583,9 +583,7 @@ module AuthenticZClothing {
         secondaryAnimMask 		= 	HoldingUmbrellaLeft,
         StaticModel 			= 	AuthenticBalloonBlue,
 		WorldStaticModel 		= 	WorldItem-BalloonBlue,
-		MountOn					=   AZ_MetalClip,
-		AttachmentType 			= 	BalloonSlot,
-        PartType 				= 	Balloon,		
+		AttachmentType 			= 	BalloonSlot,		
     }
 
     item AuthenticBalloonGroup_Blue
@@ -993,8 +991,9 @@ module AuthenticZClothing {
 		CantBeFrozen 	 		= TRUE,
 		OnEat 			 		= OnEat_CigarAZ,
 		EatType 		 		= Cigarettes,		
-		CustomEatSound 			= ,		
-		WorldStaticModel 		= WorldItem_CigarAZ,
+		CustomEatSound 			= ,
+		StaticModel 			= CigarHalfAZ,		
+		WorldStaticModel 		= WorldItem_CigarHalfAZ,
     }
 	item CigarAZ2
 	{
@@ -1013,7 +1012,8 @@ module AuthenticZClothing {
 		OnEat 			 		= OnEat_CigarAZ,
 		EatType 		 		= Cigarettes,
 		ReplaceOnUse			= CigarAZHalf,			
-		CustomEatSound 			= ,		
+		CustomEatSound 			= ,	
+		StaticModel 			= CigarAZ,			
 		WorldStaticModel 		= WorldItem_CigarAZ,
     } 	
 	item AuthenticCigaretteHolder

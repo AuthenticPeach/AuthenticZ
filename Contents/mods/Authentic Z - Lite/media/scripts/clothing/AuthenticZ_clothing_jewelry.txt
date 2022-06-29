@@ -9,7 +9,7 @@ module AuthenticZLite {
 		DisplayName = Hawaiian Lei,
 		ClothingItem = HawaiianLei,
 		BodyLocation = Necklace_Long,
-		IconsForTexture = HawaiianLeiOrchid;HawaiianLeiGreen;HawaiianLeiBlue,
+		IconsForTexture = HawaiianLeiOrchid;HawaiianLeiGreen;HawaiianLeiBlue;HawaiianLeiHotPink,
 		Weight = 0.1,
 		Cosmetic = TRUE,
 		WorldStaticModel = WorldItem_HawaiianLei,		
@@ -21,10 +21,10 @@ module AuthenticZLite {
 		DisplayName = Gold B Necklace,
 		ClothingItem = Necklace_B,
 		BodyLocation = Necklace_Long,
-		Icon = Necklace_SilverCrucifix,
+		Icon = Necklace_Crucifix_Gold,
 		Weight = 0.1,
 		Cosmetic = TRUE,
-		WorldStaticModel = Necklace_SilverCrucifix_Ground,		
+		WorldStaticModel = WorldItem-Necklace_B,		
 	}
     item Necklace_GoldCrucifix
 	{
@@ -36,7 +36,7 @@ module AuthenticZLite {
 		Icon = Necklace_Crucifix_Gold,
 		Weight = 0.1,
 		Cosmetic = TRUE,
-		WorldStaticModel = Necklace_SilverCrucifix_Ground,			
+		WorldStaticModel = WorldItem-Necklace_GoldCrucifix,			
 	}	
     item AuthenticFreeHugsSign
 	{

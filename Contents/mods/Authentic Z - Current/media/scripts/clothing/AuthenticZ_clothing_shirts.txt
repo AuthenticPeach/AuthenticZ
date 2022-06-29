@@ -480,8 +480,8 @@
     {
         DisplayCategory = Clothing,	
         Type = Clothing,
-        DisplayName = Amphibious Frog T-Shirt,
-        ClothingItem = TShirt_Amphibian,
+        DisplayName = Hooded Figure T-Shirt,
+        ClothingItem = Tshirt_LogoTest,
         BodyLocation = Tshirt,
         Icon	=	TshirtGeneric,
         BloodLocation = Shirt,

@@ -547,7 +547,7 @@ module AuthenticZClothing {
     item AuthenticBalloon_Blue
     {
 		DisplayCategory 		= 	Household,	
-        Type					=	WeaponPart,
+        Type					=	Normal,
         DisplayName				=	Blue Balloon,
         Icon					=	Balloon_Blue,
         Weight					=	0.05,
@@ -555,9 +555,7 @@ module AuthenticZClothing {
         secondaryAnimMask 		= 	HoldingUmbrellaLeft,
         StaticModel 			= 	AuthenticBalloonBlue,
 		WorldStaticModel 		= 	WorldItem-BalloonBlue,
-		MountOn					=   AZ_MetalClip,
-		AttachmentType 			= 	BalloonSlot,
-        PartType 				= 	Balloon,		
+		AttachmentType 			= 	BalloonSlot,		
     }
 
     item AuthenticBalloonGroup_Blue
@@ -1296,13 +1294,12 @@ module AuthenticZClothing {
 	{
         DisplayCategory  =	Material,	
         Weight			 =	0.05,
-        Type			 =	Weapon,
+        Type			 =	Normal,
         DisplayName		 = 	Carabiner Clip,
         Icon			 =	CarabinerClip,
 		StaticModel 	 =  Carabiner,			
 		WorldStaticModel =	WorldItem_Carabiner,
 		Tooltip 		 = 	Tooltip_Carabiner,
-        ModelWeaponPart  = AuthenticBalloon_Blue AuthenticBalloon_Blue balloon balloon,		
 	}
 	item Torch2
 	{

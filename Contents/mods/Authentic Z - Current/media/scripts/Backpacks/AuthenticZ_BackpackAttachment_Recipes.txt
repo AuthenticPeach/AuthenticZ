@@ -284,38 +284,7 @@ recipe Make Backpack Attachable Item
 	   Time:30.0,
 	   Tooltip:Tooltip_AttachBackpack,
   	}		
-recipe Make Backpack Attachable Item
-  	{
-   	   ClosedUmbrellaBlue,
 
-   	   Result:AuthenticZClothing.ClosedUmbrellaBlue,
-	   Time:30.0,
-	   Tooltip:Tooltip_AttachBackpack,
-  	}
-recipe Make Backpack Attachable Item
-  	{
-   	   ClosedUmbrellaRed,
-
-   	   Result:AuthenticZClothing.ClosedUmbrellaRed,
-	   Time:30.0,
-	   Tooltip:Tooltip_AttachBackpack,
-  	}
-recipe Make Backpack Attachable Item
-  	{
-   	   ClosedUmbrellaBlack,
-
-   	   Result:AuthenticZClothing.ClosedUmbrellaBlack,
-	   Time:30.0,
-	   Tooltip:Tooltip_AttachBackpack,
-  	}
-recipe Make Backpack Attachable Item
-  	{
-   	   ClosedUmbrellaWhite,
-
-   	   Result:AuthenticZClothing.ClosedUmbrellaWhite,
-	   Time:30.0,
-	   Tooltip:Tooltip_AttachBackpack,
-  	}	
 recipe Make Backpack Attachable Item
   	{
    	   Pop,

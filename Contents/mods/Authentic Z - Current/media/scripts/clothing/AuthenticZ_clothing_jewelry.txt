@@ -9,7 +9,7 @@ module AuthenticZClothing {
 		DisplayName = Hawaiian Lei,
 		ClothingItem = HawaiianLei,
 		BodyLocation = Necklace_Long,
-		IconsForTexture = HawaiianLeiOrchid;HawaiianLeiGreen;HawaiianLeiBlue,
+		IconsForTexture = HawaiianLeiOrchid;HawaiianLeiGreen;HawaiianLeiBlue;HawaiianLeiHotPink,
 		Weight = 0.1,
 		Cosmetic = TRUE,
 		WorldStaticModel = WorldItem_HawaiianLei,		

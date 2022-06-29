@@ -156,7 +156,7 @@ module AuthenticZClothing {
     {
         DisplayCategory = Clothing,		
         Type = Clothing,
-        DisplayName = Black Poncho,
+        DisplayName = Black Poncho (XL),
         ClothingItem = Fat01_PonchoUP,
         BodyLocation = JacketHat,
         Icon = HoodieWhite,
@@ -178,7 +178,7 @@ module AuthenticZClothing {
     {
         DisplayCategory = Clothing,		
         Type = Clothing,
-        DisplayName = Black Poncho,
+        DisplayName = Black Poncho (XL),
         ClothingItem = PonchoBlackDOWN,
         BodyLocation = Jacket,
         Icon = HoodieWhite,

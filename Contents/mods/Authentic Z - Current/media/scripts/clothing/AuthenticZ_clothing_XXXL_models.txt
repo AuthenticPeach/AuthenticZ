@@ -172,7 +172,7 @@ module AuthenticZClothing {
     {
        DisplayCategory = Clothing,			
         Type = Clothing,
-        DisplayName = Overalls XL,
+        DisplayName = Overalls (XXXL),
         ClothingItem = Fat03_Overalls,
         BodyLocation = FullSuit,
         Icon = OverallsOrange,
@@ -288,7 +288,7 @@ module AuthenticZClothing {
     {
         DisplayCategory = Clothing,		
         Type = Clothing,
-        DisplayName = T-Shirt (XXXL),
+        DisplayName = T- (XXXL),
         ClothingItem = Fat03_TShirt,
         ClothingItemExtra = Tshirt_WhiteTINT,
         ClothingItemExtraOption = Tighten,			

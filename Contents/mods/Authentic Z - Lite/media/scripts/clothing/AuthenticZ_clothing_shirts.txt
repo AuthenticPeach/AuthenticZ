@@ -2,7 +2,7 @@ module AuthenticZLite {
   imports {
       Base
   }
-	item Shirt_Bill_Murray
+item Shirt_Bill_Murray
     {
         DisplayCategory = Clothing,		
         Type 		 = Clothing,
@@ -247,7 +247,7 @@ module AuthenticZLite {
 		ClothingItem = Shirt_MimeBlack,
 		BodyLocation = Tshirt,
         Icon	=	LongSleevedMimeBlack,
-        BloodLocation = Shirt,
+        BloodLocation = ShirtLongSleeves,
         Insulation = 0.2,
         WindResistance = 0.05,
         FabricType = Cotton,
@@ -261,7 +261,7 @@ module AuthenticZLite {
 		ClothingItem = Shirt_MimeRed,
 		BodyLocation = Tshirt,
         Icon	=	LongSleevedMimeRed,
-        BloodLocation = Shirt,
+        BloodLocation = ShirtLongSleeves,
         Insulation = 0.2,
         WindResistance = 0.05,
         FabricType = Cotton,
@@ -468,6 +468,20 @@ module AuthenticZLite {
         Type = Clothing,
         DisplayName = Lego Head T-Shirt,
         ClothingItem = Tshirt_LegoHead,
+        BodyLocation = Tshirt,
+        Icon	=	TshirtGeneric,
+        BloodLocation = Shirt,
+        Insulation = 0.3,
+        WindResistance = 0.35,
+        FabricType = Cotton,
+		WorldStaticModel = TShirt_Ground,	
+    }
+	item Tshirt_LogoTest
+    {
+        DisplayCategory = Clothing,	
+        Type = Clothing,
+        DisplayName = Hooded Figure T-Shirt,
+        ClothingItem = Tshirt_LogoTest,
         BodyLocation = Tshirt,
         Icon	=	TshirtGeneric,
         BloodLocation = Shirt,
@@ -1064,6 +1078,7 @@ module AuthenticZLite {
         FabricType = Cotton,
 		WorldStaticModel = BulletVest_Ground,
     }
+
     item Vest_Waistcoat_Mime
     {
         DisplayCategory = Clothing,		
@@ -1079,4 +1094,5 @@ module AuthenticZLite {
         FabricType = Cotton,
 		WorldStaticModel = BulletVest_Ground,
     }	
+
 }
