@@ -713,6 +713,17 @@ module AuthenticZLite {
 		BodyLocation 	= Hat,
 		IconsForTexture = HairpickBlack;HairpickBlue;HairpickBlueDiamonds;HairpickSeaGreen;HairpickNeon;HairpickPink;HairpickPinkHearts;HairpickRed;HairpickWhite,
 		Weight 			= 0.1,
+	}
+	item Hairstyle_HairCurlers
+	{
+       DisplayCategory    = Accessory,		
+		Type 			  = Clothing,
+		DisplayName 	  = Hair Curlers,
+		ClothingItem 	  = Hairstyle_HairCurlers,
+		BodyLocation 	  = Hat,
+		IconsForTexture   = CurlersBlue;CurlersGreen;CurlersPink;CurlersPurple,
+		Weight 			  = 0.05,
+        WorldStaticModel  = WorldItem_HairCurlers,			
 	}		
     item Hairstyle_Pennywise
     {

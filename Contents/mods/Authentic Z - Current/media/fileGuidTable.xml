@@ -4260,6 +4260,10 @@
 		<guid>1a3b787d-4341-426d-8162-7fe041b0a369</guid>
 	</files>	
 	<files>
+		<path>media/clothing/clothingItems/Hairstyle_HairCurlers.xml</path>
+		<guid>10573d3c-45c4-428e-a6d3-e09c93653277</guid>
+	</files>	
+	<files>
 		<path>media/clothing/clothingItems/Hairstyle_Pennywise.xml</path>
 		<guid>2a55b646-dde9-4c2b-8a2a-16b09c74bfab</guid>
 	</files>

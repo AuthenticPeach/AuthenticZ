@@ -27,7 +27,7 @@ module AuthenticZBackpacksPlus {
 		WorldStaticModel 		= 	WorldItem_FlamingoPlushie,
         AttachmentType  		= 	SpiffoPlushie,
 		StaticModel 			= 	WorldItem_FlamingoPlushie,		
-       OBSOLETE			=	TRUE,			
+		OBSOLETE				=	TRUE,			
 	}
 
    item OtisPug

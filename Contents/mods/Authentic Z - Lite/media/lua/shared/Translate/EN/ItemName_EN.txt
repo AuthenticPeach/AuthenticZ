@@ -951,5 +951,9 @@ ItemName_EN = {
 	ItemName_AuthenticZLite.Fat03_Shoes = "Shoes (XXXL)",	
 	ItemName_AuthenticZLite.Fat03_TShirt = "T-Shirt (XXXL)",	
 	ItemName_AuthenticZLite.Fat03_Vest_BlackOpen = "Vest (XXXL)",	
-	ItemName_AuthenticZLite.Fat03_Vest_HighViz = "Vest (XXXL)",	
+	ItemName_AuthenticZLite.Fat03_Vest_HighViz = "Vest (XXXL)",
+	
+	/* New */
+	ItemName_AuthenticZClothing.Hat_HairCurlers = "Hair Curlers",			
+	ItemName_AuthenticZClothing.Sport_Top = "Sport Tank Top",		
 }

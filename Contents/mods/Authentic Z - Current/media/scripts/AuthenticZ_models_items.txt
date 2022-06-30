@@ -1132,6 +1132,10 @@ module Base
     {
 		mesh = WorldItems/WorldItem_DuelCap,	
     }
+	model WorldItem_HairCurlers
+    {
+		mesh = WorldItems/WorldItem-HairCurlers,	
+    }	
 	model WorldItem_LadyDSummerHat
     {
 		mesh = WorldItems/WorldItem-LadyDHat,

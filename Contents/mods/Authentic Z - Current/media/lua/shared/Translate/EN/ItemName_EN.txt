@@ -954,5 +954,6 @@ ItemName_EN = {
 	ItemName_AuthenticZClothing.Fat03_Vest_HighViz = "Vest (XXXL)",	
 	
 	/* New */
+	ItemName_AuthenticZClothing.Hairstyle_HairCurlers = "Hair Curlers",			
 	ItemName_AuthenticZClothing.Sport_Top = "Sport Tank Top",		
 }
