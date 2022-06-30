@@ -323,6 +323,20 @@ item Shirt_Bill_Murray
         WindResistance = 0.20,
 		WorldStaticModel = Shirt_Ground,		
     }
+    item Sport_Top
+    {
+        DisplayCategory = Clothing,		
+        Type = Clothing,
+        DisplayName = Sport Tank Top,
+        ClothingItem = Sport_Top,
+        BodyLocation = TankTop,
+        IconsForTexture = VestBlue;VestPurple2;VestGold;VestGreen;VestGrey;VestNeon;VestBBP;VestPopcicle;VestPurple;VestRed;VestSkyBlue;VestSunset;VestWatermelon;VestGeneric;VestYellow,
+        BloodLocation = ShirtNoSleeves,
+        Insulation = 0.40,
+        WindResistance = 0.30,
+        FabricType = Cotton,
+		WorldStaticModel = BulletVest_Ground,
+    }	
     item Tshirt_Badass
     {
         DisplayCategory = Clothing,		

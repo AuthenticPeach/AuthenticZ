@@ -330,7 +330,7 @@
         DisplayName = Sport Tank Top,
         ClothingItem = Sport_Top,
         BodyLocation = TankTop,
-        IconsForTexture = VestRim,
+        IconsForTexture = VestBlue;VestPurple2;VestGold;VestGreen;VestGrey;VestNeon;VestBBP;VestPopcicle;VestPurple;VestRed;VestSkyBlue;VestSunset;VestWatermelon;VestGeneric;VestYellow,
         BloodLocation = ShirtNoSleeves,
         Insulation = 0.40,
         WindResistance = 0.30,

@@ -21,6 +21,14 @@ AuthenticZ.tab_addMagProcedural_AZCanteen  = function(x,count)
   table.insert(ProceduralDistributions.list[x].items,"AuthenticZLite.AuthenticCanteenSilver");
   table.insert(ProceduralDistributions.list[x].items, count);   
 end
+--Hair Curlers
+AuthenticZ.tab_addMagProcedural_HairCurlers  = function(x,count)
+  ProceduralDistributions = ProceduralDistributions or {};
+  ProceduralDistributions.list = ProceduralDistributions.list or {};
+  ProceduralDistributions.list[x] = ProceduralDistributions.list[x] or {};
+  table.insert(ProceduralDistributions.list[x].junk.items,"AuthenticZLite.Hairstyle_HairCurlers");
+  table.insert(ProceduralDistributions.list[x].junk.items, count);
+end
 --Hit Lists
 AuthenticZ.tab_addMagProcedural_items  = function(x,count)
   ProceduralDistributions = ProceduralDistributions or {};
@@ -221,6 +229,16 @@ AuthenticZ.tab_Bag_RoadsideDuffel  = function(x,count)
   table.insert(ProceduralDistributions.list[x].items, count);
 end
 
+--Sport Tank Top
+AuthenticZ.tab_Sport_Top  = function(x,count)
+  ProceduralDistributions = ProceduralDistributions or {};
+  ProceduralDistributions.list = ProceduralDistributions.list or {};
+  ProceduralDistributions.list[x] = ProceduralDistributions.list[x] or {};
+  ProceduralDistributions.list[x].items = ProceduralDistributions.list[x].items or {};
+  table.insert(ProceduralDistributions.list[x].items,"AuthenticZClothing.Sport_Top ");
+  table.insert(ProceduralDistributions.list[x].items, count);
+end
+
 --Toy Plushies
 AuthenticZ.tab_addMagProcedural_Plushies  = function(x,count)
   ProceduralDistributions = ProceduralDistributions or {};
@@ -286,6 +304,15 @@ AuthenticZ.tab_addMagProcedural_Carabiner("MechanicShelfTools",0.5);
 AuthenticZ.tab_addMagProcedural_Carabiner("GardenStoreTools",0.5);
 AuthenticZ.tab_addMagProcedural_Carabiner("CrateTools",0.5);
 AuthenticZ.tab_addMagProcedural_Carabiner("GigamartTools",0.5);
+
+AuthenticZ.tab_addMagProcedural_HairCurlers("CrateRandomJunk",0.1);
+AuthenticZ.tab_addMagProcedural_HairCurlers("BathroomCounterNoMeds",0.5);
+AuthenticZ.tab_addMagProcedural_HairCurlers("BathroomCounter",0.5);
+AuthenticZ.tab_addMagProcedural_HairCurlers("StripClubDressers",0.2);
+AuthenticZ.tab_addMagProcedural_HairCurlers("SalonShelfHaircare",0.5);
+AuthenticZ.tab_addMagProcedural_HairCurlers("SalonCounter",1);
+AuthenticZ.tab_addMagProcedural_HairCurlers("PharmacyCosmetics",2);
+AuthenticZ.tab_addMagProcedural_HairCurlers("CrateSalonSupplies",0.5);
 
 AuthenticZ.tab_addMagProcedural_L4DMedkit2("MedicalStorageOutfit",4.0);
 AuthenticZ.tab_addMagProcedural_L4DMedkit2("MedicalClinicOutfit",2.0);
@@ -353,6 +380,18 @@ AuthenticZ.tab_addMagProcedural_Ponchos("ArmySurplusOutfit",6.0);
 
 AuthenticZ.tab_addMagProcedural_Fitness("CrateFitnessWeights",2.0);
 
+AuthenticZ.tab_Sport_Top("BedroomDresser",0.3);
+AuthenticZ.tab_Sport_Top("ClothingStoresSport",6);
+AuthenticZ.tab_Sport_Top("CrateClothesRandom",6);
+AuthenticZ.tab_Sport_Top("CrateFitnessWeights",4);
+AuthenticZ.tab_Sport_Top("CrateRandomJunk",0.4);
+AuthenticZ.tab_Sport_Top("DresserGeneric",0.4);
+AuthenticZ.tab_Sport_Top("GymLaundry",1);
+AuthenticZ.tab_Sport_Top("GymLockers",1);
+AuthenticZ.tab_Sport_Top("LaundryLoad3",2);
+AuthenticZ.tab_Sport_Top("LaundryLoad6",0.4);
+AuthenticZ.tab_Sport_Top("SchoolLockers",0.5);
+AuthenticZ.tab_Sport_Top("WardrobeChild",0.2);
 
 AuthenticZ.tab_Bag_RoadsideDuffel("MechanicShelfTools",1.0);
 AuthenticZ.tab_Bag_RoadsideDuffel("OtherGeneric",0.3);
