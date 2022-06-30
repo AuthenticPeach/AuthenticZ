@@ -4576,7 +4576,12 @@
 			<probability>0.3</probability>
 			<itemGUID>5315b11d-1d27-4d9a-80bc-4ba21560fc32</itemGUID>
 		</m_items>
+		<m_items>  <!--Sport Tank Top -->
+			<probability>0.5</probability>
+			<itemGUID>812cf7d6-52df-435d-93a0-48893ebded28</itemGUID>
+		</m_items>			
 		<m_items> <!-- T-shirt Sport -->
+			<probability>0.5</probability>		
 			<itemGUID>a4418078-258e-4983-b836-8d978c5c930f</itemGUID>
 			<subItems> <!-- T-shirt  White TINT -->
 				<itemGUID>2256166c-64a6-4f81-8285-0779cab92fbd</itemGUID>
@@ -4692,7 +4697,12 @@
 			<probability>0.3</probability>
 			<itemGUID>5315b11d-1d27-4d9a-80bc-4ba21560fc32</itemGUID>
 		</m_items>
+		<m_items>  <!--Sport Tank Top -->
+			<probability>0.5</probability>
+			<itemGUID>812cf7d6-52df-435d-93a0-48893ebded28</itemGUID>
+		</m_items>		
 		<m_items> <!-- T-shirt Sport -->
+			<probability>0.5</probability>		
 			<itemGUID>a4418078-258e-4983-b836-8d978c5c930f</itemGUID>
 			<subItems> <!-- T-shirt  White TINT -->
 				<itemGUID>2256166c-64a6-4f81-8285-0779cab92fbd</itemGUID>
@@ -4714,8 +4724,7 @@
 			</subItems>	
 			<subItems> <!-- T-shirt  Sport Watermelon -->
 				<itemGUID>0bf3c8e2-aca3-4ffd-aa05-b34db3d9108e</itemGUID>
-			</subItems>	
-			
+			</subItems>			
 		</m_items>
 		<m_items>   <!-- Short Sport Shorts -->
 			<itemGUID>e22e4bfa-f550-4e5a-a380-5eaad6b7111c</itemGUID>
@@ -6207,6 +6216,161 @@
 			<itemGUID>9c87b588-b784-4560-bada-fd4cf7e44d48</itemGUID>
 		</m_items>			
 	</m_MaleOutfits>
+
+<m_MaleOutfits> <m_Name>AuthenticJogger</m_Name>
+		<m_Guid>d6e15883-49fd-48bd-905f-04b66496fe6d</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_items>  <!--Sweatband -->
+			<probability>0.1</probability>
+			<itemGUID>5315b11d-1d27-4d9a-80bc-4ba21560fc32</itemGUID>
+		</m_items>
+		<m_items>  <!--Sport Tank Top -->
+			<itemGUID>812cf7d6-52df-435d-93a0-48893ebded28</itemGUID>
+		</m_items>			
+		<m_items>   <!-- Short Sport Shorts -->
+			<itemGUID>e22e4bfa-f550-4e5a-a380-5eaad6b7111c</itemGUID>
+			<subItems> <!-- Long Sport Shorts -->
+				<itemGUID>e27ef562-11ab-4a6a-89a3-8a7724ffd4f8</itemGUID>
+			</subItems>
+			<subItems> <!-- Pink Black Blue Short Sport Shorts -->
+				<itemGUID>da5e3b58-e433-4182-a273-ba619e6d33c3</itemGUID>
+			</subItems>	
+			<subItems> <!-- Blue Purple Short Sport Shorts -->
+				<itemGUID>e4420f15-b115-4ad9-9db5-90a302e22235</itemGUID>
+			</subItems>	
+			<subItems> <!-- Light Blue Short Sport Shorts -->
+				<itemGUID>0e9f274b-55ef-4c92-b5f7-e30353f4943c</itemGUID>
+			</subItems>				
+			<subItems> <!-- Sunset Short Sport Shorts -->
+				<itemGUID>0e5c0d73-91af-4e75-91c5-975c16447cb8</itemGUID>
+			</subItems>				
+			<subItems> <!-- Popcicle Long Sport Shorts -->
+				<itemGUID>199e77a3-4915-42cd-83d9-db1e3572b390</itemGUID>
+			</subItems>		
+			<subItems> <!-- Watermelon Long Sport Shorts -->
+				<itemGUID>e83660a5-766b-42e3-aa6e-ae0086a96ec9</itemGUID>
+			</subItems>				
+		</m_items>
+		<m_items> <!-- Long socks -->
+			<itemGUID>fb86bd5f-1931-4b24-a5d7-bd6a43769991</itemGUID>
+			<subItems> <!-- Socks-->
+				<itemGUID>ebea15c8-99b3-4e20-905b-d22cf82b8217</itemGUID>
+			</subItems>			
+		</m_items>
+		<m_items> <!-- White Tint Sneakers -->
+			<itemGUID>6fed6e2b-3a72-4bac-aac5-09585984493d</itemGUID>
+			<subItems> <!-- White Trainers -->
+				<itemGUID>41fd0e3c-4ad1-4fc3-adf3-5437142dcc09</itemGUID>
+			</subItems>
+			<subItems>  <!-- Black and White Sneakers -->
+				<itemGUID>3cb9f7cc-9911-4791-ba4e-b8cc92e14afe</itemGUID>
+			</subItems>				
+		</m_items>
+		<m_items> <!-- Rings -->
+			<probability>0.3</probability>
+			<itemGUID>4cbb081e-0e9a-4248-bec1-0aa226e082e1</itemGUID>
+			<subItems>
+				<itemGUID>c6dd113b-3d04-4833-9f38-8e9840741c0c</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>fedba460-2edc-439d-89b6-f9607ddbf246</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>e4b3135f-a541-4870-a7b9-2ba6f730bc5c</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>5b484f12-b43c-4a83-9009-af05a59ec267</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>  <!-- Digital Watches -->
+			<probability>0.1</probability>
+			<subItems>
+				<itemGUID>c7cc655b-284a-4087-85a6-d7c116385fb0</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>0383956a-3fbd-4001-9749-69e2ba70b134</itemGUID>
+			</subItems>
+		</m_items>
+</m_MaleOutfits>
+	
+<m_FemaleOutfits> <m_Name>AuthenticJogger</m_Name>
+		<m_Guid>d6e15883-49fd-48bd-905f-04b66496fe6d</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_items>  <!--Sweatband -->
+			<probability>0.1</probability>
+			<itemGUID>5315b11d-1d27-4d9a-80bc-4ba21560fc32</itemGUID>
+		</m_items>
+		<m_items>  <!--Sport Tank Top -->
+			<itemGUID>812cf7d6-52df-435d-93a0-48893ebded28</itemGUID>
+		</m_items>		
+		<m_items>   <!-- Short Sport Shorts -->
+			<itemGUID>e22e4bfa-f550-4e5a-a380-5eaad6b7111c</itemGUID>
+			<subItems> <!-- Long Sport Shorts -->
+				<itemGUID>e27ef562-11ab-4a6a-89a3-8a7724ffd4f8</itemGUID>
+			</subItems>
+			<subItems> <!-- Pink Black Blue Short Sport Shorts -->
+				<itemGUID>da5e3b58-e433-4182-a273-ba619e6d33c3</itemGUID>
+			</subItems>	
+			<subItems> <!-- Blue Purple Short Sport Shorts -->
+				<itemGUID>e4420f15-b115-4ad9-9db5-90a302e22235</itemGUID>
+			</subItems>	
+			<subItems> <!-- Neon Long Sport Shorts -->
+				<itemGUID>ff148974-13b5-464f-bc25-d08bdc3b5df5</itemGUID>
+			</subItems>				
+			<subItems> <!-- Popcicle Long Sport Shorts -->
+				<itemGUID>199e77a3-4915-42cd-83d9-db1e3572b390</itemGUID>
+			</subItems>		
+			<subItems> <!-- Watermelon Long Sport Shorts -->
+				<itemGUID>e83660a5-766b-42e3-aa6e-ae0086a96ec9</itemGUID>
+			</subItems>				
+		</m_items>
+		<m_items> <!-- Long socks -->
+			<itemGUID>fb86bd5f-1931-4b24-a5d7-bd6a43769991</itemGUID>
+			<subItems> <!-- Socks-->
+				<itemGUID>ebea15c8-99b3-4e20-905b-d22cf82b8217</itemGUID>
+			</subItems>			
+		</m_items>
+		<m_items> <!-- White Tint Sneakers -->
+			<itemGUID>6fed6e2b-3a72-4bac-aac5-09585984493d</itemGUID>
+			<subItems> <!-- Pink and White Sneakers -->
+				<itemGUID>fa11d705-bfd5-4f5c-a54d-32643315d2d8</itemGUID>
+			</subItems>
+			<subItems>  <!-- Black and Pink Sneakers -->
+				<itemGUID>87f87760-f0fb-4dae-bc54-190a11cfd708</itemGUID>
+			</subItems>				
+		</m_items>
+		<m_items> <!-- Rings -->
+			<probability>0.3</probability>
+			<itemGUID>4cbb081e-0e9a-4248-bec1-0aa226e082e1</itemGUID>
+			<subItems>
+				<itemGUID>c6dd113b-3d04-4833-9f38-8e9840741c0c</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>fedba460-2edc-439d-89b6-f9607ddbf246</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>e4b3135f-a541-4870-a7b9-2ba6f730bc5c</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>5b484f12-b43c-4a83-9009-af05a59ec267</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>  <!-- Digital Watches -->
+			<probability>0.1</probability>
+			<subItems>
+				<itemGUID>c7cc655b-284a-4087-85a6-d7c116385fb0</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>0383956a-3fbd-4001-9749-69e2ba70b134</itemGUID>
+			</subItems>
+		</m_items>
+</m_FemaleOutfits>
 	
 <m_MaleOutfits> <m_Name>AuthenticJoker</m_Name>
 		<m_Guid>922ce435-facb-4097-9ceb-a5c2bffea717</m_Guid>

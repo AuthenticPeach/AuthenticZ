@@ -2414,7 +2414,8 @@ AZ_ZombiesZoneDefinition.Default = ZombiesZoneDefinition.Default or {};
 -- General Pop --
 table.insert(ZombiesZoneDefinition.Default,{name = "Police", chance=0.25});
 table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticBiker", chance=0.05});
-table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticFitnessInstructor", chance=0.05});
+table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticFitnessInstructor", chance=0.03});
+table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticJogger", chance=0.02});
 table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticGeneric06", chance=9});
 table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticNakedBlueVeins", chance=0.001});
 -------------------------- Survivalists --------------------------

@@ -5718,6 +5718,10 @@
 	<files>
 		<path>media/clothing/clothingItems/Stomach_Intestines3.xml</path>
 		<guid>b8b67d94-c979-4deb-982e-93bd3c5b7108</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Sport_Top.xml</path>
+		<guid>812cf7d6-52df-435d-93a0-48893ebded28</guid>
 	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Socks_LegWarmersPurple.xml</path>

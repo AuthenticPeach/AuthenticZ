@@ -221,6 +221,16 @@ AuthenticZ.tab_Bag_RoadsideDuffel  = function(x,count)
   table.insert(ProceduralDistributions.list[x].items, count);
 end
 
+--Sport Tank Top
+AuthenticZ.tab_Sport_Top  = function(x,count)
+  ProceduralDistributions = ProceduralDistributions or {};
+  ProceduralDistributions.list = ProceduralDistributions.list or {};
+  ProceduralDistributions.list[x] = ProceduralDistributions.list[x] or {};
+  ProceduralDistributions.list[x].items = ProceduralDistributions.list[x].items or {};
+  table.insert(ProceduralDistributions.list[x].items,"AuthenticZClothing.Sport_Top ");
+  table.insert(ProceduralDistributions.list[x].items, count);
+end
+
 --Toy Plushies
 AuthenticZ.tab_addMagProcedural_Plushies  = function(x,count)
   ProceduralDistributions = ProceduralDistributions or {};

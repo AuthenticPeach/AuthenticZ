@@ -898,7 +898,7 @@ ItemName_EN = {
 	ItemName_AuthenticZClothing.Tie_Big_Long = "Long Tie",
 	ItemName_AuthenticZClothing.TrashCanLid_MNG = "Trash Can Lid",
 
-	/* New 6-28-22 */	
+	/* 6-28-22 */	
 	ItemName_AuthenticZClothing.AmmoStrap_Bullets1 = "Bullets Ammo Strap",
 	ItemName_AuthenticZClothing.AmmoStrap_Shells1 = "Shells Ammo Strap",
 	ItemName_AuthenticZClothing.Hairstyle_Pennywise = "Pennywise's Wig",
@@ -952,4 +952,7 @@ ItemName_EN = {
 	ItemName_AuthenticZClothing.Fat03_TShirt = "T-Shirt (XXXL)",	
 	ItemName_AuthenticZClothing.Fat03_Vest_BlackOpen = "Vest (XXXL)",	
 	ItemName_AuthenticZClothing.Fat03_Vest_HighViz = "Vest (XXXL)",	
+	
+	/* New */
+	ItemName_AuthenticZClothing.Sport_Top = "Sport Tank Top",		
 }

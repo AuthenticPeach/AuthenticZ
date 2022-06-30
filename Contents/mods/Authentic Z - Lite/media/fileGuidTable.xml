@@ -5708,6 +5708,10 @@
 		<guid>446924bf-8a51-4ecd-9761-53e957b2c67b</guid>
 	</files>
 	<files>
+		<path>media/clothing/clothingItems/Sport_Top.xml</path>
+		<guid>812cf7d6-52df-435d-93a0-48893ebded28</guid>
+	</files>	
+	<files>
 		<path>media/clothing/clothingItems/Stomach_Intestines.xml</path>
 		<guid>53153fb6-0acd-4290-84ce-b0a7281b75a9</guid>
 	</files>
