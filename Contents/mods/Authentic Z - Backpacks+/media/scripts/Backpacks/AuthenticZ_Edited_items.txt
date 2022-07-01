@@ -11,9 +11,6 @@ module AuthenticZBackpacksPlus {
         Type					=	Normal,
         DisplayName				=	Rubber Duck,
         Icon					=	Rubberducky,
-        WorldStaticModel 		= 	Rubberducky,
-        AttachmentType  		= 	RubberDuck,
-		StaticModel 			= 	Rubberducky,
        OBSOLETE			=	TRUE,			
     }	
 	
@@ -50,9 +47,6 @@ module AuthenticZBackpacksPlus {
 		Type					=	Normal,
 		DisplayName				=	Spiffo,
 		Icon					=	PlushSpiffo,
-		WorldStaticModel 		= 	SpiffoPlushie,
-        AttachmentType  		= 	SpiffoPlushie,
-		StaticModel 			= 	SpiffoPlushie,	
        OBSOLETE			=	TRUE,			
 	}
 	
@@ -63,9 +57,6 @@ module AuthenticZBackpacksPlus {
 		Type					=	Normal,
 		DisplayName				=	PAWS Spiffo,
 		Icon					=	PlushSpiffoGrey,
-		WorldStaticModel 		= 	SpiffoPlushieGrey,
-        AttachmentType  		= 	SpiffoPlushie,
-		StaticModel 			= 	SpiffoPlushieGrey,	
        OBSOLETE			=	TRUE,			
 	}	
 
@@ -76,9 +67,6 @@ module AuthenticZBackpacksPlus {
 		Type					=	Normal,
 		DisplayName				=	Heart Spiffo,
 		Icon					=	SpiffoPink,
-		WorldStaticModel 		= 	SpiffoPlushieHeart,
-        AttachmentType  		= 	SpiffoPlushie,
-		StaticModel 			= 	SpiffoPlushieHeart,	
        OBSOLETE			=	TRUE,			
 	}
 	
@@ -89,9 +77,6 @@ module AuthenticZBackpacksPlus {
 		Type					=	Normal,
 		DisplayName				=	Blueberry Spiffo,
 		Icon					=	SpiffoBlue,
-		WorldStaticModel 		= 	SpiffoPlushieBlueberry,
-        AttachmentType  		= 	SpiffoPlushie,
-		StaticModel 			= 	SpiffoPlushieBlueberry,	
        OBSOLETE			=	TRUE,			
 	}
 
@@ -102,9 +87,6 @@ module AuthenticZBackpacksPlus {
 		Type					=	Normal,
 		DisplayName				=	Shamrock Spiffo,
 		Icon					=	SpiffoGreen,
-		WorldStaticModel 		= 	SpiffoPlushieShamrock,
-        AttachmentType  		= 	SpiffoPlushie,
-		StaticModel 			= 	SpiffoPlushieShamrock,	
        OBSOLETE			=	TRUE,			
 	}
 
@@ -115,9 +97,6 @@ module AuthenticZBackpacksPlus {
 		Type					=	Normal,
 		DisplayName				=	Rainbow Spiffo,
 		Icon					=	SpiffoRainbow,
-		WorldStaticModel 		= 	SpiffoPlushieRainbow,
-        AttachmentType  		= 	SpiffoPlushie,
-		StaticModel 			= 	SpiffoPlushieRainbow,
        OBSOLETE			=	TRUE,			
 	}	
 
@@ -128,9 +107,6 @@ module AuthenticZBackpacksPlus {
         DisplayName			=		    Doll,
         Icon				=			Doll,
         Weight				=			0.1,
-        WorldStaticModel 	= 			Doll,
-        AttachmentType  	= 			Doll,
-		StaticModel 		= 			Doll,
        OBSOLETE			=	TRUE,				
     }
 	
@@ -140,10 +116,7 @@ module AuthenticZBackpacksPlus {
 		Weight				=	0.2,
 		Type				=	Normal,
 		DisplayName			=	Toy Bear,
-		Icon				=	ToyBear,
-		WorldStaticModel 	= 	ToyBear,
-        AttachmentType  	= 	TeddyBear,		
-		StaticModel 		= 	ToyBear,	
+		Icon				=	ToyBear,	
        OBSOLETE			=	TRUE,				
 	}
 
@@ -153,10 +126,7 @@ module AuthenticZBackpacksPlus {
 		Weight				=	0.2,
 		Type				=	Normal,
 		DisplayName			=	Toy Bear,
-		Icon				=	ToyBear,
-		WorldStaticModel 	= 	ToyBearSmall,
-        AttachmentType  	= 	SpiffoPlushie,		
-		StaticModel 		= 	ToyBearSmall,	
+		Icon				=	ToyBear,	
        OBSOLETE			=	TRUE,			
 	}			
 
@@ -168,9 +138,6 @@ item BorisBadger
 		Type             = 	Normal,
 		DisplayName      = 	Boris The Badger,
 		Icon             = 	Plush_Badger,
-        AttachmentType   = 	SpiffoPlushie,
-		StaticModel 	 = 	PlushieBadger_Static,			
-		WorldStaticModel = 	PlushieBadger_Ground,
        OBSOLETE			=	TRUE,		
 	}
     item JacquesBeaver
@@ -180,9 +147,6 @@ item BorisBadger
 		Type             = 	Normal,
 		DisplayName      = 	Jacques The Beaver,
 		Icon             = 	Plush_Beaver,
-        AttachmentType   = 	SpiffoPlushie,
-		StaticModel 	 = 	PlushieBeaver_Static,			
-		WorldStaticModel = 	PlushieBeaver_Ground,
        OBSOLETE			=	TRUE,		
 	}
     item FreddyFox
@@ -192,9 +156,6 @@ item BorisBadger
 		Type             = 	Normal,
 		DisplayName      = 	Freddy The Fox,
 		Icon             = 	Plush_Fox,
-        AttachmentType   = 	SpiffoPlushie,
-		StaticModel 	 = 	PlushieFox_Static,			
-		WorldStaticModel = 	PlushieFox_Ground,
        OBSOLETE			=	TRUE,		
 	}
     item PancakeHedgehog
@@ -204,9 +165,6 @@ item BorisBadger
 		Type             = 	Normal,
 		DisplayName      = 	Pancake The Hedgehog,
 		Icon             = 	Plush_Hedgehog,
-        AttachmentType   = 	SpiffoPlushie,
-		StaticModel 	 = 	PlushieHedgehog_Static,			
-		WorldStaticModel = 	PlushieHedgehog_Ground,
        OBSOLETE			=	TRUE,		
 	}
     item MoleyMole
@@ -216,9 +174,6 @@ item BorisBadger
 		Type             = 	Normal,
 		DisplayName      = 	Moley The Mole,
 		Icon             = 	Plush_Mole,
-        AttachmentType   = 	SpiffoPlushie,
-		StaticModel 	 = 	PlushieMole_Static,			
-		WorldStaticModel = 	PlushieMole_Ground,
        OBSOLETE			=	TRUE,		
 	}
     item FluffyfootBunny
@@ -228,9 +183,6 @@ item BorisBadger
 		Type             = 	Normal,
 		DisplayName      = 	Fluffyfoot The Bunny,
 		Icon             = 	Plush_Rabbit,
-        AttachmentType   = 	SpiffoPlushie,
-		StaticModel 	 = 	PlushieRabbit_Static,			
-		WorldStaticModel = 	PlushieRabbit_Ground,
        OBSOLETE			=	TRUE,		
 	}
     item FurbertSquirrel
@@ -240,23 +192,17 @@ item BorisBadger
 		Type             = 	Normal,
 		DisplayName      = 	Furbert The Squirrel,
 		Icon             = 	Plush_Squirrel,
-        AttachmentType   = 	SpiffoPlushie,
-		StaticModel 	 = 	PlushieSquirrel_Static,			
-		WorldStaticModel = 	PlushieSquirrel_Ground,\
        OBSOLETE			=	TRUE,		
 	}
 
     item Chainsaw
     {
         DisplayCategory 	= 	Tool,
-        Weight				=	1.0,
         Type				=	Drainable,
         UseWhileEquipped	=	FALSE,
-        DisplayName			=	Chainsaw,
         Icon				=	BlowTorch,
         KeepOnDeplete 		= 	true,
-		AttachmentType  	= 	Torch,		
-        StaticModel 		= 	BlowTorch,
+		AttachmentType  	= 	Torch,
         WeightEmpty 		= 	0.3,
         OBSOLETE			=	TRUE,		
     }  
@@ -267,41 +213,27 @@ item BorisBadger
         Type				=	Drainable,
         UseWhileEquipped	=	FALSE,
         UseDelta			=	0.01,
-        DisplayName			=	Propane Torch,
         Icon				=	BlowTorch,
         MetalValue 			= 	20,
-        KeepOnDeplete 		= 	true,
-		AttachmentType  	= 	Torch,		
-        StaticModel 		= 	BlowTorch,
+        KeepOnDeplete 		= 	true,		
         WeightEmpty 		= 	0.3,
-        WorldStaticModel 	= 	BlowtorchGround,
         OBSOLETE			=	TRUE,		
     }
  
     item Rope
     {
-        DisplayCategory = Tool,	
+        DisplayCategory 		= Tool,	
         Weight					=	0.3,
         Type					=	Normal,
-        DisplayName				=	Rope,
         Icon					=	Rope,
-        SurvivalGear 			= 	TRUE,
-        WorldStaticModel 		=	Rope,
-		AttachmentType  		= 	Rope,	
-		StaticModel 			= 	NewRope,
         OBSOLETE 				= 	TRUE,		
     }
 
     item SheetRope
     {
-        DisplayCategory 		= 	Tool,	
-        Weight					=	0.3,
+        DisplayCategory 		= 	Tool,
         Type					=	Normal,
-        DisplayName				=	SheetRope,
-        Icon					=	Rope,
-        WorldStaticModel 		=	Rope,
-		AttachmentType  		= 	Rope,	
-		StaticModel 			= 	NewRope,
+        Icon					=	Rope,	
         OBSOLETE 				= 	TRUE,		
     }
 

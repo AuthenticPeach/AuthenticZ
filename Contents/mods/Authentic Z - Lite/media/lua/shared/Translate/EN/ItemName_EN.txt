@@ -140,7 +140,7 @@ ItemName_EN = {
 	ItemName_AuthenticZLite.Sweater_Freddy = "Freddy's V-Neck Sweater",
 	ItemName_AuthenticZLite.Tshirt_Badass = "Badass's Shirt",
 	ItemName_AuthenticZLite.Tshirt_Coach = "Coach's T-Shirt",
-	ItemName_AuthenticZLite.Tshirt_CheeseRoyale = "Burger T-Shirt",
+	ItemName_AuthenticZLite.Tshirt_CheeseRoyale = "Fast Food T-Shirt",
 	ItemName_AuthenticZLite.Tshirt_CheeseRoyale2 = "Milkshake T-Shirt",
 	ItemName_AuthenticZLite.Tshirt_Ellis = "Ellis's T-Shirt",
 	ItemName_AuthenticZLite.Tshirt_Holly = "Holly's T-Shirt",
@@ -956,4 +956,5 @@ ItemName_EN = {
 	/* New */
 	ItemName_AuthenticZClothing.Hairstyle_HairCurlers = "Hair Curlers",			
 	ItemName_AuthenticZClothing.Sport_Top = "Sport Tank Top",		
+	ItemName_AuthenticZClothing.Winslow_Spikes = "Impaled Spikes",			
 }

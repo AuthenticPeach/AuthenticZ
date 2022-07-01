@@ -10752,6 +10752,9 @@
 		<m_items> <!-- Winslow Helmet -->
 			<itemGUID>c6e03df4-f01c-48be-8419-6cad017a4694</itemGUID>
 		</m_items>
+		<m_items> <!-- Winslow Spikes -->
+			<itemGUID>6cd24c71-839b-4485-a6dd-ee0ceb38fc14</itemGUID>
+		</m_items>			
 		<m_items> <!-- Arm Gear -->
 			<itemGUID>35f864c1-3cfd-4574-aae8-7352fbfd78dc</itemGUID>
 		</m_items>	
@@ -10950,9 +10953,6 @@
 			</subItems>	
 			<subItems> <!-- Burger Shirt RoyaleWithCheese -->
 				<itemGUID>c49f4a4b-e4c2-4c3b-b86a-cef68c294154</itemGUID>
-			</subItems>	
-			<subItems> <!-- Milkshake Shirt RoyaleWithCheese -->
-				<itemGUID>9b40f472-76d7-4ee7-acf4-b51f58d28c9e</itemGUID>
 			</subItems>	
 			<subItems> <!--  Spiffo New Shirt -->
 				<itemGUID>7a91607d-9586-4bf1-b146-fc2eaab9f5bc</itemGUID>
@@ -11209,9 +11209,6 @@
 			</subItems>	
 			<subItems> <!-- Burger Shirt RoyaleWithCheese -->
 				<itemGUID>c49f4a4b-e4c2-4c3b-b86a-cef68c294154</itemGUID>
-			</subItems>	
-			<subItems> <!-- Milkshake Shirt RoyaleWithCheese -->
-				<itemGUID>9b40f472-76d7-4ee7-acf4-b51f58d28c9e</itemGUID>
 			</subItems>	
 			<subItems> <!--  Spiffo New Shirt -->
 				<itemGUID>7a91607d-9586-4bf1-b146-fc2eaab9f5bc</itemGUID>

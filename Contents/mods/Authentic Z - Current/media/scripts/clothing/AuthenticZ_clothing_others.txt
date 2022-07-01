@@ -36,7 +36,7 @@ module AuthenticZClothing {
 		Type = Clothing,
 		DisplayName = Bullets Ammo Strap,
 		ClothingItem = AmmoStrap_Bullets2,
-		BodyLocation = AmmoStrap2,
+		BodyLocation = TorsoExtraPlus1,
 		ClothingItemExtra = AuthenticZClothing.AmmoStrap_Bullets1,
         ClothingItemExtraOption = SwapSides,				
 		Icon = AmmoStrapFlipped,
@@ -50,7 +50,7 @@ module AuthenticZClothing {
 		Type = Clothing,
 		DisplayName = Shells Ammo Strap,
 		ClothingItem = AmmoStrap_Shells2,
-		BodyLocation = AmmoStrap2,
+		BodyLocation = TorsoExtraPlus1,
 		ClothingItemExtra = AuthenticZClothing.AmmoStrap_Shells1,
         ClothingItemExtraOption = SwapSides,				
 		Icon = AmmoStrapFlipped,
@@ -308,7 +308,7 @@ module AuthenticZClothing {
 		Type = Clothing,
 		DisplayName = Pennywise's Top,
 		ClothingItem = ClownTop,
-		BodyLocation = AmmoStrap2,
+		BodyLocation = TorsoExtraPlus1,
 		Icon = ClownTop,
 	}
 	item ClownTopBlue
@@ -317,7 +317,7 @@ module AuthenticZClothing {
 		Type = Clothing,
 		DisplayName = Clown Top,
 		ClothingItem = ClownTopBlue,
-		BodyLocation = AmmoStrap2,
+		BodyLocation = TorsoExtraPlus1,
 		IconsForTexture = ClownTopBlue;ClownTopBlue2,
 	}
 	item ClownTopWhite
@@ -326,7 +326,7 @@ module AuthenticZClothing {
 		Type = Clothing,
 		DisplayName = Clown Top,
 		ClothingItem = ClownTopWhite,
-		BodyLocation = AmmoStrap2,
+		BodyLocation = TorsoExtraPlus1,
 		Icon = ClownTop_White,
 	}	
 	item CultistRobe
@@ -1103,6 +1103,15 @@ module AuthenticZClothing {
 		Weight = 0.1,
 		WorldStaticModel = BowTie_Ground,
 	}
+    item Winslow_Spikes
+    {
+        DisplayCategory = Junk,	
+		Type = Clothing,
+		DisplayName = Impaled Spikes,		
+		ClothingItem = Winslow_Spikes,
+		BodyLocation = Necklace_Long,
+		Icon = Knife_Edge,			
+    }	
     item Wood_Chunk_1
     {
         DisplayCategory = Junk,	

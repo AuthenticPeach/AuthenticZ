@@ -383,10 +383,10 @@
     {
         DisplayCategory = Clothing,		
         Type = Clothing,
-        DisplayName = Burger T-Shirt,
+        DisplayName = Fast Food T-Shirt,
         ClothingItem = Tshirt_CheeseRoyale,
         BodyLocation = Tshirt,
-        Icon	=	TShirt_RoyaleCheese,
+        Icon	=	TShirt_RoyaleCheese;TshirtRochelle,
         BloodLocation = Shirt,
         Insulation = 0.3,
         WindResistance = 0.35,
@@ -397,15 +397,11 @@
     {
         DisplayCategory = Clothing,		
         Type = Clothing,
-        DisplayName = MilkShake T-Shirt,
         ClothingItem = Tshirt_CheeseRoyale2,
         BodyLocation = Tshirt,
-        Icon	=	TshirtRochelle,
-        BloodLocation = Shirt,
-        Insulation = 0.3,
-        WindResistance = 0.35,
-        FabricType = Cotton,
-		WorldStaticModel = TShirt_Ground,	
+        Icon				= TshirtRochelle,
+        BloodLocation 		= Shirt,
+		OBSOLETE 			= TRUE,			
     }
     item Tshirt_Ellis
     {

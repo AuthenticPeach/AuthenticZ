@@ -140,7 +140,7 @@ ItemName_EN = {
 	ItemName_AuthenticZClothing.Sweater_Freddy = "Freddy's V-Neck Sweater",
 	ItemName_AuthenticZClothing.Tshirt_Badass = "Badass's Shirt",
 	ItemName_AuthenticZClothing.Tshirt_Coach = "Coach's T-Shirt",
-	ItemName_AuthenticZClothing.Tshirt_CheeseRoyale = "Burger T-Shirt",
+	ItemName_AuthenticZClothing.Tshirt_CheeseRoyale = "Fast Food T-Shirt",
 	ItemName_AuthenticZClothing.Tshirt_CheeseRoyale2 = "Milkshake T-Shirt",
 	ItemName_AuthenticZClothing.Tshirt_Ellis = "Ellis's T-Shirt",
 	ItemName_AuthenticZClothing.Tshirt_Holly = "Holly's T-Shirt",
@@ -942,7 +942,7 @@ ItemName_EN = {
 	ItemName_AuthenticZClothing.Fat03_Jacket = "Jacket (XXXL)",
 	ItemName_AuthenticZClothing.Fat03_JacketLeather = "Leather Jacket (XXXL)",
 	ItemName_AuthenticZClothing.Fat03_JacketLong = "Leather Jacket (XXXL)",	
-	ItemName_AuthenticZClothing.Fat03_Jeans = "Jeans (XXXL)",	
+	ItemName_AuthenticZClothing.Fat03_Jeans = "Jeans (XXXLTshirt_CheeseRoyale)",	
 	ItemName_AuthenticZClothing.Fat03_Overalls = "Overalls (XXXL)",
 	ItemName_AuthenticZClothing.Fat03_PonchoUP = "Black Poncho (XXXL)",
 	ItemName_AuthenticZClothing.Fat03_PonchoDown = "Black Poncho (XXXL)",
@@ -956,4 +956,5 @@ ItemName_EN = {
 	/* New */
 	ItemName_AuthenticZClothing.Hairstyle_HairCurlers = "Hair Curlers",			
 	ItemName_AuthenticZClothing.Sport_Top = "Sport Tank Top",		
+	ItemName_AuthenticZClothing.Winslow_Spikes = "Impaled Spikes",		
 }
