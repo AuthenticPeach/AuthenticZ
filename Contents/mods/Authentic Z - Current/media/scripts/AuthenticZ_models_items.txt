@@ -190,6 +190,11 @@ module Base
 		mesh = AuthenticKidney,
 		texture = clothes\Organs\Kidney,
 	}
+	model AuthenticMandoSpear
+	{
+		mesh = Weapons/2Handed/AuthenticMandoSpear,
+		texture = clothes\Items\WalkingCane,
+	}	
 	model AuthenticMeatChunk1
 	{
 		mesh = AuthenticMeatChunk01,
@@ -896,6 +901,11 @@ module Base
 	{
 		mesh =  WorldItems/WorldItem-AZGlowstick,
 		texture = clothes\Items\GlowstickYellow,
+	}	
+	model WorldItem-AuthenticMandoSpear
+	{
+		mesh =  WorldItems/WorldItem_MandoSpear,
+		texture = clothes\Items\CanteenSilver,
 	}	
 	model WorldItem_SleepingBagRoll
 	{
