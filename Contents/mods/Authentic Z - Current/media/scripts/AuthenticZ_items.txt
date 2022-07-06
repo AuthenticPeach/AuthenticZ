@@ -1279,10 +1279,6 @@ module AuthenticZClothing {
         Type	=	Weapon,
         DisplayName	=	Tactical Walkie Talkie,
         Icon	=	WalkieTalkiePolice,
-        StaticModel = WalkieTalkieTactical,
-        primaryAnimMask = HoldingTorchRight,
-        secondaryAnimMask = HoldingTorchLeft,	
-        WeaponSprite	=	WalkieTalkieTactical,
         MinAngle	=	0.1,
         MinimumSwingTime	=	2,
         KnockBackOnNoDeath	=	FALSE,
@@ -1307,7 +1303,6 @@ module AuthenticZClothing {
         MaxDamage	=	0.1,
         BaseSpeed = 1,
         WeaponLength = 0.1,		
-		AttachmentType = Walkie,
         OBSOLETE = TRUE,		
     }
 	item AZ_DiceHung
