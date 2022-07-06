@@ -2038,8 +2038,8 @@
 		</m_items>	
 		<m_items> <!-- Clown Shoes -->
 			<itemGUID>725cf8ef-b572-4627-b59a-53c30c2c23ea</itemGUID>
-			<subItems> <!-- Clown Shoes -->
-				<itemGUID>725cf8ef-b572-4627-b59a-53c30c2c23ea</itemGUID>
+			<subItems> <!-- Clown Striped -->
+				<itemGUID>a5093afa-815b-47c0-8192-9149551cd7c6</itemGUID>
 			</subItems>				
 			<subItems> <!-- Polka dot Clown Shoes -->
 				<itemGUID>c1d1bb73-02ed-4885-b2ce-d89f67039d34a</itemGUID>

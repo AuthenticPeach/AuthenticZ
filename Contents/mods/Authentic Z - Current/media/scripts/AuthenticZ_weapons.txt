@@ -1614,10 +1614,8 @@ module AuthenticZClothing {
         HitFloorSound	=	BladeHit,
         ImpactSound		=	BladeHit,
 		HitSound		=	BladeHit,
-		AttachmentType = Knife,
-        Tags = CutPlant,
+		OBSOLETE = TRUE	
  	}
-
     item Go_Sign
     {
         DisplayCategory = ToolWeapon,	
@@ -1705,7 +1703,7 @@ module AuthenticZClothing {
 		ImpactSound	=	BladeHit,
 		HitSound	=	BladeHit,
 		AttachmentType = Knife,
-        Tags = CutPlant,
+		OBSOLETE = TRUE		
  	}
     item KnifeEnd
     {	
@@ -1752,6 +1750,7 @@ module AuthenticZClothing {
 		HitFloorSound	=	BladeHit,
 		ImpactSound	=	BladeHit,
 		HitSound	=	BladeHit,
+		OBSOLETE = TRUE		
  	}
     item SpikePick
     {
@@ -1857,7 +1856,7 @@ module AuthenticZClothing {
         Type			=	Weapon,		
         DisplayName		=	Beskar Spear,
         Weight			=	1.5,		
-        Icon			=	StickSharpened,		
+        Icon			=	BeskarSpear,		
         WeaponSprite	=	AuthenticMandoSpear,
         TwoHandWeapon 	= 	TRUE,		
         MaxRange		=	1.4,

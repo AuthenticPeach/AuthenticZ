@@ -193,7 +193,7 @@ module Base
 	model AuthenticMandoSpear
 	{
 		mesh = Weapons/2Handed/AuthenticMandoSpear,
-		texture = clothes\Items\WalkingCane,
+		texture = clothes\Items\MandoSpear,
 	}	
 	model AuthenticMeatChunk1
 	{
@@ -905,7 +905,7 @@ module Base
 	model WorldItem-AuthenticMandoSpear
 	{
 		mesh =  WorldItems/WorldItem_MandoSpear,
-		texture = clothes\Items\CanteenSilver,
+		texture = clothes\Items\MandoSpear,
 	}	
 	model WorldItem_SleepingBagRoll
 	{

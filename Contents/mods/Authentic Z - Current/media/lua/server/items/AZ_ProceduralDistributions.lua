@@ -187,6 +187,7 @@ local function preDistributionMerge()
             "AuthenticZClothing.AuthenticCricketBat", 5,			
             "AuthenticZClothing.AuthenticRaiderStaff", 5,			
             "AuthenticZClothing.AuthenticCigaretteHolder", 1,			
+            "AuthenticZClothing.MandoSpear", 1,			
             "AuthenticZClothing.Football3", 5,		
             "Mop", 5,		
 			
@@ -299,6 +300,7 @@ local function preDistributionMerge()
             "AuthenticZClothing.AuthenticWalkingCaneGrandFather", 5,			
             "AuthenticZClothing.AuthenticWalkingCaneJP", 5,			
             "AuthenticZClothing.AuthenticCigaretteHolder", 1,			
+            "AuthenticZClothing.MandoSpear", 1,			
             "AuthenticZClothing.Football3", 5,		
             "Mop", 5,			
 --Misc					

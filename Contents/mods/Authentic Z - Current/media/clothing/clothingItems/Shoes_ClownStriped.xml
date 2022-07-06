@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media\models_X\skinned\clothes\ClownShoesStriped_M.FBX</m_MaleModel>
+	<m_FemaleModel>media\models_X\skinned\clothes\ClownShoesStriped_F.FBX</m_FemaleModel>
+	<m_GUID>a5093afa-815b-47c0-8192-9149551cd7c6</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_Masks>8</m_Masks>
+	<m_Masks>10</m_Masks>
+	<textureChoices>clothes\Shoes_Socks_Textres\ClownShoes2</textureChoices>
+</clothingItem>

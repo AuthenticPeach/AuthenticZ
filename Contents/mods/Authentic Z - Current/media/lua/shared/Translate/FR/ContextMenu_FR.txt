@@ -15,4 +15,21 @@ ContextMenu_FR = {
 	
 	ContextMenu_AfroPick = "Porter pour une grosse touffe",	
 	ContextMenu_AfroPick2 = "Porter pour une petite touffe"
+	
+	ContextMenu_HatsOnHats = "Porter chapeau sur chapeau",	
+	ContextMenu_WearNormally = "Porter sur la tête",	
+	
+	ContextMenu_TakeOffShoeCovers = "Enlever les couvre-chaussures",	
+	ContextMenu_TakeOffShoeCoversAndMask = "Enlever les couvre-chaussures et le masque",	
+	ContextMenu_TakeOffMask = "Enlever le masque",	
+	ContextMenu_WearNormally2 = "Porter avec le masque et les couvre-chaussures",	
+
+	ContextMenu_TipHatBack = "Basculer le chapeau en arrière",	
+	ContextMenu_TipHatForward = "Basculer le chapeau en avant",	
+
+
+	/* New 6-25-22 */	
+
+	ContextMenu_PullVeilBack = "Mettre le voile vers l'arrière",	
+	ContextMenu_PullVeilForward = "Mettre le voile vers l'avant",
 } 

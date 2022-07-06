@@ -134,6 +134,28 @@ module AuthenticZClothing {
         	WindResistance = 0.25,
         	WaterResistance = 0.25,
 			WorldStaticModel = Shoes_Ground,
+    	}
+ 	item Shoes_ClownStriped
+	{
+       DisplayCategory = Clothing,	
+	   Type = Clothing,
+	   DisplayName = Clown Shoes,
+		ClothingItem = Shoes_ClownStriped,
+		BodyLocation = Shoes,
+		BodyLocation = Shoes,
+		BloodLocation = Shoes,
+		Icon = ShoesClownStriped,
+		StompPower = 2.1,
+		ConditionLowerChanceOneIn = 12,
+        	ConditionMax = 24,
+        	RunSpeedModifier = 0.95,
+        	RemoveOnBroken = false,
+        	ScratchDefense = 20,
+        	BiteDefense = 10,
+        	Insulation = 0.25,
+        	WindResistance = 0.25,
+        	WaterResistance = 0.25,
+			WorldStaticModel = Shoes_Ground,
     	}		
 	item Shoes_JimmyGibbs
 	{

@@ -5490,6 +5490,10 @@
 	<files>
 		<path>media/clothing/clothingItems/Shoes_ClownPolka.xml</path>
 		<guid>c1d1bb73-02ed-4885-b2ce-d89f67039d34</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Shoes_ClownStriped.xml</path>
+		<guid>a5093afa-815b-47c0-8192-9149551cd7c6</guid>
 	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Shoes_BillMurray.xml</path>

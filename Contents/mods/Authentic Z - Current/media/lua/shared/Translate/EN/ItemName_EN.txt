@@ -957,4 +957,6 @@ ItemName_EN = {
 	ItemName_AuthenticZClothing.Hairstyle_HairCurlers = "Hair Curlers",			
 	ItemName_AuthenticZClothing.Sport_Top = "Sport Tank Top",		
 	ItemName_AuthenticZClothing.Winslow_Spikes = "Impaled Spikes",		
+	ItemName_AuthenticZClothing.MandoSpear = "Beskar Spear",		
+	ItemName_AuthenticZClothing.Shoes_ClownStriped = "Clown Shoes",		
 }

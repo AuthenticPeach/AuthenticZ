@@ -954,7 +954,9 @@ ItemName_EN = {
 	ItemName_AuthenticZLite.Fat03_Vest_HighViz = "Vest (XXXL)",
 	
 	/* New */
-	ItemName_AuthenticZClothing.Hairstyle_HairCurlers = "Hair Curlers",			
-	ItemName_AuthenticZClothing.Sport_Top = "Sport Tank Top",		
-	ItemName_AuthenticZClothing.Winslow_Spikes = "Impaled Spikes",			
+	ItemName_AuthenticZLite.Hairstyle_HairCurlers = "Hair Curlers",			
+	ItemName_AuthenticZLite.Sport_Top = "Sport Tank Top",		
+	ItemName_AuthenticZLite.Winslow_Spikes = "Impaled Spikes",			
+	ItemName_AuthenticZLite.MandoSpear = "Beskar Spear",		
+	ItemName_AuthenticZLite.Shoes_ClownStriped = "Clown Shoes",				
 }

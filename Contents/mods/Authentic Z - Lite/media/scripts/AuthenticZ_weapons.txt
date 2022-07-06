@@ -1652,10 +1652,8 @@ module AuthenticZLite {
         HitFloorSound	=	BladeHit,
         ImpactSound		=	BladeHit,
 		HitSound		=	BladeHit,
-		AttachmentType = Knife,
-        Tags = CutPlant,
+		OBSOLETE = TRUE	
  	}
-
     item ShortMetalSpike
     {
         DisplayCategory = WeaponCrafted,	
@@ -1703,11 +1701,10 @@ module AuthenticZLite {
 		ImpactSound	=	BladeHit,
 		HitSound	=	BladeHit,
 		AttachmentType = Knife,
-        Tags = CutPlant,
+		OBSOLETE = TRUE		
  	}
     item KnifeEnd
-    {
-        DisplayCategory = WeaponCrafted,	
+    {	
         MaxRange	=	0.9,
         WeaponSprite	=	KnifeEnd,
         DisplayName	=	Jagged Blade,
@@ -1751,8 +1748,7 @@ module AuthenticZLite {
 		HitFloorSound	=	BladeHit,
 		ImpactSound	=	BladeHit,
 		HitSound	=	BladeHit,
-		AttachmentType = Knife,
-        Tags = CutPlant,
+		OBSOLETE = TRUE		
  	}
     item SpikePick
     {
@@ -1800,12 +1796,10 @@ module AuthenticZLite {
 		HitFloorSound	=	BladeHit,
 		ImpactSound	=	BladeHit,
 		HitSound	=	BladeHit,
-		AttachmentType = Knife,
-        Tags = CutPlant,
- 	}	
+		OBSOLETE = TRUE
+ 	}		
     item ShortMetalSpear
     {
-        DisplayCategory = WeaponCrafted,	
         MaxRange	=	0.9,
         WeaponSprite	=	ShortMetalSpear,
         DisplayName	=	Metal Spike,
@@ -1849,13 +1843,59 @@ module AuthenticZLite {
         HitFloorSound	=	BladeHit,
         ImpactSound	=	BladeHit,
 		HitSound	=	BladeHit,
-		AttachmentType = Knife,
-        Tags = CutPlant,
+		OBSOLETE = TRUE		
  	}
 
-    item MediumMetalSpike
+    item MandoSpear
     {
-        DisplayCategory = WeaponCrafted,	
+        DisplayCategory = WeaponCrafted,
+        Categories		=	Improvised;Spear,
+        SubCategory		=	Spear,		
+        Type			=	Weapon,		
+        DisplayName		=	Beskar Spear,
+        Weight			=	1.5,		
+        Icon			=	BeskarSpear,		
+        WeaponSprite	=	AuthenticMandoSpear,
+        TwoHandWeapon 	= 	TRUE,		
+        MaxRange		=	1.4,
+        MinRange		=	0.61,		
+        MinAngle		=	0.8,
+        MinimumSwingTime	=	2,
+        KnockBackOnNoDeath	=	FALSE,
+        SwingAmountBeforeImpact	=	0.02,
+        ConditionLowerChanceOneIn	=	4,
+        SplatNumber		=	1,
+        PushBackMod		=	0.3,
+        ConditionMax	=	30,
+        MaxHitCount		=	2,
+        DoorDamage		=	5,
+        KnockdownMod	=	0,
+        SplatBloodOnNoDeath	=	FALSE,
+        RunAnim			=	Run_Weapon2,
+        IdleAnim		=	Idle_Weapon2,
+        SwingAnim		=	Spear,
+        SwingTime		=	2,		
+        TreeDamage  	=   0,
+        CriticalChance	=	30,
+        CritDmgMultiplier = 10,
+        MinDamage	=	1,
+        MaxDamage	=	1.4,
+        DamageCategory   =  Slash,
+        DamageMakeHole   =  TRUE,
+        BreakSound  	 =  WoodenLanceBreak,
+        HitFloorSound	 =	WoodenLanceHit,
+        ImpactSound		 =	WoodenLanceHit,
+        DoorHitSound 	 =  WoodenLanceHit,
+        HitSound		 =	WoodenLanceHit,
+        SwingSound		 =	WoodenLanceSwing,
+        SoundMap 		 =  SpearStab WoodenLanceStab,
+		AttachmentType   =  Shovel,
+        Tags 			 =  FishingSpear,
+		WorldStaticModel = 	WorldItem-AuthenticMandoSpear,		
+    }
+
+    item MediumMetalSpike
+    {	
         MaxRange	=	0.9,
         WeaponSprite	=	MediumMetalSpear,
         DisplayName	=	Metal Spike,
@@ -1899,8 +1939,7 @@ module AuthenticZLite {
         HitFloorSound	=	BladeHit,
         ImpactSound	=	BladeHit,
 		HitSound	=	BladeHit,
-		AttachmentType = Knife,
-        Tags = CutPlant,
+		OBSOLETE = TRUE		
 	 }
     item ReporterMicrophone_Media01
 	{

@@ -27,8 +27,8 @@ Recipes_FR = {
 	Recipe_Upgrade_Duffelbag = "Améliorer le sac marin",	
 	Recipe_Upgrade_Hiking_Bag = "Améliorer le sac de randonnée",
 	Recipe_Upgrade_Big_Hiking_Bag = "Améliorer le grand sac de randonnée",
-	Recipe_Upgrade_Alicepack = "Améliorer le sac Militaire",
-	Recipe_Upgrade_Camo_Alicepack = "Améliorer le sac Militaire Woodland",			
+	Recipe_Upgrade_Alicepack = "Améliorer le grand sac à dos",
+	Recipe_Upgrade_Camo_Alicepack = "Améliorer le grand sac à dos Woodland",			
 
 
 	Recipe_Upgrade_CEDA_Hazmat_Pack = "Améliorer le sac Hazmat CEDA",
@@ -48,14 +48,21 @@ Recipes_FR = {
 
 
 /* UPDATE 17-01*/		
-	Recipe_Upgrade_Urban_Camo_Alicepack = "Améliorer le sac Militaire Urban Camo",
+	Recipe_Upgrade_Urban_Camo_Alice_Pack = "Améliorer le grand sac à dos Urban Camo",
 	Recipe_Detach_Walkie_from_Vest = "Détacher le Talkie-Walkie de la veste",
 	Recipe_Attach_Walkie_to_Vest = "Attacher le Talkie-Walkie de la veste",
 	Recipe_Use_TV-110_as_Bulletproof_Vest = "Utiliser TV-110 comme gilet pare-balles",
 	Recipe_Use_TV-110_as_Magazine_Bag = "Utiliser TV-110 comme sac de magazines",
-
-/* New */	
 	Recipe_Revert_Attachable_Item = "Reconvertir l'item",
-	Recipe_Make_Backpack_Attachable_Item = Rendre l'objet attachable au sac",	
+	Recipe_Make_Backpack_Attachable_Item = "Rendre l'objet attachable au sac",	
+
+	Recipe_Open_Sleeping_Bag = "Déballer le sac de couchage",
+	Recipe_Close_Sleeping_Bag = "Remballer le sac de couchage",	
+	
+/* 6-25-22 */
+	Recipe_Attach_Cigarette_to_Cigarette_Holder = "Attacher la cigarette au porte-cigarette",		
+	Recipe_Wear_on_Neck = "Porter autour du cou",		
+	Recipe_Open_Sealed_Medkit = "Ouvrir le kit de secours scellé",		
+	Recipe_Open_Pack_of_Glowsticks = "Ouvrir le paquet",	
 
 	}

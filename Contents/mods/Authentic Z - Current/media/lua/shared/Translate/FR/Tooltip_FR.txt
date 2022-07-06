@@ -51,9 +51,14 @@ Tooltip_FR = {
 	Tooltip_RemoveWalkieTV110Bag = "Retire le talkie-walkie de l'armée de TV-110, enlevez tous les magazines avant cela.",
 
 	Tooltip_TV110Bag = "Retirer tous les objets avant d'effectuer ceci.",
-	
-/* New */
-
 	Tooltip_JPCane = "La vie trouve un chemin.",		
-	Tooltip_TagillaHelmet = "UBEY",			
+	Tooltip_TagillaHelmet = "UBEY",
+	
+	Tooltip_AZSleepingBag = "Le dérouler et le placer.",		
+	Tooltip_AZSleepingBag2 = "Faites un clic droit pour dormir.",
+	Tooltip_GlowStickPack = "Ouvrir pour obtenir 3 batons luminescent !",	
+	
+/* New */	
+	Tooltip_RotaryPhone  = "Dis bonjour à ta tante Alicia, Bub !",
+	
 	}
