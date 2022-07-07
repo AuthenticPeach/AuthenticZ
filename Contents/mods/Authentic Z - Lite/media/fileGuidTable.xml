@@ -4160,6 +4160,10 @@
 		<guid>8d396317-7d2e-4766-83b6-010ebc189957</guid>
 	</files>
 	<files>
+		<path>media/clothing/clothingItems/FatBody01_MiddleAged.xml</path>
+		<guid>a2d2a8d4-9727-4e90-80c2-ec023db509ec</guid>
+	</files>	
+	<files>
 		<path>media/clothing/clothingItems/FatBody02_BurgerLover.xml</path>
 		<guid>4fb1ba51-7001-4f4e-995a-e1e7650dae70</guid>
 	</files>
