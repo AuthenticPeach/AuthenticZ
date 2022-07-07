@@ -3967,6 +3967,19 @@
 			<subItems>
 				<itemGUID>20c91354-0612-4913-9f7c-d15d4c2c4ede</itemGUID>
 			</subItems>			
+		</m_items>
+		<m_items>  <!-- Golf Cap / Baseball Cap / Hat_SummerHat -->
+			<probability>0.4</probability>
+			<itemGUID>a28f9c54-8481-4399-8d5b-77ac69491846</itemGUID>
+			<subItems>
+				<itemGUID>7b339ad5-da2e-42a5-8a51-ee87239a943c</itemGUID>
+			</subItems>
+			<subItems> <!-- Hat_SummerHat -->
+				<itemGUID>b18b17cb-7d48-4484-b8bd-8697616d74fd</itemGUID>
+			</subItems>
+			<subItems> <!-- Hat_SummerWhite_Back -->
+				<itemGUID>a962d788-f35e-40d8-846c-64c985b3a6f7</itemGUID>
+			</subItems>			
 		</m_items>		
 		<m_items> <!-- Fat01_HoodieUP -->
 			<probability>0.3</probability>			
