@@ -3875,8 +3875,8 @@
 		<m_Guid>709cc2a0-f585-4654-88d7-1913f6807448</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
-		<m_items> <!-- Fat Skin 01  -->
-			<itemGUID>8d396317-7d2e-4766-83b6-010ebc189957</itemGUID>
+		<m_items> <!-- FatBody01_MiddleAged  -->
+			<itemGUID>a2d2a8d4-9727-4e90-80c2-ec023db509ec7</itemGUID>
 		</m_items>
 		<m_items> <!-- HairStyles -->
 			<itemGUID>3aea2b47-6126-4cde-92b1-a4880dfcff23</itemGUID>
@@ -3968,12 +3968,9 @@
 				<itemGUID>20c91354-0612-4913-9f7c-d15d4c2c4ede</itemGUID>
 			</subItems>			
 		</m_items>
-		<m_items>  <!-- Golf Cap / Baseball Cap / Hat_SummerHat -->
+		<m_items>  <!-- Baseball Cap / Hat_SummerHat -->
 			<probability>0.1</probability>
-			<itemGUID>a28f9c54-8481-4399-8d5b-77ac69491846</itemGUID>
-			<subItems>
-				<itemGUID>7b339ad5-da2e-42a5-8a51-ee87239a943c</itemGUID>
-			</subItems>
+			<itemGUID>7b339ad5-da2e-42a5-8a51-ee87239a943c</itemGUID>
 			<subItems> <!-- Hat_SummerHat -->
 				<itemGUID>b18b17cb-7d48-4484-b8bd-8697616d74fd</itemGUID>
 			</subItems>
@@ -3994,9 +3991,6 @@
 			<subItems>  <!-- Fat01_JacketLong -->
 				<itemGUID>7b568e28-d85e-45b2-b73f-92775170f635</itemGUID>
 			</subItems>
-			<subItems> <!-- Fat01_JacketLeather -->
-				<itemGUID>d774e147-b0bf-4f19-b4c2-dffeca5fa1c9</itemGUID>
-			</subItems>	
 			<subItems>  <!-- Fat01_JacketLong -->
 				<itemGUID>7b568e28-d85e-45b2-b73f-92775170f635</itemGUID>
 			</subItems>	
