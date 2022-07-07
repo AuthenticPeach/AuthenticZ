@@ -6510,6 +6510,10 @@
 		<guid>20348fb1-c2aa-42a1-bae6-94a8f43cf542</guid>
 	</files>
 	<files>
+		<path>media/clothing/clothingItems/Fat02_Shoes.xml</path>
+		<guid>a8c9dc1e-2c84-4998-ae52-65785ec3b35c</guid>
+	</files>	
+	<files>
 		<path>media/clothing/clothingItems/Fat02_TShirt.xml</path>
 		<guid>795826d5-2ef1-4784-bfb6-e63acee2408b</guid>
 	</files>	
