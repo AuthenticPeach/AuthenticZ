@@ -3969,7 +3969,7 @@
 			</subItems>			
 		</m_items>
 		<m_items>  <!-- Golf Cap / Baseball Cap / Hat_SummerHat -->
-			<probability>0.4</probability>
+			<probability>0.1</probability>
 			<itemGUID>a28f9c54-8481-4399-8d5b-77ac69491846</itemGUID>
 			<subItems>
 				<itemGUID>7b339ad5-da2e-42a5-8a51-ee87239a943c</itemGUID>
