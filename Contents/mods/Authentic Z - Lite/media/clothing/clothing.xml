@@ -4024,10 +4024,6 @@
 		<m_items> <!-- Fat01_Apron-->
 			<probability>0.05</probability>
 			<itemGUID>63ee1f86-b556-4a54-8451-1fc41a958332</itemGUID>
-		</m_items>
-		<m_items> <!-- Fat01_Coveralls-->
-			<probability>0.1</probability>
-			<itemGUID>f5906f8b-003e-43c1-a2d9-2064c5b25d24</itemGUID>
 		</m_items>		
 		<m_items> <!-- Watches -->
 			<probability>0.1</probability>
