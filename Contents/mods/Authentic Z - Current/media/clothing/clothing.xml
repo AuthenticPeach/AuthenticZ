@@ -4307,14 +4307,8 @@
 			</subItems>
 		</m_items>		
 		<m_items> <!-- Shoes -->
-			<itemGUID>6fed6e2b-3a72-4bac-aac5-09585984493d</itemGUID>
-			<subItems>
-				<itemGUID>593bea3d-c127-4574-ac1e-2197dc56e486</itemGUID>
-			</subItems>
-			<subItems>
-				<itemGUID>7741404b-9689-4608-a0f5-4e06597776f9</itemGUID>
-			</subItems>			
-		</m_items>		
+			<itemGUID>a8c9dc1e-2c84-4998-ae52-65785ec3b35c</itemGUID>	
+		</m_items>	
 	</m_MaleOutfits>	
 
 <m_MaleOutfits> <m_Name>AuthenticFat03</m_Name>
