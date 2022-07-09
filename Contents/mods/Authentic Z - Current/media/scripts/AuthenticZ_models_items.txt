@@ -160,6 +160,11 @@ module Base
 		mesh = Weapons/1Handed/Authentic_CoffeeCup,
 		texture = clothes\Items\SeahorseCoffee,
 	}
+	model AuthenticCrutch
+	{
+		mesh = Weapons/2Handed/AuthenticCrutch,
+		texture = clothes\Items\Crutches,
+	}	
 	model AuthenticGhostbusterTrap
 	{
 		mesh = AuthenticGhostbusterTrap,
@@ -906,6 +911,11 @@ module Base
 	{
 		mesh =  WorldItems/WorldItem_MandoSpear,
 		texture = clothes\Items\MandoSpear,
+	}
+	model WorldItem-CrutchAZ
+	{
+		mesh = WorldItems/WorldItem_Crutch,
+		texture = clothes\Items\Crutches,
 	}	
 	model WorldItem_SleepingBagRoll
 	{
