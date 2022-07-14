@@ -577,7 +577,7 @@ module Base
 	}
 	model GroguPlushie
 	{
-		mesh = PlushieOtisPugAZ,
+		mesh = GroguAZ,
 		texture = clothes\Items\GroguPlushie,		
 	}	
 	model PomPomBlack
