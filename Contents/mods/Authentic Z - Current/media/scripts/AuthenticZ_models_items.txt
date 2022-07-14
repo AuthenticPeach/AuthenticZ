@@ -574,6 +574,11 @@ module Base
 	{
 		mesh = Weapons/1Handed/FeatherDuster,
 		texture = clothes\Items\FeatherDuster,
+	}
+	model GroguPlushie
+	{
+		mesh = PlushieOtisPugAZ,
+		texture = clothes\Items\GroguPlushie,		
 	}	
 	model PomPomBlack
 	{

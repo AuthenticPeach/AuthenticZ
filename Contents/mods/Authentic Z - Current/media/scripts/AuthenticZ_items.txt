@@ -84,9 +84,9 @@ module AuthenticZClothing {
 		Type					=	Normal,
 		DisplayName				=	Green Sci-Fi Goblin,
 		Icon					=	GroguAZ,
-		WorldStaticModel 		= 	WorldItem_PugOtisPlushie,
+		WorldStaticModel 		= 	WorldItem_GroguAZ,
         AttachmentType  		= 	SpiffoPlushie,
-		StaticModel 			= 	PugOtisPlushie,		
+		StaticModel 			= 	GroguPlushie,		
 	}
 
    item OtisPug
