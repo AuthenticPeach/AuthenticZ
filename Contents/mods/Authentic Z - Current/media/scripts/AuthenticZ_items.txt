@@ -77,6 +77,18 @@ module AuthenticZClothing {
 		StaticModel 			= 	WorldItem_FlamingoPlushie,		
 	}
 
+   item GroguAZ
+	{
+        DisplayCategory 		=  	Raccoon,	
+		Weight					=	0.2,
+		Type					=	Normal,
+		DisplayName				=	Green Sci-Fi Goblin,
+		Icon					=	GroguAZ,
+		WorldStaticModel 		= 	WorldItem_PugOtisPlushie,
+        AttachmentType  		= 	SpiffoPlushie,
+		StaticModel 			= 	PugOtisPlushie,		
+	}
+
    item OtisPug
 	{
         DisplayCategory 		=  	Raccoon,	

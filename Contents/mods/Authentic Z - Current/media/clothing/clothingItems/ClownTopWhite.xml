@@ -8,4 +8,6 @@
 	<m_AllowRandomTint>false</m_AllowRandomTint>
 	<m_AttachBone></m_AttachBone>
 	<textureChoices>clothes\Collar\ClownCollarWhite</textureChoices>	
+	<textureChoices>clothes\Collar\ClownCollarPale</textureChoices>	
+	<textureChoices>clothes\Collar\ClownCollarRedWhite</textureChoices>	
 </clothingItem>

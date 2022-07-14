@@ -1193,7 +1193,12 @@ module Base
     {
         mesh = WorldItems/WorldItem_BigLollipop,
         texture =  clothes\Items\BigLolipop,
-    }	
+    }
+	model WorldItem_GroguAZ
+	{
+		mesh = WorldItems/WorldItem_GroguAZ,
+		texture = clothes\Items\GroguPlushie,		
+	}	
 	model WorldItem_MichaelMyersMask
 	{
 		mesh = WorldItems/WorldItem_MichaelMyersMask,		
