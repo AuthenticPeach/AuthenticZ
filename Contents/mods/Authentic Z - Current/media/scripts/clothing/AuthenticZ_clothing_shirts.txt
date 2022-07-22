@@ -990,6 +990,20 @@
         FabricType = Cotton,
 		WorldStaticModel = BulletVest_Ground,
     }
+    item Vest_Portal_Tanktop
+    {
+        DisplayCategory = Clothing,		
+        Type = Clothing,
+        DisplayName = Blue and White Tank Top,
+        ClothingItem = Vest_Portal_Tanktop,
+        BodyLocation = TankTop,
+        Icon = VestRim,
+        BloodLocation = ShirtNoSleeves,
+        Insulation = 0.40,
+        WindResistance = 0.30,
+        FabricType = Cotton,
+		WorldStaticModel = BulletVest_Ground,
+    }	
     item Vest_Rim_TINT
     {
         DisplayCategory = Clothing,		

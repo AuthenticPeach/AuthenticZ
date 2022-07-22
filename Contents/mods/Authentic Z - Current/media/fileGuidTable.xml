@@ -3562,6 +3562,22 @@
 	<files>
 		<path>media/clothing/clothingItems/Bag_B4BWalker_RHand.xml</path>
 		<guid>1f3683ee-d4b8-4d28-86bc-71ff221e37d6</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_GroguCarriage_LHand.xml</path>
+		<guid>9fbbd483-88ea-4d90-89b8-77b3dcc4d7f3</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_GroguCarriage_RHand.xml</path>
+		<guid>d9fc942b-fe5a-4856-8f56-18579507fe93</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_GroguCarriageEMPTY_LHand.xml</path>
+		<guid>c727ceb8-34a9-4916-90ec-481a303e1302</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_GroguCarriageEMPTY_RHand.xml</path>
+		<guid>2145f504-df57-4edb-b528-53f734826fb9</guid>
 	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Bag_JerryCanBack.xml</path>
@@ -4168,9 +4184,17 @@
 		<guid>4fb1ba51-7001-4f4e-995a-e1e7650dae70</guid>
 	</files>
 	<files>
+		<path>media/clothing/clothingItems/FatBody02_PlusSize.xml</path>
+		<guid>dfc7722e-04f9-4739-96aa-3f90041b10b4</guid>
+	</files>	
+	<files>
 		<path>media/clothing/clothingItems/FatBody03_ObeseBod.xml</path>
 		<guid>621e545c-35f4-45c2-953d-6df1564e8f67</guid>
 	</files>
+	<files>
+		<path>media/clothing/clothingItems/FatBody03_ObeseFemale.xml</path>
+		<guid>0a679cd8-305b-4646-98b5-476bc40c56b0</guid>
+	</files>	
 	<files>
 		<path>media/clothing/clothingItems/FatBody03_ObeseBod_Clown.xml</path>
 		<guid>39f5e471-b1fd-4cff-9aaf-7213430aed62</guid>
@@ -4615,6 +4639,10 @@
 		<path>media/clothing/clothingItems/Hat_Nurse.xml</path>
 		<guid>ac4a488f-2bbc-4337-8e45-ec522e747bbd</guid>
 	</files>
+	<files>
+		<path>media/clothing/clothingItems/Hat_PyromancerSkull.xml</path>
+		<guid>40477d02-64da-4982-a947-0ce52c76f328</guid>
+	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Hat_RuneDuel.xml</path>
 		<guid>75a3d8e2-60e2-480a-909e-fdcbc872f317</guid>
@@ -6182,6 +6210,10 @@
 	<files>
 		<path>media/clothing/clothingItems/Vest_Hunting_Beige.xml</path>
 		<guid>dcc099c5-1c83-4ad3-b324-ac14d1b256ce</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Vest_Portal_Tanktop.xml</path>
+		<guid>de038165-4f97-4ebc-83de-4a7d3ea7f5a5</guid>
 	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Vest_Rim_Duke.xml</path>
@@ -6460,6 +6492,10 @@
 	<files>
 		<path>media/clothing/clothingItems/Fat01_TShirt.xml</path>
 		<guid>a3c5ca65-034d-434a-8282-6e549c764ece</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Fat01_Shoes.xml</path>
+		<guid>a3e2df17-79a5-40ef-b23c-aae62316aa11</guid>
 	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Fat01_SportShorts.xml</path>

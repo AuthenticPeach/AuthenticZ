@@ -1155,8 +1155,18 @@ module Base
     }	
 	model WorldItem-DuelCap
     {
-		mesh = WorldItems/WorldItem_DuelCap,	
+		mesh = WorldItems/WorldItem_DuelCap,
     }
+	model WorldItem_GroguCarriage
+    {
+		mesh = WorldItems/WorldItem-GroguCarriage,
+		texture = clothes\Items\GroguCarriage,			
+    }
+	model WorldItem_GroguCarriageEmpty
+    {
+		mesh = WorldItems/WorldItem-GroguCarriageEmpty,
+		texture = clothes\Items\GroguCarriage,			
+    }	
 	model WorldItem_HairCurlers
     {
 		mesh = WorldItems/WorldItem-HairCurlers,	
@@ -1223,6 +1233,11 @@ module Base
 		mesh = WorldItems/WorldItem_PlushieOtisPugAZ,
 		texture = clothes\Items\PugPlushie,		
 	}
+	model WorldItem_PyromancerSkull
+    {
+		mesh = WorldItems/WordItem-PyromancerSkull,
+		texture = clothes\Hats\SteerSkull,			
+    }	
 	model WorldItem_ReporterMicMuffler_Media01
 	{
 		mesh = WorldItems/WorldItem_AZReporterMicMuffler,

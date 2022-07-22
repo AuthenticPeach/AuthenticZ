@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media\models_X\skinned\Backpacks\GroguCarriageRIGHTEmpty.FBX</m_MaleModel>
+	<m_FemaleModel>media\models_X\skinned\Backpacks\GroguCarriageRIGHTEmpty.FBX</m_FemaleModel>
+	<m_GUID>2145f504-df57-4edb-b528-53f734826fb9</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>Clothes\Items\GroguCarriage</textureChoices>
+</clothingItem>

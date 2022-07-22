@@ -1307,6 +1307,20 @@ module AuthenticZClothing {
         Insulation = 0.10,
         Weight = 0.5,
     }
+    item Hat_PyromancerSkull
+	{
+	    DisplayCategory = Accessory,	
+        Type 			 = Clothing,
+        DisplayName 	 = Steer Skull,
+        ClothingItem 	 = Hat_PyromancerSkull,
+        BodyLocation 	 = Hat,
+        Icon 			 = SteerSkull,
+        CanHaveHoles 	 = false,
+        ChanceToFall 	 = 80,
+        Insulation 		 = 0.10,
+        Weight 			 = 0.5,
+		WorldStaticModel = WorldItem_PyromancerSkull,
+    }	
     item Hat_RuneDuel
     {
 	    DisplayCategory  = Accessory,	

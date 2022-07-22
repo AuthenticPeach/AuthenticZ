@@ -7,7 +7,13 @@
 	<m_AllowRandomTint>false</m_AllowRandomTint>
 	<m_AttachBone></m_AttachBone>
 	<textureChoices>clothes\apron\Apron_Black</textureChoices>
+	<textureChoices>clothes\apron\Apron_Black</textureChoices>
+	<textureChoices>clothes\apron\Apron_Black</textureChoices>
 	<textureChoices>clothes\apron\Apron_White</textureChoices>
+	<textureChoices>clothes\apron\Apron_White</textureChoices>
+	<textureChoices>clothes\apron\Apron_White</textureChoices>
+	<textureChoices>clothes\apron\Apron_JaysChicken</textureChoices>
+	<textureChoices>clothes\apron\Apron_PileOCrepe</textureChoices>
 	<textureChoices>clothes\apron\Apron_Yellow</textureChoices>
 	<textureChoices>clothes\apron\Apron_YellowOrange</textureChoices>	
 </clothingItem>

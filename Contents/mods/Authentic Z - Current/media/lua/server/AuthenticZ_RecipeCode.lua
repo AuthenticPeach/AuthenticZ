@@ -39,6 +39,9 @@ local GlowStickList = {
     "AuthenticZClothing.AuthenticGlowstick_Purple",
     "AuthenticZClothing.AuthenticGlowstick_Yellow",
 }
+function GetGroguBack(items, result, player)
+    player:getInventory():AddItem("AuthenticZClothing.GroguAZ");
+end
 function OpenGlowStickPackage(items, result, player)
  player:getInventory():AddItem(GlowStickList[ZombRand(#GlowStickList)+1]);
  player:getInventory():AddItem(GlowStickList[ZombRand(#GlowStickList)+1]);

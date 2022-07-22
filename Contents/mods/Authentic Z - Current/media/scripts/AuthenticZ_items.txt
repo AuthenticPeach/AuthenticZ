@@ -1219,7 +1219,31 @@ module AuthenticZClothing {
         WorldStaticModel 		= 	SmokeBombSensor,
         AttachmentType  		= 	AuthenticExplosive,			
     }	
-	
+
+	item GroguCarriage
+	{
+	    DisplayCategory 	 =  Raccoon,
+		Weight				 =	1.5,
+		Type				 =	Normal,
+		UseWhileEquipped	 =	FALSE,
+		DisplayName			 =	Sci-Fi Carriage (Occupied),
+		Icon				 =	GroguCarriage,
+		ReplaceInSecondHand  =  Bag_GroguCarriage_LHand holdingbagleft,
+        ReplaceInPrimaryHand =  Bag_GroguCarriage_RHand holdingbagright,
+        WorldStaticModel 	 =  WorldItem_GroguCarriage,
+	}
+	item GroguCarriageEmpty
+	{
+	    DisplayCategory 	 =  Raccoon,
+		Weight				 =	1.5,
+		Type				 =	Normal,
+		UseWhileEquipped	 =	FALSE,
+		DisplayName			 =	Sci-Fi Carriage (Empty),
+		Icon				 =	GroguCarriageEmpty,
+		ReplaceInSecondHand  =  Bag_GroguCarriageEMPTY_LHand holdingbagleft,
+        ReplaceInPrimaryHand =  Bag_GroguCarriageEMPTY_RHand holdingbagright,
+        WorldStaticModel 	 =  WorldItem_GroguCarriageEmpty,
+	}	
     item HairDyeDarkBrown
     {
         DisplayCategory = Appearance,	

@@ -6,10 +6,9 @@ module AuthenticZClothing {
 	{
        DisplayCategory = Clothing,		
 		Type = Clothing,
-		DisplayName = Bullets Ammo Strap (XXXL),
+		DisplayName = Bullets Ammo Strap (3XL),
 		ClothingItem = Fat03_AmmoStrap,
-        ClothingItemExtra = AmmoStrap_Bullets,
-        ClothingItemExtraOption = Tighten,		
+	
 		BodyLocation = AmmoStrap,
 		Icon = AmmoStrapFlipped,
 		Tooltip = Tooltip_AmmoStrap,
@@ -20,10 +19,9 @@ module AuthenticZClothing {
     {
        DisplayCategory = Clothing,		
 		Type = Clothing,
-        DisplayName = Apron (XXXL),		
+        DisplayName = Apron (3XL),		
 		ClothingItem = Fat03_Apron,
-        ClothingItemExtra = Apron_White,
-        ClothingItemExtraOption = Tighten,			
+		
 		BodyLocation = TorsoExtra,
 		BloodLocation = Apron,
 		Icon = ApronIceCream,
@@ -34,10 +32,9 @@ module AuthenticZClothing {
     {
         DisplayCategory = Clothing,		
         Type = Clothing,
-        DisplayName = Coveralls (XXXL),		
+        DisplayName = Coveralls (3XL),		
         ClothingItem = Fat03_Coveralls,
-        ClothingItemExtra = Boilersuit,
-        ClothingItemExtraOption = Tighten,			
+		
         BodyLocation = FullSuit,
         Icon = BoilerSuitBigDaddy,
         BloodLocation = Trousers;Jumper,
@@ -52,10 +49,9 @@ module AuthenticZClothing {
     {
         DisplayCategory = Clothing,		
         Type = Clothing,
-        DisplayName = Hoodie (XXXL),
+        DisplayName = Hoodie (3XL),
         ClothingItem = Fat03_HoodieUP,
-        ClothingItemExtra = AuthenticZClothing.HoodieUP_WhiteTINT,
-        ClothingItemExtraOption = DownHoodie,
+
         BodyLocation = Jacket,
         BloodLocation = Jumper;FullHelmet,
         Icon = HoodieBlack,
@@ -69,10 +65,9 @@ module AuthenticZClothing {
     {
         DisplayCategory = Clothing,		
         Type = Clothing,
-        DisplayName = Hoodie (XXXL),
+        DisplayName = Hoodie (3XL),
         ClothingItem = Fat03_HoodieDOWN,
-        ClothingItemExtra = AuthenticZClothing.HoodieDOWN_WhiteTINT,
-        ClothingItemExtraOption = UpHoodie,
+
         BodyLocation = Jacket,
         BloodLocation = Jumper,
         Icon = HoodieBlack,
@@ -87,10 +82,9 @@ module AuthenticZClothing {
     {
         DisplayCategory = Clothing,
         Type = Clothing,
-        DisplayName = Jacket (XXXL),
+        DisplayName = Jacket (3XL),
         ClothingItem = Fat03_Jacket,
-        ClothingItemExtra = Jacket_WhiteTINT,
-        ClothingItemExtraOption = Tighten,			
+			
         BodyLocation = Jacket,
         Icon = JacketBlack,
         BloodLocation = Jacket,
@@ -110,10 +104,9 @@ module AuthenticZClothing {
     {
         DisplayCategory = Clothing,
         Type = Clothing,
-        DisplayName = Leather Jacket (XXXL),
+        DisplayName = Leather Jacket (3XL),
         ClothingItem = Fat03_JacketLeather,
-        ClothingItemExtra = Jacket_Black,
-        ClothingItemExtraOption = Tighten,			
+		
         BodyLocation = Jacket,
         IconsForTexture = JacketBlack;JacketBlack;JacketBlack,
         BloodLocation = Jacket,
@@ -133,10 +126,9 @@ module AuthenticZClothing {
     {
         DisplayCategory = Clothing,
         Type = Clothing,
-        DisplayName = Leather Jacket (XXXL),
+        DisplayName = Leather Jacket (3XL),
         ClothingItem = Fat03_JacketLong,
-        ClothingItemExtra = JacketLong_Random,
-        ClothingItemExtraOption = Tighten,			
+			
         BodyLocation = Jacket,
         IconsForTexture = JacketLongBlack;JacketLongBrown;JacketGreen,
         BloodLocation = LongJacket,
@@ -156,10 +148,9 @@ module AuthenticZClothing {
     {
         DisplayCategory = Clothing,
         Type = Clothing,
-        DisplayName = Jeans (XXXL),
+        DisplayName = Jeans (3XL),
         ClothingItem = Fat03_Jeans,
-        ClothingItemExtra = Trousers_JeanBaggy,
-        ClothingItemExtraOption = Tighten,		
+		
         BodyLocation = Pants,
         BloodLocation = Trousers,
         Icon = TrousersDenimBlue,
@@ -172,7 +163,7 @@ module AuthenticZClothing {
     {
        DisplayCategory = Clothing,			
         Type = Clothing,
-        DisplayName = Overalls (XXXL),
+        DisplayName = Overalls (3XL),
         ClothingItem = Fat03_Overalls,
         BodyLocation = FullSuit,
         Icon = OverallsOrange,
@@ -197,8 +188,7 @@ module AuthenticZClothing {
         ColorBlue = 20,
         BloodLocation = Shirt;FullHelmet;Trousers,
         RunSpeedModifier = 0.9,
-        ClothingItemExtra = PonchoGreenDOWN,
-        ClothingItemExtraOption = DownHoodie,
+
         ScratchDefense = 10,
         Insulation = 0.1,
         WindResistance = 0.75,
@@ -219,8 +209,7 @@ module AuthenticZClothing {
         ColorBlue = 20,
         BloodLocation = Shirt;FullHelmet;Trousers,
         RunSpeedModifier = 0.9,
-        ClothingItemExtra = PonchoGreen,
-        ClothingItemExtraOption = UpHoodie,
+
         ScratchDefense = 10,
         NeckProtectionModifier = 0.5,
         Insulation = 0.15,
@@ -233,10 +222,9 @@ module AuthenticZClothing {
     {
        DisplayCategory = Clothing,		
         Type = Clothing,
-        DisplayName = Sports Pants (XXXL),
+        DisplayName = Sports Pants (3XL),
         ClothingItem = Fat03_SportShorts,
-        ClothingItemExtra = Shorts_ShortSport,
-        ClothingItemExtraOption = Tighten,			
+		
         BodyLocation = Pants,
         IconsForTexture = ShortsLongAthleticBlue;ShortsLongAthleticGreen;ShortsLongAthleticRed;ShortsLongAthleticPurple;ShortsLongDenim;ShortsLongDenimBlack;ShortsLongDenimDark;ShortsLongDenim;ShortsLongDenimBlack;ShortsLongDenimDark;ShortsLongDenim;ShortsLongDenimBlack;ShortsLongDenimDark;ShortsLongDenim;ShortsLongDenimBlack;ShortsLongDenimDark;ShortsLongDenim;ShortsLongDenimBlack;ShortsLongDenimDark,
         BloodLocation = Trousers,
@@ -249,10 +237,9 @@ module AuthenticZClothing {
     {
         DisplayCategory = Clothing,
         Type = Clothing,
-        DisplayName = Shell Suit Trousers (XXXL),
+        DisplayName = Shell Suit Trousers (3XL),
         ClothingItem = Fat03_ShellPants,
-        ClothingItemExtra = Trousers_Shellsuit_TINT,
-        ClothingItemExtraOption = Tighten,		
+		
         BodyLocation = Pants,
         BloodLocation = Trousers,
         IconsForTexture = TracksuitPantsBlack;TracksuitPantsBlue;TracksuitPantsGreen;TracksuitPantsTeal;TracksuitPantsGeneric;TrousersAthleticVegan;TrousersAthleticGrey;TrousersBill;TrousersBrad;Trousers;Trousers;Trousers;Trousers;Trousers;Trousers;Trousers;Trousers;Trousers;Trousers;Trousers;Trousers;Trousers;Trousers;Trousers,
@@ -265,10 +252,9 @@ module AuthenticZClothing {
 	{
 	    DisplayCategory = Clothing,
 		Type = Clothing,
-		DisplayName = Shoes (XXXL),
+		DisplayName = Shoes (3XL),
 		ClothingItem = Fat03_Shoes,
-        ClothingItemExtra = Shoes_Black,
-        ClothingItemExtraOption = Tighten,			
+			
 		BodyLocation = Shoes,
 		BloodLocation = Shoes,
 		Icon = Shoes,
@@ -288,10 +274,9 @@ module AuthenticZClothing {
     {
         DisplayCategory = Clothing,		
         Type = Clothing,
-        DisplayName = T- (XXXL),
+        DisplayName = T- (3XL),
         ClothingItem = Fat03_TShirt,
-        ClothingItemExtra = Tshirt_WhiteTINT,
-        ClothingItemExtraOption = Tighten,			
+		
         BodyLocation = Jacket,
         Icon = TshirtGeneric,
         Insulation = 0.3,
@@ -303,10 +288,9 @@ module AuthenticZClothing {
     {
         DisplayCategory = Clothing,
         Type = Clothing,
-        DisplayName = Vest (XXXL),			
+        DisplayName = Vest (3XL),			
         ClothingItem = Fat03_Vest_BlackOpen,
-        ClothingItemExtra = Vest_Waistcoat,
-        ClothingItemExtraOption = Tighten,		
+	
         BodyLocation = TorsoExtra,
         Icon = Vest_Black,
         BloodLocation = ShirtNoSleeves,
@@ -316,13 +300,221 @@ module AuthenticZClothing {
     {
         DisplayCategory = Clothing,
         Type = Clothing,
-        DisplayName = Vest (XXXL),			
+        DisplayName = Vest (3XL),			
         ClothingItem = Fat03_Vest_HighViz,
-        ClothingItemExtra = Vest_HighViz,
-        ClothingItemExtraOption = Tighten,		
+		
         BodyLocation = TorsoExtra,
         IconsForTexture = ConstructionVest;Huntingvest_Orange;Huntingvest_Grey;Huntingvest_Camo;Huntingvest_Orange;Huntingvest_Grey;Huntingvest_Camo;SweaterVestWhite;SweaterVestArgyle,
         BloodLocation = ShirtNoSleeves,
         WorldStaticModel = HuntingVest_Ground,		
+    }
+    item Fat03_Vest_TankTop
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Tank Top (33XL),			
+        ClothingItem = Fat03_Vest_TankTop,
+		
+        BodyLocation = TorsoExtra,
+        IconsForTexture = ConstructionVest;Huntingvest_Orange;Huntingvest_Grey;Huntingvest_Camo;Huntingvest_Orange;Huntingvest_Grey;Huntingvest_Camo;SweaterVestWhite;SweaterVestArgyle,
+        BloodLocation = ShirtNoSleeves,
+        WorldStaticModel = HuntingVest_Ground,		
+    }
+	
+    item Fat03_Dress_Knees
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Knee-length Dress (3XL),
+        ClothingItem = Fat03_Dress_Knees,
+        ClothingItemExtra = Dress_Knees,
+        ClothingItemExtraOption = Tighten,		
+        BodyLocation = Dress,
+        BloodLocation = ShortsShort;Shirt,
+        Icon = DressShortWhite,
+        Insulation = 0.15,
+        WindResistance = 0.1,
+        FabricType = Cotton,
+        WorldStaticModel = Dress_Short_Ground,
+    }
+    item Fat03_DressKnees_Straps
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Straps Knee-length Dress (3XL),
+        ClothingItem = Fat03_DressKnees_Straps,
+        ClothingItemExtra = DressKnees_Straps,
+        ClothingItemExtraOption = Tighten,		
+        BodyLocation = Dress,
+        BloodLocation = ShortsShort;Shirt,
+        Icon = DressGeneric,
+        Insulation = 0.15,
+        WindResistance = 0.1,
+        FabricType = Cotton,
+        WorldStaticModel = Dress_Knees_Straps_Ground,
+    }
+     item Fat03_Dress_SmallBlackStrapless
+     {
+         DisplayCategory = Clothing,
+         Type = Clothing,
+         DisplayName = Strapless Black Dress (3XL),
+         ClothingItem = Fat03_Dress_SmallBlackStrapless,
+         ClothingItemExtra = Dress_SmallBlackStrapless,
+         ClothingItemExtraOption = Tighten,		 
+         BodyLocation = Dress,
+         BloodLocation = ShortsShort;Shirt,
+         Icon = LittleBlackDressStrapless,
+         Insulation = 0.15,
+         WindResistance = 0.1,
+         FabricType = Cotton,
+         WorldStaticModel = Dress_Small_Black_Strapless_Ground,
+     }
+    item Fat03_Dress_SmallBlackStraps
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Little Black Dress (3XL),
+        ClothingItem = Fat03_Dress_SmallBlackStraps,
+        ClothingItemExtra = Dress_SmallBlackStraps,
+        ClothingItemExtraOption = Tighten,		
+        BodyLocation = Dress,
+        BloodLocation = ShortsShort;Shirt,
+        Icon = LittleBlackDress,
+        Insulation = 0.15,
+        WindResistance = 0.1,
+        FabricType = Cotton,
+        WorldStaticModel = Dress_Small_Black_Straps_Ground,
+    }
+     item Fat03_Dress_SmallStrapless
+     {
+         DisplayCategory = Clothing,
+         Type = Clothing,
+         DisplayName = Strapless Small Dress (3XL),
+         ClothingItem = Fat03_Dress_SmallStrapless,
+         ClothingItemExtra = Dress_SmallStrapless,
+         ClothingItemExtraOption = Tighten,			 
+         BodyLocation = Dress,
+         BloodLocation = ShortsShort;Shirt,
+         Icon = DressGenericStrapless,
+         Insulation = 0.15,
+         WindResistance = 0.1,
+         FabricType = Cotton,
+         WorldStaticModel = Dress_Small_Strapless_Ground,
+     }
+     item Fat03_Dress_SmallStraps
+     {
+         DisplayCategory = Clothing,
+         Type = Clothing,
+         DisplayName = Straps Small Dress (3XL),
+         ClothingItem = Fat03_Dress_SmallStraps,
+         ClothingItemExtra = Dress_SmallStraps,
+         ClothingItemExtraOption = Tighten,			 
+         BodyLocation = Dress,
+         BloodLocation = ShortsShort;Shirt,
+         Icon = DressGeneric,
+         Insulation = 0.15,
+         WindResistance = 0.1,
+         FabricType = Cotton,
+         WorldStaticModel = Dress_Small_Straps_Ground,
+     }
+    item Fat03_Dress_SatinNegligee
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Satin Negligee (3XL),
+        ClothingItem = Fat03_Dress_SatinNegligee,
+        ClothingItemExtra = Dress_SatinNegligee,
+        ClothingItemExtraOption = Tighten,		
+        BodyLocation = Dress,
+        BloodLocation = ShortsShort;Shirt,
+        Icon = NegligeeGeneric,
+        Insulation = 0.15,
+        WindResistance = 0.1,
+        FabricType = Cotton,
+        WorldStaticModel = Dress_Small_Straps_Ground,
+    }
+    item Fat03_Dress_Long
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Long Dress (3XL),
+        ClothingItem = Fat03_Dress_Long,
+        ClothingItemExtra = Dress_Long,
+        ClothingItemExtraOption = Tighten,		
+        BodyLocation = Dress,
+        BloodLocation = Trousers;Shirt,
+        Icon = DressLongWhite,
+        RunSpeedModifier = 0.90,
+        Insulation = 0.3,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+        WorldStaticModel = Dress_Long_Ground,
+    }
+    item Fat03_Dress_long_Straps
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Long Dress (3XL),
+        ClothingItem = Fat03_Dress_long_Straps,
+        ClothingItemExtra = Dress_long_Straps,
+        ClothingItemExtraOption = Tighten,		
+        BodyLocation = Dress,
+        BloodLocation = Trousers;Shirt,
+        Icon = DressGeneric,
+        RunSpeedModifier = 0.90,
+        Insulation = 0.3,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+        WorldStaticModel = Dress_Straps_Ground,
+    }
+    item Fat03_Dress_Normal
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Dress (3XL),
+        ClothingItem = Fat03_Dress_Normal,
+        ClothingItemExtra = Dress_Normal,
+        ClothingItemExtraOption = Tighten,			
+        BodyLocation = Dress,
+        BloodLocation = Trousers;Shirt,
+        Icon = DressMediumWhite,
+        RunSpeedModifier = 0.93,
+        Insulation = 0.20,
+        WindResistance = 0.15,
+        FabricType = Cotton,
+        WorldStaticModel = Dress_Mid_Ground,
+    }
+    item Fat03_Dress_Straps
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Straps Dress (3XL),
+        ClothingItem = Fat03_Dress_Straps,
+        ClothingItemExtra = Dress_Straps,
+        ClothingItemExtraOption = Tighten,		
+        BodyLocation = Dress,
+        BloodLocation = Trousers;Shirt,
+        Icon = DressGeneric,
+        RunSpeedModifier = 0.93,
+        Insulation = 0.20,
+        WindResistance = 0.15,
+        FabricType = Cotton,
+        WorldStaticModel = Dress_Straps_Ground,
+    }
+    item Fat03_Dress_Short
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Short Dress (3XL),
+        ClothingItem = Fat03_Dress_Short,
+        ClothingItemExtra = Dress_Short,
+        ClothingItemExtraOption = Tighten,		
+        BodyLocation = Dress,
+        BloodLocation = ShortsShort;Shirt,
+        Icon = DressShortWhite,
+        Insulation = 0.1,
+        WindResistance = 0.05,
+        FabricType = Cotton,
+        WorldStaticModel = Dress_Short_Ground,
     }	
 }
