@@ -961,9 +961,11 @@ ItemName_EN = {
 	ItemName_AuthenticZClothing.GroguCarriage = "Sci-Fi Carriage (Occupied)",		
 	ItemName_AuthenticZClothing.Hairstyle_HairCurlers = "Hair Curlers",			
 	ItemName_AuthenticZClothing.Hat_PyromancerSkull = "Steer Skull",							
+	ItemName_AuthenticZClothing.Hat_FedoraWhite = "White Fedora",							
 	ItemName_AuthenticZClothing.MandoSpear = "Beskar Spear",
 	ItemName_AuthenticZClothing.Sport_Top = "Sport Tank Top",	
 	ItemName_AuthenticZClothing.Shoes_ClownStriped = "Clown Shoes",	
+	ItemName_AuthenticZClothing.Tie_Full_White = "White Tie",	
 	ItemName_AuthenticZClothing.Vest_Portal_Tanktop = "Blue and White Tank Top",	
 	ItemName_AuthenticZClothing.Winslow_Spikes = "Impaled Spikes",	
 }

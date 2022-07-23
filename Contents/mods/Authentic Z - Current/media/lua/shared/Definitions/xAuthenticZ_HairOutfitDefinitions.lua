@@ -588,6 +588,12 @@ cat.beard = "None:100";
 cat.haircutColor = "0.33,0.16,0.16:100"; --Brown
 table.insert(HairOutfitDefinitions.haircutOutfitDefinition, cat);
 local cat = {};
+cat.outfit = "AuthenticSmoothCriminal";
+cat.haircut = "PonyTailBraids:100";
+cat.beard = "None:100";
+cat.haircutColor = "0.33,0.16,0.16:100"; --Brown
+table.insert(HairOutfitDefinitions.haircutOutfitDefinition, cat);
+local cat = {};
 cat.outfit = "AuthenticTagilla";
 cat.haircut = "Bald:100";
 cat.beard = "None:100";

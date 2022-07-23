@@ -5852,6 +5852,10 @@
 		<guid>dd850db6-d8db-4881-a4ae-e0e10c09744d</guid>
 	</files>
 	<files>
+		<path>media/clothing/clothingItems/Tie_Full_White.xml</path>
+		<guid>c2094f3c-8782-431c-8973-cb96b7c3d00d</guid>
+	</files>
+	<files>
 		<path>media/clothing/clothingItems/Tie_BowTieWorn_Blue.xml</path>
 		<guid>cd8b0c44-9aa6-4272-b29a-e5e5520bcfb0</guid>
 	</files>

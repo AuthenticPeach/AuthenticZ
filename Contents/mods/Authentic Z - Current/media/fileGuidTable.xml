@@ -4562,6 +4562,10 @@
 	<files>
 		<path>media/clothing/clothingItems/Hat_FastFood_Donut.xml</path>
 		<guid>5eed625b-18e4-4bc2-bdc7-1b3f4d5fe470</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Hat_FedoraWhite.xml</path>
+		<guid>52666241-06c4-46c4-a8bc-9e9b15bf2e3e</guid>
 	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Hat_FootballHelmet_BlueStar.xml</path>
@@ -5678,7 +5682,11 @@
 	<files>
 		<path>media/clothing/clothingItems/Skin_Charcoal_Zed_W.xml</path>
 		<guid>b2630349-a122-442f-be8a-54cc09d234cd</guid>
-	</files>		
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Skin_Tan_Zed_M.xml</path>
+		<guid>5317283e-c343-4dca-9ae8-deb75be1c3ec</guid>
+	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Skin_Tan_Zed_W.xml</path>
 		<guid>75659e42-c52e-411d-a12a-bfbb9273cab2</guid>
@@ -5879,6 +5887,10 @@
 		<path>media/clothing/clothingItems/Tie_Full_GMan.xml</path>
 		<guid>dd850db6-d8db-4881-a4ae-e0e10c09744d</guid>
 	</files>
+	<files>
+		<path>media/clothing/clothingItems/Tie_Full_White.xml</path>
+		<guid>c2094f3c-8782-431c-8973-cb96b7c3d00d</guid>
+	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Tie_BowTieWorn_Blue.xml</path>
 		<guid>cd8b0c44-9aa6-4272-b29a-e5e5520bcfb0</guid>

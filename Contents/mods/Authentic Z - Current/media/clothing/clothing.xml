@@ -9640,6 +9640,37 @@
 		</m_items>				
 	</m_FemaleOutfits>
 
+<m_MaleOutfits> <m_Name>AuthenticSmoothCriminal</m_Name>
+		<m_Guid>6891c5f8-31e1-472c-88fe-b4a9185fa184</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_items> <!-- Tan Zed Skin Man -->
+			<itemGUID>5317283e-c343-4dca-9ae8-deb75be1c3ec</itemGUID>
+		</m_items>			
+		<m_items> <!-- Hat_FedoraWhite -->
+			<itemGUID>52666241-06c4-46c4-a8bc-9e9b15bf2e3e</itemGUID>
+		</m_items>			
+		<m_items> <!-- Tie_Full_White -->
+			<itemGUID>c2094f3c-8782-431c-8973-cb96b7c3d00d</itemGUID>
+		</m_items>		
+		<m_items> <!-- Nick Formal Shirt -->
+			<itemGUID>f9502285-fb9b-4a4b-a801-654d5568348f</itemGUID>
+		</m_items>	
+		<m_items> <!-- White Suit Jacket -->
+			<itemGUID>0a21c59c-3c14-49e5-95bb-65e5fff6dc48</itemGUID>
+		</m_items>			
+		<m_items> <!-- White Suit Pants -->
+			<itemGUID>2f480fba-3f74-4411-a306-5ee42f536c06</itemGUID>
+		</m_items>
+		<m_items> <!-- Long Socks -->
+			<itemGUID>fb86bd5f-1931-4b24-a5d7-bd6a43769991</itemGUID>
+		</m_items>	
+		<m_items> <!-- Bill Murray Shoes -->
+			<itemGUID>a4e56057-6eee-4453-96f4-12613ee1a25f</itemGUID>
+		</m_items>				
+	</m_MaleOutfits>
+
 <m_MaleOutfits> <m_Name>AuthenticSnowGhillie</m_Name>
 		<m_Guid>91c092d2-b5aa-4abf-b021-2d219354166e</m_Guid>
 		<m_Pants>false</m_Pants>
