@@ -4040,6 +4040,18 @@
 		<guid>01d90dcf-d42f-4dcb-a702-397423dce587</guid>
 	</files>
 	<files>
+		<path>media/clothing/clothingItems/CameraVanillaRegular.xml</path>
+		<guid>88704c7b-5fd1-4f2c-8a8d-1232b81ccf9c</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/CameraVanillaDisposible.xml</path>
+		<guid>671f4f53-c623-41ac-aba1-95f5029a2d5c</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/CameraVanillaExpensive.xml</path>
+		<guid>75beb090-1a23-4641-881c-03fa5d5f0eff</guid>
+	</files>	
+	<files>
 		<path>media/clothing/clothingItems/CameraBroadcasting.xml</path>
 		<guid>46bae820-64d9-4795-8252-001dfbc2cec9</guid>
 	</files>	
@@ -4512,6 +4524,10 @@
 		<guid>b196bf3c-768e-4400-b91d-9fc389785b4a</guid>
 	</files>
 	<files>
+		<path>media/clothing/clothingItems/Hat_CaptainSkipper.xml</path>
+		<guid>8fdd62d0-59e7-4f34-933f-0efd0fb9c638</guid>
+	</files>	
+	<files>
 		<path>media/clothing/clothingItems/Hat_CheeseHat.xml</path>
 		<guid>5bf612e0-4932-46d1-85a5-16e2723c7a69</guid>
 	</files>
@@ -4880,6 +4896,18 @@
 		<guid>54537fa4-e1af-45db-b9c0-3ca202e1540d</guid>
 	</files>
 	<files>
+		<path>media/clothing/clothingItems/HoodieDOWN_CropTopTINT.xml</path>
+		<guid>fd1643d4-99c0-403c-886a-38201fd97bef</guid>
+	</files>		
+	<files>
+		<path>media/clothing/clothingItems/HoodieUP_CropTopTINT.xml</path>
+		<guid>2912bef3-7647-49e6-a70d-d3026f8e95bf</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/HoodieTied_CropTopTINT.xml</path>
+		<guid>eb11c107-a114-4e97-945e-72e70afa4a4e</guid>
+	</files>	
+	<files>
 		<path>media/clothing/clothingItems/HoodieUP_GreenPlaid.xml</path>
 		<guid>e775f07f-dd35-4cfa-a7bf-ef032e95967d</guid>
 	</files>
@@ -5038,6 +5066,10 @@
 	<files>
 		<path>media/clothing/clothingItems/Jacket_Clementine.xml</path>
 		<guid>85cebbd9-58ab-4b6d-a85d-e213a15e4e6e</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Jacket_CoatNavy.xml</path>
+		<guid>d62c74b5-4555-425d-aaef-30e478c33bd0</guid>
 	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Jacket_Doctor2.xml</path>
@@ -5114,6 +5146,10 @@
 	<files>
 		<path>media/clothing/clothingItems/Jacket_StraightJacket.xml</path>
 		<guid>75ce22f2-e985-4a06-8b60-d06d3ec97d27</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Jacket_Thriller.xml</path>
+		<guid>79675b7d-def9-41aa-bf3e-4bd0ed96d2e6</guid>
 	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Jacket_Trenchcoat.xml</path>
@@ -5122,6 +5158,10 @@
 	<files>
 		<path>media/clothing/clothingItems/Jacket_Varsity_AZ.xml</path>
 		<guid>60dc9cab-ba5f-4a2d-9f7f-a0c6d7156e39</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Jacket_Varsity_Thriller.xml</path>
+		<guid>f9cb7ec2-f4cf-43d7-88a4-4ee8f8f03a91</guid>
 	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Jacket_Zoey.xml</path>
@@ -6474,6 +6514,50 @@
 		<guid>f5906f8b-003e-43c1-a2d9-2064c5b25d24</guid>
 	</files>
 	<files>
+		<path>media/clothing/clothingItems/Fat01_Dress_Knees.xml</path>
+		<guid>794efafc-ca8e-4e5b-a4d9-927e8351b3a0</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Fat01_DressKnees_Straps.xml</path>
+		<guid>4de7f73d-f9a4-4523-b2fd-2e5cbb325910</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Fat01_Dress_SmallStrapless.xml</path>
+		<guid>fc2a3bc6-681d-4a6d-8c24-ce37a1744036</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Fat01_Dress_SmallStraps.xml</path>
+		<guid>5a39c0d7-dc7e-455f-bacc-dac453afbc46</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Fat01_Dress_SatinNegligee.xml</path>
+		<guid>004c8c70-3764-40d9-9a62-dad180f0e691</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Fat01_Dress_Long.xml</path>
+		<guid>6df3b3a6-5000-4f42-b9dc-5e8fc2ebb317</guid>
+	</files>	
+	<files>
+		<path>media/clothing/clothingItems/Fat01_Dress_long_Straps.xml</path>
+		<guid>64653567-c433-48ba-8b43-d7b087ea605e</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Fat01_Dress_Normal.xml</path>
+		<guid>c583f1b0-893c-45e9-afda-d7c348026d64</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Fat01_Dress_Straps.xml</path>
+		<guid>324b226d-41e2-4d78-add9-453fb93d1270</guid>
+	</files>	
+	<files>
+		<path>media/clothing/clothingItems/Fat01_Dress_Short.xml</path>
+		<guid>b8b2bcff-cb1c-40a6-b424-d828c3d4944e</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Fat01_Coveralls.xml</path>
+		<guid>f5906f8b-003e-43c1-a2d9-2064c5b25d24</guid>
+	</files>	
+	<files>
 	<path>media/clothing/clothingItems/Fat01_HoodieUP.xml</path>
 		<guid>d8a600ea-6485-405b-8c9f-d7a20b9242b1</guid>
 	</files>
@@ -6506,15 +6590,31 @@
 		<guid>a3c5ca65-034d-434a-8282-6e549c764ece</guid>
 	</files>
 	<files>
+		<path>media/clothing/clothingItems/Fat01_Skirt_Knees.xml</path>
+		<guid>7feeebc4-0fd2-401d-aed6-7411f6ab7a80</guid>
+	</files>	
+	<files>
+		<path>media/clothing/clothingItems/Fat01_Skirt_Long.xml</path>
+		<guid>6df3b3a6-5000-4f42-b9dc-5e8fc2ebb317</guid>
+	</files>		
+	<files>
+		<path>media/clothing/clothingItems/Fat01_Skirt_Normal.xml</path>
+		<guid>ae48db79-50a7-4e63-8cd6-6e63d3b3a399</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Fat01_Skirt_Short.xml</path>
+		<guid>d05dd95a-2360-459a-9297-f13767675b5c</guid>
+	</files>	
+	<files>
 		<path>media/clothing/clothingItems/Fat01_Shoes.xml</path>
 		<guid>a3e2df17-79a5-40ef-b23c-aae62316aa11</guid>
-	</files>	
+	</files>			
 	<files>
 		<path>media/clothing/clothingItems/Fat01_SportShorts.xml</path>
 		<guid>f1cba17f-e61f-4df5-b5c3-f35168da234d</guid>
 	</files>
 	<files>
-			<path>media/clothing/clothingItems/Fat01_ShellPants.xml</path>
+		<path>media/clothing/clothingItems/Fat01_ShellPants.xml</path>
 		<guid>01297d6d-164d-42f0-99a1-fd746a0bbe26</guid>
 	</files>
 	<files>
@@ -6533,6 +6633,46 @@
 		<path>media/clothing/clothingItems/Fat02_Coveralls.xml</path>
 		<guid>f101bb2c-32d6-4789-935a-bcea540c84ed</guid>
 	</files>
+	<files>
+		<path>media/clothing/clothingItems/Fat02_Dress_Knees.xml</path>
+		<guid>2b7ccb30-1b63-4f3f-8928-10ff71b1cf27</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Fat02_DressKnees_Straps.xml</path>
+		<guid>1f0c591d-235a-43b7-965d-657f5595a824</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Fat02_Dress_SmallStrapless.xml</path>
+		<guid>e6b19f1e-90db-4115-a464-39dcbf5078e6</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Fat02_Dress_SmallStraps.xml</path>
+		<guid>dadc9eb8-c6d2-45aa-a73c-2f2002ca9d0c</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Fat02_Dress_SatinNegligee.xml</path>
+		<guid>d7679352-05eb-4621-ba40-c2ccb42dd083</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Fat02_Dress_Long.xml</path>
+		<guid>7b7d9982-a94d-4b41-ab13-1e9f7b221cff</guid>
+	</files>	
+	<files>
+		<path>media/clothing/clothingItems/Fat02_Dress_long_Straps.xml</path>
+		<guid>6d7ddfde-b777-430f-83ef-3f891f1ead9a</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Fat02_Dress_Normal.xml</path>
+		<guid>2041f461-c4cb-4605-88ed-a5c88adc43b9</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Fat02_Dress_Straps.xml</path>
+		<guid>3b88162e-3589-417f-85b7-63b1332d2dd8</guid>
+	</files>	
+	<files>
+		<path>media/clothing/clothingItems/Fat02_Dress_Short.xml</path>
+		<guid>ec2347f2-887d-4414-9026-cb7d115ec932</guid>
+	</files>	
 	<files>
 	<path>media/clothing/clothingItems/Fat02_HoodieUP.xml</path>
 		<guid>c1b28835-8c17-4916-a784-54c319019aa4</guid>
@@ -6564,6 +6704,22 @@
 	<files>
 		<path>media/clothing/clothingItems/Fat02_Shoes.xml</path>
 		<guid>a8c9dc1e-2c84-4998-ae52-65785ec3b35c</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Fat02_Skirt_Knees.xml</path>
+		<guid>192aa7d4-d156-47f0-9ad8-ebdbaca26dac</guid>
+	</files>	
+	<files>
+		<path>media/clothing/clothingItems/Fat02_Skirt_Long.xml</path>
+		<guid>f80622e1-dcfc-4623-8a1f-a61f056719fb</guid>
+	</files>		
+	<files>
+		<path>media/clothing/clothingItems/Fat02_Skirt_Normal.xml</path>
+		<guid>3f11e98e-ac67-4f9d-82c6-5118c0c0c373</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Fat02_Skirt_Short.xml</path>
+		<guid>35233e96-243a-41e8-b7a2-c6d202b245cf</guid>
 	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Fat02_TShirt.xml</path>
@@ -6584,7 +6740,47 @@
 	<files>
 	<path>media/clothing/clothingItems/Fat03_Apron.xml</path>
 		<guid>da5c4475-d8c5-44d4-b0f1-4ce64b544bbb</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Fat03_Dress_Knees.xml</path>
+		<guid>5ed3b3e5-be21-42ef-9f7f-5103c15161af</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Fat03_DressKnees_Straps.xml</path>
+		<guid>9813987d-868d-44f5-9eac-a7ecdc9a9ee9</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Fat03_Dress_SmallStrapless.xml</path>
+		<guid>07456288-71d6-40ec-912f-41c5d657a476</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Fat03_Dress_SmallStraps.xml</path>
+		<guid>45f239d7-4fff-4d24-9a9b-47ab03119e59</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Fat03_Dress_SatinNegligee.xml</path>
+		<guid>cc170139-7143-4fdc-a5e4-b29e03a48425</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Fat03_Dress_Long.xml</path>
+		<guid>b8693951-5f04-4b69-9585-e7cdf73caea1</guid>
 	</files>	
+	<files>
+		<path>media/clothing/clothingItems/Fat03_Dress_long_Straps.xml</path>
+		<guid>ca4545bf-709f-4c38-afd8-7948510344e6</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Fat03_Dress_Normal.xml</path>
+		<guid>3112663b-e32f-4ebd-9cfb-29e0c62b12c3</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Fat03_Dress_Straps.xml</path>
+		<guid>1eac8bd1-1b6c-4f17-9b0a-b51eb70a0a18</guid>
+	</files>	
+	<files>
+		<path>media/clothing/clothingItems/Fat03_Dress_Short.xml</path>
+		<guid>f4cd8b52-a8e9-4243-a8b3-515752d47972</guid>
+	</files>		
 	<files>
 	<path>media/clothing/clothingItems/Fat03_HoodieUP.xml</path>
 		<guid>a83b2644-29e7-4ff1-8875-3eac909d64a7</guid>
@@ -6612,6 +6808,22 @@
 	<files>
 		<path>media/clothing/clothingItems/Fat03_Shoes.xml</path>
 		<guid>dca66f80-0385-431f-b9d5-43646027f8e8</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Fat03_Skirt_Knees.xml</path>
+		<guid>b7854297-a241-451b-b872-c5a6067960bb</guid>
+	</files>	
+	<files>
+		<path>media/clothing/clothingItems/Fat03_Skirt_Long.xml</path>
+		<guid>2b665d7d-4a85-438b-874f-288fa0281b18</guid>
+	</files>		
+	<files>
+		<path>media/clothing/clothingItems/Fat03_Skirt_Normal.xml</path>
+		<guid>a26eb707-b9a5-4506-a09e-4fe9c7d88c7e</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Fat03_Skirt_Short.xml</path>
+		<guid>def80ff2-e99d-4e6b-859a-62bb0830cf43</guid>
 	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Fat03_SportShorts.xml</path>
@@ -6628,5 +6840,53 @@
 	<files>
 		<path>media/clothing/clothingItems/Fat03_Vest_HighViz.xml</path>
 		<guid>0bf3682c-3ac3-4981-bcf1-de22b79c43dc</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Thin01_Apron.xml</path>
+		<guid>36b78a9f-9522-4d91-94dd-06ed96f161a3</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Thin01_Body.xml</path>
+		<guid>fc765340-a1bb-4417-9f71-05bf64b54bba</guid>
+	</files>	
+	<files>
+		<path>media/clothing/clothingItems/Thin01_Coveralls.xml</path>
+		<guid>c7c455b6-ece9-4605-ad4e-6be32b40afe2</guid>
+	</files>	
+	<files>
+		<path>media/clothing/clothingItems/Thin01_HoodieDown.xml</path>
+		<guid>55e92b0c-98d2-4a9d-ae3c-9de8568b771b</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Thin01_HoodieUP.xml</path>
+		<guid>8f2d61a2-ea8e-4f7e-9fb6-34676c433f4e</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Thin01_Overalls.xml</path>
+		<guid>fb91b9bd-2641-45d1-9e24-969ff8656937</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Thin01_PonchoDown.xml</path>
+		<guid>58130fc7-68fc-48d6-b65d-84135aab1765</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Thin01_PonchoUP.xml</path>
+		<guid>04e1aa5e-4b90-4883-a372-34c6c558c948</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Thin01_ShellPants.xml</path>
+		<guid>66a11eca-2a3a-4dba-8f9f-4a77140c1af4</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Thin01_SportShorts.xml</path>
+		<guid>d751cdde-82ac-42c5-b792-1f6017adcdca</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Thin01_Shoes.xml</path>
+		<guid>5bcf23b7-a0da-45c6-970a-b33d3c8d0a87</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Thin01_Vest_HighViz.xml</path>
+		<guid>77b872a4-c4cd-4f2c-a739-a8aa65d2972d</guid>
 	</files>	
 </fileGuidTable>

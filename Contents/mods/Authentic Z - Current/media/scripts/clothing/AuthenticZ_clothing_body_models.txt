@@ -105,7 +105,7 @@ module AuthenticZClothing {
        DisplayCategory = Clothing,		
 		Type = Clothing,
 /*		DisplayName = Skinny Body Male, */	
-		ClothingItem = SkinnyBody_M,
+		ClothingItem = Thin01_Body,
 		BodyLocation = Torso1Legs1,
 		Icon = AZDadBod,
 	}	

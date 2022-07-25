@@ -1209,6 +1209,11 @@ module Base
         mesh = WorldItems/WorldItem_BigLollipop,
         texture =  clothes\Items\BigLolipop,
     }
+	model WorldItem_CaptainsHat
+    {
+		mesh = WorldItems/WorldItem_CaptainsHat,
+		texture = clothes\Hats\CaptainsHat,			
+    }	
 	model WorldItem_GroguAZ
 	{
 		mesh = WorldItems/WorldItem_GroguAZ,

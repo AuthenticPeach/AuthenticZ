@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\CustomBodies\SkinnyBody_M\SkinnyBody01_M_SportShorts</m_MaleModel>
+	<m_FemaleModel>skinned\CustomBodies\SkinnyBody_M\SkinnyBody01_M_SportShorts</m_FemaleModel>
+	<m_GUID>d751cdde-82ac-42c5-b792-1f6017adcdca</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>clothes\shorts_textures\longshorts_sportblue</textureChoices>
+	<textureChoices>clothes\shorts_textures\longshorts_sportgreen</textureChoices>
+	<textureChoices>clothes\shorts_textures\longshorts_sportred</textureChoices>
+	<textureChoices>clothes\shorts_textures\LongShorts_SportPurple</textureChoices>
+	
+	<textureChoices>clothes\shorts_textures\LongShorts_DenimLight</textureChoices>
+	<textureChoices>clothes\shorts_textures\LongShorts_DenimBlack</textureChoices>
+	<textureChoices>clothes\shorts_textures\LongShorts_Denim</textureChoices>
+	<textureChoices>clothes\shorts_textures\LongShorts_DenimLight</textureChoices>
+	<textureChoices>clothes\shorts_textures\LongShorts_DenimBlack</textureChoices>
+	<textureChoices>clothes\shorts_textures\LongShorts_Denim</textureChoices>
+	<textureChoices>clothes\shorts_textures\LongShorts_DenimLight</textureChoices>
+	<textureChoices>clothes\shorts_textures\LongShorts_DenimBlack</textureChoices>
+	<textureChoices>clothes\shorts_textures\LongShorts_Denim</textureChoices>
+	<textureChoices>clothes\shorts_textures\LongShorts_DenimLight</textureChoices>
+	<textureChoices>clothes\shorts_textures\LongShorts_DenimBlack</textureChoices>
+	<textureChoices>clothes\shorts_textures\LongShorts_Denim</textureChoices>
+	<textureChoices>clothes\shorts_textures\LongShorts_DenimLight</textureChoices>
+	<textureChoices>clothes\shorts_textures\LongShorts_DenimBlack</textureChoices>
+	<textureChoices>clothes\shorts_textures\LongShorts_Denim</textureChoices>		
+</clothingItem>

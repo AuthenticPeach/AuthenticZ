@@ -33,6 +33,9 @@ objects = {
   { name = "MovieNight2", type = "ZombiesType", x = 13569, y = 5854, z = 0, width = 77, height = 72},
   { name = "PlanetTerror", type = "ZombiesType", x = 5910, y = 5229, z = 0, width = 60, height = 45}, -- Western Riverside			
   { name = "Pony", type = "ZombiesType", x = 8530, y = 8440, z = 0, width = 135, height = 144},
+  { name = "ShipBoat", type = "ZombiesType", x = 2024, y = 5675, z = 0, width = 46, height = 19}, --Riverside Boat
+  { name = "ShipBoat", type = "ZombiesType", x = 2024, y = 5675, z = 1, width = 46, height = 19}, --Riverside Boat
+  { name = "ShipBoat", type = "ZombiesType", x = 2024, y = 5675, z = 2, width = 46, height = 19}, --Riverside Boat
   { name = "SpeakingEvent", type = "ZombiesType", x = 11926, y = 6856, z = 0, width = 135, height = 39},--Westpoint Meeting room
   { name = "Spiffos", type = "ZombiesType", x = 13870, y = 5750, z = 0, width = 16, height = 30},
   { name = "ParkPlaza", type = "ZombiesType", x = 11777, y = 6904, z = 0, width = 30, height = 35},

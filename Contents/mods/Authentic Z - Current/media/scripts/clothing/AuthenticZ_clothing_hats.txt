@@ -866,6 +866,21 @@ module AuthenticZClothing {
         Weight = 0.5,
 		WorldStaticModel = WorldItem_Boater_Ground_Yellow,
     }
+	item Hat_CaptainSkipper
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Captain's Cap,
+		ClothingItem = Hat_CaptainSkipper,
+		BodyLocation = Hat,
+		Icon = SkipperHat,
+		ChanceToFall = 40,
+        BloodLocation = Head,
+        Insulation = 0.15,
+        WindResistance = 0.1,
+        Weight = 0.5,
+		WorldStaticModel = WorldItem_CaptainsHat,		
+	}	
    item Hat_CheeseHat
     {
 	    DisplayCategory = Accessory,	

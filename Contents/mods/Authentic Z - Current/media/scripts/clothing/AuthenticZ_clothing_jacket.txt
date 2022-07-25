@@ -519,6 +519,25 @@ module AuthenticZClothing {
         FabricType = Denim,
         Weight = 2,
         WorldStaticModel = Jacket_Ground,		
+    }
+    item Jacket_CoatNavy
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Navy Coat,
+        ClothingItem = Jacket_CoatNavy,
+        BodyLocation = Jacket,
+        Icon = JacketNavyDress,
+        BloodLocation = LongJacket,
+        RunSpeedModifier = 0.95,
+        BiteDefense = 20,
+        ScratchDefense = 40,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.70,
+        WindResistance = 0.45,
+        FabricType = Cotton,
+        WaterResistance = 0.55,
+        WorldStaticModel = JacketCoat_Ground,
     }	
     item Jumper_DiamondBillMurray
     {
@@ -1459,7 +1478,24 @@ module AuthenticZClothing {
         WindResistance 			= 0.5,
         FabricType		 		= Cotton,
         WorldStaticModel 		= JacketCoat_Ground,
-    }	
+    }
+    item Jacket_Varsity_Thriller
+    {
+        DisplayCategory 		= Clothing,
+        Type 					= Clothing,
+        DisplayName 			= Varsity Jacket,
+        ClothingItem 			= Jacket_Varsity_Thriller,
+        BodyLocation 			= Jacket,
+        BloodLocation 			= Jacket,
+        Icon 					= JacketVarsity_Thriller,
+        ScratchDefense		 	= 20,
+        BiteDefense 			= 10,
+        NeckProtectionModifier 	= 0.3,
+        Insulation 				= 0.60,
+        WindResistance 			= 0.5,
+        FabricType		 		= Cotton,
+        WorldStaticModel 		= JacketCoat_Ground,
+    }		
     item Suit_JacketBlue
     {
         DisplayCategory = Clothing,		
@@ -1591,6 +1627,27 @@ module AuthenticZClothing {
         WindResistance = 0.35,
         FabricType = Cotton,
         Weight = 2,
+        WorldStaticModel = Jacket_Ground,			
+    }
+
+    item Jacket_Thriller
+    {
+        DisplayCategory = Clothing,		
+        Type = Clothing,
+        DisplayName = Thriller Jacket,
+        ClothingItem = Jacket_Thriller,
+        BodyLocation = Jacket,
+        Icon = StraightJacket,
+        BloodLocation = Jacket,
+        RunSpeedModifier = 0.93,
+        CombatSpeedModifier = 0.98,
+        BiteDefense = 20,
+        ScratchDefense = 30,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.7,
+        WindResistance = 0.7,
+        FabricType = Leather,
+        Weight = 3,
         WorldStaticModel = Jacket_Ground,			
     }
 
@@ -1800,6 +1857,57 @@ module AuthenticZClothing {
         ScratchDefense = 10,
         WorldStaticModel = Hoodie_Ground,		
     }	
+
+    item HoodieDOWN_CropTopTINT
+    {
+        DisplayCategory = Clothing,		
+        Type = Clothing,
+        DisplayName = Crop-Top Hoodie,
+        ClothingItem = HoodieDOWN_CropTopTINT,
+        ClothingItemExtra = AuthenticZClothing.HoodieUP_CropTopTINT;AuthenticZClothing.HoodieTied_CropTopTINT,
+        ClothingItemExtraOption = UpHoodie;TieOnWaist,
+        BodyLocation = Jacket,
+        BloodLocation = Jumper,
+        Icon = HoodieWhite,
+        ScratchDefense = 10,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.6,
+        WindResistance = 0.25,
+        FabricType 	= Cotton,
+        WorldStaticModel = Hoodie_Ground,		
+    }
+    item HoodieUP_CropTopTINT
+    {
+        DisplayCategory  = Clothing,		
+        Type 			 = Clothing,
+        DisplayName 	 = Crop-Top Hoodie,
+        ClothingItem 	 = HoodieUP_CropTopTINT,
+        ClothingItemExtra = AuthenticZClothing.HoodieDOWN_CropTopTINT;AuthenticZClothing.HoodieTied_CropTopTINT,
+        ClothingItemExtraOption = DownHoodie;TieOnWaist,
+        BodyLocation 	 = Jacket,
+        BloodLocation 	 = Jumper;FullHelmet,
+        Icon 			 = HoodieWhite,
+        ScratchDefense 	 = 10,
+        Insulation 		 = 0.55,
+        WindResistance 	 = 0.2,
+        FabricType 		 = Cotton,
+        WorldStaticModel = Hoodie_Ground,		
+    }
+
+    item HoodieTied_CropTopTINT
+    {
+        DisplayCategory = Clothing,		
+        Type = Clothing,
+        DisplayName = Crop-Top Hoodie (Tied),
+        ClothingItem = HoodieTied_CropTopTINT,
+        ClothingItemExtra = AuthenticZClothing.HoodieDOWN_CropTopTINT;AuthenticZClothing.HoodieUP_CropTopTINT,
+        ClothingItemExtraOption = DownHoodie;UpHoodie,	
+		BodyLocation = TorsoExtra,
+		BloodLocation = Apron,
+        Icon = HoodieWhite,
+        ScratchDefense = 10,
+        WorldStaticModel = Hoodie_Ground,		
+    }
 
     item HoodieDOWN_GreenPlaid
     {

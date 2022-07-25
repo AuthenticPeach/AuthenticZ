@@ -1,0 +1,191 @@
+module AuthenticZClothing {
+  imports {
+      Base
+  }	
+    item Thin01_Apron
+    {
+       DisplayCategory = Clothing,		
+		Type = Clothing,
+        DisplayName = Apron (XS),		
+		ClothingItem = Thin01_Apron,
+		
+		BodyLocation = TorsoExtra,
+		BloodLocation = Apron,
+		Icon = ApronWhite,
+		FabricType = Cotton,
+		WorldStaticModel = Apron_Ground,
+    }
+    item Thin01_Coveralls
+    {
+        DisplayCategory = Clothing,		
+        Type = Clothing,
+        DisplayName = Coveralls (XS),		
+        ClothingItem = Thin01_Coveralls,
+		
+        BodyLocation = FullSuit,
+        Icon = BoilerSuitBigDaddy,
+        BloodLocation = Trousers;Jumper,
+        RunSpeedModifier = 0.9,
+        ScratchDefense = 10,
+        Insulation = 0.45,
+        WindResistance = 0.35,
+        FabricType = Denim,
+		WorldStaticModel = BoilerSuit_Ground,
+    }
+    item Thin01_HoodieUP
+    {
+        DisplayCategory = Clothing,		
+        Type = Clothing,
+        DisplayName = Hoodie (XS),
+        ClothingItem = Thin01_HoodieUP,
+
+        BodyLocation = Jacket,
+        BloodLocation = Jumper;FullHelmet,
+        Icon = HoodieBlack,
+        ScratchDefense = 10,
+        Insulation = 0.55,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+        WorldStaticModel = Hoodie_Ground,		
+    }
+    item Thin01_HoodieDown
+    {
+        DisplayCategory = Clothing,		
+        Type = Clothing,
+        DisplayName = Hoodie (XS),
+        ClothingItem = Thin01_HoodieDown,
+
+        BodyLocation = Jacket,
+        BloodLocation = Jumper,
+        Icon = HoodieBlack,
+        ScratchDefense = 10,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.6,
+        WindResistance = 0.25,
+        FabricType = Cotton,
+        WorldStaticModel = Hoodie_Ground,		
+    }			
+    item Thin01_Overalls
+    {
+       DisplayCategory = Clothing,			
+        Type = Clothing,
+        DisplayName = Overalls (XS),
+        ClothingItem = Thin01_Overalls,
+        BodyLocation = FullSuit,
+        Icon = OverallsOrange,
+        BloodLocation = Trousers;Jumper,
+        RunSpeedModifier = 0.9,
+        ScratchDefense = 10,
+        Insulation = 0.65,
+        WindResistance = 0.45,
+        FabricType = Denim,
+		WorldStaticModel = BoilerSuit_Ground,
+    }		
+    item Thin01_PonchoUP
+    {
+        DisplayCategory = Clothing,		
+        Type = Clothing,
+        DisplayName = Poncho,
+        ClothingItem = Thin01_PonchoUP,
+        BodyLocation = JacketHat,
+        Icon = HoodieWhite,
+        ColorRed = 20,
+        ColorGreen = 20,
+        ColorBlue = 20,
+        BloodLocation = Shirt;FullHelmet;Trousers,
+        RunSpeedModifier = 0.9,
+
+        ScratchDefense = 10,
+        Insulation = 0.1,
+        WindResistance = 0.75,
+        WaterResistance = 1.0,
+        FabricType = Denim,		
+        WorldStaticModel = Poncho_Ground,
+    }
+    item Thin01_PonchoDown
+    {
+        DisplayCategory = Clothing,		
+        Type = Clothing,
+        DisplayName =  Poncho,
+        ClothingItem = Thin01_PonchoDown,
+        BodyLocation = Jacket,
+        Icon = HoodieWhite,
+        ColorRed = 20,
+        ColorGreen = 20,
+        ColorBlue = 20,
+        BloodLocation = Shirt;FullHelmet;Trousers,
+        RunSpeedModifier = 0.9,
+
+        ScratchDefense = 10,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.15,
+        WindResistance = 0.8,
+        WaterResistance = 1.0,
+        FabricType = Denim,			
+        WorldStaticModel = Poncho_Ground,
+    }
+    item Thin01_SportShorts
+    {
+       DisplayCategory = Clothing,		
+        Type = Clothing,
+        DisplayName = Sports Pants (XS),
+        ClothingItem = Fat03_SportShorts,
+		
+        BodyLocation = Pants,
+        IconsForTexture = ShortsLongAthleticBlue;ShortsLongAthleticGreen;ShortsLongAthleticRed;ShortsLongAthleticPurple;ShortsLongDenim;ShortsLongDenimBlack;ShortsLongDenimDark;ShortsLongDenim;ShortsLongDenimBlack;ShortsLongDenimDark;ShortsLongDenim;ShortsLongDenimBlack;ShortsLongDenimDark;ShortsLongDenim;ShortsLongDenimBlack;ShortsLongDenimDark;ShortsLongDenim;ShortsLongDenimBlack;ShortsLongDenimDark,
+        BloodLocation = Trousers,
+        Insulation = 0.15,
+        WindResistance = 0.05,
+        FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,		
+    }
+    item Thin01_ShellPants
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Shell Suit Trousers (XS),
+        ClothingItem = Thin01_ShellPants,
+		
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        IconsForTexture = TracksuitPantsBlack;TracksuitPantsBlue;TracksuitPantsGreen;TracksuitPantsTeal;TracksuitPantsGeneric;TrousersAthleticVegan;TrousersAthleticGrey;TrousersBill;TrousersBrad;Trousers;Trousers;Trousers;Trousers;Trousers;Trousers;Trousers;Trousers;Trousers;Trousers;Trousers;Trousers;Trousers;Trousers;Trousers,
+        ScratchDefense = 5,
+        Insulation = 0.30,
+        WindResistance = 0.4,
+        WorldStaticModel = Trousers_Shellsuit_Ground,
+    }
+	item Thin01_Shoes
+	{
+	    DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Shoes (XS),
+		ClothingItem = Thin01_Shoes,
+			
+		BodyLocation = Shoes,
+		BloodLocation = Shoes,
+		Icon = Shoes,
+		StompPower = 2.1,
+		ConditionLowerChanceOneIn = 12,
+        ConditionMax = 24,
+        RunSpeedModifier = 0.95,
+        RemoveOnBroken = false,
+        ScratchDefense = 20,
+        BiteDefense = 10,
+        Insulation = 0.25,
+        WindResistance = 0.25,
+        WaterResistance = 0.25,
+        WorldStaticModel = Shoes_Ground,
+	}	
+    item Thin01_Vest_HighViz
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Vest (XS),			
+        ClothingItem = Thin01_Vest_HighViz,
+		
+        BodyLocation = TorsoExtra,
+        IconsForTexture = ConstructionVest;Huntingvest_Orange;Huntingvest_Grey;Huntingvest_Camo;Huntingvest_Orange;Huntingvest_Grey;Huntingvest_Camo;SweaterVestWhite;SweaterVestArgyle,
+        BloodLocation = ShirtNoSleeves,
+        WorldStaticModel = HuntingVest_Ground,		
+    }
+}
