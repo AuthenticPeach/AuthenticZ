@@ -6,20 +6,21 @@ module AuthenticZClothing {
 	{
        DisplayCategory = Clothing,		
 		Type = Clothing,
-		DisplayName = Bullets Ammo Strap (XXL),
+		DisplayName = Bullets Ammo Strap,
 		ClothingItem = Fat02_AmmoStrap,
 		
 		BodyLocation = AmmoStrap,
 		Icon = AmmoStrapFlipped,
 		Tooltip = Tooltip_AmmoStrap,
-		WorldStaticModel = AmmoStrap_Ground,			
+		WorldStaticModel = AmmoStrap_Ground,
+		Tooltip = Tooltip_Size2XL,			
 	}
 
     item Fat02_Apron
     {
        DisplayCategory = Clothing,		
 		Type = Clothing,
-        DisplayName = Apron (XXL),		
+        DisplayName = Apron,		
 		ClothingItem = Fat02_Apron,
 		
 		BodyLocation = TorsoExtra,
@@ -27,12 +28,13 @@ module AuthenticZClothing {
 		Icon = ApronIceCream,
 		FabricType = Cotton,
 		WorldStaticModel = Apron_Ground,
+		Tooltip = Tooltip_Size2XL,		
     }
     item Fat02_Coveralls
     {
         DisplayCategory = Clothing,		
         Type = Clothing,
-        DisplayName = Coveralls (XXL),		
+        DisplayName = Coveralls,		
         ClothingItem = Fat02_Coveralls,
 			
         BodyLocation = FullSuit,
@@ -44,12 +46,13 @@ module AuthenticZClothing {
         WindResistance = 0.35,
         FabricType = Denim,
 		WorldStaticModel = BoilerSuit_Ground,
+		Tooltip = Tooltip_Size2XL,		
     }
     item Fat02_HoodieUP
     {
         DisplayCategory = Clothing,		
         Type = Clothing,
-        DisplayName = Hoodie (XXL),
+        DisplayName = Hoodie,
         ClothingItem = Fat02_HoodieUP,
 
         BodyLocation = Jacket,
@@ -59,13 +62,14 @@ module AuthenticZClothing {
         Insulation = 0.55,
         WindResistance = 0.2,
         FabricType = Cotton,
-        WorldStaticModel = Hoodie_Ground,		
+        WorldStaticModel = Hoodie_Ground,
+		Tooltip = Tooltip_Size2XL,		
     }
     item Fat02_HoodieDOWN
     {
         DisplayCategory = Clothing,		
         Type = Clothing,
-        DisplayName = Hoodie (XXL),
+        DisplayName = Hoodie,
         ClothingItem = Fat02_HoodieDOWN,
 ,
         BodyLocation = Jacket,
@@ -76,13 +80,14 @@ module AuthenticZClothing {
         Insulation = 0.6,
         WindResistance = 0.25,
         FabricType = Cotton,
-        WorldStaticModel = Hoodie_Ground,		
+        WorldStaticModel = Hoodie_Ground,
+		Tooltip = Tooltip_Size2XL,		
     }	
     item Fat02_Jacket
     {
         DisplayCategory = Clothing,
         Type = Clothing,
-        DisplayName = Jacket (XXL),
+        DisplayName = Jacket,
         ClothingItem = Fat02_Jacket,
 				
         BodyLocation = Jacket,
@@ -99,12 +104,13 @@ module AuthenticZClothing {
         WaterResistance = 0.4,
         Weight = 2,
         WorldStaticModel = JacketCoat_Ground,
+		Tooltip = Tooltip_Size2XL,		
     }
     item Fat02_JacketLeather
     {
         DisplayCategory = Clothing,
         Type = Clothing,
-        DisplayName = Leather Jacket (XXL),
+        DisplayName = Leather Jacket,
         ClothingItem = Fat02_JacketLeather,
 	
         BodyLocation = Jacket,
@@ -121,12 +127,13 @@ module AuthenticZClothing {
         WaterResistance = 0.4,
         Weight = 2,
         WorldStaticModel = JacketCoat_Ground,
+		Tooltip = Tooltip_Size2XL,		
     }	
     item Fat02_JacketLong
     {
         DisplayCategory = Clothing,
         Type = Clothing,
-        DisplayName = Leather Jacket (XXL),
+        DisplayName = Leather Jacket,
         ClothingItem = Fat02_JacketLong,
 			
         BodyLocation = Jacket,
@@ -143,6 +150,7 @@ module AuthenticZClothing {
         WaterResistance = 0.45,
         Weight = 2,
         WorldStaticModel = JacketLong_Ground,
+		Tooltip = Tooltip_Size2XL,		
     }
     item Fat02_PonchoUP
     {
@@ -164,6 +172,7 @@ module AuthenticZClothing {
         WaterResistance = 1.0,
         FabricType = Denim,		
         WorldStaticModel = Poncho_Ground,
+		Tooltip = Tooltip_Size2XL,		
     }
     item Fat02_PonchoDown
     {
@@ -186,12 +195,13 @@ module AuthenticZClothing {
         WaterResistance = 1.0,
         FabricType = Denim,			
         WorldStaticModel = Poncho_Ground,
+		Tooltip = Tooltip_Size2XL,	
     }
     item Fat02_SportShorts
     {
        DisplayCategory = Clothing,		
         Type = Clothing,
-        DisplayName = Sports Pants (XXL),
+        DisplayName = Sports Pants,
         ClothingItem = Fat02_SportShorts,
 		
         BodyLocation = Pants,
@@ -200,13 +210,14 @@ module AuthenticZClothing {
         Insulation = 0.15,
         WindResistance = 0.05,
         FabricType = Cotton,
-        WorldStaticModel = Trousers_Ground,		
+        WorldStaticModel = Trousers_Ground,	
+		Tooltip = Tooltip_Size2XL,		
     }
     item Fat02_ShellPants
     {
         DisplayCategory = Clothing,
         Type = Clothing,
-        DisplayName = Shell Suit Trousers (XXL),
+        DisplayName = Shell Suit Trousers,
         ClothingItem = Fat02_ShellPants,
 		
         BodyLocation = Pants,
@@ -216,12 +227,13 @@ module AuthenticZClothing {
         Insulation = 0.30,
         WindResistance = 0.4,
         WorldStaticModel = Trousers_Shellsuit_Ground,
+		Tooltip = Tooltip_Size2XL,		
     }
 	item Fat02_Shoes
 	{
 	    DisplayCategory = Clothing,
 		Type = Clothing,
-		DisplayName = Shoes (XXL),
+		DisplayName = Shoes,
 		ClothingItem = Fat02_Shoes,
 		
 		BodyLocation = Shoes,
@@ -238,12 +250,13 @@ module AuthenticZClothing {
         WindResistance = 0.25,
         WaterResistance = 0.25,
         WorldStaticModel = Shoes_Ground,
+		Tooltip = Tooltip_Size2XL,		
 	}		
     item Fat02_TShirt
     {
         DisplayCategory = Clothing,		
         Type = Clothing,
-        DisplayName = T-Shirt (XXL),
+        DisplayName = T-Shirt,
         ClothingItem = Fat02_TShirt,
 		
         BodyLocation = Jacket,
@@ -251,36 +264,39 @@ module AuthenticZClothing {
         Insulation = 0.3,
         WindResistance = 0.35,
         FabricType = Cotton,
-		WorldStaticModel = TShirt_Ground,	
+		WorldStaticModel = TShirt_Ground,
+		Tooltip = Tooltip_Size2XL,		
     }	
     item Fat02_Vest_HighViz
     {
         DisplayCategory = Clothing,
         Type = Clothing,
-        DisplayName = Vest (XXL),			
+        DisplayName = Vest,			
         ClothingItem = Fat02_Vest_HighViz,
 		
         BodyLocation = TorsoExtra,
         IconsForTexture = ConstructionVest;Huntingvest_Orange;Huntingvest_Grey;Huntingvest_Camo;Huntingvest_Orange;Huntingvest_Grey;Huntingvest_Camo;SweaterVestWhite;SweaterVestArgyle,
         BloodLocation = ShirtNoSleeves,
+		Tooltip = Tooltip_Size2XL,		
     }
     item Fat02_Vest_TankTop
     {
         DisplayCategory = Clothing,
         Type = Clothing,
-        DisplayName = Tank Top (XXL),			
+        DisplayName = Tank Top,			
         ClothingItem = Fat02_Vest_HighViz,
 		
         BodyLocation = TorsoExtra,
         IconsForTexture = ConstructionVest;Huntingvest_Orange;Huntingvest_Grey;Huntingvest_Camo;Huntingvest_Orange;Huntingvest_Grey;Huntingvest_Camo;SweaterVestWhite;SweaterVestArgyle,
         BloodLocation = ShirtNoSleeves,
+		Tooltip = Tooltip_Size2XL,		
     }
 
     item Fat02_Dress_Knees
     {
         DisplayCategory = Clothing,
         Type = Clothing,
-        DisplayName = Knee-length Dress (XXL),
+        DisplayName = Knee-length Dress,
         ClothingItem = Fat02_Dress_Knees,
         ClothingItemExtra = Dress_Knees,
         ClothingItemExtraOption = Tighten,		
@@ -291,12 +307,13 @@ module AuthenticZClothing {
         WindResistance = 0.1,
         FabricType = Cotton,
         WorldStaticModel = Dress_Short_Ground,
+		Tooltip = Tooltip_Size2XL,		
     }
     item Fat02_DressKnees_Straps
     {
         DisplayCategory = Clothing,
         Type = Clothing,
-        DisplayName = Straps Knee-length Dress (XXL),
+        DisplayName = Straps Knee-length Dress,
         ClothingItem = Fat02_DressKnees_Straps,
         ClothingItemExtra = DressKnees_Straps,
         ClothingItemExtraOption = Tighten,		
@@ -307,12 +324,13 @@ module AuthenticZClothing {
         WindResistance = 0.1,
         FabricType = Cotton,
         WorldStaticModel = Dress_Knees_Straps_Ground,
+		Tooltip = Tooltip_Size2XL,		
     }
      item Fat02_Dress_SmallStrapless
      {
          DisplayCategory = Clothing,
          Type = Clothing,
-         DisplayName = Strapless Small Dress (XXL),
+         DisplayName = Strapless Small Dress,
          ClothingItem = Fat02_Dress_SmallStrapless,
          ClothingItemExtra = Dress_SmallStrapless,
          ClothingItemExtraOption = Tighten,			 
@@ -323,12 +341,13 @@ module AuthenticZClothing {
          WindResistance = 0.1,
          FabricType = Cotton,
          WorldStaticModel = Dress_Small_Strapless_Ground,
+		 Tooltip = Tooltip_Size2XL,		 
      }
      item Fat02_Dress_SmallStraps
      {
          DisplayCategory = Clothing,
          Type = Clothing,
-         DisplayName = Straps Small Dress (XXL),
+         DisplayName = Straps Small Dress,
          ClothingItem = Fat02_Dress_SmallStraps,
          ClothingItemExtra = Dress_SmallStraps,
          ClothingItemExtraOption = Tighten,			 
@@ -339,12 +358,13 @@ module AuthenticZClothing {
          WindResistance = 0.1,
          FabricType = Cotton,
          WorldStaticModel = Dress_Small_Straps_Ground,
+		 Tooltip = Tooltip_Size2XL,		 
      }
     item Fat02_Dress_SatinNegligee
     {
         DisplayCategory = Clothing,
         Type = Clothing,
-        DisplayName = Satin Negligee (XXL),
+        DisplayName = Satin Negligee,
         ClothingItem = Fat02_Dress_SatinNegligee,
         ClothingItemExtra = Dress_SatinNegligee,
         ClothingItemExtraOption = Tighten,		
@@ -355,12 +375,13 @@ module AuthenticZClothing {
         WindResistance = 0.1,
         FabricType = Cotton,
         WorldStaticModel = Dress_Small_Straps_Ground,
+		Tooltip = Tooltip_Size2XL,		
     }
     item Fat02_Dress_Long
     {
         DisplayCategory = Clothing,
         Type = Clothing,
-        DisplayName = Long Dress (XXL),
+        DisplayName = Long Dress,
         ClothingItem = Fat02_Dress_Long,
         ClothingItemExtra = Dress_Long,
         ClothingItemExtraOption = Tighten,		
@@ -372,12 +393,13 @@ module AuthenticZClothing {
         WindResistance = 0.2,
         FabricType = Cotton,
         WorldStaticModel = Dress_Long_Ground,
+		Tooltip = Tooltip_Size2XL,		
     }
     item Fat02_Dress_long_Straps
     {
         DisplayCategory = Clothing,
         Type = Clothing,
-        DisplayName = Long Dress (XXL),
+        DisplayName = Long Dress,
         ClothingItem = Fat02_Dress_long_Straps,
         ClothingItemExtra = Dress_long_Straps,
         ClothingItemExtraOption = Tighten,		
@@ -389,12 +411,13 @@ module AuthenticZClothing {
         WindResistance = 0.2,
         FabricType = Cotton,
         WorldStaticModel = Dress_Straps_Ground,
+		Tooltip = Tooltip_Size2XL,		
     }
     item Fat02_Dress_Normal
     {
         DisplayCategory = Clothing,
         Type = Clothing,
-        DisplayName = Dress (XXL),
+        DisplayName = Dress,
         ClothingItem = Fat02_Dress_Normal,
         ClothingItemExtra = Dress_Normal,
         ClothingItemExtraOption = Tighten,			
@@ -406,12 +429,13 @@ module AuthenticZClothing {
         WindResistance = 0.15,
         FabricType = Cotton,
         WorldStaticModel = Dress_Mid_Ground,
+		Tooltip = Tooltip_Size2XL,		
     }
     item Fat02_Dress_Straps
     {
         DisplayCategory = Clothing,
         Type = Clothing,
-        DisplayName = Straps Dress (XXL),
+        DisplayName = Straps Dress,
         ClothingItem = Fat02_Dress_Straps,
         ClothingItemExtra = Dress_Straps,
         ClothingItemExtraOption = Tighten,		
@@ -423,12 +447,13 @@ module AuthenticZClothing {
         WindResistance = 0.15,
         FabricType = Cotton,
         WorldStaticModel = Dress_Straps_Ground,
+		Tooltip = Tooltip_Size2XL,		
     }
     item Fat02_Dress_Short
     {
         DisplayCategory = Clothing,
         Type = Clothing,
-        DisplayName = Short Dress (XXL),
+        DisplayName = Short Dress,
         ClothingItem = Fat02_Dress_Short,
         ClothingItemExtra = Dress_Short,
         ClothingItemExtraOption = Tighten,		
@@ -439,12 +464,13 @@ module AuthenticZClothing {
         WindResistance = 0.05,
         FabricType = Cotton,
         WorldStaticModel = Dress_Short_Ground,
+		Tooltip = Tooltip_Size2XL,		
     }
     item Fat02_Skirt_Knees
     {
         DisplayCategory = Clothing,
         Type = Clothing,
-        DisplayName = Knee-length Skirt (XXL),
+        DisplayName = Knee-length Skirt,
         ClothingItem = Fat02_Skirt_Knees,
         BodyLocation = Skirt,
         Icon = SkirtGeneric,
@@ -453,12 +479,13 @@ module AuthenticZClothing {
         WindResistance = 0.01,
         FabricType = Cotton,
         WorldStaticModel = Skirt_Short_Ground,
+		Tooltip = Tooltip_Size2XL,		
     }
     item Fat02_Skirt_Long
     {
         DisplayCategory = Clothing,
         Type = Clothing,
-        DisplayName = Long Skirt (XXL),
+        DisplayName = Long Skirt,
         ClothingItem = Fat02_Skirt_Long,
         BodyLocation = Skirt,
         Icon = SkirtLongWhite,
@@ -468,12 +495,13 @@ module AuthenticZClothing {
         WindResistance = 0.2,
         FabricType = Cotton,
         WorldStaticModel = Skirt_Long_Ground,
+		Tooltip = Tooltip_Size2XL,		
     }	
     item Fat02_Skirt_Normal
     {
         DisplayCategory = Clothing,
         Type = Clothing,
-        DisplayName = Skirt (XXL),
+        DisplayName = Skirt,
         ClothingItem = Fat02_Skirt_Normal,
         BodyLocation = Skirt,
         Icon = SkirtGeneric,
@@ -483,12 +511,13 @@ module AuthenticZClothing {
         WindResistance = 0.1,
         FabricType = Cotton,
         WorldStaticModel = Skirt_Mid_Ground,
+		Tooltip = Tooltip_Size2XL,		
     }
     item Fat02_Skirt_Short
     {
         DisplayCategory = Clothing,
         Type = Clothing,
-        DisplayName = Short Skirt (XXL),
+        DisplayName = Short Skirt,
         ClothingItem = Fat02_Skirt_Short,
         BodyLocation = Skirt,
         Icon = SkirtGeneric,
@@ -496,5 +525,6 @@ module AuthenticZClothing {
         Insulation = 0.05,
         FabricType = Cotton,
         WorldStaticModel = Skirt_Short_Ground,
+		Tooltip = Tooltip_Size2XL,		
     }	
 }

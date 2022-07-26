@@ -545,6 +545,7 @@ module AuthenticZClothing {
 		BloodLocation = Shoes;LowerLegs,
        	Insulation = 0.55,
         WindResistance = 0.65,
+        FabricType = Cotton,		
         Weight = 0.1,
         WorldStaticModel = Socks_Long_Ground,		
 	}		
@@ -559,6 +560,7 @@ module AuthenticZClothing {
 		BloodLocation = Shoes;LowerLegs;Trousers,
        	Insulation = 0.55,
         WindResistance = 0.65,
+        FabricType = Cotton,		
         Weight = 0.1,
         WorldStaticModel = Socks_Long_Ground,			
 	}
@@ -573,10 +575,11 @@ module AuthenticZClothing {
 		BloodLocation = Shoes;LowerLegs;Trousers,
        	Insulation = 0.55,
         WindResistance = 0.65,
+        FabricType = Cotton,		
         Weight = 0.1,
         WorldStaticModel = Socks_Long_Ground,		
 	}	
-		item Socks_Long_NurseThigh
+	item Socks_Long_NurseThigh
 	{
        DisplayCategory = Clothing,		
 		Type = Clothing,
@@ -587,6 +590,7 @@ module AuthenticZClothing {
 		BloodLocation = Shoes;LowerLegs;Trousers,
        	Insulation = 0.55,
         WindResistance = 0.65,
+        FabricType = Cotton,		
         Weight = 0.1,
         WorldStaticModel = Socks_Long_Ground,			
 	}
@@ -601,6 +605,7 @@ module AuthenticZClothing {
 		BloodLocation = Shoes;LowerLegs,
        	Insulation = 0.55,
         WindResistance = 0.65,
+        FabricType = Cotton,		
         Weight = 0.1,
         WorldStaticModel = Socks_Long_Ground,		
 	}
@@ -615,6 +620,7 @@ module AuthenticZClothing {
 		BloodLocation = Shoes;LowerLegs,
        	Insulation = 0.55,
         WindResistance = 0.65,
+        FabricType = Cotton,		
         Weight = 0.1,
         WorldStaticModel = Socks_Long_Ground,		
 	}
@@ -629,6 +635,7 @@ module AuthenticZClothing {
 		BloodLocation = Shoes;LowerLegs,
        	Insulation = 0.55,
         WindResistance = 0.65,
+        FabricType = Cotton,		
         Weight = 0.1,
         WorldStaticModel = Socks_Long_Ground,		
 	}	
@@ -643,6 +650,7 @@ module AuthenticZClothing {
 		BloodLocation = Shoes;LowerLegs,
        	Insulation = 0.55,
         WindResistance = 0.65,
+        FabricType = Cotton,		
         Weight = 0.1,
         WorldStaticModel = Socks_Long_Ground,		
 	}
@@ -657,6 +665,7 @@ module AuthenticZClothing {
 		BloodLocation = Shoes;LowerLegs,
        	Insulation = 0.55,
         WindResistance = 0.65,
+        FabricType = Cotton,		
         Weight = 0.1,
         WorldStaticModel = Socks_Long_Ground,		
 	}
@@ -671,6 +680,7 @@ module AuthenticZClothing {
 		BloodLocation = Shoes;LowerLegs,
        	Insulation = 0.55,
         WindResistance = 0.65,
+        FabricType = Cotton,		
         Weight = 0.1,
         WorldStaticModel = Socks_Long_Ground,		
 	}
@@ -685,6 +695,7 @@ module AuthenticZClothing {
 		BloodLocation = Shoes;LowerLegs;Trousers,
        	Insulation = 0.55,
         WindResistance = 0.65,
+        FabricType = Cotton,		
         Weight = 0.1,
         WorldStaticModel = Socks_Long_Ground,			
 	}
