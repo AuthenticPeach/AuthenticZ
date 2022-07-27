@@ -397,7 +397,20 @@ module AuthenticZClothing {
 		Weight = 0.1,
 		Cosmetic = TRUE,
 		ChanceToFall = 50,
-	}		
+	}
+	item Glasses_Cheese
+	{
+       DisplayCategory = Accessory,		
+		Type = Clothing,
+		DisplayName = Screen Glasses,
+		ClothingItem = Glasses_Cheese,
+		BodyLocation = Eyes,
+		Icon = GlassesBlack,
+		Weight = 0.1,
+		Cosmetic = TRUE,
+		ChanceToFall = 50,
+		WorldStaticModel = WorldItem_GlassesCheese,		
+	}	
 	item Glasses_ReadingBlack
 	{
        DisplayCategory = Accessory,		

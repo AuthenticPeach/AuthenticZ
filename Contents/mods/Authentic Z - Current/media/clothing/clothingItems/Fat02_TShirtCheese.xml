@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\CustomBodies\FatBody02_M\FatBod_M_02_TShirt</m_MaleModel>
+	<m_FemaleModel>skinned\CustomBodies\FatBody02_F\FatBod_F_02_Tshirt</m_FemaleModel>
+	<m_GUID>ee3250f2-d790-48f8-86de-a134515c5899</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_Masks>12</m_Masks>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>clothes\Shirt_Tshirt_Textures\TShirt_Burger</textureChoices>	
+</clothingItem>

@@ -213,6 +213,22 @@ module AuthenticZClothing {
         WorldStaticModel = Trousers_Ground,	
 		Tooltip = Tooltip_Size2XL,		
     }
+    item Fat02_Boxers
+    {
+       DisplayCategory = Clothing,		
+        Type = Clothing,
+        DisplayName = Boxers,
+        ClothingItem = Fat02_Boxers,
+		
+        BodyLocation = Pants,
+        Icon = ShortsWhite,
+        BloodLocation = Trousers,
+        Insulation = 0.15,
+        WindResistance = 0.05,
+        FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,	
+		Tooltip = Tooltip_Size2XL,		
+    }	
     item Fat02_ShellPants
     {
         DisplayCategory = Clothing,
@@ -266,7 +282,22 @@ module AuthenticZClothing {
         FabricType = Cotton,
 		WorldStaticModel = TShirt_Ground,
 		Tooltip = Tooltip_Size2XL,		
-    }	
+    }
+    item Fat02_TShirtCheese
+    {
+        DisplayCategory = Clothing,		
+        Type = Clothing,
+        DisplayName = T-Shirt,
+        ClothingItem = Fat02_TShirtCheese,
+		
+        BodyLocation = Jacket,
+        Icon = TShirt_RoyaleCheese,
+        Insulation = 0.3,
+        WindResistance = 0.35,
+        FabricType = Cotton,
+		WorldStaticModel = TShirt_Ground,
+		Tooltip = Tooltip_Size2XL,		
+    }		
     item Fat02_Vest_HighViz
     {
         DisplayCategory = Clothing,

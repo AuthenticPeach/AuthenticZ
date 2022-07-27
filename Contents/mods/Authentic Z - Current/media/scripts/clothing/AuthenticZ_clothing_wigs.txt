@@ -273,7 +273,7 @@ module AuthenticZClothing {
         Icon = Wig,
     }	
 
-    item AZ_HairStyle30
+    item AZ_HairStyle31
     {
        DisplayCategory = Accessory,		
 		Type = Clothing,
@@ -282,6 +282,16 @@ module AuthenticZClothing {
 		BodyLocation = Necklace,
         Icon = Wig,		
     }
+	
+    item AZ_HairStyle32
+    {
+       DisplayCategory = Accessory,		
+		Type = Clothing,
+        DisplayName = Royale Wig,		
+		ClothingItem = AZ_HairStyle32,
+		BodyLocation = Hat,
+        Icon = Wig,		
+    }	
 	
     item Hairstyle_Pennywise
     {
@@ -351,7 +361,7 @@ module AuthenticZClothing {
     {
         DisplayCategory = Clothing,
         Type = Clothing,
-/*        DisplayName = Moustache,		*/		
+/*       DisplayName = Moustache,		 */		
         ClothingItem = AZ_BeardStyle07,
         BodyLocation = Necklace_Long,
         Icon = Wig,
@@ -374,12 +384,12 @@ module AuthenticZClothing {
         BodyLocation = Necklace_Long,
         Icon = Wig,
     }
-    item AZ_BeardStyle09
+    item AZ_BeardStyle10
     {
         DisplayCategory = Clothing,
         Type = Clothing,
-/*        DisplayName = PointyChin,		*/		
-        ClothingItem = AZ_BeardStyle09,
+        DisplayName = Blart Moustache,			
+        ClothingItem = AZ_BeardStyle10,
         BodyLocation = Necklace_Long,
         Icon = Wig,
     }	

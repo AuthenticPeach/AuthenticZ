@@ -1213,7 +1213,12 @@ module Base
     {
 		mesh = WorldItems/WorldItem_CaptainsHat,
 		texture = clothes\Hats\CaptainsHat,			
-    }	
+    }
+	model WorldItem_GlassesCheese
+	{
+		mesh = WorldItems/WorldItem-GlassesCheese,
+		texture = clothes\Glasses\NormalGlassesCheese,		
+	}	
 	model WorldItem_GroguAZ
 	{
 		mesh = WorldItems/WorldItem_GroguAZ,

@@ -262,6 +262,19 @@ AttachedWeaponDefinitions.constructionWorkerScrewdriver2 = {
 	},
 }
 
+AttachedWeaponDefinitions.Doll = {
+	id = "AZDoll",
+	chance = 100,
+	outfit = {"AuthenticFat02Cheese"},
+	weaponLocation = {"Left Hand", "Right Hand"},
+	bloodLocations = nil,
+	addHoles = false,
+	daySurvived = 0,
+	weapons = {
+    "AuthenticZClothing.Doll",
+	},
+}
+
 AttachedWeaponDefinitions.ElderlyBingo = {
 	chance = 100,
 	outfit = {"AuthenticElderly"},
@@ -1532,6 +1545,13 @@ AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticDRBradGarrison = {
 	maxitem = 2;
 	weapons = {
 		AttachedWeaponDefinitions.AuthenticDianneCaldwell,
+	},
+}
+AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticFat02Cheese = {
+	chance = 12;
+	maxitem = 2;
+	weapons = {
+		AttachedWeaponDefinitions.Doll,
 	},
 }
 AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticFuneralFormal = {

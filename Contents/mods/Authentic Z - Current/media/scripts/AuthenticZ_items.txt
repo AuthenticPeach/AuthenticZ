@@ -1009,24 +1009,24 @@ module AuthenticZClothing {
     }
 	item CigarAZ2
 	{
-		DisplayCategory 		= Household,	
-		Type					= Food,	
-		DisplayName 			= Cigar,
-		Icon					= CigarAZ,
-        Weight 					= 0.1,		
-		Count					= 1,
-		HungerChange			= 0,
-		StressChange			= -10,
-		BoredomChange			= -10,		
+		DisplayCategory 		 = Household,	
+		Type					 = Food,	
+		DisplayName 			 = Cigar,
+		Icon					 = CigarAZ,
+        Weight 					 = 0.1,		
+		Count					 = 1,
+		HungerChange			 = 0,
+		StressChange			 = -10,
+		BoredomChange			 = -10,		
 		RequireInHandOrInventory =	Lighter/Matches,
-		CustomContextMenu 		= Smoke,
-		CantBeFrozen 	 		= TRUE,
-		OnEat 			 		= OnEat_CigarAZ,
-		EatType 		 		= Cigarettes,
-		ReplaceOnUse			= CigarAZHalf,			
-		CustomEatSound 			= ,	
-		StaticModel 			= CigarAZ,			
-		WorldStaticModel 		= WorldItem_CigarAZ,
+		CustomContextMenu 		 = Smoke,
+		CantBeFrozen 	 		 = TRUE,
+		OnEat 			 		 = OnEat_CigarAZ,
+		EatType 		 		 = Cigarettes,
+		ReplaceOnUse			 = CigarAZHalf,			
+		CustomEatSound 			 = ,	
+		StaticModel 			 = CigarAZ,			
+		WorldStaticModel 		 = WorldItem_CigarAZ,
     } 	
 	item AuthenticCigaretteHolder
 	{
@@ -1039,23 +1039,23 @@ module AuthenticZClothing {
 	}	
 	item AuthenticCigaretteHolder_Cig
 	{
-		DisplayCategory 	= 	Household,
-		Type				=	Food,	
-		DisplayName			=	Cigarette Holder with Cigarette,
-		Icon				=	CigaretteHolder,
-		Weight				=	0.2,		
-		Count				=	1,
-		HungerChange		=	0,
-		StressChange		=	-10,		
+		DisplayCategory 			= 	Household,
+		Type						=	Food,	
+		DisplayName					=	Cigarette Holder with Cigarette,
+		Icon						=	CigaretteHolder,
+		Weight						=	0.2,		
+		Count						=	1,
+		HungerChange				=	0,
+		StressChange				=	-10,		
 		RequireInHandOrInventory	=	Lighter/Matches,
-		CustomContextMenu 	= 	Smoke,
-		CantBeFrozen 	 	= 	TRUE,
-		OnEat 			 	= 	OnEat_CigaretteHolder,
-		EatType 		 	= 	Cigarettes,
-		ReplaceOnUse		= 	AuthenticCigaretteHolder,		
-		CustomEatSound 		= 	,
-		StaticModel 	 	=	AuthenticCigaretteHolder,		
-		WorldStaticModel 	= 	WorldItem-CigaretteHolder,		
+		CustomContextMenu 			= 	Smoke,
+		CantBeFrozen 	 			= 	TRUE,
+		OnEat 			 			= 	OnEat_CigaretteHolder,
+		EatType 		 			= 	Cigarettes,
+		ReplaceOnUse				= 	AuthenticCigaretteHolder,		
+		CustomEatSound 				= 	,
+		StaticModel 	 			=	AuthenticCigaretteHolder,		
+		WorldStaticModel 			= 	WorldItem-CigaretteHolder,		
 	}	
 
 	item Authentic_MilitaryFlashlightGrey
@@ -1311,8 +1311,8 @@ module AuthenticZClothing {
     item Authentic_WalkieTalkie
     {
 	    DisplayCategory = Material,		
-        Weight	=	2.5,
         Type	=	Normal,
+        Weight	=	2.5,
         Icon	=	WalkieTalkiePolice,
         OBSOLETE = TRUE,		
     }
