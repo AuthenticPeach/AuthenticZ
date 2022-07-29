@@ -308,7 +308,18 @@ AttachedWeaponDefinitions.ElderlyCane = {
     "AuthenticZClothing.AuthenticWalkingCaneJP",
 	},
 }
-
+--Spatula in hands
+AttachedWeaponDefinitions.FishingRod = {
+	chance = 100,
+	outfit = {"AuthenticFat01Fisherman"},
+	weaponLocation =  {"Big Weapon On Back"},
+	bloodLocations = nil,
+	addHoles = false,
+	daySurvived = 0,
+	weapons = {
+		"Base.FishingRod",
+	},
+} 
 AttachedWeaponDefinitions.FeatherDuster = {
 	id = "AZFeatherDuster",
 	chance = 100,
@@ -917,6 +928,18 @@ AttachedWeaponDefinitions.axeRochelle = {
 	daySurvived = 0,
 	weapons = {
 		"Base.Axe",
+	},
+}
+--Spatula in hands
+AttachedWeaponDefinitions.Spatula = {
+	chance = 100,
+	outfit = {"AuthenticFat02Cook"},
+	weaponLocation = {"Right Hand", "Left Hand"},
+	bloodLocations = nil,
+	addHoles = false,
+	daySurvived = 0,
+	weapons = {
+		"Base.Spatula",
 	},
 }
 -- shotgun on police's back
@@ -1554,6 +1577,13 @@ AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticFat02Cheese = {
 		AttachedWeaponDefinitions.Doll,
 	},
 }
+AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticFat01Fisherman = {
+	chance = 10;
+	maxitem = 2;	
+	weapons = {
+		AttachedWeaponDefinitions.FishingRod, 
+	},
+}
 AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticFuneralFormal = {
 	chance = 12;
 	maxitem = 2;
@@ -1574,6 +1604,13 @@ AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticElderly = {
 	weapons = {
 		AttachedWeaponDefinitions.ElderlyCane,
 		AttachedWeaponDefinitions.ElderlyBingo,
+	},
+}
+AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticFat02Cook = {
+	chance = 100;
+	maxitem = 2;	
+	weapons = {
+		AttachedWeaponDefinitions.Spatula,
 	},
 }
 AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticSnowGhillie = {

@@ -9,6 +9,6 @@
 	<m_AttachBone></m_AttachBone>
 	<m_Masks>3</m_Masks>
 	<m_Masks>5</m_Masks>
-	<m_UnderlayMasksFolder>media/textures/Clothes/Jacket/Masks</m_UnderlayMasksFolder>
+	<m_UnderlayMasksFolder>media/textures/Clothes/OpenJacket/Masks</m_UnderlayMasksFolder>
 	<textureChoices>clothes\Hoodie\HoodieDOWN-CropTopWhite</textureChoices>
 </clothingItem>

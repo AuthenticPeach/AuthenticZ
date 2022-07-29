@@ -656,6 +656,12 @@ module Base
 		mesh = SleepingbagRoll,
 		texture = clothes\Items\SleepingbagLightBlue,
 	}
+	model Spatula_AZ
+	{
+		mesh = WorldItems/Spatula,
+		texture = WorldItems/Spatula_CarvingFork,
+        scale = 0.4,
+	}	
 	model SpiffoBackpack
     {
         mesh = WorldItems/WorldItem_SpiffoBackpack,

@@ -906,6 +906,18 @@ AttachedWeaponDefinitions.axeRochelle = {
 		"Base.Axe",
 	},
 }
+--Spatula in hands
+AttachedWeaponDefinitions.Spatula = {
+	chance = 100,
+	outfit = {"AuthenticFat02Cook"},
+	weaponLocation = {"Right Hand", "Left Hand"},
+	bloodLocations = nil,
+	addHoles = false,
+	daySurvived = 0,
+	weapons = {
+		"Base.Spatula",
+	},
+}
 -- shotgun on police's back
 AttachedWeaponDefinitions.shotgunMadMax = {
 	id = "shotgunMadMax",

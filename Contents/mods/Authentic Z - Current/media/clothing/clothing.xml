@@ -5523,7 +5523,7 @@
 		</m_items>				
 
 		<m_items> <!-- Fat02_Coveralls -->
-			<itemGUID>f101bb2c-32d6-4789-935a-bcea540c84ed</itemGUID>	
+			<itemGUID>8600d2b6-2b95-46a4-b5d4-2fd6e2d30506</itemGUID>	
 		</m_items>
 		<m_items> <!-- Fat02_TShirt -->
 			<itemGUID>795826d5-2ef1-4784-bfb6-e63acee2408b</itemGUID>	
@@ -5764,17 +5764,20 @@
 		<m_Guid>367c346a-0e40-4112-a341-acfc82f9b634</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
-		<m_items> <!-- Fat Skin 03 Obese Bod -->
-			<itemGUID>621e545c-35f4-45c2-953d-6df1564e8f67</itemGUID>
+		<m_items> <!-- Fat Skin 03 Obese Bod White skin -->
+			<itemGUID>7699fbb0-8c4d-4b17-8d91-199ef9536ecd</itemGUID>
 		</m_items>
 		<m_items> <!-- Blart Moustache -->
 			<itemGUID>bd2b1a07-528e-4333-9e6c-782e60692d16</itemGUID>		
 		</m_items>
-		<m_items> <!-- AZ_HairStyle17 - Short -->
-			<itemGUID>ee1baa2e-6430-4d31-b456-1e605fc0c16d</itemGUID>
-		</m_items>					
-		<m_items> <!-- Fat03_ShellPants -->		
-			<itemGUID>6b6e36ad-f838-4540-99d2-38dcdbcee8b8</itemGUID>				
+		<m_items> <!-- Blart Hairstyle -->
+			<itemGUID>8e4e0589-03f6-4265-b343-2a63aa208ab1</itemGUID>		
+		</m_items>		
+		<m_items> <!-- Fat03_Securtiy Shirt -->		
+			<itemGUID>542a58ac-91f5-4544-a6a6-ae3da6bc9f1f</itemGUID>				
+		</m_items>			
+		<m_items> <!-- Fat03_Suit Pants -->		
+			<itemGUID>e4d70d82-9fd4-4fdd-bea4-02da60ea70e2</itemGUID>				
 		</m_items>							
 		<m_items> <!-- Shoes -->
 			<itemGUID>dca66f80-0385-431f-b9d5-43646027f8e8</itemGUID>	
@@ -6447,97 +6450,7 @@
 				<itemGUID>055dfb9b-7309-4925-b7e1-700058a57497</itemGUID>
 			</subItems>			
 		</m_items>
-		<m_items> <!-- HairStyles -->
-			<probability>0.9</probability>
-			<itemGUID>3aea2b47-6126-4cde-92b1-a4880dfcff23</itemGUID>
-			<subItems>
-				<itemGUID>bf78358f-c861-4794-8a07-2d4878f01bbb</itemGUID>
-			</subItems>
-			<subItems>
-				<itemGUID>553f5a51-c446-4662-8fb7-221da223866e</itemGUID>
-			</subItems>
-			<subItems>
-				<itemGUID>dfb7fbd9-489e-4ff8-a878-068ffeb78b03</itemGUID>
-			</subItems>
-			<subItems>
-				<itemGUID>2697c755-ea70-478a-8d70-f131a078f7ce</itemGUID>
-			</subItems>
-			<subItems>
-				<itemGUID>98d0e8f1-0601-46b3-a1a6-35d25bf92c6b</itemGUID>
-			</subItems>
-			<subItems>
-				<itemGUID>1c8f82e5-7108-4dcc-af6c-33ec1a084f17</itemGUID>
-			</subItems>
-			<subItems>
-				<itemGUID>66076bf7-af9d-4b68-a8af-db9980eef68e</itemGUID>
-			</subItems>
-			<subItems>
-				<itemGUID>170f9e97-5a14-4111-9fc0-c1c932000c68</itemGUID>
-			</subItems>
-			<subItems>
-				<itemGUID>e194a8ea-598e-4ba9-a447-c893d7832e30</itemGUID>
-			</subItems>
-			<subItems>
-				<itemGUID>16286b92-c22a-4eaf-85c3-7b44d259bc5d</itemGUID>
-			</subItems>
-			<subItems>
-				<itemGUID>5f1d6d0f-3130-40f9-b887-73dcbd601d86</itemGUID>
-			</subItems>
-			<subItems>
-				<itemGUID>1b01c908-05a3-4b96-9aff-09705526190c</itemGUID>
-			</subItems>
-			<subItems>
-				<itemGUID>ae103afd-c48d-4b8b-bd2a-cb0e50421469</itemGUID>
-			</subItems>
-			<subItems>
-				<itemGUID>6a88f30a-35bf-45d9-a2da-bf9b44b75aa6</itemGUID>
-			</subItems>
-			<subItems>
-				<itemGUID>ab8032ce-3bf6-4107-9c9d-aeaeb141c736</itemGUID>
-			</subItems>
-			<subItems>
-				<itemGUID>ee1baa2e-6430-4d31-b456-1e605fc0c16d</itemGUID>
-			</subItems>
-			<subItems>
-				<itemGUID>20e80298-4f0d-4a56-b8ee-2deed81e64bc</itemGUID>
-			</subItems>
-			<subItems>
-				<itemGUID>79fb660c-90e1-4c0a-9b7d-ae94bb6dffc9</itemGUID>
-			</subItems>
-			<subItems>
-				<itemGUID>7a014eb2-683f-405c-8669-392119df3129</itemGUID>
-			</subItems>
-			<subItems>
-				<itemGUID>99af282e-2bf9-4e6e-80c5-38276a51a481</itemGUID>
-			</subItems>
-			<subItems>
-				<itemGUID>819c0ce0-e120-45c1-9231-e1b18487a209</itemGUID>
-			</subItems>
-			<subItems>
-				<itemGUID>2bf0c8ab-c5f2-44c5-bb51-c4a841559d90</itemGUID>
-			</subItems>
-			<subItems>
-				<itemGUID>6dd2be88-68a5-4502-9408-9fbbd5244280</itemGUID>
-			</subItems>
-			<subItems>
-				<itemGUID>96a18356-7e49-44ad-b0e4-61a5bd705561</itemGUID>
-			</subItems>
-			<subItems>
-				<itemGUID>3983ea59-c1ce-4c94-a795-bce2fa2e7568</itemGUID>
-			</subItems>
-			<subItems>
-				<itemGUID>17915d18a-a32d-421d-9d6e-417a8292042c</itemGUID>
-			</subItems>
-			<subItems>
-				<itemGUID>a3ceb8926-a401-464e-91bf-33e8ec9a7ef6</itemGUID>
-			</subItems>
-			<subItems>
-				<itemGUID>5f64bb89-02de-4cce-9b5d-a0f4ec9e48d4</itemGUID>
-			</subItems>
-			<subItems>
-				<itemGUID>20c91354-0612-4913-9f7c-d15d4c2c4ede</itemGUID>
-			</subItems>			
-		</m_items>		
+		
 		<m_items> <!-- Thin01_HoodieUP -->
 			<probability>0.3</probability>			
 				<itemGUID>8f2d61a2-ea8e-4f7e-9fb6-34676c433f4e</itemGUID>
@@ -6549,8 +6462,8 @@
 			<probability>0.05</probability>		
 			<itemGUID>410485f1-a2d9-4936-bc38-2deb0c9d0ec5</itemGUID> 
 		</m_items>
-		<m_items> <!-- Thin01_Coveralls-->
-			<itemGUID>c7c455b6-ece9-4605-ad4e-6be32b40afe2</itemGUID>
+		<m_items> <!-- Thin01_PJs-->
+			<itemGUID>ed8c93d1-7d3a-4a8d-a6d5-3dcbd8333420</itemGUID>
 		</m_items>		
 		<m_items> <!-- Glasses_Normal -->
 			<probability>0.08</probability>		
@@ -6751,6 +6664,175 @@
 			<itemGUID>5bcf23b7-a0da-45c6-970a-b33d3c8d0a87</itemGUID>		
 		</m_items>		
 	</m_MaleOutfits> 
+
+ <m_MaleOutfits> <m_Name>AuthenticThin01School</m_Name>
+		<m_Guid>b3f00946-2d61-4547-b8d8-3acc0873e6c7</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_items> <!-- Skinny/Thin Bod -->
+			<itemGUID>fc765340-a1bb-4417-9f71-05bf64b54bba</itemGUID>
+		</m_items>
+		<m_items> <!-- HairStyles -->
+			<itemGUID>3aea2b47-6126-4cde-92b1-a4880dfcff23</itemGUID>
+			<subItems>
+				<itemGUID>bf78358f-c861-4794-8a07-2d4878f01bbb</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>553f5a51-c446-4662-8fb7-221da223866e</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>dfb7fbd9-489e-4ff8-a878-068ffeb78b03</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>2697c755-ea70-478a-8d70-f131a078f7ce</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>98d0e8f1-0601-46b3-a1a6-35d25bf92c6b</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>1c8f82e5-7108-4dcc-af6c-33ec1a084f17</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>66076bf7-af9d-4b68-a8af-db9980eef68e</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>170f9e97-5a14-4111-9fc0-c1c932000c68</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>e194a8ea-598e-4ba9-a447-c893d7832e30</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>16286b92-c22a-4eaf-85c3-7b44d259bc5d</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>5f1d6d0f-3130-40f9-b887-73dcbd601d86</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>1b01c908-05a3-4b96-9aff-09705526190c</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>ae103afd-c48d-4b8b-bd2a-cb0e50421469</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>6a88f30a-35bf-45d9-a2da-bf9b44b75aa6</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>ab8032ce-3bf6-4107-9c9d-aeaeb141c736</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>ee1baa2e-6430-4d31-b456-1e605fc0c16d</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>20e80298-4f0d-4a56-b8ee-2deed81e64bc</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>79fb660c-90e1-4c0a-9b7d-ae94bb6dffc9</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>7a014eb2-683f-405c-8669-392119df3129</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>99af282e-2bf9-4e6e-80c5-38276a51a481</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>819c0ce0-e120-45c1-9231-e1b18487a209</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>96a18356-7e49-44ad-b0e4-61a5bd705561</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>3983ea59-c1ce-4c94-a795-bce2fa2e7568</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>17915d18a-a32d-421d-9d6e-417a8292042c</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>a3ceb8926-a401-464e-91bf-33e8ec9a7ef6</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>5f64bb89-02de-4cce-9b5d-a0f4ec9e48d4</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>20c91354-0612-4913-9f7c-d15d4c2c4ede</itemGUID>
+			</subItems>			
+		</m_items>								
+		<m_items> <!-- Cigarette -->
+			<probability>0.05</probability>		
+			<itemGUID>410485f1-a2d9-4936-bc38-2deb0c9d0ec5</itemGUID> 
+		</m_items>
+		<m_items> <!-- Thin01_JacketVarsity -->	
+				<itemGUID>0196faaf-0b60-4a00-931d-c55d7138b3bb</itemGUID>
+			<subItems> <!-- Thin01_TShirt -->
+				<itemGUID>e58aab8c-02a9-44a7-a801-648c90ee65e1</itemGUID>
+			</subItems>				
+		</m_items>
+		<m_items>  <!-- Golf Cap / Baseball Cap / BucketHat -->
+			<probability>0.4</probability>
+			<itemGUID>a28f9c54-8481-4399-8d5b-77ac69491846</itemGUID>
+			<subItems> <!-- Hat_BaseballCap -->
+				<itemGUID>7b339ad5-da2e-42a5-8a51-ee87239a943c</itemGUID>
+			</subItems>
+			<subItems> <!-- Hat_BaseballCap_Reverse -->
+				<itemGUID>d90d4976-d993-4fae-ad78-f5a4fcf05366</itemGUID>
+			</subItems>			
+			<subItems> <!-- Hat_BaseballCapArmy -->
+				<itemGUID>7dead2df-7a17-4c12-a487-40f613d26c69</itemGUID>
+			</subItems>
+			<subItems> <!-- Hat_BaseballCapArmy_Reverse -->
+				<itemGUID>e80e7c12-87c9-4f18-9ab0-c0270c580252</itemGUID>
+			</subItems>	
+			<subItems> <!-- Hat_BaseballCapBlue -->
+				<itemGUID>3db63ccb-9014-45c2-bb9c-287ca24e335b</itemGUID>
+			</subItems>
+			<subItems> <!-- Hat_BaseballCapBlue_Reverse -->
+				<itemGUID>17b078c1-dc3e-4b8f-a3e1-191c9d4efaa8</itemGUID>
+			</subItems>	
+			<subItems> <!-- Hat_BaseballCapGreen -->
+				<itemGUID>fce4e0fd-047d-483a-ad43-873e4440c3aa</itemGUID>
+			</subItems>
+			<subItems> <!-- Hat_BaseballCapGreen_Reverse -->
+				<itemGUID>f1766ddb-1fdc-4a4c-b26b-5a5aacb209a2</itemGUID>
+			</subItems>	
+			<subItems> <!-- Hat_BaseballCapKY -->
+				<itemGUID>b78f9552-1d93-46b7-a42c-6f554ce43e29</itemGUID>
+			</subItems>
+			<subItems> <!-- Hat_BaseballCapKY_Reverse -->
+				<itemGUID>7f5d4c0c-d536-4279-9495-68216def74c2</itemGUID>
+			</subItems>			
+			<subItems> <!-- Hat_BaseballCapKY_Red -->
+				<itemGUID>ee133478-bfc7-4517-af9b-c9da2148d9fd</itemGUID>
+			</subItems>				
+			<subItems>   <!-- Hat_BucketHat -->
+				<itemGUID>a2e8922f-f703-4d0f-9c3e-d72bc373054e</itemGUID>
+			</subItems>
+			<subItems> <!-- Fat01_HoodieUP -->
+				<itemGUID>d8a600ea-6485-405b-8c9f-d7a20b9242b1</itemGUID>
+			</subItems>			
+		</m_items>		
+		<m_items> <!-- Glasses_Normal -->
+			<probability>0.08</probability>		
+			<itemGUID>6d702d88-4ca0-4bcb-9aee-d88f2be29e69</itemGUID>
+			<subItems> <!-- Glasses Reading -->
+				<itemGUID>9df22d1f-96cd-4d2c-88f2-4e7423d93649</itemGUID>
+			</subItems>				
+			<subItems> <!-- Glasses -->
+				<itemGUID>6d702d88-4ca0-4bcb-9aee-d88f2be29e69</itemGUID>
+			</subItems>			
+		</m_items>		
+		<m_items> <!-- Thin01_Shoes -->
+			<itemGUID>5bcf23b7-a0da-45c6-970a-b33d3c8d0a87</itemGUID>		
+		</m_items>
+		<m_items> <!-- Satchel -->
+			<probability>0.08</probability>			
+			<itemGUID>304a67a8-ddad-40c3-b3e9-3e3e4078fd9f</itemGUID>		
+		</m_items>		
+		<m_items> <!-- Thin01_SportShorts -->	
+				<itemGUID>d751cdde-82ac-42c5-b792-1f6017adcdca</itemGUID>
+			<subItems> <!-- Thin01_ShellPants -->
+				<itemGUID>66a11eca-2a3a-4dba-8f9f-4a77140c1af4</itemGUID>
+			</subItems>					
+		</m_items>			
+</m_MaleOutfits> 
  
  <!-- End of Skinny Zombies -->
 <m_MaleOutfits> <m_Name>AuthenticFootballPlayerBlueStar</m_Name>
@@ -8837,6 +8919,27 @@
 		</m_items>
 	</m_MaleOutfits>	
 
+<m_FemaleOutfits> <m_Name>AuthenticKate</m_Name>
+		<m_Guid>86c043d4-b066-474e-b1fd-802d4d18e962</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_items> <!-- Crutch Left -->
+			<itemGUID>56faf53b-48ac-42aa-ba82-38121716a565</itemGUID>
+		</m_items>		
+		<m_items> <!-- Shoes_Black -->
+			<itemGUID>593bea3d-c127-4574-ac1e-2197dc56e486</itemGUID>
+		</m_items>
+		<m_items> <!-- Skirt_Knees -->
+			<itemGUID>560a4435-e634-4e40-85e9-6104ece6b056</itemGUID>
+		</m_items>
+		<m_items> <!-- Tshirt_DefaultTEXTURE -->
+			<itemGUID>e4ec9087-006d-41dc-81f4-585b6d2e958c</itemGUID>
+		</m_items>
+		<m_items> <!-- White Zed Skin Woman -->
+			<itemGUID>86579281-fd36-4c3b-862e-1936c9769001</itemGUID>
+		</m_items>		
+	</m_FemaleOutfits>
+
 <m_MaleOutfits> <m_Name>AuthenticKilla</m_Name>
 		<m_Guid>c3dab516-ec45-46e0-b27d-dd77ae419415</m_Guid>
 		<m_Top>false</m_Top>
@@ -9558,7 +9661,11 @@
 		<m_Guid>f416f265-24d4-4ab2-be2d-2108f33c14ef</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
-		<m_AllowTopTint>false</m_AllowTopTint>		
+		<m_AllowTopTint>false</m_AllowTopTint>	
+		<m_items><!-- Beanie-->
+			<probability>0.3</probability>		
+			<itemGUID>e29ea6f7-5cff-40e5-9dd0-f80fef8276a7</itemGUID>
+		</m_items>		
 		<m_items> <!-- White Suit Pants -->
 			<itemGUID>2f480fba-3f74-4411-a306-5ee42f536c06</itemGUID>
 		</m_items>
@@ -9577,16 +9684,87 @@
 		<m_items> <!-- White Suit Jacket -->
 			<itemGUID>0a21c59c-3c14-49e5-95bb-65e5fff6dc48</itemGUID>
 		</m_items>	
-		<m_items> <!-- Holster -->
-			<itemGUID>88f11c9e-e717-446c-82ec-f749320df25a</itemGUID>
-		</m_items>	
-		<m_items> <!-- Fancy Watch -->
-			<itemGUID>9b91619f-3c00-47da-a8e2-8765e80d40c3</itemGUID>
+		<m_items> <!-- Rings -->
+			<probability>0.3</probability>
+			<itemGUID>4cbb081e-0e9a-4248-bec1-0aa226e082e1</itemGUID>
 			<subItems>
-				<itemGUID>dbfbe3c4-d96e-4f8a-bf77-25bdbd9863b9</itemGUID>
+				<itemGUID>c6dd113b-3d04-4833-9f38-8e9840741c0c</itemGUID>
 			</subItems>
-		</m_items>			
+			<subItems>
+				<itemGUID>fedba460-2edc-439d-89b6-f9607ddbf246</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>e4b3135f-a541-4870-a7b9-2ba6f730bc5c</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>5b484f12-b43c-4a83-9009-af05a59ec267</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items> <!-- Watches-->
+			<probability>0.3</probability>
+			<itemGUID>5fc22466-2942-4ba1-8c33-2a8528b73021</itemGUID>
+			<subItems>
+				<itemGUID>ce1a8520-7120-432e-8a3a-aa7b3094f0bb</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>c7cc655b-284a-4087-85a6-d7c116385fb0</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>0383956a-3fbd-4001-9749-69e2ba70b134</itemGUID>
+			</subItems>
+		</m_items>		
 </m_MaleOutfits>		
+
+<m_FemaleOutfits> <m_Name>AuthenticNightClub</m_Name>
+		<m_Guid>f416f265-24d4-4ab2-be2d-2108f33c14ef</m_Guid>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_items> <!-- Choker necklace -->
+			<probability>0.2</probability>		
+			<itemGUID>5c4e5d70-62c6-45fd-804c-fbd50d30a5dd</itemGUID>
+		</m_items>		
+		<m_items> <!-- Tank Top -->
+			<probability>0.3</probability>			
+			<itemGUID>a700a956-32c2-49a6-bd5f-5a2895073f19</itemGUID>
+			<subItems> <!-- Striped Bikini -->
+				<itemGUID>39961584-baf9-46c2-ac7e-582be43d7b03</itemGUID>
+			</subItems>
+			<subItems> <!-- Shirt_CropTopNoArmTINT -->
+				<itemGUID>06234961-aab3-4ce4-b5d2-2a7e5af074fb</itemGUID>
+			</subItems>	
+			<subItems> <!-- Shirt_CropTopTINT -->
+				<itemGUID>cceb85fc-8c41-477e-9167-07513bad2dd9</itemGUID>
+			</subItems>				
+		</m_items>
+		<m_items> <!-- CropTop Hoodie -->
+			<itemGUID>fd1643d4-99c0-403c-886a-38201fd97bef</itemGUID>
+			<subItems>
+				<itemGUID>2912bef3-7647-49e6-a70d-d3026f8e95bf</itemGUID>
+			</subItems>			
+		</m_items>		
+		<m_items> <!-- Default Jeans -->
+			<itemGUID>b63133df-07bb-46db-91ca-cc10f2048669</itemGUID>
+			<subItems> <!-- Short Skirt -->
+				<itemGUID>9bb04028-4cb6-477b-b892-000f1dd54622</itemGUID>
+			</subItems>				
+		</m_items>
+		<m_items> <!-- StockingsBlack -->
+			<probability>0.3</probability>			
+			<itemGUID>00ae3ec3-4b6b-484c-9edd-501339307b45</itemGUID>
+			<subItems> <!-- StockingsBlackSemiTrans -->
+				<itemGUID>6ba314a1-43c6-4240-b313-0ba75fb2ca6c</itemGUID>
+			</subItems>
+			<subItems> <!-- StockingsBlackTrans -->
+				<itemGUID>eedee622-9309-4948-891b-a69ecd106936</itemGUID>
+			</subItems>	
+			<subItems> <!-- Socks_Long_StockingsBlack -->
+				<itemGUID>1c08ec23-70aa-4e3d-8848-138af25542c6</itemGUID>
+			</subItems>				
+		</m_items>		
+		<m_items> <!-- Black Boots -->
+			<itemGUID>1820220d-eb85-47e2-b075-8baeef23fdf2</itemGUID>
+		</m_items>		
+	</m_FemaleOutfits>
 
 <m_FemaleOutfits> <m_Name>AuthenticNMRIHBadass</m_Name>
 		<m_Guid>b1aa0754-422c-465f-b1c3-dcb052bb9df9</m_Guid>

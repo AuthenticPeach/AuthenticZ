@@ -36,6 +36,8 @@ TweakItem("Base.ClosedUmbrellaWhite", "AttachmentType", "Umbrella");
 
 TweakItem("Base.SheetRope", "AttachmentType", "SheetRope");
 TweakItem("Base.SheetRope", "StaticModel", "SheetRopeAZ");
+TweakItem("Base.Spatula", "AttachmentType", "Hammer");
+TweakItem("Base.Spatula", "StaticModel", "Spatula_AZ");
 TweakItem("Base.Rope", "AttachmentType", "Rope");
 TweakItem("Base.Rope", "StaticModel", "NewRope");
 TweakItem("Base.Saw", "AttachmentType", "Saw");
@@ -51,18 +53,18 @@ TweakItem("Base.WeldingMask", "StaticModel", "WelderMaskNotWorn");
 
 TweakItem("Base.HandTorch", "AttachmentType", "Flashlight");
 
-TweakItem("Base.Camera", "DisplayCategory", "Clothing");
+--TweakItem("Base.Camera", "DisplayCategory", "Clothing");
 TweakItem("Base.Camera", "Type", "Clothing");
-
-TweakItem("Base.Camera", "BodyLocation", "Necklace");
+--TweakItem("Base.Camera", "ClothingItem", "CameraVanillaRegular");
+--TweakItem("Base.Camera", "BodyLocation", "Necklace");
 TweakItem("Base.CameraDisposable", "DisplayCategory", "Clothing");
 TweakItem("Base.CameraDisposable", "Type", "Clothing");
-
+TweakItem("Base.CameraDisposable", "ClothingItem", "CameraVanillaDisposible.xml");
 TweakItem("Base.CameraDisposable", "BodyLocation", "Necklace");
-TweakItem("Base.CameraExpensive", "DisplayCategory", "Clothing");
+--TweakItem("Base.CameraExpensive", "DisplayCategory", "Clothing");
 TweakItem("Base.CameraExpensive", "Type", "Clothing");
-
-TweakItem("Base.CameraExpensive", "BodyLocation", "Necklace");
+--TweakItem("Base.CameraExpensive", "ClothingItem", "CameraVanillaExpensive");
+--TweakItem("Base.CameraExpensive", "BodyLocation", "Necklace");
 
 TweakItem("Base.Trousers_Santa", "DisplayName", "Red Suit Pants");
 

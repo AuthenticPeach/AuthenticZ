@@ -262,6 +262,23 @@ module AuthenticZClothing {
         WorldStaticModel = Trousers_Shellsuit_Ground,
 		Tooltip = Tooltip_Size3XL,			
     }
+    item Fat03_SuitPants
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Suit Pants,
+        ClothingItem = Fat03_SuitPants,
+		
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = Trousers,
+        ScratchDefense = 5,
+        Insulation = 0.30,
+        WindResistance = 0.4,
+        FabricType = Cotton,		
+        WorldStaticModel = Trousers_Shellsuit_Ground,
+		Tooltip = Tooltip_Size3XL,			
+    }	
 	item Fat03_Shoes
 	{
 	    DisplayCategory = Clothing,
@@ -285,6 +302,21 @@ module AuthenticZClothing {
         WorldStaticModel = Shoes_Ground,
 		Tooltip = Tooltip_Size3XL,			
 	}	
+    item Fat03_TShirtLongBlart
+    {
+        DisplayCategory = Clothing,		
+        Type = Clothing,
+        DisplayName = Security Shirt,
+        ClothingItem = Fat03_TShirtLongBlart,
+		
+        BodyLocation = Jacket,
+        Icon = TshirtGeneric,
+        Insulation = 0.3,
+        WindResistance = 0.35,
+        FabricType = Cotton,
+		WorldStaticModel = TShirt_Ground,	
+		Tooltip = Tooltip_Size3XL,			
+    }	
     item Fat03_TShirt
     {
         DisplayCategory = Clothing,		

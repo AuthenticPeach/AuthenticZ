@@ -21,6 +21,16 @@ AuthenticZ.tab_addMagProcedural_AZCanteen  = function(x,count)
   table.insert(ProceduralDistributions.list[x].items,"AuthenticZClothing.AuthenticCanteenSilver");
   table.insert(ProceduralDistributions.list[x].items, count);   
 end
+--Crutches
+AuthenticZ.tab_addMagProcedural_CrutchAZ  = function(x,count)
+  ProceduralDistributions = ProceduralDistributions or {};
+  ProceduralDistributions.list = ProceduralDistributions.list or {};
+  ProceduralDistributions.list[x] = ProceduralDistributions.list[x] or {};
+  ProceduralDistributions.list[x].junk = ProceduralDistributions.list[x].junk or {};
+  ProceduralDistributions.list[x].junk.items = ProceduralDistributions.list[x].junk.items or {};
+  table.insert(ProceduralDistributions.list[x].junk.items,"AuthenticZClothing.AuthenticCrutch");
+  table.insert(ProceduralDistributions.list[x].junk.items, count);
+end
 --Hair Curlers
 AuthenticZ.tab_addMagProcedural_HairCurlers  = function(x,count)
   ProceduralDistributions = ProceduralDistributions or {};
@@ -315,6 +325,14 @@ AuthenticZ.tab_addMagProcedural_HairCurlers("SalonShelfHaircare",0.5);
 AuthenticZ.tab_addMagProcedural_HairCurlers("SalonCounter",1);
 AuthenticZ.tab_addMagProcedural_HairCurlers("PharmacyCosmetics",2);
 AuthenticZ.tab_addMagProcedural_HairCurlers("CrateSalonSupplies",0.5);
+
+AuthenticZ.tab_addMagProcedural_CrutchAZ("MedicalStorageTools",4.0);
+AuthenticZ.tab_addMagProcedural_CrutchAZ("MedicalClinicTools",4.0);
+AuthenticZ.tab_addMagProcedural_CrutchAZ("MedicalStorageOutfit",4.0);
+AuthenticZ.tab_addMagProcedural_CrutchAZ("MedicalClinicOutfit",4.0);
+AuthenticZ.tab_addMagProcedural_CrutchAZ("ArmyStorageMedical",1.0);
+AuthenticZ.tab_addMagProcedural_CrutchAZ("SurvivalGear",0.5);
+AuthenticZ.tab_addMagProcedural_CrutchAZ("SafehouseMedical",1.0);
 
 AuthenticZ.tab_addMagProcedural_L4DMedkit2("MedicalStorageOutfit",4.0);
 AuthenticZ.tab_addMagProcedural_L4DMedkit2("MedicalClinicOutfit",2.0);

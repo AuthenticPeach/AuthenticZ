@@ -66,7 +66,7 @@ module AuthenticZClothing {
 	}	
 	item FatBody03_ObeseBod
 	{
-       DisplayCategory = Clothing,		
+        DisplayCategory = Clothing,		
 		Type = Clothing,
 		DisplayName = Obese Bod, 
 		ClothingItem = FatBody03_ObeseBod,
@@ -75,7 +75,7 @@ module AuthenticZClothing {
 	}
 	item FatBody03_ObeseFemale
 	{
-       DisplayCategory = Clothing,		
+        DisplayCategory = Clothing,		
 		Type = Clothing,
 		DisplayName = Obese Female Bod, 	
 		ClothingItem = FatBody03_ObeseFemale,
@@ -84,7 +84,7 @@ module AuthenticZClothing {
 	}	
 	item FatBody03_ObeseBod_Clown
 	{
-       DisplayCategory = Clothing,		
+        DisplayCategory = Clothing,		
 		Type = Clothing,
 /*		DisplayName = Obese Bod, */
 		ClothingItem = FatBody03_ObeseBod_Clown,
@@ -93,7 +93,7 @@ module AuthenticZClothing {
 	}
 	item FatBody03_ObeseBod_Shockmaster
 	{
-       DisplayCategory = Clothing,		
+        DisplayCategory = Clothing,		
 		Type = Clothing,
 /*		DisplayName = Obese Bod, */
 		ClothingItem = FatBody03_ObeseBod_Shockmaster,
@@ -102,7 +102,7 @@ module AuthenticZClothing {
 	}
 	item SkinnyBody_M
 	{
-       DisplayCategory = Clothing,		
+        DisplayCategory = Clothing,		
 		Type = Clothing,
 /*		DisplayName = Skinny Body Male, */	
 		ClothingItem = Thin01_Body,

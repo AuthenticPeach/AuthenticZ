@@ -104,11 +104,49 @@ recipe Convert into Item
 
 recipe Convert into Wearable
   	{
-   	   Newspaper,
+   	   AuthenticCrutch,
 
-   	   Result:Postal_Petition,
-	   Time:30.0,
+   	   Result:CrutchLEFT,
+	   Time:20.0,
   	}
+recipe Convert into Wearable
+  	{
+   	   AuthenticCrutch,
+
+   	   Result:CrutchRIGHT,
+	   Time:20.0,
+  	}	
+	
+recipe Convert into Melee
+  	{
+   	   CrutchLEFT/CrutchRIGHT,
+
+   	   Result:AuthenticCrutch,
+	   Time:20.0,
+  	}
+	
+recipe Convert into Wearable
+  	{
+   	   Camera,
+
+   	   Result:CameraAZ,
+	   Time:20.0,
+  	}
+recipe Convert into Wearable
+  	{
+   	   CameraDisposable,
+
+   	   Result:CameraDisposableAZ,
+	   Time:20.0,
+  	}	
+	
+recipe Convert into Wearable
+  	{
+   	   CameraExpensive,
+
+   	   Result:CameraExpensiveAZ,
+	   Time:20.0,
+  	}	
 	
 recipe Convert into Wearable
   	{

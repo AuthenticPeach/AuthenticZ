@@ -287,10 +287,20 @@ module AuthenticZClothing {
     {
        DisplayCategory = Accessory,		
 		Type = Clothing,
-        DisplayName = Royale Wig,		
+/*        DisplayName = Royale Wig,	*/			
 		ClothingItem = AZ_HairStyle32,
 		BodyLocation = Hat,
         Icon = Wig,		
+    }	
+
+    item AZ_HairStyle33
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Hairstyle,				
+        ClothingItem = AZ_HairStyle33,
+        BodyLocation = Hat,
+        Icon = Wig,
     }	
 	
     item Hairstyle_Pennywise
@@ -388,7 +398,7 @@ module AuthenticZClothing {
     {
         DisplayCategory = Clothing,
         Type = Clothing,
-        DisplayName = Blart Moustache,			
+/*      DisplayName = Blart Moustache,  */				
         ClothingItem = AZ_BeardStyle10,
         BodyLocation = Necklace_Long,
         Icon = Wig,

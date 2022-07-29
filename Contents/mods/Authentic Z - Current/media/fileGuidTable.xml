@@ -4086,6 +4086,14 @@
 	<files>
 		<path>media/clothing/clothingItems/ClownTopWhite.xml</path>
 		<guid>86760a8e-5dbd-4908-97e4-5307275696df</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/CrutchLEFT.xml</path>
+		<guid>56faf53b-48ac-42aa-ba82-38121716a565</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/CrutchRIGHT.xml</path>
+		<guid>c856f050-05f6-4827-9324-3e81cdf1c75c</guid>
 	</files>	
 	<files>
 		<path>media/clothing/clothingItems/CultistRobe.xml</path>
@@ -6515,6 +6523,10 @@
 	<files>
 		<path>media/clothing/clothingItems/AZ_HairStyle32.xml</path>
 		<guid>74fe2cdf-22f0-44e3-9dd5-60e8a3ac8baa</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/AZ_HairStyle33.xml</path>
+		<guid>8e4e0589-03f6-4265-b343-2a63aa208ab1</guid>
 	</files>	
 	<!-- Authentic Z Fat Zombie Clothing -->
 	<files>
@@ -6826,6 +6838,10 @@
 		<guid>9e6693f9-d80a-4c60-8f0b-13ae407323f0</guid>
 	</files>	
 	<files>
+		<path>media/clothing/clothingItems/Fat03_TShirtLongBlart.xml</path>
+		<guid>542a58ac-91f5-4544-a6a6-ae3da6bc9f1f</guid>
+	</files>	
+	<files>
 		<path>media/clothing/clothingItems/Fat03_TShirt.xml</path>
 		<guid>54b8b1c3-83cb-48b7-9455-45dc1f57f069</guid>
 	</files>
@@ -6858,6 +6874,10 @@
 		<guid>6b6e36ad-f838-4540-99d2-38dcdbcee8b8</guid>
 	</files>
 	<files>
+		<path>media/clothing/clothingItems/Fat03_SuitPants.xml</path>
+		<guid>e4d70d82-9fd4-4fdd-bea4-02da60ea70e2</guid>
+	</files>	
+	<files>
 		<path>media/clothing/clothingItems/Fat03_Vest_BlackOpen.xml</path>
 		<guid>b5d1d9d6-9834-4817-846f-a7bc22693835</guid>
 	</files>	
@@ -6886,9 +6906,17 @@
 		<guid>8f2d61a2-ea8e-4f7e-9fb6-34676c433f4e</guid>
 	</files>
 	<files>
+		<path>media/clothing/clothingItems/Thin01_JacketVarsity.xml</path>
+		<guid>0196faaf-0b60-4a00-931d-c55d7138b3bb</guid>
+	</files>	
+	<files>
 		<path>media/clothing/clothingItems/Thin01_Overalls.xml</path>
 		<guid>fb91b9bd-2641-45d1-9e24-969ff8656937</guid>
 	</files>
+	<files>
+		<path>media/clothing/clothingItems/Thin01_PJs.xml</path>
+		<guid>ed8c93d1-7d3a-4a8d-a6d5-3dcbd8333420</guid>
+	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Thin01_PonchoDown.xml</path>
 		<guid>58130fc7-68fc-48d6-b65d-84135aab1765</guid>
@@ -6909,6 +6937,10 @@
 		<path>media/clothing/clothingItems/Thin01_Shoes.xml</path>
 		<guid>5bcf23b7-a0da-45c6-970a-b33d3c8d0a87</guid>
 	</files>
+	<files>
+		<path>media/clothing/clothingItems/Thin01_TShirt.xml</path>
+		<guid>e58aab8c-02a9-44a7-a801-648c90ee65e1</guid>
+	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Thin01_Vest_HighViz.xml</path>
 		<guid>77b872a4-c4cd-4f2c-a739-a8aa65d2972d</guid>

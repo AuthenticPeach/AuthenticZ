@@ -263,6 +263,58 @@ module AuthenticZClothing {
 		Weight = 0.7,
 		WorldStaticModel = WorldItem-DSLR,
 	}
+
+	item CameraDSLR
+	{
+       DisplayCategory = Clothing,		
+		Type = Clothing,
+		DisplayName = Frank West's DSLR,
+		ClothingItem = CameraDSLR,
+		BodyLocation = Necklace,
+		Icon = DSLRCamera,
+		Weight = 0.7,
+		WorldStaticModel = WorldItem-DSLR,
+        Tags                = Camera,		
+	}
+	
+    item CameraAZ
+    {
+        DisplayCategory 	= Clothing,
+        Type				= Clothing,
+        DisplayName			= Camera,
+		ClothingItem 		= CameraVanillaRegular,
+		BodyLocation 		= Necklace,		
+        Icon				= Camera,
+        Weight				= 0.2,
+        WorldStaticModel    = Camera_Ground,
+        Tags                = Camera,
+    }
+
+    item CameraDisposableAZ
+    {
+        DisplayCategory 	= Clothing,
+        Type				= Clothing,
+        DisplayName			= Disposable Camera,
+		ClothingItem 		= CameraVanillaDisposible,	
+		BodyLocation 		= Necklace,		
+        Icon				= CameraDisposable,
+        Weight				= 0.2,
+        WorldStaticModel    = CameraDisposable_Ground,
+        Tags                = Camera,
+    }
+
+    item CameraExpensiveAZ
+    {
+        DisplayCategory 	= Clothing,
+        Type				= Clothing,
+        DisplayName			= High-end Camera,
+		ClothingItem 		= CameraVanillaExpensive,
+		BodyLocation 		= Necklace,		
+        Icon				= CameraExpensive,
+        Weight				= 0.3,
+        WorldStaticModel    = CameraExpensive_Ground,
+        Tags                = Camera,
+    }
 	
 	item Cigarette
 	{
@@ -322,13 +374,39 @@ module AuthenticZClothing {
 	}
 	item ClownTopWhite
 	{
-       DisplayCategory = Clothing,		
-		Type = Clothing,
-		DisplayName = Clown Top,
-		ClothingItem = ClownTopWhite,
-		BodyLocation = TorsoExtraPlus1,
-		Icon = ClownTop_White,
-	}	
+        DisplayCategory = Clothing,		
+		Type 			= Clothing,
+		DisplayName 	= Clown Top,
+		ClothingItem 	= ClownTopWhite,
+		BodyLocation 	= TorsoExtraPlus1,
+		Icon 			= ClownTop_White,
+	}
+	item CrutchLEFT
+	{
+        DisplayCategory 		= Clothing,		
+		Type 					= Clothing,
+		DisplayName 			= Crutch (Left),
+		ClothingItem 			= CrutchLEFT,
+		ClothingItemExtra		= AuthenticZClothing.CrutchRIGHT,
+        ClothingItemExtraOption = SwapSides,			
+		BodyLocation 			= TorsoExtraPlus1,
+		Icon 					= CrutchAZ,
+		Weight 					= 1,
+		WorldStaticModel		= WorldItem-CrutchAZ,	
+	}		
+	item CrutchRIGHT
+	{
+        DisplayCategory 		= Clothing,		
+		Type 					= Clothing,
+		DisplayName 			= Crutch (Right),
+		ClothingItem 			= CrutchRIGHT,
+		ClothingItemExtra		= AuthenticZClothing.CrutchLEFT,
+        ClothingItemExtraOption = SwapSides,			
+		BodyLocation 			= TorsoExtra,
+		Icon 					= CrutchAZ,
+		Weight 					= 1,
+		WorldStaticModel		= WorldItem-CrutchAZ,	
+	}		
 	item CultistRobe
     	{
         DisplayCategory = Clothing,
