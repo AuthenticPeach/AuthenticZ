@@ -471,13 +471,19 @@ ZombiesZoneDefinition.CrossroadsMall = {
 	AuthenticSportsFan = {
 		name="AuthenticSportsFan",
 		chance=5,
-	},	
+	},
 	AuthenitcDRFrankWestM = {
 		name="AuthenticDRFrankWest",
 		chance=1,
 		gender="male",
 		room="hall",
-	},	
+	},
+	AuthenticFat03Blart = {
+		name="AuthenticFat03Blart",
+		chance=1,
+		gender="male",
+		room="hall",
+	},		
 	AuthenticDRJessieMcCarneyM = {
 		name="AuthenticDRJessieMcCarney",
 		chance=1,
@@ -1212,13 +1218,18 @@ ZombiesZoneDefinition.MovieNight2 = {
 ZombiesZoneDefinition.NiteGlow = {
 	AuthenticNightClub = {
 		name="AuthenticNightClub",
-		chance=10,
+		chance=15,
 	},	
 	AuthenticSmoothCriminal = {
 		name="AuthenticSmoothCriminal",
 		chance=2,
 		gender="male",
 	},
+	AuthenticFreshPrinceBelAir = {
+		name="AuthenticFreshPrinceBelAir",
+		chance=2,
+		gender="male",
+	},	
 	AuthenticSexyBunny = {
 		name="AuthenticSexyBunny",
 		chance=2,
@@ -1648,6 +1659,11 @@ ZombiesZoneDefinition.Western = {
 		gender="male",		
 		chance=5,
 	},
+	AuthenticFat02CowGirl = {
+		name="AuthenticFat02CowGirl",
+		gender="female",		
+		chance=5,
+	},	
 	AuthenticCountryHick = {
 		name="AuthenticCountryHick",
 		gender="male",		
@@ -2156,6 +2172,31 @@ local AuthenticCountryHick = {
 	};
 ZombiesZoneDefinition.Farm[AuthenticCountryHick] = AuthenticCountryHick;
 
+local AuthenticFat02CowGirl = {
+		name="AuthenticFat02CowGirl",
+		gender="female",			
+		chance=5,
+	};
+ZombiesZoneDefinition.Farm[AuthenticFat02CowGirl] = AuthenticFat02CowGirl;
+
+
+local AuthenticFat02Cook = {
+		name="AuthenticFat02Cook",
+		gender="male",			
+		chance=4,
+		room="restaurantkitchen",		
+	};
+ZombiesZoneDefinition.PileOCrepe[AuthenticFat02Cook] = AuthenticFat02Cook;
+ZombiesZoneDefinition.Restaurant[AuthenticFat02Cook] = AuthenticFat02Cook;
+
+local AuthenticFat02Cook2 = {
+		name="AuthenticFat02Cook",
+		gender="male",			
+		chance=4,
+		room="spiffoskitchen",		
+	};
+ZombiesZoneDefinition.Spiffo[AuthenticFat02Cook2] = AuthenticFat02Cook2;
+
 local AuthenticCrossingGuard = {
 		name="AuthenticCrossingGuard",
 		gender="male",			
@@ -2315,23 +2356,27 @@ local SportsFan = {
 	};
 ZombiesZoneDefinition.Boxing[SportsFan] = SportsFan;
 
+local AuthenticFat02Cheese = {
+		name="AuthenticFat02Cheese",
+		gender="male",		
+		chance=0.5,
+	};
+ZombiesZoneDefinition.Spiffo[AuthenticFat02Cheese] = AuthenticFat02Cheese;
+
 local Fat01 = {
-		name="AuthenticFat01",	
-		gender="male",			
+		name="AuthenticFat01",				
 		chance=3,
 	};
 ZombiesZoneDefinition.Spiffo[Fat01] = Fat01;
 ZombiesZoneDefinition.PizzaWhirled[Fat01] = Fat01;
 local Fat02 = {
-		name="AuthenticFat02",	
-		gender="male",			
+		name="AuthenticFat02",			
 		chance=3,
 	};
 ZombiesZoneDefinition.Spiffo[Fat02] = Fat02;
 ZombiesZoneDefinition.PizzaWhirled[Fat02] = Fat02;
 local Fat03 = {
-		name="AuthenticFat03",	
-		gender="male",			
+		name="AuthenticFat03",			
 		chance=3,
 	};
 ZombiesZoneDefinition.Spiffo[Fat03] = Fat03;
@@ -2339,7 +2384,7 @@ ZombiesZoneDefinition.PizzaWhirled[Fat03] = Fat03;
 
 local AuthenticThin01School = {
 		name="AuthenticThin01School",
-		chance=3,
+		chance=4,
 		gender="male",
 	};
 ZombiesZoneDefinition.School[AuthenticThin01School] = AuthenticThin01School;
@@ -2387,6 +2432,8 @@ table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticTheyLive", chance=0
 table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticTF2SpyBlue", chance=0.0001, gender="male"});
 table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticTF2SpyRed", chance=0.0001, gender="male"});
 table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticThriller", chance=0.0001, gender="male"});
+table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticFat03Blart", chance=0.0001, gender="male"});
+table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticFat02Cheese", chance=0.0001, gender="male"});
 -------------------------- Clowns --------------------------
 table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticClownMime", chance=0.04});
 table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticClown", chance=0.04, gender="male"});
@@ -2494,6 +2541,7 @@ table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticDawnoftheDead", cha
 table.insert(ZombiesZoneDefinition.Default,{name = "AuthenitcFlyboy", chance=1, room="departmentstore", gender="male"});
 table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticDRBradGarrison", chance=1, room="departmentstore", gender="male"});
 table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticDRTrueEyeCult", chance=1, room="departmentstore", gender="male"});
+table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticFat03Blart", chance=1, room="departmentstore", gender="male"});
 table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticDRJessieMcCarney", chance=1, room="departmentstore", gender="female"});
 -------------------------- Train Car -------------------------- 
 table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticDocBrown", chance=1, room="railroad", gender="male"});
@@ -2520,10 +2568,16 @@ table.insert(ZombiesZoneDefinition.Default,{name = "Jockey06", chance=10, room="
 table.insert(ZombiesZoneDefinition.Default,{name = "Jockey04", chance=10, room="stable", gender="female"});
 table.insert(ZombiesZoneDefinition.Default,{name = "Jockey05", chance=10, room="stable", gender="female"});
 -------------------------- Fat Zombies -------------------------- 
-table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticFat01", chance=2000});
-table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticFat01ALT", chance=2000, gender="female"});
-table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticFat02", chance=2000});
-table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticFat02ALT", chance=2000, gender="female"});
-table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticFat03", chance=2000});
-table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticFat03ALT", chance=2000, gender="female"});
-table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticThin01", chance=500, gender="male"});
+table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticFat01", chance=0.07,});
+table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticFat01Fisherman", chance=0.07, gender="male"});
+table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticFat01Dress", chance=0.07, gender="female"});
+table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticFat02", chance=0.07,});
+table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticFat02Cook", chance=0.03, gender="male"});
+table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticFat02Dress", chance=0.07, gender="female"});
+table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticFat02CowGirl", chance=0.03, gender="female"});
+table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticFat03", chance=0.07,});
+table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticFat03Dress", chance=0.07, gender="female"});
+table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticThin01", chance=0.07, gender="male"});
+table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticThin01PJ", chance=0.03, gender="male"});
+table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticThin01Overalls", chance=0.07, gender="male"});
+table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticThin01School", chance=0.07, gender="male"});

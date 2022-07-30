@@ -924,6 +924,23 @@ module AuthenticZClothing {
 		Cosmetic = TRUE,
 		WorldStaticModel = WorldItem_DimitrescuRose,		
 	}
+	item RaveMask
+    {
+		DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Rave Mask,
+		ClothingItem = Mask_Rave,
+		BodyLocation = MaskEyes,
+		IconsForTexture = RaveMask_White;RaveMask_Green;RaveMask_Pink;RaveMask_Blue,
+		CanHaveHoles = false,
+		BloodLocation = Head,
+        BiteDefense = 30,
+        ScratchDefense = 50,
+        Insulation = 0.15,
+        WindResistance = 0.5,
+		ChanceToFall = 20,
+		WorldStaticModel = WorldItem_RaveMask,
+    }	
     item Scarf_Black
     {
        DisplayCategory = Accessory,		

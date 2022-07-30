@@ -109,13 +109,6 @@ recipe Convert into Wearable
    	   Result:CrutchLEFT,
 	   Time:20.0,
   	}
-recipe Convert into Wearable
-  	{
-   	   AuthenticCrutch,
-
-   	   Result:CrutchRIGHT,
-	   Time:20.0,
-  	}	
 	
 recipe Convert into Melee
   	{

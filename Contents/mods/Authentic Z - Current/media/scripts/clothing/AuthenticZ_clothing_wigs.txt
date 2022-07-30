@@ -301,7 +301,18 @@ module AuthenticZClothing {
         ClothingItem = AZ_HairStyle33,
         BodyLocation = Hat,
         Icon = Wig,
+    }
+
+    item AZ_HairStyle34
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Wig with Highlights,				
+        ClothingItem = AZ_HairStyle34,
+        BodyLocation = Hat,
+        Icon = Wig,
     }	
+	
 	
     item Hairstyle_Pennywise
     {

@@ -61,6 +61,8 @@ local function preDistributionMerge()
             "AuthenticZClothing.Hat_WeddingVeilPink", 5,
             "AuthenticZClothing.Hat_WeddingVeilBlue", 5,
             "AuthenticZClothing.Hat_WoolyHatWaldo", 5,
+            "AuthenticZClothing.RaveMask", 5,
+            "AuthenticZClothing.AZ_HairStyle34", 5,			
         },			
         junk = {
             rolls = 1,
@@ -412,6 +414,8 @@ local function preDistributionMerge()
             "AuthenticZClothing.Hat_WeddingVeilPink", 5,
             "AuthenticZClothing.Hat_WeddingVeilBlue", 5,
             "AuthenticZClothing.Hat_WoolyHatWaldo", 5,
+            "AuthenticZClothing.RaveMask", 5,
+            "AuthenticZClothing.AZ_HairStyle34", 5,
         },						
 		
         junk = {
@@ -656,6 +660,7 @@ local function preDistributionMerge()
             "AuthenticZClothing.AuthenticGlowstick_Purple", 1,		
             "AuthenticZClothing.AuthenticGlowstick_Pink", 1,		
             "AuthenticZClothing.AuthenticGlowstick_Yellow", 1,			
+            "AuthenticZClothing.RaveMask", 1,			
             "Bag_ShotgunDblSawnoffBag", 1,			
             "BaseballBat", 1,
             "DoubleBarrelShotgunSawnoff", 1,			
@@ -672,6 +677,7 @@ local function preDistributionMerge()
             "AuthenticZClothing.AuthenticGlowstick_Pack", 20,
             "AuthenticZClothing.AuthenticGlowstick_Pack", 20,
             "AuthenticZClothing.AuthenticGlowstick_Pack", 20,
+            "AuthenticZClothing.RaveMask", 20,
 			
             "9mmClip", 2,
             "Bag_FannyPackFront", 1.5,
@@ -733,6 +739,7 @@ local function preDistributionMerge()
             "AuthenticZClothing.AuthenticGlowstick_Purple", 1,		
             "AuthenticZClothing.AuthenticGlowstick_Pink", 1,		
             "AuthenticZClothing.AuthenticGlowstick_Yellow", 1,	    			
+            "AuthenticZClothing.RaveMask", 1,	    			
             },			
         }
     }

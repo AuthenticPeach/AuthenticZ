@@ -53,20 +53,6 @@ TweakItem("Base.WeldingMask", "StaticModel", "WelderMaskNotWorn");
 
 TweakItem("Base.HandTorch", "AttachmentType", "Flashlight");
 
---TweakItem("Base.Camera", "DisplayCategory", "Clothing");
-TweakItem("Base.Camera", "Type", "Clothing");
---TweakItem("Base.Camera", "ClothingItem", "CameraVanillaRegular");
---TweakItem("Base.Camera", "BodyLocation", "Necklace");
-TweakItem("Base.CameraDisposable", "DisplayCategory", "Clothing");
-TweakItem("Base.CameraDisposable", "Type", "Clothing");
-TweakItem("Base.CameraDisposable", "ClothingItem", "CameraVanillaDisposible.xml");
-TweakItem("Base.CameraDisposable", "BodyLocation", "Necklace");
---TweakItem("Base.CameraExpensive", "DisplayCategory", "Clothing");
-TweakItem("Base.CameraExpensive", "Type", "Clothing");
---TweakItem("Base.CameraExpensive", "ClothingItem", "CameraVanillaExpensive");
---TweakItem("Base.CameraExpensive", "BodyLocation", "Necklace");
-
-TweakItem("Base.Trousers_Santa", "DisplayName", "Red Suit Pants");
 
 
 

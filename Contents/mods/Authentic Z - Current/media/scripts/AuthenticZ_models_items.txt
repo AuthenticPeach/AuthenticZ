@@ -1253,7 +1253,11 @@ module Base
     {
 		mesh = WorldItems/WordItem-PyromancerSkull,
 		texture = clothes\Hats\SteerSkull,			
-    }	
+    }
+	model WorldItem_RaveMask
+	{
+		mesh = WorldItems/WorldItem_FaceMaskRave,	
+	}	
 	model WorldItem_ReporterMicMuffler_Media01
 	{
 		mesh = WorldItems/WorldItem_AZReporterMicMuffler,

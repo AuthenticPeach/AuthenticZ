@@ -400,7 +400,6 @@
         ClothingItem = Tshirt_CheeseRoyale2,
         BodyLocation = Tshirt,
         Icon				= TshirtRochelle,
-        BloodLocation 		= Shirt,
 		OBSOLETE 			= TRUE,			
     }
     item Tshirt_Ellis

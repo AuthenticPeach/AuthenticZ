@@ -4912,6 +4912,18 @@
 		<guid>54537fa4-e1af-45db-b9c0-3ca202e1540d</guid>
 	</files>
 	<files>
+		<path>media/clothing/clothingItems/HoodieDOWN_CropTopRave.xml</path>
+		<guid>0857259b-0452-41ed-bf50-e8426b587cd7</guid>
+	</files>		
+	<files>
+		<path>media/clothing/clothingItems/HoodieUP_CropTopRave.xml</path>
+		<guid>4b538de1-02f7-449f-ad35-7e743d14ef8a</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/HoodieTied_CropTopRave.xml</path>
+		<guid>fc09bf3f-1774-43c1-b666-91ecbc482eff</guid>
+	</files>	
+	<files>
 		<path>media/clothing/clothingItems/HoodieDOWN_CropTopTINT.xml</path>
 		<guid>fd1643d4-99c0-403c-886a-38201fd97bef</guid>
 	</files>		
@@ -5367,6 +5379,10 @@
 		<path>media/clothing/clothingItems/MakeUp_ShotgunFace.xml</path>
 		<guid>bb58e85d-f255-49ea-937b-3503887e9e4b</guid>
 	</files>
+	<files>
+		<path>media/clothing/clothingItems/Mask_Rave.xml</path>
+		<guid>cc7271d0-fe26-443c-ae9f-1cc260e231b9</guid>
+	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Mime_Overalls.xml</path>
 		<guid>a07f30b2-01a2-4ac2-bd5b-fdf533f7808b</guid>
@@ -6098,6 +6114,10 @@
 	<files>
 		<path>media/clothing/clothingItems/TrousersMesh_JimmyGibbs.xml</path>
 		<guid>730ae482-32d0-413b-a931-e2b030aa84bf</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/TrousersMesh_Rave.xml</path>
+		<guid>10246bb3-cdb5-41f2-97b6-fc241f7ee511</guid>
 	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Trousers_Sport.xml</path>
@@ -6527,6 +6547,10 @@
 	<files>
 		<path>media/clothing/clothingItems/AZ_HairStyle33.xml</path>
 		<guid>8e4e0589-03f6-4265-b343-2a63aa208ab1</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/AZ_HairStyle34.xml</path>
+		<guid>ae7493fd-8114-4493-819e-21f085429ab9</guid>
 	</files>	
 	<!-- Authentic Z Fat Zombie Clothing -->
 	<files>
@@ -6725,6 +6749,10 @@
 		<path>media/clothing/clothingItems/Fat02_JacketLong.xml</path>
 		<guid>9b54b24d-2e6f-4387-be14-dba6a77c8153</guid>
 	</files>
+	<files>
+		<path>media/clothing/clothingItems/Fat02_Overalls.xml</path>
+		<guid>8600d2b6-2b95-46a4-b5d4-2fd6e2d30506</guid>
+	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Fat02_PonchoUP.xml</path>
 		<guid>0d9baa53-e21b-427c-a767-1c5623b4f067</guid>

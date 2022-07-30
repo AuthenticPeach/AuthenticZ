@@ -64,7 +64,7 @@ Tooltip_EN = {
 	Tooltip_RotaryPhone  = "Say Hello to your Aunt Alicia, Bub!",
 	
 /* New */	
-	Tooltip_SizeXS  = "Size: XS",	
+	Tooltip_SizeXS  = "Size: S",	
 	Tooltip_SizeXL  = "Size: XL",	
 	Tooltip_Size2XL  = "Size: 2XL",	
 	Tooltip_Size3XL  = "Size: 3XL",	

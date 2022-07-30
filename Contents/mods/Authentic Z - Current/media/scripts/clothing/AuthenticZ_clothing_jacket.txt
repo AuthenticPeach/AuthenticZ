@@ -1637,7 +1637,7 @@ module AuthenticZClothing {
         DisplayName = Thriller Jacket,
         ClothingItem = Jacket_Thriller,
         BodyLocation = Jacket,
-        Icon = StraightJacket,
+        Icon = ThrillerJacket,
         BloodLocation = Jacket,
         RunSpeedModifier = 0.93,
         CombatSpeedModifier = 0.98,
@@ -1857,6 +1857,57 @@ module AuthenticZClothing {
         ScratchDefense = 10,
         WorldStaticModel = Hoodie_Ground,		
     }	
+
+    item HoodieDOWN_CropTopRave
+    {
+        DisplayCategory = Clothing,		
+        Type = Clothing,
+        DisplayName = Crop-Top Hoodie,
+        ClothingItem = HoodieDOWN_CropTopRave,
+        ClothingItemExtra = AuthenticZClothing.HoodieUP_CropTopRave;AuthenticZClothing.HoodieTied_CropTopRave,
+        ClothingItemExtraOption = UpHoodie;TieOnWaist,
+        BodyLocation = Jacket,
+        BloodLocation = Jumper,
+        Icon = HoodieWhite,
+        ScratchDefense = 10,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.6,
+        WindResistance = 0.25,
+        FabricType 	= Cotton,
+        WorldStaticModel = Hoodie_Ground,		
+    }
+    item HoodieUP_CropTopRave
+    {
+        DisplayCategory  = Clothing,		
+        Type 			 = Clothing,
+        DisplayName 	 = Crop-Top Hoodie,
+        ClothingItem 	 = HoodieUP_CropTopRave,
+        ClothingItemExtra = AuthenticZClothing.HoodieDOWN_CropTopRave;AuthenticZClothing.HoodieTied_CropTopRave,
+        ClothingItemExtraOption = DownHoodie;TieOnWaist,
+        BodyLocation 	 = Jacket,
+        BloodLocation 	 = Jumper;FullHelmet,
+        Icon 			 = HoodieWhite,
+        ScratchDefense 	 = 10,
+        Insulation 		 = 0.55,
+        WindResistance 	 = 0.2,
+        FabricType 		 = Cotton,
+        WorldStaticModel = Hoodie_Ground,		
+    }
+
+    item HoodieTied_CropTopRave
+    {
+        DisplayCategory = Clothing,		
+        Type = Clothing,
+        DisplayName = Crop-Top Hoodie (Tied),
+        ClothingItem = HoodieTied_CropTopRave,
+        ClothingItemExtra = AuthenticZClothing.HoodieDOWN_CropTopTINT;AuthenticZClothing.HoodieUP_CropTopRave,
+        ClothingItemExtraOption = DownHoodie;UpHoodie,	
+		BodyLocation = TorsoExtra,
+		BloodLocation = Apron,
+        Icon = HoodieWhite,
+        ScratchDefense = 10,
+        WorldStaticModel = Hoodie_Ground,		
+    }
 
     item HoodieDOWN_CropTopTINT
     {
