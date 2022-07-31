@@ -622,13 +622,13 @@ cat.haircutColor = "0.82,0.71,0.55:100"; -- Dirty Blondish
 table.insert(HairOutfitDefinitions.haircutOutfitDefinition, cat);
 local cat = {};
 cat.outfit = "AuthenticThriller";
-cat.haircut = "ShortCurly:100";
+cat.haircut = "ShortAfroCurly:100";
 cat.beard = "None:100";
 cat.haircutColor = "0.33,0.16,0.16:100"; --Brown
 table.insert(HairOutfitDefinitions.haircutOutfitDefinition, cat);
 local cat = {};
 cat.outfit = "AuthenticThrillerVarsity";
-cat.haircut = "ShortCurly:100";
+cat.haircut = "Buffont:100";
 cat.beard = "None:100";
 cat.haircutColor = "0.33,0.16,0.16:100"; --Brown
 table.insert(HairOutfitDefinitions.haircutOutfitDefinition, cat);

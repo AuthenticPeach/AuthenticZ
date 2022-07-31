@@ -4,23 +4,6 @@ require 'NPCs/ZombiesZoneDefinition'
 AZ_ZombiesZoneDefinition = ZombiesZoneDefinition or {};
 
 -- name of the zone for the zone type ZombiesType (in worldzed)
-ZombiesZoneDefinition.Airfield = {
-	AirCrew = {
-		name="AirCrew",
-		chance=25,
-	},
-	AirCrewM = {
-		name="AirCrew",
-		toSpawn=1,
-		mandatory="true",
-	},
-	AuthenticJimmyGibbsM = {
-		name="AuthenticJimmyGibbs",
-		toSpawn=1,
-		gender="male",
-		mandatory="true",
-	},	
-}
 
 ZombiesZoneDefinition.Airfield2 = {
 	AirCrew = {
@@ -29,7 +12,7 @@ ZombiesZoneDefinition.Airfield2 = {
 	},
 	AuthenticJimmyGibbsM = {
 		name="AuthenticJimmyGibbs",
-		chance=2,
+		chance=1,
 		gender="male",
 	},	
 }
@@ -138,9 +121,8 @@ ZombiesZoneDefinition.Barbershop = {
 ZombiesZoneDefinition.BillMurray = {
 	AuthenticBillMurrayM = {
 		name="AuthenticBillMurray",
-		toSpawn=1,
+		chance=3,
 		gender="male",
-		mandatory="true"
 	},
 }
 
@@ -321,8 +303,7 @@ ZombiesZoneDefinition.CultistGrounds = {
 ZombiesZoneDefinition.Clementine= {
 	AuthenticClementineM = {
 		name="AuthenticClementine",
-		toSpawn=1,
-		mandatory="true",
+		chance=3,
 		gender="female",
 	},
 	
@@ -331,8 +312,7 @@ ZombiesZoneDefinition.Clementine= {
 ZombiesZoneDefinition.ChainsawMaid= {
 	AuthenticChainsawMaidM = {
 		name="AuthenticChainsawMaid",
-		toSpawn=1,
-		mandatory="true",
+		chance=3,
 		gender="female",
 	},
 	
@@ -541,17 +521,15 @@ ZombiesZoneDefinition.CrossroadsMall = {
 ZombiesZoneDefinition.DayZBleu = { --
 	AuthenticDayZHeroBleuM = {
 		name="AuthenticDayZHeroBleu",
-		toSpawn=1,
+		chance=3,
 		gender="male",
-		mandatory="true",
 	},		
 }
 
 ZombiesZoneDefinition.Dianne = {
 	AuthenticDianneCaldwell = {
 		name="AuthenticDianneCaldwell",
-		toSpawn=1,
-		mandatory="true",
+		chance=3,
 		gender="female",
 	},
 }
@@ -712,28 +690,25 @@ ZombiesZoneDefinition.GhillieBrush = {
 ZombiesZoneDefinition.GMan = {
 	AuthenticGManM = {
 		name="AuthenticGMan",
-		toSpawn=1,
+		chance=3,
 		gender="male",
-		mandatory="true",
-	},		
+	},	
 }
 
 ZombiesZoneDefinition.Grimes = {
 	AuthenticRickGrimesM = {
 		name="AuthenticRickGrimes",
-		toSpawn=1,
+		chance=3,
 		gender="male",
-		mandatory="true",
-	},		
+	},	
 }
 
 ZombiesZoneDefinition.HankHill = {
 	AuthenticHankHillM = {
 		name="AuthenticHankHill",
-		toSpawn=1,
-		mandatory="true",
+		chance=3,
 		gender="male",
-	},
+	},	
 }
 
 ZombiesZoneDefinition.HitchHikingInmates = {
@@ -803,6 +778,14 @@ ZombiesZoneDefinition.IceCream = {
 	},
 }
 
+ZombiesZoneDefinition.Kate = {
+	AuthenticKate = {
+		name="AuthenticKate",
+		chance=1,
+		gender="female",
+	},
+}
+
 ZombiesZoneDefinition.Killa = { --
 	AuthenticKillaM = {
 		name="AuthenticKilla",
@@ -851,7 +834,7 @@ ZombiesZoneDefinition.LVCityHall = {
 	},
 	AuthenticSecretService = {
 		name="AuthenticSecretService",
-		chance=5,
+		chance=2,
 		gender="male",
 	},
 	AuthenticPolitician = {
@@ -1229,7 +1212,7 @@ ZombiesZoneDefinition.NiteGlow = {
 		name="AuthenticFreshPrinceBelAir",
 		chance=2,
 		gender="male",
-	},	
+	},
 	AuthenticSexyBunny = {
 		name="AuthenticSexyBunny",
 		chance=2,
@@ -1239,24 +1222,27 @@ ZombiesZoneDefinition.NiteGlow = {
 		name="Joan",
 		chance=3,
 		gender="female",
+	},
+	AuthenticRaveGirl = {
+		name="AuthenticRaveGirl",
+		chance=2,
+		gender="female",
 	},	
 }
 
 ZombiesZoneDefinition.Nate = { 
 	AuthenticNateAndersonM = {  
 		name="AuthenticNateAnderson",
-		toSpawn=1,
-		mandatory="true",
+		chance=3,
 		gender="male",
-	},
+	},	
 }
 
 ZombiesZoneDefinition.Nukem = {
 	AuthenticDukeNukemM = {
 		name="AuthenticDukeNukem",
-		toSpawn=1,
+		chance=3,
 		gender="male",
-		mandatory="true",
 	},		
 }
 
@@ -1315,7 +1301,7 @@ ZombiesZoneDefinition.PlanetTerror = { 	  --Name of a custom zone on the map
 	AuthenticGrindhouseCherryM = {		  -- Just a reference name
 		name="AuthenticGrindhouseCherry", -- name of the outfit in Clothing.XML
 		gender="female", 				  -- This is a female only zombie, state it as such.
-		chance=3,	              
+		chance=1,	              
 	},
 	PoliceState = {
 		name="PoliceState", 			  -- name of the outfit in Clothing.XML, has both m/f outfits linked
@@ -1324,18 +1310,17 @@ ZombiesZoneDefinition.PlanetTerror = { 	  --Name of a custom zone on the map
 	Cook_GenericM = {
 		name="Cook_Generic",			  -- name of the outfit in Clothing.XML
 		gender="male",					  -- This is a male only zombie, state it as such.
-		toSpawn=1,
-		mandatory="true",
+		chance=3,
+		gender="male",
 	},	
 }
 
 ZombiesZoneDefinition.Postal2 = {
 	AuthenticPostalDudeM = {
 		name="AuthenticPostalDude",
-		toSpawn=1,
+		chance=1,
 		gender="male",
-		mandatory="true",
-	},		
+	},	
 }
 
 ZombiesZoneDefinition.Psycho = {
@@ -1369,21 +1354,18 @@ ZombiesZoneDefinition.Psycho2 = {
 ZombiesZoneDefinition.ResidentEvil = {
 	AuthenticJillValentineM = {
 		name="AuthenticJillValentine",
-		toSpawn=1,
+		chance=3,
 		gender="female",
-		mandatory="true"
-	},
+	},	
 	AuthenticLeonKennedyM = {
 		name="AuthenticLeonKennedy",
+		chance=3,
 		gender="male",
-		toSpawn=1,
-		mandatory="true",
-	},		
+	},			
 	AuthenticBillyChumpez = {
 		name="AuthenticBillyChumpez",
-		toSpawn=1,
+		chance=3,
 		gender="male",
-		mandatory="true",
 	},		
 }
 
@@ -1512,9 +1494,6 @@ ZombiesZoneDefinition.Studio = {
 		mandatory="true"
 	},	
 }
---Tattoo'd Zs coming soon
-ZombiesZoneDefinition.TattooShop = {
-}
 
 ZombiesZoneDefinition.TheDregs = {
 	AuthenticNakedBlueVeinsM = {
@@ -1552,9 +1531,8 @@ ZombiesZoneDefinition.TheDregs = {
 ZombiesZoneDefinition.TheyLive = {
 	AuthenticTheyLiveM = {
 		name="AuthenticTheyLive",
-		toSpawn=1,
+		chance=3,
 		gender="male",
-		mandatory="true",
 	},		
 }
 ZombiesZoneDefinition.University = {
@@ -1631,20 +1609,7 @@ ZombiesZoneDefinition.University = {
 		chance=2,
 	},	
 }
---[[
-ZombiesZoneDefinition.TrueEyeCult = {
-	AuthenticDRTrueEyeCultM = {
-		name="AuthenticDRTrueEyeCult",
-		toSpawn=1,
-		mandatory="true",
-		gender="male",
-	},
-	AuthenticDRTrueEyeCult = {
-		name="AuthenticDRTrueEyeCult",
-		chance=100,
-	},				
-}
---]]
+
 ZombiesZoneDefinition.Western = {
 	Generic04 = {
 		name="Generic04",			

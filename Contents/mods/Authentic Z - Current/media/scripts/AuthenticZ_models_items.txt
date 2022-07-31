@@ -609,21 +609,6 @@ module Base
 		mesh = Weapons/1Handed/StopSign,
 		texture = clothes\Items\HandleSign,
 	}
-	model KnifeEnd
-	{
-		mesh = Weapons/1Handed/KnifeEnd,
-		texture = clothes\Items\BloodyKnife,
-	}
-	model MediumMetalSpear
-	{
-		mesh = Weapons/1Handed/MediumMetalSpear,
-		texture = MetalSpear,
-	}
-	model MetalSpike
-	{
-		mesh = Weapons/1Handed/MetalSpike,
-		texture = MetalSpear,
-	}
 	model MopAZ
 	{
 		mesh = WorldItems/WorldItem_MopAZ,
@@ -757,21 +742,6 @@ module Base
         texture = clothes\Items\SpiffoPlushieRainbow,		
         scale = 0.4,
     }
-	model ShortMetalSpear
-	{
-		mesh = Weapons/1Handed/ShortMetalSpear,
-		texture = MetalSpear,
-	}
-	model ShortMetalSpike
-	{
-		mesh = Weapons/1Handed/ShortMetalSpike,
-		texture = MetalSpear,
-	}
-	model SpikePick
-	{
-		mesh = Weapons/1handed/SpikePick,
-		texture = Weapons/1Handed/IcePick,
-	}
 	model Stake2
     {
         mesh = Weapons/1Handed/Stake,

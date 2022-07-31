@@ -29,7 +29,9 @@ objects = {
   { name = "HitchHikingInmates", type = "ZombiesType", x = 8550, y = 12280, z = 0, width = 70, height = 37},
   { name = "HitchHikingInmates", type = "ZombiesType", x = 8560, y = 12333, z = 0, width = 60, height = 37},
   { name = "IceCream", type = "ZombiesType", x = 6465, y = 5215, z = 0, width = 16, height = 16},
-  { name = "IceCream", type = "ZombiesType", x = 13648, y = 5773, z = 0, width = 17, height = 17},
+  { name = "IceCream", type = "ZombiesType", x = 6465, y = 5215, z = 0, width = 16, height = 16},
+  { name = "Kate", type = "ZombiesType", x = 10724, y = 9406, z = 0, width = 40, height = 26},
+  { name = "Kate", type = "ZombiesType", x = 10724, y = 9406, z = 1, width = 40, height = 26},
   { name = "MovieNight2", type = "ZombiesType", x = 13569, y = 5854, z = 0, width = 77, height = 72},
   { name = "PlanetTerror", type = "ZombiesType", x = 5910, y = 5229, z = 0, width = 60, height = 45}, -- Western Riverside			
   { name = "Pony", type = "ZombiesType", x = 8530, y = 8440, z = 0, width = 135, height = 144},

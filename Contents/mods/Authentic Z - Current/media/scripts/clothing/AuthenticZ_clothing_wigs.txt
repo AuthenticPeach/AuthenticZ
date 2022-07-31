@@ -310,7 +310,7 @@ module AuthenticZClothing {
         DisplayName = Wig with Highlights,				
         ClothingItem = AZ_HairStyle34,
         BodyLocation = Hat,
-        Icon = Wig,
+        IconsForTexture = WigBlackPinkHighlights;WigBlackBlueHighlights;WigBlackPurpleHighlights,
     }	
 	
 	
