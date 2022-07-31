@@ -10918,18 +10918,12 @@
 
 <m_FemaleOutfits> <m_Name>AuthenticRaveGirl</m_Name>
 		<m_Guid>94dd94e4-1e90-4572-8da4-b72d8900e326</m_Guid>
+		<m_Top>false</m_Top>		
 		<m_Pants>false</m_Pants>
 		<m_AllowPantsHue>false</m_AllowPantsHue>
-		<m_items> <!-- Choker necklace -->
-			<probability>0.2</probability>		
-			<itemGUID>5c4e5d70-62c6-45fd-804c-fbd50d30a5dd</itemGUID>			
-		</m_items>
 		<m_items> <!-- Rave Mask -->	
 			<itemGUID>cc7271d0-fe26-443c-ae9f-1cc260e231b9</itemGUID>
-		</m_items>
-		<m_items> <!-- Wig with Highlights -->	
-			<itemGUID>2fb65117-0609-4d55-977f-29f599912b4c</itemGUID>
-		</m_items>			
+		</m_items>		
 		<m_items> <!-- Headphones-->
 			<itemGUID>b1804dde-2155-4c47-9189-f027d0f2f38f</itemGUID>
 			<subItems>
@@ -10954,8 +10948,7 @@
 		<m_items> <!-- TrousersMesh_Rave -->
 			<itemGUID>10246bb3-cdb5-41f2-97b6-fc241f7ee511</itemGUID>				
 		</m_items>
-		<m_items> <!-- StockingsBlack -->
-			<probability>0.3</probability>			
+		<m_items> <!-- StockingsBlack -->	
 			<itemGUID>00ae3ec3-4b6b-484c-9edd-501339307b45</itemGUID>
 			<subItems> <!-- StockingsBlackSemiTrans -->
 				<itemGUID>6ba314a1-43c6-4240-b313-0ba75fb2ca6c</itemGUID>
@@ -10966,7 +10959,10 @@
 			<subItems> <!-- Socks_Long_StockingsBlack -->
 				<itemGUID>1c08ec23-70aa-4e3d-8848-138af25542c6</itemGUID>
 			</subItems>				
-		</m_items>		
+		</m_items>	
+		<m_items> <!-- Wig with Highlights -->	
+			<itemGUID>2fb65117-0609-4d55-977f-29f599912b4c</itemGUID>
+		</m_items>			
 		<m_items>  <!-- Sneakers-->
 			<itemGUID>6fed6e2b-3a72-4bac-aac5-09585984493d</itemGUID>			
 			<subItems> <!-- High Top Sneakers-->
@@ -10986,7 +10982,7 @@
 			</subItems>			
 		</m_items>
 		<m_items> <!-- Earrings -->
-			<probability>0.1</probability>
+			<probability>0.3</probability>
 			<itemGUID>7c3a8a34-9ffa-42e0-83f4-55088f99d8a4</itemGUID>
 			<subItems>
 				<itemGUID>497a8849-6914-40fb-b3a6-9e01629e3e8b</itemGUID>
@@ -11023,7 +11019,7 @@
 			</subItems>
 		</m_items>
 		<m_items> <!-- Necklace -->
-			<probability>0.1</probability>
+			<probability>0.3</probability>
 			<itemGUID>b53aaf11-929c-4506-8310-e9b26d5f20eb</itemGUID>
 			<subItems>
 				<itemGUID>3cac5469-f9d2-4462-8fb2-063be1b63450</itemGUID>
@@ -11039,7 +11035,7 @@
 			</subItems>
 		</m_items>
 		<m_items> <!-- Rings -->
-			<probability>0.1</probability>
+			<probability>0.4</probability>
 			<itemGUID>4cbb081e-0e9a-4248-bec1-0aa226e082e1</itemGUID>
 			<subItems>
 				<itemGUID>c6dd113b-3d04-4833-9f38-8e9840741c0c</itemGUID>
@@ -11055,7 +11051,7 @@
 			</subItems>
 		</m_items>
 		<m_items> <!-- Bracelets -->
-			<probability>0.1</probability>
+			<probability>0.6</probability>
 			<itemGUID>356869e4-1727-489f-8cc3-e7a16e76c137</itemGUID>
 			<subItems>
 				<itemGUID>582f29b1-29b3-468c-87fe-263b043e1443</itemGUID>
