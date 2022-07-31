@@ -103,8 +103,6 @@ objects = {
   { name = "ParkPlaza", type = "ZombiesType", x = 14100, y = 2748, z = 0, width = 45, height = 56},
   { name = "ParkPlaza", type = "ZombiesType", x = 13410, y = 1720, z = 0, width = 29, height = 29},
   { name = "StreetSports", type = "ZombiesType", x = 13235, y = 2709, z = 0, width = 15, height = 21},--LV Central Park
-
-  { name = "TattooShop", type = "ZombiesType", x = 13250, y = 1273, z = 0, width = 5, height = 20},--LV 
  
   { name = "CrossroadsMall", type = "ZombiesType", x = 13512, y = 1257, z = 0, width = 113, height = 148},
   { name = "CrossroadsMall", type = "ZombiesType", x = 13512, y = 1257, z = 2, width = 113, height = 148},

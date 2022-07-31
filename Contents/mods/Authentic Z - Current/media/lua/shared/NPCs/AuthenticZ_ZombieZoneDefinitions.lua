@@ -1198,7 +1198,7 @@ ZombiesZoneDefinition.MovieNight2 = {
 	},	
 }
 
-ZombiesZoneDefinition.NiteGlow = {
+ZombiesZoneDefinition.Nightclub = {
 	AuthenticNightClub = {
 		name="AuthenticNightClub",
 		chance=15,
