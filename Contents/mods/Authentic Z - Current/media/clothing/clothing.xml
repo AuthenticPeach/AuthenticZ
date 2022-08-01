@@ -9801,7 +9801,7 @@
 			<probability>0.2</probability>		
 			<itemGUID>5c4e5d70-62c6-45fd-804c-fbd50d30a5dd</itemGUID>
 			<subItems> <!-- Wig with Highlights -->
-				<itemGUID>2fb65117-0609-4d55-977f-29f599912b4c</itemGUID>
+				<itemGUID>ae7493fd-8114-4493-819e-21f085429ab9</itemGUID>
 			</subItems>				
 		</m_items>
 		<m_items> <!-- Rave Mask -->
@@ -10961,7 +10961,7 @@
 			</subItems>				
 		</m_items>	
 		<m_items> <!-- Wig with Highlights -->	
-			<itemGUID>2fb65117-0609-4d55-977f-29f599912b4c</itemGUID>
+			<itemGUID>ae7493fd-8114-4493-819e-21f085429ab9</itemGUID>
 		</m_items>			
 		<m_items>  <!-- Sneakers-->
 			<itemGUID>6fed6e2b-3a72-4bac-aac5-09585984493d</itemGUID>			
