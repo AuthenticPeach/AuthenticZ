@@ -118,7 +118,8 @@ module AuthenticZClothing {
         Type = Clothing,
         DisplayName = Leather Jacket,
         ClothingItem = Fat03_JacketLeather,
-		
+        ClothingItemExtra = Jacket_Black,
+        ClothingItemExtraOption = Tighten,		
         BodyLocation = Jacket,
         IconsForTexture = JacketBlack;JacketBlack;JacketBlack,
         BloodLocation = Jacket,
@@ -573,6 +574,8 @@ module AuthenticZClothing {
         Type = Clothing,
         DisplayName = Knee-length Skirt,
         ClothingItem = Fat03_Skirt_Knees,
+        ClothingItemExtra = Skirt_Knees,
+        ClothingItemExtraOption = Tighten,		
         BodyLocation = Skirt,
         Icon = SkirtGeneric,
         BloodLocation = ShortsShort,

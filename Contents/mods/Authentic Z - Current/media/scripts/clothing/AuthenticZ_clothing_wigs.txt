@@ -314,7 +314,6 @@ module AuthenticZClothing {
         WorldStaticModel = WorldItem_Wig_Rachel,		
     }	
 	
-	
     item Hairstyle_Pennywise
     {
        DisplayCategory = Accessory,		

@@ -6,5 +6,6 @@
 	<m_Static>false</m_Static>
 	<m_AllowRandomTint>true</m_AllowRandomTint>
 	<m_AttachBone></m_AttachBone>
+	<m_Masks>2</m_Masks>	
 	<textureChoices>clothes\dress_textures\skirtsmall</textureChoices>
 </clothingItem>

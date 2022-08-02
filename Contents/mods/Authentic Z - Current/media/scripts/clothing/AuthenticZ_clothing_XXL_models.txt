@@ -366,7 +366,8 @@ module AuthenticZClothing {
         Type = Clothing,
         DisplayName = Knee-length Dress,
         ClothingItem = Fat02_Dress_Knees,
-	
+        ClothingItemExtra = Dress_Knees,
+        ClothingItemExtraOption = Tighten,		
         BodyLocation = Dress,
         BloodLocation = ShortsShort;Shirt,
         Icon = DressShortWhite,
@@ -382,7 +383,8 @@ module AuthenticZClothing {
         Type = Clothing,
         DisplayName = Straps Knee-length Dress,
         ClothingItem = Fat02_DressKnees_Straps,
-	
+        ClothingItemExtra = DressKnees_Straps,
+        ClothingItemExtraOption = Tighten,		
         BodyLocation = Dress,
         BloodLocation = ShortsShort;Shirt,
         Icon = DressGeneric,
@@ -398,7 +400,8 @@ module AuthenticZClothing {
          Type = Clothing,
          DisplayName = Strapless Small Dress,
          ClothingItem = Fat02_Dress_SmallStrapless,
-		 
+         ClothingItemExtra = Dress_SmallStrapless,
+         ClothingItemExtraOption = Tighten,			 
          BodyLocation = Dress,
          BloodLocation = ShortsShort;Shirt,
          Icon = DressGenericStrapless,
@@ -414,7 +417,8 @@ module AuthenticZClothing {
          Type = Clothing,
          DisplayName = Straps Small Dress,
          ClothingItem = Fat02_Dress_SmallStraps,
-			 
+         ClothingItemExtra = Dress_SmallStraps,
+         ClothingItemExtraOption = Tighten,			 
          BodyLocation = Dress,
          BloodLocation = ShortsShort;Shirt,
          Icon = DressGeneric,
@@ -430,7 +434,8 @@ module AuthenticZClothing {
         Type = Clothing,
         DisplayName = Satin Negligee,
         ClothingItem = Fat02_Dress_SatinNegligee,
-		
+        ClothingItemExtra = Dress_SatinNegligee,
+        ClothingItemExtraOption = Tighten,		
         BodyLocation = Dress,
         BloodLocation = ShortsShort;Shirt,
         Icon = NegligeeGeneric,
@@ -446,7 +451,8 @@ module AuthenticZClothing {
         Type = Clothing,
         DisplayName = Long Dress,
         ClothingItem = Fat02_Dress_Long,
-	
+        ClothingItemExtra = Dress_Long,
+        ClothingItemExtraOption = Tighten,	
         BodyLocation = Dress,
         BloodLocation = Trousers;Shirt,
         Icon = DressLongWhite,
@@ -463,7 +469,8 @@ module AuthenticZClothing {
         Type = Clothing,
         DisplayName = Long Dress,
         ClothingItem = Fat02_Dress_long_Straps,
-		
+        ClothingItemExtra = Dress_long_Straps,
+        ClothingItemExtraOption = Tighten,		
         BodyLocation = Dress,
         BloodLocation = Trousers;Shirt,
         Icon = DressGeneric,
@@ -480,7 +487,8 @@ module AuthenticZClothing {
         Type = Clothing,
         DisplayName = Dress,
         ClothingItem = Fat02_Dress_Normal,
-		
+        ClothingItemExtra = Dress_Normal,
+        ClothingItemExtraOption = Tighten,		
         BodyLocation = Dress,
         BloodLocation = Trousers;Shirt,
         Icon = DressMediumWhite,
@@ -497,7 +505,8 @@ module AuthenticZClothing {
         Type = Clothing,
         DisplayName = Straps Dress,
         ClothingItem = Fat02_Dress_Straps,
-		
+        ClothingItemExtra = Dress_Straps,
+        ClothingItemExtraOption = Tighten,		
         BodyLocation = Dress,
         BloodLocation = Trousers;Shirt,
         Icon = DressGeneric,
@@ -514,7 +523,8 @@ module AuthenticZClothing {
         Type = Clothing,
         DisplayName = Short Dress,
         ClothingItem = Fat02_Dress_Short,
-	
+        ClothingItemExtra = Dress_Short,
+        ClothingItemExtraOption = Tighten,	
         BodyLocation = Dress,
         BloodLocation = ShortsShort;Shirt,
         Icon = DressShortWhite,
@@ -530,7 +540,8 @@ module AuthenticZClothing {
         Type = Clothing,
         DisplayName = Knee-length Skirt,
         ClothingItem = Fat02_Skirt_Knees,
-		
+        ClothingItemExtra = Skirt_Knees,
+        ClothingItemExtraOption = Tighten,		
         BodyLocation = Skirt,
         Icon = SkirtGeneric,
         BloodLocation = ShortsShort,
@@ -546,7 +557,8 @@ module AuthenticZClothing {
         Type = Clothing,
         DisplayName = Long Skirt,
         ClothingItem = Fat02_Skirt_Long,
-		
+        ClothingItemExtra = Skirt_Long,
+        ClothingItemExtraOption = Tighten,		
         BodyLocation = Skirt,
         Icon = SkirtLongWhite,
         BloodLocation = Trousers,
@@ -563,7 +575,8 @@ module AuthenticZClothing {
         Type = Clothing,
         DisplayName = Skirt,
         ClothingItem = Fat02_Skirt_Normal,
-			
+        ClothingItemExtra = Skirt_Normal,
+        ClothingItemExtraOption = Tighten,			
         BodyLocation = Skirt,
         Icon = SkirtGeneric,
         BloodLocation = Trousers,
@@ -580,7 +593,8 @@ module AuthenticZClothing {
         Type = Clothing,
         DisplayName = Short Skirt,
         ClothingItem = Fat02_Skirt_Short,
-		
+        ClothingItemExtra = Skirt_Short,
+        ClothingItemExtraOption = Tighten,			
         BodyLocation = Skirt,
         Icon = SkirtGeneric,
         BloodLocation = ShortsShort,
