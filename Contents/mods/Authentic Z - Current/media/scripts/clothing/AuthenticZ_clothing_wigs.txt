@@ -297,7 +297,7 @@ module AuthenticZClothing {
     {
         DisplayCategory = Clothing,
         Type = Clothing,
-        DisplayName = Hairstyle,				
+/*        DisplayName = Hairstyle,		*/			
         ClothingItem = AZ_HairStyle33,
         BodyLocation = Hat,
         Icon = Wig,
@@ -311,6 +311,7 @@ module AuthenticZClothing {
         ClothingItem = AZ_HairStyle34,
         BodyLocation = Hat,
         IconsForTexture = WigBlackPinkHighlights;WigBlackBlueHighlights;WigBlackPurpleHighlights,
+        WorldStaticModel = WorldItem_Wig_Rachel,		
     }	
 	
 	

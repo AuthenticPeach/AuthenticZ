@@ -341,23 +341,6 @@ module AuthenticZClothing {
         WorldStaticModel = Dress_Knees_Straps_Ground,
 		Tooltip = Tooltip_SizeXL,		
     }
-    item Fat01_Dress_SmallBlackStraps
-    {
-        DisplayCategory = Clothing,
-        Type = Clothing,
-        DisplayName = Little Black Dress,
-        ClothingItem = Fat01_Dress_SmallBlackStraps,
-        ClothingItemExtra = Dress_SmallBlackStraps,
-        ClothingItemExtraOption = Tighten,		
-        BodyLocation = Dress,
-        BloodLocation = ShortsShort;Shirt,
-        Icon = LittleBlackDress,
-        Insulation = 0.15,
-        WindResistance = 0.1,
-        FabricType = Cotton,
-        WorldStaticModel = Dress_Small_Black_Straps_Ground,
-		Tooltip = Tooltip_SizeXL,		
-    }
      item Fat01_Dress_SmallStrapless
      {
          DisplayCategory = Clothing,

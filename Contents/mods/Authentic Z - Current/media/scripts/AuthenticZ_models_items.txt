@@ -1433,6 +1433,10 @@ module Base
 		mesh = WorldItems/WorldItem_TrueEyeCultMask,
 		texture = clothes\Masks\TrueEyeCult,
     }
+	model WorldItem_Wig_Rachel
+    {
+		mesh = WorldItems/WorldItem_Wig_Rachel,
+    }	
 	model WorldItem-Witchy2Hat
     {
 		mesh = WorldItems/WorldItem_WitchyHat2,
