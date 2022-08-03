@@ -21,7 +21,7 @@ module AuthenticZLite {
        DisplayCategory = Accessory,		
 		Type = Clothing,
 		DisplayName = Shells Ammo Strap,
-		ClothingItem = AmmoStrap_Shells1,
+		ClothingItem = AmmoStrap_Shells2,
 		BodyLocation = AmmoStrap,
 		ClothingItemExtra = AuthenticZLite.AmmoStrap_Shells2,
         ClothingItemExtraOption = SwapSides,				
@@ -156,7 +156,7 @@ module AuthenticZLite {
 		ClothingItemExtra 		= AuthenticZLite.Authentic_Headphones2,
         ClothingItemExtraOption = WearHead,		
 		BodyLocation 			= Necklace_Long,
-		IconsForTexture  		= HeadphonesBlack;HeadphonesBlackSpecial;HeadphonesBlue;HeadphonesBrightPink;HeadphonesGold;HeadphonesGreen;HeadphonesLightBlue;HeadphonesLightBlueSpecial;HeadphonesPink;HeadphonesPurple;HeadphonesRose;HeadphonesSeaGreenl;HeadphonesWhite;HeadphonesWhiteSpecial,
+		IconsForTexture  		= HeadphonesBlack;HeadphonesBlackSpecial;HeadphonesBlue;HeadphonesBrightPink;HeadphonesGold;HeadphonesGreen;HeadphonesLightBlue;HeadphonesLightBlueSpecial;HeadphonesPink;HeadphonesPurple;HeadphonesRose;HeadphonesSeaGreen;HeadphonesWhite;HeadphonesWhiteSpecial,
 		Weight 					= 0.3,
 		ChanceToFall 			= 25,
 		WorldStaticModel 		= WorldItem_HeadPhones,
@@ -263,6 +263,58 @@ module AuthenticZLite {
 		Weight = 0.7,
 		WorldStaticModel = WorldItem-DSLR,
 	}
+
+	item CameraDSLR
+	{
+       DisplayCategory = Clothing,		
+		Type = Clothing,
+		DisplayName = Frank West's DSLR,
+		ClothingItem = CameraDSLR,
+		BodyLocation = Necklace,
+		Icon = DSLRCamera,
+		Weight = 0.7,
+		WorldStaticModel = WorldItem-DSLR,
+        Tags                = Camera,		
+	}
+	
+    item CameraAZ
+    {
+        DisplayCategory 	= Clothing,
+        Type				= Clothing,
+        DisplayName			= Camera,
+		ClothingItem 		= CameraVanillaRegular,
+		BodyLocation 		= Necklace,		
+        Icon				= Camera,
+        Weight				= 0.2,
+        WorldStaticModel    = Camera_Ground,
+        Tags                = Camera,
+    }
+
+    item CameraDisposableAZ
+    {
+        DisplayCategory 	= Clothing,
+        Type				= Clothing,
+        DisplayName			= Disposable Camera,
+		ClothingItem 		= CameraVanillaDisposible,	
+		BodyLocation 		= Necklace,		
+        Icon				= CameraDisposable,
+        Weight				= 0.2,
+        WorldStaticModel    = CameraDisposable_Ground,
+        Tags                = Camera,
+    }
+
+    item CameraExpensiveAZ
+    {
+        DisplayCategory 	= Clothing,
+        Type				= Clothing,
+        DisplayName			= High-end Camera,
+		ClothingItem 		= CameraVanillaExpensive,
+		BodyLocation 		= Necklace,		
+        Icon				= CameraExpensive,
+        Weight				= 0.3,
+        WorldStaticModel    = CameraExpensive_Ground,
+        Tags                = Camera,
+    }
 	
 	item Cigarette
 	{
@@ -300,7 +352,7 @@ module AuthenticZLite {
 		Weight = 0.1,
 		Cosmetic = TRUE,
 		ChanceToFall = 25,
-		WorldStaticModel = WorldItem-ClownNose,		
+		WorldStaticModel = WorldItem-ClownNose,
 	}		
 	item ClownTop
 	{
@@ -322,13 +374,39 @@ module AuthenticZLite {
 	}
 	item ClownTopWhite
 	{
-       DisplayCategory = Clothing,		
-		Type = Clothing,
-		DisplayName = Clown Top,
-		ClothingItem = ClownTopWhite,
-		BodyLocation = TorsoExtraPlus1,
-		Icon = ClownTop_White,
-	}	
+        DisplayCategory = Clothing,		
+		Type 			= Clothing,
+		DisplayName 	= Clown Top,
+		ClothingItem 	= ClownTopWhite,
+		BodyLocation 	= TorsoExtraPlus1,
+		Icon 			= ClownTop_White,
+	}
+	item CrutchLEFT
+	{
+        DisplayCategory 		= Clothing,		
+		Type 					= Clothing,
+		DisplayName 			= Crutch (Left),
+		ClothingItem 			= CrutchLEFT,
+		ClothingItemExtra		= AuthenticZLite.CrutchRIGHT,
+        ClothingItemExtraOption = SwapSides,			
+		BodyLocation 			= TorsoExtraPlus1,
+		Icon 					= CrutchAZ,
+		Weight 					= 1,
+		WorldStaticModel		= WorldItem-CrutchAZ,	
+	}		
+	item CrutchRIGHT
+	{
+        DisplayCategory 		= Clothing,		
+		Type 					= Clothing,
+		DisplayName 			= Crutch (Right),
+		ClothingItem 			= CrutchRIGHT,
+		ClothingItemExtra		= AuthenticZLite.CrutchLEFT,
+        ClothingItemExtraOption = SwapSides,			
+		BodyLocation 			= TorsoExtra,
+		Icon 					= CrutchAZ,
+		Weight 					= 1,
+		WorldStaticModel		= WorldItem-CrutchAZ,	
+	}		
 	item CultistRobe
     	{
         DisplayCategory = Clothing,
@@ -397,7 +475,20 @@ module AuthenticZLite {
 		Weight = 0.1,
 		Cosmetic = TRUE,
 		ChanceToFall = 50,
-	}		
+	}
+	item Glasses_Cheese
+	{
+       DisplayCategory = Accessory,		
+		Type = Clothing,
+		DisplayName = Screen Glasses,
+		ClothingItem = Glasses_Cheese,
+		BodyLocation = Eyes,
+		Icon = GlassesBlack,
+		Weight = 0.1,
+		Cosmetic = TRUE,
+		ChanceToFall = 50,
+		WorldStaticModel = WorldItem_GlassesCheese,		
+	}	
 	item Glasses_ReadingBlack
 	{
        DisplayCategory = Accessory,		
@@ -491,7 +582,7 @@ module AuthenticZLite {
         WindResistance = 1.0,
         FabricType = Denim,
         WorldStaticModel = OvenMitt_Ground,		
-	}		
+	}	
 	item Gloves_Black
 	{
        DisplayCategory = Clothing,		
@@ -621,7 +712,7 @@ module AuthenticZLite {
         WindResistance = 0.5,
         FabricType = Cotton,
         WorldStaticModel = GlovesLong_Ground,
-	}	
+	}
 	item Hat_EarMuffs_AZ
 	{
 	    DisplayCategory = Accessory,
@@ -689,7 +780,7 @@ module AuthenticZLite {
         Insulation = 0.35,
         WindResistance = 0.35,
         Weight = 0.3,
-    }		
+    }	
 	item Hairstyle_Afro_Pick
 	{
        DisplayCategory    = Accessory,		
@@ -724,14 +815,7 @@ module AuthenticZLite {
 		IconsForTexture   = CurlersBlue;CurlersGreen;CurlersPink;CurlersPurple,
 		Weight 			  = 0.05,
         WorldStaticModel  = WorldItem_HairCurlers,			
-	}		
-    item Hairstyle_Pennywise
-    {
-       DisplayCategory = Accessory,		
-		Type = Clothing,
-		ClothingItem = Hairstyle_Pennywise,
-		BodyLocation = Hat,
-    }
+	}	
 	item InflatableTube_AZ
 	{
 		DisplayCategory = Clothing,		
@@ -840,6 +924,23 @@ module AuthenticZLite {
 		Cosmetic = TRUE,
 		WorldStaticModel = WorldItem_DimitrescuRose,		
 	}
+	item RaveMask
+    {
+		DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Rave Mask,
+		ClothingItem = Mask_Rave,
+		BodyLocation = MaskEyes,
+		IconsForTexture = RaveMask_White;RaveMask_Green;RaveMask_Pink;RaveMask_Blue,
+		CanHaveHoles = false,
+		BloodLocation = Head,
+        BiteDefense = 30,
+        ScratchDefense = 50,
+        Insulation = 0.15,
+        WindResistance = 0.5,
+		ChanceToFall = 20,
+		WorldStaticModel = WorldItem_RaveMask,
+    }	
     item Scarf_Black
     {
        DisplayCategory = Accessory,		
@@ -999,7 +1100,7 @@ module AuthenticZLite {
         Type = Clothing,
         ClothingItem =  Tattoo_Wally,
         BodyLocation = LeftWrist,
-    }	
+    }
 	item Tie_Big_Long
     {
         DisplayCategory = Accessory,	
@@ -1010,7 +1111,7 @@ module AuthenticZLite {
         Icon = TieMulticolour,
         Weight = 0.1,
 		WorldStaticModel = Tie_Ground,
-    }		
+    }	
 	item Tie_Full_BlueSpy
     {
         DisplayCategory = Accessory,	
@@ -1052,6 +1153,17 @@ module AuthenticZLite {
         ClothingItem = Tie_Full_Red,
         BodyLocation = Neck,
         Icon = TieRed,
+        Weight = 0.1,
+		WorldStaticModel = Tie_Ground,
+    }
+	item Tie_Full_White
+    {
+        DisplayCategory = Accessory,	
+        Type = Clothing,
+        DisplayName = White Tie,
+        ClothingItem = Tie_Full_White,
+        BodyLocation = Neck,
+        Icon = TieWhite,
         Weight = 0.1,
 		WorldStaticModel = Tie_Ground,
     }	
@@ -1116,8 +1228,8 @@ module AuthenticZLite {
 		Type = Clothing,
 		DisplayName = Impaled Spikes,		
 		ClothingItem = Winslow_Spikes,
-		BodyLocation = Necklace,
-		Icon = Knife_Edge,		
+		BodyLocation = Necklace_Long,
+		Icon = Knife_Edge,			
     }	
     item Wood_Chunk_1
     {
@@ -1131,7 +1243,7 @@ module AuthenticZLite {
         DisplayCategory = Junk,		
         Type = Clothing,
         ClothingItem =  Arm_LeftBone,
-        BodyLocation = Necklace_Long,
+        BodyLocation = Necklace,
     }
     item Arm_LeftHandBone
     {

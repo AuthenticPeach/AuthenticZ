@@ -47,6 +47,22 @@ module AuthenticZLite {
         WindResistance 	 = 0.35,
         FabricType 		 = Leather,
 		WorldStaticModel = BoilerSuit_Ground,
+    }
+    item Boilersuit_ClownSuit
+    {
+       DisplayCategory = Clothing,			
+        Type = Clothing,
+        DisplayName = Clown Coveralls,
+        ClothingItem = Boilersuit_ClownSuit,
+        BodyLocation = FullSuit,
+        Icon = BoilerSuitCrossingGuard,
+        BloodLocation = Trousers;Jumper,
+        RunSpeedModifier = 0.9,
+        ScratchDefense = 10,
+        Insulation = 0.45,
+        WindResistance = 0.35,
+        FabricType = Cotton,
+		WorldStaticModel = BoilerSuit_Ground,
     }	
     item Boilersuit_CrossingGuard
     {
@@ -195,6 +211,22 @@ module AuthenticZLite {
         FabricType = Denim,
 		WorldStaticModel = BoilerSuit_Ground,
     }
+    item Boilersuit_Wrinkles
+    {
+        DisplayCategory = Clothing,			
+        Type = Clothing,
+        DisplayName = Clown Coveralls,
+        ClothingItem = Boilersuit_Wrinkles,
+        BodyLocation = FullSuit,
+        Icon = BoilerSuitCrossingGuard,
+        BloodLocation = Trousers;Jumper,
+        RunSpeedModifier = 0.9,
+        ScratchDefense = 10,
+        Insulation = 0.45,
+        WindResistance = 0.35,
+        FabricType = Cotton,
+		WorldStaticModel = BoilerSuit_Ground,
+    }		
     item BunnyTail
     {
         DisplayCategory = Clothing,			

@@ -669,6 +669,23 @@ module AuthenticZLite {
         FabricType = Denim,
         WorldStaticModel = Trousers_Ground,		
     }
+    item TrousersMesh_Rave
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = One-Legged Leather Pants,
+        ClothingItem = TrousersMesh_Rave,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = LongjohnsBlackLeggings,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        RunSpeedModifier = 0.98,
+        Insulation = 0.25,
+        WindResistance = 0.20,
+        FabricType = Leather,
+        WorldStaticModel = Trousers_Ground,
+    }	
     item Trousers_JeanDark
     {
        DisplayCategory = Clothing,		

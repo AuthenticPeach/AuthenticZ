@@ -36,7 +36,7 @@ module AuthenticZLite {
 		Type = Clothing,
 		DisplayName = Cigar,
 		ClothingItem = CigarAZ,
-		BodyLocation = Necklace,
+		BodyLocation = Mask,
 		Icon = CigarAZ,
 		ChanceToFall = 40,
         Weight = 0.1,
@@ -835,7 +835,22 @@ module AuthenticZLite {
         WindResistance = 0.1,
         Weight = 0.5,
 		WorldStaticModel = WorldItem_Boater_Ground_Red,
-    	}
+    }
+	item Hat_Boater_Small
+	{
+	    DisplayCategory = Accessory,	
+		Type = Clothing,
+		DisplayName = Small Boater,
+		ClothingItem = Hat_Boater_Small,
+		BodyLocation = Hat,
+		IconsForTexture = BoaterBlue;BoaterGreen;BoaterPurple;BoaterRed;BoaterYellow,
+		ChanceToFall = 80,
+        BloodLocation = Head,
+        Insulation = 0.15,
+        WindResistance = 0.1,
+        Weight = 0.4,
+		WorldStaticModel = WorldItem_SmallBoater,
+    }			
 	item Hat_Boater_Yellow
 	{
 	    DisplayCategory = Accessory,	
@@ -851,6 +866,21 @@ module AuthenticZLite {
         Weight = 0.5,
 		WorldStaticModel = WorldItem_Boater_Ground_Yellow,
     }
+	item Hat_CaptainSkipper
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Captain's Cap,
+		ClothingItem = Hat_CaptainSkipper,
+		BodyLocation = Hat,
+		Icon = SkipperHat,
+		ChanceToFall = 40,
+        BloodLocation = Head,
+        Insulation = 0.15,
+        WindResistance = 0.1,
+        Weight = 0.5,
+		WorldStaticModel = WorldItem_CaptainsHat,		
+	}	
    item Hat_CheeseHat
     {
 	    DisplayCategory = Accessory,	
@@ -891,7 +921,7 @@ module AuthenticZLite {
         Insulation = 0.10,
         Weight = 0.5,
 		WorldStaticModel = WorldItem-ClownConeHat,
-    }	
+    }
 	item CultistHat
     {
         DisplayCategory = Accessory,
@@ -922,6 +952,14 @@ module AuthenticZLite {
         WindResistance = 0.2,
         BloodLocation = Head,
 	}	
+	item Hat_DeathMask
+	{
+		Type = Clothing,
+		ClothingItem = Hat_DeathMask,
+		BodyLocation = MaskEyes,
+		BloodLocation = Head,
+		OBSOLETE = TRUE,
+	}
 	item Hat_Dimitrescu
 	{
 	    DisplayCategory = Accessory,	
@@ -983,6 +1021,20 @@ module AuthenticZLite {
 		CanHaveHoles = false,
 		ChanceToFall = 80,
 		Weight = 0.3,
+	}
+	item Hat_FedoraWhite
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = White Fedora,
+		ClothingItem = Hat_FedoraWhite,
+		BodyLocation = Hat,
+		Icon = FedoraWhite,
+		ChanceToFall = 40,
+        BloodLocation = Head,
+        Insulation = 0.15,
+        WindResistance = 0.1,
+        Weight = 0.5,
 	}	
 	item Hat_FootballHelmet_BlueStar
 	{
@@ -991,7 +1043,7 @@ module AuthenticZLite {
 		DisplayName = Football Helmet,
 		ClothingItem = Hat_FootballHelmet_BlueStar,
 		BodyLocation = FullHat,
-		IconsForTexture = HelmetFootballBlue,
+		Icon = HelmetFootballBlue,
 		BloodLocation = FullHelmet,
 		CanHaveHoles = false,
 		CombatSpeedModifier = 0.95,
@@ -1010,7 +1062,7 @@ module AuthenticZLite {
 		DisplayName = Chiefs Football Helmet,
 		ClothingItem = Hat_FootballHelmet_Chiefs,
 		BodyLocation = FullHat,
-		IconsForTexture = HelmetFootballRedder,
+		Icon = HelmetFootballRedder,
 		BloodLocation = FullHelmet,
 		CanHaveHoles = false,
 		CombatSpeedModifier = 0.95,
@@ -1029,7 +1081,7 @@ module AuthenticZLite {
 		DisplayName = Packers Football Helmet,
 		ClothingItem = Hat_FootballHelmet_Packers,
 		BodyLocation = FullHat,
-		IconsForTexture = HelmetFootballGreenBay,
+		Icon = HelmetFootballGreenBay,
 		BloodLocation = FullHelmet,
 		CanHaveHoles = false,
 		CombatSpeedModifier = 0.95,
@@ -1048,7 +1100,7 @@ module AuthenticZLite {
 		DisplayName = Football Helmet,
 		ClothingItem = Hat_FootballHelmet_RedSkull,
 		BodyLocation = FullHat,
-		IconsForTexture = HelmetFootballRed,
+		Icon = HelmetFootballRed,
 		BloodLocation = FullHelmet,
 		CanHaveHoles = false,
 		CombatSpeedModifier = 0.95,
@@ -1207,7 +1259,8 @@ module AuthenticZLite {
         Insulation = 0.45,
         WindResistance = 0.65,
         WaterResistance = 1.0,
-		WorldStaticModel = WorldItem-KilaHelmet,		
+		WorldStaticModel = WorldItem-KilaHelmet,
+		Tags = WeldingMask,			
 	}
 	item Hat_LeatherFace
 	{
@@ -1252,6 +1305,7 @@ module AuthenticZLite {
        	ScratchDefense = 50,
         Insulation = 0.25,
         WindResistance = 0.55,
+		WorldStaticModel = WorldItem_MichaelMyersMask,		
 	}
 	item Hat_HardHat_Miner2
 	{
@@ -1282,6 +1336,20 @@ module AuthenticZLite {
         Insulation = 0.10,
         Weight = 0.5,
     }
+    item Hat_PyromancerSkull
+	{
+	    DisplayCategory = Accessory,	
+        Type 			 = Clothing,
+        DisplayName 	 = Steer Skull,
+        ClothingItem 	 = Hat_PyromancerSkull,
+        BodyLocation 	 = Hat,
+        Icon 			 = SteerSkull,
+        CanHaveHoles 	 = false,
+        ChanceToFall 	 = 80,
+        Insulation 		 = 0.10,
+        Weight 			 = 0.5,
+		WorldStaticModel = WorldItem_PyromancerSkull,
+    }	
     item Hat_RuneDuel
     {
 	    DisplayCategory  = Accessory,	
@@ -1503,7 +1571,8 @@ module AuthenticZLite {
         WindResistance = 0.55,
         WaterResistance = 1.0,
         WorldStaticModel = WorldItem-TagillaHelmet,
-		Tooltip = Tooltip_TagillaHelmet,		
+		Tooltip = Tooltip_TagillaHelmet,
+		Tags = WeldingMask,		
 	}
 	item Hat_TagillaMask2
 	{
@@ -1520,7 +1589,8 @@ module AuthenticZLite {
         Insulation = 0.25,
         WindResistance = 0.55,
         WaterResistance = 1.0,
-        WorldStaticModel = WorldItem-TagillaHelmetGorilla,			
+        WorldStaticModel = WorldItem-TagillaHelmetGorilla,
+		Tags = WeldingMask,		
 	}	
 	item Hat_TrueEyeCult
 	{
@@ -1560,7 +1630,7 @@ module AuthenticZLite {
 		Type = Clothing,
 		DisplayName = Blue Wedding Veil,
 		ClothingItem = Hat_WeddingVeilBlue,
-        ClothingItemExtra = AuthenticZClothing.Hat_WeddingVeilBlue_Front,
+        ClothingItemExtra = AuthenticZLite.Hat_WeddingVeilBlue_Front,
         ClothingItemExtraOption = PullVeilForward,		
 		BodyLocation = Hat,
 		Icon = VeilWeddingBlue,
@@ -1575,7 +1645,7 @@ module AuthenticZLite {
 		Type = Clothing,
 		DisplayName = Wedding Veil (Down),
 		ClothingItem = Hat_WeddingVeilBlue_Front,
-        ClothingItemExtra = AuthenticZClothing.Hat_WeddingVeilBlue,
+        ClothingItemExtra = AuthenticZLite.Hat_WeddingVeilBlue,
         ClothingItemExtraOption = PullVeilBack,		
 		BodyLocation = Hat,
 		Icon = VeilWeddingBlue,
@@ -1590,7 +1660,7 @@ module AuthenticZLite {
 		Type = Clothing,
 		DisplayName = Wedding Veil,
 		ClothingItem = Hat_WeddingVeil,
-        ClothingItemExtra = AuthenticZClothing.Hat_WeddingVeil_Front,
+        ClothingItemExtra = AuthenticZLite.Hat_WeddingVeil_Front,
         ClothingItemExtraOption = PullVeilForward,		
 		BodyLocation = Hat,
 		Icon = VeilWedding,
@@ -1605,7 +1675,7 @@ module AuthenticZLite {
 		Type = Clothing,
 		DisplayName = Wedding Veil (Down),
 		ClothingItem = Hat_WeddingVeil_Front,
-        ClothingItemExtra = AuthenticZClothing.Hat_WeddingVeil_AZ,
+        ClothingItemExtra = AuthenticZLite.Hat_WeddingVeil_AZ,
         ClothingItemExtraOption = PullVeilBack,		
 		BodyLocation = Hat,
 		Icon = VeilWedding,
@@ -1620,7 +1690,7 @@ module AuthenticZLite {
 		Type = Clothing,
 		DisplayName = Pink Wedding Veil,
 		ClothingItem = Hat_WeddingVeilPink,
-        ClothingItemExtra = AuthenticZClothing.Hat_WeddingVeilPink_Front,
+        ClothingItemExtra = AuthenticZLite.Hat_WeddingVeilPink_Front,
         ClothingItemExtraOption = PullVeilForward,		
 		BodyLocation = Hat,
 		Icon = VeilWeddingPink,
@@ -1635,7 +1705,7 @@ module AuthenticZLite {
 		Type = Clothing,
 		DisplayName = Pink Wedding Veil (Down),
 		ClothingItem = Hat_WeddingVeilPink_Front,
-        ClothingItemExtra = AuthenticZClothing.Hat_WeddingVeilPink,
+        ClothingItemExtra = AuthenticZLite.Hat_WeddingVeilPink,
         ClothingItemExtraOption = PullVeilBack,		
 		BodyLocation = Hat,
 		Icon = VeilWeddingPink,
@@ -1711,7 +1781,7 @@ module AuthenticZLite {
         Insulation = 0.10,
         Weight = 0.5,
 		WorldStaticModel = WorldItem-WrinklesMask,
-    }		
+    }			
 	item Hat_WoolyHatWaldo
 	{
 	    DisplayCategory = Accessory,	

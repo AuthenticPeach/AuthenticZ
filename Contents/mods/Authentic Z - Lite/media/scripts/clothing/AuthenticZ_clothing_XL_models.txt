@@ -1,7 +1,7 @@
 module AuthenticZClothing {
   imports {
       Base
-  }	
+	}	
 	item Fat01_AmmoStrap
 	{
        DisplayCategory = Clothing,		
@@ -14,8 +14,8 @@ module AuthenticZClothing {
 		Icon = AmmoStrapFlipped,
 		Tooltip = Tooltip_AmmoStrap,
 		WorldStaticModel = AmmoStrap_Ground,			
+		OBSOLETE 			= TRUE,
 	}
-
     item Fat01_Apron
     {
        DisplayCategory = Clothing,		
@@ -29,7 +29,8 @@ module AuthenticZClothing {
 		Icon = ApronIceCream,
 		FabricType = Cotton,
 		WorldStaticModel = Apron_Ground,
-    }
+    	OBSOLETE 			= TRUE,
+	}
     item Fat01_Coveralls
     {
         DisplayCategory = Clothing,		
@@ -47,7 +48,8 @@ module AuthenticZClothing {
         WindResistance = 0.35,
         FabricType = Denim,
 		WorldStaticModel = BoilerSuit_Ground,
-    }
+		OBSOLETE 			= TRUE,
+	}
     item Fat01_HoodieUP
     {
         DisplayCategory = Clothing,		
@@ -64,7 +66,8 @@ module AuthenticZClothing {
         WindResistance = 0.2,
         FabricType = Cotton,
         WorldStaticModel = Hoodie_Ground,		
-    }
+    	OBSOLETE 			= TRUE,
+	}
     item Fat01_HoodieDOWN
     {
         DisplayCategory = Clothing,		
@@ -82,7 +85,8 @@ module AuthenticZClothing {
         WindResistance = 0.25,
         FabricType = Cotton,
         WorldStaticModel = Hoodie_Ground,		
-    }	
+    	OBSOLETE 			= TRUE,
+	}	
     item Fat01_Jacket
     {
         DisplayCategory = Clothing,
@@ -105,7 +109,8 @@ module AuthenticZClothing {
         WaterResistance = 0.4,
         Weight = 2,
         WorldStaticModel = JacketCoat_Ground,
-    }
+    	OBSOLETE 			= TRUE,
+	}
     item Fat01_JacketLeather
     {
         DisplayCategory = Clothing,
@@ -128,7 +133,8 @@ module AuthenticZClothing {
         WaterResistance = 0.4,
         Weight = 2,
         WorldStaticModel = JacketCoat_Ground,
-    }	
+    	OBSOLETE 			= TRUE,
+	}	
     item Fat01_JacketLong
     {
         DisplayCategory = Clothing,
@@ -151,7 +157,8 @@ module AuthenticZClothing {
         WaterResistance = 0.45,
         Weight = 2,
         WorldStaticModel = JacketLong_Ground,
-    }
+    	OBSOLETE 			= TRUE,
+	}
     item Fat01_PonchoUP
     {
         DisplayCategory = Clothing,		
@@ -173,7 +180,8 @@ module AuthenticZClothing {
         WaterResistance = 1.0,
         FabricType = Denim,		
         WorldStaticModel = Poncho_Ground,
-    }
+    	OBSOLETE 			= TRUE,
+	}
     item Fat01_PonchoDown
     {
         DisplayCategory = Clothing,		
@@ -196,7 +204,8 @@ module AuthenticZClothing {
         WaterResistance = 1.0,
         FabricType = Denim,			
         WorldStaticModel = Poncho_Ground,
-    }
+    	OBSOLETE 			= TRUE,
+	}
     item Fat01_SportShorts
     {
        DisplayCategory = Clothing,		
@@ -212,7 +221,8 @@ module AuthenticZClothing {
         WindResistance = 0.05,
         FabricType = Cotton,
         WorldStaticModel = Trousers_Ground,		
-    }
+    	OBSOLETE 			= TRUE,
+	}
     item Fat01_ShellPants
     {
         DisplayCategory = Clothing,
@@ -228,7 +238,8 @@ module AuthenticZClothing {
         Insulation = 0.30,
         WindResistance = 0.4,
         WorldStaticModel = Trousers_Shellsuit_Ground,
-    }
+    	OBSOLETE 			= TRUE,	
+	}
     item Fat01_TShirt
     {
         DisplayCategory = Clothing,		
@@ -243,7 +254,8 @@ module AuthenticZClothing {
         WindResistance = 0.35,
         FabricType = Cotton,
 		WorldStaticModel = TShirt_Ground,	
-    }	
+    	OBSOLETE 			= TRUE,
+	}	
     item Fat01_Vest_HighViz
     {
         DisplayCategory = Clothing,
@@ -255,5 +267,6 @@ module AuthenticZClothing {
         BodyLocation = TorsoExtra,
         IconsForTexture = ConstructionVest;Huntingvest_Orange;Huntingvest_Grey;Huntingvest_Camo;Huntingvest_Orange;Huntingvest_Grey;Huntingvest_Camo;SweaterVestWhite;SweaterVestArgyle,
         BloodLocation = ShirtNoSleeves,
-    }	
+    	OBSOLETE 			= TRUE,	
+	}	
 }

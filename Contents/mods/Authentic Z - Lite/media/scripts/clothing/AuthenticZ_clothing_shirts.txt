@@ -1,8 +1,8 @@
-module AuthenticZLite {
+ module AuthenticZLite {
   imports {
       Base
   }
-item Shirt_Bill_Murray
+	item Shirt_Bill_Murray
     {
         DisplayCategory = Clothing,		
         Type 		 = Clothing,
@@ -400,7 +400,6 @@ item Shirt_Bill_Murray
         ClothingItem = Tshirt_CheeseRoyale2,
         BodyLocation = Tshirt,
         Icon				= TshirtRochelle,
-        BloodLocation 		= Shirt,
 		OBSOLETE 			= TRUE,			
     }
     item Tshirt_Ellis
@@ -990,6 +989,20 @@ item Shirt_Bill_Murray
         FabricType = Cotton,
 		WorldStaticModel = BulletVest_Ground,
     }
+    item Vest_Portal_Tanktop
+    {
+        DisplayCategory = Clothing,		
+        Type = Clothing,
+        DisplayName = Blue and White Tank Top,
+        ClothingItem = Vest_Portal_Tanktop,
+        BodyLocation = TankTop,
+        Icon = VestRim,
+        BloodLocation = ShirtNoSleeves,
+        Insulation = 0.40,
+        WindResistance = 0.30,
+        FabricType = Cotton,
+		WorldStaticModel = BulletVest_Ground,
+    }	
     item Vest_Rim_TINT
     {
         DisplayCategory = Clothing,		

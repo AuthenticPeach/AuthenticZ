@@ -160,6 +160,11 @@ module Base
 		mesh = Weapons/1Handed/Authentic_CoffeeCup,
 		texture = clothes\Items\SeahorseCoffee,
 	}
+	model AuthenticCrutch
+	{
+		mesh = Weapons/2Handed/AuthenticCrutch,
+		texture = clothes\Items\Crutches,
+	}	
 	model AuthenticGhostbusterTrap
 	{
 		mesh = AuthenticGhostbusterTrap,
@@ -190,6 +195,11 @@ module Base
 		mesh = AuthenticKidney,
 		texture = clothes\Organs\Kidney,
 	}
+	model AuthenticMandoSpear
+	{
+		mesh = Weapons/2Handed/AuthenticMandoSpear,
+		texture = clothes\Items\MandoSpear,
+	}	
 	model AuthenticMeatChunk1
 	{
 		mesh = AuthenticMeatChunk01,
@@ -384,6 +394,16 @@ module Base
 		mesh = Cigarette,
 		texture = clothes\Items\Cigarette,
 	}
+	model CigarAZ
+    {
+		mesh = Skinned/MC Models/CigarHeldAZ,
+		texture = clothes\Items\CigarAZCuban,		
+	}
+	model CigarHalfAZ
+    {
+		mesh = Skinned/MC Models/CigarHalfHeldAZ,
+		texture = clothes\Items\CigarAZCubanHalf,		
+	}	
 	model CultistRobe_Ground
 	{
 		mesh = WorldItems/Clothing/CultistRobe_Ground,
@@ -554,6 +574,11 @@ module Base
 	{
 		mesh = Weapons/1Handed/FeatherDuster,
 		texture = clothes\Items\FeatherDuster,
+	}
+	model GroguPlushie
+	{
+		mesh = GroguAZ,
+		texture = clothes\Items\GroguPlushie,		
 	}	
 	model PomPomBlack
 	{
@@ -583,21 +608,6 @@ module Base
 	{
 		mesh = Weapons/1Handed/StopSign,
 		texture = clothes\Items\HandleSign,
-	}
-	model KnifeEnd
-	{
-		mesh = Weapons/1Handed/KnifeEnd,
-		texture = clothes\Items\BloodyKnife,
-	}
-	model MediumMetalSpear
-	{
-		mesh = Weapons/1Handed/MediumMetalSpear,
-		texture = MetalSpear,
-	}
-	model MetalSpike
-	{
-		mesh = Weapons/1Handed/MetalSpike,
-		texture = MetalSpear,
 	}
 	model MopAZ
 	{
@@ -631,6 +641,12 @@ module Base
 		mesh = SleepingbagRoll,
 		texture = clothes\Items\SleepingbagLightBlue,
 	}
+	model Spatula_AZ
+	{
+		mesh = WorldItems/Spatula,
+		texture = WorldItems/Spatula_CarvingFork,
+        scale = 0.4,
+	}	
 	model SpiffoBackpack
     {
         mesh = WorldItems/WorldItem_SpiffoBackpack,
@@ -726,21 +742,6 @@ module Base
         texture = clothes\Items\SpiffoPlushieRainbow,		
         scale = 0.4,
     }
-	model ShortMetalSpear
-	{
-		mesh = Weapons/1Handed/ShortMetalSpear,
-		texture = MetalSpear,
-	}
-	model ShortMetalSpike
-	{
-		mesh = Weapons/1Handed/ShortMetalSpike,
-		texture = MetalSpear,
-	}
-	model SpikePick
-	{
-		mesh = Weapons/1handed/SpikePick,
-		texture = Weapons/1Handed/IcePick,
-	}
 	model Stake2
     {
         mesh = Weapons/1Handed/Stake,
@@ -841,7 +842,7 @@ module Base
 	{
 		mesh =  WorldItems/WorldItem_GhostbusterTrap,
 		texture = clothes\Items\GhostbustersTrap,
-	}	
+	}
 	model WorldItem-FeatherDuster
 	{
 		mesh =  WorldItems/WorldItem_FeatherDuster,
@@ -886,6 +887,16 @@ module Base
 	{
 		mesh =  WorldItems/WorldItem-AZGlowstick,
 		texture = clothes\Items\GlowstickYellow,
+	}	
+	model WorldItem-AuthenticMandoSpear
+	{
+		mesh =  WorldItems/WorldItem_MandoSpear,
+		texture = clothes\Items\MandoSpear,
+	}
+	model WorldItem-CrutchAZ
+	{
+		mesh = WorldItems/WorldItem_Crutch,
+		texture = clothes\Items\Crutches,
 	}	
 	model WorldItem_SleepingBagRoll
 	{
@@ -1120,8 +1131,18 @@ module Base
     }	
 	model WorldItem-DuelCap
     {
-		mesh = WorldItems/WorldItem_DuelCap,	
+		mesh = WorldItems/WorldItem_DuelCap,
     }
+	model WorldItem_GroguCarriage
+    {
+		mesh = WorldItems/WorldItem-GroguCarriage,
+		texture = clothes\Items\GroguCarriage,			
+    }
+	model WorldItem_GroguCarriageEmpty
+    {
+		mesh = WorldItems/WorldItem-GroguCarriageEmpty,
+		texture = clothes\Items\GroguCarriage,			
+    }	
 	model WorldItem_HairCurlers
     {
 		mesh = WorldItems/WorldItem-HairCurlers,	
@@ -1163,7 +1184,22 @@ module Base
     {
         mesh = WorldItems/WorldItem_BigLollipop,
         texture =  clothes\Items\BigLolipop,
-    }	
+    }
+	model WorldItem_CaptainsHat
+    {
+		mesh = WorldItems/WorldItem_CaptainsHat,
+		texture = clothes\Hats\CaptainsHat,			
+    }
+	model WorldItem_GlassesCheese
+	{
+		mesh = WorldItems/WorldItem-GlassesCheese,
+		texture = clothes\Glasses\NormalGlassesCheese,		
+	}	
+	model WorldItem_GroguAZ
+	{
+		mesh = WorldItems/WorldItem_GroguAZ,
+		texture = clothes\Items\GroguPlushie,		
+	}	
 	model WorldItem_MichaelMyersMask
 	{
 		mesh = WorldItems/WorldItem_MichaelMyersMask,		
@@ -1183,6 +1219,15 @@ module Base
 		mesh = WorldItems/WorldItem_PlushieOtisPugAZ,
 		texture = clothes\Items\PugPlushie,		
 	}
+	model WorldItem_PyromancerSkull
+    {
+		mesh = WorldItems/WordItem-PyromancerSkull,
+		texture = clothes\Hats\SteerSkull,			
+    }
+	model WorldItem_RaveMask
+	{
+		mesh = WorldItems/WorldItem_FaceMaskRave,	
+	}	
 	model WorldItem_ReporterMicMuffler_Media01
 	{
 		mesh = WorldItems/WorldItem_AZReporterMicMuffler,
@@ -1290,6 +1335,16 @@ module Base
 		texture = clothes\Items\CigarAZCuban,
 		scale = 0.01,		
 	}
+	model WorldItem_CigarAZ
+    {
+		mesh = Skinned/MC Models/WorldItems/WorldItem_CigarAZ,
+		texture = clothes\Items\CigarAZCuban,		
+	}
+	model WorldItem_CigarHalfAZ
+    {
+		mesh = Skinned/MC Models/WorldItems/WorldItem_CigarHalfAZ,
+		texture = clothes\Items\CigarAZCuban,		
+	}		
 	model WorldItem_Carabiner
 	{
 		mesh = WorldItems/WorldItem-AZCarabiner,
@@ -1378,6 +1433,10 @@ module Base
 		mesh = WorldItems/WorldItem_TrueEyeCultMask,
 		texture = clothes\Masks\TrueEyeCult,
     }
+	model WorldItem_Wig_Rachel
+    {
+		mesh = WorldItems/WorldItem_Wig_Rachel,
+    }	
 	model WorldItem-Witchy2Hat
     {
 		mesh = WorldItems/WorldItem_WitchyHat2,
