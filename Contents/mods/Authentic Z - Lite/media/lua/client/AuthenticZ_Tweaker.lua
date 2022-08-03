@@ -29,6 +29,8 @@ TweakItem("Base.AmmoStrap_Shells", "ClothingItemExtraOption", "SwapSides");
 
 TweakItem("Base.Mop", "StaticModel", "MopAZ");
 TweakItem("Base.Mop", "AttachmentType", "Shovel");
-
+TweakItem("Base.Spatula", "StaticModel", "Spatula_AZ");
 TweakItem("Base.VHS_Retail", "StaticModel", "VHSBox2");
+TweakItem("Base.HandTorch", "AttachmentType", "Flashlight");
+
 

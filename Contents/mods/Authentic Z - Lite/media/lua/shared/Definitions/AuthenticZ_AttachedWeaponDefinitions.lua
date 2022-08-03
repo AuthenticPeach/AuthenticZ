@@ -34,6 +34,19 @@ AttachedWeaponDefinitions.Organ = {
 }
 -- For Specific Outfits --
 
+AttachedWeaponDefinitions.AndySign = {
+	id = "AndySign",
+	chance = 100,
+	outfit = {"AuthenticAndyDotD"},
+	weaponLocation =  {"Rifle On Back"},
+	bloodLocations = nil,
+	addHoles = false,
+	daySurvived = 0,
+	weapons = {
+    "AuthenticZLite.Authentic_AndyBoard",
+	},
+}
+
 AttachedWeaponDefinitions.Bandages= {
 	chance = 25,
 	outfit = {"AuthenticBillOverbeck", "AuthenticZoey", "AuthenticLouis", "AuthenticFrancis", "AuthenticCoach", "AuthenticRochelle", "AuthenticNick", "AuthenticEllis"},
@@ -171,6 +184,7 @@ AttachedWeaponDefinitions.BouquetFlowers = {
 	},
 }
 
+-- Broom
 AttachedWeaponDefinitions.Broom = {
 	id = "AZBroom",
 	chance = 100,
@@ -184,19 +198,7 @@ AttachedWeaponDefinitions.Broom = {
 	},
 }
 
-AttachedWeaponDefinitions.Mop = {
-	id = "AZMop",
-	chance = 100,
-	outfit = {"AuthenticJanitor"},
-	weaponLocation = {"Shovel Back"},
-	bloodLocations = nil,
-	addHoles = false,
-	daySurvived = 0,
-	weapons = {
-		"Base.Mop",
-	},
-}
-
+-- Candle 
 AttachedWeaponDefinitions.CandleCultist = {
 	id = "AZCandle",
 	chance = 100,
@@ -210,6 +212,26 @@ AttachedWeaponDefinitions.CandleCultist = {
 	},
 }
 
+-- Canteen 
+AttachedWeaponDefinitions.AuthenticCanteen = {
+	id = "AuthenticCanteen",
+	chance = 100,
+	outfit = {"PrivateMilitia","AuthenticDayZHeroBleu", "AuthenticB4BHoffman", "AuthenticSurvivorHazardSuit", "AuthenticSurvivorPolice", "AuthenticSurvivorRanger"},
+	weaponLocation = {"Canteen Left", "Canteen Right"},
+	bloodLocations = nil,
+	addHoles = false,
+	daySurvived = 0,
+	weapons = {
+    "AuthenticZLite.AuthenticCanteenSilver",
+	"AuthenticZLite.AuthenticCanteenGrey",
+	"AuthenticZLite.AuthenticCanteenForestGreen",
+	"AuthenticZLite.AuthenticCanteenDarkGrey",
+	"AuthenticZLite.AuthenticCanteenDarkGreen",
+	"AuthenticZLite.AuthenticCanteenCadetBlue",
+	},
+}
+
+-- Chainsaw 
 AttachedWeaponDefinitions.chainsawAsh= {
 	id = "chainsawAshEvilDead",
 	chance = 100,
@@ -223,6 +245,7 @@ AttachedWeaponDefinitions.chainsawAsh= {
 	},
 }
 
+-- Cigarette Holder 
 AttachedWeaponDefinitions.CigaretteHolder= {
 	id = "AuthenticCigaretteHolder",
 	chance = 100,
@@ -236,6 +259,7 @@ AttachedWeaponDefinitions.CigaretteHolder= {
 	},
 }
 
+-- Coffee Cup
 AttachedWeaponDefinitions.CoffeeCup= {
 	id = "CoffeeCup",
 	chance = 100,
@@ -249,7 +273,7 @@ AttachedWeaponDefinitions.CoffeeCup= {
 	},
 }
 
--- screwdriver on construction worker
+-- Screwdriver on construction worker
 AttachedWeaponDefinitions.constructionWorkerScrewdriver2 = {
 	chance = 80,
 	outfit = {"AuthenticNateAnderson"},
@@ -262,6 +286,21 @@ AttachedWeaponDefinitions.constructionWorkerScrewdriver2 = {
 	},
 }
 
+--Doll
+AttachedWeaponDefinitions.Doll = {
+	id = "AZDoll",
+	chance = 100,
+	outfit = {"AuthenticFat02Cheese"},
+	weaponLocation = {"Left Hand", "Right Hand"},
+	bloodLocations = nil,
+	addHoles = false,
+	daySurvived = 0,
+	weapons = {
+    "AuthenticZLite.Doll",
+	},
+}
+
+--Elderly Bingo
 AttachedWeaponDefinitions.ElderlyBingo = {
 	chance = 100,
 	outfit = {"AuthenticElderly"},
@@ -278,6 +317,7 @@ AttachedWeaponDefinitions.ElderlyBingo = {
 	},
 }
 
+--Elderly Cane 
 AttachedWeaponDefinitions.ElderlyCane = {
 	chance = 100,
 	outfit = {"AuthenticElderly"},
@@ -296,6 +336,7 @@ AttachedWeaponDefinitions.ElderlyCane = {
 	},
 }
 
+--Feather Duster
 AttachedWeaponDefinitions.FeatherDuster = {
 	id = "AZFeatherDuster",
 	chance = 100,
@@ -309,19 +350,21 @@ AttachedWeaponDefinitions.FeatherDuster = {
 	},
 }
 
-AttachedWeaponDefinitions.Pills= {
-	id = "Pills",
-	chance = 25,
-	outfit = {"AuthenticBillOverbeck", "AuthenticZoey", "AuthenticLouis", "AuthenticFrancis", "AuthenticCoach", "AuthenticRochelle", "AuthenticNick", "AuthenticEllis", "AuthenticSexyNurse", "AuthenticSurvivorL4D"},
-	weaponLocation = {"Pills Left", "Pills Right"},
+--Fishing Rod
+AttachedWeaponDefinitions.FishingRod = {
+	id = "AZFishingRod",
+	chance = 100,
+	outfit = {"AuthenticFat01Fisherman"},
+	weaponLocation =  {"Big Weapon On Back"},
 	bloodLocations = nil,
 	addHoles = false,
 	daySurvived = 0,
 	weapons = {
-		"AuthenticZLite.Authentic_Pills",
+		"Base.FishingRod",
 	},
-}
+} 
 
+--Gardening Spray
 AttachedWeaponDefinitions.GardeningSpray = {
 	id = "AZGardeningSpray",
 	chance = 100,
@@ -335,43 +378,30 @@ AttachedWeaponDefinitions.GardeningSpray = {
 	},
 }
 
-AttachedWeaponDefinitions.handgunJill= {
-	id = "handgunJill",
+AttachedWeaponDefinitions.GhostbusterTrap= {
+	id = "GhostbusterTrap",
 	chance = 100,
-	outfit = {"AuthenticJillValentine", "AuthenticPostalDude"},
-	weaponLocation =  {"Holster Left"},
+	outfit = {"AuthenticGhostbusterSpengler", "AuthenticGhostbusterStantz","AuthenticGhostbusterVenkman", "AuthenticGhostbusterZeddemore"},
+	weaponLocation =  {"Left Hand Item", "Right Hand Item"},
 	bloodLocations = nil,
 	addHoles = false,
 	daySurvived = 0,
-	ensureItem = "Base.HolsterSimple",
 	weapons = {
-		"Base.Pistol",
+		"AuthenticZLite.AuthenticGhostbusterTrap",
 	},
 }
 
-AttachedWeaponDefinitions.handgunSamRivot= {
-	id = "handgunSamRivot",
+-- Mop
+AttachedWeaponDefinitions.Mop = {
+	id = "AZMop",
 	chance = 100,
-	outfit = {"AuthenticSamRivot","AuthenticCFTDJim", "AuthenticFlyboy", "AuthenticDIPurnaJackson"},
-	weaponLocation =  {"Holster Left"},
-	bloodLocations = nil,
-	addHoles = false,
-	daySurvived = 0,
-	ensureItem = "Base.HolsterSimple",
-	weapons = {
-		"Base.Revolver_Short",
-	},
-}
-AttachedWeaponDefinitions.handgunFlyboy= {
-	id = "handgunFlyboy",
-	chance = 100,
-	outfit = {"AuthenticFlyboy", "AuthenticJoker"},
-	weaponLocation =  {"Left Hand"},
+	outfit = {"AuthenticJanitor"},
+	weaponLocation = {"Shovel Back"},
 	bloodLocations = nil,
 	addHoles = false,
 	daySurvived = 0,
 	weapons = {
-		"Base.Revolver_Short",
+		"Base.Mop",
 	},
 }
 
@@ -387,6 +417,7 @@ AttachedWeaponDefinitions.PaintBrush= {
 		"AuthenticZLite.Authentic_Paintbrush",
 	},
 }
+
 AttachedWeaponDefinitions.PaintBrush2= {
 	id = "Paintbrush2",
 	chance = 100,
@@ -400,6 +431,105 @@ AttachedWeaponDefinitions.PaintBrush2= {
 	},
 }
 
+-- Pills
+AttachedWeaponDefinitions.Pills= {
+	id = "Pills",
+	chance = 25,
+	outfit = {"AuthenticBillOverbeck", "AuthenticZoey", "AuthenticLouis", "AuthenticFrancis", "AuthenticCoach", "AuthenticRochelle", "AuthenticNick", "AuthenticEllis", "AuthenticSexyNurse", "AuthenticSurvivorL4D"},
+	weaponLocation = {"Pills Left", "Pills Right"},
+	bloodLocations = nil,
+	addHoles = false,
+	daySurvived = 0,
+	weapons = {
+		"AuthenticZLite.Authentic_Pills",
+	},
+}
+
+-- Pistol
+AttachedWeaponDefinitions.handgunJill= {
+	id = "handgunJill",
+	chance = 100,
+	outfit = {"AuthenticJillValentine", "AuthenticPostalDude"},
+	weaponLocation =  {"Holster Left"},
+	bloodLocations = nil,
+	addHoles = false,
+	daySurvived = 0,
+	ensureItem = "Base.HolsterSimple",
+	weapons = {
+		"Base.Pistol",
+	},
+}
+
+-- Pistol2
+AttachedWeaponDefinitions.handgunBub = {
+	chance = 100,
+	outfit = {"AuthenticBub"},
+	weaponLocation = {"Left Hand"},
+	bloodLocations = nil,
+	addHoles = false,
+	daySurvived = 0,
+	weapons = {
+    "Base.Pistol2",
+	},
+}
+
+-- Revolver_Short
+AttachedWeaponDefinitions.handgunSamRivot= {
+	id = "handgunSamRivot",
+	chance = 100,
+	outfit = {"AuthenticSamRivot","AuthenticCFTDJim", "AuthenticFlyboy", "AuthenticDIPurnaJackson"},
+	weaponLocation =  {"Holster Left"},
+	bloodLocations = nil,
+	addHoles = false,
+	daySurvived = 0,
+	ensureItem = "Base.HolsterSimple",
+	weapons = {
+		"Base.Revolver_Short",
+	},
+}
+
+-- Revolver_Short
+AttachedWeaponDefinitions.handgunFlyboy= {
+	id = "handgunFlyboy",
+	chance = 100,
+	outfit = {"AuthenticFlyboy", "AuthenticJoker"},
+	weaponLocation =  {"Left Hand"},
+	bloodLocations = nil,
+	addHoles = false,
+	daySurvived = 0,
+	weapons = {
+		"Base.Revolver_Short",
+	},
+}
+
+-- Revolver_Long
+AttachedWeaponDefinitions.handgunRickGrimes = {
+	id = "handgunRickGrimes",
+	chance = 100,
+	outfit = {"AuthenticRickGrimes"},
+	weaponLocation =  {"Holster Left"},
+	bloodLocations = nil,
+	addHoles = false,
+	daySurvived = 0,
+	ensureItem = "Base.HolsterSimple",
+	weapons = {
+		"Base.Revolver_Long",
+	},
+}
+
+AttachedWeaponDefinitions.handgunJohnMorgan = {
+	chance = 100,
+	outfit = {"AuthenticDIJohnMorgan", "AuthenticNMRIHWally","AuthenticNMRIHBadass", "AuthenticB4BHoffman","AuthenticAndyDotD"},
+	weaponLocation = {"Holster Left", "Holster Right"},
+	bloodLocations = nil,
+	addHoles = false,
+	daySurvived = 0,
+	weapons = {
+    "Base.Pistol2",
+	},
+}
+
+-- Stack of Money
 AttachedWeaponDefinitions.PoliticianMoney= {
 	id = "StackofMoney",
 	chance = 100,
@@ -571,19 +701,6 @@ AttachedWeaponDefinitions.StopSign= {
 	},
 }
 
-AttachedWeaponDefinitions.GhostbusterTrap= {
-	id = "GhostbusterTrap",
-	chance = 100,
-	outfit = {"AuthenticGhostbusterSpengler", "AuthenticGhostbusterStantz","AuthenticGhostbusterVenkman", "AuthenticGhostbusterZeddemore"},
-	weaponLocation =  {"Left Hand Item", "Right Hand Item"},
-	bloodLocations = nil,
-	addHoles = false,
-	daySurvived = 0,
-	weapons = {
-		"AuthenticZLite.AuthenticGhostbusterTrap",
-	},
-}
-
 AttachedWeaponDefinitions.TagillaSledgehammer = {
 	chance = 100,
 	outfit = {"AuthenticTagilla"},
@@ -596,19 +713,6 @@ AttachedWeaponDefinitions.TagillaSledgehammer = {
 	},
 }
 
-AttachedWeaponDefinitions.handgunRickGrimes = {
-	id = "handgunRickGrimes",
-	chance = 100,
-	outfit = {"AuthenticRickGrimes"},
-	weaponLocation =  {"Holster Left"},
-	bloodLocations = nil,
-	addHoles = false,
-	daySurvived = 0,
-	ensureItem = "Base.HolsterSimple",
-	weapons = {
-		"Base.Revolver_Long",
-	},
-}
 AttachedWeaponDefinitions.revolverTF2Spy = {
 	id = "revolverTf2Shpee",
 	chance = 100,
@@ -1187,19 +1291,6 @@ AttachedWeaponDefinitions.WaldoCane = {
 	},
 }
 
-AttachedWeaponDefinitions.AndySign = {
-	id = "AndySign",
-	chance = 100,
-	outfit = {"AuthenticAndyDotD"},
-	weaponLocation =  {"Rifle On Back"},
-	bloodLocations = nil,
-	addHoles = false,
-	daySurvived = 0,
-	weapons = {
-    "AuthenticZLite.Authentic_AndyBoard",
-	},
-}
-
 AttachedWeaponDefinitions.AuthenticLouis = {
 	chance = 100,
 	outfit = {"AuthenticLouis"},
@@ -1209,30 +1300,6 @@ AttachedWeaponDefinitions.AuthenticLouis = {
 	daySurvived = 0,
 	weapons = {
     "Base.Pistol3",
-	},
-}
-
-AttachedWeaponDefinitions.handgunBub = {
-	chance = 100,
-	outfit = {"AuthenticBub"},
-	weaponLocation = {"Left Hand"},
-	bloodLocations = nil,
-	addHoles = false,
-	daySurvived = 0,
-	weapons = {
-    "Base.Pistol2",
-	},
-}
-
-AttachedWeaponDefinitions.handgunJohnMorgan = {
-	chance = 100,
-	outfit = {"AuthenticDIJohnMorgan", "AuthenticNMRIHWally","AuthenticNMRIHBadass", "AuthenticB4BHoffman","AuthenticAndyDotD"},
-	weaponLocation = {"Holster Left", "Holster Right"},
-	bloodLocations = nil,
-	addHoles = false,
-	daySurvived = 0,
-	weapons = {
-    "Base.Pistol2",
 	},
 }
 
@@ -1273,23 +1340,6 @@ AttachedWeaponDefinitions.AuthenticWalkieTalkie = {
 	},
 }
 
-AttachedWeaponDefinitions.AuthenticCanteen = {
-	id = "AuthenticCanteen",
-	chance = 100,
-	outfit = {"PrivateMilitia","AuthenticDayZHeroBleu", "AuthenticB4BHoffman", "AuthenticSurvivorHazardSuit", "AuthenticSurvivorPolice", "AuthenticSurvivorRanger"},
-	weaponLocation = {"Canteen Left", "Canteen Right"},
-	bloodLocations = nil,
-	addHoles = false,
-	daySurvived = 0,
-	weapons = {
-    "AuthenticZLite.AuthenticCanteenSilver",
-	"AuthenticZLite.AuthenticCanteenGrey",
-	"AuthenticZLite.AuthenticCanteenForestGreen",
-	"AuthenticZLite.AuthenticCanteenDarkGrey",
-	"AuthenticZLite.AuthenticCanteenDarkGreen",
-	"AuthenticZLite.AuthenticCanteenCadetBlue",
-	},
-}
 
 AttachedWeaponDefinitions.AuthenticMilitaryFlashlight = {
 	id = "AuthenticMilitaryFlashlight",
@@ -1546,6 +1596,20 @@ AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticDRBradGarrison = {
 		AttachedWeaponDefinitions.AuthenticDianneCaldwell,
 	},
 }
+AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticFat02Cheese = {
+	chance = 12;
+	maxitem = 2;
+	weapons = {
+		AttachedWeaponDefinitions.Doll,
+	},
+}
+AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticFat01Fisherman = {
+	chance = 10;
+	maxitem = 2;	
+	weapons = {
+		AttachedWeaponDefinitions.FishingRod, 
+	},
+}
 AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticFuneralFormal = {
 	chance = 12;
 	maxitem = 2;
@@ -1566,6 +1630,13 @@ AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticElderly = {
 	weapons = {
 		AttachedWeaponDefinitions.ElderlyCane,
 		AttachedWeaponDefinitions.ElderlyBingo,
+	},
+}
+AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticFat02Cook = {
+	chance = 100;
+	maxitem = 2;	
+	weapons = {
+		AttachedWeaponDefinitions.Spatula,
 	},
 }
 AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticSnowGhillie = {

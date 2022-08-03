@@ -39,10 +39,45 @@ local GlowStickList = {
     "AuthenticZLite.AuthenticGlowstick_Purple",
     "AuthenticZLite.AuthenticGlowstick_Yellow",
 }
+function GetGroguBack(items, result, player)
+    player:getInventory():AddItem("AuthenticZClothing.GroguAZ");
+end
 function OpenGlowStickPackage(items, result, player)
  player:getInventory():AddItem(GlowStickList[ZombRand(#GlowStickList)+1]);
  player:getInventory():AddItem(GlowStickList[ZombRand(#GlowStickList)+1]);
  player:getInventory():AddItem(GlowStickList[ZombRand(#GlowStickList)+1]);
+end
+
+local SealedMedkit = {
+            "AlcoholWipes",
+            "AlcoholWipes",
+            "Bandage",
+            "Bandage",
+            "Bandage",
+            "Bandaid",
+            "Bandaid",
+            "Bandaid",
+            "CottonBalls",
+            "CottonBalls",
+            "CottonBalls",
+            "Disinfectant",
+            "Gloves_Surgical",
+            "Scalpel",
+            "Scissors",
+            "SutureNeedle",
+            "SutureNeedle",
+            "SutureNeedleHolder",
+            "Tweezers",
+}
+function OpenSealedMedkit(items, result, player)
+ player:getInventory():AddItem(SealedMedkit[ZombRand(#SealedMedkit)+1]);
+ player:getInventory():AddItem(SealedMedkit[ZombRand(#SealedMedkit)+1]);
+ player:getInventory():AddItem(SealedMedkit[ZombRand(#SealedMedkit)+1]);
+ player:getInventory():AddItem(SealedMedkit[ZombRand(#SealedMedkit)+1]);
+ player:getInventory():AddItem(SealedMedkit[ZombRand(#SealedMedkit)+1]);
+ player:getInventory():AddItem(SealedMedkit[ZombRand(#SealedMedkit)+1]);
+ player:getInventory():AddItem(SealedMedkit[ZombRand(#SealedMedkit)+1]);
+ player:getInventory():AddItem(SealedMedkit[ZombRand(#SealedMedkit)+1]);
 end
 
 function AZRecipe.OnCreate.GiveMeRadio(items, result, player)
@@ -182,8 +217,61 @@ function AZKeepFoodContent_OnCreate(items, result, player)
     end
 end
 
+function OnEat_CigarAZ(food, character, percent)
+    local script = food:getScriptItem()
+    percent = percent * (food:getStressChange() * 100) / script:getStressChange()
+    local bodyDamage = character:getBodyDamage()
+    local stats = character:getStats()
+	--Satisfy smoker trait	
+    if character:HasTrait("Smoker") then
+        bodyDamage:setUnhappynessLevel(bodyDamage:getUnhappynessLevel() - 10 * percent);
+        if bodyDamage:getUnhappynessLevel() < 0 then
+            bodyDamage:setUnhappynessLevel(0);
+        end
+        stats:setStress(stats:getStress() - 10 * percent);
+        if stats:getStress() < 0 then
+            stats:setStress(0);
+        end
+        local reduceSFC = stats:getMaxStressFromCigarettes()
+        stats:setStressFromCigarettes(stats:getStressFromCigarettes() - reduceSFC * percent);
+        character:setTimeSinceLastSmoke(stats:getStressFromCigarettes() / stats:getMaxStressFromCigarettes());
+    else
+
+        bodyDamage:setFoodSicknessLevel(bodyDamage:getFoodSicknessLevel() + 14 * percent);
+        if bodyDamage:getFoodSicknessLevel() > 100 then
+            bodyDamage:setFoodSicknessLevel(100);
+        end
+    end
+end
+function OnEat_CigaretteHolder(food, character, percent)
+    local script = food:getScriptItem()
+    percent = percent * (food:getStressChange() * 100) / script:getStressChange()
+    local bodyDamage = character:getBodyDamage()
+    local stats = character:getStats()
+	--Satisfy smoker trait	
+    if character:HasTrait("Smoker") then
+        bodyDamage:setUnhappynessLevel(bodyDamage:getUnhappynessLevel() - 10 * percent);
+        if bodyDamage:getUnhappynessLevel() < 0 then
+            bodyDamage:setUnhappynessLevel(0);
+        end
+        stats:setStress(stats:getStress() - 10 * percent);
+        if stats:getStress() < 0 then
+            stats:setStress(0);
+        end
+        local reduceSFC = stats:getMaxStressFromCigarettes()
+        stats:setStressFromCigarettes(stats:getStressFromCigarettes() - reduceSFC * percent);
+        character:setTimeSinceLastSmoke(stats:getStressFromCigarettes() / stats:getMaxStressFromCigarettes());
+    else
+--        bodyDamage:setUnhappynessLevel(bodyDamage:getUnhappynessLevel() + 5);
+
+        bodyDamage:setFoodSicknessLevel(bodyDamage:getFoodSicknessLevel() + 14 * percent);
+        if bodyDamage:getFoodSicknessLevel() > 100 then
+            bodyDamage:setFoodSicknessLevel(100);
+        end
+    end
+end
+
 Give20TailoringXP = AZRecipe.OnGiveXP.Tailoring20
 GiveMeRadio = AZRecipe.OnCreate.GiveMeRadio
-
 RefillBlowTorch_OnCreateAZ = AZRecipe.OnCreate.RefillBlowTorchAZ
 RefillBlowTorch_OnTestAZ = AZRecipe.OnTest.RefillBlowTorchAZ

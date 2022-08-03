@@ -55,11 +55,17 @@ Tooltip_EN = {
 /* Update 2-20-22 */
 	Tooltip_JPCane = "Life finds a way.",		
 	Tooltip_TagillaHelmet = "UBEY",	
-	
-/* New */
+/* Update 5-07-22 */	
 	Tooltip_AZSleepingBag = "Unwrap and Place.",		
 	Tooltip_AZSleepingBag2 = "Right-Click to Sleep.",
-	
 	Tooltip_GlowStickPack = "Open to get 3 random glowsticks!",	
 	
+/* Update 6-25-22 */		
+	Tooltip_RotaryPhone  = "Say Hello to your Aunt Alicia, Bub!",
+	
+/* New */	
+	Tooltip_SizeXS  = "Size: S",	
+	Tooltip_SizeXL  = "Size: XL",	
+	Tooltip_Size2XL  = "Size: 2XL",	
+	Tooltip_Size3XL  = "Size: 3XL",	
 	}

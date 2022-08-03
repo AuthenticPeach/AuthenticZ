@@ -7,7 +7,7 @@ recipe Make Backpack Attachable Item
   	{
    	   Hat_GasMask,
 
-   	   Result:AuthenticZBackpacks+.Hat_GasMask,
+   	   Result:AuthenticZBackpacksPlus.Hat_GasMask,
 	   Time:30.0,
 	   Tooltip:Tooltip_AttachBackpack,
   	}			
@@ -15,7 +15,7 @@ recipe Make Backpack Attachable Item
   	{
    	   AerosolbombTriggered,
 
-   	   Result:AuthenticZBackpacks+.AerosolbombTriggered,
+   	   Result:AuthenticZBackpacksPlus.AerosolbombTriggered,
 	   Time:30.0,
 	   Tooltip:Tooltip_AttachBackpack,
   	}
@@ -23,7 +23,7 @@ recipe Make Backpack Attachable Item
   	{
    	   Base.Aerosolbomb,
 
-   	   Result:AuthenticZBackpacks+.Aerosolbomb,
+   	   Result:AuthenticZBackpacksPlus.Aerosolbomb,
 	   Time:30.0,
 	   Tooltip:Tooltip_AttachBackpack,
   	}	
@@ -31,7 +31,7 @@ recipe Make Backpack Attachable Item
   	{
    	   AerosolbombSensorV1,
 
-   	   Result:AuthenticZBackpacks+.AerosolbombSensorV1,
+   	   Result:AuthenticZBackpacksPlus.AerosolbombSensorV1,
 	   Time:30.0,
 	   Tooltip:Tooltip_AttachBackpack,
   	}	
@@ -39,7 +39,7 @@ recipe Make Backpack Attachable Item
   	{
    	   AerosolbombSensorV2,
 
-   	   Result:AuthenticZBackpacks+.AerosolbombSensorV2,
+   	   Result:AuthenticZBackpacksPlus.AerosolbombSensorV2,
 	   Time:30.0,
 	   Tooltip:Tooltip_AttachBackpack,
   	}	
@@ -47,7 +47,7 @@ recipe Make Backpack Attachable Item
   	{
    	   AerosolbombSensorV3,
 
-   	   Result:AuthenticZBackpacks+.AerosolbombSensorV3,
+   	   Result:AuthenticZBackpacksPlus.AerosolbombSensorV3,
 	   Time:30.0,
 	   Tooltip:Tooltip_AttachBackpack,
   	}	
@@ -55,7 +55,7 @@ recipe Make Backpack Attachable Item
   	{
    	   AerosolbombRemote,
 
-   	   Result:AuthenticZBackpacks+.AerosolbombRemote,
+   	   Result:AuthenticZBackpacksPlus.AerosolbombRemote,
 	   Time:30.0,
 	   Tooltip:Tooltip_AttachBackpack,
   	}	
@@ -63,7 +63,7 @@ recipe Make Backpack Attachable Item
   	{
    	   FlameTrap,
 
-   	   Result:AuthenticZBackpacks+.FlameTrap,
+   	   Result:AuthenticZBackpacksPlus.FlameTrap,
 	   Time:30.0,
 	   Tooltip:Tooltip_AttachBackpack,
   	}	
@@ -71,7 +71,7 @@ recipe Make Backpack Attachable Item
   	{
    	   FlameTrapTriggered,
 
-   	   Result:AuthenticZBackpacks+.FlameTrapTriggered,
+   	   Result:AuthenticZBackpacksPlus.FlameTrapTriggered,
 	   Time:30.0,
 	   Tooltip:Tooltip_AttachBackpack,
   	}
@@ -79,7 +79,7 @@ recipe Make Backpack Attachable Item
   	{
    	   FlameTrapSensorV1,
 
-   	   Result:AuthenticZBackpacks+.FlameTrapSensorV1,
+   	   Result:AuthenticZBackpacksPlus.FlameTrapSensorV1,
 	   Time:30.0,
 	   Tooltip:Tooltip_AttachBackpack,
   	}	
@@ -87,7 +87,7 @@ recipe Make Backpack Attachable Item
   	{
    	   FlameTrapSensorV2,
 
-   	   Result:AuthenticZBackpacks+.PipeBombSensorV2,
+   	   Result:AuthenticZBackpacksPlus.PipeBombSensorV2,
 	   Time:30.0,
 	   Tooltip:Tooltip_AttachBackpack,
   	}	
@@ -95,7 +95,7 @@ recipe Make Backpack Attachable Item
   	{
    	   FlameTrapSensorV3,
 
-   	   Result:AuthenticZBackpacks+.FlameTrapSensorV3,
+   	   Result:AuthenticZBackpacksPlus.FlameTrapSensorV3,
 	   Time:30.0,
 	   Tooltip:Tooltip_AttachBackpack,
   	}	
@@ -103,7 +103,7 @@ recipe Make Backpack Attachable Item
   	{
    	   FlameTrapRemote,
 
-   	   Result:AuthenticZBackpacks+.FlameTrapRemote,
+   	   Result:AuthenticZBackpacksPlus.FlameTrapRemote,
 	   Time:30.0,
 	   Tooltip:Tooltip_AttachBackpack,
   	}
@@ -111,7 +111,7 @@ recipe Make Backpack Attachable Item
   	{
    	   SmokeBomb,
 
-   	   Result:AuthenticZBackpacks+.SmokeBomb,
+   	   Result:AuthenticZBackpacksPlus.SmokeBomb,
 	   Time:30.0,
 	   Tooltip:Tooltip_AttachBackpack,
   	}
@@ -119,7 +119,7 @@ recipe Make Backpack Attachable Item
   	{
    	   PipeBombTriggered,
 
-   	   Result:AuthenticZBackpacks+.PipeBombTriggered,
+   	   Result:AuthenticZBackpacksPlus.PipeBombTriggered,
 	   Time:30.0,
 	   Tooltip:Tooltip_AttachBackpack,
   	}
@@ -127,7 +127,7 @@ recipe Make Backpack Attachable Item
   	{
    	   PipeBombSensorV1,
 
-   	   Result:AuthenticZBackpacks+.PipeBombSensorV1,
+   	   Result:AuthenticZBackpacksPlus.PipeBombSensorV1,
 	   Time:30.0,
 	   Tooltip:Tooltip_AttachBackpack,
   	}	
@@ -135,7 +135,7 @@ recipe Make Backpack Attachable Item
   	{
    	   PipeBombSensorV2,
 
-   	   Result:AuthenticZBackpacks+.PipeBombSensorV2,
+   	   Result:AuthenticZBackpacksPlus.PipeBombSensorV2,
 	   Time:30.0,
 	   Tooltip:Tooltip_AttachBackpack,
   	}
@@ -143,7 +143,7 @@ recipe Make Backpack Attachable Item
   	{
    	   PipeBombSensorV3,
 
-   	   Result:AuthenticZBackpacks+.PipeBombSensorV3,
+   	   Result:AuthenticZBackpacksPlus.PipeBombSensorV3,
 	   Time:30.0,
 	   Tooltip:Tooltip_AttachBackpack,
   	}	
@@ -151,7 +151,7 @@ recipe Make Backpack Attachable Item
   	{
    	   PipeBombRemote,
 
-   	   Result:AuthenticZBackpacks+.PipeBombRemote,
+   	   Result:AuthenticZBackpacksPlus.PipeBombRemote,
 	   Time:30.0,
 	   Tooltip:Tooltip_AttachBackpack,
   	}
@@ -159,7 +159,7 @@ recipe Make Backpack Attachable Item
   	{
    	   PipeBomb,
 
-   	   Result:AuthenticZBackpacks+.PipeBomb,
+   	   Result:AuthenticZBackpacksPlus.PipeBomb,
 	   Time:30.0,
 	   Tooltip:Tooltip_AttachBackpack,
   	}	
@@ -167,7 +167,7 @@ recipe Make Backpack Attachable Item
   	{
    	   Molotov,
 
-   	   Result:AuthenticZBackpacks+.Molotov,
+   	   Result:AuthenticZBackpacksPlus.Molotov,
 	   Time:30.0,
 	   Tooltip:Tooltip_AttachBackpack,
   	}
@@ -176,7 +176,7 @@ recipe Make Backpack Attachable Item
   	{
    	   ToyBear,
 
-   	   Result:AuthenticZBackpacks+.ToyBear,
+   	   Result:AuthenticZBackpacksPlus.ToyBear,
 	   Time:30.0,
 	   Tooltip:Tooltip_AttachBackpack,
   	}
@@ -184,7 +184,7 @@ recipe Make Backpack Attachable Item
   	{
    	   Doll,
 
-   	   Result:AuthenticZBackpacks+.Doll,
+   	   Result:AuthenticZBackpacksPlus.Doll,
 	   Time:30.0,
 	   Tooltip:Tooltip_AttachBackpack,
   	}	
@@ -192,7 +192,7 @@ recipe Make Backpack Attachable Item
   	{
    	   Spiffo,
 
-   	   Result:AuthenticZBackpacks+.Spiffo,
+   	   Result:AuthenticZBackpacksPlus.Spiffo,
 	   Time:30.0,
 	   Tooltip:Tooltip_AttachBackpack,
   	}
@@ -201,7 +201,7 @@ recipe Make Backpack Attachable Item
    	   FurbertSquirrel,
 	   AZ_MetalClip,	   
 
-   	   Result:AuthenticZBackpacks+.FurbertSquirrel,
+   	   Result:AuthenticZBackpacksPlus.FurbertSquirrel,
 	   Time:30.0,
 	   Tooltip:Tooltip_AttachBackpack,
   	}
@@ -210,7 +210,7 @@ recipe Make Backpack Attachable Item
    	   FluffyfootBunny,
 	   AZ_MetalClip,	   
 
-   	   Result:AuthenticZBackpacks+.FluffyfootBunny,
+   	   Result:AuthenticZBackpacksPlus.FluffyfootBunny,
 	   Time:30.0,
 	   Tooltip:Tooltip_AttachBackpack,
   	}
@@ -219,7 +219,7 @@ recipe Make Backpack Attachable Item
    	   MoleyMole,
 	   AZ_MetalClip,	   
 
-   	   Result:AuthenticZBackpacks+.MoleyMole,
+   	   Result:AuthenticZBackpacksPlus.MoleyMole,
 	   Time:30.0,
 	   Tooltip:Tooltip_AttachBackpack,
   	}	
@@ -228,7 +228,7 @@ recipe Make Backpack Attachable Item
    	   PancakeHedgehog,
 	   AZ_MetalClip,	   
 
-   	   Result:AuthenticZBackpacks+.PancakeHedgehog,
+   	   Result:AuthenticZBackpacksPlus.PancakeHedgehog,
 	   Time:30.0,
 	   Tooltip:Tooltip_AttachBackpack,
   	}
@@ -237,7 +237,7 @@ recipe Make Backpack Attachable Item
    	   FreddyFox,
 	   AZ_MetalClip,	   
 
-   	   Result:AuthenticZBackpacks+.FreddyFox,
+   	   Result:AuthenticZBackpacksPlus.FreddyFox,
 	   Time:30.0,
 	   Tooltip:Tooltip_AttachBackpack,
   	}
@@ -246,7 +246,7 @@ recipe Make Backpack Attachable Item
    	   JacquesBeaver,
 	   AZ_MetalClip,	   
 
-   	   Result:AuthenticZBackpacks+.JacquesBeaver,
+   	   Result:AuthenticZBackpacksPlus.JacquesBeaver,
 	   Time:30.0,
 	   Tooltip:Tooltip_AttachBackpack,
   	}	
@@ -255,7 +255,7 @@ recipe Make Backpack Attachable Item
    	   BorisBadger,
 	   AZ_MetalClip,	   
 
-   	   Result:AuthenticZBackpacks+.BorisBadger,
+   	   Result:AuthenticZBackpacksPlus.BorisBadger,
 	   Time:30.0,
 	   Tooltip:Tooltip_AttachBackpack,
   	}			
@@ -263,7 +263,7 @@ recipe Make Backpack Attachable Item
   	{
    	   Pop,
 
-   	   Result:AuthenticZBackpacks+.Pop,
+   	   Result:AuthenticZBackpacksPlus.Pop,
 	   Time:30.0,
 	   Tooltip:Tooltip_AttachBackpack,
   	}
@@ -271,7 +271,7 @@ recipe Make Backpack Attachable Item
   	{
    	   Pop2,
 
-   	   Result:AuthenticZBackpacks+.Pop2,
+   	   Result:AuthenticZBackpacksPlus.Pop2,
 	   Time:30.0,
 	   Tooltip:Tooltip_AttachBackpack,
   	}	
@@ -279,13 +279,13 @@ recipe Make Backpack Attachable Item
   	{
    	   Pop3,
 
-   	   Result:AuthenticZBackpacks+.Pop3,
+   	   Result:AuthenticZBackpacksPlus.Pop3,
 	   Time:30.0,
 	   Tooltip:Tooltip_AttachBackpack,
   	}	
 recipe Revert Attachable
   	{
-   	   AuthenticZBackpacks+.PipeBomb,
+   	   AuthenticZBackpacksPlus.PipeBomb,
 
    	   Result:PipeBomb,
 	   Time:30.0,
@@ -293,7 +293,7 @@ recipe Revert Attachable
   	}
 recipe Revert Attachable
   	{
-   	   AuthenticZBackpacks+.Aerosolbomb,
+   	   AuthenticZBackpacksPlus.Aerosolbomb,
 
    	   Result:Aerosolbomb,
 	   Time:30.0,
@@ -301,7 +301,7 @@ recipe Revert Attachable
   	}	
 recipe Revert Attachable
   	{
-   	   AuthenticZBackpacks+.AerosolbombTriggered,
+   	   AuthenticZBackpacksPlus.AerosolbombTriggered,
 
    	   Result:AerosolbombTriggered,
 	   Time:30.0,
@@ -309,7 +309,7 @@ recipe Revert Attachable
   	}	
 recipe Revert Attachable
   	{
-   	   AuthenticZBackpacks+.PipeBomb,
+   	   AuthenticZBackpacksPlus.PipeBomb,
 
    	   Result:PipeBomb,
 	   Time:30.0,
@@ -317,7 +317,7 @@ recipe Revert Attachable
   	}
 recipe Revert Attachable
   	{
-   	   AuthenticZBackpacks+.PipeBombTriggered,
+   	   AuthenticZBackpacksPlus.PipeBombTriggered,
 
    	   Result:PipeBombTriggered,
 	   Time:30.0,
@@ -325,7 +325,7 @@ recipe Revert Attachable
   	}
 recipe Revert Attachable
   	{
-   	   AuthenticZBackpacks+.PipeBombSensorV1,
+   	   AuthenticZBackpacksPlus.PipeBombSensorV1,
 
    	   Result:PipeBombSensorV1,
 	   Time:30.0,
@@ -333,7 +333,7 @@ recipe Revert Attachable
   	}
 recipe Revert Attachable
   	{
-   	   AuthenticZBackpacks+.PipeBombSensorV2,
+   	   AuthenticZBackpacksPlus.PipeBombSensorV2,
 
    	   Result:PipeBombSensorV2,
 	   Time:30.0,
@@ -341,7 +341,7 @@ recipe Revert Attachable
   	}
 recipe Revert Attachable
   	{
-   	   AuthenticZBackpacks+.PipeBombSensorV3,
+   	   AuthenticZBackpacksPlus.PipeBombSensorV3,
 
    	   Result:PipeBombSensorV3,
 	   Time:30.0,
@@ -349,7 +349,7 @@ recipe Revert Attachable
   	}
 recipe Revert Attachable
   	{
-   	   AuthenticZBackpacks+.PipeBombRemote,
+   	   AuthenticZBackpacksPlus.PipeBombRemote,
 
    	   Result:PipeBombRemote,
 	   Time:30.0,
@@ -357,7 +357,7 @@ recipe Revert Attachable
   	}	
 recipe Revert Attachable
   	{
-   	   AuthenticZBackpacks+.AerosolbombSensorV1,
+   	   AuthenticZBackpacksPlus.AerosolbombSensorV1,
 
    	   Result:AerosolbombSensorV1,
 	   Time:30.0,
@@ -365,7 +365,7 @@ recipe Revert Attachable
   	}	
 recipe Revert Attachable
   	{
-   	   AuthenticZBackpacks+.AerosolbombSensorV2,
+   	   AuthenticZBackpacksPlus.AerosolbombSensorV2,
 
    	   Result:AerosolbombSensorV2,
 	   Time:30.0,
@@ -373,7 +373,7 @@ recipe Revert Attachable
   	}		
 	recipe Revert Attachable
   	{
-   	   AuthenticZBackpacks+.AerosolbombSensorV3,
+   	   AuthenticZBackpacksPlus.AerosolbombSensorV3,
 
    	   Result:AerosolbombSensorV3,
 	   Time:30.0,
@@ -381,7 +381,7 @@ recipe Revert Attachable
   	}	
 	recipe Revert Attachable
   	{
-   	   AuthenticZBackpacks+.AerosolbombRemote,
+   	   AuthenticZBackpacksPlus.AerosolbombRemote,
 
    	   Result:AerosolbombRemote,
 	   Time:30.0,
@@ -389,7 +389,7 @@ recipe Revert Attachable
   	}	
 	recipe Revert Attachable
   	{
-   	   AuthenticZBackpacks+.FlameTrap,
+   	   AuthenticZBackpacksPlus.FlameTrap,
 
    	   Result:FlameTrap,
 	   Time:30.0,
@@ -397,7 +397,7 @@ recipe Revert Attachable
   	}
 	recipe Revert Attachable
   	{
-   	   AuthenticZBackpacks+.FlameTrapTriggered,
+   	   AuthenticZBackpacksPlus.FlameTrapTriggered,
 
    	   Result:FlameTrapTriggered,
 	   Time:30.0,
@@ -405,7 +405,7 @@ recipe Revert Attachable
   	}	
 	recipe Revert Attachable
   	{
-   	   AuthenticZBackpacks+.FlameTrapSensorV1,
+   	   AuthenticZBackpacksPlus.FlameTrapSensorV1,
 
    	   Result:FlameTrapSensorV1,
 	   Time:30.0,
@@ -413,7 +413,7 @@ recipe Revert Attachable
   	}	
 	recipe Revert Attachable
   	{
-   	   AuthenticZBackpacks+.FlameTrapSensorV2,
+   	   AuthenticZBackpacksPlus.FlameTrapSensorV2,
 
    	   Result:FlameTrapSensorV2,
 	   Time:30.0,
@@ -421,7 +421,7 @@ recipe Revert Attachable
   	}
 	recipe Revert Attachable
   	{
-   	   AuthenticZBackpacks+.FlameTrapSensorV3,
+   	   AuthenticZBackpacksPlus.FlameTrapSensorV3,
 
    	   Result:FlameTrapSensorV3,
 	   Time:30.0,
@@ -429,7 +429,7 @@ recipe Revert Attachable
   	}
 	recipe Revert Attachable
   	{
-   	   AuthenticZBackpacks+.FlameTrapRemote,
+   	   AuthenticZBackpacksPlus.FlameTrapRemote,
 
    	   Result:FlameTrapRemote,
 	   Time:30.0,
@@ -437,7 +437,7 @@ recipe Revert Attachable
   	}	
 	recipe Revert Attachable
   	{
-   	   AuthenticZBackpacks+.SmokeBomb,
+   	   AuthenticZBackpacksPlus.SmokeBomb,
 
    	   Result:SmokeBomb,
 	   Time:30.0,
@@ -445,7 +445,7 @@ recipe Revert Attachable
   	}	
 	recipe Revert Attachable
   	{
-   	   AuthenticZBackpacks+.SmokeBombRemote,
+   	   AuthenticZBackpacksPlus.SmokeBombRemote,
 
    	   Result:SmokeBombRemote,
 	   Time:30.0,
@@ -453,7 +453,7 @@ recipe Revert Attachable
   	}	
 	recipe Revert Attachable
   	{
-   	   AuthenticZBackpacks+.SmokeBombSensorV1,
+   	   AuthenticZBackpacksPlus.SmokeBombSensorV1,
 
    	   Result:SmokeBombSensorV1,
 	   Time:30.0,
@@ -461,7 +461,7 @@ recipe Revert Attachable
   	}	
 	recipe Revert Attachable
   	{
-   	   AuthenticZBackpacks+.SmokeBombSensorV2,
+   	   AuthenticZBackpacksPlus.SmokeBombSensorV2,
 
    	   Result:SmokeBombSensorV2,
 	   Time:30.0,
@@ -469,7 +469,7 @@ recipe Revert Attachable
   	}
 	recipe Revert Attachable
   	{
-   	   AuthenticZBackpacks+.SmokeBombSensorV3,
+   	   AuthenticZBackpacksPlus.SmokeBombSensorV3,
 
    	   Result:SmokeBombSensorV3,
 	   Time:30.0,
@@ -477,7 +477,7 @@ recipe Revert Attachable
   	}	
 	recipe Revert Attachable
   	{
-   	   AuthenticZBackpacks+.SmokeBombTriggered,
+   	   AuthenticZBackpacksPlus.SmokeBombTriggered,
 
    	   Result:SmokeBombTriggered,
 	   Time:30.0,
@@ -485,7 +485,7 @@ recipe Revert Attachable
   	}
 	recipe Revert Attachable
   	{
-   	   AuthenticZBackpacks+.Molotov,
+   	   AuthenticZBackpacksPlus.Molotov,
 
    	   Result:Molotov,
 	   Time:30.0,
@@ -495,7 +495,7 @@ recipe Make Backpack Attachable Item
   	{
    	   Base.PopBottleEmpty,
 
-   	   Result:AuthenticZBackpacks+.PopBottleEmpty,
+   	   Result:AuthenticZBackpacksPlus.PopBottleEmpty,
 	   Time:30.0,
 	   Tooltip:Tooltip_AttachBackpack,
   	}	
@@ -503,7 +503,7 @@ recipe Make Backpack Attachable Item
   	{
    	   Base.WaterBottleEmpty,
 
-   	   Result:AuthenticZBackpacks+.WaterBottleEmpty,
+   	   Result:AuthenticZBackpacksPlus.WaterBottleEmpty,
 	   Time:30.0,
 	   Tooltip:Tooltip_AttachBackpack,
   	}
@@ -512,7 +512,7 @@ recipe Make Backpack Attachable Item
    	   destroy Base.WaterBottleFull,
 
 	   OnCreate:AZKeepDrainableContent_OnCreate,
-   	   Result:AuthenticZBackpacks+.WaterBottleFull,
+   	   Result:AuthenticZBackpacksPlus.WaterBottleFull,
 	   Time:30.0,
 	   Tooltip:Tooltip_AttachBackpack,
   	}	
@@ -521,7 +521,7 @@ recipe Make Backpack Attachable Item
    	   destroy Base.WaterPopBottle,
 
 	   OnCreate:AZKeepDrainableContent_OnCreate,
-   	   Result:AuthenticZBackpacks+.WaterPopBottle,
+   	   Result:AuthenticZBackpacksPlus.WaterPopBottle,
 	   Time:30.0,
 	   Tooltip:Tooltip_AttachBackpack,
   	}
@@ -530,9 +530,44 @@ recipe Make Backpack Attachable Item
    	   destroy Base.PopBottle,
 
 	   OnCreate:AZKeepFoodContent_OnCreate,
-   	   Result:AuthenticZBackpacks+.PopBottle,
+   	   Result:AuthenticZBackpacksPlus.PopBottle,
 	   Time:30.0,
 	   Tooltip:Tooltip_AttachBackpack,
   	}
-	
+
+recipe Put Goblin in Carriage
+  	{
+   	   GroguAZ,
+   	   GroguCarriageEmpty,
+
+   	   Result:GroguCarriage,
+	   Time:30.0,
+  	}
+
+recipe Take Goblin Out
+  	{
+   	   GroguCarriage,
+
+   	   Result:GroguCarriageEmpty,
+	   OnCreate:GetGroguBack,	   
+	   Time:30.0,
+  	}
+
+recipe Put Goblin in Bag
+  	{
+   	   GroguAZ,
+   	   Bag_LS_GroguBagEmpty,
+
+   	   Result:Bag_LS_GroguBag,
+	   Time:30.0,
+  	}
+
+recipe Take Goblin Out
+  	{
+   	   Bag_LS_GroguBag,
+
+   	   Result:Bag_LS_GroguBagEmpty,
+	   OnCreate:GetGroguBack,
+	   Time:30.0,
+  	}	
 }		
