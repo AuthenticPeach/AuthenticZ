@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media\models_X\skinned\clothes\JacketTied.FBX</m_MaleModel>
+	<m_FemaleModel>media\models_X\skinned\clothes\JacketTied.FBX</m_FemaleModel>
+	<m_GUID>fc09bf3f-1774-43c1-b666-91ecbc482eff</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>clothes\Hoodie\HoodieDOWN-CropTop-Rave1</textureChoices>
+	<textureChoices>clothes\Hoodie\HoodieDOWN-CropTop-Rave2</textureChoices>
+	<textureChoices>clothes\Hoodie\HoodieDOWN-CropTop-Rave3</textureChoices>
+	<textureChoices>clothes\Hoodie\HoodieDOWN-CropTop-Rave4</textureChoices>
+</clothingItem>

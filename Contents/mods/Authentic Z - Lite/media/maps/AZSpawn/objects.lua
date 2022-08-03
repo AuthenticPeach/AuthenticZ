@@ -29,10 +29,15 @@ objects = {
   { name = "HitchHikingInmates", type = "ZombiesType", x = 8550, y = 12280, z = 0, width = 70, height = 37},
   { name = "HitchHikingInmates", type = "ZombiesType", x = 8560, y = 12333, z = 0, width = 60, height = 37},
   { name = "IceCream", type = "ZombiesType", x = 6465, y = 5215, z = 0, width = 16, height = 16},
-  { name = "IceCream", type = "ZombiesType", x = 13648, y = 5773, z = 0, width = 17, height = 17},
+  { name = "IceCream", type = "ZombiesType", x = 6465, y = 5215, z = 0, width = 16, height = 16},
+  { name = "Kate", type = "ZombiesType", x = 10724, y = 9406, z = 0, width = 40, height = 26},
+  { name = "Kate", type = "ZombiesType", x = 10724, y = 9406, z = 1, width = 40, height = 26},
   { name = "MovieNight2", type = "ZombiesType", x = 13569, y = 5854, z = 0, width = 77, height = 72},
   { name = "PlanetTerror", type = "ZombiesType", x = 5910, y = 5229, z = 0, width = 60, height = 45}, -- Western Riverside			
   { name = "Pony", type = "ZombiesType", x = 8530, y = 8440, z = 0, width = 135, height = 144},
+  { name = "ShipBoat", type = "ZombiesType", x = 2024, y = 5675, z = 0, width = 46, height = 19}, --Riverside Boat
+  { name = "ShipBoat", type = "ZombiesType", x = 2024, y = 5675, z = 1, width = 46, height = 19}, --Riverside Boat
+  { name = "ShipBoat", type = "ZombiesType", x = 2024, y = 5675, z = 2, width = 46, height = 19}, --Riverside Boat
   { name = "SpeakingEvent", type = "ZombiesType", x = 11926, y = 6856, z = 0, width = 135, height = 39},--Westpoint Meeting room
   { name = "Spiffos", type = "ZombiesType", x = 13870, y = 5750, z = 0, width = 16, height = 30},
   { name = "ParkPlaza", type = "ZombiesType", x = 11777, y = 6904, z = 0, width = 30, height = 35},
@@ -98,8 +103,6 @@ objects = {
   { name = "ParkPlaza", type = "ZombiesType", x = 14100, y = 2748, z = 0, width = 45, height = 56},
   { name = "ParkPlaza", type = "ZombiesType", x = 13410, y = 1720, z = 0, width = 29, height = 29},
   { name = "StreetSports", type = "ZombiesType", x = 13235, y = 2709, z = 0, width = 15, height = 21},--LV Central Park
-
-  { name = "TattooShop", type = "ZombiesType", x = 13250, y = 1273, z = 0, width = 5, height = 20},--LV 
  
   { name = "CrossroadsMall", type = "ZombiesType", x = 13512, y = 1257, z = 0, width = 113, height = 148},
   { name = "CrossroadsMall", type = "ZombiesType", x = 13512, y = 1257, z = 2, width = 113, height = 148},

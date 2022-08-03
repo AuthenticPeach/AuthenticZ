@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>static\clothes\GlassesCheese</m_MaleModel>
+	<m_FemaleModel>static\clothes\GlassesCheese</m_FemaleModel>
+	<m_GUID>72fc0f15-769a-4d1b-9ada-3bc7abab82fe</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone>Bip01_Head</m_AttachBone>
+	<m_MasksFolder>none</m_MasksFolder>
+	<textureChoices>clothes\Glasses\NormalGlassesCheese</textureChoices>
+</clothingItem>

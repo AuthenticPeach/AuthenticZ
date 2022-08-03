@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <clothingItem>
 	<m_MaleModel>skinned\CustomBodies\FatBody02_M\FatBod_M_02_HuntingVest</m_MaleModel>
-	<m_FemaleModel>skinned\CustomBodies\FatBody02_M\FatBod_M_02_HuntingVest</m_FemaleModel>
+	<m_FemaleModel>skinned\CustomBodies\FatBody02_F\FatBod_F_02_Vest</m_FemaleModel>
 	<m_GUID>49a2c8ad-45fb-4ba0-b14b-8db1c7821b58</m_GUID>
 	<m_Static>false</m_Static>
 	<m_AllowRandomHue>false</m_AllowRandomHue>

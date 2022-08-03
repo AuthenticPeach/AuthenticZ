@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\CustomBodies\SkinnyBody_M\SkinnyBody01_M_TShirt</m_MaleModel>
+	<m_FemaleModel>skinned\CustomBodies\SkinnyBody_M\SkinnyBody01_M_TShirt</m_FemaleModel>
+	<m_GUID>e58aab8c-02a9-44a7-a801-648c90ee65e1</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_Masks>12</m_Masks>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>clothes\Shirt_Tshirt_Textures\Shirt_LumberjackShortBlue</textureChoices>
+	<textureChoices>clothes\Shirt_Tshirt_Textures\Shirt_LumberjackShortDarkRed</textureChoices>
+	<textureChoices>clothes\Shirt_Tshirt_Textures\Shirt_LumberjackShortGreen</textureChoices>
+	<textureChoices>clothes\Shirt_Tshirt_Textures\Shirt_LumberjackShortGrey</textureChoices>
+	<textureChoices>clothes\Shirt_Tshirt_Textures\Shirt_LumberjackShortOrange</textureChoices>
+	<textureChoices>clothes\Shirt_Tshirt_Textures\Shirt_LumberjackShortRed</textureChoices>
+	<textureChoices>clothes\Shirt_Tshirt_Textures\Shirt_LumberjackShortYellow</textureChoices>
+	<textureChoices>clothes\Shirt_Tshirt_Textures\TShirt_White</textureChoices>
+	<textureChoices>clothes\Shirt_Tshirt_Textures\Shirt_FormalShortSleeveBlack</textureChoices>
+	<textureChoices>clothes\Shirt_Tshirt_Textures\Shirt_FormalShortSleeveBlue</textureChoices>
+	<textureChoices>clothes\Shirt_Tshirt_Textures\Shirt_FormalShortSleeveRed</textureChoices>
+	<textureChoices>clothes\Shirt_Tshirt_Textures\Bill_Murray_Undershirt</textureChoices>
+	<textureChoices>clothes\Shirt_Tshirt_Textures\TShirt_Ellis</textureChoices>
+	<textureChoices>clothes\Shirt_Tshirt_Textures\TShirt_Holly</textureChoices>
+	<textureChoices>clothes\Shirt_Tshirt_Textures\TShirt_Holly2</textureChoices>
+	<textureChoices>clothes\Shirt_Tshirt_Textures\TShirt_Holly3</textureChoices>
+	<textureChoices>clothes\Shirt_Tshirt_Textures\TShirt_Holly4</textureChoices>
+	<textureChoices>clothes\Shirt_Tshirt_Textures\TShirt_JohnMorgan</textureChoices>
+	<textureChoices>clothes\Shirt_Tshirt_Textures\Tshirt_KillaSport</textureChoices>
+	<textureChoices>clothes\Shirt_Tshirt_Textures\TShirt_LegoHead</textureChoices>
+	<textureChoices>clothes\Shirt_Tshirt_Textures\TShirt_LoganCarterFootball</textureChoices>
+	<textureChoices>clothes\Shirt_Tshirt_Textures\TShirt_White</textureChoices>
+	<textureChoices>clothes\Shirt_Tshirt_Textures\TShirt_Pedro</textureChoices>
+	<textureChoices>clothes\Shirt_Tshirt_Textures\TShirt_PostalDude</textureChoices>
+	<textureChoices>clothes\Shirt_Tshirt_Textures\TShirt_Rochelle2</textureChoices>
+	<textureChoices>clothes\Shirt_Tshirt_Textures\TShirt_Rochelle</textureChoices>
+	<textureChoices>clothes\Shirt_Tshirt_Textures\TShirt_WhiteStripe</textureChoices>
+	
+	<textureChoices>clothes\Shirt_Tshirt_Textures\TShirt_White</textureChoices>
+	<textureChoices>clothes\Shirt_Tshirt_Textures\TShirt_SportYellow</textureChoices>
+	<textureChoices>clothes\Shirt_Tshirt_Textures\TShirt_SportRed</textureChoices>
+	<textureChoices>clothes\Shirt_Tshirt_Textures\TShirt_SportGreen</textureChoices>
+	<textureChoices>clothes\Shirt_Tshirt_Textures\TShirt_SportBlue</textureChoices>
+	<textureChoices>clothes\Shirt_Tshirt_Textures\TShirt_Profession_VeterenGreen</textureChoices>
+	<textureChoices>clothes\Shirt_Tshirt_Textures\TShirt_Profession_RangerGreen</textureChoices>
+	<textureChoices>clothes\Shirt_Tshirt_Textures\TShirt_Profession_RangerBrown</textureChoices>
+	<textureChoices>clothes\Shirt_Tshirt_Textures\TShirt_Polo_White</textureChoices>
+	<textureChoices>clothes\Shirt_Tshirt_Textures\TShirt_McCoys</textureChoices>
+	<textureChoices>clothes\Shirt_Tshirt_Textures\TShirt_ArmyGreen</textureChoices>
+	<textureChoices>clothes\Shirt_Tshirt_Textures\TShirt_Grey</textureChoices>
+	
+</clothingItem>

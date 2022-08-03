@@ -5,7 +5,7 @@
 	<m_GUID>48e002a3-87ae-4781-acb6-b65830ba39f1</m_GUID>
 	<m_Static>false</m_Static>
 	<m_AllowRandomHue>false</m_AllowRandomHue>
-	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AllowRandomTint>true</m_AllowRandomTint>
 	<m_AttachBone></m_AttachBone>
-	<m_BaseTextures>clothes\shirt_tshirt_textures\ClothingVestRim</m_BaseTextures>	
+	<m_BaseTextures>clothes\TankTops\ClothingVestRim</m_BaseTextures>	
 </clothingItem>

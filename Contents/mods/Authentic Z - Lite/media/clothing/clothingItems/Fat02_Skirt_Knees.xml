@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel>skinned\CustomBodies\FatBody02_F\FatBod_F_02_Skirt_Knees</m_FemaleModel>
+	<m_GUID>192aa7d4-d156-47f0-9ad8-ebdbaca26dac</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>true</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>clothes\dress_textures\skirtknees</textureChoices>
+</clothingItem>

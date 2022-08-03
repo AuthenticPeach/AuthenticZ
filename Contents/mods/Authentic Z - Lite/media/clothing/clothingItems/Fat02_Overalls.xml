@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\CustomBodies\FatBody02_M\FatBod_M_02_Overalls</m_MaleModel>
+	<m_FemaleModel>skinned\CustomBodies\FatBody02_F\FatBod_F_02_Overalls</m_FemaleModel>
+	<m_GUID>8600d2b6-2b95-46a4-b5d4-2fd6e2d30506</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_Masks>2</m_Masks>
+	<m_Masks>7</m_Masks>
+	<m_Masks>9</m_Masks>
+	<textureChoices>clothes\Dungarees\Dungerees</textureChoices>	
+</clothingItem>

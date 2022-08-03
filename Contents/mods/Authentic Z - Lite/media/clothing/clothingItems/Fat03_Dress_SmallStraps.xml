@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel>skinned\CustomBodies\FatBody03_F\FatBod_F_03_Dress_Short_Straps</m_FemaleModel>
+	<m_GUID>45f239d7-4fff-4d24-9a9b-47ab03119e59</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>true</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_Masks>2</m_Masks>	
+	<textureChoices>clothes\dress_textures\dresssmall_straps</textureChoices>
+</clothingItem>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\Clothes\VanillaCameraRegular</m_MaleModel>
+	<m_FemaleModel>skinned\Clothes\VanillaCameraRegular</m_FemaleModel>
+	<m_GUID>88704c7b-5fd1-4f2c-8a8d-1232b81ccf9c</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_MasksFolder>none</m_MasksFolder>
+	<textureChoices>WorldItems\Camera</textureChoices>
+</clothingItem>
