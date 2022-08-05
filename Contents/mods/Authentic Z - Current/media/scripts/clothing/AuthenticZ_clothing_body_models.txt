@@ -32,7 +32,7 @@ module AuthenticZClothing {
 	{
        DisplayCategory = Clothing,		
 		Type = Clothing,
-		DisplayName = Middle Aged Bod, 
+/*		DisplayName = Middle Aged Bod, */
 		ClothingItem = FatBody01_MiddleAged,
 		BodyLocation = Torso1Legs1,
 		Icon = AZDadBod,
@@ -50,7 +50,7 @@ module AuthenticZClothing {
 	{
        DisplayCategory = Clothing,		
 		Type = Clothing,
-		DisplayName = Plus Size Bod, 
+/*		DisplayName = Plus Size Bod, */
 		ClothingItem = FatBody02_PlusSize,
 		BodyLocation = Torso1Legs1,
 		Icon = AZDadBod,
@@ -68,7 +68,7 @@ module AuthenticZClothing {
 	{
         DisplayCategory = Clothing,		
 		Type = Clothing,
-		DisplayName = Obese Bod, 
+/*		DisplayName = Obese Bod, */
 		ClothingItem = FatBody03_ObeseBod,
 		BodyLocation = Torso1Legs1,
 		Icon = AZDadBod,
@@ -77,7 +77,7 @@ module AuthenticZClothing {
 	{
         DisplayCategory = Clothing,		
 		Type = Clothing,
-		DisplayName = Obese Female Bod, 	
+/*		DisplayName = Obese Female Bod, */	
 		ClothingItem = FatBody03_ObeseFemale,
 		BodyLocation = Torso1Legs1,
 		Icon = AZDadBod,
