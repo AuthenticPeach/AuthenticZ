@@ -1900,7 +1900,7 @@ module AuthenticZLite {
         Type = Clothing,
         DisplayName = Crop-Top Hoodie (Tied),
         ClothingItem = HoodieTied_CropTopRave,
-        ClothingItemExtra = AuthenticZLite.HoodieDOWN_CropTopTINT;AuthenticZLite.HoodieUP_CropTopRave,
+        ClothingItemExtra = AuthenticZLite.HoodieDOWN_CropTopRave;AuthenticZLite.HoodieUP_CropTopRave,
         ClothingItemExtraOption = DownHoodie;UpHoodie,	
 		BodyLocation = TorsoExtra,
 		BloodLocation = Apron,
