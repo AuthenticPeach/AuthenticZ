@@ -28,6 +28,7 @@ objects = {
   { name = "HitchHikingInmates", type = "ZombiesType", x = 8460, y = 11180, z = 0, width = 16, height = 70},
   { name = "HitchHikingInmates", type = "ZombiesType", x = 8550, y = 12280, z = 0, width = 70, height = 37},
   { name = "HitchHikingInmates", type = "ZombiesType", x = 8560, y = 12333, z = 0, width = 60, height = 37},
+  { name = "IceCream", type = "ZombiesType", x = 13648, y = 5773, z = 0, width = 17, height = 17},  
   { name = "IceCream", type = "ZombiesType", x = 6465, y = 5215, z = 0, width = 16, height = 16},
   { name = "IceCream", type = "ZombiesType", x = 6465, y = 5215, z = 0, width = 16, height = 16},
   { name = "Kate", type = "ZombiesType", x = 10724, y = 9406, z = 0, width = 40, height = 26},
@@ -103,6 +104,8 @@ objects = {
   { name = "ParkPlaza", type = "ZombiesType", x = 14100, y = 2748, z = 0, width = 45, height = 56},
   { name = "ParkPlaza", type = "ZombiesType", x = 13410, y = 1720, z = 0, width = 29, height = 29},
   { name = "StreetSports", type = "ZombiesType", x = 13235, y = 2709, z = 0, width = 15, height = 21},--LV Central Park
+
+  { name = "TattooShop", type = "ZombiesType", x = 13250, y = 1273, z = 0, width = 5, height = 20},--LV 
  
   { name = "CrossroadsMall", type = "ZombiesType", x = 13512, y = 1257, z = 0, width = 113, height = 148},
   { name = "CrossroadsMall", type = "ZombiesType", x = 13512, y = 1257, z = 2, width = 113, height = 148},
