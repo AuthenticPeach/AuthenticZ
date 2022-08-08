@@ -4165,9 +4165,9 @@ recipe Upgrade Duffelbag
 
 recipe Upgrade Duffelbag  /* Greys*/
   	{
-	   Bag_MoneyBag/Bag_WeaponBag/Bag_ShotgunBag/Bag_ShotgunSawnoffBag/Bag_ShotgunDblBag/Bag_ShotgunDblSawnoffBag,
-		keep Scissors,
-        keep Needle/SutureNeedle,
+	   Bag_MoneyBag/Bag_WeaponBag/Bag_ShotgunBag/Bag_ShotgunSawnoffBag/Bag_ShotgunDblBag/Bag_ShotgunDblSawnoffBag/Bag_FoodCanned/Bag_FoodSnacks/Bag_ToolBag,
+	   keep Scissors,
+       keep Needle/SutureNeedle,
        Thread=3,
 	   LeatherStrips/DenimStrips=3,		   
 
@@ -4218,7 +4218,7 @@ recipe Upgrade Duffelbag
 
 recipe Upgrade Duffelbag 	/* Regular with 3 variations*/
   	{
-	  Bag_DuffelBag,
+	  Bag_DuffelBag/Bag_MedicalBag,
 		keep Scissors,
         keep Needle/SutureNeedle,
        Thread=3,

@@ -245,7 +245,7 @@ AuthenticZ.tab_Sport_Top  = function(x,count)
   ProceduralDistributions.list = ProceduralDistributions.list or {};
   ProceduralDistributions.list[x] = ProceduralDistributions.list[x] or {};
   ProceduralDistributions.list[x].items = ProceduralDistributions.list[x].items or {};
-  table.insert(ProceduralDistributions.list[x].items,"AuthenticZClothing.Sport_Top ");
+  table.insert(ProceduralDistributions.list[x].items,"AuthenticZClothing.Sport_Top");
   table.insert(ProceduralDistributions.list[x].items, count);
 end
 
@@ -259,13 +259,13 @@ AuthenticZ.tab_addMagProcedural_Plushies  = function(x,count)
   table.insert(ProceduralDistributions.list[x].items, count);
   table.insert(ProceduralDistributions.list[x].items,"AuthenticZClothing.ToyBearSmall");  
   table.insert(ProceduralDistributions.list[x].items, count);
-  table.insert(ProceduralDistributions.list[x].items,"AuthenticZClothing.SpiffoPlushieBlueberry");
+  table.insert(ProceduralDistributions.list[x].items,"AuthenticZClothing.SpiffoBlueberry");
   table.insert(ProceduralDistributions.list[x].items, count);  
-  table.insert(ProceduralDistributions.list[x].items,"AuthenticZClothing.SpiffoPlushieHeart");
+  table.insert(ProceduralDistributions.list[x].items,"AuthenticZClothing.SpiffoHeart");
   table.insert(ProceduralDistributions.list[x].items, count);
   table.insert(ProceduralDistributions.list[x].items,"AuthenticZClothing.SpiffoPlushieRainbow");
   table.insert(ProceduralDistributions.list[x].items, count);     
-  table.insert(ProceduralDistributions.list[x].items,"AuthenticZClothing.SpiffoPlushieShamrock");
+  table.insert(ProceduralDistributions.list[x].items,"AuthenticZClothing.SpiffoShamrock");
   table.insert(ProceduralDistributions.list[x].items, count);  
   table.insert(ProceduralDistributions.list[x].items,"AuthenticZClothing.Flamingo");
   table.insert(ProceduralDistributions.list[x].items, count);
@@ -400,18 +400,18 @@ AuthenticZ.tab_addMagProcedural_Ponchos("ArmySurplusOutfit",6.0);
 
 AuthenticZ.tab_addMagProcedural_Fitness("CrateFitnessWeights",2.0);
 
-AuthenticZ.tab_Sport_Top("BedroomDresser",0.3);
-AuthenticZ.tab_Sport_Top("ClothingStoresSport",6);
-AuthenticZ.tab_Sport_Top("CrateClothesRandom",6);
-AuthenticZ.tab_Sport_Top("CrateFitnessWeights",4);
-AuthenticZ.tab_Sport_Top("CrateRandomJunk",0.4);
-AuthenticZ.tab_Sport_Top("DresserGeneric",0.4);
-AuthenticZ.tab_Sport_Top("GymLaundry",1);
-AuthenticZ.tab_Sport_Top("GymLockers",1);
-AuthenticZ.tab_Sport_Top("LaundryLoad3",2);
-AuthenticZ.tab_Sport_Top("LaundryLoad6",0.4);
-AuthenticZ.tab_Sport_Top("SchoolLockers",0.5);
-AuthenticZ.tab_Sport_Top("WardrobeChild",0.2);
+--AuthenticZ.tab_Sport_Top("BedroomDresser",0.3);
+--AuthenticZ.tab_Sport_Top("ClothingStoresSport",6);
+AuthenticZ.tab_Sport_Top("CrateClothesRandom",6);--
+AuthenticZ.tab_Sport_Top("CrateFitnessWeights",4);--
+AuthenticZ.tab_Sport_Top("CrateRandomJunk",0.4);--
+--AuthenticZ.tab_Sport_Top("DresserGeneric",0.4);
+--AuthenticZ.tab_Sport_Top("GymLaundry",1);
+--AuthenticZ.tab_Sport_Top("GymLockers",1);
+--AuthenticZ.tab_Sport_Top("LaundryLoad3",2);
+--AuthenticZ.tab_Sport_Top("LaundryLoad6",0.4);
+--AuthenticZ.tab_Sport_Top("SchoolLockers",0.5);
+--AuthenticZ.tab_Sport_Top("WardrobeChild",0.2);
 
 AuthenticZ.tab_Bag_RoadsideDuffel("MechanicShelfTools",1.0);
 AuthenticZ.tab_Bag_RoadsideDuffel("OtherGeneric",0.3);

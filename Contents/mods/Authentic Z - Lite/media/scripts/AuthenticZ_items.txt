@@ -32,6 +32,16 @@ module AuthenticZLite {
         Icon			=	PZAZ_hitlist,
 		WorldStaticModel = Hit-list3Map,
 	}
+	item PZAZ_SealedMedkit
+	{
+        DisplayCategory = Household,	
+        Weight			=	3.0,
+        Type			=	Normal,
+        DisplayName		=	Sealed Medkit,
+        Icon			=	FirstAid,
+        Medical 		= 	TRUE,		
+		WorldStaticModel = LunchBoxMedic_Ground,
+	}	
 	item PZAZ_CostumeStoreSign
 	{
         DisplayCategory = Household,	
