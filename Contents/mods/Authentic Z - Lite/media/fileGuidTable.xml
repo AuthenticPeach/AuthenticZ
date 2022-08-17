@@ -3364,14 +3364,6 @@
 		<guid>13f54462-7a4e-4c8f-8dba-f5212a522b1f</guid>
 	</files>	
 	<files>
-		<path>media/clothing/clothingItems/Arm_LeftBone.xml</path>
-		<guid>6a41ec7b-a82d-46ee-b57b-37097c8e19f4</guid>
-	</files>
-	<files>
-		<path>media/clothing/clothingItems/Arm_LeftHandBone.xml</path>
-		<guid>b09cc3d9-b820-4652-8f0f-ae355176ce02</guid>
-	</files>
-	<files>
 		<path>media/clothing/clothingItems/AmmoStrap_Bullets1.xml</path>
 		<guid>33fcfe7e-057a-412d-8eb9-73490d90311d</guid>
 	</files>
@@ -6359,21 +6351,30 @@
 		<path>media/clothing/clothingItems/Hat_WoolyHatWaldo.xml</path>
 		<guid>5d9e8c72-a432-4d08-bec3-cd5d2d6fbf21</guid>
 	</files>
+	<!-- Authentic Z Gore -->			
 	<files>
-		<path>media/clothing/clothingItems/Gloves_Bone.xml</path>
+		<path>media/clothing/clothingItems/Bone_Arm_L.xml</path>
 		<guid>6e10e6c0-0ac4-4010-974c-56d57f1edd46</guid>
 	</files>
 	<files>
-		<path>media/clothing/clothingItems/Gloves_HandBone_L.xml</path>
+		<path>media/clothing/clothingItems/Bone_Arm_R.xml</path>
 		<guid>5eab0171-d6d2-422e-b69a-3387f219652f</guid>
 	</files>	
 	<files>
-		<path>media/clothing/clothingItems/Gloves_ArmBoneL.xml</path>
+		<path>media/clothing/clothingItems/Bone_Hand_L.xml</path>
 		<guid>9f1781e7-c6b6-4fee-adfb-cf14ef833a76</guid>
 	</files>	
 	<files>
-		<path>media/clothing/clothingItems/Gloves_ArmBoneR.xml</path>
+		<path>media/clothing/clothingItems/Bone_Hand_R.xml</path>
 		<guid>6e7fb312-cb8b-4bf4-8062-c2a72851e190</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bone_Stub_R.xml</path>
+		<guid>ade3238e-17c4-4ddd-896b-eadb3208635c</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bone_Stub_L.xml</path>
+		<guid>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</guid>
 	</files>
 	<!-- Authentic Z Hair/Beard Styles/Wigs -->	
 	<files>

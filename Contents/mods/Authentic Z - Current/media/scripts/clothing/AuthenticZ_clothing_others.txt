@@ -1237,21 +1237,5 @@ module AuthenticZClothing {
 		Type = Clothing,
 		ClothingItem = Wood_Chunk_1,
 		BodyLocation = TorsoExtra,
-    }
-    item Arm_LeftBone
-    {
-        DisplayCategory = Junk,		
-        Type = Clothing,
-        ClothingItem =  Arm_LeftBone,
-        BodyLocation = Necklace,
-    }
-    item Arm_LeftHandBone
-    {
-        DisplayCategory = Junk,		
-		DisplayName = Hand Bone,
-        Type = Clothing,
-        ClothingItem =  Arm_LeftHandBone,
-        BodyLocation = Necklace,
-		Icon = TieBowYellow,
     }	
 }

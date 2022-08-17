@@ -1,0 +1,77 @@
+module AuthenticZClothing {
+  imports {
+      Base
+  }	
+    item Arm_LeftBone
+    {
+        DisplayCategory = Junk,	
+		DisplayName = Arm Bone,		
+        Type = Clothing,
+        ClothingItem =  Bone_Arm_L,
+        BodyLocation = Necklace_Long,
+		Icon = TieBowYellow,		
+    }
+    item Arm_LeftHandBone
+    {
+        DisplayCategory = Junk,		
+		DisplayName = Hand Bone,
+        Type = Clothing,
+        ClothingItem =  Bone_Hand_L,
+        BodyLocation = Left_MiddleFinger,
+		Icon = TieBowYellow,
+    }
+    item Bone_Arm_R
+    {
+        DisplayCategory = Junk,		
+		DisplayName = Hand Bone,
+        Type = Clothing,
+        ClothingItem =  Bone_Arm_R,
+        BodyLocation = Necklace_Long,
+		Icon = TieBowYellow,
+    }	
+    item Bone_Hand_R
+    {
+        DisplayCategory = Junk,		
+		DisplayName = Hand Bone,
+        Type = Clothing,
+        ClothingItem =  Bone_Hand_R,
+        BodyLocation = Right_MiddleFinger,
+		Icon = TieBowYellow,
+    }
+    item Bone_UpperArm_R
+    {
+        DisplayCategory = Junk,		
+		DisplayName = Upper Arm Bone,
+        Type = Clothing,
+        ClothingItem =  Bone_UpperArm_R,
+        BodyLocation = Necklace_Long,
+		Icon = TieBowYellow,
+    }	
+    item Bone_UpperArm_L
+    {
+        DisplayCategory = Junk,		
+		DisplayName = Upper Arm Bone,
+        Type = Clothing,
+        ClothingItem =  Bone_UpperArm_L,
+        BodyLocation = Right_MiddleFinger,
+		Icon = TieBowYellow,
+    }	
+    item Bone_Stub_R
+    {
+        DisplayCategory = Junk,		
+		DisplayName = Hand Bone Stub,
+        Type = Clothing,
+        ClothingItem =  Bone_Stub_R,
+        BodyLocation = RightWrist,
+		Icon = TieBowYellow,
+    }
+    item Bone_Stub_L
+    {
+        DisplayCategory = Junk,		
+		DisplayName = Hand Bone Stub,
+        Type = Clothing,
+        ClothingItem =  Bone_Stub_L,
+        BodyLocation = LeftWrist,
+		Icon = TieBowYellow,
+    }	
+}

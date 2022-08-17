@@ -2317,8 +2317,8 @@
 		<m_items> <!--  Wrinkles Clown Suit -->
 			<itemGUID>a8a5f1fe-d0ef-4e6d-a963-630ed6e20d99</itemGUID>
 		</m_items>
-		<m_items> <!-- Clown Cone Mask -->
-			<itemGUID>bd263e15-0c25-4647-aa57-ba2cb5217128</itemGUID>
+		<m_items> <!-- Wrinkles Mask -->
+			<itemGUID>37e36a8b-64b1-4240-9787-50abea2ca456</itemGUID>
 		</m_items>			
 		<m_items> <!-- Clown Top White-->
 			<itemGUID>86760a8e-5dbd-4908-97e4-5307275696df</itemGUID>			

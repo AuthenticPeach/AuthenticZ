@@ -26,18 +26,18 @@ AuthenticZ.tab_addMagProcedural_CrutchAZ  = function(x,count)
   ProceduralDistributions = ProceduralDistributions or {};
   ProceduralDistributions.list = ProceduralDistributions.list or {};
   ProceduralDistributions.list[x] = ProceduralDistributions.list[x] or {};
-  ProceduralDistributions.list[x].junk = ProceduralDistributions.list[x].junk or {};
-  ProceduralDistributions.list[x].junk.items = ProceduralDistributions.list[x].junk.items or {};
-  table.insert(ProceduralDistributions.list[x].junk.items,"AuthenticZLite.AuthenticCrutch");
-  table.insert(ProceduralDistributions.list[x].junk.items, count);
+  ProceduralDistributions.list[x].items = ProceduralDistributions.list[x].items or {};
+  table.insert(ProceduralDistributions.list[x].items,"AuthenticZLite.AuthenticCrutch");
+  table.insert(ProceduralDistributions.list[x].items, count);
 end
 --Hair Curlers
 AuthenticZ.tab_addMagProcedural_HairCurlers  = function(x,count)
   ProceduralDistributions = ProceduralDistributions or {};
   ProceduralDistributions.list = ProceduralDistributions.list or {};
   ProceduralDistributions.list[x] = ProceduralDistributions.list[x] or {};
-  table.insert(ProceduralDistributions.list[x].junk.items,"AuthenticZLite.Hairstyle_HairCurlers");
-  table.insert(ProceduralDistributions.list[x].junk.items, count);
+  ProceduralDistributions.list[x].items = ProceduralDistributions.list[x].items or {};
+  table.insert(ProceduralDistributions.list[x].items,"AuthenticZLite.Hairstyle_HairCurlers");
+  table.insert(ProceduralDistributions.list[x].items, count);
 end
 --Hit Lists
 AuthenticZ.tab_addMagProcedural_items  = function(x,count)

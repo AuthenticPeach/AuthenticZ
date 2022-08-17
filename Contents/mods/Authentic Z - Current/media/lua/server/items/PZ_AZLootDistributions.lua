@@ -26,18 +26,18 @@ AuthenticZ.tab_addMagProcedural_CrutchAZ  = function(x,count)
   ProceduralDistributions = ProceduralDistributions or {};
   ProceduralDistributions.list = ProceduralDistributions.list or {};
   ProceduralDistributions.list[x] = ProceduralDistributions.list[x] or {};
-  ProceduralDistributions.list[x].junk = ProceduralDistributions.list[x].junk or {};
-  ProceduralDistributions.list[x].junk.items = ProceduralDistributions.list[x].junk.items or {};
-  table.insert(ProceduralDistributions.list[x].junk.items,"AuthenticZClothing.AuthenticCrutch");
-  table.insert(ProceduralDistributions.list[x].junk.items, count);
+  ProceduralDistributions.list[x].items = ProceduralDistributions.list[x].items or {};
+  table.insert(ProceduralDistributions.list[x].items,"AuthenticZClothing.AuthenticCrutch");
+  table.insert(ProceduralDistributions.list[x].items, count);
 end
 --Hair Curlers
 AuthenticZ.tab_addMagProcedural_HairCurlers  = function(x,count)
   ProceduralDistributions = ProceduralDistributions or {};
   ProceduralDistributions.list = ProceduralDistributions.list or {};
   ProceduralDistributions.list[x] = ProceduralDistributions.list[x] or {};
-  table.insert(ProceduralDistributions.list[x].junk.items,"AuthenticZClothing.Hairstyle_HairCurlers");
-  table.insert(ProceduralDistributions.list[x].junk.items, count);
+  ProceduralDistributions.list[x].items = ProceduralDistributions.list[x].items or {};
+  table.insert(ProceduralDistributions.list[x].items,"AuthenticZClothing.Hairstyle_HairCurlers");
+  table.insert(ProceduralDistributions.list[x].items, count);
 end
 --Hit Lists
 AuthenticZ.tab_addMagProcedural_items  = function(x,count)
@@ -115,7 +115,7 @@ AuthenticZ.tab_addMagProcedural_Ponchos  = function(x,count)
   table.insert(ProceduralDistributions.list[x].items,"AuthenticZClothing.PonchoWhiteTINTDOWN");
   table.insert(ProceduralDistributions.list[x].items, count);       
 end
---Left 4 Dead Medkit
+--Left 4 Dead Medkit Junk
 AuthenticZ.tab_addMagProcedural_L4DMedkit  = function(x,count)
   ProceduralDistributions = ProceduralDistributions or {};
   ProceduralDistributions.list = ProceduralDistributions.list or {};
@@ -125,7 +125,7 @@ AuthenticZ.tab_addMagProcedural_L4DMedkit  = function(x,count)
   table.insert(ProceduralDistributions.list[x].junk.items,"AuthenticZClothing.Bag_L4DeadMedkit");
   table.insert(ProceduralDistributions.list[x].junk.items, count);
 end
---Left 4 Dead Medkit Junk
+--Left 4 Dead Medkit
 AuthenticZ.tab_addMagProcedural_L4DMedkit2  = function(x,count)
   ProceduralDistributions = ProceduralDistributions or {};
   ProceduralDistributions.list = ProceduralDistributions.list or {};
@@ -401,7 +401,7 @@ AuthenticZ.tab_addMagProcedural_Ponchos("ArmySurplusOutfit",6.0);
 AuthenticZ.tab_addMagProcedural_Fitness("CrateFitnessWeights",2.0);
 
 --AuthenticZ.tab_Sport_Top("BedroomDresser",0.3);
---AuthenticZ.tab_Sport_Top("ClothingStoresSport",6);
+AuthenticZ.tab_Sport_Top("ClothingStoresSport",6);
 AuthenticZ.tab_Sport_Top("CrateClothesRandom",6);--
 AuthenticZ.tab_Sport_Top("CrateFitnessWeights",4);--
 AuthenticZ.tab_Sport_Top("CrateRandomJunk",0.4);--
