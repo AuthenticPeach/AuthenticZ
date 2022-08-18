@@ -5767,6 +5767,10 @@
 		<guid>0e5c0d73-91af-4e75-91c5-975c16447cb8</guid>
 	</files>
 	<files>
+		<path>media/clothing/clothingItems/SkeletonBody.xml</path>
+		<guid>7565bd00-c010-4607-9453-639bdef397b9</guid>
+	</files>	
+	<files>
 		<path>media/clothing/clothingItems/Skin_Black_Zed_M.xml</path>
 		<guid>44ee984a-1926-42e9-b9ac-41652dd31426</guid>
 	</files>	
