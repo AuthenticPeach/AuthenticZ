@@ -80,8 +80,10 @@ IGUI_FR = {
 	IGUI_HotbarAttachment_DufflebagBalloonLeft = "Emplacement de ballon",
 	IGUI_CraftCategory_Tailoring = "Couture",
 	
-	/* New*/
 	IGUI_HotbarAttachment_HikingbagSleepingRoll = "Sac de randonnée Emplacement sac de couchage",
 	IGUI_HotbarAttachment_BigHikingbagSleepingRoll = "Grand sac de randonnée Emplacement de sac de couchage",	
 	IGUI_HotbarAttachment_AlicepackSleepingRoll = "Sac Militaire Emplacement de sac de couchage",
+	
+/* New*/	
+	IGUI_AuthenticZ_Manage_Slots = "AuthenticZ Gestion des emplacements",
 }

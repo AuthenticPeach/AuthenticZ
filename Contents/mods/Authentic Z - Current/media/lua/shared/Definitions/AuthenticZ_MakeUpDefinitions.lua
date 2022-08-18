@@ -2,27 +2,6 @@ MakeUpDefinitions = MakeUpDefinitions or {};
 
 -- define all categories for make up
 MakeUpDefinitions.MakeUpDefinitions = {};
---cat = {};
---cat.name = "Lips";
---cat.avatarZoom = 23.5;
---cat.avatarYOffset = -0.83;
---cat.avatarXOffset = 0.004;
---cat.category = "Lips";
---MakeUpDefinitions.categories["Lips"] = cat;
---cat = {};
---cat.name = "ZoomOut";
---cat.avatarZoom = 13.5;
---cat.avatarYOffset = -0.83;
---cat.avatarXOffset = 0.004;
---cat.category = "Lips";
---MakeUpDefinitions.categories["Lips"] = cat;
---cat = {};
---cat.name = "ZoomIn";
---cat.avatarZoom = 17.5;
---cat.avatarYOffset = -0.53;
---cat.avatarXOffset = 0.004;
---cat.category = "Lips";
---MakeUpDefinitions.categories["Lips"] = cat;
 
 -- FULL FACE
 local makeup = {};

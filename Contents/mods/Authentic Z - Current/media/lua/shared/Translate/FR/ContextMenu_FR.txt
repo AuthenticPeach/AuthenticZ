@@ -32,4 +32,6 @@ ContextMenu_FR = {
 
 	ContextMenu_PullVeilBack = "Mettre le voile vers l'arrière",	
 	ContextMenu_PullVeilForward = "Mettre le voile vers l'avant",
+	
+	ContextMenu_SwapSides = "Changer de sens",
 } 

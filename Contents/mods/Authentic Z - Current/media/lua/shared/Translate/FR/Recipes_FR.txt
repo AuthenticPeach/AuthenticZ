@@ -39,20 +39,20 @@ Recipes_FR = {
 	Recipe_Upgrade_Rucksack = "Améliorer le sac",	
 	
 	Recipe_Revert_Attachable = "Retirer l'attachement",
-	Recipe_Reuse_Bag = "Reconvertir le sac en sac de base",	
+	Recipe_Reuse_Bag = "Reconvertir le sac en sac de base",
+	
 	Recipe_Make_Backpack_Attachable = "Rendre cet objet attachable au sac",	
 
 	Recipe_Upgrade_Evangelos_Backpack = "Améliorer le sac à dos d'Evangelo",	
 	Recipe_Upgrade_Hoffmans_Backpack = "Améliorer le sac à dos d'Hoffman",
 	Recipe_Upgrade_Walkers_Backpack = "Améliorer le sac à dos de Walker",
-
-
-/* UPDATE 17-01*/		
+	
 	Recipe_Upgrade_Urban_Camo_Alice_Pack = "Améliorer le grand sac à dos Urban Camo",
 	Recipe_Detach_Walkie_from_Vest = "Détacher le Talkie-Walkie de la veste",
 	Recipe_Attach_Walkie_to_Vest = "Attacher le Talkie-Walkie de la veste",
 	Recipe_Use_TV-110_as_Bulletproof_Vest = "Utiliser TV-110 comme gilet pare-balles",
 	Recipe_Use_TV-110_as_Magazine_Bag = "Utiliser TV-110 comme sac de magazines",
+	
 	Recipe_Revert_Attachable_Item = "Reconvertir l'item",
 	Recipe_Make_Backpack_Attachable_Item = "Rendre l'objet attachable au sac",	
 

@@ -17,10 +17,10 @@ module Base
     }
 
     item Stomach_Intestines3
-    {
+    
         DisplayCategory = ZedDmg,	
         Type = Clothing,
         ClothingItem =  Stomach_Intestines3,
         BodyLocation = ZedDmg,
-    }	
+    }
 }
