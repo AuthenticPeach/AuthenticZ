@@ -107,7 +107,8 @@ module AuthenticZClothing {
 		DisplayName = Skeleton Body,
 		ClothingItem = SkeletonBody,
 		BodyLocation = Torso1Legs1,
-		IconsForTexture = SkeletonBod;MeatySkeletonBod,
+		IconsForTexture = SkeletonBod;MeatySkeletonBod;SkeletonWhiteBod;SkeletonBlackBod,
+		WorldStaticModel = WorldItem_Skele_Body,		
 	}		
 	item SkinnyBody_M
 	{

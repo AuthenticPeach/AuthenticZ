@@ -25,4 +25,6 @@
 	<m_Masks>15</m_Masks>
 	<textureChoices>Body\BodyTextures\Skeleton</textureChoices>
 	<textureChoices>Body\BodyTextures\SkeletonMuscle</textureChoices>
+	<textureChoices>Body\BodyTextures\Skeleton_Mannequin</textureChoices>
+	<textureChoices>Body\BodyTextures\SkeletonBurned</textureChoices>
 </clothingItem>

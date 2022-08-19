@@ -581,7 +581,11 @@ module Base
 	model WorldItem_Arm_Full_Ground
 	{
         mesh = WorldItems/WorldItem_Arm_Full_Ground,
-	}		
+	}
+	model WorldItem_Skele_Body
+	{
+        mesh = WorldItems/WorldItem_Skele_Body,
+	}	
 	model FeatherDuster
 	{
 		mesh = Weapons/1Handed/FeatherDuster,

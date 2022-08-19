@@ -83,7 +83,7 @@ module AuthenticZClothing {
         ClothingItem =  Bone_Skin_Forearm_L,
         BodyLocation = Hat,
 		Icon = AZBone,	
-        ChanceToFall = 98,
+/*	    ChanceToFall = 98, */
 		BloodLocation = Head,		
 		WorldStaticModel = WorldItem_Arm_Wrist_Ground,	
     }
@@ -95,7 +95,7 @@ module AuthenticZClothing {
         ClothingItem =  Bone_Skin_Forearm_R,
         BodyLocation = Hat,
 		Icon = AZBone,
-        ChanceToFall = 98,
+/*	    ChanceToFall = 98, */
 		BloodLocation = Head,	
 		WorldStaticModel = WorldItem_Arm_Wrist_Ground,			
     }		
@@ -107,7 +107,7 @@ module AuthenticZClothing {
         ClothingItem =  Bone_Skin_Hand_L,
         BodyLocation = Hat,
 		Icon = AZBone,
-        ChanceToFall = 98,
+/*	    ChanceToFall = 98, */
 		BloodLocation = Head,	
 		WorldStaticModel = WorldItem_Arm_Hand,			
     }
@@ -119,7 +119,7 @@ module AuthenticZClothing {
         ClothingItem =  Bone_Skin_Hand_R,
         BodyLocation = Hat,
 		Icon = AZBone,
-        ChanceToFall = 98,
+/*	    ChanceToFall = 98, */
 		BloodLocation = Head,	
 		WorldStaticModel = WorldItem_Arm_Hand,			
     }	
@@ -131,7 +131,7 @@ module AuthenticZClothing {
         ClothingItem =  Bone_Skin_UpperArm_R,
         BodyLocation = Hat,
 		Icon = AZBone,
-        ChanceToFall = 98,
+/*	    ChanceToFall = 98, */
 		BloodLocation = Head,	
 		WorldStaticModel = WorldItem_Arm_Full_Ground,		
     }	
@@ -143,7 +143,7 @@ module AuthenticZClothing {
         ClothingItem =  Bone_Skin_UpperArm_L,
         BodyLocation = Hat,
 		Icon = AZBone,
-        ChanceToFall = 98,
+/*	    ChanceToFall = 98, */
 		BloodLocation = Head,	
 		WorldStaticModel = WorldItem_Arm_Full_Ground,		
     }		
