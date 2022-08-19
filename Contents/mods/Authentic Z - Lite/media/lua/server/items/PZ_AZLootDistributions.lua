@@ -115,7 +115,7 @@ AuthenticZ.tab_addMagProcedural_Ponchos  = function(x,count)
   table.insert(ProceduralDistributions.list[x].items,"AuthenticZLite.PonchoWhiteTINTDOWN");
   table.insert(ProceduralDistributions.list[x].items, count);       
 end
---Left 4 Dead Medkit
+--Left 4 Dead Medkit Junk
 AuthenticZ.tab_addMagProcedural_L4DMedkit  = function(x,count)
   ProceduralDistributions = ProceduralDistributions or {};
   ProceduralDistributions.list = ProceduralDistributions.list or {};
@@ -125,7 +125,7 @@ AuthenticZ.tab_addMagProcedural_L4DMedkit  = function(x,count)
   table.insert(ProceduralDistributions.list[x].junk.items,"AuthenticZLite.Bag_L4DeadMedkit");
   table.insert(ProceduralDistributions.list[x].junk.items, count);
 end
---Left 4 Dead Medkit Junk
+--Left 4 Dead Medkit 
 AuthenticZ.tab_addMagProcedural_L4DMedkit2  = function(x,count)
   ProceduralDistributions = ProceduralDistributions or {};
   ProceduralDistributions.list = ProceduralDistributions.list or {};
@@ -140,12 +140,11 @@ AuthenticZ.tab_addMagProcedural_SpiffoBackpack  = function(x,count)
   ProceduralDistributions = ProceduralDistributions or {};
   ProceduralDistributions.list = ProceduralDistributions.list or {};
   ProceduralDistributions.list[x] = ProceduralDistributions.list[x] or {};
-  ProceduralDistributions.list[x].junk = ProceduralDistributions.list[x].junk or {};
-  ProceduralDistributions.list[x].junk.items = ProceduralDistributions.list[x].junk.items or {};
-  table.insert(ProceduralDistributions.list[x].junk.items,"AuthenticZLite.Bag_SpiffoBackpackAZ");
-  table.insert(ProceduralDistributions.list[x].junk.items, count);  
-  table.insert(ProceduralDistributions.list[x].junk.items,"AuthenticZLite.Bag_PAWSBackpackAZ");
-  table.insert(ProceduralDistributions.list[x].junk.items, count);
+  ProceduralDistributions.list[x].items = ProceduralDistributions.list[x].items or {};
+  table.insert(ProceduralDistributions.list[x].items,"AuthenticZLite.Bag_SpiffoBackpackAZ");
+  table.insert(ProceduralDistributions.list[x].items, count);  
+  table.insert(ProceduralDistributions.list[x].items,"AuthenticZLite.Bag_PAWSBackpackAZ");
+  table.insert(ProceduralDistributions.list[x].items, count);
 end
 
 --Carabiner
