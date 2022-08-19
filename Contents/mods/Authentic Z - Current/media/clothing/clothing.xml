@@ -16428,6 +16428,24 @@
 		<m_items> <!-- Shotgun Face Texture Makeup -->
 			<itemGUID>bb58e85d-f255-49ea-937b-3503887e9e4b</itemGUID>
 		</m_items>
+		<m_items> <!-- Bone_Skin_Forearm_L -->
+			<itemGUID>290b997b-56e0-4705-b588-80d0691af518</itemGUID>
+			<subItems> <!-- Bone_Skin_Forearm_R -->
+				<itemGUID>aec0d669-ca08-429f-b58f-4fe6ba3f368e</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bone_Skin_Hand_L -->
+				<itemGUID>26d30488-91cf-4011-a5e3-9f03e4628fe0</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bone_Skin_Hand_R -->
+				<itemGUID>a227d5d0-f303-4e6f-ad9f-3142fe73398c</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bone_Skin_UpperArm_R -->
+				<itemGUID>060c0dc2-5b57-4004-a94f-65f502469a62</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bone_Skin_UpperArm_L -->
+				<itemGUID>41b754dd-0740-4ec1-90ca-f47b995d56d5</itemGUID>
+			</subItems>				
+		</m_items>			
 		<m_items> <!-- Dismembered Bone_Arm_L -->
 			<itemGUID>6e10e6c0-0ac4-4010-974c-56d57f1edd46</itemGUID>
 			<subItems> <!-- Bone_Arm_R-->
@@ -16501,6 +16519,24 @@
 		<m_items> <!-- Short Sleeved Puffy Jacket -->
 			<itemGUID>8205c9e3-d959-423e-92ec-51a8ef30f009</itemGUID>
 		</m_items>	
+		<m_items> <!-- Bone_Skin_Forearm_L -->
+			<itemGUID>290b997b-56e0-4705-b588-80d0691af518</itemGUID>
+			<subItems> <!-- Bone_Skin_Forearm_R -->
+				<itemGUID>aec0d669-ca08-429f-b58f-4fe6ba3f368e</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bone_Skin_Hand_L -->
+				<itemGUID>26d30488-91cf-4011-a5e3-9f03e4628fe0</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bone_Skin_Hand_R -->
+				<itemGUID>a227d5d0-f303-4e6f-ad9f-3142fe73398c</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bone_Skin_UpperArm_R -->
+				<itemGUID>060c0dc2-5b57-4004-a94f-65f502469a62</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bone_Skin_UpperArm_L -->
+				<itemGUID>41b754dd-0740-4ec1-90ca-f47b995d56d5</itemGUID>
+			</subItems>				
+		</m_items>		
 		<m_items> <!-- Dismembered Bone_Arm_L -->
 			<probability>0.01</probability>		
 			<itemGUID>6e10e6c0-0ac4-4010-974c-56d57f1edd46</itemGUID>

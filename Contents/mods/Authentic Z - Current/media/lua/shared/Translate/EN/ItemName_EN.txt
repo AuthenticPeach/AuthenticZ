@@ -969,7 +969,7 @@ ItemName_EN = {
 	ItemName_AuthenticZClothing.Thin01_Shoes = "Shoes",	
 	ItemName_AuthenticZClothing.Thin01_TShirt = "T-Shirt",	
 	ItemName_AuthenticZClothing.Thin01_Vest_HighViz = "Vest",	
-	/* New */
+
 	ItemName_AuthenticZClothing.AuthenticCrutch = "Crutch",	
 	ItemName_AuthenticZClothing.AZ_HairStyle34 =  "Wig with Highlights",
 	ItemName_AuthenticZClothing.CameraAZ = "Camera",		
@@ -1002,5 +1002,22 @@ ItemName_EN = {
 	ItemName_AuthenticZClothing.Tie_Full_White = "White Tie",	
 	ItemName_AuthenticZClothing.TrousersMesh_Rave = "One-Legged Pants",	
 	ItemName_AuthenticZClothing.Vest_Portal_Tanktop = "Blue and White Tank Top",	
-	ItemName_AuthenticZClothing.Winslow_Spikes = "Impaled Spikes",	
+	ItemName_AuthenticZClothing.Winslow_Spikes = "Impaled Spikes",
+
+	/* New */
+	ItemName_AuthenticZClothing.Arm_LeftBone = "Arm Bone (L)",
+	ItemName_AuthenticZClothing.Arm_LeftHandBone = "Hand Bone (L)",
+	ItemName_AuthenticZClothing.Bone_Arm_R = "Arm Bone (R)",
+	ItemName_AuthenticZClothing.Bone_Hand_R = "Hand Bone (R)",
+	ItemName_AuthenticZClothing.Bone_UpperArm_R = "Upper Arm Bone (R)",
+	ItemName_AuthenticZClothing.Bone_UpperArm_L = "Upper Arm Bone (L)",
+	ItemName_AuthenticZClothing.Bone_Stub_R = "Hand Bone Stub (R)",
+	ItemName_AuthenticZClothing.Bone_Stub_L = "Hand Bone Stub (L)",
+	ItemName_AuthenticZClothing.Bone_Skin_Forearm_L = "Forearm (Dismembered)(L)",
+	ItemName_AuthenticZClothing.Bone_Skin_Forearm_R = "Forearm (Dismembered)(R)",
+	ItemName_AuthenticZClothing.Bone_Skin_Hand_L = "Hand Bone  (Dismembered)(L)",
+	ItemName_AuthenticZClothing.Bone_Skin_Hand_R = "Hand Bone  (Dismembered)(R)",
+	ItemName_AuthenticZClothing.Bone_Skin_UpperArm_R = "Upper Arm R (Dismembered)",
+	ItemName_AuthenticZClothing.Bone_Skin_UpperArm_L = "Upper Arm L (Dismembered)",
+	ItemName_AuthenticZClothing.SkeletonBody = "Skele Body",
 }

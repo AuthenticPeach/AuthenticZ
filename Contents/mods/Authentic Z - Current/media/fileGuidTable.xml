@@ -6422,7 +6422,31 @@
 	<files>
 		<path>media/clothing/clothingItems/Bone_Stub_L.xml</path>
 		<guid>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bone_Skin_Forearm_L.xml</path>
+		<guid>290b997b-56e0-4705-b588-80d0691af518</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bone_Skin_Forearm_R.xml</path>
+		<guid>aec0d669-ca08-429f-b58f-4fe6ba3f368e</guid>
 	</files>	
+	<files>
+		<path>media/clothing/clothingItems/Bone_Skin_Hand_L.xml</path>
+		<guid>26d30488-91cf-4011-a5e3-9f03e4628fe0</guid>
+	</files>	
+	<files>
+		<path>media/clothing/clothingItems/Bone_Skin_Hand_R.xml</path>
+		<guid>a227d5d0-f303-4e6f-ad9f-3142fe73398c</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bone_Skin_UpperArm_R.xml</path>
+		<guid>060c0dc2-5b57-4004-a94f-65f502469a62</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bone_Skin_UpperArm_L.xml</path>
+		<guid>41b754dd-0740-4ec1-90ca-f47b995d56d5</guid>
+	</files>		
 	<!-- Authentic Z Hair/Beard Styles/Wigs -->	
 	<files>
 		<path>media/clothing/clothingItems/AZ_BeardStyle01.xml</path>

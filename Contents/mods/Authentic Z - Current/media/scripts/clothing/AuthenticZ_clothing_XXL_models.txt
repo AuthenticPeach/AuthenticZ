@@ -323,7 +323,7 @@ module AuthenticZClothing {
         Type = Clothing,
         DisplayName = T-Shirt,
         ClothingItem = Fat02_TShirtCheese,
-        ClothingItemExtra = Tshirt_CheeseRoyale,
+        ClothingItemExtra = AuthenticZClothing.Tshirt_CheeseRoyale,
         ClothingItemExtraOption = Tighten,		
         BodyLocation = Jacket,
         Icon = TShirt_RoyaleCheese,

@@ -570,6 +570,18 @@ module Base
 			rotate = -62.0000 64.0000 123.0000,
 		}		
 	}
+	model WorldItem_Arm_Hand
+	{
+        mesh = WorldItems/WorldItem_Arm_Hand_Ground,
+	}
+	model WorldItem_Arm_Wrist_Ground
+	{
+        mesh = WorldItems/WorldItem_Arm_Wrist_Ground,
+	}
+	model WorldItem_Arm_Full_Ground
+	{
+        mesh = WorldItems/WorldItem_Arm_Full_Ground,
+	}		
 	model FeatherDuster
 	{
 		mesh = Weapons/1Handed/FeatherDuster,
@@ -887,7 +899,8 @@ module Base
 	{
 		mesh =  WorldItems/WorldItem-AZGlowstick,
 		texture = clothes\Items\GlowstickYellow,
-	}	
+	}
+	
 	model WorldItem-AuthenticMandoSpear
 	{
 		mesh =  WorldItems/WorldItem_MandoSpear,
@@ -1311,7 +1324,7 @@ module Base
 	model FlashLightGroundBlue
     {
         mesh = WorldItems/FlashLight,
-	texture = clothes\Items\FlashLightBlue,
+		texture = clothes\Items\FlashLightBlue,
         scale = 0.4,
     }
 	model FlashLightBlue
