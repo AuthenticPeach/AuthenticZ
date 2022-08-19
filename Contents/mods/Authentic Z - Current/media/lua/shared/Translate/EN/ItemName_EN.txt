@@ -969,7 +969,7 @@ ItemName_EN = {
 	ItemName_AuthenticZClothing.Thin01_Shoes = "Shoes",	
 	ItemName_AuthenticZClothing.Thin01_TShirt = "T-Shirt",	
 	ItemName_AuthenticZClothing.Thin01_Vest_HighViz = "Vest",	
-
+	/* 8-11-22 */	
 	ItemName_AuthenticZClothing.AuthenticCrutch = "Crutch",	
 	ItemName_AuthenticZClothing.AZ_HairStyle34 =  "Wig with Highlights",
 	ItemName_AuthenticZClothing.CameraAZ = "Camera",		

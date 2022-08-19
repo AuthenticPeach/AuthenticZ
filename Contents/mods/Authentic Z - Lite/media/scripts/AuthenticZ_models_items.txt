@@ -517,59 +517,24 @@ module Base
 	{
 		mesh = Carabiner,
 		texture = clothes\Items\CarabinerClip,
-		scale = 0.6,
-
-		attachment Balloon01
-		{
-			offset = 0.0190 0.0620 0.0050,
-			rotate = -62.0000 64.0000 123.0000,
-		}
-		attachment Balloon02
-		{
-			offset = 0.0190 0.0620 0.0050,
-			rotate = -62.0000 64.0000 123.0000,
-		}
-		attachment Balloon03
-		{
-			offset = 0.0190 0.0620 0.0050,
-			rotate = -62.0000 64.0000 123.0000,
-		}
-		attachment Balloon04
-		{
-			offset = 0.0190 0.0620 0.0050,
-			rotate = -62.0000 64.0000 123.0000,
-		}
-		attachment Balloon05
-		{
-			offset = 0.0190 0.0620 0.0050,
-			rotate = -62.0000 64.0000 123.0000,
-		}
-		attachment Balloon06
-		{
-			offset = 0.0190 0.0620 0.0050,
-			rotate = -62.0000 64.0000 123.0000,
-		}
-		attachment Balloon07
-		{
-			offset = 0.0190 0.0620 0.0050,
-			rotate = -62.0000 64.0000 123.0000,
-		}
-		attachment Balloon08
-		{
-			offset = 0.0190 0.0620 0.0050,
-			rotate = -62.0000 64.0000 123.0000,
-		}
-		attachment Balloon09
-		{
-			offset = 0.0190 0.0620 0.0050,
-			rotate = -62.0000 64.0000 123.0000,
-		}
-		attachment Balloon10
-		{
-			offset = 0.0190 0.0620 0.0050,
-			rotate = -62.0000 64.0000 123.0000,
-		}		
+		scale = 0.6,		
 	}
+	model WorldItem_Arm_Hand
+	{
+        mesh = WorldItems/WorldItem_Arm_Hand_Ground,
+	}
+	model WorldItem_Arm_Wrist_Ground
+	{
+        mesh = WorldItems/WorldItem_Arm_Wrist_Ground,
+	}
+	model WorldItem_Arm_Full_Ground
+	{
+        mesh = WorldItems/WorldItem_Arm_Full_Ground,
+	}
+	model WorldItem_Skele_Body
+	{
+        mesh = WorldItems/WorldItem_Skele_Body,
+	}		
 	model FeatherDuster
 	{
 		mesh = Weapons/1Handed/FeatherDuster,
