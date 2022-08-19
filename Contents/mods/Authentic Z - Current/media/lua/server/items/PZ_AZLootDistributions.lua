@@ -140,12 +140,11 @@ AuthenticZ.tab_addMagProcedural_SpiffoBackpack  = function(x,count)
   ProceduralDistributions = ProceduralDistributions or {};
   ProceduralDistributions.list = ProceduralDistributions.list or {};
   ProceduralDistributions.list[x] = ProceduralDistributions.list[x] or {};
-  ProceduralDistributions.list[x].junk = ProceduralDistributions.list[x].junk or {};
-  ProceduralDistributions.list[x].junk.items = ProceduralDistributions.list[x].junk.items or {};
-  table.insert(ProceduralDistributions.list[x].junk.items,"AuthenticZClothing.Bag_SpiffoBackpackAZ");
-  table.insert(ProceduralDistributions.list[x].junk.items, count);  
-  table.insert(ProceduralDistributions.list[x].junk.items,"AuthenticZClothing.Bag_PAWSBackpackAZ");
-  table.insert(ProceduralDistributions.list[x].junk.items, count);
+  ProceduralDistributions.list[x].items = ProceduralDistributions.list[x].items or {};
+  table.insert(ProceduralDistributions.list[x].items,"AuthenticZClothing.Bag_SpiffoBackpackAZ");
+  table.insert(ProceduralDistributions.list[x].items, count);  
+  table.insert(ProceduralDistributions.list[x].items,"AuthenticZClothing.Bag_PAWSBackpackAZ");
+  table.insert(ProceduralDistributions.list[x].items, count);
 end
 
 --Carabiner
