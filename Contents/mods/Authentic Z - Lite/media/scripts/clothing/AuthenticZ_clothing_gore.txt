@@ -6,7 +6,7 @@ module AuthenticZLite {
     item Arm_LeftBone
     {
         DisplayCategory = ZedDmg,	
-		DisplayName = Arm Bone,		
+	
         Type = Clothing,
         ClothingItem =  Bone_Arm_L,
         BodyLocation = ZedDmg,
@@ -15,7 +15,7 @@ module AuthenticZLite {
     item Arm_LeftHandBone
     {
         DisplayCategory = ZedDmg,		
-		DisplayName = Hand Bone,
+
         Type = Clothing,
         ClothingItem =  Bone_Hand_L,
         BodyLocation = ZedDmg,
@@ -24,7 +24,7 @@ module AuthenticZLite {
     item Bone_Arm_R
     {
         DisplayCategory = ZedDmg,		
-		DisplayName = Arm Bone,
+
         Type = Clothing,
         ClothingItem =  Bone_Arm_R,
         BodyLocation = ZedDmg,
@@ -33,7 +33,7 @@ module AuthenticZLite {
     item Bone_Hand_R
     {
         DisplayCategory = ZedDmg,		
-		DisplayName = Hand Bone,
+
         Type = Clothing,
         ClothingItem =  Bone_Hand_R,
         BodyLocation = ZedDmg,
@@ -42,7 +42,7 @@ module AuthenticZLite {
     item Bone_UpperArm_R
     {
         DisplayCategory = ZedDmg,		
-		DisplayName = Upper Arm Bone,
+
         Type = Clothing,
         ClothingItem =  Bone_UpperArm_R,
         BodyLocation = ZedDmg,
@@ -51,7 +51,7 @@ module AuthenticZLite {
     item Bone_UpperArm_L
     {
         DisplayCategory = ZedDmg,		
-		DisplayName = Upper Arm Bone,
+
         Type = Clothing,
         ClothingItem =  Bone_UpperArm_L,
         BodyLocation = ZedDmg,
@@ -60,7 +60,7 @@ module AuthenticZLite {
     item Bone_Stub_R
     {
         DisplayCategory = ZedDmg,		
-		DisplayName = Hand Bone Stub,
+
         Type = Clothing,
         ClothingItem =  Bone_Stub_R,
         BodyLocation = ZedDmg,
@@ -69,11 +69,82 @@ module AuthenticZLite {
     item Bone_Stub_L
     {
         DisplayCategory = ZedDmg,		
-		DisplayName = Hand Bone Stub,
+
         Type = Clothing,
         ClothingItem =  Bone_Stub_L,
         BodyLocation = ZedDmg,
 		Icon = AZBone,
     }	
+    item Bone_Skin_Forearm_L
+    {
+        DisplayCategory = Clothing,	
 	
+        Type = Clothing,
+        ClothingItem =  Bone_Skin_Forearm_L,
+        BodyLocation = Hat,
+		Icon = AZBone,	
+/*	    ChanceToFall = 98, */
+		BloodLocation = Head,		
+		WorldStaticModel = WorldItem_Arm_Wrist_Ground,	
+    }
+    item Bone_Skin_Forearm_R
+    {
+        DisplayCategory = Clothing,		
+
+        Type = Clothing,
+        ClothingItem =  Bone_Skin_Forearm_R,
+        BodyLocation = Hat,
+		Icon = AZBone,
+/*	    ChanceToFall = 98, */
+		BloodLocation = Head,	
+		WorldStaticModel = WorldItem_Arm_Wrist_Ground,			
+    }		
+    item Bone_Skin_Hand_L
+    {
+        DisplayCategory = Clothing,		
+
+        Type = Clothing,
+        ClothingItem =  Bone_Skin_Hand_L,
+        BodyLocation = Hat,
+		Icon = AZBone,
+/*	    ChanceToFall = 98, */
+		BloodLocation = Head,	
+		WorldStaticModel = WorldItem_Arm_Hand,			
+    }
+    item Bone_Skin_Hand_R
+    {
+        DisplayCategory = Clothing,		
+
+        Type = Clothing,
+        ClothingItem =  Bone_Skin_Hand_R,
+        BodyLocation = Hat,
+		Icon = AZBone,
+/*	    ChanceToFall = 98, */
+		BloodLocation = Head,	
+		WorldStaticModel = WorldItem_Arm_Hand,			
+    }	
+    item Bone_Skin_UpperArm_R
+    {
+        DisplayCategory = Clothing,		
+
+        Type = Clothing,
+        ClothingItem =  Bone_Skin_UpperArm_R,
+        BodyLocation = Hat,
+		Icon = AZBone,
+/*	    ChanceToFall = 98, */
+		BloodLocation = Head,	
+		WorldStaticModel = WorldItem_Arm_Full_Ground,		
+    }	
+    item Bone_Skin_UpperArm_L
+    {
+        DisplayCategory = Clothing,		
+
+        Type = Clothing,
+        ClothingItem =  Bone_Skin_UpperArm_L,
+        BodyLocation = Hat,
+		Icon = AZBone,
+/*	    ChanceToFall = 98, */
+		BloodLocation = Head,	
+		WorldStaticModel = WorldItem_Arm_Full_Ground,		
+    }	
 }	
