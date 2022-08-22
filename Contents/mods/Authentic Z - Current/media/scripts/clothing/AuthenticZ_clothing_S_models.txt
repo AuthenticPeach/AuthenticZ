@@ -95,7 +95,7 @@ module AuthenticZClothing {
         WaterResistance = 0.4,
         Weight = 2,
         WorldStaticModel = JacketCoat_Ground,
-		Tooltip = Tooltip_SizeXL,		
+		Tooltip = Tooltip_SizeXS,		
     }	
 	item Thin01_LongJohns
     {
@@ -119,8 +119,8 @@ module AuthenticZClothing {
        DisplayCategory = Clothing,			
         Type = Clothing,
         DisplayName = Overalls,
-        ClothingItem = Dungarees,
-        ClothingItemExtra = Apron_White,
+        ClothingItem = Thin01_Overalls,
+        ClothingItemExtra = Dungarees,
         ClothingItemExtraOption = Tighten,			
         BodyLocation = FullSuit,
         Icon = OverallsDenim,

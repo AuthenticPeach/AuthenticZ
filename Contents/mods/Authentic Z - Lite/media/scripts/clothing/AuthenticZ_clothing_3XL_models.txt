@@ -14,8 +14,7 @@ module AuthenticZLite {
 		Icon = AmmoStrapFlipped,
 		Tooltip = Tooltip_AmmoStrap,
 		WorldStaticModel = AmmoStrap_Ground,
-		Tooltip = Tooltip_Size3XL,
-					
+		Tooltip = Tooltip_Size3XL,			
 	}
 
     item Fat03_Apron
@@ -31,8 +30,7 @@ module AuthenticZLite {
 		Icon = ApronIceCream,
 		FabricType = Cotton,
 		WorldStaticModel = Apron_Ground,
-		Tooltip = Tooltip_Size3XL,
-					
+		Tooltip = Tooltip_Size3XL,			
     }
     item Fat03_Coveralls
     {
@@ -51,8 +49,7 @@ module AuthenticZLite {
         WindResistance = 0.35,
         FabricType = Denim,
 		WorldStaticModel = BoilerSuit_Ground,
-		Tooltip = Tooltip_Size3XL,
-					
+		Tooltip = Tooltip_Size3XL,			
     }
     item Fat03_HoodieUP
     {
@@ -70,8 +67,7 @@ module AuthenticZLite {
         WindResistance = 0.2,
         FabricType = Cotton,
         WorldStaticModel = Hoodie_Ground,
-		Tooltip = Tooltip_Size3XL,	
-					
+		Tooltip = Tooltip_Size3XL,			
     }
     item Fat03_HoodieDOWN
     {
@@ -90,8 +86,7 @@ module AuthenticZLite {
         WindResistance = 0.25,
         FabricType = Cotton,
         WorldStaticModel = Hoodie_Ground,
-		Tooltip = Tooltip_Size3XL,
-					
+		Tooltip = Tooltip_Size3XL,			
     }	
     item Fat03_Jacket
     {
@@ -115,8 +110,7 @@ module AuthenticZLite {
         WaterResistance = 0.4,
         Weight = 2,
         WorldStaticModel = JacketCoat_Ground,
-		Tooltip = Tooltip_Size3XL,
-					
+		Tooltip = Tooltip_Size3XL,			
     }
     item Fat03_JacketLeather
     {
@@ -140,8 +134,7 @@ module AuthenticZLite {
         WaterResistance = 0.4,
         Weight = 2,
         WorldStaticModel = JacketCoat_Ground,
-		Tooltip = Tooltip_Size3XL,
-					
+		Tooltip = Tooltip_Size3XL,			
     }	
     item Fat03_JacketLong
     {
@@ -165,8 +158,7 @@ module AuthenticZLite {
         WaterResistance = 0.45,
         Weight = 2,
         WorldStaticModel = JacketLong_Ground,
-		Tooltip = Tooltip_Size3XL,
-					
+		Tooltip = Tooltip_Size3XL,			
     }
     item Fat03_Jeans
     {
@@ -183,8 +175,7 @@ module AuthenticZLite {
         Insulation = 0.30,
         WindResistance = 0.4,
         WorldStaticModel = Trousers_Ground,
-		Tooltip = Tooltip_Size3XL,
-					
+		Tooltip = Tooltip_Size3XL,			
     }	
     item Fat03_Overalls
     {
@@ -203,8 +194,7 @@ module AuthenticZLite {
         WindResistance = 0.45,
         FabricType = Denim,
 		WorldStaticModel = BoilerSuit_Ground,
-		Tooltip = Tooltip_Size3XL,
-					
+		Tooltip = Tooltip_Size3XL,			
     }		
     item Fat03_PonchoUP
     {
@@ -227,8 +217,7 @@ module AuthenticZLite {
         WaterResistance = 1.0,
         FabricType = Denim,		
         WorldStaticModel = Poncho_Ground,
-		Tooltip = Tooltip_Size3XL,
-					
+		Tooltip = Tooltip_Size3XL,			
     }
     item Fat03_PonchoDown
     {
@@ -252,8 +241,7 @@ module AuthenticZLite {
         WaterResistance = 1.0,
         FabricType = Denim,			
         WorldStaticModel = Poncho_Ground,
-		Tooltip = Tooltip_Size3XL,
-					
+		Tooltip = Tooltip_Size3XL,			
     }
     item Fat03_SportShorts
     {
@@ -270,8 +258,7 @@ module AuthenticZLite {
         WindResistance = 0.05,
         FabricType = Cotton,
         WorldStaticModel = Trousers_Ground,		
-		Tooltip = Tooltip_Size3XL,
-					
+		Tooltip = Tooltip_Size3XL,			
     }
     item Fat03_ShellPants
     {
@@ -288,8 +275,7 @@ module AuthenticZLite {
         Insulation = 0.30,
         WindResistance = 0.4,
         WorldStaticModel = Trousers_Shellsuit_Ground,
-		Tooltip = Tooltip_Size3XL,
-					
+		Tooltip = Tooltip_Size3XL,			
     }
     item Fat03_SuitPants
     {
@@ -307,8 +293,7 @@ module AuthenticZLite {
         WindResistance = 0.4,
         FabricType = Cotton,		
         WorldStaticModel = Trousers_Shellsuit_Ground,
-		Tooltip = Tooltip_Size3XL,
-					
+		Tooltip = Tooltip_Size3XL,			
     }	
 	item Fat03_Shoes
 	{
@@ -332,7 +317,7 @@ module AuthenticZLite {
         WindResistance = 0.25,
         WaterResistance = 0.25,
         WorldStaticModel = Shoes_Ground,
-		Tooltip = Tooltip_Size3XL,
+		Tooltip = Tooltip_Size3XL,			
 	}	
     item Fat03_TShirtLongBlart
     {
@@ -348,7 +333,7 @@ module AuthenticZLite {
         WindResistance = 0.35,
         FabricType = Cotton,
 		WorldStaticModel = Shirt_Ground,	
-		Tooltip = Tooltip_Size3XL,
+		Tooltip = Tooltip_Size3XL,			
     }	
     item Fat03_TShirt
     {
@@ -364,7 +349,7 @@ module AuthenticZLite {
         WindResistance = 0.35,
         FabricType = Cotton,
 		WorldStaticModel = TShirt_Ground,	
-		Tooltip = Tooltip_Size3XL,
+		Tooltip = Tooltip_Size3XL,			
     }
     item Fat03_Vest_BlackOpen
     {
@@ -378,7 +363,7 @@ module AuthenticZLite {
         Icon = Vest_Black,
         BloodLocation = ShirtNoSleeves,
         WorldStaticModel = HuntingVest_Ground,
-		Tooltip = Tooltip_Size3XL,
+		Tooltip = Tooltip_Size3XL,			
     }		
     item Fat03_Vest_HighViz
     {
@@ -392,7 +377,7 @@ module AuthenticZLite {
         IconsForTexture = ConstructionVest;Huntingvest_Orange;Huntingvest_Grey;Huntingvest_Camo;Huntingvest_Orange;Huntingvest_Grey;Huntingvest_Camo;SweaterVestWhite;SweaterVestArgyle,
         BloodLocation = ShirtNoSleeves,
         WorldStaticModel = HuntingVest_Ground,	
-		Tooltip = Tooltip_Size3XL,
+		Tooltip = Tooltip_Size3XL,			
     }
     item Fat03_Vest_TankTop
     {
@@ -406,7 +391,7 @@ module AuthenticZLite {
         IconsForTexture = ConstructionVest;Huntingvest_Orange;Huntingvest_Grey;Huntingvest_Camo;Huntingvest_Orange;Huntingvest_Grey;Huntingvest_Camo;SweaterVestWhite;SweaterVestArgyle,
         BloodLocation = ShirtNoSleeves,
         WorldStaticModel = HuntingVest_Ground,	
-		Tooltip = Tooltip_Size3XL,
+		Tooltip = Tooltip_Size3XL,			
     }
 	
     item Fat03_Dress_Knees
@@ -424,7 +409,7 @@ module AuthenticZLite {
         WindResistance = 0.1,
         FabricType = Cotton,
         WorldStaticModel = Dress_Short_Ground,
-		Tooltip = Tooltip_Size3XL,
+		Tooltip = Tooltip_Size3XL,			
     }
     item Fat03_DressKnees_Straps
     {
@@ -441,7 +426,7 @@ module AuthenticZLite {
         WindResistance = 0.1,
         FabricType = Cotton,
         WorldStaticModel = Dress_Knees_Straps_Ground,
-		Tooltip = Tooltip_Size3XL,	
+		Tooltip = Tooltip_Size3XL,			
     }
      item Fat03_Dress_SmallStrapless
      {
@@ -458,11 +443,11 @@ module AuthenticZLite {
          WindResistance = 0.1,
          FabricType = Cotton,
          WorldStaticModel = Dress_Small_Strapless_Ground,
-		 Tooltip = Tooltip_Size3XL,
+		 Tooltip = Tooltip_Size3XL,			 
      }
      item Fat03_Dress_SmallStraps
      {
-        DisplayCategory = Clothing,
+         DisplayCategory = Clothing,
          Type = Clothing,
          DisplayName = Straps Small Dress,
          ClothingItem = Fat03_Dress_SmallStraps,
@@ -475,7 +460,7 @@ module AuthenticZLite {
          WindResistance = 0.1,
          FabricType = Cotton,
          WorldStaticModel = Dress_Small_Straps_Ground,
-		 Tooltip = Tooltip_Size3XL,
+		 Tooltip = Tooltip_Size3XL,			 
      }
     item Fat03_Dress_SatinNegligee
     {
@@ -492,7 +477,7 @@ module AuthenticZLite {
         WindResistance = 0.1,
         FabricType = Cotton,
         WorldStaticModel = Dress_Small_Straps_Ground,
-		Tooltip = Tooltip_Size3XL,
+		Tooltip = Tooltip_Size3XL,			
     }
     item Fat03_Dress_Long
     {
@@ -510,7 +495,7 @@ module AuthenticZLite {
         WindResistance = 0.2,
         FabricType = Cotton,
         WorldStaticModel = Dress_Long_Ground,
-		Tooltip = Tooltip_Size3XL,
+		Tooltip = Tooltip_Size3XL,			
     }
     item Fat03_Dress_long_Straps
     {
@@ -528,7 +513,7 @@ module AuthenticZLite {
         WindResistance = 0.2,
         FabricType = Cotton,
         WorldStaticModel = Dress_Straps_Ground,
-		Tooltip = Tooltip_Size3XL,
+		Tooltip = Tooltip_Size3XL,			
     }
     item Fat03_Dress_Normal
     {
@@ -546,7 +531,7 @@ module AuthenticZLite {
         WindResistance = 0.15,
         FabricType = Cotton,
         WorldStaticModel = Dress_Mid_Ground,
-		Tooltip = Tooltip_Size3XL,
+		Tooltip = Tooltip_Size3XL,			
     }
     item Fat03_Dress_Straps
     {
@@ -581,7 +566,7 @@ module AuthenticZLite {
         WindResistance = 0.05,
         FabricType = Cotton,
         WorldStaticModel = Dress_Short_Ground,
-		Tooltip = Tooltip_Size3XL,
+		Tooltip = Tooltip_Size3XL,			
     }	
     item Fat03_Skirt_Knees
     {
@@ -598,7 +583,7 @@ module AuthenticZLite {
         WindResistance = 0.01,
         FabricType = Cotton,
         WorldStaticModel = Skirt_Short_Ground,
-		Tooltip = Tooltip_Size3XL,
+		Tooltip = Tooltip_Size3XL,		
     }
     item Fat03_Skirt_Long
     {
@@ -616,7 +601,7 @@ module AuthenticZLite {
         WindResistance = 0.2,
         FabricType = Cotton,
         WorldStaticModel = Skirt_Long_Ground,
-		Tooltip = Tooltip_Size3XL,
+		Tooltip = Tooltip_Size3XL,			
     }	
     item Fat03_Skirt_Normal
     {
@@ -634,7 +619,7 @@ module AuthenticZLite {
         WindResistance = 0.1,
         FabricType = Cotton,
         WorldStaticModel = Skirt_Mid_Ground,
-		Tooltip = Tooltip_Size3XL,
+		Tooltip = Tooltip_Size3XL,			
     }
     item Fat03_Skirt_Short
     {
@@ -650,6 +635,6 @@ module AuthenticZLite {
         Insulation = 0.05,
         FabricType = Cotton,
         WorldStaticModel = Skirt_Short_Ground,
-		Tooltip = Tooltip_Size3XL,
+		Tooltip = Tooltip_Size3XL,			
     }	
 }
