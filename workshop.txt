@@ -13,6 +13,8 @@ description= [*] Add appropriate setting and rarity for their clothing and items
 description=[/list]
 description=[h2]Here are some of the main features of Authentic Z.[/h2]
 description= [list]
+description= [*]  Fat Zombies!
+description= [*]  Zombies with missing arms and hands!
 description= [*]  Backpack attachments. Upgrade your bags through 3 tiers to add more attachment slots!
 description= [*]  Adds a new custom costume shop in Louisville. You will find lots of fun clothing in there.
 description= [*]  The Crossroads Mall spawn random zombies = Random FUN!
@@ -89,13 +91,10 @@ description=[img] https://imgur.com/6OBlYju.gif [/img]
 description=I hope you enjoy and have lots of fun.
 description=AuthenticPeach
 description=
-description= [url=https://discord.gg/Mxt22HmbAa][img] https://imgur.com/4HHyE9s.png [/img][/url][url=https://www.patreon.com/authenticpeach][img] https://imgur.com/PPm5rND.png [/img][/url][url=https://ko-fi.com/authenticpeach][img] https://imgur.com/4yHYpdn.png [/img][/url]
-description=
 description=
 description=[h2] Want some fun companion mods? Try These! [/h2]
 description= [url=https://steamcommunity.com/workshop/filedetails/?id=2530389024][img] https://imgur.com/c2etyho.png [/img][/url] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2458631365&searchtext=expanded+helis][img]https://imgur.com/7cfSt7Q.png [/img][/url] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2847911733][img] https://imgur.com/xSf50ud.png [/img][/url]
 description=
 description=I do not give you permission to use the AuthenticZ assets for anything outside of gameplay functionality, unless specially given by me. My assets are considered Steam workshop items and can not be used to create NFTs. NFTs violate Steam TOS.
-description=
 tags=Build 41;Clothing/Armor;Items;Misc;Models;Multiplayer;Pop Culture;Realistic;Textures
 visibility=public

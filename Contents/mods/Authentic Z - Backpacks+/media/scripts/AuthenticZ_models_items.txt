@@ -75,31 +75,6 @@ module Base
 		mesh = AuthenticBandages,
 		texture = clothes\Items\AuthenticBandage,
 	}
-	model AuthenticBingodotterPurple
-	{
-		mesh = Weapons/1Handed/BingoDabber,
-		texture = clothes\Items\BingoMarkerPurple,
-	}
-	model AuthenticBingodotterOrange
-	{
-		mesh = Weapons/1Handed/BingoDabber,
-		texture = clothes\Items\BingoMarkerOrange,
-	}
-	model AuthenticBingodotterRed
-	{
-		mesh = Weapons/1Handed/BingoDabber,
-		texture = clothes\Items\BingoMarkerRed,
-	}
-	model AuthenticBingodotterTeal
-	{
-		mesh = Weapons/1Handed/BingoDabber,
-		texture = clothes\Items\BingoMarkerTeal,
-	}
-	model AuthenticBingodotterYellow
-	{
-		mesh = Weapons/1Handed/BingoDabber,
-		texture = clothes\Items\BingoMarkerYellow,
-	}
 	model AuthenticBrain
 	{
 		mesh = AuthenticBrain,
@@ -170,46 +145,6 @@ module Base
 		mesh = AuthenticHeart,
 		texture = clothes\Organs\Heart,
 	}
-	model AuthenticLeft4Head
-	{
-		mesh = AuthenticLeft4DeadHand,
-		texture = clothes\Organs\L4Dhand,
-	}
-	model AuthenticLiver
-	{
-		mesh = AuthenticLiver,
-		texture = clothes\Organs\Liver,
-	}
-	model AuthenticKidney
-	{
-		mesh = AuthenticKidney,
-		texture = clothes\Organs\Kidney,
-	}
-	model AuthenticMeatChunk1
-	{
-		mesh = AuthenticMeatChunk01,
-		texture = clothes\Organs\Meat,
-	}
-	model AuthenticMeatChunk2
-	{
-		mesh = AuthenticMeatChunk02,
-		texture = clothes\Organs\Meat,
-	}
-	model AuthenticMeatChunk3
-	{
-		mesh = AuthenticMeatChunk03,
-		texture = clothes\Organs\Meat,
-	}
-	model AuthenticMeatChunk4
-	{
-		mesh = AuthenticMeatChunk04,
-		texture = clothes\Organs\Meat,
-	}
-	model AuthenticMeatChunk5
-	{
-		mesh = AuthenticMeatChunk05,
-		texture = clothes\Organs\Meat,
-	}
 	model AuthenticMinerLightBulb
 	{
 		mesh = AuthenticMinerLightbulb,
@@ -220,12 +155,6 @@ module Base
 	{
 		mesh = Authentic_MoneyStack,
 		texture = clothes\Items\MoneyStack,
-		scale = 100,
-	}
-	model AuthenticPaintBrush
-	{
-		mesh = Weapons/1Handed/Authentic_Paintbrush,
-		texture = clothes\Items\AuthenticPaintBrush,
 		scale = 100,
 	}
 	model AuthenticPaper
@@ -243,90 +172,11 @@ module Base
 		mesh = Weapons/2Handed/AuthenticTuskanRaiderStaff,
 		texture = clothes\Items\SandpeopleStaff,
 	}
-	model AuthenticReporterMicrophone_Media01
-	{
-		mesh = Weapons/1Handed/AZReporterMic,
-		texture = clothes\Items\ReporterMic3N,
-	}
-	model AuthenticReporterMicrophoneMuffler_Media01
-	{
-		mesh = Weapons/1Handed/AZReporterMicMuffler,
-		texture = clothes\Items\ReporterMic3N,
-	}
-	model AuthenticReporterMicrophone_Media02
-	{
-		mesh = Weapons/1Handed/AZReporterMic,
-		texture = clothes\Items\ReporterMicLBMWRadio,
-	}
-	model AuthenticReporterMicrophoneMuffler_Media02
-	{
-		mesh = Weapons/1Handed/AZReporterMicMuffler,
-		texture = clothes\Items\ReporterMicLBMWRadio,
-	}
-	model AuthenticReporterMicrophone_Media03
-	{
-		mesh = Weapons/1Handed/AZReporterMic,
-		texture = clothes\Items\ReporterMicLBMWTV,
-	}
-	model AuthenticReporterMicrophoneMuffler_Media03
-	{
-		mesh = Weapons/1Handed/AZReporterMicMuffler,
-		texture = clothes\Items\ReporterMicLBMWTV,
-	}
-	model AuthenticReporterMicrophone_Media04
-	{
-		mesh = Weapons/1Handed/AZReporterMic,
-		texture = clothes\Items\ReporterMicDice,
-	}
-	model AuthenticReporterMicrophoneMuffler_Media04
-	{
-		mesh = Weapons/1Handed/AZReporterMicMuffler,
-		texture = clothes\Items\ReporterMicDice,
-	}
-	model AuthenticReporterMicrophone_Media05
-	{
-		mesh = Weapons/1Handed/AZReporterMic,
-		texture = clothes\Items\ReporterMicALEX,
-	}
-	model AuthenticReporterMicrophoneMuffler_Media05
-	{
-		mesh = Weapons/1Handed/AZReporterMicMuffler,
-		texture = clothes\Items\ReporterMicALEX,
-	}
+
 	model AuthenticSmokeGrenade
 	{
 		mesh = AuthenticSmokeGrenade,
 		texture = clothes\Items\AuthenticSmokeGrenade,
-	}
-	model AuthenticTagillaSledgehammer
-	{
-		mesh = Weapons/2Handed/AuthenticTagillaSledgehammer,
-		texture = clothes\Items\TagillaSledgehammer,
-	}
-	model AuthenticWalkingCane
-	{
-		mesh = Weapons/2Handed/AuthenticWalkingCane,
-		texture = clothes\Items\WalkingCane,
-	}
-	model AuthenticWalkingCaneGrandFather
-	{
-		mesh = Weapons/2Handed/WalkingCane_Grandfather,
-		texture = clothes\Items\WalkingCane_Grandfather,
-	}
-	model AuthenticWalkingCaneJP
-	{
-		mesh = Weapons/2Handed/AuthenticWalkingCaneJP,
-		texture = clothes\Items\WalkingCaneMosquito,
-	}
-	model AuthenticWalkingCaneMetal
-	{
-		mesh = Weapons/2Handed/AuthenticWalkingCaneMetal,
-		texture = clothes\Items\WalkingCaneMetal,
-	}
-	model AuthenticWalkingCaneMetal
-	{
-		mesh = Weapons/2Handed/AuthenticWalkingCaneMetal,
-		texture = clothes\Items\WalkingCaneMetal,
 	}
 	model AuthenticGlowstickBlank
 	{
@@ -554,36 +404,11 @@ module Base
 		mesh = Weapons/1Handed/AZPomPom,
 		texture = clothes\Items\PomPomWhite,
 	}
-	model StopSign
-	{
-		mesh = Weapons/1Handed/StopSign,
-		texture = clothes\Items\HandleSign,
-	}
-	model KnifeEnd
-	{
-		mesh = Weapons/1Handed/KnifeEnd,
-		texture = clothes\Items\BloodyKnife,
-	}
-	model MediumMetalSpear
-	{
-		mesh = Weapons/1Handed/MediumMetalSpear,
-		texture = MetalSpear,
-	}
-	model MetalSpike
-	{
-		mesh = Weapons/1Handed/MetalSpike,
-		texture = MetalSpear,
-	}
 	model MopAZ
 	{
 		mesh = WorldItems/WorldItem_MopAZ,
 		texture = WorldItems/Mop,
 		scale = 0.4,
-	}
-	model RemoteControl
-	{
-		mesh = Remotecontrol,
-		texture = clothes\Items\RemoteControl,
 	}
 	model Rubberducky
     {
@@ -591,16 +416,6 @@ module Base
         texture = WorldItems\RubberDuck,		
         scale = 0.4,
     }
-	model SleepingBagRoll
-	{
-		mesh = SleepingbagRoll,
-		texture = clothes\Items\SleepingbagRollBlue,
-	}
-	model SleepingBag
-	{
-		mesh = SleepingbagRoll,
-		texture = clothes\Items\SleepingbagLightBlue,
-	}
 	model SpiffoBackpack
     {
         mesh = WorldItems/WorldItem_SpiffoBackpack,
@@ -696,26 +511,6 @@ module Base
         texture = clothes\Items\SpiffoPlushieRainbow,		
         scale = 0.4,
     }
-	model ShortMetalSpear
-	{
-		mesh = Weapons/1Handed/ShortMetalSpear,
-		texture = MetalSpear,
-	}
-	model ShortMetalSpike
-	{
-		mesh = Weapons/1Handed/ShortMetalSpike,
-		texture = MetalSpear,
-	}
-	model SpikePick
-	{
-		mesh = Weapons/1handed/SpikePick,
-		texture = Weapons/1Handed/IcePick,
-	}
-	model Stake2
-    {
-        mesh = Weapons/1Handed/Stake,
-	texture = clothes\Items\RollingPinBloody,
-    }
 	model WeaponSpritePipeBombSensor
     {
 		mesh = Weapons/1Handed/WSPipeBombSensor,
@@ -775,18 +570,6 @@ module Base
 		mesh = ThrowableFootball,
 		texture = WorldItems/Football,
 	}
-	model WeddingVeilBlue_Ground
-    {
-        mesh = WorldItems/WeddingVeil_Ground,
-        texture = clothes\Hats\WeddingVeilBlue,
-        scale = 0.4,
-    }
-	model WeddingVeilPink_Ground
-    {
-        mesh = WorldItems/WeddingVeil_Ground,
-        texture = clothes\Hats\WeddingVeilPink,
-        scale = 0.4,
-    }
 	model WorldItem_AndySign
 	{
 		mesh = WorldItems/WorldItem_AuthenticAndySign,
@@ -958,26 +741,11 @@ module Base
 		mesh = BalloonGroup3_Ground,
 		texture = clothes\Items\BalloonYellow,		
 	}
-	model WorldItem-BoomMicrophone
-	{
-		mesh =  WorldItems/WorldItem_BoomMic,
-		texture = clothes\Items\BoomMicrophone,		
-	}
 	model WorldItem-FuneralRose
 	{
 		mesh =  WorldItems/WorldItem_RoseBouquet,
 		texture = clothes\Items\FuneralRose,		
-	}	
-	model WorldItem_BunnyTailAZ
-    {
-		mesh = WorldItems/WorldItem_BunnyTail,
-		texture = clothes\Items\BunnyTail,
-        scale = 0.025,		
-    }
-	model WorldItem_BunnyEarsBlack
-    {
-		mesh = WorldItems/WorldItem_BunnyEars,
-    }
+	}
 	model WorldItem_CanteenCadetBlue
     {
 		mesh = WorldItems/WorldItem_Canteen,
@@ -1052,75 +820,6 @@ module Base
 		mesh = WorldItems/WorldItem_FlamingoPlushie,
 		texture = clothes\Items\FlamingoPlushie,		
 	}
-	model WorldItem_FreeHugsSign
-	{
-		mesh = WorldItems/WorldItem_FreeHugsSign,
-		texture = clothes\Items\FreeHugsSign,		
-	}
-	model WorldItem_Headband
-	{
-		mesh = WorldItems/WorldItem_AuthenticHeadband,
-	}
-	model WorldItem_PugOtisPlushie
-	{
-		mesh = WorldItems/WorldItem_PlushieOtisPugAZ,
-		texture = clothes\Items\PugPlushie,		
-	}	
-	model WorldItem_ReporterMicMuffler_Media01
-	{
-		mesh = WorldItems/WorldItem_AZReporterMicMuffler,
-		texture = clothes\Items\ReporterMic3N,		
-	}
-	model WorldItem_ReporterMicMuffler_Media02
-	{
-		mesh = WorldItems/WorldItem_AZReporterMicMuffler,
-		texture = clothes\Items\ReporterMicLBMWRadio,		
-	}
-	model WorldItem_ReporterMicMuffler_Media03
-	{
-		mesh = WorldItems/WorldItem_AZReporterMicMuffler,
-		texture = clothes\Items\ReporterMicLBMWTV,		
-	}
-	model WorldItem_ReporterMicMuffler_Media04
-	{
-		mesh = WorldItems/WorldItem_AZReporterMicMuffler,
-		texture = clothes\Items\ReporterMicDice,		
-	}
-	model WorldItem_ReporterMicMuffler_Media05
-	{
-		mesh = WorldItems/WorldItem_AZReporterMicMuffler,
-		texture = clothes\Items\ReporterMicALEX,		
-	}
-	model WorldItem_ReporterMic_Media01
-	{
-		mesh = WorldItems/WorldItem_AZReporterMic,
-		texture = clothes\Items\ReporterMic3N,		
-	}
-	model WorldItem_ReporterMic_Media02
-	{
-		mesh = WorldItems/WorldItem_AZReporterMic,
-		texture = clothes\Items\ReporterMicLBMWRadio,		
-	}
-	model WorldItem_ReporterMic_Media03
-	{
-		mesh = WorldItems/WorldItem_AZReporterMic,
-		texture = clothes\Items\ReporterMicLBMWTV,		
-	}
-	model WorldItem_ReporterMic_Media04
-	{
-		mesh = WorldItems/WorldItem_AZReporterMic,
-		texture = clothes\Items\ReporterMicDice,		
-	}
-	model WorldItem_ReporterMic_Media05
-	{
-		mesh = WorldItems/WorldItem_AZReporterMic,
-		texture = clothes\Items\ReporterMicALEX,		
-	}
-	model WorldItem_RoadsideTriangle
-	{
-		mesh = WorldItems/WorldItem_RoadsideTriangle,
-		texture = clothes\Items\RoadsideTriangle,		
-	}	
 	model WorldItem_UtilityBelt
     {
 		mesh = Skinned/Backpacks/WorldItem-UtilityBeltTactical,
@@ -1170,10 +869,6 @@ module Base
 		texture = clothes\Items\CarabinerClip,
 		scale = 0.6,
 	}
-	model WorldItem-ClownNose
-    {
-		mesh = WorldItems/WorldItem_ClownNose,
-    }
 	model WorldItem-DSLR
     {
 		mesh = Static/Clothes/WorldItem_DSLR,
@@ -1234,31 +929,6 @@ module Base
 		mesh =  WorldItems/WorldItem_StovePipeHat,
 		texture = clothes\Hats\StovePipeHat,
     }
-	model WorldItem-TagillaSledgehammer
-    {
-		mesh = WorldItems/WorldItem_TagillaSledgehammer,
-		texture = clothes\Items\TagillaSledgehammer,
-    }
-	model WorldItem-TagillaHelmet
-    {
-		mesh = WorldItems/WorldItem-TagillaHelmet,
-		texture = clothes\Hats\TagillaWeldingMask,	
-    }
-	model WorldItem-TagillaHelmetGorilla
-    {
-		mesh = WorldItems/WorldItem-TagillaHelmetGorilla,
-		texture = clothes\Hats\TagillaWeldingMaskGorilla,	
-    }
-	model WorldItem-TrueEyeCult
-    {
-		mesh = WorldItems/WorldItem_TrueEyeCultMask,
-		texture = clothes\Masks\TrueEyeCult,
-    }
-	model WorldItem-Witchy2Hat
-    {
-		mesh = WorldItems/WorldItem_WitchyHat2,
-		texture = clothes\Hats\Witchy2Hat,
-    }	
 	model WorldItem-AuthenticTV110
 	{
 		mesh = WorldItems/WorldItem_AZ_TV110,

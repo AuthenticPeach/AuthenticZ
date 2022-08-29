@@ -707,11 +707,6 @@ module Base
         texture = clothes\Items\SpiffoPlushieRainbow,		
         scale = 0.4,
     }
-	model Stake2
-    {
-        mesh = Weapons/1Handed/Stake,
-	texture = clothes\Items\RollingPinBloody,
-    }
 	model WeaponSpritePipeBombSensor
     {
 		mesh = Weapons/1Handed/WSPipeBombSensor,
@@ -1323,17 +1318,17 @@ module Base
     }
 	model WorldItem-DSLR
     {
-		mesh = Static/Clothes/WorldItem_DSLR,
+		mesh = WorldItems/WorldItem_DSLR,
 		texture = clothes\Items\Camera,
     }
 	model WorldItem_DimitrescuRose
     {
-		mesh = Static/Clothes/WorldItem-DimitrescuRose,
+		mesh = WorldItems/WorldItem-DimitrescuRose,
 		texture = clothes\Items\DimitrescuRose,
     }
 	model WorldItem_FreddyClaw
     {
-		mesh = Static/Clothes/WorldItem-FreddyClaw,
+		mesh = WorldItems/WorldItem-FreddyClaw,
 		texture = clothes\Gloves\FreddyKruegerGlove,
     }
 	model WorldItem_HeadPhones
