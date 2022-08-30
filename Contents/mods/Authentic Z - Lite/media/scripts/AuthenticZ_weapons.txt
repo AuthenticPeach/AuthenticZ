@@ -198,6 +198,7 @@ module AuthenticZLite {
         BaseSpeed 			= 	1,
         WeaponLength 		= 	0.2,		
 		AttachmentType 		= 	MeatCleaver,
+		WorldStaticModel 	= 	WorldItem_CoffeeCup,		
     }
     item AuthenticCricketBat
 	{

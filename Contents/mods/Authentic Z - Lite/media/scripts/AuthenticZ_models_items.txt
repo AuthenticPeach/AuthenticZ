@@ -798,6 +798,11 @@ module Base
 		mesh = WorldItems/WorldItem_BroadcastingCamera,
 		texture = clothes\Items\BroadcastingCamera,
 	}
+	model WorldItem_CoffeeCup
+    {
+		mesh = WorldItems/WorldItem_CoffeeCup,
+		texture = clothes\Items\SeahorseCoffee,
+    }	
 	model WorldItem-GhostbusterTrap
 	{
 		mesh =  WorldItems/WorldItem_GhostbusterTrap,
