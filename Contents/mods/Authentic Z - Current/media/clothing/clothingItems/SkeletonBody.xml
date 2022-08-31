@@ -23,8 +23,8 @@
 	<m_Masks>13</m_Masks>
 	<m_Masks>14</m_Masks>
 	<m_Masks>15</m_Masks>
-	<textureChoices>Body\BodyTextures\Skeleton</textureChoices>
-	<textureChoices>Body\BodyTextures\SkeletonMuscle</textureChoices>
-	<textureChoices>Body\BodyTextures\Skeleton_Mannequin</textureChoices>
-	<textureChoices>Body\BodyTextures\SkeletonBurned</textureChoices>
+	<textureChoices>Body\Skeleton</textureChoices>
+	<textureChoices>Body\SkeletonMuscle</textureChoices>
+	<textureChoices>Body\Skeleton_Mannequin</textureChoices>
+	<textureChoices>Body\SkeletonBurned</textureChoices>
 </clothingItem>

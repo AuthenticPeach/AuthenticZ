@@ -7,5 +7,5 @@
 	<m_AllowRandomHue>false</m_AllowRandomHue>
 	<m_AllowRandomTint>false</m_AllowRandomTint>
 	<m_AttachBone></m_AttachBone>
-	<m_BaseTextures>Body\BodyTextures\F_ZedBody04</m_BaseTextures>
+	<m_BaseTextures>Body\F_ZedBody04</m_BaseTextures>
 </clothingItem>
