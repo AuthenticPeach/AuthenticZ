@@ -1012,7 +1012,7 @@ module Base
 	model WorldItem-BoomMicrophone
 	{
 		mesh =  WorldItems/WorldItem_BoomMic,
-		texture = clothes\Hats\ClownConeHat,		
+		texture = clothes\Items\BoomMicrophone,		
 	}	
 	model WorldItem-FuneralRose
 	{

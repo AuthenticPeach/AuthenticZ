@@ -23,17 +23,17 @@
 	<m_Masks>13</m_Masks>
 	<m_Masks>14</m_Masks>
 	<m_Masks>15</m_Masks>
-	<textureChoices>Body\BodyTextures\M_ZedBody01_level1</textureChoices>
-	<textureChoices>Body\BodyTextures\M_ZedBody01_level2</textureChoices>
-	<textureChoices>Body\BodyTextures\M_ZedBody01_level3</textureChoices>	
-	<textureChoices>Body\BodyTextures\M_ZedBody02_level1</textureChoices>
-	<textureChoices>Body\BodyTextures\M_ZedBody02_level2</textureChoices>
-	<textureChoices>Body\BodyTextures\M_ZedBody02_level3</textureChoices>
-	<textureChoices>Body\BodyTextures\M_ZedBody03_level1</textureChoices>
-	<textureChoices>Body\BodyTextures\M_ZedBody03_level2</textureChoices>
-	<textureChoices>Body\BodyTextures\M_ZedBody03_level3</textureChoices>
-	<textureChoices>Body\BodyTextures\M_ZedBody04_level1</textureChoices>
-	<textureChoices>Body\BodyTextures\M_ZedBody04_level2</textureChoices>
-	<textureChoices>Body\BodyTextures\M_ZedBody04_level3</textureChoices>
+	<textureChoices>Body\M_ZedBody01_level1</textureChoices>
+	<textureChoices>Body\M_ZedBody01_level2</textureChoices>
+	<textureChoices>Body\M_ZedBody01_level3</textureChoices>	
+	<textureChoices>Body\M_ZedBody02_level1</textureChoices>
+	<textureChoices>Body\M_ZedBody02_level2</textureChoices>
+	<textureChoices>Body\M_ZedBody02_level3</textureChoices>
+	<textureChoices>Body\M_ZedBody03_level1</textureChoices>
+	<textureChoices>Body\M_ZedBody03_level2</textureChoices>
+	<textureChoices>Body\M_ZedBody03_level3</textureChoices>
+	<textureChoices>Body\M_ZedBody04_level1</textureChoices>
+	<textureChoices>Body\M_ZedBody04_level2</textureChoices>
+	<textureChoices>Body\M_ZedBody04_level3</textureChoices>
 	<textureChoices>Body\BodyTextures\M_ZedBody02_Tattoo</textureChoices>
 </clothingItem>

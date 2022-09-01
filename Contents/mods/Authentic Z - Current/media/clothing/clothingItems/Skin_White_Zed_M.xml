@@ -7,7 +7,7 @@
 	<m_AllowRandomHue>false</m_AllowRandomHue>
 	<m_AllowRandomTint>false</m_AllowRandomTint>
 	<m_AttachBone></m_AttachBone>
-	<m_BaseTextures>Body\BodyTextures\M_ZedBody02_level1</m_BaseTextures>
-	<m_BaseTextures>Body\BodyTextures\M_ZedBody02_level2</m_BaseTextures>
-	<m_BaseTextures>Body\BodyTextures\M_ZedBody02_level3</m_BaseTextures>		
+	<m_BaseTextures>Body\M_ZedBody02_level1</m_BaseTextures>
+	<m_BaseTextures>Body\M_ZedBody02_level2</m_BaseTextures>
+	<m_BaseTextures>Body\M_ZedBody02_level3</m_BaseTextures>			
 </clothingItem>
