@@ -1227,6 +1227,7 @@ module AuthenticZClothing {
         Insulation = 0.50,
         WindResistance = 0.65,
         WaterResistance = 1.0,
+		WorldStaticModel = WorldItem_JackoLantern,			
 	}
 	item Hat_JasonSack
 	{

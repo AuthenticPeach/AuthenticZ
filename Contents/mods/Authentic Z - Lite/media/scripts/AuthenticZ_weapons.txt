@@ -1231,6 +1231,7 @@ module AuthenticZLite {
         WeaponLength 		= 	0.1,		
 		AttachmentType 		= 	Walkie,
 		Tooltip 			= 	Tooltip_Brain,
+		WorldStaticModel 	= 	WorldItem-Brain,		
     }
     item AuthenticOrgan_Hand
     {

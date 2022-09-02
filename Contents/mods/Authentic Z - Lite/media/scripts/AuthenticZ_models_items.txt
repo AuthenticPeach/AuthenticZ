@@ -241,7 +241,6 @@ module Base
 	{
 		mesh = Weapons/1Handed/Authentic_Paintbrush,
 		texture = clothes\Items\AuthenticPaintBrush,
-		scale = 100,
 	}
 	model AuthenticPaper
 	{
@@ -1013,7 +1012,12 @@ module Base
 	{
 		mesh =  WorldItems/WorldItem_BoomMic,
 		texture = clothes\Items\BoomMicrophone,		
-	}	
+	}
+	model WorldItem-Brain
+	{
+		mesh =  WorldItems/WorldItem_Brain,
+		texture = clothes\Organs\Brain,		
+	}		
 	model WorldItem-FuneralRose
 	{
 		mesh =  WorldItems/WorldItem_RoseBouquet,
@@ -1165,6 +1169,11 @@ module Base
 		mesh = WorldItems/WorldItem_GroguAZ,
 		texture = clothes\Items\GroguPlushie,		
 	}	
+	model WorldItem_JackoLantern
+    {
+		mesh = WorldItems/WorldItem_JackoLantern,
+		texture = clothes\Hats\Jackolantern,		
+    }		
 	model WorldItem_MichaelMyersMask
 	{
 		mesh = WorldItems/WorldItem_MichaelMyersMask,		
