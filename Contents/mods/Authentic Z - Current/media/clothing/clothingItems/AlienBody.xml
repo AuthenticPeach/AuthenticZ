@@ -23,5 +23,5 @@
 	<m_Masks>13</m_Masks>
 	<m_Masks>14</m_Masks>
 	<m_Masks>15</m_Masks>
-	<textureChoices>Body\BodyTextures\M_ZedBody02_level1</textureChoices>
+	<textureChoices>Body\BodyTextures\AlienBody</textureChoices>
 </clothingItem>
