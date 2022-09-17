@@ -1144,7 +1144,7 @@ module AuthenticZClothing {
 		SwingSound 				= 	PipeBombThrow,
 		PlacedSprite 			= 	constructedobjects_01_32,
 		Tooltip	 				= 	Tooltip_Trap,
-		WorldStaticModel 		= 	Authentic_PipeBomb,
+		WorldStaticModel 		= 	WorldItem-AuthenticPipeBomb,
         AttachmentType  		= 	AuthenticExplosive,			
 	}
 
