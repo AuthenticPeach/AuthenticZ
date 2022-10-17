@@ -52,6 +52,7 @@ recipe Convert into Item
 
    	   Result:Cigarettes=1,
 	   Time:30.0,
+	   OnGiveXP:Recipe.OnGiveXP.None,	   
   	}
 
 recipe Convert into Item
@@ -60,6 +61,7 @@ recipe Convert into Item
 
    	   Result:CigarAZ2,
 	   Time:30.0,
+	   OnGiveXP:Recipe.OnGiveXP.None,	   
   	}
 
 recipe Convert into Wearable
@@ -68,6 +70,7 @@ recipe Convert into Wearable
 
    	   Result:CigarAZ,
 	   Time:30.0,
+	   OnGiveXP:Recipe.OnGiveXP.None,	   
   	}
 
 recipe Make a Stack of Money

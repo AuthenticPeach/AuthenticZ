@@ -228,25 +228,7 @@ module Base
 		mesh = Cigarette,
 		texture = clothes\Items\Cigarette,
 	}
-	model CultistRobe_Ground
-	{
-		mesh = WorldItems/Clothing/CultistRobe_Ground,
-	}
-	model CultistHat_Ground
-	{
-		mesh = WorldItems/Clothing/CultistHat_Ground,
-		scale = 1.1,
-	}
-	model CultistMask_Ground
-	{
-		mesh = WorldItems/Clothing/CultistMask_Ground,
-		scale = 1.2,
-	}
-	model CultistSign_Ground
-	{
-		mesh = WorldItems/WorldItem-CultistSign,
-		texture = clothes\CultistItems\CultistSign\CultistSign,		
-	}	
+	
 	model DiceHung
 	{
 		mesh = DiceHung,
@@ -410,6 +392,11 @@ module Base
 		texture = WorldItems/Mop,
 		scale = 0.4,
 	}
+	model DiceHung
+	{
+		mesh = DiceHung,
+		texture = clothes\Items\HungDice,
+	}	
 	model Rubberducky
     {
         mesh = WorldItems/Rubberducky,
@@ -791,30 +778,7 @@ module Base
 		mesh = WorldItems/WorldItem_Cigarette,
 		texture = Cigarette,		
     }
-	model WorldItem-LadyDimitrescuDress
-    {
-		mesh = WorldItems/WorldItem_DressDimitrescu,
-		texture = clothes\dress_textures\LadyDimitrescuDress,		
-    }	
-	model WorldItem-DuelCap
-    {
-		mesh = WorldItems/WorldItem_DuelCap,	
-    }
-	model WorldItem_LadyDSummerHat
-    {
-		mesh = WorldItems/WorldItem-LadyDHat,
-		texture = clothes\Hats\SummerHatWhite,		
-    }	
-	model WorldItem_LadyDHat
-    {
-		mesh = WorldItems/WorldItem-LadyDHat,
-		texture = clothes\Hats\SummerHatBlack,		
-    }		
-	model WorldItem_Gibus
-	{
-		mesh = WorldItems/WorldItem_Gibus,
-		texture = clothes\Hats\Gibus,		
-	}
+
 	model WorldItem_FlamingoPlushie
 	{
 		mesh = WorldItems/WorldItem_FlamingoPlushie,
@@ -869,21 +833,7 @@ module Base
 		texture = clothes\Items\CarabinerClip,
 		scale = 0.6,
 	}
-	model WorldItem-DSLR
-    {
-		mesh = Static/Clothes/WorldItem_DSLR,
-		texture = clothes\Items\Camera,
-    }
-	model WorldItem_DimitrescuRose
-    {
-		mesh = Static/Clothes/WorldItem-DimitrescuRose,
-		texture = clothes\Items\DimitrescuRose,
-    }
-	model WorldItem_FreddyClaw
-    {
-		mesh = Static/Clothes/WorldItem-FreddyClaw,
-		texture = clothes\Gloves\FreddyKruegerGlove,
-    }
+
 	model WorldItem_HeadPhones
 	{
 		mesh = WorldItems/HeadPhones,
@@ -912,23 +862,18 @@ module Base
     {
 		mesh = WorldItems/WorldItem_AuthenticPillBottle,
 		texture = clothes\Items\AuthenticPillBottle,
-    }
-    model WorldItem-Necklace_GoldCrucifix
-    {
-        mesh = WorldItems/Necklace_Crucifix_Ground,
-        texture =  clothes\Jewelry\WorldItem-Necklace_B,
-    }		
+    }	
     model WorldItem-Necklace_B
     {
         mesh = WorldItems/WorldItem-Necklace_B,
         texture =  clothes\Jewelry\NecklaceB,
         scale = 0.4,
     }	
-	model WorldItem-StovePipeHat
+	model WorldItem-RoadsideDufflebag
     {
-		mesh =  WorldItems/WorldItem_StovePipeHat,
-		texture = clothes\Hats\StovePipeHat,
-    }
+		mesh = WorldItems/WorldItem_RoadsideDufflebag,
+		texture = clothes\Backpacks\RoadsideDuffelBag,		
+    }	
 	model WorldItem-AuthenticTV110
 	{
 		mesh = WorldItems/WorldItem_AZ_TV110,

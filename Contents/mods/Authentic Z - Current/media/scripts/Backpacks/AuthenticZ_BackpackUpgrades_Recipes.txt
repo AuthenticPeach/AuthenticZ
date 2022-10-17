@@ -749,6 +749,135 @@ module AuthenticZClothing{
         ReplaceInPrimaryHand 	= 	Bag_DuffelBag_RHandTINT holdingbagright,
         WorldStaticModel 		= 	DuffelBag_Ground,
     }	
+    item Bag_MedicalBag_Tier_1 /* Medical Dufflebag*/
+    {
+        DisplayCategory = Bag,		
+        WeightReduction			=	65,
+        Weight					=	1,		
+        Type 					= 	Container,
+		Capacity				=	19,		
+        DisplayName 			= 	 Bag - Tier 1,
+        Icon					=	DuffelbagMedical,		
+        ClothingItem 			= 	Bag_MedicalBag,
+        CanBeEquipped 			= 	Back,
+        OpenSound   			=   OpenBag,
+        CloseSound   			=   CloseBag,
+        PutInSound   			=   PutItemInBag,
+        RunSpeedModifier 		= 	0.95,
+        CanHaveHoles 			= 	false,       
+		AttachmentReplacement	= 	Bag,
+		AttachmentsProvided  	= 	DufflebagSecondary;DufflebagBottleRight;DufflebagBalloonLeft,
+        ReplaceInSecondHand 	= 	Bag_DuffelBag_LHandMedical holdingbagleft,
+        ReplaceInPrimaryHand 	= 	Bag_DuffelBag_RHandMedical holdingbagright,
+        WorldStaticModel 		= 	DuffelBag_Ground,
+    }	
+    item Bag_MedicalBag_Tier_2 /* Medical Dufflebag*/
+    {
+        DisplayCategory = Bag,		
+        WeightReduction			=	65,	
+        Weight					=	1,		
+        Type 					= 	Container,
+        Capacity				=	20,		
+        DisplayName 			= 	Trauma Bag - Tier 2,
+        Icon					=	DuffelbagMedical,		
+        ClothingItem 			= 	Bag_MedicalBag,
+        CanBeEquipped 			= 	Back,
+        OpenSound   			=   OpenBag,
+        CloseSound   			=   CloseBag,
+        PutInSound   			=   PutItemInBag,
+        RunSpeedModifier 		= 	0.95,
+        CanHaveHoles	 		= 	false,
+        AttachmentReplacement	= 	Bag,
+		AttachmentsProvided  	= 	SchoolbagBagSecondary;DufflebagItemSlot1;DufflebagBottleRight;DufflebagPlushie;SchoolbagUmbrellaLeft;DufflebagBalloonLeft,						
+        ReplaceInSecondHand 	= 	Bag_DuffelBag_LHandMedical holdingbagleft,
+        ReplaceInPrimaryHand 	= 	Bag_DuffelBag_RHandMedical holdingbagright,
+        WorldStaticModel 		= 	DuffelBag_Ground,
+    }
+    item Bag_MedicalBag_Tier_3 /* Medical Dufflebag*/
+    {
+        DisplayCategory = Bag,		
+        Type 					= 	Container,
+        DisplayName 			= 	Trauma Bag - Tier 3,
+        ClothingItem 			= 	Bag_MedicalBag,
+        CanBeEquipped 			= 	Back,
+        WeightReduction			=	65,
+        Weight					=	1,
+        Capacity				=	21,
+        Icon					=	DuffelbagMedical,
+        OpenSound  				=   OpenBag,
+        CloseSound   			=   CloseBag,
+        PutInSound   			=   PutItemInBag,
+        RunSpeedModifier 		= 	0.95,
+        CanHaveHoles 			= 	false,
+        AttachmentReplacement	= 	Bag,
+		AttachmentsProvided  	= 	DufflebagSecondary;DufflebagItemSlot1;DufflebagItemSlot2;DufflebagItemSlot3;DufflebagBottleRight;DufflebagPlushie;DufflebagUmbrellaRight;DufflebagFlashlight;DufflebagBalloonLeft,				
+        ReplaceInSecondHand 	= 	Bag_DuffelBag_LHandMedical holdingbagleft,
+        ReplaceInPrimaryHand 	= 	Bag_DuffelBag_RHandMedical holdingbagright,
+        WorldStaticModel 		= 	DuffelBag_Ground,
+    }
+    item Bag_RoadsideDuffel_Tier_1
+    {
+        DisplayCategory = Bag,
+        Type = Container,
+        DisplayName = Roadside Duffel Bag - Tier 1,
+        ClothingItem = Bag_RoadsideDuffel,
+        CanBeEquipped = Back,
+        WeightReduction	=	50,
+        Weight	=	1,
+        Capacity	=	11,
+        Icon	=	RoadsideDuffelbagRed,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        RunSpeedModifier = 0.95,
+        CanHaveHoles = false,
+		AttachmentsProvided  	= 	DufflebagSecondary;DufflebagBottleRight;DufflebagBalloonLeft,		
+        ReplaceInSecondHand = Bag_RoadsideDuffel_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_RoadsideDuffel_Rhand holdingbagright,
+        WorldStaticModel = WorldItem-RoadsideDufflebag,
+    }
+    item Bag_RoadsideDuffel_Tier_2
+    {
+        DisplayCategory = Bag,
+        Type = Container,
+        DisplayName = Roadside Duffel Bag - Tier 2,
+        ClothingItem = Bag_RoadsideDuffel,
+        CanBeEquipped = Back,
+        WeightReduction	=	50,
+        Weight	=	1,
+        Capacity	=	12,
+        Icon	=	RoadsideDuffelbagRed,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        RunSpeedModifier = 0.95,
+        CanHaveHoles = false,
+		AttachmentsProvided  	= 	SchoolbagBagSecondary;DufflebagItemSlot1;DufflebagBottleRight;DufflebagPlushie;SchoolbagUmbrellaLeft;DufflebagBalloonLeft,						
+        ReplaceInSecondHand = Bag_RoadsideDuffel_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_RoadsideDuffel_Rhand holdingbagright,
+        WorldStaticModel = WorldItem-RoadsideDufflebag,
+    }
+    item Bag_RoadsideDuffel_Tier_3
+    {
+        DisplayCategory = Bag,
+        Type = Container,
+        DisplayName = Roadside Duffel Bag - Tier 3,
+        ClothingItem = Bag_RoadsideDuffel,
+        CanBeEquipped = Back,
+        WeightReduction	=	50,
+        Weight	=	1,
+        Capacity	=	13,
+        Icon	=	RoadsideDuffelbagRed,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        RunSpeedModifier = 0.95,
+        CanHaveHoles = false,
+		AttachmentsProvided  	= 	DufflebagSecondary;DufflebagItemSlot1;DufflebagItemSlot2;DufflebagItemSlot3;DufflebagBottleRight;DufflebagPlushie;DufflebagUmbrellaRight;DufflebagFlashlight;DufflebagBalloonLeft,				
+        ReplaceInSecondHand = Bag_RoadsideDuffel_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_RoadsideDuffel_Rhand holdingbagright,
+        WorldStaticModel = WorldItem-RoadsideDufflebag,
+    }	
     item Bag_NormalHikingBag_Tier_1
     {
         DisplayCategory = Bag,		
@@ -1253,9 +1382,115 @@ recipe Upgrade Duffelbag
 	   Tooltip:Tooltip_AttachBackpackTier3,
   	}	
 
+recipe Upgrade Duffelbag 	/* Medical Dufflebag*/
+  	{
+	   Bag_MedicalBag,
+	   keep Scissors,
+       keep Needle/SutureNeedle,
+       Thread=3,
+	   LeatherStrips/DenimStrips=3,		   
+
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_MedicalBag_Tier_1,
+       OnGiveXP:Give20TailoringXP,		   
+	   Time:300.0,
+       AnimNode:Disassemble,   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_AttachBackpackTier1,
+  	}
+		
+recipe Upgrade Duffelbag /* Medical Dufflebag*/
+  	{
+	   Bag_MedicalBag_Tier_1,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=3,
+	   LeatherStrips/DenimStrips=3,	
+
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_MedicalBag_Tier_2,
+       OnGiveXP:Give20TailoringXP,	   
+	   Time:300.0,
+       AnimNode:Disassemble,	  
+	   SkillRequired:Tailoring=1,
+	   Category:Tailoring,
+	   Tooltip:Tooltip_AttachBackpackTier2,
+  	}	
+
+recipe Upgrade Duffelbag /* Medical Dufflebag*/
+  	{
+	   Bag_MedicalBag_Tier_2,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=3,
+	   LeatherStrips/DenimStrips=3,	
+
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_MedicalBag_Tier_3,
+       OnGiveXP:Give20TailoringXP,	   
+	   Time:300.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=2,
+	   Category:Tailoring,
+	   Tooltip:Tooltip_AttachBackpackTier3,
+  	}	
+
+recipe Upgrade Duffelbag  /* Roadside Dufflebag*/
+  	{
+	   Bag_RoadsideDuffel,
+	   keep Scissors,
+       keep Needle/SutureNeedle,
+       Thread=3,
+	   LeatherStrips/DenimStrips=3,		   
+
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_RoadsideDuffel_Tier_1,
+       OnGiveXP:Give20TailoringXP,		   
+	   Time:300.0,
+       AnimNode:Disassemble,   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_AttachBackpackTier1,
+  	}
+		
+recipe Upgrade Duffelbag  /* Roadside Dufflebag*/
+  	{
+	   Bag_RoadsideDuffel_Tier_1,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=3,
+	   LeatherStrips/DenimStrips=3,	
+
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_RoadsideDuffel_Tier_2,
+       OnGiveXP:Give20TailoringXP,	   
+	   Time:300.0,
+       AnimNode:Disassemble,	  
+	   SkillRequired:Tailoring=1,
+	   Category:Tailoring,
+	   Tooltip:Tooltip_AttachBackpackTier2,
+  	}	
+
+recipe Upgrade Duffelbag  /* Roadside Dufflebag*/
+  	{
+	   Bag_RoadsideDuffel_Tier_2,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=3,
+	   LeatherStrips/DenimStrips=3,	
+
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_RoadsideDuffel_Tier_3,
+       OnGiveXP:Give20TailoringXP,	   
+	   Time:300.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=2,
+	   Category:Tailoring,
+	   Tooltip:Tooltip_AttachBackpackTier3,
+  	}
+
 recipe Upgrade Duffelbag 	/* Regular with 3 variations*/
   	{
-	   Bag_DuffelBag/Bag_MedicalBag,
+	   Bag_DuffelBag,
 	   keep Scissors,
        keep Needle/SutureNeedle,
        Thread=3,

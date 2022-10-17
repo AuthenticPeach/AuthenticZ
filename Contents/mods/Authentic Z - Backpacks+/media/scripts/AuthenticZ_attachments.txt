@@ -18,20 +18,6 @@ module Base
 			bone = Bip01_Spine1,
 		}
 
-		attachment MilitaryFlashlight_L
-		{
-			offset = -0.0080 -0.0600 0.0700,
-			rotate = 94.0000 0.0000 104.0000,
-			bone = Bip01_Spine1,
-		}
-
-		attachment MilitaryFlashlight_R
-		{
-			offset = -0.0060 0.0600 0.0620,
-			rotate = -94.0000 0.0000 -98.0000,
-			bone = Bip01_Spine1,
-		}
-
 		attachment Pills_L
 		{
 			offset = -0.0050 0.0950 0.0220,
@@ -74,39 +60,11 @@ module Base
 			bone = Bip01_Head,
 		}
 
-		attachment paper_right
-		{
-			offset = 0.0850 -0.0970 0.0050,
-			rotate = 91.0000 5.0000 -89.0000,
-			bone = Bip01_Pelvis,
-		}
-
-		attachment paper_left
-		{
-			offset = 0.0850 0.0970 -0.0060,
-			rotate = -90.0000 -3.0000 -35.0000,
-			bone = Bip01_Pelvis,
-		}
-
 		attachment Bip01_R_Finger0
 		{
 			offset = -0.0110 0.0080 0.0000,
 			rotate = 0.0000 0.0000 0.0000,
 			bone = Bip01_R_Finger0,
-		}
-
-		attachment stop_sign_left
-		{
-			offset = 0.0000 0.0000 0.0000,
-			rotate = 90.0000 47.0000 90.0000,
-			bone = Bip01_L_Finger1,
-		}
-
-		attachment stop_sign_right
-		{
-			offset = 0.0000 0.0000 0.0000,
-			rotate = 90.0000 -47.0000 90.0000,
-			bone = Bip01_R_Finger1,
 		}
 
 		attachment Cherry_Leg_R
@@ -163,13 +121,6 @@ module Base
 			offset = 0.0190 -0.1080 -0.0950,
 			rotate = -94.0000 0.0000 180.0000,
 			bone = Bip01_BackPack,
-		}
-
-		attachment BackPack_Schoolbag_L_Balloon
-		{
-			offset = 0.0200 0.0310 0.0970,
-			rotate = 0.0000 0.0000 0.0000,
-			bone = Bip01_L_Clavicle,
 		}
 
 		attachment BackPack_Schoolbag_R_Balloon
@@ -508,6 +459,20 @@ module Base
 			bone = Bip01_Spine1,
 		}
 
+		attachment BackPack_Schoolbag_FlashlightHandTorch
+		{
+			offset = 0.1530 -0.0620 -0.0090,
+			rotate = -40.0000 52.0000 121.0000,
+			bone = Bip01_Spine1,
+		}
+
+		attachment BackPack_Schoolbag_FlashlightBig
+		{
+			offset = 0.0030 -0.0910 -0.0850,
+			rotate = -21.0000 -27.0000 95.0000,
+			bone = Bip01_BackPack,
+		}
+
 		attachment BackPack_Schoolbag_Saw
 		{
 			offset = 0.0020 0.0800 0.1230,
@@ -634,11 +599,25 @@ module Base
 			bone = Bip01_BackPack,
 		}
 
+		attachment BackPack_Dufflebag_FlashlightHandTorch
+		{
+			offset = 0.1520 0.0620 -0.0050,
+			rotate = -46.0000 57.0000 129.0000,
+			bone = Bip01_Spine1,
+		}
+
 		attachment BackPack_Dufflebag_Flashlight
 		{
 			offset = 0.0160 0.0120 0.0880,
 			rotate = 93.0000 35.0000 82.0000,
 			bone = Bip01_Spine1,
+		}
+
+		attachment BackPack_Dufflebag_FlashlightBig
+		{
+			offset = 0.0240 -0.1410 -0.1820,
+			rotate = 6.0000 -5.0000 62.0000,
+			bone = Bip01_BackPack,
 		}
 
 		attachment BackPack_Dufflebag_Saw
@@ -1054,11 +1033,25 @@ module Base
 			bone = Bip01_BackPack,
 		}
 
+		attachment BackPack_Hikingbag_FlashlightHandTorch
+		{
+			offset = 0.1500 -0.0600 -0.0080,
+			rotate = -46.0000 57.0000 129.0000,
+			bone = Bip01_Spine1,
+		}
+
 		attachment BackPack_Hikingbag_Flashlight
 		{
 			offset = 0.0060 -0.0890 0.0540,
 			rotate = 84.0000 14.0000 110.0000,
 			bone = Bip01_Spine1,
+		}
+
+		attachment BackPack_Hikingbag_FlashlightBig
+		{
+			offset = 0.0050 -0.0990 -0.1050,
+			rotate = -17.0000 -21.0000 98.0000,
+			bone = Bip01_BackPack,
 		}
 
 		attachment BackPack_Hikingbag_Saw
@@ -1171,20 +1164,6 @@ module Base
 			offset = 0.0200 -0.1220 -0.1160,
 			rotate = -94.0000 0.0000 180.0000,
 			bone = Bip01_BackPack,
-		}
-
-		attachment BackPack_Hikingbag_L_Balloon
-		{
-			offset = 0.0200 0.0310 0.0970,
-			rotate = 0.0000 0.0000 0.0000,
-			bone = Bip01_L_Clavicle,
-		}
-
-		attachment BackPack_Hikingbag_R_Balloon
-		{
-			offset = 0.0200 -0.0320 0.0970,
-			rotate = 180.0000 50.0000 0.0000,
-			bone = Bip01_R_Clavicle,
 		}
 
 		attachment BackPack_Hikingbag_Tier1Item_Rope
@@ -1572,6 +1551,13 @@ module Base
 			bone = Bip01_Spine1,
 		}
 
+		attachment BackPack_BigHikingBag_FlashlightHandTorch
+		{
+			offset = 0.1500 -0.0620 0.0010,
+			rotate = -37.0000 50.0000 119.0000,
+			bone = Bip01_Spine1,
+		}
+
 		attachment BackPack_BigHikingBag_Saw
 		{
 			offset = 0.0130 0.0870 0.1690,
@@ -1682,20 +1668,6 @@ module Base
 			offset = 0.0070 -0.1250 -0.1450,
 			rotate = -94.0000 -1.0000 -171.0000,
 			bone = Bip01_BackPack,
-		}
-
-		attachment BackPack_BigHikingBag_L_Balloon
-		{
-			offset = 0.0200 0.0310 0.0970,
-			rotate = 0.0000 0.0000 0.0000,
-			bone = Bip01_L_Clavicle,
-		}
-
-		attachment BackPack_BigHikingBag_R_Balloon
-		{
-			offset = 0.0200 -0.0320 0.0970,
-			rotate = 180.0000 50.0000 0.0000,
-			bone = Bip01_R_Clavicle,
 		}
 
 		attachment BackPack_BigHikingBag_Tier1Item_Rope
@@ -2176,8 +2148,8 @@ module Base
 
 		attachment BackPack_Alicepack_Waterbottle_Left
 		{
-			offset = 0.0340 0.1380 -0.0750,
-			rotate = 101.0000 -87.0000 6.0000,
+			offset = 0.0070 0.1370 -0.0750,
+			rotate = 91.0000 -9.0000 -5.0000,
 			bone = Bip01_BackPack,
 		}
 
@@ -2204,7 +2176,7 @@ module Base
 
 		attachment BackPack_Alicepack_Waterbottle_Right
 		{
-			offset = 0.0430 -0.1250 -0.0800,
+			offset = 0.0070 -0.1270 -0.0800,
 			rotate = -95.0000 0.0000 180.0000,
 			bone = Bip01_BackPack,
 		}
@@ -2221,6 +2193,20 @@ module Base
 			offset = 0.0300 -0.1270 -0.0760,
 			rotate = 105.0000 -74.0000 14.0000,
 			bone = Bip01_BackPack,
+		}
+
+		attachment BackPack_Alicepack_FlashlightBig
+		{
+			offset = 0.0170 -0.1150 -0.0540,
+			rotate = -27.0000 -11.0000 69.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BackPack_Alicepack_FlashlightHandTorch
+		{
+			offset = 0.1440 -0.0820 -0.0080,
+			rotate = -40.0000 52.0000 122.0000,
+			bone = Bip01_Spine1,
 		}
 
 		attachment BackPack_Alicepack_Flashlight
@@ -2771,7 +2757,7 @@ module Base
 
 		attachment BackpackSecondary_AlicepackBag_L4DeadMedkit
 		{
-			offset = 0.0170 -0.0040 -0.1610,
+			offset = 0.0170 -0.0040 -0.1140,
 			rotate = 91.0000 1.0000 -10.0000,
 			bone = Bip01_BackPack,
 		}
@@ -3130,13 +3116,6 @@ module Base
 			bone = Bip01_BackPack,
 		}
 
-		attachment BackPack_Schoolbag_L_Balloon
-		{
-			offset = 0.0200 0.0310 0.0970,
-			rotate = 0.0000 0.0000 0.0000,
-			bone = Bip01_L_Clavicle,
-		}
-
 		attachment BackPack_Schoolbag_R_Balloon
 		{
 			offset = 0.0200 -0.0320 0.0970,
@@ -3445,11 +3424,25 @@ module Base
 			bone = Bip01_BackPack,
 		}
 
+		attachment BackPack_Schoolbag_FlashlightHandTorch
+		{
+			offset = 0.1530 -0.0620 -0.0090,
+			rotate = -40.0000 52.0000 121.0000,
+			bone = Bip01_Spine1,
+		}
+
 		attachment BackPack_Schoolbag_Flashlight
 		{
 			offset = 0.0060 -0.0890 0.0540,
 			rotate = 84.0000 14.0000 110.0000,
 			bone = Bip01_Spine1,
+		}
+
+		attachment BackPack_Schoolbag_FlashlightBig
+		{
+			offset = 0.0030 -0.0910 -0.0850,
+			rotate = -21.0000 -27.0000 95.0000,
+			bone = Bip01_BackPack,
 		}
 
 		attachment BackpackSecondary_SchoolbagPlasticBag
@@ -3562,6 +3555,20 @@ module Base
 			offset = 0.0100 0.0140 0.0880,
 			rotate = 84.0000 35.0000 97.0000,
 			bone = Bip01_Spine1,
+		}
+
+		attachment BackPack_Dufflebag_FlashlightHandTorch
+		{
+			offset = 0.1520 0.0620 -0.0050,
+			rotate = -46.0000 57.0000 129.0000,
+			bone = Bip01_Spine1,
+		}
+
+		attachment BackPack_Dufflebag_FlashlightBig
+		{
+			offset = 0.0240 -0.1870 -0.1600,
+			rotate = 6.0000 -5.0000 62.0000,
+			bone = Bip01_BackPack,
 		}
 
 		attachment BackPack_Dufflebag_Saw
@@ -3977,6 +3984,13 @@ module Base
 			bone = Bip01_BackPack,
 		}
 
+		attachment BackPack_Hikingbag_FlashlightHandTorch
+		{
+			offset = 0.1500 -0.0600 -0.0080,
+			rotate = -46.0000 57.0000 129.0000,
+			bone = Bip01_Spine1,
+		}
+
 		attachment BackPack_Hikingbag_Flashlight
 		{
 			offset = 0.0060 -0.0890 0.0540,
@@ -4094,20 +4108,6 @@ module Base
 			offset = 0.0200 -0.1220 -0.1160,
 			rotate = -94.0000 0.0000 180.0000,
 			bone = Bip01_BackPack,
-		}
-
-		attachment BackPack_Hikingbag_L_Balloon
-		{
-			offset = 0.0200 0.0310 0.0970,
-			rotate = 0.0000 0.0000 0.0000,
-			bone = Bip01_L_Clavicle,
-		}
-
-		attachment BackPack_Hikingbag_R_Balloon
-		{
-			offset = 0.0200 -0.0320 0.0970,
-			rotate = 180.0000 50.0000 0.0000,
-			bone = Bip01_R_Clavicle,
 		}
 
 		attachment BackPack_Hikingbag_Tier1Item_Rope
@@ -4488,6 +4488,20 @@ module Base
 			bone = Bip01_BackPack,
 		}
 
+		attachment BackPack_BigHikingBag_FlashlightHandTorch
+		{
+			offset = 0.1500 -0.0620 0.0010,
+			rotate = -37.0000 50.0000 119.0000,
+			bone = Bip01_Spine1,
+		}
+
+		attachment BackPack_Hikingbag_FlashlightBig
+		{
+			offset = 0.0050 -0.0990 -0.1050,
+			rotate = -17.0000 -21.0000 98.0000,
+			bone = Bip01_BackPack,
+		}
+
 		attachment BackPack_BigHikingBag_Flashlight
 		{
 			offset = 0.0060 -0.0890 0.0540,
@@ -4605,20 +4619,6 @@ module Base
 			offset = 0.0070 -0.1250 -0.1450,
 			rotate = -94.0000 -1.0000 -171.0000,
 			bone = Bip01_BackPack,
-		}
-
-		attachment BackPack_BigHikingBag_L_Balloon
-		{
-			offset = 0.0200 0.0310 0.0970,
-			rotate = 0.0000 0.0000 0.0000,
-			bone = Bip01_L_Clavicle,
-		}
-
-		attachment BackPack_BigHikingBag_R_Balloon
-		{
-			offset = 0.0200 -0.0320 0.0970,
-			rotate = 180.0000 50.0000 0.0000,
-			bone = Bip01_R_Clavicle,
 		}
 
 		attachment BackPack_BigHikingBag_Tier1Item_Rope
@@ -5144,6 +5144,20 @@ module Base
 			offset = 0.0420 -0.1250 -0.1200,
 			rotate = 105.0000 -74.0000 14.0000,
 			bone = Bip01_BackPack,
+		}
+
+		attachment BackPack_Alicepack_FlashlightBig
+		{
+			offset = 0.0170 -0.1150 -0.0540,
+			rotate = -27.0000 -11.0000 69.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BackPack_Alicepack_FlashlightHandTorch
+		{
+			offset = 0.1440 -0.0820 -0.0080,
+			rotate = -40.0000 52.0000 122.0000,
+			bone = Bip01_Spine1,
 		}
 
 		attachment BackPack_Alicepack_Flashlight
@@ -5692,10 +5706,10 @@ module Base
 			bone = Bip01_BackPack,
 		}
 
-		attachment BackpackSecondary_AlicepackFirstAidKit
+		attachment BackpackSecondary_AlicepackBag_L4DeadMedkit
 		{
-			offset = 0.0410 0.1110 -0.2450,
-			rotate = 112.0000 21.0000 170.0000,
+			offset = 0.0170 -0.0040 -0.1610,
+			rotate = 91.0000 1.0000 -10.0000,
 			bone = Bip01_BackPack,
 		}
 
@@ -5965,48 +5979,6 @@ module Base
 			bone = Bip01_Spine1,
 		}
 
-		attachment Neck_Balloon
-		{
-			offset = 0.0850 -0.0000 0.0000,
-			rotate = 90.0000 5.0000 -130.0000,
-			bone = Bip01_Neck,
-		}
-
-		attachment paper_right
-		{
-			offset = 0.0850 -0.0970 0.0050,
-			rotate = 91.0000 5.0000 -89.0000,
-			bone = Bip01_Pelvis,
-		}
-
-		attachment paper_left
-		{
-			offset = 0.0850 0.0970 -0.0060,
-			rotate = -90.0000 -3.0000 -35.0000,
-			bone = Bip01_Pelvis,
-		}
-
-		attachment stop_sign_left
-		{
-			offset = 0.0000 0.0000 0.0000,
-			rotate = 90.0000 47.0000 90.0000,
-			bone = Bip01_L_Finger1,
-		}
-
-		attachment stop_sign_right
-		{
-			offset = 0.0000 0.0000 0.0000,
-			rotate = 90.0000 -47.0000 90.0000,
-			bone = Bip01_R_Finger1,
-		}
-
-		attachment Cherry_Leg_R
-		{
-			offset = -0.0110 -0.0530 0.0040,
-			rotate = 0.0000 0.0000 0.0000,
-			bone = Bip01_L_UpperArm,
-		}
-
 		attachment Canteen_L
 		{
 			offset = -0.1440 -0.0890 0.0840,
@@ -6035,20 +6007,6 @@ module Base
 			bone = Bip01_Spine1,
 		}
 
-		attachment MilitaryFlashlight_L
-		{
-			offset = -0.0060 -0.0600 0.0620,
-			rotate = -94.0000 0.0000 -98.0000,
-			bone = Bip01_Spine1,
-		}
-
-		attachment MilitaryFlashlight_R
-		{
-			offset = -0.0060 0.0600 0.0620,
-			rotate = -94.0000 0.0000 -98.0000,
-			bone = Bip01_Spine1,
-		}
-
 		attachment Pills_L
 		{
 			offset = -0.0050 0.0950 0.0220,
@@ -6061,13 +6019,6 @@ module Base
 			offset = 0.0630 -0.0970 0.0220,
 			rotate = 160.0000 0.0000 -75.0000,
 			bone = Bip01_Pelvis,
-		}
-
-		attachment Pipe_Waist
-		{
-			offset = -0.0270 -0.0210 0.0700,
-			rotate = 4.0000 -3.0000 -71.0000,
-			bone = Bip01_Spine,
 		}
 	}
 }

@@ -256,7 +256,8 @@ item BorisBadger
 		StaticModel = FlashLightBlue,
 		primaryAnimMask = HoldingTorchRight,
         secondaryAnimMask = HoldingTorchLeft,
-        WorldStaticModel = FlashLightGroundBlue,	
+		AttachmentType  = FlashlightBig,			
+        WorldStaticModel = FlashLightGroundBlue,
 	}	
 
 	item Hat_GasMask
@@ -1381,7 +1382,6 @@ item BorisBadger
         SurvivalGear 		= TRUE,
         Tags 				= Saw,
 		AttachmentType   	= Saw,			
-        WorldStaticModel 	= GardenSawGround,
 		OBSOLETE 			= TRUE,
     }
 
@@ -1397,7 +1397,6 @@ item BorisBadger
 		SurvivalGear 		= 	TRUE,
         Tags 				= 	Saw,
 		AttachmentType   	= 	Saw,	
-        WorldStaticModel 	= 	HacksawGround,
 	    OBSOLETE 			= 	TRUE,	
 	}
 

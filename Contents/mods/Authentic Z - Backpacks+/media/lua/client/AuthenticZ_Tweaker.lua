@@ -44,3 +44,4 @@ TweakItem("Base.WeldingMask", "AttachmentType", "GasMask");
 TweakItem("Base.WeldingMask", "StaticModel", "WelderMaskNotWorn");
 
 TweakItem("Base.HandTorch", "AttachmentType", "Flashlight");
+TweakItem("Base.Torch", "AttachmentType", "FlashlightBig");

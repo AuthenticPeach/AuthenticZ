@@ -3,36 +3,22 @@
 --***********************************************************
 
 local group = AttachedLocations.getGroup("Human")
-group:getOrCreateLocation("Balloon Left"):setAttachmentName("Bip01_L_Shoulder")
-group:getOrCreateLocation("Balloon Right"):setAttachmentName("Bip01_R_Shoulder")
-group:getOrCreateLocation("Balloon Center"):setAttachmentName("Neck_Balloon")
 group:getOrCreateLocation("Canteen Left"):setAttachmentName("Canteen_L")
 group:getOrCreateLocation("Canteen Right"):setAttachmentName("Canteen_R")
 group:getOrCreateLocation("Item Slot 1"):setAttachmentName("Pills_L")
 group:getOrCreateLocation("Item Slot 2"):setAttachmentName("Pills_R")
 group:getOrCreateLocation("Pills Right"):setAttachmentName("Pills_R")
 group:getOrCreateLocation("Pills Left"):setAttachmentName("Pills_L")
-group:getOrCreateLocation("Pipe Waist"):setAttachmentName("Pipe_Waist")
 group:getOrCreateLocation("Left Hand"):setAttachmentName("Bip01_L_Finger1")
 group:getOrCreateLocation("Left Hand Item"):setAttachmentName("stop_sign_left")
 group:getOrCreateLocation("Right Hand"):setAttachmentName("Bip01_R_Finger0")
 group:getOrCreateLocation("Right Hand1"):setAttachmentName("Bip01_R_Finger1")
 group:getOrCreateLocation("Right Hand Item"):setAttachmentName("stop_sign_right")
-group:getOrCreateLocation("BucketHead"):setAttachmentName("Bip01_Head")
-group:getOrCreateLocation("PlungerFace"):setAttachmentName("AZ_PlungerFace")
-group:getOrCreateLocation("PlungerHead"):setAttachmentName("AZ_PlungerHead")
 group:getOrCreateLocation("MinerLight"):setAttachmentName("knife_head")
-group:getOrCreateLocation("Military Flashlight Left"):setAttachmentName("MilitaryFlashlight_L")
-group:getOrCreateLocation("Military Flashlight Right"):setAttachmentName("MilitaryFlashlight_R")
-group:getOrCreateLocation("Paper Left"):setAttachmentName("Paper_left")
-group:getOrCreateLocation("Paper Right"):setAttachmentName("Paper_right")
 group:getOrCreateLocation("WalkieTalkie Left"):setAttachmentName("WalkieTalkie_L")
 group:getOrCreateLocation("WalkieTalkie Right"):setAttachmentName("WalkieTalkie_R")
-group:getOrCreateLocation("CherryLeg"):setAttachmentName("Cherry_Leg_R")
 
 -- Backpack attachments --
-group:getOrCreateLocation("Flare Gun Left"):setAttachmentName("BackPack_Flare_Left")
-group:getOrCreateLocation("Flare Gun Right"):setAttachmentName("BackPack_Flare_Right")
 
 group:getOrCreateLocation("Schoolbag Plasticbag Bag"):setAttachmentName("BackpackSecondary_SchoolbagPlasticBag")
 group:getOrCreateLocation("Schoolbag Garbage Bag"):setAttachmentName("BackpackSecondary_SchoolbagGarbageBag")
@@ -109,7 +95,8 @@ group:getOrCreateLocation("Schoolbag Umbrella Left"):setAttachmentName("BackPack
 group:getOrCreateLocation("Schoolbag Saw Right"):setAttachmentName("BackPack_Schoolbag_Saw")
 group:getOrCreateLocation("Schoolbag Torch Right"):setAttachmentName("BackPack_Schoolbag_Torch")
 group:getOrCreateLocation("Schoolbag Military Flashlight"):setAttachmentName("BackPack_Schoolbag_Flashlight")
-group:getOrCreateLocation("Schoolbag Balloon Left"):setAttachmentName("BackPack_Schoolbag_L_Balloon")
+group:getOrCreateLocation("Schoolbag Flashlight"):setAttachmentName("BackPack_Schoolbag_FlashlightHandTorch")
+group:getOrCreateLocation("Schoolbag Flashlight Big"):setAttachmentName("BackPack_Schoolbag_FlashlightBig")
 group:getOrCreateLocation("Schoolbag Balloon Right"):setAttachmentName("BackPack_Schoolbag_R_Balloon")
 
 
@@ -184,9 +171,9 @@ group:getOrCreateLocation("Dufflebag Umbrella Right"):setAttachmentName("BackPac
 group:getOrCreateLocation("Dufflebag Saw Right"):setAttachmentName("BackPack_Dufflebag_Saw")
 group:getOrCreateLocation("Dufflebag Torch Right"):setAttachmentName("BackPack_Dufflebag_Torch")
 group:getOrCreateLocation("Dufflebag Military Flashlight"):setAttachmentName("BackPack_Dufflebag_Flashlight")
+group:getOrCreateLocation("Dufflebag Flashlight"):setAttachmentName("BackPack_Dufflebag_FlashlightHandTorch")
+group:getOrCreateLocation("Dufflebag Flashlight Big"):setAttachmentName("BackPack_Dufflebag_FlashlightBig")
 group:getOrCreateLocation("Dufflebag Balloon Left"):setAttachmentName("BackPack_Dufflebag_L_Balloon")
-group:getOrCreateLocation("Dufflebag Balloon Right"):setAttachmentName("BackPack_Dufflebag_R_Balloon")
-
 
 group:getOrCreateLocation("HikingBag Plasticbag Bag"):setAttachmentName("BackpackSecondary_HikingbagPlasticBag")
 group:getOrCreateLocation("HikingBag Garbage Bag"):setAttachmentName("BackpackSecondary_HikingbagGarbageBag")
@@ -263,9 +250,9 @@ group:getOrCreateLocation("HikingBag Umbrella Left"):setAttachmentName("BackPack
 group:getOrCreateLocation("HikingBag Saw Right"):setAttachmentName("BackPack_Hikingbag_Saw")
 group:getOrCreateLocation("HikingBag Sleeping Bag"):setAttachmentName("BackPack_Hikingbag_SleepingBag")
 group:getOrCreateLocation("HikingBag Torch Right"):setAttachmentName("BackPack_Hikingbag_Torch")
+group:getOrCreateLocation("HikingBag Flashlight"):setAttachmentName("BackPack_Hikingbag_FlashlightHandTorch")
+group:getOrCreateLocation("HikingBag Flashlight Big"):setAttachmentName("BackPack_Hikingbag_FlashlightBig")
 group:getOrCreateLocation("HikingBag Military Flashlight"):setAttachmentName("BackPack_Hikingbag_Flashlight")
-group:getOrCreateLocation("HikingBag Balloon Left"):setAttachmentName("BackPack_Hikingbag_L_Balloon")
-group:getOrCreateLocation("HikingBag Balloon Right"):setAttachmentName("BackPack_Hikingbag_R_Balloon")
 
 group:getOrCreateLocation("BigHikingBag Plasticbag Bag"):setAttachmentName("BackpackSecondary_BigHikingBagPlasticBag")
 group:getOrCreateLocation("BigHikingBag Garbage Bag"):setAttachmentName("BackpackSecondary_BigHikingBagGarbageBag")
@@ -358,8 +345,8 @@ group:getOrCreateLocation("BigHikingBag Saw Right"):setAttachmentName("BackPack_
 group:getOrCreateLocation("BigHikingBag Sleeping Bag"):setAttachmentName("BackPack_BigHikingBag_SleepingBag")
 group:getOrCreateLocation("BigHikingBag Torch Right"):setAttachmentName("BackPack_BigHikingBag_Torch")
 group:getOrCreateLocation("BigHikingBag Military Flashlight"):setAttachmentName("BackPack_BigHikingBag_Flashlight")
-group:getOrCreateLocation("BigHikingBag Balloon Left"):setAttachmentName("BackPack_BigHikingBag_L_Balloon")
-group:getOrCreateLocation("BigHikingBag Balloon Right"):setAttachmentName("BackPack_BigHikingBag_R_Balloon")
+group:getOrCreateLocation("BigHikingBag Flashlight Big"):setAttachmentName("BackPack_Hikingbag_FlashlightBig")
+group:getOrCreateLocation("BigHikingBag Flashlight"):setAttachmentName("BackPack_BigHikingBag_FlashlightHandTorch")
 
 group:getOrCreateLocation("Alicepack Plasticbag Bag"):setAttachmentName("BackpackSecondary_AlicepackPlasticBag")
 group:getOrCreateLocation("Alicepack Garbage Bag"):setAttachmentName("BackpackSecondary_AlicepackGarbageBag")
@@ -457,8 +444,8 @@ group:getOrCreateLocation("Alicepack Saw Right"):setAttachmentName("BackPack_Ali
 group:getOrCreateLocation("Alicepack Torch Right"):setAttachmentName("BackPack_Alicepack_Torch")
 group:getOrCreateLocation("Alicepack Sleeping Bag"):setAttachmentName("BackPack_Alicepack_SleepingBag")
 group:getOrCreateLocation("Alicepack Military Flashlight"):setAttachmentName("BackPack_Alicepack_Flashlight")
-group:getOrCreateLocation("Alicepack Balloon Left"):setAttachmentName("BackPack_Schoolbag_L_Balloon")
-group:getOrCreateLocation("Alicepack Balloon Right"):setAttachmentName("BackPack_Schoolbag_R_Balloon")
+group:getOrCreateLocation("Alicepack Flashlight"):setAttachmentName("BackPack_Alicepack_FlashlightHandTorch")
+group:getOrCreateLocation("Alicepack Flashlight Big"):setAttachmentName("BackPack_Alicepack_FlashlightBig")
 
 -- Webbing attachments --
 group:getOrCreateLocation("Webbing Rope Left_AZ"):setAttachmentName("Webbing_Rope_Left_AZ")

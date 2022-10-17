@@ -314,15 +314,15 @@ module AuthenticZBackpacksPlus {
         WeightReduction	=	50,
         Weight	=	1,
         Capacity	=	10,
-        Icon	=	Duffelbag,
+        Icon	=	RoadsideDuffelbagRed,
         OpenSound   =   OpenBag,
         CloseSound   =   CloseBag,
         PutInSound   =   PutItemInBag,
         RunSpeedModifier = 0.95,
         CanHaveHoles = false,
-        ReplaceInSecondHand = Bag_DuffelBag_LHandTINT holdingbagleft,
-        ReplaceInPrimaryHand = Bag_DuffelBag_RHandTINT holdingbagright,
-        WorldStaticModel = DuffelBag_Ground,
+        ReplaceInSecondHand = Bag_RoadsideDuffel_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_RoadsideDuffel_Rhand holdingbagright,
+        WorldStaticModel = WorldItem-RoadsideDufflebag,
     }
 	
 	item Bag_SchoolBagNBH

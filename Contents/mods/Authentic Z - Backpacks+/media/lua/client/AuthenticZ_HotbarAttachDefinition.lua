@@ -136,6 +136,8 @@ local SchoolbagFlashlight = {
 	animset = "back",
 	attachments = { -- list of possible item category and their modelAttachement group, the item category is defined in the item script		
 		MilitaryFlashlight = "Schoolbag Military Flashlight",
+		Flashlight = "Schoolbag Flashlight",
+		FlashlightBig = "Schoolbag Flashlight Big",				
 	},
 }
 table.insert(ISHotbarAttachDefinition, SchoolbagFlashlight);
@@ -164,17 +166,6 @@ local SchoolbagPlushie = {
 	},
 }
 table.insert(ISHotbarAttachDefinition, SchoolbagPlushie);
-
-local SchoolbagBalloonLeft = {
-	type = "SchoolbagBalloonLeft",
-	name = "Schoolbag Balloon Slot", -- Name shown in the slot icon
-	animset = "back",
-	attachments = { -- list of possible item category and their modelAttachement group, the item category is defined in the item script
-		-- Rope = "Item Slot 1",
-		BalloonSlot = "Schoolbag Balloon Left",				
-	},
-}
-table.insert(ISHotbarAttachDefinition, SchoolbagBalloonLeft);
 
 local SchoolbagBalloonRight = {
 	type = "SchoolbagBalloonRight",
@@ -342,6 +333,8 @@ local DufflebagFlashlight = {
 	animset = "back",
 	attachments = { -- list of possible item category and their modelAttachement group, the item category is defined in the item script		
 		MilitaryFlashlight = "Dufflebag Military Flashlight",
+		Flashlight = "Dufflebag Flashlight",
+		FlashlightBig = "Dufflebag Flashlight Big",				
 	},
 }
 table.insert(ISHotbarAttachDefinition, DufflebagFlashlight);
@@ -514,6 +507,8 @@ local HikingBagFlashlight = {
 	animset = "back",
 	attachments = { -- list of possible item category and their modelAttachement group, the item category is defined in the item script		
 		MilitaryFlashlight = "HikingBag Military Flashlight",
+		Flashlight = "HikingBag Flashlight",
+		FlashlightBig = "HikingBag Flashlight Big",				
 	},
 }
 table.insert(ISHotbarAttachDefinition, HikingBagFlashlight);
@@ -697,6 +692,8 @@ local BigHikingbagFlashlight = {
 	animset = "back",
 	attachments = { -- list of possible item category and their modelAttachement group, the item category is defined in the item script		
 		MilitaryFlashlight = "BigHikingBag Military Flashlight",
+		Flashlight = "BigHikingBag Flashlight",
+		FlashlightBig = "BigHikingBag Flashlight Big",				
 	},
 }
 table.insert(ISHotbarAttachDefinition, BigHikingbagFlashlight);
@@ -919,6 +916,8 @@ local AlicepackFlashlight = {
 	animset = "back",
 	attachments = { -- list of possible item category and their modelAttachement group, the item category is defined in the item script		
 		MilitaryFlashlight = "Alicepack Military Flashlight",
+		Flashlight = "Alicepack Flashlight",
+		FlashlightBig = "Alicepack Flashlight Big",		
 	},
 }
 table.insert(ISHotbarAttachDefinition, AlicepackFlashlight);
@@ -1130,6 +1129,8 @@ local ARVNFlashlight = {
 	animset = "back",
 	attachments = { -- list of possible item category and their modelAttachement group, the item category is defined in the item script		
 		MilitaryFlashlight = "Alicepack Military Flashlight",
+		Flashlight = "Alicepack Flashlight",
+		FlashlightBig = "Alicepack Flashlight Big",				
 	},
 }
 table.insert(ISHotbarAttachDefinition, ARVNFlashlight);

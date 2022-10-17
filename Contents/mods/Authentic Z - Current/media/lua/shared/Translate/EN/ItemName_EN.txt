@@ -1020,4 +1020,12 @@ ItemName_EN = {
 	ItemName_AuthenticZClothing.Bone_Skin_UpperArm_R = "Upper Arm R (Dismembered)",
 	ItemName_AuthenticZClothing.Bone_Skin_UpperArm_L = "Upper Arm L (Dismembered)",
 	ItemName_AuthenticZClothing.SkeletonBody = "Skele Body",
+	
+	/* New */
+	ItemName_AuthenticZClothing.Bag_MedicalBag_Tier_1 = "Trauma Bag - Tier 1",	
+	ItemName_AuthenticZClothing.Bag_MedicalBag_Tier_2 = "Trauma Bag - Tier 2",	
+	ItemName_AuthenticZClothing.Bag_MedicalBag_Tier_3 = "Trauma Bag - Tier 3",	
+	ItemName_AuthenticZClothing.Bag_RoadsideDuffel_Tier_1 = "Roadside Duffel Bag - Tier 1",	
+	ItemName_AuthenticZClothing.Bag_RoadsideDuffel_Tier_2 = "Roadside Duffel Bag - Tier 2",	
+	ItemName_AuthenticZClothing.Bag_RoadsideDuffel_Tier_3 = "Roadside Duffel Bag - Tier 3",	
 }

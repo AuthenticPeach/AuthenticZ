@@ -189,7 +189,7 @@ recipe Make Backpack Attachable Item
 	   AZ_MetalClip,	   
 	   Paperclip,
 	   
-   	   Result:AuthenticZClothing.Rubberducky3,
+   	   Result:AuthenticZClothing.AZ_DiceHung,
 	   Time:50.0,
 	   Tooltip:Tooltip_AttachBackpack,
   	}
