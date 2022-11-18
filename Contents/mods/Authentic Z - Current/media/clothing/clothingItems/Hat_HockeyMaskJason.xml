@@ -9,4 +9,5 @@
 	<m_AttachBone>Bip01_Head</m_AttachBone>
 	<m_MasksFolder>media/textures/Clothes/Hat/Masks</m_MasksFolder>
 	<textureChoices>Clothes/Masks/HockeyMaskJasonIII</textureChoices>
+	<textureChoices>Clothes/Masks/HockeyMaskJasonIII2</textureChoices>
 </clothingItem>

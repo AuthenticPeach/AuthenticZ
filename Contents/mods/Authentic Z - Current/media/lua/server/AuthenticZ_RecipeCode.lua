@@ -174,7 +174,17 @@ function AZKeepDrainableContent_OnCreate(items, result, player)
         end
     end
 end
-
+--[[
+local function PleaseKeepColor2(item,result,player)
+	local backpackVisual = item:getVisual()
+	local resultVisual = result:getVisual()
+	result:getItemContainer():setItems(item:getItemContainer():getItems());
+	if backpackVisual and resultVisual then
+		resultVisual:setTextureChoice(backpackVisual:getTextureChoice());
+		result:synchWithVisual();
+	end
+end
+]]
 -- Transfer a food nutriment into an other
 function AZKeepFoodContent_OnCreate(items, result, player)
     if instanceof(result, "Food") then

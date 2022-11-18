@@ -6,7 +6,7 @@ module AuthenticZLite {
 	{
        DisplayCategory = Clothing,		
 		Type = Clothing,
-		DisplayName = Bullets Ammo Strap (XL),
+
 		ClothingItem = Fat01_AmmoStrap,
         ClothingItemExtra = AmmoStrap_Bullets,
         ClothingItemExtraOption = Tighten,			
@@ -20,7 +20,7 @@ module AuthenticZLite {
     {
        DisplayCategory = Clothing,		
 		Type = Clothing,
-        DisplayName = Apron (XL),		
+		
 		ClothingItem = Fat01_Apron,
         ClothingItemExtra = Apron_White,
         ClothingItemExtraOption = Tighten,			
@@ -35,7 +35,7 @@ module AuthenticZLite {
     {
         DisplayCategory = Clothing,		
         Type = Clothing,
-        DisplayName = Coveralls (XL),		
+		
         ClothingItem = Fat01_Coveralls,
         ClothingItemExtra = Boilersuit,
         ClothingItemExtraOption = Tighten,				
@@ -54,7 +54,7 @@ module AuthenticZLite {
     {
         DisplayCategory = Clothing,		
         Type = Clothing,
-        DisplayName = Hoodie (XL),
+
         ClothingItem = Fat01_HoodieUP,
         ClothingItemExtra = AuthenticZClothing.HoodieUP_WhiteTINT,
         ClothingItemExtraOption = DownHoodie,
@@ -72,7 +72,7 @@ module AuthenticZLite {
     {
         DisplayCategory = Clothing,		
         Type = Clothing,
-        DisplayName = Hoodie (XL),
+
         ClothingItem = Fat01_HoodieDOWN,
         ClothingItemExtra = AuthenticZClothing.HoodieDOWN_WhiteTINT,
         ClothingItemExtraOption = UpHoodie,
@@ -91,7 +91,7 @@ module AuthenticZLite {
     {
         DisplayCategory = Clothing,
         Type = Clothing,
-        DisplayName = Jacket (XL),
+
         ClothingItem = Fat01_Jacket,
         ClothingItemExtra = Jacket_WhiteTINT,
         ClothingItemExtraOption = Tighten,				
@@ -115,7 +115,7 @@ module AuthenticZLite {
     {
         DisplayCategory = Clothing,
         Type = Clothing,
-        DisplayName = Leather Jacket (XL),
+
         ClothingItem = Fat01_JacketLeather,
         ClothingItemExtra = Jacket_Black,
         ClothingItemExtraOption = Tighten,		
@@ -139,7 +139,7 @@ module AuthenticZLite {
     {
         DisplayCategory = Clothing,
         Type = Clothing,
-        DisplayName = Leather Jacket (XL),
+
         ClothingItem = Fat01_JacketLong,
         ClothingItemExtra = JacketLong_Random,
         ClothingItemExtraOption = Tighten,			
@@ -163,7 +163,7 @@ module AuthenticZLite {
     {
         DisplayCategory = Clothing,		
         Type = Clothing,
-        DisplayName = Black Poncho,
+
         ClothingItem = Fat01_PonchoUP,
         BodyLocation = JacketHat,
         Icon = HoodieWhite,
@@ -186,7 +186,7 @@ module AuthenticZLite {
     {
         DisplayCategory = Clothing,		
         Type = Clothing,
-        DisplayName = Black Poncho,
+
         ClothingItem = PonchoBlackDOWN,
         BodyLocation = Jacket,
         Icon = HoodieWhite,
@@ -210,7 +210,7 @@ module AuthenticZLite {
     {
        DisplayCategory = Clothing,		
         Type = Clothing,
-        DisplayName = Sports Pants (XL),
+
         ClothingItem = Fat01_SportShorts,
         ClothingItemExtra = Shorts_ShortSport,
         ClothingItemExtraOption = Tighten,			
@@ -227,7 +227,7 @@ module AuthenticZLite {
     {
         DisplayCategory = Clothing,
         Type = Clothing,
-        DisplayName = Shell Suit Trousers (XL),
+
         ClothingItem = Fat01_ShellPants,
         ClothingItemExtra = Trousers_Shellsuit_TINT,
         ClothingItemExtraOption = Tighten,		
@@ -260,7 +260,7 @@ module AuthenticZLite {
     {
         DisplayCategory = Clothing,
         Type = Clothing,
-        DisplayName = Vest (XL),			
+			
         ClothingItem = Fat01_Vest_HighViz,
         ClothingItemExtra = Vest_HighViz,
         ClothingItemExtraOption = Tighten,			
@@ -273,7 +273,7 @@ module AuthenticZLite {
     {
         DisplayCategory = Clothing,
         Type = Clothing,
-        DisplayName = Tank Top,			
+		
         ClothingItem = Fat01_Vest_TankTop,
         ClothingItemExtra = Vest_TankTop,
         ClothingItemExtraOption = Tighten,			
@@ -287,7 +287,7 @@ module AuthenticZLite {
     {
         DisplayCategory = Clothing,
         Type = Clothing,
-        DisplayName = Knee-length Dress,
+
         ClothingItem = Fat01_Dress_Knees,
         ClothingItemExtra = Dress_Knees,
         ClothingItemExtraOption = Tighten,		
@@ -304,7 +304,7 @@ module AuthenticZLite {
     {
         DisplayCategory = Clothing,
         Type = Clothing,
-        DisplayName = Straps Knee-length Dress,
+
         ClothingItem = Fat01_DressKnees_Straps,
         ClothingItemExtra = DressKnees_Straps,
         ClothingItemExtraOption = Tighten,		
@@ -321,7 +321,7 @@ module AuthenticZLite {
      {
          DisplayCategory = Clothing,
          Type = Clothing,
-         DisplayName = Strapless Small Dress,
+
          ClothingItem = Fat01_Dress_SmallStrapless,
          ClothingItemExtra = Dress_SmallStrapless,
          ClothingItemExtraOption = Tighten,			 
@@ -338,7 +338,7 @@ module AuthenticZLite {
      {
          DisplayCategory = Clothing,
          Type = Clothing,
-         DisplayName = Straps Small Dress,
+
          ClothingItem = Fat01_Dress_SmallStraps,
          ClothingItemExtra = Dress_SmallStraps,
          ClothingItemExtraOption = Tighten,			 
@@ -355,7 +355,7 @@ module AuthenticZLite {
     {
         DisplayCategory = Clothing,
         Type = Clothing,
-        DisplayName = Satin Negligee,
+
         ClothingItem = Fat01_Dress_SatinNegligee,
         ClothingItemExtra = Dress_SatinNegligee,
         ClothingItemExtraOption = Tighten,		
@@ -372,7 +372,7 @@ module AuthenticZLite {
     {
         DisplayCategory = Clothing,
         Type = Clothing,
-        DisplayName = Long Dress,
+
         ClothingItem = Fat01_Dress_Long,
         ClothingItemExtra = Dress_Long,
         ClothingItemExtraOption = Tighten,		
@@ -390,7 +390,7 @@ module AuthenticZLite {
     {
         DisplayCategory = Clothing,
         Type = Clothing,
-        DisplayName = Long Dress,
+
         ClothingItem = Fat01_Dress_long_Straps,
         ClothingItemExtra = Dress_long_Straps,
         ClothingItemExtraOption = Tighten,		
@@ -408,7 +408,7 @@ module AuthenticZLite {
     {
         DisplayCategory = Clothing,
         Type = Clothing,
-        DisplayName = Dress,
+
         ClothingItem = Fat01_Dress_Normal,
         ClothingItemExtra = Dress_Normal,
         ClothingItemExtraOption = Tighten,			
@@ -426,7 +426,7 @@ module AuthenticZLite {
     {
         DisplayCategory = Clothing,
         Type = Clothing,
-        DisplayName = Straps Dress,
+
         ClothingItem = Fat01_Dress_Straps,
         ClothingItemExtra = Dress_Straps,
         ClothingItemExtraOption = Tighten,		
@@ -445,7 +445,7 @@ module AuthenticZLite {
     {
         DisplayCategory = Clothing,
         Type = Clothing,
-        DisplayName = Short Dress,
+
         ClothingItem = Fat01_Dress_Short,
         ClothingItemExtra = Dress_Short,
         ClothingItemExtraOption = Tighten,		
@@ -463,7 +463,7 @@ module AuthenticZLite {
     {
         DisplayCategory = Clothing,
         Type = Clothing,
-        DisplayName = Knee-length Skirt,
+
         ClothingItem = Fat01_Skirt_Knees,
         ClothingItemExtra = Skirt_Knees,
         ClothingItemExtraOption = Tighten,		
@@ -480,7 +480,7 @@ module AuthenticZLite {
     {
         DisplayCategory = Clothing,
         Type = Clothing,
-        DisplayName = Long Skirt,
+
         ClothingItem = Fat01_Skirt_Long,
         ClothingItemExtra = Skirt_Long,
         ClothingItemExtraOption = Tighten,		
@@ -498,7 +498,7 @@ module AuthenticZLite {
     {
         DisplayCategory = Clothing,
         Type = Clothing,
-        DisplayName = Skirt,
+
         ClothingItem = Fat01_Skirt_Normal,
         ClothingItemExtra = Skirt_Normal,
         ClothingItemExtraOption = Tighten,		
@@ -516,7 +516,7 @@ module AuthenticZLite {
     {
         DisplayCategory = Clothing,
         Type = Clothing,
-        DisplayName = Short Skirt,
+
         ClothingItem = Fat01_Skirt_Short,
         ClothingItemExtra = Skirt_Short,
         ClothingItemExtraOption = Tighten,		

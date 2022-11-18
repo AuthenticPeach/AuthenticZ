@@ -78,7 +78,7 @@ module AuthenticZClothing {
         Type					 =	Container,
         Capacity				 =	20,
         DisplayName				 =	Holly's Backpack,
-        Icon 					 = 	Backpack_Holly,
+        IconsForTexture			=	Backpack_Holly;Backpack_Holly_Green;Backpack_Holly_Purple;Backpack_Holly_Red;Backpack_Holly_Special,
         CanBeEquipped 			 = 	Back,
         OpenSound   			 =  OpenBag,
         CloseSound   			 =  CloseBag,

@@ -8,6 +8,12 @@
 	<m_AllowRandomTint>false</m_AllowRandomTint>
 	<m_AttachBone></m_AttachBone>
 	<m_MasksFolder>media/textures/Clothes/Hat/Masks</m_MasksFolder>		
+	<textureChoices>clothes\Items\HeadbandGreen</textureChoices>
+	<textureChoices>clothes\Items\HeadbandLightBlue</textureChoices>
 	<textureChoices>clothes\Items\HeadbandYellow</textureChoices>
 	<textureChoices>clothes\Items\HeadbandPink</textureChoices>
+	<textureChoices>clothes\Items\PomPomBlack</textureChoices>
+	<textureChoices>clothes\Items\PomPomBlue</textureChoices>
+	<textureChoices>clothes\Items\PomPomRed</textureChoices>
+	<textureChoices>clothes\Items\PomPomWhite</textureChoices>
 </clothingItem>

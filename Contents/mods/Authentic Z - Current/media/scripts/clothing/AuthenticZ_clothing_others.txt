@@ -362,6 +362,7 @@ module AuthenticZClothing {
 		ClothingItem = ClownTop,
 		BodyLocation = TorsoExtraPlus1,
 		Icon = ClownTop,
+		WorldStaticModel = WorldItem-Clowncollar,		
 	}
 	item ClownTopBlue
 	{
@@ -371,6 +372,7 @@ module AuthenticZClothing {
 		ClothingItem = ClownTopBlue,
 		BodyLocation = TorsoExtraPlus1,
 		IconsForTexture = ClownTopBlue;ClownTopBlue2,
+		WorldStaticModel = WorldItem-Clowncollar,		
 	}
 	item ClownTopWhite
 	{
@@ -380,6 +382,7 @@ module AuthenticZClothing {
 		ClothingItem 	= ClownTopWhite,
 		BodyLocation 	= TorsoExtraPlus1,
 		Icon 			= ClownTop_White,
+		WorldStaticModel = WorldItem-Clowncollar,		
 	}
 	item CrutchLEFT
 	{

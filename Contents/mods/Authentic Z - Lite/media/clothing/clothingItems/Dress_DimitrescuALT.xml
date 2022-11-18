@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <clothingItem>
-	<m_MaleModel></m_MaleModel>
+	<m_MaleModel>skinned\clothes\bob_weddingdress</m_MaleModel>
 	<m_FemaleModel>skinned\clothes\LadyDimitrescuDress</m_FemaleModel>
 	<m_GUID>bb2b6fa8-880c-402c-a75d-18c46d4da110</m_GUID>
 	<m_Static>false</m_Static>

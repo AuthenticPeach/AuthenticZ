@@ -9,7 +9,7 @@ module AuthenticZLite {
 		DisplayName = Sports Headband,
 		ClothingItem = Hat_Headband_AZ,
 		BodyLocation = Hat,
-		IconsForTexture = Headband_Yellow;Headband_Pink,
+		IconsForTexture = Headband_Green;Headband_LightBlue;Headband_Yellow;Headband_Pink;Headband_Black;Headband_Blue;Headband_Red;Headband_White,
 		CanHaveHoles = false,
 		ChanceToFall = 30,
        	BloodLocation = Head,

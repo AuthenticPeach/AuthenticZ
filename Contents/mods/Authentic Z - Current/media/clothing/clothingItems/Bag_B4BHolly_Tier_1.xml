@@ -8,4 +8,8 @@
 	<m_AllowRandomTint>false</m_AllowRandomTint>
 	<m_AttachBone></m_AttachBone>
 	<textureChoices>Clothes\Backpacks\BackpackHolly</textureChoices>
+	<textureChoices>Clothes\Backpacks\BackpackHollyGreen</textureChoices>
+	<textureChoices>Clothes\Backpacks\BackpackHollyPurple</textureChoices>
+	<textureChoices>Clothes\Backpacks\BackpackHollyRed</textureChoices>
+	<textureChoices>Clothes\Backpacks\BackpackHollySpecial</textureChoices>
 </clothingItem>

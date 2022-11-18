@@ -8,4 +8,7 @@
 	<m_AllowRandomTint>false</m_AllowRandomTint>
 	<m_AttachBone></m_AttachBone>
 	<m_BaseTextures>clothes\shirt_tshirt_textures\TShirt_Holly</m_BaseTextures>
+	<m_BaseTextures>clothes\shirt_tshirt_textures\TShirt_Holly2</m_BaseTextures>
+	<m_BaseTextures>clothes\shirt_tshirt_textures\TShirt_Holly3</m_BaseTextures>
+	<m_BaseTextures>clothes\shirt_tshirt_textures\TShirt_Holly4</m_BaseTextures>
 </clothingItem>

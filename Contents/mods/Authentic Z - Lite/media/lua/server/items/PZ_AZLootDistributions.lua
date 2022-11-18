@@ -36,8 +36,12 @@ AuthenticZ.tab_addMagProcedural_HairCurlers  = function(x,count)
   ProceduralDistributions.list = ProceduralDistributions.list or {};
   ProceduralDistributions.list[x] = ProceduralDistributions.list[x] or {};
   ProceduralDistributions.list[x].items = ProceduralDistributions.list[x].items or {};
-  table.insert(ProceduralDistributions.list[x].items,"AuthenticZLite.Hairstyle_HairCurlers");
+  table.insert(ProceduralDistributions.list[x].items,"AuthenticZClothing.Hairstyle_HairCurlers");
   table.insert(ProceduralDistributions.list[x].items, count);
+  table.insert(ProceduralDistributions.list[x].items,"AuthenticZClothing.Hairstyle_HairCurlers");
+  table.insert(ProceduralDistributions.list[x].items, count);
+  table.insert(ProceduralDistributions.list[x].items,"AuthenticZClothing.AuthenticHairHeadband");
+  table.insert(ProceduralDistributions.list[x].items, count);  
 end
 --Hit Lists
 AuthenticZ.tab_addMagProcedural_items  = function(x,count)

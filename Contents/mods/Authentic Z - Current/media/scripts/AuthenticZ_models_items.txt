@@ -916,7 +916,6 @@ module Base
 	model WorldItem_BackpackHolly
     {
 		mesh = Skinned/Backpacks/WorldItem-BackpackHolly,
-		texture = clothes\Backpacks\BackpackHolly,
     }
 	model WorldItem_BackpackL4DMedkit
     {
@@ -1083,6 +1082,10 @@ module Base
     {
 		mesh = WorldItems/WorldItem_ChickenHeadJacket,
 		texture = clothes\Masks\ChickenMask,		
+    }
+	model WorldItem-Clowncollar
+    {
+		mesh = WorldItems/WorldItem_Clowncollar,	
     }	
 	model WorldItem-CostumeStoreSign
     {

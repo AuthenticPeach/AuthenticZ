@@ -471,12 +471,12 @@ ItemName_EN = {
 	ItemName_AuthenticZBackpacksPlus.SpiffoPlushieShamrock = "Shamrock Spiffo",
 	ItemName_AuthenticZBackpacksPlus.SpiffoPlushieRainbow = "Rainbow Spiffo",
 	
-	ItemName_AuthenticZBackpacksPlus.Bag_DuffelBagGrey_Tier_1 = "Duffel Bag  - Tier 1",	
-	ItemName_AuthenticZBackpacksPlus.Bag_DuffelBagGrey_Tier_2 = "Duffel Bag  - Tier 2",
-	ItemName_AuthenticZBackpacksPlus.Bag_DuffelBagGrey_Tier_3 = "Duffel Bag  - Tier 3",
-	ItemName_AuthenticZBackpacksPlus.Bag_DuffelBagTINT_Tier_1 = "Duffel Bag  - Tier 1",	
-	ItemName_AuthenticZBackpacksPlus.Bag_DuffelBagTINT_Tier_2 = "Duffel Bag  - Tier 2",
-	ItemName_AuthenticZBackpacksPlus.Bag_DuffelBagTINT_Tier_3 = "Duffel Bag  - Tier 3",	
+	ItemName_AuthenticZBackpacksPlus.Bag_DuffelBagGrey_Tier_1 = "Duffel Bag - Tier 1",	
+	ItemName_AuthenticZBackpacksPlus.Bag_DuffelBagGrey_Tier_2 = "Duffel Bag - Tier 2",
+	ItemName_AuthenticZBackpacksPlus.Bag_DuffelBagGrey_Tier_3 = "Duffel Bag - Tier 3",
+	ItemName_AuthenticZBackpacksPlus.Bag_DuffelBagTINT_Tier_1 = "Duffel Bag - Tier 1",	
+	ItemName_AuthenticZBackpacksPlus.Bag_DuffelBagTINT_Tier_2 = "Duffel Bag - Tier 2",
+	ItemName_AuthenticZBackpacksPlus.Bag_DuffelBagTINT_Tier_3 = "Duffel Bag - Tier 3",	
 	ItemName_AuthenticZBackpacksPlus.Bag_ARVN_Rucksack_Tier_1 = "ARVN Rucksack - Tier 1",	
 	ItemName_AuthenticZBackpacksPlus.Bag_ARVN_Rucksack_Tier_2 = "ARVN Rucksack - Tier 2",
 	ItemName_AuthenticZBackpacksPlus.Bag_ARVN_Rucksack_Tier_3 = "ARVN Rucksack - Tier 3",
@@ -636,6 +636,10 @@ ItemName_EN = {
 	ItemName_AuthenticZBackpacksPlus.Bag_SpiffoBackpackAZ_Tier_2 = "Spiffo Backpack - Tier 2",	
 	ItemName_AuthenticZBackpacksPlus.Bag_SpiffoBackpackAZ_Tier_3 = "Spiffo Backpack - Tier 3",
 	
+	
+	ItemName_AuthenticZBackpacksPlus.Bag_Military_Tier_1 = "Military Duffel Bag - Tier 3",	
+	ItemName_AuthenticZBackpacksPlus.Bag_Military_Tier_2 = "Military Duffel Bag - Tier 3",	
+	ItemName_AuthenticZBackpacksPlus.Bag_Military_Tier_3 = "Military Duffel Bag - Tier 3",		
 
 
 	

@@ -1,0 +1,54 @@
+module AuthenticZClothing {
+  imports {
+      Base
+  }
+
+   item Chainsaw
+    {
+	    DisplayCategory = ToolWeapon,	
+        DisplayName	=	Chainsaw,	
+        Type	=	Weapon,
+        Categories	=	Axe,
+        SubCategory	=	Swinging,		
+        Icon	=	AshChainsaw,
+        WeaponSprite	=	Chainsaw,		
+        MaxRange	=	1.2,
+        MinAngle	=	0.72,
+        MinimumSwingTime	=	3,
+        SwingAmountBeforeImpact	=	0.02,
+        Weight	=	3,
+        ConditionLowerChanceOneIn	=	70,
+        PushBackMod	=	0.5,
+        ConditionMax	=	15,
+        MaxHitCount	=	1,
+        DoorDamage	=	8,
+        SwingAnim	=	Bat,
+        CriticalChance	=	35,
+        CritDmgMultiplier = 6,
+        MinRange	=	0.61,
+        SwingTime	=	3,
+        HitAngleMod	=	-30,
+        KnockdownMod	=	0,
+        TreeDamage  =   35,
+        MetalValue = 150,
+        CriticalChance	=	25,
+        CritDmgMultiplier = 3,
+        MinDamage	=	0.6,
+        MaxDamage	=	1.1,
+        BaseSpeed = 1,
+     	WeaponLength = 0.4,		
+        KnockBackOnNoDeath = TRUE,		
+		SplatBloodOnNoDeath	=	TRUE,
+        TwoHandWeapon = TRUE,
+		DamageMakeHole = TRUE,		
+        RunAnim	=	Run_Weapon2,
+        BreakSound  				= BreakMetalItem,
+        HitSound                    = BaseballBatHit,
+        HitFloorSound               = BaseballBatHit,
+        SwingSound                  = BaseballBatSwing,		
+		AttachmentType = BigBlade,
+		WorldStaticModel = WorldItem_Chainsaw,
+		Tags = ChopTree;CutPlant,		
+    } 
+	
+}		

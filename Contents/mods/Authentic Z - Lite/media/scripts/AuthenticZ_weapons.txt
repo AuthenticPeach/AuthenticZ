@@ -1669,7 +1669,7 @@ module AuthenticZLite {
         MinimumSwingTime	=	2,
         KnockBackOnNoDeath	=	FALSE,
         SwingAmountBeforeImpact	=	0.02,
-        ConditionLowerChanceOneIn	=	4,
+        ConditionLowerChanceOneIn	=	70,
         SplatNumber		=	1,
         PushBackMod		=	0.3,
         ConditionMax	=	30,
