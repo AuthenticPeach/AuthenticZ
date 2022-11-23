@@ -613,7 +613,7 @@ module AuthenticZClothing {
         BiteDefense = 20,
         Insulation = 0.7,
         WindResistance = 0.7,
-        FabricType = Denim,
+        FabricType = Leather,
         WaterResistance = 0.6,
         Weight = 2,
         WorldStaticModel = Jacket_Ground,		
