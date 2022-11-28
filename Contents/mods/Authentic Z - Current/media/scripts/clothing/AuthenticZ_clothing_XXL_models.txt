@@ -332,7 +332,23 @@ module AuthenticZClothing {
         FabricType = Cotton,
 		WorldStaticModel = TShirt_Ground,
 		Tooltip = Tooltip_Size2XL,		
-    }		
+    }
+    item Fat02_TShirtCoach
+    {
+        DisplayCategory = Clothing,		
+        Type = Clothing,
+        DisplayName = T-Shirt,
+        ClothingItem = Fat02_TShirtCoach,
+        ClothingItemExtra = AuthenticZClothing.Tshirt_Coach,
+        ClothingItemExtraOption = Tighten,		
+        BodyLocation = Jacket,
+        Icon = TshirtCoach,
+        Insulation = 0.3,
+        WindResistance = 0.35,
+        FabricType = Cotton,
+		WorldStaticModel = TShirt_Ground,
+		Tooltip = Tooltip_Size2XL,		
+    }	
     item Fat02_Vest_HighViz
     {
         DisplayCategory = Clothing,

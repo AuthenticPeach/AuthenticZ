@@ -319,19 +319,35 @@ module AuthenticZLite {
     }
     item Fat02_TShirtCheese
     {
-        DisplayCategory = Clothing,		
-        Type = Clothing,
-        DisplayName = T-Shirt,
-        ClothingItem = Fat02_TShirtCheese,
-        ClothingItemExtra = AuthenticZLite.Tshirt_CheeseRoyale,
+        DisplayCategory 		= Clothing,		
+        Type 					= Clothing,
+        DisplayName 			= T-Shirt,
+        ClothingItem 			= Fat02_TShirtCheese,
+        ClothingItemExtra 		= AuthenticZLite.Tshirt_CheeseRoyale,
         ClothingItemExtraOption = Tighten,		
-        BodyLocation = Jacket,
-        Icon = TShirt_RoyaleCheese,
-        Insulation = 0.3,
-        WindResistance = 0.35,
-        FabricType = Cotton,
-		WorldStaticModel = TShirt_Ground,
-		Tooltip = Tooltip_Size2XL,		
+        BodyLocation	 		= Jacket,
+        Icon 					= TShirt_RoyaleCheese,
+        Insulation 				= 0.3,
+        WindResistance			= 0.35,
+        FabricType 				= Cotton,
+		WorldStaticModel 		= TShirt_Ground,
+		Tooltip 				= Tooltip_Size2XL,		
+    }
+    item Fat02_TShirtCoach
+    {
+        DisplayCategory 		= Clothing,		
+        Type 		 			= Clothing,
+        DisplayName				= T-Shirt,
+        ClothingItem 			= Fat02_TShirtCoach,
+        ClothingItemExtra 		= AuthenticZLite.Tshirt_Coach,
+        ClothingItemExtraOption = Tighten,		
+        BodyLocation 			= Jacket,
+        Icon 					= TshirtCoach,
+        Insulation 				= 0.3,
+        WindResistance 			= 0.35,
+        FabricType 				= Cotton,
+		WorldStaticModel 		= TShirt_Ground,
+		Tooltip 				= Tooltip_Size2XL,		
     }		
     item Fat02_Vest_HighViz
     {

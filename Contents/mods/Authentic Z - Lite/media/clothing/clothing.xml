@@ -119,10 +119,13 @@
 	</m_MaleOutfits>	
 	
 <m_MaleOutfits> <m_Name>AuthenticAshEvilDead</m_Name>
-		<m_Guid>e00cb8c4-eb3e-47a1-8d8a-4d0cd378bcb7</m_Guid><!-- 27a4a77f-6be6-4fbf-85a1-ca97b6e38685 -->
+		<m_Guid>e00cb8c4-eb3e-47a1-8d8a-4d0cd378bcb7</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
-		<m_AllowTopTint>false</m_AllowTopTint>		
+		<m_AllowTopTint>false</m_AllowTopTint>	
+		<m_items> <!-- Bone Left Hand Mask -->
+			<itemGUID>5eab0171-d6d2-422e-b69a-3387f219652f</itemGUID>
+		</m_items>			
 		<m_items> <!-- Khaki Pants -->
 			<itemGUID>d6ea6cbe-bbba-480e-9f02-271faf87a803</itemGUID>
 		</m_items>
@@ -3604,7 +3607,7 @@
 			<itemGUID>a700a956-32c2-49a6-bd5f-5a2895073f19</itemGUID>
 		</m_items>
 		<m_items> <!-- Coach's T-Shirt -->
-			<itemGUID>46bb31d1-fef3-40b9-800b-3e9af6b4f73f</itemGUID>
+			<itemGUID>55e66b34-603c-446f-bce3-a826f7bbdd51</itemGUID>
 		</m_items>	
 		<m_items> <!-- Holster -->
 			<itemGUID>88f11c9e-e717-446c-82ec-f749320df25a</itemGUID>

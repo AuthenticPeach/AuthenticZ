@@ -6860,6 +6860,10 @@
 	<files>
 		<path>media/clothing/clothingItems/Fat02_TShirtCheese.xml</path>
 		<guid>ee3250f2-d790-48f8-86de-a134515c5899</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Fat02_TShirtCoach.xml</path>
+		<guid>55e66b34-603c-446f-bce3-a826f7bbdd51</guid>
 	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Fat02_SportShorts.xml</path>
