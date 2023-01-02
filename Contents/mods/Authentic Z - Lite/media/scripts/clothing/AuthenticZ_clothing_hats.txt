@@ -30,6 +30,21 @@ module AuthenticZLite {
         Weight = 0.5,
 		WorldStaticModel = WorldItem_BunnyEarsBlack,	
     } 
+ 	item CatEarsAZ
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Cat Ears,
+		ClothingItem = CatEarsAZ,
+		BodyLocation = Hat,
+		IconsForTexture = CatEars_Pink;CatEars_White,
+		ChanceToFall = 80,
+       	BloodLocation = Head,
+        Insulation = 0.15,
+        WindResistance = 0.1,
+        Weight = 0.5,
+		WorldStaticModel = WorldItem_CatEars,	
+    } 	
 	item CigarAZ
 	{
 	    DisplayCategory = Accessory,
@@ -41,6 +56,19 @@ module AuthenticZLite {
 		ChanceToFall = 40,
         Weight = 0.1,
 		WorldStaticModel = WorldItem_CigarAZ,
+    }
+	item Hat_Antlers_AZ
+	{
+	    DisplayCategory = Accessory,	
+		Type = Clothing,
+		DisplayName = Reindeer Antlers,
+		ClothingItem = Hat_Antlers_AZ,
+		BodyLocation = Hat,
+		Icon = ReindeerAntlers,
+		CanHaveHoles = false,
+		ChanceToFall = 30,
+       	BloodLocation = Head,
+		WorldStaticModel =  WorldItem-ReindeerAntlers,			
     } 	
 	item Hat_AuthenticCrashHelmetFULLDecalBobaFett
 	{
@@ -1383,6 +1411,36 @@ module AuthenticZLite {
         Weight 			 = 0.5,
 		WorldStaticModel = WorldItem-DuelCap,
     }
+	item Hat_SantaHatBluePattern
+    {
+	    DisplayCategory = Accessory,	
+		Type = Clothing,
+		DisplayName = Blue Festive Santa Hat,
+		ClothingItem = Hat_SantaHAtBluePattern,
+		BodyLocation = Hat,
+		Icon = HatSantaBlue,
+		CanHaveHoles = false,
+		ChanceToFall = 80,
+        BloodLocation = Head,
+        Insulation = 0.80,
+        WindResistance = 0.25,
+        Weight = 0.5,		
+    }	
+	item Hat_SantaHatWhite
+    {
+	    DisplayCategory = Accessory,	
+		Type = Clothing,
+		DisplayName = White Santa Hat,
+		ClothingItem = Hat_SantaHatWhite,
+		BodyLocation = Hat,
+		Icon = HatSantaWhite,
+		CanHaveHoles = false,
+		ChanceToFall = 80,
+        BloodLocation = Head,
+        Insulation = 0.80,
+        WindResistance = 0.25,
+        Weight = 0.5,		
+    }		
 	item Hat_StormtrooperHelmetAZ
 	{
 	    DisplayCategory = Accessory,	

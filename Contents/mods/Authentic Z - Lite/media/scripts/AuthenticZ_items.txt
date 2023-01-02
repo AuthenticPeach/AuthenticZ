@@ -4,33 +4,33 @@ module AuthenticZLite {
   }
 	item PZAZ_HitList
 	{
-        DisplayCategory = Cartography,	
-        Weight			=	0.05,
-        Type			=	Map,
-        DisplayName		=	Zombie Hit-list #1,
-		Map 			= PZAZ_hitlist1,
-        Icon			=	PZAZ_hitlist,
-		WorldStaticModel = Hit-list1Map,
+        DisplayCategory  = 	Cartography,	
+        Weight			 =	0.05,
+        Type			 =	Map,
+        DisplayName		 =	Zombie Hit-list #1,
+		Map 			 = 	PZAZ_hitlist1,
+        Icon			 =	PZAZ_hitlist,
+		WorldStaticModel = 	Hit-list1Map,
 	}
 	item PZAZ_HitList2
 	{
-        DisplayCategory = Cartography,	
-        Weight			=	0.05,
-        Type			=	Map,
-        DisplayName		=	Zombie Hit-list #2,
-		Map 			= PZAZ_hitlist2,
-        Icon			=	PZAZ_hitlist,
-		WorldStaticModel = Hit-list2Map,
+        DisplayCategory  = 	Cartography,	
+        Weight			 =	0.05,
+        Type			 =	Map,
+        DisplayName		 =	Zombie Hit-list #2,
+		Map 			 = 	PZAZ_hitlist2,
+        Icon			 =	PZAZ_hitlist,
+		WorldStaticModel = 	Hit-list2Map,
 	}
 	item PZAZ_HitList3
 	{
-        DisplayCategory = Cartography,	
-        Weight			=	0.05,
-        Type			=	Map,
-        DisplayName		=	Zombie Hit-list #3,
-		Map 			= PZAZ_hitlist3,
-        Icon			=	PZAZ_hitlist,
-		WorldStaticModel = Hit-list3Map,
+        DisplayCategory  = 	Cartography,	
+        Weight			 =	0.05,
+        Type			 =	Map,
+        DisplayName		 =	Zombie Hit-list #3,
+		Map 			 = 	PZAZ_hitlist3,
+        Icon			 =	PZAZ_hitlist,
+		WorldStaticModel = 	Hit-list3Map,
 	}
 	item PZAZ_SealedMedkit
 	{
@@ -158,6 +158,18 @@ module AuthenticZLite {
 		WorldStaticModel 		= 	SpiffoPlushieRainbow,
         AttachmentType  		= 	SpiffoPlushie,
 		StaticModel 			= 	SpiffoPlushieRainbow,		
+	}	
+
+    item SpiffoSanta
+	{	
+        DisplayCategory 		= 	Raccoon,		
+		Weight					=	0.2,
+		Type					=	Normal,
+		DisplayName				=	Santa Spiffo,
+		Icon					=	SantaSpiffo,
+		WorldStaticModel 		= 	SpiffoPlushieSanta,
+        AttachmentType  		= 	SpiffoPlushie,
+		StaticModel 			= 	SpiffoPlushieSanta,		
 	}	
 	
     item Doll

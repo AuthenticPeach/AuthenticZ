@@ -413,5 +413,15 @@ module AuthenticZClothing {
         ClothingItem = AZ_BeardStyle10,
         BodyLocation = Necklace_Long,
         Icon = Wig,
-    }	
+    }
+    item Beard_Long_Santa
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+		DisplayName = Santa's Beard,  				
+        ClothingItem = Beard_Long_Santa,
+        BodyLocation = Necklace_Long,
+        Icon = SantaBeard,
+		WorldStaticModel = WorldItem-SantaBeard,			
+    }		
 }

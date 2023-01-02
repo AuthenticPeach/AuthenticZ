@@ -111,9 +111,9 @@ module Base
 
 		attachment Cherry_Leg_R
 		{
-			offset = 0.1160 0.1230 -0.0230,
-			rotate = -2.0000 0.0000 -89.0000,
-			bone = Bip01_L_Thigh,
+			offset = 0.1090 0.0000 -0.0240,
+			rotate = -12.0000 1.0000 -89.0000,
+			bone = Bip01_R_Thigh,
 		}
 
 		attachment Webbing_Rope_Left_AZ

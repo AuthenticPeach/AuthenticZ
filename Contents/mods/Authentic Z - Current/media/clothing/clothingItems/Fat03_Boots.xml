@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\CustomBodies\FatBody03_M\FatBod_M_03_Shoes</m_MaleModel>
+	<m_FemaleModel>skinned\CustomBodies\FatBody03_M\FatBod_M_03_Shoes</m_FemaleModel>
+	<m_GUID>f9d043b5-4be8-4313-897f-d4cbd7e09ff8</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_Masks>8</m_Masks>
+	<m_Masks>10</m_Masks>
+	<textureChoices>clothes\Shoes_Socks_Textres\BikerBoots</textureChoices>
+</clothingItem>

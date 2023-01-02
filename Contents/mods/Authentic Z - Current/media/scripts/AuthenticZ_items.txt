@@ -172,6 +172,18 @@ module AuthenticZClothing {
         AttachmentType  		= 	SpiffoPlushie,
 		StaticModel 			= 	SpiffoPlushieRainbow,		
 	}	
+
+    item SpiffoSanta
+	{	
+        DisplayCategory 		= 	Raccoon,		
+		Weight					=	0.2,
+		Type					=	Normal,
+		DisplayName				=	Santa Spiffo,
+		Icon					=	SantaSpiffo,
+		WorldStaticModel 		= 	SpiffoPlushieSanta,
+        AttachmentType  		= 	SpiffoPlushie,
+		StaticModel 			= 	SpiffoPlushieSanta,		
+	}
 	
     item Doll
     {

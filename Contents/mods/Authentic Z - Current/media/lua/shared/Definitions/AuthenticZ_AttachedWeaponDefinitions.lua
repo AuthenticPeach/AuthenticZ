@@ -1366,7 +1366,7 @@ AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticAndyDotD = {
 	},
 }
 AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticAshEvilDead = {
-	chance = 50;
+	chance = 80;
 	maxitem = 3;
 	weapons = {
 		AttachedWeaponDefinitions.chainsawAsh,

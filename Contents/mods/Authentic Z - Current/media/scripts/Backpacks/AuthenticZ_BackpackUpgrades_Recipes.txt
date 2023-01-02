@@ -880,6 +880,72 @@ module AuthenticZClothing{
         ReplaceInSecondHand 	= 	Bag_DuffelBag_LHandMilitary holdingbagleft,
         ReplaceInPrimaryHand 	= 	Bag_DuffelBag_RHandMilitary holdingbagright,
         WorldStaticModel 		= 	DuffelBag_Ground,
+    }
+    item Bag_DuffelBag_Festive_Tier_1 /* Festive Duffels*/
+    {
+        DisplayCategory 		= 	Bag,
+        Type 					= 	Container,
+        DisplayName 			= 	Festive Duffel Bag - Tier 1,	
+        ClothingItem 			= 	Bag_DuffelBag_Festive_Tier_1,
+        Icon					=	Duffelbag_Festive,			
+        WeightReduction			=	65,
+        Weight					=	1,		
+		Capacity				=	19,				
+        CanBeEquipped 			= 	Back,
+        OpenSound   			=   OpenBag,
+        CloseSound   			=   CloseBag,
+        PutInSound   			=   PutItemInBag,
+        RunSpeedModifier 		= 	0.95,
+        CanHaveHoles 			= 	false,       
+		AttachmentReplacement	= 	Bag,
+		AttachmentsProvided  	= 	DufflebagSecondary;DufflebagBottleRight;DufflebagBalloonLeft,
+        ReplaceInSecondHand 	= 	Bag_DuffelBag_Festive_LHand holdingbagleft,
+        ReplaceInPrimaryHand 	= 	Bag_DuffelBag_Festive_RHand holdingbagright,
+        WorldStaticModel 		= 	DuffelBag_Ground,
+    }	
+    item Bag_DuffelBag_Festive_Tier_2 /* Festive Duffels*/
+    {
+		DisplayCategory 		= 	Bag,
+        Type 					= 	Container,
+        DisplayName 			= 	Festive Duffel Bag - Tier 2,	
+        ClothingItem 			= 	Bag_DuffelBag_Festive_Tier_2,
+        Icon					=	Duffelbag_Festive,			
+        WeightReduction			=	65,
+        Weight					=	1,		
+		Capacity				=	20,				
+        CanBeEquipped 			= 	Back,
+        OpenSound   			=   OpenBag,
+        CloseSound   			=   CloseBag,
+        PutInSound   			=   PutItemInBag,
+        RunSpeedModifier 		= 	0.95,
+        CanHaveHoles 			= 	false,       
+		AttachmentReplacement	= 	Bag,
+		AttachmentsProvided  	= 	SchoolbagBagSecondary;DufflebagItemSlot1;DufflebagBottleRight;DufflebagPlushie;SchoolbagUmbrellaLeft;DufflebagBalloonLeft,						
+        ReplaceInSecondHand 	= 	Bag_DuffelBag_Festive_LHand holdingbagleft,
+        ReplaceInPrimaryHand 	= 	Bag_DuffelBag_Festive_RHand holdingbagright,
+        WorldStaticModel 		= 	DuffelBag_Ground,
+    }
+    item Bag_DuffelBag_Festive_Tier_3 /* Festive Duffels*/
+    {
+		DisplayCategory 		= 	Bag,
+        Type 					= 	Container,
+        DisplayName 			= 	Festive Duffel Bag - Tier 3,	
+        ClothingItem 			= 	Bag_DuffelBag_Festive_Tier_3,
+        Icon					=	Duffelbag_Festive,			
+        WeightReduction			=	65,
+        Weight					=	1,		
+		Capacity				=	21,				
+        CanBeEquipped 			= 	Back,
+        OpenSound   			=   OpenBag,
+        CloseSound   			=   CloseBag,
+        PutInSound   			=   PutItemInBag,
+        RunSpeedModifier 		= 	0.95,
+        CanHaveHoles 			= 	false,       
+		AttachmentReplacement	= 	Bag,
+		AttachmentsProvided  	= 	SchoolbagBagSecondary;DufflebagItemSlot1;DufflebagBottleRight;DufflebagPlushie;SchoolbagUmbrellaLeft;DufflebagBalloonLeft,						
+        ReplaceInSecondHand 	= 	Bag_DuffelBag_Festive_LHand holdingbagleft,
+        ReplaceInPrimaryHand 	= 	Bag_DuffelBag_Festive_RHand holdingbagright,
+        WorldStaticModel 		= 	DuffelBag_Ground,
     }		
     item Bag_RoadsideDuffel_Tier_1
     {
@@ -1288,6 +1354,75 @@ module AuthenticZClothing{
         ReplaceInPrimaryHand 	= 	Bag_ALICEpack_Army_RHand holdingbagright,
         WorldStaticModel 		= 	ALICE_Pack_Ground,
     }
+
+    item Bag_ALICEpack_Festive_Tier_1
+    {
+        DisplayCategory = Bag,		
+        Type 					= 	Container,
+        DisplayName 			= 	Large Backpack - Tier 1,
+        ClothingItem 			= 	Bag_ALICEpack_Festive_Tier_1,
+        CanBeEquipped 			= 	Back,
+        WeightReduction			=	85,
+        Weight					=	2,
+        Capacity				=	28,
+        Icon					=	AliceBag_Festive,
+        OpenSound   			=   OpenBag,
+        CloseSound   			=   CloseBag,
+        PutInSound   			=   PutItemInBag,
+        BloodLocation 			= 	Bag,
+        RunSpeedModifier 		= 	0.94,
+        AttachmentReplacement 	= 	Bag,
+		AttachmentsProvided  	= 	AlicepackSecondary;AlicepackItemSlot1;AlicepackItemSlot2;AlicepackBottleRight;SchoolbagBalloonRight,			
+        ReplaceInSecondHand 	= 	Bag_ALICEpack_Festive_LHand holdingbagleft,
+        ReplaceInPrimaryHand 	= 	Bag_ALICEpack_Festive_RHand holdingbagright,
+        WorldStaticModel 		= 	ALICE_Pack_Ground,
+    }
+	
+    item Bag_ALICEpack_Festive_Tier_2
+    {
+        DisplayCategory = Bag,	
+        Type 					= 	Container,
+        DisplayName 			= 	Large Backpack - Tier 2,
+        ClothingItem 			= 	Bag_ALICEpack_Festive_Tier_2,
+        CanBeEquipped 			= 	Back,
+        WeightReduction			=	85,
+        Weight					=	2,
+        Capacity				=	29,
+        Icon					=	AliceBag_Festive,
+        OpenSound   			=   OpenBag,
+        CloseSound   			=   CloseBag,
+        PutInSound   			=   PutItemInBag,
+        BloodLocation 			= 	Bag,
+        RunSpeedModifier 		= 	0.94,
+        AttachmentReplacement 	= 	Bag,
+		AttachmentsProvided  	= 	AlicepackSecondary;AlicepackItemSlot1;AlicepackItemSlot2;AlicepackItemSlot3;AlicepackBottleRight;AlicepackPlushie;AlicepackUmbrellaRight;SchoolbagBalloonRight,				
+        ReplaceInSecondHand 	= 	Bag_ALICEpack_Festive_LHand holdingbagleft,
+        ReplaceInPrimaryHand 	= 	Bag_ALICEpack_Festive_RHand holdingbagright,
+        WorldStaticModel 		= 	ALICE_Pack_Ground,
+    }	
+ 
+    item Bag_ALICEpack_Festive_Tier_3
+    {
+        DisplayCategory = Bag,		
+        Type 					= 	Container,
+        DisplayName 			= 	Festive Large Backpack - Tier 3,
+        ClothingItem 			= 	Bag_ALICEpack_Festive_Tier_3,
+        CanBeEquipped 			= 	Back,
+        WeightReduction			=	85,
+        Weight					=	2,
+        Capacity				=	30,
+        Icon					=	AliceBag_Festive,
+        OpenSound  				=   OpenBag,
+        CloseSound   			=   CloseBag,
+        PutInSound   			=   PutItemInBag,
+        BloodLocation			= 	Bag,
+        RunSpeedModifier 		= 	0.94,
+        AttachmentReplacement 	= 	Bag,
+		AttachmentsProvided  	= 	AlicepackSecondary;AlicepackItemSlot1;AlicepackItemSlot2;AlicepackItemSlot3;AlicepackItemSlot4;AlicepackItemSlot5;AlicepackBottleRight;AlicepackBottleLeft;AlicepackPlushie;AlicepackUmbrellaRight;AlicepackFlashlight;SchoolbagBalloonRight,					
+        ReplaceInSecondHand 	= 	Bag_ALICEpack_Festive_LHand holdingbagleft,
+        ReplaceInPrimaryHand 	= 	Bag_ALICEpack_Festive_RHand holdingbagright,
+        WorldStaticModel 		= 	ALICE_Pack_Ground,
+    }
 	
 recipe Upgrade School Bag
   	{
@@ -1546,6 +1681,59 @@ recipe Upgrade Duffelbag /* Military Dufflebag*/
 
 	   OnCreate:PleaseKeepColor,
    	   Result:Bag_Military_Tier_3,
+       OnGiveXP:Give20TailoringXP,	   
+	   Time:300.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=2,
+	   Category:Tailoring,
+	   Tooltip:Tooltip_AttachBackpackTier3,
+  	}
+
+recipe Upgrade Duffelbag /* Festive Dufflebag*/
+  	{
+	   Bag_DuffelBag_Festive,
+	   keep Scissors,
+       keep Needle/SutureNeedle,
+       Thread=3,
+	   DenimStrips/LeatherStrips=3,	    
+
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_DuffelBag_Festive_Tier_1,
+       OnGiveXP:Give20TailoringXP,		   
+	   Time:300.0,
+       AnimNode:Disassemble,   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_AttachBackpackTier1,
+  	}
+		
+recipe Upgrade Duffelbag /* Festive Dufflebag*/
+  	{
+	   Bag_DuffelBag_Festive_Tier_1,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=3,
+	   DenimStrips/LeatherStrips=3,	 
+
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_DuffelBag_Festive_Tier_2,
+       OnGiveXP:Give20TailoringXP,	   
+	   Time:300.0,
+       AnimNode:Disassemble,	  
+	   SkillRequired:Tailoring=1,
+	   Category:Tailoring,
+	   Tooltip:Tooltip_AttachBackpackTier2,
+  	}	
+
+recipe Upgrade Duffelbag /* Festive Dufflebag*/
+  	{
+	   Bag_DuffelBag_Festive_Tier_2,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=3,
+	   DenimStrips/LeatherStrips=3,	 
+
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_DuffelBag_Festive_Tier_3,
        OnGiveXP:Give20TailoringXP,	   
 	   Time:300.0,
        AnimNode:Disassemble,	   
@@ -1915,6 +2103,58 @@ recipe Upgrade Urban Camo Alicepack
 
 	   OnCreate:PleaseKeepColor,
    	   Result:Bag_ALICEpack_UrbanCamo_Tier_3,
+       OnGiveXP:Give20TailoringXP,	   
+	   Time:300.0,
+       AnimNode:Disassemble,
+	   SkillRequired:Tailoring=2,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_AttachAliceBackpackTier3, 
+  	}	
+
+recipe Upgrade Festive Alicepack
+  	{
+	   Bag_ALICEpack_Festive,
+		keep Scissors,
+       keep Needle/SutureNeedle,
+       Thread=3,
+	   DenimStrips/LeatherStrips=3,	 
+
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_ALICEpack_Festive_Tier_1,
+       OnGiveXP:Give20TailoringXP,	   
+	   Time:300.0,
+       AnimNode:Disassemble,
+	   Category:Tailoring,
+	   Tooltip:Tooltip_AttachAliceBackpackTier1,
+  	}
+recipe Upgrade Festive Alicepack
+  	{
+	   Bag_ALICEpack_Festive_Tier_1,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=3,
+	   DenimStrips/LeatherStrips=3,	 
+
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_ALICEpack_Festive_Tier_2,
+       OnGiveXP:Give20TailoringXP,	   
+	   Time:300.0,
+       AnimNode:Disassemble,
+	   SkillRequired:Tailoring=1,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_AttachAliceBackpackTier2,
+  	}	
+
+recipe Upgrade Festive Alicepack
+  	{
+	   Bag_ALICEpack_Festive_Tier_2,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=3,
+	   DenimStrips/LeatherStrips=3,	 
+
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_ALICEpack_Festive_Tier_3,
        OnGiveXP:Give20TailoringXP,	   
 	   Time:300.0,
        AnimNode:Disassemble,
@@ -2713,7 +2953,8 @@ recipe Upgrade Hoffmans Backpack
         BloodLocation 			= 	Bag,
         RunSpeedModifier 		= 	0.96,
         AttachmentReplacement 	= 	Bag,
-		AttachmentsProvided  	= 	SchoolbagBagSecondary;SchoolbagItemSlot2;SchoolbagItemSlot3;SchoolbagBottleRight;SchoolbagPlushie;SchoolbagUmbrellaLeft;SchoolbagFlashlight;SchoolbagBalloonRight,	        ReplaceInSecondHand 	= 	Bag_B4BEvangelo_LHand holdingbagleft,
+		AttachmentsProvided  	= 	SchoolbagBagSecondary;SchoolbagItemSlot2;SchoolbagItemSlot3;SchoolbagBottleRight;SchoolbagPlushie;SchoolbagUmbrellaLeft;SchoolbagFlashlight;SchoolbagBalloonRight,
+		ReplaceInSecondHand 	= 	Bag_B4BEvangelo_LHand holdingbagleft,
         ReplaceInPrimaryHand	=	Bag_B4BEvangelo_RHand holdingbagright,
         WorldStaticModel 		= 	WorldItem_BackpackEvangelo,
     }	

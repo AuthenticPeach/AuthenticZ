@@ -1004,7 +1004,7 @@ ItemName_EN = {
 	ItemName_AuthenticZLite.Vest_Portal_Tanktop = "Blue and White Tank Top",	
 	ItemName_AuthenticZLite.Winslow_Spikes = "Impaled Spikes",	
 	
-	/* New */
+	/* 8-18-22 */
 	ItemName_AuthenticZLite.Arm_LeftBone = "Arm Bone (L)",
 	ItemName_AuthenticZLite.Arm_LeftHandBone = "Hand Bone (L)",
 	ItemName_AuthenticZLite.Bone_Arm_R = "Arm Bone (R)",
@@ -1020,4 +1020,29 @@ ItemName_EN = {
 	ItemName_AuthenticZLite.Bone_Skin_UpperArm_R = "Upper Arm R (Dismembered)",
 	ItemName_AuthenticZLite.Bone_Skin_UpperArm_L = "Upper Arm L (Dismembered)",
 	ItemName_AuthenticZLite.SkeletonBody = "Skele Body",	
+	
+	/* New */	
+	ItemName_AuthenticZLite.Bag_ALICEpack_Festive = "Festive Alice Pack",	
+	ItemName_AuthenticZLite.Bag_DuffelBag_Festive = "Festive Duffel Bag",		
+	ItemName_AuthenticZLite.Hat_SantaHatWhite = "White Santa Hat",	
+	ItemName_AuthenticZLite.Hat_SantaHatBluePattern = "Blue Festive Santa Hat",	
+    ItemName_AuthenticZLite.Hat_Antlers_AZ = "Reindeer Antlers",	
+	ItemName_AuthenticZLite.Trousers_SantaBluePattern = Blue Festive Santa Suit Pants",	
+	ItemName_AuthenticZLite.Trousers_SantaWhite = "White Santa Suit Pants",	
+	ItemName_AuthenticZLite.JacketLong_SantaWhite = "White Santa Suit Jacket",	
+	ItemName_AuthenticZLite.JacketLong_SantaBluePattern = "Blue Festive Santa Suit Jacket",	
+
+    ItemName_AuthenticZLite.HairBow = "Hair Bow",
+    ItemName_AuthenticZLite.HairBow_UP = "Hair Bow",
+    ItemName_AuthenticZLite.HairBow_SideLeft = "Hair Bow",
+    ItemName_AuthenticZLite.HairBow_SideRight = "Hair Bow",
+    ItemName_AuthenticZLite.HairBowTINT = "Hair Bow",
+    ItemName_AuthenticZLite.HairBowTINT_UP = "Hair Bow",
+    ItemName_AuthenticZLite.HairBowTINT_SideLeft = "Hair Bow",
+    ItemName_AuthenticZLite.HairBowTINT_SideRight = "Hair Bow",
+	
+    ItemName_AuthenticZLite.Authentic_Headphones3 = "Cat Ear Headphones",
+    ItemName_AuthenticZLite.Authentic_HeadphonesNeck3 = "Cat Ear Headphones",
+    ItemName_AuthenticZLite.CatEarsAZ = "Cat Ears",	
+	
 }

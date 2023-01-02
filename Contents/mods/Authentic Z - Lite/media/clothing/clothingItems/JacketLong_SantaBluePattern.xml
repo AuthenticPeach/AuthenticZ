@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\clothes\bob_jacketlong</m_MaleModel>
+	<m_FemaleModel>skinned\clothes\kate_jacketlong</m_FemaleModel>
+	<m_GUID>c1f9d11b-4842-4e7f-bab8-9cc36f714038</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_Masks>13</m_Masks>
+	<m_Masks>14</m_Masks>
+	<m_Masks>15</m_Masks>
+	<m_Masks>3</m_Masks>
+	<m_Masks>5</m_Masks>
+	<m_UnderlayMasksFolder>media/textures/Clothes/JacketLong/Masks</m_UnderlayMasksFolder>
+	<textureChoices>clothes\jacketlong\JacketLong_SantaBluePattern</textureChoices>
+</clothingItem>

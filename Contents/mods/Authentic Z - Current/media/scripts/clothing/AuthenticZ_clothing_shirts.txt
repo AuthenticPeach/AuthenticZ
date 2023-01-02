@@ -2,6 +2,19 @@
   imports {
       Base
   }
+     item Corset_Jill
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Blue Corset,
+        ClothingItem = Corset_Blue,
+        BodyLocation = TorsoExtra,
+		BloodLocation = ShirtNoSleeves,
+        Icon = CorsetBlue,
+        Weight = 0.2,
+        CanHaveHoles = false,
+        WorldStaticModel = Corset_Red_Ground,
+    } 
 	item Shirt_Bill_Murray
     {
         DisplayCategory = Clothing,		

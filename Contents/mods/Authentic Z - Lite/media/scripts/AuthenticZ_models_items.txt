@@ -706,6 +706,11 @@ module Base
         texture = clothes\Items\SpiffoPlushieRainbow,		
         scale = 0.4,
     }
+	model SpiffoPlushieSanta
+    {
+        mesh =  WorldItems/WorldItem_SpiffoSanta,
+        texture = clothes\Items\Snowglobe-1,		
+    }		
 	model WeaponSpritePipeBombSensor
     {
 		mesh = Weapons/1Handed/WSPipeBombSensor,
@@ -1097,6 +1102,10 @@ module Base
     {
 		mesh = WorldItems/WorldItem_DressDimitrescu,
 		texture = clothes\dress_textures\LadyDimitrescuDress,		
+    }
+	model WorldItem_CatEars
+    {
+		mesh = WorldItems/WorldItem_CatEars,
     }	
 	model WorldItem-DuelCap
     {
@@ -1131,6 +1140,10 @@ module Base
 		mesh = WorldItems/WorldItem_Gibus,
 		texture = clothes\Hats\Gibus,		
 	}
+	model WorldItem_HairBow
+    {
+		mesh =  WorldItems/WorldItem_HairBow,
+    }		
 	model WorldItem_FlamingoPlushie
 	{
 		mesh = WorldItems/WorldItem_FlamingoPlushie,
@@ -1349,6 +1362,10 @@ module Base
 		mesh = WorldItems/HeadPhones,
 		scale = 0.4,
 	}
+	model WorldItem_HeadPhonesEars
+	{
+		mesh = WorldItems/WorldItem_HeadphonesEars,
+	}	
 	model WorldItem-InflatableTube 
     {
 		mesh = WorldItems/WorldItem_InflatableTube,

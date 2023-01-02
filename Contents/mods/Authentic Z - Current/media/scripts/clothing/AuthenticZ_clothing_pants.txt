@@ -768,7 +768,37 @@ module AuthenticZClothing {
         WaterResistance = 0.45,
         FabricType = Denim,
         WorldStaticModel = Trousers_Ground,
-    }	
+    }
+	item Trousers_SantaBluePattern
+    {
+        DisplayCategory = Clothing,		
+        Type = Clothing,
+        DisplayName = Blue Festive Santa Suit Pants,
+        ClothingItem = Trousers_SantaBluePattern,
+        BodyLocation = Pants,
+        Icon = TrousersSantaBlue,
+        BloodLocation = Trousers,
+        ScratchDefense = 10,
+        Insulation = 0.9,
+        WindResistance = 0.6,
+        FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,			
+    }
+	item Trousers_SantaWhite
+    {
+        DisplayCategory = Clothing,	
+        Type = Clothing,
+        DisplayName = White Santa Suit Pants,
+        ClothingItem = Trousers_SantaWhite,
+        BodyLocation = Pants,
+        Icon = TrousersSantaWhite,
+        BloodLocation = Trousers,
+        ScratchDefense = 10,
+        Insulation = 0.9,
+        WindResistance = 0.6,
+        FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,		
+    }		
     item Trousers_Sport
     {
        DisplayCategory = Clothing,		

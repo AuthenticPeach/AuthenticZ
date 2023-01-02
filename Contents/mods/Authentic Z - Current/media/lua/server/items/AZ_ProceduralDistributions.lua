@@ -3,8 +3,8 @@ require 'Items/ProceduralDistributions'
 local function preDistributionMerge()
     ProceduralDistributions.list.CostumeStoreHatsAZ = {
         rolls = 2,
-        items = {
---Hats		
+        items = { --Hats
+		
             "AuthenticZClothing.AuthenticGlowstick_Pack", 5,	
             "AuthenticZClothing.AuthenticHairHeadband", 5,
             "AuthenticZClothing.Hat_BaseballCapClementine", 5,
@@ -20,6 +20,7 @@ local function preDistributionMerge()
             "Hat_Bandana", 5,
             "Hat_BandanaTINT", 5,
             "AuthenticZClothing.BunnyEars", 5,
+            "AuthenticZClothing.CatEarsAZ", 5,
             "Hat_Antlers", 5,
             "Hat_BunnyEarsBlack", 5,
             "Hat_BunnyEarsWhite", 5,
@@ -64,9 +65,9 @@ local function preDistributionMerge()
             "AuthenticZClothing.RaveMask", 5,
             "AuthenticZClothing.AZ_HairStyle34", 5,			
         },			
-        junk = {
+        junk = { --Hats Junk
             rolls = 1,
-            items = {
+            items = { 
             "Hat_PartyHat_TINT", 5,
             "Hat_PartyHat_Stars", 5,
             "AuthenticZClothing.AuthenticBalloon_Purple", 1,    
@@ -80,9 +81,9 @@ local function preDistributionMerge()
     }
 	
     ProceduralDistributions.list.CostumeStoreClothingAZ = {
-        rolls = 2,
-        items = {
---Clothing	
+        rolls = 2, 
+        items = { --Clothing	
+
             "AuthenticZClothing.AuthenticGlowstick_Pack", 5,					
             "AuthenticZClothing.Apron_GreenSeaHorse", 5,
             "AuthenticZClothing.Apron_Short", 5,
@@ -160,7 +161,7 @@ local function preDistributionMerge()
             "AuthenticZClothing.WeddingDressPink", 5,
 			
         },
-        junk = {
+        junk = { --CostumeStoreClothingA Junk
             rolls = 1,
             items = {
             "AuthenticZClothing.AuthenticBalloon_Purple", 1,    
@@ -228,6 +229,7 @@ local function preDistributionMerge()
 --Misc					
             "AuthenticZClothing.BunnyTail", 5,			
             "AuthenticZClothing.CameraDSLR", 5,
+            "AuthenticZClothing.CatEarsAZ", 5,
             "AuthenticZClothing.ClownNose", 5,
             "AuthenticZClothing.ClownTop", 5,
             "AuthenticZClothing.HawaiianLei", 5,			
@@ -235,6 +237,7 @@ local function preDistributionMerge()
             "Gloves_FingerlessGloves", 5,		
             "Gloves_Surgical", 5,		
             "AuthenticZClothing.Authentic_Headphones2", 8,
+            "AuthenticZClothing.Authentic_Headphones3", 8,
             "AuthenticZClothing.CigarAZ", 8,
             "AuthenticZClothing.Gloves_FreddyKreuger", 5,
             "AuthenticZClothing.Hairstyle_Afro_Pick", 1,
@@ -263,6 +266,8 @@ local function preDistributionMerge()
 --Backpacks					
             "AuthenticZClothing.Bag_ProtonPack_Back", 5,
             "AuthenticZClothing.Bag_L4DeadMedkit", 5,
+            "AuthenticZClothing.Bag_ALICEpack_Festive", 5,
+            "AuthenticZClothing.Bag_DuffelBag_Festive", 5,
 --Skins		
             "AuthenticZClothing.BlueZskin_F1", 5,
             "AuthenticZClothing.BlueZskin_F2", 5,
@@ -283,6 +288,7 @@ local function preDistributionMerge()
             "Marshmallows", 2,			
             "Modjeska", 3,
             "AuthenticZClothing.Authentic_Headphones2", 3, 			
+            "AuthenticZClothing.Authentic_Headphones3", 3, 			
             "AuthenticZClothing.AuthenticBalloon_Purple", 1,    
             "AuthenticZClothing.AuthenticBalloon_Red", 1,    
             "AuthenticZClothing.AuthenticBalloon_White", 1,    
@@ -326,6 +332,7 @@ local function preDistributionMerge()
             "Gloves_FingerlessGloves", 5,		
             "Gloves_Surgical", 5,		
             "AuthenticZClothing.Authentic_Headphones2", 5,
+            "AuthenticZClothing.Authentic_Headphones3", 5,
             "AuthenticZClothing.Gloves_FreddyKreuger", 5,
             "AuthenticZClothing.Hairstyle_Afro_Pick", 5,
             "AuthenticZClothing.Hairstyle_HairCurlers", 5,			
@@ -374,6 +381,9 @@ local function preDistributionMerge()
             "AuthenticZClothing.Hat_PyromancerSkull", 5,
             "AuthenticZClothing.Hat_StormtrooperHelmetAZ", 5,
             "AuthenticZClothing.Hat_StormtrooperHelmetSparklesAZ", 5,
+			
+            "AuthenticZClothing.Bag_ALICEpack_Festive", 5,
+            "AuthenticZClothing.Bag_DuffelBag_Festive", 5,			
 
             "Hat_Bandana", 5,
             "Hat_BandanaTINT", 5,			
@@ -525,7 +535,9 @@ local function preDistributionMerge()
             "AuthenticZClothing.WeddingDressPink", 5,
 --Backpacks					
             "AuthenticZClothing.Bag_ProtonPack_Back", 5,
-            "AuthenticZClothing.Bag_L4DeadMedkit", 5,			
+            "AuthenticZClothing.Bag_L4DeadMedkit", 5,		
+            "AuthenticZClothing.Bag_ALICEpack_Festive", 5,
+            "AuthenticZClothing.Bag_DuffelBag_Festive", 5,			
         },			
         junk = {
             rolls = 3,

@@ -706,6 +706,11 @@ module Base
         texture = clothes\Items\SpiffoPlushieRainbow,		
         scale = 0.4,
     }
+	model SpiffoPlushieSanta
+    {
+        mesh =  WorldItems/WorldItem_SpiffoSanta,
+        texture = clothes\Items\Snowglobe-1,		
+    }	
 	model WeaponSpritePipeBombSensor
     {
 		mesh = Weapons/1Handed/WSPipeBombSensor,
@@ -1068,6 +1073,10 @@ module Base
 		mesh = WorldItems/WorldItem_Canteen,
 		texture = clothes\Items\CanteenSilver,	
     }
+	model WorldItem_CatEars
+    {
+		mesh = WorldItems/WorldItem_CatEars,
+    }		
 	model WorldItem_Chainsaw
     {
 		mesh = WorldItems/WorldItem_Chainsaw,
@@ -1120,7 +1129,11 @@ module Base
     {
 		mesh = WorldItems/WorldItem-GroguCarriageEmpty,
 		texture = clothes\Items\GroguCarriage,			
-    }	
+    }
+	model WorldItem_HairBow
+    {
+		mesh =  WorldItems/WorldItem_HairBow,
+    }		
 	model WorldItem_HairCurlers
     {
 		mesh = WorldItems/WorldItem-HairCurlers,	
@@ -1210,7 +1223,12 @@ module Base
 	model WorldItem_RaveMask
 	{
 		mesh = WorldItems/WorldItem_FaceMaskRave,	
-	}	
+	}
+	model WorldItem-ReindeerAntlers
+    {
+		mesh = WorldItems/WorldItem_Antlers,
+		texture = Clothes\Hats\ReindeerAntlers,
+    }	
 	model WorldItem_ReporterMicMuffler_Media01
 	{
 		mesh = WorldItems/WorldItem_AZReporterMicMuffler,
@@ -1358,6 +1376,10 @@ module Base
 		mesh = WorldItems/HeadPhones,
 		scale = 0.4,
 	}
+	model WorldItem_HeadPhonesEars
+	{
+		mesh = WorldItems/WorldItem_HeadphonesEars,
+	}	
 	model WorldItem-InflatableTube 
     {
 		mesh = WorldItems/WorldItem_InflatableTube,

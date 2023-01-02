@@ -23,7 +23,7 @@ LootMaps.Init.PZAZ_hitlist1 = function(mapUI)
 	local mapAPI = mapUI.javaObject:getAPIv1()
 	MapUtils.initDirectoryMapData(mapUI, 'media/maps/Muldraugh, KY')
 	mapAPI:setBoundsInSquares(10540, 9240, 12990, 10480)
-	overlayPNG(mapUI, 10524, 9222, 1.0, "lootMapPNG", "media/ui/LootableMaps/PZAZ_hitlist.png", 1.0)
+	overlayPNG(mapUI, 10524, 9222, 1.0, "lootMapPNG", "media/ui/LootableMaps/PZAZ_hitlist1.png", 1.0)
 
 end
 

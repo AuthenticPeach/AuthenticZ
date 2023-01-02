@@ -3,6 +3,29 @@ module AuthenticZLite {
       Base
   }
 
+    item Bag_ALICEpack_Festive
+    {
+        DisplayCategory = Bag,
+        Type = Container,
+        DisplayName = Festive Alice Pack,
+        ClothingItem = Bag_ALICEpack_Festive,
+        CanBeEquipped = Back,
+        WeightReduction	=	87,
+        Weight	=	2,
+        Capacity	=	28,
+        Icon	=	AliceBag_Festive,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        BloodLocation = Bag,
+        RunSpeedModifier = 0.94,
+        CanHaveHoles = false,
+        AttachmentReplacement = Bag,
+        ReplaceInSecondHand = Bag_ALICEpack_Festive_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_ALICEpack_Festive_RHand holdingbagright,
+        WorldStaticModel = ALICE_Pack_Ground,
+    }
+
     item Bag_ALICEpack_UrbanCamo
     {
         DisplayCategory = Bag,
@@ -135,6 +158,27 @@ module AuthenticZLite {
         ReplaceInPrimaryHand	 = Bag_B4BWalker_RHand holdingbagright,
         WorldStaticModel 		 = WorldItem_BackpackWalker,
     } 
+
+    item Bag_DuffelBag_Festive
+    {
+        DisplayCategory = Bag,
+        Type = Container,
+        DisplayName = Duffel Bag,
+        ClothingItem = Bag_DuffelBag_Festive,
+        CanBeEquipped = Back,
+        WeightReduction	=	65,
+        Weight	=	1,
+        Capacity	=	18,
+        Icon	=	Duffelbag_Festive,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        RunSpeedModifier = 0.95,
+        CanHaveHoles = false,
+        ReplaceInSecondHand = Bag_DuffelBag_Festive_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_DuffelBag_Festive_RHand holdingbagright,
+        WorldStaticModel = DuffelBag_Ground,
+    }
  
 	item Bag_SchoolBagCEDA
     {

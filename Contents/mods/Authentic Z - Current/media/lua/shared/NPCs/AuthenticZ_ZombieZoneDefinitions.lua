@@ -463,6 +463,12 @@ ZombiesZoneDefinition.CrossroadsMall = {
 		chance=1,
 		gender="male",
 		room="hall",
+	},
+	AuthenticFat03Santa = {
+		name="AuthenticFat03Santa",
+		chance=1,
+		gender="male",
+		room="hall",
 	},		
 	AuthenticDRJessieMcCarneyM = {
 		name="AuthenticDRJessieMcCarney",
@@ -2358,12 +2364,21 @@ ZombiesZoneDefinition.School[AuthenticThin01School] = AuthenticThin01School;
 AZ_ZombiesZoneDefinition.Default = ZombiesZoneDefinition.Default or {};
 
 -- General Pop --
+
 table.insert(ZombiesZoneDefinition.Default,{name = "Police", chance=0.25});
 table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticBiker", chance=0.05});
 table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticFitnessInstructor", chance=0.03});
 table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticJogger", chance=0.02});
 table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticGeneric06", chance=9});
 table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticNakedBlueVeins", chance=0.001});
+
+-------------------------- Christmas Only --------------------------
+--table.insert(ZombiesZoneDefinition.Default,{name = "Santa", chance=0.01});
+--table.insert(ZombiesZoneDefinition.Default,{name = "SantaGreen", chance=0.01});
+--table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticSantaWhite", chance=0.01});
+--table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticSantaBlue", chance=0.01});
+--table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticFat03Santa", chance=0.005, gender="male"});
+
 -------------------------- Survivalists --------------------------
 table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticSurvivorPolice", chance=0.003});
 table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticSurvivorHazardSuit", chance=0.003});

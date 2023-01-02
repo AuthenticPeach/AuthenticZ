@@ -39,6 +39,15 @@ module AuthenticZClothing {
         BodyLocation = ZedDmg,
 		Icon = AZBone,
     }
+    item Bone_Hand_R_Ash
+    {
+        DisplayCategory = ZedDmg,		
+
+        Type = Clothing,
+        ClothingItem =  Bone_Hand_R_Ash,
+        BodyLocation = ZedDmg,
+		Icon = AZBone,
+    }	
     item Bone_UpperArm_R
     {
         DisplayCategory = ZedDmg,		

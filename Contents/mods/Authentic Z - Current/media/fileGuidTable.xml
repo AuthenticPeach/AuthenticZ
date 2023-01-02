@@ -3445,6 +3445,14 @@
 	<files>
 		<path>media/clothing/clothingItems/Authentic_HeadphonesNeck2.xml</path>
 		<guid>27bc397f-b13a-42a7-9666-1726edccca58</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Authentic_Headphones3.xml</path>
+		<guid>12131eb3-eaf7-4b6d-adbc-0b4d81bc953c</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Authentic_HeadphonesNeck3.xml</path>
+		<guid>71f79e27-c2ac-4815-b334-f5c39d27cdb2</guid>
 	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Authentic_Pills.xml</path>
@@ -3453,6 +3461,30 @@
 	<files>
 		<path>media/clothing/clothingItems/AZ_OvenMitts.xml</path>
 		<guid>5409b793-b50c-4ca1-87c0-1951561e5be0</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_ALICEpack_Festive.xml</path>
+		<guid>9615800e-12cc-4827-857b-a0b99790b7c5</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_ALICEpack_Festive_Tier_1.xml</path>
+		<guid>c3a5fcc2-f9c2-4cb8-9260-bad6b707d442</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_ALICEpack_Festive_Tier_2.xml</path>
+		<guid>f0c5136e-8406-48bb-a594-0e19019cf085</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_ALICEpack_Festive_Tier_3.xml</path>
+		<guid>59919583-2add-46fb-b00f-611c7ed3353e</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_ALICEpack_Festive_LHand.xml</path>
+		<guid>05d8a382-d628-4cac-a044-6194b464ce24</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_ALICEpack_Festive_RHand.xml</path>
+		<guid>d0ca5b48-c933-40c6-a4b1-31ff59eaf830</guid>
 	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Bag_ALICEpack_UrbanCamo.xml</path>
@@ -3590,6 +3622,30 @@
 		<path>media/clothing/clothingItems/Bag_B4BWalker_RHand.xml</path>
 		<guid>1f3683ee-d4b8-4d28-86bc-71ff221e37d6</guid>
 	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_DuffelBag_Festive.xml</path>
+		<guid>99688bf7-7938-40d7-aadd-7ed6bf34c453</guid>
+	</files>	
+	<files>
+		<path>media/clothing/clothingItems/Bag_DuffelBag_Festive_Tier_1.xml</path>
+		<guid>79cd4b55-f827-4862-b947-bfb033d461fa</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_DuffelBag_Festive_Tier_2.xml</path>
+		<guid>5ad29098-7091-4adc-8744-0f36f3474b76</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_DuffelBag_Festive_Tier_3.xml</path>
+		<guid>83827d90-b32b-4c2f-ba7f-8d8634622fd9</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_DuffelBag_Festive_LHand.xml</path>
+		<guid>99ab8194-f25a-4654-8a5a-8fd5d0f79073</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_DuffelBag_Festive_RHand.xml</path>
+		<guid>ec6dcb9b-3362-4086-b9fd-0b3888d85525</guid>
+	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Bag_GroguCarriage_LHand.xml</path>
 		<guid>9fbbd483-88ea-4d90-89b8-77b3dcc4d7f3</guid>
@@ -4081,7 +4137,11 @@
 	<files>
 		<path>media/clothing/clothingItems/CameraBroadcasting.xml</path>
 		<guid>46bae820-64d9-4795-8252-001dfbc2cec9</guid>
-	</files>	
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/CatEarsAZ.xml</path>
+		<guid>7ae639c9-03c4-4b65-84cd-0e28d545d6d9</guid>
+	</files>		
 	<files>
 		<path>media/clothing/clothingItems/Cigarette.xml</path>
 		<guid>410485f1-a2d9-4936-bc38-2deb0c9d0ec5</guid>
@@ -4114,6 +4174,10 @@
 		<path>media/clothing/clothingItems/ClownTopWhite.xml</path>
 		<guid>86760a8e-5dbd-4908-97e4-5307275696df</guid>
 	</files>
+	<files>
+		<path>media/clothing/clothingItems/Corset_Blue.xml</path>
+		<guid>d5bef9b6-7b71-4884-a87d-2896892fcdc9</guid>
+	</files>	
 	<files>
 		<path>media/clothing/clothingItems/CrutchLEFT.xml</path>
 		<guid>56faf53b-48ac-42aa-ba82-38121716a565</guid>
@@ -4350,6 +4414,40 @@
 		<path>media/clothing/clothingItems/Hairstyle_Pennywise.xml</path>
 		<guid>2a55b646-dde9-4c2b-8a2a-16b09c74bfab</guid>
 	</files>
+	<!-- Hair Bows -->
+	<files>
+		<path>media/clothing/clothingItems/HairBows.xml</path>
+		<guid>56f0fe86-6b65-4a11-853e-9df8177c4e79</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/HairBows_UP.xml</path>
+		<guid>55e09bdf-4bf8-497e-8c1e-952a07e81e3a</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/HairBow_SideLeft.xml</path>
+		<guid>36b67fbb-0010-4948-9144-2c6a51af24f8</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/HairBow_SideRight.xml</path>
+		<guid>ca10446f-e0bf-4e5a-8925-ad83983f91e8</guid>
+	</files>	
+	<files>
+		<path>media/clothing/clothingItems/HairBowsTINT.xml</path>
+		<guid>ff267364-2eb3-4b0d-a61c-bcd58eae9070</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/HairBowsTINT_UP.xml</path>
+		<guid>b93c8a56-e8e7-4a39-9d34-cf6536e14732</guid>
+	</files>
+		<files>
+		<path>media/clothing/clothingItems/HairBowTINT_SideLeft.xml</path>
+		<guid>f305f1dc-ac22-43b5-be86-e0c44a9a65fa</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/HairBowTINT_SideRight.xml</path>
+		<guid>78cf328f-5047-4f57-a6d0-ed0109a2b7e7</guid>
+	</files>
+	<!-- End of Hair Bows -->	
 	<files>
 		<path>media/clothing/clothingItems/Hat_AuthenticCrashHelmetFULLDecalBobaFett.xml</path>
 		<guid>13f1b4ee-0085-4aeb-9562-030037dfd537</guid>
@@ -4714,6 +4812,14 @@
 		<path>media/clothing/clothingItems/Hat_RuneDuel_Back.xml</path>
 		<guid>fd8efb68-986f-42be-b964-6223c1c96489</guid>
 	</files>
+	<files>
+		<path>media/clothing/clothingItems/Hat_SantaHatBluePattern.xml</path>
+		<guid>2f29474b0-b3ba-4627-a746-be3a46766977</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Hat_SantaHatWhite.xml</path>
+		<guid>fb5c2082-e51f-460e-a25f-0bcb71cb1056</guid>
+	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Hat_StormtrooperHelmetAZ.xml</path>
 		<guid>7bb90dbb-3b02-45c3-85bf-eed607d1f9bb</guid>
@@ -5222,6 +5328,14 @@
 		<path>media/clothing/clothingItems/Jacket_Zoey.xml</path>
 		<guid>bbd948ee-c428-4e61-a49b-5fcc60897f27</guid>
 	</files>
+	<files>
+		<path>media/clothing/clothingItems/JacketLong_SantaBluePattern.xml</path>
+		<guid>c1f9d11b-4842-4e7f-bab8-9cc36f714038</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/JacketLong_SantaWhite.xml</path>
+		<guid>ca6a29e8-33f7-4e27-a310-f67532c02b1f</guid>
+	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Jersey_BlueStar.xml</path>
 		<guid>3a1679fa-05e8-407d-aa38-1859a656521d</guid>
@@ -6085,6 +6199,14 @@
 	<files>
 		<path>media/clothing/clothingItems/Trousers_OliveDrab2.xml</path>
 		<guid>4e56e71e-5e95-4c3f-a295-29638c5886d9</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Trousers_SantaBluePattern.xml</path>
+		<guid>786da422-b019-40fd-a7f1-6e6d50d4ed8e</guid>
+	</files>	
+	<files>
+		<path>media/clothing/clothingItems/Trousers_SantaWhite.xml</path>
+		<guid>e5927c7d-6992-4480-a883-05bd414f9e09</guid>
 	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Trousers_SportKilla.xml</path>
@@ -6412,9 +6534,13 @@
 		<guid>9f1781e7-c6b6-4fee-adfb-cf14ef833a76</guid>
 	</files>	
 	<files>
+		<path>media/clothing/clothingItems/Bone_Hand_R_Ash.xml</path>
+		<guid>3eeae14f-273e-488e-8a8f-4705909c3241</guid>
+	</files>
+	<files>
 		<path>media/clothing/clothingItems/Bone_Hand_R.xml</path>
 		<guid>6e7fb312-cb8b-4bf4-8062-c2a72851e190</guid>
-	</files>
+	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Bone_Stub_R.xml</path>
 		<guid>ade3238e-17c4-4ddd-896b-eadb3208635c</guid>
@@ -7048,5 +7174,30 @@
 	<files>
 		<path>media/clothing/clothingItems/Thin01_Vest_HighViz.xml</path>
 		<guid>77b872a4-c4cd-4f2c-a739-a8aa65d2972d</guid>
+	</files>
+	<!-- Authentic Z Christmas Santa Clothing -->
+	<files>
+		<path>media/clothing/clothingItems/FatBody03_ObeseBod_Santa.xml</path>
+		<guid>24bb1407-8b5b-455b-9adb-6ffc90e5c631</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Fat03_Trousers_Santa.xml</path>
+		<guid>b7079c70-f58e-433d-9158-ac9a2960806c</guid>
+	</files>	
+	<files>
+		<path>media/clothing/clothingItems/JacketLong_Santa_Obese.xml</path>
+		<guid>2fd627d2-854d-4830-b1f9-e68aa90c3cae</guid>
+	</files>	
+	<files>
+		<path>media/clothing/clothingItems/Beard_Long_Santa.xml</path>
+		<guid>88f40a07-40ea-4bc8-91bd-4b811f0126a0</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Fat03_Boots.xml</path>
+		<guid>f9d043b5-4be8-4313-897f-d4cbd7e09ff8</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Hat_Antlers_AZ.xml</path>
+		<guid>755bd09d-f27f-47c6-9699-7ecd25ed113c</guid>
 	</files>	
 </fileGuidTable>

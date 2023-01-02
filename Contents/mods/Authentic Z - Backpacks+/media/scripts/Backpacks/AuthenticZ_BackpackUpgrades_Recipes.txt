@@ -1166,1030 +1166,6 @@ module AuthenticZClothing{
         WorldStaticModel 		= 	GunCase_Ground,
 		StaticModel 			= 	GunCase_Ground,
     }
-	
-recipe Make Carabiner Clip
-  	{
-	   Paperclip=5,
-
-   	   Result:AZ_MetalClip,
-	   Time:80.0,
-	   Tooltip:Tooltip_Carabiner,
-  	}
-
-recipe Make Secondary Bag
-  	{
-	   Plasticbag,
-	   AZ_MetalClip,
-
-	   OnCreate:PleaseKeepColor,
-   	   Result:Plasticbag_Secondary,
-	   Time:80.0,
-  	}
-
-recipe Make Secondary Bag
-  	{
-	   Garbagebag,
-	   AZ_MetalClip,
-
-	   OnCreate:PleaseKeepColor,
-   	   Result:Garbagebag_Secondary,
-	   Time:80.0,
-  	}	
-
-recipe Make Secondary Bag
-  	{
-	   Handbag,
-	   AZ_MetalClip,
-
-	   OnCreate:PleaseKeepColor,
-   	   Result:Handbag_Secondary,
-	   Time:80.0,
-  	}	
-
-recipe Make Secondary Bag
-  	{
-	   Purse,
-	   AZ_MetalClip,
-
-	   OnCreate:PleaseKeepColor,
-   	   Result:Purse_Secondary,
-	   Time:80.0,
-  	}
-
-recipe Make Secondary Bag
-  	{
-	   Tote,
-	   AZ_MetalClip,
-
-	   OnCreate:PleaseKeepColor,
-   	   Result:Tote_Secondary,
-	   Time:80.0,
-  	}
-
-recipe Make Secondary Bag
-  	{
-	   EmptySandbag,
-	   AZ_MetalClip,
-
-	   OnCreate:PleaseKeepColor,
-   	   Result:EmptySandbag_Secondary,
-	   Time:80.0,
-  	}
-	
-recipe Make Secondary Bag
-  	{
-	   Toolbox/Bag_JanitorToolbox,
-	   AZ_MetalClip,
-
-	   OnCreate:PleaseKeepColor,
-   	   Result:Toolbox_Secondary,
-	   Time:80.0,
-  	}	
-	
-recipe Make Secondary Bag
-  	{
-	   FirstAidKit,
-	   AZ_MetalClip,
-
-	   OnCreate:PleaseKeepColor,
-   	   Result:FirstAidKit_Secondary,
-	   Time:80.0,
-  	}	
-
-recipe Make Secondary Bag
-  	{
-	   Lunchbox,
-	   AZ_MetalClip,
-
-	   OnCreate:PleaseKeepColor,
-   	   Result:Lunchbox_Secondary,
-	   Time:80.0,
-  	}
-	
-recipe Make Secondary Bag
-  	{
-	   Lunchbox2,
-	   AZ_MetalClip,
-
-	   OnCreate:PleaseKeepColor,
-   	   Result:Lunchbox2_Secondary,
-	   Time:80.0,
-  	}	
-
-recipe Make Secondary Bag
-  	{
-	   PistolCase1/PistolCase2/PistolCase3,
-	   AZ_MetalClip,
-
-	   OnCreate:PleaseKeepColor,
-   	   Result:PistolCase_Secondary,
-	   Time:80.0,
-  	}
-	
-recipe Make Secondary Bag
-  	{
-	   SeedBag,
-	   AZ_MetalClip,
-
-	   OnCreate:PleaseKeepColor,
-   	   Result:SeedBag_Secondary,
-	   Time:80.0,
-  	}		
-	
-recipe Upgrade School Bag
-  	{
-	   Bag_Schoolbag,	
-	   keep Scissors,
-       keep Needle/SutureNeedle,
-       Thread=3,
-	   DenimStrips/LeatherStrips=3,	 
-
-	   OnCreate:PleaseKeepColor,
-   	   Result:Bag_Schoolbag_Tier_1,
-	   OnGiveXP:Give20TailoringXP,	   
-	   Time:300.0,
-       AnimNode:Disassemble,	   
-	   Category:Tailoring,
-	   Tooltip:Tooltip_AttachBackpackTier1,
-	   
-  	}
-recipe Upgrade School Bag
-  	{
-	   Bag_Schoolbag_Tier_1,
-		keep Scissors,
-        keep Needle/SutureNeedle,
-       Thread=3,
-	   DenimStrips/LeatherStrips=3,	 
-
-	   OnCreate:PleaseKeepColor,
-   	   Result:Bag_Schoolbag_Tier_2,
-	   OnGiveXP:Give20TailoringXP,	   
-	   Time:300.0,
-       AnimNode:Disassemble,	   
-	   SkillRequired:Tailoring=1,	   
-	   Category:Tailoring,
-	   Tooltip:Tooltip_AttachBackpackTier2,
-  	}	
-
-recipe Upgrade School Bag
-  	{
-	   Bag_Schoolbag_Tier_2,
-		keep Scissors,
-        keep Needle/SutureNeedle,
-       Thread=3,
-	   DenimStrips/LeatherStrips=3,	 	
-	
-	   OnCreate:PleaseKeepColor,	
-   	   Result:Bag_Schoolbag_Tier_3,
-       OnGiveXP:Give20TailoringXP,	   
-	   Time:300.0,
-       AnimNode:Disassemble,	   
-	   SkillRequired:Tailoring=2,	   
-	   Category:Tailoring,
-	   Tooltip:Tooltip_AttachBackpackTier3,
-  	}	
-
-recipe Upgrade Duffelbag 	/* Colored Duffles*/
-  	{
-	  Bag_DuffelBagTINT/Bag_WorkerBag/Bag_InmateEscapedBag,
-	  keep Scissors,
-      keep Needle/SutureNeedle,
-       Thread=3,
-	   DenimStrips/LeatherStrips=3,	 	   
-
-	   OnCreate:PleaseKeepColor,
-   	   Result:Bag_DuffelBagTINT_Tier_1,
-       OnGiveXP:Give20TailoringXP,		   
-	   Time:300.0,
-       AnimNode:Disassemble,	   
-	   Category:Tailoring,
-	   Tooltip:Tooltip_AttachBackpackTier1,
-  	}
-
-recipe Upgrade Duffelbag
-  	{
-	   Bag_DuffelBagTINT_Tier_1,
-		keep Scissors,
-        keep Needle/SutureNeedle,
-       Thread=3,
-	   DenimStrips/LeatherStrips=3,	 
-
-	   OnCreate:PleaseKeepColor,
-   	   Result:Bag_DuffelBagTINT_Tier_2,
-       OnGiveXP:Give20TailoringXP,	   
-	   Time:300.0,
-       AnimNode:Disassemble,	  
-	   SkillRequired:Tailoring=1,
-	   Category:Tailoring,
-	   Tooltip:Tooltip_AttachBackpackTier2,
-  	}	
-
-recipe Upgrade Duffelbag
-  	{
-	   Bag_DuffelBagTINT_Tier_2,
-		keep Scissors,
-        keep Needle/SutureNeedle,
-       Thread=3,
-	   DenimStrips/LeatherStrips=3,	 
-
-	   OnCreate:PleaseKeepColor,
-   	   Result:Bag_DuffelBagTINT_Tier_3,
-       OnGiveXP:Give20TailoringXP,	   
-	   Time:300.0,
-       AnimNode:Disassemble,	   
-	   SkillRequired:Tailoring=2,
-	   Category:Tailoring,
-	   Tooltip:Tooltip_AttachBackpackTier3,
-  	}		
-
-recipe Upgrade Duffelbag  /* Greys*/
-  	{
-	   Bag_MoneyBag/Bag_WeaponBag/Bag_ShotgunBag/Bag_ShotgunSawnoffBag/Bag_ShotgunDblBag/Bag_ShotgunDblSawnoffBag,
-		keep Scissors,
-        keep Needle/SutureNeedle,
-       Thread=3,
-	   DenimStrips/LeatherStrips=3,	 	   
-
-	   OnCreate:PleaseKeepColor,
-   	   Result:Bag_DuffelBagGrey_Tier_1,
-       OnGiveXP:Give20TailoringXP,		   
-	   Time:300.0,
-       AnimNode:Disassemble,	   
-	   Category:Tailoring,
-	   Tooltip:Tooltip_AttachBackpackTier1,
-  	}	 
-
-recipe Upgrade Duffelbag
-  	{
-	   Bag_DuffelBagGrey_Tier_1,
-		keep Scissors,
-        keep Needle/SutureNeedle,
-       Thread=3,
-	   DenimStrips/LeatherStrips=3,	 
-
-	   OnCreate:PleaseKeepColor,
-   	   Result:Bag_DuffelBagGrey_Tier_2,
-       OnGiveXP:Give20TailoringXP,	   
-	   Time:300.0,
-       AnimNode:Disassemble,	  
-	   SkillRequired:Tailoring=1,
-	   Category:Tailoring,
-	   Tooltip:Tooltip_AttachBackpackTier2,
-  	}	
-
-recipe Upgrade Duffelbag
-  	{
-	   Bag_DuffelBagGrey_Tier_2,
-		keep Scissors,
-        keep Needle/SutureNeedle,
-       Thread=3,
-	   DenimStrips/LeatherStrips=3,	 
-
-	   OnCreate:PleaseKeepColor,
-   	   Result:Bag_DuffelBagGrey_Tier_3,
-       OnGiveXP:Give20TailoringXP,	   
-	   Time:300.0,
-       AnimNode:Disassemble,	   
-	   SkillRequired:Tailoring=2,
-	   Category:Tailoring,
-	   Tooltip:Tooltip_AttachBackpackTier3,
-  	}	
-
-recipe Upgrade Duffelbag 	/* Regular with 3 variations*/
-  	{
-	  Bag_DuffelBag,
-		keep Scissors,
-        keep Needle/SutureNeedle,
-       Thread=3,
-	   DenimStrips/LeatherStrips=3,	 		   
-
-	   OnCreate:PleaseKeepColor,
-   	   Result:Bag_DuffelBag_Tier_1,
-       OnGiveXP:Give20TailoringXP,		   
-	   Time:300.0,
-       AnimNode:Disassemble,   
-	   Category:Tailoring,
-	   Tooltip:Tooltip_AttachBackpackTier1,
-  	}
-		
-recipe Upgrade Duffelbag
-  	{
-	   Bag_DuffelBag_Tier_1,
-		keep Scissors,
-        keep Needle/SutureNeedle,
-       Thread=3,
-	   DenimStrips/LeatherStrips=3,	 
-
-	   OnCreate:PleaseKeepColor,
-   	   Result:Bag_DuffelBag_Tier_2,
-       OnGiveXP:Give20TailoringXP,	   
-	   Time:300.0,
-       AnimNode:Disassemble,	  
-	   SkillRequired:Tailoring=1,
-	   Category:Tailoring,
-	   Tooltip:Tooltip_AttachBackpackTier2,
-  	}	
-
-recipe Upgrade Duffelbag
-  	{
-	   Bag_DuffelBag_Tier_2,
-		keep Scissors,
-        keep Needle/SutureNeedle,
-       Thread=3,
-	   DenimStrips/LeatherStrips=3,	 
-
-	   OnCreate:PleaseKeepColor,
-   	   Result:Bag_DuffelBag_Tier_3,
-       OnGiveXP:Give20TailoringXP,	   
-	   Time:300.0,
-       AnimNode:Disassemble,	   
-	   SkillRequired:Tailoring=2,
-	   Category:Tailoring,
-	   Tooltip:Tooltip_AttachBackpackTier3,
-  	}	
-
-recipe Upgrade Duffelbag 	/* Medical Dufflebag*/
-  	{
-	   Bag_MedicalBag,
-	   keep Scissors,
-       keep Needle/SutureNeedle,
-       Thread=3,
-	   DenimStrips/LeatherStrips=3,	 	   
-
-	   OnCreate:PleaseKeepColor,
-   	   Result:Bag_MedicalBag_Tier_1,
-       OnGiveXP:Give20TailoringXP,		   
-	   Time:300.0,
-       AnimNode:Disassemble,   
-	   Category:Tailoring,
-	   Tooltip:Tooltip_AttachBackpackTier1,
-  	}
-		
-recipe Upgrade Duffelbag /* Medical Dufflebag*/
-  	{
-	   Bag_MedicalBag_Tier_1,
-		keep Scissors,
-        keep Needle/SutureNeedle,
-       Thread=3,
-	   DenimStrips/LeatherStrips=3,	 
-
-	   OnCreate:PleaseKeepColor,
-   	   Result:Bag_MedicalBag_Tier_2,
-       OnGiveXP:Give20TailoringXP,	   
-	   Time:300.0,
-       AnimNode:Disassemble,	  
-	   SkillRequired:Tailoring=1,
-	   Category:Tailoring,
-	   Tooltip:Tooltip_AttachBackpackTier2,
-  	}	
-
-recipe Upgrade Duffelbag /* Medical Dufflebag*/
-  	{
-	   Bag_MedicalBag_Tier_2,
-		keep Scissors,
-        keep Needle/SutureNeedle,
-       Thread=3,
-	   DenimStrips/LeatherStrips=3,	 
-
-	   OnCreate:PleaseKeepColor,
-   	   Result:Bag_MedicalBag_Tier_3,
-       OnGiveXP:Give20TailoringXP,	   
-	   Time:300.0,
-       AnimNode:Disassemble,	   
-	   SkillRequired:Tailoring=2,
-	   Category:Tailoring,
-	   Tooltip:Tooltip_AttachBackpackTier3,
-  	}	
-
-recipe Upgrade Duffelbag /* Military Dufflebag*/
-  	{
-	   Bag_Military,
-	   keep Scissors,
-       keep Needle/SutureNeedle,
-       Thread=3,
-	   DenimStrips/LeatherStrips=3,	    
-
-	   OnCreate:PleaseKeepColor,
-   	   Result:Bag_Military_Tier_1,
-       OnGiveXP:Give20TailoringXP,		   
-	   Time:300.0,
-       AnimNode:Disassemble,   
-	   Category:Tailoring,
-	   Tooltip:Tooltip_AttachBackpackTier1,
-  	}
-		
-recipe Upgrade Duffelbag /* Military Dufflebag*/
-  	{
-	   Bag_Military_Tier_1,
-		keep Scissors,
-        keep Needle/SutureNeedle,
-       Thread=3,
-	   DenimStrips/LeatherStrips=3,	 
-
-	   OnCreate:PleaseKeepColor,
-   	   Result:Bag_Military_Tier_2,
-       OnGiveXP:Give20TailoringXP,	   
-	   Time:300.0,
-       AnimNode:Disassemble,	  
-	   SkillRequired:Tailoring=1,
-	   Category:Tailoring,
-	   Tooltip:Tooltip_AttachBackpackTier2,
-  	}	
-
-recipe Upgrade Duffelbag /* Military Dufflebag*/
-  	{
-	   Bag_Military_Tier_2,
-		keep Scissors,
-        keep Needle/SutureNeedle,
-       Thread=3,
-	   DenimStrips/LeatherStrips=3,	 
-
-	   OnCreate:PleaseKeepColor,
-   	   Result:Bag_Military_Tier_3,
-       OnGiveXP:Give20TailoringXP,	   
-	   Time:300.0,
-       AnimNode:Disassemble,	   
-	   SkillRequired:Tailoring=2,
-	   Category:Tailoring,
-	   Tooltip:Tooltip_AttachBackpackTier3,
-  	}
-
-recipe Upgrade Duffelbag  /* Roadside Dufflebag*/
-  	{
-	   AuthenticZBackpacksPlus.Bag_RoadsideDuffel,
-	   keep Scissors,
-       keep Needle/SutureNeedle,
-       Thread=3,
-	   DenimStrips/LeatherStrips=3,	 		   
-
-	   OnCreate:PleaseKeepColor,
-   	   Result:Bag_RoadsideDuffel_Tier_1,
-       OnGiveXP:Give20TailoringXP,		   
-	   Time:300.0,
-       AnimNode:Disassemble,   
-	   Category:Tailoring,
-	   Tooltip:Tooltip_AttachBackpackTier1,
-  	}
-		
-recipe Upgrade Duffelbag  /* Roadside Dufflebag*/
-  	{
-	   Bag_RoadsideDuffel_Tier_1,
-		keep Scissors,
-        keep Needle/SutureNeedle,
-       Thread=3,
-	   DenimStrips/LeatherStrips=3,	 
-
-	   OnCreate:PleaseKeepColor,
-   	   Result:Bag_RoadsideDuffel_Tier_2,
-       OnGiveXP:Give20TailoringXP,	   
-	   Time:300.0,
-       AnimNode:Disassemble,	  
-	   SkillRequired:Tailoring=1,
-	   Category:Tailoring,
-	   Tooltip:Tooltip_AttachBackpackTier2,
-  	}	
-
-recipe Upgrade Duffelbag  /* Roadside Dufflebag*/
-  	{
-	   Bag_RoadsideDuffel_Tier_2,
-		keep Scissors,
-        keep Needle/SutureNeedle,
-       Thread=3,
-	   DenimStrips/LeatherStrips=3,	 
-
-	   OnCreate:PleaseKeepColor,
-   	   Result:Bag_RoadsideDuffel_Tier_3,
-       OnGiveXP:Give20TailoringXP,	   
-	   Time:300.0,
-       AnimNode:Disassemble,	   
-	   SkillRequired:Tailoring=2,
-	   Category:Tailoring,
-	   Tooltip:Tooltip_AttachBackpackTier3,
-  	}
-	
-recipe Upgrade Hiking Bag
-  	{
-	   Bag_NormalHikingBag,
-		keep Scissors,
-        keep Needle/SutureNeedle,
-       Thread=3,
-	   DenimStrips/LeatherStrips=3,	 
-
-	   OnCreate:PleaseKeepColor,
-   	   Result:Bag_NormalHikingBag_Tier_1,
-       OnGiveXP:Give20TailoringXP,	   
-	   Time:300.0,
-       AnimNode:Disassemble,	   	
-	   Category:Tailoring,
-	   Tooltip:Tooltip_AttachHikingBackpackTier1,
-  	}
-recipe Upgrade Hiking Bag
-  	{
-	   Bag_NormalHikingBag_Tier_1,
-		keep Scissors,
-        keep Needle/SutureNeedle,
-       Thread=3,
-	   DenimStrips/LeatherStrips=3,	 
-
-	   OnCreate:PleaseKeepColor,
-   	   Result:Bag_NormalHikingBag_Tier_2,
-       OnGiveXP:Give20TailoringXP,	   
-	   Time:300.0,
-       AnimNode:Disassemble,	   
-	   SkillRequired:Tailoring=1,	   
-	   Category:Tailoring,
-	   Tooltip:Tooltip_AttachHikingBackpackTier2,
-  	}	
-
-recipe Upgrade Hiking Bag
-  	{
-	   Bag_NormalHikingBag_Tier_2,
-		keep Scissors,
-        keep Needle/SutureNeedle,
-       Thread=3,
-	   DenimStrips/LeatherStrips=3,	 
-
-	   OnCreate:PleaseKeepColor,
-   	   Result:Bag_NormalHikingBag_Tier_3,
-       OnGiveXP:Give20TailoringXP,	   
-	   Time:300.0,
-       AnimNode:Disassemble,	   
-	   SkillRequired:Tailoring=2,	   
-	   Category:Tailoring,
-	   Tooltip:Tooltip_AttachHikingBackpackTier3,
-  	}		
-
-recipe Upgrade Big Hiking Bag
-  	{
-	   Bag_BigHikingBag,
-		keep Scissors,
-        keep Needle/SutureNeedle,
-       Thread=3,
-	   DenimStrips/LeatherStrips=3,	 
-
-	   OnCreate:PleaseKeepColor,
-   	   Result:Bag_BigHikingBag_Tier_1,
-       OnGiveXP:Give20TailoringXP,	   
-	   Time:300.0,
-       AnimNode:Disassemble,	   	
-	   Category:Tailoring, 
-	   Tooltip:Tooltip_AttachBigHikingBackpackTier1,
-  	}
-recipe Upgrade Big Hiking Bag
-  	{
-	   Bag_BigHikingBag_Tier_1,
-		keep Scissors,
-        keep Needle/SutureNeedle,
-       Thread=3,
-	   DenimStrips/LeatherStrips=3,	 
-
-	   OnCreate:PleaseKeepColor,
-   	   Result:Bag_BigHikingBag_Tier_2,
-       OnGiveXP:Give20TailoringXP,	   
-	   Time:300.0,
-       AnimNode:Disassemble,	   
-	   SkillRequired:Tailoring=1,	   
-	   Category:Tailoring,
-	   Tooltip:Tooltip_AttachBigHikingBackpackTier2,
-  	}	
-
-recipe Upgrade Big Hiking Bag
-  	{
-	   Bag_BigHikingBag_Tier_2,
-		keep Scissors,
-        keep Needle/SutureNeedle,
-       Thread=3,
-	   DenimStrips/LeatherStrips=3,	 
-
-	   OnCreate:PleaseKeepColor,
-   	   Result:Bag_BigHikingBag_Tier_3,
-       OnGiveXP:Give20TailoringXP,	   
-	   Time:300.0,
-       AnimNode:Disassemble,	   
-	   SkillRequired:Tailoring=2,	   
-	   Category:Tailoring,
-	   Tooltip:Tooltip_AttachBigHikingBackpackTier3,
-  	}
-	
-recipe Upgrade Alicepack
-  	{
-	   Bag_ALICEpack/Bag_SurvivorBag,
-		keep Scissors,
-        keep Needle/SutureNeedle,
-       Thread=3,
-	   DenimStrips/LeatherStrips=3,	 
-
-	   OnCreate:PleaseKeepColor,
-   	   Result:Bag_ALICEpack_Tier_1,
-       OnGiveXP:Give20TailoringXP,	   
-	   Time:300.0,
-       AnimNode:Disassemble,	   
-	   Category:Tailoring,
-	   Tooltip:Tooltip_AttachAliceBackpackTier1,
-  	}
-recipe Upgrade Alicepack
-  	{
-	   Bag_ALICEpack_Tier_1,
-		keep Scissors,
-        keep Needle/SutureNeedle,
-       Thread=3,
-	   DenimStrips/LeatherStrips=3,	 
-
-	   OnCreate:PleaseKeepColor,
-   	   Result:Bag_ALICEpack_Tier_2,
-       OnGiveXP:Give20TailoringXP,	   
-	   Time:300.0,
-       AnimNode:Disassemble,
-	   SkillRequired:Tailoring=1,	   
-	   Category:Tailoring,
-	   Tooltip:Tooltip_AttachAliceBackpackTier2,
-  	}	
-
-recipe Upgrade Alicepack
-  	{
-	   Bag_ALICEpack_Tier_2,
-		keep Scissors,
-        keep Needle/SutureNeedle,
-       Thread=3,
-	   DenimStrips/LeatherStrips=3,	 
-
-	   OnCreate:PleaseKeepColor,
-   	   Result:Bag_ALICEpack_Tier_3,
-       OnGiveXP:Give20TailoringXP,	   
-	   Time:300.0,
-       AnimNode:Disassemble,	   
-	   SkillRequired:Tailoring=2,
-	   Category:Tailoring,
-	   Tooltip:Tooltip_AttachAliceBackpackTier3,
-  	}
-
-recipe Upgrade Camo Alicepack
-  	{
-	   Bag_ALICEpack_Army,
-		keep Scissors,
-        keep Needle/SutureNeedle,
-       Thread=3,
-	   DenimStrips/LeatherStrips=3,	 
-
-	   OnCreate:PleaseKeepColor,
-   	   Result:Bag_ALICEpack_Army_Tier_1,
-       OnGiveXP:Give20TailoringXP,	   
-	   Time:300.0,
-       AnimNode:Disassemble,
-	   Category:Tailoring,
-	   Tooltip:Tooltip_AttachAliceBackpackTier1,
-  	}
-recipe Upgrade Camo Alicepack
-  	{
-	   Bag_ALICEpack_Army_Tier_1,
-		keep Scissors,
-        keep Needle/SutureNeedle,
-       Thread=3,
-	   DenimStrips/LeatherStrips=3,	 
-
-	   OnCreate:PleaseKeepColor,
-   	   Result:Bag_ALICEpack_Army_Tier_2,
-       OnGiveXP:Give20TailoringXP,	   
-	   Time:300.0,
-       AnimNode:Disassemble,
-	   SkillRequired:Tailoring=1,	   
-	   Category:Tailoring,
-	   Tooltip:Tooltip_AttachAliceBackpackTier2,
-  	}	
-
-recipe Upgrade Camo Alicepack
-  	{
-	   Bag_ALICEpack_Army_Tier_2,
-		keep Scissors,
-        keep Needle/SutureNeedle,
-       Thread=3,
-	   DenimStrips/LeatherStrips=3,	 
-
-	   OnCreate:PleaseKeepColor,
-   	   Result:Bag_ALICEpack_Army_Tier_3,
-       OnGiveXP:Give20TailoringXP,	   
-	   Time:300.0,
-       AnimNode:Disassemble,
-	   SkillRequired:Tailoring=2,	   
-	   Category:Tailoring,
-	   Tooltip:Tooltip_AttachAliceBackpackTier3, 
-  	}		
-
-
-	/*Modded Backpacks*/	
-
-recipe Upgrade Urban Camo Alicepack
-  	{
-	   Bag_ALICEpack_UrbanCamo,
-		keep Scissors,
-        keep Needle/SutureNeedle,
-       Thread=3,
-	   DenimStrips/LeatherStrips=3,	 
-	   
-	   OnCreate:PleaseKeepColor,
-   	   Result:Bag_ALICEpack_UrbanCamo_Tier_1,
-       OnGiveXP:Give20TailoringXP,	   
-	   Time:300.0,
-       AnimNode:Disassemble,
-	   Category:Tailoring,
-	   Tooltip:Tooltip_AttachAliceBackpackTier1,
-  	}
-recipe Upgrade Urban Camo Alicepack
-  	{
-	   Bag_ALICEpack_UrbanCamo_Tier_1,
-		keep Scissors,
-        keep Needle/SutureNeedle,
-       Thread=3,
-	   DenimStrips/LeatherStrips=3,	 
-
-	   OnCreate:PleaseKeepColor,
-   	   Result:Bag_ALICEpack_UrbanCamo_Tier_2,
-       OnGiveXP:Give20TailoringXP,	   
-	   Time:300.0,
-       AnimNode:Disassemble,
-	   SkillRequired:Tailoring=1,	   
-	   Category:Tailoring,
-	   Tooltip:Tooltip_AttachAliceBackpackTier2,
-  	}	
-
-recipe Upgrade Urban Camo Alicepack
-  	{
-	   Bag_ALICEpack_UrbanCamo_Tier_2,
-		keep Scissors,
-        keep Needle/SutureNeedle,
-       Thread=3,
-	   DenimStrips/LeatherStrips=3,	 
-
-	   OnCreate:PleaseKeepColor,
-   	   Result:Bag_ALICEpack_UrbanCamo_Tier_3,
-       OnGiveXP:Give20TailoringXP,	   
-	   Time:300.0,
-       AnimNode:Disassemble,
-	   SkillRequired:Tailoring=2,	   
-	   Category:Tailoring,
-	   Tooltip:Tooltip_AttachAliceBackpackTier3, 
-  	}	
-
-recipe Upgrade NBH Hazmat Pack
-  	{
-	   Bag_SchoolBagNBH,	
-	   keep Scissors,
-       keep Needle/SutureNeedle,
-       Thread=3,
-	   DenimStrips/LeatherStrips=3,	 
-
-	   OnCreate:PleaseKeepColor,
-   	   Result:Bag_SchoolBagNBH_Tier_1,
-       OnGiveXP:Give20TailoringXP,	   
-	   Time:300.0,
-       AnimNode:Disassemble,	   
-	   Category:Tailoring,
-	   Tooltip:Tooltip_AttachBackpackTier1,	   
-  	}
-recipe Upgrade NBH Hazmat Pack
-  	{
-	   Bag_SchoolBagNBH_Tier_1,
-		keep Scissors,
-        keep Needle/SutureNeedle,
-       Thread=3,
-	   DenimStrips/LeatherStrips=3,	 
-	   
-	   OnCreate:PleaseKeepColor,
-   	   Result:Bag_SchoolBagNBH_Tier_2,
-       OnGiveXP:Give20TailoringXP,	   
-	   Time:300.0,
-       AnimNode:Disassemble,	   
-	   SkillRequired:Tailoring=1,	   
-	   Category:Tailoring,
-	   Tooltip:Tooltip_AttachBackpackTier2,
-  	}	
-
-recipe Upgrade NBH Hazmat Pack
-  	{
-	   Bag_SchoolBagNBH_Tier_2,
-		keep Scissors,
-        keep Needle/SutureNeedle,
-       Thread=3,
-	   DenimStrips/LeatherStrips=3,	 
-	
-	   OnCreate:PleaseKeepColor,	
-   	   Result:Bag_SchoolBagNBH_Tier_3,
-       OnGiveXP:Give20TailoringXP,	   
-	   Time:300.0,
-       AnimNode:Disassemble,	   
-	   SkillRequired:Tailoring=2,	   
-	   Category:Tailoring,
-	   Tooltip:Tooltip_AttachBackpackTier3,
-  	}		
-
-recipe Upgrade CEDA Hazmat Pack
-  	{
-	   Bag_SchoolBagCEDA,	
-	   keep Scissors,
-       keep Needle/SutureNeedle,
-       Thread=3,
-	   DenimStrips/LeatherStrips=3,	 
-
-	   OnCreate:PleaseKeepColor,
-   	   Result:Bag_SchoolBagCEDA_Tier_1,
-       OnGiveXP:Give20TailoringXP,	   
-	   Time:300.0,
-       AnimNode:Disassemble,	   
-	   Category:Tailoring,
-	   Tooltip:Tooltip_AttachBackpackTier1,	   
-  	}
-recipe Upgrade CEDA Hazmat Pack
-  	{
-	   Bag_SchoolBagCEDA_Tier_1,
-		keep Scissors,
-        keep Needle/SutureNeedle,
-       Thread=3,
-	   DenimStrips/LeatherStrips=3,	 
-
-	   OnCreate:PleaseKeepColor,
-   	   Result:Bag_SchoolBagCEDA_Tier_2,
-       OnGiveXP:Give20TailoringXP,	   
-	   Time:300.0,
-       AnimNode:Disassemble,	   
-	   SkillRequired:Tailoring=1,	   
-	   Category:Tailoring,
-	   Tooltip:Tooltip_AttachBackpackTier2,
-  	}	
-
-recipe Upgrade CEDA Hazmat Pack
-  	{
-	   Bag_SchoolBagCEDA_Tier_2,
-		keep Scissors,
-        keep Needle/SutureNeedle,
-       Thread=3,
-	   DenimStrips/LeatherStrips=3,	 
-	
-	   OnCreate:PleaseKeepColor,	
-   	   Result:Bag_SchoolBagCEDA_Tier_3,
-       OnGiveXP:Give20TailoringXP,	   
-	   Time:300.0,
-       AnimNode:Disassemble,	   
-	   SkillRequired:Tailoring=2,	   
-	   Category:Tailoring,
-	   Tooltip:Tooltip_AttachBackpackTier3,
-  	}		
-
-recipe Upgrade CEDA Hazmat Pack
-  	{
-	   Bag_SchoolBagCEDABlack,	
-	   keep Scissors,
-       keep Needle/SutureNeedle,
-       Thread=3,
-	   DenimStrips/LeatherStrips=3,	 
-
-	   OnCreate:PleaseKeepColor,
-   	   Result:Bag_SchoolBagCEDABlack_Tier_1,
-       OnGiveXP:Give20TailoringXP,	   
-	   Time:300.0,
-       AnimNode:Disassemble,	   
-	   Category:Tailoring,
-	   Tooltip:Tooltip_AttachBackpackTier1,	   
-  	}
-recipe Upgrade CEDA Hazmat Pack
-  	{
-	   Bag_SchoolBagCEDABlack_Tier_1,
-		keep Scissors,
-        keep Needle/SutureNeedle,
-       Thread=3,
-	   DenimStrips/LeatherStrips=3,	 
-
-	   OnCreate:PleaseKeepColor,
-   	   Result:Bag_SchoolBagCEDABlack_Tier_2,
-       OnGiveXP:Give20TailoringXP,	   
-	   Time:300.0,
-       AnimNode:Disassemble,	   
-	   SkillRequired:Tailoring=1,	   
-	   Category:Tailoring,
-	   Tooltip:Tooltip_AttachBackpackTier2,
-  	}	
-
-recipe Upgrade CEDA Hazmat Pack
-  	{
-	   Bag_SchoolBagCEDABlack_Tier_2,
-		keep Scissors,
-        keep Needle/SutureNeedle,
-       Thread=3,
-	   DenimStrips/LeatherStrips=3,	 
-	
-	   OnCreate:PleaseKeepColor,	
-   	   Result:Bag_SchoolBagCEDABlack_Tier_3,
-       OnGiveXP:Give20TailoringXP,	   
-	   Time:300.0,
-       AnimNode:Disassemble,	   
-	   SkillRequired:Tailoring=2,	   
-	   Category:Tailoring,
-	   Tooltip:Tooltip_AttachBackpackTier3,
-  	}	
-
-recipe Upgrade CEDA Hazmat Pack
-  	{
-	   Bag_SchoolBagCEDARed,	
-	   keep Scissors,
-       keep Needle/SutureNeedle,
-       Thread=3,
-	   DenimStrips/LeatherStrips=3,	 
-
-	   OnCreate:PleaseKeepColor,
-   	   Result:Bag_SchoolBagCEDARed_Tier_1,
-       OnGiveXP:Give20TailoringXP,	   
-	   Time:300.0,
-       AnimNode:Disassemble,	   
-	   Category:Tailoring,
-	   Tooltip:Tooltip_AttachBackpackTier1,	   
-  	}
-recipe Upgrade CEDA Hazmat Pack
-  	{
-	   Bag_SchoolBagCEDARed_Tier_1,
-		keep Scissors,
-        keep Needle/SutureNeedle,
-       Thread=3,
-	   DenimStrips/LeatherStrips=3,	 
-	   
-	   OnCreate:PleaseKeepColor,
-   	   Result:Bag_SchoolBagCEDARed_Tier_2,
-       OnGiveXP:Give20TailoringXP,	   
-	   Time:300.0,
-       AnimNode:Disassemble,	   
-	   SkillRequired:Tailoring=1,	   
-	   Category:Tailoring,
-	   Tooltip:Tooltip_AttachBackpackTier2,
-  	}	
-
-recipe Upgrade CEDA Hazmat Pack
-  	{
-	   Bag_SchoolBagCEDARed_Tier_2,
-		keep Scissors,
-        keep Needle/SutureNeedle,
-       Thread=3,
-	   DenimStrips/LeatherStrips=3,	 
-	
-	   OnCreate:PleaseKeepColor,	
-   	   Result:Bag_SchoolBagCEDARed_Tier_3,
-       OnGiveXP:Give20TailoringXP,	   
-	   Time:300.0,
-       AnimNode:Disassemble,	   
-	   SkillRequired:Tailoring=2,	   
-	   Category:Tailoring,
-	   Tooltip:Tooltip_AttachBackpackTier3,
-  	}
-
-recipe Upgrade CEDA Hazmat Pack
-  	{
-	   Bag_SchoolBagCEDABlue,	
-	   keep Scissors,
-       keep Needle/SutureNeedle,
-       Thread=3,
-	   DenimStrips/LeatherStrips=3,	 
-
-	   OnCreate:PleaseKeepColor,
-   	   Result:Bag_SchoolBagCEDABlue_Tier_1,
-       OnGiveXP:Give20TailoringXP,	   
-	   Time:300.0,
-       AnimNode:Disassemble,	   
-	   Category:Tailoring,
-	   Tooltip:Tooltip_AttachBackpackTier1,	   
-  	}
-recipe Upgrade CEDA Hazmat Pack
-  	{
-	   Bag_SchoolBagCEDABlue_Tier_1,
-		keep Scissors,
-        keep Needle/SutureNeedle,
-       Thread=3,
-	   DenimStrips/LeatherStrips=3,	 
-
-	   OnCreate:PleaseKeepColor,
-   	   Result:Bag_SchoolBagCEDABlue_Tier_2,
-       OnGiveXP:Give20TailoringXP,	   
-	   Time:300.0,
-       AnimNode:Disassemble,	   
-	   SkillRequired:Tailoring=1,	   
-	   Category:Tailoring,
-	   Tooltip:Tooltip_AttachBackpackTier2,
-  	}	
-
-recipe Upgrade CEDA Hazmat Pack
-  	{
-	   Bag_SchoolBagCEDABlue_Tier_2,
-		keep Scissors,
-        keep Needle/SutureNeedle,
-       Thread=3,
-	   DenimStrips/LeatherStrips=3,	 
-	   
-	   OnCreate:PleaseKeepColor,	
-   	   Result:Bag_SchoolBagCEDABlue_Tier_3,
-       OnGiveXP:Give20TailoringXP,	   
-	   Time:300.0,
-       AnimNode:Disassemble,	   
-	   SkillRequired:Tailoring=2,	   
-	   Category:Tailoring,
-	   Tooltip:Tooltip_AttachBackpackTier3,
-  	}
-
 	item Bag_B4BMom_Tier_1
     {
         DisplayCategory = Bag,		
@@ -2258,58 +1234,6 @@ recipe Upgrade CEDA Hazmat Pack
         ReplaceInPrimaryHand	= 	Bag_B4BMom_RHand holdingbagright,
         WorldStaticModel 		= 	WorldItem_BackpackMom,
     }	
-
-recipe Upgrade Moms Backpack
-  	{
-	   Bag_B4BMom,	
-	   keep Scissors,
-       keep Needle/SutureNeedle,
-       Thread=3,
-	   DenimStrips/LeatherStrips=3,	    
-
-	   OnCreate:PleaseKeepColor,
-   	   Result:Bag_B4BMom_Tier_1,
-       OnGiveXP:Give20TailoringXP,	   
-	   Time:300.0,
-       AnimNode:Disassemble,	   
-	   Category:Tailoring,
-	   Tooltip:Tooltip_AttachBackpackTier1,	   
-  	}
-recipe Upgrade Moms Backpack
-  	{
-	   Bag_B4BMom_Tier_1,
-		keep Scissors,
-        keep Needle/SutureNeedle,
-       Thread=3,
-	   DenimStrips/LeatherStrips=3,	 
-
-	   OnCreate:PleaseKeepColor,
-   	   Result:Bag_B4BMom_Tier_2,
-       OnGiveXP:Give20TailoringXP,	   
-	   Time:300.0,
-       AnimNode:Disassemble,	   
-	   SkillRequired:Tailoring=1,	   
-	   Category:Tailoring,
-	   Tooltip:Tooltip_AttachBackpackTier2,
-  	}	
-
-recipe Upgrade Moms Backpack
-  	{
-	   Bag_B4BMom_Tier_2,
-		keep Scissors,
-        keep Needle/SutureNeedle,
-       Thread=3,
-	   DenimStrips/LeatherStrips=3,	 
-	
-	   OnCreate:PleaseKeepColor,	
-   	   Result:Bag_B4BMom_Tier_3,
-       OnGiveXP:Give20TailoringXP,	   
-	   Time:300.0,
-       AnimNode:Disassemble,	   
-	   SkillRequired:Tailoring=2,	   
-	   Category:Tailoring,
-	   Tooltip:Tooltip_AttachBackpackTier3,
-  	}
 
     item Bag_B4BHolly_Tier_1
     {
@@ -2380,58 +1304,6 @@ recipe Upgrade Moms Backpack
         WorldStaticModel 		= 	WorldItem_BackpackHolly,
     }	
 
-recipe Upgrade Hollys Backpack
-  	{
-	   Bag_B4BHolly,	
-	   keep Scissors,
-       keep Needle/SutureNeedle,
-       Thread=3,
-	   DenimStrips/LeatherStrips=3,	    
-
-	   OnCreate:PleaseKeepColor,
-   	   Result:Bag_B4BHolly_Tier_1,
-       OnGiveXP:Give20TailoringXP,	   
-	   Time:300.0,
-       AnimNode:Disassemble,	   
-	   Category:Tailoring,
-	   Tooltip:Tooltip_AttachHikingBackpackTier1,	   
-  	}
-recipe Upgrade Hollys Backpack
-  	{
-	   Bag_B4BHolly_Tier_1,
-		keep Scissors,
-        keep Needle/SutureNeedle,
-       Thread=3,
-	   DenimStrips/LeatherStrips=3,	 
-
-	   OnCreate:PleaseKeepColor,
-   	   Result:Bag_B4BHolly_Tier_2,
-       OnGiveXP:Give20TailoringXP,	   
-	   Time:300.0,
-       AnimNode:Disassemble,	   
-	   SkillRequired:Tailoring=1,	   
-	   Category:Tailoring,
-	   Tooltip:Tooltip_AttachHikingBackpackTier2,
-  	}	
-
-recipe Upgrade Hollys Backpack
-  	{
-	   Bag_B4BHolly_Tier_2,
-		keep Scissors,
-        keep Needle/SutureNeedle,
-       Thread=3,
-	   DenimStrips/LeatherStrips=3,	 
-	
-	   OnCreate:PleaseKeepColor,	
-   	   Result:Bag_B4BHolly_Tier_3,
-       OnGiveXP:Give20TailoringXP,	   
-	   Time:300.0,
-       AnimNode:Disassemble,	   
-	   SkillRequired:Tailoring=2,	   
-	   Category:Tailoring,
-	   Tooltip:Tooltip_AttachHikingBackpackTier3,
-  	}
-
     item Bag_B4BHoffman_Tier_1
     {
         DisplayCategory = Bag,		
@@ -2499,60 +1371,7 @@ recipe Upgrade Hollys Backpack
         ReplaceInPrimaryHand	=	Bag_B4BHoffman_RHand holdingbagright,
         WorldStaticModel 		= 	WorldItem_BackpackHoffman,
     }	
-
-
-recipe Upgrade Hoffmans Backpack
-  	{
-	   Bag_B4BHoffman,	
-	   keep Scissors,
-       keep Needle/SutureNeedle,
-       Thread=3,
-	   DenimStrips/LeatherStrips=3,	    
-
-	   OnCreate:PleaseKeepColor,
-   	   Result:Bag_B4BHoffman_Tier_1,
-       OnGiveXP:Give20TailoringXP,	   
-	   Time:300.0,
-       AnimNode:Disassemble,	   
-	   Category:Tailoring,
-	   Tooltip:Tooltip_AttachHikingBackpackTier1,	   
-  	}
-recipe Upgrade Hoffmans Backpack
-  	{
-	   Bag_B4BHoffman_Tier_1,
-		keep Scissors,
-        keep Needle/SutureNeedle,
-       Thread=3,
-	   DenimStrips/LeatherStrips=3,	 
-
-	   OnCreate:PleaseKeepColor,
-   	   Result:Bag_B4BHoffman_Tier_2,
-       OnGiveXP:Give20TailoringXP,	   
-	   Time:300.0,
-       AnimNode:Disassemble,	   
-	   SkillRequired:Tailoring=1,	   
-	   Category:Tailoring,
-	   Tooltip:Tooltip_AttachHikingBackpackTier2,
-  	}	
-
-recipe Upgrade Hoffmans Backpack
-  	{
-	   Bag_B4BHoffman_Tier_2,
-		keep Scissors,
-        keep Needle/SutureNeedle,
-       Thread=3,
-	   DenimStrips/LeatherStrips=3,	 
 	
-	   OnCreate:PleaseKeepColor,	
-   	   Result:Bag_B4BHoffman_Tier_3,
-       OnGiveXP:Give20TailoringXP,	   
-	   Time:300.0,
-       AnimNode:Disassemble,	   
-	   SkillRequired:Tailoring=2,	   
-	   Category:Tailoring,
-	   Tooltip:Tooltip_AttachHikingBackpackTier3,
-  	}
-
     item Bag_B4BEvangelo_Tier_1
     {
         DisplayCategory = Bag,		
@@ -2620,59 +1439,6 @@ recipe Upgrade Hoffmans Backpack
         ReplaceInPrimaryHand	=	Bag_B4BEvangelo_RHand holdingbagright,
         WorldStaticModel 		= 	WorldItem_BackpackEvangelo,
     }	
-
-
-recipe Upgrade Evangelos Backpack
-  	{
-	   Bag_B4BEvangelo,	
-	   keep Scissors,
-       keep Needle/SutureNeedle,
-       Thread=3,
-	   DenimStrips/LeatherStrips=3,	    
-
-	   OnCreate:PleaseKeepColor,
-   	   Result:Bag_B4BEvangelo_Tier_1,
-       OnGiveXP:Give20TailoringXP,	   
-	   Time:300.0,
-       AnimNode:Disassemble,	   
-	   Category:Tailoring,
-	   Tooltip:Tooltip_AttachHikingBackpackTier1,	   
-  	}
-recipe Upgrade Evangelos Backpack
-  	{
-	   Bag_B4BEvangelo_Tier_1,
-		keep Scissors,
-        keep Needle/SutureNeedle,
-       Thread=3,
-	   DenimStrips/LeatherStrips=3,	 
-
-	   OnCreate:PleaseKeepColor,
-   	   Result:Bag_B4BEvangelo_Tier_2,
-       OnGiveXP:Give20TailoringXP,	   
-	   Time:300.0,
-       AnimNode:Disassemble,	   
-	   SkillRequired:Tailoring=1,	   
-	   Category:Tailoring,
-	   Tooltip:Tooltip_AttachHikingBackpackTier2,
-  	}	
-
-recipe Upgrade Evangelos Backpack
-  	{
-	   Bag_B4BEvangelo_Tier_2,
-		keep Scissors,
-        keep Needle/SutureNeedle,
-       Thread=3,
-	   DenimStrips/LeatherStrips=3,	 
-	
-	   OnCreate:PleaseKeepColor,	
-   	   Result:Bag_B4BEvangelo_Tier_3,
-       OnGiveXP:Give20TailoringXP,	   
-	   Time:300.0,
-       AnimNode:Disassemble,	   
-	   SkillRequired:Tailoring=2,	   
-	   Category:Tailoring,
-	   Tooltip:Tooltip_AttachHikingBackpackTier3,
-  	}
 
 	item Bag_B4BWalker_Tier_1
     {
@@ -2743,58 +1509,6 @@ recipe Upgrade Evangelos Backpack
         WorldStaticModel 	 	= 	WorldItem_BackpackWalker,
     }	
 
-recipe Upgrade Walkers Backpack
-  	{
-	   Bag_B4BWalker,	
-	   keep Scissors,
-       keep Needle/SutureNeedle,
-       Thread=3,
-	   DenimStrips/LeatherStrips=3,	    
-
-	   OnCreate:PleaseKeepColor,
-   	   Result:Bag_B4BWalker_Tier_1,
-       OnGiveXP:Give20TailoringXP,	   
-	   Time:300.0,
-       AnimNode:Disassemble,	   
-	   Category:Tailoring,
-	   Tooltip:Tooltip_AttachHikingBackpackTier1,	   
-  	}
-recipe Upgrade Walkers Backpack
-  	{
-	   Bag_B4BWalker_Tier_1,
-		keep Scissors,
-        keep Needle/SutureNeedle,
-       Thread=3,
-	   DenimStrips/LeatherStrips=3,	 
-
-	   OnCreate:PleaseKeepColor,
-   	   Result:Bag_B4BWalker_Tier_2,
-       OnGiveXP:Give20TailoringXP,	   
-	   Time:300.0,
-       AnimNode:Disassemble,	   
-	   SkillRequired:Tailoring=1,	   
-	   Category:Tailoring,
-	   Tooltip:Tooltip_AttachHikingBackpackTier2,
-  	}	
-
-recipe Upgrade Walkers Backpack
-  	{
-	   Bag_B4BWalker_Tier_2,
-		keep Scissors,
-        keep Needle/SutureNeedle,
-       Thread=3,
-	   DenimStrips/LeatherStrips=3,	 
-	
-	   OnCreate:PleaseKeepColor,	
-   	   Result:Bag_B4BWalker_Tier_3,
-       OnGiveXP:Give20TailoringXP,	   
-	   Time:300.0,
-       AnimNode:Disassemble,	   
-	   SkillRequired:Tailoring=2,	   
-	   Category:Tailoring,
-	   Tooltip:Tooltip_AttachHikingBackpackTier3,
-  	}
-
 	/* Mod Bag by Brita */	
 
     item Bag_ARVN_Rucksack_Tier_1
@@ -2863,58 +1577,6 @@ recipe Upgrade Walkers Backpack
         ReplaceInSecondHand 	= 	Bag_ALICEpack_LHand holdingbagleft,
         ReplaceInPrimaryHand 	= 	Bag_ALICEpack_RHand holdingbagright,
     }
-
-recipe Upgrade Rucksack
-  	{
-	   Bag_ARVN_Rucksack,	
-	   keep Scissors,
-       keep Needle/SutureNeedle,
-       Thread=3,
-	   DenimStrips/LeatherStrips=3,	    
-
-	   OnCreate:PleaseKeepColor,
-   	   Result:Bag_ARVN_Rucksack_Tier_1,
-       OnGiveXP:Give20TailoringXP,	   
-	   Time:300.0,
-       AnimNode:Disassemble,	   
-	   Category:Tailoring,
-	   Tooltip:Tooltip_AttachAliceBackpackTier1,
-  	}
-recipe Upgrade Rucksack
-  	{
-	   Bag_ARVN_Rucksack_Tier_1,
-		keep Scissors,
-        keep Needle/SutureNeedle,
-       Thread=3,
-	   DenimStrips/LeatherStrips=3,	 
-
-	   OnCreate:PleaseKeepColor,
-   	   Result:Bag_ARVN_Rucksack_Tier_2,
-       OnGiveXP:Give20TailoringXP,	   
-	   Time:300.0,
-       AnimNode:Disassemble,	   
-	   SkillRequired:Tailoring=1,	   
-	   Category:Tailoring,
-	   Tooltip:Tooltip_AttachAliceBackpackTier2,
-  	}	
-
-recipe Upgrade Rucksack
-  	{
-	   Bag_ARVN_Rucksack_Tier_2,
-		keep Scissors,
-        keep Needle/SutureNeedle,
-       Thread=3,
-	   DenimStrips/LeatherStrips=3,	 
-	
-	   OnCreate:PleaseKeepColor,	
-   	   Result:Bag_ARVN_Rucksack_Tier_3,
-       OnGiveXP:Give20TailoringXP,	   
-	   Time:300.0,
-       AnimNode:Disassemble,	   
-	   SkillRequired:Tailoring=2,	   
-	   Category:Tailoring,
-	   Tooltip:Tooltip_AttachAliceBackpackTier3,
-  	}
 	
 }		
 module AuthenticZBackpacksPlus{
@@ -3663,6 +2325,94 @@ module AuthenticZBackpacksPlus{
         ReplaceInPrimaryHand 	= 	Bag_DuffelBag_RHandMilitary holdingbagright,
         WorldStaticModel 		= 	DuffelBag_Ground,
     }	
+
+    item Bag_DuffelBag_Festive
+    {
+        DisplayCategory = Bag,
+        Type = Container,
+        DisplayName = Duffel Bag,
+        ClothingItem = Bag_DuffelBag_Festive,
+        CanBeEquipped = Back,
+        WeightReduction	=	65,
+        Weight	=	1,
+        Capacity	=	18,
+        Icon	=	Duffelbag_Festive,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        RunSpeedModifier = 0.95,
+        CanHaveHoles = false,
+        ReplaceInSecondHand = Bag_DuffelBag_Festive_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_DuffelBag_Festive_RHand holdingbagright,
+        WorldStaticModel = DuffelBag_Ground,
+    }
+
+    item Bag_DuffelBag_Festive_Tier_1 /* Festive Duffels*/
+    {
+        DisplayCategory 		= 	Bag,
+        Type 					= 	Container,
+        DisplayName 			= 	Festive Duffel Bag - Tier 1,	
+        ClothingItem 			= 	Bag_DuffelBag_Festive_Tier_1,
+        Icon					=	Duffelbag_Festive,			
+        WeightReduction			=	65,
+        Weight					=	1,		
+		Capacity				=	19,				
+        CanBeEquipped 			= 	Back,
+        OpenSound   			=   OpenBag,
+        CloseSound   			=   CloseBag,
+        PutInSound   			=   PutItemInBag,
+        RunSpeedModifier 		= 	0.95,
+        CanHaveHoles 			= 	false,       
+		AttachmentReplacement	= 	Bag,
+		AttachmentsProvided  	= 	DufflebagSecondary;DufflebagBottleRight;DufflebagBalloonLeft,
+        ReplaceInSecondHand 	= 	Bag_DuffelBag_Festive_LHand holdingbagleft,
+        ReplaceInPrimaryHand 	= 	Bag_DuffelBag_Festive_RHand holdingbagright,
+        WorldStaticModel 		= 	DuffelBag_Ground,
+    }	
+    item Bag_DuffelBag_Festive_Tier_2 /* Festive Duffels*/
+    {
+		DisplayCategory 		= 	Bag,
+        Type 					= 	Container,
+        DisplayName 			= 	Festive Duffel Bag - Tier 2,	
+        ClothingItem 			= 	Bag_DuffelBag_Festive_Tier_2,
+        Icon					=	Duffelbag_Festive,			
+        WeightReduction			=	65,
+        Weight					=	1,		
+		Capacity				=	20,				
+        CanBeEquipped 			= 	Back,
+        OpenSound   			=   OpenBag,
+        CloseSound   			=   CloseBag,
+        PutInSound   			=   PutItemInBag,
+        RunSpeedModifier 		= 	0.95,
+        CanHaveHoles 			= 	false,       
+		AttachmentReplacement	= 	Bag,
+		AttachmentsProvided  	= 	SchoolbagBagSecondary;DufflebagItemSlot1;DufflebagBottleRight;DufflebagPlushie;SchoolbagUmbrellaLeft;DufflebagBalloonLeft,						
+        ReplaceInSecondHand 	= 	Bag_DuffelBag_Festive_LHand holdingbagleft,
+        ReplaceInPrimaryHand 	= 	Bag_DuffelBag_Festive_RHand holdingbagright,
+        WorldStaticModel 		= 	DuffelBag_Ground,
+    }
+    item Bag_DuffelBag_Festive_Tier_3 /* Festive Duffels*/
+    {
+		DisplayCategory 		= 	Bag,
+        Type 					= 	Container,
+        DisplayName 			= 	Festive Duffel Bag - Tier 3,	
+        ClothingItem 			= 	Bag_DuffelBag_Festive_Tier_3,
+        Icon					=	Duffelbag_Festive,			
+        WeightReduction			=	65,
+        Weight					=	1,		
+		Capacity				=	21,				
+        CanBeEquipped 			= 	Back,
+        OpenSound   			=   OpenBag,
+        CloseSound   			=   CloseBag,
+        PutInSound   			=   PutItemInBag,
+        RunSpeedModifier 		= 	0.95,
+        CanHaveHoles 			= 	false,       
+		AttachmentReplacement	= 	Bag,
+		AttachmentsProvided  	= 	SchoolbagBagSecondary;DufflebagItemSlot1;DufflebagBottleRight;DufflebagPlushie;SchoolbagUmbrellaLeft;DufflebagBalloonLeft,						
+        ReplaceInSecondHand 	= 	Bag_DuffelBag_Festive_LHand holdingbagleft,
+        ReplaceInPrimaryHand 	= 	Bag_DuffelBag_Festive_RHand holdingbagright,
+        WorldStaticModel 		= 	DuffelBag_Ground,
+    }
 	
     item Bag_RoadsideDuffel_Tier_1
     {
@@ -4887,6 +3637,58 @@ recipe Upgrade Urban Camo Alicepack
 	   Category:Tailoring,
 	   Tooltip:Tooltip_AttachAliceBackpackTier3, 
   	}	
+
+recipe Upgrade Festive Alicepack
+  	{
+	   Bag_ALICEpack_Festive,
+		keep Scissors,
+       keep Needle/SutureNeedle,
+       Thread=3,
+	   DenimStrips/LeatherStrips=3,	 
+
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_ALICEpack_Festive_Tier_1,
+       OnGiveXP:Give20TailoringXP,	   
+	   Time:300.0,
+       AnimNode:Disassemble,
+	   Category:Tailoring,
+	   Tooltip:Tooltip_AttachAliceBackpackTier1,
+  	}
+recipe Upgrade Festive Alicepack
+  	{
+	   Bag_ALICEpack_Festive_Tier_1,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=3,
+	   DenimStrips/LeatherStrips=3,	 
+
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_ALICEpack_Festive_Tier_2,
+       OnGiveXP:Give20TailoringXP,	   
+	   Time:300.0,
+       AnimNode:Disassemble,
+	   SkillRequired:Tailoring=1,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_AttachAliceBackpackTier2,
+  	}	
+
+recipe Upgrade Festive Alicepack
+  	{
+	   Bag_ALICEpack_Festive_Tier_2,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=3,
+	   DenimStrips/LeatherStrips=3,	 
+
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_ALICEpack_Festive_Tier_3,
+       OnGiveXP:Give20TailoringXP,	   
+	   Time:300.0,
+       AnimNode:Disassemble,
+	   SkillRequired:Tailoring=2,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_AttachAliceBackpackTier3, 
+  	}
 
 recipe Upgrade NBH Hazmat Pack
   	{

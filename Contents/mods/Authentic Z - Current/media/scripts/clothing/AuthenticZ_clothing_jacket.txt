@@ -868,6 +868,46 @@ module AuthenticZClothing {
         Weight = 2,
         WorldStaticModel = Jacket_Ground,			
     }
+	item JacketLong_SantaWhite
+    {
+        DisplayCategory = Clothing,	
+        Type = Clothing,
+        DisplayName = White Santa Suit Jacket,
+        ClothingItem = JacketLong_SantaWhite,
+        BodyLocation = Jacket,
+        BloodLocation = LongJacket,
+        Icon = JacketSantaWhite,
+        RunSpeedModifier = 0.85,
+        CombatSpeedModifier = 0.9,
+        BiteDefense = 10,
+        ScratchDefense = 30,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.9,
+        WindResistance = 0.6,
+        Weight = 3,
+        FabricType = Cotton,
+        WorldStaticModel = JacketLong_Ground,		
+    }
+	item JacketLong_SantaBluePattern
+    {
+        DisplayCategory = Clothing,	
+        Type = Clothing,
+        DisplayName = Blue Festive Santa Suit Jacket,
+        ClothingItem = JacketLong_SantaBluePattern,
+        BodyLocation = Jacket,
+        BloodLocation = LongJacket,
+        Icon = JacketSantaBlue,
+        RunSpeedModifier = 0.85,
+        CombatSpeedModifier = 0.9,
+        BiteDefense = 10,
+        ScratchDefense = 30,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.9,
+        WindResistance = 0.6,
+        Weight = 3,
+        FabricType = Cotton,
+        WorldStaticModel = JacketLong_Ground,		
+    }		
     item Jersey_BlueStar
     {
         DisplayCategory = Clothing,		

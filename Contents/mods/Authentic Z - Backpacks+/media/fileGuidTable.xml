@@ -3918,7 +3918,56 @@
 	<files>
 		<path>media/clothing/clothingItems/Bag_UtilityBeltFront_Loose.xml</path>
 		<guid>e0dcba7c-5cac-4c16-9b0c-d5484a853231</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_ALICEpack_Festive.xml</path>
+		<guid>9615800e-12cc-4827-857b-a0b99790b7c5</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_ALICEpack_Festive_Tier_1.xml</path>
+		<guid>c3a5fcc2-f9c2-4cb8-9260-bad6b707d442</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_ALICEpack_Festive_Tier_2.xml</path>
+		<guid>f0c5136e-8406-48bb-a594-0e19019cf085</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_ALICEpack_Festive_Tier_3.xml</path>
+		<guid>59919583-2add-46fb-b00f-611c7ed3353e</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_ALICEpack_Festive_LHand.xml</path>
+		<guid>05d8a382-d628-4cac-a044-6194b464ce24</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_ALICEpack_Festive_RHand.xml</path>
+		<guid>d0ca5b48-c933-40c6-a4b1-31ff59eaf830</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_DuffelBag_Festive.xml</path>
+		<guid>99688bf7-7938-40d7-aadd-7ed6bf34c453</guid>
 	</files>	
+	<files>
+		<path>media/clothing/clothingItems/Bag_DuffelBag_Festive_Tier_1.xml</path>
+		<guid>79cd4b55-f827-4862-b947-bfb033d461fa</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_DuffelBag_Festive_Tier_2.xml</path>
+		<guid>5ad29098-7091-4adc-8744-0f36f3474b76</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_DuffelBag_Festive_Tier_3.xml</path>
+		<guid>83827d90-b32b-4c2f-ba7f-8d8634622fd9</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_DuffelBag_Festive_LHand.xml</path>
+		<guid>99ab8194-f25a-4654-8a5a-8fd5d0f79073</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_DuffelBag_Festive_RHand.xml</path>
+		<guid>ec6dcb9b-3362-4086-b9fd-0b3888d85525</guid>
+	</files>
+	
 	<files>
 		<path>media/clothing/clothingItems/Bikini_Pattern02.xml</path>
 		<guid>fd5deb78-5fe4-4073-b3c7-b4e03a724cbc</guid>

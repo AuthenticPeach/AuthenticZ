@@ -105,6 +105,7 @@ module AuthenticZClothing {
 		Icon = ApronYellow,
 		WorldStaticModel = Apron_Ground,		
 	}
+
 	item Authentic_Headphones
 	{
 		DisplayCategory 		= Electronics,		
@@ -160,6 +161,34 @@ module AuthenticZClothing {
 		Weight 					= 0.3,
 		ChanceToFall 			= 25,
 		WorldStaticModel 		= WorldItem_HeadPhones,
+	}
+	item Authentic_Headphones3
+	{
+       DisplayCategory 	 		= Electronics,		
+		Type 	 		 		= Clothing,
+		DisplayName 	 		= Headphones,
+		ClothingItem 	 		= Authentic_Headphones3,
+		ClothingItemExtra 		= AuthenticZClothing.Authentic_HeadphonesNeck3,
+        ClothingItemExtraOption = WearNeck,	
+		BodyLocation 	 		= Necklace,
+		IconsForTexture  		= HeadphonesEarsPink;HeadphonesEarsWhite,
+		Weight 			 		= 0.3,
+		ChanceToFall 	 		= 25,
+		WorldStaticModel 		= WorldItem_HeadPhonesEars,
+	}
+	item Authentic_HeadphonesNeck3
+	{
+		DisplayCategory 		= Electronics,		
+		Type 					= Clothing,
+		DisplayName 			= Headphones,
+		ClothingItem 			= Authentic_HeadphonesNeck3,
+		ClothingItemExtra 		= AuthenticZClothing.Authentic_Headphones3,
+        ClothingItemExtraOption = WearHead,		
+		BodyLocation 			= Necklace_Long,
+		IconsForTexture  		= HeadphonesEarsPink;HeadphonesEarsWhite,
+		Weight 					= 0.3,
+		ChanceToFall 			= 25,
+		WorldStaticModel 		= WorldItem_HeadPhonesEars,
 	}		
 	item Bikini_Pattern02
 	{
@@ -716,6 +745,118 @@ module AuthenticZClothing {
         FabricType = Cotton,
         WorldStaticModel = GlovesLong_Ground,
 	}
+    item HairBow
+    {
+        DisplayCategory = Clothing,		
+        Type = Clothing,
+        DisplayName = HairBow,
+        ClothingItem = HairBows,
+		ClothingItemExtra		= AuthenticZClothing.HairBows_UP;AuthenticZClothing.HairBow_SideRight;AuthenticZClothing.HairBow_SideLeft,
+        ClothingItemExtraOption = WearHigher;WearRight;WearLeft,		
+        IconsForTexture = BowBlue;BowPurple;BowRed;BowPink,
+        BodyLocation = Left_RingFinger,
+        CanHaveHoles = false,
+        Weight = 0.05,	
+        WorldStaticModel = WorldItem_HairBow,
+    }
+    item HairBows_UP
+    {
+        DisplayCategory = Clothing,		
+        Type = Clothing,
+        DisplayName = HairBow,
+        ClothingItem = HairBows_UP,
+		ClothingItemExtra		= AuthenticZClothing.HairBow;AuthenticZClothing.HairBow_SideRight;AuthenticZClothing.HairBow_SideLeft,
+        ClothingItemExtraOption = WearLower;WearRight;WearLeft,	
+        IconsForTexture = BowBlue;BowPurple;BowRed;BowPink,
+        BodyLocation = Right_RingFinger,
+        CanHaveHoles = false,
+        Weight = 0.05,	
+        WorldStaticModel = WorldItem_HairBow,
+    }
+    item HairBow_SideRight
+    {
+        DisplayCategory = Clothing,		
+        Type = Clothing,
+        DisplayName = HairBow,
+        ClothingItem = HairBow_SideRight,
+		ClothingItemExtra		= AuthenticZClothing.HairBows_UP;AuthenticZClothing.HairBow;AuthenticZClothing.HairBow_SideLeft,
+        ClothingItemExtraOption = WearHigher;WearLower;WearLeft,		
+        IconsForTexture = BowBlue;BowPurple;BowRed;BowPink,
+        BodyLocation = Right_MiddleFinger,
+        CanHaveHoles = false,
+        Weight = 0.05,	
+        WorldStaticModel = WorldItem_HairBow,
+    }
+    item HairBow_SideLeft
+    {
+        DisplayCategory = Clothing,		
+        Type = Clothing,
+        DisplayName = HairBow,
+        ClothingItem = HairBow_SideLeft,
+		ClothingItemExtra		= AuthenticZClothing.HairBow;AuthenticZClothing.HairBows_UP;AuthenticZClothing.HairBow_SideRight,
+        ClothingItemExtraOption = WearLower;WearHigher;WearRight,			
+        IconsForTexture = BowBlue;BowPurple;BowRed;BowPink,
+        BodyLocation = Left_MiddleFinger,
+        CanHaveHoles = false,
+        Weight = 0.05,	
+        WorldStaticModel = WorldItem_HairBow,
+    }	
+    item HairBowTINT
+    {
+        DisplayCategory = Clothing,		
+        Type = Clothing,
+        DisplayName = HairBow,
+        ClothingItem = HairBowsTINT,
+		ClothingItemExtra		= AuthenticZClothing.HairBowsTINT_UP;AuthenticZClothing.HairBowTINT_SideRight;AuthenticZClothing.HairBowTINT_SideLeft,	
+        ClothingItemExtraOption = WearHigher;WearRight;WearLeft,	
+        Icon = BowWhite,
+        BodyLocation = Left_RingFinger,
+        CanHaveHoles = false,
+        Weight = 0.05,	
+        WorldStaticModel = WorldItem_HairBow,
+    }	
+    item HairBowsTINT_UP
+    {
+        DisplayCategory = Clothing,		
+        Type = Clothing,
+        DisplayName = HairBow,
+        ClothingItem = HairBowsTINT_UP,
+		ClothingItemExtra		= AuthenticZClothing.HairBowTINT;AuthenticZClothing.HairBowTINT_SideRight;AuthenticZClothing.HairBowTINT_SideLeft,
+        ClothingItemExtraOption = WearLower;WearRight;WearLeft,			
+        Icon = BowWhite,
+        BodyLocation = Right_RingFinger,
+        CanHaveHoles = false,
+        Weight = 0.05,	
+        WorldStaticModel = WorldItem_HairBow,
+    }
+    item HairBowTINT_SideRight
+    {
+        DisplayCategory = Clothing,		
+        Type = Clothing,
+        DisplayName = HairBow,
+        ClothingItem = HairBowTINT_SideRight,
+		ClothingItemExtra		= AuthenticZClothing.HairBowsTINT_UP;AuthenticZClothing.HairBowTINT;AuthenticZClothing.HairBowTINT_SideLeft,		
+        ClothingItemExtraOption = WearHigher;WearLower;WearLeft,		
+        Icon = BowWhite,
+        BodyLocation = Right_MiddleFinger,
+        CanHaveHoles = false,
+        Weight = 0.05,	
+        WorldStaticModel = WorldItem_HairBow,
+    }	
+    item HairBowTINT_SideLeft
+    {
+        DisplayCategory = Clothing,		
+        Type = Clothing,
+        DisplayName = HairBow,
+        ClothingItem = HairBowTINT_SideLeft,
+		ClothingItemExtra		= AuthenticZClothing.HairBowTINT;AuthenticZClothing.HairBowsTINT_UP;AuthenticZClothing.HairBowTINT_SideRight,	
+        ClothingItemExtraOption = WearLower;WearHigher;WearRight,				
+        Icon = BowWhite,
+        BodyLocation = Left_MiddleFinger,
+        CanHaveHoles = false,
+        Weight = 0.05,	
+        WorldStaticModel = WorldItem_HairBow,
+    }				
 	item Hat_EarMuffs_AZ
 	{
 	    DisplayCategory = Accessory,

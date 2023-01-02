@@ -2364,6 +2364,14 @@ table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticFitnessInstructor",
 table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticJogger", chance=0.02});
 table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticGeneric06", chance=9});
 table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticNakedBlueVeins", chance=0.001});
+
+-------------------------- Christmas Only --------------------------
+--table.insert(ZombiesZoneDefinition.Default,{name = "Santa", chance=0.01});
+--table.insert(ZombiesZoneDefinition.Default,{name = "SantaGreen", chance=0.01});
+--table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticSantaWhite", chance=0.01});
+--table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticSantaBlue", chance=0.01});
+--table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticFat03Santa", chance=0.005, gender="male"});
+
 -------------------------- Survivalists --------------------------
 table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticSurvivorPolice", chance=0.003});
 table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticSurvivorHazardSuit", chance=0.003});
