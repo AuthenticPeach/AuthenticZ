@@ -1,7 +1,7 @@
 -- Encode this file as UTF-8
 UI_DE = {
 
-UI_ClothingType_AmmoStrap2 = "Munitionsgurt 2",
+UI_ClothingType_AmmoStrap2 = "Munitionsgurt 2", 
 
 UI_optionscreen_binding_Hotbar 6 = "Hotbar 6",
 UI_optionscreen_binding_Hotbar 7 = "Hotbar 7",

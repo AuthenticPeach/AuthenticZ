@@ -1,8 +1,6 @@
 -- Encode this file as UTF-8
 UI_FR = {
 
-UI_ClothingType_AmmoStrap2 = "Sangle de munitions 2",
-
 UI_optionscreen_binding_Hotbar 6 = "Raccourci 6",
 UI_optionscreen_binding_Hotbar 7 = "Raccourci 7",
 UI_optionscreen_binding_Hotbar 8 = "Raccourci 8",

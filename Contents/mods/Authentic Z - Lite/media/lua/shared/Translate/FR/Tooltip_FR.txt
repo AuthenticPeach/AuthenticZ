@@ -42,8 +42,7 @@ Tooltip_FR = {
 	Tooltip_Venkman = "Peter Venkman avait l'habitude de porter ceci ...",
 	Tooltip_Winslow = "Je pourrais vouloir trouver un vaccin contre le tétanos ..."
 	Tooltip_Zeddemore = "Winston Zeddemore avait l'habitude de porter ceci ...",
-
-/* Update 1-17-22*/		
+	
 	Tooltip_TacticalWebbing = "Ajoute 2 emplacements aux sangles",
 	Tooltip_AddWalkieTV110 = "Attache le talkie-walkie de l'armée à TV-110",
 	Tooltip_AddWalkieTV110Bag = "Attache le talkie-walkie de l'armée à TV-110, enlevez tous les magazines avant cela.",
@@ -51,9 +50,19 @@ Tooltip_FR = {
 	Tooltip_RemoveWalkieTV110Bag = "Retire le talkie-walkie de l'armée de TV-110, enlevez tous les magazines avant cela.",
 
 	Tooltip_TV110Bag = "Retirer tous les objets avant d'effectuer ceci.",
-	
-/* New */
-
 	Tooltip_JPCane = "La vie trouve un chemin.",		
-	Tooltip_TagillaHelmet = "UBEY",			
+	Tooltip_TagillaHelmet = "UBEY",
+	
+	Tooltip_AZSleepingBag = "Le dérouler et le placer.",		
+	Tooltip_AZSleepingBag2 = "Faites un clic droit pour dormir.",
+	Tooltip_GlowStickPack = "Ouvrir pour obtenir 3 batons luminescent !",	
+	
+	Tooltip_RotaryPhone  = "Dis bonjour à ta tante Alicia, Bub !",
+	
+/* New */	
+	Tooltip_SizeXS  = "Taille : S",	
+	Tooltip_SizeXL  = "Taille : XL",	
+	Tooltip_Size2XL  = "Taille : 2XL",	
+	Tooltip_Size3XL  = "Taille : 3XL",	
+	
 	}

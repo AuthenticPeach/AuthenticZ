@@ -1,6 +1,6 @@
 Rezepte_DE = {
 Recipe_Convert_into_Wearable = "In Tragbares umwandeln",
-Recipe_Convert_into_Item = "In Gegenstand umwandeln",
+Recipe_Convert_into_Item = "In Gegenstand umwandeln", 
 Recipe_Convert_into_Melee = "In Nahkampf umwandeln",
 Recipe_Convert_to_Torch = "In Fackel umwandeln",
 Recipe_Dismantle_Military_Flashlight = "Militär-Taschenlampe zerlegen",

@@ -1,4 +1,4 @@
-ContextMenu_DE = {
+ContextMenu_DE = { 
 ContextMenu_Loosen = "Lösen",
 ContextMenu_Tighten = "Anziehen",
 ContextMenu_TieOnWaist = "Um die Taille binden",

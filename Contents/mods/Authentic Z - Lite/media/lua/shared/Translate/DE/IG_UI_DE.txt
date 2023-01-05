@@ -1,4 +1,4 @@
-IGUI_DE = {
+IGUI_DE = { 
 
     IGUI_Hair_BigAfro = "Große Afro",
     IGUI_Hair_DukeBuzzCut = "Kurzer Buzz-Schnitt",

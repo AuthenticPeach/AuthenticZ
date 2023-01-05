@@ -1,5 +1,5 @@
 Tooltip_DE = {
-Tooltip_AttachBackpack = "Ändert den Gegenstand zum Anbringen an verbesserten Rucksäcken",
+Tooltip_AttachBackpack = "Ändert den Gegenstand zum Anbringen an verbesserten Rucksäcken", 
 Tooltip_AttachBackpackRevert = "Setzt den Gegenstand auf Vanilla-Form zurück",
 Tooltip_AttachBackpackTier1 = "Fügt Slots hinzu: Sekundäre Tasche, Wasserflasche, Ballon",
 Tooltip_AttachBackpackTier2 = "Fügt Slots hinzu: Gegenstand, Plüschtier, Regenschirm",

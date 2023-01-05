@@ -1,4 +1,4 @@
-Rezepte_DE = {
+Rezepte_DE = { 
 Recipe_Convert_into_Wearable = "In Tragbares umwandeln",
 Recipe_Convert_into_Item = "In Gegenstand umwandeln",
 Recipe_Convert_into_Melee = "In Nahkampf umwandeln",

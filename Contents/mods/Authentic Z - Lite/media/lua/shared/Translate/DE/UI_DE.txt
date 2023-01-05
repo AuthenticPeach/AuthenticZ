@@ -1,4 +1,4 @@
--- Encode this file as UTF-8
+-- Encode this file as UTF-8 
 UI_DE = {
 
 UI_ClothingType_AmmoStrap2 = "Munitionsgurt 2",

@@ -1,5 +1,5 @@
 MakeUp_DE = {
-    MakeUpType_FullFaceClownFace1Color = "Buntes Clowngesicht 1",
+    MakeUpType_FullFaceClownFace1Color = "Buntes Clowngesicht 1", 
     MakeUpType_FullFaceClownFace2Color= "Buntes Clowngesicht 2",
     MakeUpType_FullFaceFreddy = "Freddy",
     MakeUpType_FullFaceInsane = "Verrückt",

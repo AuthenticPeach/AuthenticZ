@@ -3,7 +3,7 @@ ItemName_DE = {
 /* Taschen */
 
 ItemName_AuthenticZClothing.Bag_B4BEvangelo = "Evangelos Rucksack",
-ItemName_AuthenticZClothing.Bag_B4BHoffman = "Hoffmans Rucksack",
+ItemName_AuthenticZClothing.Bag_B4BHoffman = "Hoffmans Rucksack", 
 ItemName_AuthenticZClothing.Bag_B4BHolly = "Hollys Rucksack",
 ItemName_AuthenticZClothing.Bag_B4BMom = "Mutters Rucksack",
 ItemName_AuthenticZClothing.Bag_B4BWalker = "Wanderer-Rucksack",

@@ -44,7 +44,7 @@ AuthenticZ.tab_addMagProcedural_HairCurlers  = function(x,count)
   table.insert(ProceduralDistributions.list[x].items, count);  
 end
 --Colored Headphones
-AuthenticZ.tab_addMagProcedural_Authentic_Headphones  = function(x,count)
+AuthenticZ.tab_addMagProcedural_AZHeadphones  = function(x,count)
   ProceduralDistributions = ProceduralDistributions or {};
   ProceduralDistributions.list = ProceduralDistributions.list or {};
   ProceduralDistributions.list[x] = ProceduralDistributions.list[x] or {};
