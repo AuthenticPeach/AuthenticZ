@@ -1032,7 +1032,7 @@ ItemName_EN = {
 	ItemName_AuthenticZClothing.Bag_Military_Tier_2 = "Military Duffel Bag - Tier 2",	
 	ItemName_AuthenticZClothing.Bag_Military_Tier_3 = "Military Duffel Bag - Tier 3",
 	
-	/* New */
+	/* Update 1-5-22 */
 	ItemName_AuthenticZClothing.Bag_ALICEpack_Festive = "Festive Alice Pack",	
 	ItemName_AuthenticZClothing.Bag_ALICEpack_Festive_Tier_1 = "Festive Alice Pack - Tier 1",	
 	ItemName_AuthenticZClothing.Bag_ALICEpack_Festive_Tier_2 = "Festive Alice Pack - Tier 2",	
@@ -1061,4 +1061,23 @@ ItemName_EN = {
     ItemName_AuthenticZClothing.Authentic_Headphones3 = "Cat Ear Headphones",
     ItemName_AuthenticZClothing.Authentic_HeadphonesNeck3 = "Cat Ear Headphones",
     ItemName_AuthenticZClothing.CatEarsAZ = "Cat Ears",	
+	
+	/* New */	
+			
+    ItemName_AuthenticZClothing.Dress_BallroomDress_Elegant = "Elegant Round Gown",		
+    ItemName_AuthenticZClothing.Dress_BallroomDress_LongSleevedButtoned = "Long-Sleeved Round Gown",		
+    ItemName_AuthenticZClothing.Dress_BallroomDress_LongSleevedButtonedApron = "Long-Sleeved Round Gown with Apron",		
+    ItemName_AuthenticZClothing.Dress_BallroomDress_Simple = "Round Gown",	
+    ItemName_AuthenticZClothing.Dress_BallroomDress_Striped = "Round Gown",		
+    ItemName_AuthenticZClothing.Dress_BallroomDress_StripedApron = "Round Gown with Apron",	
+    ItemName_AuthenticZClothing.Dress_BallroomDress_Pattern = "Round Gown",	
+    ItemName_AuthenticZClothing.Gloves_LeatherGauntlets = "Leather Gauntlets",		
+    ItemName_AuthenticZClothing.Hat_VikingHelmet = "Viking Helmet",	
+    ItemName_AuthenticZClothing.Hat_DeerSkull = "Deer Skull",		
+    ItemName_AuthenticZClothing.HoodieDOWN_BearHeaddress = "Bear Headdress (Down)",	
+    ItemName_AuthenticZClothing.HoodieUP_BearHeaddress = "Bear Headdress (Up)",	
+    ItemName_AuthenticZClothing.Hat_BaseballCapBuzzers = "Buzzers Baseball Cap",		
+    ItemName_AuthenticZClothing.Hat_BaseballCapBuzzers_Reverse = "Buzzers Baseball Cap (Reversed)",		
+    ItemName_AuthenticZClothing.Hat_FurryEarsAZ = "Furry Ears",	
+    ItemName_AuthenticZClothing.Shirt_Buzzers = "Buzzers Shirt",		
 }

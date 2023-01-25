@@ -2384,6 +2384,62 @@
 		</m_items>		
 </m_MaleOutfits>	
 
+<m_MaleOutfits> <m_Name>AuthenticBuzzers</m_Name>
+		<m_Guid>9d844781-ba96-45f7-b269-8089b2a5dd4a</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowTopTint>false</m_AllowTopTint>	
+		<m_items> <!-- Buzzers Backwards Hat -->
+			<itemGUID>afcb113c-16c1-43a8-b6d2-2ada2096b150</itemGUID>
+		</m_items>
+		<m_items> <!-- Headphones-->
+			<itemGUID>27bc397f-b13a-42a7-9666-1726edccca58</itemGUID>
+			<subItems>
+				<itemGUID>2fb65117-0609-4d55-977f-29f599912b4c</itemGUID>
+			</subItems>				
+		</m_items>	
+		<m_items> <!-- Buzzers T-Shirt -->
+			<itemGUID>5392d7d6-ffb7-4917-bc4b-01269ea97036</itemGUID>
+		</m_items>	
+		<m_items> <!-- Jeans -->
+			<itemGUID>8973893f-f324-4cdb-a32b-43cd0378174f</itemGUID>
+		</m_items>
+		<m_items> <!-- Long Socks -->
+			<itemGUID>fb86bd5f-1931-4b24-a5d7-bd6a43769991</itemGUID>
+		</m_items>	
+		<m_items> <!-- White Sneakers -->
+			<itemGUID>d7edf6e8-019f-46b9-9744-4e862a5d644f</itemGUID>
+		</m_items>
+		<m_items> <!-- White Zed Skin -->
+			<itemGUID>9c87b588-b784-4560-bada-fd4cf7e44d48</itemGUID>
+		</m_items>	
+		<m_items> <!-- Dismembered Bone_Arm_L -->
+			<probability>0.03</probability>		
+			<itemGUID>6e10e6c0-0ac4-4010-974c-56d57f1edd46</itemGUID>
+			<subItems> <!-- Bone_Arm_R-->
+				<itemGUID>5eab0171-d6d2-422e-b69a-3387f219652f</itemGUID>
+			</subItems>
+			<subItems> <!-- Bone_UpperArm_L -->
+				<itemGUID>4736ed99-f312-44f3-b312-8dffd1629a25</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bone_UpperArm_R -->
+				<itemGUID>9b7d0838-abd4-4720-bd91-260c5e8c8003</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bone_Hand_L -->
+				<itemGUID>9f1781e7-c6b6-4fee-adfb-cf14ef833a76</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bone_Hand_R -->
+				<itemGUID>6e7fb312-cb8b-4bf4-8062-c2a72851e190</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bone_Stub_R -->
+				<itemGUID>ade3238e-17c4-4ddd-896b-eadb3208635c</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bone_Stub_L -->
+				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>				
+		</m_items>			
+</m_MaleOutfits>
+
 <m_MaleOutfits> <m_Name>AuthenticCaptainSkipper</m_Name>
 		<m_Guid>4e6fb8f9-ad73-49c9-83e5-51d04af7be9d</m_Guid>
 		<m_Top>false</m_Top>
@@ -4340,6 +4396,10 @@
 		<m_items> <!-- Cultist Hat -->
 			<probability>0.6</probability>
 			<itemGUID>c8e1d8b3-9ef5-43fe-aaa0-f52d489b1fe4</itemGUID>
+		</m_items>
+		<m_items> <!-- Deer Skull -->
+			<probability>0.1</probability>
+			<itemGUID>eaa86691-02db-4d15-bf5f-ea8021b62b3e</itemGUID>
 		</m_items>			
 		<m_items> <!-- Cultist Robe -->
 			<itemGUID>3cd1289c-50e3-4fd9-b6a7-45e59262ec32</itemGUID>
@@ -4387,6 +4447,10 @@
 		<m_items> <!-- Cultist Hat -->
 			<probability>0.6</probability>
 			<itemGUID>c8e1d8b3-9ef5-43fe-aaa0-f52d489b1fe4</itemGUID>
+		</m_items>
+		<m_items> <!-- Deer Skull -->
+			<probability>0.1</probability>
+			<itemGUID>eaa86691-02db-4d15-bf5f-ea8021b62b3e</itemGUID>
 		</m_items>			
 		<m_items> <!-- Cultist Robe -->
 			<itemGUID>3cd1289c-50e3-4fd9-b6a7-45e59262ec32</itemGUID>
@@ -15968,6 +16032,204 @@
 			</subItems>				
 		</m_items>			
 	</m_MaleOutfits>
+
+<m_FemaleOutfits> <m_Name>AuthenticRichFancyDress</m_Name>
+		<m_Guid>17a7369b-679d-4795-bbee-5028eb9033b1</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowTopTint>false</m_AllowTopTint>		
+		<m_items> <!-- Round Dresses -->
+			<itemGUID>5c4b68e8-3c6c-4428-b0ec-cac53e5bcb2b</itemGUID>
+			<subItems>
+				<itemGUID>770ee70e-82cc-48de-81f3-d81ad153bb61</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>f5143527-ccad-4a75-b6ca-56cfe12baec4</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>33198176-9ea7-4263-9ed3-75e1d609ee66</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>5ebbe025-0496-4a31-9763-b2d8046f61d5</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>dadfba51-6b73-48d9-bbaa-95dc584bf57a</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>f17aef9c-9e04-486e-8b9d-3c9f34d5ed1f</itemGUID>
+			</subItems>			
+		</m_items>
+		<m_items> <!-- Short Socks -->
+			<itemGUID>ebea15c8-99b3-4e20-905b-d22cf82b8217</itemGUID>
+		</m_items>		
+		<m_items> <!-- Shoes Random-->
+			<itemGUID>7741404b-9689-4608-a0f5-4e06597776f9</itemGUID>
+		</m_items>
+		<m_items> <!-- Tank Top -->
+			<probability>0.3</probability>		
+			<itemGUID>a700a956-32c2-49a6-bd5f-5a2895073f19</itemGUID>
+		</m_items>
+		<m_items> <!-- Necklaces -->
+			<itemGUID>b53aaf11-929c-4506-8310-e9b26d5f20eb</itemGUID>
+			<subItems>
+				<itemGUID>3cac5469-f9d2-4462-8fb2-063be1b63450</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>3ae13d94-8df6-45c7-9e99-ad03c7d411ce</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>778cc04b-761d-4268-9479-09829468775c</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>bd36d524-dc71-4ee0-80d7-3e5791f85f7d</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>0ef4bbd5-b1ba-412a-8d68-ad83a6abfda6</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>00b778ca-59bd-45a4-9a72-a74e5a541469</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>0dc0ceda-9162-4abd-b263-7f32ff497e21</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>25c5a9a3-3fe8-4565-9a8e-af2208167902</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>354db6a5-970b-477b-a119-f4a65eaa776f</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>dd9c41f4-cbcd-4ae1-9ee4-b0202292a57a</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>31d1387a-2dc0-4951-870e-ead0e7dd02de</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>a6b47c0c-d541-4932-b216-70568ad664dc</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>96f1486d-b177-47ff-a746-3ca9d4dd9fe9</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>98077c59-2961-45ce-8247-2b14b4876659</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>e0467d61-85a6-4bec-bcdd-8676d602282a</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>81a92257-cb26-4034-923d-5f101f92eada</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items> <!-- Earrings -->
+			<itemGUID>7c3a8a34-9ffa-42e0-83f4-55088f99d8a4</itemGUID>
+			<subItems>
+				<itemGUID>eb1e345b-9993-4b70-b021-6d1d18a176b1</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>5cfb7a5d-5e1c-4a5b-9fdc-f21f6a136d7c</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>1cdfc423-a4c7-46cc-a900-7b3ead0fd9c7</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>ade9c502-76b1-4a6f-9d70-382cb803c82b</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>0cc23833-5eb1-4212-af52-5889de7f60d7</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>497a8849-6914-40fb-b3a6-9e01629e3e8b</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>62486601-5800-4eba-b317-fbcd9a0e2892</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>09537be2-eebc-4f58-a76d-ac46ea5b3654</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>fc9184ea-72cd-4079-8457-5b9f7b5dab75</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>59341911-c4b8-4c30-a712-69df35ba228f</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>033be814-b060-457c-8ed6-43f7358606c3</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>b1c312bf-bc3b-4a52-a15d-fe5564399388</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>5d9eec3d-7119-480e-8f8a-b7118463e482</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>028ce25c-036a-44c0-ac3e-1d576cc28dc8</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>570f2884-f8d9-4e8a-a796-864f691a29fe</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>a0dead26-e3da-4319-ace1-0be733c1e39f</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>ee687253-26b0-4796-82ca-4f4a4976cf81</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>9221f803-d4ec-4947-b380-9c8b1fddebf0</itemGUID>
+			</subItems>
+		</m_items>		
+		<m_items> <!-- Rings -->
+			<itemGUID>4cbb081e-0e9a-4248-bec1-0aa226e082e1</itemGUID>
+			<subItems>
+				<itemGUID>c6dd113b-3d04-4833-9f38-8e9840741c0c</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>fedba460-2edc-439d-89b6-f9607ddbf246</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>e4b3135f-a541-4870-a7b9-2ba6f730bc5c</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>5b484f12-b43c-4a83-9009-af05a59ec267</itemGUID>
+			</subItems>
+		</m_items>		
+		<m_items> <!-- Bracelets -->
+			<itemGUID>f0dd71ac-a98f-4251-899f-30d727167722</itemGUID>
+			<subItems>
+				<itemGUID>582f29b1-29b3-468c-87fe-263b043e1443</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>ea26af86-e01c-45f9-8d06-09ad99c6bc55</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>e28e4564-e853-4876-8ee9-63754e28808c</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items> <!-- Dismembered Bone_Arm_L -->
+			<probability>0.03</probability>		
+			<itemGUID>6e10e6c0-0ac4-4010-974c-56d57f1edd46</itemGUID>
+			<subItems> <!-- Bone_Arm_R-->
+				<itemGUID>5eab0171-d6d2-422e-b69a-3387f219652f</itemGUID>
+			</subItems>
+			<subItems> <!-- Bone_UpperArm_L -->
+				<itemGUID>4736ed99-f312-44f3-b312-8dffd1629a25</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bone_UpperArm_R -->
+				<itemGUID>9b7d0838-abd4-4720-bd91-260c5e8c8003</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bone_Hand_L -->
+				<itemGUID>9f1781e7-c6b6-4fee-adfb-cf14ef833a76</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bone_Hand_R -->
+				<itemGUID>6e7fb312-cb8b-4bf4-8062-c2a72851e190</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bone_Stub_R -->
+				<itemGUID>ade3238e-17c4-4ddd-896b-eadb3208635c</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bone_Stub_L -->
+				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>				
+		</m_items>		
+</m_FemaleOutfits>	
 
 <m_FemaleOutfits> <m_Name>AuthenticRochelle</m_Name>
 		<m_Guid>a5b48b6c-5f6c-43d4-80be-8e64c8a61608</m_Guid>

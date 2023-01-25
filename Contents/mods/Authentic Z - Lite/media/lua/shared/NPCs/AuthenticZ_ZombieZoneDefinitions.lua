@@ -2301,6 +2301,13 @@ local Janitor2 = {
 	};
 ZombiesZoneDefinition.CrossroadsMall[Janitor2] = Janitor2;
 
+local AuthenticRichFancyDress = {
+		name="AuthenticRichFancyDress",
+		gender="female",			
+		chance=5,
+	};
+ZombiesZoneDefinition.FancyHotel[AuthenticRichFancyDress] = AuthenticRichFancyDress;
+
 local AuthenticMaid = {
 		name="AuthenticMaid",
 		gender="female",			
@@ -2407,6 +2414,7 @@ table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticTF2SpyRed", chance=
 table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticThriller", chance=0.0001, gender="male"});
 table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticFat03Blart", chance=0.0001, gender="male"});
 table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticFat02Cheese", chance=0.0001, gender="male"});
+table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticBuzzers", chance=0.0001, gender="male"});
 -------------------------- Clowns --------------------------
 table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticClownMime", chance=0.04});
 table.insert(ZombiesZoneDefinition.Default,{name = "AuthenticClown", chance=0.04, gender="male"});

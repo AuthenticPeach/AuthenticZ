@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media\models_X\skinned\clothes\BearHeaddress.FBX</m_MaleModel>
+	<m_FemaleModel>media\models_X\skinned\clothes\BearHeaddress.FBX</m_FemaleModel>
+	<m_GUID>ca872d53-503d-445c-b337-5d6f28888e5d</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>clothes\Hoodie\BearHeadress</textureChoices>
+</clothingItem>

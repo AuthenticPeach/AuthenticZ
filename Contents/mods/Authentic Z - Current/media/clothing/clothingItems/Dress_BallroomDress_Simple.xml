@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\clothes\bob_weddingdress</m_MaleModel>
+	<m_FemaleModel>skinned\clothes\BallroomDress_Simple</m_FemaleModel>
+	<m_GUID>f17aef9c-9e04-486e-8b9d-3c9f34d5ed1f</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>true</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_Masks>13</m_Masks>
+	<m_Masks>2</m_Masks>
+
+	<m_Masks>7</m_Masks>
+	<m_Masks>8</m_Masks>
+	<m_Masks>9</m_Masks>
+	<m_Masks>10</m_Masks>
+	<textureChoices>clothes\dress_textures\Gown1</textureChoices>
+</clothingItem>

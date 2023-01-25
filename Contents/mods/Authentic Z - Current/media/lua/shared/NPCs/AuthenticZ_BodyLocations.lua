@@ -7,7 +7,9 @@ require 'NPCs/BodyLocations'
 -- Location IDs must match BodyLocation= and CanBeEquipped= values in items.txt.
 local group = BodyLocations.getGroup("Human")
 
+group:getOrCreateLocation("HeadExtra")
 group:getOrCreateLocation("TorsoRigPlus2")
 group:getOrCreateLocation("TorsoExtraPlus1")
+
 
 

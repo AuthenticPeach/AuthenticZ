@@ -582,6 +582,111 @@ module AuthenticZClothing {
         WindResistance = 0.9,
         WorldStaticModel = Hazmat_Ground,
     }
+    item Dress_BallroomDress_Elegant
+    {
+        DisplayCategory = Clothing,			
+        Type = Clothing,
+        DisplayName = Elegant Ballroom Dress,
+        ClothingItem = Dress_BallroomDress_Elegant,
+        BodyLocation = FullSuit,
+        BloodLocation = Trousers;Jumper,
+        Icon = BallroomDressElegant,
+		CanHaveHoles = false,
+        RunSpeedModifier = 0.90,
+        Insulation = 0.3,
+        WindResistance = 0.2,
+		WorldStaticModel = WorldItem-RoundGownPoncho,
+    }
+    item Dress_BallroomDress_LongSleevedButtoned
+    {
+        DisplayCategory = Clothing,			
+        Type = Clothing,
+        DisplayName = Long-Sleeved Round Gown,
+        ClothingItem = Dress_BallroomDress_LongSleevedButtoned,
+        BodyLocation = FullSuit,
+        BloodLocation = Trousers;Jumper,
+        IconsForTexture = RoundGownBlue;RoundGownGreen;RoundGownPink;RoundGownRed;RoundGownSkyBlue;RoundGownYellow,
+		CanHaveHoles = false,
+        RunSpeedModifier = 0.90,
+        Insulation = 0.3,
+        WindResistance = 0.2,
+		WorldStaticModel = WorldItem-RoundGown4_LongSleeved,
+    }
+    item Dress_BallroomDress_LongSleevedButtonedApron
+    {
+        DisplayCategory = Clothing,			
+        Type = Clothing,
+        DisplayName = Long-Sleeved Round Gown with Apron,
+        ClothingItem = Dress_BallroomDress_LongSleevedButtonedApron,
+        BodyLocation = FullSuit,
+        BloodLocation = Trousers;Jumper,
+        IconsForTexture = RoundGownBlueApron;RoundGownGreenApron;RoundGownPinkApron;RoundGownRedApron;RoundGownSkyBlueApron;RoundGownYellowApron,
+		CanHaveHoles = false,
+        RunSpeedModifier = 0.90,
+        Insulation = 0.3,
+        WindResistance = 0.2,
+		WorldStaticModel = WorldItem-RoundGown4_LongSleeved,
+    }	
+    item Dress_BallroomDress_Pattern
+    {
+        DisplayCategory = Clothing,			
+        Type = Clothing,
+        DisplayName = Elegant Ballroom Dress,
+        ClothingItem = Dress_BallroomDress_Pattern,
+        BodyLocation = FullSuit,
+        BloodLocation = Trousers;Jumper,
+        IconsForTexture = BallroomDressElegant,
+		CanHaveHoles = false,
+        RunSpeedModifier = 0.90,
+        Insulation = 0.3,
+        WindResistance = 0.2,
+		WorldStaticModel = WorldItem-RoundGown,
+    }
+    item Dress_BallroomDress_Simple
+    {
+        DisplayCategory = Clothing,			
+        Type = Clothing,
+        DisplayName = Elegant Ballroom Dress,
+        ClothingItem = Dress_BallroomDress_Simple,
+        BodyLocation = FullSuit,
+        BloodLocation = Trousers;Jumper,
+        Icon = BallroomDressElegant,
+		CanHaveHoles = false,
+        RunSpeedModifier = 0.90,
+        Insulation = 0.3,
+        WindResistance = 0.2,
+		WorldStaticModel = WorldItem-RoundGown,
+    }
+    item Dress_BallroomDress_Striped
+    {
+        DisplayCategory = Clothing,			
+        Type = Clothing,
+        DisplayName = Ballroom Dress,
+        ClothingItem = Dress_BallroomDress_Striped,
+        BodyLocation = FullSuit,
+        BloodLocation = Trousers;Jumper,
+        IconsForTexture = RoundGownBlueStriped;RoundGownBrownStriped;RoundGownGreenStriped;RoundGownRedStriped;RoundGownPinkStriped,
+		CanHaveHoles = false,
+        RunSpeedModifier = 0.90,
+        Insulation = 0.3,
+        WindResistance = 0.2,
+		WorldStaticModel = WorldItem-RoundGown,
+    }
+    item Dress_BallroomDress_StripedApron
+    {
+        DisplayCategory = Clothing,			
+        Type = Clothing,
+        DisplayName = Ballroom Dress,
+        ClothingItem = Dress_BallroomDress_StripedApron,
+        BodyLocation = FullSuit,
+        BloodLocation = Trousers;Jumper,
+        IconsForTexture = RoundGownBlueStripedApron;RoundGownBrownStripedApron;RoundGownGreenStripedApron;RoundGownRedStripedApron;RoundGownPinkStripedApron,
+		CanHaveHoles = false,
+        RunSpeedModifier = 0.90,
+        Insulation = 0.3,
+        WindResistance = 0.2,
+		WorldStaticModel = WorldItem-RoundGown,
+    }		
     item Dress_Dimitrescu
     {
         DisplayCategory = Clothing,			

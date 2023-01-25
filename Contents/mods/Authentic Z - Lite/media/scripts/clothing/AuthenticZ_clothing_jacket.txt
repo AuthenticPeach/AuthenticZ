@@ -1743,6 +1743,43 @@ module AuthenticZLite {
         WorldStaticModel = Hoodie_Ground,		
     }	
 
+    item HoodieDOWN_BearHeaddress
+    {
+        DisplayCategory = Clothing,		
+        Type = Clothing,
+        DisplayName = Bear Headdress (Down),
+        ClothingItem = HoodieDOWN_BearHeaddress,
+        ClothingItemExtra = AuthenticZLite.HoodieUP_BearHeaddress,
+        ClothingItemExtraOption = UpHoodie,
+        BodyLocation = TorsoExtraPlus1,
+        BloodLocation = Jumper,
+        Icon = BearHeaddress,
+        ScratchDefense = 10,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.6,
+        WindResistance = 0.25,
+        FabricType = Cotton,
+        WorldStaticModel = WorldItem-BearHeaddress,		
+    }
+
+    item HoodieUP_BearHeaddress
+    {
+        DisplayCategory = Clothing,		
+        Type = Clothing,
+        DisplayName = Bear Headdress,
+        ClothingItem = HoodieUP_BearHeaddress,
+        ClothingItemExtra = AuthenticZLite.HoodieDOWN_BearHeaddress,
+        ClothingItemExtraOption = DownHoodie,
+        BodyLocation = BearHeaddress,
+        BloodLocation = Jumper;FullHelmet,
+        Icon = BearHeaddress,
+        ScratchDefense = 10,
+        Insulation = 0.55,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+        WorldStaticModel = WorldItem-BearHeaddress,		
+    }
+
     item HoodieDOWN_Bengal
     {
         DisplayCategory = Clothing,		

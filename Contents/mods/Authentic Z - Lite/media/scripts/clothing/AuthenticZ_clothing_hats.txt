@@ -348,6 +348,36 @@ module AuthenticZLite {
         Insulation = 0.10,
         Weight = 0.5,
     }	
+    item Hat_BaseballCapBuzzers
+    {
+	    DisplayCategory = Accessory,	
+        Type = Clothing,
+        DisplayName = Buzzers Baseball Cap,
+        ClothingItem = Hat_BaseballCapBuzzers,
+        ClothingItemExtra = AuthenticZClothing.Hat_BaseballCapBuzzers_Reverse,	
+        ClothingItemExtraOption = ReverseCap,		
+        BodyLocation = Hat,
+        Icon = BaseballCapBuzzers,
+        CanHaveHoles = false,
+        ChanceToFall = 80,
+        Insulation = 0.10,
+        Weight = 0.5,	
+    }
+    item Hat_BaseballCapBuzzers_Reverse
+    {
+	    DisplayCategory = Accessory,	
+        Type = Clothing,
+        DisplayName = Buzzers Baseball Cap,
+        ClothingItem = Hat_BaseballCapBuzzers_Reverse,
+        ClothingItemExtra = AuthenticZClothing.Hat_BaseballCapBuzzers,
+        ClothingItemExtraOption = ForwardCap,
+        BodyLocation = Hat,
+        Icon = BaseballCapBuzzers,
+        CanHaveHoles = false,
+        ChanceToFall = 80,
+        Insulation = 0.10,
+        Weight = 0.5,
+    }
     item Hat_BaseballCapClementine
     {
 	    DisplayCategory = Accessory,	
@@ -988,6 +1018,20 @@ module AuthenticZLite {
 		BloodLocation = Head,
 		OBSOLETE = TRUE,
 	}
+    item Hat_DeerSkull
+	{
+	    DisplayCategory = Accessory,	
+        Type 			 = Clothing,
+        DisplayName 	 = Deer Skull,
+        ClothingItem 	 = Hat_DeerSkull,
+        BodyLocation 	 = Hat,
+        Icon 			 = DeerSkull,
+        CanHaveHoles 	 = false,
+        ChanceToFall 	 = 80,
+        Insulation 		 = 0.10,
+        Weight 			 = 0.5,
+		WorldStaticModel = WorldItem-DeerSkull,
+    }	
 	item Hat_Dimitrescu
 	{
 	    DisplayCategory = Accessory,	
@@ -1159,6 +1203,19 @@ module AuthenticZLite {
         WaterResistance = 0.85,
         Weight = 1.5,
 	}	
+    item Hat_FurryEarsAZ
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Furry Ears,
+		ClothingItem = Hat_FurryEarsAZ,
+		BodyLocation = Hat,
+		IconsForTexture = FurryEars_1_Blonde;FurryEars_2_Tan;FurryEars_3_Mud;FurryEars_4_Sand;FurryEars_5_Beige;FurryEars_6_Fawn;FurryEars_7_Dirt;FurryEars_8_Brown;FurryEars_9_Burnt;FurryEars_10_MudBrown;FurryEars_11_Charcoal;FurryEars_12_Black;FurryEars_13_Grey;FurryEars_14_Olive;FurryEars_15_Slate;FurryEars_16_Silver;FurryEars_17_Beach;FurryEars_18_Mahogany;FurryEars_19_Ruby;FurryEars_20_Bronze,
+		CanHaveHoles = false,
+		BloodLocation = Head,
+		ChanceToFall = 10,
+		WorldStaticModel = WorldItem-FurryEars_AZ,
+	}		
 	item Hat_GhostFace
 	{
 	    DisplayCategory = Accessory,	
@@ -1683,6 +1740,24 @@ module AuthenticZLite {
         WindResistance = 0.40,
         WaterResistance = 0.25,
     	}
+	item Hat_VikingHelmet
+	{
+	    DisplayCategory = Accessory,	
+		Type = Clothing,
+		DisplayName = Viking Helmet,
+		ClothingItem = Hat_VikingHelmet,
+		BodyLocation = FullHat,
+		Icon = VikingMetalHelmet,
+		BloodLocation = FullHelmet,
+		CanHaveHoles = false,
+		CombatSpeedModifier = 0.95,
+		BiteDefense = 100,
+        ScratchDefense = 100,
+        Insulation = 0.45,
+        WindResistance = 0.65,
+        WaterResistance = 1.0,
+		WorldStaticModel = WorldItem-VikingHelmet,		
+	}			
 	item Hat_WeddingVeilBlue
 	{
 	    DisplayCategory = Accessory,	

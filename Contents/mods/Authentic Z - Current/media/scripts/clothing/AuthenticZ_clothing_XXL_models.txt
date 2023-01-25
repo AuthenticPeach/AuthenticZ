@@ -360,7 +360,8 @@ module AuthenticZClothing {
         BodyLocation = TorsoExtra,
         IconsForTexture = ConstructionVest;Huntingvest_Orange;Huntingvest_Grey;Huntingvest_Camo;Huntingvest_Orange;Huntingvest_Grey;Huntingvest_Camo;SweaterVestWhite;SweaterVestArgyle,
         BloodLocation = ShirtNoSleeves,
-		Tooltip = Tooltip_Size2XL,		
+		Tooltip = Tooltip_Size2XL,
+        WorldStaticModel = HuntingVest_Ground,
     }
     item Fat02_Vest_TankTop
     {
@@ -373,7 +374,8 @@ module AuthenticZClothing {
         BodyLocation = TorsoExtra,
         IconsForTexture = ConstructionVest;Huntingvest_Orange;Huntingvest_Grey;Huntingvest_Camo;Huntingvest_Orange;Huntingvest_Grey;Huntingvest_Camo;SweaterVestWhite;SweaterVestArgyle,
         BloodLocation = ShirtNoSleeves,
-		Tooltip = Tooltip_Size2XL,		
+		Tooltip = Tooltip_Size2XL,
+        WorldStaticModel = HuntingVest_Ground,	
     }
 
     item Fat02_Dress_Knees

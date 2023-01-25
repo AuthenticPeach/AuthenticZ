@@ -230,6 +230,29 @@ AuthenticZ.tab_addMagProcedural_AZMilitaryFlashlight  = function(x,count)
   table.insert(ProceduralDistributions.list[x].items,"AuthenticZClothing.Authentic_MilitaryFlashlightGreen");
   table.insert(ProceduralDistributions.list[x].items, count);  
 end
+
+--Round Gowns
+AuthenticZ.tab_addMagProcedural_RG  = function(x,count)
+  ProceduralDistributions = ProceduralDistributions or {};
+  ProceduralDistributions.list = ProceduralDistributions.list or {};
+  ProceduralDistributions.list[x] = ProceduralDistributions.list[x] or {};
+  ProceduralDistributions.list[x].items = ProceduralDistributions.list[x].items or {};
+  table.insert(ProceduralDistributions.list[x].items,"AuthenticZClothing.Dress_BallroomDress_Simple");
+  table.insert(ProceduralDistributions.list[x].items, count);
+  table.insert(ProceduralDistributions.list[x].items,"AuthenticZClothing.Dress_BallroomDress_Elegant");
+  table.insert(ProceduralDistributions.list[x].items, count); 
+  table.insert(ProceduralDistributions.list[x].items,"AuthenticZClothing.Dress_BallroomDress_LongSleevedButtoned");
+  table.insert(ProceduralDistributions.list[x].items, count);
+  table.insert(ProceduralDistributions.list[x].items,"AuthenticZClothing.Dress_BallroomDress_LongSleevedButtonedApron");
+  table.insert(ProceduralDistributions.list[x].items, count);
+  table.insert(ProceduralDistributions.list[x].items,"AuthenticZClothing.Dress_BallroomDress_Striped");
+  table.insert(ProceduralDistributions.list[x].items, count);
+  table.insert(ProceduralDistributions.list[x].items,"AuthenticZClothing.Dress_BallroomDress_StripedApron");
+  table.insert(ProceduralDistributions.list[x].items, count);
+  table.insert(ProceduralDistributions.list[x].items,"AuthenticZClothing.Dress_BallroomDress_Pattern");
+  table.insert(ProceduralDistributions.list[x].items, count);  
+end
+
 --Tactical Webbing and belt
 AuthenticZ.tab_addMagProcedural_Webbing  = function(x,count)
   ProceduralDistributions = ProceduralDistributions or {};
@@ -301,6 +324,20 @@ AuthenticZ.tab_addMagProcedural_Plushies  = function(x,count)
   table.insert(ProceduralDistributions.list[x].items, count);
   table.insert(ProceduralDistributions.list[x].items,"AuthenticZClothing.OtisPug");
   table.insert(ProceduralDistributions.list[x].items, count);  
+end
+
+--Viking Set
+AuthenticZ.tab_addMagProcedural_Viking  = function(x,count)
+  ProceduralDistributions = ProceduralDistributions or {};
+  ProceduralDistributions.list = ProceduralDistributions.list or {};
+  ProceduralDistributions.list[x] = ProceduralDistributions.list[x] or {};
+  ProceduralDistributions.list[x].items = ProceduralDistributions.list[x].items or {};
+  table.insert(ProceduralDistributions.list[x].items,"AuthenticZClothing.Hat_VikingHelmet");
+  table.insert(ProceduralDistributions.list[x].items, count);
+  table.insert(ProceduralDistributions.list[x].items,"AuthenticZClothing.HoodieDOWN_BearHeaddress");
+  table.insert(ProceduralDistributions.list[x].items, count); 
+  table.insert(ProceduralDistributions.list[x].items,"AuthenticZClothing.Gloves_LeatherGauntlets");
+  table.insert(ProceduralDistributions.list[x].items, count);   
 end
 
 AuthenticZ.tab_addMagProcedural_items("BookstoreBooks",1.0);
@@ -468,8 +505,8 @@ AuthenticZ.tab_Sport_Top("CrateRandomJunk",0.4);--
 --AuthenticZ.tab_Sport_Top("GymLockers",1);
 AuthenticZ.tab_Sport_Top("LaundryLoad3",2);
 AuthenticZ.tab_Sport_Top("LaundryLoad6",0.4);
---AuthenticZ.tab_Sport_Top("SchoolLockers",0.5);
---AuthenticZ.tab_Sport_Top("WardrobeChild",0.2);
+AuthenticZ.tab_Sport_Top("SchoolLockers",0.5);
+AuthenticZ.tab_Sport_Top("WardrobeChild",0.2);
 
 AuthenticZ.tab_Bag_RoadsideDuffel("MechanicShelfTools",1.0);
 AuthenticZ.tab_Bag_RoadsideDuffel("OtherGeneric",0.3);
@@ -483,6 +520,22 @@ AuthenticZ.tab_Bag_RoadsideDuffel("GarageMechanics",0.5);
 AuthenticZ.tab_Bag_RoadsideDuffel("GarageTools",1.25);
 AuthenticZ.tab_Bag_RoadsideDuffel("MechanicShelfTools",1.0);
 AuthenticZ.tab_Bag_RoadsideDuffel("GigamartTools",1.0);
+
+--Round Gowns
+ AuthenticZ.tab_addMagProcedural_RG("ClothingStoresDress",0.1); 
+ AuthenticZ.tab_addMagProcedural_RG("CrateRandomJunk", 0.05);
+ AuthenticZ.tab_addMagProcedural_RG("ClothingStoresWoman",0.05);
+ AuthenticZ.tab_addMagProcedural_RG("OtherGeneric",0.01);
+ AuthenticZ.tab_addMagProcedural_RG("CrateCostume",0.05); 
+ AuthenticZ.tab_addMagProcedural_RG("HolidayStuff",1.0); 
+ AuthenticZ.tab_addMagProcedural_RG("WardrobeWomanClassy", 0.05);
+
+--Viking Set
+ AuthenticZ.tab_addMagProcedural_Viking("OtherGeneric",0.01); 
+ AuthenticZ.tab_addMagProcedural_Viking("CrateRandomJunk",0.01); 
+ AuthenticZ.tab_addMagProcedural_Viking("HolidayStuff",0.5); 
+ AuthenticZ.tab_addMagProcedural_Viking("CrateCostume",0.5); 
+ AuthenticZ.tab_addMagProcedural_Viking("CrateClothesRandom",0.05); 
 
 AuthenticZ.tab_addMagProcedural_Torch2("MechanicShelfTools",2.0);
 AuthenticZ.tab_addMagProcedural_Torch2("OtherGeneric",0.3);

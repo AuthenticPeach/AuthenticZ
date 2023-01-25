@@ -3913,6 +3913,34 @@
 	<files>
 		<path>media/clothing/clothingItems/CultistMask.xml</path>
 		<guid>5807eb9f-41f7-4e0b-af18-6f68ee627114</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Dress_BallroomDress_Striped.xml</path>
+		<guid>5c4b68e8-3c6c-4428-b0ec-cac53e5bcb2b</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Dress_BallroomDress_StripedApron.xml</path>
+		<guid>770ee70e-82cc-48de-81f3-d81ad153bb61</guid>
+	</files>	
+	<files>
+		<path>media/clothing/clothingItems/Dress_BallroomDress_Elegant.xml</path>
+		<guid>f5143527-ccad-4a75-b6ca-56cfe12baec4</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Dress_BallroomDress_LongSleevedButtoned.xml</path>
+		<guid>33198176-9ea7-4263-9ed3-75e1d609ee66</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Dress_BallroomDress_LongSleevedButtonedApron.xml</path>
+		<guid>5ebbe025-0496-4a31-9763-b2d8046f61d5</guid>
+	</files>	
+	<files>
+		<path>media/clothing/clothingItems/Dress_BallroomDress_Pattern.xml</path>
+		<guid>dadfba51-6b73-48d9-bbaa-95dc584bf57a</guid>
+	</files>	
+	<files>
+		<path>media/clothing/clothingItems/Dress_BallroomDress_Simple.xml</path>
+		<guid>f17aef9c-9e04-486e-8b9d-3c9f34d5ed1f</guid>
 	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Dress_Dimitrescu.xml</path>
@@ -4069,6 +4097,10 @@
 	<files>
 		<path>media/clothing/clothingItems/Gloves_LeatherGlovesBlackFull.xml</path>
 		<guid>83e89687-4183-4889-9cb5-30fddda481d8</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Gloves_LeatherGauntlets.xml</path>
+		<guid>cd455823-f34c-42f9-b08a-87896d6d0ae3</guid>
 	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Gloves_LeatherGlovesWhite.xml</path>
@@ -4251,7 +4283,15 @@
 	<files>
 		<path>media/clothing/clothingItems/Hat_BaseballCapBossTagilla_Reverse.xml</path>
 		<guid>dfac4749-ec69-40d0-a2cd-f2151f50644e</guid>
-	</files>	
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Hat_BaseballCapBuzzers.xml</path>
+		<guid>afcb113c-16c1-43a8-b6d2-2ada2096b150</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Hat_BaseballCapBuzzers_Reverse.xml</path>
+		<guid>72bd1d41-c968-42c9-9e60-1b6a0c4c6bca</guid>
+	</files>
 	<files>
 		<path>media/clothing/clothingItems/Hat_BaseballCapClementine.xml</path>
 		<guid>9ee675a8-37f7-45df-b4df-91d0a8138338</guid>
@@ -4401,6 +4441,10 @@
 		<guid>53643a3b-bc9e-406a-914e-205b3c4ec787</guid>
 	</files>
 	<files>
+		<path>media/clothing/clothingItems/Hat_DeerSkull.xml</path>
+		<guid>eaa86691-02db-4d15-bf5f-ea8021b62b3e</guid>
+	</files>	
+	<files>
 		<path>media/clothing/clothingItems/Hat_Dimitrescu.xml</path>
 		<guid>f64de544-9a94-456c-9676-7e70817179c9</guid>
 	</files>
@@ -4455,6 +4499,10 @@
 	<files>
 		<path>media/clothing/clothingItems/Hat_FootballHelmet_Patriots.xml</path>
 		<guid>7186662e-0d20-4950-b065-585e8f1b16a0</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Hat_FurryEarsAZ.xml</path>
+		<guid>9b7e1d4d-e257-4ff6-bc0c-4897af52a80e</guid>
 	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Hat_Gibus.xml</path>
@@ -4613,6 +4661,10 @@
 		<guid>6167c930-076f-4ed7-ad5e-7c2e407987d4</guid>
 	</files>
 	<files>
+		<path>media/clothing/clothingItems/Hat_VikingHelmet.xml</path>
+		<guid>f11bcc22-2c56-4632-813b-7df3e446d9f1</guid>
+	</files>	
+	<files>
 		<path>media/clothing/clothingItems/Hat_Witchy_2.xml</path>
 		<guid>afa17cee-93fc-4949-922f-8272bcf59fcd</guid>
 	</files>
@@ -4719,6 +4771,14 @@
 	<files>
 		<path>media/clothing/clothingItems/HoodieTied_Checkered.xml</path>
 		<guid>150da59c-789f-4a6b-b5c8-6b14b22fa6f6</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/HoodieUP_BearHeaddress.xml</path>
+		<guid>5433d496-6d26-44b1-bf88-fa34197a7b85</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/HoodieDOWN_BearHeaddress.xml</path>
+		<guid>ca872d53-503d-445c-b337-5d6f28888e5d</guid>
 	</files>	
 	<files>
 		<path>media/clothing/clothingItems/HoodieUP_Bengal.xml</path>
@@ -5351,6 +5411,10 @@
 	<files>
 		<path>media/clothing/clothingItems/Shirt_Bub.xml</path>
 		<guid>7980edc2-7047-404e-8f76-80d5e691f57d</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Shirt_Buzzers.xml</path>
+		<guid>5392d7d6-ffb7-4917-bc4b-01269ea97036</guid>
 	</files>
 	<files>
 		<path>media/clothing/clothingItems/Shirt_Cheerleader.xml</path>

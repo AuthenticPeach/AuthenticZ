@@ -302,7 +302,7 @@ module AuthenticZLite {
 					
     }	
 
-    item AZ_HairStyle30
+    item AZ_HairStyle31
     {
        DisplayCategory = Accessory,		
 		Type = Clothing,
@@ -322,6 +322,47 @@ module AuthenticZLite {
 		BodyLocation = Hat,
         Icon = Wig,
 					
+    }
+
+    item AZ_HairStyle31
+    {
+       DisplayCategory = Accessory,		
+		Type = Clothing,
+        DisplayName = Rainbow Wig,		
+		ClothingItem = AZ_HairStyle31,
+		BodyLocation = Necklace,
+        Icon = Wig,		
+    }
+	
+    item AZ_HairStyle32
+    {
+       DisplayCategory = Accessory,		
+		Type = Clothing,
+/*        DisplayName = Royale Wig,	*/			
+		ClothingItem = AZ_HairStyle32,
+		BodyLocation = Hat,
+        Icon = Wig,		
+    }	
+
+    item AZ_HairStyle33
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+/*        DisplayName = Hairstyle,		*/			
+        ClothingItem = AZ_HairStyle33,
+        BodyLocation = Hat,
+        Icon = Wig,
+    }
+
+    item AZ_HairStyle34
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Wig with Highlights,				
+        ClothingItem = AZ_HairStyle34,
+        BodyLocation = HeadExtra,
+        IconsForTexture = WigBlackPinkHighlights;WigBlackBlueHighlights;WigBlackPurpleHighlights,
+        WorldStaticModel = WorldItem_Wig_Rachel,		
     }
 
     item AZ_BeardStyle01

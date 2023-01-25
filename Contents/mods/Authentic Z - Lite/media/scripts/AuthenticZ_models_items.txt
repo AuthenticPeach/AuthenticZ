@@ -792,11 +792,19 @@ module Base
         texture = clothes\Hats\WeddingVeilPink,
         scale = 0.4,
     }
+	model WorldItem-AfroPick
+	{
+		mesh = WorldItems/WorldItem_AfroPick,
+	}	
 	model WorldItem_AndySign
 	{
 		mesh = WorldItems/WorldItem_AuthenticAndySign,
 		texture = clothes\Items\AndySign,
 	}
+	model WorldItem-BearHeaddress
+	{
+		mesh = WorldItems/WorldItem_BearHeaddress,
+	}	
 	model WorldItem-BroadcastingCamera
 	{
 		mesh = WorldItems/WorldItem_BroadcastingCamera,
@@ -807,15 +815,23 @@ module Base
 		mesh = WorldItems/WorldItem_CoffeeCup,
 		texture = clothes\Items\SeahorseCoffee,
     }	
-	model WorldItem-GhostbusterTrap
+	model WorldItem-EarMuffsAZ
 	{
-		mesh =  WorldItems/WorldItem_GhostbusterTrap,
-		texture = clothes\Items\GhostbustersTrap,
+		mesh =  WorldItems/WorldItem_EarMuffsAZ,
 	}
 	model WorldItem-FeatherDuster
 	{
 		mesh =  WorldItems/WorldItem_FeatherDuster,
 		texture = clothes\Items\FeatherDuster,
+	}
+	model WorldItem-FurryEars_AZ
+	{
+		mesh =  WorldItems/WorldItem_FurryEars_Rotated_AZ,
+	}	
+	model WorldItem-GhostbusterTrap
+	{
+		mesh =  WorldItems/WorldItem_GhostbusterTrap,
+		texture = clothes\Items\GhostbustersTrap,
 	}	
 	model WorldItem-AuthenticGlowstickBlank
 	{
@@ -880,27 +896,22 @@ module Base
 	model WorldItem_Boater_Ground_Blue
     {
 		mesh = WorldItems/WorldItem-Boater,
-		texture = clothes\Hats\BoaterBlue,
     }
 	model WorldItem_Boater_Ground_Red
     {
 		mesh = WorldItems/WorldItem-Boater,
-		texture = clothes\Hats\BoaterRed,
     }
 	model WorldItem_Boater_Ground_Green
     {
 		mesh = WorldItems/WorldItem-Boater,
-		texture = clothes\Hats\BoaterGreen,
     }
 	model WorldItem_Boater_Ground_Purple
     {
 		mesh = WorldItems/WorldItem-Boater,
-		texture = clothes\Hats\BoaterPurple,
     }
 	model WorldItem_Boater_Ground_Yellow
     {
 		mesh = WorldItems/WorldItem-Boater,
-		texture = clothes\Hats\BoaterYellow,
     }
 	model WorldItem_BackpackEvangelo
     {
@@ -1106,6 +1117,10 @@ module Base
 	model WorldItem_CatEars
     {
 		mesh = WorldItems/WorldItem_CatEars,
+    }
+	model WorldItem-DeerSkull
+    {
+		mesh = WorldItems/WorldItem_DeerSkull,
     }	
 	model WorldItem-DuelCap
     {
@@ -1186,7 +1201,11 @@ module Base
     {
 		mesh = WorldItems/WorldItem_JackoLantern,
 		texture = clothes\Hats\Jackolantern,		
-    }		
+    }
+	model WorldItem-LeatherGauntlets
+    {
+		mesh =  WorldItems/WorldItem_LeatherGauntlets,
+    }	
 	model WorldItem_MichaelMyersMask
 	{
 		mesh = WorldItems/WorldItem_MichaelMyersMask,		
@@ -1270,6 +1289,18 @@ module Base
 		mesh = WorldItems/WorldItem_RoadsideTriangle,
 		texture = clothes\Items\RoadsideTriangle,		
 	}
+	model WorldItem-RoundGown
+	{
+		mesh = WorldItems/WorldItem_RoundGown,	
+	}
+	model WorldItem-RoundGown4_LongSleeved
+	{
+		mesh = WorldItems/WorldItem_RoundGown4_LongSleeved,	
+	}	
+	model WorldItem-RoundGownPoncho
+	{
+		mesh = WorldItems/WorldItem_RoundGownPoncho,	
+	}	
 	model WorldItem_SmallBoater
 	{
 		mesh = WorldItems/WorldItem-SmallBoater,	
@@ -1424,6 +1455,10 @@ module Base
 		mesh = WorldItems/WorldItem_TrueEyeCultMask,
 		texture = clothes\Masks\TrueEyeCult,
     }
+	model WorldItem-VikingHelmet
+    {
+		mesh = WorldItems/WorldItem_VkingHelmet,
+    }		
 	model WorldItem_Wig_Rachel
     {
 		mesh = WorldItems/WorldItem_Wig_Rachel,

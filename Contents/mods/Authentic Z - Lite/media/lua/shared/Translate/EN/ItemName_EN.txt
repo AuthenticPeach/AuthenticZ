@@ -1045,4 +1045,22 @@ ItemName_EN = {
     ItemName_AuthenticZLite.Authentic_HeadphonesNeck3 = "Cat Ear Headphones",
     ItemName_AuthenticZLite.CatEarsAZ = "Cat Ears",	
 	
+	/* New */
+    ItemName_AuthenticZLite.Dress_BallroomDress_Elegant = "Elegant Round Gown",		
+    ItemName_AuthenticZLite.Dress_BallroomDress_LongSleevedButtoned = "Long-Sleeved Round Gown",		
+    ItemName_AuthenticZLite.Dress_BallroomDress_LongSleevedButtonedApron = "Long-Sleeved Round Gown with Apron",		
+    ItemName_AuthenticZLite.Dress_BallroomDress_Simple = "Round Gown",	
+    ItemName_AuthenticZLite.Dress_BallroomDress_Striped = "Round Gown",		
+    ItemName_AuthenticZLite.Dress_BallroomDress_StripedApron = "Round Gown with Apron",	
+    ItemName_AuthenticZLite.Dress_BallroomDress_Pattern = "Round Gown",			
+    ItemName_AuthenticZLite.Gloves_LeatherGauntlets = "Leather Gauntlets",		
+    ItemName_AuthenticZLite.Hat_DeerSkull = "Deer Skull",		
+    ItemName_AuthenticZLite.Hat_VikingHelmet = "Viking Helmet",	
+    ItemName_AuthenticZLite.HoodieDOWN_BearHeaddress = "Bear Headdress (Down)",	
+    ItemName_AuthenticZLite.HoodieUP_BearHeaddress = "Bear Headdress (Up)",	
+    ItemName_AuthenticZLite.Hat_BaseballCapBuzzers = "Buzzers Baseball Cap",		
+    ItemName_AuthenticZLite.Hat_BaseballCapBuzzers_Reverse = "Buzzers Baseball Cap (Reversed)",		
+    ItemName_AuthenticZLite.Hat_FurryEarsAZ = "Furry Ears",		
+    ItemName_AuthenticZLite.Shirt_Buzzers = "Buzzers Shirt",	
+	
 }

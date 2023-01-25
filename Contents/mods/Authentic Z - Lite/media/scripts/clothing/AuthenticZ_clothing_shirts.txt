@@ -43,6 +43,20 @@
         FabricType = Cotton,
 		WorldStaticModel = Shirt_Ground,
 	}
+     item Shirt_Buzzers
+	{
+        DisplayCategory = Clothing,		
+		Type = Clothing,
+		DisplayName = Buzzers Shirt,
+		ClothingItem = Shirt_Buzzers,
+		BodyLocation = Shirt,
+		Icon = ShirtBuzzers,
+		BloodLocation = ShirtLongSleeves,
+        Insulation = 0.65,
+        WindResistance = 0.5,
+        FabricType = Cotton,
+		WorldStaticModel = Shirt_Ground,
+	}
     item Shirt_Cheerleader
 	{
         DisplayCategory = Clothing,		

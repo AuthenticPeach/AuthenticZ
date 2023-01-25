@@ -454,7 +454,23 @@ recipe Open Medical Coat
    	   Result:AuthenticZClothing.Jacket_Doctor2,
 	   Time:30.0,
 	   Tooltip:Tooltip_OpenJacket,	   
+  	}
+recipe Tie Apron Around Dress
+  	{
+   	   Dress_BallroomDress_Striped,
+	   OnTest:KoniTestAZ_OnTest_ConvertClothing,
+	   OnCreate:KoniTestAZ_OnCreate_ConvertClothing,
+   	   Result:Dress_BallroomDress_StripedApron,
+	   Time:50.0,
   	}	
+recipe Tie Apron Around Dress
+  	{
+   	   Dress_BallroomDress_LongSleevedButtoned,
+	   OnTest:KoniTestAZ_OnTest_ConvertClothing,
+	   OnCreate:KoniTestAZ_OnCreate_ConvertClothing,
+   	   Result:Dress_BallroomDress_LongSleevedButtonedApron,
+	   Time:50.0,
+  	}		
 recipe Tie Hoodie Around Waist
   	{
    	   HoodieUP_WhiteTINT,

@@ -434,7 +434,7 @@ module AuthenticZClothing {
 		ClothingItem 			= CrutchRIGHT,
 		ClothingItemExtra		= AuthenticZClothing.CrutchLEFT,
         ClothingItemExtraOption = SwapSides,			
-		BodyLocation 			= TorsoExtra,
+		BodyLocation 			= TorsoRigPlus2,
 		Icon 					= CrutchAZ,
 		Weight 					= 1,
 		WorldStaticModel		= WorldItem-CrutchAZ,	
@@ -579,6 +579,23 @@ module AuthenticZClothing {
         WindResistance = 0.75,
         FabricType = Leather,
         WorldStaticModel = Gloves_Ground,		
+	}
+	item Gloves_LeatherGauntlets
+	{
+       DisplayCategory = Clothing,		
+		Type = Clothing,
+		DisplayName = Leather Gauntlets,
+		ClothingItem = Gloves_LeatherGauntlets,
+		BodyLocation = Hands,
+		BloodLocation = Hands,
+		Icon = LeatherGauntlets,
+		ScratchDefense = 30,
+        BiteDefense = 15,
+        Weight = 0.1,
+        Insulation = 0.75,
+        WindResistance = 0.75,
+        FabricType = Leather,
+        WorldStaticModel = WorldItem-LeatherGauntlets,		
 	}	
 	item Gloves_LeatherGlovesWhite
 	{
@@ -873,6 +890,7 @@ module AuthenticZClothing {
         Insulation = 0.4,
         WindResistance = 0.4,
         Weight = 0.3,
+        WorldStaticModel  = WorldItem-EarMuffsAZ,		
     }	
 	item Hat_EarMuffs_Neck
 	{
@@ -890,6 +908,7 @@ module AuthenticZClothing {
         Insulation = 0.4,
         WindResistance = 0.4,
         Weight = 0.3,
+        WorldStaticModel  = WorldItem-EarMuffsAZ,		
     }
 	item Hat_EarMuff_Protectors_AZ
 	{
@@ -907,6 +926,7 @@ module AuthenticZClothing {
         Insulation = 0.35,
         WindResistance = 0.35,
         Weight = 0.3,
+        WorldStaticModel  = WorldItem-EarMuffsAZ,		
     }	
 	item Hat_EarMuff_Protectors_Neck
 	{
@@ -924,6 +944,7 @@ module AuthenticZClothing {
         Insulation = 0.35,
         WindResistance = 0.35,
         Weight = 0.3,
+        WorldStaticModel  = WorldItem-EarMuffsAZ,		
     }	
 	item Hairstyle_Afro_Pick
 	{
@@ -935,7 +956,8 @@ module AuthenticZClothing {
         ClothingItemExtraOption = AfroPick2,	
 		BodyLocation 	  = Hat,
 		IconsForTexture   = HairpickBlack;HairpickBlue;HairpickBlueDiamonds;HairpickSeaGreen;HairpickNeon;HairpickPink;HairpickPinkHearts;HairpickRed;HairpickWhite,
-		Weight 			  = 0.1,
+		Weight 			= 0.05,
+        WorldStaticModel  = WorldItem-AfroPick,	
 	}
 	item Hairstyle_Afro_Pick2
 	{
@@ -947,7 +969,8 @@ module AuthenticZClothing {
         ClothingItemExtraOption = AfroPick,							
 		BodyLocation 	= Hat,
 		IconsForTexture = HairpickBlack;HairpickBlue;HairpickBlueDiamonds;HairpickSeaGreen;HairpickNeon;HairpickPink;HairpickPinkHearts;HairpickRed;HairpickWhite,
-		Weight 			= 0.1,
+		Weight 			= 0.05,
+        WorldStaticModel  = WorldItem-AfroPick,	
 	}
 	item Hairstyle_HairCurlers
 	{
