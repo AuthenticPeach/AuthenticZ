@@ -2392,15 +2392,18 @@
 		<m_items> <!-- Buzzers Backwards Hat -->
 			<itemGUID>afcb113c-16c1-43a8-b6d2-2ada2096b150</itemGUID>
 		</m_items>
-		<m_items> <!-- Headphones-->
-			<itemGUID>27bc397f-b13a-42a7-9666-1726edccca58</itemGUID>
-			<subItems>
-				<itemGUID>2fb65117-0609-4d55-977f-29f599912b4c</itemGUID>
-			</subItems>				
-		</m_items>	
+		<m_items> <!-- Headphones Neck -->
+			<itemGUID>ec364ac9-cadc-4776-98fb-7b14d29b67ca</itemGUID> 
+		</m_items>			
+		<m_items> <!-- Cigarette -->
+			<itemGUID>410485f1-a2d9-4936-bc38-2deb0c9d0ec5</itemGUID> 
+		</m_items>		
 		<m_items> <!-- Buzzers T-Shirt -->
 			<itemGUID>5392d7d6-ffb7-4917-bc4b-01269ea97036</itemGUID>
-		</m_items>	
+		</m_items>
+		<m_items> <!-- Buzzers Hoodie Down -->
+			<itemGUID>7d929cb4-3207-48d6-a51f-f9aca07d1582</itemGUID>
+		</m_items>			
 		<m_items> <!-- Jeans -->
 			<itemGUID>8973893f-f324-4cdb-a32b-43cd0378174f</itemGUID>
 		</m_items>
@@ -8895,7 +8898,8 @@
 			</subItems>
 			<subItems>
 				<itemGUID>20c91354-0612-4913-9f7c-d15d4c2c4ede</itemGUID>
-			</subItems>			
+			</subItems>	
+			
 		</m_items>								
 		<m_items> <!-- Cigarette -->
 			<probability>0.05</probability>		
@@ -8948,7 +8952,10 @@
 			</subItems>
 			<subItems> <!-- Fat01_HoodieUP -->
 				<itemGUID>d8a600ea-6485-405b-8c9f-d7a20b9242b1</itemGUID>
-			</subItems>			
+			</subItems>	
+			<subItems> <!-- BaseballCap SmileyFace -->
+				<itemGUID>1d159dd5-d387-4c10-ada8-de58911b29e3</itemGUID>
+			</subItems>				
 		</m_items>		
 		<m_items> <!-- Glasses_Normal -->
 			<probability>0.08</probability>		
@@ -19499,6 +19506,56 @@
 			</subItems>				
 		</m_items>			
 	</m_MaleOutfits>
+
+<m_MaleOutfits> <m_Name>AuthenticWichammer</m_Name>
+		<m_Guid>281221d2-7d49-4ced-a296-45d6fbb24c1b</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowTopTint>false</m_AllowTopTint>	
+		<m_items> <!-- Headphones -->
+			<itemGUID>ae81a4b7-f546-47ad-a7c6-6e67e609cd60</itemGUID> 
+		</m_items>					
+		<m_items> <!-- Wichammer T-Shirt -->
+			<itemGUID>29673602-d6e7-45e7-9563-c76db28a6872</itemGUID>
+		</m_items>		
+		<m_items> <!-- Skin tight Jeans -->
+			<itemGUID>b63133df-07bb-46db-91ca-cc10f2048669</itemGUID>
+		</m_items>
+		<m_items> <!-- Long Socks -->
+			<itemGUID>fb86bd5f-1931-4b24-a5d7-bd6a43769991</itemGUID>
+		</m_items>	
+		<m_items> <!-- Military Boots -->
+			<itemGUID>227cb2d5-05a5-44ed-872d-ac4ca16e80bc</itemGUID>
+		</m_items>
+		<m_items> <!-- White Zed Skin with Stubble -->
+			<itemGUID>70693fe3-28db-4e60-8750-e2dd863b9637</itemGUID>
+		</m_items>	
+		<m_items> <!-- Dismembered Bone_Arm_L -->
+			<probability>0.03</probability>		
+			<itemGUID>6e10e6c0-0ac4-4010-974c-56d57f1edd46</itemGUID>
+			<subItems> <!-- Bone_Arm_R-->
+				<itemGUID>5eab0171-d6d2-422e-b69a-3387f219652f</itemGUID>
+			</subItems>
+			<subItems> <!-- Bone_UpperArm_L -->
+				<itemGUID>4736ed99-f312-44f3-b312-8dffd1629a25</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bone_UpperArm_R -->
+				<itemGUID>9b7d0838-abd4-4720-bd91-260c5e8c8003</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bone_Hand_L -->
+				<itemGUID>9f1781e7-c6b6-4fee-adfb-cf14ef833a76</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bone_Hand_R -->
+				<itemGUID>6e7fb312-cb8b-4bf4-8062-c2a72851e190</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bone_Stub_R -->
+				<itemGUID>ade3238e-17c4-4ddd-896b-eadb3208635c</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bone_Stub_L -->
+				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>				
+		</m_items>			
+</m_MaleOutfits>
 	
 <m_MaleOutfits> <m_Name>AuthenticWildSalesMan</m_Name>
 		<m_Guid>fd2b0bd5-dd15-4043-a4ab-36e759ece22e</m_Guid>
@@ -20069,12 +20126,12 @@
 			</subItems>				
 		</m_items>				
 		<m_items>
-			<probability>0.2</probability>
+			<probability>0.2</probability> <!-- Glasses_Normal-->
 			<itemGUID>6d702d88-4ca0-4bcb-9aee-d88f2be29e69</itemGUID>
-			<subItems>
+			<subItems> <!-- Glasses_Reading-->
 				<itemGUID>9df22d1f-96cd-4d2c-88f2-4e7423d93649</itemGUID>
 			</subItems>
-			<subItems>
+			<subItems> <!-- Glasses_Sun-->
 				<itemGUID>3d6530fd-b3c1-4ae3-ad23-657ed73c51fe</itemGUID>
 			</subItems>
 		</m_items> 
@@ -20094,19 +20151,19 @@
 				<itemGUID>8c80a404-dc1d-4b2a-a56a-8647f1f720a8</itemGUID>
 			</subItems>			
 		</m_items>
-		<m_items>
+		<m_items> <!-- Trousers_JeanBaggy -->
 			<itemGUID>8973893f-f324-4cdb-a32b-43cd0378174f</itemGUID>
 		</m_items>
-		<m_items>
+		<m_items>  <!-- Tshirt_DefaultTEXTURE_TINT -->
 			<itemGUID>19af00e4-ed4d-49bc-a893-a4a3376fe6da</itemGUID>
 		</m_items>
-		<m_items>
+		<m_items>  <!-- Socks_Ankle -->
 			<itemGUID>ebea15c8-99b3-4e20-905b-d22cf82b8217</itemGUID>
 		</m_items>
-		<m_items>
+		<m_items>  <!-- Shoes_TrainerTINT -->
 			<itemGUID>6fed6e2b-3a72-4bac-aac5-09585984493d</itemGUID>
 		</m_items>
-		<m_items>
+		<m_items> <!-- Watches -->
 			<probability>0.3</probability>
 			<itemGUID>5fc22466-2942-4ba1-8c33-2a8528b73021</itemGUID>
 			<subItems>
@@ -20119,7 +20176,7 @@
 				<itemGUID>0383956a-3fbd-4001-9749-69e2ba70b134</itemGUID>
 			</subItems>
 		</m_items>
-		<m_items>
+		<m_items>  <!-- Bracelet_RightFriendshipTINT -->
 			<probability>0.3</probability>
 			<itemGUID>e0326808-75a8-4bef-a712-ef89dddd7b1f</itemGUID>
 		</m_items>
@@ -20203,15 +20260,21 @@
 		<m_items> <!-- Baseball Cap -->
 			<probability>0.2</probability>
 			<itemGUID>7b339ad5-da2e-42a5-8a51-ee87239a943c</itemGUID>
-			<subItems>
+			<subItems>  <!-- BaseballCap Reverse -->
 				<itemGUID>d90d4976-d993-4fae-ad78-f5a4fcf05366</itemGUID>
 			</subItems>
-			<subItems>
+			<subItems>  <!-- Hat BaseballCapGreen-->
+				<itemGUID>fce4e0fd-047d-483a-ad43-873e4440c3aa</itemGUID>
+			</subItems>			
+			<subItems>  <!-- BaseballCapKY -->
 				<itemGUID>b78f9552-1d93-46b7-a42c-6f554ce43e29</itemGUID>
 			</subItems>
-			<subItems>
+			<subItems>  <!-- BaseballCap KY_Reverse -->
 				<itemGUID>7f5d4c0c-d536-4279-9495-68216def74c2</itemGUID>
 			</subItems>
+			<subItems> <!-- BaseballCap SmileyFace -->
+				<itemGUID>1d159dd5-d387-4c10-ada8-de58911b29e3</itemGUID>
+			</subItems>			
 		</m_items>
 		<m_items>  <!-- Glasses -->
 			<probability>0.2</probability>
@@ -20248,7 +20311,7 @@
 				<itemGUID>2d9093bb-6dfa-4541-b9b5-0df30b84d98f</itemGUID>
 			</subItems>					
 		</m_items>
-		<m_items>
+		<m_items> <!-- Watches -->
 			<probability>0.3</probability>
 			<itemGUID>5fc22466-2942-4ba1-8c33-2a8528b73021</itemGUID>
 			<subItems>
@@ -20261,7 +20324,7 @@
 				<itemGUID>0383956a-3fbd-4001-9749-69e2ba70b134</itemGUID>
 			</subItems>
 		</m_items>
-		<m_items>
+		<m_items>  <!-- Bracelet_RightFriendshipTINT -->
 			<probability>0.3</probability>
 			<itemGUID>e0326808-75a8-4bef-a712-ef89dddd7b1f</itemGUID>
 		</m_items>

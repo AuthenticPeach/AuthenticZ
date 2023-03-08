@@ -114,7 +114,7 @@ module AuthenticZClothing {
 		ClothingItem 			= Authentic_Headphones,
 		ClothingItemExtra		= AuthenticZClothing.Authentic_HeadphonesNeck,
         ClothingItemExtraOption = WearNeck,			
-		BodyLocation 			= Necklace,
+		BodyLocation 			= HeadExtra,
 		Icon 					= Headphones,
 		Weight 					= 0.3,
 		ChanceToFall 			= 25,
@@ -142,7 +142,7 @@ module AuthenticZClothing {
 		ClothingItem 	 		= Authentic_Headphones2,
 		ClothingItemExtra 		= AuthenticZClothing.Authentic_HeadphonesNeck2,
         ClothingItemExtraOption = WearNeck,	
-		BodyLocation 	 		= Necklace,
+		BodyLocation 	 		= HeadExtra,
 		IconsForTexture  		= HeadphonesBlack;HeadphonesBlackSpecial;HeadphonesBlue;HeadphonesBrightPink;HeadphonesGold;HeadphonesGreen;HeadphonesLightBlue;HeadphonesLightBlueSpecial;HeadphonesPink;HeadphonesPurple;HeadphonesRose;HeadphonesSeaGreen;HeadphonesWhite;HeadphonesWhiteSpecial,
 		Weight 			 		= 0.3,
 		ChanceToFall 	 		= 25,
@@ -170,7 +170,7 @@ module AuthenticZClothing {
 		ClothingItem 	 		= Authentic_Headphones3,
 		ClothingItemExtra 		= AuthenticZClothing.Authentic_HeadphonesNeck3,
         ClothingItemExtraOption = WearNeck,	
-		BodyLocation 	 		= Necklace,
+		BodyLocation 	 		= HeadExtra,
 		IconsForTexture  		= HeadphonesEarsPink;HeadphonesEarsWhite,
 		Weight 			 		= 0.3,
 		ChanceToFall 	 		= 25,
@@ -189,7 +189,35 @@ module AuthenticZClothing {
 		Weight 					= 0.3,
 		ChanceToFall 			= 25,
 		WorldStaticModel 		= WorldItem_HeadPhonesEars,
-	}		
+	}
+	item Authentic_Headphones4
+	{
+       DisplayCategory 	 		= Electronics,		
+		Type 	 		 		= Clothing,
+		DisplayName 	 		= Headphones,
+		ClothingItem 	 		= Authentic_Headphones4,
+		ClothingItemExtra 		= AuthenticZClothing.Authentic_HeadphonesNeck4,
+        ClothingItemExtraOption = WearNeck,	
+		BodyLocation 	 		= HeadExtra,
+		Icon  					= HeadphonesBlack,
+		Weight 			 		= 0.3,
+		ChanceToFall 	 		= 25,
+		WorldStaticModel 		= WorldItem_HeadPhones,
+	}
+	item Authentic_HeadphonesNeck4
+	{
+		DisplayCategory 		= Electronics,		
+		Type 					= Clothing,
+		DisplayName 			= Headphones,
+		ClothingItem 			= Authentic_HeadphonesNeck4,
+		ClothingItemExtra 		= AuthenticZClothing.Authentic_Headphones4,
+        ClothingItemExtraOption = WearHead,		
+		BodyLocation 			= Necklace_Long,
+		Icon 					= HeadphonesBlack,
+		Weight 					= 0.3,
+		ChanceToFall 			= 25,
+		WorldStaticModel 		= WorldItem_HeadPhones,
+	}	
 	item Bikini_Pattern02
 	{
        DisplayCategory = Clothing,		
@@ -280,18 +308,6 @@ module AuthenticZClothing {
 		BodyLocation 			= 	Necklace,
 		WorldStaticModel 		= 	WorldItem-BroadcastingCamera,			
     }	
-	
-	item CameraDSLR
-	{
-       DisplayCategory = Clothing,		
-		Type = Clothing,
-		DisplayName = Frank West's DSLR,
-		ClothingItem = CameraDSLR,
-		BodyLocation = Necklace,
-		Icon = DSLRCamera,
-		Weight = 0.7,
-		WorldStaticModel = WorldItem-DSLR,
-	}
 
 	item CameraDSLR
 	{
@@ -299,7 +315,7 @@ module AuthenticZClothing {
 		Type = Clothing,
 		DisplayName = Frank West's DSLR,
 		ClothingItem = CameraDSLR,
-		BodyLocation = Necklace,
+		BodyLocation = Necklace_Long,
 		Icon = DSLRCamera,
 		Weight = 0.7,
 		WorldStaticModel = WorldItem-DSLR,
@@ -312,7 +328,7 @@ module AuthenticZClothing {
         Type				= Clothing,
         DisplayName			= Camera,
 		ClothingItem 		= CameraVanillaRegular,
-		BodyLocation 		= Necklace,		
+		BodyLocation 		= Necklace_Long,		
         Icon				= Camera,
         Weight				= 0.2,
         WorldStaticModel    = Camera_Ground,
@@ -325,7 +341,7 @@ module AuthenticZClothing {
         Type				= Clothing,
         DisplayName			= Disposable Camera,
 		ClothingItem 		= CameraVanillaDisposible,	
-		BodyLocation 		= Necklace,		
+		BodyLocation 		= Necklace_Long,		
         Icon				= CameraDisposable,
         Weight				= 0.2,
         WorldStaticModel    = CameraDisposable_Ground,
@@ -338,7 +354,7 @@ module AuthenticZClothing {
         Type				= Clothing,
         DisplayName			= High-end Camera,
 		ClothingItem 		= CameraVanillaExpensive,
-		BodyLocation 		= Necklace,		
+		BodyLocation 		= Necklace_Long,		
         Icon				= CameraExpensive,
         Weight				= 0.3,
         WorldStaticModel    = CameraExpensive_Ground,
@@ -351,7 +367,7 @@ module AuthenticZClothing {
 		Type = Clothing,
 		DisplayName = Cigarette,
 		ClothingItem = Cigarette,
-		BodyLocation = Necklace,
+		BodyLocation = HeadExtra,
 		Icon = Cigarette,
 		Weight = 0.01,
 		ChanceToFall = 25,
@@ -762,6 +778,23 @@ module AuthenticZClothing {
         FabricType = Cotton,
         WorldStaticModel = GlovesLong_Ground,
 	}
+	item Gloves_SamaraiArmor_Gauntlets
+	{
+       DisplayCategory = Clothing,		
+		Type = Clothing,
+		DisplayName = Samurai Leather Gauntlets,
+		ClothingItem = Gloves_SamaraiArmor_Gauntlets,
+		BodyLocation = Hands,
+		BloodLocation = Hands,
+		Icon = Samurai_Gauntlets,
+		ScratchDefense = 30,
+        BiteDefense = 15,
+        Weight = 0.1,
+        Insulation = 0.75,
+        WindResistance = 0.75,
+        FabricType = Leather,
+        WorldStaticModel = WorldItem-SamuraiGauntlets,		
+	}		
     item HairBow
     {
         DisplayCategory = Clothing,		
@@ -882,7 +915,7 @@ module AuthenticZClothing {
 		ClothingItem = Hat_EarMuffs_AZ,
 		ClothingItemExtra		= AuthenticZClothing.Hat_EarMuffs_Neck,
         ClothingItemExtraOption = WearNeck,		
-		BodyLocation = Necklace,
+		BodyLocation = HeadExtra,
 		Icon = EarMuffs,
 		CanHaveHoles = false,
 		ChanceToFall = 30,
@@ -918,7 +951,7 @@ module AuthenticZClothing {
 		ClothingItem = Hat_EarMuff_Protectors_AZ,
 		ClothingItemExtra		= AuthenticZClothing.Hat_EarMuff_Protectors_Neck,
         ClothingItemExtraOption = WearNeck,		
-		BodyLocation = Necklace,
+		BodyLocation = HeadExtra,
 		Icon = EarProtectors,
 		CanHaveHoles = false,
 		ChanceToFall = 30,
@@ -1079,13 +1112,64 @@ module AuthenticZClothing {
         ClothingItem =  MakeUp_ShotgunFace,
         BodyLocation = ZedDmg,
     }
+	item Mask_Oni
+    {
+		DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Oni Mask,
+		ClothingItem = Mask_Oni,
+		BodyLocation = Mask,
+		IconsForTexture = Samurai_OniMask_Silver;Samurai_OniMask_Bronze;Samurai_OniMask_Green;Samurai_OniMask_Red;Samurai_OniMask_Blue;Samurai_OniMask_Black,
+		CanHaveHoles = false,
+		BloodLocation = Head,
+        BiteDefense = 30,
+        ScratchDefense = 50,
+        Insulation = 0.15,
+        WindResistance = 0.5,
+		ChanceToFall = 20,
+		WorldStaticModel = WorldItem-SamuraiOniMask,
+    }s
+	item Mask_Samurai
+    {
+		DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Samurai Mask,
+		ClothingItem = Mask_Samurai,
+		BodyLocation = Mask,
+		Icon = Samurai_Mask,
+		CanHaveHoles = false,
+		BloodLocation = Head,
+        BiteDefense = 30,
+        ScratchDefense = 50,
+        Insulation = 0.15,
+        WindResistance = 0.5,
+		ChanceToFall = 20,
+		WorldStaticModel = WorldItem-SamuraiMask,
+    }
+    item Necklace_NeckProtector
+    {
+       DisplayCategory = Accessory,		
+        Type = Clothing,
+        DisplayName = Samurai Neck Guard,
+        ClothingItem = Necklace_NeckProtector,
+        BodyLocation = Neck,
+        Icon = Samurai_NeckGuard,
+        Weight = 0.4,
+        BloodLocation = Neck,
+        ScratchDefense = 80,
+        BiteDefense = 80,
+        Insulation = 1.0,
+        WindResistance = 1.0,
+        FabricType = Leather,
+        WorldStaticModel = WorldItem-SamuraiNeckGuards,
+    }
 	item Rose_Dimitrescu
 	{
        DisplayCategory = Accessory,		
 		Type = Clothing,
 		DisplayName = Black Rose,
 		ClothingItem = Rose_Dimitrescu,
-		BodyLocation = Eyes,
+		BodyLocation = HeadExtra,
 		Icon = DimitrescuRose,
 		Weight = 0.1,
 		Cosmetic = TRUE,
@@ -1107,6 +1191,26 @@ module AuthenticZClothing {
         WindResistance = 0.5,
 		ChanceToFall = 20,
 		WorldStaticModel = WorldItem_RaveMask,
+    }
+    item Samurai_WarBanner
+    { 
+        DisplayCategory = Accessory,		
+		Type = Clothing,
+		DisplayName = Samurai War Banner,
+		ClothingItem = Samurai_WarBanner,
+		BodyLocation = HeadExtra,
+        IconsForTexture = Samurai_Banner_Kobayakawa;Samurai_Banner_LastSamurai;Samurai_Banner_Oda;Samurai_Banner_Tokugawa;Samurai_Banner_Takeda,		
+		WorldStaticModel = WorldItem-Samurai_WarBanner,		
+    }
+    item Samurai_ZokWarBanner
+    { 
+        DisplayCategory = Accessory,		
+		Type = Clothing,
+		DisplayName = Samurai War Banner,		
+		ClothingItem = Samurai_ZokWarBanner,
+		BodyLocation = HeadExtra,
+        Icon = Samurai_Banner_Zok,		
+		WorldStaticModel = WorldItem-Samurai_WarBanner,		
     }	
     item Scarf_Black
     {
@@ -1168,6 +1272,13 @@ module AuthenticZClothing {
 		ClothingItem = Skin_White_Zed_M,
 		BodyLocation = TankTop,
     }
+    item Skin_White_Zed_M_Stubble
+    {
+       DisplayCategory = Accessory,		
+		Type = Clothing,
+		ClothingItem = Skin_White_Zed_M_Stubble,
+		BodyLocation = TankTop,
+    }	
     item Skin_White_Zed_M2
     {
        DisplayCategory = Accessory,		

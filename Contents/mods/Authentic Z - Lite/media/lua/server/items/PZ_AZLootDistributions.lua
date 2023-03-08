@@ -55,6 +55,8 @@ AuthenticZ.tab_addMagProcedural_AZHeadphones  = function(x,count)
   table.insert(ProceduralDistributions.list[x].items, count);  
   table.insert(ProceduralDistributions.list[x].items,"AuthenticZLite.Authentic_Headphones3");
   table.insert(ProceduralDistributions.list[x].items, count);
+  table.insert(ProceduralDistributions.list[x].items,"AuthenticZLite.Authentic_Headphones4");
+  table.insert(ProceduralDistributions.list[x].items, count);  
 end
 --Hit Lists
 AuthenticZ.tab_addMagProcedural_items  = function(x,count)

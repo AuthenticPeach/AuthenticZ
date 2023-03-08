@@ -578,7 +578,8 @@ module AuthenticZClothing {
         WindResistance = 0.15,
         FabricType = Cotton,
         WorldStaticModel = Dress_Straps_Ground,
-		Tooltip = Tooltip_Size3XL,			
+		Tooltip = Tooltip_Size3XL,
+		OBSOLETE 			= TRUE,			
     }
     item Fat03_Dress_Short
     {

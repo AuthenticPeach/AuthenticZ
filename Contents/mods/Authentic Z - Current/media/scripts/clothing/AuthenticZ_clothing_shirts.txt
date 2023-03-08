@@ -826,6 +826,20 @@
         FabricType = Cotton,
 		WorldStaticModel = TShirt_Ground,	
 	}
+     item Tshirt_Wichammer
+	{
+        DisplayCategory = Clothing,		
+		Type = Clothing,
+		DisplayName = Wichammer T-Shirt,
+		ClothingItem = Tshirt_Wichammer,
+		BodyLocation = Tshirt,
+		Icon = TShirtBadass,
+		BloodLocation = Shirt,
+        Insulation = 0.65,
+        WindResistance = 0.5,
+        FabricType = Cotton,
+		WorldStaticModel = TShirt_Ground,	
+	}		
     item Vest_BulletBlack
     {
         DisplayCategory = Clothing,	
@@ -1044,6 +1058,22 @@
         FabricType = Cotton,
 		WorldStaticModel = BulletVest_Ground,
     }
+    item Vest_SamuraiBreastPlate
+    {
+        DisplayCategory 		= Clothing,	
+        Type 					= Clothing,
+        DisplayName 			= Samurai Armor,
+		ClothingItem 			= Vest_SamuraiBreastPlate,			
+        BodyLocation 			= TorsoExtra,
+		Icon					= Samurai_Breastplate,
+        BloodLocation 			= Shirt,
+        Insulation 				= 0.65,
+        WindResistance 			= 0.30,
+        BiteDefense 			= 50,
+        ScratchDefense 			= 70,
+        BulletDefense 			= 100,		       
+        WorldStaticModel 		= WorldItem-SamuraiBreastPlate,   		
+    }	
     item Vest_Waistcoat_Barbershop_Blue
     {
         DisplayCategory = Clothing,		

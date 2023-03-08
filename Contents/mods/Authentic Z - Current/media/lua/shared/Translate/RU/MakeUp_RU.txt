@@ -10,4 +10,3 @@ MakeUp_RU = {
     MakeUpType_FullFacePennywise = "Пеннивайз",
     MakeUpType_FullFaceShotgunFace = "Лицо-пушка",	
 }
-

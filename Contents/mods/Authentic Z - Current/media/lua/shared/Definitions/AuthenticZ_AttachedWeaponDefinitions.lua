@@ -30,7 +30,7 @@ AttachedWeaponDefinitions.Organ = {
 --		"AuthenticZClothing.AuthenticOrgan_Hand",
 		"AuthenticZClothing.AuthenticOrgan_Heart",
 		"AuthenticZClothing.AuthenticOrgan_Kidney",
-}
+},
 }
 -- For Specific Outfits --
 
@@ -873,7 +873,7 @@ AttachedWeaponDefinitions.SpikedBat = {
 
 AttachedWeaponDefinitions.HammerOnlyBelt = {
 	chance = 100,
-	outfit = {"AuthenticDISamB", "AuthenticNMRIHJive"},
+	outfit = {"AuthenticDISamB", "AuthenticNMRIHJive", "AuthenticWichammer"},
 	weaponLocation = {"Belt Left", "Belt Right"},
 	bloodLocations = nil,
 	addHoles = false,
@@ -2193,6 +2193,13 @@ AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticWaldo = {
 	chance = 100;
 	weapons = {
 		AttachedWeaponDefinitions.WaldoCane, 
+	},
+}
+
+AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticWichammer = {
+	chance = 100;
+	weapons = {
+		AttachedWeaponDefinitions.HammerOnlyBelt, 
 	},
 }
 

@@ -167,7 +167,7 @@ module AuthenticZLite {
 		Type 	 		 		= Clothing,
 		DisplayName 	 		= Headphones,
 		ClothingItem 	 		= Authentic_Headphones3,
-		ClothingItemExtra 		= AuthenticZClothing.Authentic_HeadphonesNeck3,
+		ClothingItemExtra 		= AuthenticZLite.Authentic_HeadphonesNeck3,
         ClothingItemExtraOption = WearNeck,	
 		BodyLocation 	 		= Necklace,
 		IconsForTexture  		= HeadphonesEarsPink;HeadphonesEarsWhite,
@@ -181,13 +181,41 @@ module AuthenticZLite {
 		Type 					= Clothing,
 		DisplayName 			= Headphones,
 		ClothingItem 			= Authentic_HeadphonesNeck3,
-		ClothingItemExtra 		= AuthenticZClothing.Authentic_Headphones3,
+		ClothingItemExtra 		= AuthenticZLite.Authentic_Headphones3,
         ClothingItemExtraOption = WearHead,		
 		BodyLocation 			= Necklace_Long,
 		IconsForTexture  		= HeadphonesEarsPink;HeadphonesEarsWhite,
 		Weight 					= 0.3,
 		ChanceToFall 			= 25,
 		WorldStaticModel 		= WorldItem_HeadPhonesEars,
+	}
+	item Authentic_Headphones4
+	{
+       DisplayCategory 	 		= Electronics,		
+		Type 	 		 		= Clothing,
+		DisplayName 	 		= Headphones,
+		ClothingItem 	 		= Authentic_Headphones4,
+		ClothingItemExtra 		= AuthenticZLite.Authentic_HeadphonesNeck4,
+        ClothingItemExtraOption = WearNeck,	
+		BodyLocation 	 		= Necklace,
+		Icon  					= HeadphonesBlack,
+		Weight 			 		= 0.3,
+		ChanceToFall 	 		= 25,
+		WorldStaticModel 		= WorldItem_HeadPhones,
+	}
+	item Authentic_HeadphonesNeck4
+	{
+		DisplayCategory 		= Electronics,		
+		Type 					= Clothing,
+		DisplayName 			= Headphones,
+		ClothingItem 			= Authentic_HeadphonesNeck4,
+		ClothingItemExtra 		= AuthenticZLite.Authentic_Headphones4,
+        ClothingItemExtraOption = WearHead,		
+		BodyLocation 			= Necklace_Long,
+		Icon 					= HeadphonesBlack,
+		Weight 					= 0.3,
+		ChanceToFall 			= 25,
+		WorldStaticModel 		= WorldItem_HeadPhones,
 	}	
 	item Bikini_Pattern02
 	{
@@ -260,12 +288,12 @@ module AuthenticZLite {
 	}
 	item BlueZskin_M2
 	{
-       DisplayCategory = Clothing,		
-		Type = Clothing,
-		DisplayName = Blue Male Zombie Skin,
-		ClothingItem = BlueZ_M2,
-		BodyLocation = TankTop,
-		Icon = CorpseSkin_M,
+       DisplayCategory  = Clothing,		
+		Type 		 	= Clothing,
+		DisplayName  	= Blue Male Zombie Skin,
+		ClothingItem 	= BlueZ_M2,
+		BodyLocation 	= TankTop,
+		Icon 		 	= CorpseSkin_M,
 	}
 	
     item BroadcastCamera
@@ -279,29 +307,17 @@ module AuthenticZLite {
 		BodyLocation 			= 	Necklace,
 		WorldStaticModel 		= 	WorldItem-BroadcastingCamera,			
     }	
-	
-	item CameraDSLR
-	{
-       DisplayCategory = Clothing,		
-		Type = Clothing,
-		DisplayName = Frank West's DSLR,
-		ClothingItem = CameraDSLR,
-		BodyLocation = Necklace,
-		Icon = DSLRCamera,
-		Weight = 0.7,
-		WorldStaticModel = WorldItem-DSLR,
-	}
 
 	item CameraDSLR
 	{
-       DisplayCategory = Clothing,		
-		Type = Clothing,
-		DisplayName = Frank West's DSLR,
-		ClothingItem = CameraDSLR,
-		BodyLocation = Necklace,
-		Icon = DSLRCamera,
-		Weight = 0.7,
-		WorldStaticModel = WorldItem-DSLR,
+       DisplayCategory 		= Clothing,		
+		Type 				= Clothing,
+		DisplayName 		= Frank West's DSLR,
+		ClothingItem 		= CameraDSLR,
+		BodyLocation 		= Necklace_Long,
+		Icon		 		= DSLRCamera,
+		Weight 				= 0.7,
+		WorldStaticModel 	= WorldItem-DSLR,
         Tags                = Camera,		
 	}
 	
@@ -311,7 +327,7 @@ module AuthenticZLite {
         Type				= Clothing,
         DisplayName			= Camera,
 		ClothingItem 		= CameraVanillaRegular,
-		BodyLocation 		= Necklace,		
+		BodyLocation 		= Necklace_Long,		
         Icon				= Camera,
         Weight				= 0.2,
         WorldStaticModel    = Camera_Ground,
@@ -324,7 +340,7 @@ module AuthenticZLite {
         Type				= Clothing,
         DisplayName			= Disposable Camera,
 		ClothingItem 		= CameraVanillaDisposible,	
-		BodyLocation 		= Necklace,		
+		BodyLocation 		= Necklace_Long,		
         Icon				= CameraDisposable,
         Weight				= 0.2,
         WorldStaticModel    = CameraDisposable_Ground,
@@ -337,7 +353,7 @@ module AuthenticZLite {
         Type				= Clothing,
         DisplayName			= High-end Camera,
 		ClothingItem 		= CameraVanillaExpensive,
-		BodyLocation 		= Necklace,		
+		BodyLocation 		= Necklace_Long,		
         Icon				= CameraExpensive,
         Weight				= 0.3,
         WorldStaticModel    = CameraExpensive_Ground,
@@ -350,7 +366,7 @@ module AuthenticZLite {
 		Type = Clothing,
 		DisplayName = Cigarette,
 		ClothingItem = Cigarette,
-		BodyLocation = Necklace,
+		BodyLocation = HeadExtra,
 		Icon = Cigarette,
 		Weight = 0.01,
 		ChanceToFall = 25,
@@ -610,6 +626,23 @@ module AuthenticZLite {
         FabricType = Leather,
         WorldStaticModel = Gloves_Ground,		
 	}
+	item Gloves_SamaraiArmor_Gauntlets
+	{
+       DisplayCategory = Clothing,		
+		Type = Clothing,
+		DisplayName = Samurai Leather Gauntlets,
+		ClothingItem = Gloves_SamaraiArmor_Gauntlets,
+		BodyLocation = Hands,
+		BloodLocation = Hands,
+		Icon = Samurai_Gauntlets,
+		ScratchDefense = 30,
+        BiteDefense = 15,
+        Weight = 0.1,
+        Insulation = 0.75,
+        WindResistance = 0.75,
+        FabricType = Leather,
+        WorldStaticModel = WorldItem-SamuraiGauntlets,			
+	}	
 	item Gloves_OvenMitts
 	{
         DisplayCategory = Clothing,		
@@ -1073,13 +1106,64 @@ module AuthenticZLite {
         ClothingItem =  MakeUp_ShotgunFace,
         BodyLocation = ZedDmg,
     }
+	item Mask_Oni
+    {
+		DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Oni Mask,
+		ClothingItem = Mask_Oni,
+		BodyLocation = Mask,
+		IconsForTexture = Samurai_OniMask_Silver;Samurai_OniMask_Bronze;Samurai_OniMask_Green;Samurai_OniMask_Red;Samurai_OniMask_Blue;Samurai_OniMask_Black,
+		CanHaveHoles = false,
+		BloodLocation = Head,
+        BiteDefense = 30,
+        ScratchDefense = 50,
+        Insulation = 0.15,
+        WindResistance = 0.5,
+		ChanceToFall = 20,
+		WorldStaticModel = WorldItem-SamuraiOniMask,
+    }
+	item Mask_Samurai
+    {
+		DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Samurai Mask,
+		ClothingItem = Mask_Samurai,
+		BodyLocation = Mask,
+		Icon = Samurai_Mask,
+		CanHaveHoles = false,
+		BloodLocation = Head,
+        BiteDefense = 30,
+        ScratchDefense = 50,
+        Insulation = 0.15,
+        WindResistance = 0.5,
+		ChanceToFall = 20,
+		WorldStaticModel = WorldItem-SamuraiMask,
+    }	
+    item Necklace_NeckProtector
+    {
+       DisplayCategory = Accessory,		
+        Type = Clothing,
+        DisplayName = Samurai Neck Guard,
+        ClothingItem = Necklace_NeckProtector,
+        BodyLocation = Neck,
+        Icon = Samurai_NeckGuard,
+        Weight = 0.4,
+        BloodLocation = Neck,
+        ScratchDefense = 80,
+        BiteDefense = 80,
+        Insulation = 1.0,
+        WindResistance = 1.0,
+        FabricType = Leather,
+        WorldStaticModel = WorldItem-SamuraiNeckGuards,
+    }
 	item Rose_Dimitrescu
 	{
        DisplayCategory = Accessory,		
 		Type = Clothing,
 		DisplayName = Black Rose,
 		ClothingItem = Rose_Dimitrescu,
-		BodyLocation = Eyes,
+		BodyLocation = HeadExtra,
 		Icon = DimitrescuRose,
 		Weight = 0.1,
 		Cosmetic = TRUE,
@@ -1162,6 +1246,13 @@ module AuthenticZLite {
 		ClothingItem = Skin_White_Zed_M,
 		BodyLocation = TankTop,
     }
+    item Skin_White_Zed_M_Stubble
+    {
+       DisplayCategory = Accessory,		
+		Type = Clothing,
+		ClothingItem = Skin_White_Zed_M_Stubble,
+		BodyLocation = TankTop,
+    }		
     item Skin_White_Zed_M2
     {
        DisplayCategory = Accessory,		

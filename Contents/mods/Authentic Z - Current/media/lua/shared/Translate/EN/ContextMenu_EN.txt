@@ -47,4 +47,7 @@ ContextMenu_EN = {
     ContextMenu_WearLower = "Wear Lower",
     ContextMenu_WearRight = "Wear on Right Side",
     ContextMenu_WearLeft = "Wear on Left Side",	
+	
+	/* Update 3-3-23 */			
+    ContextMenu_WearSideways = "Wear Sideways",	
 } 

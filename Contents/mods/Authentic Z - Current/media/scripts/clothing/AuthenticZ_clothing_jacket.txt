@@ -1758,7 +1758,7 @@ module AuthenticZClothing {
         ScratchDefense = 20,
         NeckProtectionModifier = 0.5,
         Insulation = 0.6,
-        WindResistance = 0.25,
+        WindResistance = 0.3,
         FabricType = Cotton,
         WorldStaticModel = WorldItem-BearHeaddress,		
     }
@@ -1775,8 +1775,9 @@ module AuthenticZClothing {
         BloodLocation = Jumper;FullHelmet,
         Icon = BearHeaddress,
         ScratchDefense = 20,
-        Insulation = 0.55,
-        WindResistance = 0.2,
+        NeckProtectionModifier = 0.5,		
+        Insulation = 0.66,
+        WindResistance = 0.4,
         FabricType = Cotton,
         WorldStaticModel = WorldItem-BearHeaddress,		
     }
@@ -1831,6 +1832,57 @@ module AuthenticZClothing {
         ScratchDefense = 10,
         WorldStaticModel = Hoodie_Ground,		
     }	
+
+    item HoodieDOWN_Buzzers
+    {
+        DisplayCategory = Clothing,		
+        Type = Clothing,
+        DisplayName = Buzzers Hoodie,
+        ClothingItem = HoodieDOWN_Buzzers,
+        ClothingItemExtra = AuthenticZClothing.HoodieUP_Buzzers;AuthenticZClothing.HoodieTied_Buzzers,
+        ClothingItemExtraOption = UpHoodie;TieOnWaist,
+        BodyLocation = Jacket,
+        BloodLocation = Jumper,
+        Icon = HoodieWhite,
+        ScratchDefense = 10,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.6,
+        WindResistance = 0.25,
+        FabricType = Cotton,
+        WorldStaticModel = Hoodie_Ground,		
+    }
+
+    item HoodieUP_Buzzers
+    {
+        DisplayCategory = Clothing,		
+        Type = Clothing,
+        DisplayName = Buzzers Hoodie,
+        ClothingItem = HoodieUP_Buzzers,
+        ClothingItemExtra = AuthenticZClothing.HoodieDOWN_Buzzers;AuthenticZClothing.HoodieTied_Buzzers,
+        ClothingItemExtraOption = DownHoodie;TieOnWaist,
+        BodyLocation = Jacket,
+        BloodLocation = Jumper;FullHelmet,
+        Icon = HoodieWhite,
+        ScratchDefense = 10,
+        Insulation = 0.55,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+        WorldStaticModel = Hoodie_Ground,		
+    }
+    item HoodieTied_Buzzers
+    {
+        DisplayCategory = Clothing,		
+        Type = Clothing,
+        DisplayName = Buzzers Hoodie (Tied),
+        ClothingItem = HoodieTied_Buzzers,
+        ClothingItemExtra = AuthenticZClothing.HoodieDOWN_Buzzers;AuthenticZClothing.HoodieUP_Buzzers,
+        ClothingItemExtraOption = DownHoodie;UpHoodie,	
+		BodyLocation = TorsoExtra,
+		BloodLocation = Apron,
+        Icon = HoodieWhite,
+        ScratchDefense = 10,
+        WorldStaticModel = Hoodie_Ground,		
+    }
 	
     item HoodieDOWN_Checkered
     {

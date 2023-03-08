@@ -2,6 +2,22 @@ module AuthenticZClothing {
   imports {
       Base
   }
+  
+	item Leg_SamuraiShinGuards
+	{
+       DisplayCategory = Clothing,		
+		Type = Clothing,
+		DisplayName = Samurai Shin Guards,
+		ClothingItem = Leg_SamuraiShinGuards,
+		BodyLocation = LegsExtra,
+		Icon  = Samurai_Shinguards,
+		BloodLocation = LowerLegs,
+       	Insulation = 0.55,
+        WindResistance = 0.65,
+        FabricType = Leather,		
+        Weight = 0.3,
+        WorldStaticModel = WorldItem-SamuraiShinGuards,			
+	}	  
 	item Rainboots_Yellow
 	{
        DisplayCategory = Clothing,		
@@ -182,13 +198,13 @@ module AuthenticZClothing {
 		Type = Clothing,
 		DisplayName = Leg Warmers,
 		ClothingItem = Socks_LegWarmers,
-		BodyLocation = Socks,
-		Icon = SocksWhite,
+		BodyLocation = LegsExtra,
+		Icon = Legwarmers_White,
 		BloodLocation = Shoes;LowerLegs,
         Insulation = 0.55,
         WindResistance = 0.65,
         Weight = 0.1,
-        WorldStaticModel = Socks_Long_Ground,
+        WorldStaticModel = WorldItem-LegWarmers,
 	}
 	item Socks_LegWarmersNeonBlue
 	{
@@ -196,16 +212,13 @@ module AuthenticZClothing {
 		Type = Clothing,
 		DisplayName = Blue Leg Warmers,
 		ClothingItem = Socks_LegWarmersNeonBlue,
-		BodyLocation = Socks,
-		Icon = SocksWhite,
+		BodyLocation = LegsExtra,
+		Icon = Legwarmers_Blue,
 		BloodLocation = Shoes;LowerLegs,
         Insulation = 0.55,
         WindResistance = 0.65,
-        Weight = 0.1,
-        ColorRed = 0,
-        ColorGreen = 174,
-        ColorBlue = 239,		
-        WorldStaticModel = Socks_Long_Ground,
+        Weight = 0.1,	
+        WorldStaticModel = WorldItem-LegWarmers,
 	}	
 	item Socks_LegWarmersNeonPink
 	{
@@ -213,16 +226,13 @@ module AuthenticZClothing {
 		Type = Clothing,
 		DisplayName = Pink Leg Warmers,
 		ClothingItem = Socks_LegWarmersNeonPink,
-		BodyLocation = Socks,
-		Icon = SocksWhite,
+		BodyLocation = LegsExtra,
+		Icon = Legwarmers_Pink,
 		BloodLocation = Shoes;LowerLegs,
         Insulation = 0.55,
         WindResistance = 0.65,
-        Weight = 0.1,
-        ColorRed = 162,
-        ColorGreen = 40,
-        ColorBlue = 255,			
-        WorldStaticModel = Socks_Long_Ground,
+        Weight = 0.1,			
+        WorldStaticModel = WorldItem-LegWarmers,
 	}	
 	item Socks_LegWarmersPurple
 	{
@@ -230,16 +240,13 @@ module AuthenticZClothing {
 		Type = Clothing,
 		DisplayName = Purple Leg Warmers,
 		ClothingItem = Socks_LegWarmersPurple,
-		BodyLocation = Socks,
-		Icon = SocksWhite,
+		BodyLocation = LegsExtra,
+		Icon = Legwarmers_Purple,
 		BloodLocation = Shoes;LowerLegs,
         Insulation = 0.55,
         WindResistance = 0.65,
-        Weight = 0.1,
-        ColorRed = 93,
-        ColorGreen = 63,
-        ColorBlue = 211,		
-        WorldStaticModel = Socks_Long_Ground,
+        Weight = 0.1,	
+        WorldStaticModel = WorldItem-LegWarmers,
 	}		
  	item Shoes_Maid
 	{
@@ -436,7 +443,7 @@ module AuthenticZClothing {
         Insulation = 0.45,
         WindResistance = 0.3,
 		WorldStaticModel = Shoes_Ground,	
-    	}
+    }
  	item Shoes_TrainerBlackMamba
 	{
        DisplayCategory = Clothing,		

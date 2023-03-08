@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media\models_X\Skinned\Clothes\AZ_Samurai_NeckGuard.FBX</m_MaleModel>
+	<m_FemaleModel>media\models_X\Skinned\Clothes\AZ_Samurai_NeckGuard.FBX</m_FemaleModel>
+	<m_GUID>99bf6ea4-8e37-4057-b0dc-5f1af22498ca</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>Clothes/Dress_Textures/SamuraiBreastPlate</textureChoices>
+</clothingItem>

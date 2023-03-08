@@ -354,7 +354,7 @@ module AuthenticZLite {
         Type = Clothing,
         DisplayName = Buzzers Baseball Cap,
         ClothingItem = Hat_BaseballCapBuzzers,
-        ClothingItemExtra = AuthenticZClothing.Hat_BaseballCapBuzzers_Reverse,	
+        ClothingItemExtra = AuthenticZLite.Hat_BaseballCapBuzzers_Reverse,	
         ClothingItemExtraOption = ReverseCap,		
         BodyLocation = Hat,
         Icon = BaseballCapBuzzers,
@@ -369,7 +369,7 @@ module AuthenticZLite {
         Type = Clothing,
         DisplayName = Buzzers Baseball Cap,
         ClothingItem = Hat_BaseballCapBuzzers_Reverse,
-        ClothingItemExtra = AuthenticZClothing.Hat_BaseballCapBuzzers,
+        ClothingItemExtra = AuthenticZLite.Hat_BaseballCapBuzzers,
         ClothingItemExtraOption = ForwardCap,
         BodyLocation = Hat,
         Icon = BaseballCapBuzzers,
@@ -643,6 +643,49 @@ module AuthenticZLite {
         Insulation = 0.10,
         Weight = 0.5,
     }
+    item Hat_BaseballCapSmileyFace
+    {
+	    DisplayCategory = Accessory,	
+        Type = Clothing,
+        DisplayName = Smiley Face Baseball Cap,
+        ClothingItem = Hat_BaseballCapSmileyFace,
+		ClothingItemExtra = AuthenticZLite.Hat_BaseballCapSmileyFace_Reverse;AuthenticZLite.Hat_BaseballCapSmileyFace_Sideways,
+        ClothingItemExtraOption = ReverseCap;WearSideways,	
+        BodyLocation = Hat,
+        Icon = BaseballCapSmileyFace,
+        CanHaveHoles = false,
+        ChanceToFall = 80,
+        Insulation = 0.10,
+        Weight = 0.5,
+    }
+    item Hat_BaseballCapSmileyFace_Reverse
+    {
+	    DisplayCategory = Accessory,	
+        Type = Clothing,
+        DisplayName =  Smiley Face Baseball Cap,
+        ClothingItem = Hat_BaseballCapSmileyFace_Reverse,
+        ClothingItemExtra = AuthenticZLite.Hat_BaseballCapSmileyFace;AuthenticZLite.Hat_BaseballCapSmileyFace_Sideways,
+        ClothingItemExtraOption = ForwardCap;WearSideways,
+        BodyLocation = Hat,
+        Icon = BaseballCapSmileyFace,
+        CanHaveHoles = false,
+        Insulation = 0.10,
+        Weight = 0.5,
+    }	
+    item Hat_BaseballCapSmileyFace_Sideways
+    {
+	    DisplayCategory = Accessory,	
+        Type = Clothing,
+        DisplayName =  Smiley Face Baseball Cap,
+        ClothingItem = Hat_BaseballCapSmileyFace_Sideways,
+        ClothingItemExtra = AuthenticZLite.Hat_BaseballCapSmileyFace;AuthenticZLite.Hat_BaseballCapSmileyFace_Reverse,
+        ClothingItemExtraOption = ForwardCap;ReverseCap,
+        BodyLocation = Hat,
+        Icon = BaseballCapSmileyFace,
+        CanHaveHoles = false,
+        Insulation = 0.10,
+        Weight = 0.5,
+    }		
     item Hat_BaseballCapWalker
     {
 	    DisplayCategory = Accessory,
@@ -1215,7 +1258,20 @@ module AuthenticZLite {
 		BloodLocation = Head,
 		ChanceToFall = 10,
 		WorldStaticModel = WorldItem-FurryEars_AZ,
-	}		
+	}
+    item Hat_FurryEars_Zoey
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Furry Ears,
+		ClothingItem = Hat_FurryEarsAZ,
+		BodyLocation = Hat,
+		Icon = FurryEars_12_Black,
+		CanHaveHoles = false,
+		BloodLocation = Head,
+		ChanceToFall = 10,
+		WorldStaticModel = WorldItem-FurryEars_AZ,
+	}	
 	item Hat_GhostFace
 	{
 	    DisplayCategory = Accessory,	
@@ -1253,7 +1309,7 @@ module AuthenticZLite {
         Type = Clothing,
         DisplayName = Ghostly Gibus,
         ClothingItem = Hat_Gibus2,
-		BodyLocation = Necklace,
+		BodyLocation = HeadExtra,
         ClothingItemExtra = AuthenticZLite.Hat_Gibus,
         ClothingItemExtraOption = WearNormally,
         Icon = HatGibus,
@@ -1468,6 +1524,26 @@ module AuthenticZLite {
         Weight 			 = 0.5,
 		WorldStaticModel = WorldItem-DuelCap,
     }
+	item Hat_SamuraiHelmet
+	{
+	    DisplayCategory = Accessory,	
+		Type = Clothing,
+		DisplayName = Samurai Helmet,
+		ClothingItem = Hat_SamuraiHelmet,
+		BodyLocation = Hat,
+		Icon = Samurai_Helmet,
+		BloodLocation = FullHelmet,
+		CanHaveHoles = false,
+		CombatSpeedModifier = 0.95,
+		BiteDefense = 100,
+        ScratchDefense = 100,
+        ChanceToFall = 0,
+        Insulation = 0.55,
+        WindResistance = 0.35,
+        WaterResistance = 0.85,
+        Weight = 1.5,
+		WorldStaticModel = WorldItem-SamuraiHelmet,		
+	}		
 	item Hat_SantaHatBluePattern
     {
 	    DisplayCategory = Accessory,	

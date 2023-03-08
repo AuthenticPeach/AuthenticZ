@@ -1032,15 +1032,15 @@ ItemName_EN = {
 	ItemName_AuthenticZLite.JacketLong_SantaWhite = "White Santa Suit Jacket",	
 	ItemName_AuthenticZLite.JacketLong_SantaBluePattern = "Blue Festive Santa Suit Jacket",	
 
-    ItemName_AuthenticZLite.HairBow = "Hair Bow",
-    ItemName_AuthenticZLite.HairBow_UP = "Hair Bow",
-    ItemName_AuthenticZLite.HairBow_SideLeft = "Hair Bow",
-    ItemName_AuthenticZLite.HairBow_SideRight = "Hair Bow",
-    ItemName_AuthenticZLite.HairBowTINT = "Hair Bow",
-    ItemName_AuthenticZLite.HairBowTINT_UP = "Hair Bow",
-    ItemName_AuthenticZLite.HairBowTINT_SideLeft = "Hair Bow",
-    ItemName_AuthenticZLite.HairBowTINT_SideRight = "Hair Bow",
-	
+    ItemName_AuthenticZLite.HairBow = "Hair Bow (Back)",
+    ItemName_AuthenticZLite.HairBows_UP = "Hair Bow (Top)",
+    ItemName_AuthenticZLite.HairBow_SideLeft = "Hair Bow (Left Side)", 
+    ItemName_AuthenticZLite.HairBow_SideRight = "Hair Bow (Right Side)",
+    ItemName_AuthenticZLite.HairBowTINT = "Hair Bow (Back)",
+    ItemName_AuthenticZLite.HairBowsTINT_UP = "Hair Bow (Top)",
+    ItemName_AuthenticZLite.HairBowTINT_SideLeft = "Hair Bow  (Left Side)",
+    ItemName_AuthenticZLite.HairBowTINT_SideRight = "Hair Bow (Right Side)",
+		
     ItemName_AuthenticZLite.Authentic_Headphones3 = "Cat Ear Headphones",
     ItemName_AuthenticZLite.Authentic_HeadphonesNeck3 = "Cat Ear Headphones",
     ItemName_AuthenticZLite.CatEarsAZ = "Cat Ears",	
@@ -1061,6 +1061,28 @@ ItemName_EN = {
     ItemName_AuthenticZLite.Hat_BaseballCapBuzzers = "Buzzers Baseball Cap",		
     ItemName_AuthenticZLite.Hat_BaseballCapBuzzers_Reverse = "Buzzers Baseball Cap (Reversed)",		
     ItemName_AuthenticZLite.Hat_FurryEarsAZ = "Furry Ears",		
-    ItemName_AuthenticZLite.Shirt_Buzzers = "Buzzers Shirt",	
+    ItemName_AuthenticZLite.Shirt_Buzzers = "Buzzers Shirt",
+
+    ItemName_AuthenticZLite.Authentic_Headphones4 = "Black Headphones",
+    ItemName_AuthenticZLite.Authentic_HeadphonesNeck4 = "Black Headphones",
+    ItemName_AuthenticZLite.Hat_FurryEars_Zoey = "Zoey's Black Ears",		
+    ItemName_AuthenticZLite.HoodieTied_Buzzers = "Buzzers Hoodie (Tied)",	
+    ItemName_AuthenticZLite.HoodieDOWN_Buzzers = "Buzzers Hoodie",	
+    ItemName_AuthenticZLite.HoodieUP_Buzzers = "Buzzers Hoodie",
 	
+	
+    ItemName_AuthenticZLite.Gloves_ForearmProtectors = "Samurai Forearm Protectors",		
+    ItemName_AuthenticZLite.Hat_SamuraiHelmet = "Samurai Helmet", 
+    ItemName_AuthenticZLite.Necklace_NeckProtector = "Samurai Neck Protector",	 
+    ItemName_AuthenticZLite.Socks_ShinProtectors = "Samurai Shin Protectors", 
+    ItemName_AuthenticZLite.Vest_SamuraiBreastPlate = "Samurai Armor", 
+	
+    ItemName_AuthenticZLite.Hat_Mask_Oni = "Oni Mask",
+	ItemName_AuthenticZLite.Socks_ThighPads = "Chainmail Thigh Pads",
+    ItemName_AuthenticZLite.Vest_ChainMailBreastPlate = "Chainmail Breast Plate",
+
+	ItemName_AuthenticZLite.Hat_BaseballCapSmileyFace =  "Smiley Face Baseball Cap",
+	ItemName_AuthenticZLite.Hat_BaseballCapSmileyFace_Reverse =  "Smiley Face Baseball Cap (Reversed)",	
+	ItemName_AuthenticZLite.Hat_BaseballCapSmileyFace_Sideways =  "Smiley Face Baseball Cap (Sideways)",	
+
 }

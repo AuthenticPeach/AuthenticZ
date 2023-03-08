@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media\models_X\skinned\clothes\AZ_SamuraiShinGuards.FBX</m_MaleModel>
+	<m_FemaleModel>media\models_X\skinned\clothes\AZ_SamuraiShinGuards.FBX</m_FemaleModel>
+	<m_GUID>31df8dfa-749c-4387-bc86-9d96a4e8d718</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>clothes\Shoes_Socks_Textres\SamuraiShinGuards</textureChoices>
+</clothingItem>

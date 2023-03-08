@@ -1210,6 +1210,10 @@ module Base
 	{
 		mesh = WorldItems/WorldItem_GroguAZ,
 		texture = clothes\Items\GroguPlushie,		
+	}
+	model WorldItem-LegWarmers
+	{
+		mesh = WorldItems/WorldItem_LegWarmers,	
 	}	
 	model WorldItem_MichaelMyersMask
 	{
@@ -1315,6 +1319,42 @@ module Base
 	model WorldItem-RoundGownPoncho
 	{
 		mesh = WorldItems/WorldItem_RoundGownPoncho,	
+	}
+	model WorldItem-SamuraiBreastPlate
+	{
+		mesh = WorldItems/WorldItem_AZ_Samurai_Breastplate,	
+	}	
+	model WorldItem-SamuraiHelmet
+	{
+		mesh = WorldItems/WorldItem_AZ_SamuraiHelmet,	
+	}
+	model WorldItem-SamuraiOni
+	{
+		mesh = WorldItems/WorldItem_AZ_SamuraiMask,	
+	}	
+	model WorldItem-SamuraiMask
+	{
+		mesh = WorldItems/WorldItem_AZ_SamuraiMask,	
+	}
+	model WorldItem-SamuraiGauntlets
+	{
+		mesh = WorldItems/WorldItem_SamaraiArmor_Gauntlets,	
+	}
+	model WorldItem-SamuraiNeckGuards
+	{
+		mesh = WorldItems/WorldItem_AZ_SamuraiNeckguard,	
+	}	
+	model WorldItem-SamuraiOniMask
+	{
+		mesh = WorldItems/WorldItem_Samurai_OniMask,	
+	}	
+	model WorldItem-SamuraiShinGuards
+	{
+		mesh = WorldItems/WorldItem_SamaraiArmor_Shinpads,	
+	}
+	model WorldItem-Samurai_WarBanner
+	{
+		mesh = WorldItems/WorldItem_Samurai_WarBanner,	
 	}	
 	model WorldItem_SmallBoater
 	{
