@@ -382,7 +382,11 @@ module Base
 		mesh = AZGlowstick,
 		texture = clothes\Items\GlowstickRed,
 	}
-	
+	model AuthenticGlowstickWhite
+	{
+		mesh = AZGlowstick,
+		texture = clothes\Items\GlowstickWhite,
+	}	
 	model ClownNose
 	{
 		mesh = ClownNose,
@@ -872,6 +876,11 @@ module Base
 	{
 		mesh =  WorldItems/WorldItem-AZGlowstick,
 		texture = clothes\Items\GlowstickYellow,
+	}
+	model WorldItem-AuthenticGlowstickWhite
+	{
+		mesh =  WorldItems/WorldItem-AZGlowstick,
+		texture = clothes\Items\GlowstickWhite,
 	}	
 	model WorldItem-AuthenticMandoSpear
 	{

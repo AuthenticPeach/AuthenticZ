@@ -9,7 +9,7 @@ workingGlowSticksData["AuthenticGlowstick_Purple_On"] = { 1.0, 0.0, 1.0 }
 workingGlowSticksData["AuthenticGlowstick_Yellow_On"] = { 1.0, 1.0, 0.0 }
 workingGlowSticksData["AuthenticGlowstick_Orange_On"] = { 1.0, 0.50, 0.0 }
 workingGlowSticksData["AuthenticGlowstick_Pink_On"] = { 1.0, 0.0, 0.25 }
-
+workingGlowSticksData["AuthenticGlowstick_White_On"] = { 0.0, 0.0, 0.0 }
 
 local function updateLight(player, item, position)
 	local color = workingGlowSticksData[item:getType()]

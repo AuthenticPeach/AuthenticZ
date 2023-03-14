@@ -11,6 +11,7 @@
 	<m_Masks>13</m_Masks>
 	<m_Masks>14</m_Masks>
 	<m_Masks>15</m_Masks>
-	<m_UnderlayMasksFolder>media/textures/Clothes/Poncho/Masks</m_UnderlayMasksFolder>
+	<m_MasksFolder>media/textures/Clothes/Poncho/Masks_Down</m_MasksFolder>	
+	<m_UnderlayMasksFolder>media/textures/Clothes/Poncho/Masks_Down</m_UnderlayMasksFolder>
 	<textureChoices>clothes\poncho\Poncho_Camo_Desert</textureChoices>
 </clothingItem>

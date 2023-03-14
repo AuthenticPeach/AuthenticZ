@@ -455,6 +455,23 @@ module AuthenticZClothing {
 		WorldStaticModel 		= 	WorldItem-AuthenticGlowstickPurple,			
 		AttachmentType 			= 	Hammer,
     }
+
+	item AuthenticGlowstick_White_On
+    {
+		DisplayCategory 		= 	Household,	
+        Type					=	Drainable,
+		UseWhileUnequipped  	=   TRUE,
+		UseDelta				=	0.0002,
+		ReplaceOnDeplete		=	AuthenticGlowstick_Blank,
+        DisplayName				=	White Glowstick (Activated),
+        Icon					=	Glowstick-White,
+        Weight					=	0.2,
+        primaryAnimMask 		= 	HoldingUmbrellaRight,
+        secondaryAnimMask 		= 	HoldingUmbrellaLeft,
+        StaticModel 			= 	AuthenticGlowstickWhite,
+		WorldStaticModel 		= 	WorldItem-AuthenticGlowstickWhite,			
+		AttachmentType 			= 	Hammer,
+    }
 	
 	item AuthenticGlowstick_Yellow_On
     {
@@ -554,6 +571,20 @@ module AuthenticZClothing {
         secondaryAnimMask 		= 	HoldingUmbrellaLeft,
         StaticModel 			= 	AuthenticGlowstickPurple,
 		WorldStaticModel 		= 	WorldItem-AuthenticGlowstickPurple,			
+		AttachmentType 			= 	Hammer,
+    }
+
+    item AuthenticGlowstick_White
+    {
+		DisplayCategory 		= 	Household,	
+        Type					=	Normal,
+        DisplayName				=	White Glowstick,
+        Icon					=	Glowstick-White,
+        Weight					=	0.2,
+        primaryAnimMask 		= 	HoldingUmbrellaRight,
+        secondaryAnimMask 		= 	HoldingUmbrellaLeft,
+        StaticModel 			= 	AuthenticGlowstickWhite,
+		WorldStaticModel 		= 	WorldItem-AuthenticGlowstickWhite,			
 		AttachmentType 			= 	Hammer,
     }
 
