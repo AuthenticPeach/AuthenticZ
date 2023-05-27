@@ -5,6 +5,46 @@ module Base
 		mesh = AuthenticAndySign,
 		texture = clothes\Items\AndySign,
 	}
+	model AuthenticAquaBottle_Blue
+	{
+		mesh = WorldItems/WorldItem_AZ_AquaBottle,
+		texture = clothes\Items\Aquabottle-Blue,
+	}	
+	model AuthenticAquaBottle_Cyan
+	{
+		mesh = WorldItems/WorldItem_AZ_AquaBottle,
+		texture = clothes\Items\Aquabottle-Cyan,
+	}
+	model AuthenticAquaBottle_Green
+	{
+		mesh = WorldItems/WorldItem_AZ_AquaBottle,
+		texture = clothes\Items\Aquabottle-Green,
+	}
+	model AuthenticAquaBottle_Orange
+	{
+		mesh = WorldItems/WorldItem_AZ_AquaBottle,
+		texture = clothes\Items\Aquabottle-Orange,
+	}
+	model AuthenticAquaBottle_Pink
+	{
+		mesh = WorldItems/WorldItem_AZ_AquaBottle,
+		texture = clothes\Items\Aquabottle-Pink,
+	}
+	model AuthenticAquaBottle_Purple
+	{
+		mesh = WorldItems/WorldItem_AZ_AquaBottle,
+		texture = clothes\Items\Aquabottle-Purple,
+	}
+	model AuthenticAquaBottle_Red
+	{
+		mesh = WorldItems/WorldItem_AZ_AquaBottle,
+		texture = clothes\Items\Aquabottle-Red,
+	}
+	model AuthenticAquaBottle_Yellow
+	{
+		mesh = WorldItems/WorldItem_AZ_AquaBottle,
+		texture = clothes\Items\Aquabottle-Yellow,
+	}		
 	model AuthenticBalloonBlue
 	{
 		mesh = Balloon,
@@ -169,6 +209,66 @@ module Base
 	{
 		mesh = AuthenticGhostbusterTrap,
 		texture = clothes\Items\GhostbustersTrap,
+	}
+	model AuthenticGymBottle_Blue
+	{
+		mesh =  WorldItems/WorldItem_AZ_GymBottle,
+		texture = clothes\Items\GymBottle_Blue,
+	}
+	model AuthenticGymBottle_Camo
+	{
+		mesh =  WorldItems/WorldItem_AZ_GymBottle,
+		texture = clothes\Items\GymBottle_Camo,
+	}
+	model AuthenticGymBottle_CamoUrban
+	{
+		mesh =  WorldItems/WorldItem_AZ_GymBottle,
+		texture = clothes\Items\GymBottle_CamoUrban,
+	}
+	model AuthenticGymBottle_Cyan
+	{
+		mesh =  WorldItems/WorldItem_AZ_GymBottle,
+		texture = clothes\Items\GymBottle_Cyan,
+	}
+	model AuthenticGymBottle_Gradient1
+	{
+		mesh =  WorldItems/WorldItem_AZ_GymBottle,
+		texture = clothes\Items\GymBottle_Gradient1,
+	}
+	model AuthenticGymBottle_Green
+	{
+		mesh =  WorldItems/WorldItem_AZ_GymBottle,
+		texture = clothes\Items\GymBottle_Green,
+	}
+	model AuthenticGymBottle_Lavender
+	{
+		mesh =  WorldItems/WorldItem_AZ_GymBottle,
+		texture = clothes\Items\GymBottle_Lavender,
+	}
+	model AuthenticGymBottle_Pink
+	{
+		mesh =  WorldItems/WorldItem_AZ_GymBottle,
+		texture = clothes\Items\GymBottle_Pink,
+	}
+	model AuthenticGymBottle_Red
+	{
+		mesh =  WorldItems/WorldItem_AZ_GymBottle,
+		texture = clothes\Items\GymBottle_Red,
+	}
+	model AuthenticGymBottle_Transparent
+	{
+		mesh =  WorldItems/WorldItem_AZ_GymBottle,
+		texture = clothes\Items\GymBottle_Transparent,
+	}
+	model AuthenticGymBottle_US
+	{
+		mesh =  WorldItems/WorldItem_AZ_GymBottle,
+		texture = clothes\Items\GymBottle_US,
+	}
+	model AuthenticGymBottle_Yellow
+	{
+		mesh =  WorldItems/WorldItem_AZ_GymBottle,
+		texture = clothes\Items\GymBottle_Yellow,
 	}	
 	model AuthenticIceStaff
 	{
@@ -190,6 +290,12 @@ module Base
 		mesh = AuthenticLiver,
 		texture = clothes\Organs\Liver,
 	}
+	model AuthenticLighter_AZ
+	{
+		mesh = AuthenticLighter_AZ,
+		texture = clothes\Items\CarabinerClip,
+		scale = 0.6,		
+	}	
 	model AuthenticKidney
 	{
 		mesh = AuthenticKidney,
@@ -805,6 +911,10 @@ module Base
 		mesh = WorldItems/WorldItem_AuthenticAndySign,
 		texture = clothes\Items\AndySign,
 	}
+	model WorldItem_Apron_Short
+	{
+		mesh = WorldItems/WorldItem_Apron_Short,
+	}	
 	model WorldItem-BearHeaddress
 	{
 		mesh = WorldItems/WorldItem_BearHeaddress,
@@ -836,6 +946,94 @@ module Base
 	model WorldItem-FurryEars_AZ
 	{
 		mesh =  WorldItems/WorldItem_FurryEars_Rotated_AZ,
+	}
+	model WorldItem_AuthenticAquaBottle_Blue
+	{
+		mesh = WorldItems/WorldItem_AZ_AquaBottle,
+		texture = clothes\Items\Aquabottle-Blue,
+		
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 180.0000,
+		}
+	}
+	model WorldItem_AuthenticAquaBottle_Cyan
+	{
+		mesh = WorldItems/WorldItem_AZ_AquaBottle,
+		texture = clothes\Items\Aquabottle-Cyan,
+		
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 180.0000,
+		}		
+	}
+	model WorldItem_AuthenticAquaBottle_Green
+	{
+		mesh = WorldItems/WorldItem_AZ_AquaBottle,
+		texture = clothes\Items\Aquabottle-Green,
+		
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 180.0000,
+		}		
+	}
+	model WorldItem_AuthenticAquaBottle_Orange
+	{
+		mesh = WorldItems/WorldItem_AZ_AquaBottle,
+		texture = clothes\Items\Aquabottle-Orange,
+		
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 180.0000,
+		}		
+	}
+	model WorldItem_AuthenticAquaBottle_Pink
+	{
+		mesh = WorldItems/WorldItem_AZ_AquaBottle,
+		texture = clothes\Items\Aquabottle-Pink,
+		
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 180.0000,
+		}		
+	}
+	model WorldItem_AuthenticAquaBottle_Purple
+	{
+		mesh = WorldItems/WorldItem_AZ_AquaBottle,
+		texture = clothes\Items\Aquabottle-Purple,
+		
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 180.0000,
+		}		
+	}
+	model WorldItem_AuthenticAquaBottle_Red
+	{
+		mesh = WorldItems/WorldItem_AZ_AquaBottle,
+		texture = clothes\Items\Aquabottle-Red,
+		
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 180.0000,
+		}		
+	}
+	model WorldItem_AuthenticAquaBottle_Yellow
+	{
+		mesh = WorldItems/WorldItem_AZ_AquaBottle,
+		texture = clothes\Items\Aquabottle-Yellow,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 180.0000,
+		}		
 	}	
 	model WorldItem-AuthenticGlowstickBlank
 	{
@@ -852,7 +1050,7 @@ module Base
 		mesh =  WorldItems/WorldItem-AZGlowstick,
 		texture = clothes\Items\GlowstickGreen,
 	}	
-	model WorldItem-AuthenticGlowstickOrange
+	model WorldItem_AuthenticGlowstickOrange
 	{
 		mesh =  WorldItems/WorldItem-AZGlowstick,
 		texture = clothes\Items\GlowstickOrange,
@@ -881,7 +1079,139 @@ module Base
 	{
 		mesh =  WorldItems/WorldItem-AZGlowstick,
 		texture = clothes\Items\GlowstickWhite,
-	}	
+	}
+	model WorldItem_AuthenticGymBottle_Blue
+	{
+		mesh =  WorldItems/WorldItem_AZ_GymBottle,
+		texture = clothes\Items\GymBottle_Blue,
+		
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 180.0000,
+		}		
+	}
+	model WorldItem_AuthenticGymBottle_Camo
+	{
+		mesh =  WorldItems/WorldItem_AZ_GymBottle,
+		texture = clothes\Items\GymBottle_Camo,
+		
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 180.0000,
+		}		
+	}
+	model WorldItem_AuthenticGymBottle_CamoUrban
+	{
+		mesh =  WorldItems/WorldItem_AZ_GymBottle,
+		texture = clothes\Items\GymBottle_CamoUrban,
+		
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 180.0000,
+		}		
+	}
+	model WorldItem_AuthenticGymBottle_Cyan
+	{
+		mesh =  WorldItems/WorldItem_AZ_GymBottle,
+		texture = clothes\Items\GymBottle_Cyan,
+		
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 180.0000,
+		}		
+	}
+	model WorldItem_AuthenticGymBottle_Gradient1
+	{
+		mesh =  WorldItems/WorldItem_AZ_GymBottle,
+		texture = clothes\Items\GymBottle_Gradient1,
+		
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 180.0000,
+		}		
+	}
+	model WorldItem_AuthenticGymBottle_Green
+	{
+		mesh =  WorldItems/WorldItem_AZ_GymBottle,
+		texture = clothes\Items\GymBottle_Green,
+		
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 180.0000,
+		}		
+	}
+	model WorldItem_AuthenticGymBottle_Purple
+	{
+		mesh =  WorldItems/WorldItem_AZ_GymBottle,
+		texture = clothes\Items\GymBottle_Purple,
+		
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 180.0000,
+		}		
+	}
+	model WorldItem_AuthenticGymBottle_Pink
+	{
+		mesh =  WorldItems/WorldItem_AZ_GymBottle,
+		texture = clothes\Items\GymBottle_Pink,
+		
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 180.0000,
+		}		
+	}
+	model WorldItem_AuthenticGymBottle_Red
+	{
+		mesh =  WorldItems/WorldItem_AZ_GymBottle,
+		texture = clothes\Items\GymBottle_Red,
+		
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 180.0000,
+		}		
+	}
+	model WorldItem_AuthenticGymBottle_Transparent
+	{
+		mesh =  WorldItems/WorldItem_AZ_GymBottle,
+		texture = clothes\Items\GymBottle_Transparent,
+		
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 180.0000,
+		}		
+	}
+	model WorldItem_AuthenticGymBottle_US
+	{
+		mesh =  WorldItems/WorldItem_AZ_GymBottle,
+		texture = clothes\Items\GymBottle_US,
+		
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 180.0000,
+		}		
+	}
+	model WorldItem_AuthenticGymBottle_Yellow
+	{
+		mesh =  WorldItems/WorldItem_AZ_GymBottle,
+		texture = clothes\Items\GymBottle_Yellow,
+		
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 180.0000,
+		}		
+	}		
 	model WorldItem-AuthenticMandoSpear
 	{
 		mesh =  WorldItems/WorldItem_MandoSpear,
@@ -892,6 +1222,7 @@ module Base
 		mesh = WorldItems/WorldItem-AZPipeBomb,
 		texture = clothes\Items\AuthenticPipeBomb,	
 	}	
+
 	model WorldItem-CrutchAZ
 	{
 		mesh = WorldItems/WorldItem_Crutch,
@@ -956,6 +1287,10 @@ module Base
 		mesh = Skinned/Backpacks/WorldItem-BackpackMom,
 		texture = clothes\Backpacks\BackpackMom,
     }
+	model WorldItem_BackpackPackSport
+    {
+		mesh = Skinned/Backpacks/WorldItem-BackpackPackSport,
+    }	
 	model WorldItem_BackpackWalker
     {
 		mesh = Skinned/Backpacks/WorldItem-BackpackWalker,
@@ -1432,6 +1767,12 @@ module Base
 		texture = clothes\Items\CarabinerClip,
 		scale = 0.6,
 	}
+	model WorldItem_Carabiner_Lighter
+	{
+		mesh = WorldItems/WorldItem-AZCarabiner_Lighter,
+		texture = clothes\Items\CarabinerClip,
+		scale = 0.6,
+	}	
 	model WorldItem-ClownNose
     {
 		mesh = WorldItems/WorldItem_ClownNose,

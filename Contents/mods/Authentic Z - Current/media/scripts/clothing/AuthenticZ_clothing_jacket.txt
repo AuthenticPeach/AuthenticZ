@@ -1667,7 +1667,7 @@ module AuthenticZClothing {
         WindResistance = 0.35,
         FabricType = Cotton,
         Weight = 2,
-        Tags = Restrict,		
+		isStraightJacket = true,		
         WorldStaticModel = Jacket_Ground,			
     }
 

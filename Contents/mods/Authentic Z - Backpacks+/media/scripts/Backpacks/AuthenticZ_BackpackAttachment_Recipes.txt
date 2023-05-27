@@ -554,41 +554,15 @@ recipe Make Backpack Attachable Item
    	   Result:AuthenticZBackpacksPlus.PopBottle,
 	   Time:30.0,
 	   Tooltip:Tooltip_AttachBackpack,
-  	}
-
-recipe Put Goblin in Carriage
+  	}	
+recipe Make Backpack Attachable Item
   	{
-   	   GroguAZ,
-   	   GroguCarriageEmpty,
+   	   Lighter,
+	   AZ_MetalClip,	   
 
-   	   Result:GroguCarriage,
+	   OnCreate:AZKeepFoodContent_OnCreate,
+   	   Result:AuthenticZBackpacksPlus.LighterAZ,
 	   Time:30.0,
-  	}
-
-recipe Take Goblin Out
-  	{
-   	   GroguCarriage,
-
-   	   Result:GroguCarriageEmpty,
-	   OnCreate:GetGroguBack,	   
-	   Time:30.0,
-  	}
-
-recipe Put Goblin in Bag
-  	{
-   	   GroguAZ,
-   	   Bag_LS_GroguBagEmpty,
-
-   	   Result:Bag_LS_GroguBag,
-	   Time:30.0,
-  	}
-
-recipe Take Goblin Out
-  	{
-   	   Bag_LS_GroguBag,
-
-   	   Result:Bag_LS_GroguBagEmpty,
-	   OnCreate:GetGroguBack,
-	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpack,
   	}	
 }		

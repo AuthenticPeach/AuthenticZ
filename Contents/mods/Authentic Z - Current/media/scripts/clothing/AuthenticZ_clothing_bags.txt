@@ -101,7 +101,7 @@ module AuthenticZClothing {
         Type					 =	Container,
         Capacity				 =	20,
         DisplayName				 =	Holly's Backpack,
-        IconsForTexture			=	Backpack_Holly;Backpack_Holly_Green;Backpack_Holly_Purple;Backpack_Holly_Red;Backpack_Holly_Special,
+        IconsForTexture			=	Backpack_Holly;Backpack_Holly_Green;Backpack_Holly_Purple;Backpack_Holly_Red;Backpack_Holly_Special;Backpack_Holly_Golden,
         CanBeEquipped 			 = 	Back,
         OpenSound   			 =  OpenBag,
         CloseSound   			 =  CloseBag,
@@ -179,7 +179,71 @@ module AuthenticZClothing {
         ReplaceInPrimaryHand = Bag_DuffelBag_Festive_RHand holdingbagright,
         WorldStaticModel = DuffelBag_Ground,
     }
- 
+
+	item Bag_Packsport_Plain
+    {
+        DisplayCategory 		= 	Bag,		
+        WeightReduction			=	65,
+        Weight					=	1,
+        Type					=	Container,
+        Capacity				=	17,
+        DisplayName				=	Packsport Backpack,
+        IconsForTexture 		= 	PacksportBackpack_Black;PacksportBackpack_Blue;PacksportBackpack_Red;PacksportBackpack_Grey;PacksportBackpack_Green;PacksportBackpack_HotPink;PacksportBackpack_PinkGreen;PacksportBackpack_Camo1;PacksportBackpack_Camo2;PacksportBackpack_PlaidRed;PacksportBackpack_PlaidGreen;PacksportBackpack_PlaidBlue;PacksportBackpack_PlaidIndigo;PacksportBackpack_Peach;PacksportBackpack_PinkDenim;PacksportBackpack_PinkClouds;PacksportBackpack_Clouds;PacksportBackpack_BlueDenim,
+        CanBeEquipped 			= 	Back,
+        OpenSound   			=   OpenBag,
+        CloseSound   			=   CloseBag,
+        PutInSound   			=   PutItemInBag,
+        ClothingItem 			= 	Bag_Packsport_Plain,
+        BloodLocation 			= 	Bag,
+        RunSpeedModifier 		= 	0.97,
+        AttachmentReplacement	= 	Bag,		
+        ReplaceInSecondHand  	= 	Bag_Packsport_LHand holdingbagleft,
+        ReplaceInPrimaryHand 	= 	Bag_Packsport_RHand holdingbagright,
+        WorldStaticModel 	 	= 	WorldItem_BackpackPackSport,
+    }
+
+	item Bag_Packsport_Rim
+    {
+        DisplayCategory 		= 	Bag,		
+        WeightReduction			=	65,
+        Weight					=	1,
+        Type					=	Container,
+        Capacity				=	17,
+        DisplayName				=	Packsport Backpack,
+        IconsForTexture 		= 	PacksportBackpack_BlackClassic;PacksportBackpack_BlueClassic;PacksportBackpack_RedClassic;PacksportBackpack_BlackClassic;PacksportBackpack_GreenClassic,
+        CanBeEquipped 			= 	Back,
+        OpenSound   			=   OpenBag,
+        CloseSound   			=   CloseBag,
+        PutInSound   			=   PutItemInBag,
+        ClothingItem 			= 	Bag_Packsport_Rim,
+        BloodLocation 			= 	Bag,
+        RunSpeedModifier 		= 	0.97,
+        AttachmentReplacement	= 	Bag,		
+        ReplaceInSecondHand  	= 	Bag_Packsport_LHand holdingbagleft,
+        ReplaceInPrimaryHand 	= 	Bag_Packsport_RHand holdingbagright,
+        WorldStaticModel 	 	= 	WorldItem_BackpackPackSport,
+    }
+	item Bag_Schoolbag_Spiffo2
+    {
+        DisplayCategory = Bag,
+        WeightReduction	=	60,
+        Weight	=	1,
+        Type	=	Container,
+        Capacity	=	15,
+        DisplayName	=	School Bag,
+        IconsForTexture = Backpack_Black;Backpack_Spiffo,
+        CanBeEquipped = Back,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        ClothingItem = Bag_Schoolbag_Spiffo2,
+        BloodLocation = Bag,
+        RunSpeedModifier = 0.97,
+        AttachmentReplacement = Bag,
+        ReplaceInSecondHand = Bag_Schoolbag_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_Schoolbag_RHand holdingbagright,
+        WorldStaticModel = SchoolBag_Ground,
+    } 
 	item Bag_SchoolBagCEDA
     {
        DisplayCategory = Bag,	
@@ -200,6 +264,7 @@ module AuthenticZClothing {
         ReplaceInSecondHand = Bag_SchoolBagCEDA_LHand holdingbagleft,
         ReplaceInPrimaryHand = Bag_SchoolBagCEDA_RHand holdingbagright,
 		WorldStaticModel = SchoolBag_Ground,
+		SoundParameter = EquippedBaggageContainer SchoolBag,
     }
 
 	item Bag_SchoolBagCEDABlack
@@ -222,6 +287,7 @@ module AuthenticZClothing {
         ReplaceInSecondHand 	= 	Bag_SchoolBagCEDABlack_LHand holdingbagleft,
         ReplaceInPrimaryHand 	= 	Bag_SchoolBagCEDABlack_RHand holdingbagright,
 		WorldStaticModel 		= 	SchoolBag_Ground,
+		SoundParameter 			= 	EquippedBaggageContainer SchoolBag,
     }
 	item Bag_SchoolBagCEDABlue
     {
@@ -243,6 +309,7 @@ module AuthenticZClothing {
         ReplaceInSecondHand 	= 	Bag_SchoolBagCEDABlue_LHand holdingbagleft,
         ReplaceInPrimaryHand 	= 	Bag_SchoolBagCEDABlue_RHand holdingbagright,
 		WorldStaticModel 		= 	SchoolBag_Ground,
+		SoundParameter 			= 	EquippedBaggageContainer SchoolBag,
     }
 	item Bag_SchoolBagCEDARed
     {
@@ -263,7 +330,8 @@ module AuthenticZClothing {
         AttachmentReplacement 		= 	Bag,
         ReplaceInSecondHand 		= 	Bag_SchoolBagCEDARed_LHand holdingbagleft,
         ReplaceInPrimaryHand 		= 	Bag_SchoolBagCEDARed_RHand holdingbagright,
-		WorldStaticModel 			= 	SchoolBag_Ground,
+		WorldStaticModel 			= 	SchoolBag_Ground
+		SoundParameter 				= 	EquippedBaggageContainer SchoolBag,
     }	
 	
 	item Bag_JerryCanBack

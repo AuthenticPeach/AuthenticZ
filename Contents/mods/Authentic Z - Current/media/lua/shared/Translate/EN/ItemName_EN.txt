@@ -242,8 +242,8 @@ ItemName_EN = {
 
 /* Others */
 	
-	ItemName_AuthenticZClothing.AmmoStrap_Bullets2 = "Bullets Ammo Strap",
-	ItemName_AuthenticZClothing.AmmoStrap_Shells2 =  "Shells Ammo Strap",
+	ItemName_AuthenticZClothing.AmmoStrap_Bullets2 = "Bullets Bandolier (Right)",
+	ItemName_AuthenticZClothing.AmmoStrap_Shells2 =  "Shells Bandolier (Right)",
 	ItemName_AuthenticZClothing.Apron_GreenSeaHorse =  "SeaHorse Coffee Apron",	
 	ItemName_AuthenticZClothing.Apron_Short = "Short Apron",
 	ItemName_AuthenticZClothing.Apron_Yellow = "Yellow Apron",
@@ -899,8 +899,8 @@ ItemName_EN = {
 	ItemName_AuthenticZClothing.TrashCanLid_MNG = "Trash Can Lid",
 
 	/* 6-28-22 */	
-	ItemName_AuthenticZClothing.AmmoStrap_Bullets1 = "Bullets Ammo Strap",
-	ItemName_AuthenticZClothing.AmmoStrap_Shells1 = "Shells Ammo Strap",
+	ItemName_AuthenticZClothing.AmmoStrap_Bullets1 = "Bullets Bandolier (Left)",
+	ItemName_AuthenticZClothing.AmmoStrap_Shells1 = "Shells Bandolier (Left)",
 	ItemName_AuthenticZClothing.Hairstyle_Pennywise = "Pennywise's Wig",
 	ItemName_AuthenticZClothing.Fat02_ShellPants = "Shell Suit Trousers",	
 	ItemName_AuthenticZClothing.CigarAZ2 = "Cigar",	
@@ -1061,9 +1061,7 @@ ItemName_EN = {
     ItemName_AuthenticZClothing.Authentic_Headphones3 = "Cat Ear Headphones",
     ItemName_AuthenticZClothing.Authentic_HeadphonesNeck3 = "Cat Ear Headphones",
     ItemName_AuthenticZClothing.CatEarsAZ = "Cat Ears",	
-	
-	/* New */	
-			
+				
     ItemName_AuthenticZClothing.Dress_BallroomDress_Elegant = "Elegant Round Gown",		
     ItemName_AuthenticZClothing.Dress_BallroomDress_LongSleevedButtoned = "Long-Sleeved Round Gown",		
     ItemName_AuthenticZClothing.Dress_BallroomDress_LongSleevedButtonedApron = "Long-Sleeved Round Gown with Apron",		
@@ -1089,6 +1087,7 @@ ItemName_EN = {
     ItemName_AuthenticZClothing.HoodieDOWN_Buzzers = "Buzzers Hoodie",	
     ItemName_AuthenticZClothing.HoodieUP_Buzzers = "Buzzers Hoodie",
 
+	/* Update 3-04-23 */
 	
     ItemName_AuthenticZClothing.Gloves_SamaraiArmor_Gauntlets = "Samurai Forearm Protectors",		
     ItemName_AuthenticZClothing.Hat_SamuraiHelmet = "Samurai Helmet",
@@ -1106,5 +1105,57 @@ ItemName_EN = {
 	ItemName_AuthenticZClothing.Hat_BaseballCapSmileyFace =  "Smiley Face Baseball Cap",
 	ItemName_AuthenticZClothing.Hat_BaseballCapSmileyFace_Reverse =  "Smiley Face Baseball Cap (Reversed)",	
 	ItemName_AuthenticZClothing.Hat_BaseballCapSmileyFace_Sideways =  "Smiley Face Baseball Cap (Sideways)",
+
+	/* New */
 	
+	ItemName_AuthenticZClothing.Bag_Packsport_Plain = "Packsport Backpack",	
+	ItemName_AuthenticZClothing.Bag_Packsport_Plain_Tier_1 = "Packsport Backpack - Tier 1",	
+	ItemName_AuthenticZClothing.Bag_Packsport_Plain_Tier_2 = "Packsport Backpack - Tier 2",	
+	ItemName_AuthenticZClothing.Bag_Packsport_Plain_Tier_3 = "Packsport Backpack - Tier 3",
+	ItemName_AuthenticZClothing.Bag_Packsport_Rim = "Packsport Backpack",	
+	ItemName_AuthenticZClothing.Bag_Packsport_Rim_Tier_1 = "Packsport Backpack - Tier 1",	
+	ItemName_AuthenticZClothing.Bag_Packsport_Rim_Tier_2 = "Packsport Backpack - Tier 2",	
+	ItemName_AuthenticZClothing.Bag_Packsport_Rim_Tier_3 = "Packsport Backpack - Tier 3",
+
+	ItemName_AuthenticZClothing.AuthenticAquaBottle_Blue = "Aqua Bottle",	
+	ItemName_AuthenticZClothing.AuthenticAquaBottle_Blue_full = "Aqua Bottle with Water",	
+	ItemName_AuthenticZClothing.AuthenticAquaBottle_Cyan = "Aqua Bottle",	
+	ItemName_AuthenticZClothing.AuthenticAquaBottle_Cyan_full = "Aqua Bottle with Water",	
+	ItemName_AuthenticZClothing.AuthenticAquaBottle_Orange = "Aqua Bottle",	
+	ItemName_AuthenticZClothing.AuthenticAquaBottle_Orange_full = "Aqua Bottle with Water",	
+	ItemName_AuthenticZClothing.AuthenticAquaBottle_Green = "Aqua Bottle",	
+	ItemName_AuthenticZClothing.AuthenticAquaBottle_Green_full = "Aqua Bottle with Water",	
+	ItemName_AuthenticZClothing.AuthenticAquaBottle_Pink = "Aqua Bottle",	
+	ItemName_AuthenticZClothing.AuthenticAquaBottle_Pink_full = "Aqua Bottle with Water",	
+	ItemName_AuthenticZClothing.AuthenticAquaBottle_Purple = "Aqua Bottle",	
+	ItemName_AuthenticZClothing.AuthenticAquaBottle_Purple_full = "Aqua Bottle with Water",	
+	ItemName_AuthenticZClothing.AuthenticAquaBottle_Red = "Aqua Bottle",	
+	ItemName_AuthenticZClothing.AuthenticAquaBottle_Red_full = "Aqua Bottle with Water",	
+	ItemName_AuthenticZClothing.AuthenticAquaBottle_Yellow = "Aqua Bottle",	
+	ItemName_AuthenticZClothing.AuthenticAquaBottle_Yellow_full = "Aqua Bottle with Water",
+
+	ItemName_AuthenticZClothing.AuthenticGymBottle_Blue = "Gym Bottle",	
+	ItemName_AuthenticZClothing.AuthenticGymBottle_Blue_full = "Gym Bottle with Water",
+	ItemName_AuthenticZClothing.AuthenticGymBottle_Camo = "Gym Bottle",	
+	ItemName_AuthenticZClothing.AuthenticGymBottle_Camo_full = "Gym Bottle with Water",	
+	ItemName_AuthenticZClothing.AuthenticGymBottle_CamoUrban = "Gym Bottle",	
+	ItemName_AuthenticZClothing.AuthenticGymBottle_CamoUrban_full = "Gym Bottle with Water",	
+	ItemName_AuthenticZClothing.AuthenticGymBottle_Gradient1 = "Gym Bottle",	
+	ItemName_AuthenticZClothing.AuthenticGymBottle_Gradient1_full = "Gym Bottle with Water",	
+	ItemName_AuthenticZClothing.AuthenticGymBottle_Green = "Gym Bottle",	
+	ItemName_AuthenticZClothing.AuthenticGymBottle_Green_full = "Gym Bottle with Water",	
+	ItemName_AuthenticZClothing.AuthenticGymBottle_Cyan = "Gym Bottle",	
+	ItemName_AuthenticZClothing.AuthenticGymBottle_Cyan_full = "Gym Bottle with Water",	
+	ItemName_AuthenticZClothing.AuthenticGymBottle_Pink = "Gym Bottle",	
+	ItemName_AuthenticZClothing.AuthenticGymBottle_Pink_full = "Gym Bottle with Water",	
+	ItemName_AuthenticZClothing.AuthenticGymBottle_Purple = "Gym Bottle",	
+	ItemName_AuthenticZClothing.AuthenticGymBottle_Purple_full = "Gym Bottle with Water",
+	ItemName_AuthenticZClothing.AuthenticGymBottle_Red = "Gym Bottle",	
+	ItemName_AuthenticZClothing.AuthenticGymBottle_Red_full = "Gym Bottle with Water",		
+	ItemName_AuthenticZClothing.AuthenticGymBottle_Transparent = "Gym Bottle",	
+	ItemName_AuthenticZClothing.AuthenticGymBottle_Transparent_full = "Gym Bottle with Water",	
+	ItemName_AuthenticZClothing.AuthenticGymBottle_US = "Gym Bottle",	
+	ItemName_AuthenticZClothing.AuthenticGymBottle_US_full = "Gym Bottle with Water",	
+	ItemName_AuthenticZClothing.AuthenticGymBottle_Yellow = "Gym Bottle",	
+	ItemName_AuthenticZClothing.AuthenticGymBottle_Yellow_full = "Gym Bottle with Water",	
 }

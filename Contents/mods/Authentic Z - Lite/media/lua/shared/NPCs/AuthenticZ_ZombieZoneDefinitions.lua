@@ -2331,7 +2331,7 @@ ZombiesZoneDefinition.Boxing[SportsFan] = SportsFan;
 local AuthenticFat02Cheese = {
 		name="AuthenticFat02Cheese",
 		gender="male",		
-		chance=0.5,
+		chance=0.7,
 	};
 ZombiesZoneDefinition.Spiffo[AuthenticFat02Cheese] = AuthenticFat02Cheese;
 
@@ -2360,6 +2360,13 @@ local AuthenticThin01School = {
 		gender="male",
 	};
 ZombiesZoneDefinition.School[AuthenticThin01School] = AuthenticThin01School;
+
+local AuthenticWichammer = {
+		name="AuthenticWichammer",
+		gender="male",
+		chance=0.7,
+	};
+ZombiesZoneDefinition.Bar[AuthenticWichammer] = AuthenticWichammer;
 
 -- total chance can be over 100% we don't care as we'll roll on the totalChance and not a 100 (unlike the specific outfits on top of this)
 AZ_ZombiesZoneDefinition.Default = ZombiesZoneDefinition.Default or {};

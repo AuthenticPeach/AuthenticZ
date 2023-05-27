@@ -16823,9 +16823,12 @@
 		<m_items> <!-- Schoolbag -->
 			<probability>0.25</probability>
 			<itemGUID>1bba5b1a-c6c6-4af7-ab69-43f583007159</itemGUID>
-			<subItems>
+			<subItems>  <!-- Bag_Satchel -->
 				<itemGUID>f8988b1c-04bb-4b9a-8656-851d324d2fd0</itemGUID>
 			</subItems>
+			<subItems> <!-- Packsport Backpack -->
+				<itemGUID>732a0feb-0e8b-4b3b-b007-ad69e3bc8a63</itemGUID>
+			</subItems>			
 		</m_items>
 		<m_items> <!-- Dismembered Bone_Arm_L -->
 			<probability>0.03</probability>		
@@ -19902,11 +19905,14 @@
 			<itemGUID>5574c07e-1381-49d8-a0ba-40e5b2cf55cd</itemGUID>
 		</m_items>			
 		<m_items> <!-- Schoolbag -->
-			<probability>0.5</probability>
+			<probability>0.4</probability>
 			<itemGUID>1bba5b1a-c6c6-4af7-ab69-43f583007159</itemGUID>
-			<subItems>
+			<subItems>  <!-- Bag_Satchel -->
 				<itemGUID>f8988b1c-04bb-4b9a-8656-851d324d2fd0</itemGUID>
 			</subItems>
+			<subItems> <!-- Packsport Backpack -->
+				<itemGUID>732a0feb-0e8b-4b3b-b007-ad69e3bc8a63</itemGUID>
+			</subItems>			
 		</m_items>
 		<m_items> <!-- Shoes Random-->
 			<itemGUID>7741404b-9689-4608-a0f5-4e06597776f9</itemGUID>
@@ -20235,12 +20241,15 @@
 				<itemGUID>8c80a404-dc1d-4b2a-a56a-8647f1f720a8</itemGUID>
 			</subItems>			
 		</m_items>
-		<m_items> <!-- Backpack -->
-			<probability>0.5</probability>
+		<m_items> <!-- Schoolbag -->
+			<probability>0.4</probability>
 			<itemGUID>1bba5b1a-c6c6-4af7-ab69-43f583007159</itemGUID>
-			<subItems>
+			<subItems>  <!-- Bag_Satchel -->
 				<itemGUID>f8988b1c-04bb-4b9a-8656-851d324d2fd0</itemGUID>
 			</subItems>
+			<subItems> <!-- Packsport Backpack -->
+				<itemGUID>732a0feb-0e8b-4b3b-b007-ad69e3bc8a63</itemGUID>
+			</subItems>			
 		</m_items>
 		<m_items> <!-- Shoes -->
 			<itemGUID>7741404b-9689-4608-a0f5-4e06597776f9</itemGUID>

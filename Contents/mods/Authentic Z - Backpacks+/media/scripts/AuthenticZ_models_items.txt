@@ -151,6 +151,12 @@ module Base
 		texture = WorldItems/LightBulb,
 		scale = 0.4,
 	}
+	model AuthenticLighter_AZ
+	{
+		mesh = AuthenticLighter_AZ,
+		texture = clothes\Items\CarabinerClip,
+		scale = 0.6,		
+	}		
 	model AuthenticMoneyStack
 	{
 		mesh = Authentic_MoneyStack,
@@ -313,58 +319,7 @@ module Base
 	{
 		mesh = Carabiner,
 		texture = clothes\Items\CarabinerClip,
-		scale = 0.6,
-
-		attachment Balloon01
-		{
-			offset = 0.0190 0.0620 0.0050,
-			rotate = -62.0000 64.0000 123.0000,
-		}
-		attachment Balloon02
-		{
-			offset = 0.0190 0.0620 0.0050,
-			rotate = -62.0000 64.0000 123.0000,
-		}
-		attachment Balloon03
-		{
-			offset = 0.0190 0.0620 0.0050,
-			rotate = -62.0000 64.0000 123.0000,
-		}
-		attachment Balloon04
-		{
-			offset = 0.0190 0.0620 0.0050,
-			rotate = -62.0000 64.0000 123.0000,
-		}
-		attachment Balloon05
-		{
-			offset = 0.0190 0.0620 0.0050,
-			rotate = -62.0000 64.0000 123.0000,
-		}
-		attachment Balloon06
-		{
-			offset = 0.0190 0.0620 0.0050,
-			rotate = -62.0000 64.0000 123.0000,
-		}
-		attachment Balloon07
-		{
-			offset = 0.0190 0.0620 0.0050,
-			rotate = -62.0000 64.0000 123.0000,
-		}
-		attachment Balloon08
-		{
-			offset = 0.0190 0.0620 0.0050,
-			rotate = -62.0000 64.0000 123.0000,
-		}
-		attachment Balloon09
-		{
-			offset = 0.0190 0.0620 0.0050,
-			rotate = -62.0000 64.0000 123.0000,
-		}
-		attachment Balloon10
-		{
-			offset = 0.0190 0.0620 0.0050,
-			rotate = -62.0000 64.0000 123.0000,
-		}		
+		scale = 0.6,		
 	}
 	model PomPomBlack
 	{
@@ -552,26 +507,6 @@ module Base
 		texture = WorldItems/ToyBear,
 		scale = 0.3,
 	}
-	model Football3
-	{
-		mesh = ThrowableFootball,
-		texture = WorldItems/Football,
-	}
-	model WorldItem_AndySign
-	{
-		mesh = WorldItems/WorldItem_AuthenticAndySign,
-		texture = clothes\Items\AndySign,
-	}
-	model WorldItem-BroadcastingCamera
-	{
-		mesh = WorldItems/WorldItem_BroadcastingCamera,
-		texture = clothes\Items\BroadcastingCamera,
-	}
-	model WorldItem-GhostbusterTrap
-	{
-		mesh =  WorldItems/WorldItem_GhostbusterTrap,
-		texture = clothes\Items\GhostbustersTrap,
-	}	
 	model WorldItem-AuthenticGlowstickBlank
 	{
 		mesh =  WorldItems/WorldItem-AZGlowstick,
@@ -833,7 +768,12 @@ module Base
 		texture = clothes\Items\CarabinerClip,
 		scale = 0.6,
 	}
-
+	model WorldItem_Carabiner_Lighter
+	{
+		mesh = WorldItems/WorldItem-AZCarabiner_Lighter,
+		texture = clothes\Items\CarabinerClip,
+		scale = 0.6,
+	}	
 	model WorldItem_HeadPhones
 	{
 		mesh = WorldItems/HeadPhones,

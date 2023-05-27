@@ -412,6 +412,211 @@ module AuthenticZClothing{
         ReplaceInPrimaryHand 	= 	Bag_SchoolBagCEDABlue_RHand holdingbagright,
         WorldStaticModel 	 	= 	SchoolBag_Ground,
     }	
+	item Bag_Schoolbag_Spiffo2_Tier_1
+    {
+        DisplayCategory = Bag,		
+        WeightReduction			=	60,
+        Weight					=	1,
+        Type					=	Container,
+        Capacity				=	16,
+        DisplayName				=	CEDA Hazmat Pack - Tier 1,
+        Icon 					= 	Backpack_Blue,
+        CanBeEquipped 			= 	Back,
+        OpenSound   			=   OpenBag,
+        CloseSound   			=   CloseBag,
+        PutInSound   			=   PutItemInBag,
+        ClothingItem 			= 	Bag_Schoolbag_Spiffo2_Tier_1,
+        BloodLocation 			= 	Bag,
+        RunSpeedModifier 		= 	0.97,
+        AttachmentReplacement	= 	Bag,
+		AttachmentsProvided  	= 	SchoolbagBagSecondary;SchoolbagBottleRight;SchoolbagBalloonRight,		
+        ReplaceInSecondHand 	= 	Bag_SchoolBagCEDABlue_LHand holdingbagleft,
+        ReplaceInPrimaryHand 	= 	Bag_SchoolBagCEDABlue_RHand holdingbagright,
+        WorldStaticModel 	 	= 	SchoolBag_Ground,
+    }
+
+	item Bag_Schoolbag_Spiffo2_Tier_2
+    {
+        DisplayCategory = Bag,		
+        WeightReduction			=	60,
+        Weight					=	1,
+        Type					=	Container,
+        Capacity				=	17,
+        DisplayName				=	CEDA Hazmat Pack - Tier 2,
+        Icon 					= 	Backpack_Blue,
+        CanBeEquipped 			= 	Back,
+        OpenSound   			=   OpenBag,
+        CloseSound   			=   CloseBag,
+        PutInSound   			=   PutItemInBag,
+        ClothingItem 			= 	Bag_Schoolbag_Spiffo2_Tier_2,
+        BloodLocation 			= 	Bag,
+        RunSpeedModifier 		= 	0.97,
+        AttachmentReplacement	= 	Bag,
+		AttachmentsProvided  	= 	SchoolbagBagSecondary;SchoolbagItemSlot1;SchoolbagBottleRight;SchoolbagPlushie;SchoolbagUmbrellaLeft;SchoolbagBalloonRight,		
+        ReplaceInSecondHand 	= 	Bag_SchoolBagCEDABlue_LHand holdingbagleft,
+        ReplaceInPrimaryHand 	= 	Bag_SchoolBagCEDABlue_RHand holdingbagright,
+        WorldStaticModel 	 	= 	SchoolBag_Ground,
+    }
+
+	item Bag_Schoolbag_Spiffo2_Tier_3
+    {
+        DisplayCategory = Bag,		
+        WeightReduction			=	60,
+        Weight					=	1,
+        Type					=	Container,
+        Capacity				=	18,
+        DisplayName				=	CEDA Hazmat Pack - Tier 3,
+        Icon				 	=	Backpack_Blue,
+        CanBeEquipped 			= 	Back,
+        OpenSound   			=   OpenBag,
+        CloseSound   			=   CloseBag,
+        PutInSound   			=   PutItemInBag,
+        ClothingItem 			= 	Bag_Schoolbag_Spiffo2_Tier_3,
+        BloodLocation 			= 	Bag,
+        RunSpeedModifier 		= 	0.97,
+        AttachmentReplacement	= 	Bag,
+		AttachmentsProvided  	= 	SchoolbagBagSecondary;SchoolbagItemSlot2;SchoolbagItemSlot3;SchoolbagBottleRight;SchoolbagPlushie;SchoolbagUmbrellaLeft;SchoolbagFlashlight;SchoolbagBalloonRight,		
+        ReplaceInSecondHand 	= 	Bag_SchoolBagCEDABlue_LHand holdingbagleft,
+        ReplaceInPrimaryHand 	= 	Bag_SchoolBagCEDABlue_RHand holdingbagright,
+        WorldStaticModel 	 	= 	SchoolBag_Ground,
+    }
+	item Bag_Packsport_Plain_Tier_1
+    {
+        DisplayCategory = Bag,		
+        WeightReduction			=	65,
+        Weight					=	1,
+        Type					=	Container,
+        Capacity				=	18,
+        DisplayName				=	Packsport Backpack - Tier 1,
+        IconsForTexture 		= 	PacksportBackpack_Black;PacksportBackpack_Blue;PacksportBackpack_Red;PacksportBackpack_Grey;PacksportBackpack_Green;PacksportBackpack_HotPink;PacksportBackpack_PinkGreen;PacksportBackpack_Camo1;PacksportBackpack_Camo2;PacksportBackpack_PlaidRed;PacksportBackpack_PlaidGreen;PacksportBackpack_PlaidBlue;PacksportBackpack_PlaidIndigo;PacksportBackpack_Peach;PacksportBackpack_PinkDenim;PacksportBackpack_PinkClouds;PacksportBackpack_Clouds;PacksportBackpack_BlueDenim,
+        CanBeEquipped 			= 	Back,
+        OpenSound   			=   OpenBag,
+        CloseSound   			=   CloseBag,
+        PutInSound   			=   PutItemInBag,
+        ClothingItem 			= 	Bag_Packsport_Plain_Tier_1,
+        BloodLocation 			= 	Bag,
+        RunSpeedModifier 		= 	0.97,
+        AttachmentReplacement	= 	Bag,
+		AttachmentsProvided  	= 	SchoolbagBagSecondary;SchoolbagBottleRight;SchoolbagBalloonRight,		
+        ReplaceInSecondHand  	= 	Bag_Packsport_LHand holdingbagleft,
+        ReplaceInPrimaryHand 	= 	Bag_Packsport_RHand holdingbagright,
+        WorldStaticModel 	 	= 	WorldItem_BackpackPackSport,
+    }
+	
+	item Bag_Packsport_Plain_Tier_2
+    {
+        DisplayCategory = Bag,		
+        WeightReduction			=	65,
+        Weight					=	1,
+        Type					=	Container,
+        Capacity				=	19,
+        DisplayName				=	Packsport Backpack - Tier 2,
+        IconsForTexture 		= 	PacksportBackpack_Black;PacksportBackpack_Blue;PacksportBackpack_Red;PacksportBackpack_Grey;PacksportBackpack_Green;PacksportBackpack_HotPink;PacksportBackpack_PinkGreen;PacksportBackpack_Camo1;PacksportBackpack_Camo2;PacksportBackpack_PlaidRed;PacksportBackpack_PlaidGreen;PacksportBackpack_PlaidBlue;PacksportBackpack_PlaidIndigo;PacksportBackpack_Peach;PacksportBackpack_PinkDenim;PacksportBackpack_PinkClouds;PacksportBackpack_Clouds;PacksportBackpack_BlueDenim,
+        CanBeEquipped 			= 	Back,
+        OpenSound   			=   OpenBag,
+        CloseSound   			=   CloseBag,
+        PutInSound   			=   PutItemInBag,
+        ClothingItem 			= 	Bag_Packsport_Plain_Tier_2,
+        BloodLocation 			= 	Bag,
+        RunSpeedModifier 		= 	0.97,
+        AttachmentReplacement	= 	Bag,
+		AttachmentsProvided  	= 	SchoolbagBagSecondary;SchoolbagItemSlot1;SchoolbagBottleRight;SchoolbagPlushie;SchoolbagUmbrellaLeft;SchoolbagBalloonRight,		
+        ReplaceInSecondHand  	= 	Bag_Packsport_LHand holdingbagleft,
+        ReplaceInPrimaryHand 	= 	Bag_Packsport_RHand holdingbagright,
+        WorldStaticModel 	 	= 	WorldItem_BackpackPackSport,
+    }
+	
+	item Bag_Packsport_Plain_Tier_3
+    {
+        DisplayCategory = Bag,		
+        WeightReduction			=	65,
+        Weight					=	1,
+        Type					=	Container,
+        Capacity				=	20,
+        DisplayName				=	Packsport Backpack - Tier 3,
+        IconsForTexture 		= 	PacksportBackpack_Black;PacksportBackpack_Blue;PacksportBackpack_Red;PacksportBackpack_Grey;PacksportBackpack_Green;PacksportBackpack_HotPink;PacksportBackpack_PinkGreen;PacksportBackpack_Camo1;PacksportBackpack_Camo2;PacksportBackpack_PlaidRed;PacksportBackpack_PlaidGreen;PacksportBackpack_PlaidBlue;PacksportBackpack_PlaidIndigo;PacksportBackpack_Peach;PacksportBackpack_PinkDenim;PacksportBackpack_PinkClouds;PacksportBackpack_Clouds;PacksportBackpack_BlueDenim,
+        CanBeEquipped 			= 	Back,
+        OpenSound   			=   OpenBag,
+        CloseSound   			=   CloseBag,
+        PutInSound   			=   PutItemInBag,
+        ClothingItem 			= 	Bag_Packsport_Plain_Tier_3,
+        BloodLocation 			= 	Bag,
+        RunSpeedModifier 		= 	0.97,
+        AttachmentReplacement	= 	Bag,
+		AttachmentsProvided  	= 	SchoolbagBagSecondary;SchoolbagItemSlot2;SchoolbagItemSlot3;SchoolbagBottleRight;SchoolbagPlushie;SchoolbagUmbrellaLeft;SchoolbagFlashlight;SchoolbagBalloonRight,			
+        ReplaceInSecondHand  	= 	Bag_Packsport_LHand holdingbagleft,
+        ReplaceInPrimaryHand 	= 	Bag_Packsport_RHand holdingbagright,
+        WorldStaticModel 	 	= 	WorldItem_BackpackPackSport,
+    }
+
+	item Bag_Packsport_Rim_Tier_1
+    {
+        DisplayCategory = Bag,		
+        WeightReduction			=	65,
+        Weight					=	1,
+        Type					=	Container,
+        Capacity				=	18,
+        DisplayName				=	Packsport Backpack - Tier 1,
+        IconsForTexture 		= 	PacksportBackpack_BlackClassic;PacksportBackpack_BlueClassic;PacksportBackpack_RedClassic;PacksportBackpack_BlackClassic;PacksportBackpack_GreenClassic,
+        CanBeEquipped 			= 	Back,
+        OpenSound   			=   OpenBag,
+        CloseSound   			=   CloseBag,
+        PutInSound   			=   PutItemInBag,
+        ClothingItem 			= 	Bag_Packsport_Rim_Tier_1,
+        BloodLocation 			= 	Bag,
+        RunSpeedModifier 		= 	0.97,
+        AttachmentReplacement	= 	Bag,
+		AttachmentsProvided  	= 	SchoolbagBagSecondary;SchoolbagBottleRight;SchoolbagBalloonRight,		
+        ReplaceInSecondHand  	= 	Bag_Packsport_LHand holdingbagleft,
+        ReplaceInPrimaryHand 	= 	Bag_Packsport_RHand holdingbagright,
+        WorldStaticModel 	 	= 	WorldItem_BackpackPackSport,
+    }
+	
+	item Bag_Packsport_Rim_Tier_2
+    {
+        DisplayCategory = Bag,		
+        WeightReduction			=	65,
+        Weight					=	1,
+        Type					=	Container,
+        Capacity				=	19,
+        DisplayName				=	Packsport Backpack - Tier 2,
+        IconsForTexture 		= 	PacksportBackpack_BlackClassic;PacksportBackpack_BlueClassic;PacksportBackpack_RedClassic;PacksportBackpack_BlackClassic;PacksportBackpack_GreenClassic,
+        CanBeEquipped 			= 	Back,
+        OpenSound   			=   OpenBag,
+        CloseSound   			=   CloseBag,
+        PutInSound   			=   PutItemInBag,
+        ClothingItem 			= 	Bag_Packsport_Rim_Tier_2,
+        BloodLocation 			= 	Bag,
+        RunSpeedModifier 		= 	0.97,
+        AttachmentReplacement	= 	Bag,
+		AttachmentsProvided  	= 	SchoolbagBagSecondary;SchoolbagItemSlot1;SchoolbagBottleRight;SchoolbagPlushie;SchoolbagUmbrellaLeft;SchoolbagBalloonRight,				
+        ReplaceInSecondHand  	= 	Bag_Packsport_LHand holdingbagleft,
+        ReplaceInPrimaryHand 	= 	Bag_Packsport_RHand holdingbagright,
+        WorldStaticModel 	 	= 	WorldItem_BackpackPackSport,
+    }
+	
+	item Bag_Packsport_Rim_Tier_3
+    {
+        DisplayCategory = Bag,		
+        WeightReduction			=	65,
+        Weight					=	1,
+        Type					=	Container,
+        Capacity				=	20,
+        DisplayName				=	Packsport Backpack - Tier 3,
+        IconsForTexture 		= 	PacksportBackpack_BlackClassic;PacksportBackpack_BlueClassic;PacksportBackpack_RedClassic;PacksportBackpack_BlackClassic;PacksportBackpack_GreenClassic,
+        CanBeEquipped 			= 	Back,
+        OpenSound   			=   OpenBag,
+        CloseSound   			=   CloseBag,
+        PutInSound   			=   PutItemInBag,
+        ClothingItem 			= 	Bag_Packsport_Rim_Tier_3,
+        BloodLocation 			= 	Bag,
+        RunSpeedModifier 		= 	0.97,
+        AttachmentReplacement	= 	Bag,
+		AttachmentsProvided  	= 	SchoolbagBagSecondary;SchoolbagItemSlot2;SchoolbagItemSlot3;SchoolbagBottleRight;SchoolbagPlushie;SchoolbagUmbrellaLeft;SchoolbagFlashlight;SchoolbagBalloonRight,				
+        ReplaceInSecondHand  	= 	Bag_Packsport_LHand holdingbagleft,
+        ReplaceInPrimaryHand 	= 	Bag_Packsport_RHand holdingbagright,
+        WorldStaticModel 	 	= 	WorldItem_BackpackPackSport,
+    }
 
 	item Bag_SpiffoBackpackAZ_Tier_1
     {
@@ -2423,6 +2628,110 @@ recipe Upgrade CEDA Hazmat Pack
 	   Tooltip:Tooltip_AttachBackpackTier3,
   	}
 
+recipe Upgrade Packsport Backpack
+  	{
+	   Bag_Packsport_Plain,	
+	   keep Scissors,
+       keep Needle/SutureNeedle,
+       Thread=3,
+	   DenimStrips/LeatherStrips=3,	   
+
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_Packsport_Plain_Tier_1,
+	   OnGiveXP:Give20TailoringXP,	   
+	   Time:300.0,
+       AnimNode:Disassemble,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_AttachBackpackTier1,
+	   
+  	}
+
+recipe Upgrade Packsport Backpack
+  	{
+	   Bag_Packsport_Plain_Tier_1,	
+	   keep Scissors,
+       keep Needle/SutureNeedle,
+       Thread=3,
+	   DenimStrips/LeatherStrips=3,	   
+
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_Packsport_Plain_Tier_2,
+	   OnGiveXP:Give20TailoringXP,	   
+	   Time:300.0,
+       AnimNode:Disassemble,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_AttachBackpackTier2,
+	   
+  	}
+recipe Upgrade Packsport Backpack
+  	{
+	   Bag_Packsport_Plain_Tier_2,	
+	   keep Scissors,
+       keep Needle/SutureNeedle,
+       Thread=3,
+	   DenimStrips/LeatherStrips=3,	   
+
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_Packsport_Plain_Tier_3,
+	   OnGiveXP:Give20TailoringXP,	   
+	   Time:300.0,
+       AnimNode:Disassemble,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_AttachBackpackTier3,
+	   
+  	}
+recipe Upgrade Packsport Backpack
+  	{
+	   Bag_Packsport_Rim,	
+	   keep Scissors,
+       keep Needle/SutureNeedle,
+       Thread=3,
+	   DenimStrips/LeatherStrips=3,	   
+
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_Packsport_Rim_Tier_1,
+	   OnGiveXP:Give20TailoringXP,	   
+	   Time:300.0,
+       AnimNode:Disassemble,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_AttachBackpackTier1,
+	   
+  	}
+
+recipe Upgrade Packsport Backpack
+  	{
+	   Bag_Packsport_Rim_Tier_1,	
+	   keep Scissors,
+       keep Needle/SutureNeedle,
+       Thread=3,
+	   DenimStrips/LeatherStrips=3,	   
+
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_Packsport_Rim_Tier_2,
+	   OnGiveXP:Give20TailoringXP,	   
+	   Time:300.0,
+       AnimNode:Disassemble,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_AttachBackpackTier2,
+	   
+  	}
+recipe Upgrade Packsport Backpack
+  	{
+	   Bag_Packsport_Rim_Tier_2,	
+	   keep Scissors,
+       keep Needle/SutureNeedle,
+       Thread=3,
+	   DenimStrips/LeatherStrips=3,	   
+
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_Packsport_Rim_Tier_3,
+	   OnGiveXP:Give20TailoringXP,	   
+	   Time:300.0,
+       AnimNode:Disassemble,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_AttachBackpackTier3,
+	   
+  	}	
 recipe Upgrade Spiffo Backpack
   	{
 	   Bag_SpiffoBackpackAZ,	
@@ -2656,7 +2965,7 @@ recipe Upgrade Moms Backpack
         Type					=	Container,
         Capacity				=	21,
         DisplayName				=	Holly's Backpack - Tier 1,
-        IconsForTexture			=	Backpack_Holly;Backpack_Holly_Green;Backpack_Holly_Purple;Backpack_Holly_Red;Backpack_Holly_Special,
+        IconsForTexture			=	Backpack_Holly;Backpack_Holly_Green;Backpack_Holly_Purple;Backpack_Holly_Red;Backpack_Holly_Special;Backpack_Holly_Golden,
         CanBeEquipped 			= 	Back,
         OpenSound   			=   OpenBag,
         CloseSound   			=   CloseBag,
@@ -2679,7 +2988,7 @@ recipe Upgrade Moms Backpack
         Type					=	Container,
         Capacity				=	22,
         DisplayName				=	Holly's Backpack - Tier 2,
-        IconsForTexture			=	Backpack_Holly;Backpack_Holly_Green;Backpack_Holly_Purple;Backpack_Holly_Red;Backpack_Holly_Special,
+        IconsForTexture			=	Backpack_Holly;Backpack_Holly_Green;Backpack_Holly_Purple;Backpack_Holly_Red;Backpack_Holly_Special;Backpack_Holly_Golden,
         CanBeEquipped 			= 	Back,
         OpenSound   			=   OpenBag,
         CloseSound   			=   CloseBag,
@@ -2702,7 +3011,7 @@ recipe Upgrade Moms Backpack
         Type					=	Container,
         Capacity				=	23,
         DisplayName				=	Holly's Backpack - Tier 3,
-        IconsForTexture			=	Backpack_Holly;Backpack_Holly_Green;Backpack_Holly_Purple;Backpack_Holly_Red;Backpack_Holly_Special,
+        IconsForTexture			=	Backpack_Holly;Backpack_Holly_Green;Backpack_Holly_Purple;Backpack_Holly_Red;Backpack_Holly_Special;Backpack_Holly_Golden,
         CanBeEquipped 			= 	Back,
         OpenSound   			=   OpenBag,
         CloseSound  			=   CloseBag,

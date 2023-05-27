@@ -563,5 +563,14 @@ recipe Make Backpack Attachable Item
 	   Time:30.0,
 	   Tooltip:Tooltip_AttachBackpack,
   	}
-	
+recipe Make Backpack Attachable Item
+  	{
+   	   Lighter,
+	   AZ_MetalClip,	   
+
+	   OnCreate:AZKeepFoodContent_OnCreate,
+   	   Result:AuthenticZClothing.LighterAZ,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachBackpack,
+  	}	
 }		

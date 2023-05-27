@@ -1667,6 +1667,7 @@ module AuthenticZLite {
         WindResistance = 0.35,
         FabricType = Cotton,
         Weight = 2,
+		isStraightJacket = true,		
         WorldStaticModel = Jacket_Ground,			
     }
 

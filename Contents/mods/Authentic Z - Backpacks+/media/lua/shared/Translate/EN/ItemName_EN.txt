@@ -641,7 +641,6 @@ ItemName_EN = {
 	ItemName_AuthenticZBackpacksPlus.Bag_Military_Tier_2 = "Military Duffel Bag - Tier 3",	
 	ItemName_AuthenticZBackpacksPlus.Bag_Military_Tier_3 = "Military Duffel Bag - Tier 3",		
 
-	/* New */
 	ItemName_AuthenticZBackpacksPlus.Bag_ALICEpack_Festive = "Festive Alice Pack",	
 	ItemName_AuthenticZBackpacksPlus.Bag_ALICEpack_Festive_Tier_1 = "Festive Alice Pack - Tier 1",	
 	ItemName_AuthenticZBackpacksPlus.Bag_ALICEpack_Festive_Tier_2 = "Festive Alice Pack - Tier 2",	
@@ -649,6 +648,15 @@ ItemName_EN = {
 	ItemName_AuthenticZBackpacksPlus.Bag_DuffleFestive = "Festive Duffel Bag",	
 	ItemName_AuthenticZBackpacksPlus.Bag_DuffleFestive_Tier_1 = "Festive Duffel Bag - Tier 1",	
 	ItemName_AuthenticZBackpacksPlus.Bag_DuffleFestive_Tier_2 = "Festive Duffel Bag - Tier 2",	
-	ItemName_AuthenticZBackpacksPlus.Bag_DuffleFestive_Tier_3 = "Festive Duffel Bag - Tier 3",	
+	ItemName_AuthenticZBackpacksPlus.Bag_DuffleFestive_Tier_3 = "Festive Duffel Bag - Tier 3",
+	/* New */
+	ItemName_AuthenticZBackpacksPlus.Bag_Packsport_Plain = "Packsport Backpack",	
+	ItemName_AuthenticZBackpacksPlus.Bag_Packsport_Plain_Tier_1 = "Packsport Backpack - Tier 1",	
+	ItemName_AuthenticZBackpacksPlus.Bag_Packsport_Plain_Tier_2 = "Packsport Backpack - Tier 2",	
+	ItemName_AuthenticZBackpacksPlus.Bag_Packsport_Plain_Tier_3 = "Packsport Backpack - Tier 3",
+	ItemName_AuthenticZBackpacksPlus.Bag_Packsport_Rim = "Packsport Backpack",	
+	ItemName_AuthenticZBackpacksPlus.Bag_Packsport_Rim_Tier_1 = "Packsport Backpack - Tier 1",	
+	ItemName_AuthenticZBackpacksPlus.Bag_Packsport_Rim_Tier_2 = "Packsport Backpack - Tier 2",	
+	ItemName_AuthenticZBackpacksPlus.Bag_Packsport_Rim_Tier_3 = "Packsport Backpack - Tier 3",	
 
 }

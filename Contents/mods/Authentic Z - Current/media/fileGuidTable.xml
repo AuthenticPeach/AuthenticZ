@@ -3799,6 +3799,46 @@
 		<guid>c860f8d0-c06a-47dc-b3ac-87da962f750d</guid>
 	</files>
 	<files>
+		<path>media/clothing/clothingItems/Bag_Packsport_Plain.xml</path>
+		<guid>732a0feb-0e8b-4b3b-b007-ad69e3bc8a63</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_Packsport_Plain_Tier_1.xml</path>
+		<guid>5eedb27c-b528-49d7-bb20-71480ca80ddb</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_Packsport_Plain_Tier_2.xml</path>
+		<guid>aa56c3cb-1388-4604-b566-decd573b69c6</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_Packsport_Plain_Tier_3.xml</path>
+		<guid>754395c8-9c26-4af6-9c2f-0edbcf8b96c3</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_Packsport_Rim.xml</path>
+		<guid>1f4aa194-52ef-4ea0-8e77-ee3f87958881</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_Packsport_Rim_Tier_1.xml</path>
+		<guid>a2ab8ca5-7303-40a7-a1f5-f85fca9793f6</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_Packsport_Rim_Tier_2.xml</path>
+		<guid>f085ccf6-0447-43b9-ab8d-4d067609d153</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_Packsport_Rim_Tier_3.xml</path>
+		<guid>9316e706-cf67-4b28-a64f-5af78ae0735c</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_Packsport_RHand.xml</path>
+		<guid>bff09f4e-dbb6-4195-a804-717d0d6aa222</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_Packsport_LHand.xml</path>
+		<guid>879c430e-0081-419d-bef1-829ed31d94bf</guid>
+	</files>	
+	<files>
 		<path>media/clothing/clothingItems/Bag_SatchelAZ.xml</path>
 		<guid>304a67a8-ddad-40c3-b3e9-3e3e4078fd9f</guid>
 	</files>	

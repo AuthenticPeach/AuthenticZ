@@ -8,16 +8,9 @@ module AuthenticZClothing {
         DisplayCategory 	= 	Tool,
         Weight				=	1.0,
         Type				=	Drainable,
-        UseWhileEquipped	=	FALSE,
         UseDelta			=	0.01,
         DisplayName			=	Propane Torch,
         Icon				=	BlowTorch,
-        MetalValue 			= 	20,
-        KeepOnDeplete 		= 	true,
-		AttachmentType  	= 	Torch,		
-        StaticModel 		= 	BlowTorch,
-        WeightEmpty 		= 	0.3,
-        WorldStaticModel 	= 	BlowtorchGround,
         OBSOLETE			=	TRUE,		
     }
  
@@ -1190,5 +1183,25 @@ module AuthenticZClothing {
         WorldStaticModel 	= 	HacksawGround,
 	    OBSOLETE 			= 	TRUE,	
 	}
-
+	
+	item LighterAZ
+	{
+	    DisplayCategory = LightSource,
+		LightDistance	=	2,
+		Weight	=	0.15,
+		Type	=	Drainable,
+		UseWhileEquipped	=	TRUE,
+		TorchCone	=	FALSE,
+		LightStrength	=	0.4,
+		DisplayName	=	Lighter,
+		ActivatedItem	=	TRUE,
+		Icon	=	Lighter,
+		MetalValue = 2,
+		cantBeConsolided = TRUE,
+		StaticModel = AuthenticLighter_AZ,
+		WorldStaticModel = WorldItem_Carabiner_Lighter,
+		ticksPerEquipUse = 110,
+		Tags = StartFire;Lighter,
+		AttachmentType   	= 	Hammer,
+	}
 }		

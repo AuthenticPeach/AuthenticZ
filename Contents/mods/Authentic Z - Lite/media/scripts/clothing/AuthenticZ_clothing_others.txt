@@ -21,7 +21,7 @@ module AuthenticZLite {
        DisplayCategory = Accessory,		
 		Type = Clothing,
 		DisplayName = Shells Ammo Strap,
-		ClothingItem = AmmoStrap_Shells2,
+		ClothingItem = AmmoStrap_Shells1,
 		BodyLocation = AmmoStrap,
 		ClothingItemExtra = AuthenticZLite.AmmoStrap_Shells2,
         ClothingItemExtraOption = SwapSides,				
@@ -92,7 +92,7 @@ module AuthenticZLite {
 		BloodLocation = Apron,
 		Icon = ApronWhiteShort,
 		FabricType = Cotton,
-		WorldStaticModel = Apron_Ground,		
+		WorldStaticModel = WorldItem_Apron_Short,		
 	}
 	item Apron_Yellow
 	{
@@ -436,6 +436,7 @@ module AuthenticZLite {
 		BodyLocation 			= TorsoExtraPlus1,
 		Icon 					= CrutchAZ,
 		Weight 					= 1,
+		isAuthenticZCrutch 		= true,
 		WorldStaticModel		= WorldItem-CrutchAZ,	
 	}		
 	item CrutchRIGHT
@@ -449,6 +450,7 @@ module AuthenticZLite {
 		BodyLocation 			= TorsoRigPlus2,
 		Icon 					= CrutchAZ,
 		Weight 					= 1,
+		isAuthenticZCrutch 		= true,
 		WorldStaticModel		= WorldItem-CrutchAZ,	
 	}		
 	item CultistRobe

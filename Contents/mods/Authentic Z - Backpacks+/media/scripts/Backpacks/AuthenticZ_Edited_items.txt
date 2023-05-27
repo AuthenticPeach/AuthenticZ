@@ -1376,12 +1376,7 @@ item BorisBadger
         Weight				= 0.7,
         Type				= Normal,
         DisplayName			= Garden Saw,
-        Icon				= Handsaw,
-        MetalValue 			= 35,
-        StaticModel 		= GardenSaw,
-        SurvivalGear 		= TRUE,
-        Tags 				= Saw,
-		AttachmentType   	= Saw,			
+        Icon				= Handsaw,		
 		OBSOLETE 			= TRUE,
     }
 
@@ -1392,12 +1387,26 @@ item BorisBadger
 		Type				=	Normal,
 		DisplayName			=	Saw,
 		Icon				=	Hacksaw,
-		MetalValue 			= 	35,
-		StaticModel			=	Hacksaw,
-		SurvivalGear 		= 	TRUE,
-        Tags 				= 	Saw,
-		AttachmentType   	= 	Saw,	
 	    OBSOLETE 			= 	TRUE,	
 	}
 
+	item LighterAZ
+	{
+	    DisplayCategory = LightSource,
+		LightDistance	=	2,
+		Weight	=	0.15,
+		Type	=	Drainable,
+		UseWhileEquipped	=	TRUE,
+		TorchCone	=	FALSE,
+		LightStrength	=	0.4,
+		DisplayName	=	Lighter,
+		ActivatedItem	=	TRUE,
+		Icon	=	Lighter,
+		MetalValue = 2,
+		cantBeConsolided = TRUE,
+		StaticModel = AuthenticLighter_AZ,
+		WorldStaticModel = WorldItem_Carabiner_Lighter,
+		ticksPerEquipUse = 110,
+		Tags = StartFire;Lighter,
+	}
 }		

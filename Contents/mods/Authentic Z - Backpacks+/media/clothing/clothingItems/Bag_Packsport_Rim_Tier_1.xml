@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>Skinned\BackPacks\PackportBackpackRim</m_MaleModel>
+	<m_FemaleModel>Skinned\BackPacks\PackportBackpackRim</m_FemaleModel>
+	<m_GUID>a2ab8ca5-7303-40a7-a1f5-f85fca9793f6</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>clothes\Backpacks\JansportBlack</textureChoices>
+	<textureChoices>clothes\Backpacks\JansportBlue</textureChoices>
+	<textureChoices>clothes\Backpacks\JansportRed</textureChoices>
+	<textureChoices>clothes\Backpacks\JansportGrey</textureChoices>
+	<textureChoices>clothes\Backpacks\JansportGreen</textureChoices>
+</clothingItem>

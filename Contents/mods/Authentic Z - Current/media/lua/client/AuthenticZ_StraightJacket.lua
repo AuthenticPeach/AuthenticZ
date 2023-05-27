@@ -1,20 +1,37 @@
 --This file is dedicated towards the AuthenticZ Straight Jacket 
-local PlayerObj = {}
-function PlayerObj:isWearingStraightJacket()
-
-	local this      = getSpecificPlayer(0)
-	if not this then return false end
-	local wornItems = this:getWornItems()
+AuthenticZStraightJacket = {}
 
 
-  for i = 0, wornItems:size()-1 do
-    local item = wornItems:get(i)
-    if ( item:getItem():getType() == AuthenticZClothing.Jacket_StraightJacket ) then		
-		ISInventoryPaneContextMenu.unequipItem(self.player:getPrimaryHandItem(), self.player:getPlayerNum())
-		ISInventoryPaneContextMenu.unequipItem(self.player:getSecondaryHandItem(), self.player:getPlayerNum())
+Events.OnGameStart.Add(function()    
+
+    local function isStraightJacketWorn()
+        local player = getPlayer()
+        local jacket = nil
+        local wornItems = player:getWornItems()
+        for i = 1, wornItems:size() do
+            jacket = wornItems:get(i - 1):getItem()
+            if jacket and (instanceof(jacket, "Clothing") or jacket:IsClothing() or jacket:getCategory() == "Clothing") then
+                if jacket:getModule() == "AuthenticZClothing" and jacket:getModData()['isStraightJacket'] then
+                    return true
+                end
+            end
+        end
+        return false
     end
-  end
 
-  return false
+    function AuthenticZStraightJacket.disabler()
+        local player = getPlayer() 
+        if not player then return end
+        if player:getPrimaryHandItem() then player:setPrimaryHandItem(nil) end
+        if player:getSecondaryHandItem() then player:setSecondaryHandItem(nil) end
+    end
 
-end
+    function AuthenticZStraightJacket.checker(ticks)
+        if ticks % 30 == 0 then 
+            if isStraightJacketWorn() then Events.OnPlayerUpdate.Add(AuthenticZStraightJacket.disabler)
+            else Events.OnPlayerUpdate.Remove(AuthenticZStraightJacket.disabler) end
+        end 
+    end
+
+    Events.OnTick.Add(AuthenticZStraightJacket.checker)
+end)

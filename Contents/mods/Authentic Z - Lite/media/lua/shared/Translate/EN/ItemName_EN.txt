@@ -242,8 +242,8 @@ ItemName_EN = {
 
 /* Others */
 	
-	ItemName_AuthenticZLite.AmmoStrap_Bullets2 = "Bullets Ammo Strap",
-	ItemName_AuthenticZLite.AmmoStrap_Shells2 =  "Shells Ammo Strap",
+	ItemName_AuthenticZLite.AmmoStrap_Bullets2 = "Bullets Bandolier (Right)"
+	ItemName_AuthenticZLite.AmmoStrap_Shells2 =  "Shells Bandolier (Right)",
 	ItemName_AuthenticZLite.Apron_GreenSeaHorse =  "SeaHorse Coffee Apron",	
 	ItemName_AuthenticZLite.Apron_Short = "Short Apron",
 	ItemName_AuthenticZLite.Apron_Yellow = "Yellow Apron",
@@ -899,8 +899,8 @@ ItemName_EN = {
 	ItemName_AuthenticZLite.TrashCanLid_MNG = "Trash Can Lid",
 
 	/* 6-28-22 */	
-	ItemName_AuthenticZLite.AmmoStrap_Bullets1 = "Bullets Ammo Strap",
-	ItemName_AuthenticZLite.AmmoStrap_Shells1 = "Shells Ammo Strap",
+	ItemName_AuthenticZLite.AmmoStrap_Bullets1 = "Bullets Bandolier (Left)",
+	ItemName_AuthenticZLite.AmmoStrap_Shells1 = "Shells Bandolier (Left)",
 	ItemName_AuthenticZLite.Hairstyle_Pennywise = "Pennywise's Wig",
 	ItemName_AuthenticZLite.Fat02_ShellPants = "Shell Suit Trousers",	
 	ItemName_AuthenticZLite.CigarAZ2 = "Cigar",	
