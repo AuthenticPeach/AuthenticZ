@@ -1,5 +1,45 @@
 module Base
 {
+model AuthenticAquaBottle_Blue
+	{
+		mesh = WorldItems/WorldItem_AZ_AquaBottle,
+		texture = clothes\Items\Aquabottle-Blue,
+	}	
+	model AuthenticAquaBottle_Cyan
+	{
+		mesh = WorldItems/WorldItem_AZ_AquaBottle,
+		texture = clothes\Items\Aquabottle-Cyan,
+	}
+	model AuthenticAquaBottle_Green
+	{
+		mesh = WorldItems/WorldItem_AZ_AquaBottle,
+		texture = clothes\Items\Aquabottle-Green,
+	}
+	model AuthenticAquaBottle_Orange
+	{
+		mesh = WorldItems/WorldItem_AZ_AquaBottle,
+		texture = clothes\Items\Aquabottle-Orange,
+	}
+	model AuthenticAquaBottle_Pink
+	{
+		mesh = WorldItems/WorldItem_AZ_AquaBottle,
+		texture = clothes\Items\Aquabottle-Pink,
+	}
+	model AuthenticAquaBottle_Purple
+	{
+		mesh = WorldItems/WorldItem_AZ_AquaBottle,
+		texture = clothes\Items\Aquabottle-Purple,
+	}
+	model AuthenticAquaBottle_Red
+	{
+		mesh = WorldItems/WorldItem_AZ_AquaBottle,
+		texture = clothes\Items\Aquabottle-Red,
+	}
+	model AuthenticAquaBottle_Yellow
+	{
+		mesh = WorldItems/WorldItem_AZ_AquaBottle,
+		texture = clothes\Items\Aquabottle-Yellow,
+	}		
 	model AuthenticBalloonBlue
 	{
 		mesh = Balloon,
@@ -30,6 +70,16 @@ module Base
 		mesh = BalloonGroup3,
 		texture = clothes\Items\BalloonRed,
 	}
+	model AuthenticBalloonTeal
+	{
+		mesh = Balloon,
+		texture = clothes\Items\BalloonTeal
+	}
+	model AuthenticBalloon_Group_Teal
+	{
+		mesh = BalloonGroup3,
+		texture = clothes\Items\BalloonTeal,
+	}	
 	model AuthenticBalloonPink
 	{
 		mesh = Balloon,
@@ -134,7 +184,67 @@ module Base
 	{
 		mesh = AuthenticGhostbusterTrap,
 		texture = clothes\Items\GhostbustersTrap,
-	}	
+	}
+	model AuthenticGymBottle_Blue
+	{
+		mesh =  WorldItems/WorldItem_AZ_GymBottle,
+		texture = clothes\Items\GymBottle_Blue,
+	}
+	model AuthenticGymBottle_Camo
+	{
+		mesh =  WorldItems/WorldItem_AZ_GymBottle,
+		texture = clothes\Items\GymBottle_Camo,
+	}
+	model AuthenticGymBottle_CamoUrban
+	{
+		mesh =  WorldItems/WorldItem_AZ_GymBottle,
+		texture = clothes\Items\GymBottle_CamoUrban,
+	}
+	model AuthenticGymBottle_Cyan
+	{
+		mesh =  WorldItems/WorldItem_AZ_GymBottle,
+		texture = clothes\Items\GymBottle_Cyan,
+	}
+	model AuthenticGymBottle_Gradient1
+	{
+		mesh =  WorldItems/WorldItem_AZ_GymBottle,
+		texture = clothes\Items\GymBottle_Gradient1,
+	}
+	model AuthenticGymBottle_Green
+	{
+		mesh =  WorldItems/WorldItem_AZ_GymBottle,
+		texture = clothes\Items\GymBottle_Green,
+	}
+	model AuthenticGymBottle_Lavender
+	{
+		mesh =  WorldItems/WorldItem_AZ_GymBottle,
+		texture = clothes\Items\GymBottle_Lavender,
+	}
+	model AuthenticGymBottle_Pink
+	{
+		mesh =  WorldItems/WorldItem_AZ_GymBottle,
+		texture = clothes\Items\GymBottle_Pink,
+	}
+	model AuthenticGymBottle_Red
+	{
+		mesh =  WorldItems/WorldItem_AZ_GymBottle,
+		texture = clothes\Items\GymBottle_Red,
+	}
+	model AuthenticGymBottle_Transparent
+	{
+		mesh =  WorldItems/WorldItem_AZ_GymBottle,
+		texture = clothes\Items\GymBottle_Transparent,
+	}
+	model AuthenticGymBottle_US
+	{
+		mesh =  WorldItems/WorldItem_AZ_GymBottle,
+		texture = clothes\Items\GymBottle_US,
+	}
+	model AuthenticGymBottle_Yellow
+	{
+		mesh =  WorldItems/WorldItem_AZ_GymBottle,
+		texture = clothes\Items\GymBottle_Yellow,
+	}		
 	model AuthenticIceStaff
 	{
 		mesh = Weapons/2Handed/AuthenticIceStaff,
@@ -637,11 +747,16 @@ module Base
 	{
 		mesh = WorldItems/WorldItem_Balloon,
 		texture = clothes\Items\BalloonPurple,		
+	}	
+	model WorldItem-BalloonTeal
+	{
+		mesh = WorldItems/WorldItem_Balloon,
+		texture = clothes\Items\BalloonTeal,		
 	}
-	model WorldItem-BalloonGroupPurple
+	model WorldItem-BalloonGroupTeal
 	{
 		mesh = BalloonGroup3_Ground,
-		texture = clothes\Items\BalloonPurple,		
+		texture = clothes\Items\BalloonTeal,		
 	}
 	model WorldItem-BalloonWhite
 	{
@@ -653,6 +768,7 @@ module Base
 		mesh = BalloonGroup3_Ground,
 		texture = clothes\Items\BalloonWhite,		
 	}
+
 	model WorldItem-BalloonYellow
 	{
 		mesh = WorldItems/WorldItem_Balloon,

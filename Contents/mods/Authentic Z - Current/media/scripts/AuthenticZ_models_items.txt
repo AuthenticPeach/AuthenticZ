@@ -75,6 +75,16 @@ module Base
 		mesh = BalloonGroup3,
 		texture = clothes\Items\BalloonRed,
 	}
+	model AuthenticBalloonTeal
+	{
+		mesh = Balloon,
+		texture = clothes\Items\BalloonTeal
+	}
+	model AuthenticBalloon_Group_Teal
+	{
+		mesh = BalloonGroup3,
+		texture = clothes\Items\BalloonTeal,
+	}	
 	model AuthenticBalloonPink
 	{
 		mesh = Balloon,
@@ -1333,8 +1343,7 @@ module Base
 	}
 	model WorldItem-BalloonPink
 	{
-		mesh = WorldItems/WorldItem_Balloon,
-		
+		mesh = WorldItems/WorldItem_Balloon,	
 		texture = clothes\Items\BalloonPink,		
 	}
 	model WorldItem-BalloonGroupPurple

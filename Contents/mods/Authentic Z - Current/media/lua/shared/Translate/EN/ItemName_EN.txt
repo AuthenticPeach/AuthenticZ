@@ -1004,7 +1004,7 @@ ItemName_EN = {
 	ItemName_AuthenticZClothing.Vest_Portal_Tanktop = "Blue and White Tank Top",	
 	ItemName_AuthenticZClothing.Winslow_Spikes = "Impaled Spikes",
 
-	/* New */
+	/* 8-18-22 */
 	ItemName_AuthenticZClothing.Arm_LeftBone = "Arm Bone (L)",
 	ItemName_AuthenticZClothing.Arm_LeftHandBone = "Hand Bone (L)",
 	ItemName_AuthenticZClothing.Bone_Arm_R = "Arm Bone (R)",
@@ -1021,7 +1021,6 @@ ItemName_EN = {
 	ItemName_AuthenticZClothing.Bone_Skin_UpperArm_L = "Upper Arm L (Dismembered)",
 	ItemName_AuthenticZClothing.SkeletonBody = "Skele Body",
 	
-	/* New */
 	ItemName_AuthenticZClothing.Bag_MedicalBag_Tier_1 = "Trauma Bag - Tier 1",	
 	ItemName_AuthenticZClothing.Bag_MedicalBag_Tier_2 = "Trauma Bag - Tier 2",	
 	ItemName_AuthenticZClothing.Bag_MedicalBag_Tier_3 = "Trauma Bag - Tier 3",	
@@ -1116,6 +1115,8 @@ ItemName_EN = {
 	ItemName_AuthenticZClothing.Bag_Packsport_Rim_Tier_1 = "Packsport Backpack - Tier 1",	
 	ItemName_AuthenticZClothing.Bag_Packsport_Rim_Tier_2 = "Packsport Backpack - Tier 2",	
 	ItemName_AuthenticZClothing.Bag_Packsport_Rim_Tier_3 = "Packsport Backpack - Tier 3",
+	
+	ItemName_AuthenticZClothing.Bag_Schoolbag_Spiffo2 = "School Bag",
 
 	ItemName_AuthenticZClothing.AuthenticAquaBottle_Blue = "Aqua Bottle",	
 	ItemName_AuthenticZClothing.AuthenticAquaBottle_Blue_full = "Aqua Bottle with Water",	
