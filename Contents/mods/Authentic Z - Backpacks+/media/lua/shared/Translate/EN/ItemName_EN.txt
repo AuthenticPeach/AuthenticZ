@@ -657,6 +657,8 @@ ItemName_EN = {
 	ItemName_AuthenticZBackpacksPlus.Bag_Packsport_Rim = "Packsport Backpack",	
 	ItemName_AuthenticZBackpacksPlus.Bag_Packsport_Rim_Tier_1 = "Packsport Backpack - Tier 1",	
 	ItemName_AuthenticZBackpacksPlus.Bag_Packsport_Rim_Tier_2 = "Packsport Backpack - Tier 2",	
-	ItemName_AuthenticZBackpacksPlus.Bag_Packsport_Rim_Tier_3 = "Packsport Backpack - Tier 3",	
+	ItemName_AuthenticZBackpacksPlus.Bag_Packsport_Rim_Tier_3 = "Packsport Backpack - Tier 3",
+	
+	ItemName_AuthenticZBackpacksPlus.Bag_Schoolbag_Spiffo2 = "School Bag",	
 
 }

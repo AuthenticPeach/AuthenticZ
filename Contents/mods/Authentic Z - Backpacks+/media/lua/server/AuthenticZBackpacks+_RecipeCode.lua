@@ -22,47 +22,72 @@ function AuthenticTorchBatteryRemoval_OnCreate(items, result, player)
 end
 
 --Have bags keep inventory items during craft
---TODO, Fix part on keeping texture
 function PleaseKeepColor(item, resultItem, player)
+    local player_Inventory = player:getInventory()
+    local transferred_Items = {} -- Create an empty table to store transferred items
+    local dItem
+    local backpack = item:get(0) -- Get the backpack item from the main item
+    local backpackVisual = backpack:getVisual() -- Get the visual of the backpack item
+    local resultVisual = resultItem:getVisual() -- Get the visual of the result item
 
-	local player_Inventory = player:getInventory();
-	local transferred_Items = {}; 
-	local dItem;
-	local texture;
-	
-	for i = 0, (item:size()-1) do 
-		dItem = item:get(i); 
-		
-		if dItem:getCategory() == "Container" then 
-		texture = dItem:getTexture()
-			if player:getClothingItem_Back() == dItem then 
-				player:setClothingItem_Back(nil);
-			end
-			if player:getPrimaryHandItem() == dItem then 
-				player:setPrimaryHandItem(nil);
-			end
-			if player:getSecondaryHandItem() == dItem then 
-				player:setSecondaryHandItem(nil); 
-			end
-			dInv = dItem:getInventory(); 
-			newInv= resultItem:getInventory(); 
-			dInvItems = dInv:getItems(); 
-			if dInvItems:size() >= 1 then 
-				for i2 = 0, (dInvItems:size()-1) do
-					invItem = dInvItems:get(i2);
-					table.insert(transferred_Items, invItem) 
-				end
-			end
-		end
-	end
-	
-	for i3, k3 in ipairs(transferred_Items) do
-		dInv:Remove(k3); 
-		newInv:AddItem(k3); 
-	end
-	resultItem:setTexture(texture);
+    -- Iterate over each item in the main item
+    for i = 0, (item:size() - 1) do
+        dItem = item:get(i) -- Get the current item
+
+        if dItem:getCategory() == "Container" then
+            -- Check if the player is wearing the container as a backpack and unequip it
+            if player:getClothingItem_Back() == dItem then
+                player:setClothingItem_Back(nil)
+            end
+            -- Check if the player is holding the container in the primary hand and unequip it
+            if player:getPrimaryHandItem() == dItem then
+                player:setPrimaryHandItem(nil)
+            end
+            -- Check if the player is holding the container in the secondary hand and unequip it
+            if player:getSecondaryHandItem() == dItem then
+                player:setSecondaryHandItem(nil)
+            end
+
+            local dInv = dItem:getInventory() -- Get the inventory of the container
+
+            if dInv then -- Check if dInv is not nil before proceeding
+                local newInv = resultItem:getInventory() -- Get the inventory of the result item
+                local dInvItems = dInv:getItems() -- Get the items in the container's inventory
+
+                if dInvItems:size() >= 1 then
+                    -- Iterate over each item in the container's inventory
+                    for i2 = 0, (dInvItems:size() - 1) do
+                        local invItem = dInvItems:get(i2) -- Get the current item
+                        table.insert(transferred_Items, invItem) -- Add the item to the transferred items table
+                    end
+                end
+            end
+        end
+    end
+
+    -- Iterate over each transferred item
+    for i3, k3 in ipairs(transferred_Items) do
+        local dInv = k3:getContainer() -- Get the container of the transferred item
+
+        if dInv then -- Check if dInv is not nil before proceeding
+            dInv:Remove(k3) -- Remove the item from its container
+            local newInv = resultItem:getInventory() -- Get the inventory of the result item
+            newInv:AddItem(k3) -- Add the item to the result item's inventory
+        end
+    end
+
+    -- Check if both backpackVisual and resultVisual are not nil before proceeding
+    if backpackVisual and resultVisual then
+        resultVisual:setTextureChoice(backpackVisual:getTextureChoice()) -- Set the texture choice of the result item to match the backpack item
+        resultItem:synchWithVisual() -- Synchronize the result item with its visual
+    end
 end
 
+function RemoveItem(item)
+    if item.container ~= nil then
+        item.container:Remove(item)
+    end
+end
 
 -- Return true if AZRecipe is valid, false otherwise
 function AuthenticTorchBatteryInsert_TestIsValid(sourceItem, result)

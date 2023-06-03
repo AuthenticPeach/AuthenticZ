@@ -3607,6 +3607,22 @@
 		<guid>e852baca-1988-44d8-aa90-cc8f7200ebf4</guid>
 	</files>	
 	<files>
+		<path>media/clothing/clothingItems/Bag_Packsport_Plain.xml</path>
+		<guid>732a0feb-0e8b-4b3b-b007-ad69e3bc8a63</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_Packsport_Rim.xml</path>
+		<guid>1f4aa194-52ef-4ea0-8e77-ee3f87958881</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_Packsport_RHand.xml</path>
+		<guid>bff09f4e-dbb6-4195-a804-717d0d6aa222</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_Packsport_LHand.xml</path>
+		<guid>879c430e-0081-419d-bef1-829ed31d94bf</guid>
+	</files>	
+	<files>
 		<path>media/clothing/clothingItems/Bag_SatchelAZ.xml</path>
 		<guid>304a67a8-ddad-40c3-b3e9-3e3e4078fd9f</guid>
 	</files>	
