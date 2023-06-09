@@ -243,8 +243,6 @@ AuthenticZ.tab_addMagProcedural_SpiffoBackpack  = function(x,count)
   ProceduralDistributions.list[x].items = ProceduralDistributions.list[x].items or {};
   table.insert(ProceduralDistributions.list[x].items,"AuthenticZLite.Bag_SpiffoBackpackAZ");
   table.insert(ProceduralDistributions.list[x].items, count);  
-  table.insert(ProceduralDistributions.list[x].items,"AuthenticZLite.Bag_PAWSBackpackAZ");
-  table.insert(ProceduralDistributions.list[x].items, count);
 end
 
 --Carabiner
@@ -398,6 +396,8 @@ AuthenticZ.tab_addMagProcedural_Plushies  = function(x,count)
   table.insert(ProceduralDistributions.list[x].items, count);     
   table.insert(ProceduralDistributions.list[x].items,"AuthenticZLite.SpiffoShamrock");
   table.insert(ProceduralDistributions.list[x].items, count);
+  table.insert(ProceduralDistributions.list[x].items,"AuthenticZLite.SpiffoCherry");
+  table.insert(ProceduralDistributions.list[x].items, count);  
   table.insert(ProceduralDistributions.list[x].items,"AuthenticZLite.SpiffoSanta");
   table.insert(ProceduralDistributions.list[x].items, count);    
   table.insert(ProceduralDistributions.list[x].items,"AuthenticZLite.Flamingo");

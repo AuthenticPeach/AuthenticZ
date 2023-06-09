@@ -4005,14 +4005,6 @@
 		<guid>fe012841-872b-474a-9382-3e99c132d135</guid>
 	</files>
 	<files>
-		<path>media/clothing/clothingItems/Bag_PAWSBackpackAZ_Rhand.xml</path>
-		<guid>edfc7ef1-7f63-41cd-b65b-0b16594262dd</guid>
-	</files>
-	<files>
-		<path>media/clothing/clothingItems/Bag_PAWSBackpackAZ_Lhand.xml</path>
-		<guid>2819ae28-32f6-4453-af59-e267fc7ce792</guid>
-	</files>
-	<files>
 		<path>media/clothing/clothingItems/Bag_PAWSBackpackAZ_Tier_1.xml</path>
 		<guid>5c368f7c-ae98-40eb-9af4-d7fb220d68aa</guid>
 	</files>

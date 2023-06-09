@@ -136,6 +136,18 @@ module AuthenticZLite {
 		StaticModel 			= 	SpiffoPlushieBlueberry,		
 	}
 
+    item SpiffoCherry
+	{
+        DisplayCategory 		= 	Raccoon,		
+		Weight					=	0.2,
+		Type					=	Normal,
+		DisplayName				=	Cherry Spiffo,
+		Icon					=	PlushSpiffoCherry,
+		WorldStaticModel 		= 	SpiffoPlushieCherry,
+        AttachmentType  		= 	SpiffoPlushie,
+		StaticModel 			= 	SpiffoPlushieCherry,	
+	}
+
     item SpiffoShamrock
 	{
         DisplayCategory 		= 	Raccoon,		

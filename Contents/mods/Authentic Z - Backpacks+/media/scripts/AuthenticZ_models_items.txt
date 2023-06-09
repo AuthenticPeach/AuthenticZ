@@ -471,15 +471,11 @@ model AuthenticAquaBottle_Blue
 	model SpiffoBackpack
     {
         mesh = WorldItems/WorldItem_SpiffoBackpack,
-        texture = clothes\Backpacks\Bag_SpiffoBackpack,
-        scale= 1.0,
     }
 
     model PAWSBackpack
     {
         mesh = WorldItems/WorldItem_SpiffoBackpack,
-        texture = clothes\Backpacks\Bag_PAWSBackpack,
-        scale = 1.0,
     }
 	model PlushieBadger_Static
     {
@@ -542,7 +538,7 @@ model AuthenticAquaBottle_Blue
 	model SpiffoPlushieHeart
     {
         mesh = SpiffoPlushieFull,
-        texture = clothes\Items\SpiffoPlushiePinkHeart,		
+        texture = clothes\Items\SpiffoPlushiePinkHeart,	
         scale = 0.4,
     }
 	model SpiffoPlushieBlueberry
@@ -551,6 +547,12 @@ model AuthenticAquaBottle_Blue
         texture = clothes\Items\SpiffoPlushieBlueberry,		
         scale = 0.4,
     }
+	model SpiffoPlushieCherry
+    {
+        mesh = SpiffoPlushieFull,
+        texture = clothes\Items\SpiffoPlushieCherry,		
+        scale = 0.4,
+    }	
 	model SpiffoPlushieShamrock
     {
         mesh = SpiffoPlushieFull,

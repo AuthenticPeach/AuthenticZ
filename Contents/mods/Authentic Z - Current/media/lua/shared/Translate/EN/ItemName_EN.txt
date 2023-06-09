@@ -1158,5 +1158,7 @@ ItemName_EN = {
 	ItemName_AuthenticZClothing.AuthenticGymBottle_US = "Gym Bottle",	
 	ItemName_AuthenticZClothing.AuthenticGymBottle_US_full = "Gym Bottle with Water",	
 	ItemName_AuthenticZClothing.AuthenticGymBottle_Yellow = "Gym Bottle",	
-	ItemName_AuthenticZClothing.AuthenticGymBottle_Yellow_full = "Gym Bottle with Water",	
+	ItemName_AuthenticZClothing.AuthenticGymBottle_Yellow_full = "Gym Bottle with Water",
+	
+	ItemName_AuthenticZClothing.SpiffoPlushieCherry = "Cherry Spiffo",	
 }

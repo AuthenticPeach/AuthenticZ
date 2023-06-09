@@ -400,7 +400,7 @@ module AuthenticZBackpacksPlus {
         Type	=	Container,
         Capacity	=	10,
         DisplayName	=	Spiffo Backpack,
-        Icon = SpiffoBackpack2,
+        IconsForTexture = SpiffoBackpackOG;SpiffoBackpackCherry;SpiffoBackpackBlueberry;SpiffoBackpackHeart;SpiffoBackpackPAWS;SpiffoBackpackShamrock;SpiffoBackpackRainbow,
         CanBeEquipped = Back,
         OpenSound   =   OpenBag,
         CloseSound   =   CloseBag,
@@ -417,23 +417,11 @@ module AuthenticZBackpacksPlus {
     item Bag_PAWSBackpackAZ
     {
         DisplayCategory = Raccoon,
-        WeightReduction	=	30,
         Weight	=	1,
-        Type	=	Container,
-        Capacity	=	15,
+        Type	=	Normal,
         DisplayName	=	PAWS Backpack,
         Icon = PAWSBackpack2,
-        CanBeEquipped = Back,
-        OpenSound   =   OpenBag,
-        CloseSound   =   CloseBag,
-        PutInSound   =   PutItemInBag,
-        ClothingItem = Bag_PAWSBackpackAZ,
-        BloodLocation = Bag,
-        RunSpeedModifier = 0.97,
-        AttachmentReplacement = Bag,
-        ReplaceInSecondHand = Bag_PAWSBackpackAZ_Lhand holdingbagleft,
-        ReplaceInPrimaryHand = Bag_PAWSBackpackAZ_Rhand holdingbagright,
-        WorldStaticModel = PAWSBackpack,
+		OBSOLETE			=	TRUE,
     }	
 
     item Bag_UtilityBeltFront

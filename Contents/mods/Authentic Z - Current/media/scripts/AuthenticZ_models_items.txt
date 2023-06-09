@@ -734,15 +734,11 @@ module Base
 	model SpiffoBackpack
     {
         mesh = WorldItems/WorldItem_SpiffoBackpack,
-        texture = clothes\Backpacks\Bag_SpiffoBackpack,
-        scale= 1.0,
     }
 
     model PAWSBackpack
     {
         mesh = WorldItems/WorldItem_SpiffoBackpack,
-        texture = clothes\Backpacks\Bag_PAWSBackpack,
-        scale = 1.0,
     }
 	model PlushieBadger_Static
     {
@@ -814,6 +810,12 @@ module Base
         texture = clothes\Items\SpiffoPlushieBlueberry,		
         scale = 0.4,
     }
+	model SpiffoPlushieCherry
+    {
+        mesh = SpiffoPlushieFull,
+        texture = clothes\Items\SpiffoPlushieCherry,		
+        scale = 0.4,
+    }	
 	model SpiffoPlushieShamrock
     {
         mesh = SpiffoPlushieFull,

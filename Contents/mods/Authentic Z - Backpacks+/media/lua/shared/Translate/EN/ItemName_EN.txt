@@ -465,7 +465,6 @@ ItemName_EN = {
 
 	/* 11-30-21 update  */	
 	ItemName_AuthenticZBackpacksPlus.ToyBearSmall = "Teddy Bear",	
-	ItemName_AuthenticZBackpacksPlus.SpiffoGrey = "PAWS Spiffo",
 	ItemName_AuthenticZBackpacksPlus.SpiffoPlushieHeart = "Heart Spiffo",
 	ItemName_AuthenticZBackpacksPlus.SpiffoPlushieBlueberry = "Blueberry Spiffo",
 	ItemName_AuthenticZBackpacksPlus.SpiffoPlushieShamrock = "Shamrock Spiffo",
@@ -627,10 +626,6 @@ ItemName_EN = {
 	ItemName_AuthenticZBackpacksPlus.AuthenticGlowstick_Yellow = "Yellow Glowstick",
 	ItemName_AuthenticZBackpacksPlus.AuthenticGlowstick_Yellow_On = "Yellow Glowstick (Activated)",	
 	
-	ItemName_AuthenticZBackpacksPlus.Bag_PAWSBackpackAZ 	= "PAWS Backpack",	
-	ItemName_AuthenticZBackpacksPlus.Bag_PAWSBackpackAZ_Tier_1 = "PAWS Backpack - Tier 1",	
-	ItemName_AuthenticZBackpacksPlus.Bag_PAWSBackpackAZ_Tier_2 = "PAWS Backpack - Tier 2",	
-	ItemName_AuthenticZBackpacksPlus.Bag_PAWSBackpackAZ_Tier_3 = "PAWS Backpack - Tier 3",		
 	ItemName_AuthenticZBackpacksPlus.Bag_SpiffoBackpackAZ = "Spiffo Backpack",	
 	ItemName_AuthenticZBackpacksPlus.Bag_SpiffoBackpackAZ_Tier_1 = "Spiffo Backpack - Tier 1",	
 	ItemName_AuthenticZBackpacksPlus.Bag_SpiffoBackpackAZ_Tier_2 = "Spiffo Backpack - Tier 2",	
@@ -661,4 +656,5 @@ ItemName_EN = {
 	
 	ItemName_AuthenticZBackpacksPlus.Bag_Schoolbag_Spiffo2 = "School Bag",	
 
+	ItemName_AuthenticZBackpacksPlus.SpiffoPlushieCherry = "Cherry Spiffo",
 }

@@ -61,8 +61,6 @@ AuthenticZ.tab_addMagProcedural_SpiffoBackpack  = function(x,count)
   ProceduralDistributions.list[x].junk.items = ProceduralDistributions.list[x].junk.items or {};
   table.insert(ProceduralDistributions.list[x].junk.items,"AuthenticZClothing.Bag_SpiffoBackpackAZ");
   table.insert(ProceduralDistributions.list[x].junk.items, count);  
-  table.insert(ProceduralDistributions.list[x].junk.items,"AuthenticZClothing.Bag_PAWSBackpackAZ");
-  table.insert(ProceduralDistributions.list[x].junk.items, count);
 end
 
 --Individual Glowsticks
