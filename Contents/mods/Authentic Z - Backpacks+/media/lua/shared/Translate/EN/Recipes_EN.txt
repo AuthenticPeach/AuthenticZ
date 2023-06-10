@@ -33,8 +33,6 @@ Recipes_EN = {
 
 	Recipe_Upgrade_CEDA_Hazmat_Pack = "Upgrade CEDA Hazmat Pack",
 	Recipe_Upgrade_NBH_Hazmat_Pack = "Upgrade NBH Hazmat Pack",
-	Recipe_Upgrade_Moms_Backpack = "Upgrade Mom's Backpack",
-	Recipe_Upgrade_Hollys_Backpack = "Upgrade Holly's Backpack",
 	Recipe_Upgrade_Duffelbag = "Upgrade Duffel Bag",
 	Recipe_Upgrade_Rucksack = "Upgrade Rucksack",	
 	
@@ -42,7 +40,6 @@ Recipes_EN = {
 	Recipe_Reuse_Bag = "Reuse Bag",	
 	Recipe_Make_Backpack_Attachable = "Make Backpack Attachable",	
 
-	Recipe_Upgrade_Evangelos_Backpack = "Upgrade Evangelo's Backpack",	
 	Recipe_Upgrade_Hoffmans_Backpack = "Upgrade Hoffman's Backpack",
 	Recipe_Upgrade_Walkers_Backpack = "Upgrade Walker's Backpack",
 
@@ -53,9 +50,12 @@ Recipes_EN = {
 	Recipe_Attach_Walkie_to_Vest = "Attach Walkie to Vest",
 	Recipe_Use_TV-110_as_Bulletproof_Vest = "Use TV-110 as Bulletproof Vest",
 	Recipe_Use_TV-110_as_Magazine_Bag = "Use TV-110 as Magazine Bag",
-
-/* New */	
+	
 	Recipe_Revert_Attachable_Item = "Revert Attachable Item",
 	Recipe_Make_Backpack_Attachable_Item = "Make Backpack Attachable Item",	
-	
+
+/* New */
+	Recipe_Upgrade_Moms_Backpack = "Upgrade Casual Daypack",
+	Recipe_Upgrade_Hollys_Backpack = "Upgrade OdysseyGear Travel Pack",
+	Recipe_Upgrade_Evangelos_Backpack = "Upgrade FlexFit Backpack",		
 	}

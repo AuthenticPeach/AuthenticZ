@@ -179,20 +179,6 @@ AuthenticZ.tab_addMagProcedural_AZCanteen("ArmySurplusBackpacks",2.0);
 AuthenticZ.tab_addMagProcedural_AZCanteen("OtherGeneric",0.3);
 AuthenticZ.tab_addMagProcedural_AZCanteen("ToolStoreMisc",1.0);
 
-AuthenticZ.tab_addMagProcedural_AZAquaBottle("KitchenBottles",1.0);
-AuthenticZ.tab_addMagProcedural_AZAquaBottle("OtherGeneric",0.15);
-AuthenticZ.tab_addMagProcedural_AZAquaBottle("ToolStoreMisc",0.7);
-AuthenticZ.tab_addMagProcedural_AZAquaBottle("GymLockers", 0.8);
-AuthenticZ.tab_addMagProcedural_AZAquaBottle("SurvivalGear", 0.8);
-
-AuthenticZ.tab_addMagProcedural_AZGymBottle("GymLockers", 0.8);
-AuthenticZ.tab_addMagProcedural_AZGymBottle("SurvivalGear", 0.8);
-AuthenticZ.tab_addMagProcedural_AZGymBottle("GigamartHousewares", 0.8);
-AuthenticZ.tab_addMagProcedural_AZGymBottle("GolfLockers", 0.8);
-AuthenticZ.tab_addMagProcedural_AZGymBottle("Locker", 0.3);
-AuthenticZ.tab_addMagProcedural_AZGymBottle("LockerClassy", 0.5);
-AuthenticZ.tab_addMagProcedural_AZGymBottle("SurvivalGear", 0.2);
-
 AuthenticZ.tab_addMagProcedural_BackpacksSmall("SchoolLockers",0.05);
 AuthenticZ.tab_addMagProcedural_BackpacksSmall("WardrobeChild",0.08);
 AuthenticZ.tab_addMagProcedural_BackpacksSmall("ClosetShelfGeneric",0.01);
