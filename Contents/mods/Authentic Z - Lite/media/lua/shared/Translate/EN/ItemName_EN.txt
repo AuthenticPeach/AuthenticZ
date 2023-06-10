@@ -2,10 +2,8 @@ ItemName_EN = {
 
 /* Bags */
 
-	ItemName_AuthenticZLite.Bag_B4BEvangelo = "Evangelo's Backpack",
 	ItemName_AuthenticZLite.Bag_B4BHoffman = "Hoffman's Backpack",
 	ItemName_AuthenticZLite.Bag_B4BHolly = "Holly's Backpack",
-	ItemName_AuthenticZLite.Bag_B4BMom = "Mom's Backpack",
 	ItemName_AuthenticZLite.Bag_B4BWalker = "Walker's Backpack",
 	ItemName_AuthenticZLite.Bag_SchoolBagNBH = "NBH Hazmat Pack",	
 	ItemName_AuthenticZLite.Bag_ProtonPack_Back = "Proton Pack",
@@ -595,25 +593,6 @@ ItemName_EN = {
 	
 	ItemName_AuthenticZLite.Authentic_MinerLightbulb = "Mining Helmet Light",
 	ItemName_AuthenticZLite.AZ_MetalClip = "Carabiner Clip",
-	
-	ItemName_AuthenticZLite.Bag_Schoolbag_Tier_1 = "School Bag - Tier 1",	
-	ItemName_AuthenticZLite.Bag_Schoolbag_Tier_2 = "School Bag - Tier 2",
-	ItemName_AuthenticZLite.Bag_Schoolbag_Tier_3 = "School Bag - Tier 3",	
-	ItemName_AuthenticZLite.Bag_DuffelBag_Tier_1 = "Duffel Bag - Tier 1",
-	ItemName_AuthenticZLite.Bag_DuffelBag_Tier_2 = "Duffel Bag - Tier 2",
-	ItemName_AuthenticZLite.Bag_DuffelBag_Tier_3 = "Duffel Bag - Tier 3",
-	ItemName_AuthenticZLite.Bag_NormalHikingBag_Tier_1 = "Hiking Bag - Tier 1",
-	ItemName_AuthenticZLite.Bag_NormalHikingBag_Tier_2 = "Hiking Bag - Tier 2",
-	ItemName_AuthenticZLite.Bag_NormalHikingBag_Tier_3 = "Hiking Bag - Tier 3",
-	ItemName_AuthenticZLite.Bag_BigHikingBag_Tier_1 = "Big Hiking Bag - Tier 1",
-	ItemName_AuthenticZLite.Bag_BigHikingBag_Tier_2 = "Big Hiking Bag - Tier 2",
-	ItemName_AuthenticZLite.Bag_BigHikingBag_Tier_3 = "Big Hiking Bag - Tier 3",	
-	ItemName_AuthenticZLite.Bag_ALICEpack_Tier_1 = "Alice Pack - Tier 1",
-	ItemName_AuthenticZLite.Bag_ALICEpack_Tier_2 = "Alice Pack - Tier 2",
-	ItemName_AuthenticZLite.Bag_ALICEpack_Tier_3 = "Alice Pack - Tier 3",
-	ItemName_AuthenticZLite.Bag_ALICEpack_Army_Tier_1 = "Woodland Alice Pack - Tier 1",
-	ItemName_AuthenticZLite.Bag_ALICEpack_Army_Tier_2 = "Woodland Alice Pack - Tier 2",
-	ItemName_AuthenticZLite.Bag_ALICEpack_Army_Tier_3 = "Woodland Alice Pack - Tier 3",
 
 	ItemName_AuthenticZLite.Handbag_Secondary = "Handbag",
 	ItemName_AuthenticZLite.Plasticbag_Secondary = "Plastic Bag",	
@@ -630,28 +609,7 @@ ItemName_EN = {
 
 	/* 11-26-21 update */	
 	ItemName_AuthenticZLite.AuthenticCigaretteHolder = "Cigarette Holder"
-	ItemName_AuthenticZLite.Bag_SchoolBagCEDA_Tier_1 = "CEDA Hazmat Pack - Tier 1",	
-	ItemName_AuthenticZLite.Bag_SchoolBagCEDA_Tier_2 = "CEDA Hazmat Pack - Tier 2",
-	ItemName_AuthenticZLite.Bag_SchoolBagCEDA_Tier_3 = "CEDA Hazmat Pack - Tier 3",
-	ItemName_AuthenticZLite.Bag_SchoolBagCEDABlack_Tier_1 = "CEDA Hazmat Pack - Tier 1",	
-	ItemName_AuthenticZLite.Bag_SchoolBagCEDABlack_Tier_2 = "CEDA Hazmat Pack - Tier 2",
-	ItemName_AuthenticZLite.Bag_SchoolBagCEDABlack_Tier_3 = "CEDA Hazmat Pack - Tier 3",
-	ItemName_AuthenticZLite.Bag_SchoolBagCEDARed_Tier_1 = "CEDA Hazmat Pack - Tier 1",	
-	ItemName_AuthenticZLite.Bag_SchoolBagCEDARed_Tier_2 = "CEDA Hazmat Pack - Tier 2",
-	ItemName_AuthenticZLite.Bag_SchoolBagCEDARed_Tier_3 = "CEDA Hazmat Pack - Tier 3",
-	ItemName_AuthenticZLite.Bag_SchoolBagCEDABlue_Tier_1 = "CEDA Hazmat Pack - Tier 1",	
-	ItemName_AuthenticZLite.Bag_SchoolBagCEDABlue_Tier_2 = "CEDA Hazmat Pack - Tier 2",
-	ItemName_AuthenticZLite.Bag_SchoolBagCEDABlue_Tier_3 = "CEDA Hazmat Pack - Tier 3",
-	
-	ItemName_AuthenticZLite.Bag_SchoolBagNBH_Tier_1 = "NBH Hazmat Pack - Tier 1",	
-	ItemName_AuthenticZLite.Bag_SchoolBagNBH_Tier_2 = "NBH Hazmat Pack - Tier 2",
-	ItemName_AuthenticZLite.Bag_SchoolBagNBH_Tier_3 = "NBH Hazmat Pack - Tier 3",
-	ItemName_AuthenticZLite.Bag_B4BMom_Tier_1 = "Mom's Backpack - Tier 1",	
-	ItemName_AuthenticZLite.Bag_B4BMom_Tier_2 = "Mom's Backpack - Tier 2",
-	ItemName_AuthenticZLite.Bag_B4BMom_Tier_3 = "Mom's Backpack - Tier 3",
-	ItemName_AuthenticZLite.Bag_B4BHolly_Tier_1 = "Holly's Backpack - Tier 1",	
-	ItemName_AuthenticZLite.Bag_B4BHolly_Tier_2 = "Holly's Backpack - Tier 2",
-	ItemName_AuthenticZLite.Bag_B4BHolly_Tier_3 = "Holly's Backpack - Tier 3",
+
 
 	/* 11-30-21 update  */	
 	ItemName_AuthenticZLite.ToyBearSmall = "Teddy Bear",	
@@ -660,16 +618,7 @@ ItemName_EN = {
 	ItemName_AuthenticZLite.SpiffoPlushieBlueberry = "Blueberry Spiffo",
 	ItemName_AuthenticZLite.SpiffoPlushieShamrock = "Shamrock Spiffo",
 	ItemName_AuthenticZLite.SpiffoPlushieRainbow = "Rainbow Spiffo",
-	
-	ItemName_AuthenticZLite.Bag_DuffelBagGrey_Tier_1 = "Duffel Bag  - Tier 1",	
-	ItemName_AuthenticZLite.Bag_DuffelBagGrey_Tier_2 = "Duffel Bag  - Tier 2",
-	ItemName_AuthenticZLite.Bag_DuffelBagGrey_Tier_3 = "Duffel Bag  - Tier 3",
-	ItemName_AuthenticZLite.Bag_DuffelBagTINT_Tier_1 = "Duffel Bag  - Tier 1",	
-	ItemName_AuthenticZLite.Bag_DuffelBagTINT_Tier_2 = "Duffel Bag  - Tier 2",
-	ItemName_AuthenticZLite.Bag_DuffelBagTINT_Tier_3 = "Duffel Bag  - Tier 3",	
-	ItemName_AuthenticZLite.Bag_ARVN_Rucksack_Tier_1 = "ARVN Rucksack - Tier 1",	
-	ItemName_AuthenticZLite.Bag_ARVN_Rucksack_Tier_2 = "ARVN Rucksack - Tier 2",
-	ItemName_AuthenticZLite.Bag_ARVN_Rucksack_Tier_3 = "ARVN Rucksack - Tier 3",
+
 	
  	/* 12-8-21 update  */	
 	ItemName_AuthenticZLite.BunnyEars = "Bunny Ears",	
@@ -682,15 +631,6 @@ ItemName_EN = {
 	/* 12-26-21 */
 	ItemName_AuthenticZLite.TShirt_RedStriped = "Red Striped T-Shirt",
 	ItemName_AuthenticZLite.Trousers_SuitVeryRed = "Red Trousers",
-	ItemName_AuthenticZLite.Bag_B4BHoffman_Tier_1 = "Hoffman's Backpack - Tier 1",	
-	ItemName_AuthenticZLite.Bag_B4BHoffman_Tier_2 = "Hoffman's Backpack - Tier 2",
-	ItemName_AuthenticZLite.Bag_B4BHoffman_Tier_3 = "Hoffman's Backpack - Tier 3",
-	ItemName_AuthenticZLite.Bag_B4BEvangelo_Tier_1 = "Evangelo's Backpack - Tier 1",	
-	ItemName_AuthenticZLite.Bag_B4BEvangelo_Tier_2 = "Evangelo's Backpack - Tier 2",
-	ItemName_AuthenticZLite.Bag_B4BEvangelo_Tier_3 = "Evangelo's Backpack - Tier 3",
-	ItemName_AuthenticZLite.Bag_B4BWalker_Tier_1 = "Walker's Backpack - Tier 1",	
-	ItemName_AuthenticZLite.Bag_B4BWalker_Tier_2 = "Walker's Backpack - Tier 2",
-	ItemName_AuthenticZLite.Bag_B4BWalker_Tier_3 = "Walker's Backpack - Tier 3",
 	
 	ItemName_AuthenticZLite.Hat_SummerWhite = "White Summer Hat",
 	ItemName_AuthenticZLite.Apron_DonutAZ = "Donut Server Apron",
@@ -706,9 +646,6 @@ ItemName_EN = {
 	ItemName_AuthenticZLite.Bag_MilitaryWebbing_AZ 			= "Tactical Webbing",
 	ItemName_AuthenticZLite.Bag_MilitaryWebbingTightened_AZ = "Tactical Webbing (Tightened)",	
 	ItemName_AuthenticZLite.Bag_ALICEpack_UrbanCamo 	   = "Urban Camo Alice Pack",	
-	ItemName_AuthenticZLite.Bag_ALICEpack_UrbanCamo_Tier_1 = "Urban Camo Alice Pack - Tier 1",	
-	ItemName_AuthenticZLite.Bag_ALICEpack_UrbanCamo_Tier_2 = "Urban Camo Alice Pack - Tier 2",	
-	ItemName_AuthenticZLite.Bag_ALICEpack_UrbanCamo_Tier_3 = "Urban Camo Alice Pack - Tier 3",		
 	ItemName_AuthenticZLite.Hat_FootballHelmet_BlueStar = "Football Helmet",
 	ItemName_AuthenticZLite.Hat_FootballHelmet_Chiefs = "Chiefs Football Helmet",
 	ItemName_AuthenticZLite.Hat_FootballHelmet_Packers = "Packers Football Helmet",
@@ -1136,4 +1073,7 @@ ItemName_EN = {
 	ItemName_AuthenticZLite.AuthenticGymBottle_Yellow_full = "Gym Bottle with Water",	
 
 	ItemName_AuthenticZLite.SpiffoPlushieCherry = "Cherry Spiffo",	
+	
+	ItemName_AuthenticZLite.Bag_B4BMom = "Casual Daypack",
+	ItemName_AuthenticZLite.Bag_B4BEvangelo = "FlexFit Backpack",
 }

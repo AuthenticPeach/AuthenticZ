@@ -7,5 +7,11 @@
 	<m_AllowRandomHue>false</m_AllowRandomHue>
 	<m_AllowRandomTint>false</m_AllowRandomTint>
 	<m_AttachBone></m_AttachBone>
-	<textureChoices>Clothes\Backpacks\BackpackMom</textureChoices>
+	<textureChoices>Clothes\Backpacks\Daypack_Black</textureChoices>
+	<textureChoices>Clothes\Backpacks\Daypack_Blue</textureChoices>
+	<textureChoices>Clothes\Backpacks\Daypack_Green</textureChoices>
+	<textureChoices>Clothes\Backpacks\Daypack_Indigo</textureChoices>
+	<textureChoices>Clothes\Backpacks\Daypack_Purple</textureChoices>
+	<textureChoices>Clothes\Backpacks\Daypack_Red</textureChoices>
+	<textureChoices>Clothes\Backpacks\Daypack_Teal</textureChoices>
 </clothingItem>

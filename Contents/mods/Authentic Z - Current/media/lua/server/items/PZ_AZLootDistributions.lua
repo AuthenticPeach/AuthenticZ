@@ -433,14 +433,12 @@ AuthenticZ.tab_addMagProcedural_items("LivingRoomShelf",0.05);
 AuthenticZ.tab_addMagProcedural_items("MagazineRackMixed",0.05);
 AuthenticZ.tab_addMagProcedural_items("PostOfficeMagazines",0.05);
 
-AuthenticZ.tab_addMagProcedural_AZAquaBottle("Hiker",0.5);
 AuthenticZ.tab_addMagProcedural_AZAquaBottle("KitchenBottles",1.0);
 AuthenticZ.tab_addMagProcedural_AZAquaBottle("OtherGeneric",0.15);
 AuthenticZ.tab_addMagProcedural_AZAquaBottle("ToolStoreMisc",0.7);
 AuthenticZ.tab_addMagProcedural_AZAquaBottle("GymLockers", 0.8);
 AuthenticZ.tab_addMagProcedural_AZAquaBottle("SurvivalGear", 0.8);
 
-AuthenticZ.tab_addMagProcedural_AZGymBottle("Hiker",0.3);
 AuthenticZ.tab_addMagProcedural_AZGymBottle("GymLockers", 0.8);
 AuthenticZ.tab_addMagProcedural_AZGymBottle("SurvivalGear", 0.8);
 AuthenticZ.tab_addMagProcedural_AZGymBottle("GigamartHousewares", 0.8);
@@ -449,17 +447,17 @@ AuthenticZ.tab_addMagProcedural_AZGymBottle("Locker", 0.3);
 AuthenticZ.tab_addMagProcedural_AZGymBottle("LockerClassy", 0.5);
 AuthenticZ.tab_addMagProcedural_AZGymBottle("SurvivalGear", 0.2);
 
-AuthenticZ.tab_addMagProcedural_BackpacksSmall("SchoolLockers",0.05)
-AuthenticZ.tab_addMagProcedural_BackpacksSmall("WardrobeChild",0.08)
-AuthenticZ.tab_addMagProcedural_BackpacksSmall("ClosetShelfGeneric",0.01)
-AuthenticZ.tab_addMagProcedural_BackpacksSmall("BookstoreBags",1)
-AuthenticZ.tab_addMagProcedural_BackpacksSmall("GigamartSchool",1)
-AuthenticZ.tab_addMagProcedural_BackpacksSmall("CampingStoreBackpacks",1)
+AuthenticZ.tab_addMagProcedural_BackpacksSmall("SchoolLockers",0.05);
+AuthenticZ.tab_addMagProcedural_BackpacksSmall("WardrobeChild",0.08);
+AuthenticZ.tab_addMagProcedural_BackpacksSmall("ClosetShelfGeneric",0.01);
+AuthenticZ.tab_addMagProcedural_BackpacksSmall("BookstoreBags",1);
+AuthenticZ.tab_addMagProcedural_BackpacksSmall("GigamartSchool",1);
+AuthenticZ.tab_addMagProcedural_BackpacksSmall("CampingStoreBackpacks",1);
 
-AuthenticZ.tab_addMagProcedural_BackpacksMedium("CampingStoreBackpacks",1)
-AuthenticZ.tab_addMagProcedural_BackpacksMedium("CampingLockers",0.1)
-AuthenticZ.tab_addMagProcedural_BackpacksMedium("HuntingLockers",0.1)
-AuthenticZ.tab_addMagProcedural_BackpacksMedium("VacationStuff",0.1)
+AuthenticZ.tab_addMagProcedural_BackpacksMedium("CampingStoreBackpacks",1);
+AuthenticZ.tab_addMagProcedural_BackpacksMedium("CampingLockers",0.1);
+AuthenticZ.tab_addMagProcedural_BackpacksMedium("HuntingLockers",0.1);
+AuthenticZ.tab_addMagProcedural_BackpacksMedium("VacationStuff",0.1);
 
 AuthenticZ.tab_addMagProcedural_AZCanteen("CrateCarpentry",0.5);
 AuthenticZ.tab_addMagProcedural_AZCanteen("CrateCamping",1.0);
@@ -656,13 +654,13 @@ AuthenticZ.tab_addMagProcedural_Torch2("GigamartHouseElectronics",2.0);
 AuthenticZ.tab_addMagProcedural_Torch2("ElectronicStoreMisc",1.0);
 AuthenticZ.tab_addMagProcedural_Torch2("CrateElectronics",1.0);
 
-AuthenticZ.tab_addMagProcedural_Plushies("CrateToys",0.003)
-AuthenticZ.tab_addMagProcedural_Plushies("DaycareCounter",0.003)
-AuthenticZ.tab_addMagProcedural_Plushies("DaycareShelves",0.003)
-AuthenticZ.tab_addMagProcedural_Plushies("GigamartToys",0.003)
+AuthenticZ.tab_addMagProcedural_Plushies("CrateToys",0.003);
+AuthenticZ.tab_addMagProcedural_Plushies("DaycareCounter",0.003);
+AuthenticZ.tab_addMagProcedural_Plushies("DaycareShelves",0.003);
+AuthenticZ.tab_addMagProcedural_Plushies("GigamartToys",0.003);
 
-AuthenticZ.tab_addMagProcedural_SpiffoBackpack("CrateToys",0.002)
-AuthenticZ.tab_addMagProcedural_SpiffoBackpack("DaycareCounter",0.002)
-AuthenticZ.tab_addMagProcedural_SpiffoBackpack("DaycareShelves",0.002)
-AuthenticZ.tab_addMagProcedural_SpiffoBackpack("GigamartToys",0.002)
+AuthenticZ.tab_addMagProcedural_SpiffoBackpack("CrateToys",0.002);
+AuthenticZ.tab_addMagProcedural_SpiffoBackpack("DaycareCounter",0.002);
+AuthenticZ.tab_addMagProcedural_SpiffoBackpack("DaycareShelves",0.002);
+AuthenticZ.tab_addMagProcedural_SpiffoBackpack("GigamartToys",0.002);
 

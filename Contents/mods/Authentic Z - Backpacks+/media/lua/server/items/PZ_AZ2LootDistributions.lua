@@ -51,7 +51,36 @@ AuthenticZ.tab_addMagProcedural_L4DMedkit2  = function(x,count)
   table.insert(ProceduralDistributions.list[x].items,"AuthenticZBackpacks+.Bag_L4DeadMedkit");
   table.insert(ProceduralDistributions.list[x].items, count);       
 end
-
+--Small Backpacks
+AuthenticZ.tab_addMagProcedural_BackpacksSmall  = function(x,count)
+  ProceduralDistributions = ProceduralDistributions or {};
+  ProceduralDistributions.list = ProceduralDistributions.list or {};
+  ProceduralDistributions.list[x] = ProceduralDistributions.list[x] or {};
+  ProceduralDistributions.list[x].items = ProceduralDistributions.list[x].items or {};
+  table.insert(ProceduralDistributions.list[x].items,"AuthenticZClothing.Bag_Packsport_Plain");
+  table.insert(ProceduralDistributions.list[x].items, count);  
+  table.insert(ProceduralDistributions.list[x].items,"AuthenticZClothing.Bag_Packsport_Rim");
+  table.insert(ProceduralDistributions.list[x].items, count);
+  table.insert(ProceduralDistributions.list[x].items,"AuthenticZClothing.Bag_Schoolbag_Spiffo2");
+  table.insert(ProceduralDistributions.list[x].items, count);
+  table.insert(ProceduralDistributions.list[x].items,"AuthenticZClothing.Bag_B4BMom");
+  table.insert(ProceduralDistributions.list[x].items, count);   
+end
+--Medium Backpacks
+AuthenticZ.tab_addMagProcedural_BackpacksMedium  = function(x,count)
+  ProceduralDistributions = ProceduralDistributions or {};
+  ProceduralDistributions.list = ProceduralDistributions.list or {};
+  ProceduralDistributions.list[x] = ProceduralDistributions.list[x] or {};
+  ProceduralDistributions.list[x].items = ProceduralDistributions.list[x].items or {};
+  table.insert(ProceduralDistributions.list[x].items,"AuthenticZClothing.Bag_B4BHolly");
+  table.insert(ProceduralDistributions.list[x].items, count);  
+  table.insert(ProceduralDistributions.list[x].items,"AuthenticZClothing.Bag_B4BHoffman");
+  table.insert(ProceduralDistributions.list[x].items, count);
+  table.insert(ProceduralDistributions.list[x].items,"AuthenticZClothing.Bag_B4BEvangelo");
+  table.insert(ProceduralDistributions.list[x].items, count);
+  table.insert(ProceduralDistributions.list[x].items,"AuthenticZClothing.Bag_B4BWalker");
+  table.insert(ProceduralDistributions.list[x].items, count);   
+end
 --SpiffoBags
 AuthenticZ.tab_addMagProcedural_SpiffoBackpack  = function(x,count)
   ProceduralDistributions = ProceduralDistributions or {};
@@ -150,6 +179,33 @@ AuthenticZ.tab_addMagProcedural_AZCanteen("ArmySurplusBackpacks",2.0);
 AuthenticZ.tab_addMagProcedural_AZCanteen("OtherGeneric",0.3);
 AuthenticZ.tab_addMagProcedural_AZCanteen("ToolStoreMisc",1.0);
 
+AuthenticZ.tab_addMagProcedural_AZAquaBottle("KitchenBottles",1.0);
+AuthenticZ.tab_addMagProcedural_AZAquaBottle("OtherGeneric",0.15);
+AuthenticZ.tab_addMagProcedural_AZAquaBottle("ToolStoreMisc",0.7);
+AuthenticZ.tab_addMagProcedural_AZAquaBottle("GymLockers", 0.8);
+AuthenticZ.tab_addMagProcedural_AZAquaBottle("SurvivalGear", 0.8);
+
+AuthenticZ.tab_addMagProcedural_AZGymBottle("GymLockers", 0.8);
+AuthenticZ.tab_addMagProcedural_AZGymBottle("SurvivalGear", 0.8);
+AuthenticZ.tab_addMagProcedural_AZGymBottle("GigamartHousewares", 0.8);
+AuthenticZ.tab_addMagProcedural_AZGymBottle("GolfLockers", 0.8);
+AuthenticZ.tab_addMagProcedural_AZGymBottle("Locker", 0.3);
+AuthenticZ.tab_addMagProcedural_AZGymBottle("LockerClassy", 0.5);
+AuthenticZ.tab_addMagProcedural_AZGymBottle("SurvivalGear", 0.2);
+
+AuthenticZ.tab_addMagProcedural_BackpacksSmall("SchoolLockers",0.05);
+AuthenticZ.tab_addMagProcedural_BackpacksSmall("WardrobeChild",0.08);
+AuthenticZ.tab_addMagProcedural_BackpacksSmall("ClosetShelfGeneric",0.01);
+AuthenticZ.tab_addMagProcedural_BackpacksSmall("BookstoreBags",1);
+AuthenticZ.tab_addMagProcedural_BackpacksSmall("GigamartSchool",1);
+AuthenticZ.tab_addMagProcedural_BackpacksSmall("CampingStoreBackpacks",1);
+
+AuthenticZ.tab_addMagProcedural_BackpacksMedium("CampingStoreBackpacks",1);
+AuthenticZ.tab_addMagProcedural_BackpacksMedium("CampingLockers",0.1);
+AuthenticZ.tab_addMagProcedural_BackpacksMedium("HuntingLockers",0.1);
+AuthenticZ.tab_addMagProcedural_BackpacksMedium("VacationStuff",0.1);
+
+
 AuthenticZ.tab_addMagProcedural_Webbing("ArmySurplusBackpacks",0.5);
 AuthenticZ.tab_addMagProcedural_Webbing("ArmySurplusOutfit",0.5);
 
@@ -179,7 +235,7 @@ AuthenticZ.tab_addMagProcedural_AZMilitaryFlashlight("ArmyStorageElectronics",1.
 AuthenticZ.tab_addMagProcedural_AZMilitaryFlashlight("ArmySurplusHeadwear",4.0);
 AuthenticZ.tab_addMagProcedural_AZMilitaryFlashlight("ArmySurplusBackpacks",2.0);
 
-AuthenticZ.tab_addMagProcedural_Plushies("CrateToys",0.001)
-AuthenticZ.tab_addMagProcedural_Plushies("DaycareCounter",0.001)
-AuthenticZ.tab_addMagProcedural_Plushies("DaycareShelves",0.001)
-AuthenticZ.tab_addMagProcedural_Plushies("GigamartToys",0.001)
+AuthenticZ.tab_addMagProcedural_Plushies("CrateToys",0.001);
+AuthenticZ.tab_addMagProcedural_Plushies("DaycareCounter",0.001);
+AuthenticZ.tab_addMagProcedural_Plushies("DaycareShelves",0.001);
+AuthenticZ.tab_addMagProcedural_Plushies("GigamartToys",0.001);

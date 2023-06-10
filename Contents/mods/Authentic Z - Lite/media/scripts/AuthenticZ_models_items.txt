@@ -931,7 +931,6 @@ module Base
 	model WorldItem_BackpackEvangelo
     {
 		mesh = Skinned/Backpacks/WorldItem-BackpackEvangelo,
-		texture = clothes\Backpacks\BackpackEvangelo,
     }
 	model WorldItem_BackpackHoffman
     {
@@ -941,7 +940,6 @@ module Base
 	model WorldItem_BackpackHolly
     {
 		mesh = Skinned/Backpacks/WorldItem-BackpackHolly,
-		texture = clothes\Backpacks\BackpackHolly,
     }
 	model WorldItem_BackpackL4DMedkit
     {
@@ -951,7 +949,6 @@ module Base
 	model WorldItem_BackpackMom
     {
 		mesh = Skinned/Backpacks/WorldItem-BackpackMom,
-		texture = clothes\Backpacks\BackpackMom,
     }
 	model WorldItem_BackpackWalker
     {

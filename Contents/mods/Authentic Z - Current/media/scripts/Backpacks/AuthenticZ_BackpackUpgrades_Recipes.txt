@@ -621,14 +621,14 @@ module AuthenticZClothing{
 	item Bag_SpiffoBackpackAZ_Tier_1
     {
         DisplayCategory = Raccoon,
-        WeightReduction	=	20,
+        WeightReduction	=	25,
         Weight	=	1,
         Type	=	Container,
-        Capacity	=	11,
+        Capacity	=	19,
         DisplayName	=	Spiffo Backpack - Tier 1,
-        Icon = SpiffoBackpack2,
+        IconsForTexture = SpiffoBackpackOG;SpiffoBackpackCherry;SpiffoBackpackBlueberry;SpiffoBackpackHeart;SpiffoBackpackPAWS;SpiffoBackpackShamrock;SpiffoBackpackRainbow,
         CanBeEquipped = Back,
-        OpenSound   =   OpenBag,
+        OpenSound    =   OpenBag,
         CloseSound   =   CloseBag,
         PutInSound   =   PutItemInBag,
         ClothingItem = Bag_SpiffoBackpackAZ_Tier_1,
@@ -644,12 +644,12 @@ module AuthenticZClothing{
 	item Bag_SpiffoBackpackAZ_Tier_2
     {
         DisplayCategory = Raccoon,
-        WeightReduction	=	20,
+        WeightReduction	=	25,
         Weight	=	1,
         Type	=	Container,
-        Capacity	=	12,
+        Capacity	=	20,
         DisplayName	=	Spiffo Backpack - Tier 2,
-        Icon = SpiffoBackpack2,
+        IconsForTexture = SpiffoBackpackOG;SpiffoBackpackCherry;SpiffoBackpackBlueberry;SpiffoBackpackHeart;SpiffoBackpackPAWS;SpiffoBackpackShamrock;SpiffoBackpackRainbow,
         CanBeEquipped = Back,
         OpenSound   =   OpenBag,
         CloseSound   =   CloseBag,
@@ -667,12 +667,12 @@ module AuthenticZClothing{
 	item Bag_SpiffoBackpackAZ_Tier_3
     {
         DisplayCategory = Raccoon,
-        WeightReduction	=	20,
+        WeightReduction	=	25,
         Weight	=	1,
         Type	=	Container,
-        Capacity	=	13,
+        Capacity	=	21,
         DisplayName	=	Spiffo Backpack - Tier 3,
-        Icon = SpiffoBackpack2,
+        IconsForTexture = SpiffoBackpackOG;SpiffoBackpackCherry;SpiffoBackpackBlueberry;SpiffoBackpackHeart;SpiffoBackpackPAWS;SpiffoBackpackShamrock;SpiffoBackpackRainbow,
         CanBeEquipped = Back,
         OpenSound   =   OpenBag,
         CloseSound   =   CloseBag,
@@ -690,70 +690,31 @@ module AuthenticZClothing{
     item Bag_PAWSBackpackAZ_Tier_1
     {
         DisplayCategory = Raccoon,
-        WeightReduction	=	30,
         Weight	=	1,
-        Type	=	Container,
-        Capacity	=	11,
-        DisplayName	=	PAWS Backpack - Tier 1,
+        Type	=	Normal,
+        DisplayName	=	PAWS Backpack,
         Icon = PAWSBackpack2,
-        CanBeEquipped = Back,
-        OpenSound   =   OpenBag,
-        CloseSound   =   CloseBag,
-        PutInSound   =   PutItemInBag,
-        ClothingItem = Bag_PAWSBackpackAZ_Tier_1,
-        BloodLocation = Bag,
-        RunSpeedModifier 		= 	0.97,
-        AttachmentReplacement   = 	Bag,
-		AttachmentsProvided  	= 	SchoolbagBagSecondary;SchoolbagBottleRight;SchoolbagBalloonRight,		
-        ReplaceInSecondHand 	= 	Bag_PAWSBackpackAZ_Lhand holdingbagleft,
-        ReplaceInPrimaryHand 	= 	Bag_PAWSBackpackAZ_Rhand holdingbagright,
-        WorldStaticModel 		= 	PAWSBackpack,
+		OBSOLETE			=	TRUE,
     }
 	
     item Bag_PAWSBackpackAZ_Tier_2
     {
         DisplayCategory = Raccoon,
-        WeightReduction	=	30,
         Weight	=	1,
-        Type	=	Container,
-        Capacity	=	12,
-        DisplayName	=	PAWS Backpack - Tier 2,
+        Type	=	Normal,
+        DisplayName	=	PAWS Backpack,
         Icon = PAWSBackpack2,
-        CanBeEquipped = Back,
-        OpenSound   =   OpenBag,
-        CloseSound   =   CloseBag,
-        PutInSound   =   PutItemInBag,
-        ClothingItem = Bag_PAWSBackpackAZ_Tier_2,
-        BloodLocation = Bag,
-        RunSpeedModifier = 0.97,
-        AttachmentReplacement = Bag,
-		AttachmentsProvided  	= 	SchoolbagBagSecondary;SchoolbagItemSlot1;SchoolbagBottleRight;SchoolbagPlushie;SchoolbagUmbrellaLeft;SchoolbagBalloonRight,	
-        ReplaceInSecondHand = Bag_PAWSBackpackAZ_Lhand holdingbagleft,
-        ReplaceInPrimaryHand = Bag_PAWSBackpackAZ_Rhand holdingbagright,
-        WorldStaticModel = PAWSBackpack,
+		OBSOLETE			=	TRUE,
     }
 
     item Bag_PAWSBackpackAZ_Tier_3
     {
         DisplayCategory = Raccoon,
-        WeightReduction	=	30,
         Weight	=	1,
-        Type	=	Container,
-        Capacity	=	13,
-        DisplayName	=	PAWS Backpack - Tier 3,
+        Type	=	Normal,
+        DisplayName	=	PAWS Backpack,
         Icon = PAWSBackpack2,
-        CanBeEquipped = Back,
-        OpenSound   =   OpenBag,
-        CloseSound   =   CloseBag,
-        PutInSound   =   PutItemInBag,
-        ClothingItem = Bag_PAWSBackpackAZ_Tier_3,
-        BloodLocation = Bag,
-        RunSpeedModifier 		= 	0.97,
-        AttachmentReplacement 	= 	Bag,
-		AttachmentsProvided  	= 	SchoolbagBagSecondary;SchoolbagItemSlot2;SchoolbagItemSlot3;SchoolbagBottleRight;SchoolbagPlushie;SchoolbagUmbrellaLeft;SchoolbagFlashlight;SchoolbagBalloonRight,		
-        ReplaceInSecondHand 	= 	Bag_PAWSBackpackAZ_Lhand holdingbagleft,
-        ReplaceInPrimaryHand 	= 	Bag_PAWSBackpackAZ_Rhand holdingbagright,
-        WorldStaticModel 		= 	PAWSBackpack,
+		OBSOLETE			=	TRUE,
     }	
 
     item Bag_DuffelBag_Tier_1
@@ -2784,58 +2745,6 @@ recipe Upgrade Spiffo Backpack
 	   Tooltip:Tooltip_AttachBackpackTier3,
   	}
 
-recipe Upgrade PAWS Backpack
-  	{
-	   Bag_PAWSBackpackAZ,	
-	   keep Scissors,
-       keep Needle/SutureNeedle,
-       Thread=3,
-	   DenimStrips/LeatherStrips=3,	 
-
-	   OnCreate:PleaseKeepColor,
-   	   Result:Bag_PAWSBackpackAZ_Tier_1,
-       OnGiveXP:Give20TailoringXP,	   
-	   Time:300.0,
-       AnimNode:Disassemble,	   
-	   Category:Tailoring,
-	   Tooltip:Tooltip_AttachBackpackTier1,	   
-  	}
-recipe Upgrade PAWS Backpack
-  	{
-	   Bag_PAWSBackpackAZ_Tier_1,
-		keep Scissors,
-        keep Needle/SutureNeedle,
-       Thread=3,
-	   DenimStrips/LeatherStrips=3,	 
-
-	   OnCreate:PleaseKeepColor,
-   	   Result:Bag_PAWSBackpackAZ_Tier_2,
-       OnGiveXP:Give20TailoringXP,	   
-	   Time:300.0,
-       AnimNode:Disassemble,	   
-	   SkillRequired:Tailoring=1,	   
-	   Category:Tailoring,
-	   Tooltip:Tooltip_AttachBackpackTier2,
-  	}	
-
-recipe Upgrade PAWS Backpack
-  	{
-	   Bag_PAWSBackpackAZ_Tier_2,
-		keep Scissors,
-        keep Needle/SutureNeedle,
-       Thread=3,
-	   DenimStrips/LeatherStrips=3,	 
-	
-	   OnCreate:PleaseKeepColor,	
-   	   Result:Bag_PAWSBackpackAZ_Tier_3,
-       OnGiveXP:Give20TailoringXP,	   
-	   Time:300.0,
-       AnimNode:Disassemble,	   
-	   SkillRequired:Tailoring=2,	   
-	   Category:Tailoring,
-	   Tooltip:Tooltip_AttachBackpackTier3,
-  	}
-
 	item Bag_B4BMom_Tier_1
     {
         DisplayCategory = Bag,		
@@ -2844,7 +2753,7 @@ recipe Upgrade PAWS Backpack
         Type					=	Container,
         Capacity				=	16,
         DisplayName				=	Mom's Backpack - Tier 1,
-        Icon 					= 	Backpack_Mom,
+        IconsForTexture			=	Daypack_Black;Daypack_Blue;Daypack_Green;Daypack_Indigo;Daypack_Purple;Daypack_Red;Daypack_Teal,
         CanBeEquipped 			= 	Back,
         OpenSound   			=   OpenBag,
         CloseSound   			=   CloseBag,
@@ -2864,10 +2773,10 @@ recipe Upgrade PAWS Backpack
         DisplayCategory = Bag,		
         WeightReduction			=	60,
         Weight					=	1,
-        Type					=	Container,
+        Type					=	Container,s
         Capacity				=	17,
         DisplayName				=	Mom's Backpack - Tier 2,
-        Icon 					= 	Backpack_Mom,
+        IconsForTexture			=	Daypack_Black;Daypack_Blue;Daypack_Green;Daypack_Indigo;Daypack_Purple;Daypack_Red;Daypack_Teal,
         CanBeEquipped 			= 	Back,
         OpenSound   			=   OpenBag,
         CloseSound   			=   CloseBag,
@@ -2890,7 +2799,7 @@ recipe Upgrade PAWS Backpack
         Type					=	Container,
         Capacity				=	18,
         DisplayName				=	Mom's Backpack - Tier 3,
-        Icon				 	=	Backpack_Mom,
+        IconsForTexture			=	Daypack_Black;Daypack_Blue;Daypack_Green;Daypack_Indigo;Daypack_Purple;Daypack_Red;Daypack_Teal,
         CanBeEquipped 			= 	Back,
         OpenSound   			=   OpenBag,
         CloseSound   			=   CloseBag,
@@ -3207,7 +3116,7 @@ recipe Upgrade Hoffmans Backpack
         Type					=	Container,
         Capacity				=	21,
         DisplayName				=	Evangelo's Backpack - Tier 1,
-        Icon					=	Backpack_Evangelo,
+        IconsForTexture			=	Backpack_Evangelo_Yellow;Backpack_Evangelo_Blue;Backpack_Evangelo_Green;Backpack_Evangelo_Purple;Backpack_Evangelo_Red,
         CanBeEquipped 			= 	Back,
         OpenSound   			=   OpenBag,
         CloseSound   			=   CloseBag,
@@ -3230,7 +3139,7 @@ recipe Upgrade Hoffmans Backpack
         Type					=	Container,
         Capacity				=	22,
         DisplayName				=	Evangelo's Backpack - Tier 2,
-        Icon					=	Backpack_Evangelo,
+        IconsForTexture			=	Backpack_Evangelo_Yellow;Backpack_Evangelo_Blue;Backpack_Evangelo_Green;Backpack_Evangelo_Purple;Backpack_Evangelo_Red,
         CanBeEquipped 			= 	Back,
         OpenSound   			=   OpenBag,
         CloseSound   			=   CloseBag,
@@ -3253,7 +3162,7 @@ recipe Upgrade Hoffmans Backpack
         Type					=	Container,
         Capacity				=	23,
         DisplayName				=	Evangelo's Backpack - Tier 3,
-        Icon					=	Backpack_Evangelo,
+        IconsForTexture			=	Backpack_Evangelo_Yellow;Backpack_Evangelo_Blue;Backpack_Evangelo_Green;Backpack_Evangelo_Purple;Backpack_Evangelo_Red,
         CanBeEquipped 			= 	Back,
         OpenSound   			=   OpenBag,
         CloseSound  			=   CloseBag,

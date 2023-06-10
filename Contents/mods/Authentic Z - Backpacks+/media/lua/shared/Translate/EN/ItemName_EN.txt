@@ -2,10 +2,7 @@ ItemName_EN = {
 
 /* Bags */
 
-	ItemName_AuthenticZBackpacksPlus.Bag_B4BEvangelo = "Evangelo's Backpack",
 	ItemName_AuthenticZBackpacksPlus.Bag_B4BHoffman = "Hoffman's Backpack",
-	ItemName_AuthenticZBackpacksPlus.Bag_B4BHolly = "Holly's Backpack",
-	ItemName_AuthenticZBackpacksPlus.Bag_B4BMom = "Mom's Backpack",
 	ItemName_AuthenticZBackpacksPlus.Bag_B4BWalker = "Walker's Backpack",
 	ItemName_AuthenticZBackpacksPlus.Bag_SchoolBagNBH = "NBH Hazmat Pack",	
 	ItemName_AuthenticZBackpacksPlus.Bag_ProtonPack_Back = "Proton Pack",
@@ -456,12 +453,6 @@ ItemName_EN = {
 	ItemName_AuthenticZBackpacksPlus.Bag_SchoolBagNBH_Tier_1 = "NBH Hazmat Pack - Tier 1",	
 	ItemName_AuthenticZBackpacksPlus.Bag_SchoolBagNBH_Tier_2 = "NBH Hazmat Pack - Tier 2",
 	ItemName_AuthenticZBackpacksPlus.Bag_SchoolBagNBH_Tier_3 = "NBH Hazmat Pack - Tier 3",
-	ItemName_AuthenticZBackpacksPlus.Bag_B4BMom_Tier_1 = "Mom's Backpack - Tier 1",	
-	ItemName_AuthenticZBackpacksPlus.Bag_B4BMom_Tier_2 = "Mom's Backpack - Tier 2",
-	ItemName_AuthenticZBackpacksPlus.Bag_B4BMom_Tier_3 = "Mom's Backpack - Tier 3",
-	ItemName_AuthenticZBackpacksPlus.Bag_B4BHolly_Tier_1 = "Holly's Backpack - Tier 1",	
-	ItemName_AuthenticZBackpacksPlus.Bag_B4BHolly_Tier_2 = "Holly's Backpack - Tier 2",
-	ItemName_AuthenticZBackpacksPlus.Bag_B4BHolly_Tier_3 = "Holly's Backpack - Tier 3",
 
 	/* 11-30-21 update  */	
 	ItemName_AuthenticZBackpacksPlus.ToyBearSmall = "Teddy Bear",	
@@ -482,8 +473,7 @@ ItemName_EN = {
 	
  	/* 12-8-21 update  */	
 	ItemName_AuthenticZBackpacksPlus.BunnyEars = "Bunny Ears",	
-	ItemName_AuthenticZBackpacksPlus.BunnyTail = "Bunny Tail",
-	ItemName_AuthenticZBackpacksPlus.Bikini_Pattern04 = "Black Bikini",		
+	ItemName_AuthenticZBackpacksPlus.BunnyTail = "Bunny Tail",	
 	ItemName_AuthenticZBackpacksPlus.Shoes_SlippersBlack = "Black Slippers",	
 	ItemName_AuthenticZBackpacksPlus.Socks_Long_StockingsBlack = "Black Stockings",
 	ItemName_AuthenticZBackpacksPlus.Hat_HardHat_Miner2 = "Mining Helmet",
@@ -494,9 +484,6 @@ ItemName_EN = {
 	ItemName_AuthenticZBackpacksPlus.Bag_B4BHoffman_Tier_1 = "Hoffman's Backpack - Tier 1",	
 	ItemName_AuthenticZBackpacksPlus.Bag_B4BHoffman_Tier_2 = "Hoffman's Backpack - Tier 2",
 	ItemName_AuthenticZBackpacksPlus.Bag_B4BHoffman_Tier_3 = "Hoffman's Backpack - Tier 3",
-	ItemName_AuthenticZBackpacksPlus.Bag_B4BEvangelo_Tier_1 = "Evangelo's Backpack - Tier 1",	
-	ItemName_AuthenticZBackpacksPlus.Bag_B4BEvangelo_Tier_2 = "Evangelo's Backpack - Tier 2",
-	ItemName_AuthenticZBackpacksPlus.Bag_B4BEvangelo_Tier_3 = "Evangelo's Backpack - Tier 3",
 	ItemName_AuthenticZBackpacksPlus.Bag_B4BWalker_Tier_1 = "Walker's Backpack - Tier 1",	
 	ItemName_AuthenticZBackpacksPlus.Bag_B4BWalker_Tier_2 = "Walker's Backpack - Tier 2",
 	ItemName_AuthenticZBackpacksPlus.Bag_B4BWalker_Tier_3 = "Walker's Backpack - Tier 3",
@@ -523,14 +510,8 @@ ItemName_EN = {
 	ItemName_AuthenticZBackpacksPlus.Hat_FootballHelmet_Packers = "Packers Football Helmet",
 	ItemName_AuthenticZBackpacksPlus.Hat_FootballHelmet_RedSkull = "Football Helmet",
 	ItemName_AuthenticZBackpacksPlus.Hat_FootballHelmet_Patriots = "Patriots Football Helmet",
-	ItemName_AuthenticZBackpacksPlus.Hat_RuneDuel = "Fantasy Duelist Hat",
-	ItemName_AuthenticZBackpacksPlus.InflatableTube_AZ = "Inflatable Tube",	
-	ItemName_AuthenticZBackpacksPlus.Jacket_Doctor3 	 = "Medical Coat",
 	ItemName_AuthenticZBackpacksPlus.Shoes_TrainersAZ = "High Top Sneakers",		
 	ItemName_AuthenticZBackpacksPlus.PZAZ_CostumeStoreSign = "Costume Sale Store Sign",	
-	ItemName_AuthenticZBackpacksPlus.CultistMask = "Cultist Mask",	
-	ItemName_AuthenticZBackpacksPlus.CultistSign = "Cultist Sign",	
-	ItemName_AuthenticZBackpacksPlus.CultistRobe = "Cultist Robe",
 	
 	/* Update 2-6-21 */	
 	ItemName_AuthenticZBackpacksPlus.Dress_Knees_Black = "Knee-length Dress",
@@ -548,8 +529,6 @@ ItemName_EN = {
 	ItemName_AuthenticZBackpacksPlus.AuthenticBouquetFlowers =  "Bouquet of Flowers",		
 	ItemName_AuthenticZBackpacksPlus.AuthenticFreeHugsSign =  "Free Hugs Sign",		
 	ItemName_AuthenticZBackpacksPlus.AuthenticHairHeadband =  "Sports Headband",		
-	ItemName_AuthenticZBackpacksPlus.Jacket_Reporter_LBMW =  "LBMW Media Jacket",			
-	ItemName_AuthenticZBackpacksPlus.Hairstyle_Afro_Pick2 =  "Afro Pick",
 	
 	/* Update 2-20-21 */
 	ItemName_AuthenticZBackpacksPlus.Authentic_PomPomBlue = "Cheerleading Pom Pom",	
@@ -656,5 +635,20 @@ ItemName_EN = {
 	
 	ItemName_AuthenticZBackpacksPlus.Bag_Schoolbag_Spiffo2 = "School Bag",	
 
-	ItemName_AuthenticZBackpacksPlus.SpiffoPlushieCherry = "Cherry Spiffo",
+	ItemName_AuthenticZBackpacksPlus.SpiffoPlushieRainbow = "Cherry Spiffo",
+	
+	ItemName_AuthenticZBackpacksPlus.Bag_B4BMom = "Casual Daypack",
+	ItemName_AuthenticZBackpacksPlus.Bag_B4BMom_Tier_1 = "Casual Daypack - Tier 1",	
+	ItemName_AuthenticZBackpacksPlus.Bag_B4BMom_Tier_2 = "Casual Daypack - Tier 2",
+	ItemName_AuthenticZBackpacksPlus.Bag_B4BMom_Tier_3 = "Casual Daypack - Tier 3",
+	
+	ItemName_AuthenticZBackpacksPlus.Bag_B4BHolly = "OdysseyGear Travel Pack",	
+	ItemName_AuthenticZBackpacksPlus.Bag_B4BHolly_Tier_1 = "OdysseyGear Travel Pack - Tier 1",	
+	ItemName_AuthenticZBackpacksPlus.Bag_B4BHolly_Tier_2 = "OdysseyGear Travel Pack - Tier 2",
+	ItemName_AuthenticZBackpacksPlus.Bag_B4BHolly_Tier_3 = "OdysseyGear Travel Pack - Tier 3",	
+	
+	ItemName_AuthenticZBackpacksPlus.Bag_B4BEvangelo = "FlexFit Backpack",	
+	ItemName_AuthenticZBackpacksPlus.Bag_B4BEvangelo_Tier_1 = "FlexFit Backpack - Tier 1",	
+	ItemName_AuthenticZBackpacksPlus.Bag_B4BEvangelo_Tier_2 = "FlexFit Backpack - Tier 2",
+	ItemName_AuthenticZBackpacksPlus.Bag_B4BEvangelo_Tier_3 = "FlexFit Backpack - Tier 3",	
 }
