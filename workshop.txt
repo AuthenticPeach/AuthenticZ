@@ -1,83 +1,83 @@
 version=1
 id=2335368829
 title=Authentic Z
-description=[h1][b]Want a FUN and REALISTIC zombie outfit distribution mod? This mod is for you! [/b][/h1]
-description=
-description=This mod adds a variety of zones into the game which gives zombies outfits to match their surroundings.
-description=It also adds over 150 custom outfits which are appropriately placed on zombies in the world.
-description=
-description=
-description=[url=https://forms.gle/zYsD7T9ru2kwyHAq8] [h1][b] PLEASE PARTICIPATE IN MY POLL TO IMPROVE THE MOD!  [/b][/h1] [/url]
-description=
-description=Goals of this mod: [list]
-description= [*] Add the unused zombie outfits that the Indie Stone developers made
-description= [*] Add iconic George Romero-esque zombie outfits (Zombies hold items in their hands!)
-description= [*] Add appropriate setting and rarity for their clothing and items.
-description=[/list]
-description=[h2]Here are some of the main features of Authentic Z.[/h2]
-description= [list]
-description= [*]  Fat Zombies!
-description= [*]  Zombies with missing arms and hands!
-description= [*]  Backpack attachments. Upgrade your bags through 3 tiers to add more attachment slots!
-description= [*]  Adds a new custom costume shop in Louisville. You will find lots of fun clothing and accessories in there.
-description= [*]  The Crossroads Mall spawn zombies with random outfits = Random FUN!
-description= [*]  The March Ridge Dormitory is rezoned to have unique zombie placement within it.
-description= [*]  Ice Cream workers at each Ice Cream shop. Same thing with the new Donut Shops.
-description= [*]  Dedicated spawns for Hazmat zombies, Service Uniform zombies, and Ghillie Suit zombies at the Secret Base
-description= [*]  The large campgrounds, southwest from Riverside, are rezoned into Friday the 13th's Camp Crystal Lake. Find Jason, before he finds you! Includes other slashers like Michael Myers, Freddy Kreuger, and Leather Face!
-description= [*]  Student and Varsity zombies at schools have been fixed to only have realistic hairstyles.
-description= [*]  Fisherman and Poncho zombies alongside lakes and rivers (If zombies spawn there)
-description= [*]  Hunter Zombies chance at isolated cabins and hunting stands.
-description= [*]  Zombified Heroes from all your favorite zombie media
-description= [*]  Famous Zombies from the zombie genre
-description= [*]  Clown zombies…...Yes…...Clown Zombies
-description= [*] and a nice hit-list with checkboxes so you can log your progress! Great for late-game content!
-description= [/list]
-description=
-description=[u] Supported Translations -  Always looking for more translators! Want to help? Contact me! [/u]  [list]
-description= [*] Chinese (Traditional and Simplified)
-description= [*] French
-description= [*] German
-description= [*] Polish
-description= [*] Portuguese (From Portugal and Brazil)
-description= [*] Russian
-description= [*] Spanish
-description= [/list]
-description=
-description=[h2] Future Plans [/h2]
-description= [url=https://trello.com/b/PxLE94mh/authentic-z] [u] If you want to keep up to date with the current progress and future plans, check out the official Trello page for the mod! [/u]  [/url]
-description=
-description=[h3] The 3 Branches - Only use ONE [/h3] 
-description=[img]https://i.ibb.co/6XS5fcb/AZposter200.png [/img]
-description=[b] AuthenticZ - Current has all the features.  [/b]
-description=[img]https://i.imgur.com/5E15TyB.png[/img]
-description=[b] AuthenticZLite ONLY has the outfits and zombie spawns. It does NOT have the backpack upgrading system.  [/b]  
-description=[img]https://i.imgur.com/Lj0GqNc.png[/img]
-description=[b] AuthenticZBackpacks+ ONLY has the backpack upgrading system.  [/b]
-description=
-description=[h3] Common Issues and their fixes [/h3]
-description=1. "My server won't start" "Normal Termination" etc etc
-description=[url=https://theindiestone.com/forums/index.php?/topic/42925-how-to-fix-updated-mods-in-build-41-multiplayer/] [b] FIX - Update your copy of AuthenticZ, sometimes Steam doesn't do it correctly. Review Method 2 on updating mods for servers/local servers  [/b][/url]
-description=
-description=2.  "I can't upgrade my backpack or use the attachment slots" etc etc
-description=[b] FIX - Make sure you are NOT running multiple branches of AuthenticZ, this is a common issue of doing that. Make sure you have the sufficient materials to upgrade. Secondary bags (small bags that you can not wear on your back) need a carabiner (can be crafted with 5 paperclips) so it can be attached to the "Secondary Bag Slot". [/b]
-description=
-description=[h2] Want some fun companion mods? Try These! [/h2]
-description= [url=https://steamcommunity.com/workshop/filedetails/?id=2530389024][img] https://imgur.com/c2etyho.png [/img][/url] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2458631365&searchtext=expanded+helis][img]https://imgur.com/7cfSt7Q.png [/img][/url] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2847911733][img] https://imgur.com/xSf50ud.png [/img][/url]
-description= [url=https://discord.gg/Mxt22HmbAa][img] https://imgur.com/4HHyE9s.png [/img][/url][url=https://www.patreon.com/authenticpeach][img] https://imgur.com/PPm5rND.png [/img][/url][url=https://ko-fi.com/authenticpeach][img] https://imgur.com/4yHYpdn.png [/img][/url]
-description=[img] https://imgur.com/6OBlYju.gif [/img]
-description=I hope you enjoy and have lots of fun.
-description=AuthenticPeach
-description=
-description=I do not give you permission to use the AuthenticZ assets for anything outside of gameplay functionality, unless specially given by me. My assets are considered Steam workshop items and can not be used to create NFTs. NFTs violate Steam TOS. Please do not re-upload my mod without my specific permission. I have the means and motivation to go after such violators. 
-description=
-description=[h1] Please read the Q&As before posting in the comment section. [/h1]
-description=[url=https://steamcommunity.com/workshop/filedetails/discussion/2335368829/3767859448795286759/] 
-description=[h3][u] Common Q&As [/u] [/h3] [/url] 
-description=[url=https://steamcommunity.com/workshop/filedetails/discussion/2335368829/3767859448795342912/] 
-description=[h2][u] Compatible/Incompatible Mods list [/u] [/h2] [/url]
-description=[h2][b] For Server Owners and Admins [/b] [/h2]
-description=[url=https://steamcommunity.com/workshop/filedetails/discussion/2335368829/3767859448795410357/] 
-description=[h2][u] Complete list of Item IDs (If ever needed)[/u] [/h2] [/url]
+description=[h1][b]Want a FUN and REALISTIC zombie outfit distribution mod? This mod is for you! [/b][/h1]
+description=
+description=This mod adds a variety of zones into the game which gives zombies outfits to match their surroundings.
+description=It also adds over 150 custom outfits which are appropriately placed on zombies in the world.
+description=
+description=
+description=[url=https://forms.gle/zYsD7T9ru2kwyHAq8] [h1][b] PLEASE PARTICIPATE IN MY POLL TO IMPROVE THE MOD!  [/b][/h1] [/url]
+description=
+description=Goals of this mod: [list]
+description= [*] Add the unused zombie outfits that the Indie Stone developers made
+description= [*] Add iconic George Romero-esque zombie outfits (Zombies hold items in their hands!)
+description= [*] Add appropriate setting and rarity for their clothing and items.
+description=[/list]
+description=[h2]Here are some of the main features of Authentic Z.[/h2]
+description= [list]
+description= [*]  Fat Zombies!
+description= [*]  Zombies with missing arms and hands!
+description= [*]  Backpack attachments. Upgrade your bags through 3 tiers to add more attachment slots!
+description= [*]  Adds a new custom costume shop in Louisville. You will find lots of fun clothing and accessories in there.
+description= [*]  The Crossroads Mall spawn zombies with random outfits = Random FUN!
+description= [*]  The March Ridge Dormitory is rezoned to have unique zombie placement within it.
+description= [*]  Ice Cream workers at each Ice Cream shop. Same thing with the new Donut Shops.
+description= [*]  Dedicated spawns for Hazmat zombies, Service Uniform zombies, and Ghillie Suit zombies at the Secret Base
+description= [*]  The large campgrounds, southwest from Riverside, are rezoned into Friday the 13th's Camp Crystal Lake. Find Jason, before he finds you! Includes other slashers like Michael Myers, Freddy Kreuger, and Leather Face!
+description= [*]  Student and Varsity zombies at schools have been fixed to only have realistic hairstyles.
+description= [*]  Fisherman and Poncho zombies alongside lakes and rivers (If zombies spawn there)
+description= [*]  Hunter Zombies chance at isolated cabins and hunting stands.
+description= [*]  Zombified Heroes from all your favorite zombie media
+description= [*]  Famous Zombies from the zombie genre
+description= [*]  Clown zombies…...Yes…...Clown Zombies
+description= [*] and a nice hit-list with checkboxes so you can log your progress! Great for late-game content!
+description= [/list]
+description=
+description=[u] Supported Translations -  Always looking for more translators! Want to help? Contact me! [/u]  [list]
+description= [*] Chinese (Traditional and Simplified)
+description= [*] French
+description= [*] German
+description= [*] Polish
+description= [*] Portuguese (From Portugal and Brazil)
+description= [*] Russian
+description= [*] Spanish
+description= [/list]
+description=
+description=[h2] Future Plans [/h2]
+description= [url=https://trello.com/b/PxLE94mh/authentic-z] [u] If you want to keep up to date with the current progress and future plans, check out the official Trello page for the mod! [/u]  [/url]
+description=
+description=[h3] The 3 Branches - Only use ONE [/h3]
+description=[img]https://i.ibb.co/6XS5fcb/AZposter200.png [/img]
+description=[b] AuthenticZ - Current has all the features.  [/b]
+description=[img]https://i.imgur.com/5E15TyB.png[/img]
+description=[b] AuthenticZLite ONLY has the outfits and zombie spawns. It does NOT have the backpack upgrading system.  [/b]
+description=[img]https://i.imgur.com/Lj0GqNc.png[/img]
+description=[b] AuthenticZBackpacks+ ONLY has the backpack upgrading system.  [/b]
+description=
+description=[h3] Common Issues and their fixes [/h3]
+description=1. "My server won't start" "Normal Termination" etc etc
+description=[url=https://theindiestone.com/forums/index.php?/topic/42925-how-to-fix-updated-mods-in-build-41-multiplayer/] [b] FIX - Update your copy of AuthenticZ, sometimes Steam doesn't do it correctly. Review Method 2 on updating mods for servers/local servers  [/b][/url]
+description=
+description=2.  "I can't upgrade my backpack or use the attachment slots" etc etc
+description=[b] FIX - Make sure you are NOT running multiple branches of AuthenticZ, this is a common issue of doing that. Make sure you have the sufficient materials to upgrade. Secondary bags (small bags that you can not wear on your back) need a carabiner (can be crafted with 5 paperclips) so it can be attached to the "Secondary Bag Slot". [/b]
+description=
+description=[h2] Want some fun companion mods? Try These! [/h2]
+description= [url=https://steamcommunity.com/workshop/filedetails/?id=2530389024][img] https://imgur.com/c2etyho.png [/img][/url] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2458631365&searchtext=expanded+helis][img]https://imgur.com/7cfSt7Q.png [/img][/url] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2847911733][img] https://imgur.com/xSf50ud.png [/img][/url]
+description= [url=https://discord.gg/Mxt22HmbAa][img] https://imgur.com/4HHyE9s.png [/img][/url][url=https://www.patreon.com/authenticpeach][img] https://imgur.com/PPm5rND.png [/img][/url][url=https://ko-fi.com/authenticpeach][img] https://imgur.com/4yHYpdn.png [/img][/url]
+description=[img] https://imgur.com/6OBlYju.gif [/img]
+description=I hope you enjoy and have lots of fun.
+description=AuthenticPeach
+description=
+description=I do not give you permission to use the AuthenticZ assets for anything outside of gameplay functionality, unless specially given by me. My assets are considered Steam workshop items and can not be used to create NFTs. NFTs violate Steam TOS. Please do not re-upload my mod without my specific permission. I have the means and motivation to go after such violators.
+description=
+description=[h1] Please read the Q&As before posting in the comment section. [/h1]
+description=[url=https://steamcommunity.com/workshop/filedetails/discussion/2335368829/3767859448795286759/]
+description=[h3][u] Common Q&As [/u] [/h3] [/url]
+description=[url=https://steamcommunity.com/workshop/filedetails/discussion/2335368829/3767859448795342912/]
+description=[h2][u] Compatible/Incompatible Mods list [/u] [/h2] [/url]
+description=[h2][b] For Server Owners and Admins [/b] [/h2]
+description=[url=https://steamcommunity.com/workshop/filedetails/discussion/2335368829/3767859448795410357/]
+description=[h2][u] Complete list of Item IDs (If ever needed)[/u] [/h2] [/url]
 tags=Build 41;Clothing/Armor;Items;Misc;Models;Multiplayer;Pop Culture;Realistic;Textures
 visibility=public
