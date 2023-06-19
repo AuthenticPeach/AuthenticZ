@@ -61,6 +61,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 	</m_MaleOutfits>
@@ -114,6 +120,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 	</m_MaleOutfits>	
@@ -171,6 +183,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 </m_MaleOutfits>
@@ -233,6 +251,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 	</m_MaleOutfits>
@@ -297,7 +321,13 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
-			</subItems>				
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
+			</subItems>			
 		</m_items>		
 	</m_FemaleOutfits>
 
@@ -359,6 +389,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 	</m_MaleOutfits>
@@ -417,7 +453,13 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
-			</subItems>				
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
+			</subItems>			
 		</m_items>		
 	</m_FemaleOutfits>	
 	
@@ -485,6 +527,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 	</m_MaleOutfits>	
@@ -604,6 +652,18 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 	</m_MaleOutfits>
@@ -723,6 +783,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 	</m_FemaleOutfits>
@@ -779,6 +845,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 	</m_MaleOutfits>
@@ -835,6 +907,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 	</m_MaleOutfits>
@@ -891,6 +969,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 	</m_MaleOutfits>
@@ -947,6 +1031,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 	</m_MaleOutfits>	
@@ -1003,6 +1093,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 	</m_MaleOutfits>	
@@ -1046,6 +1142,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 </m_FemaleOutfits>
@@ -1093,6 +1195,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 	</m_MaleOutfits>	
@@ -1143,6 +1251,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 	</m_MaleOutfits>
@@ -1203,6 +1317,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 	</m_MaleOutfits>	
@@ -1297,6 +1417,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 	</m_MaleOutfits>	
@@ -1442,6 +1568,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 	</m_MaleOutfits>
@@ -1591,6 +1723,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 	</m_FemaleOutfits>
@@ -1643,6 +1781,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 </m_FemaleOutfits>	
@@ -1712,6 +1856,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 	</m_MaleOutfits>
@@ -1772,6 +1922,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 	</m_MaleOutfits>
@@ -1955,6 +2111,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 	</m_FemaleOutfits>	
@@ -2138,6 +2300,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 </m_FemaleOutfits>						
@@ -2327,6 +2495,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 </m_FemaleOutfits>	
@@ -2380,6 +2554,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 </m_MaleOutfits>	
@@ -2445,6 +2625,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_MaleOutfits>
@@ -2504,6 +2690,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 </m_MaleOutfits>
@@ -2551,6 +2743,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 	</m_MaleOutfits>
@@ -2598,6 +2796,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 	</m_FemaleOutfits>
@@ -2645,6 +2849,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 	</m_MaleOutfits>
@@ -2692,7 +2902,13 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
-			</subItems>				
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
+			</subItems>			
 		</m_items>		
 </m_FemaleOutfits>	
 
@@ -2739,6 +2955,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 	</m_MaleOutfits>
@@ -2786,6 +3008,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 </m_FemaleOutfits>
@@ -2833,6 +3061,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 	</m_MaleOutfits>
@@ -2930,6 +3164,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 	</m_FemaleOutfits>	
@@ -3011,6 +3251,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 	</m_MaleOutfits>			
@@ -3080,6 +3326,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 </m_FemaleOutfits>
@@ -3149,6 +3401,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 </m_FemaleOutfits>
@@ -3202,8 +3460,14 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
-		</m_items>		
+		</m_items>
 	</m_FemaleOutfits>	
 
 <m_MaleOutfits> <m_Name>AuthenticClown</m_Name>
@@ -3279,6 +3543,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 </m_MaleOutfits>
@@ -3360,6 +3630,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 </m_MaleOutfits>
@@ -3422,6 +3698,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 </m_MaleOutfits>
@@ -3493,6 +3775,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 </m_MaleOutfits>
@@ -3552,6 +3840,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 </m_MaleOutfits>
@@ -3615,6 +3909,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 </m_FemaleOutfits>	
@@ -3702,6 +4002,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>	
 </m_MaleOutfits>
@@ -3759,6 +4065,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 </m_MaleOutfits>
@@ -3835,6 +4147,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 </m_MaleOutfits>
@@ -3978,6 +4296,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 	</m_FemaleOutfits>
@@ -4059,6 +4383,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 </m_MaleOutfits>
@@ -4202,6 +4532,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 </m_FemaleOutfits>
@@ -4283,6 +4619,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 	</m_MaleOutfits>	
@@ -4333,6 +4675,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 	</m_MaleOutfits>
@@ -4396,6 +4744,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 </m_MaleOutfits>
@@ -4443,6 +4797,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 </m_MaleOutfits>
@@ -4490,6 +4850,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 </m_FemaleOutfits>
@@ -4543,9 +4909,15 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
-	</m_MaleOutfits>
+</m_MaleOutfits>
 	
 <m_MaleOutfits> <m_Name>AuthenticDawnoftheDead</m_Name>
 		<m_Guid>b96a57f5-9bf2-4b2b-b270-ab3be58077c1</m_Guid>
@@ -4617,6 +4989,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 	</m_MaleOutfits>
@@ -4681,6 +5059,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 </m_MaleOutfits>	
@@ -4764,6 +5148,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 </m_FemaleOutfits>
@@ -4833,6 +5223,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_MaleOutfits>
@@ -4896,6 +5292,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_MaleOutfits>
@@ -4959,6 +5361,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_MaleOutfits>
@@ -5007,6 +5415,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_FemaleOutfits>	
@@ -5058,6 +5472,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_FemaleOutfits>	
@@ -5108,6 +5528,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_MaleOutfits>
@@ -5158,6 +5584,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_MaleOutfits>
@@ -5218,6 +5650,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_MaleOutfits>
@@ -5277,6 +5715,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_FemaleOutfits>	
@@ -5327,6 +5771,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_MaleOutfits>
@@ -5390,6 +5840,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_MaleOutfits>
@@ -5452,6 +5908,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_MaleOutfits>
@@ -5554,6 +6016,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_MaleOutfits>
@@ -5653,6 +6121,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_FemaleOutfits>
@@ -5710,6 +6184,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_MaleOutfits>	
@@ -5780,6 +6260,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_FemaleOutfits>	
@@ -9003,6 +9489,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_MaleOutfits>
@@ -9081,6 +9573,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_MaleOutfits>
@@ -9159,6 +9657,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_MaleOutfits>
@@ -9237,6 +9741,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_MaleOutfits>	
@@ -9288,6 +9798,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_MaleOutfits>	
@@ -9338,6 +9854,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_MaleOutfits>
@@ -9484,6 +10006,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>	
 </m_MaleOutfits>
@@ -9618,6 +10146,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_FemaleOutfits>
@@ -9727,6 +10261,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_FemaleOutfits>		
@@ -9777,6 +10317,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_MaleOutfits>	
@@ -9831,6 +10377,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_MaleOutfits>	
@@ -9884,6 +10436,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_MaleOutfits>
@@ -9962,6 +10520,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_MaleOutfits>
@@ -10034,6 +10598,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_FemaleOutfits>
@@ -10118,6 +10688,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_FemaleOutfits>
@@ -10196,6 +10772,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_MaleOutfits>
@@ -10328,6 +10910,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_FemaleOutfits>
@@ -10482,6 +11070,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_MaleOutfits>
@@ -10633,6 +11227,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_FemaleOutfits>
@@ -10683,6 +11283,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_MaleOutfits>
@@ -10729,6 +11335,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_MaleOutfits>
@@ -10775,6 +11387,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_MaleOutfits>
@@ -10821,6 +11439,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_MaleOutfits>	
@@ -10874,6 +11498,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_MaleOutfits>
@@ -10943,6 +11573,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_MaleOutfits>
@@ -11010,6 +11646,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_MaleOutfits>
@@ -11054,6 +11696,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_FemaleOutfits>		
@@ -11114,6 +11762,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_MaleOutfits>
@@ -11164,6 +11818,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_MaleOutfits>
@@ -11207,6 +11867,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_MaleOutfits>
@@ -11250,6 +11916,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_FemaleOutfits>
@@ -11305,6 +11977,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_MaleOutfits>
@@ -11360,6 +12038,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_FemaleOutfits>
@@ -11409,6 +12093,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_MaleOutfits>
@@ -11497,6 +12187,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_FemaleOutfits>	
@@ -11577,6 +12273,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_MaleOutfits>
@@ -11633,6 +12335,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_MaleOutfits>
@@ -11683,6 +12391,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_MaleOutfits>	
@@ -11817,6 +12531,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_FemaleOutfits>	
@@ -11864,6 +12584,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_MaleOutfits>
@@ -11968,6 +12694,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_MaleOutfits>
@@ -12069,6 +12801,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_FemaleOutfits>
@@ -12136,6 +12874,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_MaleOutfits>	
@@ -12207,6 +12951,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_MaleOutfits>
@@ -12279,6 +13029,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_MaleOutfits>	
@@ -12372,6 +13128,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_MaleOutfits>
@@ -12468,6 +13230,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_MaleOutfits>
@@ -12525,6 +13293,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_MaleOutfits>		
@@ -12597,6 +13371,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_MaleOutfits>
@@ -12644,6 +13424,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_FemaleOutfits>
@@ -12707,6 +13493,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_MaleOutfits>
@@ -12784,6 +13576,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_MaleOutfits>	
@@ -12833,6 +13631,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_MaleOutfits>
@@ -12879,6 +13683,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_FemaleOutfits>	
@@ -12939,6 +13749,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_MaleOutfits>
@@ -13014,6 +13830,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_MaleOutfits>
@@ -13136,6 +13958,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_FemaleOutfits>	
@@ -13186,6 +14014,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_MaleOutfits>
@@ -13236,6 +14070,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_FemaleOutfits>	
@@ -13299,6 +14139,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_MaleOutfits>		
@@ -13460,6 +14306,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_MaleOutfits>		
@@ -13653,6 +14505,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_FemaleOutfits>
@@ -13709,6 +14567,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_FemaleOutfits>
@@ -13765,6 +14629,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_FemaleOutfits>
@@ -13818,6 +14688,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_MaleOutfits>
@@ -13868,6 +14744,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_MaleOutfits>
@@ -13936,6 +14818,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_MaleOutfits>
@@ -13989,6 +14877,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_MaleOutfits>
@@ -14045,6 +14939,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_MaleOutfits>
@@ -14108,6 +15008,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_MaleOutfits>		
@@ -14149,6 +15055,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_MaleOutfits>
@@ -14205,6 +15117,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_MaleOutfits>
@@ -14274,6 +15192,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_MaleOutfits>
@@ -14413,9 +15337,15 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
-	</m_FemaleOutfits>
+</m_FemaleOutfits>
 
 <m_MaleOutfits> <m_Name>AuthenticPizzaDelivery</m_Name>
 		<m_Guid>856a8f8e-b32b-4d49-9860-329e6d7a61c9</m_Guid>
@@ -14494,9 +15424,15 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
-	</m_MaleOutfits>
+</m_MaleOutfits>
 	
 <m_FemaleOutfits> <m_Name>AuthenticPizzaDelivery</m_Name>
 		<m_Guid>856a8f8e-b32b-4d49-9860-329e6d7a61c9</m_Guid>
@@ -14644,9 +15580,15 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
-	</m_FemaleOutfits>	
+</m_FemaleOutfits>	
 
 <m_MaleOutfits> <m_Name>AuthenticPoncho</m_Name>
 		<m_Guid>3b730e3e-71dc-4454-a0ef-5650880313fb</m_Guid>
@@ -14773,6 +15715,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_MaleOutfits>
@@ -14898,6 +15846,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_FemaleOutfits>	
@@ -14970,6 +15924,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_MaleOutfits>
@@ -15039,6 +15999,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_MaleOutfits>
@@ -15083,6 +16049,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_MaleOutfits>			
@@ -15251,6 +16223,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_FemaleOutfits>
@@ -15329,6 +16307,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_MaleOutfits>
@@ -15445,6 +16429,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_FemaleOutfits>	
@@ -15526,6 +16516,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_MaleOutfits>
@@ -15580,6 +16576,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_FemaleOutfits>	
@@ -15661,6 +16663,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_MaleOutfits>
@@ -15715,6 +16723,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_FemaleOutfits>
@@ -15796,6 +16810,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_MaleOutfits>
@@ -15850,6 +16870,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_FemaleOutfits>	
@@ -15994,6 +17020,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_MaleOutfits>
@@ -16065,6 +17097,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_MaleOutfits>
@@ -16263,6 +17301,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 </m_FemaleOutfits>	
@@ -16320,6 +17364,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_FemaleOutfits>	
@@ -16547,6 +17597,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_MaleOutfits>
@@ -16629,6 +17685,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_MaleOutfits>
@@ -16682,6 +17744,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_FemaleOutfits>	
@@ -16730,6 +17798,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_FemaleOutfits>
@@ -16802,6 +17876,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_MaleOutfits>
@@ -16879,6 +17959,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_FemaleOutfits>	
@@ -16982,6 +18068,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_MaleOutfits>
@@ -17046,6 +18138,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_FemaleOutfits>
@@ -17080,6 +18178,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>					
 	</m_MaleOutfits>	
@@ -17136,6 +18240,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_MaleOutfits>
@@ -17186,6 +18296,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_MaleOutfits>
@@ -17236,9 +18352,15 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
-	</m_FemaleOutfits>	
+</m_FemaleOutfits>	
 	
 <m_MaleOutfits> <m_Name>AuthenticSoDEdJones</m_Name>
 		<m_Guid>3165c483-1384-4028-a24a-db7766c227db</m_Guid>
@@ -17297,9 +18419,15 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
-		</m_items>			
-	</m_MaleOutfits>
+		</m_items>		
+</m_MaleOutfits>
 	
 <m_MaleOutfits> <m_Name>AuthenticSportsFan</m_Name>
 		<m_Guid>ed23a870-6fda-431f-8646-24bb1a389705</m_Guid>
@@ -17397,9 +18525,15 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
-	</m_MaleOutfits>
+</m_MaleOutfits>
 	
 <m_FemaleOutfits> <m_Name>AuthenticSportsFan</m_Name>
 		<m_Guid>ed23a870-6fda-431f-8646-24bb1a389705</m_Guid>
@@ -17559,6 +18693,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_FemaleOutfits>	
@@ -17716,6 +18856,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_MaleOutfits>	
@@ -17942,6 +19088,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_FemaleOutfits>
@@ -17993,6 +19145,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_MaleOutfits>
@@ -18044,6 +19202,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_FemaleOutfits>
@@ -18121,6 +19285,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_MaleOutfits>
@@ -18245,6 +19415,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_MaleOutfits>
@@ -18368,6 +19544,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_FemaleOutfits>
@@ -18481,6 +19663,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_MaleOutfits>
@@ -18593,6 +19781,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_FemaleOutfits>
@@ -18698,6 +19892,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_MaleOutfits>
@@ -18797,6 +19997,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_FemaleOutfits>
@@ -18863,6 +20069,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_MaleOutfits>
@@ -18929,6 +20141,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_FemaleOutfits>
@@ -19001,6 +20219,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_MaleOutfits>
@@ -19076,6 +20300,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_MaleOutfits>
@@ -19151,6 +20381,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_MaleOutfits>	
@@ -19208,6 +20444,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_MaleOutfits>	
@@ -19258,6 +20500,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_MaleOutfits>
@@ -19304,6 +20552,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_MaleOutfits>	
@@ -19361,6 +20615,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_MaleOutfits>	
@@ -19418,6 +20678,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_FemaleOutfits>	
@@ -19480,6 +20746,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_MaleOutfits>
@@ -19533,6 +20805,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_MaleOutfits>
@@ -19583,6 +20861,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_MaleOutfits>
@@ -19670,6 +20954,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_MaleOutfits>
@@ -19730,6 +21020,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_MaleOutfits>		
@@ -19789,6 +21085,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_FemaleOutfits>	
@@ -19856,6 +21158,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>	
 	</m_FemaleOutfits>
@@ -19907,6 +21215,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_FemaleOutfits>	
@@ -20044,6 +21358,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_FemaleOutfits>
@@ -20137,6 +21457,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_FemaleOutfits>
@@ -20233,6 +21559,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_MaleOutfits>
@@ -20381,6 +21713,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_MaleOutfits>
@@ -20500,6 +21838,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_MaleOutfits> 
@@ -20692,6 +22036,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_FemaleOutfits>

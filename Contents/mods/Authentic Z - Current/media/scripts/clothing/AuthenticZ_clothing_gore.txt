@@ -56,13 +56,31 @@ module AuthenticZClothing {
         ClothingItem =  Bone_UpperArm_R,
         BodyLocation = ZedDmg,
 		Icon = AZBone,
-    }	
-    item Bone_UpperArm_L
+    }
+	item Bone_UpperArm_L
     {
         DisplayCategory = ZedDmg,		
 
         Type = Clothing,
         ClothingItem =  Bone_UpperArm_L,
+        BodyLocation = ZedDmg,
+		Icon = AZBone,
+    }		
+    item Bones_UpperArm_L
+    {
+        DisplayCategory = ZedDmg,		
+
+        Type = Clothing,
+        ClothingItem =  Bones_UpperArm_L,
+        BodyLocation = ZedDmg,
+		Icon = AZBone,
+    }
+    item Bones_UpperArm_R
+    {
+        DisplayCategory = ZedDmg,		
+
+        Type = Clothing,
+        ClothingItem =  Bones_UpperArm_R,
         BodyLocation = ZedDmg,
 		Icon = AZBone,
     }	

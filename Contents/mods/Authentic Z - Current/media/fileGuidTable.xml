@@ -6708,6 +6708,14 @@
 	<files>
 		<path>media/clothing/clothingItems/Bone_UpperArm_R.xml</path>
 		<guid>9b7d0838-abd4-4720-bd91-260c5e8c8003</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bones_UpperArm_R.xml</path>
+		<guid>30c303ef-18ab-4f14-a602-8305e92376b0</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bones_UpperArm_L.xml</path>
+		<guid>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</guid>
 	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Bone_Hand_L.xml</path>

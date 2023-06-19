@@ -39,7 +39,7 @@
 			</subItems>
 		</m_items>
 		<m_items> <!-- Dismembered Bone_Arm_L -->
-			<probability>0.01</probability>		
+			<probability>0.03</probability>		
 			<itemGUID>6e10e6c0-0ac4-4010-974c-56d57f1edd46</itemGUID>
 			<subItems> <!-- Bone_Arm_R-->
 				<itemGUID>5eab0171-d6d2-422e-b69a-3387f219652f</itemGUID>
@@ -61,6 +61,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 	</m_MaleOutfits>
@@ -114,6 +120,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 	</m_MaleOutfits>	
@@ -171,6 +183,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 </m_MaleOutfits>
@@ -233,6 +251,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 	</m_MaleOutfits>
@@ -297,7 +321,13 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
-			</subItems>				
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
+			</subItems>			
 		</m_items>		
 	</m_FemaleOutfits>
 
@@ -359,6 +389,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 	</m_MaleOutfits>
@@ -417,7 +453,13 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
-			</subItems>				
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
+			</subItems>			
 		</m_items>		
 	</m_FemaleOutfits>	
 	
@@ -485,6 +527,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 	</m_MaleOutfits>	
@@ -604,6 +652,18 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 	</m_MaleOutfits>
@@ -723,6 +783,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 	</m_FemaleOutfits>
@@ -779,6 +845,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 	</m_MaleOutfits>
@@ -835,6 +907,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 	</m_MaleOutfits>
@@ -891,6 +969,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 	</m_MaleOutfits>
@@ -947,6 +1031,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 	</m_MaleOutfits>	
@@ -1003,6 +1093,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 	</m_MaleOutfits>	
@@ -1046,6 +1142,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 </m_FemaleOutfits>
@@ -1093,6 +1195,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 	</m_MaleOutfits>	
@@ -1143,6 +1251,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 	</m_MaleOutfits>
@@ -1203,6 +1317,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 	</m_MaleOutfits>	
@@ -1297,6 +1417,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 	</m_MaleOutfits>	
@@ -1442,6 +1568,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 	</m_MaleOutfits>
@@ -1591,6 +1723,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 	</m_FemaleOutfits>
@@ -1643,6 +1781,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 </m_FemaleOutfits>	
@@ -1712,6 +1856,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 	</m_MaleOutfits>
@@ -1772,6 +1922,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 	</m_MaleOutfits>
@@ -1955,6 +2111,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 	</m_FemaleOutfits>	
@@ -2138,6 +2300,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 </m_FemaleOutfits>						
@@ -2327,6 +2495,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 </m_FemaleOutfits>	
@@ -2380,6 +2554,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 </m_MaleOutfits>	
@@ -2391,6 +2571,9 @@
 		<m_AllowTopTint>false</m_AllowTopTint>	
 		<m_items> <!-- Buzzers Backwards Hat -->
 			<itemGUID>afcb113c-16c1-43a8-b6d2-2ada2096b150</itemGUID>
+		</m_items>
+		<m_items> <!-- Buzzers T-Shirt -->
+			<itemGUID>5392d7d6-ffb7-4917-bc4b-01269ea97036</itemGUID>
 		</m_items>
 		<m_items> <!-- Headphones Neck -->
 			<itemGUID>ec364ac9-cadc-4776-98fb-7b14d29b67ca</itemGUID> 
@@ -2415,7 +2598,10 @@
 		</m_items>
 		<m_items> <!-- White Zed Skin -->
 			<itemGUID>9c87b588-b784-4560-bada-fd4cf7e44d48</itemGUID>
-		</m_items>	
+		</m_items>
+		<m_items> <!-- Cigarette -->
+			<itemGUID>410485f1-a2d9-4936-bc38-2deb0c9d0ec5</itemGUID> 
+		</m_items>		
 		<m_items> <!-- Dismembered Bone_Arm_L -->
 			<probability>0.03</probability>		
 			<itemGUID>6e10e6c0-0ac4-4010-974c-56d57f1edd46</itemGUID>
@@ -2439,6 +2625,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_MaleOutfits>
@@ -2498,6 +2690,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 </m_MaleOutfits>
@@ -2545,6 +2743,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 	</m_MaleOutfits>
@@ -2592,6 +2796,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 	</m_FemaleOutfits>
@@ -2639,6 +2849,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 	</m_MaleOutfits>
@@ -2686,7 +2902,13 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
-			</subItems>				
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
+			</subItems>			
 		</m_items>		
 </m_FemaleOutfits>	
 
@@ -2733,6 +2955,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 	</m_MaleOutfits>
@@ -2780,6 +3008,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 </m_FemaleOutfits>
@@ -2827,6 +3061,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 	</m_MaleOutfits>
@@ -2924,6 +3164,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 	</m_FemaleOutfits>	
@@ -3005,6 +3251,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 	</m_MaleOutfits>			
@@ -3050,7 +3302,7 @@
 			<subItems> <!-- HairBowTINT_SideRight -->
 				<itemGUID>78cf328f-5047-4f57-a6d0-ed0109a2b7e7</itemGUID>
 			</subItems>				
-		</m_items>		
+		</m_items>			
 		<m_items> <!-- Dismembered Bone_Arm_L -->
 			<probability>0.03</probability>		
 			<itemGUID>6e10e6c0-0ac4-4010-974c-56d57f1edd46</itemGUID>
@@ -3074,6 +3326,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 </m_FemaleOutfits>
@@ -3119,7 +3377,7 @@
 			<subItems> <!-- HairBowTINT_SideRight -->
 				<itemGUID>78cf328f-5047-4f57-a6d0-ed0109a2b7e7</itemGUID>
 			</subItems>				
-		</m_items>		
+		</m_items>			
 		<m_items> <!-- Dismembered Bone_Arm_L -->
 			<probability>0.03</probability>		
 			<itemGUID>6e10e6c0-0ac4-4010-974c-56d57f1edd46</itemGUID>
@@ -3143,6 +3401,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 </m_FemaleOutfits>
@@ -3196,8 +3460,14 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
-		</m_items>		
+		</m_items>
 	</m_FemaleOutfits>	
 
 <m_MaleOutfits> <m_Name>AuthenticClown</m_Name>
@@ -3273,6 +3543,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 </m_MaleOutfits>
@@ -3354,6 +3630,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 </m_MaleOutfits>
@@ -3393,8 +3675,8 @@
 				<itemGUID>062324f6-6c13-4c0c-a405-bbcb10827d51</itemGUID>
 			</subItems>				
 		</m_items>
-		<m_items> <!-- Dismembered Bone_Arm_L -->
-			<probability>0.03</probability>				
+		<m_items> <!-- Dismembered Bone_Arm_L -->	
+			<probability>0.03</probability>			
 			<itemGUID>6e10e6c0-0ac4-4010-974c-56d57f1edd46</itemGUID>
 			<subItems> <!-- Bone_Arm_R-->
 				<itemGUID>5eab0171-d6d2-422e-b69a-3387f219652f</itemGUID>
@@ -3416,6 +3698,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 </m_MaleOutfits>
@@ -3487,6 +3775,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 </m_MaleOutfits>
@@ -3546,6 +3840,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 </m_MaleOutfits>
@@ -3609,6 +3909,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 </m_FemaleOutfits>	
@@ -3696,6 +4002,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>	
 </m_MaleOutfits>
@@ -3713,6 +4025,9 @@
 		</m_items>	
 		<m_items> <!-- Shoes -->
 			<itemGUID>7741404b-9689-4608-a0f5-4e06597776f9</itemGUID>
+		</m_items>
+		<m_items> <!-- Tank Top -->
+			<itemGUID>a700a956-32c2-49a6-bd5f-5a2895073f19</itemGUID>
 		</m_items>
 		<m_items> <!-- Coach's T-Shirt -->
 			<itemGUID>55e66b34-603c-446f-bce3-a826f7bbdd51</itemGUID>
@@ -3750,6 +4065,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 </m_MaleOutfits>
@@ -3826,6 +4147,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 </m_MaleOutfits>
@@ -3969,6 +4296,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 	</m_FemaleOutfits>
@@ -4050,6 +4383,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 </m_MaleOutfits>
@@ -4193,6 +4532,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 </m_FemaleOutfits>
@@ -4274,6 +4619,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 	</m_MaleOutfits>	
@@ -4324,6 +4675,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 	</m_MaleOutfits>
@@ -4387,6 +4744,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 </m_MaleOutfits>
@@ -4399,10 +4762,6 @@
 		<m_items> <!-- Cultist Hat -->
 			<probability>0.6</probability>
 			<itemGUID>c8e1d8b3-9ef5-43fe-aaa0-f52d489b1fe4</itemGUID>
-		</m_items>
-		<m_items> <!-- Deer Skull -->
-			<probability>0.1</probability>
-			<itemGUID>eaa86691-02db-4d15-bf5f-ea8021b62b3e</itemGUID>
 		</m_items>			
 		<m_items> <!-- Cultist Robe -->
 			<itemGUID>3cd1289c-50e3-4fd9-b6a7-45e59262ec32</itemGUID>
@@ -4438,6 +4797,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 </m_MaleOutfits>
@@ -4450,10 +4815,6 @@
 		<m_items> <!-- Cultist Hat -->
 			<probability>0.6</probability>
 			<itemGUID>c8e1d8b3-9ef5-43fe-aaa0-f52d489b1fe4</itemGUID>
-		</m_items>
-		<m_items> <!-- Deer Skull -->
-			<probability>0.1</probability>
-			<itemGUID>eaa86691-02db-4d15-bf5f-ea8021b62b3e</itemGUID>
 		</m_items>			
 		<m_items> <!-- Cultist Robe -->
 			<itemGUID>3cd1289c-50e3-4fd9-b6a7-45e59262ec32</itemGUID>
@@ -4489,6 +4850,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 </m_FemaleOutfits>
@@ -4542,9 +4909,15 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
-	</m_MaleOutfits>
+</m_MaleOutfits>
 	
 <m_MaleOutfits> <m_Name>AuthenticDawnoftheDead</m_Name>
 		<m_Guid>b96a57f5-9bf2-4b2b-b270-ab3be58077c1</m_Guid>
@@ -4616,6 +4989,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 	</m_MaleOutfits>
@@ -4680,6 +5059,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 </m_MaleOutfits>	
@@ -4763,6 +5148,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 </m_FemaleOutfits>
@@ -4832,6 +5223,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_MaleOutfits>
@@ -4895,6 +5292,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_MaleOutfits>
@@ -4958,6 +5361,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_MaleOutfits>
@@ -5006,6 +5415,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_FemaleOutfits>	
@@ -5057,6 +5472,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_FemaleOutfits>	
@@ -5107,6 +5528,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_MaleOutfits>
@@ -5157,6 +5584,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_MaleOutfits>
@@ -5217,6 +5650,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_MaleOutfits>
@@ -5276,6 +5715,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_FemaleOutfits>	
@@ -5326,6 +5771,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_MaleOutfits>
@@ -5389,6 +5840,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_MaleOutfits>
@@ -5451,6 +5908,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_MaleOutfits>
@@ -5553,6 +6016,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_MaleOutfits>
@@ -5652,6 +6121,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_FemaleOutfits>
@@ -5709,6 +6184,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_MaleOutfits>	
@@ -5757,7 +6238,7 @@
 			<itemGUID>86579281-fd36-4c3b-862e-1936c9769001</itemGUID>
 		</m_items>
 		<m_items> <!-- Dismembered Bone_Arm_L -->
-			<probability>0.03</probability>		
+			<probability>0.01</probability>		
 			<itemGUID>6e10e6c0-0ac4-4010-974c-56d57f1edd46</itemGUID>
 			<subItems> <!-- Bone_Arm_R-->
 				<itemGUID>5eab0171-d6d2-422e-b69a-3387f219652f</itemGUID>
@@ -5779,6 +6260,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_FemaleOutfits>	
@@ -7901,33 +8388,6 @@
 		</m_items>		
 </m_MaleOutfits>
 
-<m_MaleOutfits> <m_Name>AuthenticFat03Santa</m_Name>
-		<m_Guid>a5805449-7a87-4811-a3e2-7dd3ee6efe8c</m_Guid>
-		<m_Top>false</m_Top>
-		<m_Pants>false</m_Pants>
-		<m_items>  <!-- Santa Red Hat -->
-			<itemGUID>498c460c-cef2-4e76-a784-6252bd218e02</itemGUID>
-		</m_items>		
-		<m_items> <!-- Santa Obese Body -->
-			<itemGUID>24bb1407-8b5b-455b-9adb-6ffc90e5c631</itemGUID>
-		</m_items>
-		<m_items> <!-- Santa Long Beard  -->
-			<itemGUID>88f40a07-40ea-4bc8-91bd-4b811f0126a0</itemGUID>
-		</m_items>					
-		<m_items> <!-- Santa Obese Long Jacket  -->
-			<itemGUID>2fd627d2-854d-4830-b1f9-e68aa90c3cae</itemGUID>
-		</m_items>
-		<m_items> <!-- Santa Obese Pants  -->
-			<itemGUID>b7079c70-f58e-433d-9158-ac9a2960806c</itemGUID>
-		</m_items>
-		<m_items> <!-- Shoes -->
-			<itemGUID>f9d043b5-4be8-4313-897f-d4cbd7e09ff8</itemGUID>	
-		</m_items>
-		<m_items> <!-- White gloves  -->
-			<itemGUID>7d18ca16-fdb4-462e-b9a7-4f358cdd7525</itemGUID>
-		</m_items>			
-</m_MaleOutfits>
-
 <m_FemaleOutfits> <m_Name>AuthenticFat03</m_Name>
 		<m_Guid>2dc732db-1a5f-43b5-be02-e51895b16d2f</m_Guid>
 		<m_Top>false</m_Top>
@@ -8898,8 +9358,7 @@
 			</subItems>
 			<subItems>
 				<itemGUID>20c91354-0612-4913-9f7c-d15d4c2c4ede</itemGUID>
-			</subItems>	
-			
+			</subItems>			
 		</m_items>								
 		<m_items> <!-- Cigarette -->
 			<probability>0.05</probability>		
@@ -8946,16 +9405,16 @@
 			</subItems>			
 			<subItems> <!-- Hat_BaseballCapKY_Red -->
 				<itemGUID>ee133478-bfc7-4517-af9b-c9da2148d9fd</itemGUID>
+			</subItems>
+			<subItems> <!-- BaseballCap SmileyFace -->
+				<itemGUID>1d159dd5-d387-4c10-ada8-de58911b29e3</itemGUID>
 			</subItems>				
 			<subItems>   <!-- Hat_BucketHat -->
 				<itemGUID>a2e8922f-f703-4d0f-9c3e-d72bc373054e</itemGUID>
 			</subItems>
 			<subItems> <!-- Fat01_HoodieUP -->
 				<itemGUID>d8a600ea-6485-405b-8c9f-d7a20b9242b1</itemGUID>
-			</subItems>	
-			<subItems> <!-- BaseballCap SmileyFace -->
-				<itemGUID>1d159dd5-d387-4c10-ada8-de58911b29e3</itemGUID>
-			</subItems>				
+			</subItems>			
 		</m_items>		
 		<m_items> <!-- Glasses_Normal -->
 			<probability>0.08</probability>		
@@ -9008,7 +9467,7 @@
 			<itemGUID>50ed9191-f721-4ea1-8145-8c00f2b43fea</itemGUID>
 		</m_items>
 		<m_items> <!-- Dismembered Bone_Arm_L -->
-			<probability>0.03</probability>		
+			<probability>0.01</probability>		
 			<itemGUID>6e10e6c0-0ac4-4010-974c-56d57f1edd46</itemGUID>
 			<subItems> <!-- Bone_Arm_R-->
 				<itemGUID>5eab0171-d6d2-422e-b69a-3387f219652f</itemGUID>
@@ -9030,6 +9489,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_MaleOutfits>
@@ -9086,7 +9551,7 @@
 			<itemGUID>6208b99b-cb39-4f04-a64d-881296f88c53</itemGUID>
 		</m_items>
 		<m_items> <!-- Dismembered Bone_Arm_L -->
-			<probability>0.03</probability>		
+			<probability>0.01</probability>		
 			<itemGUID>6e10e6c0-0ac4-4010-974c-56d57f1edd46</itemGUID>
 			<subItems> <!-- Bone_Arm_R-->
 				<itemGUID>5eab0171-d6d2-422e-b69a-3387f219652f</itemGUID>
@@ -9108,6 +9573,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_MaleOutfits>
@@ -9164,7 +9635,7 @@
 			<itemGUID>31357884-e656-4a14-859e-b48f1b395848</itemGUID>
 		</m_items>
 		<m_items> <!-- Dismembered Bone_Arm_L -->
-			<probability>0.03</probability>		
+			<probability>0.01</probability>		
 			<itemGUID>6e10e6c0-0ac4-4010-974c-56d57f1edd46</itemGUID>
 			<subItems> <!-- Bone_Arm_R-->
 				<itemGUID>5eab0171-d6d2-422e-b69a-3387f219652f</itemGUID>
@@ -9186,6 +9657,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_MaleOutfits>
@@ -9242,7 +9719,7 @@
 			<itemGUID>d1cd2c65-2e70-4284-b975-9638dbc17cf3</itemGUID>
 		</m_items>	
 		<m_items> <!-- Dismembered Bone_Arm_L -->
-			<probability>0.03</probability>		
+			<probability>0.01</probability>		
 			<itemGUID>6e10e6c0-0ac4-4010-974c-56d57f1edd46</itemGUID>
 			<subItems> <!-- Bone_Arm_R-->
 				<itemGUID>5eab0171-d6d2-422e-b69a-3387f219652f</itemGUID>
@@ -9264,6 +9741,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_MaleOutfits>	
@@ -9293,7 +9776,7 @@
 			<itemGUID>6208b99b-cb39-4f04-a64d-881296f88c53</itemGUID>
 		</m_items>
 		<m_items> <!-- Dismembered Bone_Arm_L -->
-			<probability>0.03</probability>		
+			<probability>0.01</probability>		
 			<itemGUID>6e10e6c0-0ac4-4010-974c-56d57f1edd46</itemGUID>
 			<subItems> <!-- Bone_Arm_R-->
 				<itemGUID>5eab0171-d6d2-422e-b69a-3387f219652f</itemGUID>
@@ -9315,6 +9798,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_MaleOutfits>	
@@ -9343,7 +9832,7 @@
 			<itemGUID>44ee984a-1926-42e9-b9ac-41652dd31426</itemGUID>
 		</m_items>
 		<m_items> <!-- Dismembered Bone_Arm_L -->
-			<probability>0.03</probability>		
+			<probability>0.01</probability>		
 			<itemGUID>6e10e6c0-0ac4-4010-974c-56d57f1edd46</itemGUID>
 			<subItems> <!-- Bone_Arm_R-->
 				<itemGUID>5eab0171-d6d2-422e-b69a-3387f219652f</itemGUID>
@@ -9365,6 +9854,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_MaleOutfits>
@@ -9489,7 +9984,7 @@
 			</subItems>
 		</m_items>
 		<m_items> <!-- Dismembered Bone_Arm_L -->
-			<probability>0.03</probability>		
+			<probability>0.01</probability>		
 			<itemGUID>6e10e6c0-0ac4-4010-974c-56d57f1edd46</itemGUID>
 			<subItems> <!-- Bone_Arm_R-->
 				<itemGUID>5eab0171-d6d2-422e-b69a-3387f219652f</itemGUID>
@@ -9511,6 +10006,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>	
 </m_MaleOutfits>
@@ -9623,7 +10124,7 @@
 			</subItems>
 		</m_items>
 		<m_items> <!-- Dismembered Bone_Arm_L -->
-			<probability>0.03</probability>		
+			<probability>0.01</probability>		
 			<itemGUID>6e10e6c0-0ac4-4010-974c-56d57f1edd46</itemGUID>
 			<subItems> <!-- Bone_Arm_R-->
 				<itemGUID>5eab0171-d6d2-422e-b69a-3387f219652f</itemGUID>
@@ -9645,6 +10146,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_FemaleOutfits>
@@ -9754,6 +10261,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_FemaleOutfits>		
@@ -9804,6 +10317,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_MaleOutfits>	
@@ -9858,6 +10377,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_MaleOutfits>	
@@ -9911,6 +10436,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_MaleOutfits>
@@ -9989,6 +10520,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_MaleOutfits>
@@ -10061,6 +10598,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_FemaleOutfits>
@@ -10145,6 +10688,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_FemaleOutfits>
@@ -10223,6 +10772,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_MaleOutfits>
@@ -10355,6 +10910,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_FemaleOutfits>
@@ -10509,6 +11070,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_MaleOutfits>
@@ -10660,6 +11227,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_FemaleOutfits>
@@ -10710,6 +11283,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_MaleOutfits>
@@ -10756,6 +11335,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_MaleOutfits>
@@ -10802,6 +11387,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_MaleOutfits>
@@ -10848,6 +11439,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_MaleOutfits>	
@@ -10901,6 +11498,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_MaleOutfits>
@@ -10970,6 +11573,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_MaleOutfits>
@@ -11037,6 +11646,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_MaleOutfits>
@@ -11081,6 +11696,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_FemaleOutfits>		
@@ -11141,6 +11762,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_MaleOutfits>
@@ -11191,6 +11818,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_MaleOutfits>
@@ -11234,6 +11867,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_MaleOutfits>
@@ -11277,6 +11916,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_FemaleOutfits>
@@ -11332,6 +11977,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_MaleOutfits>
@@ -11387,6 +12038,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_FemaleOutfits>
@@ -11414,7 +12071,7 @@
 				<itemGUID>9150e7da-a78d-4988-a799-e06bff2dae4a</itemGUID>
 		</m_items>
 		<m_items> <!-- Dismembered Bone_Arm_L -->
-			<probability>0.03</probability>		
+			<probability>0.01</probability>		
 			<itemGUID>6e10e6c0-0ac4-4010-974c-56d57f1edd46</itemGUID>
 			<subItems> <!-- Bone_Arm_R-->
 				<itemGUID>5eab0171-d6d2-422e-b69a-3387f219652f</itemGUID>
@@ -11436,6 +12093,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_MaleOutfits>
@@ -11502,7 +12165,7 @@
 			<itemGUID>582f29b1-29b3-468c-87fe-263b043e1443</itemGUID>
 		</m_items>
 		<m_items> <!-- Dismembered Bone_Arm_L -->
-			<probability>0.03</probability>		
+			<probability>0.01</probability>		
 			<itemGUID>6e10e6c0-0ac4-4010-974c-56d57f1edd46</itemGUID>
 			<subItems> <!-- Bone_Arm_R-->
 				<itemGUID>5eab0171-d6d2-422e-b69a-3387f219652f</itemGUID>
@@ -11524,6 +12187,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_FemaleOutfits>	
@@ -11582,7 +12251,7 @@
 			</subItems>
 		</m_items>	
 		<m_items> <!-- Dismembered Bone_Arm_L -->
-			<probability>0.03</probability>		
+			<probability>0.01</probability>		
 			<itemGUID>6e10e6c0-0ac4-4010-974c-56d57f1edd46</itemGUID>
 			<subItems> <!-- Bone_Arm_R-->
 				<itemGUID>5eab0171-d6d2-422e-b69a-3387f219652f</itemGUID>
@@ -11604,6 +12273,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_MaleOutfits>
@@ -11638,7 +12313,7 @@
 			<itemGUID>9c87b588-b784-4560-bada-fd4cf7e44d48</itemGUID>
 		</m_items>
 		<m_items> <!-- Dismembered Bone_Arm_L -->
-			<probability>0.03</probability>		
+			<probability>0.01</probability>		
 			<itemGUID>6e10e6c0-0ac4-4010-974c-56d57f1edd46</itemGUID>
 			<subItems> <!-- Bone_Arm_R-->
 				<itemGUID>5eab0171-d6d2-422e-b69a-3387f219652f</itemGUID>
@@ -11660,6 +12335,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_MaleOutfits>
@@ -11688,7 +12369,7 @@
 			<itemGUID>9c87b588-b784-4560-bada-fd4cf7e44d48</itemGUID>
 		</m_items>
 		<m_items> <!-- Dismembered Bone_Arm_L -->
-			<probability>0.03</probability>		
+			<probability>0.01</probability>		
 			<itemGUID>6e10e6c0-0ac4-4010-974c-56d57f1edd46</itemGUID>
 			<subItems> <!-- Bone_Arm_R-->
 				<itemGUID>5eab0171-d6d2-422e-b69a-3387f219652f</itemGUID>
@@ -11710,6 +12391,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_MaleOutfits>	
@@ -11738,7 +12425,7 @@
 		</m_items>
 		<m_items> <!-- Gloves -->
 			<itemGUID>cf0b766a-c273-49b0-bee4-5a0bb6496491</itemGUID>
-		</m_items>	
+		</m_items>		
 		<m_items> <!-- Earrings-->
 			<probability>0.2</probability>
 			<itemGUID>7c3a8a34-9ffa-42e0-83f4-55088f99d8a4</itemGUID>
@@ -11822,7 +12509,7 @@
 			</subItems>
 		</m_items>	
 		<m_items> <!-- Dismembered Bone_Arm_L -->
-			<probability>0.03</probability>		
+			<probability>0.01</probability>		
 			<itemGUID>6e10e6c0-0ac4-4010-974c-56d57f1edd46</itemGUID>
 			<subItems> <!-- Bone_Arm_R-->
 				<itemGUID>5eab0171-d6d2-422e-b69a-3387f219652f</itemGUID>
@@ -11844,6 +12531,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_FemaleOutfits>	
@@ -11869,7 +12562,7 @@
 			<itemGUID>9c87b588-b784-4560-bada-fd4cf7e44d48</itemGUID>
 		</m_items>	
 		<m_items> <!-- Dismembered Bone_Arm_L -->
-			<probability>0.03</probability>		
+			<probability>0.01</probability>		
 			<itemGUID>6e10e6c0-0ac4-4010-974c-56d57f1edd46</itemGUID>
 			<subItems> <!-- Bone_Arm_R-->
 				<itemGUID>5eab0171-d6d2-422e-b69a-3387f219652f</itemGUID>
@@ -11891,6 +12584,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_MaleOutfits>
@@ -11973,7 +12672,7 @@
 			</subItems>
 		</m_items>
 		<m_items> <!-- Dismembered Bone_Arm_L -->
-			<probability>0.03</probability>		
+			<probability>0.01</probability>		
 			<itemGUID>6e10e6c0-0ac4-4010-974c-56d57f1edd46</itemGUID>
 			<subItems> <!-- Bone_Arm_R-->
 				<itemGUID>5eab0171-d6d2-422e-b69a-3387f219652f</itemGUID>
@@ -11995,6 +12694,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_MaleOutfits>
@@ -12074,7 +12779,7 @@
 			</subItems>
 		</m_items>
 		<m_items> <!-- Dismembered Bone_Arm_L -->
-			<probability>0.03</probability>		
+			<probability>0.01</probability>		
 			<itemGUID>6e10e6c0-0ac4-4010-974c-56d57f1edd46</itemGUID>
 			<subItems> <!-- Bone_Arm_R-->
 				<itemGUID>5eab0171-d6d2-422e-b69a-3387f219652f</itemGUID>
@@ -12096,6 +12801,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_FemaleOutfits>
@@ -12141,7 +12852,7 @@
 			</subItems>
 		</m_items>
 		<m_items> <!-- Dismembered Bone_Arm_L -->
-			<probability>0.03</probability>		
+			<probability>0.01</probability>		
 			<itemGUID>6e10e6c0-0ac4-4010-974c-56d57f1edd46</itemGUID>
 			<subItems> <!-- Bone_Arm_R-->
 				<itemGUID>5eab0171-d6d2-422e-b69a-3387f219652f</itemGUID>
@@ -12163,6 +12874,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_MaleOutfits>	
@@ -12212,7 +12929,7 @@
 			<itemGUID>c4d59ad4-cb98-4048-8bd3-fc2f1fbd58c9</itemGUID>
 		</m_items>
 		<m_items> <!-- Dismembered Bone_Arm_L -->
-			<probability>0.03</probability>		
+			<probability>0.01</probability>		
 			<itemGUID>6e10e6c0-0ac4-4010-974c-56d57f1edd46</itemGUID>
 			<subItems> <!-- Bone_Arm_R-->
 				<itemGUID>5eab0171-d6d2-422e-b69a-3387f219652f</itemGUID>
@@ -12234,6 +12951,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_MaleOutfits>
@@ -12284,7 +13007,7 @@
 			</subItems>
 		</m_items>
 		<m_items> <!-- Dismembered Bone_Arm_L -->
-			<probability>0.03</probability>		
+			<probability>0.01</probability>		
 			<itemGUID>6e10e6c0-0ac4-4010-974c-56d57f1edd46</itemGUID>
 			<subItems> <!-- Bone_Arm_R-->
 				<itemGUID>5eab0171-d6d2-422e-b69a-3387f219652f</itemGUID>
@@ -12306,6 +13029,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_MaleOutfits>	
@@ -12377,7 +13106,7 @@
 			<itemGUID>9c87b588-b784-4560-bada-fd4cf7e44d48</itemGUID>
 		</m_items>	
 		<m_items> <!-- Dismembered Bone_Arm_L -->
-			<probability>0.03</probability>		
+			<probability>0.01</probability>		
 			<itemGUID>6e10e6c0-0ac4-4010-974c-56d57f1edd46</itemGUID>
 			<subItems> <!-- Bone_Arm_R-->
 				<itemGUID>5eab0171-d6d2-422e-b69a-3387f219652f</itemGUID>
@@ -12399,6 +13128,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_MaleOutfits>
@@ -12473,7 +13208,7 @@
 			<itemGUID>9c87b588-b784-4560-bada-fd4cf7e44d48</itemGUID>
 		</m_items>	
 		<m_items> <!-- Dismembered Bone_Arm_L -->
-			<probability>0.03</probability>		
+			<probability>0.01</probability>		
 			<itemGUID>6e10e6c0-0ac4-4010-974c-56d57f1edd46</itemGUID>
 			<subItems> <!-- Bone_Arm_R-->
 				<itemGUID>5eab0171-d6d2-422e-b69a-3387f219652f</itemGUID>
@@ -12495,6 +13230,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_MaleOutfits>
@@ -12530,7 +13271,7 @@
 			<itemGUID>60bc5b85-83b6-4beb-9446-5920862d26ec</itemGUID>
 		</m_items>
 		<m_items> <!-- Dismembered Bone_Arm_L -->
-			<probability>0.03</probability>		
+			<probability>0.01</probability>		
 			<itemGUID>6e10e6c0-0ac4-4010-974c-56d57f1edd46</itemGUID>
 			<subItems> <!-- Bone_Arm_R-->
 				<itemGUID>5eab0171-d6d2-422e-b69a-3387f219652f</itemGUID>
@@ -12552,6 +13293,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_MaleOutfits>		
@@ -12602,7 +13349,7 @@
 			<itemGUID>9c87b588-b784-4560-bada-fd4cf7e44d48</itemGUID>
 		</m_items>	
 		<m_items> <!-- Dismembered Bone_Arm_L -->
-			<probability>0.03</probability>		
+			<probability>0.01</probability>		
 			<itemGUID>6e10e6c0-0ac4-4010-974c-56d57f1edd46</itemGUID>
 			<subItems> <!-- Bone_Arm_R-->
 				<itemGUID>5eab0171-d6d2-422e-b69a-3387f219652f</itemGUID>
@@ -12624,6 +13371,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_MaleOutfits>
@@ -12649,7 +13402,7 @@
 			<itemGUID>15015cce-4c11-46a8-9604-755a17ff8496</itemGUID>
 		</m_items>
 		<m_items> <!-- Dismembered Bone_Arm_L -->
-			<probability>0.03</probability>		
+			<probability>0.01</probability>		
 			<itemGUID>6e10e6c0-0ac4-4010-974c-56d57f1edd46</itemGUID>
 			<subItems> <!-- Bone_Arm_R-->
 				<itemGUID>5eab0171-d6d2-422e-b69a-3387f219652f</itemGUID>
@@ -12671,6 +13424,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_FemaleOutfits>
@@ -12712,7 +13471,7 @@
 			</subItems>
 		</m_items>	
 		<m_items> <!-- Dismembered Bone_Arm_L -->
-			<probability>0.03</probability>		
+			<probability>0.01</probability>		
 			<itemGUID>6e10e6c0-0ac4-4010-974c-56d57f1edd46</itemGUID>
 			<subItems> <!-- Bone_Arm_R-->
 				<itemGUID>5eab0171-d6d2-422e-b69a-3387f219652f</itemGUID>
@@ -12734,6 +13493,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_MaleOutfits>
@@ -12789,7 +13554,7 @@
 			<itemGUID>a700a956-32c2-49a6-bd5f-5a2895073f19</itemGUID>
 		</m_items>	
 		<m_items> <!-- Dismembered Bone_Arm_L -->
-			<probability>0.03</probability>			
+			<probability>0.01</probability>		
 			<itemGUID>6e10e6c0-0ac4-4010-974c-56d57f1edd46</itemGUID>
 			<subItems> <!-- Bone_Arm_R-->
 				<itemGUID>5eab0171-d6d2-422e-b69a-3387f219652f</itemGUID>
@@ -12811,6 +13576,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_MaleOutfits>	
@@ -12838,7 +13609,7 @@
 				<itemGUID>5c3d63cb-a46d-47dc-8cd4-a602aa7dc6a7</itemGUID>
 		</m_items>	
 		<m_items> <!-- Dismembered Bone_Arm_L -->
-			<probability>0.03</probability>		
+			<probability>0.01</probability>		
 			<itemGUID>6e10e6c0-0ac4-4010-974c-56d57f1edd46</itemGUID>
 			<subItems> <!-- Bone_Arm_R-->
 				<itemGUID>5eab0171-d6d2-422e-b69a-3387f219652f</itemGUID>
@@ -12860,6 +13631,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_MaleOutfits>
@@ -12884,7 +13661,7 @@
 				<itemGUID>5c3d63cb-a46d-47dc-8cd4-a602aa7dc6a7</itemGUID>
 		</m_items>
 		<m_items> <!-- Dismembered Bone_Arm_L -->
-			<probability>0.03</probability>		
+			<probability>0.01</probability>		
 			<itemGUID>6e10e6c0-0ac4-4010-974c-56d57f1edd46</itemGUID>
 			<subItems> <!-- Bone_Arm_R-->
 				<itemGUID>5eab0171-d6d2-422e-b69a-3387f219652f</itemGUID>
@@ -12906,6 +13683,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_FemaleOutfits>	
@@ -12944,7 +13727,7 @@
 			<itemGUID>5317283e-c343-4dca-9ae8-deb75be1c3ec</itemGUID>
 		</m_items>
 		<m_items> <!-- Dismembered Bone_Arm_L -->
-			<probability>0.03</probability>		
+			<probability>0.01</probability>		
 			<itemGUID>6e10e6c0-0ac4-4010-974c-56d57f1edd46</itemGUID>
 			<subItems> <!-- Bone_Arm_R-->
 				<itemGUID>5eab0171-d6d2-422e-b69a-3387f219652f</itemGUID>
@@ -12966,6 +13749,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_MaleOutfits>
@@ -13019,7 +13808,7 @@
 			</subItems>
 		</m_items>
 		<m_items> <!-- Dismembered Bone_Arm_L -->
-			<probability>0.03</probability>		
+			<probability>0.01</probability>		
 			<itemGUID>6e10e6c0-0ac4-4010-974c-56d57f1edd46</itemGUID>
 			<subItems> <!-- Bone_Arm_R-->
 				<itemGUID>5eab0171-d6d2-422e-b69a-3387f219652f</itemGUID>
@@ -13041,6 +13830,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_MaleOutfits>
@@ -13141,7 +13936,7 @@
 			<itemGUID>2c04ac25-bbc6-4e9b-8c58-78a46aafda7f</itemGUID>
 		</m_items>
 		<m_items> <!-- Dismembered Bone_Arm_L -->
-			<probability>0.03</probability>		
+			<probability>0.01</probability>		
 			<itemGUID>6e10e6c0-0ac4-4010-974c-56d57f1edd46</itemGUID>
 			<subItems> <!-- Bone_Arm_R-->
 				<itemGUID>5eab0171-d6d2-422e-b69a-3387f219652f</itemGUID>
@@ -13163,6 +13958,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_FemaleOutfits>	
@@ -13191,7 +13992,7 @@
 			<itemGUID>593bea3d-c127-4574-ac1e-2197dc56e486</itemGUID>
 		</m_items>	
 		<m_items> <!-- Dismembered Bone_Arm_L -->
-			<probability>0.03</probability>		
+			<probability>0.01</probability>		
 			<itemGUID>6e10e6c0-0ac4-4010-974c-56d57f1edd46</itemGUID>
 			<subItems> <!-- Bone_Arm_R-->
 				<itemGUID>5eab0171-d6d2-422e-b69a-3387f219652f</itemGUID>
@@ -13213,6 +14014,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_MaleOutfits>
@@ -13241,7 +14048,7 @@
 			<itemGUID>593bea3d-c127-4574-ac1e-2197dc56e486</itemGUID>
 		</m_items>
 		<m_items> <!-- Dismembered Bone_Arm_L -->
-			<probability>0.03</probability>		
+			<probability>0.01</probability>		
 			<itemGUID>6e10e6c0-0ac4-4010-974c-56d57f1edd46</itemGUID>
 			<subItems> <!-- Bone_Arm_R-->
 				<itemGUID>5eab0171-d6d2-422e-b69a-3387f219652f</itemGUID>
@@ -13263,6 +14070,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_FemaleOutfits>	
@@ -13304,7 +14117,7 @@
 			<itemGUID>60bc5b85-83b6-4beb-9446-5920862d26ec</itemGUID>
 		</m_items>	
 		<m_items> <!-- Dismembered Bone_Arm_L -->
-			<probability>0.03</probability>		
+			<probability>0.01</probability>		
 			<itemGUID>6e10e6c0-0ac4-4010-974c-56d57f1edd46</itemGUID>
 			<subItems> <!-- Bone_Arm_R-->
 				<itemGUID>5eab0171-d6d2-422e-b69a-3387f219652f</itemGUID>
@@ -13326,6 +14139,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_MaleOutfits>		
@@ -13487,6 +14306,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_MaleOutfits>		
@@ -13680,6 +14505,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_FemaleOutfits>
@@ -13736,6 +14567,74 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
+			</subItems>				
+		</m_items>			
+	</m_FemaleOutfits>
+
+<m_FemaleOutfits> <m_Name>AuthenticNMRIHBadass</m_Name>
+		<m_Guid>b1aa0754-422c-465f-b1c3-dcb052bb9df9</m_Guid>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_items> <!-- Choker necklace -->
+			<itemGUID>5c4e5d70-62c6-45fd-804c-fbd50d30a5dd</itemGUID>
+		</m_items>
+		<m_items> <!-- SchoolBag-->
+			<itemGUID>1bba5b1a-c6c6-4af7-ab69-43f583007159</itemGUID>
+		</m_items>		
+		<m_items> <!-- Tank Top -->
+			<itemGUID>a700a956-32c2-49a6-bd5f-5a2895073f19</itemGUID>
+		</m_items>
+		<m_items> <!-- Intellectual Badass CropTop -->
+			<itemGUID>9339566a-8578-4435-9503-875ae8aa0e54</itemGUID>
+		</m_items>		
+		<m_items> <!-- Default Jeans -->
+			<itemGUID>b63133df-07bb-46db-91ca-cc10f2048669</itemGUID>
+		</m_items>		
+		<m_items> <!-- Bandage lower right arm -->
+			<itemGUID>6c8d6274-5e6e-4151-9133-f7e4be1763c7</itemGUID>
+		</m_items>		
+		<m_items><!-- Holster -->
+			<probability>0.3</probability>
+			<itemGUID>88f11c9e-e717-446c-82ec-f749320df25a</itemGUID>
+		</m_items>
+		<m_items> <!-- Brown Boots -->
+			<itemGUID>7fb2c6bd-1503-440d-8471-57b12275881a</itemGUID>
+		</m_items>	
+		<m_items> <!-- Dismembered Bone_Arm_L -->
+			<probability>0.03</probability>		
+			<itemGUID>6e10e6c0-0ac4-4010-974c-56d57f1edd46</itemGUID>
+			<subItems> <!-- Bone_Arm_R-->
+				<itemGUID>5eab0171-d6d2-422e-b69a-3387f219652f</itemGUID>
+			</subItems>
+			<subItems> <!-- Bone_UpperArm_L -->
+				<itemGUID>4736ed99-f312-44f3-b312-8dffd1629a25</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bone_UpperArm_R -->
+				<itemGUID>9b7d0838-abd4-4720-bd91-260c5e8c8003</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bone_Hand_L -->
+				<itemGUID>9f1781e7-c6b6-4fee-adfb-cf14ef833a76</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bone_Hand_R -->
+				<itemGUID>6e7fb312-cb8b-4bf4-8062-c2a72851e190</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bone_Stub_R -->
+				<itemGUID>ade3238e-17c4-4ddd-896b-eadb3208635c</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bone_Stub_L -->
+				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_FemaleOutfits>
@@ -13789,6 +14688,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_MaleOutfits>
@@ -13839,6 +14744,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_MaleOutfits>
@@ -13907,6 +14818,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_MaleOutfits>
@@ -13960,6 +14877,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_MaleOutfits>
@@ -14016,6 +14939,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_MaleOutfits>
@@ -14079,6 +15008,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_MaleOutfits>		
@@ -14120,6 +15055,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_MaleOutfits>
@@ -14176,6 +15117,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_MaleOutfits>
@@ -14245,6 +15192,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_MaleOutfits>
@@ -14384,9 +15337,15 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
-	</m_FemaleOutfits>
+</m_FemaleOutfits>
 
 <m_MaleOutfits> <m_Name>AuthenticPizzaDelivery</m_Name>
 		<m_Guid>856a8f8e-b32b-4d49-9860-329e6d7a61c9</m_Guid>
@@ -14443,7 +15402,7 @@
 			</subItems>
 		</m_items>
 		<m_items> <!-- Dismembered Bone_Arm_L -->
-			<probability>0.03</probability>		
+			<probability>0.01</probability>		
 			<itemGUID>6e10e6c0-0ac4-4010-974c-56d57f1edd46</itemGUID>
 			<subItems> <!-- Bone_Arm_R-->
 				<itemGUID>5eab0171-d6d2-422e-b69a-3387f219652f</itemGUID>
@@ -14465,9 +15424,15 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
-	</m_MaleOutfits>
+</m_MaleOutfits>
 	
 <m_FemaleOutfits> <m_Name>AuthenticPizzaDelivery</m_Name>
 		<m_Guid>856a8f8e-b32b-4d49-9860-329e6d7a61c9</m_Guid>
@@ -14593,7 +15558,7 @@
 			</subItems>
 		</m_items>
 		<m_items> <!-- Dismembered Bone_Arm_L -->
-			<probability>0.03</probability>		
+			<probability>0.01</probability>		
 			<itemGUID>6e10e6c0-0ac4-4010-974c-56d57f1edd46</itemGUID>
 			<subItems> <!-- Bone_Arm_R-->
 				<itemGUID>5eab0171-d6d2-422e-b69a-3387f219652f</itemGUID>
@@ -14615,9 +15580,15 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
-	</m_FemaleOutfits>	
+</m_FemaleOutfits>	
 
 <m_MaleOutfits> <m_Name>AuthenticPoncho</m_Name>
 		<m_Guid>3b730e3e-71dc-4454-a0ef-5650880313fb</m_Guid>
@@ -14722,7 +15693,7 @@
 			</subItems>
 		</m_items>
 		<m_items> <!-- Dismembered Bone_Arm_L -->
-			<probability>0.03</probability>		
+			<probability>0.01</probability>		
 			<itemGUID>6e10e6c0-0ac4-4010-974c-56d57f1edd46</itemGUID>
 			<subItems> <!-- Bone_Arm_R-->
 				<itemGUID>5eab0171-d6d2-422e-b69a-3387f219652f</itemGUID>
@@ -14744,6 +15715,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_MaleOutfits>
@@ -14847,7 +15824,7 @@
 			</subItems>
 		</m_items>
 		<m_items> <!-- Dismembered Bone_Arm_L -->
-			<probability>0.03</probability>		
+			<probability>0.01</probability>		
 			<itemGUID>6e10e6c0-0ac4-4010-974c-56d57f1edd46</itemGUID>
 			<subItems> <!-- Bone_Arm_R-->
 				<itemGUID>5eab0171-d6d2-422e-b69a-3387f219652f</itemGUID>
@@ -14869,6 +15846,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_FemaleOutfits>	
@@ -14919,7 +15902,7 @@
 			</subItems>
 		</m_items>
 		<m_items> <!-- Dismembered Bone_Arm_L -->
-			<probability>0.03</probability>		
+			<probability>0.01</probability>		
 			<itemGUID>6e10e6c0-0ac4-4010-974c-56d57f1edd46</itemGUID>
 			<subItems> <!-- Bone_Arm_R-->
 				<itemGUID>5eab0171-d6d2-422e-b69a-3387f219652f</itemGUID>
@@ -14941,6 +15924,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_MaleOutfits>
@@ -14988,7 +15977,7 @@
 			</subItems>
 		</m_items>
 		<m_items> <!-- Dismembered Bone_Arm_L -->
-			<probability>0.03</probability>		
+			<probability>0.01</probability>		
 			<itemGUID>6e10e6c0-0ac4-4010-974c-56d57f1edd46</itemGUID>
 			<subItems> <!-- Bone_Arm_R-->
 				<itemGUID>5eab0171-d6d2-422e-b69a-3387f219652f</itemGUID>
@@ -15010,6 +15999,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_MaleOutfits>
@@ -15032,7 +16027,7 @@
 			<itemGUID>a700a956-32c2-49a6-bd5f-5a2895073f19</itemGUID>
 		</m_items>	
 		<m_items> <!-- Dismembered Bone_Arm_L -->
-			<probability>0.03</probability>		
+			<probability>0.01</probability>		
 			<itemGUID>6e10e6c0-0ac4-4010-974c-56d57f1edd46</itemGUID>
 			<subItems> <!-- Bone_Arm_R-->
 				<itemGUID>5eab0171-d6d2-422e-b69a-3387f219652f</itemGUID>
@@ -15054,6 +16049,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_MaleOutfits>			
@@ -15200,7 +16201,7 @@
 			</subItems>
 		</m_items>	
 		<m_items> <!-- Dismembered Bone_Arm_L -->
-			<probability>0.03</probability>		
+			<probability>0.01</probability>		
 			<itemGUID>6e10e6c0-0ac4-4010-974c-56d57f1edd46</itemGUID>
 			<subItems> <!-- Bone_Arm_R-->
 				<itemGUID>5eab0171-d6d2-422e-b69a-3387f219652f</itemGUID>
@@ -15222,6 +16223,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_FemaleOutfits>
@@ -15278,7 +16285,7 @@
 			</subItems>
 		</m_items> 
 		<m_items> <!-- Dismembered Bone_Arm_L -->
-			<probability>0.03</probability>		
+			<probability>0.01</probability>		
 			<itemGUID>6e10e6c0-0ac4-4010-974c-56d57f1edd46</itemGUID>
 			<subItems> <!-- Bone_Arm_R-->
 				<itemGUID>5eab0171-d6d2-422e-b69a-3387f219652f</itemGUID>
@@ -15300,6 +16307,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_MaleOutfits>
@@ -15394,7 +16407,7 @@
 			<itemGUID>2c04ac25-bbc6-4e9b-8c58-78a46aafda7f</itemGUID>
 		</m_items>
 		<m_items> <!-- Dismembered Bone_Arm_L -->
-			<probability>0.03</probability>		
+			<probability>0.01</probability>		
 			<itemGUID>6e10e6c0-0ac4-4010-974c-56d57f1edd46</itemGUID>
 			<subItems> <!-- Bone_Arm_R-->
 				<itemGUID>5eab0171-d6d2-422e-b69a-3387f219652f</itemGUID>
@@ -15416,6 +16429,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_FemaleOutfits>	
@@ -15475,7 +16494,7 @@
 			</subItems>
 		</m_items> 
 		<m_items> <!-- Dismembered Bone_Arm_L -->
-			<probability>0.03</probability>		
+			<probability>0.01</probability>		
 			<itemGUID>6e10e6c0-0ac4-4010-974c-56d57f1edd46</itemGUID>
 			<subItems> <!-- Bone_Arm_R-->
 				<itemGUID>5eab0171-d6d2-422e-b69a-3387f219652f</itemGUID>
@@ -15497,6 +16516,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_MaleOutfits>
@@ -15529,7 +16554,7 @@
 			<itemGUID>2c04ac25-bbc6-4e9b-8c58-78a46aafda7f</itemGUID>
 		</m_items>
 		<m_items> <!-- Dismembered Bone_Arm_L -->
-			<probability>0.03</probability>		
+			<probability>0.01</probability>		
 			<itemGUID>6e10e6c0-0ac4-4010-974c-56d57f1edd46</itemGUID>
 			<subItems> <!-- Bone_Arm_R-->
 				<itemGUID>5eab0171-d6d2-422e-b69a-3387f219652f</itemGUID>
@@ -15551,6 +16576,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_FemaleOutfits>	
@@ -15610,7 +16641,7 @@
 			</subItems>
 		</m_items> 
 		<m_items> <!-- Dismembered Bone_Arm_L -->
-			<probability>0.03</probability>		
+			<probability>0.01</probability>		
 			<itemGUID>6e10e6c0-0ac4-4010-974c-56d57f1edd46</itemGUID>
 			<subItems> <!-- Bone_Arm_R-->
 				<itemGUID>5eab0171-d6d2-422e-b69a-3387f219652f</itemGUID>
@@ -15632,6 +16663,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_MaleOutfits>
@@ -15686,6 +16723,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_FemaleOutfits>
@@ -15745,7 +16788,7 @@
 			</subItems>
 		</m_items> 
 		<m_items> <!-- Dismembered Bone_Arm_L -->
-			<probability>0.03</probability>		
+			<probability>0.01</probability>		
 			<itemGUID>6e10e6c0-0ac4-4010-974c-56d57f1edd46</itemGUID>
 			<subItems> <!-- Bone_Arm_R-->
 				<itemGUID>5eab0171-d6d2-422e-b69a-3387f219652f</itemGUID>
@@ -15767,6 +16810,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_MaleOutfits>
@@ -15799,7 +16848,7 @@
 			<itemGUID>2c04ac25-bbc6-4e9b-8c58-78a46aafda7f</itemGUID>
 		</m_items>
 		<m_items> <!-- Dismembered Bone_Arm_L -->
-			<probability>0.03</probability>		
+			<probability>0.01</probability>		
 			<itemGUID>6e10e6c0-0ac4-4010-974c-56d57f1edd46</itemGUID>
 			<subItems> <!-- Bone_Arm_R-->
 				<itemGUID>5eab0171-d6d2-422e-b69a-3387f219652f</itemGUID>
@@ -15821,6 +16870,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_FemaleOutfits>	
@@ -15943,7 +16998,7 @@
 			</subItems>
 		</m_items> 
 		<m_items> <!-- Dismembered Bone_Arm_L -->
-			<probability>0.03</probability>		
+			<probability>0.01</probability>		
 			<itemGUID>6e10e6c0-0ac4-4010-974c-56d57f1edd46</itemGUID>
 			<subItems> <!-- Bone_Arm_R-->
 				<itemGUID>5eab0171-d6d2-422e-b69a-3387f219652f</itemGUID>
@@ -15965,6 +17020,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_MaleOutfits>
@@ -16014,7 +17075,7 @@
 			<itemGUID>9c87b588-b784-4560-bada-fd4cf7e44d48</itemGUID>
 		</m_items>
 		<m_items> <!-- Dismembered Bone_Arm_L -->
-			<probability>0.03</probability>		
+			<probability>0.01</probability>		
 			<itemGUID>6e10e6c0-0ac4-4010-974c-56d57f1edd46</itemGUID>
 			<subItems> <!-- Bone_Arm_R-->
 				<itemGUID>5eab0171-d6d2-422e-b69a-3387f219652f</itemGUID>
@@ -16036,6 +17097,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_MaleOutfits>
@@ -16234,6 +17301,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>		
 </m_FemaleOutfits>	
@@ -16269,7 +17342,7 @@
 			<itemGUID>60bc5b85-83b6-4beb-9446-5920862d26ec</itemGUID>
 		</m_items>
 		<m_items> <!-- Dismembered Bone_Arm_L -->
-			<probability>0.03</probability>		
+			<probability>0.01</probability>		
 			<itemGUID>6e10e6c0-0ac4-4010-974c-56d57f1edd46</itemGUID>
 			<subItems> <!-- Bone_Arm_R-->
 				<itemGUID>5eab0171-d6d2-422e-b69a-3387f219652f</itemGUID>
@@ -16291,6 +17364,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_FemaleOutfits>	
@@ -16327,7 +17406,7 @@
 			<subItems> <!-- Bag_DuffelBag_Festive-->
 				<itemGUID>99688bf7-7938-40d7-aadd-7ed6bf34c453</itemGUID>
 			</subItems>			
-		</m_items>			
+		</m_items>		
 </m_MaleOutfits>
 
 <m_FemaleOutfits> <m_Name>AuthenticSantaWhite</m_Name>
@@ -16357,12 +17436,12 @@
 			<itemGUID>9c36a162-1348-46ad-81bd-70bf3ed7a93e</itemGUID>
 		</m_items>
 		<m_items> <!-- Festive bags -->
-			<probability>0.1</probability> <!-- Festive Alicepack -->
+			<probability>0.1</probability>		 <!-- Festive Alicepack -->
 			<itemGUID>9615800e-12cc-4827-857b-a0b99790b7c5</itemGUID>
 			<subItems> <!-- Bag_DuffelBag_Festive-->
 				<itemGUID>99688bf7-7938-40d7-aadd-7ed6bf34c453</itemGUID>
 			</subItems>			
-		</m_items>			
+		</m_items>		
 </m_FemaleOutfits>
 
 <m_MaleOutfits> <m_Name>AuthenticSantaBlue</m_Name>
@@ -16392,7 +17471,7 @@
 			<itemGUID>9c36a162-1348-46ad-81bd-70bf3ed7a93e</itemGUID>
 		</m_items>
 		<m_items> <!-- Festive bags -->
-			<probability>0.1</probability> <!-- Festive Alicepack -->
+			<probability>0.1</probability>		 <!-- Festive Alicepack -->
 			<itemGUID>9615800e-12cc-4827-857b-a0b99790b7c5</itemGUID>
 			<subItems> <!-- Bag_DuffelBag_Festive-->
 				<itemGUID>99688bf7-7938-40d7-aadd-7ed6bf34c453</itemGUID>
@@ -16427,12 +17506,12 @@
 			<itemGUID>9c36a162-1348-46ad-81bd-70bf3ed7a93e</itemGUID>
 		</m_items>
 		<m_items> <!-- Festive bags -->
-			<probability>0.1</probability> <!-- Festive Alicepack -->
+			<probability>0.1</probability>		 <!-- Festive Alicepack -->
 			<itemGUID>9615800e-12cc-4827-857b-a0b99790b7c5</itemGUID>
 			<subItems> <!-- Bag_DuffelBag_Festive-->
 				<itemGUID>99688bf7-7938-40d7-aadd-7ed6bf34c453</itemGUID>
 			</subItems>			
-		</m_items>				
+		</m_items>			
 </m_FemaleOutfits>
 
 <m_MaleOutfits> <m_Name>AuthenticSamRivot</m_Name>
@@ -16496,7 +17575,7 @@
 			</subItems>
 		</m_items>
 		<m_items> <!-- Dismembered Bone_Arm_L -->
-			<probability>0.03</probability>		
+			<probability>0.01</probability>		
 			<itemGUID>6e10e6c0-0ac4-4010-974c-56d57f1edd46</itemGUID>
 			<subItems> <!-- Bone_Arm_R-->
 				<itemGUID>5eab0171-d6d2-422e-b69a-3387f219652f</itemGUID>
@@ -16518,6 +17597,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_MaleOutfits>
@@ -16578,7 +17663,7 @@
 			</subItems>
 		</m_items>
 		<m_items> <!-- Dismembered Bone_Arm_L -->
-			<probability>0.03</probability>		
+			<probability>0.01</probability>		
 			<itemGUID>6e10e6c0-0ac4-4010-974c-56d57f1edd46</itemGUID>
 			<subItems> <!-- Bone_Arm_R-->
 				<itemGUID>5eab0171-d6d2-422e-b69a-3387f219652f</itemGUID>
@@ -16600,6 +17685,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_MaleOutfits>
@@ -16631,7 +17722,7 @@
 			<itemGUID>1e72e453-5882-42d4-b3d4-794c3482db5e</itemGUID>
 		</m_items>
 		<m_items> <!-- Dismembered Bone_Arm_L -->
-			<probability>0.03</probability>		
+			<probability>0.01</probability>		
 			<itemGUID>6e10e6c0-0ac4-4010-974c-56d57f1edd46</itemGUID>
 			<subItems> <!-- Bone_Arm_R-->
 				<itemGUID>5eab0171-d6d2-422e-b69a-3387f219652f</itemGUID>
@@ -16653,6 +17744,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_FemaleOutfits>	
@@ -16679,7 +17776,7 @@
 			<itemGUID>a700a956-32c2-49a6-bd5f-5a2895073f19</itemGUID>
 		</m_items>
 		<m_items> <!-- Dismembered Bone_Arm_L -->
-			<probability>0.03</probability>		
+			<probability>0.01</probability>		
 			<itemGUID>6e10e6c0-0ac4-4010-974c-56d57f1edd46</itemGUID>
 			<subItems> <!-- Bone_Arm_R-->
 				<itemGUID>5eab0171-d6d2-422e-b69a-3387f219652f</itemGUID>
@@ -16701,6 +17798,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_FemaleOutfits>
@@ -16751,7 +17854,7 @@
 			</subItems>
 		</m_items>
 		<m_items> <!-- Dismembered Bone_Arm_L -->
-			<probability>0.03</probability>		
+			<probability>0.01</probability>		
 			<itemGUID>6e10e6c0-0ac4-4010-974c-56d57f1edd46</itemGUID>
 			<subItems> <!-- Bone_Arm_R-->
 				<itemGUID>5eab0171-d6d2-422e-b69a-3387f219652f</itemGUID>
@@ -16773,6 +17876,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_MaleOutfits>
@@ -16823,15 +17932,12 @@
 		<m_items> <!-- Schoolbag -->
 			<probability>0.25</probability>
 			<itemGUID>1bba5b1a-c6c6-4af7-ab69-43f583007159</itemGUID>
-			<subItems>  <!-- Bag_Satchel -->
+			<subItems>
 				<itemGUID>f8988b1c-04bb-4b9a-8656-851d324d2fd0</itemGUID>
 			</subItems>
-			<subItems> <!-- Packsport Backpack -->
-				<itemGUID>732a0feb-0e8b-4b3b-b007-ad69e3bc8a63</itemGUID>
-			</subItems>			
 		</m_items>
 		<m_items> <!-- Dismembered Bone_Arm_L -->
-			<probability>0.03</probability>		
+			<probability>0.01</probability>		
 			<itemGUID>6e10e6c0-0ac4-4010-974c-56d57f1edd46</itemGUID>
 			<subItems> <!-- Bone_Arm_R-->
 				<itemGUID>5eab0171-d6d2-422e-b69a-3387f219652f</itemGUID>
@@ -16853,6 +17959,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_FemaleOutfits>	
@@ -16934,7 +18046,7 @@
 			<itemGUID>8205c9e3-d959-423e-92ec-51a8ef30f009</itemGUID>
 		</m_items>
 		<m_items> <!-- Dismembered Bone_Arm_L -->
-			<probability>0.03</probability>		
+			<probability>0.01</probability>		
 			<itemGUID>6e10e6c0-0ac4-4010-974c-56d57f1edd46</itemGUID>
 			<subItems> <!-- Bone_Arm_R-->
 				<itemGUID>5eab0171-d6d2-422e-b69a-3387f219652f</itemGUID>
@@ -16956,6 +18068,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_MaleOutfits>
@@ -16998,7 +18116,7 @@
 			</subItems>				
 		</m_items>		
 		<m_items> <!-- Dismembered Bone_Arm_L -->
-			<probability>0.03</probability>		
+			<probability>0.01</probability>		
 			<itemGUID>6e10e6c0-0ac4-4010-974c-56d57f1edd46</itemGUID>
 			<subItems> <!-- Bone_Arm_R-->
 				<itemGUID>5eab0171-d6d2-422e-b69a-3387f219652f</itemGUID>
@@ -17020,6 +18138,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_FemaleOutfits>
@@ -17032,7 +18156,7 @@
 			<itemGUID>bb58e85d-f255-49ea-937b-3503887e9e4b</itemGUID>
 		</m_items>	
 		<m_items> <!-- Dismembered Bone_Arm_L -->
-			<probability>0.03</probability>		
+			<probability>0.01</probability>		
 			<itemGUID>6e10e6c0-0ac4-4010-974c-56d57f1edd46</itemGUID>
 			<subItems> <!-- Bone_Arm_R-->
 				<itemGUID>5eab0171-d6d2-422e-b69a-3387f219652f</itemGUID>
@@ -17054,6 +18178,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>					
 	</m_MaleOutfits>	
@@ -17088,7 +18218,7 @@
 			<itemGUID>a4e56057-6eee-4453-96f4-12613ee1a25f</itemGUID>
 		</m_items>
 		<m_items> <!-- Dismembered Bone_Arm_L -->
-			<probability>0.03</probability>		
+			<probability>0.01</probability>		
 			<itemGUID>6e10e6c0-0ac4-4010-974c-56d57f1edd46</itemGUID>
 			<subItems> <!-- Bone_Arm_R-->
 				<itemGUID>5eab0171-d6d2-422e-b69a-3387f219652f</itemGUID>
@@ -17110,6 +18240,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_MaleOutfits>
@@ -17138,7 +18274,7 @@
 			<itemGUID>593bea3d-c127-4574-ac1e-2197dc56e486</itemGUID>
 		</m_items>
 		<m_items> <!-- Dismembered Bone_Arm_L -->
-			<probability>0.03</probability>		
+			<probability>0.01</probability>		
 			<itemGUID>6e10e6c0-0ac4-4010-974c-56d57f1edd46</itemGUID>
 			<subItems> <!-- Bone_Arm_R-->
 				<itemGUID>5eab0171-d6d2-422e-b69a-3387f219652f</itemGUID>
@@ -17160,6 +18296,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_MaleOutfits>
@@ -17188,7 +18330,7 @@
 			<itemGUID>593bea3d-c127-4574-ac1e-2197dc56e486</itemGUID>
 		</m_items>	
 		<m_items> <!-- Dismembered Bone_Arm_L -->
-			<probability>0.03</probability>		
+			<probability>0.01</probability>		
 			<itemGUID>6e10e6c0-0ac4-4010-974c-56d57f1edd46</itemGUID>
 			<subItems> <!-- Bone_Arm_R-->
 				<itemGUID>5eab0171-d6d2-422e-b69a-3387f219652f</itemGUID>
@@ -17210,9 +18352,15 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
-	</m_FemaleOutfits>	
+</m_FemaleOutfits>	
 	
 <m_MaleOutfits> <m_Name>AuthenticSoDEdJones</m_Name>
 		<m_Guid>3165c483-1384-4028-a24a-db7766c227db</m_Guid>
@@ -17249,7 +18397,7 @@
 			<itemGUID>9c87b588-b784-4560-bada-fd4cf7e44d48</itemGUID>
 		</m_items>
 		<m_items> <!-- Dismembered Bone_Arm_L -->
-			<probability>0.03</probability>		
+			<probability>0.01</probability>		
 			<itemGUID>6e10e6c0-0ac4-4010-974c-56d57f1edd46</itemGUID>
 			<subItems> <!-- Bone_Arm_R-->
 				<itemGUID>5eab0171-d6d2-422e-b69a-3387f219652f</itemGUID>
@@ -17271,9 +18419,15 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
-		</m_items>			
-	</m_MaleOutfits>
+		</m_items>		
+</m_MaleOutfits>
 	
 <m_MaleOutfits> <m_Name>AuthenticSportsFan</m_Name>
 		<m_Guid>ed23a870-6fda-431f-8646-24bb1a389705</m_Guid>
@@ -17349,7 +18503,7 @@
 			</subItems>
 		</m_items>
 		<m_items> <!-- Dismembered Bone_Arm_L -->
-			<probability>0.03</probability>		
+			<probability>0.01</probability>		
 			<itemGUID>6e10e6c0-0ac4-4010-974c-56d57f1edd46</itemGUID>
 			<subItems> <!-- Bone_Arm_R-->
 				<itemGUID>5eab0171-d6d2-422e-b69a-3387f219652f</itemGUID>
@@ -17371,9 +18525,15 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
-	</m_MaleOutfits>
+</m_MaleOutfits>
 	
 <m_FemaleOutfits> <m_Name>AuthenticSportsFan</m_Name>
 		<m_Guid>ed23a870-6fda-431f-8646-24bb1a389705</m_Guid>
@@ -17511,7 +18671,7 @@
 			</subItems>
 		</m_items>
 		<m_items> <!-- Dismembered Bone_Arm_L -->
-			<probability>0.03</probability>		
+			<probability>0.01</probability>		
 			<itemGUID>6e10e6c0-0ac4-4010-974c-56d57f1edd46</itemGUID>
 			<subItems> <!-- Bone_Arm_R-->
 				<itemGUID>5eab0171-d6d2-422e-b69a-3387f219652f</itemGUID>
@@ -17533,6 +18693,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_FemaleOutfits>	
@@ -17668,7 +18834,7 @@
 			</subItems>
 		</m_items>
 		<m_items> <!-- Dismembered Bone_Arm_L -->
-			<probability>0.03</probability>		
+			<probability>0.01</probability>		
 			<itemGUID>6e10e6c0-0ac4-4010-974c-56d57f1edd46</itemGUID>
 			<subItems> <!-- Bone_Arm_R-->
 				<itemGUID>5eab0171-d6d2-422e-b69a-3387f219652f</itemGUID>
@@ -17690,6 +18856,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_MaleOutfits>	
@@ -17894,7 +19066,7 @@
 			</subItems>
 		</m_items>	
 		<m_items> <!-- Dismembered Bone_Arm_L -->
-			<probability>0.03</probability>		
+			<probability>0.01</probability>		
 			<itemGUID>6e10e6c0-0ac4-4010-974c-56d57f1edd46</itemGUID>
 			<subItems> <!-- Bone_Arm_R-->
 				<itemGUID>5eab0171-d6d2-422e-b69a-3387f219652f</itemGUID>
@@ -17916,6 +19088,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_FemaleOutfits>
@@ -17945,7 +19123,7 @@
 			</subItems>
 		</m_items>
 		<m_items> <!-- Dismembered Bone_Arm_L -->
-			<probability>0.03</probability>		
+			<probability>0.01</probability>		
 			<itemGUID>6e10e6c0-0ac4-4010-974c-56d57f1edd46</itemGUID>
 			<subItems> <!-- Bone_Arm_R-->
 				<itemGUID>5eab0171-d6d2-422e-b69a-3387f219652f</itemGUID>
@@ -17967,6 +19145,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_MaleOutfits>
@@ -17996,7 +19180,7 @@
 			</subItems>
 		</m_items>
 		<m_items> <!-- Dismembered Bone_Arm_L -->
-			<probability>0.03</probability>		
+			<probability>0.01</probability>		
 			<itemGUID>6e10e6c0-0ac4-4010-974c-56d57f1edd46</itemGUID>
 			<subItems> <!-- Bone_Arm_R-->
 				<itemGUID>5eab0171-d6d2-422e-b69a-3387f219652f</itemGUID>
@@ -18018,6 +19202,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_FemaleOutfits>
@@ -18073,7 +19263,7 @@
 			</subItems>
 		</m_items>	
 		<m_items> <!-- Dismembered Bone_Arm_L -->
-			<probability>0.03</probability>		
+			<probability>0.01</probability>		
 			<itemGUID>6e10e6c0-0ac4-4010-974c-56d57f1edd46</itemGUID>
 			<subItems> <!-- Bone_Arm_R-->
 				<itemGUID>5eab0171-d6d2-422e-b69a-3387f219652f</itemGUID>
@@ -18095,6 +19285,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_MaleOutfits>
@@ -18197,7 +19393,7 @@
 			</subItems>
 		</m_items>	
 		<m_items> <!-- Dismembered Bone_Arm_L -->
-			<probability>0.03</probability>		
+			<probability>0.01</probability>		
 			<itemGUID>6e10e6c0-0ac4-4010-974c-56d57f1edd46</itemGUID>
 			<subItems> <!-- Bone_Arm_R-->
 				<itemGUID>5eab0171-d6d2-422e-b69a-3387f219652f</itemGUID>
@@ -18219,6 +19415,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_MaleOutfits>
@@ -18342,6 +19544,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_FemaleOutfits>
@@ -18455,6 +19663,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_MaleOutfits>
@@ -18545,7 +19759,7 @@
 			</subItems>
 		</m_items>
 		<m_items> <!-- Dismembered Bone_Arm_L -->
-			<probability>0.03</probability>		
+			<probability>0.01</probability>		
 			<itemGUID>6e10e6c0-0ac4-4010-974c-56d57f1edd46</itemGUID>
 			<subItems> <!-- Bone_Arm_R-->
 				<itemGUID>5eab0171-d6d2-422e-b69a-3387f219652f</itemGUID>
@@ -18567,6 +19781,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_FemaleOutfits>
@@ -18650,7 +19870,7 @@
 			</subItems>
 		</m_items>	
 		<m_items> <!-- Dismembered Bone_Arm_L -->
-			<probability>0.03</probability>		
+			<probability>0.01</probability>		
 			<itemGUID>6e10e6c0-0ac4-4010-974c-56d57f1edd46</itemGUID>
 			<subItems> <!-- Bone_Arm_R-->
 				<itemGUID>5eab0171-d6d2-422e-b69a-3387f219652f</itemGUID>
@@ -18672,9 +19892,16 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_MaleOutfits>
+
 <m_FemaleOutfits> <m_Name>AuthenticSurvivorSplatter</m_Name>
 		<m_Guid>bdc1ac41-4dfa-4558-b400-00284725df91</m_Guid>
 		<m_items>  <!-- Aprons -->
@@ -18748,7 +19975,7 @@
 			</subItems>
 		</m_items>	
 		<m_items> <!-- Dismembered Bone_Arm_L -->
-			<probability>0.03</probability>		
+			<probability>0.01</probability>		
 			<itemGUID>6e10e6c0-0ac4-4010-974c-56d57f1edd46</itemGUID>
 			<subItems> <!-- Bone_Arm_R-->
 				<itemGUID>5eab0171-d6d2-422e-b69a-3387f219652f</itemGUID>
@@ -18770,6 +19997,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_FemaleOutfits>
@@ -18814,7 +20047,7 @@
 			</subItems>			
 		</m_items>
 		<m_items> <!-- Dismembered Bone_Arm_L -->
-			<probability>0.03</probability>		
+			<probability>0.01</probability>		
 			<itemGUID>6e10e6c0-0ac4-4010-974c-56d57f1edd46</itemGUID>
 			<subItems> <!-- Bone_Arm_R-->
 				<itemGUID>5eab0171-d6d2-422e-b69a-3387f219652f</itemGUID>
@@ -18836,6 +20069,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_MaleOutfits>
@@ -18880,7 +20119,7 @@
 			</subItems>
 		</m_items>
 		<m_items> <!-- Dismembered Bone_Arm_L -->
-			<probability>0.03</probability>		
+			<probability>0.01</probability>		
 			<itemGUID>6e10e6c0-0ac4-4010-974c-56d57f1edd46</itemGUID>
 			<subItems> <!-- Bone_Arm_R-->
 				<itemGUID>5eab0171-d6d2-422e-b69a-3387f219652f</itemGUID>
@@ -18902,6 +20141,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_FemaleOutfits>
@@ -18952,7 +20197,7 @@
 			<itemGUID>580f5639-375f-4a9f-9ece-01a772bc3653</itemGUID>
 		</m_items>	
 		<m_items> <!-- Dismembered Bone_Arm_L -->
-			<probability>0.03</probability>		
+			<probability>0.01</probability>		
 			<itemGUID>6e10e6c0-0ac4-4010-974c-56d57f1edd46</itemGUID>
 			<subItems> <!-- Bone_Arm_R-->
 				<itemGUID>5eab0171-d6d2-422e-b69a-3387f219652f</itemGUID>
@@ -18974,6 +20219,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_MaleOutfits>
@@ -19027,7 +20278,7 @@
 			<itemGUID>85301979-d1ab-4dec-bcfa-dad70cec7f9d</itemGUID> 
 		</m_items>
 		<m_items> <!-- Dismembered Bone_Arm_L -->
-			<probability>0.03</probability>		
+			<probability>0.01</probability>		
 			<itemGUID>6e10e6c0-0ac4-4010-974c-56d57f1edd46</itemGUID>
 			<subItems> <!-- Bone_Arm_R-->
 				<itemGUID>5eab0171-d6d2-422e-b69a-3387f219652f</itemGUID>
@@ -19049,6 +20300,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_MaleOutfits>
@@ -19102,7 +20359,7 @@
 			<itemGUID>85301979-d1ab-4dec-bcfa-dad70cec7f9d</itemGUID> 
 		</m_items>	
 		<m_items> <!-- Dismembered Bone_Arm_L -->
-			<probability>0.03</probability>		
+			<probability>0.01</probability>		
 			<itemGUID>6e10e6c0-0ac4-4010-974c-56d57f1edd46</itemGUID>
 			<subItems> <!-- Bone_Arm_R-->
 				<itemGUID>5eab0171-d6d2-422e-b69a-3387f219652f</itemGUID>
@@ -19124,6 +20381,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_MaleOutfits>	
@@ -19159,7 +20422,7 @@
 			<itemGUID>9c87b588-b784-4560-bada-fd4cf7e44d48</itemGUID>
 		</m_items>
 		<m_items> <!-- Dismembered Bone_Arm_L -->
-			<probability>0.03</probability>		
+			<probability>0.01</probability>		
 			<itemGUID>6e10e6c0-0ac4-4010-974c-56d57f1edd46</itemGUID>
 			<subItems> <!-- Bone_Arm_R-->
 				<itemGUID>5eab0171-d6d2-422e-b69a-3387f219652f</itemGUID>
@@ -19181,6 +20444,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_MaleOutfits>	
@@ -19209,7 +20478,7 @@
 			<itemGUID>5317283e-c343-4dca-9ae8-deb75be1c3ec</itemGUID>
 		</m_items>	
 		<m_items> <!-- Dismembered Bone_Arm_L -->
-			<probability>0.03</probability>		
+			<probability>0.01</probability>		
 			<itemGUID>6e10e6c0-0ac4-4010-974c-56d57f1edd46</itemGUID>
 			<subItems> <!-- Bone_Arm_R-->
 				<itemGUID>5eab0171-d6d2-422e-b69a-3387f219652f</itemGUID>
@@ -19231,6 +20500,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_MaleOutfits>
@@ -19255,7 +20530,7 @@
 				<itemGUID>9150e7da-a78d-4988-a799-e06bff2dae4a</itemGUID>
 		</m_items>
 		<m_items> <!-- Dismembered Bone_Arm_L -->
-			<probability>0.03</probability>		
+			<probability>0.01</probability>		
 			<itemGUID>6e10e6c0-0ac4-4010-974c-56d57f1edd46</itemGUID>
 			<subItems> <!-- Bone_Arm_R-->
 				<itemGUID>5eab0171-d6d2-422e-b69a-3387f219652f</itemGUID>
@@ -19277,6 +20552,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_MaleOutfits>	
@@ -19312,7 +20593,7 @@
 			<itemGUID>582f29b1-29b3-468c-87fe-263b043e1443</itemGUID>
 		</m_items>
 		<m_items> <!-- Dismembered Bone_Arm_L -->
-			<probability>0.03</probability>		
+			<probability>0.01</probability>		
 			<itemGUID>6e10e6c0-0ac4-4010-974c-56d57f1edd46</itemGUID>
 			<subItems> <!-- Bone_Arm_R-->
 				<itemGUID>5eab0171-d6d2-422e-b69a-3387f219652f</itemGUID>
@@ -19334,6 +20615,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_MaleOutfits>	
@@ -19369,7 +20656,7 @@
 			<itemGUID>582f29b1-29b3-468c-87fe-263b043e1443</itemGUID>
 		</m_items>
 		<m_items> <!-- Dismembered Bone_Arm_L -->
-			<probability>0.03</probability>		
+			<probability>0.01</probability>		
 			<itemGUID>6e10e6c0-0ac4-4010-974c-56d57f1edd46</itemGUID>
 			<subItems> <!-- Bone_Arm_R-->
 				<itemGUID>5eab0171-d6d2-422e-b69a-3387f219652f</itemGUID>
@@ -19391,6 +20678,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_FemaleOutfits>	
@@ -19431,7 +20724,7 @@
 			<itemGUID>9c87b588-b784-4560-bada-fd4cf7e44d48</itemGUID>
 		</m_items>
 		<m_items> <!-- Dismembered Bone_Arm_L -->
-			<probability>0.03</probability>		
+			<probability>0.01</probability>		
 			<itemGUID>6e10e6c0-0ac4-4010-974c-56d57f1edd46</itemGUID>
 			<subItems> <!-- Bone_Arm_R-->
 				<itemGUID>5eab0171-d6d2-422e-b69a-3387f219652f</itemGUID>
@@ -19453,6 +20746,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_MaleOutfits>
@@ -19484,7 +20783,7 @@
 			<itemGUID>9c87b588-b784-4560-bada-fd4cf7e44d48</itemGUID>
 		</m_items>
 		<m_items> <!-- Dismembered Bone_Arm_L -->
-			<probability>0.03</probability>		
+			<probability>0.01</probability>		
 			<itemGUID>6e10e6c0-0ac4-4010-974c-56d57f1edd46</itemGUID>
 			<subItems> <!-- Bone_Arm_R-->
 				<itemGUID>5eab0171-d6d2-422e-b69a-3387f219652f</itemGUID>
@@ -19506,10 +20805,16 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_MaleOutfits>
-
+	
 <m_MaleOutfits> <m_Name>AuthenticWichammer</m_Name>
 		<m_Guid>281221d2-7d49-4ced-a296-45d6fbb24c1b</m_Guid>
 		<m_Top>false</m_Top>
@@ -19556,6 +20861,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_MaleOutfits>
@@ -19621,7 +20932,7 @@
 			</subItems>
 		</m_items>
 		<m_items> <!-- Dismembered Bone_Arm_L -->
-			<probability>0.03</probability>		
+			<probability>0.01</probability>		
 			<itemGUID>6e10e6c0-0ac4-4010-974c-56d57f1edd46</itemGUID>
 			<subItems> <!-- Bone_Arm_R-->
 				<itemGUID>5eab0171-d6d2-422e-b69a-3387f219652f</itemGUID>
@@ -19643,6 +20954,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_MaleOutfits>
@@ -19703,6 +21020,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_MaleOutfits>		
@@ -19762,6 +21085,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_FemaleOutfits>	
@@ -19829,6 +21158,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>	
 	</m_FemaleOutfits>
@@ -19880,6 +21215,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_FemaleOutfits>	
@@ -19905,14 +21246,11 @@
 			<itemGUID>5574c07e-1381-49d8-a0ba-40e5b2cf55cd</itemGUID>
 		</m_items>			
 		<m_items> <!-- Schoolbag -->
-			<probability>0.4</probability>
+			<probability>0.5</probability>
 			<itemGUID>1bba5b1a-c6c6-4af7-ab69-43f583007159</itemGUID>
-			<subItems>  <!-- Bag_Satchel -->
+			<subItems>
 				<itemGUID>f8988b1c-04bb-4b9a-8656-851d324d2fd0</itemGUID>
 			</subItems>
-			<subItems> <!-- Packsport Backpack -->
-				<itemGUID>732a0feb-0e8b-4b3b-b007-ad69e3bc8a63</itemGUID>
-			</subItems>			
 		</m_items>
 		<m_items> <!-- Shoes Random-->
 			<itemGUID>7741404b-9689-4608-a0f5-4e06597776f9</itemGUID>
@@ -20020,6 +21358,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_FemaleOutfits>
@@ -20113,6 +21457,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_FemaleOutfits>
@@ -20209,6 +21559,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_MaleOutfits>
@@ -20241,15 +21597,12 @@
 				<itemGUID>8c80a404-dc1d-4b2a-a56a-8647f1f720a8</itemGUID>
 			</subItems>			
 		</m_items>
-		<m_items> <!-- Schoolbag -->
-			<probability>0.4</probability>
+		<m_items> <!-- Backpack -->
+			<probability>0.5</probability>
 			<itemGUID>1bba5b1a-c6c6-4af7-ab69-43f583007159</itemGUID>
-			<subItems>  <!-- Bag_Satchel -->
+			<subItems>
 				<itemGUID>f8988b1c-04bb-4b9a-8656-851d324d2fd0</itemGUID>
 			</subItems>
-			<subItems> <!-- Packsport Backpack -->
-				<itemGUID>732a0feb-0e8b-4b3b-b007-ad69e3bc8a63</itemGUID>
-			</subItems>			
 		</m_items>
 		<m_items> <!-- Shoes -->
 			<itemGUID>7741404b-9689-4608-a0f5-4e06597776f9</itemGUID>
@@ -20360,6 +21713,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 	</m_MaleOutfits>
@@ -20479,6 +21838,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_MaleOutfits> 
@@ -20671,6 +22036,12 @@
 			</subItems>	
 			<subItems> <!-- Bone_Stub_L -->
 				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
 </m_FemaleOutfits>
