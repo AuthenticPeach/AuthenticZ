@@ -97,7 +97,7 @@ module AuthenticZLite {
 		Icon					=	PlushSpiffo,
 		WorldStaticModel 		= 	SpiffoPlushie,
         AttachmentType  		= 	SpiffoPlushie,
-		StaticModel 			= 	SpiffoPlushie,		
+		StaticModel 			= 	SpiffoPlushieAZ,		
 	}
 	
     item SpiffoGrey

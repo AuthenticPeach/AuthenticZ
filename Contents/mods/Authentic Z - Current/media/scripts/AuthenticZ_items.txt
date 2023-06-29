@@ -110,7 +110,7 @@ module AuthenticZClothing {
 		Icon					=	PlushSpiffo,
 		WorldStaticModel 		= 	SpiffoPlushie,
         AttachmentType  		= 	SpiffoPlushie,
-		StaticModel 			= 	SpiffoPlushie,		
+		StaticModel 			= 	SpiffoPlushieAZ,		
 	}
 	
     item SpiffoGrey

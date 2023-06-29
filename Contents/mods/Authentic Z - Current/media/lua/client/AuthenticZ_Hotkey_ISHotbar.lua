@@ -31,6 +31,11 @@ bind.value = "[SlingBindings]";
 table.insert(keyBinding, bind);
 
 bind = {};
+bind.value = "Hotbar 5";
+bind.key = Keyboard.KEY_5;
+table.insert(keyBinding, bind);
+
+bind = {};
 bind.value = "Hotbar 6";
 bind.key = Keyboard.KEY_6;
 table.insert(keyBinding, bind);

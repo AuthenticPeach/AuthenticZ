@@ -24,6 +24,7 @@ module AuthenticZClothing{
         ReplaceInSecondHand  	= 	Bag_Schoolbag_LHand holdingbagleft,
         ReplaceInPrimaryHand 	= 	Bag_Schoolbag_RHand holdingbagright,
         WorldStaticModel 	 	= 	SchoolBag_Ground,
+				OBSOLETE			=	TRUE,
     }
 
 	item Bag_Schoolbag_Tier_2
@@ -47,6 +48,7 @@ module AuthenticZClothing{
         ReplaceInSecondHand  	= 	Bag_Schoolbag_LHand holdingbagleft,
         ReplaceInPrimaryHand 	= 	Bag_Schoolbag_RHand holdingbagright,
         WorldStaticModel 	 	= 	SchoolBag_Ground,
+				OBSOLETE			=	TRUE,
     }
 
 	item Bag_Schoolbag_Tier_3
@@ -70,6 +72,7 @@ module AuthenticZClothing{
         ReplaceInSecondHand  	= 	Bag_Schoolbag_LHand holdingbagleft,
         ReplaceInPrimaryHand 	= 	Bag_Schoolbag_RHand holdingbagright,
         WorldStaticModel 	 	= 	SchoolBag_Ground,
+				OBSOLETE			=	TRUE,
     }
 	item Bag_SchoolBagNBH_Tier_1
     {
@@ -92,6 +95,7 @@ module AuthenticZClothing{
         ReplaceInSecondHand 	= 	Bag_SchoolBagNBH_LHand holdingbagleft,
         ReplaceInPrimaryHand	= 	Bag_SchoolBagNBH_RHand holdingbagright,
         WorldStaticModel 	 	= 	SchoolBag_Ground,
+				OBSOLETE			=	TRUE,
     }
 
 	item Bag_SchoolBagNBH_Tier_2
@@ -115,6 +119,7 @@ module AuthenticZClothing{
         ReplaceInSecondHand 	= 	Bag_SchoolBagNBH_LHand holdingbagleft,
         ReplaceInPrimaryHand 	= 	Bag_SchoolBagNBH_RHand holdingbagright,
         WorldStaticModel 	 	= 	SchoolBag_Ground,
+				OBSOLETE			=	TRUE,
     }
 
 	item Bag_SchoolBagNBH_Tier_3
@@ -138,6 +143,7 @@ module AuthenticZClothing{
         ReplaceInSecondHand 	= 	Bag_SchoolBagNBH_LHand holdingbagleft,
         ReplaceInPrimaryHand 	= 	Bag_SchoolBagNBH_RHand holdingbagright,
         WorldStaticModel 	 	= 	SchoolBag_Ground,
+				OBSOLETE			=	TRUE,
     }	
 	item Bag_SchoolBagCEDA_Tier_1
     {
@@ -160,6 +166,7 @@ module AuthenticZClothing{
         ReplaceInSecondHand 	= 	Bag_SchoolBagCEDA_LHand holdingbagleft,
         ReplaceInPrimaryHand	= 	Bag_SchoolBagCEDA_RHand holdingbagright,
         WorldStaticModel 	 	= 	SchoolBag_Ground,
+				OBSOLETE			=	TRUE,
     }
 
 	item Bag_SchoolBagCEDA_Tier_2
@@ -183,6 +190,7 @@ module AuthenticZClothing{
         ReplaceInSecondHand 	= 	Bag_SchoolBagCEDA_LHand holdingbagleft,
         ReplaceInPrimaryHand 	= 	Bag_SchoolBagCEDA_RHand holdingbagright,
         WorldStaticModel 	 	= 	SchoolBag_Ground,
+				OBSOLETE			=	TRUE,
     }
 
 	item Bag_SchoolBagCEDA_Tier_3
@@ -206,6 +214,7 @@ module AuthenticZClothing{
         ReplaceInSecondHand 	= 	Bag_SchoolBagCEDA_LHand holdingbagleft,
         ReplaceInPrimaryHand 	= 	Bag_SchoolBagCEDA_RHand holdingbagright,
         WorldStaticModel 	 	= 	SchoolBag_Ground,
+				OBSOLETE			=	TRUE,
     }
 	item Bag_SchoolBagCEDABlack_Tier_1
     {
@@ -228,6 +237,7 @@ module AuthenticZClothing{
         ReplaceInSecondHand 	= 	Bag_SchoolBagCEDABlack_LHand holdingbagleft,
         ReplaceInPrimaryHand 	= 	Bag_SchoolBagCEDABlack_RHand holdingbagright,
         WorldStaticModel 	 	= 	SchoolBag_Ground,
+				OBSOLETE			=	TRUE,
     }
 
 	item Bag_SchoolBagCEDABlack_Tier_2
@@ -251,6 +261,7 @@ module AuthenticZClothing{
         ReplaceInSecondHand 	= 	Bag_SchoolBagCEDABlack_LHand holdingbagleft,
         ReplaceInPrimaryHand 	= 	Bag_SchoolBagCEDABlack_RHand holdingbagright,
         WorldStaticModel 	 	= 	SchoolBag_Ground,
+				OBSOLETE			=	TRUE,
     }
 
 	item Bag_SchoolBagCEDABlack_Tier_3
@@ -274,6 +285,7 @@ module AuthenticZClothing{
         ReplaceInSecondHand 	= 	Bag_SchoolBagCEDABlack_LHand holdingbagleft,
         ReplaceInPrimaryHand 	= 	Bag_SchoolBagCEDABlack_RHand holdingbagright,
         WorldStaticModel 	 	= 	SchoolBag_Ground,
+				OBSOLETE			=	TRUE,
     }
 	item Bag_SchoolBagCEDARed_Tier_1
     {
@@ -296,6 +308,7 @@ module AuthenticZClothing{
         ReplaceInSecondHand 	= 	Bag_SchoolBagCEDARed_LHand holdingbagleft,
         ReplaceInPrimaryHand 	= 	Bag_SchoolBagCEDARed_RHand holdingbagright,
         WorldStaticModel 	 	= 	SchoolBag_Ground,
+				OBSOLETE			=	TRUE,
     }
 
 	item Bag_SchoolBagCEDARed_Tier_2
@@ -319,6 +332,7 @@ module AuthenticZClothing{
         ReplaceInSecondHand 	= 	Bag_SchoolBagCEDARed_LHand holdingbagleft,
         ReplaceInPrimaryHand 	= 	Bag_SchoolBagCEDARed_RHand holdingbagright,
         WorldStaticModel 	 	= 	SchoolBag_Ground,
+				OBSOLETE			=	TRUE,
     }
 
 	item Bag_SchoolBagCEDARed_Tier_3
@@ -342,6 +356,7 @@ module AuthenticZClothing{
         ReplaceInSecondHand 	= 	Bag_SchoolBagCEDARed_LHand holdingbagleft,
         ReplaceInPrimaryHand 	= 	Bag_SchoolBagCEDARed_RHand holdingbagright,
         WorldStaticModel 	 	= 	SchoolBag_Ground,
+				OBSOLETE			=	TRUE,
     }
 
 	item Bag_SchoolBagCEDABlue_Tier_1
@@ -365,6 +380,7 @@ module AuthenticZClothing{
         ReplaceInSecondHand 	= 	Bag_SchoolBagCEDABlue_LHand holdingbagleft,
         ReplaceInPrimaryHand 	= 	Bag_SchoolBagCEDABlue_RHand holdingbagright,
         WorldStaticModel 	 	= 	SchoolBag_Ground,
+				OBSOLETE			=	TRUE,
     }
 
 	item Bag_SchoolBagCEDABlue_Tier_2
@@ -388,6 +404,7 @@ module AuthenticZClothing{
         ReplaceInSecondHand 	= 	Bag_SchoolBagCEDABlue_LHand holdingbagleft,
         ReplaceInPrimaryHand 	= 	Bag_SchoolBagCEDABlue_RHand holdingbagright,
         WorldStaticModel 	 	= 	SchoolBag_Ground,
+				OBSOLETE			=	TRUE,
     }
 
 	item Bag_SchoolBagCEDABlue_Tier_3
@@ -411,6 +428,7 @@ module AuthenticZClothing{
         ReplaceInSecondHand 	= 	Bag_SchoolBagCEDABlue_LHand  ,
         ReplaceInPrimaryHand 	= 	Bag_SchoolBagCEDABlue_RHand holdingbagright,
         WorldStaticModel 	 	= 	SchoolBag_Ground,
+				OBSOLETE			=	TRUE,
     }	
 
     item Bag_DuffelBag_Tier_1
@@ -434,6 +452,7 @@ module AuthenticZClothing{
         ReplaceInSecondHand 	= 	Bag_DuffelBag_LHand holdingbagleft,
         ReplaceInPrimaryHand 	= 	Bag_DuffelBag_RHand holdingbagright,
         WorldStaticModel 		= 	DuffelBag_Ground,
+				OBSOLETE			=	TRUE,
     }	
     item Bag_DuffelBag_Tier_2
     {
@@ -456,6 +475,7 @@ module AuthenticZClothing{
         ReplaceInSecondHand 	= 	Bag_DuffelBag_LHand holdingbagleft,
         ReplaceInPrimaryHand 	= 	Bag_DuffelBag_RHand holdingbagright,
         WorldStaticModel 		= 	DuffelBag_Ground,
+				OBSOLETE			=	TRUE,
     }
     item Bag_DuffelBag_Tier_3
     {
@@ -478,6 +498,7 @@ module AuthenticZClothing{
         ReplaceInSecondHand 	= 	Bag_DuffelBag_LHand holdingbagleft,
         ReplaceInPrimaryHand 	= 	Bag_DuffelBag_RHand holdingbagright,
         WorldStaticModel 		= 	DuffelBag_Ground,
+				OBSOLETE			=	TRUE,
     }
     item Bag_DuffelBagTINT_Tier_1
     {
@@ -500,6 +521,7 @@ module AuthenticZClothing{
         ReplaceInSecondHand 	= 	Bag_DuffelBag_LHandTINT holdingbagleft,
         ReplaceInPrimaryHand 	= 	Bag_DuffelBag_RHandTINT holdingbagright,
         WorldStaticModel 		= 	DuffelBag_Ground,
+				OBSOLETE			=	TRUE,
     }	
     item Bag_DuffelBagTINT_Tier_2
     {
@@ -522,6 +544,7 @@ module AuthenticZClothing{
         ReplaceInSecondHand 	= 	Bag_DuffelBag_LHandTINT holdingbagleft,
         ReplaceInPrimaryHand 	= 	Bag_DuffelBag_RHandTINT holdingbagright,
         WorldStaticModel 		= 	DuffelBag_Ground,
+				OBSOLETE			=	TRUE,
     }
     item Bag_DuffelBagTINT_Tier_3
     {
@@ -544,6 +567,7 @@ module AuthenticZClothing{
         ReplaceInSecondHand 	= 	Bag_DuffelBag_LHandTINT holdingbagleft,
         ReplaceInPrimaryHand 	= 	Bag_DuffelBag_RHandTINT holdingbagright,
         WorldStaticModel 		= 	DuffelBag_Ground,
+				OBSOLETE			=	TRUE,
     }	
     item Bag_DuffelBagGrey_Tier_1 /* Grey Duffles*/
     {
@@ -566,6 +590,7 @@ module AuthenticZClothing{
         ReplaceInSecondHand 	= 	Bag_DuffelBag_LHandTINT holdingbagleft,
         ReplaceInPrimaryHand 	= 	Bag_DuffelBag_RHandTINT holdingbagright,
         WorldStaticModel 		= 	DuffelBag_Ground,
+				OBSOLETE			=	TRUE,
     }	
     item Bag_DuffelBagGrey_Tier_2 /* Grey Duffles*/
     {
@@ -588,6 +613,7 @@ module AuthenticZClothing{
         ReplaceInSecondHand 	= 	Bag_DuffelBag_LHandTINT holdingbagleft,
         ReplaceInPrimaryHand 	= 	Bag_DuffelBag_RHandTINT holdingbagright,
         WorldStaticModel 		= 	DuffelBag_Ground,
+				OBSOLETE			=	TRUE,
     }
     item Bag_DuffelBagGrey_Tier_3 /* Grey Duffles*/
     {
@@ -610,6 +636,7 @@ module AuthenticZClothing{
         ReplaceInSecondHand 	= 	Bag_DuffelBag_LHandTINT holdingbagleft,
         ReplaceInPrimaryHand 	= 	Bag_DuffelBag_RHandTINT holdingbagright,
         WorldStaticModel 		= 	DuffelBag_Ground,
+				OBSOLETE			=	TRUE,
     }	
     item Bag_NormalHikingBag_Tier_1
     {
@@ -632,6 +659,7 @@ module AuthenticZClothing{
         ReplaceInSecondHand 	= 	Bag_HikingBag_LHand holdingbagleft,
         ReplaceInPrimaryHand 	= 	Bag_HikingBag_RHand holdingbagright,
         WorldStaticModel 		= 	HikingBag_Ground,
+				OBSOLETE			=	TRUE,
     }
 	
     item Bag_NormalHikingBag_Tier_2
@@ -655,6 +683,7 @@ module AuthenticZClothing{
         ReplaceInSecondHand 	= 	Bag_HikingBag_LHand holdingbagleft,
         ReplaceInPrimaryHand 	= 	Bag_HikingBag_RHand holdingbagright,
         WorldStaticModel 		= 	HikingBag_Ground,
+				OBSOLETE			=	TRUE,
     }	
  
     item Bag_NormalHikingBag_Tier_3
@@ -678,6 +707,7 @@ module AuthenticZClothing{
         ReplaceInSecondHand 	= 	Bag_HikingBag_LHand holdingbagleft,
         ReplaceInPrimaryHand 	= 	Bag_HikingBag_RHand holdingbagright,
         WorldStaticModel 		= 	HikingBag_Ground,
+				OBSOLETE			=	TRUE,
     }	
   
     item Bag_BigHikingBag_Tier_1
@@ -701,6 +731,7 @@ module AuthenticZClothing{
         ReplaceInSecondHand 	= 	Bag_HikingBag_LHand holdingbagleft,
         ReplaceInPrimaryHand 	= 	Bag_HikingBag_RHand holdingbagright,
         WorldStaticModel 		= 	HikingBag_Ground,
+				OBSOLETE			=	TRUE,
     }
 	
     item Bag_BigHikingBag_Tier_2
@@ -724,6 +755,7 @@ module AuthenticZClothing{
         ReplaceInSecondHand 	= 	Bag_HikingBag_LHand holdingbagleft,
         ReplaceInPrimaryHand 	= 	Bag_HikingBag_RHand holdingbagright,
         WorldStaticModel 		= 	HikingBag_Ground,
+				OBSOLETE			=	TRUE,
     }	
  
     item Bag_BigHikingBag_Tier_3
@@ -747,6 +779,7 @@ module AuthenticZClothing{
         ReplaceInSecondHand 	= 	Bag_HikingBag_LHand holdingbagleft,
         ReplaceInPrimaryHand 	= 	Bag_HikingBag_RHand holdingbagright,
         WorldStaticModel 		= 	HikingBag_Ground,
+				OBSOLETE			=	TRUE,
     }
 
     item Bag_ALICEpack_Tier_1
@@ -770,6 +803,7 @@ module AuthenticZClothing{
         ReplaceInSecondHand 	= 	Bag_ALICEpack_LHand holdingbagleft,
         ReplaceInPrimaryHand 	= 	Bag_ALICEpack_RHand holdingbagright,
         WorldStaticModel 		= 	ALICE_Pack_Ground,
+				OBSOLETE			=	TRUE,
     }
 	
     item Bag_ALICEpack_Tier_2
@@ -793,6 +827,7 @@ module AuthenticZClothing{
         ReplaceInSecondHand 	= 	Bag_ALICEpack_LHand holdingbagleft,
         ReplaceInPrimaryHand 	= 	Bag_ALICEpack_RHand holdingbagright,
         WorldStaticModel 		= 	ALICE_Pack_Ground,
+				OBSOLETE			=	TRUE,
     }	
  
     item Bag_ALICEpack_Tier_3
@@ -816,6 +851,7 @@ module AuthenticZClothing{
         ReplaceInSecondHand 	= 	Bag_ALICEpack_LHand holdingbagleft,
         ReplaceInPrimaryHand 	= 	Bag_ALICEpack_RHand holdingbagright,
         WorldStaticModel 		= 	ALICE_Pack_Ground,
+				OBSOLETE			=	TRUE,
     }
 
     item Bag_ALICEpack_Army_Tier_1
@@ -839,6 +875,7 @@ module AuthenticZClothing{
         ReplaceInSecondHand 	= 	Bag_ALICEpack_Army_LHand holdingbagleft,
         ReplaceInPrimaryHand 	= 	Bag_ALICEpack_Army_RHand holdingbagright,
         WorldStaticModel 		= 	ALICE_Pack_Ground,
+				OBSOLETE			=	TRUE,
     }
 	
     item Bag_ALICEpack_Army_Tier_2
@@ -862,6 +899,7 @@ module AuthenticZClothing{
         ReplaceInSecondHand 	= 	Bag_ALICEpack_Army_LHand holdingbagleft,
         ReplaceInPrimaryHand 	= 	Bag_ALICEpack_Army_RHand holdingbagright,
         WorldStaticModel 		= 	ALICE_Pack_Ground,
+				OBSOLETE			=	TRUE,
     }	
  
     item Bag_ALICEpack_Army_Tier_3
@@ -885,6 +923,7 @@ module AuthenticZClothing{
         ReplaceInSecondHand 	= 	Bag_ALICEpack_Army_LHand holdingbagleft,
         ReplaceInPrimaryHand 	= 	Bag_ALICEpack_Army_RHand holdingbagright,
         WorldStaticModel 		= 	ALICE_Pack_Ground,
+				OBSOLETE			=	TRUE,
     }
 
     item Bag_ALICEpack_UrbanCamo_Tier_1
@@ -908,6 +947,7 @@ module AuthenticZClothing{
         ReplaceInSecondHand 	= 	Bag_ALICEpack_Army_LHand holdingbagleft,
         ReplaceInPrimaryHand 	= 	Bag_ALICEpack_Army_RHand holdingbagright,
         WorldStaticModel 		= 	ALICE_Pack_Ground,
+				OBSOLETE			=	TRUE,
     }
 	
     item Bag_ALICEpack_UrbanCamo_Tier_2
@@ -931,6 +971,7 @@ module AuthenticZClothing{
         ReplaceInSecondHand 	= 	Bag_ALICEpack_Army_LHand holdingbagleft,
         ReplaceInPrimaryHand 	= 	Bag_ALICEpack_Army_RHand holdingbagright,
         WorldStaticModel 		= 	ALICE_Pack_Ground,
+				OBSOLETE			=	TRUE,
     }	
  
     item Bag_ALICEpack_UrbanCamo_Tier_3
@@ -954,6 +995,7 @@ module AuthenticZClothing{
         ReplaceInSecondHand 	= 	Bag_ALICEpack_Army_LHand holdingbagleft,
         ReplaceInPrimaryHand 	= 	Bag_ALICEpack_Army_RHand holdingbagright,
         WorldStaticModel 		= 	ALICE_Pack_Ground,
+				OBSOLETE			=	TRUE,
     }
 
    item Bag_ALICEpack_Festive_Tier_1
@@ -977,6 +1019,7 @@ module AuthenticZClothing{
         ReplaceInSecondHand 	= 	Bag_ALICEpack_Festive_LHand holdingbagleft,
         ReplaceInPrimaryHand 	= 	Bag_ALICEpack_Festive_RHand holdingbagright,
         WorldStaticModel 		= 	ALICE_Pack_Ground,
+				OBSOLETE			=	TRUE,
     }
 	
     item Bag_ALICEpack_Festive_Tier_2
@@ -1000,6 +1043,7 @@ module AuthenticZClothing{
         ReplaceInSecondHand 	= 	Bag_ALICEpack_Festive_LHand holdingbagleft,
         ReplaceInPrimaryHand 	= 	Bag_ALICEpack_Festive_RHand holdingbagright,
         WorldStaticModel 		= 	ALICE_Pack_Ground,
+				OBSOLETE			=	TRUE,
     }	
  
     item Bag_ALICEpack_Festive_Tier_3
@@ -1023,6 +1067,7 @@ module AuthenticZClothing{
         ReplaceInSecondHand 	= 	Bag_ALICEpack_Festive_LHand holdingbagleft,
         ReplaceInPrimaryHand 	= 	Bag_ALICEpack_Festive_RHand holdingbagright,
         WorldStaticModel 		= 	ALICE_Pack_Ground,
+				OBSOLETE			=	TRUE,
     }
 
 	item Handbag_Secondary
@@ -1042,7 +1087,8 @@ module AuthenticZClothing{
         ReplaceInPrimaryHand 	= 	Bag_Handbag_RHand holdingbagright,
         WorldStaticModel 		= 	Handbag_Ground,
         AttachmentType  		= 	Handbag,
-		StaticModel 			= 	Handbag_Ground,		
+		StaticModel 			= 	Handbag_Ground,	
+				OBSOLETE			=	TRUE,
 	}
     item Plasticbag_Secondary
     {
@@ -1058,6 +1104,7 @@ module AuthenticZClothing{
         WorldStaticModel 		= 	PlasticBag_Ground,
         AttachmentType  		= 	Plasticbag,	
 		StaticModel 			= 	PlasticBag_Ground,
+				OBSOLETE			=	TRUE,
     }
 	item Garbagebag_Secondary
     {
@@ -1072,7 +1119,8 @@ module AuthenticZClothing{
         ReplaceInPrimaryHand 	= 	Bag_Garbagebag_RHand holdingbagright,
         WorldStaticModel 		= 	GarbageBag_Ground,
         AttachmentType  		= 	Garbagebag,
-		StaticModel 			= 	GarbageBag_Ground,		
+		StaticModel 			= 	GarbageBag_Ground,
+		OBSOLETE			=	TRUE,		
     }
 	item Purse_Secondary
     {
@@ -1091,7 +1139,8 @@ module AuthenticZClothing{
         ReplaceInPrimaryHand 	= 	Bag_Purse_RHand holdingbagright,
         WorldStaticModel 		= 	Purse_Ground,
         AttachmentType  		= 	Purse,
-		StaticModel 			= 	Purse_Ground,		
+		StaticModel 			= 	Purse_Ground,
+				OBSOLETE			=	TRUE,
     }
 	item Tote_Secondary
 	{
@@ -1109,7 +1158,8 @@ module AuthenticZClothing{
         ReplaceInPrimaryHand 	= 	Bag_Tote_RHand holdingbagright,
         WorldStaticModel 		= 	TotesBag_Ground,
         AttachmentType  		= 	Totebag,		
-		StaticModel 			= 	TotesBag_Ground,		
+		StaticModel 			= 	TotesBag_Ground,
+		OBSOLETE			=	TRUE,		
 	}
 	item EmptySandbag_Secondary
     {
@@ -1125,7 +1175,8 @@ module AuthenticZClothing{
         ReplaceInPrimaryHand 	= 	Bag_Sandbag_RHand holdingbagright,
         AttachmentType  		= 	EmptySandbag,		
         WorldStaticModel 		= 	SandBag_Ground,
-		StaticModel 			= 	SandBag_Ground,		
+		StaticModel 			= 	SandBag_Ground,	
+				OBSOLETE			=	TRUE,
     }
     item SeedBag_Secondary
 	{
@@ -1142,7 +1193,8 @@ module AuthenticZClothing{
 		SurvivalGear = TRUE,
         AttachmentType  		= 	Seedbag,		
 		WorldStaticModel = SeedBag,
-		StaticModel 	= 	SeedBag,			
+		StaticModel 	= 	SeedBag,	
+		OBSOLETE			=	TRUE,		
 	}	
     item Toolbox_Secondary
 	{
@@ -1161,7 +1213,8 @@ module AuthenticZClothing{
         ReplaceInPrimaryHand	= 	Bag_Toolbox_RHand holdingbagright,
         AttachmentType  		= 	Toolbox,		
         WorldStaticModel		= 	ToolBox_Ground,
-		StaticModel 			= 	ToolBox_Ground,		
+		StaticModel 			= 	ToolBox_Ground,	
+				OBSOLETE			=	TRUE,
 	}
     item FirstAidKit_Secondary
     {
@@ -1181,7 +1234,8 @@ module AuthenticZClothing{
         ReplaceInPrimaryHand 	= 	Bag_FirstAidKit_RHand holdingbagright,
         AttachmentType  		= 	FirstAidKit,			
         WorldStaticModel 		= 	LunchBoxMedic_Ground,
-		StaticModel 			= 	LunchBoxMedic_Ground,		
+		StaticModel 			= 	LunchBoxMedic_Ground,
+		OBSOLETE			=	TRUE,		
     }
     item Lunchbox_Secondary
     {
@@ -1200,7 +1254,8 @@ module AuthenticZClothing{
         ReplaceInPrimaryHand 	= 	Bag_Lunchbox_RHand holdingbagright,
         AttachmentType  		= 	Lunchbox,			
         WorldStaticModel 		= 	LunchBox_Ground,
-		StaticModel 			= 	LunchBox_Ground,		
+		StaticModel 			= 	LunchBox_Ground,	
+		OBSOLETE			=	TRUE,		
     }
     item Lunchbox2_Secondary
     {
@@ -1217,6 +1272,7 @@ module AuthenticZClothing{
         AttachmentType  		= 	Lunchbox,			
         WorldStaticModel 		= 	LunchBox2_Ground,
 		StaticModel 			= 	LunchBox2_Ground,
+				OBSOLETE			=	TRUE,
     }
     item PistolCase_Secondary
     {
@@ -1234,6 +1290,7 @@ module AuthenticZClothing{
         AttachmentType  		= 	PistolCase,			
         WorldStaticModel 		= 	GunCase_Ground,
 		StaticModel 			= 	GunCase_Ground,
+		OBSOLETE			=	TRUE,		
     }
 	item Bag_B4BMom_Tier_1
     {
@@ -1256,6 +1313,7 @@ module AuthenticZClothing{
         ReplaceInSecondHand 	= 	Bag_B4BMom_LHand holdingbagleft,
         ReplaceInPrimaryHand	= 	Bag_B4BMom_RHand holdingbagright,
         WorldStaticModel 		= 	WorldItem_BackpackMom,
+		OBSOLETE			=	TRUE,		
     }
 
 	item Bag_B4BMom_Tier_2
@@ -1279,6 +1337,7 @@ module AuthenticZClothing{
         ReplaceInSecondHand 	= 	Bag_B4BMom_LHand holdingbagleft,
         ReplaceInPrimaryHand	= 	Bag_B4BMom_RHand holdingbagright,
         WorldStaticModel 		= 	WorldItem_BackpackMom,
+		OBSOLETE				=	TRUE,		
     }
 
 	item Bag_B4BMom_Tier_3
@@ -1302,7 +1361,8 @@ module AuthenticZClothing{
         ReplaceInSecondHand 	= 	Bag_B4BMom_LHand holdingbagleft,
         ReplaceInPrimaryHand	= 	Bag_B4BMom_RHand holdingbagright,
         WorldStaticModel 		= 	WorldItem_BackpackMom,
-    }	
+		OBSOLETE				=	TRUE,		
+    }		
 
     item Bag_B4BHolly_Tier_1
     {
@@ -1325,6 +1385,7 @@ module AuthenticZClothing{
         ReplaceInSecondHand 	= 	Bag_B4BHolly_LHand holdingbagleft,
         ReplaceInPrimaryHand	= 	Bag_B4BHolly_RHand holdingbagright,
         WorldStaticModel 		= 	WorldItem_BackpackHolly,
+		OBSOLETE				=	TRUE,		
     }
 	
     item Bag_B4BHolly_Tier_2
@@ -1348,6 +1409,7 @@ module AuthenticZClothing{
         ReplaceInSecondHand 	= 	Bag_B4BHolly_LHand holdingbagleft,
         ReplaceInPrimaryHand	= 	Bag_B4BHolly_RHand holdingbagright,
         WorldStaticModel 		=	WorldItem_BackpackHolly,
+		OBSOLETE			=	TRUE,		
     }	
  
     item Bag_B4BHolly_Tier_3
@@ -1371,6 +1433,7 @@ module AuthenticZClothing{
         ReplaceInSecondHand 	= 	Bag_B4BHolly_LHand holdingbagleft,
         ReplaceInPrimaryHand	=	Bag_B4BHolly_RHand holdingbagright,
         WorldStaticModel 		= 	WorldItem_BackpackHolly,
+		OBSOLETE				=	TRUE,		
     }	
 
     item Bag_B4BHoffman_Tier_1
@@ -1394,6 +1457,7 @@ module AuthenticZClothing{
         ReplaceInSecondHand 	= 	Bag_B4BHoffman_LHand holdingbagleft,
         ReplaceInPrimaryHand	= 	Bag_B4BHoffman_RHand holdingbagright,
         WorldStaticModel 		= 	WorldItem_BackpackHoffman,
+		OBSOLETE			=	TRUE,
     }
 	
     item Bag_B4BHoffman_Tier_2
@@ -1417,6 +1481,7 @@ module AuthenticZClothing{
         ReplaceInSecondHand 	= 	Bag_B4BHoffman_LHand holdingbagleft,
         ReplaceInPrimaryHand	= 	Bag_B4BHoffman_RHand holdingbagright,
         WorldStaticModel 		=	WorldItem_BackpackHoffman,
+		OBSOLETE			=	TRUE,		
     }	
  
     item Bag_B4BHoffman_Tier_3
@@ -1439,6 +1504,7 @@ module AuthenticZClothing{
 		AttachmentsProvided  	= 	SchoolbagBagSecondary;SchoolbagItemSlot2;SchoolbagItemSlot3;SchoolbagBottleRight;SchoolbagPlushie;SchoolbagUmbrellaLeft;SchoolbagFlashlight;SchoolbagBalloonRight,	        ReplaceInSecondHand 	= 	Bag_B4BHoffman_LHand holdingbagleft,
         ReplaceInPrimaryHand	=	Bag_B4BHoffman_RHand holdingbagright,
         WorldStaticModel 		= 	WorldItem_BackpackHoffman,
+		OBSOLETE			=	TRUE,		
     }	
 	
     item Bag_B4BEvangelo_Tier_1
@@ -1462,6 +1528,7 @@ module AuthenticZClothing{
         ReplaceInSecondHand 	= 	Bag_B4BEvangelo_LHand holdingbagleft,
         ReplaceInPrimaryHand	= 	Bag_B4BEvangelo_RHand holdingbagright,
         WorldStaticModel 		= 	WorldItem_BackpackEvangelo,
+		OBSOLETE			=	TRUE,		
     }
 	
     item Bag_B4BEvangelo_Tier_2
@@ -1485,6 +1552,7 @@ module AuthenticZClothing{
         ReplaceInSecondHand 	= 	Bag_B4BEvangelo_LHand holdingbagleft,
         ReplaceInPrimaryHand	= 	Bag_B4BEvangelo_RHand holdingbagright,
         WorldStaticModel 		=	WorldItem_BackpackEvangelo,
+		OBSOLETE			=	TRUE,		
     }	
  
     item Bag_B4BEvangelo_Tier_3
@@ -1507,6 +1575,7 @@ module AuthenticZClothing{
 		AttachmentsProvided  	= 	SchoolbagBagSecondary;SchoolbagItemSlot2;SchoolbagItemSlot3;SchoolbagBottleRight;SchoolbagPlushie;SchoolbagUmbrellaLeft;SchoolbagFlashlight;SchoolbagBalloonRight,	        ReplaceInSecondHand 	= 	Bag_B4BEvangelo_LHand holdingbagleft,
         ReplaceInPrimaryHand	=	Bag_B4BEvangelo_RHand holdingbagright,
         WorldStaticModel 		= 	WorldItem_BackpackEvangelo,
+		OBSOLETE			=	TRUE,		
     }	
 
 	item Bag_B4BWalker_Tier_1

@@ -31,7 +31,7 @@ module AuthenticZClothing {
         Weight			=	15.0,
         Type			=	Normal,
         DisplayName		=	Costume Store Sign,
-        Icon			=	StoreSignCostume
+        Icon			=	StoreSignCostume,
         OBSOLETE = TRUE,			
 	}
 	
@@ -291,33 +291,19 @@ module AuthenticZClothing {
 	item AuthenticGlowstick_Purple_On
     {
         Type					=	Drainable,
-		UseWhileUnequipped  	=   TRUE,
-		UseDelta				=	0.0002,
-		ReplaceOnDeplete		=	AuthenticGlowstick_Blank,
         DisplayName				=	Purple Glowstick (Activated),
         Icon					=	Glowstick-Purple,
-        Weight					=	0.2,
-        primaryAnimMask 		= 	HoldingUmbrellaRight,
-        secondaryAnimMask 		= 	HoldingUmbrellaLeft,
-        StaticModel 			= 	AuthenticGlowstickPurple,
-		WorldStaticModel 		= 	WorldItem-AuthenticGlowstickPurple,			
-		AttachmentType 			= 	Hammer,
+        Weight					=	0.2,,
+		OBSOLETE 				= 	TRUE,		
     }
 	
 	item AuthenticGlowstick_Yellow_On
     {
         Type					=	Drainable,
-		UseWhileUnequipped  	=   TRUE,
-		UseDelta				=	0.0002,
-		ReplaceOnDeplete		=	AuthenticGlowstick_Blank,
         DisplayName				=	Yellow Glowstick (Activated),
         Icon					=	Glowstick-Yellow,
         Weight					=	0.2,
-        primaryAnimMask 		= 	HoldingUmbrellaRight,
-        secondaryAnimMask 		= 	HoldingUmbrellaLeft,
-        StaticModel 			= 	AuthenticGlowstickYellow,
-		WorldStaticModel 		= 	WorldItem-AuthenticGlowstickYellow,			
-		AttachmentType 			= 	Hammer,
+		OBSOLETE 				= 	TRUE,		
     }
 
     item AuthenticGlowstick_Red
@@ -326,11 +312,7 @@ module AuthenticZClothing {
         DisplayName				=	Red Glowstick,
         Icon					=	Glowstick-Red,
         Weight					=	0.2,
-        primaryAnimMask 		= 	HoldingUmbrellaRight,
-        secondaryAnimMask 		= 	HoldingUmbrellaLeft,
-        StaticModel 			= 	AuthenticGlowstickRed,
-		WorldStaticModel 		= 	WorldItem-AuthenticGlowstickRed,			
-		AttachmentType 			= 	Hammer,
+		OBSOLETE 				= 	TRUE,		
     }
 	
     item AuthenticGlowstick_Blue
@@ -339,11 +321,7 @@ module AuthenticZClothing {
         DisplayName				=	Blue Glowstick,
         Icon					=	Glowstick-Blue,
         Weight					=	0.2,
-        primaryAnimMask 		= 	HoldingUmbrellaRight,
-        secondaryAnimMask 		= 	HoldingUmbrellaLeft,
-        StaticModel 			= 	AuthenticGlowstickBlue,
-		WorldStaticModel 		= 	WorldItem-AuthenticGlowstickBlue,			
-		AttachmentType 			= 	Hammer,
+		OBSOLETE 				= 	TRUE,		
     }	
 	
     item AuthenticGlowstick_Green
@@ -352,11 +330,7 @@ module AuthenticZClothing {
         DisplayName				=	Green Glowstick,
         Icon					=	Glowstick-Green,
         Weight					=	0.2,
-        primaryAnimMask 		= 	HoldingUmbrellaRight,
-        secondaryAnimMask 		= 	HoldingUmbrellaLeft,
-        StaticModel 			= 	AuthenticGlowstickGreen,
-		WorldStaticModel 		= 	WorldItem-AuthenticGlowstickGreen,			
-		AttachmentType 			= 	Hammer,
+		OBSOLETE 				= 	TRUE,
     }	
 
     item AuthenticGlowstick_Orange
@@ -365,11 +339,7 @@ module AuthenticZClothing {
         DisplayName				=	Orange Glowstick,
         Icon					=	Glowstick-Orange,
         Weight					=	0.2,
-        primaryAnimMask 		= 	HoldingUmbrellaRight,
-        secondaryAnimMask 		= 	HoldingUmbrellaLeft,
-        StaticModel 			= 	AuthenticGlowstickOrange,
-		WorldStaticModel 		= 	WorldItem-AuthenticGlowstickOrange,			
-		AttachmentType 			= 	Hammer,
+		OBSOLETE 				= 	TRUE,
     }
 
     item AuthenticGlowstick_Pink
@@ -378,11 +348,7 @@ module AuthenticZClothing {
         DisplayName				=	Pink Glowstick,
         Icon					=	Glowstick-Pink,
         Weight					=	0.2,
-        primaryAnimMask 		= 	HoldingUmbrellaRight,
-        secondaryAnimMask 		= 	HoldingUmbrellaLeft,
-        StaticModel 			= 	AuthenticGlowstickPink,
-		WorldStaticModel 		= 	WorldItem-AuthenticGlowstickPink,			
-		AttachmentType 			= 	Hammer,
+		OBSOLETE 				= 	TRUE,
     }
 
     item AuthenticGlowstick_Purple
@@ -391,11 +357,7 @@ module AuthenticZClothing {
         DisplayName				=	Purple Glowstick,
         Icon					=	Glowstick-Purple,
         Weight					=	0.2,
-        primaryAnimMask 		= 	HoldingUmbrellaRight,
-        secondaryAnimMask 		= 	HoldingUmbrellaLeft,
-        StaticModel 			= 	AuthenticGlowstickPurple,
-		WorldStaticModel 		= 	WorldItem-AuthenticGlowstickPurple,			
-		AttachmentType 			= 	Hammer,
+		OBSOLETE 				= 	TRUE,
     }
 
     item AuthenticGlowstick_Yellow
@@ -404,11 +366,7 @@ module AuthenticZClothing {
         DisplayName				=	Yellow Glowstick,
         Icon					=	Glowstick-Yellow,
         Weight					=	0.2,
-        primaryAnimMask 		= 	HoldingUmbrellaRight,
-        secondaryAnimMask 		= 	HoldingUmbrellaLeft,
-        StaticModel 			= 	AuthenticGlowstickYellow,
-		WorldStaticModel 		= 	WorldItem-AuthenticGlowstickYellow,			
-		AttachmentType 			= 	Hammer,
+		OBSOLETE 				= 	TRUE,
     }
 
     item AuthenticGlowstick_Blank
@@ -435,11 +393,7 @@ module AuthenticZClothing {
         DisplayName				=	Blue Balloon,
         Icon					=	Balloon_Blue,
         Weight					=	0.05,
-        primaryAnimMask 		= 	HoldingUmbrellaRight,
-        secondaryAnimMask 		= 	HoldingUmbrellaLeft,
-        StaticModel 			= 	AuthenticBalloonBlue,
-		WorldStaticModel 		= 	WorldItem-BalloonBlue,
-		AttachmentType 			= 	BalloonSlot,		
+		OBSOLETE 				= 	TRUE,		
     }
 
     item AuthenticBalloonGroup_Blue
@@ -448,653 +402,311 @@ module AuthenticZClothing {
         DisplayName				=	Group of Blue Balloons,
         Icon					=	Balloon_Blue,
         Weight					=	0.05,
-        primaryAnimMask 		= 	HoldingUmbrellaRight,
-        secondaryAnimMask 		= 	HoldingUmbrellaLeft,
-        StaticModel 			= 	AuthenticBalloon_Group_Blue,
-		WorldStaticModel 		= 	WorldItem-BalloonGroupBlue,			
-		AttachmentType 			= 	BalloonSlot,
+		OBSOLETE 				= 	TRUE,
     }
 
     item AuthenticBalloon_Green
     {
-		DisplayCategory 			= Household,	
         Type						=	Normal,
         DisplayName					=	Green Balloon,
         Icon						=	Balloon_Green,
         Weight						=	0.05,
-        primaryAnimMask 			= 	HoldingUmbrellaRight,
-        secondaryAnimMask 			= 	HoldingUmbrellaLeft,
-        StaticModel 				= 	AuthenticBalloonGreen,
-		AttachmentType  			= 	BalloonSlot,
-		WorldStaticModel 			= 	WorldItem-BalloonGreen,			
+		OBSOLETE 				= 	TRUE,			
     }
     item AuthenticBalloonGroup_Green
     {
-		DisplayCategory = Household,	
         Type					=	Normal,
         DisplayName				=	Group of Green Balloons,
         Icon					=	Balloon_Green,
         Weight					=	0.05,
-        primaryAnimMask 		= 	HoldingUmbrellaRight,
-        secondaryAnimMask 		= 	HoldingUmbrellaLeft,
-        StaticModel 			= 	AuthenticBalloon_Group_Green,
-		WorldStaticModel 		= 	WorldItem-BalloonGroupGreen,			
-		AttachmentType 			= 	BalloonSlot,
+		OBSOLETE 				= 	TRUE,
     }
     item AuthenticBalloon_Pink
     {
-		DisplayCategory 			= 	Household,		
         Type						=	Normal,
         DisplayName					=	Pink Balloon,
         Icon						=	Balloon_Pink,
         Weight						=	0.05,
-        primaryAnimMask 			= 	HoldingUmbrellaRight,
-        secondaryAnimMask 			= 	HoldingUmbrellaLeft,
-        StaticModel 				= 	AuthenticBalloonPink,
-		AttachmentType  			= 	BalloonSlot,
-		WorldStaticModel 			= 	WorldItem-BalloonPink,			
+		OBSOLETE 				= 	TRUE,		
     }
     item AuthenticBalloonGroup_Pink
     {
-		DisplayCategory = Household,	
         Type					=	Normal,
         DisplayName				=	Group of Pink Balloons,
         Icon					=	Balloon_Pink,
         Weight					=	0.05,
-        primaryAnimMask 		= 	HoldingUmbrellaRight,
-        secondaryAnimMask 		= 	HoldingUmbrellaLeft,
-        StaticModel 			= 	AuthenticBalloon_Group_Pink,
-		WorldStaticModel 		= 	WorldItem-BalloonGroupPink,			
-		AttachmentType 			= 	BalloonSlot,
+		OBSOLETE 				= 	TRUE,
     }		
     item AuthenticBalloon_Purple
     {
-		DisplayCategory 			= 	Household,		
         Type						=	Normal,
         DisplayName					=	Purple Balloon,
         Icon						=	Balloon_Purple,
         Weight						=	0.05,
-        primaryAnimMask 			= 	HoldingUmbrellaRight,
-        secondaryAnimMask 			= 	HoldingUmbrellaLeft,
-        StaticModel 				= 	AuthenticBalloonPurple,
-		AttachmentType  			= 	BalloonSlot,
-		WorldStaticModel 			= 	WorldItem-BalloonPurple,			
+		OBSOLETE 				= 	TRUE,		
     }
     item AuthenticBalloonGroup_Purple
     {
-		DisplayCategory 		= 	Household,	
         Type					=	Normal,
         DisplayName				=	Group of Purple Balloons,
         Icon					=	Balloon_Purple,
         Weight					=	0.05,
-        primaryAnimMask 		= 	HoldingUmbrellaRight,
-        secondaryAnimMask 		= 	HoldingUmbrellaLeft,
-        StaticModel 			= 	AuthenticBalloon_Group_Purple,
-		WorldStaticModel 		= 	WorldItem-BalloonGroupPurple,			
-		AttachmentType 			= 	BalloonSlot,
+		OBSOLETE 				= 	TRUE,
     }	
     item AuthenticBalloon_Red
     {
-		DisplayCategory 				= Household,		
         Type							=	Normal,
         DisplayName						=	Red Balloon,
         Icon							=	Balloon_Red,
         Weight							=	0.05,
-        primaryAnimMask 				= 	HoldingUmbrellaRight,
-        secondaryAnimMask 				= 	HoldingUmbrellaLeft,
-        StaticModel 					= 	AuthenticBalloonRed,
-		AttachmentType  				= 	BalloonSlot,
-		WorldStaticModel 				= 	WorldItem-BalloonRed,			
+		OBSOLETE 				= 	TRUE,		
     }
     item AuthenticBalloonGroup_Red
     {
-		DisplayCategory 		= 	Household,	
         Type					=	Normal,
         DisplayName				=	Group of Red Balloons,
         Icon					=	Balloon_Red,
         Weight					=	0.05,
-        primaryAnimMask 		= 	HoldingUmbrellaRight,
-        secondaryAnimMask 		= 	HoldingUmbrellaLeft,
-        StaticModel 			= 	AuthenticBalloon_Group_Red,
-		WorldStaticModel 		= 	WorldItem-BalloonGroupRed,			
-		AttachmentType 			= 	BalloonSlot,
+		OBSOLETE 				= 	TRUE,
     }	
     item AuthenticBalloon_White
-    {
-		DisplayCategory 			= 	Household,		
+    {	
         Type						=	Normal,
         DisplayName					=	White Balloon,
         Icon						=	Balloon_White,
         Weight						=	0.05,
-        primaryAnimMask 			= 	HoldingUmbrellaRight,
-        secondaryAnimMask 			= 	HoldingUmbrellaLeft,
-        StaticModel 				= 	AuthenticBalloonWhite,
-		AttachmentType 				= 	BalloonSlot,
-		WorldStaticModel 			= 	WorldItem-BalloonWhite,			
+		OBSOLETE 				= 	TRUE,	
     }
     item AuthenticBalloonGroup_White
     {
-		DisplayCategory 		= 	Household,	
         Type					=	Normal,
         DisplayName				=	Group of White Balloons,
         Icon					=	Balloon_White,
         Weight					=	0.05,
-        primaryAnimMask 		= 	HoldingUmbrellaRight,
-        secondaryAnimMask 		= 	HoldingUmbrellaLeft,
-        StaticModel 			= 	AuthenticBalloon_Group_White,
-		WorldStaticModel 		= 	WorldItem-BalloonGroupWhite,			
-		AttachmentType 			= 	BalloonSlot,
+		OBSOLETE 				= 	TRUE,
     }	
     item AuthenticBalloon_Yellow
-    {
-		DisplayCategory 				= 	Household,		
+    {	
         Type							=	Normal,
         DisplayName						=	Yellow Balloon,
         Icon							=	Balloon_Yellow,
         Weight							=	0.05,
-        primaryAnimMask 				= 	HoldingUmbrellaRight,
-        secondaryAnimMask 				= 	HoldingUmbrellaLeft,
-        StaticModel 					= 	AuthenticBalloonYellow,
-        ProtectFromRainWhenEquipped 	= 	TRUE,
-        EquippedNoSprint 				= 	TRUE,
-		AttachmentType  				= 	BalloonSlot,
-		WorldStaticModel 				= 	WorldItem-BalloonYellow,		
+		OBSOLETE 				= 	TRUE,	
     }	
     item AuthenticBalloon_Group_Yellow
     {	
-		DisplayCategory 		= 	Household,	
         Type					=	Normal,
         DisplayName				=	Group of Yellow Balloons,
         Icon					=	Balloon_Yellow,
         Weight					=	0.05,
-        primaryAnimMask 		= 	HoldingUmbrellaRight,
-        secondaryAnimMask 		= 	HoldingUmbrellaLeft,
-        StaticModel 			= 	AuthenticBalloon_Group_Yellow,
-		WorldStaticModel 		= 	WorldItem-BalloonGroupYellow,			
-		AttachmentType 			= 	BalloonSlot,		
+		OBSOLETE 				= 	TRUE,	
     }	
 
 	item AuthenticCanteenCadetBlue
-    	{
-        DisplayCategory 		= 	WaterContainer, 		
+    	{	
        	Weight    		 		= 	0.2,
-		CanStoreWater			= 	TRUE,
         Type    				= 	Normal,
         DisplayName     		= 	Canteen,
-		ReplaceOnUseOn			= 	WaterSource-AuthenticCanteenCadetBluefull,
         Icon 					= 	CanteenCadetBlue,
-		RainFactor 				= 	1,
-		Tooltip 				= 	Tooltip_item_RainFromGround,
-		StaticModel 			= 	AuthenticCanteenCadetBlue,
-		primaryAnimMask 		= 	HoldingTorchRight,
-        secondaryAnimMask 		= 	HoldingTorchLeft,
-		WorldStaticModel 		= 	WorldItem_CanteenCadetBlue,
-		AttachmentType  		= 	Canteen,		
+		OBSOLETE 				= 	TRUE,	
 	}
 
 	item AuthenticCanteenCadetBluefull
     	{
-        DisplayCategory 		=	WaterContainer, 		
-		IsWaterSource			=	TRUE,
 		Weight					=	1.5,
-		CanStoreWater			=	TRUE,
 		Type					=	Drainable,
-		UseWhileEquipped		=	FALSE,
-		IsCookable				=	TRUE,
-		UseDelta				=	0.05,
 		DisplayName				=	Canteen with Water,
-		ReplaceOnDeplete		=	AuthenticCanteenCadetBlue,
-		ReplaceOnUseOn			=	WaterSource-AuthenticCanteenCadetBluefull,
 		Icon					=	CanteenCadetBlue,
-		RainFactor 				= 	1,
-		Tooltip 				= 	Tooltip_item_RainFromGround,
-		StaticModel 			= 	AuthenticCanteenCadetBlue,
-		primaryAnimMask 		= 	HoldingTorchRight,
-        secondaryAnimMask		= 	HoldingTorchLeft,
-		WorldStaticModel 		= 	WorldItem_CanteenCadetBlue,
-		AttachmentType  		= 	Canteen,			
+		OBSOLETE 				= 	TRUE,		
 	}
 	item AuthenticCanteenDarkGreen
-    	{
-        DisplayCategory 		=	WaterContainer, 		
+    	{	
        	Weight    		 		= 	0.2,
-		CanStoreWater			= 	TRUE,
         Type    				= 	Normal,
         DisplayName     		= 	Canteen,
-		ReplaceOnUseOn			= 	WaterSource-AuthenticCanteenDarkGreenfull,
         Icon 					= 	CanteenDarkGreen,
-		RainFactor 				= 	1,
-		Tooltip 				= 	Tooltip_item_RainFromGround,
-		StaticModel 			= 	AuthenticCanteenDarkGreen,
-		primaryAnimMask 		= 	HoldingTorchRight,
-        secondaryAnimMask 		= 	HoldingTorchLeft,
-		WorldStaticModel 		= 	WorldItem_CanteenDarkGreen,	
-		AttachmentType 		 	= 	Canteen,			
+		OBSOLETE 				= 	TRUE,			
 	}
 
 	item AuthenticCanteenDarkGreenfull
     	{
-        DisplayCategory 		= 	WaterContainer, 		
-		IsWaterSource			=	TRUE,
 		Weight					=	1.5,
-		CanStoreWater			=	TRUE,
 		Type					=	Drainable,
-		UseWhileEquipped		=	FALSE,
-		IsCookable				=	TRUE,
-		UseDelta				=	0.05,
-		DisplayName				=	Canteen with Water,
-		ReplaceOnDeplete		=	AuthenticCanteenDarkGreen,
-		ReplaceOnUseOn			=	WaterSource-AuthenticCanteenDarkGreenfull,
 		Icon					=	CanteenDarkGreen,
-		RainFactor 				= 	1,
-		Tooltip 				= 	Tooltip_item_RainFromGround,
-		StaticModel 			= 	AuthenticCanteenDarkGreen,
-		primaryAnimMask 		= 	HoldingTorchRight,
-        secondaryAnimMask		= 	HoldingTorchLeft,
-		WorldStaticModel 		= 	WorldItem_CanteenDarkGreen,	
-		AttachmentType  		= 	Canteen,			
+		OBSOLETE 				= 	TRUE,			
 	}
 	item AuthenticCanteenDarkGrey
-    	{
-        DisplayCategory 		=	WaterContainer, 		
+    	{	
        	Weight    		 		= 	0.2,
-		CanStoreWater			= 	TRUE,
         Type    				= 	Normal,
         DisplayName     		= 	Canteen,
-		ReplaceOnUseOn			= 	WaterSource-AuthenticCanteenDarkGreyfull,
         Icon 					= 	CanteenDarkGrey,
-		RainFactor 				= 	1,
-		Tooltip 				= 	Tooltip_item_RainFromGround,
-		StaticModel 			= 	AuthenticCanteenDarkGrey,
-		primaryAnimMask 		= 	HoldingTorchRight,
-        secondaryAnimMask 		= 	HoldingTorchLeft,
-		WorldStaticModel 		= 	WorldItem_CanteenDarkGrey,	
-		AttachmentType  		= 	Canteen,			
+		OBSOLETE 				= 	TRUE,			
 	}
 
 	item AuthenticCanteenDarkGreyfull
     	{
-        DisplayCategory 		= 	WaterContainer, 		
-		IsWaterSource			=	TRUE,
 		Weight					=	1.5,
-		CanStoreWater			=	TRUE,
 		Type					=	Drainable,
-		UseWhileEquipped		=	FALSE,
 		IsCookable				=	TRUE,
-		UseDelta				=	0.05,
 		DisplayName				=	Canteen with Water,
-		ReplaceOnDeplete		=	AuthenticCanteenDarkGrey,
-		ReplaceOnUseOn			=	WaterSource-AuthenticCanteenDarkGreyfull,
 		Icon					=	CanteenDarkGrey,
-		RainFactor 				= 	1,
-		Tooltip 				= 	Tooltip_item_RainFromGround,
-		StaticModel 			= 	AuthenticCanteenDarkGrey,
-		primaryAnimMask 		= 	HoldingTorchRight,
-        secondaryAnimMask		= 	HoldingTorchLeft,
-		WorldStaticModel 		= 	WorldItem_CanteenDarkGrey,	
-		AttachmentType  		= 	Canteen,			
+		OBSOLETE 				= 	TRUE,			
 	}
 	item AuthenticCanteenForestGreen
-    	{
-        DisplayCategory 		= 	WaterContainer, 		
+    	{	
 		Weight    		 		= 	0.2,
 		CanStoreWater			= 	TRUE,
         Type    				= 	Normal,
         DisplayName     		= 	Canteen,
-		ReplaceOnUseOn			= 	WaterSource-AuthenticCanteenForestGreenfull,
         Icon 					= 	CanteenForestGreen,
-		RainFactor 				= 	1,
-		Tooltip 				= 	Tooltip_item_RainFromGround,
-		StaticModel 			= 	AuthenticCanteenForestGreen,
-		primaryAnimMask 		= 	HoldingTorchRight,
-        secondaryAnimMask 		= 	HoldingTorchLeft,
-		WorldStaticModel 		= 	WorldItem_CanteenForestGreen,	
-		AttachmentType  		= 	Canteen,			
+		OBSOLETE 				= 	TRUE,			
 	}
 
 	item AuthenticCanteenForestGreenfull
-    	{
-        DisplayCategory 		= 	WaterContainer, 		
-		IsWaterSource			=	TRUE,
+    	{		
 		Weight					=	1.5,
-		CanStoreWater			=	TRUE,
 		Type					=	Drainable,
-		UseWhileEquipped		=	FALSE,
-		IsCookable				=	TRUE,
-		UseDelta				=	0.05,
-		RainFactor 				= 	1,		
 		DisplayName				=	Canteen with Water,
-		ReplaceOnDeplete		=	AuthenticCanteenForestGreen,
-		ReplaceOnUseOn			=	WaterSource-AuthenticCanteenForestGreenfull,
 		Icon					=	CanteenForestGreen,
-		Tooltip 				= 	Tooltip_item_RainFromGround,
-		StaticModel 			= 	AuthenticCanteenForestGreen,
-		primaryAnimMask 		= 	HoldingTorchRight,
-        secondaryAnimMask		= 	HoldingTorchLeft,
-		WorldStaticModel 		= 	WorldItem_CanteenForestGreen,
-		AttachmentType  		= 	Canteen,			
+		OBSOLETE 				= 	TRUE,		
 	}
 	item AuthenticCanteenGrey
-    	{
-        DisplayCategory 		= 	WaterContainer, 		
+    	{	
        	Weight    		 		= 	0.2,
-		CanStoreWater			= 	TRUE,
         Type    				= 	Normal,
         DisplayName     		= 	Canteen,
-		ReplaceOnUseOn			= 	WaterSource-AuthenticCanteenGreyfull,
         Icon 					= 	CanteenGrey,
-		RainFactor 				= 	1,
-		Tooltip 				= 	Tooltip_item_RainFromGround,
-		StaticModel 			= 	AuthenticCanteenGrey,
-		primaryAnimMask 		= 	HoldingTorchRight,
-        secondaryAnimMask 		= 	HoldingTorchLeft,
-		WorldStaticModel 		= 	WorldItem_CanteenGrey,	
-		AttachmentType 			= 	Canteen,			
+		OBSOLETE 				= 	TRUE,		
 	}
 
 	item AuthenticCanteenGreyfull
-    	{
-        DisplayCategory 		= 	WaterContainer, 		
-		IsWaterSource			=	TRUE,
+    	{		
 		Weight					=	1.5,
-		CanStoreWater			=	TRUE,
 		Type					=	Drainable,
-		UseWhileEquipped		=	FALSE,
-		IsCookable				=	TRUE,
-		UseDelta				=	0.05,
 		DisplayName				=	Canteen with Water,
-		ReplaceOnDeplete		=	AuthenticCanteenGrey,
-		ReplaceOnUseOn			=	WaterSource-AuthenticCanteenGreyfull,
 		Icon					=	CanteenGrey,
-		RainFactor 				= 	1,
-		Tooltip 				= 	Tooltip_item_RainFromGround,
-		StaticModel 			= 	AuthenticCanteenGrey,
-		primaryAnimMask 		= 	HoldingTorchRight,
-        secondaryAnimMask		= 	HoldingTorchLeft,
-		WorldStaticModel 		= 	WorldItem_CanteenGrey,	
-		AttachmentType  		= 	Canteen,			
+		OBSOLETE 				= 	TRUE,			
 	}
 	item AuthenticCanteenSilver
     	{
-        DisplayCategory 		= 	WaterContainer, 		
        	Weight    		 		= 	0.2,
-		CanStoreWater			= 	TRUE,
         Type    				= 	Normal,
         DisplayName     		= 	Canteen,
-		ReplaceOnUseOn			= 	WaterSource-AuthenticCanteenSilverfull,
         Icon 					= 	CanteenSilver,
-		RainFactor 				= 	1,
-		Tooltip 				= 	Tooltip_item_RainFromGround,
-		StaticModel 			= 	AuthenticCanteenSilver,
-		primaryAnimMask 		= 	HoldingTorchRight,
-        secondaryAnimMask 		= 	HoldingTorchLeft,
-		WorldStaticModel 		= 	WorldItem_CanteenSilver,	
-		AttachmentType  		= 	Canteen,			
+		OBSOLETE 				= 	TRUE,			
 	}
 
 	item AuthenticCanteenSilverfull
-    	{
-        DisplayCategory 		= 	WaterContainer, 		
-		IsWaterSource			=	TRUE,
+    	{		
 		Weight					=	1.5,
-		CanStoreWater			=	TRUE,
 		Type					=	Drainable,
-		UseWhileEquipped		=	FALSE,
-		IsCookable				=	TRUE,
-		UseDelta				=	0.05,
 		DisplayName				=	Canteen with Water,
-		ReplaceOnDeplete		=	AuthenticCanteenSilver,
-		ReplaceOnUseOn			=	WaterSource-AuthenticCanteenSilverfull,
 		Icon					=	CanteenSilver,
-		RainFactor 				= 	1,
-		Tooltip 				= 	Tooltip_item_RainFromGround,
-		StaticModel 			= 	AuthenticCanteenSilver,
-		primaryAnimMask 		= 	HoldingTorchRight,
-        secondaryAnimMask		= 	HoldingTorchLeft,
-		WorldStaticModel 		= 	WorldItem_CanteenSilver,	
-		AttachmentType  		= 	Canteen,			
+		OBSOLETE 				= 	TRUE,			
 	}
 	item CigarAZHalf
 	{
-		DisplayCategory 		= Household,	
 		Type					= Food,	
 		DisplayName 			= Half-Smoked Cigar,
 		Icon					= CigarHalfAZ,
         Weight 					= 0.06,		
-		Count					= 1,
-		HungerChange			= 0,
-		StressChange			= -10,
-		BoredomChange			= -10,		
-		RequireInHandOrInventory =	Lighter/Matches,
-		CustomContextMenu 		= Smoke,
-		CantBeFrozen 	 		= TRUE,
-		OnEat 			 		= OnEat_CigarAZ,
-		EatType 		 		= Cigarettes,		
-		CustomEatSound 			= ,
-		StaticModel 			= CigarHalfAZ,		
-		WorldStaticModel 		= WorldItem_CigarHalfAZ,
+		OBSOLETE 				= 	TRUE,
     }	
 	item CigarAZ2
 	{
-		DisplayCategory = Household,	
 		Type				=	Food,		
-		Count				=	1,
-		HungerChange		=	0,
 		Weight				=	0.1,
-		RequireInHandOrInventory	=	Lighter/Matches,
-		StressChange		=	-20,
 		DisplayName = Cigar,
-		ClothingItem = CigarAZ,
-		CustomContextMenu 	= Smoke,
-		CantBeFrozen 	 	= TRUE,
-		OnEat 			 	= OnEat_Cigarettes,
-		EatType 		 	= Cigarettes,		
-		BodyLocation = Mask,
 		Icon = CigarAZ,
         Weight = 0.1,
-		CustomEatSound 		= ,		
-		WorldStaticModel = WorldItem_CigarAZ,
         OBSOLETE = TRUE,			
     } 
 	item AuthenticCigaretteHolder
 	{
-		DisplayCategory 	= 	Household,
 		Type				=	Food,	
 		DisplayName			=	Cigarette Holder,
 		Icon				=	CigaretteHolder,
 		Weight				=	0.2,		
-		WorldStaticModel 	= 	WorldItem-CigaretteHolder,
+        OBSOLETE = TRUE,		
 	}	
 	item AuthenticCigaretteHolder
-	{
-		DisplayCategory = Household,	
-		Count				=	1,
-		HungerChange		=	0,
+	{	
 		Weight				=	0.1,
-		RequireInHandOrInventory	=	Lighter/Matches,
 		Type				=	Food,
 		DisplayName			=	Cigarette Holder,
-		StressChange		=	-20,
 		Icon				=	CigaretteHolder,
-		CustomContextMenu 	= Smoke,
-		CantBeFrozen 	 	= TRUE,
-		OnEat 			 	= OnEat_Cigarettes,
-		StaticModel 	 	= AuthenticCigaretteHolder,
-		EatType 		 	= Cigarettes,
-		WorldStaticModel 	= WorldItem-CigaretteHolder,
-		CustomEatSound 		= ,
         OBSOLETE = TRUE,			
 	}	
 
 	item Authentic_MilitaryFlashlightGrey
 	{
-        DisplayCategory 	 = LightSource,	
 		DisplayName	 		 =	Grey Military Flashlight,
 		Icon			     =	MilitaryFlashlightGrey,
 		Type		  		 =	Drainable,
 		Weight		 		 =	0.5,
-		LightDistance		 =	25,
-		DisappearOnUse		 =	FALSE,
-		TorchCone			 =	TRUE,
-		UseDelta			 =	0.0005,
-		LightStrength		 =	0.8,
-		ActivatedItem		 =  TRUE,
-		cantBeConsolided 	 =  TRUE,
-		StaticModel 		 =  Authentic_MilitaryFlashlightGrey,
-		AttachmentType	 	 =  MilitaryFlashlight,
-		primaryAnimMask 	 =  HoldingTorchRight,
-        secondaryAnimMask	 =  HoldingTorchLeft,
-		WorldStaticModel 	 = 	Authentic_MilitaryFlashlightGrey,			
+		OBSOLETE 				= 	TRUE,	
 	}  
 
 	item Authentic_MilitaryFlashlightGreen
-	{
-        DisplayCategory = LightSource,	
+	{	
 		DisplayName			=	Green Military Flashlight,	
 		Icon				=	MilitaryFlashlightGreen,
 		Type				=	Drainable,		
 		Weight				=	0.5,		
-		LightDistance		=	25,
-		DisappearOnUse		=	FALSE,
-		TorchCone			=	TRUE,
-		UseDelta			=	0.0005,
-		LightStrength		=	0.8,
-		ActivatedItem		=	TRUE,
-		MetalValue 			= 	10,
-		cantBeConsolided 	=	TRUE,
-		StaticModel 		=	Authentic_MilitaryFlashlightGreen,
-		AttachmentType	 	=   MilitaryFlashlight,
-		primaryAnimMask 	=	HoldingTorchRight,
-        secondaryAnimMask 	=	HoldingTorchLeft,
-		WorldStaticModel 	= 	Authentic_MilitaryFlashlightGreen,			
+		OBSOLETE 				= 	TRUE,		
 	}  
 
 	item Authentic_MinerLightbulb
 	{
-        DisplayCategory = LightSource,	
 		Type		  		 =	Drainable,	
 		DisplayName	 		 =	Mining Helmet Light,
 		Icon			     =	LightBulb,
 		Weight		 		 =	0.5,
-		LightDistance		 =	25,
-		DisappearOnUse		 =	FALSE,
-		TorchCone			 =	TRUE,
-		UseDelta			 =	0.0005,
-		LightStrength		 =	2,
-		ActivatedItem		 =  TRUE,
-		cantBeConsolided 	 =  TRUE,
-		StaticModel 		 =  AuthenticMinerLightBulb,
-		AttachmentType	 	 =  MinerLight,
-        WorldStaticModel 	 = 	LightBulb,		
+		OBSOLETE 				= 	TRUE,		
 	}  
 
     item AuthenticPipeBomb
 	{
-        DisplayCategory = Devices,	
-		MaxRange				=	10,
-		Type					=	Weapon,
-		MinimumSwingTime		=	1.5,
-		SwingAnim				=	Throw,
-		WeaponSprite 			= 	Authentic_PipeBomb,
-		UseSelf					=	TRUE,
+		Type					=	Normal,
 		DisplayName				=	Pipe Bomb,
-		SwingTime				=	1.5,
-		SwingAmountBeforeImpact	=	0.1,
-		PhysicsObject			=	Authentic_PipeBomb,
-		MinDamage				=	1,
 		Weight					=	1.5,
-		MaxDamage				=	5,
-		MaxHitCount				=	5,
-		Icon					=	PipeBomb_Left4Dead,
-		ExplosionPower  		=   100,
-		ExplosionRange  		=   7,
-		ExplosionSound 			= 	PipeBombExplode,
-		SwingSound 				= 	PipeBombThrow,
-		PlacedSprite 			= 	constructedobjects_01_32,
-		Tooltip	 				= 	Tooltip_Trap,
-		WorldStaticModel 		= 	Authentic_PipeBomb,
-        AttachmentType  		= 	AuthenticExplosive,			
-	}
-
-    item AuthenticRoadsideTriangle
-    {
-        Icon					=	Glowstick-Grey,
-		Type				=	Drainable,		
-		Weight				=	0.5,		
+		Icon					=	PipeBomb_Left4Dead,	
         OBSOLETE 		= 	TRUE,				
     }
    
 	item AuthenticSmokeBomb
     {
-        MaxRange				=	10,
         Type					=	Weapon,
-        MinimumSwingTime		=	1.5,
-		SwingAnim				=	Throw,
-        WeaponSprite 			= 	AuthenticSmokeGrenade,
-        UseSelf					=	TRUE,
         DisplayName				=	M18 Smoke Grenade,
-        SwingTime				=	1.5,
-        SwingAmountBeforeImpact	=	0.1,
-        PhysicsObject			=	ExplosiveTrap,
-        MinDamage				=	0,
         Weight					=	1.5,
-        MaxDamage				=	0,
-        MaxHitCount				=	0,
         Icon					=	SmokeGrenadeIcon,
-        TriggerExplosionTimer   =   50,
-        SmokeRange  			=   10,
-        CanBePlaced 			= 	TRUE,
-        PlacedSprite 			= 	constructedobjects_01_36,
-        Tooltip 				= 	Tooltip_Trap,
-        WorldStaticModel		= 	AuthenticSmokeGrenade,
-        AttachmentType  		= 	AuthenticExplosive,			
+		OBSOLETE 				= 	TRUE,		
     }
 
 	item AuthenticSmokeBombRemote
     {
-        MaxRange				=	10,
-        Type					=	Weapon,
-        MinimumSwingTime		=	1.5,
-		SwingAnim				=	Throw,
-        WeaponSprite 			= 	AuthenticSmokeGrenade,
-        UseSelf					=	TRUE,
+        Type					=	Normal,
         DisplayName				=	M18 Smoke Grenade,
-        SwingTime				=	1.5,
-        SwingAmountBeforeImpact	=	0.1,
-        PhysicsObject			=	ExplosiveTrap,
-        MinDamage				=	0,
         Weight					=	1.5,
-        MaxDamage				=	0,
-        MaxHitCount				=	0,
         Icon					=	SmokeGrenadeIcon,
-        SmokeRange  			=   5,
-        CanBePlaced				= 	TRUE,
-        CanBeRemote 			= 	TRUE,
-        PlacedSprite 			= 	constructedobjects_01_36,
-        WorldStaticModel 		= 	SmokeBombSensor,
-        AttachmentType  		= 	AuthenticExplosive,			
+		OBSOLETE 				= 	TRUE,		
     }	
 	item GroguCarriage
 	{
 		Weight				 =	1.5,
 		Type				 =	Normal,
-		UseWhileEquipped	 =	FALSE,
 		DisplayName			 =	Sci-Fi Carriage (Occupied),
 		Icon				 =	GroguCarriage,
-		ReplaceInSecondHand  =  Bag_GroguCarriage_LHand holdingbagleft,
-        ReplaceInPrimaryHand =  Bag_GroguCarriage_RHand holdingbagright,
-        WorldStaticModel 	 =  WorldItem_GroguCarriage,
+		OBSOLETE 				= 	TRUE,
 	}
 	item GroguCarriageEmpty
 	{
 		Weight				 =	1.5,
 		Type				 =	Normal,
-		UseWhileEquipped	 =	FALSE,
 		DisplayName			 =	Sci-Fi Carriage (Empty),
 		Icon				 =	GroguCarriageEmpty,
-		ReplaceInSecondHand  =  Bag_GroguCarriageEMPTY_LHand holdingbagleft,
-        ReplaceInPrimaryHand =  Bag_GroguCarriageEMPTY_RHand holdingbagright,
-        WorldStaticModel 	 =  WorldItem_GroguCarriageEmpty,
+		OBSOLETE 				= 	TRUE,
 	}	
     item HairDyeDarkBrown
     {	
