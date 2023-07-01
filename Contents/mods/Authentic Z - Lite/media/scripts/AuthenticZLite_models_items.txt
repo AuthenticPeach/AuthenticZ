@@ -386,6 +386,11 @@ module Base
 	{
 		mesh = AZGlowstick,
 		texture = clothes\Items\GlowstickWhite,
+	}
+	model AuthenticIceAxe
+	{
+		mesh = Weapons/1Handed/AZIceAxe,
+		texture = clothes\Items\IceAxe,
 	}	
 	model ClownNose
 	{
