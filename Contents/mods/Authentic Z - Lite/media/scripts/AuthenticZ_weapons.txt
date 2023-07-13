@@ -1317,7 +1317,7 @@ module AuthenticZLite {
         Type				=	Weapon,
 		DisplayName			=	Ice Axe,
 		Weight				=	2,
-		Icon				=	PickAxe,
+		Icon				=	IceAxeAZ,
         WeaponSprite		=	AuthenticIceAxe,
         ConditionLowerChanceOneIn	=	15,
         MinimumSwingTime	=	3.0,
@@ -1350,8 +1350,8 @@ module AuthenticZLite {
 		SwingSound = HandAxeSwing,
         DamageCategory = Slash,
         DamageMakeHole = TRUE,
-        AttachmentType = Hammer,
-        Tags = DigPlow,
+        AttachmentType  = Hammer,
+        Tags 			= DigPlow,
     }	
     item AuthenticOrgan_Kidney
     {

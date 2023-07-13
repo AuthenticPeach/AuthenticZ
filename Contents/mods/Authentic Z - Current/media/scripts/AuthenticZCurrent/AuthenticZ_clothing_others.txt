@@ -217,7 +217,19 @@ module AuthenticZClothing {
 		Weight 					= 0.3,
 		ChanceToFall 			= 25,
 		WorldStaticModel 		= WorldItem_HeadPhones,
-	}	
+	}
+    item Belt_AZ
+    {
+        DisplayCategory = Accessory,
+        Weight	=	0.2,
+        Type	=	Clothing,
+        DisplayName	=	Belt with Buckle,
+        Icon	=	Belt,
+        BodyLocation = Belt,
+        ClothingItem = Belt_AZ,
+        AttachmentsProvided = SmallBeltLeft;SmallBeltRight,
+        WorldStaticModel = Belt_Ground,
+    }	
 	item Bikini_Pattern02
 	{
        DisplayCategory = Clothing,		
@@ -1028,7 +1040,19 @@ module AuthenticZClothing {
 		BloodLocation = Apron,
 		IconsForTexture = InflatableTubeBlue;InflatableTubeDuck;InflatableTubePink;InflatableTubeYellow;InflatableTubeGreen,
 		WorldStaticModel = WorldItem-InflatableTube,		
-	}	
+	}
+    item InvisibleSuit
+    {
+        DisplayCategory = Clothing,		
+        Type = Clothing,
+        DisplayName = Invisible Suit,
+        ClothingItem = InvisibleSuit,	
+        Icon = BowWhite,
+        BodyLocation = FullSuit,
+        CanHaveHoles = false,
+        Weight = 0.05,	
+        WorldStaticModel = WorldItem_HairBow,
+    }	
     item Leg_Cherry
     {
         DisplayCategory = Junk,	

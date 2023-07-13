@@ -1094,7 +1094,7 @@ ItemName_EN = {
 	ItemName_AuthenticZClothing.Hat_BaseballCapSmileyFace_Reverse =  "Smiley Face Baseball Cap (Reversed)",	
 	ItemName_AuthenticZClothing.Hat_BaseballCapSmileyFace_Sideways =  "Smiley Face Baseball Cap (Sideways)",
 
-	/* New */
+	/*  Update 6-23-23  */
 	
 	ItemName_AuthenticZClothing.Bag_Packsport_Plain = "Packsport Backpack",	
 	ItemName_AuthenticZClothing.Bag_Packsport_Plain_Tier_1 = "Packsport Backpack - Tier 1",	
@@ -1165,4 +1165,8 @@ ItemName_EN = {
 	ItemName_AuthenticZClothing.Bag_B4BEvangelo_Tier_1 = "FlexFit Backpack - Tier 1",	
 	ItemName_AuthenticZClothing.Bag_B4BEvangelo_Tier_2 = "FlexFit Backpack - Tier 2",
 	ItemName_AuthenticZClothing.Bag_B4BEvangelo_Tier_3 = "FlexFit Backpack - Tier 3",
+	
+	/* New */	
+	ItemName_AuthenticZClothing.Hat_Bonnet_Tied = "Bonnet (Tied)",
+	ItemName_AuthenticZClothing.Hat_Bonnet_UnTied = "Bonnet (Untied)",
 }

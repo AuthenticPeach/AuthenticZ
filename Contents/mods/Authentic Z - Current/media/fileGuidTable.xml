@@ -4065,6 +4065,10 @@
 	<files>
 		<path>media/clothing/clothingItems/Bag_UtilityBeltFront_Loose.xml</path>
 		<guid>e0dcba7c-5cac-4c16-9b0c-d5484a853231</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Belt_AZ.xml</path>
+		<guid>9f92c784-0836-42b6-b043-bc69aafd6c90</guid>
 	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Bikini_Pattern02.xml</path>
@@ -4761,6 +4765,14 @@
 		<guid>b196bf3c-768e-4400-b91d-9fc389785b4a</guid>
 	</files>
 	<files>
+		<path>media/clothing/clothingItems/Hat_Bonnet_Tied.xml</path>
+		<guid>ecbc4578-fe50-4046-b411-f8f011b32b90</guid>
+	</files>	
+	<files>
+		<path>media/clothing/clothingItems/Hat_Bonnet_UnTied.xml</path>
+		<guid>670787ef-df40-455b-a973-62e99ac9499f</guid>
+	</files>	
+	<files>
 		<path>media/clothing/clothingItems/Hat_CaptainSkipper.xml</path>
 		<guid>8fdd62d0-59e7-4f34-933f-0efd0fb9c638</guid>
 	</files>	
@@ -5327,6 +5339,10 @@
 	<files>
 		<path>media/clothing/clothingItems/InflatableTube.xml</path>
 		<guid>5693e609-df9e-458a-97f3-43a9e77d100d</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/InvisibleSuit.xml</path>
+		<guid>1cd9dcb3-8618-46c1-a123-875d9e982715</guid>
 	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Jacket_ArmyCamoUrban.xml</path>

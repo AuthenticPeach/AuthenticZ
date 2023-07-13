@@ -1076,4 +1076,8 @@ ItemName_EN = {
 	
 	ItemName_AuthenticZLite.Bag_B4BMom = "Casual Daypack",
 	ItemName_AuthenticZLite.Bag_B4BEvangelo = "FlexFit Backpack",
+	
+	/* New */	
+	ItemName_AuthenticZLite.Hat_Bonnet_Tied = "Bonnet (Tied)",
+	ItemName_AuthenticZLite.Hat_Bonnet_UnTied = "Bonnet (Untied)",
 }

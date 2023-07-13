@@ -904,6 +904,10 @@ module Base
 		mesh =  WorldItems/WorldItem_MandoSpear,
 		texture = clothes\Items\MandoSpear,
 	}
+	model WorldItem_Bonnet
+	{
+		mesh = WorldItems/WorldItem_Bonnet,	
+	}	
 	model WorldItem-CrutchAZ
 	{
 		mesh = WorldItems/WorldItem_Crutch,

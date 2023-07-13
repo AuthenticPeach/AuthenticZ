@@ -1058,6 +1058,10 @@ module Base
 			rotate = 0.0000 0.0000 180.0000,
 		}		
 	}	
+	model WorldItem_Bonnet
+	{
+		mesh = WorldItems/WorldItem_Bonnet,	
+	}	
 	model WorldItem-AuthenticGlowstickBlank
 	{
 		mesh =  WorldItems/WorldItem-AZGlowstick,

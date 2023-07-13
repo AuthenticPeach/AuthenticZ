@@ -967,6 +967,38 @@ module AuthenticZClothing {
         Weight = 0.5,
 		WorldStaticModel = WorldItem_Boater_Ground_Yellow,
     }
+    item Hat_Bonnet_Tied
+    {
+	    DisplayCategory = Accessory,	
+        Type = Clothing,
+        DisplayName = Bonnet (Tied),
+        ClothingItem = Hat_Bonnet_Tied,
+        ClothingItemExtra = AuthenticZClothing.Hat_Bonnet_UnTied,	
+        ClothingItemExtraOption = Untie,		
+        BodyLocation = Hat,
+        Icon = Bonnet_Tied,
+        CanHaveHoles = false,
+        ChanceToFall = 30,
+        Insulation = 0.10,
+        Weight = 0.2,
+		WorldStaticModel = WorldItem_Bonnet,		
+    }
+    item Hat_Bonnet_UnTied
+    {
+	    DisplayCategory = Accessory,	
+        Type = Clothing,
+        DisplayName = Bonnet (Untied),
+        ClothingItem = Hat_Bonnet_UnTied,
+        ClothingItemExtra = AuthenticZClothing.Hat_Bonnet_Tied,
+        ClothingItemExtraOption = Tie,
+        BodyLocation = Hat,
+        Icon = Bonnet_Untied,
+        CanHaveHoles = false,
+        ChanceToFall = 30,
+        Insulation = 0.20,
+        Weight = 0.2,
+		WorldStaticModel = WorldItem_Bonnet,		
+    }	
 	item Hat_CaptainSkipper
 	{
 	    DisplayCategory = Accessory,
