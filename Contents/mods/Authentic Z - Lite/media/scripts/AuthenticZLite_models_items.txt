@@ -1363,6 +1363,11 @@ module Base
 	model WorldItem_SmallBoater
 	{
 		mesh = WorldItems/WorldItem-SmallBoater,	
+	}
+	model WorldItem_SubstitutionPlushie
+	{
+		mesh = WorldItems/WorldItem-SubstitutionDoll,
+		texture = clothes\Items\Substitution,		
 	}	
 	model WorldItem_TrashCanLid
     {

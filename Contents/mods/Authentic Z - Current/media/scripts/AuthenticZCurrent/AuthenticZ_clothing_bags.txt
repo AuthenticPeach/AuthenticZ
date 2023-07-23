@@ -330,7 +330,7 @@ module AuthenticZClothing {
         AttachmentReplacement 		= 	Bag,
         ReplaceInSecondHand 		= 	Bag_SchoolBagCEDARed_LHand holdingbagleft,
         ReplaceInPrimaryHand 		= 	Bag_SchoolBagCEDARed_RHand holdingbagright,
-		WorldStaticModel 			= 	SchoolBag_Ground
+		WorldStaticModel 			= 	SchoolBag_Ground,
 		SoundParameter 				= 	EquippedBaggageContainer SchoolBag,
     }	
 	

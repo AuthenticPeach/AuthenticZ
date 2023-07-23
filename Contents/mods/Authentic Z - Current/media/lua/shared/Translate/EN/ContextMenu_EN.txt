@@ -50,4 +50,8 @@ ContextMenu_EN = {
 	
 	/* Update 3-3-23 */			
     ContextMenu_WearSideways = "Wear Sideways",	
+	
+	/* New */			
+    ContextMenu_UntieBonnet = "Untie Bonnet",	
+    ContextMenu_TieBonnet = "Tie Bonnet",	
 } 

@@ -52,8 +52,9 @@ Tooltip_EN = {
 	
 	Tooltip_TV110Bag = "Take out all items before this.",
 	
-/* New */
-
 	Tooltip_JPCane = "Life finds a way.",		
-	Tooltip_TagillaHelmet = "UBEY",			
+	Tooltip_TagillaHelmet = "UBEY",	
+	
+/* New */	
+	Tooltip_SubstitutionDoll = "The Doll of Deception",		
 	}

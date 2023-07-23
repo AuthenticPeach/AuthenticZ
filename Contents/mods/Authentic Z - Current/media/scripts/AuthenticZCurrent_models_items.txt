@@ -1722,6 +1722,11 @@ module Base
 	model WorldItem-Samurai_WarBanner
 	{
 		mesh = WorldItems/WorldItem_Samurai_WarBanner,	
+	}
+	model WorldItem_SubstitutionPlushie
+	{
+		mesh = WorldItems/WorldItem-SubstitutionDoll,
+		texture = clothes\Items\Substitution,		
 	}	
 	model WorldItem_SmallBoater
 	{

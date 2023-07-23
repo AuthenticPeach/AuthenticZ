@@ -63,9 +63,11 @@ Tooltip_EN = {
 /* Update 6-25-22 */		
 	Tooltip_RotaryPhone  = "Say Hello to your Aunt Alicia, Bub!",
 	
-/* New */	
 	Tooltip_SizeXS  = "Size: S",	
 	Tooltip_SizeXL  = "Size: XL",	
 	Tooltip_Size2XL  = "Size: 2XL",	
 	Tooltip_Size3XL  = "Size: 3XL",	
+	
+/* New */	
+	Tooltip_SubstitutionDoll = "The Doll of Deception",	
 	}

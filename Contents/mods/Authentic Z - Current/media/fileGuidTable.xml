@@ -5895,6 +5895,10 @@
 	<files>
 		<path>media/clothing/clothingItems/Shirt_Walker.xml</path>
 		<guid>5884a833-5894-4c8b-a653-175b89a0bfe2</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Shirt_UndershirtFancy.xml</path>
+		<guid>030239f7-8005-41cf-a8ad-495198a45948</guid>
 	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Shirt_WhiteStriped.xml</path>

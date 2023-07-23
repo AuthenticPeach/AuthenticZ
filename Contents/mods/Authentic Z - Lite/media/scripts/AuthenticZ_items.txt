@@ -183,6 +183,19 @@ module AuthenticZLite {
         AttachmentType  		= 	SpiffoPlushie,
 		StaticModel 			= 	SpiffoPlushieSanta,		
 	}	
+
+    item SubstitutionDoll
+	{	
+        DisplayCategory 		= 	Raccoon,		
+		Weight					=	0.2,
+		Type					=	Normal,
+		DisplayName				=	Substitution Doll,
+		Icon					=	SubstitutionDoll,
+		WorldStaticModel 		= 	WorldItem_SubstitutionPlushie,
+        AttachmentType  		= 	SpiffoPlushie,
+		StaticModel 			= 	WorldItem_SubstitutionPlushie,	
+		Tooltip 				= 	Tooltip_SubstitutionDoll,		
+	}
 	
     item Doll
     {

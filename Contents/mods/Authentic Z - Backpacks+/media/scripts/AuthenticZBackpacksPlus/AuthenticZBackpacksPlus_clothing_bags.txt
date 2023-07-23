@@ -69,6 +69,7 @@ module AuthenticZBackpacksPlus {
         ReplaceInSecondHand 	 =	 Bag_B4BEvangelo_LHand holdingbagleft,
         ReplaceInPrimaryHand	 =	 Bag_B4BEvangelo_RHand holdingbagright,
 		WorldStaticModel 		 =	 WorldItem_BackpackEvangelo,
+        SoundParameter = EquippedBaggageContainer HikingBag,		
     }  
 
 	item Bag_B4BHoffman
@@ -91,6 +92,7 @@ module AuthenticZBackpacksPlus {
         ReplaceInSecondHand 	 = Bag_B4BHoffman_LHand holdingbagleft,
         ReplaceInPrimaryHand	 = Bag_B4BHoffman_RHand holdingbagright,
 		WorldStaticModel 		 = WorldItem_BackpackHoffman,
+        SoundParameter = EquippedBaggageContainer HikingBag,		
     } 
  
 	item Bag_B4BHolly
@@ -113,6 +115,7 @@ module AuthenticZBackpacksPlus {
         ReplaceInSecondHand 	 = 	Bag_B4BHolly_LHand holdingbagleft,
         ReplaceInPrimaryHand	 = 	Bag_B4BHolly_RHand holdingbagright,
         WorldStaticModel 		 = 	WorldItem_BackpackHolly,
+        SoundParameter = EquippedBaggageContainer HikingBag,		
     }   
 
 	item Bag_B4BMom
@@ -135,6 +138,7 @@ module AuthenticZBackpacksPlus {
         ReplaceInSecondHand 	 = Bag_B4BMom_LHand holdingbagleft,
         ReplaceInPrimaryHand	 = Bag_B4BMom_RHand holdingbagright,
         WorldStaticModel 		 = WorldItem_BackpackMom,
+        SoundParameter = EquippedBaggageContainer SchoolBag,		
     } 
 
 	item Bag_B4BWalker
@@ -157,6 +161,7 @@ module AuthenticZBackpacksPlus {
         ReplaceInSecondHand 	 = Bag_B4BWalker_LHand holdingbagleft,
         ReplaceInPrimaryHand	 = Bag_B4BWalker_RHand holdingbagright,
         WorldStaticModel 		 = WorldItem_BackpackWalker,
+        SoundParameter = EquippedBaggageContainer HikingBag,		
     } 
  
 	item Bag_SchoolBagCEDA
@@ -179,6 +184,7 @@ module AuthenticZBackpacksPlus {
         ReplaceInSecondHand = Bag_SchoolBagCEDA_LHand holdingbagleft,
         ReplaceInPrimaryHand = Bag_SchoolBagCEDA_RHand holdingbagright,
 		WorldStaticModel = SchoolBag_Ground,
+        SoundParameter = EquippedBaggageContainer SchoolBag,		
     }
 
 	item Bag_SchoolBagCEDABlack
@@ -201,6 +207,7 @@ module AuthenticZBackpacksPlus {
         ReplaceInSecondHand 	= 	Bag_SchoolBagCEDABlack_LHand holdingbagleft,
         ReplaceInPrimaryHand 	= 	Bag_SchoolBagCEDABlack_RHand holdingbagright,
 		WorldStaticModel 		= 	SchoolBag_Ground,
+        SoundParameter = EquippedBaggageContainer SchoolBag,		
     }
 	item Bag_SchoolBagCEDABlue
     {
@@ -222,6 +229,7 @@ module AuthenticZBackpacksPlus {
         ReplaceInSecondHand 	= 	Bag_SchoolBagCEDABlue_LHand holdingbagleft,
         ReplaceInPrimaryHand 	= 	Bag_SchoolBagCEDABlue_RHand holdingbagright,
 		WorldStaticModel 		= 	SchoolBag_Ground,
+        SoundParameter = EquippedBaggageContainer SchoolBag,		
     }
 	item Bag_SchoolBagCEDARed
     {
@@ -243,6 +251,7 @@ module AuthenticZBackpacksPlus {
         ReplaceInSecondHand 		= 	Bag_SchoolBagCEDARed_LHand holdingbagleft,
         ReplaceInPrimaryHand 		= 	Bag_SchoolBagCEDARed_RHand holdingbagright,
 		WorldStaticModel 			= 	SchoolBag_Ground,
+        SoundParameter = EquippedBaggageContainer SchoolBag,		
     }	
 	
 	item Bag_JerryCanBack
@@ -346,6 +355,7 @@ module AuthenticZBackpacksPlus {
         ReplaceInSecondHand = Bag_RoadsideDuffel_LHand holdingbagleft,
         ReplaceInPrimaryHand = Bag_RoadsideDuffel_Rhand holdingbagright,
         WorldStaticModel = WorldItem-RoadsideDufflebag,
+		SoundParameter = EquippedBaggageContainer DuffleBag,		
     }
 	
 	item Bag_SchoolBagNBH
@@ -368,6 +378,7 @@ module AuthenticZBackpacksPlus {
         ReplaceInSecondHand 	 = 	Bag_SchoolBagNBH_LHand holdingbagleft,
         ReplaceInPrimaryHand 	 = 	Bag_SchoolBagNBH_RHand holdingbagright,
 		WorldStaticModel 		 =	SchoolBag_Ground,
+        SoundParameter = EquippedBaggageContainer SchoolBag,		
     }
 	
 	item Bag_ProtonPack_Back

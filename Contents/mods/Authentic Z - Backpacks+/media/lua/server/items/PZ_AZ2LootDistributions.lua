@@ -8,17 +8,17 @@ AuthenticZ.tab_addMagProcedural_AZCanteen  = function(x,count)
   ProceduralDistributions.list = ProceduralDistributions.list or {};
   ProceduralDistributions.list[x] = ProceduralDistributions.list[x] or {};
   ProceduralDistributions.list[x].items = ProceduralDistributions.list[x].items or {};
-  table.insert(ProceduralDistributions.list[x].items,"AuthenticZClothing.AuthenticCanteenCadetBlue");
+  table.insert(ProceduralDistributions.list[x].items,"AuthenticZBackpacks+.AuthenticCanteenCadetBlue");
   table.insert(ProceduralDistributions.list[x].items, count);
-  table.insert(ProceduralDistributions.list[x].items,"AuthenticZClothing.AuthenticCanteenDarkGreen");
+  table.insert(ProceduralDistributions.list[x].items,"AuthenticZBackpacks+.AuthenticCanteenDarkGreen");
   table.insert(ProceduralDistributions.list[x].items, count);
-  table.insert(ProceduralDistributions.list[x].items,"AuthenticZClothing.AuthenticCanteenDarkGrey");
+  table.insert(ProceduralDistributions.list[x].items,"AuthenticZBackpacks+.AuthenticCanteenDarkGrey");
   table.insert(ProceduralDistributions.list[x].items, count);
-  table.insert(ProceduralDistributions.list[x].items,"AuthenticZClothing.AuthenticCanteenForestGreen");
+  table.insert(ProceduralDistributions.list[x].items,"AuthenticZBackpacks+.AuthenticCanteenForestGreen");
   table.insert(ProceduralDistributions.list[x].items, count); 
-  table.insert(ProceduralDistributions.list[x].items,"AuthenticZClothing.AuthenticCanteenGrey");
+  table.insert(ProceduralDistributions.list[x].items,"AuthenticZBackpacks+.AuthenticCanteenGrey");
   table.insert(ProceduralDistributions.list[x].items, count);
-  table.insert(ProceduralDistributions.list[x].items,"AuthenticZClothing.AuthenticCanteenSilver");
+  table.insert(ProceduralDistributions.list[x].items,"AuthenticZBackpacks+.AuthenticCanteenSilver");
   table.insert(ProceduralDistributions.list[x].items, count);   
 end
 --Miner hat light bulb
@@ -29,7 +29,7 @@ AuthenticZ.tab_addMagProcedural_LightBulb  = function(x,count)
   ProceduralDistributions.list[x].items = ProceduralDistributions.list[x].items or {};
   table.insert(ProceduralDistributions.list[x].items,"AuthenticZBackpacks+.Authentic_MinerLightbulb");
   table.insert(ProceduralDistributions.list[x].items, count);
-  table.insert(ProceduralDistributions.list[x].items,"AuthenticZClothing.Hat_HardHat_Miner2");
+  table.insert(ProceduralDistributions.list[x].items,"AuthenticZBackpacks+.Hat_HardHat_Miner2");
   table.insert(ProceduralDistributions.list[x].items, count);  
 end
 --Left 4 Dead Medkit
@@ -57,13 +57,13 @@ AuthenticZ.tab_addMagProcedural_BackpacksSmall  = function(x,count)
   ProceduralDistributions.list = ProceduralDistributions.list or {};
   ProceduralDistributions.list[x] = ProceduralDistributions.list[x] or {};
   ProceduralDistributions.list[x].items = ProceduralDistributions.list[x].items or {};
-  table.insert(ProceduralDistributions.list[x].items,"AuthenticZClothing.Bag_Packsport_Plain");
+  table.insert(ProceduralDistributions.list[x].items,"AuthenticZBackpacks+.Bag_Packsport_Plain");
   table.insert(ProceduralDistributions.list[x].items, count);  
-  table.insert(ProceduralDistributions.list[x].items,"AuthenticZClothing.Bag_Packsport_Rim");
+  table.insert(ProceduralDistributions.list[x].items,"AuthenticZBackpacks+.Bag_Packsport_Rim");
   table.insert(ProceduralDistributions.list[x].items, count);
-  table.insert(ProceduralDistributions.list[x].items,"AuthenticZClothing.Bag_Schoolbag_Spiffo2");
+  table.insert(ProceduralDistributions.list[x].items,"AuthenticZBackpacks+.Bag_Schoolbag_Spiffo2");
   table.insert(ProceduralDistributions.list[x].items, count);
-  table.insert(ProceduralDistributions.list[x].items,"AuthenticZClothing.Bag_B4BMom");
+  table.insert(ProceduralDistributions.list[x].items,"AuthenticZBackpacks+.Bag_B4BMom");
   table.insert(ProceduralDistributions.list[x].items, count);   
 end
 --Medium Backpacks
@@ -72,13 +72,13 @@ AuthenticZ.tab_addMagProcedural_BackpacksMedium  = function(x,count)
   ProceduralDistributions.list = ProceduralDistributions.list or {};
   ProceduralDistributions.list[x] = ProceduralDistributions.list[x] or {};
   ProceduralDistributions.list[x].items = ProceduralDistributions.list[x].items or {};
-  table.insert(ProceduralDistributions.list[x].items,"AuthenticZClothing.Bag_B4BHolly");
+  table.insert(ProceduralDistributions.list[x].items,"AuthenticZBackpacks+.Bag_B4BHolly");
   table.insert(ProceduralDistributions.list[x].items, count);  
-  table.insert(ProceduralDistributions.list[x].items,"AuthenticZClothing.Bag_B4BHoffman");
+  table.insert(ProceduralDistributions.list[x].items,"AuthenticZBackpacks+.Bag_B4BHoffman");
   table.insert(ProceduralDistributions.list[x].items, count);
-  table.insert(ProceduralDistributions.list[x].items,"AuthenticZClothing.Bag_B4BEvangelo");
+  table.insert(ProceduralDistributions.list[x].items,"AuthenticZBackpacks+.Bag_B4BEvangelo");
   table.insert(ProceduralDistributions.list[x].items, count);
-  table.insert(ProceduralDistributions.list[x].items,"AuthenticZClothing.Bag_B4BWalker");
+  table.insert(ProceduralDistributions.list[x].items,"AuthenticZBackpacks+.Bag_B4BWalker");
   table.insert(ProceduralDistributions.list[x].items, count);   
 end
 --SpiffoBags
@@ -88,7 +88,7 @@ AuthenticZ.tab_addMagProcedural_SpiffoBackpack  = function(x,count)
   ProceduralDistributions.list[x] = ProceduralDistributions.list[x] or {};
   ProceduralDistributions.list[x].junk = ProceduralDistributions.list[x].junk or {};
   ProceduralDistributions.list[x].junk.items = ProceduralDistributions.list[x].junk.items or {};
-  table.insert(ProceduralDistributions.list[x].junk.items,"AuthenticZClothing.Bag_SpiffoBackpackAZ");
+  table.insert(ProceduralDistributions.list[x].junk.items,"AuthenticZBackpacks+.Bag_SpiffoBackpackAZ");
   table.insert(ProceduralDistributions.list[x].junk.items, count);  
 end
 
@@ -98,11 +98,11 @@ AuthenticZ.tab_addMagProcedural_Glowsticks  = function(x,count)
   ProceduralDistributions.list = ProceduralDistributions.list or {};
   ProceduralDistributions.list[x] = ProceduralDistributions.list[x] or {};
   ProceduralDistributions.list[x].items = ProceduralDistributions.list[x].items or {};
-  table.insert(ProceduralDistributions.list[x].items,"AuthenticZClothing.AuthenticGlowstick_Yellow");
+  table.insert(ProceduralDistributions.list[x].items,"AuthenticZBackpacks+.AuthenticGlowstick_Yellow");
   table.insert(ProceduralDistributions.list[x].items, count);
-  table.insert(ProceduralDistributions.list[x].items,"AuthenticZClothing.AuthenticGlowstick_Green");
+  table.insert(ProceduralDistributions.list[x].items,"AuthenticZBackpacks+.AuthenticGlowstick_Green");
   table.insert(ProceduralDistributions.list[x].items, count);
-  table.insert(ProceduralDistributions.list[x].items,"AuthenticZClothing.AuthenticGlowstick_Red");
+  table.insert(ProceduralDistributions.list[x].items,"AuthenticZBackpacks+.AuthenticGlowstick_Red");
   table.insert(ProceduralDistributions.list[x].items, count);
 end
 
@@ -112,7 +112,7 @@ AuthenticZ.tab_addMagProcedural_GlowstickPack  = function(x,count)
   ProceduralDistributions.list = ProceduralDistributions.list or {};
   ProceduralDistributions.list[x] = ProceduralDistributions.list[x] or {};
   ProceduralDistributions.list[x].items = ProceduralDistributions.list[x].items or {};
-  table.insert(ProceduralDistributions.list[x].items,"AuthenticZClothing.AuthenticGlowstick_Pack");
+  table.insert(ProceduralDistributions.list[x].items,"AuthenticZBackpacks+.AuthenticGlowstick_Pack");
   table.insert(ProceduralDistributions.list[x].items, count);
 end
 
@@ -122,7 +122,7 @@ AuthenticZ.tab_addMagProcedural_Carabiner  = function(x,count)
   ProceduralDistributions.list = ProceduralDistributions.list or {};
   ProceduralDistributions.list[x] = ProceduralDistributions.list[x] or {};
   ProceduralDistributions.list[x].items = ProceduralDistributions.list[x].items or {};
-  table.insert(ProceduralDistributions.list[x].items,"AuthenticZClothing.AZ_MetalClip");
+  table.insert(ProceduralDistributions.list[x].items,"AuthenticZBackpacks+.AZ_MetalClip");
   table.insert(ProceduralDistributions.list[x].items, count);
 end
 --Military Flashlights
@@ -131,9 +131,9 @@ AuthenticZ.tab_addMagProcedural_AZMilitaryFlashlight  = function(x,count)
   ProceduralDistributions.list = ProceduralDistributions.list or {};
   ProceduralDistributions.list[x] = ProceduralDistributions.list[x] or {};
   ProceduralDistributions.list[x].items = ProceduralDistributions.list[x].items or {};
-  table.insert(ProceduralDistributions.list[x].items,"AuthenticZClothing.Authentic_MilitaryFlashlightGrey");
+  table.insert(ProceduralDistributions.list[x].items,"AuthenticZBackpacks+.Authentic_MilitaryFlashlightGrey");
   table.insert(ProceduralDistributions.list[x].items, count);
-  table.insert(ProceduralDistributions.list[x].items,"AuthenticZClothing.Authentic_MilitaryFlashlightGreen");
+  table.insert(ProceduralDistributions.list[x].items,"AuthenticZBackpacks+.Authentic_MilitaryFlashlightGreen");
   table.insert(ProceduralDistributions.list[x].items, count);  
 end
 --Tactical Webbing and belt
@@ -159,18 +159,28 @@ AuthenticZ.tab_addMagProcedural_Plushies  = function(x,count)
   ProceduralDistributions.list = ProceduralDistributions.list or {};
   ProceduralDistributions.list[x] = ProceduralDistributions.list[x] or {};
   ProceduralDistributions.list[x].items = ProceduralDistributions.list[x].items or {};
-  table.insert(ProceduralDistributions.list[x].items,"AuthenticZClothing.SpiffoGrey");
+  table.insert(ProceduralDistributions.list[x].items,"AuthenticZBackpacks+.SpiffoGrey");
   table.insert(ProceduralDistributions.list[x].items, count);
-  table.insert(ProceduralDistributions.list[x].items,"AuthenticZClothing.ToyBearSmall");  
+  table.insert(ProceduralDistributions.list[x].items,"AuthenticZBackpacks+.ToyBearSmall");  
   table.insert(ProceduralDistributions.list[x].items, count);
-  table.insert(ProceduralDistributions.list[x].items,"AuthenticZClothing.SpiffoPlushieBlueberry");
+  table.insert(ProceduralDistributions.list[x].items,"AuthenticZBackpacks+.SpiffoPlushieBlueberry");
   table.insert(ProceduralDistributions.list[x].items, count);  
-  table.insert(ProceduralDistributions.list[x].items,"AuthenticZClothing.SpiffoPlushieHeart");
+  table.insert(ProceduralDistributions.list[x].items,"AuthenticZBackpacks+.SpiffoPlushieHeart");
   table.insert(ProceduralDistributions.list[x].items, count);
-  table.insert(ProceduralDistributions.list[x].items,"AuthenticZClothing.SpiffoPlushieRainbow");
+  table.insert(ProceduralDistributions.list[x].items,"AuthenticZBackpacks+.SpiffoPlushieRainbow");
   table.insert(ProceduralDistributions.list[x].items, count);     
-  table.insert(ProceduralDistributions.list[x].items,"AuthenticZClothing.SpiffoPlushieShamrock");
+  table.insert(ProceduralDistributions.list[x].items,"AuthenticZBackpacks+.SpiffoPlushieShamrock");
+  table.insert(ProceduralDistributions.list[x].items, count);
+  table.insert(ProceduralDistributions.list[x].items,"AuthenticZBackpacks+.SpiffoCherry");
+  table.insert(ProceduralDistributions.list[x].items, count);    
+  table.insert(ProceduralDistributions.list[x].items,"AuthenticZBackpacks+.SpiffoSanta");
   table.insert(ProceduralDistributions.list[x].items, count);   
+  table.insert(ProceduralDistributions.list[x].items,"AuthenticZBackpacks+.Flamingo");
+  table.insert(ProceduralDistributions.list[x].items, count);
+  table.insert(ProceduralDistributions.list[x].items,"AuthenticZBackpacks+.OtisPug");
+  table.insert(ProceduralDistributions.list[x].items, count); 
+  table.insert(ProceduralDistributions.list[x].items,"AuthenticZBackpacks+.SubstitutionDoll");
+  table.insert(ProceduralDistributions.list[x].items, count);    
 end
 
 AuthenticZ.tab_addMagProcedural_AZCanteen("CrateCarpentry",1.0);

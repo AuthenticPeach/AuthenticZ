@@ -308,6 +308,19 @@
         FabricType = Cotton,
 		WorldStaticModel = Shirt_Ground,		
 	}
+    item Shirt_UndershirtFancy
+	{
+        DisplayCategory = Clothing,		
+		Type = Clothing,
+		DisplayName = Fancy Undershirt,
+		ClothingItem = Shirt_UndershirtFancy,
+		BodyLocation = Shirt,
+		IconsForTexture = FancyUndershirt_Black;FancyUndershirt_Brown;FancyUndershirt_Green;FancyUndershirt_Red;FancyUndershirt_Yellow,
+        Insulation = 0.25,
+        WindResistance = 0.15,
+        FabricType = Cotton,
+		WorldStaticModel = Shirt_Ground,		
+	}	
      item Shirt_Walker
 	{
         DisplayCategory = Clothing,		

@@ -457,6 +457,7 @@ recipe Open Medical Coat
   	}
 recipe Tie Apron Around Dress
   	{
+	   Apron_White,	
    	   Dress_BallroomDress_Striped,
 	   OnTest:KoniTestAZ_OnTest_ConvertClothing,
 	   OnCreate:KoniTestAZ_OnCreate_ConvertClothing,
@@ -465,6 +466,7 @@ recipe Tie Apron Around Dress
   	}	
 recipe Tie Apron Around Dress
   	{
+	   Apron_White,
    	   Dress_BallroomDress_LongSleevedButtoned,
 	   OnTest:KoniTestAZ_OnTest_ConvertClothing,
 	   OnCreate:KoniTestAZ_OnCreate_ConvertClothing,

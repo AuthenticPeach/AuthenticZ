@@ -403,7 +403,9 @@ AuthenticZ.tab_addMagProcedural_Plushies  = function(x,count)
   table.insert(ProceduralDistributions.list[x].items,"AuthenticZLite.Flamingo");
   table.insert(ProceduralDistributions.list[x].items, count);
   table.insert(ProceduralDistributions.list[x].items,"AuthenticZLite.OtisPug");
-  table.insert(ProceduralDistributions.list[x].items, count);  
+  table.insert(ProceduralDistributions.list[x].items, count);
+  table.insert(ProceduralDistributions.list[x].items,"AuthenticZLite.SubstitutionDoll");
+  table.insert(ProceduralDistributions.list[x].items, count);   
 end
 
 --Viking Set

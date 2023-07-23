@@ -1053,9 +1053,9 @@ ItemName_EN = {
     ItemName_AuthenticZClothing.Dress_BallroomDress_Elegant = "Elegant Round Gown",		
     ItemName_AuthenticZClothing.Dress_BallroomDress_LongSleevedButtoned = "Long-Sleeved Round Gown",		
     ItemName_AuthenticZClothing.Dress_BallroomDress_LongSleevedButtonedApron = "Long-Sleeved Round Gown with Apron",		
-    ItemName_AuthenticZClothing.Dress_BallroomDress_Simple = "Round Gown",	
-    ItemName_AuthenticZClothing.Dress_BallroomDress_Striped = "Round Gown",		
-    ItemName_AuthenticZClothing.Dress_BallroomDress_StripedApron = "Round Gown with Apron",	
+    ItemName_AuthenticZClothing.Dress_BallroomDress_Simple = "Modern Round Gown",	
+    ItemName_AuthenticZClothing.Dress_BallroomDress_Striped = "Short-Sleeved Round Gown",		
+    ItemName_AuthenticZClothing.Dress_BallroomDress_StripedApron = "Short-Sleeved Round Gown with Apron",	
     ItemName_AuthenticZClothing.Dress_BallroomDress_Pattern = "Round Gown",	
     ItemName_AuthenticZClothing.Gloves_LeatherGauntlets = "Leather Gauntlets",		
     ItemName_AuthenticZClothing.Hat_VikingHelmet = "Viking Helmet",	
@@ -1169,4 +1169,7 @@ ItemName_EN = {
 	/* New */	
 	ItemName_AuthenticZClothing.Hat_Bonnet_Tied = "Bonnet (Tied)",
 	ItemName_AuthenticZClothing.Hat_Bonnet_UnTied = "Bonnet (Untied)",
+
+	ItemName_AuthenticZClothing.Shirt_UndershirtFancy = "Fancy Undershirt",
+	ItemName_AuthenticZClothing.SubstitutionDoll = "Substitution Doll",
 }

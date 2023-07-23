@@ -46,5 +46,9 @@ ContextMenu_EN = {
     ContextMenu_WearRight = "Wear on Right Side",
 	
 	/* Update 3-3-23 */			
-    ContextMenu_WearSideways = "Wear Sideways",	
+    ContextMenu_WearSideways = "Wear Sideways",
+	
+	/* New */			
+    ContextMenu_UntieBonnet = "Untie Bonnet",	
+    ContextMenu_TieBonnet = "Tie Bonnet",	
 } 

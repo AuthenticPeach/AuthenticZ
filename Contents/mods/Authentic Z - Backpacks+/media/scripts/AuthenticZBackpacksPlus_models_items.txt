@@ -571,6 +571,11 @@ model AuthenticAquaBottle_Blue
         texture = clothes\Items\SpiffoPlushieRainbow,		
         scale = 0.4,
     }
+	model WorldItem_SubstitutionPlushie
+	{
+		mesh = WorldItems/WorldItem-SubstitutionDoll,
+		texture = clothes\Items\Substitution,		
+	}	
 	model WeaponSpritePipeBombSensor
     {
 		mesh = Weapons/1Handed/WSPipeBombSensor,

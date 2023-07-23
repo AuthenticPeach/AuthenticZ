@@ -20,10 +20,6 @@ module AuthenticZClothing{
         BloodLocation 			= 	Bag,
         RunSpeedModifier 		= 	0.97,
         AttachmentReplacement	= 	Bag,
-		AttachmentsProvided  	= 	SchoolbagBagSecondary;SchoolbagBottleRight;SchoolbagBalloonRight,		
-        ReplaceInSecondHand  	= 	Bag_Schoolbag_LHand holdingbagleft,
-        ReplaceInPrimaryHand 	= 	Bag_Schoolbag_RHand holdingbagright,
-        WorldStaticModel 	 	= 	SchoolBag_Ground,
 				OBSOLETE			=	TRUE,
     }
 
@@ -44,10 +40,6 @@ module AuthenticZClothing{
         BloodLocation 			= 	Bag,
         RunSpeedModifier 		= 	0.97,
         AttachmentReplacement	= 	Bag,
-		AttachmentsProvided  	= 	SchoolbagBagSecondary;SchoolbagItemSlot1;SchoolbagBottleRight;SchoolbagPlushie;SchoolbagUmbrellaLeft;SchoolbagBalloonRight,		
-        ReplaceInSecondHand  	= 	Bag_Schoolbag_LHand holdingbagleft,
-        ReplaceInPrimaryHand 	= 	Bag_Schoolbag_RHand holdingbagright,
-        WorldStaticModel 	 	= 	SchoolBag_Ground,
 				OBSOLETE			=	TRUE,
     }
 
@@ -68,10 +60,6 @@ module AuthenticZClothing{
         BloodLocation 			= 	Bag,
         RunSpeedModifier 		= 	0.97,
         AttachmentReplacement	= 	Bag,
-		AttachmentsProvided  	= 	SchoolbagBagSecondary;SchoolbagItemSlot2;SchoolbagItemSlot3;SchoolbagBottleRight;SchoolbagPlushie;SchoolbagUmbrellaLeft;SchoolbagFlashlight;SchoolbagBalloonRight,		
-        ReplaceInSecondHand  	= 	Bag_Schoolbag_LHand holdingbagleft,
-        ReplaceInPrimaryHand 	= 	Bag_Schoolbag_RHand holdingbagright,
-        WorldStaticModel 	 	= 	SchoolBag_Ground,
 				OBSOLETE			=	TRUE,
     }
 	item Bag_SchoolBagNBH_Tier_1
@@ -91,10 +79,6 @@ module AuthenticZClothing{
         BloodLocation 			= 	Bag,
         RunSpeedModifier 		= 	0.97,
         AttachmentReplacement	= 	Bag,
-		AttachmentsProvided  	= 	SchoolbagBagSecondary;SchoolbagBottleRight;SchoolbagBalloonRight,		
-        ReplaceInSecondHand 	= 	Bag_SchoolBagNBH_LHand holdingbagleft,
-        ReplaceInPrimaryHand	= 	Bag_SchoolBagNBH_RHand holdingbagright,
-        WorldStaticModel 	 	= 	SchoolBag_Ground,
 				OBSOLETE			=	TRUE,
     }
 
@@ -115,10 +99,6 @@ module AuthenticZClothing{
         BloodLocation 			= 	Bag,
         RunSpeedModifier 		= 	0.97,
         AttachmentReplacement	= 	Bag,
-		AttachmentsProvided  	= 	SchoolbagBagSecondary;SchoolbagItemSlot1;SchoolbagBottleRight;SchoolbagPlushie;SchoolbagUmbrellaLeft;SchoolbagBalloonRight,		
-        ReplaceInSecondHand 	= 	Bag_SchoolBagNBH_LHand holdingbagleft,
-        ReplaceInPrimaryHand 	= 	Bag_SchoolBagNBH_RHand holdingbagright,
-        WorldStaticModel 	 	= 	SchoolBag_Ground,
 				OBSOLETE			=	TRUE,
     }
 
@@ -139,10 +119,6 @@ module AuthenticZClothing{
         BloodLocation 			= 	Bag,
         RunSpeedModifier 		= 	0.97,
         AttachmentReplacement	= 	Bag,
-		AttachmentsProvided  	= 	SchoolbagBagSecondary;SchoolbagItemSlot2;SchoolbagItemSlot3;SchoolbagBottleRight;SchoolbagPlushie;SchoolbagUmbrellaLeft;SchoolbagFlashlight;SchoolbagBalloonRight,		
-        ReplaceInSecondHand 	= 	Bag_SchoolBagNBH_LHand holdingbagleft,
-        ReplaceInPrimaryHand 	= 	Bag_SchoolBagNBH_RHand holdingbagright,
-        WorldStaticModel 	 	= 	SchoolBag_Ground,
 				OBSOLETE			=	TRUE,
     }	
 	item Bag_SchoolBagCEDA_Tier_1
@@ -162,10 +138,6 @@ module AuthenticZClothing{
         BloodLocation 			= 	Bag,
         RunSpeedModifier 		= 	0.97,
         AttachmentReplacement	= 	Bag,
-		AttachmentsProvided  	= 	SchoolbagBagSecondary;SchoolbagBottleRight;SchoolbagBalloonRight,		
-        ReplaceInSecondHand 	= 	Bag_SchoolBagCEDA_LHand holdingbagleft,
-        ReplaceInPrimaryHand	= 	Bag_SchoolBagCEDA_RHand holdingbagright,
-        WorldStaticModel 	 	= 	SchoolBag_Ground,
 				OBSOLETE			=	TRUE,
     }
 
@@ -186,10 +158,6 @@ module AuthenticZClothing{
         BloodLocation 			= 	Bag,
         RunSpeedModifier 		= 	0.97,
         AttachmentReplacement	= 	Bag,
-		AttachmentsProvided  	= 	SchoolbagBagSecondary;SchoolbagItemSlot1;SchoolbagBottleRight;SchoolbagPlushie;SchoolbagUmbrellaLeft;SchoolbagBalloonRight,		
-        ReplaceInSecondHand 	= 	Bag_SchoolBagCEDA_LHand holdingbagleft,
-        ReplaceInPrimaryHand 	= 	Bag_SchoolBagCEDA_RHand holdingbagright,
-        WorldStaticModel 	 	= 	SchoolBag_Ground,
 				OBSOLETE			=	TRUE,
     }
 
@@ -210,10 +178,6 @@ module AuthenticZClothing{
         BloodLocation 			= 	Bag,
         RunSpeedModifier 		= 	0.97,
         AttachmentReplacement	= 	Bag,
-		AttachmentsProvided  	= 	SchoolbagBagSecondary;SchoolbagItemSlot2;SchoolbagItemSlot3;SchoolbagBottleRight;SchoolbagPlushie;SchoolbagUmbrellaLeft;SchoolbagFlashlight;SchoolbagBalloonRight,		
-        ReplaceInSecondHand 	= 	Bag_SchoolBagCEDA_LHand holdingbagleft,
-        ReplaceInPrimaryHand 	= 	Bag_SchoolBagCEDA_RHand holdingbagright,
-        WorldStaticModel 	 	= 	SchoolBag_Ground,
 				OBSOLETE			=	TRUE,
     }
 	item Bag_SchoolBagCEDABlack_Tier_1
@@ -233,10 +197,6 @@ module AuthenticZClothing{
         BloodLocation 			= 	Bag,
         RunSpeedModifier 		= 	0.97,
         AttachmentReplacement	= 	Bag,
-		AttachmentsProvided  	= 	SchoolbagBagSecondary;SchoolbagBottleRight;SchoolbagBalloonRight,		
-        ReplaceInSecondHand 	= 	Bag_SchoolBagCEDABlack_LHand holdingbagleft,
-        ReplaceInPrimaryHand 	= 	Bag_SchoolBagCEDABlack_RHand holdingbagright,
-        WorldStaticModel 	 	= 	SchoolBag_Ground,
 				OBSOLETE			=	TRUE,
     }
 
@@ -257,10 +217,6 @@ module AuthenticZClothing{
         BloodLocation 			= 	Bag,
         RunSpeedModifier 		= 	0.97,
         AttachmentReplacement	= 	Bag,
-		AttachmentsProvided  	= 	SchoolbagBagSecondary;SchoolbagItemSlot1;SchoolbagBottleRight;SchoolbagPlushie;SchoolbagUmbrellaLeft;SchoolbagBalloonRight,		
-        ReplaceInSecondHand 	= 	Bag_SchoolBagCEDABlack_LHand holdingbagleft,
-        ReplaceInPrimaryHand 	= 	Bag_SchoolBagCEDABlack_RHand holdingbagright,
-        WorldStaticModel 	 	= 	SchoolBag_Ground,
 				OBSOLETE			=	TRUE,
     }
 
@@ -281,10 +237,6 @@ module AuthenticZClothing{
         BloodLocation 			= 	Bag,
         RunSpeedModifier 		= 	0.97,
         AttachmentReplacement	= 	Bag,
-		AttachmentsProvided  	= 	SchoolbagBagSecondary;SchoolbagItemSlot2;SchoolbagItemSlot3;SchoolbagBottleRight;SchoolbagPlushie;SchoolbagUmbrellaLeft;SchoolbagFlashlight;SchoolbagBalloonRight,		
-        ReplaceInSecondHand 	= 	Bag_SchoolBagCEDABlack_LHand holdingbagleft,
-        ReplaceInPrimaryHand 	= 	Bag_SchoolBagCEDABlack_RHand holdingbagright,
-        WorldStaticModel 	 	= 	SchoolBag_Ground,
 				OBSOLETE			=	TRUE,
     }
 	item Bag_SchoolBagCEDARed_Tier_1
@@ -304,10 +256,6 @@ module AuthenticZClothing{
         BloodLocation 			= 	Bag,
         RunSpeedModifier 		= 	0.97,
         AttachmentReplacement	= 	Bag,
-		AttachmentsProvided  	= 	SchoolbagBagSecondary;SchoolbagBottleRight;SchoolbagBalloonRight,		
-        ReplaceInSecondHand 	= 	Bag_SchoolBagCEDARed_LHand holdingbagleft,
-        ReplaceInPrimaryHand 	= 	Bag_SchoolBagCEDARed_RHand holdingbagright,
-        WorldStaticModel 	 	= 	SchoolBag_Ground,
 				OBSOLETE			=	TRUE,
     }
 
@@ -328,10 +276,6 @@ module AuthenticZClothing{
         BloodLocation 			= 	Bag,
         RunSpeedModifier 		= 	0.97,
         AttachmentReplacement	= 	Bag,
-		AttachmentsProvided  	= 	SchoolbagBagSecondary;SchoolbagItemSlot1;SchoolbagBottleRight;SchoolbagPlushie;SchoolbagUmbrellaLeft;SchoolbagBalloonRight,		
-        ReplaceInSecondHand 	= 	Bag_SchoolBagCEDARed_LHand holdingbagleft,
-        ReplaceInPrimaryHand 	= 	Bag_SchoolBagCEDARed_RHand holdingbagright,
-        WorldStaticModel 	 	= 	SchoolBag_Ground,
 				OBSOLETE			=	TRUE,
     }
 
@@ -352,10 +296,6 @@ module AuthenticZClothing{
         BloodLocation 			= 	Bag,
         RunSpeedModifier 		= 	0.97,
         AttachmentReplacement	= 	Bag,
-		AttachmentsProvided  	= 	SchoolbagBagSecondary;SchoolbagItemSlot2;SchoolbagItemSlot3;SchoolbagBottleRight;SchoolbagPlushie;SchoolbagUmbrellaLeft;SchoolbagFlashlight;SchoolbagBalloonRight,		
-        ReplaceInSecondHand 	= 	Bag_SchoolBagCEDARed_LHand holdingbagleft,
-        ReplaceInPrimaryHand 	= 	Bag_SchoolBagCEDARed_RHand holdingbagright,
-        WorldStaticModel 	 	= 	SchoolBag_Ground,
 				OBSOLETE			=	TRUE,
     }
 
@@ -376,10 +316,6 @@ module AuthenticZClothing{
         BloodLocation 			= 	Bag,
         RunSpeedModifier 		= 	0.97,
         AttachmentReplacement	= 	Bag,
-		AttachmentsProvided  	= 	SchoolbagBagSecondary;SchoolbagBottleRight;SchoolbagBalloonRight,		
-        ReplaceInSecondHand 	= 	Bag_SchoolBagCEDABlue_LHand holdingbagleft,
-        ReplaceInPrimaryHand 	= 	Bag_SchoolBagCEDABlue_RHand holdingbagright,
-        WorldStaticModel 	 	= 	SchoolBag_Ground,
 				OBSOLETE			=	TRUE,
     }
 
@@ -400,10 +336,6 @@ module AuthenticZClothing{
         BloodLocation 			= 	Bag,
         RunSpeedModifier 		= 	0.97,
         AttachmentReplacement	= 	Bag,
-		AttachmentsProvided  	= 	SchoolbagBagSecondary;SchoolbagItemSlot1;SchoolbagBottleRight;SchoolbagPlushie;SchoolbagUmbrellaLeft;SchoolbagBalloonRight,		
-        ReplaceInSecondHand 	= 	Bag_SchoolBagCEDABlue_LHand holdingbagleft,
-        ReplaceInPrimaryHand 	= 	Bag_SchoolBagCEDABlue_RHand holdingbagright,
-        WorldStaticModel 	 	= 	SchoolBag_Ground,
 				OBSOLETE			=	TRUE,
     }
 
@@ -424,10 +356,6 @@ module AuthenticZClothing{
         BloodLocation 			= 	Bag,
         RunSpeedModifier 		= 	0.97,
         AttachmentReplacement	= 	Bag,
-		AttachmentsProvided  	= 	SchoolbagBagSecondary;SchoolbagItemSlot2;SchoolbagItemSlot3;SchoolbagBottleRight;SchoolbagPlushie;SchoolbagUmbrellaLeft;SchoolbagFlashlight;SchoolbagBalloonRight,		
-        ReplaceInSecondHand 	= 	Bag_SchoolBagCEDABlue_LHand  ,
-        ReplaceInPrimaryHand 	= 	Bag_SchoolBagCEDABlue_RHand holdingbagright,
-        WorldStaticModel 	 	= 	SchoolBag_Ground,
 				OBSOLETE			=	TRUE,
     }	
 
@@ -448,10 +376,6 @@ module AuthenticZClothing{
         RunSpeedModifier 		= 	0.95,
         CanHaveHoles 			= 	false,       
 		AttachmentReplacement	= 	Bag,
-		AttachmentsProvided  	= 	DufflebagSecondary;DufflebagBottleRight;DufflebagBalloonLeft,
-        ReplaceInSecondHand 	= 	Bag_DuffelBag_LHand holdingbagleft,
-        ReplaceInPrimaryHand 	= 	Bag_DuffelBag_RHand holdingbagright,
-        WorldStaticModel 		= 	DuffelBag_Ground,
 				OBSOLETE			=	TRUE,
     }	
     item Bag_DuffelBag_Tier_2
@@ -471,10 +395,6 @@ module AuthenticZClothing{
         RunSpeedModifier 		= 	0.95,
         CanHaveHoles	 		= 	false,
         AttachmentReplacement	= 	Bag,
-		AttachmentsProvided  	= 	SchoolbagBagSecondary;DufflebagItemSlot1;DufflebagBottleRight;DufflebagPlushie;SchoolbagUmbrellaLeft;DufflebagBalloonLeft,						
-        ReplaceInSecondHand 	= 	Bag_DuffelBag_LHand holdingbagleft,
-        ReplaceInPrimaryHand 	= 	Bag_DuffelBag_RHand holdingbagright,
-        WorldStaticModel 		= 	DuffelBag_Ground,
 				OBSOLETE			=	TRUE,
     }
     item Bag_DuffelBag_Tier_3
@@ -492,12 +412,6 @@ module AuthenticZClothing{
         CloseSound   			=   CloseBag,
         PutInSound   			=   PutItemInBag,
         RunSpeedModifier 		= 	0.95,
-        CanHaveHoles 			= 	false,
-        AttachmentReplacement	= 	Bag,
-		AttachmentsProvided  	= 	DufflebagSecondary;DufflebagItemSlot1;DufflebagItemSlot2;DufflebagItemSlot3;DufflebagBottleRight;DufflebagPlushie;DufflebagUmbrellaRight;DufflebagFlashlight;DufflebagBalloonLeft,				
-        ReplaceInSecondHand 	= 	Bag_DuffelBag_LHand holdingbagleft,
-        ReplaceInPrimaryHand 	= 	Bag_DuffelBag_RHand holdingbagright,
-        WorldStaticModel 		= 	DuffelBag_Ground,
 				OBSOLETE			=	TRUE,
     }
     item Bag_DuffelBagTINT_Tier_1
@@ -515,12 +429,6 @@ module AuthenticZClothing{
         CloseSound   			=   CloseBag,
         PutInSound   			=   PutItemInBag,
         RunSpeedModifier 		= 	0.95,
-        CanHaveHoles 			= 	false,       
-		AttachmentReplacement	= 	Bag,
-		AttachmentsProvided  	= 	DufflebagSecondary;DufflebagBottleRight;DufflebagBalloonLeft,
-        ReplaceInSecondHand 	= 	Bag_DuffelBag_LHandTINT holdingbagleft,
-        ReplaceInPrimaryHand 	= 	Bag_DuffelBag_RHandTINT holdingbagright,
-        WorldStaticModel 		= 	DuffelBag_Ground,
 				OBSOLETE			=	TRUE,
     }	
     item Bag_DuffelBagTINT_Tier_2
@@ -538,12 +446,6 @@ module AuthenticZClothing{
         CloseSound   			=   CloseBag,
         PutInSound   			=   PutItemInBag,
         RunSpeedModifier 		= 	0.95,
-        CanHaveHoles	 		= 	false,
-        AttachmentReplacement	= 	Bag,
-		AttachmentsProvided  	= 	SchoolbagBagSecondary;DufflebagItemSlot1;DufflebagBottleRight;DufflebagPlushie;SchoolbagUmbrellaLeft;DufflebagBalloonLeft,						
-        ReplaceInSecondHand 	= 	Bag_DuffelBag_LHandTINT holdingbagleft,
-        ReplaceInPrimaryHand 	= 	Bag_DuffelBag_RHandTINT holdingbagright,
-        WorldStaticModel 		= 	DuffelBag_Ground,
 				OBSOLETE			=	TRUE,
     }
     item Bag_DuffelBagTINT_Tier_3
@@ -561,12 +463,6 @@ module AuthenticZClothing{
         CloseSound   			=   CloseBag,
         PutInSound   			=   PutItemInBag,
         RunSpeedModifier 		= 	0.95,
-        CanHaveHoles 			= 	false,
-        AttachmentReplacement	= 	Bag,
-		AttachmentsProvided  	= 	DufflebagSecondary;DufflebagItemSlot1;DufflebagItemSlot2;DufflebagItemSlot3;DufflebagBottleRight;DufflebagPlushie;DufflebagUmbrellaRight;DufflebagFlashlight;DufflebagBalloonLeft,				
-        ReplaceInSecondHand 	= 	Bag_DuffelBag_LHandTINT holdingbagleft,
-        ReplaceInPrimaryHand 	= 	Bag_DuffelBag_RHandTINT holdingbagright,
-        WorldStaticModel 		= 	DuffelBag_Ground,
 				OBSOLETE			=	TRUE,
     }	
     item Bag_DuffelBagGrey_Tier_1 /* Grey Duffles*/
@@ -584,12 +480,6 @@ module AuthenticZClothing{
         CloseSound   			=   CloseBag,
         PutInSound   			=   PutItemInBag,
         RunSpeedModifier 		= 	0.95,
-        CanHaveHoles 			= 	false,       
-		AttachmentReplacement	= 	Bag,
-		AttachmentsProvided  	= 	DufflebagSecondary;DufflebagBottleRight;DufflebagBalloonLeft,
-        ReplaceInSecondHand 	= 	Bag_DuffelBag_LHandTINT holdingbagleft,
-        ReplaceInPrimaryHand 	= 	Bag_DuffelBag_RHandTINT holdingbagright,
-        WorldStaticModel 		= 	DuffelBag_Ground,
 				OBSOLETE			=	TRUE,
     }	
     item Bag_DuffelBagGrey_Tier_2 /* Grey Duffles*/
@@ -609,10 +499,6 @@ module AuthenticZClothing{
         RunSpeedModifier 		= 	0.95,
         CanHaveHoles	 		= 	false,
         AttachmentReplacement	= 	Bag,
-		AttachmentsProvided  	= 	SchoolbagBagSecondary;DufflebagItemSlot1;DufflebagBottleRight;DufflebagPlushie;SchoolbagUmbrellaLeft;DufflebagBalloonLeft,						
-        ReplaceInSecondHand 	= 	Bag_DuffelBag_LHandTINT holdingbagleft,
-        ReplaceInPrimaryHand 	= 	Bag_DuffelBag_RHandTINT holdingbagright,
-        WorldStaticModel 		= 	DuffelBag_Ground,
 				OBSOLETE			=	TRUE,
     }
     item Bag_DuffelBagGrey_Tier_3 /* Grey Duffles*/
@@ -632,10 +518,6 @@ module AuthenticZClothing{
         RunSpeedModifier 		= 	0.95,
         CanHaveHoles 			= 	false,
         AttachmentReplacement	= 	Bag,
-		AttachmentsProvided  	= 	DufflebagSecondary;DufflebagItemSlot1;DufflebagItemSlot2;DufflebagItemSlot3;DufflebagBottleRight;DufflebagPlushie;DufflebagUmbrellaRight;DufflebagFlashlight;DufflebagBalloonLeft,				
-        ReplaceInSecondHand 	= 	Bag_DuffelBag_LHandTINT holdingbagleft,
-        ReplaceInPrimaryHand 	= 	Bag_DuffelBag_RHandTINT holdingbagright,
-        WorldStaticModel 		= 	DuffelBag_Ground,
 				OBSOLETE			=	TRUE,
     }	
     item Bag_NormalHikingBag_Tier_1
@@ -648,17 +530,10 @@ module AuthenticZClothing{
         DisplayName				=	Hiking Bag - Tier 1,
         IconsForTexture			=	Hiking_Blue;Hiking_Green;Hiking_Red,
         CanBeEquipped 			= 	Back,
-        OpenSound   			=   OpenBag,
-        CloseSound   			=   CloseBag,
-        PutInSound   			=   PutItemInBag,
         ClothingItem 			= 	Bag_HikingBag_Tier1,
         BloodLocation 			= 	Bag,
         RunSpeedModifier 		= 	0.96,
         AttachmentReplacement 	= 	Bag,
-		AttachmentsProvided  	= 	HikingbagSecondary;HikingBagItemSlot1;HikingBagBottleRight;SchoolbagBalloonRight,			
-        ReplaceInSecondHand 	= 	Bag_HikingBag_LHand holdingbagleft,
-        ReplaceInPrimaryHand 	= 	Bag_HikingBag_RHand holdingbagright,
-        WorldStaticModel 		= 	HikingBag_Ground,
 				OBSOLETE			=	TRUE,
     }
 	
@@ -672,17 +547,10 @@ module AuthenticZClothing{
         DisplayName				=	Hiking Bag - Tier 2,
         IconsForTexture			=	Hiking_Blue;Hiking_Green;Hiking_Red,
         CanBeEquipped 			= 	Back,
-        OpenSound   			=   OpenBag,
-        CloseSound   			=   CloseBag,
-        PutInSound   			=   PutItemInBag,
         ClothingItem 			= 	Bag_HikingBag_Tier2,
         BloodLocation 			= 	Bag,
         RunSpeedModifier		= 	0.96,
         AttachmentReplacement 	= 	Bag,
-		AttachmentsProvided  	= 	HikingbagSecondary;HikingBagItemSlot1;HikingBagItemSlot2;HikingBagBottleRight;HikingBagPlushie;HikingbagUmbrellaLeft;SchoolbagBalloonRight,				
-        ReplaceInSecondHand 	= 	Bag_HikingBag_LHand holdingbagleft,
-        ReplaceInPrimaryHand 	= 	Bag_HikingBag_RHand holdingbagright,
-        WorldStaticModel 		= 	HikingBag_Ground,
 				OBSOLETE			=	TRUE,
     }	
  
@@ -696,17 +564,10 @@ module AuthenticZClothing{
         DisplayName				=	Hiking Bag - Tier 3,
         IconsForTexture			=	Hiking_Blue;Hiking_Green;Hiking_Red,
         CanBeEquipped 			= 	Back,
-        OpenSound   			=   OpenBag,
-        CloseSound  			=   CloseBag,
-        PutInSound   			=   PutItemInBag,
         ClothingItem 			= 	Bag_HikingBag_Tier3,
         BloodLocation 			= 	Bag,
         RunSpeedModifier 		= 	0.96,
         AttachmentReplacement 	= 	Bag,
-		AttachmentsProvided  	= 	HikingbagSecondary;HikingBagItemSlot1;HikingBagItemSlot2;HikingBagItemSlot3;HikingBagBottleRight;HikingBagBottleLeft;HikingBagPlushie;HikingbagUmbrellaLeft;HikingBagFlashlight;SchoolbagBalloonRight,					
-        ReplaceInSecondHand 	= 	Bag_HikingBag_LHand holdingbagleft,
-        ReplaceInPrimaryHand 	= 	Bag_HikingBag_RHand holdingbagright,
-        WorldStaticModel 		= 	HikingBag_Ground,
 				OBSOLETE			=	TRUE,
     }	
   
@@ -720,17 +581,10 @@ module AuthenticZClothing{
         DisplayName				=	Big Hiking Bag - Tier 1,
         IconsForTexture 		= 	BigHiking_Blue;BigHiking_Green;BigHiking_Red,
         CanBeEquipped 			= 	Back,
-        OpenSound   			=   OpenBag,
-        CloseSound   			=   CloseBag,
-        PutInSound   			=   PutItemInBag,
         ClothingItem 			= 	Bag_BigHikingBag_Tier1,
         BloodLocation 			= 	Bag,
         RunSpeedModifier 		= 	0.95,
         AttachmentReplacement 	= 	Bag,
-		AttachmentsProvided  	= 	BigHikingbagSecondary;BigHikingbagItemSlot1;BigHikingBagBottleRight;SchoolbagBalloonRight,			
-        ReplaceInSecondHand 	= 	Bag_HikingBag_LHand holdingbagleft,
-        ReplaceInPrimaryHand 	= 	Bag_HikingBag_RHand holdingbagright,
-        WorldStaticModel 		= 	HikingBag_Ground,
 				OBSOLETE			=	TRUE,
     }
 	
@@ -744,17 +598,10 @@ module AuthenticZClothing{
         DisplayName	=	Big Hiking Bag - Tier 2,
         IconsForTexture = BigHiking_Blue;BigHiking_Green;BigHiking_Red,
         CanBeEquipped = Back,
-        OpenSound   =   OpenBag,
-        CloseSound   =   CloseBag,
-        PutInSound   =   PutItemInBag,
         ClothingItem = Bag_BigHikingBag_Tier2,
         BloodLocation = Bag,
         RunSpeedModifier = 0.95,
         AttachmentReplacement 	= 	Bag,
-		AttachmentsProvided  	= 	BigHikingbagSecondary;BigHikingbagItemSlot1;BigHikingbagItemSlot2;BigHikingBagBottleRight;BigHikingbagPlushie;BigHikingbagUmbrellaLeft;SchoolbagBalloonRight,				
-        ReplaceInSecondHand 	= 	Bag_HikingBag_LHand holdingbagleft,
-        ReplaceInPrimaryHand 	= 	Bag_HikingBag_RHand holdingbagright,
-        WorldStaticModel 		= 	HikingBag_Ground,
 				OBSOLETE			=	TRUE,
     }	
  
@@ -775,10 +622,6 @@ module AuthenticZClothing{
         BloodLocation = Bag,
         RunSpeedModifier 		= 	0.95,
         AttachmentReplacement 	= 	Bag,
-		AttachmentsProvided  	= 	BigHikingbagSecondary;BigHikingbagItemSlot1;BigHikingbagItemSlot2;BigHikingbagItemSlot3;BigHikingbagItemSlot4;BigHikingBagBottleRight;BigHikingBagBottleLeft;BigHikingbagPlushie;BigHikingbagUmbrellaLeft;BigHikingbagFlashlight;SchoolbagBalloonRight,					
-        ReplaceInSecondHand 	= 	Bag_HikingBag_LHand holdingbagleft,
-        ReplaceInPrimaryHand 	= 	Bag_HikingBag_RHand holdingbagright,
-        WorldStaticModel 		= 	HikingBag_Ground,
 				OBSOLETE			=	TRUE,
     }
 
@@ -799,10 +642,6 @@ module AuthenticZClothing{
         BloodLocation 			= 	Bag,
         RunSpeedModifier 		= 	0.94,
         AttachmentReplacement 	= 	Bag,
-		AttachmentsProvided  	= 	AlicepackSecondary;AlicepackItemSlot1;AlicepackItemSlot2;AlicepackBottleRight;SchoolbagBalloonRight,			
-        ReplaceInSecondHand 	= 	Bag_ALICEpack_LHand holdingbagleft,
-        ReplaceInPrimaryHand 	= 	Bag_ALICEpack_RHand holdingbagright,
-        WorldStaticModel 		= 	ALICE_Pack_Ground,
 				OBSOLETE			=	TRUE,
     }
 	
@@ -823,10 +662,6 @@ module AuthenticZClothing{
         BloodLocation 			= 	Bag,
         RunSpeedModifier 		= 	0.94,
         AttachmentReplacement 	= 	Bag,
-		AttachmentsProvided  	= 	AlicepackSecondary;AlicepackItemSlot1;AlicepackItemSlot2;AlicepackItemSlot3;AlicepackBottleRight;AlicepackPlushie;AlicepackUmbrellaRight;SchoolbagBalloonRight,				
-        ReplaceInSecondHand 	= 	Bag_ALICEpack_LHand holdingbagleft,
-        ReplaceInPrimaryHand 	= 	Bag_ALICEpack_RHand holdingbagright,
-        WorldStaticModel 		= 	ALICE_Pack_Ground,
 				OBSOLETE			=	TRUE,
     }	
  
@@ -847,10 +682,6 @@ module AuthenticZClothing{
         BloodLocation			= 	Bag,
         RunSpeedModifier 		= 	0.94,
         AttachmentReplacement 	= 	Bag,
-		AttachmentsProvided  	= 	AlicepackSecondary;AlicepackItemSlot1;AlicepackItemSlot2;AlicepackItemSlot3;AlicepackItemSlot4;AlicepackItemSlot5;AlicepackBottleRight;AlicepackBottleLeft;AlicepackPlushie;AlicepackUmbrellaRight;AlicepackFlashlight;SchoolbagBalloonRight,					
-        ReplaceInSecondHand 	= 	Bag_ALICEpack_LHand holdingbagleft,
-        ReplaceInPrimaryHand 	= 	Bag_ALICEpack_RHand holdingbagright,
-        WorldStaticModel 		= 	ALICE_Pack_Ground,
 				OBSOLETE			=	TRUE,
     }
 
@@ -871,10 +702,6 @@ module AuthenticZClothing{
         BloodLocation 			= 	Bag,
         RunSpeedModifier 		= 	0.94,
         AttachmentReplacement 	= 	Bag,
-		AttachmentsProvided  	= 	AlicepackSecondary;AlicepackItemSlot1;AlicepackItemSlot2;AlicepackBottleRight;SchoolbagBalloonRight,			
-        ReplaceInSecondHand 	= 	Bag_ALICEpack_Army_LHand holdingbagleft,
-        ReplaceInPrimaryHand 	= 	Bag_ALICEpack_Army_RHand holdingbagright,
-        WorldStaticModel 		= 	ALICE_Pack_Ground,
 				OBSOLETE			=	TRUE,
     }
 	
@@ -895,10 +722,6 @@ module AuthenticZClothing{
         BloodLocation 			= 	Bag,
         RunSpeedModifier 		= 	0.94,
         AttachmentReplacement 	= 	Bag,
-		AttachmentsProvided  	= 	AlicepackSecondary;AlicepackItemSlot1;AlicepackItemSlot2;AlicepackItemSlot3;AlicepackBottleRight;AlicepackPlushie;AlicepackUmbrellaRight;SchoolbagBalloonRight,				
-        ReplaceInSecondHand 	= 	Bag_ALICEpack_Army_LHand holdingbagleft,
-        ReplaceInPrimaryHand 	= 	Bag_ALICEpack_Army_RHand holdingbagright,
-        WorldStaticModel 		= 	ALICE_Pack_Ground,
 				OBSOLETE			=	TRUE,
     }	
  
@@ -919,10 +742,6 @@ module AuthenticZClothing{
         BloodLocation 			= 	Bag,
         RunSpeedModifier 		= 	0.94,
         AttachmentReplacement 	= 	Bag,
-		AttachmentsProvided  	= 	AlicepackSecondary;AlicepackItemSlot1;AlicepackItemSlot2;AlicepackItemSlot3;AlicepackItemSlot4;AlicepackItemSlot5;AlicepackBottleRight;AlicepackBottleLeft;AlicepackPlushie;AlicepackUmbrellaRight;AlicepackFlashlight;SchoolbagBalloonRight,					
-        ReplaceInSecondHand 	= 	Bag_ALICEpack_Army_LHand holdingbagleft,
-        ReplaceInPrimaryHand 	= 	Bag_ALICEpack_Army_RHand holdingbagright,
-        WorldStaticModel 		= 	ALICE_Pack_Ground,
 				OBSOLETE			=	TRUE,
     }
 
@@ -942,11 +761,6 @@ module AuthenticZClothing{
         PutInSound   			=   PutItemInBag,
         BloodLocation 			= 	Bag,
         RunSpeedModifier 		= 	0.94,
-        AttachmentReplacement 	= 	Bag,
-		AttachmentsProvided  	= 	AlicepackSecondary;AlicepackItemSlot1;AlicepackItemSlot2;AlicepackBottleRight;SchoolbagBalloonRight,			
-        ReplaceInSecondHand 	= 	Bag_ALICEpack_Army_LHand holdingbagleft,
-        ReplaceInPrimaryHand 	= 	Bag_ALICEpack_Army_RHand holdingbagright,
-        WorldStaticModel 		= 	ALICE_Pack_Ground,
 				OBSOLETE			=	TRUE,
     }
 	
@@ -966,11 +780,6 @@ module AuthenticZClothing{
         PutInSound   			=   PutItemInBag,
         BloodLocation 			= 	Bag,
         RunSpeedModifier 		= 	0.94,
-        AttachmentReplacement 	= 	Bag,
-		AttachmentsProvided  	= 	AlicepackSecondary;AlicepackItemSlot1;AlicepackItemSlot2;AlicepackItemSlot3;AlicepackBottleRight;AlicepackPlushie;AlicepackUmbrellaRight;SchoolbagBalloonRight,				
-        ReplaceInSecondHand 	= 	Bag_ALICEpack_Army_LHand holdingbagleft,
-        ReplaceInPrimaryHand 	= 	Bag_ALICEpack_Army_RHand holdingbagright,
-        WorldStaticModel 		= 	ALICE_Pack_Ground,
 				OBSOLETE			=	TRUE,
     }	
  
@@ -991,10 +800,6 @@ module AuthenticZClothing{
         BloodLocation 			= 	Bag,
         RunSpeedModifier 		= 	0.94,
         AttachmentReplacement 	= 	Bag,
-		AttachmentsProvided  	= 	AlicepackSecondary;AlicepackItemSlot1;AlicepackItemSlot2;AlicepackItemSlot3;AlicepackItemSlot4;AlicepackItemSlot5;AlicepackBottleRight;AlicepackBottleLeft;AlicepackPlushie;AlicepackUmbrellaRight;AlicepackFlashlight;SchoolbagBalloonRight,					
-        ReplaceInSecondHand 	= 	Bag_ALICEpack_Army_LHand holdingbagleft,
-        ReplaceInPrimaryHand 	= 	Bag_ALICEpack_Army_RHand holdingbagright,
-        WorldStaticModel 		= 	ALICE_Pack_Ground,
 				OBSOLETE			=	TRUE,
     }
 
@@ -1015,10 +820,6 @@ module AuthenticZClothing{
         BloodLocation 			= 	Bag,
         RunSpeedModifier 		= 	0.94,
         AttachmentReplacement 	= 	Bag,
-		AttachmentsProvided  	= 	AlicepackSecondary;AlicepackItemSlot1;AlicepackItemSlot2;AlicepackBottleRight;SchoolbagBalloonRight,			
-        ReplaceInSecondHand 	= 	Bag_ALICEpack_Festive_LHand holdingbagleft,
-        ReplaceInPrimaryHand 	= 	Bag_ALICEpack_Festive_RHand holdingbagright,
-        WorldStaticModel 		= 	ALICE_Pack_Ground,
 				OBSOLETE			=	TRUE,
     }
 	
@@ -1039,10 +840,6 @@ module AuthenticZClothing{
         BloodLocation 			= 	Bag,
         RunSpeedModifier 		= 	0.94,
         AttachmentReplacement 	= 	Bag,
-		AttachmentsProvided  	= 	AlicepackSecondary;AlicepackItemSlot1;AlicepackItemSlot2;AlicepackItemSlot3;AlicepackBottleRight;AlicepackPlushie;AlicepackUmbrellaRight;SchoolbagBalloonRight,				
-        ReplaceInSecondHand 	= 	Bag_ALICEpack_Festive_LHand holdingbagleft,
-        ReplaceInPrimaryHand 	= 	Bag_ALICEpack_Festive_RHand holdingbagright,
-        WorldStaticModel 		= 	ALICE_Pack_Ground,
 				OBSOLETE			=	TRUE,
     }	
  
@@ -1063,10 +860,6 @@ module AuthenticZClothing{
         BloodLocation			= 	Bag,
         RunSpeedModifier 		= 	0.94,
         AttachmentReplacement 	= 	Bag,
-		AttachmentsProvided  	= 	AlicepackSecondary;AlicepackItemSlot1;AlicepackItemSlot2;AlicepackItemSlot3;AlicepackItemSlot4;AlicepackItemSlot5;AlicepackBottleRight;AlicepackBottleLeft;AlicepackPlushie;AlicepackUmbrellaRight;AlicepackFlashlight;SchoolbagBalloonRight,					
-        ReplaceInSecondHand 	= 	Bag_ALICEpack_Festive_LHand holdingbagleft,
-        ReplaceInPrimaryHand 	= 	Bag_ALICEpack_Festive_RHand holdingbagright,
-        WorldStaticModel 		= 	ALICE_Pack_Ground,
 				OBSOLETE			=	TRUE,
     }
 
@@ -1077,17 +870,7 @@ module AuthenticZClothing{
 		Weight					=	1,
 		Type					=	Container,
 		Capacity				=	8,
-		DisplayName				=	Handbag,
 		Icon					=	Purseblack,
-		RunSpeedModifier 		= 	0.99,
-        OpenSound   			=   OpenBag,
-        CloseSound   			=   CloseBag,
-        PutInSound   			=   PutItemInBag,	
-		ReplaceInSecondHand 	= 	Bag_Handbag_LHand holdingbagleft,
-        ReplaceInPrimaryHand 	= 	Bag_Handbag_RHand holdingbagright,
-        WorldStaticModel 		= 	Handbag_Ground,
-        AttachmentType  		= 	Handbag,
-		StaticModel 			= 	Handbag_Ground,	
 				OBSOLETE			=	TRUE,
 	}
     item Plasticbag_Secondary
@@ -1097,13 +880,7 @@ module AuthenticZClothing{
         Weight					=	0.1,
         Type					=	Container,
         Capacity				=	8,
-        DisplayName				=	Plastic Bag,
         Icon					=	Plasticbag,
-        ReplaceInSecondHand 	= 	Bag_Plasticbag_LHand holdingbagleft,
-        ReplaceInPrimaryHand 	= 	Bag_Plasticbag_RHand holdingbagright,
-        WorldStaticModel 		= 	PlasticBag_Ground,
-        AttachmentType  		= 	Plasticbag,	
-		StaticModel 			= 	PlasticBag_Ground,
 				OBSOLETE			=	TRUE,
     }
 	item Garbagebag_Secondary
@@ -1113,13 +890,7 @@ module AuthenticZClothing{
         Weight					=	0.1,
         Type					=	Container,
         Capacity				=	20,
-        DisplayName				=	Garbage Bag,
         Icon					=	Garbagebag,
-        ReplaceInSecondHand		= 	Bag_Garbagebag_LHand holdingbagleft,
-        ReplaceInPrimaryHand 	= 	Bag_Garbagebag_RHand holdingbagright,
-        WorldStaticModel 		= 	GarbageBag_Ground,
-        AttachmentType  		= 	Garbagebag,
-		StaticModel 			= 	GarbageBag_Ground,
 		OBSOLETE			=	TRUE,		
     }
 	item Purse_Secondary
@@ -1129,17 +900,8 @@ module AuthenticZClothing{
         Weight					=	0.5,
         Type					=	Container,
         Capacity				=	12,
-        DisplayName				=	Purse,
         Icon					=	Purse,
-        OpenSound   			=   OpenBag,
         RunSpeedModifier 		= 	0.99,
-        CloseSound   			=   CloseBag,
-        PutInSound   			=   PutItemInBag,
-		ReplaceInSecondHand 	= 	Bag_Purse_LHand holdingbagleft,
-        ReplaceInPrimaryHand 	= 	Bag_Purse_RHand holdingbagright,
-        WorldStaticModel 		= 	Purse_Ground,
-        AttachmentType  		= 	Purse,
-		StaticModel 			= 	Purse_Ground,
 				OBSOLETE			=	TRUE,
     }
 	item Tote_Secondary
@@ -1151,14 +913,6 @@ module AuthenticZClothing{
 		Capacity				=	12,
 		DisplayName				=	Tote Bag,
 		Icon					=	Tote,
-        OpenSound  				=   OpenBag,
-        CloseSound  			=   CloseBag,
-        PutInSound   			=   PutItemInBag,
-		ReplaceInSecondHand 	= 	Bag_Tote_LHand holdingbagleft,
-        ReplaceInPrimaryHand 	= 	Bag_Tote_RHand holdingbagright,
-        WorldStaticModel 		= 	TotesBag_Ground,
-        AttachmentType  		= 	Totebag,		
-		StaticModel 			= 	TotesBag_Ground,
 		OBSOLETE			=	TRUE,		
 	}
 	item EmptySandbag_Secondary
@@ -1171,11 +925,6 @@ module AuthenticZClothing{
         DisplayName				=	Sack,
         Icon					=	SandbagEmpty,
         RunSpeedModifier 		= 	0.99,
-        ReplaceInSecondHand 	= 	Bag_Sandbag_LHand holdingbagleft,
-        ReplaceInPrimaryHand 	= 	Bag_Sandbag_RHand holdingbagright,
-        AttachmentType  		= 	EmptySandbag,		
-        WorldStaticModel 		= 	SandBag_Ground,
-		StaticModel 			= 	SandBag_Ground,	
 				OBSOLETE			=	TRUE,
     }
     item SeedBag_Secondary
@@ -1186,14 +935,7 @@ module AuthenticZClothing{
 		Type	=	Container,
 		Capacity	=	5,
 		DisplayName	=	Seed Bag,
-		Icon	=	DrawstringBag,
-        OpenSound   =   OpenBag,
-        CloseSound   =   CloseBag,
-        PutInSound   =   PutItemInBag,
-		SurvivalGear = TRUE,
-        AttachmentType  		= 	Seedbag,		
-		WorldStaticModel = SeedBag,
-		StaticModel 	= 	SeedBag,	
+		Icon	=	DrawstringBag,	
 		OBSOLETE			=	TRUE,		
 	}	
     item Toolbox_Secondary
@@ -1205,15 +947,6 @@ module AuthenticZClothing{
 		Capacity	=	8,
 		DisplayName	=	Toolbox,
 		Icon					=	Toolbox,
-		RunSpeedModifier 		= 	0.97,
-        OpenSound   			=   OpenBag,
-        CloseSound   			=   CloseBag,
-        PutInSound   			=   PutItemInBag,
-		ReplaceInSecondHand 	= 	Bag_Toolbox_LHand holdingbagleft,
-        ReplaceInPrimaryHand	= 	Bag_Toolbox_RHand holdingbagright,
-        AttachmentType  		= 	Toolbox,		
-        WorldStaticModel		= 	ToolBox_Ground,
-		StaticModel 			= 	ToolBox_Ground,	
 				OBSOLETE			=	TRUE,
 	}
     item FirstAidKit_Secondary
@@ -1225,16 +958,6 @@ module AuthenticZClothing{
         Capacity	=	4,
         DisplayName	=	First Aid Kit,
         Icon	=	FirstAid,
-        OpenSound   =   OpenBag,
-        CloseSound   =   CloseBag,
-        PutInSound   =   PutItemInBag,
-        MetalValue = 15,
-        Medical = TRUE,
-		ReplaceInSecondHand 	= 	Bag_FirstAidKit_LHand holdingbagleft,
-        ReplaceInPrimaryHand 	= 	Bag_FirstAidKit_RHand holdingbagright,
-        AttachmentType  		= 	FirstAidKit,			
-        WorldStaticModel 		= 	LunchBoxMedic_Ground,
-		StaticModel 			= 	LunchBoxMedic_Ground,
 		OBSOLETE			=	TRUE,		
     }
     item Lunchbox_Secondary
@@ -1246,15 +969,6 @@ module AuthenticZClothing{
         Capacity	=	4,
         DisplayName	=	Lunchbox,
         Icon	=	Lunchbox01,
-        OpenSound   =   OpenBag,
-        CloseSound   			=   CloseBag,
-        PutInSound   			=   PutItemInBag,
-        MetalValue 				= 	15,
-        ReplaceInSecondHand 	= 	Bag_Lunchbox_LHand holdingbagleft,
-        ReplaceInPrimaryHand 	= 	Bag_Lunchbox_RHand holdingbagright,
-        AttachmentType  		= 	Lunchbox,			
-        WorldStaticModel 		= 	LunchBox_Ground,
-		StaticModel 			= 	LunchBox_Ground,	
 		OBSOLETE			=	TRUE,		
     }
     item Lunchbox2_Secondary
@@ -1265,13 +979,6 @@ module AuthenticZClothing{
         Type	=	Container,
         Capacity	=	4,
         DisplayName	=	Lunchbox,
-        Icon	=	Lunchbox02,
-        MetalValue 				= 	15,
-        ReplaceInSecondHand 	= 	Bag_Lunchbox2_LHand holdingbagleft,
-        ReplaceInPrimaryHand 	= 	Bag_Lunchbox2_RHand holdingbagright,
-        AttachmentType  		= 	Lunchbox,			
-        WorldStaticModel 		= 	LunchBox2_Ground,
-		StaticModel 			= 	LunchBox2_Ground,
 				OBSOLETE			=	TRUE,
     }
     item PistolCase_Secondary
@@ -1283,13 +990,6 @@ module AuthenticZClothing{
         Capacity				=	7,
         DisplayName				=	Gun Case,
         Icon					=	PistolCase,
-        RunSpeedModifier 		= 	0.99,
-        MetalValue 				= 	15,
-        ReplaceInSecondHand 	= 	Bag_PistolCase_LHand holdingbagleft,
-        ReplaceInPrimaryHand 	= 	Bag_PistolCase_RHand holdingbagright,
-        AttachmentType  		= 	PistolCase,			
-        WorldStaticModel 		= 	GunCase_Ground,
-		StaticModel 			= 	GunCase_Ground,
 		OBSOLETE			=	TRUE,		
     }
 	item Bag_B4BMom_Tier_1
@@ -1302,17 +1002,10 @@ module AuthenticZClothing{
         DisplayName				=	Mom's Backpack - Tier 1,
         Icon 					= 	Backpack_Mom,
         CanBeEquipped 			= 	Back,
-        OpenSound   			=   OpenBag,
-        CloseSound   			=   CloseBag,
-        PutInSound   			=   PutItemInBag,
         ClothingItem 			= 	Bag_B4BMom_Tier_1,
         BloodLocation 			= 	Bag,
         RunSpeedModifier 		= 	0.97,
         AttachmentReplacement	= 	Bag,
-		AttachmentsProvided  	= 	SchoolbagBagSecondary;SchoolbagBottleRight;SchoolbagBalloonRight,		
-        ReplaceInSecondHand 	= 	Bag_B4BMom_LHand holdingbagleft,
-        ReplaceInPrimaryHand	= 	Bag_B4BMom_RHand holdingbagright,
-        WorldStaticModel 		= 	WorldItem_BackpackMom,
 		OBSOLETE			=	TRUE,		
     }
 
@@ -1326,17 +1019,10 @@ module AuthenticZClothing{
         DisplayName				=	Mom's Backpack - Tier 2,
         Icon 					= 	Backpack_Mom,
         CanBeEquipped 			= 	Back,
-        OpenSound   			=   OpenBag,
-        CloseSound   			=   CloseBag,
-        PutInSound   			=   PutItemInBag,
         ClothingItem 			= 	Bag_B4BMom_Tier_2,
         BloodLocation 			= 	Bag,
         RunSpeedModifier 		= 	0.97,
         AttachmentReplacement	= 	Bag,
-		AttachmentsProvided  	= 	SchoolbagBagSecondary;SchoolbagItemSlot1;SchoolbagBottleRight;SchoolbagPlushie;SchoolbagUmbrellaLeft;SchoolbagBalloonRight,		
-        ReplaceInSecondHand 	= 	Bag_B4BMom_LHand holdingbagleft,
-        ReplaceInPrimaryHand	= 	Bag_B4BMom_RHand holdingbagright,
-        WorldStaticModel 		= 	WorldItem_BackpackMom,
 		OBSOLETE				=	TRUE,		
     }
 
@@ -1350,17 +1036,10 @@ module AuthenticZClothing{
         DisplayName				=	Mom's Backpack - Tier 3,
         Icon				 	=	Backpack_Mom,
         CanBeEquipped 			= 	Back,
-        OpenSound   			=   OpenBag,
-        CloseSound   			=   CloseBag,
-        PutInSound   			=   PutItemInBag,
         ClothingItem 			= 	Bag_B4BMom_Tier_3,
         BloodLocation 			= 	Bag,
         RunSpeedModifier 		= 	0.97,
         AttachmentReplacement	= 	Bag,
-		AttachmentsProvided  	= 	SchoolbagBagSecondary;SchoolbagItemSlot2;SchoolbagItemSlot3;SchoolbagBottleRight;SchoolbagPlushie;SchoolbagUmbrellaLeft;SchoolbagFlashlight;SchoolbagBalloonRight,		
-        ReplaceInSecondHand 	= 	Bag_B4BMom_LHand holdingbagleft,
-        ReplaceInPrimaryHand	= 	Bag_B4BMom_RHand holdingbagright,
-        WorldStaticModel 		= 	WorldItem_BackpackMom,
 		OBSOLETE				=	TRUE,		
     }		
 
@@ -1374,17 +1053,10 @@ module AuthenticZClothing{
         DisplayName				=	Holly's Backpack - Tier 1,
         IconsForTexture			 =	Backpack_Holly;Backpack_Holly_Green;Backpack_Holly_Purple;Backpack_Holly_Red;Backpack_Holly_Special;Backpack_Holly_Golden,
         CanBeEquipped 			= 	Back,
-        OpenSound   			=   OpenBag,
-        CloseSound   			=   CloseBag,
-        PutInSound   			=   PutItemInBag,
         ClothingItem 			= 	Bag_B4BHolly_Tier_1,
         BloodLocation 			= 	Bag,
         RunSpeedModifier 		= 	0.96,
         AttachmentReplacement 	= 	Bag,
-		AttachmentsProvided  	= 	HikingbagSecondary;HikingBagItemSlot1;HikingBagBottleRight;SchoolbagBalloonRight,			
-        ReplaceInSecondHand 	= 	Bag_B4BHolly_LHand holdingbagleft,
-        ReplaceInPrimaryHand	= 	Bag_B4BHolly_RHand holdingbagright,
-        WorldStaticModel 		= 	WorldItem_BackpackHolly,
 		OBSOLETE				=	TRUE,		
     }
 	
@@ -1405,10 +1077,6 @@ module AuthenticZClothing{
         BloodLocation 			= 	Bag,
         RunSpeedModifier		= 	0.96,
         AttachmentReplacement 	= 	Bag,
-		AttachmentsProvided  	= 	HikingbagSecondary;HikingBagItemSlot1;HikingBagItemSlot2;HikingBagBottleRight;HikingBagPlushie;HikingbagUmbrellaLeft;SchoolbagBalloonRight,				
-        ReplaceInSecondHand 	= 	Bag_B4BHolly_LHand holdingbagleft,
-        ReplaceInPrimaryHand	= 	Bag_B4BHolly_RHand holdingbagright,
-        WorldStaticModel 		=	WorldItem_BackpackHolly,
 		OBSOLETE			=	TRUE,		
     }	
  
@@ -1429,10 +1097,6 @@ module AuthenticZClothing{
         BloodLocation 			= 	Bag,
         RunSpeedModifier 		= 	0.96,
         AttachmentReplacement 	= 	Bag,
-		AttachmentsProvided  	= 	HikingbagSecondary;HikingBagItemSlot1;HikingBagItemSlot2;HikingBagItemSlot3;HikingBagBottleRight;HikingBagBottleLeft;HikingBagPlushie;HikingbagUmbrellaLeft;HikingBagFlashlight;SchoolbagBalloonRight,					
-        ReplaceInSecondHand 	= 	Bag_B4BHolly_LHand holdingbagleft,
-        ReplaceInPrimaryHand	=	Bag_B4BHolly_RHand holdingbagright,
-        WorldStaticModel 		= 	WorldItem_BackpackHolly,
 		OBSOLETE				=	TRUE,		
     }	
 
@@ -1453,10 +1117,6 @@ module AuthenticZClothing{
         BloodLocation 			= 	Bag,
         RunSpeedModifier 		= 	0.96,
         AttachmentReplacement 	= 	Bag,
-		AttachmentsProvided  	= 	SchoolbagBagSecondary;SchoolbagBottleRight;SchoolbagBalloonRight,			
-        ReplaceInSecondHand 	= 	Bag_B4BHoffman_LHand holdingbagleft,
-        ReplaceInPrimaryHand	= 	Bag_B4BHoffman_RHand holdingbagright,
-        WorldStaticModel 		= 	WorldItem_BackpackHoffman,
 		OBSOLETE			=	TRUE,
     }
 	
@@ -1477,10 +1137,6 @@ module AuthenticZClothing{
         BloodLocation 			= 	Bag,
         RunSpeedModifier		= 	0.96,
         AttachmentReplacement 	= 	Bag,
-		AttachmentsProvided  	= 	SchoolbagBagSecondary;SchoolbagItemSlot1;SchoolbagBottleRight;SchoolbagPlushie;SchoolbagUmbrellaLeft;SchoolbagBalloonRight,		
-        ReplaceInSecondHand 	= 	Bag_B4BHoffman_LHand holdingbagleft,
-        ReplaceInPrimaryHand	= 	Bag_B4BHoffman_RHand holdingbagright,
-        WorldStaticModel 		=	WorldItem_BackpackHoffman,
 		OBSOLETE			=	TRUE,		
     }	
  
@@ -1501,9 +1157,6 @@ module AuthenticZClothing{
         BloodLocation 			= 	Bag,
         RunSpeedModifier 		= 	0.96,
         AttachmentReplacement 	= 	Bag,
-		AttachmentsProvided  	= 	SchoolbagBagSecondary;SchoolbagItemSlot2;SchoolbagItemSlot3;SchoolbagBottleRight;SchoolbagPlushie;SchoolbagUmbrellaLeft;SchoolbagFlashlight;SchoolbagBalloonRight,	        ReplaceInSecondHand 	= 	Bag_B4BHoffman_LHand holdingbagleft,
-        ReplaceInPrimaryHand	=	Bag_B4BHoffman_RHand holdingbagright,
-        WorldStaticModel 		= 	WorldItem_BackpackHoffman,
 		OBSOLETE			=	TRUE,		
     }	
 	
@@ -1524,10 +1177,6 @@ module AuthenticZClothing{
         BloodLocation 			= 	Bag,
         RunSpeedModifier 		= 	0.96,
         AttachmentReplacement 	= 	Bag,
-		AttachmentsProvided  	= 	SchoolbagBagSecondary;SchoolbagBottleRight;SchoolbagBalloonRight,			
-        ReplaceInSecondHand 	= 	Bag_B4BEvangelo_LHand holdingbagleft,
-        ReplaceInPrimaryHand	= 	Bag_B4BEvangelo_RHand holdingbagright,
-        WorldStaticModel 		= 	WorldItem_BackpackEvangelo,
 		OBSOLETE			=	TRUE,		
     }
 	
@@ -1548,10 +1197,6 @@ module AuthenticZClothing{
         BloodLocation 			= 	Bag,
         RunSpeedModifier		= 	0.96,
         AttachmentReplacement 	= 	Bag,
-		AttachmentsProvided  	= 	SchoolbagBagSecondary;SchoolbagItemSlot1;SchoolbagBottleRight;SchoolbagPlushie;SchoolbagUmbrellaLeft;SchoolbagBalloonRight,		
-        ReplaceInSecondHand 	= 	Bag_B4BEvangelo_LHand holdingbagleft,
-        ReplaceInPrimaryHand	= 	Bag_B4BEvangelo_RHand holdingbagright,
-        WorldStaticModel 		=	WorldItem_BackpackEvangelo,
 		OBSOLETE			=	TRUE,		
     }	
  
@@ -1572,9 +1217,6 @@ module AuthenticZClothing{
         BloodLocation 			= 	Bag,
         RunSpeedModifier 		= 	0.96,
         AttachmentReplacement 	= 	Bag,
-		AttachmentsProvided  	= 	SchoolbagBagSecondary;SchoolbagItemSlot2;SchoolbagItemSlot3;SchoolbagBottleRight;SchoolbagPlushie;SchoolbagUmbrellaLeft;SchoolbagFlashlight;SchoolbagBalloonRight,	        ReplaceInSecondHand 	= 	Bag_B4BEvangelo_LHand holdingbagleft,
-        ReplaceInPrimaryHand	=	Bag_B4BEvangelo_RHand holdingbagright,
-        WorldStaticModel 		= 	WorldItem_BackpackEvangelo,
 		OBSOLETE			=	TRUE,		
     }	
 
@@ -4081,7 +3723,7 @@ recipe Upgrade CEDA Hazmat Pack
         WeightReduction			=	60,
         Weight					=	1,
         Type					=	Container,
-        Capacity				=	16,
+        Capacity				=	19,
         DisplayName				=	Mom's Backpack - Tier 1,
         IconsForTexture			=	Daypack_Black;Daypack_Blue;Daypack_Green;Daypack_Indigo;Daypack_Purple;Daypack_Red;Daypack_Teal,
         CanBeEquipped 			= 	Back,
@@ -4104,7 +3746,7 @@ recipe Upgrade CEDA Hazmat Pack
         WeightReduction			=	60,
         Weight					=	1,
         Type					=	Container,
-        Capacity				=	17,
+        Capacity				=	20,
         DisplayName				=	Mom's Backpack - Tier 2,
         IconsForTexture			=	Daypack_Black;Daypack_Blue;Daypack_Green;Daypack_Indigo;Daypack_Purple;Daypack_Red;Daypack_Teal,
         CanBeEquipped 			= 	Back,
@@ -4127,7 +3769,7 @@ recipe Upgrade CEDA Hazmat Pack
         WeightReduction			=	60,
         Weight					=	1,
         Type					=	Container,
-        Capacity				=	18,
+        Capacity				=	21,
         DisplayName				=	Mom's Backpack - Tier 3,
         IconsForTexture			=	Daypack_Black;Daypack_Blue;Daypack_Green;Daypack_Indigo;Daypack_Purple;Daypack_Red;Daypack_Teal,
         CanBeEquipped 			= 	Back,

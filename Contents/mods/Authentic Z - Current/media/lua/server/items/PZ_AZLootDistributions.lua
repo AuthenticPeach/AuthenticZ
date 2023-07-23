@@ -31,6 +31,7 @@ AuthenticZ.tab_addMagProcedural_AZGymBottle = function(x,count)
   ProceduralDistributions.list = ProceduralDistributions.list or {};
   ProceduralDistributions.list[x] = ProceduralDistributions.list[x] or {};
   ProceduralDistributions.list[x].items = ProceduralDistributions.list[x].items or {};
+  ProceduralDistributions.list[x].items = ProceduralDistributions.list[x].items or {};
   table.insert(ProceduralDistributions.list[x].items,"AuthenticZClothing.AuthenticGymBottle_Blue");
   table.insert(ProceduralDistributions.list[x].items, count);
   table.insert(ProceduralDistributions.list[x].items,"AuthenticZClothing.AuthenticGymBottle_Camo");
@@ -405,7 +406,9 @@ AuthenticZ.tab_addMagProcedural_Plushies  = function(x,count)
   table.insert(ProceduralDistributions.list[x].items,"AuthenticZClothing.Flamingo");
   table.insert(ProceduralDistributions.list[x].items, count);
   table.insert(ProceduralDistributions.list[x].items,"AuthenticZClothing.OtisPug");
-  table.insert(ProceduralDistributions.list[x].items, count);  
+  table.insert(ProceduralDistributions.list[x].items, count); 
+  table.insert(ProceduralDistributions.list[x].items,"AuthenticZClothing.SubstitutionDoll");
+  table.insert(ProceduralDistributions.list[x].items, count);   
 end
 
 --Viking Set
