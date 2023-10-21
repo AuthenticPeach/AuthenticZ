@@ -4,33 +4,33 @@ module AuthenticZClothing {
   }	
 	item Fat03_AmmoStrap
 	{
-       DisplayCategory = Clothing,		
-		Type = Clothing,
-
-		ClothingItem = Fat03_AmmoStrap,
-        ClothingItemExtra = AmmoStrap_Bullets,
-        ClothingItemExtraOption = Tighten,	
-		BodyLocation = AmmoStrap,
-		Icon = AmmoStrapFlipped,
-		Tooltip = Tooltip_AmmoStrap,
-		WorldStaticModel = AmmoStrap_Ground,
-		Tooltip = Tooltip_Size3XL,			
+        DisplayCategory 		= Clothing,		
+		Type 					= Clothing,
+		DisplayName				= Ammo Strap (3XL),
+		ClothingItem 			= Fat03_AmmoStrap,
+        ClothingItemExtra 		= AmmoStrap_Bullets;Fat02_AmmoStrap;Fat03_AmmoStrap,
+        ClothingItemExtraOption = Constringe;Tighten;Tighten,
+		BodyLocation 			= AmmoStrap,
+		Icon 					= AmmoStrapFlipped,
+		Tooltip 				= Tooltip_AmmoStrap,
+		WorldStaticModel 		= AmmoStrap_Ground,
+		Tooltip 				= Tooltip_Size3XL,			
 	}
 
     item Fat03_Apron
     {
-       DisplayCategory = Clothing,		
-		Type = Clothing,
-		
-		ClothingItem = Fat03_Apron,
-        ClothingItemExtra = Apron_White,
-        ClothingItemExtraOption = Tighten,			
-		BodyLocation = TorsoExtra,
-		BloodLocation = Apron,
-		Icon = ApronIceCream,
-		FabricType = Cotton,
-		WorldStaticModel = Apron_Ground,
-		Tooltip = Tooltip_Size3XL,			
+        DisplayCategory 		= Clothing,		
+		Type 					= Clothing,
+		DisplayName				= Apron (2XL),			
+		ClothingItem 			= Fat03_Apron,
+        ClothingItemExtra 		= Apron_White;AuthenticZClothing.Fat01_Apron;AuthenticZClothing.Fat02_Apron,
+        ClothingItemExtraOption = Constringe;Tighten;Tighten,			
+		BodyLocation 			= TorsoExtra,
+		BloodLocation 			= Apron,
+		Icon 					= ApronWhite,
+		FabricType 				= Cotton,
+		WorldStaticModel		= Apron_Ground,
+		Tooltip 				= Tooltip_Size3XL,			
     }
 	item Fat03_Boots
 	{
@@ -57,10 +57,10 @@ module AuthenticZClothing {
     {
         DisplayCategory = Clothing,		
         Type = Clothing,
-		
-        ClothingItem = Fat03_Coveralls,
-        ClothingItemExtra = Boilersuit,
-        ClothingItemExtraOption = Tighten,		
+		DisplayName				= Coveralls (3XL),				
+        ClothingItem			= Fat03_Coveralls,
+        ClothingItemExtra 		= Boilersuit;AuthenticZClothing.Fat02_Coveralls;AuthenticZClothing.Fat03_Coveralls,
+        ClothingItemExtraOption = Constringe;Tighten;Tighten,		
         BodyLocation = FullSuit,
         Icon = BoilerSuitBigDaddy,
         BloodLocation = Trousers;Jumper,
@@ -288,10 +288,10 @@ module AuthenticZClothing {
     {
        DisplayCategory = Clothing,		
         Type = Clothing,
-
+		DisplayName				= Sport Shorts (3XL),	
         ClothingItem = Fat03_SportShorts,
-        ClothingItemExtra = Shorts_ShortSport,
-        ClothingItemExtraOption = Tighten,		
+        ClothingItemExtra = Shorts_ShortSport;Fat01_SportShorts;Fat02_SportShorts,
+        ClothingItemExtraOption = Constringe;Tighten;Tighten,
         BodyLocation = Pants,
         IconsForTexture = ShortsLongAthleticBlue;ShortsLongAthleticGreen;ShortsLongAthleticRed;ShortsLongAthleticPurple;ShortsLongDenim;ShortsLongDenimBlack;ShortsLongDenimDark;ShortsLongDenim;ShortsLongDenimBlack;ShortsLongDenimDark;ShortsLongDenim;ShortsLongDenimBlack;ShortsLongDenimDark;ShortsLongDenim;ShortsLongDenimBlack;ShortsLongDenimDark;ShortsLongDenim;ShortsLongDenimBlack;ShortsLongDenimDark,
         BloodLocation = Trousers,
@@ -305,10 +305,10 @@ module AuthenticZClothing {
     {
         DisplayCategory = Clothing,
         Type = Clothing,
-
+		DisplayName				= ShellPants (3XL),
         ClothingItem = Fat03_ShellPants,
-        ClothingItemExtra = Shoes_Black,
-        ClothingItemExtraOption = Tighten,		
+        ClothingItemExtra = Trousers_Shellsuit_TINT;Fat01_ShellPants;Fat02_ShellPants
+        ClothingItemExtraOption = Constringe;Tighten;Tighten,	
         BodyLocation = Pants,
         BloodLocation = Trousers,
         IconsForTexture = TracksuitPantsBlack;TracksuitPantsBlue;TracksuitPantsGreen;TracksuitPantsTeal;TracksuitPantsGeneric;TrousersAthleticVegan;TrousersAthleticGrey;TrousersBill;TrousersBrad;Trousers;Trousers;Trousers;Trousers;Trousers;Trousers;Trousers;Trousers;Trousers;Trousers;Trousers;Trousers;Trousers;Trousers;Trousers,
@@ -340,10 +340,10 @@ module AuthenticZClothing {
 	{
 	    DisplayCategory = Clothing,
 		Type = Clothing,
-
+		DisplayName				= Shoes (3XL),
 		ClothingItem = Fat03_Shoes,
-        ClothingItemExtra = Shoes_Black,
-        ClothingItemExtraOption = Tighten,			
+        ClothingItemExtra = Shoes_Black;Fat02_Shoes;Fat03_Shoes,
+        ClothingItemExtraOption = Constringe;Tighten;Tighten,		
 		BodyLocation = Shoes,
 		BloodLocation = Shoes,
 		Icon = Shoes,
@@ -362,35 +362,35 @@ module AuthenticZClothing {
 	}	
     item Fat03_TShirtLongBlart
     {
-        DisplayCategory = Clothing,		
-        Type = Clothing,
-
-        ClothingItem = Fat03_TShirtLongBlart,
-        ClothingItemExtra = Shirt_OfficerWhite,
+        DisplayCategory 		= Clothing,		
+        Type 					= Clothing,
+		DisplayName				= Security Shirt (3XL),
+        ClothingItem			= Fat03_TShirtLongBlart,
+        ClothingItemExtra 		= Shirt_OfficerWhite,
         ClothingItemExtraOption = Tighten,		
-        BodyLocation = Jacket,
-        Icon = TshirtGeneric,
-        Insulation = 0.3,
-        WindResistance = 0.35,
-        FabricType = Cotton,
-		WorldStaticModel = Shirt_Ground,	
-		Tooltip = Tooltip_Size3XL,			
+        BodyLocation 			= Jacket,
+        Icon 					= TshirtGeneric,
+        Insulation 				= 0.3,
+        WindResistance			= 0.35,
+        FabricType 				= Cotton,
+		WorldStaticModel 		= Shirt_Ground,	
+		Tooltip 				= Tooltip_Size3XL,			
     }	
     item Fat03_TShirt
     {
-        DisplayCategory = Clothing,		
-        Type = Clothing,
-
-        ClothingItem = Fat03_TShirt,
-        ClothingItemExtra = Tshirt_WhiteTINT,
-        ClothingItemExtraOption = Tighten,		
-        BodyLocation = Jacket,
-        Icon = TshirtGeneric,
-        Insulation = 0.3,
-        WindResistance = 0.35,
-        FabricType = Cotton,
-		WorldStaticModel = TShirt_Ground,	
-		Tooltip = Tooltip_Size3XL,			
+        DisplayCategory 		= Clothing,		
+        Type 					= Clothing,
+        DisplayName 			= T-Shirt,
+        ClothingItem 			= Fat03_TShirt,
+        ClothingItemExtra 		= Tshirt_WhiteTINT;Fat02_TShirt;Fat03_TShirt,
+        ClothingItemExtraOption = Tighten;Loosen;Stretch,	
+        BodyLocation 			= Jacket,
+        Icon 					= TshirtGeneric,
+        Insulation 				= 0.3,
+        WindResistance 			= 0.35,
+        FabricType 				= Cotton,
+		WorldStaticModel 		= TShirt_Ground,	
+		Tooltip 				= Tooltip_Size3XL,			
     }
     item Fat_03_Trousers_Santa
     {
@@ -681,7 +681,7 @@ module AuthenticZClothing {
     {
         DisplayCategory = Clothing,
         Type = Clothing,
-
+		DisplayName				= Short Skirt (3XL),
         ClothingItem = Fat03_Skirt_Short,
         ClothingItemExtra = Skirt_Short,
         ClothingItemExtraOption = Tighten,		

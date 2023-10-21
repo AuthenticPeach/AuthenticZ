@@ -53,5 +53,7 @@ ContextMenu_EN = {
 	
 	/* New */			
     ContextMenu_UntieBonnet = "Untie Bonnet",	
-    ContextMenu_TieBonnet = "Tie Bonnet",	
+    ContextMenu_TieBonnet = "Tie Bonnet",
+	ContextMenu_Constringe = "Constringe",	
+	ContextMenu_Stretch = "Stretch",	
 } 

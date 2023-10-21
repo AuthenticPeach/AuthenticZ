@@ -1041,7 +1041,7 @@ module AuthenticZLite {
         Type = Clothing,
         DisplayName = Invisible Suit,
         ClothingItem = InvisibleSuit,	
-        Icon = BowWhite,
+        Icon = InvisibleSpray,
         BodyLocation = FullSuit,
         CanHaveHoles = false,
         Weight = 0.05,	

@@ -555,6 +555,22 @@ module AuthenticZClothing {
         FabricType = Denim,
         WorldStaticModel = Trousers_Ground,		
     }
+    item Trousers_FormalPants
+    {
+        DisplayCategory = Clothing,		
+        Type = Clothing,
+        DisplayName = Formal Pants,
+        ClothingItem = Trousers_FormalPants,
+        BodyLocation = Pants,
+        IconsForTexture = TrousersFlyboy;TrousersFlyboy;TrousersFlyboy;TrousersFlyboy;TrousersFlyboy,
+        BloodLocation = Trousers,
+        ScratchDefense = 10,
+        Insulation = 0.75,
+        WindResistance = 0.75,
+        WaterResistance = 0.35,
+        FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,		
+    }	
     item Trousers_Grimes
     {
        DisplayCategory = Clothing,		

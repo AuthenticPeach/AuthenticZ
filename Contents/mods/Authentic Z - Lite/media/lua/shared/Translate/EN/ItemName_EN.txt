@@ -1080,7 +1080,8 @@ ItemName_EN = {
 	/* New */	
 	ItemName_AuthenticZLite.Hat_Bonnet_Tied = "Bonnet (Tied)",
 	ItemName_AuthenticZLite.Hat_Bonnet_UnTied = "Bonnet (Untied)",
+	ItemName_AuthenticZLite.Hat_TopHat_AZ = "Top Hat",	
 	
-	ItemName_AuthenticZLite.Shirt_UndershirtFancy = "Fancy Undershirt",
+	ItemName_AuthenticZLite.Shirt_UndershirtFancy = "Fancy Undershirt",	
 	ItemName_AuthenticZLite.SubstitutionDoll = "Substitution Doll",	
 }

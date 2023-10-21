@@ -890,8 +890,7 @@ ItemName_EN = {
 	/* 6-28-22 */	
 	ItemName_AuthenticZClothing.AmmoStrap_Bullets1 = "Bullets Bandolier (Left)",
 	ItemName_AuthenticZClothing.AmmoStrap_Shells1 = "Shells Bandolier (Left)",
-	ItemName_AuthenticZClothing.Hairstyle_Pennywise = "Pennywise's Wig",
-	ItemName_AuthenticZClothing.Fat02_ShellPants = "Shell Suit Trousers",	
+	ItemName_AuthenticZClothing.Hairstyle_Pennywise = "Pennywise's Wig",	
 	ItemName_AuthenticZClothing.CigarAZ2 = "Cigar",	
 	ItemName_AuthenticZClothing.CigarAZHalf = "Half-Smoked Cigar",	
 	/* Fat Clothing */		
@@ -1169,7 +1168,9 @@ ItemName_EN = {
 	/* New */	
 	ItemName_AuthenticZClothing.Hat_Bonnet_Tied = "Bonnet (Tied)",
 	ItemName_AuthenticZClothing.Hat_Bonnet_UnTied = "Bonnet (Untied)",
+	ItemName_AuthenticZClothing.Hat_TopHat_AZ = "Top Hat",		
 
 	ItemName_AuthenticZClothing.Shirt_UndershirtFancy = "Fancy Undershirt",
 	ItemName_AuthenticZClothing.SubstitutionDoll = "Substitution Doll",
+	ItemName_AuthenticZClothing.FormalPants = "Substitution Doll",
 }

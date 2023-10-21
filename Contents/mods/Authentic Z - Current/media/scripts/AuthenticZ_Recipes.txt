@@ -567,6 +567,21 @@ recipe Take Goblin Out
 	   OnCreate:GetGroguBack,
 	   Time:30.0,
   	}
+
+
+recipe Convert Apron
+  	{
+	   Apron_White,
+	   keep Scissors,
+       keep Needle/SutureNeedle,
+       Thread=2,
+	   
+	   OnTest:KoniTestAZ_OnTest_ConvertClothing,
+	   OnCreate:KoniTestAZ_OnCreate_ConvertClothing,
+   	   Result:AuthenticZClothing.Fat01_Apron,
+       Category:AuthenticZ,	   
+	   Time:50.0,
+  	}
 	
 	/* Modded - recipe */
 recipe Convert into Wearable

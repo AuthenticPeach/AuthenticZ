@@ -4702,6 +4702,10 @@
 	<files>
 		<path>media/clothing/clothingItems/Hat_TagillaMask2.xml</path>
 		<guid>f6259adc-0532-4cd8-a97c-17e4003acaaf</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Hat_TopHat_AZ.xml</path>
+		<guid>4abc3854-2bb0-411f-b6b8-14d442a085ad</guid>
 	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Hat_TrueEyeCult.xml</path>
@@ -6003,6 +6007,10 @@
 		<path>media/clothing/clothingItems/Tie_BowTieWorn_Yellow.xml</path>
 		<guid>b36d1c96-9417-407b-a661-03487c9afb90</guid>
 	</files>
+	<files>
+		<path>media/clothing/clothingItems/Trousers_FormalPants.xml</path>
+		<guid>15d7736c-792a-46a0-88d3-ac3e64030df6</guid>
+	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Trousers_SuitNick.xml</path>
 		<guid>2f480fba-3f74-4411-a306-5ee42f536c06</guid>

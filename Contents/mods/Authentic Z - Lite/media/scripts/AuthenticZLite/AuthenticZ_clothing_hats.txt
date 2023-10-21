@@ -891,7 +891,7 @@ module AuthenticZLite {
         WindResistance = 0.1,
         Weight = 0.5,
 		WorldStaticModel = WorldItem_Boater_Ground_Blue,
-    	}
+    }
 	item Hat_Boater_Green
 	{
 	    DisplayCategory = Accessory,	
@@ -1815,7 +1815,21 @@ module AuthenticZLite {
         WaterResistance = 1.0,
         WorldStaticModel = WorldItem-TagillaHelmetGorilla,
 		Tags = WeldingMask,		
-	}	
+	}
+    item Hat_TopHat_AZ
+    {
+	    DisplayCategory  = Accessory,	
+        Type 			 = Clothing,
+        DisplayName 	 = Top Hat,
+        ClothingItem 	 = Hat_TopHat_AZ,
+        BodyLocation 	 = Hat,
+        Icon 			 = TopHat_AZ,
+        CanHaveHoles 	 = false,
+        ChanceToFall 	 = 80,
+        Insulation 		 = 0.10,
+        Weight 			 = 0.5,
+		WorldStaticModel = WorldItem_Hat_TopHat_AZ,
+    }	
 	item Hat_TrueEyeCult
 	{
 	    DisplayCategory = Accessory,	

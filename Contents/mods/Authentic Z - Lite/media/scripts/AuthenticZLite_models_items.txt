@@ -1166,7 +1166,11 @@ module Base
 	model WorldItem_HairCurlers
     {
 		mesh = WorldItems/WorldItem-HairCurlers,	
-    }	
+    }
+	model WorldItem_Hat_TopHat_AZ
+	{
+		mesh = WorldItems/WorldItem_TopHat,
+	}	
 	model WorldItem_LadyDSummerHat
     {
 		mesh = WorldItems/WorldItem-LadyDHat,
