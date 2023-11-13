@@ -923,7 +923,7 @@ ItemName_EN = {
 	ItemName_AuthenticZClothing.Fat01_Skirt_Knees = "Knee-length Skirt",
 	ItemName_AuthenticZClothing.Fat01_Skirt_Long = "Long Skirt",
 	ItemName_AuthenticZClothing.Fat01_Skirt_Normal = "Skirt",
-	ItemName_AuthenticZClothing.Fat01_Skirt_Short = "Short Skirt,
+	ItemName_AuthenticZClothing.Fat01_Skirt_Short = "Short Skirt",
 	
 	ItemName_AuthenticZClothing.Fat02_AmmoStrap = "Bullets Ammo Strap",
 	ItemName_AuthenticZClothing.Fat02_Apron = "Apron",
@@ -958,7 +958,7 @@ ItemName_EN = {
 	ItemName_AuthenticZClothing.Fat02_Skirt_Knees = "Knee-length Skirt",
 	ItemName_AuthenticZClothing.Fat02_Skirt_Long = "Long Skirt",
 	ItemName_AuthenticZClothing.Fat02_Skirt_Normal = "Skirt",
-	ItemName_AuthenticZClothing.Fat02_Skirt_Short = "Short Skirt,
+	ItemName_AuthenticZClothing.Fat02_Skirt_Short = "Short Skirt",
 	
 	ItemName_AuthenticZClothing.Fat03_AmmoStrap = "Bullets Ammo Strap",
 	ItemName_AuthenticZClothing.Fat03_Apron = "Apron",
@@ -996,7 +996,7 @@ ItemName_EN = {
 	ItemName_AuthenticZClothing.Fat03_Skirt_Knees = "Knee-length Skirt",
 	ItemName_AuthenticZClothing.Fat03_Skirt_Long = "Long Skirt",
 	ItemName_AuthenticZClothing.Fat03_Skirt_Normal = "Skirt",
-	ItemName_AuthenticZClothing.Fat03_Skirt_Short = "Short Skirt,
+	ItemName_AuthenticZClothing.Fat03_Skirt_Short = "Short Skirt",
 
 	/* Skinny Clothing */		
 	ItemName_AuthenticZClothing.Thin01_Apron = "Apron",
