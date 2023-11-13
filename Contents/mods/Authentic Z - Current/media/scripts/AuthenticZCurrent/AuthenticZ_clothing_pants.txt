@@ -587,6 +587,40 @@ module AuthenticZClothing {
         FabricType = Denim,
         WorldStaticModel = Trousers_Ground,		
     }
+    item Trousers_Soldier_Rebel
+    {
+       DisplayCategory = Clothing,		
+        Type = Clothing,
+        DisplayName = Rebel Army Trousers,
+        ClothingItem = Trousers_Soldier_Rebel,
+        BodyLocation = Pants,
+        Icon = TrousersBill,
+        BloodLocation = Trousers,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        RunSpeedModifier = 0.98,
+        Insulation = 0.7,
+        WindResistance = 0.55,
+        FabricType = Denim,
+        WorldStaticModel = Trousers_Ground,		
+    }	
+    item Trousers_Soldier_Yankee
+    {
+       DisplayCategory = Clothing,		
+        Type = Clothing,
+        DisplayName = Yankee Army Trousers,
+        ClothingItem = Trousers_Soldier_Yankee,
+        BodyLocation = Pants,
+        Icon = TrousersBill,
+        BloodLocation = Trousers,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        RunSpeedModifier = 0.98,
+        Insulation = 0.7,
+        WindResistance = 0.55,
+        FabricType = Denim,
+        WorldStaticModel = Trousers_Ground,		
+    }	
    	item Trousers_SuitBrad
     {
        DisplayCategory = Clothing,		
@@ -650,7 +684,7 @@ module AuthenticZClothing {
         WindResistance = 0.5,
         FabricType = Cotton,
         WorldStaticModel = Trousers_Ground,		
-    }
+    }		
     item TrousersMesh_Bill
     {
        DisplayCategory = Clothing,		

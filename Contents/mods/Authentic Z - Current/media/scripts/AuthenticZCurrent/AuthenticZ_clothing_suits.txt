@@ -582,6 +582,36 @@ module AuthenticZClothing {
         WindResistance = 0.9,
         WorldStaticModel = Hazmat_Ground,
     }
+    item Dress_BallroomDress_Casual
+    {
+        DisplayCategory = Clothing,			
+        Type = Clothing,
+        DisplayName = Casual Ballroom Dress,
+        ClothingItem = Dress_BallroomDress_Casual,
+        BodyLocation = FullSuit,
+        BloodLocation = Trousers;Jumper,
+        IconsForTexture = Round_Gown_Casual_Blue;Round_Gown_Casual_Dark_Blue;Round_Gown_Casual_Dark_Green;Round_Gown_Casual_Dark_Red,
+		CanHaveHoles = false,
+        RunSpeedModifier = 0.90,
+        Insulation = 0.3,
+        WindResistance = 0.2,
+		WorldStaticModel = WorldItem-RoundGownPoncho,
+    }
+    item Dress_BallroomDress_Cute
+    {
+        DisplayCategory = Clothing,			
+        Type = Clothing,
+        DisplayName = Cute Ballroom Dress,
+        ClothingItem = Dress_BallroomDress_Cute,
+        BodyLocation = FullSuit,
+        BloodLocation = Trousers;Jumper,
+        IconsForTexture = Round_Gown_Cute_Light_Blue;Round_Gown_Cute_Light_Green;Round_Gown_Cute_Light_Yellow;Round_Gown_Cute_Pink;Round_Gown_Cute_Purple,
+		CanHaveHoles = false,
+        RunSpeedModifier = 0.90,
+        Insulation = 0.3,
+        WindResistance = 0.2,
+		WorldStaticModel = WorldItem-RoundGownPoncho,
+    }	
     item Dress_BallroomDress_Elegant
     {
         DisplayCategory = Clothing,			
@@ -590,13 +620,28 @@ module AuthenticZClothing {
         ClothingItem = Dress_BallroomDress_Elegant,
         BodyLocation = FullSuit,
         BloodLocation = Trousers;Jumper,
-        Icon = BallroomDressElegant,
+        IconsForTexture = Round_Gown_Elegant_Blue;Round_Gown_Elegant_Dark_Blue;Round_Gown_Elegant_Dark_Red;Round_Gown_Elegant_Gold;Round_Gown_Elegant_Green;Round_Gown_Elegant_Light_Blue;Round_Gown_Elegant_Original;Round_Gown_Elegant_Red;Round_Gown_Elegant_Yellow,
 		CanHaveHoles = false,
         RunSpeedModifier = 0.90,
         Insulation = 0.3,
         WindResistance = 0.2,
 		WorldStaticModel = WorldItem-RoundGownPoncho,
     }
+    item Dress_BallroomDress_Frilly
+    {
+        DisplayCategory = Clothing,			
+        Type = Clothing,
+        DisplayName = Frilly Ballroom Dress,
+        ClothingItem = Dress_BallroomDress_Frilly,
+        BodyLocation = FullSuit,
+        BloodLocation = Trousers;Jumper,
+        Icon = Round_Gown_Frilly,
+		CanHaveHoles = false,
+        RunSpeedModifier = 0.90,
+        Insulation = 0.3,
+        WindResistance = 0.2,
+		WorldStaticModel = WorldItem-RoundGownPoncho,
+    }	
     item Dress_BallroomDress_LongSleevedButtoned
     {
         DisplayCategory = Clothing,			
@@ -631,22 +676,112 @@ module AuthenticZClothing {
     {
         DisplayCategory = Clothing,			
         Type = Clothing,
-        DisplayName = Elegant Ballroom Dress,
+        DisplayName = Patterned Ballroom Dress,
         ClothingItem = Dress_BallroomDress_Pattern,
         BodyLocation = FullSuit,
         BloodLocation = Trousers;Jumper,
-        IconsForTexture = BallroomDressElegant,
+        IconsForTexture = Round_Gown_Patterned_Peach;Round_Gown_Patterned_Cream;Round_Gown_Patterned_Pink;Round_Gown_Patterned_Purple;Round_Gown_Patterned_Red;Round_Gown_Patterned_Yellow,
 		CanHaveHoles = false,
         RunSpeedModifier = 0.90,
         Insulation = 0.3,
         WindResistance = 0.2,
 		WorldStaticModel = WorldItem-RoundGown,
     }
+    item Dress_BallroomDress_PatternApron
+    {
+        DisplayCategory = Clothing,			
+        Type = Clothing,
+        DisplayName = Patterned Ballroom Dress with Apron,
+        ClothingItem = Dress_BallroomDress_PatternApron,
+        BodyLocation = FullSuit,
+        BloodLocation = Trousers;Jumper,
+        IconsForTexture = Round_Gown_Patterned_Peach_Apron;Round_Gown_Patterned_Cream_Apron;Round_Gown_Patterned_Pink_Apron;Round_Gown_Patterned_Purple_Apron;Round_Gown_Patterned_Red_Apron;Round_Gown_Patterned_Yellow_Apron,
+		CanHaveHoles = false,
+        RunSpeedModifier = 0.90,
+        Insulation = 0.3,
+        WindResistance = 0.2,
+		WorldStaticModel = WorldItem-RoundGown,
+    }	
+    item Dress_BallroomDress_Plaid
+    {
+        DisplayCategory = Clothing,			
+        Type = Clothing,
+        DisplayName = Plaid Ballroom Dress,
+        ClothingItem = Dress_BallroomDress_Plaid,
+        BodyLocation = FullSuit,
+        BloodLocation = Trousers;Jumper,
+        IconsForTexture = Round_Gown_Plaid_Blue;Round_Gown_Plaid_Cyan;Round_Gown_Plaid_Dark_Blue;Round_Gown_Plaid_Dark_Green;Round_Gown_Plaid_Dark_Red;Round_Gown_Plaid_Green;Round_Gown_Plaid_Brown;Round_Gown_Plaid_Yellow,
+		CanHaveHoles = false,
+        RunSpeedModifier = 0.90,
+        Insulation = 0.3,
+        WindResistance = 0.2,
+		WorldStaticModel = WorldItem-RoundGown,
+    }
+    item Dress_BallroomDress_PlaidApron
+    {
+        DisplayCategory = Clothing,			
+        Type = Clothing,
+        DisplayName = Plaid Ballroom Dress with Apron,
+        ClothingItem = Dress_BallroomDress_PlaidApron,
+        BodyLocation = FullSuit,
+        BloodLocation = Trousers;Jumper,
+        IconsForTexture = Round_Gown_Plaid_Blue_Apron;Round_Gown_Plaid_Cyan_Apron;Round_Gown_Plaid_Dark_Blue_Apron;Round_Gown_Plaid_Dark_Green_Apron;Round_Gown_Plaid_Dark_Red_Apron;Round_Gown_Plaid_Green_Apron;Round_Gown_Plaid_Brown_Apron;Round_Gown_Plaid_Yellow_Apron,
+		CanHaveHoles = false,
+        RunSpeedModifier = 0.90,
+        Insulation = 0.3,
+        WindResistance = 0.2,
+		WorldStaticModel = WorldItem-RoundGown,
+    }	
+    item Dress_BallroomDress_Prairie
+    {
+        DisplayCategory = Clothing,			
+        Type = Clothing,
+        DisplayName = Prairie Ballroom Dress,
+        ClothingItem = Dress_BallroomDress_Prairie,
+        BodyLocation = FullSuit,
+        BloodLocation = Trousers;Jumper,
+        IconsForTexture = Round_Gown_Prairie_Dark_Blue;Round_Gown_Prairie_Lavender;Round_Gown_Prairie_Light_Blue;Round_Gown_Prairie_Red,
+		CanHaveHoles = false,
+        RunSpeedModifier = 0.90,
+        Insulation = 0.3,
+        WindResistance = 0.2,
+		WorldStaticModel = WorldItem-RoundGown,
+    }
+    item Dress_BallroomDress_PrairieApron
+    {
+        DisplayCategory = Clothing,			
+        Type = Clothing,
+        DisplayName = Prairie Ballroom Dress with Apron,
+        ClothingItem = Dress_BallroomDress_PrairieApron,
+        BodyLocation = FullSuit,
+        BloodLocation = Trousers;Jumper,
+        IconsForTexture = Round_Gown_Prairie_Dark_Blue_Apron;Round_Gown_Prairie_Lavender_Apron;Round_Gown_Prairie_Light_Blue_Apron;Round_Gown_Prairie_Red_Apron,
+		CanHaveHoles = false,
+        RunSpeedModifier = 0.90,
+        Insulation = 0.3,
+        WindResistance = 0.2,
+		WorldStaticModel = WorldItem-RoundGown,
+    }
+    item Dress_BallroomDress_Relaxed
+    {
+        DisplayCategory = Clothing,			
+        Type = Clothing,
+        DisplayName = Relaxed Ballroom Dress,
+        ClothingItem = Dress_BallroomDress_Relaxed,
+        BodyLocation = FullSuit,
+        BloodLocation = Trousers;Jumper,
+        IconsForTexture = Round_Gown_Relaxed_Blue;Round_Gown_Relaxed_Brown;Round_Gown_Relaxed_Cyan;Round_Gown_Relaxed_Dark_Blue;Round_Gown_Relaxed_Dark_Green;Round_Gown_Relaxed_Dark_Red;Round_Gown_Relaxed_Green;Round_Gown_Relaxed_Yellow,
+		CanHaveHoles = false,
+        RunSpeedModifier = 0.90,
+        Insulation = 0.3,
+        WindResistance = 0.2,
+		WorldStaticModel = WorldItem-RoundGown,
+    }	
     item Dress_BallroomDress_Simple
     {
         DisplayCategory = Clothing,			
         Type = Clothing,
-        DisplayName = Elegant Ballroom Dress,
+        DisplayName = Simple Ballroom Dress,
         ClothingItem = Dress_BallroomDress_Simple,
         BodyLocation = FullSuit,
         BloodLocation = Trousers;Jumper,
@@ -676,7 +811,7 @@ module AuthenticZClothing {
     {
         DisplayCategory = Clothing,			
         Type = Clothing,
-        DisplayName = Ballroom Dress,
+        DisplayName = Ballroom Dress with Apron,
         ClothingItem = Dress_BallroomDress_StripedApron,
         BodyLocation = FullSuit,
         BloodLocation = Trousers;Jumper,

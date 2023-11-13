@@ -8,10 +8,15 @@
 	<m_AttachBone></m_AttachBone>
 	<m_Masks>13</m_Masks>
 	<m_Masks>2</m_Masks>
-
 	<m_Masks>7</m_Masks>
 	<m_Masks>8</m_Masks>
 	<m_Masks>9</m_Masks>
 	<m_Masks>10</m_Masks>
 	<textureChoices>clothes\dress_textures\Gown5</textureChoices>
+	<textureChoices>clothes\dress_textures\Round_Gown_Patterned_Cream</textureChoices>
+	<textureChoices>clothes\dress_textures\Round_Gown_Patterned_Peach</textureChoices>
+	<textureChoices>clothes\dress_textures\Round_Gown_Patterned_Pink</textureChoices>
+	<textureChoices>clothes\dress_textures\Round_Gown_Patterned_Purple</textureChoices>
+	<textureChoices>clothes\dress_textures\Round_Gown_Patterned_Red</textureChoices>
+	<textureChoices>clothes\dress_textures\Round_Gown_Patterned_Yellow</textureChoices>
 </clothingItem>

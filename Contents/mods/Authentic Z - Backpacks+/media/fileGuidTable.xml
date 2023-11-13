@@ -4639,58 +4639,6 @@
 		<guid>c6e03df4-f01c-48be-8419-6cad017a4694</guid>
 	</files>	
 	<files>
-		<path>media/clothing/clothingItems/Hat_WeddingVeilPink.xml</path>
-		<guid>358ec97d-4d24-47c3-ab3b-87fc799329f9</guid>
-	</files>
-	<files>
-		<path>media/clothing/clothingItems/Hat_WeddingVeilBlue.xml</path>
-		<guid>28cadbe0-cf32-4eb0-937b-5ab48070675f</guid>
-	</files>
-	<files>
-		<path>media/clothing/clothingItems/Hat_TagillaMask.xml</path>
-		<guid>97a3fa4b-d725-4f28-9ed1-65705a5a6864</guid>
-	</files>
-	<files>
-		<path>media/clothing/clothingItems/Hat_TagillaMask2.xml</path>
-		<guid>f6259adc-0532-4cd8-a97c-17e4003acaaf</guid>
-	</files>	
-	<files>
-		<path>media/clothing/clothingItems/Hat_TrueEyeCult.xml</path>
-		<guid>bf08f4a0-ae0d-4798-a42f-18a4279f16b9</guid>
-	</files>	
-	<files>
-		<path>media/clothing/clothingItems/Hat_UncleSam.xml</path>
-		<guid>6167c930-076f-4ed7-ad5e-7c2e407987d4</guid>
-	</files>
-	<files>
-		<path>media/clothing/clothingItems/Hat_Witchy_2.xml</path>
-		<guid>afa17cee-93fc-4949-922f-8272bcf59fcd</guid>
-	</files>
-	<files>
-		<path>media/clothing/clothingItems/Hat_Witchy_2_Back.xml</path>
-		<guid>222b5d9e-9c56-41d7-9ea9-54fb216b25f5</guid>
-	</files>		
-	<files>
-		<path>media/clothing/clothingItems/HoodieTied_Checkered.xml</path>
-		<guid>150da59c-789f-4a6b-b5c8-6b14b22fa6f6</guid>
-	</files>	
-	<files>
-		<path>media/clothing/clothingItems/HoodieUP_Bengal.xml</path>
-		<guid>0292464a-ee5f-4b78-b511-822ca3a39e40</guid>
-	</files>
-	<files>
-		<path>media/clothing/clothingItems/HoodieDOWN_Bengal.xml</path>
-		<guid>9d9ec66e-4108-42d7-9d9d-64d003a31b54</guid>
-	</files>
-	<files>
-		<path>media/clothing/clothingItems/HoodieTied_Bengal.xml</path>
-		<guid>860ed528-4643-4cbd-ba78-6508231275f1</guid>
-	</files>
-	<files>
-		<path>media/clothing/clothingItems/HoodieUP_Black.xml</path>
-		<guid>cc16bfe6-d473-4d58-84c4-1a0cbfe7bc6e</guid>
-	</files>
-	<files>
 		<path>media/clothing/clothingItems/HoodieDOWN_Black.xml</path>
 		<guid>e360c3fa-34ec-4877-8f0b-af51508f14c3</guid>
 	</files>

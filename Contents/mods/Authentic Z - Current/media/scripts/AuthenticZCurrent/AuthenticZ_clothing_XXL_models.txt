@@ -247,7 +247,7 @@ module AuthenticZClothing {
     {
        DisplayCategory = Clothing,		
         Type = Clothing,
-
+		DisplayName				= Heart Boxers,	
         ClothingItem = Fat02_Boxers,
         ClothingItemExtra = Boxers_Hearts,
         ClothingItemExtraOption = Tighten,		
@@ -321,7 +321,7 @@ module AuthenticZClothing {
     {
         DisplayCategory = Clothing,		
         Type = Clothing,
-        DisplayName = T-Shirt,
+        DisplayName = Burger T-Shirt,
         ClothingItem = Fat02_TShirtCheese,
         ClothingItemExtra = AuthenticZClothing.Tshirt_CheeseRoyale,
         ClothingItemExtraOption = Tighten,		
@@ -353,7 +353,7 @@ module AuthenticZClothing {
     {
         DisplayCategory = Clothing,
         Type = Clothing,
-	
+		DisplayName = High Visibility Vest,
         ClothingItem = Fat02_Vest_HighViz,
         ClothingItemExtra = Vest_HighViz,
         ClothingItemExtraOption = Tighten,			
@@ -367,7 +367,7 @@ module AuthenticZClothing {
     {
         DisplayCategory = Clothing,
         Type = Clothing,
-		
+		DisplayName = Tank Top,
         ClothingItem = Fat02_Vest_HighViz,
         ClothingItemExtra = Vest_HighViz,
         ClothingItemExtraOption = Tighten,			
@@ -382,7 +382,7 @@ module AuthenticZClothing {
     {
         DisplayCategory = Clothing,
         Type = Clothing,
-
+		DisplayName = Knee-length Dress,
         ClothingItem = Fat02_Dress_Knees,
         ClothingItemExtra = Dress_Knees,
         ClothingItemExtraOption = Tighten,		
@@ -399,7 +399,7 @@ module AuthenticZClothing {
     {
         DisplayCategory = Clothing,
         Type = Clothing,
-
+		DisplayName = Straps Knee-length Dress,
         ClothingItem = Fat02_DressKnees_Straps,
         ClothingItemExtra = DressKnees_Straps,
         ClothingItemExtraOption = Tighten,		
@@ -416,7 +416,7 @@ module AuthenticZClothing {
      {
          DisplayCategory = Clothing,
          Type = Clothing,
-
+		 DisplayName = Small Strapless Dress,
          ClothingItem = Fat02_Dress_SmallStrapless,
          ClothingItemExtra = Dress_SmallStrapless,
          ClothingItemExtraOption = Tighten,			 
@@ -433,7 +433,7 @@ module AuthenticZClothing {
      {
          DisplayCategory = Clothing,
          Type = Clothing,
-
+		 DisplayName = Small Straps Dress,
          ClothingItem = Fat02_Dress_SmallStraps,
          ClothingItemExtra = Dress_SmallStraps,
          ClothingItemExtraOption = Tighten,			 
@@ -450,7 +450,7 @@ module AuthenticZClothing {
     {
         DisplayCategory = Clothing,
         Type = Clothing,
-
+ 		DisplayName = Satin Negligee Dress,
         ClothingItem = Fat02_Dress_SatinNegligee,
         ClothingItemExtra = Dress_SatinNegligee,
         ClothingItemExtraOption = Tighten,		
@@ -467,7 +467,7 @@ module AuthenticZClothing {
     {
         DisplayCategory = Clothing,
         Type = Clothing,
-
+ 		DisplayName = Long Dress,
         ClothingItem = Fat02_Dress_Long,
         ClothingItemExtra = Dress_Long,
         ClothingItemExtraOption = Tighten,	
@@ -485,7 +485,7 @@ module AuthenticZClothing {
     {
         DisplayCategory = Clothing,
         Type = Clothing,
-
+ 		DisplayName = Long Straps Dress,
         ClothingItem = Fat02_Dress_long_Straps,
         ClothingItemExtra = Dress_long_Straps,
         ClothingItemExtraOption = Tighten,		
@@ -503,7 +503,7 @@ module AuthenticZClothing {
     {
         DisplayCategory = Clothing,
         Type = Clothing,
-
+ 		DisplayName = Dress,
         ClothingItem = Fat02_Dress_Normal,
         ClothingItemExtra = Dress_Normal,
         ClothingItemExtraOption = Tighten,		
@@ -521,7 +521,7 @@ module AuthenticZClothing {
     {
         DisplayCategory = Clothing,
         Type = Clothing,
-
+ 		DisplayName = Straps Dress,
         ClothingItem = Fat02_Dress_Straps,
         ClothingItemExtra = Dress_Straps,
         ClothingItemExtraOption = Tighten,		
@@ -539,7 +539,7 @@ module AuthenticZClothing {
     {
         DisplayCategory = Clothing,
         Type = Clothing,
-
+		DisplayName = Short Dress,
         ClothingItem = Fat02_Dress_Short,
         ClothingItemExtra = Dress_Short,
         ClothingItemExtraOption = Tighten,	
@@ -556,7 +556,7 @@ module AuthenticZClothing {
     {
         DisplayCategory = Clothing,
         Type = Clothing,
-
+ 		DisplayName = Knee-length Skirt,
         ClothingItem = Fat02_Skirt_Knees,
         ClothingItemExtra = Skirt_Knees,
         ClothingItemExtraOption = Tighten,		
@@ -573,7 +573,7 @@ module AuthenticZClothing {
     {
         DisplayCategory = Clothing,
         Type = Clothing,
-
+		DisplayName = Long Skirt,
         ClothingItem = Fat02_Skirt_Long,
         ClothingItemExtra = Skirt_Long,
         ClothingItemExtraOption = Tighten,		
@@ -591,7 +591,7 @@ module AuthenticZClothing {
     {
         DisplayCategory = Clothing,
         Type = Clothing,
-
+		DisplayName = Skirt,
         ClothingItem = Fat02_Skirt_Normal,
         ClothingItemExtra = Skirt_Normal,
         ClothingItemExtraOption = Tighten,			
@@ -609,7 +609,7 @@ module AuthenticZClothing {
     {
         DisplayCategory = Clothing,
         Type = Clothing,
-		DisplayName				= Short Skirt (2XL),
+		DisplayName				= Short Skirt,
         ClothingItem = Fat02_Skirt_Short,
         ClothingItemExtra = Skirt_Short,
         ClothingItemExtraOption = Tighten,			

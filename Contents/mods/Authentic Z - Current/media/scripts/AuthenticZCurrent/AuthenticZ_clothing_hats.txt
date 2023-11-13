@@ -1605,6 +1605,34 @@ module AuthenticZClothing {
         Insulation = 0.80,
         WindResistance = 0.25,
         Weight = 0.5,		
+    }
+    item Hat_Soldier_Rebel
+    {
+	    DisplayCategory = Accessory,	
+        Type 			 = Clothing,
+        DisplayName 	 = Rebel Army Hat,
+        ClothingItem 	 = Hat_Soldier_Rebel,
+        BodyLocation 	 = Hat,
+        Icon 			 = Hat_Soldier_Rebel,
+        CanHaveHoles 	 = false,
+        ChanceToFall 	 = 80,
+        Insulation 		 = 0.10,
+        Weight 			 = 0.5,
+		WorldStaticModel = WorldItem_SoldierHat,
+    }	
+    item Hat_Soldier_Yankee
+    {
+	    DisplayCategory = Accessory,	
+        Type 			 = Clothing,
+        DisplayName 	 = Yankee Army Hat,
+        ClothingItem 	 = Hat_Soldier_Yankee,
+        BodyLocation 	 = Hat,
+        Icon 			 = Hat_Soldier_Yankee,
+        CanHaveHoles 	 = false,
+        ChanceToFall 	 = 80,
+        Insulation 		 = 0.10,
+        Weight 			 = 0.5,
+		WorldStaticModel = WorldItem_SoldierHat,
     }	
 	item Hat_StormtrooperHelmetAZ
 	{

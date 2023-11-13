@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\clothes\bob_weddingdress</m_MaleModel>
+	<m_FemaleModel>skinned\clothes\BallroomDress_Elegant</m_FemaleModel>
+	<m_GUID>2a324a75-2493-4299-9d18-1b93960fe582</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_Masks>13</m_Masks>
+	<m_Masks>2</m_Masks>
+	<m_Masks>7</m_Masks>
+	<m_Masks>8</m_Masks>
+	<m_Masks>9</m_Masks>
+	<m_Masks>10</m_Masks>
+	<textureChoices>clothes\dress_textures\Round_Gown_Patterned_Cream_with_Apron</textureChoices>
+	<textureChoices>clothes\dress_textures\Round_Gown_Patterned_Peach_with_Apron</textureChoices>
+	<textureChoices>clothes\dress_textures\Round_Gown_Patterned_Pink_with_Apron</textureChoices>
+	<textureChoices>clothes\dress_textures\Round_Gown_Patterned_Purple_with_Apron</textureChoices>
+	<textureChoices>clothes\dress_textures\Round_Gown_Patterned_Red_with_Apron</textureChoices>
+	<textureChoices>clothes\dress_textures\Round_Gown_Patterned_Yellow_with_Apron</textureChoices>
+</clothingItem>

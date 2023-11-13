@@ -1736,6 +1736,10 @@ module Base
 	{
 		mesh = WorldItems/WorldItem-SmallBoater,	
 	}	
+	model WorldItem_SoldierHat
+	{
+		mesh = WorldItems/WorldItem_SoldierHat,	
+	}		
 	model WorldItem_TrashCanLid
     {
 		mesh = WorldItems/WorldItem_TrashcanLid,

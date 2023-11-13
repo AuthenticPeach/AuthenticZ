@@ -959,7 +959,7 @@ module AuthenticZLite {
 		ClothingItem = Hat_EarMuff_Protectors_AZ,
 		ClothingItemExtra		= AuthenticZLite.Hat_EarMuff_Protectors_Neck,
         ClothingItemExtraOption = WearNeck,		
-		BodyLocation = Necklace,
+		BodyLocation = HeadExtra,
 		Icon = EarProtectors,
 		CanHaveHoles = false,
 		ChanceToFall = 30,

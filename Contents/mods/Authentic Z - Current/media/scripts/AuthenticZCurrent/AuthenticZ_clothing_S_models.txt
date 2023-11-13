@@ -256,17 +256,17 @@ module AuthenticZClothing {
     }	
     item Thin01_Vest_HighViz
     {
-        DisplayCategory = Clothing,
-        Type = Clothing,
-        DisplayName = Vest,			
-        ClothingItem = Thin01_Vest_HighViz,
-        ClothingItemExtra = Vest_HighViz,
+        DisplayCategory 		= Clothing,
+        Type 					= Clothing,
+        DisplayName 			= Vest,			
+        ClothingItem 			= Thin01_Vest_HighViz,
+        ClothingItemExtra 		= Vest_HighViz,
         ClothingItemExtraOption = Tighten,				
-        BodyLocation = TorsoExtra,
-        IconsForTexture = ConstructionVest;Huntingvest_Orange;Huntingvest_Grey;Huntingvest_Camo;Huntingvest_Orange;Huntingvest_Grey;Huntingvest_Camo;SweaterVestWhite;SweaterVestArgyle,
-        BloodLocation = ShirtNoSleeves,
-        FabricType = Cotton,		
-        WorldStaticModel = HuntingVest_Ground,	
-		Tooltip 		 = 	Tooltip_SizeXS,			
+        BodyLocation 	 		= TorsoExtra,
+        IconsForTexture  		= ConstructionVest;Huntingvest_Orange;Huntingvest_Grey;Huntingvest_Camo;Huntingvest_Orange;Huntingvest_Grey;Huntingvest_Camo;SweaterVestWhite;SweaterVestArgyle,
+        BloodLocation 	 		= ShirtNoSleeves,
+        FabricType 		 		= Cotton,		
+        WorldStaticModel 		= HuntingVest_Ground,	
+		Tooltip 		 		= 	Tooltip_SizeXS,			
     }
 }

@@ -4638,6 +4638,14 @@
 	<files>
 		<path>media/clothing/clothingItems/Hat_StormtrooperHelmetSparklesAZ.xml</path>
 		<guid>a6d1f48d-74a1-4353-9718-b1bacf5566be</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Hat_Soldier_Rebel.xml</path>
+		<guid>8afcc7f6-dff7-43d6-9a89-2308b5ec3cc0</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Hat_Soldier_Yankee.xml</path>
+		<guid>519c9a3a-1b1c-4113-b4fc-bcfbdec0e881</guid>
 	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Hat_StovePipe.xml</path>
@@ -5147,6 +5155,14 @@
 		<path>media/clothing/clothingItems/Jacket_Scandroid.xml</path>
 		<guid>8c80a404-dc1d-4b2a-a56a-8647f1f720a8</guid>
 	</files>
+	<files>
+		<path>media/clothing/clothingItems/Jacket_Soldier_Rebel.xml</path>
+		<guid>238f5c1a-38c9-4dfe-bd1f-2359c9e7f1ff</guid>
+	</files>
+		<files>
+		<path>media/clothing/clothingItems/Jacket_Soldier_Yankee.xml</path>
+		<guid>3753c4fc-b800-4063-9019-ba7d2e6fbd62</guid>
+	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Jacket_StraightJacket.xml</path>
 		<guid>75ce22f2-e985-4a06-8b60-d06d3ec97d27</guid>
@@ -6090,6 +6106,14 @@
 	<files>
 		<path>media/clothing/clothingItems/Trousers_SantaWhite.xml</path>
 		<guid>e5927c7d-6992-4480-a883-05bd414f9e09</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Trousers_Soldier_Rebels.xml</path>
+		<guid>603c49db-e945-421e-81d0-8b88dc4e5c61</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Trousers_Soldier_Yankee.xml</path>
+		<guid>456a69c4-bd12-4acf-943b-17ce4ad94771</guid>
 	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Trousers_SportKilla.xml</path>
