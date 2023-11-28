@@ -4,13 +4,14 @@ module AuthenticZLite {
   }	
 	item Fat02_AmmoStrap
 	{
-       DisplayCategory = Clothing,		
-		Type = Clothing,
-
-		ClothingItem = Fat02_AmmoStrap,
-        ClothingItemExtra = AmmoStrap_Bullets,
-        ClothingItemExtraOption = Tighten,			
-		BodyLocation = AmmoStrap,
+        DisplayCategory = Clothing,		
+		Type 					= Clothing,
+		DisplayName				= Ammo Strap (2XL),
+		ClothingItem 			= Fat02_AmmoStrap,
+        ClothingItemExtra 		= AmmoStrap_Bullets;AuthenticZLite.Fat01_AmmoStrap;AuthenticZLite.Fat03_AmmoStrap,
+        ClothingItemExtraOption = Tighten;Tighten;Loosen,
+		clothingExtraSubmenu 	= Loosen,									
+		BodyLocation 			= AmmoStrap,
 		Icon = AmmoStrapFlipped,
 		Tooltip = Tooltip_AmmoStrap,
 		WorldStaticModel = AmmoStrap_Ground,
@@ -19,46 +20,49 @@ module AuthenticZLite {
 
     item Fat02_Apron
     {
-       DisplayCategory = Clothing,		
-		Type = Clothing,
-	
-		ClothingItem = Fat02_Apron,
-        ClothingItemExtra = Apron_White,
-        ClothingItemExtraOption = Tighten,		
-		BodyLocation = TorsoExtra,
-		BloodLocation = Apron,
-		Icon = ApronIceCream,
-		FabricType = Cotton,
-		WorldStaticModel = Apron_Ground,
-		Tooltip = Tooltip_Size2XL,		
+        DisplayCategory 		= Clothing,		
+		Type 					= Clothing,
+		DisplayName				= Apron (2XL),	
+		ClothingItem 			= Fat02_Apron,
+        ClothingItemExtra 		= Apron_White;AuthenticZLite.Fat01_Apron;AuthenticZLite.Fat03_Apron,
+        ClothingItemExtraOption = Tighten;Tighten;Loosen,
+		clothingExtraSubmenu 	= Loosen,			
+		BodyLocation 			= TorsoExtra,
+		BloodLocation 			= Apron,
+		Icon 					= ApronWhite,
+		FabricType 				= Cotton,
+		WorldStaticModel 		= Apron_Ground,
+		Tooltip 				= Tooltip_Size2XL,		
     }
     item Fat02_Coveralls
     {
-        DisplayCategory = Clothing,		
-        Type = Clothing,
-	
-        ClothingItem = Fat02_Coveralls,
-        ClothingItemExtra = Boilersuit,
-        ClothingItemExtraOption = Tighten,				
-        BodyLocation = FullSuit,
-        Icon = BoilerSuitBigDaddy,
-        BloodLocation = Trousers;Jumper,
-        RunSpeedModifier = 0.9,
-        ScratchDefense = 10,
-        Insulation = 0.45,
-        WindResistance = 0.35,
-        FabricType = Denim,
-		WorldStaticModel = BoilerSuit_Ground,
-		Tooltip = Tooltip_Size2XL,		
+        DisplayCategory 		= Clothing,		
+        Type 					= Clothing,
+		DisplayName				= Coveralls (2XL),		
+        ClothingItem			= Fat02_Coveralls,
+        ClothingItemExtra 		= Boilersuit;AuthenticZLite.Fat02_Coveralls;AuthenticZLite.Fat03_Coveralls,
+        ClothingItemExtraOption = Tighten,Loosen;Stretch,
+		clothingExtraSubmenu 	= Loosen,					
+        BodyLocation 			= FullSuit,
+        Icon 					= BoilerSuitBigDaddy,
+        BloodLocation 			= Trousers;Jumper,
+        RunSpeedModifier 		= 0.9,
+        ScratchDefense			= 10,
+        Insulation 				= 0.45,
+        WindResistance 			= 0.35,
+        FabricType 				= Denim,
+		WorldStaticModel 		= BoilerSuit_Ground,
+		Tooltip 				= Tooltip_Size2XL,		
     }
     item Fat02_HoodieUP
     {
         DisplayCategory = Clothing,		
         Type = Clothing,
-
+		DisplayName				= Hoodie (2XL),	
         ClothingItem = Fat02_HoodieUP,
         ClothingItemExtra = AuthenticZLite.HoodieUP_WhiteTINT,
         ClothingItemExtraOption = DownHoodie,
+		clothingExtraSubmenu 	= UpHoodie,			
         BodyLocation = Jacket,
         BloodLocation = Jumper;FullHelmet,
         Icon = HoodieBlack,
@@ -73,10 +77,11 @@ module AuthenticZLite {
     {
         DisplayCategory = Clothing,		
         Type = Clothing,
-
+		DisplayName				= Hoodie (2XL),
         ClothingItem = Fat02_HoodieDOWN,
         ClothingItemExtra = AuthenticZLite.HoodieDOWN_WhiteTINT,
         ClothingItemExtraOption = UpHoodie,
+		clothingExtraSubmenu 	= DownHoodie,		
         BodyLocation = Jacket,
         BloodLocation = Jumper,
         Icon = HoodieBlack,
@@ -92,7 +97,7 @@ module AuthenticZLite {
     {
         DisplayCategory = Clothing,
         Type = Clothing,
-
+		DisplayName				= Jacket (2XL),
         ClothingItem = Fat02_Jacket,
         ClothingItemExtra = Jacket_WhiteTINT,
         ClothingItemExtraOption = Tighten,				
