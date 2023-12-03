@@ -8,7 +8,7 @@ module AuthenticZClothing {
 		Type 					= Clothing,
 		DisplayName				= Ammo Strap (2XL),
 		ClothingItem 			= Fat02_AmmoStrap,
-        ClothingItemExtra 		= AmmoStrap_Bullets;Fat01_AmmoStrap;Fat03_AmmoStrap,
+        ClothingItemExtra 		= AmmoStrap_Bullets;AuthenticZClothing.Fat01_AmmoStrap;AuthenticZClothing.Fat03_AmmoStrap,
         ClothingItemExtraOption = Tighten;Tighten;Loosen,
 		clothingExtraSubmenu 	= Loosen,									
 		BodyLocation 			= AmmoStrap,
@@ -122,7 +122,7 @@ module AuthenticZClothing {
     {
         DisplayCategory = Clothing,
         Type = Clothing,
-
+		DisplayName				= Jacket (2XL),
         ClothingItem = Fat02_JacketLeather,
         ClothingItemExtra = Jacket_Black,
         ClothingItemExtraOption = Tighten,	
@@ -147,7 +147,7 @@ module AuthenticZClothing {
     {
         DisplayCategory = Clothing,
         Type = Clothing,
-
+		DisplayName				= Jacket (2XL),
         ClothingItem = Fat02_JacketLong,
         ClothingItemExtra = JacketLong_Random,
         ClothingItemExtraOption = Tighten,
@@ -172,7 +172,7 @@ module AuthenticZClothing {
     {
         DisplayCategory = Clothing,			
         Type = Clothing,
-
+		DisplayName				= Overalls,
         ClothingItem = Fat02_Overalls,
         ClothingItemExtra = Dungarees,
         ClothingItemExtraOption = Tighten,
@@ -192,7 +192,7 @@ module AuthenticZClothing {
     {
         DisplayCategory = Clothing,		
         Type = Clothing,
-
+		DisplayName				= Poncho (UP),
         ClothingItem = Fat02_PonchoUP,
         ClothingItemExtra = PonchoGreenDOWN,
         ClothingItemExtraOption = DownHoodie,
@@ -216,7 +216,7 @@ module AuthenticZClothing {
     {
         DisplayCategory = Clothing,		
         Type = Clothing,
-
+		DisplayName				= Poncho (DOWN),
         ClothingItem = PonchoBlackDOWN,
         ClothingItemExtra = PonchoGreen,
         ClothingItemExtraOption = UpHoodie,
