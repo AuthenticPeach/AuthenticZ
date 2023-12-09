@@ -99,8 +99,9 @@ module AuthenticZLite {
         Type = Clothing,
 		DisplayName				= Jacket (2XL),
         ClothingItem = Fat02_Jacket,
-        ClothingItemExtra = Jacket_WhiteTINT,
-        ClothingItemExtraOption = Tighten,				
+        ClothingItemExtra 		= Jacket_WhiteTINT;AuthenticZLite.Fat02_Jacket;AuthenticZLite.Fat03_Jacket,
+        ClothingItemExtraOption = Tighten,	
+		clothingExtraSubmenu 	= Loosen,		
         BodyLocation = Jacket,
         Icon = JacketBlack,
         BloodLocation = Jacket,
@@ -121,10 +122,11 @@ module AuthenticZLite {
     {
         DisplayCategory = Clothing,
         Type = Clothing,
-
+		DisplayName				= Jacket (2XL),
         ClothingItem = Fat02_JacketLeather,
         ClothingItemExtra = Jacket_Black,
         ClothingItemExtraOption = Tighten,	
+		clothingExtraSubmenu 	= Loosen,			
         BodyLocation = Jacket,
         IconsForTexture = JacketBlack;JacketBlack;JacketBlack,
         BloodLocation = Jacket,
@@ -145,10 +147,11 @@ module AuthenticZLite {
     {
         DisplayCategory = Clothing,
         Type = Clothing,
-
+		DisplayName				= Jacket (2XL),
         ClothingItem = Fat02_JacketLong,
         ClothingItemExtra = JacketLong_Random,
-        ClothingItemExtraOption = Tighten,			
+        ClothingItemExtraOption = Tighten,
+		clothingExtraSubmenu 	= Loosen,			
         BodyLocation = Jacket,
         IconsForTexture = JacketLongBlack;JacketLongBrown;JacketGreen,
         BloodLocation = LongJacket,
@@ -169,10 +172,11 @@ module AuthenticZLite {
     {
         DisplayCategory = Clothing,			
         Type = Clothing,
-
+		DisplayName				= Overalls,
         ClothingItem = Fat02_Overalls,
         ClothingItemExtra = Dungarees,
-        ClothingItemExtraOption = Tighten,		
+        ClothingItemExtraOption = Tighten,
+		clothingExtraSubmenu 	= Loosen,		
         BodyLocation = FullSuit,
         Icon = OverallsDenim,
         BloodLocation = Trousers;Jumper,
@@ -188,10 +192,11 @@ module AuthenticZLite {
     {
         DisplayCategory = Clothing,		
         Type = Clothing,
-
+		DisplayName				= Poncho (UP),
         ClothingItem = Fat02_PonchoUP,
         ClothingItemExtra = PonchoGreenDOWN,
-        ClothingItemExtraOption = DownHoodie,		
+        ClothingItemExtraOption = DownHoodie,	
+		clothingExtraSubmenu 	= UpHoodie,			
         BodyLocation = JacketHat,
         Icon = HoodieWhite,
         ColorRed = 20,
@@ -211,10 +216,11 @@ module AuthenticZLite {
     {
         DisplayCategory = Clothing,		
         Type = Clothing,
-
+		DisplayName				= Poncho (DOWN),
         ClothingItem = PonchoBlackDOWN,
         ClothingItemExtra = PonchoGreen,
-        ClothingItemExtraOption = UpHoodie,		
+        ClothingItemExtraOption = UpHoodie,	
+		clothingExtraSubmenu 	= DownHoodie,		
         BodyLocation = Jacket,
         Icon = HoodieWhite,
         ColorRed = 20,
@@ -235,10 +241,11 @@ module AuthenticZLite {
     {
        DisplayCategory = Clothing,		
         Type = Clothing,
-
+		DisplayName				= Sport Shorts (2XL),
         ClothingItem = Fat02_SportShorts,
         ClothingItemExtra = Shorts_ShortSport,
-        ClothingItemExtraOption = Tighten,		
+        ClothingItemExtraOption = Tighten,
+		clothingExtraSubmenu 	= Loosen,		
         BodyLocation = Pants,
         IconsForTexture = ShortsLongAthleticBlue;ShortsLongAthleticGreen;ShortsLongAthleticRed;ShortsLongAthleticPurple;ShortsLongDenim;ShortsLongDenimBlack;ShortsLongDenimDark;ShortsLongDenim;ShortsLongDenimBlack;ShortsLongDenimDark;ShortsLongDenim;ShortsLongDenimBlack;ShortsLongDenimDark;ShortsLongDenim;ShortsLongDenimBlack;ShortsLongDenimDark;ShortsLongDenim;ShortsLongDenimBlack;ShortsLongDenimDark,
         BloodLocation = Trousers,
@@ -250,12 +257,13 @@ module AuthenticZLite {
     }
     item Fat02_Boxers
     {
-       DisplayCategory = Clothing,		
+        DisplayCategory = Clothing,		
         Type = Clothing,
-
+		DisplayName				= Heart Boxers,	
         ClothingItem = Fat02_Boxers,
         ClothingItemExtra = Boxers_Hearts,
-        ClothingItemExtraOption = Tighten,		
+        ClothingItemExtraOption = Tighten,
+		clothingExtraSubmenu 	= Loosen,		
         BodyLocation = Pants,
         Icon = ShortsWhite,
         BloodLocation = Trousers,
@@ -269,10 +277,11 @@ module AuthenticZLite {
     {
         DisplayCategory = Clothing,
         Type = Clothing,
-
+		DisplayName				= ShellPants (2XL),
         ClothingItem = Fat02_ShellPants,
         ClothingItemExtra = Trousers_Shellsuit_TINT,
-        ClothingItemExtraOption = Tighten,		
+        ClothingItemExtraOption = Tighten,
+		clothingExtraSubmenu 	= Loosen,		
         BodyLocation = Pants,
         BloodLocation = Trousers,
         IconsForTexture = TracksuitPantsBlack;TracksuitPantsBlue;TracksuitPantsGreen;TracksuitPantsTeal;TracksuitPantsGeneric;TrousersAthleticVegan;TrousersAthleticGrey;TrousersBill;TrousersBrad;Trousers;Trousers;Trousers;Trousers;Trousers;Trousers;Trousers;Trousers;Trousers;Trousers;Trousers;Trousers;Trousers;Trousers;Trousers,
@@ -286,10 +295,11 @@ module AuthenticZLite {
 	{
 	    DisplayCategory = Clothing,
 		Type = Clothing,
-
+		DisplayName				= Shoes (2XL),
 		ClothingItem = Fat02_Shoes,
         ClothingItemExtra = Shoes_Black,
-        ClothingItemExtraOption = Tighten,		
+        ClothingItemExtraOption = Tighten,
+		clothingExtraSubmenu 	= Loosen,		
 		BodyLocation = Shoes,
 		BloodLocation = Shoes,
 		Icon = Shoes,
@@ -310,10 +320,11 @@ module AuthenticZLite {
     {
         DisplayCategory = Clothing,		
         Type = Clothing,
-
+        DisplayName = T-Shirt,
         ClothingItem = Fat02_TShirt,
-        ClothingItemExtra = Tshirt_WhiteTINT,
-        ClothingItemExtraOption = Tighten,		
+        ClothingItemExtra = Tshirt_WhiteTINT;AuthenticZLite.Fat01_TShirt;AuthenticZLite.Fat03_TShirt,
+        ClothingItemExtraOption = Tighten;Loosen;Stretch,	
+		clothingExtraSubmenu 	= Loosen,		
         BodyLocation = Shirt,
         Icon = TshirtGeneric,
         Insulation = 0.3,
@@ -358,10 +369,11 @@ module AuthenticZLite {
     {
         DisplayCategory = Clothing,
         Type = Clothing,
-	
+		DisplayName = High Visibility Vest,	
         ClothingItem = Fat02_Vest_HighViz,
         ClothingItemExtra = Vest_HighViz,
-        ClothingItemExtraOption = Tighten,			
+        ClothingItemExtraOption = Tighten,
+		clothingExtraSubmenu 	= Loosen,			
         BodyLocation = TorsoExtra,
         IconsForTexture = ConstructionVest;Huntingvest_Orange;Huntingvest_Grey;Huntingvest_Camo;Huntingvest_Orange;Huntingvest_Grey;Huntingvest_Camo;SweaterVestWhite;SweaterVestArgyle,
         BloodLocation = ShirtNoSleeves,
@@ -372,10 +384,11 @@ module AuthenticZLite {
     {
         DisplayCategory = Clothing,
         Type = Clothing,
-		
+		DisplayName = Tank Top,		
         ClothingItem = Fat02_Vest_HighViz,
         ClothingItemExtra = Vest_HighViz,
-        ClothingItemExtraOption = Tighten,			
+        ClothingItemExtraOption = Tighten,
+		clothingExtraSubmenu 	= Loosen,			
         BodyLocation = TorsoExtra,
         IconsForTexture = ConstructionVest;Huntingvest_Orange;Huntingvest_Grey;Huntingvest_Camo;Huntingvest_Orange;Huntingvest_Grey;Huntingvest_Camo;SweaterVestWhite;SweaterVestArgyle,
         BloodLocation = ShirtNoSleeves,
@@ -387,10 +400,11 @@ module AuthenticZLite {
     {
         DisplayCategory = Clothing,
         Type = Clothing,
-
+		DisplayName = Knee-length Dress,
         ClothingItem = Fat02_Dress_Knees,
         ClothingItemExtra = Dress_Knees,
-        ClothingItemExtraOption = Tighten,		
+        ClothingItemExtraOption = Tighten,	
+		clothingExtraSubmenu 	= Loosen,			
         BodyLocation = Dress,
         BloodLocation = ShortsShort;Shirt,
         Icon = DressShortWhite,
@@ -404,10 +418,11 @@ module AuthenticZLite {
     {
         DisplayCategory = Clothing,
         Type = Clothing,
-
+		DisplayName = Straps Knee-length Dress,
         ClothingItem = Fat02_DressKnees_Straps,
         ClothingItemExtra = DressKnees_Straps,
         ClothingItemExtraOption = Tighten,		
+		clothingExtraSubmenu 	= Loosen,			
         BodyLocation = Dress,
         BloodLocation = ShortsShort;Shirt,
         Icon = DressGeneric,
@@ -421,10 +436,11 @@ module AuthenticZLite {
      {
          DisplayCategory = Clothing,
          Type = Clothing,
-
+		 DisplayName = Small Strapless Dress,
          ClothingItem = Fat02_Dress_SmallStrapless,
          ClothingItemExtra = Dress_SmallStrapless,
-         ClothingItemExtraOption = Tighten,			 
+         ClothingItemExtraOption = Tighten,		
+		 clothingExtraSubmenu 	= Loosen,			 
          BodyLocation = Dress,
          BloodLocation = ShortsShort;Shirt,
          Icon = DressGenericStrapless,
@@ -438,10 +454,11 @@ module AuthenticZLite {
      {
          DisplayCategory = Clothing,
          Type = Clothing,
-
+		 DisplayName = Small Straps Dress,
          ClothingItem = Fat02_Dress_SmallStraps,
          ClothingItemExtra = Dress_SmallStraps,
-         ClothingItemExtraOption = Tighten,			 
+         ClothingItemExtraOption = Tighten,	
+		 clothingExtraSubmenu 	= Loosen,			 
          BodyLocation = Dress,
          BloodLocation = ShortsShort;Shirt,
          Icon = DressGeneric,
@@ -455,10 +472,11 @@ module AuthenticZLite {
     {
         DisplayCategory = Clothing,
         Type = Clothing,
-
+ 		DisplayName = Satin Negligee Dress,
         ClothingItem = Fat02_Dress_SatinNegligee,
         ClothingItemExtra = Dress_SatinNegligee,
-        ClothingItemExtraOption = Tighten,		
+        ClothingItemExtraOption = Tighten,	
+		clothingExtraSubmenu 	= Loosen,			
         BodyLocation = Dress,
         BloodLocation = ShortsShort;Shirt,
         Icon = NegligeeGeneric,
@@ -472,10 +490,11 @@ module AuthenticZLite {
     {
         DisplayCategory = Clothing,
         Type = Clothing,
-
+ 		DisplayName = Long Dress,
         ClothingItem = Fat02_Dress_Long,
         ClothingItemExtra = Dress_Long,
         ClothingItemExtraOption = Tighten,	
+		clothingExtraSubmenu 	= Loosen,			
         BodyLocation = Dress,
         BloodLocation = Trousers;Shirt,
         Icon = DressLongWhite,
@@ -490,10 +509,11 @@ module AuthenticZLite {
     {
         DisplayCategory = Clothing,
         Type = Clothing,
-
+ 		DisplayName = Long Straps Dress,
         ClothingItem = Fat02_Dress_long_Straps,
         ClothingItemExtra = Dress_long_Straps,
-        ClothingItemExtraOption = Tighten,		
+        ClothingItemExtraOption = Tighten,	
+		clothingExtraSubmenu 	= Loosen,			
         BodyLocation = Dress,
         BloodLocation = Trousers;Shirt,
         Icon = DressGeneric,
@@ -508,10 +528,11 @@ module AuthenticZLite {
     {
         DisplayCategory = Clothing,
         Type = Clothing,
-
+ 		DisplayName = Dress,
         ClothingItem = Fat02_Dress_Normal,
         ClothingItemExtra = Dress_Normal,
-        ClothingItemExtraOption = Tighten,		
+        ClothingItemExtraOption = Tighten,
+		clothingExtraSubmenu 	= Loosen,			
         BodyLocation = Dress,
         BloodLocation = Trousers;Shirt,
         Icon = DressMediumWhite,
@@ -526,10 +547,11 @@ module AuthenticZLite {
     {
         DisplayCategory = Clothing,
         Type = Clothing,
-
+ 		DisplayName = Straps Dress,
         ClothingItem = Fat02_Dress_Straps,
         ClothingItemExtra = Dress_Straps,
-        ClothingItemExtraOption = Tighten,		
+        ClothingItemExtraOption = Tighten,	
+		clothingExtraSubmenu 	= Loosen,			
         BodyLocation = Dress,
         BloodLocation = Trousers;Shirt,
         Icon = DressGeneric,
@@ -544,10 +566,11 @@ module AuthenticZLite {
     {
         DisplayCategory = Clothing,
         Type = Clothing,
-
+		DisplayName = Short Dress,
         ClothingItem = Fat02_Dress_Short,
         ClothingItemExtra = Dress_Short,
         ClothingItemExtraOption = Tighten,	
+		clothingExtraSubmenu 	= Loosen,			
         BodyLocation = Dress,
         BloodLocation = ShortsShort;Shirt,
         Icon = DressShortWhite,
@@ -561,10 +584,11 @@ module AuthenticZLite {
     {
         DisplayCategory = Clothing,
         Type = Clothing,
-
+ 		DisplayName = Knee-length Skirt,
         ClothingItem = Fat02_Skirt_Knees,
         ClothingItemExtra = Skirt_Knees,
-        ClothingItemExtraOption = Tighten,		
+        ClothingItemExtraOption = Tighten,	
+		clothingExtraSubmenu 	= Loosen,			
         BodyLocation = Skirt,
         Icon = SkirtGeneric,
         BloodLocation = ShortsShort,
@@ -578,10 +602,11 @@ module AuthenticZLite {
     {
         DisplayCategory = Clothing,
         Type = Clothing,
-
+		DisplayName = Long Skirt,
         ClothingItem = Fat02_Skirt_Long,
         ClothingItemExtra = Skirt_Long,
-        ClothingItemExtraOption = Tighten,		
+        ClothingItemExtraOption = Tighten,	
+		clothingExtraSubmenu 	= Loosen,		
         BodyLocation = Skirt,
         Icon = SkirtLongWhite,
         BloodLocation = Trousers,
@@ -596,10 +621,11 @@ module AuthenticZLite {
     {
         DisplayCategory = Clothing,
         Type = Clothing,
-
+		DisplayName = Skirt,
         ClothingItem = Fat02_Skirt_Normal,
         ClothingItemExtra = Skirt_Normal,
-        ClothingItemExtraOption = Tighten,			
+        ClothingItemExtraOption = Tighten,
+		clothingExtraSubmenu 	= Loosen,			
         BodyLocation = Skirt,
         Icon = SkirtGeneric,
         BloodLocation = Trousers,
@@ -614,10 +640,11 @@ module AuthenticZLite {
     {
         DisplayCategory = Clothing,
         Type = Clothing,
-
+		DisplayName				= Short Skirt,
         ClothingItem = Fat02_Skirt_Short,
         ClothingItemExtra = Skirt_Short,
-        ClothingItemExtraOption = Tighten,			
+        ClothingItemExtraOption = Tighten,
+		clothingExtraSubmenu 	= Loosen,			
         BodyLocation = Skirt,
         Icon = SkirtGeneric,
         BloodLocation = ShortsShort,
