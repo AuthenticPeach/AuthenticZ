@@ -1245,5 +1245,6 @@ ItemName_EN = {
 
 	ItemName_AuthenticZClothing.Shirt_UndershirtFancy = "Fancy Undershirt",
 	ItemName_AuthenticZClothing.SubstitutionDoll = "Substitution Doll",
-	ItemName_AuthenticZClothing.FormalPants = "Formal Pants",		
+	ItemName_AuthenticZClothing.FormalPants = "Formal Pants",
+	ItemName_AuthenticZClothing.Belt_AZ = "Belt with Buckle",	
 }
