@@ -54,5 +54,9 @@ ContextMenu_EN = {
 	/* New */			
     ContextMenu_UntieBonnet = "Untie Bonnet",	
     ContextMenu_TieBonnet = "Tie Bonnet",
-	ContextMenu_Stretch = "Stretch",	
+
+	ContextMenu_Wear1XS = "Wear as XS",	
+	ContextMenu_Wear1XL = "Wear 1 XL",	
+	ContextMenu_Wear2XL = "Wear 2 XL",	
+	ContextMenu_Wear3XL = "Wear 3 XL",		
 } 

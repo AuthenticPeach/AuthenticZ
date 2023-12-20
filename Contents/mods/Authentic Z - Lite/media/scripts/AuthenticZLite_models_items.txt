@@ -970,6 +970,10 @@ module Base
 		mesh = Skinned/Backpacks/WorldItem-BackpackWalker,
 		texture = clothes\Backpacks\BackpackWalker,
     }
+	model WorldItem_BackpackPackSport
+	{
+        	mesh = Skinned/Backpacks/WorldItem-BackpackPackSport,
+	}  
 	model WorldItem-BalloonBlue
 	{
 		mesh = WorldItems/WorldItem_Balloon,

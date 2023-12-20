@@ -1079,7 +1079,7 @@ module AuthenticZClothing {
         BodyLocation = FullSuit,
         CanHaveHoles = false,
         Weight = 0.05,	
-        WorldStaticModel = WorldItem_HairBow,
+        WorldStaticModel = HairSpray,
     }	
     item Leg_Cherry
     {
