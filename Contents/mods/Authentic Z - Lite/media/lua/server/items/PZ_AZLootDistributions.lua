@@ -73,6 +73,15 @@ AuthenticZ.tab_addMagProcedural_AZCanteen  = function(x,count)
   table.insert(ProceduralDistributions.list[x].items,"AuthenticZLite.AuthenticCanteenSilver");
   table.insert(ProceduralDistributions.list[x].items, count);   
 end
+--Belt_AZ
+AuthenticZ.tab_addMagProcedural_Belt_AZ  = function(x,count)
+  ProceduralDistributions = ProceduralDistributions or {};
+  ProceduralDistributions.list = ProceduralDistributions.list or {};
+  ProceduralDistributions.list[x] = ProceduralDistributions.list[x] or {};
+  ProceduralDistributions.list[x].items = ProceduralDistributions.list[x].items or {};
+  table.insert(ProceduralDistributions.list[x].items,"AuthenticZLite.Belt_AZ");
+  table.insert(ProceduralDistributions.list[x].items, count);
+end
 --Crutches
 AuthenticZ.tab_addMagProcedural_CrutchAZ  = function(x,count)
   ProceduralDistributions = ProceduralDistributions or {};
@@ -620,7 +629,9 @@ AuthenticZ.tab_addMagProcedural_Fitness("CrateFitnessWeights",2.0);
  AuthenticZ.tab_addMagProcedural_Viking("HolidayStuff",0.5); 
  AuthenticZ.tab_addMagProcedural_Viking("CrateCostume",0.5); 
  AuthenticZ.tab_addMagProcedural_Viking("CrateClothesRandom",0.05); 
+ 
 AuthenticZ.tab_addMagProcedural_Belt_AZ("DresserGeneric",0.1);
+
 AuthenticZ.tab_Sport_Top("BedroomDresser",0.3);
 AuthenticZ.tab_Sport_Top("ClothingStoresSport",6);
 AuthenticZ.tab_Sport_Top("CrateClothesRandom",6);

@@ -163,7 +163,93 @@ module AuthenticZBackpacksPlus {
         WorldStaticModel 		 = WorldItem_BackpackWalker,
         SoundParameter = EquippedBaggageContainer HikingBag,		
     } 
- 
+
+    item Bag_DuffelBag_Festive
+    {
+        DisplayCategory = Bag,
+        Type = Container,
+        DisplayName = Duffel Bag,
+        ClothingItem = Bag_DuffelBag_Festive,
+        CanBeEquipped = Back,
+        WeightReduction	=	65,
+        Weight	=	1,
+        Capacity	=	18,
+        Icon	=	Duffelbag_Festive,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        RunSpeedModifier = 0.95,
+        CanHaveHoles = false,
+        ReplaceInSecondHand = Bag_DuffelBag_Festive_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_DuffelBag_Festive_RHand holdingbagright,
+        WorldStaticModel = DuffelBag_Ground,
+    }
+
+	item Bag_Packsport_Plain
+    {
+        DisplayCategory 		= 	Bag,		
+        WeightReduction			=	65,
+        Weight					=	1,
+        Type					=	Container,
+        Capacity				=	17,
+        DisplayName				=	Packsport Backpack,
+        IconsForTexture 		= 	PacksportBackpack_Black;PacksportBackpack_Blue;PacksportBackpack_Red;PacksportBackpack_Grey;PacksportBackpack_Green;PacksportBackpack_HotPink;PacksportBackpack_PinkGreen;PacksportBackpack_Camo1;PacksportBackpack_Camo2;PacksportBackpack_PlaidRed;PacksportBackpack_PlaidGreen;PacksportBackpack_PlaidBlue;PacksportBackpack_PlaidIndigo;PacksportBackpack_Peach;PacksportBackpack_PinkDenim;PacksportBackpack_PinkClouds;PacksportBackpack_Clouds;PacksportBackpack_BlueDenim,
+        CanBeEquipped 			= 	Back,
+        OpenSound   			=   OpenBag,
+        CloseSound   			=   CloseBag,
+        PutInSound   			=   PutItemInBag,
+        ClothingItem 			= 	Bag_Packsport_Plain,
+        BloodLocation 			= 	Bag,
+        RunSpeedModifier 		= 	0.97,
+        AttachmentReplacement	= 	Bag,		
+        ReplaceInSecondHand  	= 	Bag_Packsport_LHand holdingbagleft,
+        ReplaceInPrimaryHand 	= 	Bag_Packsport_RHand holdingbagright,
+        WorldStaticModel 	 	= 	WorldItem_BackpackPackSport,
+    }
+
+	item Bag_Packsport_Rim
+    {
+        DisplayCategory 		= 	Bag,		
+        WeightReduction			=	65,
+        Weight					=	1,
+        Type					=	Container,
+        Capacity				=	17,
+        DisplayName				=	Packsport Backpack,
+        IconsForTexture 		= 	PacksportBackpack_BlackClassic;PacksportBackpack_BlueClassic;PacksportBackpack_RedClassic;PacksportBackpack_BlackClassic;PacksportBackpack_GreenClassic,
+        CanBeEquipped 			= 	Back,
+        OpenSound   			=   OpenBag,
+        CloseSound   			=   CloseBag,
+        PutInSound   			=   PutItemInBag,
+        ClothingItem 			= 	Bag_Packsport_Rim,
+        BloodLocation 			= 	Bag,
+        RunSpeedModifier 		= 	0.97,
+        AttachmentReplacement	= 	Bag,		
+        ReplaceInSecondHand  	= 	Bag_Packsport_LHand holdingbagleft,
+        ReplaceInPrimaryHand 	= 	Bag_Packsport_RHand holdingbagright,
+        WorldStaticModel 	 	= 	WorldItem_BackpackPackSport,
+    }
+	item Bag_Schoolbag_Spiffo2
+    {
+        DisplayCategory = Bag,
+        WeightReduction	=	60,
+        Weight	=	1,
+        Type	=	Container,
+        Capacity	=	15,
+        DisplayName	=	School Bag,
+        IconsForTexture = Backpack_Spiffo;Backpack_Spiffo;Backpack_Spiffo;Backpack_Spiffo;Backpack_GreyAZ,
+        CanBeEquipped = Back,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        ClothingItem = Bag_Schoolbag_Spiffo2,
+        BloodLocation = Bag,
+        RunSpeedModifier = 0.97,
+        AttachmentReplacement = Bag,
+        ReplaceInSecondHand = Bag_Schoolbag_Spiffo2_Lhand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_Schoolbag_Spiffo2_Rhand holdingbagright,
+        WorldStaticModel = SchoolBag_Ground,
+    } 
+
 	item Bag_SchoolBagCEDA
     {
        DisplayCategory = Bag,	

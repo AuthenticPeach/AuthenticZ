@@ -137,7 +137,14 @@ local SchoolbagFlashlight = {
 	attachments = { -- list of possible item category and their modelAttachement group, the item category is defined in the item script		
 		MilitaryFlashlight = "Schoolbag Military Flashlight",
 		Flashlight = "Schoolbag Flashlight",
-		FlashlightBig = "Schoolbag Flashlight Big",				
+		FlashlightBig = "Schoolbag Flashlight Big",	
+
+		Torch = "Schoolbag Flashlight Big",		
+		Torchb = "Schoolbag Military Flashlight",		
+		TorchSmall = "Schoolbag Military Flashlight",		
+		HandTorchSmall = "Schoolbag Military Flashlight",		
+		HandTorchBig = "Schoolbag Military Flashlight",		
+		OldFlashlight = "Schoolbag Military Flashlight", --Better Flashlights compatibility		
 	},
 }
 table.insert(ISHotbarAttachDefinition, SchoolbagFlashlight);
@@ -334,7 +341,14 @@ local DufflebagFlashlight = {
 	attachments = { -- list of possible item category and their modelAttachement group, the item category is defined in the item script		
 		MilitaryFlashlight = "Dufflebag Military Flashlight",
 		Flashlight = "Dufflebag Flashlight",
-		FlashlightBig = "Dufflebag Flashlight Big",				
+		FlashlightBig = "Dufflebag Flashlight Big",
+		
+		Torch = "Dufflebag Flashlight Big",		
+		Torchb = "Dufflebag Flashlight",		
+		TorchSmall = "Dufflebag Flashlight",		
+		HandTorchSmall = "Dufflebag Flashlight",		
+		HandTorchBig = "Dufflebag Flashlight",		
+		OldFlashlight = "Dufflebag Military Flashlight", --Better Flashlights compatibility
 	},
 }
 table.insert(ISHotbarAttachDefinition, DufflebagFlashlight);
@@ -508,7 +522,14 @@ local HikingBagFlashlight = {
 	attachments = { -- list of possible item category and their modelAttachement group, the item category is defined in the item script		
 		MilitaryFlashlight = "HikingBag Military Flashlight",
 		Flashlight = "HikingBag Flashlight",
-		FlashlightBig = "HikingBag Flashlight Big",				
+		FlashlightBig = "HikingBag Flashlight Big",	
+
+		Torch = "HikingBag Flashlight Big",		--Better Flashlights compatibility	
+		Torchb = "HikingBag Flashlight",		--Better Flashlights compatibility	
+		TorchSmall = "HikingBag Flashlight",		
+		HandTorchSmall = "HikingBag Flashlight",		
+		HandTorchBig = "HikingBag Flashlight",		
+		OldFlashlight = "HikingBag Military Flashlight", 	
 	},
 }
 table.insert(ISHotbarAttachDefinition, HikingBagFlashlight);
@@ -693,7 +714,14 @@ local BigHikingbagFlashlight = {
 	attachments = { -- list of possible item category and their modelAttachement group, the item category is defined in the item script		
 		MilitaryFlashlight = "BigHikingBag Military Flashlight",
 		Flashlight = "BigHikingBag Flashlight",
-		FlashlightBig = "BigHikingBag Flashlight Big",				
+		FlashlightBig = "BigHikingBag Flashlight Big",
+
+		Torch = "BigHikingBag Flashlight Big",		
+		Torchb = "BigHikingBag Flashlight",		
+		TorchSmall = "BigHikingBag Flashlight",		
+		HandTorchSmall = "BigHikingBag Flashlight",		
+		HandTorchBig = "BigHikingBag Flashlight",		
+		OldFlashlight = "BigHikingBag Military Flashlight", --Better Flashlights compatibility		
 	},
 }
 table.insert(ISHotbarAttachDefinition, BigHikingbagFlashlight);
@@ -917,7 +945,14 @@ local AlicepackFlashlight = {
 	attachments = { -- list of possible item category and their modelAttachement group, the item category is defined in the item script		
 		MilitaryFlashlight = "Alicepack Military Flashlight",
 		Flashlight = "Alicepack Flashlight",
-		FlashlightBig = "Alicepack Flashlight Big",		
+		FlashlightBig = "Alicepack Flashlight Big",	
+
+		Torch = "Alicepack Flashlight Big",		
+		Torchb = "Alicepack Flashlight Big",		
+		TorchSmall = "Alicepack Flashlight",		
+		HandTorchSmall = "Alicepack Flashlight",		
+		HandTorchBig = "Alicepack Flashlight",		
+		OldFlashlight = "Alicepack Military Flashlight", --Better Flashlights compatibility		
 	},
 }
 table.insert(ISHotbarAttachDefinition, AlicepackFlashlight);
@@ -1131,6 +1166,13 @@ local ARVNFlashlight = {
 		MilitaryFlashlight = "Alicepack Military Flashlight",
 		Flashlight = "Alicepack Flashlight",
 		FlashlightBig = "Alicepack Flashlight Big",				
+
+		Torch = "Alicepack Flashlight Big",			
+		Torchb = "Alicepack Military Flashlight",		
+		TorchSmall = "Alicepack Military Flashlight",		
+		HandTorchSmall = "Alicepack Military Flashlight",		
+		HandTorchBig = "Alicepack Military Flashlight",		
+		OldFlashlight = "Alicepack Military Flashlight", --Better Flashlights compatibility		
 	},
 }
 table.insert(ISHotbarAttachDefinition, ARVNFlashlight);

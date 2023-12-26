@@ -3885,6 +3885,31 @@
 		<path>media/clothing/clothingItems/Bag_PAWSBackpackAZ_Tier_3.xml</path>
 		<guid>4b9935e1-191a-436f-b3cd-8a90187f7aff</guid>
 	</files>		
+
+	<files>
+		<path>media/clothing/clothingItems/Bag_Schoolbag_Spiffo2.xml</path>
+		<guid>467e597c-40f5-4f42-b959-7e8e05e772ff</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_Schoolbag_Spiffo2_Lhand.xml</path>
+		<guid>f7aa06a9-8d9e-4930-b5d2-549b340ce491</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_Schoolbag_Spiffo2_Rhand.xml</path>
+		<guid>c479c3b5-72dc-4f04-a504-a97d740fc3bf</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_Schoolbag_Spiffo2_Tier_1.xml</path>
+		<guid>0c59e5ec-0f18-46d6-aeac-d5ecd8cb0404</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_Schoolbag_Spiffo2_Tier_2.xml</path>
+		<guid>8a3a8c5b-ebaa-4ac4-b012-b4ff205e1068</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_Schoolbag_Spiffo2_Tier_3.xml</path>
+		<guid>1444e831-2459-423d-b4f8-24f993485364</guid>
+	</files>	
 	
 	<!-- End of Spiffo Bags Additions -->		
 	<files>

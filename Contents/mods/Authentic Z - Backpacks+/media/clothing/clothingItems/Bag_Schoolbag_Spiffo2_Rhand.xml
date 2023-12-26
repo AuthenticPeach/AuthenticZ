@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media\models_X\Skinned\BackPacks\SchoolBag_RHand.X</m_MaleModel>
+	<m_FemaleModel>media\models_X\Skinned\BackPacks\SchoolBag_RHand.X</m_FemaleModel>
+	<m_GUID>1444e831-2459-423d-b4f8-24f993485364</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>clothes\backpacks\schoolbag_spiffo2</textureChoices>
+	<textureChoices>clothes\backpacks\schoolbag_spiffo3</textureChoices>
+	<textureChoices>clothes\backpacks\schoolbag_spiffo4</textureChoices>
+	<textureChoices>clothes\backpacks\schoolbag_spiffo5</textureChoices>
+	<textureChoices>clothes\backpacks\schoolbag_spiffo6</textureChoices>
+</clothingItem>
