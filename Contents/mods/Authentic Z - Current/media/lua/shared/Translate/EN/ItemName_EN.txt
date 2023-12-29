@@ -384,7 +384,6 @@ ItemName_EN = {
 	ItemName_AuthenticZClothing.AuthenticSmokeBomb =  "M18 Smoke Grenade",	
 	ItemName_AuthenticZClothing.AuthenticSmokeBombRemote =  "M18 Smoke Grenade",
 	ItemName_AuthenticZClothing.AuthenticWalkingCane =  "Walking Cane",	
-	ItemName_AuthenticZClothing.Chainsaw =  "Chainsaw",		
 	ItemName_AuthenticZClothing.FlareGun =  "Flare Gun",
 	ItemName_AuthenticZClothing.Flare12GaugeShot =  "12-Gauge Flare",	
 	ItemName_AuthenticZClothing.Postal_Petition =  "Postal Dude's Petition",	
@@ -1247,4 +1246,7 @@ ItemName_EN = {
 	ItemName_AuthenticZClothing.SubstitutionDoll = "Substitution Doll",
 	ItemName_AuthenticZClothing.FormalPants = "Formal Pants",
 	ItemName_AuthenticZClothing.Belt_AZ = "Belt with Buckle",	
+	
+	ItemName_AuthenticZClothing.Chainsaw =  "Chainsaw (ON)",	
+	ItemName_AuthenticZClothing.ChainsawOff =  "Chainsaw (Off)",			
 }

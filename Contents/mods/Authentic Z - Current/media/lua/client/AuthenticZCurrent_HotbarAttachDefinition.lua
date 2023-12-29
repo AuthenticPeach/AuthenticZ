@@ -11,6 +11,8 @@ local MinerLightBulb = {
 	animset = "back", -- Animation name 
 	attachments = {
 		MinerLight = "MinerLight", -- defined in AttachedLocations.lua
+--		MilitaryFlashlight = "MinerLight", -- defined in AttachedLocations.lua
+--		Flashlight = "MinerLight", -- defined in AttachedLocations.lua
 	},
 }
 table.insert(ISHotbarAttachDefinition, MinerLightBulb);

@@ -66,6 +66,9 @@ Recipes_EN = {
 	Recipe_Open_Sealed_Medkit = "Open Sealed Medkit",		
 	Recipe_Open_Pack_of_Glowsticks = "Open Pack of Glowsticks",		
 
-/* New */
 	Recipe_Tie_Apron_Around_Dress = "Tie Apron Around Dress",	
+	
+/* New */
+	Recipe_Restart_Chainsaw = "Restart Chainsaw",	
+	fixing_Fix_Chainsaw = "Fix Chainsaw",	
 	}

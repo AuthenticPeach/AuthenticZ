@@ -17,4 +17,6 @@ UI_optionscreen_binding_Hotbar 18 = "Hotbar 18",
 UI_optionscreen_binding_Hotbar 19 = "Hotbar 19",
 UI_optionscreen_binding_Hotbar 20 = "Hotbar 20",
 UI_optionscreen_binding_SlingBindings = "Authentic Z Additional Hotkeys",
+
+UI_Fuel_Remaining = "Fuel Remaining: ",
 }

@@ -67,8 +67,11 @@ Recipes_EN = {
 
 	Recipe_Tie_Apron_Around_Dress = "Tie Apron Around Dress",
 	
-/* New */
 	Recipe_Upgrade_Moms_Backpack = "Upgrade Casual Daypack",
 	Recipe_Upgrade_Hollys_Backpack = "Upgrade OdysseyGear Travel Pack",
 	Recipe_Upgrade_Evangelos_Backpack = "Upgrade FlexFit Backpack",	
+	
+/* New */
+	Recipe_Restart_Chainsaw = "Restart Chainsaw",	
+	fixing_Fix_Chainsaw = "Fix Chainsaw",	
 	}

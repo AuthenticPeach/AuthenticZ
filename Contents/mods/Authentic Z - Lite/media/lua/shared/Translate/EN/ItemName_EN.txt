@@ -384,8 +384,7 @@ ItemName_EN = {
 	ItemName_AuthenticZLite.AuthenticPipeBomb =  "Pipe Bomb",	
 	ItemName_AuthenticZLite.AuthenticSmokeBomb =  "M18 Smoke Grenade",	
 	ItemName_AuthenticZLite.AuthenticSmokeBombRemote =  "M18 Smoke Grenade",
-	ItemName_AuthenticZLite.AuthenticWalkingCane =  "Walking Cane",	
-	ItemName_AuthenticZLite.Chainsaw =  "Chainsaw",		
+	ItemName_AuthenticZLite.AuthenticWalkingCane =  "Walking Cane",			
 	ItemName_AuthenticZLite.FlareGun =  "Flare Gun",
 	ItemName_AuthenticZLite.Flare12GaugeShot =  "12-Gauge Flare",	
 	ItemName_AuthenticZLite.Postal_Petition =  "Postal Dude's Petition",	
@@ -1076,12 +1075,14 @@ ItemName_EN = {
 	
 	ItemName_AuthenticZLite.Bag_B4BMom = "Casual Daypack",
 	ItemName_AuthenticZLite.Bag_B4BEvangelo = "FlexFit Backpack",
-	
-	/* New */	
 	ItemName_AuthenticZLite.Hat_Bonnet_Tied = "Bonnet (Tied)",
 	ItemName_AuthenticZLite.Hat_Bonnet_UnTied = "Bonnet (Untied)",
 	ItemName_AuthenticZLite.Hat_TopHat_AZ = "Top Hat",	
 	
 	ItemName_AuthenticZLite.Shirt_UndershirtFancy = "Fancy Undershirt",	
 	ItemName_AuthenticZLite.SubstitutionDoll = "Substitution Doll",	
+	
+	/* New */		
+	ItemName_AuthenticZLite.Chainsaw =  "Chainsaw (ON)",	
+	ItemName_AuthenticZLite.ChainsawOff =  "Chainsaw (Off)",	
 }

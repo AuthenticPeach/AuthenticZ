@@ -613,6 +613,36 @@ module AuthenticZLite {
         WindResistance = 0.2,
 		WorldStaticModel = WorldItem-RoundGownPoncho,
     }
+    item Dress_BallroomDress_Kansas
+    {
+        DisplayCategory = Clothing,			
+        Type = Clothing,
+        DisplayName = Kansas-Styled Round Gown,
+        ClothingItem = Dress_BallroomDress_Kansas,
+        BodyLocation = FullSuit,
+        BloodLocation = Trousers;Jumper,
+        IconsForTexture = Round_Gown_Kansas_Blue;Round_Gown_Kansas_Dark_Blue;Round_Gown_Kansas_Dark_Green;Round_Gown_Kansas_Dark_Red;Round_Gown_Kansas_Green;Round_Gown_Kansas_Light_Green;Round_Gown_Kansas_Light_Red;Round_Gown_Kansas_Purple;Round_Gown_Kansas_Yellow,
+		CanHaveHoles = false,
+        RunSpeedModifier = 0.90,
+        Insulation = 0.3,
+        WindResistance = 0.2,
+		WorldStaticModel = WorldItem-RoundGown4_LongSleeved,
+    }
+    item Dress_BallroomDress_Lavish
+    {
+        DisplayCategory = Clothing,			
+        Type = Clothing,
+        DisplayName = Lavish Round Gown,
+        ClothingItem = Dress_BallroomDress_Lavish,
+        BodyLocation = FullSuit,
+        BloodLocation = Trousers;Jumper,
+        IconsForTexture = Round_Gown_Lavish_Dark_Blue;Round_Gown_Lavish_Dark_Green;Round_Gown_Lavish_Mint_Blue;Round_Gown_Lavish_Mint_Green;Round_Gown_Lavish_Pink;Round_Gown_Lavish_Tan;Round_Gown_Lavish_Yellow,
+		CanHaveHoles = false,
+        RunSpeedModifier = 0.90,
+        Insulation = 0.3,
+        WindResistance = 0.2,
+		WorldStaticModel = WorldItem-RoundGown4_LongSleeved,
+    }	
     item Dress_BallroomDress_LongSleevedButtoned
     {
         DisplayCategory = Clothing,			

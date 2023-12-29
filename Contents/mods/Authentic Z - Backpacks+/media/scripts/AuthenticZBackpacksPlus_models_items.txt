@@ -39,7 +39,22 @@ model AuthenticAquaBottle_Blue
 	{
 		mesh = WorldItems/WorldItem_AZ_AquaBottle,
 		texture = clothes/Items/Aquabottle-Yellow,
-	}		
+	}
+	model WorldItem_GroguCarriage
+    {
+		mesh = WorldItems/WorldItem-GroguCarriage,
+		texture = clothes/Items/GroguCarriage,			
+    }
+	model WorldItem_GroguCarriageEmpty
+    {
+		mesh = WorldItems/WorldItem-GroguCarriageEmpty,
+		texture = clothes/Items/GroguCarriage,			
+    }
+	model WorldItem_GroguAZ
+	{
+		mesh = WorldItems/WorldItem_GroguAZ,
+		texture = clothes/Items/GroguPlushie,		
+	}	
 	model AuthenticBalloonBlue
 	{
 		mesh = Balloon,

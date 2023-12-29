@@ -89,4 +89,10 @@ IGUI_EN = {
 	IGUI_HotbarAttachment_BigHikingbagSleepingRoll = "BigHikingbag Sleeping Bag",	
 	IGUI_HotbarAttachment_AlicepackSleepingRoll = "Alicepack Sleeping Bag",
 
+    IGUI_ItemCat_Chainsaw = "Chainsaw",
+    IGUI_ItemEditor_FuelConsumption = "Fuel Consumption",
+    IGUI_ItemEditor_CurrentFuel = "Current Fuel",
+    IGUI_ItemEditor_FuelCapacity = "Fuel Capacity",
+    IGUI_ItemEditor_RetrieveFuel = "Retrieve Fuel",
+
 }

@@ -527,6 +527,11 @@ module Base
 		texture = clothes/Items/CarabinerClip,
 		scale = 0.6,		
 	}
+	model AuthenticChainsaw
+	{
+		mesh = chainsaw,
+		texture = clothes/Items/AshWilliams_Chainsaw_Hand,
+	}		
 	model WorldItem_Apron_Short
 	{
 		mesh = WorldItems/WorldItem_Apron_Short,
@@ -1115,6 +1120,11 @@ module Base
 		mesh = WorldItems/WorldItem_Chainsaw,
 		texture = chainsaw,		
     }
+	model WorldItem_AuthenticChainsaw
+    {
+		mesh = WorldItems/WorldItem_Chainsaw,
+		texture = clothes/Items/AshWilliams_Chainsaw_Hand,			
+    }	
 	model WorldItem-CigaretteHolder
     {
 		mesh = WorldItems/WorldItem_AuthenticCigaretteHolder,

@@ -2,6 +2,8 @@
 require "Recipecode"
 require "XpSystem/XpUpdate"
 
+local ChainsawAPI = require("Chainsaw/ChainsawAPI");
+
 AZRecipe = {}
 AZRecipe.GetItemTypes = {}
 AZRecipe.OnCanPerform = {}
@@ -280,6 +282,51 @@ function OnEat_CigaretteHolder(food, character, percent)
         end
     end
 end
+
+function AZ_OnTest_ConvertChainsaw(item)
+    if not ChainsawAPI then
+        print("Error: ChainsawAPI is not available.")
+        return false
+    end
+
+    if instanceof(item, "InventoryItem") then
+        local modData = item:getModData()
+        modData.onTestDataIsEquipped = item:isEquipped()
+
+        -- Check if the item is a chainsaw
+        if ChainsawAPI.predicateChainsaw(item) then
+            -- Store current fuel value
+            modData.onTestCurrentFuel = modData.CurrentFuel or 0
+        end
+    else
+        print("Error: The item is not an instance of InventoryItem.")
+        return false
+    end
+
+    return true
+end
+
+function KoniTestAZ_OnCreate_ConvertChainsaw(items, result, character)
+    for i = 0, items:size() - 1 do
+        local item = items:get(i);
+        if instanceof(item, "InventoryItem") then
+            local modData = item:getModData();
+            if ChainsawAPI.predicateChainsaw(item) and ChainsawAPI.predicateChainsaw(result) then
+                --print("Converting Chainsaw Item from " .. item:getFullType() .. " to " .. result:getFullType());
+                
+                result:setCondition(item:getCondition());
+                result:setFavorite(item:isFavorite());
+                result:getModData().CurrentFuel = modData.onTestCurrentFuel or 0;
+
+                if modData.onTestDataIsEquipped then
+                    character:setPrimaryHandItem(result);
+                    character:setSecondaryHandItem(result);
+                end
+            end
+        end
+    end
+end
+
 
 Give20TailoringXP = AZRecipe.OnGiveXP.Tailoring20
 GiveMeRadio = AZRecipe.OnCreate.GiveMeRadio

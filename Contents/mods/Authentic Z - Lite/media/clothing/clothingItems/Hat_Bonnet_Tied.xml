@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <clothingItem>
-	<m_MaleModel>media\models_X\Static\Clothes\Bonnet_tied.FBX</m_MaleModel>
-	<m_FemaleModel>media\models_X\Static\Clothes\Bonnet_tied.FBX</m_FemaleModel>
+	<m_MaleModel>media\models_X\Static\Clothes\Bonnet2_M.FBX</m_MaleModel>
+	<m_FemaleModel>media\models_X\Static\Clothes\Bonnet2_F.FBX</m_FemaleModel>
 	<m_GUID>ecbc4578-fe50-4046-b411-f8f011b32b90</m_GUID>
 	<m_Static>true</m_Static>
 	<m_AllowRandomHue>false</m_AllowRandomHue>
@@ -9,5 +9,5 @@
 	<m_AttachBone>Bip01_Head</m_AttachBone>
 	<m_HatCategory>default</m_HatCategory>
 	<m_MasksFolder>media/textures/Clothes/Hat/Masks</m_MasksFolder>
-	<textureChoices>clothes\Hats\Bonnet</textureChoices>
+	<textureChoices>clothes\Hats\Bonnet2</textureChoices>
 </clothingItem>

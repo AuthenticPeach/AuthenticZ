@@ -17932,9 +17932,24 @@
 		<m_items> <!-- Schoolbag -->
 			<probability>0.25</probability>
 			<itemGUID>1bba5b1a-c6c6-4af7-ab69-43f583007159</itemGUID>
-			<subItems>
+			<subItems> <!-- Schoolbag -->
+				<itemGUID>1bba5b1a-c6c6-4af7-ab69-43f583007159</itemGUID>
+			</subItems>
+			<subItems> <!-- Satchel -->
 				<itemGUID>f8988b1c-04bb-4b9a-8656-851d324d2fd0</itemGUID>
 			</subItems>
+			<subItems> <!-- Satchel -->
+				<itemGUID>f8988b1c-04bb-4b9a-8656-851d324d2fd0</itemGUID>
+			</subItems>			
+			<subItems> <!-- Bag_Packsport_Plain -->
+				<itemGUID>732a0feb-0e8b-4b3b-b007-ad69e3bc8a63</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bag_Packsport_Rim -->
+				<itemGUID>1f4aa194-52ef-4ea0-8e77-ee3f87958881</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bag_Schoolbag_Spiffo2 -->
+				<itemGUID>1f4aa194-52ef-4ea0-8e77-ee3f87958881</itemGUID>
+			</subItems>				
 		</m_items>
 		<m_items> <!-- Dismembered Bone_Arm_L -->
 			<probability>0.01</probability>		
@@ -19839,9 +19854,28 @@
 				<itemGUID>593bea3d-c127-4574-ac1e-2197dc56e486</itemGUID>
 			</subItems>
 		</m_items>
-		<m_items> <!-- SchoolBag -->
+		<m_items> <!-- Schoolbag -->
+			<probability>0.25</probability>
 			<itemGUID>1bba5b1a-c6c6-4af7-ab69-43f583007159</itemGUID>
-		</m_items>	
+			<subItems> <!-- Schoolbag -->
+				<itemGUID>1bba5b1a-c6c6-4af7-ab69-43f583007159</itemGUID>
+			</subItems>
+			<subItems> <!-- Satchel -->
+				<itemGUID>f8988b1c-04bb-4b9a-8656-851d324d2fd0</itemGUID>
+			</subItems>
+			<subItems> <!-- Satchel -->
+				<itemGUID>f8988b1c-04bb-4b9a-8656-851d324d2fd0</itemGUID>
+			</subItems>			
+			<subItems> <!-- Bag_Packsport_Plain -->
+				<itemGUID>732a0feb-0e8b-4b3b-b007-ad69e3bc8a63</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bag_Packsport_Rim -->
+				<itemGUID>1f4aa194-52ef-4ea0-8e77-ee3f87958881</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bag_Schoolbag_Spiffo2 -->
+				<itemGUID>1f4aa194-52ef-4ea0-8e77-ee3f87958881</itemGUID>
+			</subItems>				
+		</m_items>
 		<m_items> <!-- Welding Mask -->
 			<itemGUID>1bd52396-c99d-440a-8f2d-7808ce1cdd57</itemGUID>
 		</m_items>			
@@ -19944,9 +19978,28 @@
 				<itemGUID>593bea3d-c127-4574-ac1e-2197dc56e486</itemGUID>
 			</subItems>
 		</m_items>
-		<m_items> <!-- SchoolBag -->
+		<m_items> <!-- Schoolbag -->
+			<probability>0.25</probability>
 			<itemGUID>1bba5b1a-c6c6-4af7-ab69-43f583007159</itemGUID>
-		</m_items>	
+			<subItems> <!-- Schoolbag -->
+				<itemGUID>1bba5b1a-c6c6-4af7-ab69-43f583007159</itemGUID>
+			</subItems>
+			<subItems> <!-- Satchel -->
+				<itemGUID>f8988b1c-04bb-4b9a-8656-851d324d2fd0</itemGUID>
+			</subItems>
+			<subItems> <!-- Satchel -->
+				<itemGUID>f8988b1c-04bb-4b9a-8656-851d324d2fd0</itemGUID>
+			</subItems>			
+			<subItems> <!-- Bag_Packsport_Plain -->
+				<itemGUID>732a0feb-0e8b-4b3b-b007-ad69e3bc8a63</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bag_Packsport_Rim -->
+				<itemGUID>1f4aa194-52ef-4ea0-8e77-ee3f87958881</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bag_Schoolbag_Spiffo2 -->
+				<itemGUID>1f4aa194-52ef-4ea0-8e77-ee3f87958881</itemGUID>
+			</subItems>				
+		</m_items>
 		<m_items> <!-- Welding Mask -->
 			<itemGUID>1bd52396-c99d-440a-8f2d-7808ce1cdd57</itemGUID>
 		</m_items>			
@@ -21246,11 +21299,26 @@
 			<itemGUID>5574c07e-1381-49d8-a0ba-40e5b2cf55cd</itemGUID>
 		</m_items>			
 		<m_items> <!-- Schoolbag -->
-			<probability>0.5</probability>
+			<probability>0.4</probability>
 			<itemGUID>1bba5b1a-c6c6-4af7-ab69-43f583007159</itemGUID>
-			<subItems>
+			<subItems> <!-- Schoolbag -->
+				<itemGUID>1bba5b1a-c6c6-4af7-ab69-43f583007159</itemGUID>
+			</subItems>
+			<subItems> <!-- Satchel -->
 				<itemGUID>f8988b1c-04bb-4b9a-8656-851d324d2fd0</itemGUID>
 			</subItems>
+			<subItems> <!-- Satchel -->
+				<itemGUID>f8988b1c-04bb-4b9a-8656-851d324d2fd0</itemGUID>
+			</subItems>			
+			<subItems> <!-- Bag_Packsport_Plain -->
+				<itemGUID>732a0feb-0e8b-4b3b-b007-ad69e3bc8a63</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bag_Packsport_Rim -->
+				<itemGUID>1f4aa194-52ef-4ea0-8e77-ee3f87958881</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bag_Schoolbag_Spiffo2 -->
+				<itemGUID>1f4aa194-52ef-4ea0-8e77-ee3f87958881</itemGUID>
+			</subItems>				
 		</m_items>
 		<m_items> <!-- Shoes Random-->
 			<itemGUID>7741404b-9689-4608-a0f5-4e06597776f9</itemGUID>
@@ -21597,12 +21665,27 @@
 				<itemGUID>8c80a404-dc1d-4b2a-a56a-8647f1f720a8</itemGUID>
 			</subItems>			
 		</m_items>
-		<m_items> <!-- Backpack -->
-			<probability>0.5</probability>
+		<m_items> <!-- Schoolbag -->
+			<probability>0.4</probability>
 			<itemGUID>1bba5b1a-c6c6-4af7-ab69-43f583007159</itemGUID>
-			<subItems>
+			<subItems> <!-- Schoolbag -->
+				<itemGUID>1bba5b1a-c6c6-4af7-ab69-43f583007159</itemGUID>
+			</subItems>
+			<subItems> <!-- Satchel -->
 				<itemGUID>f8988b1c-04bb-4b9a-8656-851d324d2fd0</itemGUID>
 			</subItems>
+			<subItems> <!-- Satchel -->
+				<itemGUID>f8988b1c-04bb-4b9a-8656-851d324d2fd0</itemGUID>
+			</subItems>			
+			<subItems> <!-- Bag_Packsport_Plain -->
+				<itemGUID>732a0feb-0e8b-4b3b-b007-ad69e3bc8a63</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bag_Packsport_Rim -->
+				<itemGUID>1f4aa194-52ef-4ea0-8e77-ee3f87958881</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bag_Schoolbag_Spiffo2 -->
+				<itemGUID>1f4aa194-52ef-4ea0-8e77-ee3f87958881</itemGUID>
+			</subItems>				
 		</m_items>
 		<m_items> <!-- Shoes -->
 			<itemGUID>7741404b-9689-4608-a0f5-4e06597776f9</itemGUID>
