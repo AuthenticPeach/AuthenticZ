@@ -120,6 +120,5 @@ module AuthenticZClothing {
         ChainsawIdleSound           = ChainsawIdle,
         ChainsawChopSound           = ChainsawCut,
         ChainsawAttackSound         = ChainsawAttack1,
-    }
-	
+    }	
 }		

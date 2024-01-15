@@ -4,9 +4,10 @@ module AuthenticZRecipes {
   }
 	fixing Fix Chainsaw
 	{
-	   Require : AuthenticZLite.ChainsawOff,
+	   Require : ChainsawOff,
 	   
-       Fixer : Woodglue=2; Woodwork=2,
+       Fixer : SmallSheetMetal=2; MetalWelding=1,
+       Fixer : Woodglue=2; Woodwork=1,
        Fixer : DuctTape=2,
        Fixer : Glue=2,
        Fixer : Scotchtape=4,
