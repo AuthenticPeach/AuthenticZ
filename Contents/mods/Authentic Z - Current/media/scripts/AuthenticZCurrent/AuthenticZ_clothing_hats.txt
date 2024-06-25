@@ -1106,6 +1106,21 @@ module AuthenticZClothing {
 		WindResistance = 0.6,
 		WorldStaticModel = CultistHat_Ground,
     }
+	item Hat_Court_Jester
+	{
+	    DisplayCategory = Accessory,	
+		Type = Clothing,
+		DisplayName = Court Jester Hat,
+		ClothingItem = Hat_Court_Jester,
+		BodyLocation = Hat,
+		Icon = CourtJesterHat,
+		CanHaveHoles = false,
+		ChanceToFall = 80,
+        Insulation = 0.3,
+        WindResistance = 0.2,
+        BloodLocation = Head,
+		WorldStaticModel = WorldItem-CourtJesterHat,		
+	}		
 	item Hat_Cowboy_Freddy
 	{
 	    DisplayCategory = Accessory,	
@@ -1113,7 +1128,7 @@ module AuthenticZClothing {
 		DisplayName = Brown Cowboy Hat,
 		ClothingItem = Hat_Cowboy_Freddy,
 		BodyLocation = Hat,
-		IconsForTexture = HatCowboyBrown,
+		Icon = HatCowboyBrown,
 		CanHaveHoles = false,
 		ChanceToFall = 80,
         Insulation = 0.3,
@@ -1390,6 +1405,21 @@ module AuthenticZClothing {
         Weight = 0.5,
 		WorldStaticModel = WorldItem_Gibus,		
     }	
+	item Hat_Graduation_Cap
+	{
+	    DisplayCategory = Accessory,	
+		Type = Clothing,
+		DisplayName = Graduation Cap,
+		ClothingItem = Hat_Graduation_Cap,
+		BodyLocation = Hat,
+		Icon = GraduationCap,
+		ChanceToFall = 80,
+        BloodLocation = Head,
+        Insulation = 0.15,
+        WindResistance = 0.1,
+        Weight = 0.5,
+		WorldStaticModel = WorldItem-GraduationCap,			
+    }	
 	item Hat_Grimes
 	{
 	    DisplayCategory = Accessory,	
@@ -1404,7 +1434,7 @@ module AuthenticZClothing {
         Insulation = 0.45,
         WindResistance = 0.40,
         WaterResistance = 0.25,
-    	}		
+    }		
 	item Hat_HockeyMaskJason
 	{
 	    DisplayCategory 	= Accessory,	

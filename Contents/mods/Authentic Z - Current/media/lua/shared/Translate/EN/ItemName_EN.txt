@@ -363,6 +363,7 @@ ItemName_EN = {
 	ItemName_AuthenticZClothing.AuthenticBalloon_Green =  "Green Balloon",
 	ItemName_AuthenticZClothing.AuthenticBalloon_Purple =  "Purple Balloon",
 	ItemName_AuthenticZClothing.AuthenticBalloon_Red =  "Red Balloon",	
+	ItemName_AuthenticZClothing.AuthenticBalloon_Teal =  "Teal Balloon",	
 	ItemName_AuthenticZClothing.AuthenticBalloon_White =  "White Balloon",	
 	ItemName_AuthenticZClothing.AuthenticBalloon_Yellow =  "Yellow Balloon",	
 	ItemName_AuthenticZClothing.AuthenticBalloon_Group =  "Group of Balloons",
@@ -1219,7 +1220,7 @@ ItemName_EN = {
 	ItemName_AuthenticZClothing.Bag_B4BEvangelo_Tier_2 = "FlexFit Backpack - Tier 2",
 	ItemName_AuthenticZClothing.Bag_B4BEvangelo_Tier_3 = "FlexFit Backpack - Tier 3",
 	
-	/* New */	
+
 	ItemName_AuthenticZClothing.Dress_BallroomDress_Casual = "Casual Round Gown",	
 	ItemName_AuthenticZClothing.Dress_BallroomDress_Cute = "Cute Round Gown",	
 	ItemName_AuthenticZClothing.Dress_BallroomDress_Frilly = "Frilly Round Gown",	
@@ -1248,5 +1249,10 @@ ItemName_EN = {
 	ItemName_AuthenticZClothing.Belt_AZ = "Belt with Buckle",	
 	
 	ItemName_AuthenticZClothing.Chainsaw =  "Chainsaw (ON)",	
-	ItemName_AuthenticZClothing.ChainsawOff =  "Chainsaw (Off)",			
+	ItemName_AuthenticZClothing.ChainsawOff =  "Chainsaw (Off)",	
+
+	/* New */	
+	ItemName_AuthenticZClothing.Hat_CourtJester =  "Court Jester Hat",	
+	ItemName_AuthenticZClothing.Hat_GraduationCap =  "Graduation Cap",		
+	
 }

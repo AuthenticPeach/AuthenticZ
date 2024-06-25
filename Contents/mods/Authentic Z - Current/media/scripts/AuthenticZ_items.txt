@@ -788,7 +788,7 @@ module AuthenticZClothing {
     {
 		DisplayCategory 				= Household,		
         Type							=	Normal,
-        DisplayName						=	Red Balloon,
+        DisplayName						=	Teal Balloon,
         Icon							=	Balloon_Teal,
         Weight							=	0.05,
         primaryAnimMask 				= 	HoldingUmbrellaRight,

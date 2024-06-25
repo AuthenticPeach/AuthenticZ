@@ -4866,6 +4866,10 @@
 		<guid>b8f47c01-7e0a-415d-9681-146872198455</guid>
 	</files>	
 	<files>
+		<path>media/clothing/clothingItems/Hat_Court_Jester.xml</path>
+		<guid>c19af59f-f726-4569-98ed-054d72558ff8</guid>
+	</files>	
+	<files>
 		<path>media/clothing/clothingItems/Hat_DeathMask.xml</path>
 		<guid>53643a3b-bc9e-406a-914e-205b3c4ec787</guid>
 	</files>
@@ -4952,6 +4956,10 @@
 	<files>
 		<path>media/clothing/clothingItems/Hat_GhostFace.xml</path>
 		<guid>d8b897bb-0453-4a2f-ada8-f109ae85fba0</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Hat_Graduation_Cap.xml</path>
+		<guid>79f9b82f-25cd-453e-ae34-f1b20d925618</guid>
 	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Hat_HockeyMaskJason.xml</path>

@@ -88,7 +88,7 @@ model AuthenticAquaBottle_Blue
 	model AuthenticBalloonTeal
 	{
 		mesh = Balloon,
-		texture = clothes/Items/BalloonTeal
+		texture = clothes/Items/BalloonTeal,
 	}
 	model AuthenticBalloon_Group_Teal
 	{

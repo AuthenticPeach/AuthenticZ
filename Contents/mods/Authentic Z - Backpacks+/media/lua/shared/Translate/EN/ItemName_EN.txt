@@ -177,6 +177,7 @@ ItemName_EN = {
 	ItemName_AuthenticZBackpacksPlus.AuthenticBalloon_Green =  "Green Balloon",
 	ItemName_AuthenticZBackpacksPlus.AuthenticBalloon_Purple =  "Purple Balloon",
 	ItemName_AuthenticZBackpacksPlus.AuthenticBalloon_Red =  "Red Balloon",	
+	ItemName_AuthenticZBackpacksPlus.AuthenticBalloon_Teal =  "Teal Balloon",
 	ItemName_AuthenticZBackpacksPlus.AuthenticBalloon_White =  "White Balloon",	
 	ItemName_AuthenticZBackpacksPlus.AuthenticBalloon_Yellow =  "Yellow Balloon",	
 	ItemName_AuthenticZBackpacksPlus.AuthenticBalloon_Group =  "Group of Balloons",

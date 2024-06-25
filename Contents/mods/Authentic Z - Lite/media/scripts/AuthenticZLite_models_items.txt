@@ -55,6 +55,16 @@ module Base
 		mesh = BalloonGroup3,
 		texture = clothes/Items/BalloonPurple,
 	}
+	model AuthenticBalloonTeal
+	{
+		mesh = Balloon,
+		texture = clothes/Items/BalloonTeal,
+	}
+	model AuthenticBalloon_Group_Teal
+	{
+		mesh = BalloonGroup3,
+		texture = clothes/Items/BalloonTeal,
+	}		
 	model AuthenticBalloonWhite
 	{
 		mesh = Balloon,
@@ -854,6 +864,14 @@ module Base
 	{
 		mesh =  WorldItems/WorldItem_FurryEars_Rotated_AZ,
 	}	
+	model WorldItem-CourtJesterHat
+	{
+		mesh =  WorldItems/WorldItem_CourtJesterHat,
+	}
+	model WorldItem-GraduationCap
+	{
+		mesh =  WorldItems/WorldItem_GraduationCap,
+	}	
 	model WorldItem-GhostbusterTrap
 	{
 		mesh =  WorldItems/WorldItem_GhostbusterTrap,
@@ -1030,11 +1048,18 @@ module Base
 		mesh = WorldItems/WorldItem_Balloon,
 		texture = clothes/Items/BalloonPurple,		
 	}
-	model WorldItem-BalloonGroupPurple
+
+	model WorldItem-BalloonTeal
+	{
+		mesh = WorldItems/WorldItem_Balloon,
+		texture = clothes/Items/BalloonTeal,		
+	}	
+	model WorldItem-BalloonGroupTeal
 	{
 		mesh = BalloonGroup3_Ground,
-		texture = clothes/Items/BalloonPurple,		
-	}
+		texture = clothes/Items/BalloonTeal,		
+	}	
+	
 	model WorldItem-BalloonWhite
 	{
 		mesh = WorldItems/WorldItem_Balloon,

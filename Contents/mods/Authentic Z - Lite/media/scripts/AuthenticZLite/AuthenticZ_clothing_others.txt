@@ -1283,8 +1283,11 @@ module AuthenticZLite {
     {
        DisplayCategory = Accessory,		
 		Type = Clothing,
+		DisplayName = Charcoal Zombie Skin,				
 		ClothingItem = Skin_Charcoal_Zed_M,
 		BodyLocation = TankTop,
+        Weight = 0.1,
+        Icon = Skin_Charcoal_Male,			
     }	
     item Skin_Tan_Zed_M
     {
@@ -1339,8 +1342,11 @@ module AuthenticZLite {
     {
        DisplayCategory = Accessory,		
 		Type = Clothing,
+		DisplayName = Charcoal Zombie Skin,				
 		ClothingItem = Skin_Charcoal_Zed_W,
 		BodyLocation = TankTop,
+        Weight = 0.1,	
+        Icon = Skin_Charcoal_Female,		
     }	
     item Skin_Tan_Zed_W
     {
@@ -1356,7 +1362,8 @@ module AuthenticZLite {
 		DisplayName = Lady Dimitrescu Zombie Skin,		
 		ClothingItem = Skin_White_Dimitrescu,
 		BodyLocation = TankTop,
-		Icon = CorpseSkin_F,		
+		Icon = CorpseSkin_F,
+        Weight = 0.1,		
     }	
     item Skin_White_Zed_W
     {

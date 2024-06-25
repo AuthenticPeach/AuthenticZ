@@ -935,7 +935,8 @@
         CanBeEquipped 			= 	FannyPackFront,	
         RunSpeedModifier 		= 	0.98,
 		AcceptItemFunction      = 	AZ_TV110Vest.AcceptItemFunctionTV110,	
-        WorldStaticModel 		= 	WorldItem-AuthenticTV110_Bag,       	
+        WorldStaticModel 		= 	WorldItem-AuthenticTV110_Bag,       
+        OBSOLETE = TRUE,		
     }
     item Vest_BulletTV110_Bag_Radio
     {
@@ -955,7 +956,8 @@
         CanBeEquipped 			= 	FannyPackFront,	
         RunSpeedModifier 		= 	0.98,	
 		AcceptItemFunction      = 	AZ_TV110Vest.AcceptItemFunctionTV110,		
-        WorldStaticModel 		= 	WorldItem-AuthenticTV110_Bag_Radio,       	
+        WorldStaticModel 		= 	WorldItem-AuthenticTV110_Bag_Radio,       
+        OBSOLETE = TRUE,		
     }	
     item Vest_BulletTV110_BulletVest
     {
@@ -988,7 +990,8 @@
         BiteDefense 			= 30,
         ScratchDefense 			= 55,
         BulletDefense 			= 100,		
-        WorldStaticModel 		= WorldItem-AuthenticTV110_Radio,	        
+        WorldStaticModel 		= WorldItem-AuthenticTV110_Radio,	
+        OBSOLETE = TRUE,        
     }
     item Vest_HighViz_Press
     {

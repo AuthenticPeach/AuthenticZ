@@ -740,6 +740,32 @@ module AuthenticZLite {
 		WorldStaticModel 		= 	WorldItem-BalloonGroupRed,			
 		AttachmentType 			= 	BalloonSlot,
     }	
+    item AuthenticBalloon_Teal
+    {
+		DisplayCategory 				= Household,		
+        Type							=	Normal,
+        DisplayName						=	Teal Balloon,
+        Icon							=	Balloon_Teal,
+        Weight							=	0.05,
+        primaryAnimMask 				= 	HoldingUmbrellaRight,
+        secondaryAnimMask 				= 	HoldingUmbrellaLeft,
+        StaticModel 					= 	AuthenticBalloonTeal,
+		AttachmentType  				= 	BalloonSlot,
+		WorldStaticModel 				= 	WorldItem-BalloonTeal,			
+    }
+    item AuthenticBalloonGroup_Teal
+    {
+		DisplayCategory 		= 	Household,	
+        Type					=	Normal,
+        DisplayName				=	Group of Teal Balloons,
+        Icon					=	Balloon_Teal,
+        Weight					=	0.05,
+        primaryAnimMask 		= 	HoldingUmbrellaRight,
+        secondaryAnimMask 		= 	HoldingUmbrellaLeft,
+        StaticModel 			= 	AuthenticBalloon_Group_Teal,
+		WorldStaticModel 		= 	WorldItem-BalloonGroupTeal,			
+		AttachmentType 			= 	BalloonSlot,
+    }			
     item AuthenticBalloon_White
     {
 		DisplayCategory 			= 	Household,		

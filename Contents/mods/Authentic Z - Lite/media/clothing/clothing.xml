@@ -3563,7 +3563,16 @@
 		</m_items>
 		<m_items> <!-- Clown Cone Hat -->
 			<itemGUID>64cb6c48-3dcd-4435-9d7e-320b90b7248a</itemGUID>
-		</m_items>		
+			<subItems> <!-- Clown Cone Hat -->
+				<itemGUID>64cb6c48-3dcd-4435-9d7e-320b90b7248a</itemGUID>
+			</subItems>	
+			<subItems> <!--  Clown Cone Hat -->
+				<itemGUID>64cb6c48-3dcd-4435-9d7e-320b90b7248a</itemGUID>
+			</subItems>	
+			<subItems> <!-- Court Jester Hat -->
+				<itemGUID>c19af59f-f726-4569-98ed-054d72558ff8</itemGUID>
+			</subItems>				
+		</m_items>			
 		<m_items> <!-- Pop eyes -->
 			<probability>0.3</probability>		
 			<itemGUID>ad26e7f2-eaf2-4de1-9bc8-1ab432ee70e1</itemGUID>
@@ -4762,7 +4771,11 @@
 		<m_items> <!-- Cultist Hat -->
 			<probability>0.6</probability>
 			<itemGUID>c8e1d8b3-9ef5-43fe-aaa0-f52d489b1fe4</itemGUID>
-		</m_items>			
+		</m_items>	
+		<m_items> <!-- Deer Skull -->
+			<probability>0.3</probability>
+			<itemGUID>eaa86691-02db-4d15-bf5f-ea8021b62b3e</itemGUID>
+		</m_items>		
 		<m_items> <!-- Cultist Robe -->
 			<itemGUID>3cd1289c-50e3-4fd9-b6a7-45e59262ec32</itemGUID>
 		</m_items>
@@ -4815,7 +4828,11 @@
 		<m_items> <!-- Cultist Hat -->
 			<probability>0.6</probability>
 			<itemGUID>c8e1d8b3-9ef5-43fe-aaa0-f52d489b1fe4</itemGUID>
-		</m_items>			
+		</m_items>	
+		<m_items> <!-- Deer Skull -->
+			<probability>0.1</probability>
+			<itemGUID>eaa86691-02db-4d15-bf5f-ea8021b62b3e</itemGUID>
+		</m_items>		
 		<m_items> <!-- Cultist Robe -->
 			<itemGUID>3cd1289c-50e3-4fd9-b6a7-45e59262ec32</itemGUID>
 		</m_items>

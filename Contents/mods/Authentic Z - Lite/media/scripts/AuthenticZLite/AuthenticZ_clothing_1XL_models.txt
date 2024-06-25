@@ -39,8 +39,8 @@ module AuthenticZLite {
         Type = Clothing,
 		DisplayName				= Coveralls,	
 		ClothingItem			= Fat01_Coveralls,
-        ClothingItemExtra 		= Boilersuit;AuthenticZLite.Fat02_Coveralls;AuthenticZLite.Fat03_Coveralls,
-        ClothingItemExtraOption = Tighten,Wear2XL;Wear3XL,
+        ClothingItemExtra 		= Boilersuit;AuthenticZLite.Fat02_Coveralls,
+        ClothingItemExtraOption = Tighten,Wear2XL,
 		clothingExtraSubmenu 	= Loosen,				
         BodyLocation = FullSuit,
         Icon = BoilerSuitBigDaddy,
@@ -277,29 +277,31 @@ module AuthenticZLite {
     {
         DisplayCategory = Clothing,
         Type = Clothing,
-		DisplayName				= High Viz Vest (1XL),			
+		DisplayName				= High Viz Vest (1XL),		
         ClothingItem = Fat01_Vest_HighViz,
-        ClothingItemExtra = Vest_HighViz;AuthenticZLite.Fat02_Vest_HighViz;AuthenticZLite.Fat03_Vest_HighViz,
+        ClothingItemExtra = Vest_HighViz;AuthenticZClothing.Fat02_Vest_HighViz;AuthenticZClothing.Fat03_Vest_HighViz,
         ClothingItemExtraOption = Tighten;Wear2XL;Wear3XL,
-		clothingExtraSubmenu = Loosen,				
+		clothingExtraSubmenu = Loosen,		
         BodyLocation = TorsoExtra,
         IconsForTexture = ConstructionVest;Huntingvest_Orange;Huntingvest_Grey;Huntingvest_Camo;Huntingvest_Orange;Huntingvest_Grey;Huntingvest_Camo;SweaterVestWhite;SweaterVestArgyle,
         BloodLocation = ShirtNoSleeves,
- 		Tooltip = Tooltip_SizeXL,	   		
-	}
-   item Fat01_Vest_TankTop
+		Tooltip = Tooltip_SizeXL,
+        WorldStaticModel = HuntingVest_Ground,		
+    }
+    item Fat01_Vest_TankTop
     {
         DisplayCategory = Clothing,
         Type = Clothing,
-		DisplayName				= Tank Top (1XL),			
-        ClothingItem = Fat01_Vest_TankTop,
-        ClothingItemExtra = Vest_TankTop,
-        ClothingItemExtraOption = Tighten,
+		DisplayName				= Tank Top (1XL),	
+        ClothingItem = Fat01_Vest_HighViz,
+        ClothingItemExtra = Vest_DefaultTEXTURE;AuthenticZClothing.Fat02_Vest_TankTop;AuthenticZClothing.Fat03_Vest_TankTop,
+        ClothingItemExtraOption = Tighten;Wear2XL;Wear3XL,
 		clothingExtraSubmenu = Loosen,			
         BodyLocation = TorsoExtra,
         IconsForTexture = ConstructionVest;Huntingvest_Orange;Huntingvest_Grey;Huntingvest_Camo;Huntingvest_Orange;Huntingvest_Grey;Huntingvest_Camo;SweaterVestWhite;SweaterVestArgyle,
         BloodLocation = ShirtNoSleeves,
-		Tooltip = Tooltip_SizeXL,			
+		Tooltip = Tooltip_SizeXL,
+        WorldStaticModel = HuntingVest_Ground,		
     }
 
     item Fat01_Dress_Knees

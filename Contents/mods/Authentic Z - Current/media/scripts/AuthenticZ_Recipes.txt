@@ -341,76 +341,7 @@ recipe Convert into Wearable
      Prop2:Authentic_MinerLightbulb,
    }  
  
-recipe Attach Walkie to Vest
-  	{
-   	   Radio.WalkieTalkie5,
-	   AuthenticZClothing.Vest_BulletTV110_BulletVest,
 
-   	   Result:AuthenticZClothing.Vest_BulletTV110_BulletVest_Radio,
-	   Time:50.0,
-	   Tooltip:Tooltip_AddWalkieTV110,
-  	}
-recipe Attach Walkie to Vest
-  	{
-   	   Radio.WalkieTalkie5,
-	   AuthenticZClothing.Vest_BulletTV110_Bag,
-
-   	   Result:AuthenticZClothing.Vest_BulletTV110_Bag_Radio,
-	   Time:50.0,
-	   Tooltip:Tooltip_AddWalkieTV110Bag,
-  	}
-recipe Detach Walkie from Vest
-  	{
-	   AuthenticZClothing.Vest_BulletTV110_BulletVest_Radio,
-
-   	   Result: AuthenticZClothing.Vest_BulletTV110_BulletVest,
-	   OnCreate:GiveMeRadio,	   
-	   Time:50.0,
-	   Tooltip:Tooltip_RemoveWalkieTV110,
-  	}
-recipe Detach Walkie from Vest
-  	{
-	   AuthenticZClothing.Vest_BulletTV110_Bag_Radio,
-
-   	   Result:AuthenticZClothing.Vest_BulletTV110_Bag,
-	   OnCreate:GiveMeRadio,	   
-	   Time:150.0,
-	   Tooltip:Tooltip_RemoveWalkieTV110Bag,	   
-  	}
-
-recipe Use TV-110 as Bulletproof Vest 
-    {
-	    AuthenticZClothing.Vest_BulletTV110_Bag_Radio,
-	    OnCreate:PleaseKeepColor,		
-        Result:AuthenticZClothing.Vest_BulletTV110_BulletVest_Radio,
-        Time:150.0,
-		Tooltip:Tooltip_TV110Bag,		
-    }  
-	
-recipe Use TV-110 as Bulletproof Vest 
-    {
-	    AuthenticZClothing.Vest_BulletTV110_Bag,
-	    OnCreate:PleaseKeepColor,		
-        Result:AuthenticZClothing.Vest_BulletTV110_BulletVest,
-        Time:150.0,
-		Tooltip:Tooltip_TV110Bag,		
-    } 
-
-recipe Use TV-110 as Magazine Bag 
-    {
-	    AuthenticZClothing.Vest_BulletTV110_BulletVest,
-	    OnCreate:PleaseKeepColor,
-        Result:AuthenticZClothing.Vest_BulletTV110_Bag,
-        Time:150.0,		
-    } 
-
-recipe Use TV-110 as Magazine Bag 
-    {
-	    AuthenticZClothing.Vest_BulletTV110_BulletVest_Radio,
-	    OnCreate:PleaseKeepColor,
-        Result:AuthenticZClothing.Vest_BulletTV110_Bag_Radio,
-        Time:150.0,	
-    } 	
 	
 recipe Draw Hitlist 1
   	{

@@ -40,8 +40,8 @@ module AuthenticZLite {
         Type 					= Clothing,
 		DisplayName				= Coveralls (2XL),		
         ClothingItem			= Fat02_Coveralls,
-        ClothingItemExtra 		= Boilersuit;AuthenticZLite.Fat01_Coveralls;AuthenticZLite.Fat03_Coveralls,
-        ClothingItemExtraOption = Tighten,Wear1XL;Wear3XL,
+        ClothingItemExtra 		= Boilersuit;AuthenticZLite.Fat01_Coveralls,
+        ClothingItemExtraOption = Tighten,Wear1XL,
 		clothingExtraSubmenu 	= Loosen,					
         BodyLocation 			= FullSuit,
         Icon 					= BoilerSuitBigDaddy,
@@ -369,31 +369,31 @@ module AuthenticZLite {
     {
         DisplayCategory = Clothing,
         Type = Clothing,
-		DisplayName = High Visibility Vest,	
+		DisplayName = High Visibility Vest,
         ClothingItem = Fat02_Vest_HighViz,
-        ClothingItemExtra = Vest_HighViz;AuthenticZLite.Fat01_Vest_HighViz;AuthenticZLite.Fat03_Vest_HighViz,
+        ClothingItemExtra = Vest_HighViz;AuthenticZLite.Fat02_Vest_HighViz;AuthenticZLite.Fat03_Vest_HighViz,
         ClothingItemExtraOption = Tighten;Wear1XL;Wear3XL,
-		clothingExtraSubmenu = Loosen,			
+		clothingExtraSubmenu = Loosen,		
         BodyLocation = TorsoExtra,
         IconsForTexture = ConstructionVest;Huntingvest_Orange;Huntingvest_Grey;Huntingvest_Camo;Huntingvest_Orange;Huntingvest_Grey;Huntingvest_Camo;SweaterVestWhite;SweaterVestArgyle,
         BloodLocation = ShirtNoSleeves,
 		Tooltip = Tooltip_Size2XL,
-        WorldStaticModel = HuntingVest_Ground,		
+        WorldStaticModel = HuntingVest_Ground,
     }
     item Fat02_Vest_TankTop
     {
         DisplayCategory = Clothing,
         Type = Clothing,
-		DisplayName = Tank Top,		
+		DisplayName = Tank Top,
         ClothingItem = Fat02_Vest_HighViz,
-        ClothingItemExtra = Vest_TankTop;AuthenticZLite.Fat01_Vest_HighViz;AuthenticZLite.Fat03_Vest_HighViz,
-        ClothingItemExtraOption = Tighten;Wear1XL;Wear3XL
-		clothingExtraSubmenu 	= Loosen,			
+        ClothingItemExtra = Vest_DefaultTEXTURE;AuthenticZLite.Fat01_Vest_HighViz;AuthenticZLite.Fat03_Vest_HighViz,
+        ClothingItemExtraOption = Tighten;Wear1XL;Wear3XL,
+		clothingExtraSubmenu 	= Loosen,		
         BodyLocation = TorsoExtra,
         IconsForTexture = ConstructionVest;Huntingvest_Orange;Huntingvest_Grey;Huntingvest_Camo;Huntingvest_Orange;Huntingvest_Grey;Huntingvest_Camo;SweaterVestWhite;SweaterVestArgyle,
         BloodLocation = ShirtNoSleeves,
-		Tooltip = Tooltip_Size2XL,	
-        WorldStaticModel = HuntingVest_Ground,		
+		Tooltip = Tooltip_Size2XL,
+        WorldStaticModel = HuntingVest_Ground,	
     }
 
     item Fat02_Dress_Knees

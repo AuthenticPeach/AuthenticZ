@@ -78,7 +78,7 @@ module Base
 	model AuthenticBalloonTeal
 	{
 		mesh = Balloon,
-		texture = clothes/Items/BalloonTeal
+		texture = clothes/Items/BalloonTeal,
 	}
 	model AuthenticBalloon_Group_Teal
 	{
@@ -975,6 +975,14 @@ module Base
 	{
 		mesh =  WorldItems/WorldItem_FurryEars_Rotated_AZ,
 	}
+	model WorldItem-CourtJesterHat
+	{
+		mesh =  WorldItems/WorldItem_CourtJesterHat,
+	}
+	model WorldItem-GraduationCap
+	{
+		mesh =  WorldItems/WorldItem_GraduationCap,
+	}	
 	model WorldItem_AuthenticAquaBottle_Blue
 	{
 		mesh = WorldItems/WorldItem_AZ_AquaBottle,
@@ -1376,11 +1384,16 @@ module Base
 		mesh = WorldItems/WorldItem_Balloon,
 		texture = clothes/Items/BalloonPurple,		
 	}
-	model WorldItem-BalloonGroupPurple
+	model WorldItem-BalloonTeal
+	{
+		mesh = WorldItems/WorldItem_Balloon,
+		texture = clothes/Items/BalloonTeal,		
+	}	
+	model WorldItem-BalloonGroupTeal
 	{
 		mesh = BalloonGroup3_Ground,
-		texture = clothes/Items/BalloonPurple,		
-	}
+		texture = clothes/Items/BalloonTeal,		
+	}	
 	model WorldItem-BalloonWhite
 	{
 		mesh = WorldItems/WorldItem_Balloon,
@@ -1563,7 +1576,7 @@ module Base
 	model WorldItem_FreeHugsSign
 	{
 		mesh = WorldItems/WorldItem_FreeHugsSign,		
-	}
+	}	
 	model WorldItem_Headband
 	{
 		mesh = WorldItems/WorldItem_AuthenticHeadband,
