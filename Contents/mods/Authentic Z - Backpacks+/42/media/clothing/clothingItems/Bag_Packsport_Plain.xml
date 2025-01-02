@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>Skinned\BackPacks\PackportBackpackPlain</m_MaleModel>
+	<m_FemaleModel>Skinned\BackPacks\PackportBackpackPlain</m_FemaleModel>
+	<m_GUID>732a0feb-0e8b-4b3b-b007-ad69e3bc8a63</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>clothes\Backpacks\JansportBlack</textureChoices>
+	<textureChoices>clothes\Backpacks\JansportBlue</textureChoices>
+	<textureChoices>clothes\Backpacks\JansportRed</textureChoices>
+	<textureChoices>clothes\Backpacks\JansportGrey</textureChoices>
+	<textureChoices>clothes\Backpacks\JansportGreen</textureChoices>
+	<textureChoices>clothes\Backpacks\JansportHotPink</textureChoices>
+	<textureChoices>clothes\Backpacks\JansportGreenPink</textureChoices>
+	<textureChoices>clothes\Backpacks\JansportCamo1</textureChoices>
+	<textureChoices>clothes\Backpacks\JansportCamo2</textureChoices>
+	<textureChoices>clothes\Backpacks\JansportRedPlaid</textureChoices>
+	<textureChoices>clothes\Backpacks\JansportGreenPlaid</textureChoices>
+	<textureChoices>clothes\Backpacks\JansportBluePlaid</textureChoices>
+	<textureChoices>clothes\Backpacks\JansportIndigoPlaid</textureChoices>
+	<textureChoices>clothes\Backpacks\JansportPeach</textureChoices>
+	<textureChoices>clothes\Backpacks\JansportPinkPattern</textureChoices>
+	<textureChoices>clothes\Backpacks\JansportPinkPattern2</textureChoices>
+	<textureChoices>clothes\Backpacks\JansportBluePattern</textureChoices>
+	<textureChoices>clothes\Backpacks\JansportBluePattern2</textureChoices>
+</clothingItem>

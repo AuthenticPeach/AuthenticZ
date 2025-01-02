@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media\models_X\skinned\Backpacks\UtilityBeltTactical_M_Loose.FBX</m_MaleModel>
+	<m_FemaleModel>media\models_X\skinned\Backpacks\UtilityBeltTactical_M_Loose2.FBX</m_FemaleModel>
+	<m_GUID>90be9619-3915-463e-8eca-237e5a4e4b36</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>Clothes\Backpacks\UtilityBeltTacticalDesert</textureChoices>
+</clothingItem>

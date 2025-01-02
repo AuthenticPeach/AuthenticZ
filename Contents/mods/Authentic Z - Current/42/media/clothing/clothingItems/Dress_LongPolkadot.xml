@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel></m_FemaleModel>
+	<m_GUID>cd5f1c0e-6be4-4f3c-8bb2-927bc82bdfeb</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AllowRandomHue>false</m_AllowRandomHue>	
+	<m_AttachBone></m_AttachBone>
+	<m_BaseTextures>clothes\dress_textures\Dress_LongPolkaDot</m_BaseTextures>
+	<m_BaseTextures>clothes\dress_textures\Dress_PolkaDotBlue_Long</m_BaseTextures>
+</clothingItem>

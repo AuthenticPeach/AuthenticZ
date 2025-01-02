@@ -79,5 +79,5 @@ description=[h2][u] Compatible/Incompatible Mods list [/u] [/h2] [/url]
 description=[h2][b] For Server Owners and Admins [/b] [/h2]
 description=[url=https://steamcommunity.com/workshop/filedetails/discussion/2335368829/3767859448795410357/]
 description=[h2][u] Complete list of Item IDs (If ever needed)[/u] [/h2] [/url]
-tags=Build 41;Clothing/Armor;Items;Misc;Models;Multiplayer;Pop Culture;Realistic;Textures
+tags=Build 41;Build 42;Clothing/Armor;Items;Map;Misc;Models;Multiplayer;Pop Culture;Realistic;Silly/Fun;Textures;QoL;Weapons
 visibility=public

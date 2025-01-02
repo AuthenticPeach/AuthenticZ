@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\clothes\AZ_TV110_M</m_MaleModel>
+	<m_FemaleModel>skinned\clothes\AZ_TV110_F</m_FemaleModel>
+	<m_GUID>f05bf49a-ada0-4c9b-9c01-bf3a341b5c05</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>clothes\bulletvest\tv110Desert</textureChoices>
+	<textureChoices>clothes\bulletvest\tv110Green</textureChoices>
+	<textureChoices>clothes\bulletvest\tv110Urban</textureChoices>
+</clothingItem>

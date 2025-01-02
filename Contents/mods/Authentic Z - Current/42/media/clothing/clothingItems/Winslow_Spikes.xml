@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\clothes\WinslowSpikes</m_MaleModel>
+	<m_FemaleModel>skinned\clothes\WinslowSpikes</m_FemaleModel>
+	<m_GUID>6cd24c71-839b-4485-a6dd-ee0ceb38fc14</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_MasksFolder>none</m_MasksFolder>
+	<textureChoices>clothes\Items\WinslowSpikes</textureChoices>
+</clothingItem>

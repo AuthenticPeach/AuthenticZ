@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media\models_X\Skinned\Clothes\HairBow_Left.FBX</m_MaleModel>
+	<m_FemaleModel>media\models_X\Skinned\Clothes\HairBow_Left.FBX</m_FemaleModel>
+	<m_GUID>36b67fbb-0010-4948-9144-2c6a51af24f8</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_MasksFolder>media/textures/Clothes/Hat/Masks</m_MasksFolder>
+	<textureChoices>clothes\Hats\HairBowBlue</textureChoices>
+	<textureChoices>clothes\Hats\HairBowPurple</textureChoices>
+	<textureChoices>clothes\Hats\HairBowRed</textureChoices>
+	<textureChoices>clothes\Hats\HairBowRose</textureChoices>
+</clothingItem>

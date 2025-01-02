@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\clothes\bob_weddingdress</m_MaleModel>
+	<m_FemaleModel>skinned\clothes\BallroomDress_Elegant</m_FemaleModel>
+	<m_GUID>a585f77e-5ffc-4f0c-a28f-1874c7067782</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_Masks>13</m_Masks>
+	<m_Masks>2</m_Masks>
+	<m_Masks>7</m_Masks>
+	<m_Masks>8</m_Masks>
+	<m_Masks>9</m_Masks>
+	<m_Masks>10</m_Masks>
+	<textureChoices>clothes\dress_textures\Round_Gown_Kansas_Blue</textureChoices>
+	<textureChoices>clothes\dress_textures\Round_Gown_Kansas_Dark_Blue</textureChoices>
+	<textureChoices>clothes\dress_textures\Round_Gown_Kansas_Dark_Green</textureChoices>
+	<textureChoices>clothes\dress_textures\Round_Gown_Kansas_Dark_Red</textureChoices>
+	<textureChoices>clothes\dress_textures\Round_Gown_Kansas_Green</textureChoices>
+	<textureChoices>clothes\dress_textures\Round_Gown_Kansas_Light_Green</textureChoices>
+	<textureChoices>clothes\dress_textures\Round_Gown_Kansas_Light_Red</textureChoices>
+	<textureChoices>clothes\dress_textures\Round_Gown_Kansas_Lavender</textureChoices>
+	<textureChoices>clothes\dress_textures\Round_Gown_Kansas_Yellow</textureChoices>
+</clothingItem>

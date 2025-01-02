@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\clothes\bob_weddingdress</m_MaleModel>
+	<m_FemaleModel>skinned\clothes\BallroomDress_LongSleeved</m_FemaleModel>
+	<m_GUID>33198176-9ea7-4263-9ed3-75e1d609ee66</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+
+	<m_Masks>13</m_Masks>
+	<m_Masks>2</m_Masks>
+	<m_Masks>3</m_Masks>
+	<m_Masks>5</m_Masks>
+	<m_Masks>7</m_Masks>
+	<m_Masks>8</m_Masks>
+	<m_Masks>9</m_Masks>
+	<m_Masks>10</m_Masks>
+	<textureChoices>clothes\dress_textures\Gown4_Blue</textureChoices>
+	<textureChoices>clothes\dress_textures\Gown4_Green</textureChoices>
+	<textureChoices>clothes\dress_textures\Gown4_Pink</textureChoices>
+	<textureChoices>clothes\dress_textures\Gown4_Red</textureChoices>
+	<textureChoices>clothes\dress_textures\Gown4_SkyBlue</textureChoices>
+	<textureChoices>clothes\dress_textures\Gown4_Yellow</textureChoices>
+</clothingItem>

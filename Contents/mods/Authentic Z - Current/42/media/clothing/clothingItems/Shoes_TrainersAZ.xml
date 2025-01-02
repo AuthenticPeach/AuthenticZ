@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel></m_FemaleModel>
+	<m_GUID>9150e7da-a78d-4988-a799-e06bff2dae4a</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_BaseTextures>clothes\shoes_socks_textres\Trainers_Purple</m_BaseTextures>
+	<m_BaseTextures>clothes\shoes_socks_textres\Trainers_Rose</m_BaseTextures>
+	<m_BaseTextures>clothes\shoes_socks_textres\Trainers_SkyBlue</m_BaseTextures>
+	<m_BaseTextures>clothes\shoes_socks_textres\Trainers_Turquoise</m_BaseTextures>
+	<m_BaseTextures>clothes\shoes_socks_textres\Trainers_White2</m_BaseTextures>
+	<m_BaseTextures>clothes\shoes_socks_textres\Trainers_Green</m_BaseTextures>
+	<m_BaseTextures>clothes\shoes_socks_textres\Trainers_Blue</m_BaseTextures>
+	<m_BaseTextures>clothes\shoes_socks_textres\Trainers_Grey</m_BaseTextures>
+	<m_BaseTextures>clothes\shoes_socks_textres\Trainers_Black</m_BaseTextures>
+</clothingItem>

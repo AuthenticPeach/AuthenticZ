@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\backpacks\MaleAlicepack</m_MaleModel>
+	<m_FemaleModel>skinned\backpacks\FemaleAlicepack</m_FemaleModel>
+	<m_GUID>c3a5fcc2-f9c2-4cb8-9260-bad6b707d442</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>Clothes\Backpacks\ALICEpack_Festive</textureChoices>
+</clothingItem>

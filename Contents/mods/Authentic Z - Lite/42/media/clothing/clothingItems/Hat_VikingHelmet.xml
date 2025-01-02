@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media\models_X\skinned\clothes\VkingHelmet.FBX</m_MaleModel>
+	<m_FemaleModel>media\models_X\skinned\clothes\VkingHelmet.FBX</m_FemaleModel>
+	<m_GUID>f11bcc22-2c56-4632-813b-7df3e446d9f1</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_HatCategory>Group01</m_HatCategory>
+	<m_MasksFolder>media/textures/Clothes/Hat/Masks</m_MasksFolder>
+	<textureChoices>clothes\Hats\MetalHelmet</textureChoices>
+</clothingItem>

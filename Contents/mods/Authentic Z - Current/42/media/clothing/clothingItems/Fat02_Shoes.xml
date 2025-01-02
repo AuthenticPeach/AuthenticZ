@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\CustomBodies\FatBody02_M\FatBod_M_02_Shoes</m_MaleModel>
+	<m_FemaleModel>skinned\CustomBodies\FatBody02_F\FatBod_F_02_Shoes</m_FemaleModel>
+	<m_GUID>a8c9dc1e-2c84-4998-ae52-65785ec3b35c</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_Masks>8</m_Masks>
+	<m_Masks>10</m_Masks>
+	<textureChoices>clothes\Shoes_Socks_Textres\BlackShoes</textureChoices>
+	<textureChoices>clothes\Shoes_Socks_Textres\BrownShoes</textureChoices>
+	<textureChoices>clothes\Shoes_Socks_Textres\BlackShoes</textureChoices>
+	<textureChoices>clothes\Shoes_Socks_Textres\BrownShoes</textureChoices>
+	<textureChoices>clothes\Shoes_Socks_Textres\BlackShoes</textureChoices>
+	<textureChoices>clothes\Shoes_Socks_Textres\BrownShoes</textureChoices>
+	<textureChoices>clothes\Shoes_Socks_Textres\BlackShoes</textureChoices>
+	<textureChoices>clothes\Shoes_Socks_Textres\BrownShoes</textureChoices>
+	<textureChoices>clothes\Shoes_Socks_Textres\BlackShoes</textureChoices>
+	<textureChoices>clothes\Shoes_Socks_Textres\BrownShoes</textureChoices>	
+	<textureChoices>clothes\Shoes_Socks_Textres\Trainers_White</textureChoices>
+	<textureChoices>clothes\Shoes_Socks_Textres\Trainers_White</textureChoices>
+	<textureChoices>clothes\Shoes_Socks_Textres\Trainers_Black</textureChoices>
+	<textureChoices>clothes\Shoes_Socks_Textres\Trainers_Black</textureChoices>
+	<textureChoices>clothes\Shoes_Socks_Textres\Trainers_Red</textureChoices>
+	<textureChoices>clothes\Shoes_Socks_Textres\Trainers_Blue</textureChoices>
+</clothingItem>

@@ -1,0 +1,817 @@
+module AuthenticZRecipes {
+  imports {
+      Base
+  }
+
+	craftRecipe Attach Cigarette to Cigarette Holder
+	{
+		timedAction = Making,
+		Time = 10,
+		NeedToBeLearn = False,
+		Tags = InHandCraft,
+        category = Survival,
+		Prop1:Cigarette,
+        Prop2:AuthenticCigaretteHolder,
+		inputs
+		{
+			item 1 [Base.CigaretteSingle;Base.CigaretteRolled],
+			item 1 [AuthenticZClothing.AuthenticCigaretteHolder],			
+		}
+		outputs
+		{
+			item 1 AuthenticZClothing.AuthenticCigaretteHolder_Cig,
+		}
+	}
+
+	craftRecipe Convert into Wearable (Headphones)
+  	{
+		timedAction = Making,	
+		NeedToBeLearn = False,
+		Tags = InHandCraft;CanBeDoneInDark,
+        category = Survival,
+	    Time:2,
+		inputs
+		{
+			item 1 [Base.Headphones],
+		}
+		outputs
+		{
+			item 1 AuthenticZClothing.Authentic_Headphones,
+		}	   
+  	}
+
+	craftRecipe Convert into Item (Headphones)
+  	{
+		timedAction = Making,	
+		NeedToBeLearn = False,
+		Tags = InHandCraft;CanBeDoneInDark,
+        category = Survival,
+	    Time:2,
+		inputs
+		{
+			item 1 [AuthenticZClothing.Authentic_Headphones],
+		}
+		outputs
+		{
+			item 1 Base.Headphones,
+		}	   
+  	}
+
+	craftRecipe Convert into Wearable (Bandages)
+  	{
+		timedAction = Making,	
+		NeedToBeLearn = False,
+		Tags = InHandCraft;CanBeDoneInDark,
+        category = AuthenticZ,
+	    Time:2,
+		inputs
+		{
+			item 1 [AuthenticZClothing.Authentic_Bandages],
+		}
+		outputs
+		{
+			item 3 Base.Bandage,
+		}	   
+  	}
+
+	craftRecipe Convert into Item (Bandages)
+  	{
+		timedAction = Making,	
+		NeedToBeLearn = False,
+		Tags = InHandCraft;CanBeDoneInDark,
+        category = AuthenticZ,
+	    Time:2,
+		inputs
+		{
+			item 3 [Base.Bandage],
+		}
+		outputs
+		{
+			item 1 AuthenticZClothing.Authentic_Bandages,
+		}	   
+  	}
+
+	craftRecipe Convert into Wearable (Cigarette)
+  	{
+		timedAction = Making,	
+		NeedToBeLearn = False,
+		Tags = InHandCraft;CanBeDoneInDark,
+        category = AuthenticZ,
+	    Time:2,
+		inputs
+		{
+			item 1 [Base.CigaretteSingle;Base.CigaretteRolled],
+		}
+		outputs
+		{
+			item 1 AuthenticZClothing.Cigarette,			
+		}	   
+  	}
+	
+	craftRecipe Convert into Item (Cigarette)
+  	{
+		timedAction = Making,	
+		NeedToBeLearn = False,
+		Tags = InHandCraft;CanBeDoneInDark,
+        category = AuthenticZ,
+	    Time:10,
+		inputs
+		{
+			item 1 [AuthenticZClothing.Cigarette],		
+		}
+		outputs
+		{
+			item 1 Base.CigaretteSingle,		
+		}	   
+  	}	
+	
+	craftRecipe Convert into Wearable (Cigar)
+  	{
+		timedAction = Making,	
+		NeedToBeLearn = False,
+		Tags = InHandCraft;CanBeDoneInDark,
+        category = Survival,
+	    Time:2,
+		inputs
+		{
+			item 1 [AuthenticZClothing.CigarAZ2],
+		}
+		outputs
+		{
+			item 1 AuthenticZClothing.CigarAZ,			
+		}	   
+  	}
+ 
+	craftRecipe Convert into Item (Cigar)
+  	{
+		timedAction = Making,	
+		NeedToBeLearn = False,
+		Tags = InHandCraft;CanBeDoneInDark,,
+        category = Survival,
+	    Time:2,
+		inputs
+		{
+			item 1 [AuthenticZClothing.CigarAZ],
+		}
+		outputs
+		{
+			item 1 AuthenticZClothing.CigarAZ2,			
+		}	   
+  	}
+
+	craftRecipe Convert into Wearable (Cocktail Umbrella)
+  	{
+		timedAction = Making,	
+		NeedToBeLearn = False,
+		Tags = InHandCraft;CanBeDoneInDark,
+        category = AuthenticZ,
+	    OnTest = KoniTestAZ_OnTest_ConvertClothing,
+	    OnCreate = KoniTestAZ_OnCreate_ConvertClothing,		
+	    Time:2,
+		inputs
+		{
+			item 1 [Base.CocktailUmbrella],
+		}
+		outputs
+		{
+			item 1 AuthenticZClothing.AZ_CocktailUmbrella,			
+		}	   
+  	}	
+
+	craftRecipe Make a Stack of Money
+  	{
+		timedAction = Making,	
+		NeedToBeLearn = False,
+		Tags = InHandCraft,
+        category = Survival,
+	    Time:10,
+		inputs
+		{
+			item 1 [Base.Money],
+		}
+		outputs
+		{
+			item 1 AuthenticZClothing.Authentic_MoneyStack,			
+		}	   
+  	}
+
+	craftRecipe Convert into Item (Money)
+  	{
+		timedAction = Making,	
+		NeedToBeLearn = False,
+		Tags = InHandCraft;CanBeDoneInDark,
+        category = Survival,
+	    Time:2,
+		inputs
+		{
+			item 1 [AuthenticZClothing.Authentic_MoneyStack],
+		}
+		outputs
+		{
+			item 1 Base.Money,			
+		}	   
+  	}
+
+	craftRecipe Convert into Wearable (Pills)
+  	{
+		timedAction = Making,	
+		NeedToBeLearn = False,
+		Tags = InHandCraft;CanBeDoneInDark,
+        category = Survival,
+	    Time:2,
+		inputs
+		{
+			item 10 [Base.Pills],
+		}
+		outputs
+		{
+			item 1 AuthenticZClothing.Authentic_Pills,			
+		}	   
+  	}
+
+	craftRecipe Convert into Item (Pills)
+  	{
+		timedAction = Making,	
+		NeedToBeLearn = False,
+		Tags = InHandCraft,
+        category = Survival,
+	    Time:2,
+		inputs
+		{
+			item 1 [AuthenticZClothing.Authentic_Pills],
+		}
+		outputs
+		{
+			item 1 Base.Pills,			
+		}	   
+  	}
+
+	craftRecipe Convert into Wearable (Crutch)
+  	{
+		timedAction = Making,	
+		NeedToBeLearn = False,
+		Tags = InHandCraft;CanBeDoneInDark,
+        category = Survival,
+	    Time:2,
+		inputs
+		{
+			item 1 [AuthenticZClothing.AuthenticCrutch],
+		}
+		outputs
+		{
+			item 1 AuthenticZClothing.CrutchLEFT,			
+		}	   
+  	}
+	
+	craftRecipe Convert into Melee (Crutch)
+  	{
+		timedAction = Making,	
+		NeedToBeLearn = False,
+		Tags = InHandCraft;CanBeDoneInDark,
+        category = Survival,
+	    Time:2,
+		inputs
+		{
+			item 1 [AuthenticZClothing.CrutchLEFT;AuthenticZClothing.CrutchRIGHT],
+		}
+		outputs
+		{
+			item 1 AuthenticZClothing.AuthenticCrutch,			
+		}	   
+  	}
+
+	craftRecipe Convert into Wearable (Camera)
+  	{
+		timedAction = Making,	
+		NeedToBeLearn = False,
+		Tags = InHandCraft,
+        category = Survival,
+	    Time:2,
+		inputs
+		{
+			item 1 [Base.Camera;Base.CameraDisposable;Base.CameraExpensive] mappers[camerasAZ],			
+		}
+		outputs
+		{
+			item 1 mapper:camerasAZ,			
+		}
+        itemMapper camerasAZ
+        {
+			AuthenticZClothing.CameraAZ = Base.Camera,
+			AuthenticZClothing.CameraDisposableAZ = Base.CameraDisposable,
+			AuthenticZClothing.CameraExpensiveAZ = Base.CameraExpensive,
+		}		
+  	}
+	
+    craftRecipe Draw Hitlist 1
+    {
+		timedAction = Making,
+        Time = 20,
+        Tags = AnySurfaceCraft,
+
+        inputs
+        {
+            item 1 tags[Scissors] mode:keep,
+			item 1 [Base.Crayons],
+            item 1 [Base.ComicBook],
+            item 1 [Base.Magazine],
+            item 1 [Base.SheetPaper2],
+        }
+        outputs
+        {
+            item 1 AuthenticZClothing.PZAZ_HitList,
+            item 1 Base.Crayons,			
+        }
+    }
+	
+    craftRecipe Draw Hitlist 2
+    {
+		timedAction = Making,
+        Time = 20,
+        Tags = AnySurfaceCraft,
+
+        inputs
+        {
+            item 1 tags[Scissors] mode:keep,
+			item 1 [Base.Crayons],
+            item 1 [Base.ComicBook],
+            item 1 [Base.Magazine],
+            item 1 [Base.SheetPaper2],
+        }
+        outputs
+        {
+            item 1 AuthenticZClothing.PZAZ_HitList2,
+            item 1 Base.Crayons,			
+        }
+    }	
+
+    craftRecipe Draw Hitlist 3
+    {
+		timedAction = Making,
+        Time = 20,
+        Tags = AnySurfaceCraft,
+
+        inputs
+        {
+            item 1 tags[Scissors] mode:keep,
+			item 1 [Base.Crayons],
+            item 1 [Base.ComicBook],
+            item 1 [Base.Magazine],
+            item 1 [Base.SheetPaper2],
+        }
+        outputs
+        {
+            item 1 AuthenticZClothing.PZAZ_HitList3,
+            item 1 Base.Crayons,
+        }
+    }
+	
+	craftRecipe Open Medical Coat
+  	{
+		timedAction = Making,	
+		NeedToBeLearn = False,
+		Tags = InHandCraft;CanBeDoneInDark,
+        category = Survival,
+	    Time:5,
+		inputs
+		{
+			item 1  [Base.JacketLong_Doctor],
+		}
+		outputs
+		{
+			item 1 AuthenticZClothing.Jacket_Doctor2,			
+		}
+	   Tooltip:Tooltip_OpenJacket,			
+  	}	
+
+	craftRecipe Tie Apron Around Dress
+  	{
+		timedAction = Making,	
+		NeedToBeLearn = False,
+		Tags = InHandCraft;CanBeDoneInDark,
+	    OnTest = KoniTestAZ_OnTest_ConvertClothing,
+	    OnCreate = KoniTestAZ_OnCreate_ConvertClothing,			
+        category = Survival,
+	    Time:8,
+		inputs
+		{
+			item 1  [Base.Apron_White],
+			item 1  [AuthenticZClothing.Dress_BallroomDress_Casual;AuthenticZClothing.Dress_BallroomDress_LongSleevedButtoned;AuthenticZClothing.Dress_BallroomDress_Pattern;AuthenticZClothing.Dress_BallroomDress_Plaid;AuthenticZClothing.Dress_BallroomDress_Prairie;AuthenticZClothing.Dress_BallroomDress_Striped] mappers[TieApronDressAZ],
+		}
+		outputs
+		{
+			item 1 mapper:TieApronDressAZ,	
+		}
+        itemMapper TieApronDressAZ
+        {
+			AuthenticZClothing.Dress_BallroomDress_CasualApron = AuthenticZClothing.Dress_BallroomDress_Casual,
+			AuthenticZClothing.Dress_BallroomDress_LongSleevedButtonedApron = AuthenticZClothing.Dress_BallroomDress_LongSleevedButtoned,
+			AuthenticZClothing.Dress_BallroomDress_PatternApron = AuthenticZClothing.Dress_BallroomDress_Pattern,
+			AuthenticZClothing.Dress_BallroomDress_PlaidApron = AuthenticZClothing.Dress_BallroomDress_Plaid,
+			AuthenticZClothing.Dress_BallroomDress_PrairieApron = AuthenticZClothing.Dress_BallroomDress_Prairie,
+			AuthenticZClothing.Dress_BallroomDress_StripedApron = AuthenticZClothing.Dress_BallroomDress_Striped,
+		}		
+  	}
+	
+	craftRecipe UnTie Apron From Dress
+  	{
+		timedAction = Making,	
+		NeedToBeLearn = False,
+		Tags = InHandCraft;CanBeDoneInDark,	
+	    OnTest = KoniTestAZ_OnTest_ConvertClothing,
+	    OnCreate = KoniTestAZ_OnCreate_ConvertClothing,		
+        category = Survival,
+	    Time:8,
+		inputs
+		{
+
+			item 1 [AuthenticZClothing.Dress_BallroomDress_CasualApron;AuthenticZClothing.Dress_BallroomDress_LongSleevedButtonedApron;AuthenticZClothing.Dress_BallroomDress_PatternApron;AuthenticZClothing.Dress_BallroomDress_PlaidApron;AuthenticZClothing.Dress_BallroomDress_PrairieApron;AuthenticZClothing.Dress_BallroomDress_StripedApron] mappers[UntieApronDressAZ],	
+		}
+		outputs
+		{
+			item 1 mapper:UntieApronDressAZ,
+			item 1 Base.Apron_White,		
+		}
+        itemMapper UntieApronDressAZ
+        {
+			AuthenticZClothing.Dress_BallroomDress_Casual = AuthenticZClothing.Dress_BallroomDress_CasualApron,
+			AuthenticZClothing.Dress_BallroomDress_LongSleevedButtoned = AuthenticZClothing.Dress_BallroomDress_LongSleevedButtonedApron,
+			AuthenticZClothing.Dress_BallroomDress_Pattern = AuthenticZClothing.Dress_BallroomDress_PatternApron,
+			AuthenticZClothing.Dress_BallroomDress_Plaid = AuthenticZClothing.Dress_BallroomDress_PlaidApron,
+			AuthenticZClothing.Dress_BallroomDress_Prairie = AuthenticZClothing.Dress_BallroomDress_PrairieApron,
+			AuthenticZClothing.Dress_BallroomDress_Striped = AuthenticZClothing.Dress_BallroomDress_StripedApron,
+		}		
+  	}
+	
+	craftRecipe Tie Hoodie Around Waist
+  	{
+		timedAction = Making,	
+		NeedToBeLearn = False,
+		Tags = InHandCraft;CanBeDoneInDark,
+	    OnTest = KoniTestAZ_OnTest_ConvertClothing,
+	    OnCreate = KoniTestAZ_OnCreate_ConvertClothing,		
+        category = Survival,
+	    Time:8,
+		inputs
+		{
+			item 1  [Base.HoodieUP_WhiteTINT;Base.HoodieDOWN_WhiteTINT],
+		}
+		outputs
+		{
+			item 1 AuthenticZClothing.HoodieTied_WhiteTINT,			
+		}			
+  	}
+ 
+ 
+	craftRecipe Open Pack of Glowsticks
+  	{
+		timedAction = Making,	
+		NeedToBeLearn = False,
+		Tags = InHandCraft;CanBeDoneInDark,
+	    OnCreate = Recipe.OnCreate.OpenGlowStickPackage,		
+        category = Survival,
+	    Time:5,
+		inputs
+		{
+			item 1 [AuthenticZClothing.AuthenticGlowstick_Pack],
+		}
+		outputs
+		{	
+		}
+		ToolTip:Tooltip_GlowStickPack,
+		AnimNode:RipSheets,
+  	}
+
+	craftRecipe Open Sealed Medkit
+  	{
+		timedAction = Making,	
+		NeedToBeLearn = False,
+		Tags = InHandCraft;CanBeDoneInDark,
+	    OnCreate = OpenSealedMedkit,		
+		AnimNode:RipSheets,
+        category = Survival,
+	    Time:10,
+		inputs
+		{
+			item 1 [AuthenticZClothing.PZAZ_SealedMedkit],
+		}
+		outputs
+		{		
+		}			
+  	}
+	
+	craftRecipe Make Short Apron
+  	{
+		timedAction = Making,	
+		NeedToBeLearn = False,
+		Tags = InHandCraft;CanBeDoneInDark,
+        category = Survival,
+	    Time:50,
+		inputs
+		{
+			item 1 [Base.Apron_White],
+			item 2 [Base.Thread],
+			item 1 tags[Scissors],
+			item 1 tags[SewingNeedle] mode:keep,
+		}
+		outputs
+		{
+			item 1 AuthenticZClothing.Apron_Short,			
+		}			
+  	}
+	
+	craftRecipe Wear on Neck (EarMuffs)
+  	{
+		timedAction = Making,	
+		NeedToBeLearn = False,
+		Tags = InHandCraft;CanBeDoneInDark,
+	    OnTest = KoniTestAZ_OnTest_ConvertClothing,
+	    OnCreate = KoniTestAZ_OnCreate_ConvertClothing,		
+        category = Survival,
+	    Time:2,
+		inputs
+		{
+			item 1 [Base.Hat_EarMuffs],
+		}
+		outputs
+		{
+			item 1 AuthenticZClothing.Hat_EarMuffs_AZ,			
+		}			
+  	}
+	
+	craftRecipe Wear on Neck (EarMuff Protectors)
+  	{
+		timedAction = Making,	
+		NeedToBeLearn = False,
+		Tags = InHandCraft;CanBeDoneInDark,
+        category = Survival,
+	    Time:2,
+		inputs
+		{
+			item 1 [Base.Hat_EarMuff_Protectors],
+		}
+		outputs
+		{
+			item 1 AuthenticZClothing.Hat_EarMuff_Protectors_AZ,			
+		}			
+  	}	
+
+	craftRecipe Put Goblin in Carriage
+  	{
+		timedAction = Making,	
+		NeedToBeLearn = False,
+		Tags = InHandCraft;CanBeDoneInDark,
+        category = Survival,
+	    Time:2,
+		inputs
+		{
+			item 1  [AuthenticZClothing.GroguAZ],
+			item 1  [AuthenticZClothing.GroguCarriageEmpty],
+		}
+		outputs
+		{
+			item 1 AuthenticZClothing.GroguCarriage,			
+		}		
+  	}
+
+	craftRecipe Take Goblin Out
+  	{
+		timedAction = Making,	
+		NeedToBeLearn = False,
+		Tags = InHandCraft;CanBeDoneInDark,
+        category = Survival,
+	    Time:2,
+		inputs
+		{
+			item 1 [AuthenticZClothing.GroguCarriage],
+		}
+		outputs
+		{
+			item 1 AuthenticZClothing.GroguCarriageEmpty,			
+			item 1 AuthenticZClothing.GroguAZ,			
+		}		
+  	}
+/*
+	craftRecipe Put Goblin in Bag
+  	{
+		timedAction = Making,	
+		NeedToBeLearn = False,
+		Tags = InHandCraft;CanBeDoneInDark,
+        category = Survival,
+	    Time:2,
+		inputs
+		{
+			item 1 [AuthenticZClothing.GroguAZ],
+			item 1 [AuthenticZClothing.Bag_LS_GroguBagEmpty],
+		}
+		outputs
+		{
+			item 1 AuthenticZClothing.Bag_LS_GroguBag,					
+		}		
+  	}
+
+	craftRecipe Take Goblin Out
+  	{
+		timedAction = Making,	
+		NeedToBeLearn = False,
+		Tags = InHandCraft;CanBeDoneInDark,
+        category = Survival,
+	    Time:2,
+		inputs
+		{
+			item 1 [AuthenticZClothing.Bag_LS_GroguBag],
+		}
+		outputs
+		{
+			item 1 AuthenticZClothing.Bag_LS_GroguBagEmpty,					
+			item 1 AuthenticZClothing.GroguAZ,					
+		}		
+  	}
+*/
+	craftRecipe DismantleHeadphones
+	{
+        timedAction = DismantleElectrical,
+		Time = 60,
+		OnCreate = Recipe.OnCreate.DismantleMiscElectronics,
+		OnTest = Recipe.OnTest.DismantleElectronics,		
+		Tags = InHandCraft;Electrical,
+        category = Electrical,
+		xpAward = Electricity:2,
+		inputs
+		{
+			item 1 tags[Screwdriver] mode:keep flags[MayDegradeLight;NoBrokenItems],
+			item 1 [AuthenticZClothing.Authentic_Headphones] mappers[dHeadphones1] mode:destroy itemcount,
+		}
+		outputs
+		{
+			item 1 Base.ElectronicsScrap,
+			item 1 mapper:dHeadphones1,
+		}
+		itemMapper dHeadphones1
+		{
+			Base.Amplifier = AuthenticZClothing.Authentic_Headphones,
+		}
+       AnimNode:Disassemble,		
+	}
+
+	craftRecipe Dismantle Headphones
+	{
+        timedAction = DismantleElectrical,
+		Time = 60,
+		OnCreate = Recipe.OnCreate.DismantleMiscElectronics,
+		OnTest = Recipe.OnTest.DismantleElectronics,		
+		Tags = InHandCraft;Electrical,
+        category = Electrical,
+		xpAward = Electricity:2,
+		inputs
+		{
+			item 1 tags[Screwdriver] mode:keep flags[MayDegradeLight;NoBrokenItems],
+			item 1 [AuthenticZClothing.Authentic_Headphones2] mappers[dHeadphones2] mode:destroy itemcount,
+		}
+		outputs
+		{
+			item 1 Base.ElectronicsScrap,
+			item 1 mapper:dHeadphones2,
+		}
+		itemMapper dHeadphones2
+		{
+			Base.Amplifier = AuthenticZClothing.Authentic_Headphones2,
+		}
+       AnimNode:Disassemble,		
+	}
+
+	craftRecipe Dismantle Ghostbuster Trap
+	{
+        timedAction = DismantleElectrical,
+		Time = 60,
+		OnCreate = Recipe.OnCreate.DismantleMiscElectronics,
+		OnTest = Recipe.OnTest.DismantleElectronics,		
+		Tags = InHandCraft;Electrical,
+        category = Electrical,
+		xpAward = Electricity:2,
+		inputs
+		{
+			item 1 tags[Screwdriver] mode:keep flags[MayDegradeLight;NoBrokenItems],
+			item 1 [AuthenticZClothing.AuthenticGhostbusterTrap] mappers[dGtrap] mode:destroy itemcount,
+		}
+		outputs
+		{
+			item 1 Base.ElectronicsScrap,
+			item 1 mapper:dGtrap,
+		}
+		itemMapper dGtrap
+		{
+			Base.ElectricWire = AuthenticZClothing.AuthenticGhostbusterTrap,
+		}
+       AnimNode:Disassemble,	
+	}
+
+	craftRecipe Dismantle Broadcast Video Camera
+	{
+        timedAction = DismantleElectrical,
+		Time = 60,
+		OnCreate = Recipe.OnCreate.DismantleMiscElectronics,
+		OnTest = Recipe.OnTest.DismantleElectronics,		
+		Tags = InHandCraft;Electrical,
+        category = Electrical,
+		xpAward = Electricity:2,
+		inputs
+		{
+			item 1 tags[Screwdriver] mode:keep flags[MayDegradeLight;NoBrokenItems],
+			item 1 [AuthenticZClothing.BroadcastCamera] mappers[dBVCamera] mode:destroy itemcount,
+		}
+		outputs
+		{
+			item 1 Base.ElectronicsScrap,
+			item 1 mapper:dBVCamera,
+		}
+		itemMapper dBVCamera
+		{
+			Base.ElectricWire = AuthenticZClothing.BroadcastCamera,
+		}
+       AnimNode:Disassemble,	
+	}
+	
+    craftRecipe Install Light Mechanism
+    {
+		timedAction = MakingElectrical,
+		Time:150,
+		category = Electrical,
+		Tags = AnySurfaceCraft;Electrical,
+		xpAward = Electricity:2,
+		inputs
+		{
+			item 1 [Base.Hat_HardHat_Miner],
+			item 1 [Base.ElectronicsScrap],
+			item 1 tags[Screwdriver] mode:keep flags[MayDegradeLight;Prop1],
+		}
+		outputs
+		{
+			item 1 AuthenticZClothing.Hat_HardHat_Miner2,
+		}
+    }
+
+	craftRecipe InsertBattery
+	{
+        timedAction = MakingElectrical,
+		Time = 30,
+		OnCreate = Recipe.OnCreate.TorchBatteryInsert,
+		Tags = InHandCraft;CanBeDoneInDark,
+        category = Electrical,
+		inputs
+		{
+			item 1 [AuthenticZClothing.Authentic_MilitaryFlashlightGrey;AuthenticZClothing.Authentic_MilitaryFlashlightGreen;AuthenticZClothing.Torch2;AuthenticZClothing.HandTorch2;AuthenticZClothing.Authentic_MinerLightbulb] mappers[torchTypeAZ] flags[IsEmpty] mode:destroy itemcount,
+			item 1 [Base.Battery] mode:destroy itemcount,
+		}
+		outputs
+		{
+			item 1 mapper:torchTypeAZ,
+		}
+		itemMapper torchTypeAZ
+		{
+			AuthenticZClothing.Authentic_MilitaryFlashlightGrey = AuthenticZClothing.Authentic_MilitaryFlashlightGrey,
+			AuthenticZClothing.Authentic_MilitaryFlashlightGreen = AuthenticZClothing.Authentic_MilitaryFlashlightGreen,
+			AuthenticZClothing.Torch2 = AuthenticZClothing.Torch2,
+			AuthenticZClothing.HandTorch2 = AuthenticZClothing.HandTorch2,
+			AuthenticZClothing.Authentic_MinerLightbulb = AuthenticZClothing.Authentic_MinerLightbulb,
+		}
+	}
+ 
+	craftRecipe RemoveBattery
+   {
+     timedAction = DismantleElectrical,   
+     Time:30,	 
+	 AllowBatchCraft = False,
+	 OnCreate = Recipe.OnCreate.TorchBatteryRemoval,
+	 Tags = InHandCraft;CanBeDoneInDark,
+     category = Electrical,	
+		inputs
+		{
+			item 1 [AuthenticZClothing.Authentic_MinerLightbulb;AuthenticZClothing.HandTorch2;AuthenticZClothing.Torch2;AuthenticZClothing.Authentic_MilitaryFlashlightGreen;AuthenticZClothing.Authentic_MilitaryFlashlightGrey] mode:keep flags[NotEmpty] itemcount,
+		}
+		outputs
+		{
+			item 1 Base.Battery,
+		}
+   }
+
+	/* External Mod - recipe */
+/* 
+	craftRecipe Convert into Wearable
+  	{
+		timedAction = Making,	
+		NeedToBeLearn = False,
+		Tags = InHandCraft,
+        category = Survival,
+	    Time:2,
+		inputs
+		{
+			item 1 [BobiAdds.CigarettesOne],
+		}
+		outputs
+		{
+			item 1 AuthenticZClothing.Cigarette,			
+		}	   
+  	}
+*/	
+}		

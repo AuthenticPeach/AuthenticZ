@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media\models_X\Skinned\Clothes\DuelCap_Back.FBX</m_MaleModel>
+	<m_FemaleModel>media\models_X\Skinned\Clothes\DuelCap_Back.FBX</m_FemaleModel>
+	<m_GUID>fd8efb68-986f-42be-b964-6223c1c96489</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_HatCategory>Group01</m_HatCategory>		
+	<m_MasksFolder>media/textures/Clothes/Hat/Masks</m_MasksFolder>
+	<textureChoices>clothes\Hats\DuelHatRed</textureChoices>
+	<textureChoices>clothes\Hats\DuelHatBlue</textureChoices>
+	<textureChoices>clothes\Hats\DuelHatGrey</textureChoices>
+</clothingItem>

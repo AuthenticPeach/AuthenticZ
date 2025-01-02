@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel></m_FemaleModel>
+	<m_GUID>812cf7d6-52df-435d-93a0-48893ebded28</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_BaseTextures>clothes\TankTops\Tanktop_Sport_Blue</m_BaseTextures>
+	<m_BaseTextures>clothes\TankTops\Tanktop_Sport_BluePurple</m_BaseTextures>
+	<m_BaseTextures>clothes\TankTops\Tanktop_Sport_Gold</m_BaseTextures>
+	<m_BaseTextures>clothes\TankTops\Tanktop_Sport_Green</m_BaseTextures>
+	<m_BaseTextures>clothes\TankTops\Tanktop_Sport_Grey</m_BaseTextures>
+	<m_BaseTextures>clothes\TankTops\Tanktop_Sport_Neon</m_BaseTextures>
+	<m_BaseTextures>clothes\TankTops\Tanktop_Sport_PinkBlackBlue</m_BaseTextures>
+	<m_BaseTextures>clothes\TankTops\Tanktop_Sport_Popcicle</m_BaseTextures>
+	<m_BaseTextures>clothes\TankTops\Tanktop_Sport_Purple</m_BaseTextures>
+	<m_BaseTextures>clothes\TankTops\Tanktop_Sport_Red</m_BaseTextures>
+	<m_BaseTextures>clothes\TankTops\Tanktop_Sport_SkyBlue</m_BaseTextures>
+	<m_BaseTextures>clothes\TankTops\Tanktop_Sport_Sunset</m_BaseTextures>
+	<m_BaseTextures>clothes\TankTops\Tanktop_Sport_Watermelon</m_BaseTextures>
+	<m_BaseTextures>clothes\TankTops\Tanktop_Sport_White</m_BaseTextures>
+	<m_BaseTextures>clothes\TankTops\Tanktop_Sport_Yellow</m_BaseTextures>
+</clothingItem>

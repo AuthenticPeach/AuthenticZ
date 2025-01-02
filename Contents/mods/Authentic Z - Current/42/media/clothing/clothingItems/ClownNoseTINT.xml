@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\clothes\PZClownNose</m_MaleModel>
+	<m_FemaleModel>skinned\clothes\PZClownNose_F</m_FemaleModel>
+	<m_GUID>062324f6-6c13-4c0c-a405-bbcb10827d51</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>true</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>F_Hair_White</textureChoices>
+</clothingItem>

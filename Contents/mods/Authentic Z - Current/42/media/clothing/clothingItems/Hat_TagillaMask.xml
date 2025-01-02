@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\Clothes\TagillaHelmet</m_MaleModel>
+	<m_FemaleModel>skinned\Clothes\TagillaHelmet_F</m_FemaleModel>
+	<m_GUID>97a3fa4b-d725-4f28-9ed1-65705a5a6864</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_MasksFolder>media/textures/Clothes/Hat/Masks</m_MasksFolder>	
+	<textureChoices>clothes\Hats\TagillaWeldingMask</textureChoices>
+</clothingItem>

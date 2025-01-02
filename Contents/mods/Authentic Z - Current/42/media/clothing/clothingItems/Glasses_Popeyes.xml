@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\Clothes\PopEyesAZ_M</m_MaleModel>
+	<m_FemaleModel>skinned\Clothes\PopEyesAZ_F</m_FemaleModel>
+	<m_GUID>ad26e7f2-eaf2-4de1-9bc8-1ab432ee70e1</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_MasksFolder>none</m_MasksFolder>
+	<textureChoices>clothes\Glasses\PopEyesRed</textureChoices>
+	<textureChoices>clothes\Glasses\PopEyesBlue</textureChoices>
+</clothingItem>

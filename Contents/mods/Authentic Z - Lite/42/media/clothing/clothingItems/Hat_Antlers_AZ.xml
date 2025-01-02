@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\Clothes\Antlers</m_MaleModel>
+	<m_FemaleModel>skinned\Clothes\Antlers_F</m_FemaleModel>
+	<m_GUID>755bd09d-f27f-47c6-9699-7ecd25ed113c</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_MasksFolder>media/textures/Clothes/Hat/Masks</m_MasksFolder>		
+	<textureChoices>clothes\Hats\ReindeerAntlers</textureChoices>
+</clothingItem>

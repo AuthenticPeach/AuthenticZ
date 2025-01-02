@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\Clothes\AuthenticHeadPhones</m_MaleModel>
+	<m_FemaleModel>skinned\Clothes\AuthenticHeadPhones_F</m_FemaleModel>
+	<m_GUID>b1804dde-2155-4c47-9189-f027d0f2f38f</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_MasksFolder>none</m_MasksFolder>
+	<textureChoices>clothes\Items\HeadPhonesBlack</textureChoices>
+	<textureChoices>clothes\Items\HeadPhonesBlackSpecial</textureChoices>
+	<textureChoices>clothes\Items\HeadPhonesBlue</textureChoices>
+	<textureChoices>clothes\Items\HeadPhonesBrightPink</textureChoices>
+	<textureChoices>clothes\Items\HeadPhonesBronze</textureChoices>
+	<textureChoices>clothes\Items\HeadPhonesGreen</textureChoices>
+	<textureChoices>clothes\Items\HeadPhonesLightBlue</textureChoices>
+	<textureChoices>clothes\Items\HeadPhonesLightBlueSpecial</textureChoices>
+	<textureChoices>clothes\Items\HeadPhonesPink</textureChoices>
+	<textureChoices>clothes\Items\HeadPhonesPurple</textureChoices>
+	<textureChoices>clothes\Items\HeadPhonesRose</textureChoices>
+	<textureChoices>clothes\Items\HeadPhonesSeaGreen</textureChoices>	
+	<textureChoices>clothes\Items\HeadPhonesWhite</textureChoices>	
+	<textureChoices>clothes\Items\HeadPhonesWhiteSpecial</textureChoices>	
+</clothingItem>

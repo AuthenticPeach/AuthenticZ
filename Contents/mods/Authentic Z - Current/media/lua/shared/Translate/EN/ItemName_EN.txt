@@ -1252,7 +1252,7 @@ ItemName_EN = {
 	ItemName_AuthenticZClothing.ChainsawOff =  "Chainsaw (Off)",	
 
 	/* New */	
-	ItemName_AuthenticZClothing.Hat_CourtJester =  "Court Jester Hat",	
-	ItemName_AuthenticZClothing.Hat_GraduationCap =  "Graduation Cap",		
+	ItemName_AuthenticZClothing.Hat_Court_Jester =  "Court Jester Hat",	
+	ItemName_AuthenticZClothing.Hat_Graduation_Cap =  "Graduation Cap",		
 	
 }

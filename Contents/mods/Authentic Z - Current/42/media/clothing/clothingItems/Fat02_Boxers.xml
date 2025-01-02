@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\CustomBodies\FatBody02_M\FatBod_M_02_SportShorts</m_MaleModel>
+	<m_FemaleModel>skinned\CustomBodies\FatBody02_F\FatBod_F_02_SportShorts</m_FemaleModel>
+	<m_GUID>58f07cdf-8be3-4b62-bee5-4f22cbae8db7</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>Clothes\Shorts_Textures\Male_Boxers_HeartsLong</textureChoices>	
+</clothingItem>

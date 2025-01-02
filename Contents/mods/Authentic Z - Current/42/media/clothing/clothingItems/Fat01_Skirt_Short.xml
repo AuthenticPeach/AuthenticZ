@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel>skinned\CustomBodies\FatBody01_F\FatBod_F_01_Skirt_Short</m_FemaleModel>
+	<m_GUID>d05dd95a-2360-459a-9297-f13767675b5c</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>true</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>clothes\dress_textures\skirtsmall</textureChoices>
+</clothingItem>

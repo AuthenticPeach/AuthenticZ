@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media\models_X\skinned\Backpacks\BackpackWalker_LHand.FBX</m_MaleModel>
+	<m_FemaleModel>media\models_X\skinned\Backpacks\BackpackWalker_LHand.FBX</m_FemaleModel>
+	<m_GUID>4bb14396-1a45-402c-8956-e88854c8ce39</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>Clothes\Backpacks\BackpackWalker</textureChoices>
+</clothingItem>

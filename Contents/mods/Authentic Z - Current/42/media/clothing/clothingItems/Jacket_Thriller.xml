@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\clothes\ThrillerJacket_M</m_MaleModel>
+	<m_FemaleModel>skinned\clothes\ThrillerJacket_M</m_FemaleModel>
+	<m_GUID>79675b7d-def9-41aa-bf3e-4bd0ed96d2e6</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_Masks>1</m_Masks>
+	<m_Masks>3</m_Masks>
+	<m_Masks>5</m_Masks>
+	<m_UnderlayMasksFolder>media/textures/Clothes/Jacket/Masks</m_UnderlayMasksFolder>
+	<textureChoices>clothes\Jacket\Jacket_Thriller</textureChoices>
+</clothingItem>

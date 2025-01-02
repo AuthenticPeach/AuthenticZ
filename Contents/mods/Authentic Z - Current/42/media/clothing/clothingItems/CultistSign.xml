@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>Skinned\Clothes\CultistSign</m_MaleModel>
+	<m_FemaleModel>Skinned\Clothes\CultistSign_F</m_FemaleModel>
+	<m_GUID>34610269-6ae4-4aa4-be21-7423574f018a</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_MasksFolder>media/textures/Clothes/Hat/Masks</m_MasksFolder>		
+	<textureChoices>clothes\CultistItems\CultistSign\CultistSign</textureChoices>
+</clothingItem>

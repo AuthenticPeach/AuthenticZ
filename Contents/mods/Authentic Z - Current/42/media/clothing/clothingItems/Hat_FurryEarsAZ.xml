@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media\models_X\Skinned\Clothes\M_FurryEars.X</m_MaleModel>
+	<m_FemaleModel>media\models_X\Skinned\Clothes\F_FurryEars.X</m_FemaleModel>
+	<m_GUID>9b7e1d4d-e257-4ff6-bc0c-4897af52a80e</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone>Bip01_Head</m_AttachBone>
+	<m_HatCategory>Group05</m_HatCategory>
+	<m_MasksFolder>media/textures/Clothes/Hat/Masks</m_MasksFolder>
+	<textureChoices>clothes\Hats\TeddyEars_1_Blonde</textureChoices>
+	<textureChoices>clothes\Hats\TeddyEars_2_Tan</textureChoices>
+	<textureChoices>clothes\Hats\TeddyEars_3_Mud</textureChoices>
+	<textureChoices>clothes\Hats\TeddyEars_4_Sand</textureChoices>
+	<textureChoices>clothes\Hats\TeddyEars_5_Beige</textureChoices>
+	<textureChoices>clothes\Hats\TeddyEars_6_Fawn</textureChoices>
+	<textureChoices>clothes\Hats\TeddyEars_7_Dirt</textureChoices>
+	<textureChoices>clothes\Hats\TeddyEars_8_Brown</textureChoices>
+	<textureChoices>clothes\Hats\TeddyEars_9_Burnt</textureChoices>
+	<textureChoices>clothes\Hats\TeddyEars_10_MudBrown</textureChoices>
+	<textureChoices>clothes\Hats\TeddyEars_11_Charcoal</textureChoices>
+	<textureChoices>clothes\Hats\TeddyEars_12_Black</textureChoices>
+	<textureChoices>clothes\Hats\TeddyEars_13_Grey</textureChoices>
+	<textureChoices>clothes\Hats\TeddyEars_14_Olive</textureChoices>
+	<textureChoices>clothes\Hats\TeddyEars_15_Slate</textureChoices>
+	<textureChoices>clothes\Hats\TeddyEars_16_Silver</textureChoices>
+	<textureChoices>clothes\Hats\TeddyEars_17_Beach</textureChoices>
+	<textureChoices>clothes\Hats\TeddyEars_18_Mahogany</textureChoices>
+	<textureChoices>clothes\Hats\TeddyEars_19_Ruby</textureChoices>
+	<textureChoices>clothes\Hats\TeddyEars_20_Bronze</textureChoices>
+
+</clothingItem>

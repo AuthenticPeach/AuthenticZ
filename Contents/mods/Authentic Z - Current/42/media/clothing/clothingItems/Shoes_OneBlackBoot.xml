@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel></m_FemaleModel>
+	<m_GUID>1820220d-eb85-47e2-b075-8baeef23fdf2</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_Masks>9</m_Masks>
+	<m_Masks>10</m_Masks>	
+	<m_BaseTextures>clothes\shoes_socks_textres\LeftBootOnly</m_BaseTextures>
+</clothingItem>

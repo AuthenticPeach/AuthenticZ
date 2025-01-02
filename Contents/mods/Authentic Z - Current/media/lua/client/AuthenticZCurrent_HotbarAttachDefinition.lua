@@ -11,6 +11,8 @@ local MinerLightBulb = {
 	animset = "back", -- Animation name 
 	attachments = {
 		MinerLight = "MinerLight", -- defined in AttachedLocations.lua
+		Webbing = "MinerLight", -- defined in AttachedLocations.lua
+		MilitaryFlashlight = "MinerLight", -- defined in AttachedLocations.lua
 --		MilitaryFlashlight = "MinerLight", -- defined in AttachedLocations.lua
 --		Flashlight = "MinerLight", -- defined in AttachedLocations.lua
 	},
@@ -138,6 +140,7 @@ local SchoolbagFlashlight = {
 	animset = "back",
 	attachments = { -- list of possible item category and their modelAttachement group, the item category is defined in the item script		
 		MilitaryFlashlight = "Schoolbag Military Flashlight",
+		Webbing = "Schoolbag Military Flashlight",
 		Flashlight = "Schoolbag Flashlight",
 		FlashlightBig = "Schoolbag Flashlight Big",	
 
@@ -342,6 +345,7 @@ local DufflebagFlashlight = {
 	animset = "back",
 	attachments = { -- list of possible item category and their modelAttachement group, the item category is defined in the item script		
 		MilitaryFlashlight = "Dufflebag Military Flashlight",
+		Webbing = "Dufflebag Military Flashlight",
 		Flashlight = "Dufflebag Flashlight",
 		FlashlightBig = "Dufflebag Flashlight Big",
 		
@@ -523,6 +527,7 @@ local HikingBagFlashlight = {
 	animset = "back",
 	attachments = { -- list of possible item category and their modelAttachement group, the item category is defined in the item script		
 		MilitaryFlashlight = "HikingBag Military Flashlight",
+		Webbing = "HikingBag Military Flashlight",
 		Flashlight = "HikingBag Flashlight",
 		FlashlightBig = "HikingBag Flashlight Big",	
 
@@ -715,6 +720,7 @@ local BigHikingbagFlashlight = {
 	animset = "back",
 	attachments = { -- list of possible item category and their modelAttachement group, the item category is defined in the item script		
 		MilitaryFlashlight = "BigHikingBag Military Flashlight",
+		Webbing = "BigHikingBag Military Flashlight",
 		Flashlight = "BigHikingBag Flashlight",
 		FlashlightBig = "BigHikingBag Flashlight Big",
 
@@ -946,6 +952,7 @@ local AlicepackFlashlight = {
 	animset = "back",
 	attachments = { -- list of possible item category and their modelAttachement group, the item category is defined in the item script		
 		MilitaryFlashlight = "Alicepack Military Flashlight",
+		Webbing = "Alicepack Military Flashlight",
 		Flashlight = "Alicepack Flashlight",
 		FlashlightBig = "Alicepack Flashlight Big",	
 
@@ -1166,8 +1173,10 @@ local ARVNFlashlight = {
 	animset = "back",
 	attachments = { -- list of possible item category and their modelAttachement group, the item category is defined in the item script		
 		MilitaryFlashlight = "Alicepack Military Flashlight",
+		Webbing = "Alicepack Military Flashlight",
 		Flashlight = "Alicepack Flashlight",
-		FlashlightBig = "Alicepack Flashlight Big",				
+		FlashlightBig = "Alicepack Flashlight Big",
+		
 
 		Torch = "Alicepack Flashlight Big",			
 		Torchb = "Alicepack Military Flashlight",		

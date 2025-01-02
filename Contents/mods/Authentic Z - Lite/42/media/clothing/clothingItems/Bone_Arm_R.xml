@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media\models_X\Skinned\Clothes\M_RightArmBone.FBX</m_MaleModel>
+	<m_FemaleModel>media\models_X\Skinned\Clothes\M_RightArmBone.FBX</m_FemaleModel>
+	<m_GUID>5eab0171-d6d2-422e-b69a-3387f219652f</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_Masks>5</m_Masks>	
+	<m_Masks>6</m_Masks>
+	<textureChoices>Body\SkeletonMuscle</textureChoices>
+</clothingItem>

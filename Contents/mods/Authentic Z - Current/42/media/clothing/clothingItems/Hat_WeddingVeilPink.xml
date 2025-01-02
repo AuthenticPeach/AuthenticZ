@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\clothes\m_weddingveil</m_MaleModel>
+	<m_FemaleModel>skinned\clothes\f_weddingveil</m_FemaleModel>
+	<m_GUID>358ec97d-4d24-47c3-ab3b-87fc799329f9</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_HatCategory>Group02</m_HatCategory>
+	<m_MasksFolder>media/textures/Clothes/Hat/Masks</m_MasksFolder>
+	<textureChoices>clothes\Hats\WeddingVeilPink</textureChoices>
+</clothingItem>

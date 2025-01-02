@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem> <!-- Bag done by Brita -->
+	<m_MaleModel>skinned\backpacks\m_ARVN_Rucksack</m_MaleModel>
+	<m_FemaleModel>skinned\backpacks\f_ARVN_Rucksack</m_FemaleModel>
+	<m_GUID>679073c2-ba1d-4575-8b19-a92ad12daebb</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>clothes\Bag\Bag_ARVN_Rucksack</textureChoices>
+</clothingItem>

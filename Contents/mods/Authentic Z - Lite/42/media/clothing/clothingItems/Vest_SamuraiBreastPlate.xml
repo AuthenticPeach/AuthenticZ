@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\clothes\AZ_SamuraiBreastPlate</m_MaleModel>
+	<m_FemaleModel>skinned\clothes\AZ_SamuraiBreastPlate_F</m_FemaleModel>
+	<m_GUID>ecfd6e3a-1532-4fab-b1c0-be821830f49b</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>clothes\Dress_Textures\SamuraiBreastPlate</textureChoices>
+</clothingItem>

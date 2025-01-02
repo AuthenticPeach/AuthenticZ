@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem> <!-- File name is Jacket_Mom.xml -->
+	<m_MaleModel>skinned\clothes\bob_jacket</m_MaleModel> <!-- The 3d models with animations -->
+	<m_FemaleModel>skinned\clothes\kate_jacket</m_FemaleModel> <!-- The 3d models with animations -->
+	<m_GUID>89fc4855-c4c9-4661-a784-ab0ec6b10d81</m_GUID> <!-- A unique GUID for the clothingitem. See Step 3. -->
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue> <!-- No Hue -->
+	<m_AllowRandomTint>false</m_AllowRandomTint> <!-- No Tint  -->
+	<m_AttachBone></m_AttachBone> <!-- This is a Skinned model, we don't need to attach it again -->
+	<m_Masks>12</m_Masks> <!-- Uses these masks -->
+	<m_Masks>13</m_Masks>
+	<m_Masks>14</m_Masks>
+	<m_Masks>3</m_Masks>
+	<m_Masks>5</m_Masks>
+	<m_UnderlayMasksFolder>media/textures/Clothes/Jacket/Masks</m_UnderlayMasksFolder>
+	<textureChoices>clothes\Jacket\Jacket_MomGreen</textureChoices> <!-- The texture that the model uses -->
+</clothingItem>

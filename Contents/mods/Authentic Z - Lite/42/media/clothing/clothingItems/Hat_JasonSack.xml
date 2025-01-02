@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media\models_X\Skinned\Clothes\JasonIISack.FBX</m_MaleModel>
+	<m_FemaleModel>media\models_X\Skinned\Clothes\JasonIISack.FBX</m_FemaleModel>
+	<m_GUID>5a1eeb45-5957-49eb-9d04-da2e1523c1ce</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_HatCategory>nohair</m_HatCategory>
+	<m_MasksFolder>media/textures/Clothes/Hat/Masks</m_MasksFolder>	
+	<textureChoices>clothes\Masks\JasonFridayIISack</textureChoices>
+</clothingItem>

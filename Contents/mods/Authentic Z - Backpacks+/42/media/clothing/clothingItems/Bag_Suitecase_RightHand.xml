@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>Skinned\BackPacks\Suitecase_RHand</m_MaleModel>
+	<m_FemaleModel>Skinned\BackPacks\Suitecase_RHand</m_FemaleModel>
+	<m_GUID>7a2db817-dc9e-43d0-8928-71b3674c9714</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>clothes\bag\suitcase</textureChoices>
+</clothingItem>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media\models_X\Skinned\Clothes\M_Necklace_Crucifix.X</m_MaleModel>
+	<m_FemaleModel>media\models_X\Skinned\Clothes\F_Necklace_Crucifix.X</m_FemaleModel>
+	<m_GUID>b597b72a-7c78-485f-8c67-9f503844eced</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>Clothes/Jewelry/Necklace_GoldCrucifix</textureChoices>
+</clothingItem>

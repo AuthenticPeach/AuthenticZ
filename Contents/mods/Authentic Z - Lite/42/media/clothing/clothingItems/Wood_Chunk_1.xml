@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\clothes\WoodChunk1</m_MaleModel>
+	<m_FemaleModel>skinned\clothes\WoodChunk1</m_FemaleModel>
+	<m_GUID>2602aab3-17ff-4c9f-8ac9-c4953a7b9e8e</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_MasksFolder>none</m_MasksFolder>
+	<textureChoices>clothes\Items\Wood</textureChoices>
+</clothingItem>

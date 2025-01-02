@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>static\clothes\m_crashhelmetfull</m_MaleModel>
+	<m_FemaleModel>static\clothes\f_crashhelmetfull</m_FemaleModel>
+	<m_GUID>3393f7fc-7caa-4628-9cdc-1fc899856294</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>true</m_AllowRandomTint>
+	<m_AttachBone>Bip01_Head</m_AttachBone>
+	<m_HatCategory>nohairnobeard</m_HatCategory>
+	<m_MasksFolder>media/textures/Clothes/Hat/Masks</m_MasksFolder>
+	<textureChoices>clothes\Hats\CrashHelmetFULLWhite2</textureChoices>
+	<textureChoices>clothes\Hats\CrashHelmetFULLWhite</textureChoices>	
+	<textureChoices>clothes\Hats\CrashHelmetFULLTINTLined</textureChoices>
+	<textureChoices>clothes\Hats\CrashHelmetFULLTINTLine</textureChoices>
+	<textureChoices>clothes\Hats\CrashHelmetFULLTINT2</textureChoices>
+	<textureChoices>clothes\Hats\CrashHelmetFULLTINT</textureChoices>	
+</clothingItem>

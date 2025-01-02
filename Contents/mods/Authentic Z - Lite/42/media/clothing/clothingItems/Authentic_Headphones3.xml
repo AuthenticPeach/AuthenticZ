@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\Clothes\AuthenticHeadPhonesCat</m_MaleModel>
+	<m_FemaleModel>skinned\Clothes\AuthenticHeadPhonesCat</m_FemaleModel>
+	<m_GUID>b1804dde-2155-4c47-9189-f027d0f2f38f</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_MasksFolder>none</m_MasksFolder>
+	<textureChoices>clothes\Items\HeadPhonesBlackSpecialCat</textureChoices>
+	<textureChoices>clothes\Items\HeadPhonesBlackSpecialCat2</textureChoices>
+</clothingItem>

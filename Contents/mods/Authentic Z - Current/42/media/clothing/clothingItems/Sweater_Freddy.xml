@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\clothes\bob_jumper</m_MaleModel>
+	<m_FemaleModel>skinned\clothes\kate_jumper</m_FemaleModel>
+	<m_GUID>60a67aab-f92c-44a9-b1c6-fa890dd72604</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_Masks>3</m_Masks>
+	<m_Masks>5</m_Masks>
+	<textureChoices>clothes\Shirt_Tshirt_Textures\LongSleeve_Freddy</textureChoices>
+</clothingItem>

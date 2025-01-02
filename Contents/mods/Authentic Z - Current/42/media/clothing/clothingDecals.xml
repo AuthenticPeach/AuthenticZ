@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingDecals> 
+	<group> <!-- Such Hardcore, much WOW -->
+		<name>Splatter</name>
+		<decal>Splatter1</decal>
+		<decal>Splatter2</decal>
+		<decal>Splatter3</decal>
+		<decal>Splatter4</decal>
+		<decal>Splatter5</decal>
+		<decal>Splatter6</decal>
+	</group>
+	<group> <!-- Such Hardcore, much WOW -->
+		<name>TShirtRock2</name>
+		<decal>TshirtHardcore</decal>
+	</group>
+	<group> <!-- New Spiffo Designs -->
+		<name>TShirtSpiffoNEW</name>
+		<decal>TShirtLootSpiffo</decal>
+		<decal>TShirtLootSpiffoBig</decal>		
+		<decal>TShirtEatSpiffo</decal>	
+		<decal>TShirtSniperSpiffo</decal>			
+		<decal>TShirtSpiffoAI</decal>			
+	</group>
+	<group>
+		<name>TShirtIcons</name>
+		<decal>TShirtFlux</decal>
+		<decal>TShirtAether</decal>
+		<decal>TShirtAidonomic</decal>		
+		<decal>TShirtDjackz</decal>
+		<decal>TShirtSugarShack</decal>
+		<decal>TShirtSugarShack2</decal>
+		<decal>TShirtFalafel</decal>
+		<decal>TShirtXzystance</decal>
+		<decal>TShirtCardinalBlue</decal>
+		<decal>TShirtDoritoMafia</decal>
+	</group>
+	<group>
+		<name>TShirtNumbersWhite</name>
+		<decal>1White</decal>
+		<decal>2White</decal>
+		<decal>3White</decal>
+		<decal>4White</decal>
+		<decal>5White</decal>
+		<decal>6White</decal>
+		<decal>7White</decal>
+		<decal>8White</decal>
+		<decal>9White</decal>
+		<decal>0White</decal>			
+	</group>
+	<group>
+		<name>TShirtNumbersWhiteGold</name>
+		<decal>1WhiteGold</decal>
+		<decal>2WhiteGold</decal>
+		<decal>3WhiteGold</decal>
+		<decal>4WhiteGold</decal>
+		<decal>5WhiteGold</decal>
+		<decal>6WhiteGold</decal>
+		<decal>7WhiteGold</decal>
+		<decal>8WhiteGold</decal>
+		<decal>9WhiteGold</decal>
+		<decal>0WhiteGold</decal>			
+	</group>
+	<group>
+		<name>TShirtNumbersWhiteRed</name>
+		<decal>1WhiteRed</decal>
+		<decal>2WhiteRed</decal>
+		<decal>3WhiteRed</decal>
+		<decal>4WhiteRed</decal>
+		<decal>5WhiteRed</decal>
+		<decal>6WhiteRed</decal>
+		<decal>7WhiteRed</decal>
+		<decal>8WhiteRed</decal>
+		<decal>9WhiteRed</decal>
+		<decal>0WhiteRed</decal>			
+	</group>	
+</clothingDecals>
+<!-- 
+         ▄              ▄    
+        ▌▒█           ▄▀▒▌   
+        ▌▒▒█        ▄▀▒▒▒▐   
+       ▐▄█▒▒▀▀▀▀▄▄▄▀▒▒▒▒▒▐   
+     ▄▄▀▒▒▒▒▒▒▒▒▒▒▒█▒▒▄█▒▐   
+   ▄▀▒▒▒░░░▒▒▒░░░▒▒▒▀██▀▒▌   
+  ▐▒▒▒▄▄▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▀▄▒▌  
+  ▌░░▌█▀▒▒▒▒▒▄▀█▄▒▒▒▒▒▒▒█▒▐  
+ ▐░░░▒▒▒▒▒▒▒▒▌██▀▒▒░░░▒▒▒▀▄▌ 
+ ▌░▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░░░░░▒▒▒▒▌ 
+▌▒▒▒▄██▄▒▒▒▒▒▒▒▒░░░░░░░░▒▒▒▐ 
+▐▒▒▐▄█▄█▌▒▒▒▒▒▒▒▒▒▒░▒░▒░▒▒▒▒▌
+▐▒▒▐▀▐▀▒▒▒▒▒▒▒▒▒▒▒▒▒░▒░▒░▒▒▐ 
+ ▌▒▒▀▄▄▄▄▄▄▒▒▒▒▒▒▒▒░▒░▒░▒▒▒▌ 
+ ▐▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░▒░▒▒▄▒▒▐  
+  ▀▄▒▒▒▒▒▒▒▒▒▒▒▒▒░▒░▒▄▒▒▒▒▌  
+    ▀▄▒▒▒▒▒▒▒▒▒▒▄▄▄▀▒▒▒▒▄▀   
+      ▀▄▄▄▄▄▄▀▀▀▒▒▒▒▒▄▄▀     
+         ▀▀▀▀▀▀▀▀▀▀▀▀        
+-->		 

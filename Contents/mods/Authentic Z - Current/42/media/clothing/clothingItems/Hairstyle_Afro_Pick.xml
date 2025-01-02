@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\Clothes\Bob_AfroPick</m_MaleModel>
+	<m_FemaleModel>skinned\Clothes\Bob_AfroPick</m_FemaleModel>
+	<m_GUID>807e7c68-c717-4c46-a7e4-9ecc95b6d5ce</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_MasksFolder>media/textures/Clothes/Hat/Masks</m_MasksFolder>		
+	<textureChoices>clothes\Items\HairPickBlack</textureChoices>
+	<textureChoices>clothes\Items\HairPickBlue</textureChoices>
+	<textureChoices>clothes\Items\HairPickBlueDiamonds</textureChoices>
+	<textureChoices>clothes\Items\HairPickGreen</textureChoices>	
+	<textureChoices>clothes\Items\HairPickNeon</textureChoices>
+	<textureChoices>clothes\Items\HairPickPink</textureChoices>
+	<textureChoices>clothes\Items\HairPickPinkHearts</textureChoices>
+	<textureChoices>clothes\Items\HairPickRed</textureChoices>
+	<textureChoices>clothes\Items\HairPickWhite</textureChoices>
+</clothingItem>

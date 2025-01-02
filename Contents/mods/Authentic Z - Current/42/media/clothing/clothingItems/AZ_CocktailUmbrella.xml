@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\Clothes\AZ_CocktailUmbrella</m_MaleModel>
+	<m_FemaleModel>skinned\Clothes\AZ_CocktailUmbrella</m_FemaleModel>
+	<m_GUID>10d34a20-6c3d-49b3-83fc-a8f1d848385a</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_MasksFolder>none</m_MasksFolder>
+	<textureChoices>WorldItems\CocktailUmbrella1</textureChoices>
+	<textureChoices>WorldItems\CocktailUmbrella2</textureChoices>
+	<textureChoices>WorldItems\CocktailUmbrella3</textureChoices>
+</clothingItem>

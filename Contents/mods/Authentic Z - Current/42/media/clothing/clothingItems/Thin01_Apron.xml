@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\CustomBodies\SkinnyBody_M\SkinnyBody01_M_Apron</m_MaleModel>
+	<m_FemaleModel>skinned\CustomBodies\SkinnyBody_M\SkinnyBody01_M_Apron</m_FemaleModel>
+	<m_GUID>36b78a9f-9522-4d91-94dd-06ed96f161a3</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>clothes\apron\Apron_Black</textureChoices>
+	<textureChoices>clothes\apron\Apron_Black</textureChoices>
+	<textureChoices>clothes\apron\Apron_Black</textureChoices>
+	<textureChoices>clothes\apron\Apron_White</textureChoices>
+	<textureChoices>clothes\apron\Apron_White</textureChoices>
+	<textureChoices>clothes\apron\Apron_White</textureChoices>
+	<textureChoices>clothes\apron\Apron_JaysChicken</textureChoices>
+	<textureChoices>clothes\apron\Apron_PileOCrepe</textureChoices>
+	<textureChoices>clothes\apron\Apron_Yellow</textureChoices>
+	<textureChoices>clothes\apron\Apron_YellowOrange</textureChoices>	
+</clothingItem>

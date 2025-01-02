@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media\models_X\Static\Clothes\MaidHat.x</m_MaleModel>
+	<m_FemaleModel>media\models_X\Static\Clothes\MaidHat.x</m_FemaleModel>
+	<m_GUID>3ada6895-5492-491b-9312-fbdbe4b16c36</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone>Bip01_Head</m_AttachBone>
+	<m_MasksFolder>media/textures/Clothes/Hat/Masks</m_MasksFolder>
+	<textureChoices>clothes\Hats\Maidhat</textureChoices>
+</clothingItem>

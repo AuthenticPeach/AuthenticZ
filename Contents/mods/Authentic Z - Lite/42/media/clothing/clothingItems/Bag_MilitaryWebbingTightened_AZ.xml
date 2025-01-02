@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media\models_X\Skinned\Backpacks\M_MilitaryWebbingTightenedAZ.FBX</m_MaleModel>
+	<m_FemaleModel>media\models_X\Skinned\Backpacks\F_MilitaryWebbingTightenedAZ.FBX</m_FemaleModel>
+	<m_GUID>e852baca-1988-44d8-aa90-cc8f7200ebf4</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>Clothes\Backpacks\MilitaryWebbingForestAZ</textureChoices>
+	<textureChoices>Clothes\Backpacks\MilitaryWebbingUrbanBlackAZ</textureChoices>
+</clothingItem>

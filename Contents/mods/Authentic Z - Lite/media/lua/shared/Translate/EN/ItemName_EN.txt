@@ -1087,6 +1087,6 @@ ItemName_EN = {
 	ItemName_AuthenticZLite.ChainsawOff =  "Chainsaw (Off)",	
 	
 	/* New */		
-	ItemName_AuthenticZClothing.Hat_CourtJester =  "Court Jester Hat",	
-	ItemName_AuthenticZClothing.Hat_GraduationCap =  "Graduation Cap",	
+	ItemName_AuthenticZLite.Hat_Court_Jester =  "Court Jester Hat",	
+	ItemName_AuthenticZLite.Hat_Graduation_Cap =  "Graduation Cap",	
 }

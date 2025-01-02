@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\Hair\Kate_Hair_Rachel</m_MaleModel>
+	<m_FemaleModel>skinned\Hair\Kate_Hair_Rachel</m_FemaleModel>
+	<m_GUID>ae7493fd-8114-4493-819e-21f085429ab9</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_HatCategory>nohair</m_HatCategory>	
+	<m_AttachBone></m_AttachBone>
+	<m_MasksFolder>media/textures/Clothes/Hat/Masks</m_MasksFolder>
+	<textureChoices>Clothes\Hairstyles\F_Hair_Midnight_Highlight_RachelGrungey1</textureChoices>
+	<textureChoices>Clothes\Hairstyles\F_Hair_Midnight_Highlight_RachelGrungey2</textureChoices>
+	<textureChoices>Clothes\Hairstyles\F_Hair_Midnight_Highlight_RachelGrungey3</textureChoices>
+</clothingItem>

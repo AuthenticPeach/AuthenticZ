@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel>skinned\CustomBodies\FatBody03_F\FatBod_F_03_Dress_Long_Straps</m_FemaleModel>
+	<m_GUID>ca4545bf-709f-4c38-afd8-7948510344e6</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>true</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_Masks>2</m_Masks>
+	<m_Masks>7</m_Masks>
+	<m_Masks>9</m_Masks>
+	<textureChoices>clothes\dress_textures\dress_long_straps</textureChoices>
+</clothingItem>

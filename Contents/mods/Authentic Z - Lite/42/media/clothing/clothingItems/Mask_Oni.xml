@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media\models_X\Skinned\Clothes\AZ_Samurai_OniMask.FBX</m_MaleModel>
+	<m_FemaleModel>media\models_X\Skinned\Clothes\AZ_Samurai_OniMask_F.FBX</m_FemaleModel>
+	<m_GUID>cc7271d0-fe26-443c-ae9f-1cc260e561b9</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_MasksFolder>media/textures/Clothes/Hat/Masks</m_MasksFolder>
+	<textureChoices>clothes\Masks\SamuraiOni_Silver</textureChoices>
+	<textureChoices>clothes\Masks\SamuraiOni_Bronze</textureChoices>
+	<textureChoices>clothes\Masks\SamuraiOni_Green</textureChoices>
+	<textureChoices>clothes\Masks\SamuraiOni_Red</textureChoices>
+	<textureChoices>clothes\Masks\SamuraiOni_Blue</textureChoices>
+	<textureChoices>clothes\Masks\SamuraiOni_Black</textureChoices>
+</clothingItem>

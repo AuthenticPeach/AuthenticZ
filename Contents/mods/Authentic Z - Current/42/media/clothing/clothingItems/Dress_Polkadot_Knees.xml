@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel></m_FemaleModel>
+	<m_GUID>fd7d65c5-125c-43f0-82d6-18719a239979</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AllowRandomHue>true</m_AllowRandomHue>	
+	<m_AttachBone></m_AttachBone>
+	<m_BaseTextures>clothes\dress_textures\Dress_PolkaDot_KneesShort</m_BaseTextures>
+	<m_BaseTextures>clothes\dress_textures\Dress_PolkaDotBlue_Knees</m_BaseTextures>
+</clothingItem>

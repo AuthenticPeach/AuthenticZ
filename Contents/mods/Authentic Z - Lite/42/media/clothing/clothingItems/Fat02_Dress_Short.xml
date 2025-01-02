@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel>skinned\CustomBodies\FatBody02_F\FatBod_F_02_Dress_Short</m_FemaleModel>
+	<m_GUID>ec2347f2-887d-4414-9026-cb7d115ec932</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>true</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_Masks>2</m_Masks>	
+	<textureChoices>clothes\dress_textures\dresssmall</textureChoices>
+</clothingItem>
