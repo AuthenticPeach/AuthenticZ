@@ -618,7 +618,6 @@ module AuthenticZLite {
         RunSpeedModifier = 0.90,
         Insulation = 0.3,
         WindResistance = 0.2,
-		Tags = RipClothingCotton,
 		WorldStaticModel = WorldItem-RoundGownPoncho,
     }
     item Dress_BallroomDress_CasualApron
@@ -634,7 +633,6 @@ module AuthenticZLite {
         RunSpeedModifier = 0.90,
         Insulation = 0.3,
         WindResistance = 0.2,
-		Tags = RipClothingCotton,
 		WorldStaticModel = WorldItem-RoundGownPoncho,
     }	
     item Dress_BallroomDress_Cute

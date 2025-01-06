@@ -6130,6 +6130,10 @@
 		<guid>087cbdc5-e530-4285-b763-5f0cae165316</guid>
 	</files>
 	<files>
+		<path>media/clothing/clothingItems/Shorts_LongSportLightBlue.xml</path>
+		<guid>0e9f274b-55ef-4c92-b5f7-e30353f4943c</guid>
+	</files>	
+	<files>
 		<path>media/clothing/clothingItems/Shorts_LongSportNeon.xml</path>
 		<guid>ff148974-13b5-464f-bc25-d08bdc3b5df5</guid>
 	</files>	
@@ -6628,6 +6632,10 @@
 	<files>
 		<path>media/clothing/clothingItems/Tshirt_LoganCarter.xml</path>
 		<guid>5b8e3890-777f-45cd-a74b-a4283e23d18d5</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Tshirt_LogoTest.xml</path>
+		<guid>d04a170d-9fcc-479d-968e-a88ad928015d</guid>
 	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Tshirt_PostalDude.xml</path>

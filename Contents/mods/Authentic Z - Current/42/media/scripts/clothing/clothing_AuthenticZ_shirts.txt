@@ -207,7 +207,7 @@
         WindResistance = 0.05,
         FabricType = Cotton,
 		Tags = RipClothingCotton,		
-		WorldStaticModel = Tshirt_Ground,		
+		WorldStaticModel = TShirt_Ground,		
 	}
 	item Shirt_FormalBlue_ShortSleeve
 	{
@@ -441,7 +441,7 @@
         DisplayName = Fast Food T-Shirt,
         ClothingItem = Tshirt_CheeseRoyale,
         BodyLocation = Tshirt,
-        IconsForTexture	= TShirt_RoyaleCheese;TshirtRochelle,
+        Icon	= TShirt_RoyaleCheese,
         BloodLocation = Shirt,
         Insulation = 0.3,
         WindResistance = 0.35,

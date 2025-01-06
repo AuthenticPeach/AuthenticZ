@@ -57,6 +57,18 @@ module AuthenticZClothing {
         Weight = 0.1,
 		WorldStaticModel = WorldItem_CigarAZ,
     } 	
+	item CigarHalf_Worn
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Cigar,
+		ClothingItem = CigarHalf_Worn,
+		BodyLocation = Mask,
+		Icon = CigarHalfAZ,
+		ChanceToFall = 40,
+        Weight = 0.5,
+		WorldStaticModel 		= WorldItem_CigarHalfAZ,
+    } 	
 	item Hat_Antlers_AZ
 	{
 	    DisplayCategory = Accessory,	

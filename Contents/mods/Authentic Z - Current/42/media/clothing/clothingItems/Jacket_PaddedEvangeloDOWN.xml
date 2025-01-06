@@ -7,6 +7,7 @@
 	<m_AllowRandomHue>false</m_AllowRandomHue>
 	<m_AllowRandomTint>false</m_AllowRandomTint>
 	<m_AttachBone></m_AttachBone>
+	<m_HatCategory></m_HatCategory>	
 	<m_Masks>13</m_Masks>
 	<m_Masks>14</m_Masks>
 	<m_UnderlayMasksFolder>media/textures/Clothes/Jacket/Masks</m_UnderlayMasksFolder>

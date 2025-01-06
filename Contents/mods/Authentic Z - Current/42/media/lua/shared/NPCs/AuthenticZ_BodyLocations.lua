@@ -9,6 +9,7 @@ local group = BodyLocations.getGroup("Human")
 
 group:getOrCreateLocation("HeadExtra")
 group:getOrCreateLocation("HeadExtraPlus")
+group:getOrCreateLocation("NeckExtra")
 group:getOrCreateLocation("LegsExtra")
 group:getOrCreateLocation("TorsoRigPlus2")
 group:getOrCreateLocation("TorsoExtraPlus1")

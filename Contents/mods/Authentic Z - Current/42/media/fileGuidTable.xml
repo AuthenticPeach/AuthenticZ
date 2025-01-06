@@ -6651,6 +6651,10 @@
 		<guid>5409b793-b50c-4ca1-87c0-1951561e5be0</guid>
 	</files>
 	<files>
+		<path>media/clothing/clothingItems/AZ_CocktailUmbrella.xml</path>
+		<guid>10d34a20-6c3d-49b3-83fc-a8f1d848385a</guid>
+	</files>	
+	<files>
 		<path>media/clothing/clothingItems/Bag_ALICEpack_Festive.xml</path>
 		<guid>9615800e-12cc-4827-857b-a0b99790b7c5</guid>
 	</files>
@@ -7398,6 +7402,10 @@
 	<files>
 		<path>media/clothing/clothingItems/CigarAZ.xml</path>
 		<guid>bedcafb5-9e55-4d50-a31f-62753e2ef67f</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/CigarHalf_Worn.xml</path>
+		<guid>4c1d9fa2-b0c2-4e26-b83e-b4619c0becb6</guid>
 	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Clown_Coveralls.xml</path>
@@ -9310,6 +9318,10 @@
 		<guid>087cbdc5-e530-4285-b763-5f0cae165316</guid>
 	</files>
 	<files>
+		<path>media/clothing/clothingItems/Shorts_LongSportLightBlue.xml</path>
+		<guid>0e9f274b-55ef-4c92-b5f7-e30353f4943c</guid>
+	</files>	
+	<files>
 		<path>media/clothing/clothingItems/Shorts_LongSportNeon.xml</path>
 		<guid>ff148974-13b5-464f-bc25-d08bdc3b5df5</guid>
 	</files>	
@@ -9884,7 +9896,11 @@
 	<files>
 		<path>media/clothing/clothingItems/Tshirt_SportWhite.xml</path>
 		<guid>6a265e7e-b0f6-4d74-b3a7-5ed7d393b74c</guid>
-	</files>	
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Tshirt_LogoTest.xml</path>
+		<guid>d04a170d-9fcc-479d-968e-a88ad928015d</guid>
+	</files>		
 	<files>
 		<path>media/clothing/clothingItems/Tshirt_VotePedro.xml</path>
 		<guid>c445a6a8-ad7d-4989-a273-88fc5933d564</guid>

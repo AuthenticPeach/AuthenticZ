@@ -23,6 +23,23 @@ module AuthenticZRecipes {
 		}
 	}
 
+	craftRecipe Craft Carabiner
+  	{
+		timedAction = Making,	
+		NeedToBeLearn = False,
+		Tags = InHandCraft;CanBeDoneInDark,
+        category = AuthenticZ,
+	    Time:10,
+		inputs
+		{
+			item 5 [Base.Paperclip],
+		}
+		outputs
+		{
+			item 1 AuthenticZLite.AZ_MetalClip,
+		}	   
+  	}
+
 	craftRecipe Convert into Wearable (Headphones)
   	{
 		timedAction = Making,	

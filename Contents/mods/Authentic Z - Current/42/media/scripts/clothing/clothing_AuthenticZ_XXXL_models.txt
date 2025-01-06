@@ -208,7 +208,7 @@ module AuthenticZClothing {
 		DisplayName				= Jeans,
         ClothingItem 			= Fat03_Jeans,
         ClothingItemExtra 		= TrousersMesh_DenimLight,
-        ClothingItemExtraOption = Tighten;Wear1XL;Wear2XL,
+        ClothingItemExtraOption = Tighten,
 		clothingExtraSubmenu 	= Loosen,		
         BodyLocation 			= Pants,
         BloodLocation 			= Trousers,

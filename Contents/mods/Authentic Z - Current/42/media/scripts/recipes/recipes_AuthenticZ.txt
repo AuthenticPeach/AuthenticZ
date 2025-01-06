@@ -9,7 +9,7 @@ module AuthenticZRecipes {
 		Time = 10,
 		NeedToBeLearn = False,
 		Tags = InHandCraft,
-        category = Survival,
+        category = AuthenticZ,
 		Prop1:Cigarette,
         Prop2:AuthenticCigaretteHolder,
 		inputs
@@ -23,12 +23,29 @@ module AuthenticZRecipes {
 		}
 	}
 
+	craftRecipe Craft Carabiner
+  	{
+		timedAction = Making,	
+		NeedToBeLearn = False,
+		Tags = InHandCraft;CanBeDoneInDark,
+        category = AuthenticZ,
+	    Time:10,
+		inputs
+		{
+			item 5 [Base.Paperclip],
+		}
+		outputs
+		{
+			item 1 AuthenticZClothing.AZ_MetalClip,
+		}	   
+  	}
+
 	craftRecipe Convert into Wearable (Headphones)
   	{
 		timedAction = Making,	
 		NeedToBeLearn = False,
 		Tags = InHandCraft;CanBeDoneInDark,
-        category = Survival,
+        category = AuthenticZ,
 	    Time:2,
 		inputs
 		{
@@ -45,7 +62,7 @@ module AuthenticZRecipes {
 		timedAction = Making,	
 		NeedToBeLearn = False,
 		Tags = InHandCraft;CanBeDoneInDark,
-        category = Survival,
+        category = AuthenticZ,
 	    Time:2,
 		inputs
 		{
@@ -130,11 +147,11 @@ module AuthenticZRecipes {
 		timedAction = Making,	
 		NeedToBeLearn = False,
 		Tags = InHandCraft;CanBeDoneInDark,
-        category = Survival,
+        category = AuthenticZ,
 	    Time:2,
 		inputs
 		{
-			item 1 [AuthenticZClothing.CigarAZ2],
+			item 1 [Base.Cigar;AuthenticZClothing.CigarAZ2],
 		}
 		outputs
 		{
@@ -146,8 +163,8 @@ module AuthenticZRecipes {
   	{
 		timedAction = Making,	
 		NeedToBeLearn = False,
-		Tags = InHandCraft;CanBeDoneInDark,,
-        category = Survival,
+		Tags = InHandCraft;CanBeDoneInDark,
+        category = AuthenticZ,
 	    Time:2,
 		inputs
 		{
@@ -157,7 +174,42 @@ module AuthenticZRecipes {
 		{
 			item 1 AuthenticZClothing.CigarAZ2,			
 		}	   
+  	} 
+ 
+	craftRecipe Convert into Item (Half-smoked Cigar)
+  	{
+		timedAction = Making,	
+		NeedToBeLearn = False,
+		Tags = InHandCraft;CanBeDoneInDark,
+        category = AuthenticZ,
+	    Time:2,
+		inputs
+		{
+			item 1 [AuthenticZClothing.CigarHalf_Worn],
+		}
+		outputs
+		{
+			item 1 AuthenticZClothing.CigarAZHalf,			
+		}	   
   	}
+	
+	craftRecipe Convert into Wearable (Half-smoked Cigar)
+  	{
+		timedAction = Making,	
+		NeedToBeLearn = False,
+		Tags = InHandCraft;CanBeDoneInDark,
+        category = AuthenticZ,
+	    Time:2,
+		inputs
+		{
+			item 1 [AuthenticZClothing.CigarAZHalf],
+		}
+		outputs
+		{
+			item 1 AuthenticZClothing.CigarHalf_Worn,			
+		}	   
+  	}
+ 
 
 	craftRecipe Convert into Wearable (Cocktail Umbrella)
   	{
@@ -183,7 +235,7 @@ module AuthenticZRecipes {
 		timedAction = Making,	
 		NeedToBeLearn = False,
 		Tags = InHandCraft,
-        category = Survival,
+        category = AuthenticZ,
 	    Time:10,
 		inputs
 		{
@@ -200,7 +252,7 @@ module AuthenticZRecipes {
 		timedAction = Making,	
 		NeedToBeLearn = False,
 		Tags = InHandCraft;CanBeDoneInDark,
-        category = Survival,
+        category = AuthenticZ,
 	    Time:2,
 		inputs
 		{
@@ -217,7 +269,7 @@ module AuthenticZRecipes {
 		timedAction = Making,	
 		NeedToBeLearn = False,
 		Tags = InHandCraft;CanBeDoneInDark,
-        category = Survival,
+        category = AuthenticZ,
 	    Time:2,
 		inputs
 		{
@@ -234,7 +286,7 @@ module AuthenticZRecipes {
 		timedAction = Making,	
 		NeedToBeLearn = False,
 		Tags = InHandCraft,
-        category = Survival,
+        category = AuthenticZ,
 	    Time:2,
 		inputs
 		{
@@ -251,7 +303,7 @@ module AuthenticZRecipes {
 		timedAction = Making,	
 		NeedToBeLearn = False,
 		Tags = InHandCraft;CanBeDoneInDark,
-        category = Survival,
+        category = AuthenticZ,
 	    Time:2,
 		inputs
 		{
@@ -268,7 +320,7 @@ module AuthenticZRecipes {
 		timedAction = Making,	
 		NeedToBeLearn = False,
 		Tags = InHandCraft;CanBeDoneInDark,
-        category = Survival,
+        category = AuthenticZ,
 	    Time:2,
 		inputs
 		{
@@ -285,7 +337,7 @@ module AuthenticZRecipes {
 		timedAction = Making,	
 		NeedToBeLearn = False,
 		Tags = InHandCraft,
-        category = Survival,
+        category = AuthenticZ,
 	    Time:2,
 		inputs
 		{
@@ -371,7 +423,7 @@ module AuthenticZRecipes {
 		timedAction = Making,	
 		NeedToBeLearn = False,
 		Tags = InHandCraft;CanBeDoneInDark,
-        category = Survival,
+        category = AuthenticZ,
 	    Time:5,
 		inputs
 		{
@@ -391,7 +443,7 @@ module AuthenticZRecipes {
 		Tags = InHandCraft;CanBeDoneInDark,
 	    OnTest = KoniTestAZ_OnTest_ConvertClothing,
 	    OnCreate = KoniTestAZ_OnCreate_ConvertClothing,			
-        category = Survival,
+        category = AuthenticZ,
 	    Time:8,
 		inputs
 		{
@@ -420,7 +472,7 @@ module AuthenticZRecipes {
 		Tags = InHandCraft;CanBeDoneInDark,	
 	    OnTest = KoniTestAZ_OnTest_ConvertClothing,
 	    OnCreate = KoniTestAZ_OnCreate_ConvertClothing,		
-        category = Survival,
+        category = AuthenticZ,
 	    Time:8,
 		inputs
 		{
@@ -450,7 +502,7 @@ module AuthenticZRecipes {
 		Tags = InHandCraft;CanBeDoneInDark,
 	    OnTest = KoniTestAZ_OnTest_ConvertClothing,
 	    OnCreate = KoniTestAZ_OnCreate_ConvertClothing,		
-        category = Survival,
+        category = AuthenticZ,
 	    Time:8,
 		inputs
 		{
@@ -469,7 +521,7 @@ module AuthenticZRecipes {
 		NeedToBeLearn = False,
 		Tags = InHandCraft;CanBeDoneInDark,
 	    OnCreate = Recipe.OnCreate.OpenGlowStickPackage,		
-        category = Survival,
+        category = AuthenticZ,
 	    Time:5,
 		inputs
 		{
@@ -489,7 +541,7 @@ module AuthenticZRecipes {
 		Tags = InHandCraft;CanBeDoneInDark,
 	    OnCreate = OpenSealedMedkit,		
 		AnimNode:RipSheets,
-        category = Survival,
+        category = AuthenticZ,
 	    Time:10,
 		inputs
 		{
@@ -505,7 +557,7 @@ module AuthenticZRecipes {
 		timedAction = Making,	
 		NeedToBeLearn = False,
 		Tags = InHandCraft;CanBeDoneInDark,
-        category = Survival,
+        category = AuthenticZ,
 	    Time:50,
 		inputs
 		{
@@ -527,7 +579,7 @@ module AuthenticZRecipes {
 		Tags = InHandCraft;CanBeDoneInDark,
 	    OnTest = KoniTestAZ_OnTest_ConvertClothing,
 	    OnCreate = KoniTestAZ_OnCreate_ConvertClothing,		
-        category = Survival,
+        category = AuthenticZ,
 	    Time:2,
 		inputs
 		{
@@ -544,7 +596,7 @@ module AuthenticZRecipes {
 		timedAction = Making,	
 		NeedToBeLearn = False,
 		Tags = InHandCraft;CanBeDoneInDark,
-        category = Survival,
+        category = AuthenticZ,
 	    Time:2,
 		inputs
 		{
@@ -561,7 +613,7 @@ module AuthenticZRecipes {
 		timedAction = Making,	
 		NeedToBeLearn = False,
 		Tags = InHandCraft;CanBeDoneInDark,
-        category = Survival,
+        category = AuthenticZ,
 	    Time:2,
 		inputs
 		{
@@ -579,7 +631,7 @@ module AuthenticZRecipes {
 		timedAction = Making,	
 		NeedToBeLearn = False,
 		Tags = InHandCraft;CanBeDoneInDark,
-        category = Survival,
+        category = AuthenticZ,
 	    Time:2,
 		inputs
 		{
@@ -597,7 +649,7 @@ module AuthenticZRecipes {
 		timedAction = Making,	
 		NeedToBeLearn = False,
 		Tags = InHandCraft;CanBeDoneInDark,
-        category = Survival,
+        category = AuthenticZ,
 	    Time:2,
 		inputs
 		{
@@ -615,7 +667,7 @@ module AuthenticZRecipes {
 		timedAction = Making,	
 		NeedToBeLearn = False,
 		Tags = InHandCraft;CanBeDoneInDark,
-        category = Survival,
+        category = AuthenticZ,
 	    Time:2,
 		inputs
 		{
@@ -802,7 +854,7 @@ module AuthenticZRecipes {
 		timedAction = Making,	
 		NeedToBeLearn = False,
 		Tags = InHandCraft,
-        category = Survival,
+        category = AuthenticZ,
 	    Time:2,
 		inputs
 		{

@@ -9,11 +9,12 @@
         DisplayName = Blue Corset,
         ClothingItem = Corset_Blue,
         BodyLocation = TorsoExtra,
-		BloodLocation = ShirtNoSleeves,
+		BloodLocation = UnderwearTops,
         Icon = CorsetBlue,
         Weight = 0.2,
         CanHaveHoles = false,
         WorldStaticModel = Corset_Red_Ground,
+		Tags = IsFireFuel;IsFireTinder;IgnoreZombieDensity,		
     }  
 	item Shirt_Bill_Murray
     {
@@ -194,7 +195,7 @@
         Insulation = 0.15,
         WindResistance = 0.05,
         FabricType = Cotton,
-		WorldStaticModel = Tshirt_Ground,		
+		WorldStaticModel = TShirt_Ground,		
 	}
 	item Shirt_FormalBlue_ShortSleeve
 	{
@@ -426,7 +427,7 @@
         DisplayName = Fast Food T-Shirt,
         ClothingItem = Tshirt_CheeseRoyale,
         BodyLocation = Tshirt,
-        IconsForTexture	= TShirt_RoyaleCheese;TshirtRochelle,
+        Icon	= TShirt_RoyaleCheese,
         BloodLocation = Shirt,
         Insulation = 0.3,
         WindResistance = 0.35,

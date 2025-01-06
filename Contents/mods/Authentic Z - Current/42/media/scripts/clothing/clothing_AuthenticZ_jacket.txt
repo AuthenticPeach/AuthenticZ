@@ -1820,7 +1820,7 @@ module AuthenticZClothing {
         DisplayName = Bear Headdress (Down),
         ClothingItem = HoodieDOWN_BearHeaddress,
         ClothingItemExtra = AuthenticZClothing.HoodieUP_BearHeaddress,
-        ClothingItemExtraOption = DownHoodie,
+        ClothingItemExtraOption = UpHoodie,
 		clothingExtraSubmenu 	= DownHoodie,
         BodyLocation = TorsoExtraPlus1,
         BloodLocation = Jumper,

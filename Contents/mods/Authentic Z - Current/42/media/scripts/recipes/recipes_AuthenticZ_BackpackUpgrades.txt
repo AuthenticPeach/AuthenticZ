@@ -1154,7 +1154,7 @@ module AuthenticZClothing{
         Type					=	Container,
         Capacity				=	21,
         DisplayName				=	Hiking Bag - Tier 1,
-        IconsForTexture			=	Hiking_Blue;Hiking_Green;Hiking_Red,
+        IconsForTexture			=	Hiking_Blue;Hiking_Green;Hiking_Red;Hiking_Green,
         CanBeEquipped 			= 	Back,
         OpenSound   			=   OpenBag,
         CloseSound   			=   CloseBag,
@@ -1177,7 +1177,7 @@ module AuthenticZClothing{
         Type					=	Container,
         Capacity				=	22,
         DisplayName				=	Hiking Bag - Tier 2,
-        IconsForTexture			=	Hiking_Blue;Hiking_Green;Hiking_Red,
+        IconsForTexture			=	Hiking_Blue;Hiking_Green;Hiking_Red;Hiking_Green,
         CanBeEquipped 			= 	Back,
         OpenSound   			=   OpenBag,
         CloseSound   			=   CloseBag,
@@ -1186,7 +1186,7 @@ module AuthenticZClothing{
         BloodLocation 			= 	Bag,
         RunSpeedModifier		= 	0.96,
         AttachmentReplacement 	= 	Bag,
-		AttachmentsProvided  	= 	HikingbagSecondary;HikingBagItemSlot1;HikingBagItemSlot2;HikingBagBottleRight;HikingBagPlushie;HikingbagUmbrellaLeft;SchoolbagBalloonRight,				
+		AttachmentsProvided  	= 	BedrollBottom;HikingbagSecondary;HikingBagItemSlot1;HikingBagItemSlot2;HikingBagBottleRight;HikingBagPlushie;HikingbagUmbrellaLeft;SchoolbagBalloonRight,				
         ReplaceInSecondHand 	= 	Bag_HikingBag_LHand holdingbagleft,
         ReplaceInPrimaryHand 	= 	Bag_HikingBag_RHand holdingbagright,
         WorldStaticModel 		= 	HikingBag_Ground,
@@ -1200,7 +1200,7 @@ module AuthenticZClothing{
         Type					=	Container,
         Capacity				=	23,
         DisplayName				=	Hiking Bag - Tier 3,
-        IconsForTexture			=	Hiking_Blue;Hiking_Green;Hiking_Red,
+        IconsForTexture			=	Hiking_Blue;Hiking_Green;Hiking_Red;Hiking_Green,
         CanBeEquipped 			= 	Back,
         OpenSound   			=   OpenBag,
         CloseSound  			=   CloseBag,
@@ -1637,7 +1637,7 @@ module AuthenticZClothing{
 	   Tooltip:Tooltip_AttachBackpackTier3,	
   	}
 
-	craftRecipe Upgrade Duffelbag Bag (Tier 1) /* Colored Duffles*/
+	craftRecipe Upgrade Colored Duffelbag Bag (Tier 1) /* Colored Duffles*/
   	{
 		timedAction = Making,	
 		NeedToBeLearn = False,
@@ -1662,7 +1662,7 @@ module AuthenticZClothing{
 	   Tooltip:Tooltip_AttachBackpackTier1,	
   	}	
 
-	craftRecipe Upgrade Duffelbag Bag (Tier 2)
+	craftRecipe Upgrade Colored Duffelbag Bag (Tier 2)
   	{
 		timedAction = Making,	
 		NeedToBeLearn = False,
@@ -1688,7 +1688,7 @@ module AuthenticZClothing{
 	   Tooltip:Tooltip_AttachBackpackTier2,	
   	}
 
-	craftRecipe Upgrade Duffelbag Bag (Tier 3)
+	craftRecipe Colored Upgrade Duffelbag Bag (Tier 3)
   	{
 		timedAction = Making,	
 		NeedToBeLearn = False,
@@ -1714,7 +1714,7 @@ module AuthenticZClothing{
 	   Tooltip:Tooltip_AttachBackpackTier3,	
   	}
 
-	craftRecipe Upgrade Duffelbag Bag (Tier 1) /* Grey Duffles*/
+	craftRecipe Upgrade Grey Duffelbag Bag (Tier 1) /* Grey Duffles*/
   	{
 		timedAction = Making,	
 		NeedToBeLearn = False,
@@ -1739,7 +1739,7 @@ module AuthenticZClothing{
 	   Tooltip:Tooltip_AttachBackpackTier1,	
   	}	
 
-	craftRecipe Upgrade Duffelbag Bag (Tier 2)
+	craftRecipe Upgrade Grey Duffelbag Bag (Tier 2)
   	{
 		timedAction = Making,	
 		NeedToBeLearn = False,
@@ -1765,7 +1765,7 @@ module AuthenticZClothing{
 	   Tooltip:Tooltip_AttachBackpackTier2,	
   	}
 
-	craftRecipe Upgrade Duffelbag Bag (Tier 3)
+	craftRecipe Upgrade Grey Duffelbag Bag (Tier 3)
   	{
 		timedAction = Making,	
 		NeedToBeLearn = False,
@@ -1791,7 +1791,7 @@ module AuthenticZClothing{
 	   Tooltip:Tooltip_AttachBackpackTier3,	
   	}
 
-	craftRecipe Upgrade Duffelbag Bag (Tier 1) /* Medical Dufflebag*/
+	craftRecipe Upgrade Medical Duffelbag Bag (Tier 1) /* Medical Dufflebag*/
   	{
 		timedAction = Making,	
 		NeedToBeLearn = False,
@@ -1816,7 +1816,7 @@ module AuthenticZClothing{
 	   Tooltip:Tooltip_AttachBackpackTier1,	
   	}	
 
-	craftRecipe Upgrade Duffelbag Bag (Tier 2)
+	craftRecipe Upgrade Medical Duffelbag Bag (Tier 2)
   	{
 		timedAction = Making,	
 		NeedToBeLearn = False,
@@ -1842,7 +1842,7 @@ module AuthenticZClothing{
 	   Tooltip:Tooltip_AttachBackpackTier2,	
   	}
 
-	craftRecipe Upgrade Duffelbag Bag (Tier 3)
+	craftRecipe Upgrade Medical Duffelbag Bag (Tier 3)
   	{
 		timedAction = Making,	
 		NeedToBeLearn = False,
@@ -1868,7 +1868,7 @@ module AuthenticZClothing{
 	   Tooltip:Tooltip_AttachBackpackTier3,	
   	}
 
-	craftRecipe Upgrade Duffelbag Bag (Tier 1) /* Military Dufflebag*/
+	craftRecipe Upgrade Military Duffelbag Bag (Tier 1) /* Military Dufflebag*/
   	{
 		timedAction = Making,	
 		NeedToBeLearn = False,
@@ -1893,7 +1893,7 @@ module AuthenticZClothing{
 	   Tooltip:Tooltip_AttachBackpackTier1,	
   	}	
 
-	craftRecipe Upgrade Duffelbag Bag (Tier 2) /* Military Dufflebag*/
+	craftRecipe Upgrade Military Duffelbag Bag (Tier 2) /* Military Dufflebag*/
   	{ 
 		timedAction = Making,	
 		NeedToBeLearn = False,
@@ -1919,7 +1919,7 @@ module AuthenticZClothing{
 	   Tooltip:Tooltip_AttachBackpackTier2,	
   	}
 
-	craftRecipe Upgrade Duffelbag Bag (Tier 3) /* Military Dufflebag*/
+	craftRecipe Upgrade Military Duffelbag Bag (Tier 3) /* Military Dufflebag*/
   	{
 		timedAction = Making,	
 		NeedToBeLearn = False,
@@ -1945,7 +1945,7 @@ module AuthenticZClothing{
 	   Tooltip:Tooltip_AttachBackpackTier3,	
   	}
 
-	craftRecipe Upgrade Duffelbag Bag (Tier 1) /* Festive Dufflebag*/
+	craftRecipe Upgrade Festive Duffelbag Bag (Tier 1) /* Festive Dufflebag*/
   	{
 		timedAction = Making,	
 		NeedToBeLearn = False,
@@ -1970,7 +1970,7 @@ module AuthenticZClothing{
 	   Tooltip:Tooltip_AttachBackpackTier1,	
   	}	
 
-	craftRecipe Upgrade Duffelbag Bag (Tier 2) /* Festive Dufflebag*/
+	craftRecipe Upgrade Festive Duffelbag Bag (Tier 2) /* Festive Dufflebag*/
   	{ 
 		timedAction = Making,	
 		NeedToBeLearn = False,
@@ -1996,7 +1996,7 @@ module AuthenticZClothing{
 	   Tooltip:Tooltip_AttachBackpackTier2,	
   	}
 
-	craftRecipe Upgrade Duffelbag Bag (Tier 3) /* Festive Dufflebag*/
+	craftRecipe Upgrade Festive Duffelbag Bag (Tier 3) /* Festive Dufflebag*/
   	{
 		timedAction = Making,	
 		NeedToBeLearn = False,
@@ -2022,7 +2022,7 @@ module AuthenticZClothing{
 	   Tooltip:Tooltip_AttachBackpackTier3,	
   	}
 
-	craftRecipe Upgrade Duffelbag Bag (Tier 1) /* Roadside Dufflebag*/
+	craftRecipe Upgrade Roadside Duffelbag Bag (Tier 1) /* Roadside Dufflebag*/
   	{
 		timedAction = Making,	
 		NeedToBeLearn = False,
@@ -2047,7 +2047,7 @@ module AuthenticZClothing{
 	   Tooltip:Tooltip_AttachBackpackTier1,	
   	}	
 
-	craftRecipe Upgrade Duffelbag Bag (Tier 2) /* Roadside Dufflebag*/
+	craftRecipe Upgrade Roadside Duffelbag Bag (Tier 2) /* Roadside Dufflebag*/
   	{ 
 		timedAction = Making,	
 		NeedToBeLearn = False,
@@ -2073,7 +2073,7 @@ module AuthenticZClothing{
 	   Tooltip:Tooltip_AttachBackpackTier2,	
   	}
 
-	craftRecipe Upgrade Duffelbag Bag (Tier 3) /* Roadside Dufflebag*/
+	craftRecipe Upgrade Roadside Duffelbag Bag (Tier 3) /* Roadside Dufflebag*/
   	{
 		timedAction = Making,	
 		NeedToBeLearn = False,
@@ -2718,7 +2718,7 @@ module AuthenticZClothing{
 	   Tooltip:Tooltip_AttachAliceBackpackTier3,	
   	}
 
-	craftRecipe Upgrade CEDA Hazmat Pack (Tier 1) /* CEDA Green Pack */
+	craftRecipe Upgrade Green CEDA Hazmat Pack (Tier 1) /* CEDA Green Pack */
   	{
 		timedAction = Making,	
 		NeedToBeLearn = False,
@@ -2743,7 +2743,7 @@ module AuthenticZClothing{
 	   Tooltip:Tooltip_AttachBackpackTier1,	
   	}	
 
-	craftRecipe Upgrade CEDA Hazmat Pack (Tier 2)
+	craftRecipe Upgrade Green CEDA Hazmat Pack (Tier 2)
   	{
 		timedAction = Making,	
 		NeedToBeLearn = False,
@@ -2769,7 +2769,7 @@ module AuthenticZClothing{
 	   Tooltip:Tooltip_AttachBackpackTier2,	
   	}
 
-	craftRecipe Upgrade CEDA Hazmat Pack (Tier 3)
+	craftRecipe Upgrade Green CEDA Hazmat Pack (Tier 3)
   	{
 		timedAction = Making,	
 		NeedToBeLearn = False,
@@ -2795,7 +2795,7 @@ module AuthenticZClothing{
 	   Tooltip:Tooltip_AttachBackpackTier3,	
   	}
 
-	craftRecipe Upgrade CEDA Hazmat Pack (Tier 1) /* CEDA Black Pack */
+	craftRecipe Upgrade Black CEDA Hazmat Pack (Tier 1) /* CEDA Black Pack */
   	{
 		timedAction = Making,	
 		NeedToBeLearn = False,
@@ -2820,7 +2820,7 @@ module AuthenticZClothing{
 	   Tooltip:Tooltip_AttachBackpackTier1,	
   	}	
 
-	craftRecipe Upgrade CEDA Hazmat Pack (Tier 2)
+	craftRecipe Upgrade Black CEDA Hazmat Pack (Tier 2)
   	{
 		timedAction = Making,	
 		NeedToBeLearn = False,
@@ -2846,7 +2846,7 @@ module AuthenticZClothing{
 	   Tooltip:Tooltip_AttachBackpackTier2,	
   	}
 
-	craftRecipe Upgrade CEDA Hazmat Pack (Tier 3) 
+	craftRecipe Upgrade Black CEDA Hazmat Pack (Tier 3) 
   	{
 		timedAction = Making,	
 		NeedToBeLearn = False,
@@ -2872,7 +2872,7 @@ module AuthenticZClothing{
 	   Tooltip:Tooltip_AttachBackpackTier3,	
   	}
 
-	craftRecipe Upgrade CEDA Hazmat Pack (Tier 1) /* CEDA Red Pack */
+	craftRecipe Upgrade Red CEDA Hazmat Pack (Tier 1) /* CEDA Red Pack */
   	{
 		timedAction = Making,	
 		NeedToBeLearn = False,
@@ -2897,7 +2897,7 @@ module AuthenticZClothing{
 	   Tooltip:Tooltip_AttachBackpackTier1,	
   	}	
 
-	craftRecipe Upgrade CEDA Hazmat Pack (Tier 2)
+	craftRecipe Upgrade Red CEDA Hazmat Pack (Tier 2)
   	{
 		timedAction = Making,	
 		NeedToBeLearn = False,
@@ -2923,7 +2923,7 @@ module AuthenticZClothing{
 	   Tooltip:Tooltip_AttachBackpackTier2,	
   	}
 
-	craftRecipe Upgrade CEDA Hazmat Pack (Tier 3)
+	craftRecipe Upgrade Red CEDA Hazmat Pack (Tier 3)
   	{
 		timedAction = Making,	
 		NeedToBeLearn = False,
@@ -2950,7 +2950,7 @@ module AuthenticZClothing{
   	}
 
 
-	craftRecipe Upgrade CEDA Hazmat Pack (Tier 1) /* CEDA Blue Pack */
+	craftRecipe Upgrade Blue CEDA Hazmat Pack (Tier 1) /* CEDA Blue Pack */
   	{
 		timedAction = Making,	
 		NeedToBeLearn = False,
@@ -2975,7 +2975,7 @@ module AuthenticZClothing{
 	   Tooltip:Tooltip_AttachBackpackTier1,	
   	}	
 
-	craftRecipe Upgrade CEDA Hazmat Pack (Tier 2) 
+	craftRecipe Upgrade Blue CEDA Hazmat Pack (Tier 2) 
   	{
 		timedAction = Making,	
 		NeedToBeLearn = False,
@@ -3001,7 +3001,7 @@ module AuthenticZClothing{
 	   Tooltip:Tooltip_AttachBackpackTier2,	
   	}
 
-	craftRecipe Upgrade CEDA Hazmat Pack (Tier 3)
+	craftRecipe Upgrade Blue CEDA Hazmat Pack (Tier 3)
   	{
 		timedAction = Making,	
 		NeedToBeLearn = False,
@@ -3104,7 +3104,7 @@ module AuthenticZClothing{
 	   Tooltip:Tooltip_AttachBackpackTier3,	
   	}	
 
-	craftRecipe Upgrade Packsport Backpack (Tier 1) /* Rim Packsport Backpack */
+	craftRecipe Upgrade Rimmed Packsport Backpack (Tier 1) /* Rim Packsport Backpack */
   	{
 		timedAction = Making,	
 		NeedToBeLearn = False,
@@ -3129,7 +3129,7 @@ module AuthenticZClothing{
 	   Tooltip:Tooltip_AttachBackpackTier1,	
   	}	
 
-	craftRecipe Upgrade Packsport Backpack (Tier 2)
+	craftRecipe Upgrade Rimmed Packsport Backpack (Tier 2)
   	{
 		timedAction = Making,	
 		NeedToBeLearn = False,
@@ -3155,7 +3155,7 @@ module AuthenticZClothing{
 	   Tooltip:Tooltip_AttachBackpackTier2,	
   	}
 
-	craftRecipe Upgrade Packsport Backpack (Tier 3)
+	craftRecipe Upgrade Rimmed Packsport Backpack (Tier 3)
   	{
 		timedAction = Making,	
 		NeedToBeLearn = False,
