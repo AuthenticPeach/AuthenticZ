@@ -463,8 +463,8 @@ module Base
 
 		attachment BackPack_Schoolbag_PlushieSpiffo
 		{
-			offset = 0.0030 0.0350 -0.2110,
-			rotate = 2.0000 -65.0000 90.0000,
+			offset = 0.047 -0.0630 -0.2510,
+			rotate = 124.2100 58.4540 -36.8490,
 			bone = Bip01_BackPack,
 		}
 
@@ -694,8 +694,8 @@ module Base
 
 		attachment BackPack_Dufflebag_PlushieTeddyBear
 		{
-			offset = 0.0610 -0.0780 -0.3060,
-			rotate = -165.0000 57.0000 -109.0000,
+			offset = 0.047 -0.0630 -0.2510,
+			rotate = 124.2100 58.4540 -36.8490,
 			bone = Bip01_BackPack,
 		}
 
@@ -3409,8 +3409,8 @@ module Base
 
 		attachment BackPack_Schoolbag_PlushieSpiffo
 		{
-			offset = -0.0090 0.0380 -0.2530,
-			rotate = 2.0000 -59.0000 90.0000,
+			offset = 0.047 -0.0630 -0.2510,
+			rotate = 124.2100 58.4540 -36.8490,
 			bone = Bip01_BackPack,
 		}
 
@@ -3619,8 +3619,8 @@ module Base
 
 		attachment BackPack_Dufflebag_PlushieSpiffo
 		{
-			offset = 0.0020 -0.0740 -0.2880,
-			rotate = 2.0000 -59.0000 90.0000,
+			offset = 0.047 -0.0630 -0.2510,
+			rotate = 124.2100 58.4540 -36.8490,
 			bone = Bip01_BackPack,
 		}
 

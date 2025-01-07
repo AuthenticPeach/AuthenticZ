@@ -611,6 +611,12 @@ module Base
 	{
 		mesh = Weapons/1Handed/Authentic_FlareGun,
 		texture = clothes/Items/FlareGun,
+		
+		attachment Bip01_Prop2
+		{
+			offset = -0.0338 0.0424 0.0000,
+			rotate = 90.0008 1.1964 -90.0396,
+		}		
 	}
 	model AuthenticFreddyKrueger
 	{
@@ -1957,6 +1963,10 @@ module Base
 		mesh = WorldItems/WorldItem_MilitaryWebbing,
 		scale = 0.5,
 	}
+	model WorldItem-Wig_Balding
+	{
+		mesh = WorldItems/WorldItem_BaldingWig,	
+	}	
 	model SheetRopeAZ
 	{
 		mesh = SheetRopeAZ,

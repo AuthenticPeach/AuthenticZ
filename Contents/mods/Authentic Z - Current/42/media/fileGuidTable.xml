@@ -6899,6 +6899,18 @@
 		<guid>2aaa3d69-3c44-42e7-a42b-3d2f8bf6373b</guid>
 	</files>
 	<files>
+		<path>media/clothing/clothingItems/Bag_Schoolbag_Kids_Tier_1.xml</path>
+		<guid>5e8f82f4-3881-4a5a-bad5-f45c98d89b6e</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_Schoolbag_Kids_Tier_2.xml</path>
+		<guid>6a52cdbe-a896-4610-9851-63bc468373cc</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_Schoolbag_Kids_Tier_3.xml</path>
+		<guid>0d2ea569-f07e-42ba-8479-12835eab8354</guid>
+	</files>	
+	<files>
 		<path>media/clothing/clothingItems/Bag_DuffelBag_Tier1.xml</path>
 		<guid>d5594b81-b867-4721-8a61-e53032e1dfaa</guid>
 	</files>

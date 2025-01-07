@@ -1,3 +1,4 @@
+--[[
 GroundItemSpawnerItems = GroundItemSpawnerItems or {};
 
 -- Spawn the Costume Store Sign
@@ -20,5 +21,6 @@ table.insert(GroundItemSpawnerItems, {
     onCreateItem = "GroundItemSpawner_onCreateStoreSign",
 
     -- The function to call when creating the World Item
---    onCreateWorldItem = "GroundItemSpawner_onCreateWorldItem_StoreSign",
+   onCreateWorldItem = "GroundItemSpawner_onCreateWorldItem_StoreSign",
 });
+]]

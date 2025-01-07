@@ -310,7 +310,7 @@ module AuthenticZLite {
 		ClothingItem = AZ_HairStyle31,
 		BodyLocation = Necklace,
         Icon = Wig,	
-					
+        WorldStaticModel = WorldItem-Wig_Balding,					
     }
 	
     item Hairstyle_Pennywise

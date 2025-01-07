@@ -4,15 +4,15 @@ module AuthenticZLite {
   }
 	item AmmoStrap_Bullets1
 	{
-		DisplayCategory 		= Bag,	
-		Type 					= Container,
 		DisplayName 			= Bullets Bandolier,
+		DisplayCategory 		= Bag,	
+		Type 					= Container,	
 		BodyLocation 			= AmmoStrap,
 		Icon 					= AmmoStrap,
 		ClothingItem 			= AmmoStrap_Bullets1,
-		ClothingItemExtra 		= AuthenticZLite.AmmoStrap_Bullets2,
+/*		ClothingItemExtra 		= AuthenticZLite.AmmoStrap_Bullets2,
         ClothingItemExtraOption = SwapSides,
-		clothingExtraSubmenu 	= SwapSides,
+		clothingExtraSubmenu 	= SwapSides, */
 		CanBeEquipped 			= AmmoStrap,	
 		Capacity 				= 1,		
 		CloseSound 				= CloseBulletsBandolier,
@@ -27,15 +27,15 @@ module AuthenticZLite {
 	}
 	item AmmoStrap_Shells1
 	{
-		DisplayCategory 		= Bag,		
-		Type 					= Clothing,
 		DisplayName 			= Shells Bandolier,
+		DisplayCategory 		= Bag,		
+		Type 					= Container,
 		ClothingItem 			= AmmoStrap_Shells1,
 		BodyLocation 			= AmmoStrap,
 		Icon 					= AmmoStrap,		
-		ClothingItemExtra 		= AuthenticZLite.AmmoStrap_Shells2,
+/*		ClothingItemExtra 		= AuthenticZLite.AmmoStrap_Shells2,
         ClothingItemExtraOption = SwapSides,
-		clothingExtraSubmenu 	= SwapSides,
+		clothingExtraSubmenu 	= SwapSides, */
 		CanBeEquipped 			= AmmoStrap,
 		Capacity 				= 1,
 		CloseSound 				= CloseShellsBandolier,
@@ -50,15 +50,15 @@ module AuthenticZLite {
 	}  
 	item AmmoStrap_Bullets2
 	{
-       DisplayCategory = Accessory,		
-		Type 		 = Clothing,
-		DisplayName  = Bullets Ammo Strap,
-		ClothingItem = AmmoStrap_Bullets2,
-		BodyLocation = TorsoExtraPlus1,
-		Icon 		 = AmmoStrapFlipped,
-		ClothingItemExtra 		= AuthenticZLite.AmmoStrap_Bullets1,
+		DisplayName  			= Bullets Ammo Strap	
+		DisplayCategory 		= Accessory,		
+		Type 		 			= Clothing,
+		BodyLocation 			= TorsoExtraPlus1,
+		Icon 		 			= AmmoStrapFlipped,
+		ClothingItem 			= AmmoStrap_Bullets2,		
+/*		ClothingItemExtra 		= AuthenticZLite.AmmoStrap_Bullets1,
         ClothingItemExtraOption = SwapSides,
-		clothingExtraSubmenu 	= SwapSides,		
+		clothingExtraSubmenu 	= SwapSides, */
 		CanBeEquipped 			= AmmoStrap,
 		Capacity 				= 1,		
 		CloseSound 				= CloseBulletsBandolier,
@@ -73,18 +73,24 @@ module AuthenticZLite {
 	}	
 	item AmmoStrap_Shells2
 	{
-       DisplayCategory = Accessory,		
-		Type = Clothing,
-		DisplayName = Shells Ammo Strap,
-		ClothingItem = AmmoStrap_Shells2,
-		BodyLocation = TorsoExtraPlus1,
-		ClothingItemExtra = AuthenticZLite.AmmoStrap_Shells1,
+		DisplayName 			= Shells Ammo Strap,
+		DisplayCategory 		= Accessory,		
+		Type 					= Clothing,
+		BodyLocation 			= TorsoExtraPlus1,
+		Icon 					= AmmoStrapFlipped,
+		ClothingItem 			= AmmoStrap_Shells2,		
+/*		ClothingItemExtra 		= AuthenticZLite.AmmoStrap_Shells1,
         ClothingItemExtraOption = SwapSides,
-		clothingExtraSubmenu 	= SwapSides,		
-		Icon = AmmoStrapFlipped,
-		Tooltip = Tooltip_AmmoStrap,
-		Tags = ReloadFastShells,		
-		WorldStaticModel = AmmoStrap_Ground,		
+		clothingExtraSubmenu 	= SwapSides, */
+		CloseSound 				= CloseBulletsBandolier,
+		OpenSound 				= OpenBulletsBandolier,
+		PutInSound 				= StoreItemBulletsBandolier,		
+		RunSpeedModifier 		= 0.98,
+		WeightReduction 		= 85,		
+		WorldStaticModel 		= AmmoStrap_Ground,	
+        AcceptItemFunction 		= AcceptItemFunction.AmmoStrap_Bullets,
+		Tooltip 				= Tooltip_AmmoStrap,		
+        Tags 					= ReloadFastBullets;BagsFillException;HasMetal;AmmoCase,			
 	}
 	item Apron_DonutAZ
 	{

@@ -11,7 +11,7 @@ module AuthenticZClothing{
         Type					=	Container,
         Capacity				=	16,
         DisplayName				=	School Bag - Tier 1,
-        IconsForTexture 		= 	Backpack_BlackAZ;Backpack_Blue;Backpack_Spiffo;Backpack_BlackAZ;Backpack_BlackAZ,
+        IconsForTexture 		= 	Backpack_Black;Backpack_Blue;Backpack_Primary;Backpack_Teal,
         CanBeEquipped 			= 	Back,
         OpenSound   			=   OpenBag,
         CloseSound   			=   CloseBag,
@@ -24,6 +24,8 @@ module AuthenticZClothing{
         ReplaceInSecondHand  	= 	Bag_Schoolbag_LHand holdingbagleft,
         ReplaceInPrimaryHand 	= 	Bag_Schoolbag_RHand holdingbagright,
         WorldStaticModel 	 	= 	SchoolBag_Ground,
+		SoundParameter		 	= 	EquippedBaggageContainer SchoolBag,
+        Tags 					= 	IsFireFuel;IsFireTinder,		
     }
 
 	item Bag_Schoolbag_Tier_2
@@ -34,7 +36,7 @@ module AuthenticZClothing{
         Type					=	Container,
         Capacity				=	17,
         DisplayName				=	School Bag - Tier 2,
-        IconsForTexture 		= 	Backpack_BlackAZ;Backpack_Blue;Backpack_Spiffo;Backpack_BlackAZ;Backpack_BlackAZ,        CanBeEquipped 			= 	Back,
+        IconsForTexture 		= 	Backpack_Black;Backpack_Blue;Backpack_Primary;Backpack_Teal,
         CanBeEquipped 			= 	Back, 
 		OpenSound   			=   OpenBag,
         CloseSound   			=   CloseBag,
@@ -47,17 +49,19 @@ module AuthenticZClothing{
         ReplaceInSecondHand  	= 	Bag_Schoolbag_LHand holdingbagleft,
         ReplaceInPrimaryHand 	= 	Bag_Schoolbag_RHand holdingbagright,
         WorldStaticModel 	 	= 	SchoolBag_Ground,
+		SoundParameter 			= 	EquippedBaggageContainer SchoolBag,		
+        Tags 					= 	IsFireFuel;IsFireTinder,		
     }
 
 	item Bag_Schoolbag_Tier_3
     {
-        DisplayCategory = Bag,		
+        DisplayName				=	School Bag - Tier 3,	
+        DisplayCategory 		= 	Bag,		
         WeightReduction			=	60,
         Weight					=	1,
         Type					=	Container,
         Capacity				=	18,
-        DisplayName				=	School Bag - Tier 3,
-        IconsForTexture 		= 	Backpack_BlackAZ;Backpack_Blue;Backpack_Spiffo;Backpack_BlackAZ;Backpack_BlackAZ,        CanBeEquipped 			= 	Back,
+        IconsForTexture 		= 	Backpack_Black;Backpack_Blue;Backpack_Primary;Backpack_Teal,
         CanBeEquipped 			= 	Back,
         OpenSound   			=   OpenBag,
         CloseSound   			=   CloseBag,
@@ -70,7 +74,88 @@ module AuthenticZClothing{
         ReplaceInSecondHand  	= 	Bag_Schoolbag_LHand holdingbagleft,
         ReplaceInPrimaryHand 	= 	Bag_Schoolbag_RHand holdingbagright,
         WorldStaticModel 	 	= 	SchoolBag_Ground,
+		SoundParameter 			= 	EquippedBaggageContainer SchoolBag,		
+        Tags 					= 	IsFireFuel;IsFireTinder,		
     }
+	
+	item Bag_Schoolbag_Kids_Tier_1
+	{
+		DisplayName 			= Small Backpack - Tier 1,
+		DisplayCategory 		= Bag,
+		Type 					= Container,
+		Weight 					= 1,
+		WeightReduction		 	= 70,	
+		Capacity		 		= 16,		
+		IconsForTexture 		= Backpack_Blue;Backpack_Spiffo;Backpack_Camo;Backpack_Pink;Backpack_Primary;Backpack_Teal,
+        AttachmentReplacement	= Bag,
+		AttachmentsProvided  	= SchoolbagBagSecondary;SchoolbagBottleRight;SchoolbagBalloonRight,	
+		BloodLocation 			= Bag,
+		CanBeEquipped 			= Back,
+		CloseSound 				= CloseBag,
+		ClothingItem 			= Bag_Schoolbag_Kids_Tier_1,
+		EquipSound 				= EquipBackpackSmall,
+		OpenSound 				= OpenBag,
+		PutInSound 				= PutItemInBag,
+		ReplaceInPrimaryHand 	= Bag_Schoolbag_Kids_RHand holdingbagright,
+		ReplaceInSecondHand 	= Bag_Schoolbag_Kids_LHand holdingbagleft,
+		RunSpeedModifier	 	= 0.97,
+		SoundParameter 			= EquippedBaggageContainer SchoolBag,
+		WorldStaticModel 		= SchoolBag_Ground,
+        Tags 					= IsFireFuel;IsFireTinder,
+	}
+
+	item Bag_Schoolbag_Kids_Tier_2
+	{
+		DisplayName 			= Small Backpack - Tier 2,
+		DisplayCategory 		= Bag,
+		Type 					= Container,
+		Weight 					= 1,
+		WeightReduction		 	= 70,	
+		Capacity		 		= 17,		
+		IconsForTexture 		= Backpack_Blue;Backpack_Spiffo;Backpack_Camo;Backpack_Pink;Backpack_Primary;Backpack_Teal,
+        AttachmentReplacement	= Bag,
+		AttachmentsProvided  	= SchoolbagBagSecondary;SchoolbagBottleRight;SchoolbagBalloonRight,	
+		BloodLocation 			= Bag,
+		CanBeEquipped 			= Back,
+		CloseSound 				= CloseBag,
+		ClothingItem 			= Bag_Schoolbag_Kids_Tier_2,
+		EquipSound 				= EquipBackpackSmall,
+		OpenSound 				= OpenBag,
+		PutInSound 				= PutItemInBag,
+		ReplaceInPrimaryHand 	= Bag_Schoolbag_Kids_RHand holdingbagright,
+		ReplaceInSecondHand 	= Bag_Schoolbag_Kids_LHand holdingbagleft,
+		RunSpeedModifier	 	= 0.97,
+		SoundParameter 			= EquippedBaggageContainer SchoolBag,
+		WorldStaticModel 		= SchoolBag_Ground,
+        Tags 					= IsFireFuel;IsFireTinder,
+	}
+
+	item Bag_Schoolbag_Kids_Tier_3
+	{
+		DisplayName 			= Small Backpack - Tier 3,
+		DisplayCategory 		= Bag,
+		Type 					= Container,
+		Weight 					= 1,
+		WeightReduction		 	= 70,	
+		Capacity		 		= 18,		
+		IconsForTexture 		= Backpack_Blue;Backpack_Spiffo;Backpack_Camo;Backpack_Pink;Backpack_Primary;Backpack_Teal,
+        AttachmentReplacement	= Bag,
+		AttachmentsProvided  	= SchoolbagBagSecondary;SchoolbagBottleRight;SchoolbagBalloonRight,	
+		BloodLocation 			= Bag,
+		CanBeEquipped 			= Back,
+		CloseSound 				= CloseBag,
+		ClothingItem 			= Bag_Schoolbag_Kids_Tier_3,
+		EquipSound 				= EquipBackpackSmall,
+		OpenSound 				= OpenBag,
+		PutInSound 				= PutItemInBag,
+		ReplaceInPrimaryHand 	= Bag_Schoolbag_Kids_RHand holdingbagright,
+		ReplaceInSecondHand 	= Bag_Schoolbag_Kids_LHand holdingbagleft,
+		RunSpeedModifier	 	= 0.97,
+		SoundParameter 			= EquippedBaggageContainer SchoolBag,
+		WorldStaticModel 		= SchoolBag_Ground,
+        Tags 					= IsFireFuel;IsFireTinder,
+	}
+
 	item Bag_SchoolBagNBH_Tier_1
     {
         DisplayCategory = Bag,		
@@ -1632,6 +1717,83 @@ module AuthenticZClothing{
 		outputs
 		{
 			item 1 AuthenticZClothing.Bag_Schoolbag_Tier_3,			
+		}
+       AnimNode:Disassemble,
+	   Tooltip:Tooltip_AttachBackpackTier3,	
+  	}
+
+	craftRecipe Upgrade Kids School Bag (Tier 1)
+  	{
+		timedAction = Making,	
+		NeedToBeLearn = False,
+		Tags = InHandCraft,
+	    OnCreate = PleaseKeepColor,		
+        category = Tailoring,
+		xpAward = Tailoring:20,
+	    Time:300,
+		inputs
+		{
+			item 1 [Base.Bag_Schoolbag_Kids],
+			item 3 [Base.Thread],
+			item 3 [Base.LeatherStrips;Base.DenimStrips],
+			item 1 tags[Scissors] mode:keep,
+			item 1 tags[SewingNeedle] mode:keep,
+		}
+		outputs
+		{
+			item 1 AuthenticZClothing.Bag_Schoolbag_Kids_Tier_1,			
+		}
+       AnimNode:Disassemble,
+	   Tooltip:Tooltip_AttachBackpackTier1,	
+  	}	
+
+	craftRecipe Upgrade Kids School Bag (Tier 2)
+  	{
+		timedAction = Making,	
+		NeedToBeLearn = False,
+		Tags = InHandCraft,
+	    OnCreate = PleaseKeepColor,		
+	    SkillRequired = Tailoring:1,	   	
+        category = Tailoring,
+		xpAward = Tailoring:20,
+	    Time:300,
+		inputs
+		{
+			item 1 [AuthenticZClothing.Bag_Schoolbag_Kids_Tier_1],
+			item 3 [Base.Thread],
+			item 3 [Base.LeatherStrips;Base.DenimStrips],
+			item 1 tags[Scissors] mode:keep,
+			item 1 tags[SewingNeedle] mode:keep,
+		}
+		outputs
+		{
+			item 1 AuthenticZClothing.Bag_Schoolbag_Kids_Tier_2,			
+		}
+       AnimNode:Disassemble,
+	   Tooltip:Tooltip_AttachBackpackTier2,	
+  	}
+
+	craftRecipe Upgrade Kids School Bag (Tier 3)
+  	{
+		timedAction = Making,	
+		NeedToBeLearn = False,
+		Tags = InHandCraft,
+	    OnCreate = PleaseKeepColor,		
+	    SkillRequired = Tailoring:2,	   	
+        category = Tailoring,
+		xpAward = Tailoring:20,
+	    Time:300,
+		inputs
+		{
+			item 1 [AuthenticZClothing.Bag_Schoolbag_Kids_Tier_2],
+			item 3 [Base.Thread],
+			item 3 [Base.LeatherStrips;Base.DenimStrips],
+			item 1 tags[Scissors] mode:keep,
+			item 1 tags[SewingNeedle] mode:keep,
+		}
+		outputs
+		{
+			item 1 AuthenticZClothing.Bag_Schoolbag_Kids_Tier_3,			
 		}
        AnimNode:Disassemble,
 	   Tooltip:Tooltip_AttachBackpackTier3,	

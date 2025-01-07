@@ -280,7 +280,8 @@ module AuthenticZClothing {
         DisplayName = Rainbow Wig,		
 		ClothingItem = AZ_HairStyle31,
 		BodyLocation = Necklace,
-        Icon = Wig,		
+        Icon = Wig,	
+        WorldStaticModel = WorldItem-Wig_Balding,		
     }
 	
     item AZ_HairStyle32

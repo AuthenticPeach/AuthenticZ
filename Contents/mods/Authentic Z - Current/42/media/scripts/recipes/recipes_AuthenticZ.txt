@@ -229,7 +229,39 @@ module AuthenticZRecipes {
 			item 1 AuthenticZClothing.AZ_CocktailUmbrella,			
 		}	   
   	}	
-
+	
+	craftRecipe Convert into Wearable (Deer Skull)
+  	{
+		timedAction = Making,	
+		NeedToBeLearn = False,
+		Tags = InHandCraft;CanBeDoneInDark,
+        category = AuthenticZ,
+	    Time:2,
+		inputs
+		{
+			item 1 [Base.DeerStag_Skull],
+		}
+		outputs
+		{
+			item 1 AuthenticZClothing.Hat_DeerSkull,			
+		}	   
+  	}
+	craftRecipe Convert into Wearable (Cow Skull)
+  	{
+		timedAction = Making,	
+		NeedToBeLearn = False,
+		Tags = InHandCraft;CanBeDoneInDark,
+        category = AuthenticZ,
+	    Time:2,
+		inputs
+		{
+			item 1 [Base.Cow_Skull],
+		}
+		outputs
+		{
+			item 1 AuthenticZClothing.Hat_PyromancerSkull,			
+		}	   
+  	}	
 	craftRecipe Make a Stack of Money
   	{
 		timedAction = Making,	
@@ -329,6 +361,23 @@ module AuthenticZRecipes {
 		outputs
 		{
 			item 1 AuthenticZClothing.AuthenticCrutch,			
+		}	   
+  	}
+
+	craftRecipe Put Oven Mitts Together
+  	{
+		timedAction = Making,	
+		NeedToBeLearn = False,
+		Tags = InHandCraft;CanBeDoneInDark,
+        category = AuthenticZ,
+	    Time:2,
+		inputs
+		{
+			item 2 [Base.OvenMitt],
+		}
+		outputs
+		{
+			item 1 AuthenticZClothing.Gloves_OvenMitts,			
 		}	   
   	}
 

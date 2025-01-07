@@ -7,5 +7,7 @@
 	<m_AllowRandomHue>false</m_AllowRandomHue>
 	<m_AllowRandomTint>false</m_AllowRandomTint>
 	<m_AttachBone></m_AttachBone>
-	<textureChoices>clothes\bag\suitcase</textureChoices>
+	<textureChoices>clothes\bag\Suitcase_New</textureChoices>
+	<textureChoices>clothes\bag\Suitcase_Battered</textureChoices>
+	<textureChoices>clothes\bag\Suitcase_Battered_Travel</textureChoices>
 </clothingItem>

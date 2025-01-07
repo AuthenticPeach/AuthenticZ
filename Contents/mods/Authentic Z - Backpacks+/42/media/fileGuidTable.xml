@@ -3843,7 +3843,18 @@
 		<path>media/clothing/clothingItems/Bag_SchoolBagNBH.xml</path>
 		<guid>100e4cdc-b3e4-4394-8aa4-0dded5a332e4</guid>
 	</files>
-	
+	<files>
+		<path>media/clothing/clothingItems/Bag_Schoolbag_Kids_Tier_1.xml</path>
+		<guid>5e8f82f4-3881-4a5a-bad5-f45c98d89b6e</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_Schoolbag_Kids_Tier_2.xml</path>
+		<guid>6a52cdbe-a896-4610-9851-63bc468373cc</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_Schoolbag_Kids_Tier_3.xml</path>
+		<guid>0d2ea569-f07e-42ba-8479-12835eab8354</guid>
+	</files>	
 	<!--Spiffo Bags Additions -->
 	<files>
 		<path>media/clothing/clothingItems/Bag_SpiffoBackpackAZ.xml</path>

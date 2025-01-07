@@ -1,4 +1,4 @@
-
+--[[
 ---@param item InventoryItem
 ---@param square IsoGridSquare
 function GroundItemSpawner_onCreateStoreSign(item, square)
@@ -10,6 +10,7 @@ end
 
 ---@param worldItem IsoWorldInventoryObject
 ---@param square IsoGridSquare
---function GroundItemSpawner_onCreateWorldItem_StoreSign(worldItem, square)
---    worldItem:setWorldZRotation(45);
---end
+function GroundItemSpawner_onCreateWorldItem_StoreSign(worldItem, square)
+    worldItem:setWorldZRotation(45);
+end
+]]
