@@ -1747,7 +1747,7 @@ module AuthenticZBackpacksPlus{
 	   Tooltip:Tooltip_AttachBackpackTier1,	
   	}	
 
-	craftRecipe Colored Upgrade Duffelbag Bag (Tier 2)
+	craftRecipe Upgrade Colored Duffelbag Bag (Tier 2)
   	{
 		timedAction = Making,	
 		NeedToBeLearn = False,

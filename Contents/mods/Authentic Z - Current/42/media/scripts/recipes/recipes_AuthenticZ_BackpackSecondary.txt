@@ -221,9 +221,7 @@ module AuthenticZClothing{
 		Tags = InHandCraft;CanBeDoneInDark,
         category = AuthenticZ,
 		OnCreate = PleaseKeepColor,
-		inputs
-		{
-			item 1 [Base.Plasticbag;Base.GroceryBag1;Base.GroceryBag2;Base.GroceryBag3;Base.GroceryBag4;Base.GroceryBag5;Base.Plasticbag_Clothing;Base.Garbagebag;Base.AerosolbombRemote;Base.Handbag;Base.Purse;Base.Tote;Base.Tote_Clothing;Base.EmptySandbag;Base.Bag_DeadRats;Base.Bag_DeadMice;Base.Bag_DeadMice;Base.Bag_DeadRoaches;Base.Bag_TreasureBag;Base.Toolbox;Base.Bag_JanitorToolbox;Base.Toolbox_Farming;Base.FirstAidKit;Base.Lunchbox;Base.Lunchbox2;Base.PistolCase1;Base.PistolCase2;Base.PistolCase3;Base.RevolverCase1;Base.RevolverCase2;Base.RevolverCase3;Base.SeedBag] mappers[SecondaryBagAZ] flags[IsEmpty] mode:destroy itemcount,		
+			item 1 [Base.Plasticbag;Base.GroceryBag1;Base.GroceryBag2;Base.GroceryBag3;Base.GroceryBag4;Base.GroceryBag5;Base.Plasticbag_Clothing;Base.Garbagebag;Base.Bag_TrashBag;Base.AerosolbombRemote;Base.Handbag;Base.Purse;Base.Tote;Base.Tote_Bags;Base.Tote_Clothing;Base.Tote_Dancer;Base.EmptySandbag;Base.Bag_DeadRats;Base.Bag_DeadMice;Base.Bag_DeadRoaches;Base.Bag_TreasureBag;Base.Toolbox;Base.Bag_JanitorToolbox;Base.Toolbox_Farming;Base.Toolbox_Fishing;Base.Toolbox_Gardening;Base.Toolbox_Mechanic;Base.FirstAidKit;Base.FirstAidKit_New;Base.FirstAidKit_NewPro;Base.Lunchbox;Base.Lunchbox2;Base.PistolCase1;Base.PistolCase2;Base.PistolCase3;Base.RevolverCase1;Base.RevolverCase2;Base.RevolverCase3;Base.SeedBag] mappers[SecondaryBagAZ] flags[IsEmpty] mode:destroy itemcount,		
 			item 1 [AuthenticZClothing.AZ_MetalClip],
 		}
 		outputs
@@ -240,10 +238,13 @@ module AuthenticZClothing{
 			AuthenticZClothing.Plasticbag_Secondary = Base.GroceryBag5,
 			AuthenticZClothing.Plasticbag_Secondary = Base.Plasticbag_Clothing,
 			AuthenticZClothing.Garbagebag_Secondary = Base.Garbagebag,
+			AuthenticZClothing.Garbagebag_Secondary = Base.Bag_TrashBag,
 			AuthenticZClothing.Handbag_Secondary = Base.Handbag,
 			AuthenticZClothing.Purse_Secondary = Base.Purse,
 			AuthenticZClothing.Tote_Secondary = Base.Tote,
+			AuthenticZClothing.Tote_Secondary = Base.Tote_Bags,
 			AuthenticZClothing.Tote_Secondary = Base.Tote_Clothing,
+			AuthenticZClothing.Tote_Secondary = Base.Tote_Dancer,
 			AuthenticZClothing.EmptySandbag_Secondary = Base.EmptySandbag,
 			AuthenticZClothing.EmptySandbag_Secondary = Base.Bag_DeadRats,
 			AuthenticZClothing.EmptySandbag_Secondary = Base.Bag_DeadMice,
@@ -252,7 +253,12 @@ module AuthenticZClothing{
 			AuthenticZClothing.Toolbox_Secondary = Base.Toolbox,
 			AuthenticZClothing.Toolbox_Secondary = Base.Bag_JanitorToolbox,
 			AuthenticZClothing.Toolbox_Secondary = Base.Toolbox_Farming,
+			AuthenticZClothing.Toolbox_Secondary = Base.Toolbox_Fishing,
+			AuthenticZClothing.Toolbox_Secondary = Base.Toolbox_Gardening,
+			AuthenticZClothing.Toolbox_Secondary = Base.Toolbox_Mechanic,
 			AuthenticZClothing.FirstAidKit_Secondary = Base.FirstAidKit,
+			AuthenticZClothing.FirstAidKit_Secondary = Base.FirstAidKit_New,
+			AuthenticZClothing.FirstAidKit_Secondary = Base.FirstAidKit_NewPro,
 			AuthenticZClothing.Lunchbox_Secondary = Base.Lunchbox,
 			AuthenticZClothing.Lunchbox_Secondary = Base.Lunchbox2,
 			AuthenticZClothing.PistolCase_Secondary = Base.PistolCase1,
@@ -262,7 +268,5 @@ module AuthenticZClothing{
 			AuthenticZClothing.PistolCase_Secondary = Base.RevolverCase2,
 			AuthenticZClothing.PistolCase_Secondary = Base.RevolverCase3,
 			AuthenticZClothing.SeedBag_Secondary = Base.SeedBag,
-		}
-	}		
-
+		}	
 }		

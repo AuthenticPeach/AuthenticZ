@@ -1525,8 +1525,8 @@ module AuthenticZClothing{
         RunSpeedModifier 		= 	0.94,
         AttachmentReplacement 	= 	Bag,
 		AttachmentsProvided  	= 	BedrollBottomALICE;AlicepackSecondary;AlicepackItemSlot1;AlicepackItemSlot2;AlicepackBottleRight;SchoolbagBalloonRight,			
-        ReplaceInSecondHand 	= 	Bag_ALICEpack_Army_LHand holdingbagleft,
-        ReplaceInPrimaryHand 	= 	Bag_ALICEpack_Army_RHand holdingbagright,
+        ReplaceInSecondHand 	= 	Bag_ALICEpack_UrbanCamo_LHand holdingbagleft,
+        ReplaceInPrimaryHand 	= 	Bag_ALICEpack_UrbanCamo_RHand holdingbagright,
         WorldStaticModel 		= 	ALICE_Pack_Ground,
     }
 	
@@ -1548,8 +1548,8 @@ module AuthenticZClothing{
         RunSpeedModifier 		= 	0.94,
         AttachmentReplacement 	= 	Bag,
 		AttachmentsProvided  	= 	BedrollBottomALICE;AlicepackSecondary;AlicepackItemSlot1;AlicepackItemSlot2;AlicepackItemSlot3;AlicepackBottleRight;AlicepackPlushie;AlicepackUmbrellaRight;SchoolbagBalloonRight,				
-        ReplaceInSecondHand 	= 	Bag_ALICEpack_Army_LHand holdingbagleft,
-        ReplaceInPrimaryHand 	= 	Bag_ALICEpack_Army_RHand holdingbagright,
+        ReplaceInSecondHand 	= 	Bag_ALICEpack_UrbanCamo_LHand holdingbagleft,
+        ReplaceInPrimaryHand 	= 	Bag_ALICEpack_UrbanCamo_RHand holdingbagright,
         WorldStaticModel 		= 	ALICE_Pack_Ground,
     }	
  
@@ -1571,8 +1571,8 @@ module AuthenticZClothing{
         RunSpeedModifier 		= 	0.94,
         AttachmentReplacement 	= 	Bag,
 		AttachmentsProvided  	= 	BedrollBottomALICE;AlicepackSecondary;AlicepackItemSlot1;AlicepackItemSlot2;AlicepackItemSlot3;AlicepackItemSlot4;AlicepackItemSlot5;AlicepackBottleRight;AlicepackBottleLeft;AlicepackPlushie;AlicepackUmbrellaRight;AlicepackFlashlight;SchoolbagBalloonRight,					
-        ReplaceInSecondHand 	= 	Bag_ALICEpack_Army_LHand holdingbagleft,
-        ReplaceInPrimaryHand 	= 	Bag_ALICEpack_Army_RHand holdingbagright,
+        ReplaceInSecondHand 	= 	Bag_ALICEpack_UrbanCamo_LHand holdingbagleft,
+        ReplaceInPrimaryHand 	= 	Bag_ALICEpack_UrbanCamo_RHand holdingbagright,
         WorldStaticModel 		= 	ALICE_Pack_Ground,
     }
 
@@ -1850,7 +1850,7 @@ module AuthenticZClothing{
 	   Tooltip:Tooltip_AttachBackpackTier2,	
   	}
 
-	craftRecipe Colored Upgrade Duffelbag Bag (Tier 3)
+	craftRecipe Upgrade Colored Duffelbag Bag (Tier 3)
   	{
 		timedAction = Making,	
 		NeedToBeLearn = False,

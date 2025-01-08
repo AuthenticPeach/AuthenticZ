@@ -46,8 +46,8 @@ module AuthenticZClothing {
         CanHaveHoles = false,
         AttachmentReplacement = Bag,
 		AttachmentsProvided = BedrollBottomALICE,
-        ReplaceInSecondHand = Bag_ALICEpack_Army_LHand holdingbagleft,
-        ReplaceInPrimaryHand = Bag_ALICEpack_Army_RHand holdingbagright,
+        ReplaceInSecondHand = Bag_ALICEpack_UrbanCamo_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_ALICEpack_UrbanCamo_RHand holdingbagright,
         WorldStaticModel = ALICE_Pack_Ground,
     }
 

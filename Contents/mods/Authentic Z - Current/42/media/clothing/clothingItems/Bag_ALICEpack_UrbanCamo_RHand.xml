@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\backpacks\MaleAlicepack</m_MaleModel>
+	<m_FemaleModel>skinned\backpacks\FemaleAlicepack</m_FemaleModel>
+	<m_GUID>97b34340-4e5e-44e3-abbe-9ba5bb146ffa</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>Clothes\Backpacks\ALICEpack_UrbanCamo</textureChoices>
+</clothingItem>

@@ -3489,6 +3489,14 @@
 	<files>
 		<path>media/clothing/clothingItems/Bag_ALICEpack_UrbanCamo.xml</path>
 		<guid>3db442f3-2df0-4693-b6b8-262695a73640</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_ALICEpack_UrbanCamo_LHand.xml</path>
+		<guid>37c6fd49-d21a-4cd8-ae00-962ec93003f8</guid>
+	</files>	
+	<files>
+		<path>media/clothing/clothingItems/Bag_ALICEpack_UrbanCamo_RHand.xml</path>
+		<guid>97b34340-4e5e-44e3-abbe-9ba5bb146ffa</guid>
 	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Bag_B4BEvangelo.xml</path>
