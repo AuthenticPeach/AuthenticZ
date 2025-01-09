@@ -8,7 +8,7 @@ module AuthenticZClothing {
         Type = Clothing,
 /*        DisplayName = Hairstyle,		*/	
         ClothingItem = AZ_HairStyle01,
-        BodyLocation = Hat,
+        BodyLocation = HeadExtraHair,
         Icon = Wig,
     }
     item AZ_HairStyle02
@@ -17,7 +17,7 @@ module AuthenticZClothing {
         Type = Clothing,
 /*        DisplayName = Hairstyle,		*/				
         ClothingItem = AZ_HairStyle02,
-        BodyLocation = Hat,
+        BodyLocation = HeadExtraHair,
         Icon = Wig,
     }
     item AZ_HairStyle03
@@ -26,7 +26,7 @@ module AuthenticZClothing {
         Type = Clothing,
 /*        DisplayName = Hairstyle,		*/		
         ClothingItem = AZ_HairStyle03,
-        BodyLocation = Hat,
+        BodyLocation = HeadExtraHair,
         Icon = Wig,
     }
     item AZ_HairStyle04
@@ -35,7 +35,7 @@ module AuthenticZClothing {
         Type = Clothing,
 /*        DisplayName = Hairstyle,		*/			
         ClothingItem = AZ_HairStyle04,
-        BodyLocation = Hat,
+        BodyLocation = HeadExtraHair,
         Icon = Wig,
     }
     item AZ_HairStyle05
@@ -44,7 +44,7 @@ module AuthenticZClothing {
         Type = Clothing,
 /*        DisplayName = Hairstyle,		*/				
         ClothingItem = AZ_HairStyle05,
-        BodyLocation = Hat,
+        BodyLocation = HeadExtraHair,
         Icon = Wig,
     }
     item AZ_HairStyle06
@@ -53,7 +53,7 @@ module AuthenticZClothing {
         Type = Clothing,
 /*        DisplayName = Hairstyle,		*/			
         ClothingItem = AZ_HairStyle06,
-        BodyLocation = Hat,
+        BodyLocation = HeadExtraHair,
         Icon = Wig,
     }
     item AZ_HairStyle07
@@ -62,7 +62,7 @@ module AuthenticZClothing {
         Type = Clothing,
 /*        DisplayName = Hairstyle,		*/			
         ClothingItem = AZ_HairStyle07,
-        BodyLocation = Hat,
+        BodyLocation = HeadExtraHair,
         Icon = Wig,
     }
     item AZ_HairStyle08
@@ -71,7 +71,7 @@ module AuthenticZClothing {
         Type = Clothing,
 /*        DisplayName = Hairstyle,		*/				
         ClothingItem = AZ_HairStyle08,
-        BodyLocation = Hat,
+        BodyLocation = HeadExtraHair,
         Icon = Wig,
     }
     item AZ_HairStyle09
@@ -80,7 +80,7 @@ module AuthenticZClothing {
         Type = Clothing,
 /*        DisplayName = Hairstyle,		*/			
         ClothingItem = AZ_HairStyle09,
-        BodyLocation = Hat,
+        BodyLocation = HeadExtraHair,
         Icon = Wig,
     }
     item AZ_HairStyle10
@@ -89,7 +89,7 @@ module AuthenticZClothing {
         Type = Clothing,
 /*        DisplayName = Hairstyle,		*/				
         ClothingItem = AZ_HairStyle10,
-        BodyLocation = Hat,
+        BodyLocation = HeadExtraHair,
         Icon = Wig,
     }
     item AZ_HairStyle11
@@ -98,7 +98,7 @@ module AuthenticZClothing {
         Type = Clothing,
 /*        DisplayName = Hairstyle,		*/				
         ClothingItem = AZ_HairStyle11,
-        BodyLocation = Hat,
+        BodyLocation = HeadExtraHair,
         Icon = Wig,
     }
     item AZ_HairStyle12
@@ -107,7 +107,7 @@ module AuthenticZClothing {
         Type = Clothing,
 /*        DisplayName = Hairstyle,		*/			
         ClothingItem = AZ_HairStyle12,
-        BodyLocation = Hat,
+        BodyLocation = HeadExtraHair,
         Icon = Wig,
     }
     item AZ_HairStyle13
@@ -116,7 +116,7 @@ module AuthenticZClothing {
         Type = Clothing,
 /*        DisplayName = Hairstyle,		*/			
         ClothingItem = AZ_HairStyle13,
-        BodyLocation = Hat,
+        BodyLocation = HeadExtraHair,
         Icon = Wig,
     }
     item AZ_HairStyle14
@@ -125,7 +125,7 @@ module AuthenticZClothing {
         Type = Clothing,
 /*        DisplayName = Hairstyle,		*/			
         ClothingItem = AZ_HairStyle14,
-        BodyLocation = Hat,
+        BodyLocation = HeadExtraHair,
         Icon = Wig,
     }
     item AZ_HairStyle15
@@ -134,7 +134,7 @@ module AuthenticZClothing {
         Type = Clothing,
 /*        DisplayName = Hairstyle,		*/				
         ClothingItem = AZ_HairStyle15,
-        BodyLocation = Hat,
+        BodyLocation = HeadExtraHair,
         Icon = Wig,
     }
     item AZ_HairStyle16
@@ -143,7 +143,7 @@ module AuthenticZClothing {
         Type = Clothing,
 /*        DisplayName = Hairstyle,		*/				
         ClothingItem = AZ_HairStyle16,
-        BodyLocation = Hat,
+        BodyLocation = HeadExtraHair,
         Icon = Wig,
     }
     item AZ_HairStyle17
@@ -152,7 +152,7 @@ module AuthenticZClothing {
         Type = Clothing,
 /*        DisplayName = Hairstyle,		*/				
         ClothingItem = AZ_HairStyle17,
-        BodyLocation = Hat,
+        BodyLocation = HeadExtraHair,
         Icon = Wig,
     }
     item AZ_HairStyle18
@@ -161,7 +161,7 @@ module AuthenticZClothing {
         Type = Clothing,
 /*        DisplayName = Hairstyle,		*/				
         ClothingItem = AZ_HairStyle18,
-        BodyLocation = Hat,
+        BodyLocation = HeadExtraHair,
         Icon = Wig,
     }
     item AZ_HairStyle19
@@ -170,7 +170,7 @@ module AuthenticZClothing {
         Type = Clothing,
 /*        DisplayName = Hairstyle,		*/			
         ClothingItem = AZ_HairStyle19,
-        BodyLocation = Hat,
+        BodyLocation = HeadExtraHair,
         Icon = Wig,
     }
     item AZ_HairStyle20
@@ -179,7 +179,7 @@ module AuthenticZClothing {
         Type = Clothing,
 /*        DisplayName = Hairstyle,		*/				
         ClothingItem = AZ_HairStyle10,
-        BodyLocation = Hat,
+        BodyLocation = HeadExtraHair,
         Icon = Wig,
     }	
     item AZ_HairStyle21
@@ -188,7 +188,7 @@ module AuthenticZClothing {
         Type = Clothing,
 /*        DisplayName = Hairstyle,		*/				
         ClothingItem = AZ_HairStyle21,
-        BodyLocation = Hat,
+        BodyLocation = HeadExtraHair,
         Icon = Wig,
     }
     item AZ_HairStyle22
@@ -197,7 +197,7 @@ module AuthenticZClothing {
         Type = Clothing,
 /*        DisplayName = Hairstyle,		*/				
         ClothingItem = AZ_HairStyle22,
-        BodyLocation = Hat,
+        BodyLocation = HeadExtraHair,
         Icon = Wig,
     }
     item AZ_HairStyle23
@@ -206,7 +206,7 @@ module AuthenticZClothing {
         Type = Clothing,
 /*        DisplayName = Hairstyle,		*/			
         ClothingItem = AZ_HairStyle23,
-        BodyLocation = Hat,
+        BodyLocation = HeadExtraHair,
         Icon = Wig,
     }
     item AZ_HairStyle24
@@ -215,7 +215,7 @@ module AuthenticZClothing {
         Type = Clothing,
 /*        DisplayName = Hairstyle,		*/			
         ClothingItem = AZ_HairStyle24,
-        BodyLocation = Hat,
+        BodyLocation = HeadExtraHair,
         Icon = Wig,
     }
     item AZ_HairStyle25
@@ -224,7 +224,7 @@ module AuthenticZClothing {
         Type = Clothing,
 /*        DisplayName = Hairstyle,		*/			
         ClothingItem = AZ_HairStyle25,
-        BodyLocation = Hat,
+        BodyLocation = HeadExtraHair,
         Icon = Wig,
     }
     item AZ_HairStyle26
@@ -233,7 +233,7 @@ module AuthenticZClothing {
         Type = Clothing,
 /*        DisplayName = Hairstyle,		*/				
         ClothingItem = AZ_HairStyle26,
-        BodyLocation = Hat,
+        BodyLocation = HeadExtraHair,
         Icon = Wig,
     }
     item AZ_HairStyle27
@@ -242,7 +242,7 @@ module AuthenticZClothing {
         Type = Clothing,
 /*        DisplayName = Hairstyle,		*/				
         ClothingItem = AZ_HairStyle27,
-        BodyLocation = Hat,
+        BodyLocation = HeadExtraHair,
         Icon = Wig,
     }
     item AZ_HairStyle28
@@ -251,7 +251,7 @@ module AuthenticZClothing {
         Type = Clothing,
 /*        DisplayName = Hairstyle,		*/				
         ClothingItem = AZ_HairStyle28,
-        BodyLocation = Hat,
+        BodyLocation = HeadExtraHair,
         Icon = Wig,
     }
     item AZ_HairStyle29
@@ -260,7 +260,7 @@ module AuthenticZClothing {
         Type = Clothing,
 /*        DisplayName = Hairstyle,		*/			
         ClothingItem = AZ_HairStyle29,
-        BodyLocation = Hat,
+        BodyLocation = HeadExtraHair,
         Icon = Wig,
     }
     item AZ_HairStyle30
@@ -269,7 +269,7 @@ module AuthenticZClothing {
         Type = Clothing,
 /*        DisplayName = Hairstyle,	*/				
         ClothingItem = AZ_HairStyle30,
-        BodyLocation = Hat,
+        BodyLocation = HeadExtraHair,
         Icon = Wig,
     }	
 
@@ -290,7 +290,7 @@ module AuthenticZClothing {
 		Type = Clothing,
 /*        DisplayName = Royale Wig,	*/			
 		ClothingItem = AZ_HairStyle32,
-		BodyLocation = Hat,
+		BodyLocation = HeadExtraHair,
         Icon = Wig,		
     }	
 
@@ -300,7 +300,7 @@ module AuthenticZClothing {
         Type = Clothing,
 /*        DisplayName = Hairstyle,		*/			
         ClothingItem = AZ_HairStyle33,
-        BodyLocation = Hat,
+        BodyLocation = HeadExtraHair,
         Icon = Wig,
     }
 
@@ -321,7 +321,7 @@ module AuthenticZClothing {
 		Type = Clothing,
         DisplayName = Pennywise's Wig,		
 		ClothingItem = Hairstyle_Pennywise,
-		BodyLocation = Hat,
+		BodyLocation = HeadExtraHair,
         Icon = Wig,		
     }
 
@@ -331,7 +331,7 @@ module AuthenticZClothing {
         Type = Clothing,
 /*         DisplayName = Chin,			*/		
         ClothingItem = AZ_BeardStyle01,
-        BodyLocation = Necklace_Long,
+        BodyLocation = HeadExtraPlus,
         Icon = Wig,
     }
     item AZ_BeardStyle02
@@ -340,7 +340,7 @@ module AuthenticZClothing {
         Type = Clothing,
 /*        DisplayName = Chops,				*/	
         ClothingItem = AZ_BeardStyle02,
-        BodyLocation = Necklace_Long,
+        BodyLocation = HeadExtraPlus,
         Icon = Wig,
     }
     item AZ_BeardStyle03
@@ -349,7 +349,7 @@ module AuthenticZClothing {
         Type = Clothing,
  /*       DisplayName = Full,				*/	
         ClothingItem = AZ_BeardStyle03,
-        BodyLocation = Necklace_Long,
+        BodyLocation = HeadExtraPlus,
         Icon = Wig,
     }
     item AZ_BeardStyle04
@@ -358,7 +358,7 @@ module AuthenticZClothing {
         Type = Clothing,
 /*        DisplayName = Goatee,			*/	
         ClothingItem = AZ_BeardStyle04,
-        BodyLocation = Necklace_Long,
+        BodyLocation = HeadExtraPlus,
         Icon = Wig,
     }
     item AZ_BeardStyle05
@@ -367,7 +367,7 @@ module AuthenticZClothing {
         Type = Clothing,
 /*        DisplayName = Long,			*/	
         ClothingItem = AZ_BeardStyle05,
-        BodyLocation = Necklace_Long,
+        BodyLocation = HeadExtraPlus,
         Icon = Wig,,
     }
     item AZ_BeardStyle06
@@ -376,7 +376,7 @@ module AuthenticZClothing {
         Type = Clothing,
 /*        DisplayName = LongScruffy,	*/			
         ClothingItem = AZ_BeardStyle06,
-        BodyLocation = Necklace_Long,
+        BodyLocation = HeadExtraPlus,
         Icon = Wig,
     }
     item AZ_BeardStyle07
@@ -385,7 +385,7 @@ module AuthenticZClothing {
         Type = Clothing,
 /*       DisplayName = Moustache,		 */		
         ClothingItem = AZ_BeardStyle07,
-        BodyLocation = Necklace_Long,
+        BodyLocation = HeadExtraPlus,
         Icon = Wig,
     }
     item AZ_BeardStyle08
@@ -394,7 +394,7 @@ module AuthenticZClothing {
         Type = Clothing,
 /*        DisplayName = BeardOnly,		*/		
         ClothingItem = AZ_BeardStyle08,
-        BodyLocation = Necklace_Long,
+        BodyLocation = HeadExtraPlus,
         Icon = Wig,
     }	
     item AZ_BeardStyle09
@@ -403,16 +403,16 @@ module AuthenticZClothing {
         Type = Clothing,
 /*        DisplayName = PointyChin,		*/		
         ClothingItem = AZ_BeardStyle09,
-        BodyLocation = Necklace_Long,
+        BodyLocation = HeadExtraPlus,
         Icon = Wig,
     }
     item AZ_BeardStyle10
     {
         DisplayCategory = Clothing,
         Type = Clothing,
-/*      DisplayName = Blart Moustache,  */				
+		DisplayName = Thick Moustache,  				
         ClothingItem = AZ_BeardStyle10,
-        BodyLocation = Necklace_Long,
+        BodyLocation = HeadExtraPlus,
         Icon = Wig,
     }
     item Beard_Long_Santa
@@ -421,7 +421,7 @@ module AuthenticZClothing {
         Type = Clothing,
 		DisplayName = Santa's Beard,  				
         ClothingItem = Beard_Long_Santa,
-        BodyLocation = Necklace_Long,
+        BodyLocation = HeadExtraPlus,
         Icon = SantaBeard,
 		WorldStaticModel = WorldItem-SantaBeard,			
     }		

@@ -3500,7 +3500,7 @@ module AuthenticZClothing{
 	    Time:300,
 		inputs
 		{
-			item 1 [AuthenticZClothing.Bag_Packsport_Rim],
+			item 1 [AuthenticZClothing.Bag_B4BMom],
 			item 3 [Base.Thread],
 			item 3 [Base.LeatherStrips;DenimStrips],
 			item 1 tags[Scissors] mode:keep,
@@ -3672,7 +3672,7 @@ module AuthenticZClothing{
 	    Time:300,
 		inputs
 		{
-			item 1 [AuthenticZClothing.Bag_B4BMom_Tier_1],
+			item 1 [AuthenticZClothing.Bag_B4BHolly_Tier_1],
 			item 3 [Base.Thread],
 			item 3 [Base.LeatherStrips;Base.DenimStrips],
 			item 1 tags[Scissors] mode:keep,

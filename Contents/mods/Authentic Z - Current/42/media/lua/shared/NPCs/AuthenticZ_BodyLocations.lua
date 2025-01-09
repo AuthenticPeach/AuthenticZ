@@ -8,6 +8,7 @@ require 'NPCs/BodyLocations'
 local group = BodyLocations.getGroup("Human")
 
 group:getOrCreateLocation("HeadExtra")
+group:getOrCreateLocation("HeadExtraHair")
 group:getOrCreateLocation("HeadExtraPlus")
 group:getOrCreateLocation("NeckExtra")
 group:getOrCreateLocation("LegsExtra")
