@@ -13,8 +13,7 @@
         Icon = CorsetBlue,
         Weight = 0.2,
         CanHaveHoles = false,
-        WorldStaticModel = Corset_Red_Ground,
-		Tags = IsFireFuel;IsFireTinder;IgnoreZombieDensity,		
+        WorldStaticModel = Corset_Red_Ground,		
     }  
 	item Shirt_Bill_Murray
     {

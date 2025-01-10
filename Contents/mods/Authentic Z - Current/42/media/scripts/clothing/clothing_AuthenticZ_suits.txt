@@ -48,7 +48,7 @@ module AuthenticZClothing {
         Insulation 		 = 0.45,
         WindResistance 	 = 0.35,
         FabricType 		 = Leather,
-		Tags = RipClothingLeather,
+		Tags 			 = RipClothingLeather,
 		WorldStaticModel = BoilerSuit_Ground,
     }
     item Boilersuit_ClownSuit

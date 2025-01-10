@@ -414,8 +414,8 @@ module AuthenticZRecipes {
         {
             item 1 tags[Scissors] mode:keep,
 			item 1 [Base.Crayons],
-            item 1 [Base.ComicBook],
-            item 1 [Base.Magazine],
+            item 2 [Base.ComicBook],
+/*            item 1 [Base.Magazine], */
             item 1 [Base.SheetPaper2],
         }
         outputs
@@ -435,8 +435,8 @@ module AuthenticZRecipes {
         {
             item 1 tags[Scissors] mode:keep,
 			item 1 [Base.Crayons],
-            item 1 [Base.ComicBook],
-            item 1 [Base.Magazine],
+            item 2 [Base.ComicBook],
+/*            item 1 [Base.Magazine], */
             item 1 [Base.SheetPaper2],
         }
         outputs
@@ -456,8 +456,8 @@ module AuthenticZRecipes {
         {
             item 1 tags[Scissors] mode:keep,
 			item 1 [Base.Crayons],
-            item 1 [Base.ComicBook],
-            item 1 [Base.Magazine],
+            item 2 [Base.ComicBook],
+/*            item 1 [Base.Magazine], */
             item 1 [Base.SheetPaper2],
         }
         outputs

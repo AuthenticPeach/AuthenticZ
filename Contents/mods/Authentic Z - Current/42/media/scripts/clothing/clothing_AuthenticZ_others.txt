@@ -51,8 +51,8 @@ module AuthenticZClothing {
 	item AmmoStrap_Bullets2
 	{
 		DisplayName  			= Bullets Ammo Strap	
-		DisplayCategory 		= Accessory,		
-		Type 		 			= Clothing,
+		DisplayCategory 		= Bag,		
+		Type 		 			= Container,
 		BodyLocation 			= TorsoExtraPlus1,
 		Icon 		 			= AmmoStrapFlipped,
 		ClothingItem 			= AmmoStrap_Bullets2,		
@@ -74,8 +74,8 @@ module AuthenticZClothing {
 	item AmmoStrap_Shells2
 	{
 		DisplayName 			= Shells Ammo Strap,
-		DisplayCategory 		= Accessory,		
-		Type 					= Clothing,
+		DisplayCategory 		= Bag,		
+		Type 					= Container,
 		BodyLocation 			= TorsoExtraPlus1,
 		Icon 					= AmmoStrapFlipped,
 		ClothingItem 			= AmmoStrap_Shells2,		
