@@ -60,7 +60,7 @@ module AuthenticZRecipes{
 		timedAction = Making,	
 		NeedToBeLearn = False,
 		Tags = InHandCraft,
-        category = Survival,
+        category = AuthenticZ,
 	    Time:2,
 		inputs
 		{

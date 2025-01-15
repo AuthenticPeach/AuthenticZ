@@ -2426,7 +2426,7 @@ module AuthenticZClothing{
 	    Time:300,
 		inputs
 		{
-			item 1 [Bag_BigHikingBag],
+			item 1 [Bag_BigHikingBag;Bag_BigHikingBag_Travel],
 			item 3 [Base.Thread],
 			item 3 [Base.LeatherStrips;Base.DenimStrips],
 			item 1 tags[Scissors] mode:keep,

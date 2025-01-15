@@ -179,6 +179,29 @@ module AuthenticZLite {
         WorldStaticModel 		= JacketLong_Ground,
 		Tooltip 				= Tooltip_Size3XL,			
     }
+    item Fat03_JacketLong_Santa
+    {
+ 	    DisplayCategory 	= Clothing,       
+		Type 				= Clothing,
+        DisplayName 		= Big Santa Suit Jacket,
+        ClothingItem 		= JacketLong_Santa_Obese,
+        ClothingItemExtra 		= JacketLong_Santa,
+        ClothingItemExtraOption = Tighten,
+		clothingExtraSubmenu 	= Loosen,		
+        BodyLocation 		= Jacket,
+        BloodLocation   	= LongJacket,
+        Icon 				= JacketSantaRed,
+        RunSpeedModifier 	= 0.85,
+        CombatSpeedModifier = 0.9,
+        BiteDefense 		= 10,
+        ScratchDefense 		= 30,
+        NeckProtectionModifier = 0.5,
+        Insulation 			= 0.9,
+        WindResistance 		= 0.6,
+        Weight 				= 3,
+        FabricType 			= Cotton,
+        WorldStaticModel 	= JacketLong_Ground,		
+    }	
     item Fat03_Jeans
     {
         DisplayCategory 		= Clothing,
@@ -377,6 +400,21 @@ module AuthenticZLite {
 		WorldStaticModel = TShirt_Ground,	
 		Tooltip = Tooltip_Size3XL,			
     }
+    item Fat_03_Trousers_Santa
+    {
+        DisplayCategory = Clothing,	
+        Type = Clothing,
+        DisplayName = Santa Suit Pants,
+        ClothingItem = Fat03_Trousers_Santa,
+        BodyLocation = Pants,
+        Icon = TrousersSantaRed,
+        BloodLocation = Trousers,
+        ScratchDefense = 10,
+        Insulation = 0.9,
+        WindResistance = 0.6,
+        FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,		
+    }		
     item Fat03_Vest_BlackOpen
     {
         DisplayCategory = Clothing,

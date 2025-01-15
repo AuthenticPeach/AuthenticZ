@@ -28,6 +28,7 @@ craftRecipe Tie 3 Balloons
 		timedAction = Making,	
 		NeedToBeLearn = False,
 		Tags = InHandCraft;CanBeDoneInDark,
+		OnCreate = AZRecipe.Recipes.OnCreate.InstantCraft,			
         category = AuthenticZ,
 	    Time:2,
 		inputs
@@ -45,6 +46,7 @@ craftRecipe Tie 3 Balloons
 		timedAction = Making,	
 		NeedToBeLearn = False,
 		Tags = InHandCraft;CanBeDoneInDark,
+		OnCreate = AZRecipe.Recipes.OnCreate.InstantCraft,			
         category = AuthenticZ,
 	    Time:2,
 		inputs
@@ -62,6 +64,7 @@ craftRecipe Tie 3 Balloons
 		timedAction = Making,	
 		NeedToBeLearn = False,
 		Tags = InHandCraft;CanBeDoneInDark,
+		OnCreate = AZRecipe.Recipes.OnCreate.InstantCraft,			
         category = AuthenticZ,
 	    Time:2,
 		inputs
@@ -79,6 +82,7 @@ craftRecipe Tie 3 Balloons
 		timedAction = Making,	
 		NeedToBeLearn = False,
 		Tags = InHandCraft;CanBeDoneInDark,
+		OnCreate = AZRecipe.Recipes.OnCreate.InstantCraft,			
         category = AuthenticZ,
 	    Time:2,
 		inputs
@@ -96,6 +100,7 @@ craftRecipe Tie 3 Balloons
 		timedAction = Making,	
 		NeedToBeLearn = False,
 		Tags = InHandCraft;CanBeDoneInDark,
+		OnCreate = AZRecipe.Recipes.OnCreate.InstantCraft,			
         category = AuthenticZ,
 	    Time:2,
 		inputs
@@ -113,6 +118,7 @@ craftRecipe Tie 3 Balloons
 		timedAction = Making,	
 		NeedToBeLearn = False,
 		Tags = InHandCraft;CanBeDoneInDark,
+		OnCreate = AZRecipe.Recipes.OnCreate.InstantCraft,			
         category = AuthenticZ,
 	    Time:2,
 		inputs
@@ -130,6 +136,7 @@ craftRecipe Tie 3 Balloons
 		timedAction = Making,	
 		NeedToBeLearn = False,
 		Tags = InHandCraft;CanBeDoneInDark,
+		OnCreate = AZRecipe.Recipes.OnCreate.InstantCraft,			
         category = AuthenticZ,
 	    Time:2,
 		inputs
@@ -147,6 +154,7 @@ craftRecipe Tie 3 Balloons
 		timedAction = Making,	
 		NeedToBeLearn = False,
 		Tags = InHandCraft;CanBeDoneInDark,
+		OnCreate = AZRecipe.Recipes.OnCreate.InstantCraft,			
         category = AuthenticZ,
 	    Time:2,
 		inputs

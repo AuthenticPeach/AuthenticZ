@@ -9,7 +9,7 @@
         DisplayName = Blue Corset,
         ClothingItem = Corset_Blue,
         BodyLocation = TorsoExtra,
-		BloodLocation = UnderwearTops,
+		BloodLocation = ShirtNoSleeves,
         Icon = CorsetBlue,
         Weight = 0.2,
         CanHaveHoles = false,

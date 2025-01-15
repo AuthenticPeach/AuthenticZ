@@ -223,7 +223,7 @@ module AuthenticZBackpacksPlus{
 		OnCreate = PleaseKeepColor,
 		inputs
 		{
-			item 1 [Base.Plasticbag;Base.GroceryBag1;Base.GroceryBag2;Base.GroceryBag3;Base.GroceryBag4;Base.GroceryBag5;Base.Plasticbag_Clothing;Base.Garbagebag;Base.Bag_TrashBag;Base.AerosolbombRemote;Base.Handbag;Base.Purse;Base.Tote;Base.Tote_Bags;Base.Tote_Clothing;Base.Bag_Dancer;Base.EmptySandbag;Base.Bag_DeadRats;Base.Bag_DeadMice;Base.Bag_DeadRoaches;Base.Bag_TreasureBag;Base.Toolbox;Base.Bag_JanitorToolbox;Base.Toolbox_Farming;Base.Toolbox_Fishing;Base.Toolbox_Gardening;Base.Toolbox_Mechanic;Base.FirstAidKit;Base.FirstAidKit_New;Base.FirstAidKit_NewPro;Base.Lunchbox;Base.Lunchbox2;Base.PistolCase1;Base.PistolCase2;Base.PistolCase3;Base.RevolverCase1;Base.RevolverCase2;Base.RevolverCase3;Base.SeedBag] mappers[SecondaryBagAZ] flags[IsEmpty] mode:destroy itemcount,		
+			item 1 [Base.Plasticbag;Base.GroceryBag1;Base.GroceryBag2;Base.GroceryBag3;Base.GroceryBag4;Base.GroceryBag5;Base.Plasticbag_Clothing;Base.Garbagebag;Base.Bag_TrashBag;Base.AerosolbombRemote;Base.Handbag;Base.Purse;Base.Tote;Base.Tote_Bags;Base.Tote_Clothing;Base.Bag_Dancer;Base.EmptySandbag;Base.Bag_DeadRats;Base.Bag_DeadMice;Base.Bag_DeadRoaches;Base.Bag_TreasureBag;Base.Toolbox;Base.Bag_JanitorToolbox;Base.Toolbox_Farming;Base.Toolbox_Fishing;Base.Toolbox_Gardening;Base.Toolbox_Mechanic;Base.FirstAidKit;Base.FirstAidKit_New;Base.FirstAidKit_NewPro;Base.Lunchbox;Base.Lunchbox2;Base.PistolCase1;Base.PistolCase2;Base.PistolCase3;Base.RevolverCase1;Base.RevolverCase2;Base.RevolverCase3;Base.SeedBag;Base.SeedBag_Farming] mappers[SecondaryBagAZ] flags[IsEmpty] mode:destroy itemcount,		
 			item 1 [AuthenticZBackpacksPlus.AZ_MetalClip],
 		}
 		outputs
@@ -270,6 +270,7 @@ module AuthenticZBackpacksPlus{
 			AuthenticZBackpacksPlus.PistolCase_Secondary = Base.RevolverCase2,
 			AuthenticZBackpacksPlus.PistolCase_Secondary = Base.RevolverCase3,
 			AuthenticZBackpacksPlus.SeedBag_Secondary = Base.SeedBag,
+			AuthenticZBackpacksPlus.SeedBag_Secondary = Base.SeedBag_Farming,
 		}
 	}		
 

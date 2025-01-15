@@ -1,5 +1,5 @@
 UI_RU = {
 
-UI_ClothingType_AmmoStrap2 = "Патронташ 2",
+UI_ClothingType_AmmoStrap2 = "РџР°С‚СЂРѕРЅС‚Р°С€ 2",
 
 }

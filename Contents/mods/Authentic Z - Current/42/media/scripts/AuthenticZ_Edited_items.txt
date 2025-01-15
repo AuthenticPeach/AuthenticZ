@@ -855,7 +855,7 @@ module AuthenticZClothing {
 		Tooltip = Tooltip_item_OnlyPurifyMicrowave,
 		StaticModel 		= 			PopBottle,
 		WorldStaticModel 	= 			PopBottle,
-        AttachmentType  	= 			WaterBottle
+        AttachmentType  	= 			WaterBottle,
         	Tags = CookableMicrowave,
 		/* OnCreate	= SpecialLootSpawns.OnCreateWaterBottle, */
 

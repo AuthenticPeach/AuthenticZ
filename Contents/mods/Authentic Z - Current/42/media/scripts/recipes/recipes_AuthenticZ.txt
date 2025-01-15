@@ -46,6 +46,7 @@ module AuthenticZRecipes {
 		NeedToBeLearn = False,
 		Tags = InHandCraft;CanBeDoneInDark,
         category = AuthenticZ,
+		OnCreate = AZRecipe.Recipes.OnCreate.InstantCraft,		
 	    Time:2,
 		inputs
 		{
@@ -63,6 +64,7 @@ module AuthenticZRecipes {
 		NeedToBeLearn = False,
 		Tags = InHandCraft;CanBeDoneInDark,
         category = AuthenticZ,
+		OnCreate = AZRecipe.Recipes.OnCreate.InstantCraft,		
 	    Time:2,
 		inputs
 		{
@@ -78,6 +80,7 @@ module AuthenticZRecipes {
   	{
 		timedAction = Making,	
 		NeedToBeLearn = False,
+		OnCreate = AZRecipe.Recipes.OnCreate.InstantCraft,				
 		Tags = InHandCraft;CanBeDoneInDark,
         category = AuthenticZ,
 	    Time:2,
@@ -95,6 +98,7 @@ module AuthenticZRecipes {
   	{
 		timedAction = Making,	
 		NeedToBeLearn = False,
+		OnCreate = AZRecipe.Recipes.OnCreate.InstantCraft,				
 		Tags = InHandCraft;CanBeDoneInDark,
         category = AuthenticZ,
 	    Time:2,
@@ -112,6 +116,7 @@ module AuthenticZRecipes {
   	{
 		timedAction = Making,	
 		NeedToBeLearn = False,
+		OnCreate = AZRecipe.Recipes.OnCreate.InstantCraft,				
 		Tags = InHandCraft;CanBeDoneInDark,
         category = AuthenticZ,
 	    Time:2,
@@ -129,6 +134,7 @@ module AuthenticZRecipes {
   	{
 		timedAction = Making,	
 		NeedToBeLearn = False,
+		OnCreate = AZRecipe.Recipes.OnCreate.InstantCraft,				
 		Tags = InHandCraft;CanBeDoneInDark,
         category = AuthenticZ,
 	    Time:10,
@@ -146,6 +152,7 @@ module AuthenticZRecipes {
   	{
 		timedAction = Making,	
 		NeedToBeLearn = False,
+		OnCreate = AZRecipe.Recipes.OnCreate.InstantCraft,				
 		Tags = InHandCraft;CanBeDoneInDark,
         category = AuthenticZ,
 	    Time:2,
@@ -163,6 +170,7 @@ module AuthenticZRecipes {
   	{
 		timedAction = Making,	
 		NeedToBeLearn = False,
+		OnCreate = AZRecipe.Recipes.OnCreate.InstantCraft,				
 		Tags = InHandCraft;CanBeDoneInDark,
         category = AuthenticZ,
 	    Time:2,
@@ -180,6 +188,7 @@ module AuthenticZRecipes {
   	{
 		timedAction = Making,	
 		NeedToBeLearn = False,
+		OnCreate = AZRecipe.Recipes.OnCreate.InstantCraft,		
 		Tags = InHandCraft;CanBeDoneInDark,
         category = AuthenticZ,
 	    Time:2,
@@ -197,6 +206,7 @@ module AuthenticZRecipes {
   	{
 		timedAction = Making,	
 		NeedToBeLearn = False,
+		OnCreate = AZRecipe.Recipes.OnCreate.InstantCraft,		
 		Tags = InHandCraft;CanBeDoneInDark,
         category = AuthenticZ,
 	    Time:2,
@@ -234,6 +244,7 @@ module AuthenticZRecipes {
   	{
 		timedAction = Making,	
 		NeedToBeLearn = False,
+		OnCreate = AZRecipe.Recipes.OnCreate.InstantCraft,		
 		Tags = InHandCraft;CanBeDoneInDark,
         category = AuthenticZ,
 	    Time:2,
@@ -250,6 +261,7 @@ module AuthenticZRecipes {
   	{
 		timedAction = Making,	
 		NeedToBeLearn = False,
+		OnCreate = AZRecipe.Recipes.OnCreate.InstantCraft,
 		Tags = InHandCraft;CanBeDoneInDark,
         category = AuthenticZ,
 	    Time:2,
@@ -283,6 +295,7 @@ module AuthenticZRecipes {
   	{
 		timedAction = Making,	
 		NeedToBeLearn = False,
+		OnCreate = AZRecipe.Recipes.OnCreate.InstantCraft,			
 		Tags = InHandCraft;CanBeDoneInDark,
         category = AuthenticZ,
 	    Time:2,
@@ -300,6 +313,7 @@ module AuthenticZRecipes {
   	{
 		timedAction = Making,	
 		NeedToBeLearn = False,
+		OnCreate = AZRecipe.Recipes.OnCreate.InstantCraft,		
 		Tags = InHandCraft;CanBeDoneInDark,
         category = AuthenticZ,
 	    Time:2,
@@ -318,6 +332,7 @@ module AuthenticZRecipes {
 		timedAction = Making,	
 		NeedToBeLearn = False,
 		Tags = InHandCraft,
+		OnCreate = AZRecipe.Recipes.OnCreate.InstantCraft,		
         category = AuthenticZ,
 	    Time:2,
 		inputs
@@ -334,6 +349,7 @@ module AuthenticZRecipes {
   	{
 		timedAction = Making,	
 		NeedToBeLearn = False,
+		OnCreate = AZRecipe.Recipes.OnCreate.InstantCraft,		
 		Tags = InHandCraft;CanBeDoneInDark,
         category = AuthenticZ,
 	    Time:2,
@@ -351,6 +367,7 @@ module AuthenticZRecipes {
   	{
 		timedAction = Making,	
 		NeedToBeLearn = False,
+		OnCreate = AZRecipe.Recipes.OnCreate.InstantCraft,		
 		Tags = InHandCraft;CanBeDoneInDark,
         category = AuthenticZ,
 	    Time:2,
@@ -368,6 +385,7 @@ module AuthenticZRecipes {
   	{
 		timedAction = Making,	
 		NeedToBeLearn = False,
+		OnCreate = AZRecipe.Recipes.OnCreate.InstantCraft,		
 		Tags = InHandCraft;CanBeDoneInDark,
         category = AuthenticZ,
 	    Time:2,
@@ -385,6 +403,7 @@ module AuthenticZRecipes {
   	{
 		timedAction = Making,	
 		NeedToBeLearn = False,
+		OnCreate = AZRecipe.Recipes.OnCreate.InstantCraft,		
 		Tags = InHandCraft,
         category = AuthenticZ,
 	    Time:2,
@@ -409,14 +428,14 @@ module AuthenticZRecipes {
 		timedAction = Making,
         Time = 20,
         Tags = AnySurfaceCraft,
-
+        category = AuthenticZ,
         inputs
         {
             item 1 tags[Scissors] mode:keep,
 			item 1 [Base.Crayons],
-            item 2 [Base.ComicBook],
-/*            item 1 [Base.Magazine], */
-            item 1 [Base.SheetPaper2],
+            item 1 [Base.ComicBook;Base.ComicBook_Retail],
+            item 1 [Base.Magazine;Base.HottieZ;Base.HunkZ;Base.MagazineCrossword;Base.MagazineWordsearch;Base.TVMagazine;Base.Catalog;Base.Magazine_Art;Base.Magazine_Business;Base.Magazine_Car;Base.Magazine_Childs;Base.Magazine_Cinema;Base.Magazine_Crime;Base.Magazine_Fashion;Base.Magazine_Firearm;Base.Magazine_Gaming;Base.Magazine_Golf;Base.Magazine_Health;Base.Magazine_Hobby;Base.Magazine_Humor;Base.Magazine_Military;Base.Magazine_Music;Base.Magazine_Outdoors;Base.Magazine_Police;Base.Magazine_Popular;Base.Magazine_Rich;Base.Magazine_Science;Base.Magazine_Sports;Base.Magazine_Tech;Base.Magazine_Teens;Base.Magazine_New;Base.Magazine_Art_New;Base.Magazine_Business_New;Base.Magazine_Car_New;Base.Magazine_Childs_New;Base.Magazine_Cinema_New;Base.Magazine_Crime_New;Base.Magazine_Fashion_New;Base.Magazine_Firearm_New;Base.Magazine_Gaming_New;Base.Magazine_Golf_New;Base.Magazine_Health_New;Base.Magazine_Hobby_New;Base.Magazine_Horror_New;Base.Magazine_Humor_New;Base.Magazine_Military_New;Base.Magazine_Music_New;Base.Magazine_Police_New;Base.Magazine_Popular_New;Base.Magazine_Rich_New;Base.Magazine_Science_New;Base.Magazine_Sports_New;Base.Magazine_Tech_New;Base.Magazine_Teens_New;Base.TVMagazine_New;Base.HottieZ_New;Base.TVMagazine_New], 
+            item 1 [Base.SheetPaper2;Base.Doodle;Base.DoodleKids;Base.Flier;Base.Flier_Nolans],
         }
         outputs
         {
@@ -430,14 +449,14 @@ module AuthenticZRecipes {
 		timedAction = Making,
         Time = 20,
         Tags = AnySurfaceCraft,
-
+        category = AuthenticZ,
         inputs
         {
             item 1 tags[Scissors] mode:keep,
 			item 1 [Base.Crayons],
-            item 2 [Base.ComicBook],
-/*            item 1 [Base.Magazine], */
-            item 1 [Base.SheetPaper2],
+            item 1 [Base.ComicBook;Base.ComicBook_Retail],
+            item 1 [Base.Magazine;Base.HottieZ;Base.HunkZ;Base.MagazineCrossword;Base.MagazineWordsearch;Base.TVMagazine;Base.Catalog;Base.Magazine_Art;Base.Magazine_Business;Base.Magazine_Car;Base.Magazine_Childs;Base.Magazine_Cinema;Base.Magazine_Crime;Base.Magazine_Fashion;Base.Magazine_Firearm;Base.Magazine_Gaming;Base.Magazine_Golf;Base.Magazine_Health;Base.Magazine_Hobby;Base.Magazine_Humor;Base.Magazine_Military;Base.Magazine_Music;Base.Magazine_Outdoors;Base.Magazine_Police;Base.Magazine_Popular;Base.Magazine_Rich;Base.Magazine_Science;Base.Magazine_Sports;Base.Magazine_Tech;Base.Magazine_Teens;Base.Magazine_New;Base.Magazine_Art_New;Base.Magazine_Business_New;Base.Magazine_Car_New;Base.Magazine_Childs_New;Base.Magazine_Cinema_New;Base.Magazine_Crime_New;Base.Magazine_Fashion_New;Base.Magazine_Firearm_New;Base.Magazine_Gaming_New;Base.Magazine_Golf_New;Base.Magazine_Health_New;Base.Magazine_Hobby_New;Base.Magazine_Horror_New;Base.Magazine_Humor_New;Base.Magazine_Military_New;Base.Magazine_Music_New;Base.Magazine_Police_New;Base.Magazine_Popular_New;Base.Magazine_Rich_New;Base.Magazine_Science_New;Base.Magazine_Sports_New;Base.Magazine_Tech_New;Base.Magazine_Teens_New;Base.TVMagazine_New;Base.HottieZ_New;Base.TVMagazine_New], 
+            item 1 [Base.SheetPaper2;Base.Doodle;Base.DoodleKids;Base.Flier;Base.Flier_Nolans],
         }
         outputs
         {
@@ -451,14 +470,14 @@ module AuthenticZRecipes {
 		timedAction = Making,
         Time = 20,
         Tags = AnySurfaceCraft,
-
+        category = AuthenticZ,
         inputs
         {
             item 1 tags[Scissors] mode:keep,
 			item 1 [Base.Crayons],
-            item 2 [Base.ComicBook],
-/*            item 1 [Base.Magazine], */
-            item 1 [Base.SheetPaper2],
+            item 1 [Base.ComicBook;Base.ComicBook_Retail],
+            item 1 [Base.Magazine;Base.HottieZ;Base.HunkZ;Base.MagazineCrossword;Base.MagazineWordsearch;Base.TVMagazine;Base.Catalog;Base.Magazine_Art;Base.Magazine_Business;Base.Magazine_Car;Base.Magazine_Childs;Base.Magazine_Cinema;Base.Magazine_Crime;Base.Magazine_Fashion;Base.Magazine_Firearm;Base.Magazine_Gaming;Base.Magazine_Golf;Base.Magazine_Health;Base.Magazine_Hobby;Base.Magazine_Humor;Base.Magazine_Military;Base.Magazine_Music;Base.Magazine_Outdoors;Base.Magazine_Police;Base.Magazine_Popular;Base.Magazine_Rich;Base.Magazine_Science;Base.Magazine_Sports;Base.Magazine_Tech;Base.Magazine_Teens;Base.Magazine_New;Base.Magazine_Art_New;Base.Magazine_Business_New;Base.Magazine_Car_New;Base.Magazine_Childs_New;Base.Magazine_Cinema_New;Base.Magazine_Crime_New;Base.Magazine_Fashion_New;Base.Magazine_Firearm_New;Base.Magazine_Gaming_New;Base.Magazine_Golf_New;Base.Magazine_Health_New;Base.Magazine_Hobby_New;Base.Magazine_Horror_New;Base.Magazine_Humor_New;Base.Magazine_Military_New;Base.Magazine_Music_New;Base.Magazine_Police_New;Base.Magazine_Popular_New;Base.Magazine_Rich_New;Base.Magazine_Science_New;Base.Magazine_Sports_New;Base.Magazine_Tech_New;Base.Magazine_Teens_New;Base.TVMagazine_New;Base.HottieZ_New;Base.TVMagazine_New], 
+            item 1 [Base.SheetPaper2;Base.Doodle;Base.DoodleKids;Base.Flier;Base.Flier_Nolans],
         }
         outputs
         {
@@ -472,6 +491,7 @@ module AuthenticZRecipes {
 		timedAction = Making,	
 		NeedToBeLearn = False,
 		Tags = InHandCraft;CanBeDoneInDark,
+		OnCreate = AZRecipe.Recipes.OnCreate.InstantCraft,		
         category = AuthenticZ,
 	    Time:5,
 		inputs
@@ -607,7 +627,7 @@ module AuthenticZRecipes {
 		NeedToBeLearn = False,
 		Tags = InHandCraft;CanBeDoneInDark,
         category = AuthenticZ,
-	    Time:50,
+	    Time:20,
 		inputs
 		{
 			item 1 [Base.Apron_White],
@@ -644,6 +664,7 @@ module AuthenticZRecipes {
   	{
 		timedAction = Making,	
 		NeedToBeLearn = False,
+		OnCreate = AZRecipe.Recipes.OnCreate.InstantCraft,		
 		Tags = InHandCraft;CanBeDoneInDark,
         category = AuthenticZ,
 	    Time:2,
@@ -661,6 +682,7 @@ module AuthenticZRecipes {
   	{
 		timedAction = Making,	
 		NeedToBeLearn = False,
+		OnCreate = AZRecipe.Recipes.OnCreate.InstantCraft,		
 		Tags = InHandCraft;CanBeDoneInDark,
         category = AuthenticZ,
 	    Time:2,
@@ -679,6 +701,7 @@ module AuthenticZRecipes {
   	{
 		timedAction = Making,	
 		NeedToBeLearn = False,
+		OnCreate = AZRecipe.Recipes.OnCreate.InstantCraft,		
 		Tags = InHandCraft;CanBeDoneInDark,
         category = AuthenticZ,
 	    Time:2,
@@ -697,6 +720,7 @@ module AuthenticZRecipes {
   	{
 		timedAction = Making,	
 		NeedToBeLearn = False,
+		OnCreate = AZRecipe.Recipes.OnCreate.InstantCraft,		
 		Tags = InHandCraft;CanBeDoneInDark,
         category = AuthenticZ,
 	    Time:2,
@@ -715,6 +739,7 @@ module AuthenticZRecipes {
   	{
 		timedAction = Making,	
 		NeedToBeLearn = False,
+		OnCreate = AZRecipe.Recipes.OnCreate.InstantCraft,		
 		Tags = InHandCraft;CanBeDoneInDark,
         category = AuthenticZ,
 	    Time:2,
@@ -902,6 +927,7 @@ module AuthenticZRecipes {
   	{
 		timedAction = Making,	
 		NeedToBeLearn = False,
+		OnCreate = AZRecipe.Recipes.OnCreate.InstantCraft,		
 		Tags = InHandCraft,
         category = AuthenticZ,
 	    Time:2,

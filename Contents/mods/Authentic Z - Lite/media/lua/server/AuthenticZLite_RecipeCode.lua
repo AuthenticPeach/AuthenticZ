@@ -410,6 +410,8 @@ function OnEat_CigaretteHolder(food, character, percent)
         end
     end
 end
+
+
 --[[
 function AZ_OnTest_ConvertChainsaw(item)
     if not ChainsawAPI then

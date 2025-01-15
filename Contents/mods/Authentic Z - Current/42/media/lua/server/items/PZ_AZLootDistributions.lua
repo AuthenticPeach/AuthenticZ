@@ -141,6 +141,8 @@ AuthenticZ.tab_addMagProcedural_items  = function(x,count)
   table.insert(ProceduralDistributions.list[x].items, count);
   table.insert(ProceduralDistributions.list[x].items,"AuthenticZClothing.PZAZ_HitList3");
   table.insert(ProceduralDistributions.list[x].items, count);
+  table.insert(ProceduralDistributions.list[x].items,"AuthenticZClothing.StretchClothingMag");
+  table.insert(ProceduralDistributions.list[x].items, count);  
 end
 --Hit Lists Junk
 AuthenticZ.tab_addMagProcedural_junk  = function(x,count)
@@ -155,6 +157,8 @@ AuthenticZ.tab_addMagProcedural_junk  = function(x,count)
   table.insert(ProceduralDistributions.list[x].junk.items, count);
   table.insert(ProceduralDistributions.list[x].junk.items,"AuthenticZClothing.PZAZ_HitList3");
   table.insert(ProceduralDistributions.list[x].junk.items, count);
+  table.insert(ProceduralDistributions.list[x].junk.items,"AuthenticZClothing.StretchClothingMag");
+  table.insert(ProceduralDistributions.list[x].junk.items, count);  
 end
 --Miner hat light bulb
 AuthenticZ.tab_addMagProcedural_LightBulb  = function(x,count)

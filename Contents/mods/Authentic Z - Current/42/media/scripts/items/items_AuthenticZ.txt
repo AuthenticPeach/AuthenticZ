@@ -1305,4 +1305,19 @@ module AuthenticZClothing {
 		Tooltip = Tooltip_HandTorch2,
 		WorldStaticModel = HandTorch,
     }
+	
+    item StretchClothingMag
+    {
+        DisplayName = Stretch Out Clothing,
+        DisplayCategory = SkillBook,
+        Type = Literature,
+        Weight = 0.5,
+        Icon = Magazine_EarlyArmour,
+        BoredomChange = -20,
+        StressChange = -15,
+        TeachedRecipes = StretchOutClothingXL,
+        StaticModel = Magazine,
+        WorldStaticModel = ArmorMag2,
+        Tags = Magazine,
+    }	
 }		

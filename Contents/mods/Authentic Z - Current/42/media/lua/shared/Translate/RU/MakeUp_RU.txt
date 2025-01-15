@@ -1,12 +1,12 @@
 MakeUp_RU = {
-    MakeUpType_FullFaceClownFace1Color = "Разноцветный клоун 1",
-    MakeUpType_FullFaceClownFace2Color= "Разноцветный клоун 2",
-	MakeUpType_FullFaceFreddy = "Фредди",
-    MakeUpType_FullFaceInsane = "Псих",
-    MakeUpType_FullFaceJoker = "Джокер",
-    MakeUpType_FullFaceJokerColor = "Разноцветный Джокер",
-    MakeUpType_FullFaceMimeBlack = "Мим черный",
-    MakeUpType_FullFaceMimeRed = "Мим красный"
-    MakeUpType_FullFacePennywise = "Пеннивайз",
-    MakeUpType_FullFaceShotgunFace = "Лицо-пушка",	
+    MakeUpType_FullFaceClownFace1Color = "Р Р°Р·РЅРѕС†РІРµС‚РЅС‹Р№ РєР»РѕСѓРЅ 1",
+    MakeUpType_FullFaceClownFace2Color= "Р Р°Р·РЅРѕС†РІРµС‚РЅС‹Р№ РєР»РѕСѓРЅ 2",
+	MakeUpType_FullFaceFreddy = "Р¤СЂРµРґРґРё",
+    MakeUpType_FullFaceInsane = "РџСЃРёС…",
+    MakeUpType_FullFaceJoker = "Р”Р¶РѕРєРµСЂ",
+    MakeUpType_FullFaceJokerColor = "Р Р°Р·РЅРѕС†РІРµС‚РЅС‹Р№ Р”Р¶РѕРєРµСЂ",
+    MakeUpType_FullFaceMimeBlack = "РњРёРј С‡РµСЂРЅС‹Р№",
+    MakeUpType_FullFaceMimeRed = "РњРёРј РєСЂР°СЃРЅС‹Р№"
+    MakeUpType_FullFacePennywise = "РџРµРЅРЅРёРІР°Р№Р·",
+    MakeUpType_FullFaceShotgunFace = "Р›РёС†Рѕ-РїСѓС€РєР°",	
 }
