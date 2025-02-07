@@ -1550,6 +1550,17 @@ module AuthenticZClothing {
         Weight = 0.1,
 		WorldStaticModel = Tie_Ground,
     }
+	item Tie_Full_TheMask
+    {
+        DisplayCategory = Accessory,	
+        Type = Clothing,
+        DisplayName = Blue Tie,
+        ClothingItem = Tie_Full_TheMask,
+        BodyLocation = Neck,
+        Icon = Tie_MaskBlackDot,
+        Weight = 0.1,
+		WorldStaticModel = Tie_Ground,
+    }	
 	item Tie_Full_White
     {
         DisplayCategory = Accessory,	

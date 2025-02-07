@@ -11,7 +11,7 @@
 	<textureChoices>clothes\bag\schoolbag_blue</textureChoices>
 	<textureChoices>clothes\bag\schoolbag_Sports1</textureChoices>
 	<textureChoices>clothes\bag\schoolbag_Sports2</textureChoices>
-	<textureChoices>schoolbag_spiffo</textureChoices>
+	<textureChoices>clothes\bag\schoolbag_spiffo</textureChoices>
 	<textureChoices>clothes\backpacks\schoolbag_spiffo2</textureChoices>
 	<textureChoices>clothes\backpacks\schoolbag_spiffo3</textureChoices>			
 </clothingItem>

@@ -9,6 +9,7 @@ AZRecipe.GetItemTypes = {}
 AZRecipe.OnCanPerform = {}
 AZRecipe.OnCreate = {}
 AZRecipe.OnGiveXP = {}
+AZRecipe = AZRecipe or {}
 AZRecipe.OnTest = {}
 
 function AuthenticTorchBatteryRemoval_OnCreate(items, result, character)
@@ -190,7 +191,6 @@ function KoniTestAZ_OnCreate_ConvertClothing(craftRecipeData, character)
     end
 end
 
-
 -- Transfer drainable amount
 function AZKeepDrainableContent_OnCreate(items, result, character)
     if instanceof(result, "Drainable") then
@@ -203,9 +203,6 @@ function AZKeepDrainableContent_OnCreate(items, result, character)
         end
     end
 end
-
-AZRecipe = AZRecipe or {}
-AZRecipe.OnCreate = {}
 
 -- A table mapping single-balloon FullTypes to a color key
 local balloonColorFromSingle = {

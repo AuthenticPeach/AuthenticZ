@@ -649,6 +649,21 @@
 		Tags = RipClothingCotton,		
 		WorldStaticModel = TShirt_Ground,		
     }
+	item Tshirt_ScrubsPink
+	{
+		DisplayName = Medical T-shirt,
+		DisplayCategory = Clothing,
+		Type = Clothing,
+		Icon = ShirtScrubsPink,
+		BloodLocation = Shirt,
+		BodyLocation = Tshirt,
+		ClothingItem = Shirt_ScrubsPink,
+		FabricType = Cotton,
+		Insulation = 0.1,
+		WindResistance = 0.05,
+		WorldStaticModel = TShirt_Ground,
+		Tags = RipClothingCotton,
+	}		
     item Tshirt_SpiffoNEW
     {
         DisplayCategory = Clothing,		

@@ -1736,7 +1736,25 @@ module AuthenticZClothing {
 		isStraightJacket = true,		
         WorldStaticModel = Jacket_Ground,			
     }
-
+	
+    item Suit_Jacket_TheMask
+    {
+        DisplayCategory = Clothing,		
+        Type 	         = Clothing,
+        DisplayName      = The Mask's Suit Jacket,
+        ClothingItem     = Suit_JacketTheMask,
+        BodyLocation     = Jacket,
+        BloodLocation    = Jacket,
+        Icon 		 = JacketSuitMaskYellow,
+        RunSpeedModifier = 0.95,
+        CombatSpeedModifier = 0.95,
+        ScratchDefense   = 20,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.55,
+        WindResistance = 0.45,
+        Weight = 2,
+        WorldStaticModel = SuitJacket_Ground,		
+    }
     item Jacket_Thriller
     {
         DisplayCategory = Clothing,		

@@ -1684,6 +1684,14 @@ local Punk = {
 	};
 ZombiesZoneDefinition.Bar[Punk] = Punk;
 
+
+local AuthenticNurse = {
+		name="AuthenticNurse",
+		chance=10,
+	};
+ZombiesZoneDefinition.Doctor[AuthenticNurse] = AuthenticNurse;
+ZombiesZoneDefinition.NursingHome[AuthenticNurse] = AuthenticNurse;
+
 local AuthenticSportsFan = {
 		name="AuthenticSportsFan",
 		chance=10,

@@ -12,7 +12,7 @@ craftRecipe Tie 3 Balloons
 		Tags = InHandCraft;CanBeDoneInDark,
 		inputs
 		{
-			item 3 [AuthenticZBackpacksPlus.AuthenticBalloon_Red;AuthenticZBackpacksPlus.AuthenticBalloon_Blue;AuthenticZBackpacksPlus.AuthenticBalloon_Green;AuthenticZBackpacksPlus.AuthenticBalloon_Yellow;AuthenticZBackpacksPlus.AuthenticBalloon_Pink;AuthenticZBackpacksPlus.AuthenticBalloon_Purple;AuthenticZBackpacksPlus.AuthenticBalloon_White;AuthenticZBackpacksPlus.AuthenticBalloon_Teal] flags[IsEmpty] mode:destroy itemcount,
+			item 3 [AuthenticZBackpacksPlus.AuthenticBalloon_Red;AuthenticZBackpacksPlus.AuthenticBalloon_Blue;AuthenticZBackpacksPlus.AuthenticBalloon_Green;AuthenticZBackpacksPlus.AuthenticBalloon_Yellow;AuthenticZBackpacksPlus.AuthenticBalloon_Pink;AuthenticZBackpacksPlus.AuthenticBalloon_Purple;AuthenticZBackpacksPlus.AuthenticBalloon_White;AuthenticZBackpacksPlus.AuthenticBalloon_Teal] flags[IsEmpty],
 
 			item 1 [Base.Thread;Base.Twine],
 		}
@@ -177,7 +177,7 @@ craftRecipe Untie Balloon Group
 		inputs
 		{
 
-			item 1 [AuthenticZBackpacksPlus.AuthenticBalloonGroup_Red;AuthenticZBackpacksPlus.AuthenticBalloonGroup_Blue;AuthenticZBackpacksPlus.AuthenticBalloonGroup_Green;AuthenticZBackpacksPlus.AuthenticBalloon_Group_Yellow;AuthenticZBackpacksPlus.AuthenticBalloonGroup_Pink;AuthenticZBackpacksPlus.AuthenticBalloonGroup_Purple;AuthenticZBackpacksPlus.AuthenticBalloonGroup_White;AuthenticZBackpacksPlus.AuthenticBalloonGroup_Teal] flags[IsEmpty] mode:destroy itemcount,
+			item 1 [AuthenticZBackpacksPlus.AuthenticBalloonGroup_Red;AuthenticZBackpacksPlus.AuthenticBalloonGroup_Blue;AuthenticZBackpacksPlus.AuthenticBalloonGroup_Green;AuthenticZBackpacksPlus.AuthenticBalloon_Group_Yellow;AuthenticZBackpacksPlus.AuthenticBalloonGroup_Pink;AuthenticZBackpacksPlus.AuthenticBalloonGroup_Purple;AuthenticZBackpacksPlus.AuthenticBalloonGroup_White;AuthenticZBackpacksPlus.AuthenticBalloonGroup_Teal] flags[IsEmpty],
 		}
 
 		outputs
@@ -194,7 +194,7 @@ craftRecipe Untie Balloon Group
         category = AuthenticZ,
 		inputs
 		{
-			item 1 [AuthenticZBackpacksPlus.AuthenticGlowstick_Blue;AuthenticZBackpacksPlus.AuthenticGlowstick_Green;AuthenticZBackpacksPlus.AuthenticGlowstick_Orange;AuthenticZBackpacksPlus.AuthenticGlowstick_Red;AuthenticZBackpacksPlus.AuthenticGlowstick_Pink;AuthenticZBackpacksPlus.AuthenticGlowstick_Purple;AuthenticZBackpacksPlus.AuthenticGlowstick_White;AuthenticZBackpacksPlus.AuthenticGlowstick_Yellow] mappers[GlowstickAZ] flags[IsEmpty] mode:destroy itemcount,	
+			item 1 [AuthenticZBackpacksPlus.AuthenticGlowstick_Blue;AuthenticZBackpacksPlus.AuthenticGlowstick_Green;AuthenticZBackpacksPlus.AuthenticGlowstick_Orange;AuthenticZBackpacksPlus.AuthenticGlowstick_Red;AuthenticZBackpacksPlus.AuthenticGlowstick_Pink;AuthenticZBackpacksPlus.AuthenticGlowstick_Purple;AuthenticZBackpacksPlus.AuthenticGlowstick_White;AuthenticZBackpacksPlus.AuthenticGlowstick_Yellow] mappers[GlowstickAZ] flags[IsEmpty],	
 		}
 		outputs
 		{

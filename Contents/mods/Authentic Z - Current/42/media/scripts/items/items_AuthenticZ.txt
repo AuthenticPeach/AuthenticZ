@@ -971,7 +971,7 @@ module AuthenticZClothing {
 		AttachmentType	 	 =  MilitaryFlashlight,
 		primaryAnimMask 	 =  HoldingTorchRight,
         secondaryAnimMask	 =  HoldingTorchLeft,
-		Tags 				 = 	Flashlight,
+		Tags 				 = Flashlight;FlashlightPillar,
 		SoundMap 			 = 	Activate FlashlightOn,
 		SoundMap 			 = 	Deactivate FlashlightOff,		
 		WorldStaticModel 	 = 	Authentic_MilitaryFlashlightGrey,			
@@ -997,7 +997,7 @@ module AuthenticZClothing {
 		AttachmentType	 	=   MilitaryFlashlight,
 		primaryAnimMask 	=	HoldingTorchRight,
         secondaryAnimMask 	=	HoldingTorchLeft,
-		Tags 				= 	Flashlight,	
+		Tags 				= 	Flashlight;FlashlightPillar,
 		SoundMap 			= 	Activate FlashlightOn,
 		SoundMap 			= 	Deactivate FlashlightOff,		
 		WorldStaticModel 	= 	Authentic_MilitaryFlashlightGreen,			
@@ -1019,7 +1019,8 @@ module AuthenticZClothing {
 		cantBeConsolided 	 =  TRUE,
 		StaticModel 		 =  AuthenticMinerLightBulb,
 		AttachmentType	 	 =  MinerLight,
-        WorldStaticModel 	 = 	LightBulb,		
+        WorldStaticModel 	 = 	LightBulb,
+		Tags 				 = 	Flashlight;FlashlightPillar,		
 	}  
 
     item AuthenticPipeBomb
@@ -1259,6 +1260,7 @@ module AuthenticZClothing {
         secondaryAnimMask = HoldingTorchLeft,
 		AttachmentType  = FlashlightBig,		
         WorldStaticModel = FlashLightGroundBlue,
+		Tags = Flashlight;FlashlightPillar,		
 	}	
     item Football3
     {
@@ -1304,6 +1306,7 @@ module AuthenticZClothing {
         AttachmentType   = 	Flashlight,			
 		Tooltip = Tooltip_HandTorch2,
 		WorldStaticModel = HandTorch,
+		Tags = Flashlight;FlashlightPillar,		
     }
 	
     item StretchClothingMag

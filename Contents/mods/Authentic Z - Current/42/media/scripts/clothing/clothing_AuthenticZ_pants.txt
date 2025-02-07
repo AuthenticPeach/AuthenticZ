@@ -685,6 +685,22 @@ module AuthenticZClothing {
         FabricType = Cotton,
         WorldStaticModel = Trousers_Ground,		
     }		
+   	item Trousers_TheMask
+    {
+       DisplayCategory = Clothing,		
+        Type = Clothing,
+        DisplayName = The Mask's Suit Pants,
+        ClothingItem = Trousers_TheMask,
+        BodyLocation = Pants,
+        Icon = TrousersSuitYellow2,
+        BloodLocation = Trousers,
+        ScratchDefense = 10,
+        Insulation = 0.75,
+        WindResistance = 0.75,
+        WaterResistance = 0.35,
+        FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,		
+    }	
     item TrousersMesh_Bill
     {
        DisplayCategory = Clothing,		
@@ -848,7 +864,22 @@ module AuthenticZClothing {
         WindResistance = 0.6,
         FabricType = Cotton,
         WorldStaticModel = Trousers_Ground,		
-    }		
+    }	
+	item Trousers_ScrubsPink
+	{
+		DisplayName = Pants - Medical,
+		DisplayCategory = Clothing,
+		Type = Clothing,
+		Icon = TrousersScrubsPink,
+		BloodLocation = Trousers,
+		BodyLocation = Pants,
+		ClothingItem = Trousers_ScrubsPink,
+		FabricType = Cotton,
+		Insulation = 0.2,
+		WindResistance = 0.1,
+		WorldStaticModel = Trousers_Ground,
+		Tags = RipClothingCotton,
+	}	
     item Trousers_Sport
     {
        DisplayCategory = Clothing,		

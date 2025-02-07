@@ -406,7 +406,7 @@ function OnEat_CigaretteHolder(food, character, percent)
         end
     end
 end
-
+--[[
 function AZRecipe.Recipes.OnCreate.InstantCraft(craftRecipeData, character)
     local actionQueue = ISTimedActionQueue.getActionQueue(character)
     local craftAction = actionQueue and actionQueue.queue[#actionQueue.queue]
@@ -414,7 +414,7 @@ function AZRecipe.Recipes.OnCreate.InstantCraft(craftRecipeData, character)
         craftAction.is_ignore_additional_time = true
     end
 end
-
+]]
 
 Give20TailoringXP = AZRecipe.OnGiveXP.Tailoring20
 GiveMeRadio = AZRecipe.OnCreate.GiveMeRadio

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <clothingItem>
-	<m_MaleModel></m_MaleModel>
+	<m_MaleModel>skinned\CustomBodies\FatBody02_F\FatBod_F_02_Dress_Short_Strapless</m_MaleModel>
 	<m_FemaleModel>skinned\CustomBodies\FatBody02_F\FatBod_F_02_Dress_Short_Strapless</m_FemaleModel>
 	<m_GUID>e6b19f1e-90db-4115-a464-39dcbf5078e6</m_GUID>
 	<m_Static>false</m_Static>

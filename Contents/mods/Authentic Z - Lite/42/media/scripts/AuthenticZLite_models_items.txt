@@ -1543,6 +1543,10 @@ module Base
     {
 		mesh = WorldItems/WorldItem_DuelCap,
     }
+	model WorldItem-FeatheredHat_TheMask
+    {
+		mesh = WorldItems/WorldItem-FeatheredHat_TheMask,
+    }		
 	model WorldItem_GroguCarriage
     {
 		mesh = WorldItems/WorldItem-GroguCarriage,

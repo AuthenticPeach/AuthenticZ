@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <clothingItem>
-	<m_MaleModel>media\models_X\Static\Clothes\M_BaseballCapReverse.X</m_MaleModel>
-	<m_FemaleModel>media\models_X\Static\Clothes\F_BaseballCapReverse.X</m_FemaleModel>
+	<m_MaleModel>media\models_X\Static\Clothes\M_BaseballCapReverse_AZ.X</m_MaleModel>
+	<m_FemaleModel>media\models_X\Static\Clothes\F_BaseballCapReverse_AZ.X</m_FemaleModel>
 	<m_GUID>ac70aa09-f846-43ba-bf1a-43638e63bb7c</m_GUID>
 	<m_Static>true</m_Static>
 	<m_AllowRandomHue>false</m_AllowRandomHue>

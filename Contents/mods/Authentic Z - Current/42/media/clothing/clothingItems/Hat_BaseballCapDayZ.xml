@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <clothingItem>
-	<m_MaleModel>static\clothes\m_baseballcap</m_MaleModel>
+	<m_MaleModel>static\clothes\m_baseballcap_AZ</m_MaleModel>
 	<m_FemaleModel>static\clothes\f_baseballcap</m_FemaleModel>
 	<m_GUID>6bb580fa-3061-41a6-aef1-93c60237c9bc</m_GUID>
 	<m_Static>true</m_Static>

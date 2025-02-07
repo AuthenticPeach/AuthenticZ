@@ -8314,6 +8314,10 @@
 		<guid>f6259adc-0532-4cd8-a97c-17e4003acaaf</guid>
 	</files>
 	<files>
+		<path>media/clothing/clothingItems/Hat_TheMask.xml</path>
+		<guid>c3fbfe2e-153c-4290-9689-f771d8f70ad1</guid>
+	</files>	
+	<files>
 		<path>media/clothing/clothingItems/Hat_TopHat_AZ.xml</path>
 		<guid>4abc3854-2bb0-411f-b6b8-14d442a085ad</guid>
 	</files>	
@@ -9202,6 +9206,10 @@
 		<guid>5ab5b5ef-dcdf-4e7b-b947-db8d9fb0a505</guid>
 	</files>
 	<files>
+		<path>media/clothing/clothingItems/Shirt_ScrubsPink.xml</path>
+		<guid>d3b5ea11-1a8f-4c64-82d4-b3ac2248d1bb</guid>
+	</files>	
+	<files>
 		<path>media/clothing/clothingItems/Shirt_Walker.xml</path>
 		<guid>5884a833-5894-4c8b-a653-175b89a0bfe2</guid>
 	</files>
@@ -9562,6 +9570,10 @@
 		<guid>75281470-be22-46fc-a9a2-b29d0af20608</guid>
 	</files>
 	<files>
+		<path>media/clothing/clothingItems/Suit_JacketTheMask.xml</path>
+		<guid>353a30d2-973c-4944-84a7-4d8fd152c39b</guid>
+	</files>	
+	<files>
 		<path>media/clothing/clothingItems/Sweater_Freddy.xml</path>
 		<guid>60a67aab-f92c-44a9-b1c6-fa890dd72604</guid>
 	</files>
@@ -9605,6 +9617,10 @@
 		<path>media/clothing/clothingItems/Tie_Full_GMan.xml</path>
 		<guid>dd850db6-d8db-4881-a4ae-e0e10c09744d</guid>
 	</files>
+	<files>
+		<path>media/clothing/clothingItems/Tie_Full_TheMask.xml</path>
+		<guid>cfb88c0b-4215-44a6-be85-1ecb814bd3a3</guid>
+	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Tie_Full_White.xml</path>
 		<guid>c2094f3c-8782-431c-8973-cb96b7c3d00d</guid>
@@ -9714,6 +9730,10 @@
 		<guid>e5927c7d-6992-4480-a883-05bd414f9e09</guid>
 	</files>
 	<files>
+		<path>media/clothing/clothingItems/Trousers_ScrubsPink.xml</path>
+		<guid>35d47240-eba7-45d4-8980-2f4ea08fd233</guid>
+	</files>	
+	<files>
 		<path>media/clothing/clothingItems/Trousers_Soldier_Rebel.xml</path>
 		<guid>238f5c1a-38c9-4dfe-bd1f-2359c9e7f1ff</guid>
 	</files>
@@ -9765,6 +9785,10 @@
 		<path>media/clothing/clothingItems/Trousers_SuitVeryRed.xml</path>
 		<guid>5e26c5ef-fa40-4787-a6d9-17197ba31c7a</guid>
 	</files>
+	<files>
+		<path>media/clothing/clothingItems/Trousers_TheMask.xml</path>
+		<guid>374f0d03-7beb-4622-b7c5-e07b509c778a</guid>
+	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Trousers_Tagilla.xml</path>
 		<guid>b2807cd5-27bd-4b1f-afe5-c544dad467b0</guid>
@@ -9928,7 +9952,7 @@
 	<files>
 		<path>media/clothing/clothingItems/Tshirt_Wichammer.xml</path>
 		<guid>29673602-d6e7-45e7-9563-c76db28a6872</guid>
-	</files>	
+	</files>		
 	<files>
 		<path>media/clothing/clothingItems/Vest_BulletBlack.xml</path>
 		<guid>9dda7402-c7f9-46f8-baae-b4b13e025bb0</guid>

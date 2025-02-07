@@ -4748,6 +4748,10 @@
 	<files>
 		<path>media/clothing/clothingItems/Hat_SweatbandPurple.xml</path>
 		<guid>1107e265-f011-4224-9449-46b67222ecc6</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Hat_TheMask.xml</path>
+		<guid>c3fbfe2e-153c-4290-9689-f771d8f70ad1</guid>
 	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Hat_WinslowHelmet.xml</path>

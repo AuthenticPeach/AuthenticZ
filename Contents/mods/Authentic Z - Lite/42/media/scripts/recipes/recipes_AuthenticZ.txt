@@ -47,7 +47,7 @@ module AuthenticZRecipes {
 		Tags = InHandCraft;CanBeDoneInDark,
         category = AuthenticZ,
 	    Time:2,
-		OnCreate = AZRecipe.Recipes.OnCreate.InstantCraft,			
+	
 		inputs
 		{
 			item 2 [Base.OvenMitt],
@@ -65,7 +65,7 @@ module AuthenticZRecipes {
 		Tags = InHandCraft;CanBeDoneInDark,
         category = AuthenticZ,
 	    Time:2,
-		OnCreate = AZRecipe.Recipes.OnCreate.InstantCraft,		
+
 		inputs
 		{
 			item 1 [Base.Headphones],
@@ -82,7 +82,7 @@ module AuthenticZRecipes {
 		NeedToBeLearn = False,
 		Tags = InHandCraft;CanBeDoneInDark,
         category = AuthenticZ,
-		OnCreate = AZRecipe.Recipes.OnCreate.InstantCraft,		
+
 	    Time:2,
 		inputs
 		{
@@ -99,7 +99,7 @@ module AuthenticZRecipes {
 		timedAction = Making,	
 		NeedToBeLearn = False,
 		Tags = InHandCraft;CanBeDoneInDark,
-		OnCreate = AZRecipe.Recipes.OnCreate.InstantCraft,		
+
         category = AuthenticZ,
 	    Time:2,
 		inputs
@@ -118,7 +118,7 @@ module AuthenticZRecipes {
 		NeedToBeLearn = False,
 		Tags = InHandCraft;CanBeDoneInDark,
         category = AuthenticZ,
-		OnCreate = AZRecipe.Recipes.OnCreate.InstantCraft,		
+
 	    Time:2,
 		inputs
 		{
@@ -134,7 +134,7 @@ module AuthenticZRecipes {
   	{
 		timedAction = Making,	
 		NeedToBeLearn = False,
-		OnCreate = AZRecipe.Recipes.OnCreate.InstantCraft,		
+
 		Tags = InHandCraft;CanBeDoneInDark,
         category = AuthenticZ,
 	    Time:2,
@@ -152,7 +152,7 @@ module AuthenticZRecipes {
   	{
 		timedAction = Making,	
 		NeedToBeLearn = False,
-		OnCreate = AZRecipe.Recipes.OnCreate.InstantCraft,		
+
 		Tags = InHandCraft;CanBeDoneInDark,
         category = AuthenticZ,
 	    Time:10,
@@ -170,7 +170,7 @@ module AuthenticZRecipes {
   	{
 		timedAction = Making,	
 		NeedToBeLearn = False,
-		OnCreate = AZRecipe.Recipes.OnCreate.InstantCraft,		
+
 		Tags = InHandCraft;CanBeDoneInDark,
         category = AuthenticZ,
 	    Time:2,
@@ -188,7 +188,7 @@ module AuthenticZRecipes {
   	{
 		timedAction = Making,	
 		NeedToBeLearn = False,
-		OnCreate = AZRecipe.Recipes.OnCreate.InstantCraft,		
+
 		Tags = InHandCraft;CanBeDoneInDark,,
         category = AuthenticZ,
 	    Time:2,
@@ -241,7 +241,7 @@ module AuthenticZRecipes {
   	{
 		timedAction = Making,	
 		NeedToBeLearn = False,
-		OnCreate = AZRecipe.Recipes.OnCreate.InstantCraft,		
+
 		Tags = InHandCraft;CanBeDoneInDark,
         category = AuthenticZ,
 	    Time:2,
@@ -258,7 +258,7 @@ module AuthenticZRecipes {
   	{
 		timedAction = Making,	
 		NeedToBeLearn = False,
-		OnCreate = AZRecipe.Recipes.OnCreate.InstantCraft,		
+
 		Tags = InHandCraft,
         category = AuthenticZ,
 	    Time:10,
@@ -276,7 +276,7 @@ module AuthenticZRecipes {
   	{
 		timedAction = Making,	
 		NeedToBeLearn = False,
-		OnCreate = AZRecipe.Recipes.OnCreate.InstantCraft,		
+
 		Tags = InHandCraft;CanBeDoneInDark,
         category = AuthenticZ,
 	    Time:2,
@@ -294,7 +294,7 @@ module AuthenticZRecipes {
   	{
 		timedAction = Making,	
 		NeedToBeLearn = False,
-		OnCreate = AZRecipe.Recipes.OnCreate.InstantCraft,		
+
 		Tags = InHandCraft;CanBeDoneInDark,
         category = AuthenticZ,
 	    Time:2,
@@ -313,7 +313,7 @@ module AuthenticZRecipes {
 		timedAction = Making,	
 		NeedToBeLearn = False,
 		Tags = InHandCraft,
-		OnCreate = AZRecipe.Recipes.OnCreate.InstantCraft,		
+
         category = AuthenticZ,
 	    Time:2,
 		inputs
@@ -330,7 +330,7 @@ module AuthenticZRecipes {
   	{
 		timedAction = Making,	
 		NeedToBeLearn = False,
-		OnCreate = AZRecipe.Recipes.OnCreate.InstantCraft,		
+
 		Tags = InHandCraft;CanBeDoneInDark,
         category = AuthenticZ,
 	    Time:2,
@@ -348,7 +348,7 @@ module AuthenticZRecipes {
   	{
 		timedAction = Making,	
 		NeedToBeLearn = False,
-		OnCreate = AZRecipe.Recipes.OnCreate.InstantCraft,		
+
 		Tags = InHandCraft;CanBeDoneInDark,
         category = AuthenticZ,
 	    Time:2,
@@ -365,7 +365,7 @@ module AuthenticZRecipes {
 	craftRecipe Convert into Wearable (Camera)
   	{
 		timedAction = Making,	
-		OnCreate = AZRecipe.Recipes.OnCreate.InstantCraft,		
+
 		NeedToBeLearn = False,
 		Tags = InHandCraft,
         category = AuthenticZ,
@@ -453,7 +453,7 @@ module AuthenticZRecipes {
   	{
 		timedAction = Making,	
 		NeedToBeLearn = False,
-		OnCreate = AZRecipe.Recipes.OnCreate.InstantCraft,		
+
 		Tags = InHandCraft;CanBeDoneInDark,
         category = AuthenticZ,
 	    Time:5,
@@ -718,13 +718,13 @@ module AuthenticZRecipes {
 		Time = 60,
 		OnCreate = Recipe.OnCreate.DismantleMiscElectronics,
 		OnTest = Recipe.OnTest.DismantleElectronics,		
-		Tags = InHandCraft;Electrical,
-        category = Electrical,
+		Tags = InHandCraft;AuthenticZ,
+        category = AuthenticZ,
 		xpAward = Electricity:2,
 		inputs
 		{
 			item 1 tags[Screwdriver] mode:keep flags[MayDegradeLight;NoBrokenItems],
-			item 1 [AuthenticZLite.Authentic_Headphones] mappers[dHeadphones1] mode:destroy itemcount,
+			item 1 [AuthenticZLite.Authentic_Headphones] mappers[dHeadphones1],
 		}
 		outputs
 		{
@@ -744,13 +744,13 @@ module AuthenticZRecipes {
 		Time = 60,
 		OnCreate = Recipe.OnCreate.DismantleMiscElectronics,
 		OnTest = Recipe.OnTest.DismantleElectronics,		
-		Tags = InHandCraft;Electrical,
-        category = Electrical,
+		Tags = InHandCraft;AuthenticZ,
+        category = AuthenticZ,
 		xpAward = Electricity:2,
 		inputs
 		{
 			item 1 tags[Screwdriver] mode:keep flags[MayDegradeLight;NoBrokenItems],
-			item 1 [AuthenticZLite.Authentic_Headphones2] mappers[dHeadphones2] mode:destroy itemcount,
+			item 1 [AuthenticZLite.Authentic_Headphones2] mappers[dHeadphones2],
 		}
 		outputs
 		{
@@ -770,13 +770,13 @@ module AuthenticZRecipes {
 		Time = 60,
 		OnCreate = Recipe.OnCreate.DismantleMiscElectronics,
 		OnTest = Recipe.OnTest.DismantleElectronics,		
-		Tags = InHandCraft;Electrical,
-        category = Electrical,
+		Tags = InHandCraft;AuthenticZ,
+        category = AuthenticZ,
 		xpAward = Electricity:2,
 		inputs
 		{
 			item 1 tags[Screwdriver] mode:keep flags[MayDegradeLight;NoBrokenItems],
-			item 1 [AuthenticZLite.AuthenticGhostbusterTrap] mappers[dGtrap] mode:destroy itemcount,
+			item 1 [AuthenticZLite.AuthenticGhostbusterTrap] mappers[dGtrap],
 		}
 		outputs
 		{
@@ -796,13 +796,13 @@ module AuthenticZRecipes {
 		Time = 60,
 		OnCreate = Recipe.OnCreate.DismantleMiscElectronics,
 		OnTest = Recipe.OnTest.DismantleElectronics,		
-		Tags = InHandCraft;Electrical,
-        category = Electrical,
+		Tags = InHandCraft;AuthenticZ,
+        category = AuthenticZ,
 		xpAward = Electricity:2,
 		inputs
 		{
 			item 1 tags[Screwdriver] mode:keep flags[MayDegradeLight;NoBrokenItems],
-			item 1 [AuthenticZLite.BroadcastCamera] mappers[dBVCamera] mode:destroy itemcount,
+			item 1 [AuthenticZLite.BroadcastCamera] mappers[dBVCamera],
 		}
 		outputs
 		{
@@ -820,8 +820,8 @@ module AuthenticZRecipes {
     {
 		timedAction = MakingElectrical,
 		Time:150,
-		category = Electrical,
-		Tags = AnySurfaceCraft;Electrical,
+		category = AuthenticZ,
+		Tags = AnySurfaceCraft;AuthenticZ,
 		xpAward = Electricity:2,
 		inputs
 		{
@@ -835,17 +835,18 @@ module AuthenticZRecipes {
 		}
     }
 
-	craftRecipe InsertBattery
+	craftRecipe InsertBattery-AZ
 	{
         timedAction = MakingElectrical,
 		Time = 30,
 		OnCreate = Recipe.OnCreate.TorchBatteryInsert,
 		Tags = InHandCraft;CanBeDoneInDark,
-        category = Electrical,
+        category = AuthenticZ,
 		inputs
 		{
-			item 1 [AuthenticZLite.Authentic_MilitaryFlashlightGrey;AuthenticZLite.Authentic_MilitaryFlashlightGreen;AuthenticZLite.Torch2;AuthenticZLite.HandTorch2;AuthenticZLite.Authentic_MinerLightbulb] mappers[torchTypeAZ] flags[IsEmpty] mode:destroy itemcount,
-			item 1 [Base.Battery] mode:destroy itemcount,
+			item 1 [AuthenticZLite.Authentic_MilitaryFlashlightGrey;AuthenticZLite.Authentic_MilitaryFlashlightGreen;AuthenticZLite.Torch2;AuthenticZLite.HandTorch2;AuthenticZLite.Authentic_MinerLightbulb] mappers[torchTypeAZ] mode:keep flags[IsEmpty;AllowFavorite;ItemCount],
+			item 1 [Base.Battery] flags[ItemCount] mode:destroy,
+			
 		}
 		outputs
 		{
@@ -861,17 +862,17 @@ module AuthenticZRecipes {
 		}
 	}
  
-	craftRecipe RemoveBattery
+	craftRecipe RemoveBattery-AZ
    {
      timedAction = DismantleElectrical,   
      Time:30,	 
 	 AllowBatchCraft = False,
 	 OnCreate = Recipe.OnCreate.TorchBatteryRemoval,
 	 Tags = InHandCraft;CanBeDoneInDark,
-     category = Electrical,	
+     category = AuthenticZ,	
 		inputs
 		{
-			item 1 [AuthenticZLite.Authentic_MinerLightbulb;AuthenticZLite.HandTorch2;AuthenticZLite.Torch2;AuthenticZLite.Authentic_MilitaryFlashlightGreen;AuthenticZLite.Authentic_MilitaryFlashlightGrey] mode:keep flags[NotEmpty] itemcount,
+			item 1 [AuthenticZLite.Authentic_MinerLightbulb;AuthenticZLite.HandTorch2;AuthenticZLite.Torch2;AuthenticZLite.Authentic_MilitaryFlashlightGreen;AuthenticZLite.Authentic_MilitaryFlashlightGrey] mode:keep flags[NotEmpty;ItemCount],
 		}
 		outputs
 		{

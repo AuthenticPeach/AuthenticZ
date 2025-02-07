@@ -821,7 +821,8 @@ module AuthenticZBackpacksPlus {
 		FillFromLakeSound = GetWaterFromLakeBottle,
 		FillFromTapSound = GetWaterFromTapPlasticMedium,
 		Tooltip = Tooltip_item_OnlyPurifyMicrowave,
-		StaticModel = WaterBottle,
+		AttachmentType  	= 	WaterBottle,
+		StaticModel 		= 	WaterBottle, 
 		WorldStaticModel = WaterBottleFull,
         	Tags = CookableMicrowave,
 		/* OnCreate	= SpecialLootSpawns.OnCreateWaterBottle, */
@@ -856,7 +857,7 @@ module AuthenticZBackpacksPlus {
 		StaticModel 		= 			PopBottle,
 		WorldStaticModel 	= 			PopBottle,
         AttachmentType  	= 			WaterBottle,
-        	Tags = CookableMicrowave,
+        	Tags = CookableMicrowave;LightWhenAttached,
 		/* OnCreate	= SpecialLootSpawns.OnCreateWaterBottle, */
 
         	component FluidContainer
@@ -887,7 +888,7 @@ module AuthenticZBackpacksPlus {
 		FillFromLakeSound = GetWaterFromLakeSmall,
 		FillFromTapSound = GetWaterFromTapMetalMedium,
 		FillFromToiletSound = GetWaterFromToilet,
-		Tags = Cookable;HasMetal;SealedBeverageCan,
+		Tags = Cookable;HasMetal;SealedBeverageCan;LightWhenAttached,
 		WorldStaticModel 	= 			PopCanFizz,
         AttachmentType  	= 			Sodacan,		
 
@@ -919,7 +920,7 @@ module AuthenticZBackpacksPlus {
 		FillFromLakeSound = GetWaterFromLakeSmall,
 		FillFromTapSound = GetWaterFromTapMetalMedium,
 		FillFromToiletSound = GetWaterFromToilet,
-		Tags = Cookable;HasMetal;SealedBeverageCan,
+		Tags = Cookable;HasMetal;SealedBeverageCan;LightWhenAttached,
 		WorldStaticModel 	= 			PopCanFizz,
         AttachmentType  	= 			Sodacan,		
 
@@ -951,7 +952,7 @@ module AuthenticZBackpacksPlus {
 		FillFromLakeSound = GetWaterFromLakeSmall,
 		FillFromTapSound = GetWaterFromTapMetalMedium,
 		FillFromToiletSound = GetWaterFromToilet,
-		Tags = Cookable;HasMetal;SealedBeverageCan,
+		Tags = Cookable;HasMetal;SealedBeverageCan;LightWhenAttached,
 		WorldStaticModel 	= 			PopCanFizz,
         AttachmentType  	= 			Sodacan,		
 
@@ -965,6 +966,42 @@ module AuthenticZBackpacksPlus {
             	Fluids
             		{
                 	fluid           = GingerAle:1.0,
+            		}
+        	}
+	}
+
+	item SodaCan
+	{
+		DisplayName 		= Can of Soda,
+		DisplayCategory 	= Food,
+		Type 				= Normal,
+		Weight 				= 0.3,
+		Icon 				= PopCan_Generic,
+		EatType 			= popcan,
+		IconColorMask 		= PopCan_Generic_Mask,
+		StaticModel 		= PopCanGeneric,
+		WorldStaticModel 	= PopCanGeneric,
+        AttachmentType  	= Sodacan,				
+		OnCreate 			= SpecialLootSpawns.OnCreateSodaCan,
+		Tags 				= Cookable;HasMetal;SealedBeverageCan,
+
+        	component FluidContainer
+        	{
+            	ContainerName   = CanPop,
+				PickRandomFluid	= true,
+				Opened	= false,
+            	capacity        = 0.3,
+				CustomDrinkSound = DrinkingFromCan,
+
+            	Fluids
+            		{
+                fluid           = SodaBlueberry:1.0,
+                fluid           = SodaBubblegum:1.0,
+                fluid           = SodaPop:1.0,
+                fluid           = SodaLime:1.0,
+                fluid           = SodaGrape:1.0,
+                fluid           = SodaPineapple:1.0,
+                fluid           = SodaStrewberry:1.0,
             		}
         	}
 	}
@@ -991,7 +1028,8 @@ module AuthenticZBackpacksPlus {
         StaticModel = PopBottle,
         EatType = bottle,
         WorldStaticModel 	= 			PopBottleWorld,
-        AttachmentType  	= 			WaterBottle,			
+        AttachmentType  	= 			WaterBottle,	
+        Tags = LightWhenAttached,		
 	}	
 	
 	item LighterAZ
