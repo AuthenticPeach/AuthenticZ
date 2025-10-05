@@ -817,7 +817,7 @@ module AuthenticZLite {
 		MaxHitCount			=	2,
 		DoorDamage			=	5,
 		IdleAnim			=	Idle_Weapon2,
-		SwingAnim			=	Bat,
+		SwingAnim			=	Bat,		
         secondaryAnimMask	= 	HoldingTorchLeft,		
 		DisplayName			=	Crutch,
 		MinRange			=	0.61,
@@ -828,16 +828,24 @@ module AuthenticZLite {
 		Icon				=	CrutchAZ,
 		RunAnim				=	Run_Weapon2,
         TwoHandWeapon 		= 	TRUE,
-       	BreakSound  		=  	BreakWoodItem,
         TreeDamage  		=  	1,
 		CriticalChance		=	20,
 		critDmgMultiplier	= 	2,
 		MinDamage			=	0.8,
 		MaxDamage			=	1.1,
 		BaseSpeed 			= 	1,
-		WeaponLength 		= 	0.45,
+		WeaponLength 		= 	0.5,
 		AttachmentType 		= 	Shovel,
-		WorldStaticModel	= 	WorldItem-CrutchAZ,		
+		WorldStaticModel	= 	WorldItem-CrutchAZ,
+		
+        BreakSound  =   MetalBaseballBatBreak,
+        DoorHitSound = MetalBaseballBatHit,
+        DropSound = MetalBaseballBatDrop,
+		HitSound = MetalBaseballBatHit,
+		HitFloorSound = MetalBaseballBatHit,
+		SwingSound = MetalBaseballBatSwing,	
+		
+		Tags = HasMetal;RepairWithEpoxy;ScrapAluminumLarge,		
 	}
 	
    item AuthenticGhostbusterTrap
@@ -880,7 +888,13 @@ module AuthenticZLite {
 	    WeaponLength 				= 	0.23,
 	    AttachmentType 				= 	Hammer,
 		WorldStaticModel 			= 	WorldItem-GhostbusterTrap,
-    }	
+
+        DoorHitSound = MetalBaseballBatHit,
+        DropSound = MetalBaseballBatDrop,
+		HitSound = MetalBaseballBatHit,
+		HitFloorSound = MetalBaseballBatHit,
+		SwingSound = MetalBaseballBatSwing,			
+    }		
 	
     item Postal_Petition
     {
@@ -1651,6 +1665,12 @@ module AuthenticZLite {
         BaseSpeed = 1,
         WeaponLength = 0.3,		
 		AttachmentType = Wrench,
+		
+        DoorHitSound = MetalBaseballBatHit,
+        DropSound = MetalBaseballBatDrop,
+		HitSound = MetalBaseballBatHit,
+		HitFloorSound = MetalBaseballBatHit,
+		SwingSound = MetalBaseballBatSwing,		
     }
     item MandoSpear
     {
@@ -1684,16 +1704,16 @@ module AuthenticZLite {
         TreeDamage  	=   0,
         CriticalChance	=	30,
         CritDmgMultiplier = 10,
-        MinDamage	=	1,
-        MaxDamage	=	1.4,
+        MinDamage		 =	1,
+        MaxDamage		 =	1.4,
         DamageCategory   =  Slash,
         DamageMakeHole   =  TRUE,
-        BreakSound  	 =  WoodenLanceBreak,
-        HitFloorSound	 =	WoodenLanceHit,
-        ImpactSound		 =	WoodenLanceHit,
-        DoorHitSound 	 =  WoodenLanceHit,
-        HitSound		 =	WoodenLanceHit,
-        SwingSound		 =	WoodenLanceSwing,
+        BreakSound  	 =  MetalBaseballBatBreak,
+        DoorHitSound 	 = 	MetalBaseballBatHit,
+        DropSound 	 	 = 	MetalBaseballBatDrop,
+		HitSound 		 = 	MetalBaseballBatHit,
+		HitFloorSound 	 = 	MetalBaseballBatHit,
+		SwingSound 		 = 	MetalBaseballBatSwing,
         SoundMap 		 =  SpearStab WoodenLanceStab,
 		AttachmentType   =  Shovel,
         Tags 			 =  FishingSpear,

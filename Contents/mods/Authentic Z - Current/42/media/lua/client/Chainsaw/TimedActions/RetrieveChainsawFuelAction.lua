@@ -1,5 +1,5 @@
 --- Code by Konijima & AuthenticPeach 2023
---[[
+
 local ChainsawAPI = require("Chainsaw/ChainsawAPI");
 
 local function predicatePetrol(item)
@@ -95,4 +95,3 @@ function RetrieveChainsawFuelAction:new(character, chainsaw)
 end
 
 return RetrieveChainsawFuelAction;
---]]

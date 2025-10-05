@@ -1,4 +1,4 @@
---[[
+
 local ChainsawAPI = require("Chainsaw/ChainsawAPI");
 
 AZ_ChainsawUtil = AZ_ChainsawUtil or {}
@@ -28,4 +28,3 @@ function AZ_ChainsawUtil.OnCreate.TurnOffChainsaw(item)
         end
     end, 1);
 end
-]]

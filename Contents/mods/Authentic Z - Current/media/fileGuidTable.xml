@@ -4266,7 +4266,7 @@
 	<files>
 		<path>media/clothing/clothingItems/CultistRobe.xml</path>
 		<guid>3cd1289c-50e3-4fd9-b6a7-45e59262ec32</guid>
-	</files>
+	</files>	
 	<files>
 		<path>media/clothing/clothingItems/CultistHat.xml</path>
 		<guid>c8e1d8b3-9ef5-43fe-aaa0-f52d489b1fe4</guid>
@@ -4968,6 +4968,22 @@
 	<files>
 		<path>media/clothing/clothingItems/Hat_Graduation_Cap.xml</path>
 		<guid>79f9b82f-25cd-453e-ae34-f1b20d925618</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Hat_Hellraiser_Butterball_Mask.xml</path>
+		<guid>ef581034-1a98-4ee4-8f4b-83117c55e299</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Hat_Hellraiser_Chatterer_Mask.xml</path>
+		<guid>ad9c8034-8343-426d-934d-8f653fbb5182</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Hat_Hellraiser_Pinhead_Mask.xml</path>
+		<guid>270a0aee-7c5d-475b-a7bc-864a0eea69db</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Hat_Hellraiser_OpenThroat_Mask.xml</path>
+		<guid>d1af9bca-5040-4059-99dd-0df287804585</guid>
 	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Hat_HockeyMaskJason.xml</path>

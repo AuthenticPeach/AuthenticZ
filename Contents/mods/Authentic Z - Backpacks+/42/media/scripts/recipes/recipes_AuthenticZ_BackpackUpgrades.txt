@@ -1656,7 +1656,7 @@ module AuthenticZBackpacksPlus{
 	    Time:300,
 		inputs
 		{
-			item 1 [Base.Bag_Schoolbag],
+			item 1 [Base.Bag_Schoolbag;Base.Bag_Schoolbag_Travel],
 			item 3 [Base.Thread],
 			item 3 [Base.LeatherStrips;Base.DenimStrips],
 			item 1 tags[Scissors] mode:keep,
@@ -2272,7 +2272,7 @@ module AuthenticZBackpacksPlus{
 	    Time:300,
 		inputs
 		{
-			item 1 [Base.Bag_NormalHikingBag],
+			item 1 [Base.Bag_NormalHikingBag;Base.Bag_HikingBag_Travel],
 			item 3 [Base.Thread],
 			item 3 [Base.LeatherStrips;Base.DenimStrips],
 			item 1 tags[Scissors] mode:keep,

@@ -75,7 +75,10 @@ local SealedMedkit = {
             "SutureNeedleHolder",
             "Tweezers",
 }
-function OpenSealedMedkit(items, result, character)
+
+function OpenSealedMedkit(craftRecipeData, character)
+    local items = craftRecipeData:getAllConsumedItems()
+    local results = craftRecipeData:getAllCreatedItems()
  character:getInventory():AddItem(SealedMedkit[ZombRand(#SealedMedkit)+1]);
  character:getInventory():AddItem(SealedMedkit[ZombRand(#SealedMedkit)+1]);
  character:getInventory():AddItem(SealedMedkit[ZombRand(#SealedMedkit)+1]);
@@ -86,9 +89,6 @@ function OpenSealedMedkit(items, result, character)
  character:getInventory():AddItem(SealedMedkit[ZombRand(#SealedMedkit)+1]);
 end
 
-function AZRecipe.OnCreate.GiveMeRadio(items, result, character)
-    character:getInventory():AddItem("Radio.WalkieTalkie5");
-end
 
 function AZRecipe.OnGiveXP.Tailoring20(AZRecipe, ingredients, result, character)
     character:getXp():AddXP(Perks.Tailoring, 15);

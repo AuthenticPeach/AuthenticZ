@@ -10,4 +10,7 @@
 	<textureChoices>clothes\bag\hikingbaggreen</textureChoices>
 	<textureChoices>clothes\bag\hikingbagred</textureChoices>
 	<textureChoices>clothes\bag\HikingBag_Camo</textureChoices>
+	<textureChoices>clothes\bag\HikingBag_Travel_Blue</textureChoices>
+	<textureChoices>clothes\bag\HikingBag_Travel_Green</textureChoices>
+	<textureChoices>clothes\bag\HikingBag_Travel_Red</textureChoices>	
 </clothingItem>

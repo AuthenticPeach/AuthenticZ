@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media\models_X\Skinned\Clothes\Hellraiser_Chatterer_Mask.FBX</m_MaleModel>
+	<m_FemaleModel>media\models_X\Skinned\Clothes\Hellraiser_Chatterer_Mask.FBX</m_FemaleModel>
+	<m_GUID>ad9c8034-8343-426d-934d-8f653fbb5182</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_HatCategory>nohair</m_HatCategory>		
+	<m_Masks>0</m_Masks>	
+	<m_MasksFolder>media/textures/Clothes/Hat/Masks</m_MasksFolder>
+	<textureChoices>clothes\Masks\Hellraiser_Chatterer_Mask</textureChoices>
+</clothingItem>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>Skinned\Clothes\Spiffo_Happy_Cap_Sideways</m_MaleModel>
+	<m_FemaleModel>Skinned\Clothes\Spiffo_Happy_Cap_Sideways</m_FemaleModel>
+	<m_GUID>51c7b1aa-97eb-49a3-9e54-e4d5b90e6c74</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_HatCategory>Group01</m_HatCategory>
+	<m_MasksFolder>media/textures/Clothes/Hat/Masks</m_MasksFolder>
+	<textureChoices>clothes\Hats\Spiffo_Happy_Cap</textureChoices>
+</clothingItem>

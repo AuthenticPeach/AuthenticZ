@@ -43,8 +43,8 @@ ContextMenu_IT = {
 
 			/* Update 1-2-23 */		
 	
-   	 ContextMenu_WearHigher = "Indossa più alto",
-   	 ContextMenu_WearLower = "Indossa più basso",
+   	 ContextMenu_WearHigher = "Indossa piÃ¹ alto",
+   	 ContextMenu_WearLower = "Indossa piÃ¹ basso",
   	 ContextMenu_WearRight = "Indossa sul lato destro",
   	 ContextMenu_WearLeft = "Indossa sul lato sinistro",	
 	

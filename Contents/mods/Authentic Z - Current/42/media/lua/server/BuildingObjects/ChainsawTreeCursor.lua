@@ -1,6 +1,6 @@
 --- Code by Konijima, 2022
 --- Make tree selectable to chainsaw them down savagely :D
---[[
+
 local ChainsawAPI = require("Chainsaw/ChainsawAPI");
 local ChainsawCutTreeAction = require("Chainsaw/TimedActions/ChainsawCutTreeAction");
 
@@ -52,4 +52,3 @@ function ChainsawTreeCursor:new(sprite, northSprite, character, chainsaw)
 	o.skipBuildAction = true
 	return o
 end
-]]

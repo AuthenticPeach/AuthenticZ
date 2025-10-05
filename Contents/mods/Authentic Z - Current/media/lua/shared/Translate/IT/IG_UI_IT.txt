@@ -90,6 +90,6 @@ IGUI_IT = {
 	IGUI_ItemCat_Chainsaw = "Motosega",
     	IGUI_ItemEditor_FuelConsumption = "Consumo di carburante",
     	IGUI_ItemEditor_CurrentFuel = "Carburante attuale",
-    	IGUI_ItemEditor_FuelCapacity = "Capacit‡ del carburante",
+    	IGUI_ItemEditor_FuelCapacity = "Capacit√† del carburante",
     	IGUI_ItemEditor_RetrieveFuel = "Recupera carburante",
 }

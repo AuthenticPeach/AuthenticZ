@@ -85,6 +85,7 @@ local function preDistributionMerge()
             "AuthenticZClothing.AuthenticBalloon_Yellow", 1,
             "AuthenticZClothing.AuthenticBalloon_Blue", 1,
             "AuthenticZClothing.AuthenticBalloon_Green", 1,			
+            "AuthenticZClothing.AuthenticBalloon_Star_Yellow", 1,			
             }
         }
     }
@@ -191,6 +192,7 @@ local function preDistributionMerge()
             "AuthenticZClothing.AuthenticBalloon_Yellow", 1,
             "AuthenticZClothing.AuthenticBalloon_Blue", 1,
             "AuthenticZClothing.AuthenticBalloon_Green", 1,
+            "AuthenticZClothing.AuthenticBalloon_Star_Yellow", 1,
             "AuthenticZClothing.AuthenticGlowstick_Red", 1,         
             "AuthenticZClothing.AuthenticGlowstick_Green", 1,         
             "AuthenticZClothing.AuthenticGlowstick_Yellow", 1,                
@@ -239,6 +241,7 @@ local function preDistributionMerge()
             "AuthenticZClothing.AuthenticBalloon_Yellow", 1,
             "AuthenticZClothing.AuthenticBalloon_Blue", 1,
             "AuthenticZClothing.AuthenticBalloon_Green", 1,         
+            "AuthenticZClothing.AuthenticBalloon_Star_Yellow", 1,         
             "AuthenticZClothing.AuthenticGlowstick_Red", 1,         
             "AuthenticZClothing.AuthenticGlowstick_Green", 1,         
             "AuthenticZClothing.AuthenticGlowstick_Yellow", 1,         
@@ -347,6 +350,7 @@ local function preDistributionMerge()
             "AuthenticZClothing.AuthenticBalloon_Yellow", 1,
             "AuthenticZClothing.AuthenticBalloon_Blue", 1,
             "AuthenticZClothing.AuthenticBalloon_Green", 1, 
+            "AuthenticZClothing.AuthenticBalloon_Star_Yellow", 1, 
             "AuthenticZClothing.AuthenticGlowstick_Red", 1,         
             "AuthenticZClothing.AuthenticGlowstick_Green", 1,         
             "AuthenticZClothing.AuthenticGlowstick_Yellow", 1,    			
@@ -542,6 +546,7 @@ local function preDistributionMerge()
             "AuthenticZClothing.AuthenticBalloon_Yellow", 1,
             "AuthenticZClothing.AuthenticBalloon_Blue", 1,
             "AuthenticZClothing.AuthenticBalloon_Green", 1,
+            "AuthenticZClothing.AuthenticBalloon_Star_Yellow", 1,
             "AuthenticZClothing.AuthenticGlowstick_Red", 1,         
             "AuthenticZClothing.AuthenticGlowstick_Green", 1,         
             "AuthenticZClothing.AuthenticGlowstick_Yellow", 1,    			
@@ -663,6 +668,7 @@ local function preDistributionMerge()
             "AuthenticZClothing.AuthenticBalloon_Yellow", 1,
             "AuthenticZClothing.AuthenticBalloon_Blue", 1,
             "AuthenticZClothing.AuthenticBalloon_Green", 1,
+            "AuthenticZClothing.AuthenticBalloon_Star_Yellow", 1,
             "AuthenticZClothing.AuthenticGlowstick_Red", 1,         
             "AuthenticZClothing.AuthenticGlowstick_Green", 1,         
             "AuthenticZClothing.AuthenticGlowstick_Yellow", 1,    			

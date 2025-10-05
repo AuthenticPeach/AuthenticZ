@@ -1,4 +1,4 @@
---[[
+
 local ChainsawAPI = require("Chainsaw/ChainsawAPI");
 
 ---@class ChainsawItemEditorUI : ISPanel
@@ -387,4 +387,3 @@ function ChainsawItemEditorUI:new(x, y, width, height, admin, item)
 end
 
 return ChainsawItemEditorUI;
---]]

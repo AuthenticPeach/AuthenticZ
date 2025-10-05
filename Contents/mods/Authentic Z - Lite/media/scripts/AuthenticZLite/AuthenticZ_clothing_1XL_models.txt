@@ -40,7 +40,7 @@ module AuthenticZLite {
 		DisplayName				= Coveralls,	
 		ClothingItem			= Fat01_Coveralls,
         ClothingItemExtra 		= Boilersuit;AuthenticZLite.Fat02_Coveralls,
-        ClothingItemExtraOption = Tighten,Wear2XL,
+        ClothingItemExtraOption = Tighten;Wear2XL,
 		clothingExtraSubmenu 	= Loosen,				
         BodyLocation = FullSuit,
         Icon = BoilerSuitBigDaddy,

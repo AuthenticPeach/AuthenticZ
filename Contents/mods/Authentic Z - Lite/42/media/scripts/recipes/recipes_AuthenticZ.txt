@@ -166,6 +166,41 @@ module AuthenticZRecipes {
 		}	   
   	}	
 	
+	craftRecipe Convert into Item (Deer Skull)
+  	{
+		timedAction = Making,	
+		NeedToBeLearn = False,
+
+		Tags = InHandCraft;CanBeDoneInDark,
+        category = AuthenticZ,
+	    Time:2,
+		inputs
+		{
+			item 1 [AuthenticZLite.Hat_DeerSkull],
+		}
+		outputs
+		{
+			item 1 Base.DeerStag_Skull,			
+		}	   
+  	}
+	craftRecipe Convert into Item (Cow Skull)
+  	{
+		timedAction = Making,	
+		NeedToBeLearn = False,
+		OnCreate = AZRecipe.Recipes.OnCreate.InstantCraft,
+		Tags = InHandCraft;CanBeDoneInDark,
+        category = AuthenticZ,
+	    Time:2,
+		inputs
+		{
+			item 1 [AuthenticZLite.Hat_PyromancerSkull],
+		}
+		outputs
+		{
+			item 1 Base.Cow_Skull,			
+		}	   
+  	}
+	
 	craftRecipe Convert into Wearable (Cigar)
   	{
 		timedAction = Making,	

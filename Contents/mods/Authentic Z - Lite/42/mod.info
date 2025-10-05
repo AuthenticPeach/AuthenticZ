@@ -4,7 +4,9 @@ description=Clothing Only, No Backpack attachments. ENABLE THIS ONLY PLEASE!<LIN
 description=Incompatible with: <LINE>
 description=Geared Zombies <LINE>
 
-pzversion=41
+incompatible=\Authentic Z - Current,\AuthenticZBackpacks+
+
+pzversion=42
 tags=Zombie,Realistic
 authors=AuthenticPeach
 icon=logo_AZ_Clown.png

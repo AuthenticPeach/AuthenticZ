@@ -3,17 +3,29 @@ require 'NPCs/BodyLocations'
 --**                    THE INDIE STONE                    **
 --***********************************************************
 
--- Locations must be declared in render-order.
--- Location IDs must match BodyLocation= and CanBeEquipped= values in items.txt.
-local group = BodyLocations.getGroup("Human")
+local function addCustomBodyLocations()
+    local group = BodyLocations.getGroup("Human")
+    if not group then
+        print("BodyLocations group 'Human' not found")
+        return
+    end
 
-group:getOrCreateLocation("HeadExtra")
-group:getOrCreateLocation("HeadExtraHair")
-group:getOrCreateLocation("HeadExtraPlus")
-group:getOrCreateLocation("NeckExtra")
-group:getOrCreateLocation("LegsExtra")
-group:getOrCreateLocation("TorsoRigPlus2")
-group:getOrCreateLocation("TorsoExtraPlus1")
+    -- List your custom location names here
+    local names = {
+        "HeadExtra",
+        "HeadExtraHair",
+        "HeadExtraPlus",
+        "NeckExtra",
+        "LegsExtra",
+        "TorsoRigPlus2",
+        "TorsoExtraPlus1",
+    }
 
+    for _, name in ipairs(names) do
+        local loc = BodyLocation.new(group, name)
+        group:getAllLocations():add(loc)
+    end
+end
 
+Events.OnGameBoot.Add(addCustomBodyLocations)
 

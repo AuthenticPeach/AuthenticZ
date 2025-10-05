@@ -1,163 +1,189 @@
+--- ChainsawMain.lua
 --- Code by Konijima & AuthenticPeach 2023
---- Manage World Context menu and Inventory Context Menu
---[[
-local ChainsawAPI = require("Chainsaw/ChainsawAPI");
-local ChainsawItemEditorUI = require("Chainsaw/UI/ChainsawItemEditorUI");
-local RefuelChainsawAction = require("Chainsaw/TimedActions/RefuelChainsawAction");
-local StartChainsawAction = require("Chainsaw/TimedActions/StartChainsawAction");
-local StopChainsawAction = require("Chainsaw/TimedActions/StopChainsawAction");
---local RetrieveChainsawFuelAction = require("Chainsaw/TimedActions/RetrieveChainsawFuelAction");
+--- Full file with debug‐enhanced petrol check and refuel hookup
 
+local ChainsawAPI            = require("Chainsaw/ChainsawAPI")
+local ChainsawItemEditorUI   = require("Chainsaw/UI/ChainsawItemEditorUI")
+local RefuelChainsawAction   = require("Chainsaw/TimedActions/RefuelChainsawAction")
+local StartChainsawAction    = require("Chainsaw/TimedActions/StartChainsawAction")
+local StopChainsawAction     = require("Chainsaw/TimedActions/StopChainsawAction")
+-- local RetrieveChainsawFuelAction = require("Chainsaw/TimedActions/RetrieveChainsawFuelAction")
 
+-------------------------------------------------------
+-- PETROL PREDICATE WITH DEBUG
+-------------------------------------------------------
 local function predicatePetrol(item)
-	return (item:hasTag("Petrol") or item:getType() == "PetrolCan") and (item:getDrainableUsesInt() > 0)
+    print("[ChainsawMain] predicatePetrol:", item and item:getType() or "nil")
+    -- must be an InventoryItem
+    if not instanceof(item, "InventoryItem") then
+        print("   skip: not an InventoryItem")
+        return false
+    end
+
+    -- first: fluid container (your new PetrolCan)
+    local cont = item:getFluidContainer()
+    if cont then
+        local amt = cont:getAmount()
+        local cap = cont:getCapacity()
+        print(("   found FluidContainer amt=%.2f cap=%.2f"):format(amt, cap))
+        if cap > 0 and amt > 0 then
+            print("   pass: has fluid in container")
+            return true
+        else
+            print("   skip: container empty or no capacity")
+            return false
+        end
+    end
+
+    -- fallback: legacy drainable petrol tag
+    if item.hasTag
+    and item:hasTag("Petrol")
+    and item.getDrainableUsesInt
+    and item:getDrainableUsesInt() > 0 then
+        print("   pass: legacy drainable petrol")
+        return true
+    end
+
+    print("   skip: no fluid container or petrol tag")
+    return false
 end
 
+-------------------------------------------------------
+-- ACTION WRAPPERS
+-------------------------------------------------------
 local function doRefuelChainsaw(playerObj, chainsaw)
-    ISWorldObjectContextMenu.transferIfNeeded(playerObj, chainsaw);
-    ISTimedActionQueue.add(ISEquipWeaponAction:new(playerObj, chainsaw, 20, true, chainsaw:isTwoHandWeapon()));
-    ISTimedActionQueue.add(RefuelChainsawAction:new(playerObj, chainsaw));
+    print("[ChainsawMain] doRefuelChainsaw")
+    ISWorldObjectContextMenu.transferIfNeeded(playerObj, chainsaw)
+    ISTimedActionQueue.add(
+        ISEquipWeaponAction:new(playerObj, chainsaw, 20, true, chainsaw:isTwoHandWeapon())
+    )
+    ISTimedActionQueue.add(RefuelChainsawAction:new(playerObj, chainsaw))
 end
---[[ 
+
 local function doRetrieveFuel(playerObj, chainsaw)
-    print("doRetrieveFuel called with chainsaw of type:", chainsaw:getType())
-    --
+    print("[ChainsawMain] doRetrieveFuel")
     if chainsaw then
-        ISWorldObjectContextMenu.transferIfNeeded(playerObj, chainsaw);
-        if chainsaw:isTwoHandWeapon() then
-            ISTimedActionQueue.add(ISEquipWeaponAction:new(playerObj, chainsaw, 20, true, true));
-        end
-        ISTimedActionQueue.add(RetrieveChainsawFuelAction:new(playerObj, chainsaw));
-    else
-        print("Invalid chainsaw object or not a valid item.")
+        ISWorldObjectContextMenu.transferIfNeeded(playerObj, chainsaw)
+        ISTimedActionQueue.add(
+            ISEquipWeaponAction:new(playerObj, chainsaw, 20, true, chainsaw:isTwoHandWeapon())
+        )
+        --ISTimedActionQueue.add(RetrieveChainsawFuelAction:new(playerObj, chainsaw))
     end
 end
---]]
---[[
 
 local function doStartChainsaw(playerObj, chainsaw)
-    ISWorldObjectContextMenu.transferIfNeeded(playerObj, chainsaw);
-    ISTimedActionQueue.add(ISEquipWeaponAction:new(playerObj, chainsaw, 20, true, chainsaw:isTwoHandWeapon()));
-    ISTimedActionQueue.add(StartChainsawAction:new(playerObj, chainsaw));
+    print("[ChainsawMain] doStartChainsaw")
+    ISWorldObjectContextMenu.transferIfNeeded(playerObj, chainsaw)
+    ISTimedActionQueue.add(
+        ISEquipWeaponAction:new(playerObj, chainsaw, 20, true, chainsaw:isTwoHandWeapon())
+    )
+    ISTimedActionQueue.add(StartChainsawAction:new(playerObj, chainsaw))
 end
 
 local function doStopChainsaw(playerObj, chainsaw)
-    ISWorldObjectContextMenu.transferIfNeeded(playerObj, chainsaw);
-    ISTimedActionQueue.add(ISEquipWeaponAction:new(playerObj, chainsaw, 20, true, chainsaw:isTwoHandWeapon()));
-    ISTimedActionQueue.add(StopChainsawAction:new(playerObj, chainsaw));
+    print("[ChainsawMain] doStopChainsaw")
+    ISWorldObjectContextMenu.transferIfNeeded(playerObj, chainsaw)
+    ISTimedActionQueue.add(
+        ISEquipWeaponAction:new(playerObj, chainsaw, 20, true, chainsaw:isTwoHandWeapon())
+    )
+    ISTimedActionQueue.add(StopChainsawAction:new(playerObj, chainsaw))
 end
 
 local function doChopTree(playerObj, chainsaw, tree)
+    print("[ChainsawMain] doChopTree")
     local chopTree = ChainsawTreeCursor:new("", "", playerObj, chainsaw)
-	getCell():setDrag(chopTree, playerObj:getPlayerNum());
+    getCell():setDrag(chopTree, playerObj:getPlayerNum())
 end
 
---- World Context Menu
+-------------------------------------------------------
+-- WORLD CONTEXT MENU
+-------------------------------------------------------
 local function onFillWorldObjectContextMenu(player, context, worldobjects, test)
-    if test then return; end
-    
-    local playerObj = getSpecificPlayer(player);
+    if test then return end
+    local playerObj = getSpecificPlayer(player)
+    if playerObj:getVehicle() then return end
 
-    --- Chainsaw in a vehicle? not sure its a great idea lol
-    if playerObj:getVehicle() then return; end
-
-    local item = playerObj:getPrimaryHandItem();
-
-    --- Is it a chainsaw
+    local item = playerObj:getPrimaryHandItem()
     if item and ChainsawAPI.predicateWorkingChainsaw(item) then
-
-        --- is it running?
         if ChainsawAPI.isChainsawRunning(item) then
-            context:addOptionOnTop(getText("ContextMenu_Stop_Chainsaw"), playerObj, doStopChainsaw, item);
-
-            --- is a tree clicked?
-            if tree then
-                context:addOptionOnTop(getText("ContextMenu_Chainsaw_Tree"), playerObj, doChopTree, item, tree);
-            end
+            context:addOptionOnTop(getText("ContextMenu_Stop_Chainsaw"), playerObj, doStopChainsaw, item)
+            -- TODO: detect tree under mouse
         else
-            --- wanna start chainsaw if it has fuel?
-            local startOption = context:addOptionOnTop(getText("ContextMenu_Start_Chainsaw"), playerObj, doStartChainsaw, item);
-            if not ChainsawAPI.hasFuel(item) then
-                startOption.notAvailable = true;
+            local startOpt = context:addOptionOnTop(getText("ContextMenu_Start_Chainsaw"), playerObj, doStartChainsaw, item)
+            if not ChainsawAPI.hasFuel(item) then startOpt.notAvailable = true end
+
+            if not ChainsawAPI.isFull(item)
+            and playerObj:getInventory():containsEval(predicatePetrol) then
+                context:addOptionOnTop(getText("ContextMenu_Refuel_Chainsaw"), playerObj, doRefuelChainsaw, item)
             end
 
-            --- Has fuel in inventory lets refuel?
-            if not ChainsawAPI.isFull(item) and playerObj:getInventory():containsEval(predicatePetrol) then
-                context:addOptionOnTop(getText("ContextMenu_Refuel_Chainsaw"), playerObj, doRefuelChainsaw, item);
+            if ChainsawAPI.hasFuel(item) then
+                context:addOptionOnTop(getText("ContextMenu_RetrieveFuel_Chainsaw"), playerObj, doRetrieveFuel, item)
             end
---[[		
-            --- Has fuel in chainsaw lets retrieve?
-            if not ChainsawAPI.isFull(item) and playerObj:getInventory():containsEval(predicatePetrol) then
-               context:addOptionOnTop(getText("ContextMenu_RetrieveFuel_Chainsaw"), playerObj, doRetrieveFuel, item);
-            end
-			
         end
     end
-
 end
-Events.OnFillWorldObjectContextMenu.Add(onFillWorldObjectContextMenu);
+Events.OnFillWorldObjectContextMenu.Add(onFillWorldObjectContextMenu)
 
---- Inventory Context Menu
+-------------------------------------------------------
+-- INVENTORY CONTEXT MENU
+-------------------------------------------------------
 local function onFillInventoryObjectContextMenu(player, context, items)
-    if test then return; end
+    if test then return end
+    print("[ChainsawMain] onFillInventoryObjectContextMenu fired")
 
-    local playerObj = getSpecificPlayer(player);
+    local playerObj = getSpecificPlayer(player)
+    local chainsaw
 
-    --- Check if a chainsaw was selected
-    local chainsaw;
-    for i,v in ipairs(items) do
-        if not instanceof(v, "InventoryItem") then
+    -- find selected chainsaw
+    for _, v in ipairs(items) do
+        if instanceof(v, "InventoryItem") and ChainsawAPI.predicateWorkingChainsaw(v) then
+            chainsaw = v; break
+        elseif v.items then
             for _, it in ipairs(v.items) do
                 if ChainsawAPI.predicateWorkingChainsaw(it) then
-                    chainsaw = it;
-                    break;
+                    chainsaw = it; break
                 end
             end
-        elseif ChainsawAPI.predicateWorkingChainsaw(v) then
-            chainsaw = v;
-            break;
+            if chainsaw then break end
         end
     end
 
-    --- Selected a chainsaw
-    if chainsaw then
-        
-        --- Debug edit chainsaw
-        if isDebugEnabled() or isAdmin() then
-            local function doEditChainsaw()
-                local ui = ChainsawItemEditorUI:new(50,50,600,600, player, chainsaw);
-                ui:initialise();
-                ui:addToUIManager();
+    if not chainsaw then return end
+
+    -- debug editor (admin)
+    if isDebugEnabled() or isAdmin() then
+        context:addDebugOption(
+            "Edit Chainsaw", nil,
+            function()
+                local ui = ChainsawItemEditorUI:new(50,50,600,600, player, chainsaw)
+                ui:initialise()
+                ui:addToUIManager()
             end
-            context:addDebugOption("Edit Chainsaw", nil, doEditChainsaw);
+        )
+    end
+
+    if ChainsawAPI.isChainsawRunning(chainsaw) then
+        context:addOptionOnTop(getText("ContextMenu_Stop_Chainsaw"), playerObj, doStopChainsaw, chainsaw)
+    else
+        local startOpt = context:addOptionOnTop(getText("ContextMenu_Start_Chainsaw"), playerObj, doStartChainsaw, chainsaw)
+        if not ChainsawAPI.hasFuel(chainsaw) then startOpt.notAvailable = true end
+
+        -- **REFUEL**
+        if not ChainsawAPI.isFull(chainsaw)
+        and playerObj:getInventory():containsEval(predicatePetrol) then
+            context:addOptionOnTop(
+                getText("ContextMenu_Refuel_Chainsaw"),
+                playerObj,
+                doRefuelChainsaw,
+                chainsaw
+            )
         end
 
-        --- is it running?
-        if ChainsawAPI.isChainsawRunning(chainsaw) then
-            context:addOptionOnTop(getText("ContextMenu_Stop_Chainsaw"), playerObj, doStopChainsaw, chainsaw);
-        else
-            
-            --- wanna start chainsaw if it has fuel?
-            local startOption = context:addOptionOnTop(getText("ContextMenu_Start_Chainsaw"), playerObj, doStartChainsaw, chainsaw);
-            if not ChainsawAPI.hasFuel(chainsaw) then
-                startOption.notAvailable = true;
-            end
-
-            --- Has fuel in inventory lets refuel?
-            if not ChainsawAPI.isFull(chainsaw) and playerObj:getInventory():containsEval(predicatePetrol) then
-                context:addOptionOnTop(getText("ContextMenu_Refuel_Chainsaw"), playerObj, doRefuelChainsaw, chainsaw);
-            end
---[[			
-            --- Has fuel in inventory lets refuel?
-            if not ChainsawAPI.isFull(chainsaw) and playerObj:getInventory():containsEval(predicatePetrol) then
-				context:addOptionOnTop(getText("ContextMenu_RetrieveFuel_Chainsaw"), playerObj, doRetrieveFuel, item);
-            end
-	
+        -- retrieve fuel
+        if ChainsawAPI.hasFuel(chainsaw) then
+            context:addOptionOnTop(getText("ContextMenu_RetrieveFuel_Chainsaw"), playerObj, doRetrieveFuel, chainsaw)
         end
-    else 
-	
-	end
+    end
 end
-Events.OnFillInventoryObjectContextMenu.Add(onFillInventoryObjectContextMenu);
---]]
---]]
+Events.OnFillInventoryObjectContextMenu.Add(onFillInventoryObjectContextMenu)

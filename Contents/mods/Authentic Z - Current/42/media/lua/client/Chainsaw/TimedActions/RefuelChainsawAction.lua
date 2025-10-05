@@ -1,86 +1,99 @@
---- Code by Konijima, 2022
---[[
-local ChainsawAPI = require("Chainsaw/ChainsawAPI");
+--- RefuelChainsawAction.lua
+--- 2025-05-25  Full rewrite to mirror ISAddGasolineToVehicle pattern
 
-local function predicatePetrol(item)
-	return (item:hasTag("Petrol") or item:getType() == "PetrolCan") and (item:getDrainableUsesInt() > 0)
-end
+local ChainsawAPI       = require("Chainsaw/ChainsawAPI")
+local ISBaseTimedAction = ISBaseTimedAction
 
 ---@class RefuelChainsawAction : ISBaseTimedAction
 local RefuelChainsawAction = ISBaseTimedAction:derive("RefuelChainsawAction")
 
+--- ctor: must call the base so maxTime, stopOnWalk, etc. get set
+---@param character IsoPlayer
+---@param chainsaw InventoryItem -- should be ChainsawOff
+function RefuelChainsawAction:new(character, chainsaw)
+    -- call base ctor to set up maxTime, stopOnWalk/run, etc.
+    local o = ISBaseTimedAction.new(self, character)
+    o.chainsaw        = chainsaw
+    o.chainsawModData = chainsaw:getModData()
+
+    -- grab the first petrol can with fluid
+    o.petrol = character:getInventory():getFirstEval(function(item)
+        if not instanceof(item, "InventoryItem") then return false end
+        local fc = item:getFluidContainer()
+        return fc and fc:getCapacity() > 0 and fc:getAmount() > 0
+    end)
+    o.fluidCont = o.petrol and o.petrol:getFluidContainer()
+
+    -- override defaults
+    o.stopOnRun  = true
+    o.stopOnWalk = false
+    return o
+end
+
 function RefuelChainsawAction:isValid()
-	return self.petrol and 
-    self.chainsaw and 
-    self.chainsaw:hasTag("ChainsawOff") and 
-    not ChainsawAPI.isChainsawRunning(self.chainsaw) and 
-    not ChainsawAPI.isFull(self.chainsaw);
+    return self.petrol
+       and self.fluidCont
+       and self.chainsaw:hasTag("ChainsawOff")
+       and not ChainsawAPI.isChainsawRunning(self.chainsaw)
+       and not ChainsawAPI.isFull(self.chainsaw)
 end
 
 function RefuelChainsawAction:update()
-    self.chainsaw:setJobDelta(self:getJobDelta());
-    self.petrol:setJobDelta(self:getJobDelta());
+    local d = self:getJobDelta()
+    self.chainsaw:setJobDelta(d)
+    self.petrol:setJobDelta(d)
 end
 
 function RefuelChainsawAction:start()
-    self.chainsaw:setJobType(getText("ContextMenu_Refuel_Chainsaw"));
-    self.chainsaw:setJobDelta(0.0);
-    self.petrol:setJobType(getText("ContextMenu_Refuel_Chainsaw"));
-    self.petrol:setJobDelta(0.0);
+    self.chainsaw:setJobType(getText("ContextMenu_Refuel_Chainsaw"))
+    self.chainsaw:setJobDelta(0)
+    self.petrol:setJobType(getText("ContextMenu_Refuel_Chainsaw"))
+    self.petrol:setJobDelta(0)
 
-    local unitLeft = math.floor(self.petrol:getUsedDelta() / self.petrol:getUseDelta());
-    local unitNeeded = (self.chainsawModData.FuelCapacity or 4.0) - (self.chainsawModData.CurrentFuel or 0);
-    local unitTransfer = math.min(unitLeft, unitNeeded);
+    -- compute time = unitsToTransfer * 50
+    local before   = self.chainsawModData.CurrentFuel or 0
+    local cap      = self.chainsawModData.FuelCapacity or 4.0
+    local canAmt   = self.fluidCont:getAmount()
+    local transfer = math.min(cap - before, canAmt)
+    self:setTime(transfer * 50)
 
-    self.action:setTime(unitTransfer * 50);
-
-    self:setActionAnim("RefuelChainsaw");
-
-    self:setOverrideHandModels(self.chainsaw:getStaticModel(), self.petrol:getStaticModel());
-
-    self.sound = self.character:playSound("GeneratorAddFuel");
+    self:setActionAnim("RefuelChainsaw")
+    self:setOverrideHandModels(
+      self.chainsaw:getStaticModel(),
+      self.petrol:getStaticModel()
+    )
+    self.sound = self.character:playSound("GeneratorAddFuel")
 end
 
 function RefuelChainsawAction:stop()
-    self.character:stopOrTriggerSound(self.sound);
-    self.chainsaw:setJobDelta(0.0);
-    self.petrol:setJobDelta(0.0);
-
+    if self.sound then self.character:stopOrTriggerSound(self.sound) end
+    self.chainsaw:setJobDelta(0)
+    self.petrol:setJobDelta(0)
     ISBaseTimedAction.stop(self)
 end
 
+-- just finish the action (no fuel transfer here)
 function RefuelChainsawAction:perform()
-    self.character:stopOrTriggerSound(self.sound);
-    self.chainsaw:setJobDelta(0.0);
-    self.petrol:setJobDelta(0.0);
-
-    self.chainsawModData.CurrentFuel = self.chainsawModData.CurrentFuel or 0;
-
-    local endFuel = 0;
-    while self.petrol and self.petrol:getUsedDelta() > 0 and self.chainsawModData.CurrentFuel + endFuel < self.chainsawModData.FuelCapacity do
-        self.petrol:Use();
-        endFuel = endFuel + 1;
-    end
-
-    self.chainsawModData.CurrentFuel = self.chainsawModData.CurrentFuel + endFuel;
-
-    -- needed to remove from queue / start next.
+    if self.sound then self.character:stopOrTriggerSound(self.sound) end
+    self.chainsaw:setJobDelta(0)
+    self.petrol:setJobDelta(0)
     ISBaseTimedAction.perform(self)
 end
 
-function RefuelChainsawAction:new(character, chainsaw)
-	local o = {}
-	setmetatable(o, self)
-	self.__index = self
-	o.character = character
-	o.chainsaw = chainsaw
-    o.chainsawModData = chainsaw:getModData();
-    o.petrol = character:getInventory():getFirstEval(predicatePetrol);
-	o.stopOnWalk = false
-	o.stopOnRun = true
-	o.maxTime = 50
-	return o
+--- after the bar fills, actually move the fluid
+function RefuelChainsawAction:complete()
+    local before   = self.chainsawModData.CurrentFuel or 0
+    local cap      = self.chainsawModData.FuelCapacity or 4.0
+    local canAmt   = self.fluidCont:getAmount()
+    local transfer = math.min(cap - before, canAmt)
+    if transfer > 0 then
+        self.fluidCont:adjustAmount(-transfer)
+        self.petrol:syncItemFields()
+        self.chainsawModData.CurrentFuel = before + transfer
+    end
+
+    -- final cleanup
+    ISBaseTimedAction.perform(self)
 end
 
-return RefuelChainsawAction;
---]]
+return RefuelChainsawAction

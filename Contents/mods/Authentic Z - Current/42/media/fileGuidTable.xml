@@ -7466,11 +7466,15 @@
 	<files>
 		<path>media/clothing/clothingItems/CultistRobe.xml</path>
 		<guid>3cd1289c-50e3-4fd9-b6a7-45e59262ec32</guid>
-	</files>
+	</files>	
 	<files>
 		<path>media/clothing/clothingItems/CultistHat.xml</path>
 		<guid>c8e1d8b3-9ef5-43fe-aaa0-f52d489b1fe4</guid>
 	</files>
+	<files>
+		<path>media/clothing/clothingItems/CultistHood.xml</path>
+		<guid>84c1a51c-54f4-4393-88b4-d4fe5b875fb5</guid>
+	</files>	
 	<files>
 		<path>media/clothing/clothingItems/CultistSign.xml</path>
 		<guid>34610269-6ae4-4aa4-be21-7423574f018a</guid>
@@ -7679,6 +7683,14 @@
 		<path>media/clothing/clothingItems/Glasses_AviatorsSunset.xml</path>
 		<guid>882e870c-c037-46f7-b6d3-5f350bc692eb</guid>
 	</files>
+	<files>
+		<path>media/clothing/clothingItems/Glasses_AZ_Sunglasses1.xml</path>
+		<guid>5132df79-461f-4068-8a1c-77ecf021697b</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Glasses_AZ_Sunglasses2.xml</path>
+		<guid>71b0ce0a-428e-402d-be85-80c0c7f157ff</guid>
+	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Glasses_Cheese.xml</path>
 		<guid>72fc0f15-769a-4d1b-9ada-3bc7abab82fe</guid>
@@ -8168,6 +8180,22 @@
 	<files>
 		<path>media/clothing/clothingItems/Hat_Graduation_Cap.xml</path>
 		<guid>79f9b82f-25cd-453e-ae34-f1b20d925618</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Hat_Hellraiser_Butterball_Mask.xml</path>
+		<guid>ef581034-1a98-4ee4-8f4b-83117c55e299</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Hat_Hellraiser_Chatterer_Mask.xml</path>
+		<guid>ad9c8034-8343-426d-934d-8f653fbb5182</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Hat_Hellraiser_Pinhead_Mask.xml</path>
+		<guid>270a0aee-7c5d-475b-a7bc-864a0eea69db</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Hat_Hellraiser_OpenThroat_Mask.xml</path>
+		<guid>d1af9bca-5040-4059-99dd-0df287804585</guid>
 	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Hat_HockeyMaskJason.xml</path>
@@ -8232,6 +8260,18 @@
 	<files>
 		<path>media/clothing/clothingItems/Hat_SantaHatWhite.xml</path>
 		<guid>fb5c2082-e51f-460e-a25f-0bcb71cb1056</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Hat_Spiffo_Happy_Cap.xml</path>
+		<guid>0e875bae-d24a-42dd-a6f6-c4577138e18e</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Hat_Spiffo_Happy_Cap_Reverse.xml</path>
+		<guid>ea0e4dcd-9825-43d0-8333-bc7f3238d7c9</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Hat_Spiffo_Happy_Cap_Sideways.xml</path>
+		<guid>51c7b1aa-97eb-49a3-9e54-e4d5b90e6c74</guid>
 	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Hat_StormtrooperHelmetAZ.xml</path>
@@ -9000,6 +9040,10 @@
 	<files>
 		<path>media/clothing/clothingItems/Mask_Samurai.xml</path>
 		<guid>4c8525a4-c5eb-4898-8618-9035c7dae70f</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Mask_TheMask.xml</path>
+		<guid>ba868197-8dcc-407e-adec-f2d51221b4bc</guid>
 	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Mime_Overalls.xml</path>
