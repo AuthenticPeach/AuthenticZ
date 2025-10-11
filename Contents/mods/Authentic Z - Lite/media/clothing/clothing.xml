@@ -11032,7 +11032,10 @@
 			</subItems>
 			<subItems>
 				<itemGUID>b18b5e46-7b9e-417b-ab9c-83f2401ab425</itemGUID>
-			</subItems>			
+			</subItems>		
+			<subItems> <!-- Hat_Spiffo_Happy_Cap Reverse -->
+				<itemGUID>ea0e4dcd-9825-43d0-8333-bc7f3238d7c9</itemGUID>
+			</subItems>					
 		</m_items>
 		<m_items> <!-- Jeans Baggy -->
 			<itemGUID>8973893f-f324-4cdb-a32b-43cd0378174f</itemGUID>
@@ -20148,6 +20151,7 @@
 			</subItems>				
 		</m_items>			
 	</m_MaleOutfits>
+
 <m_FemaleOutfits> <m_Name>AuthenticSwimmer</m_Name>
 		<m_Guid>1244c133-278b-4fe7-8663-eafeb5bf6846</m_Guid>
 		<m_Top>false</m_Top>
@@ -20460,6 +20464,82 @@
 			</subItems>				
 		</m_items>			
 	</m_MaleOutfits>	
+
+<m_MaleOutfits> <m_Name>AuthenticTheMask</m_Name>
+		<m_Guid>92a173c8-6861-48ca-bd26-859978c3c92b</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_items> <!-- Feathered Hat - The Mask -->
+			<itemGUID>c3fbfe2e-153c-4290-9689-f771d8f70ad1</itemGUID>
+		</m_items>		
+		<m_items> <!-- Formal Shirt -->
+			<itemGUID>ac7976de-2c73-44ea-9392-5d24ac1fb649</itemGUID>
+		</m_items>
+		<m_items> <!-- The Mask Suit Jacket -->
+			<itemGUID>353a30d2-973c-4944-84a7-4d8fd152c39b</itemGUID>
+		</m_items>		
+		<m_items> <!-- The Mask Suit Pants -->
+			<itemGUID>374f0d03-7beb-4622-b7c5-e07b509c778a</itemGUID>
+		</m_items>
+		<m_items> <!-- Socks -->
+			<itemGUID>ebea15c8-99b3-4e20-905b-d22cf82b8217</itemGUID>
+		</m_items>
+		<m_items> <!-- Shoes -->
+			<itemGUID>593bea3d-c127-4574-ac1e-2197dc56e486</itemGUID>
+		</m_items>		
+		<m_items> <!-- The Mask's Tie -->
+			<itemGUID>cfb88c0b-4215-44a6-be85-1ecb814bd3a3</itemGUID>
+		</m_items>		
+		<m_items>  <!-- The Mask -->
+			<itemGUID>c3fbfe2e-153c-4290-9689-f771d8f70ad1</itemGUID>
+		</m_items>		 
+		<m_items> <!-- Rings -->
+			<probability>0.6</probability>
+			<itemGUID>4cbb081e-0e9a-4248-bec1-0aa226e082e1</itemGUID>
+			<subItems>
+				<itemGUID>e4b3135f-a541-4870-a7b9-2ba6f730bc5c</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items> <!-- Watches -->
+			<probability>0.6</probability>
+			<itemGUID>9b91619f-3c00-47da-a8e2-8765e80d40c3</itemGUID>
+			<subItems>
+				<itemGUID>dbfbe3c4-d96e-4f8a-bf77-25bdbd9863b9</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items> <!-- Dismembered Bone_Arm_L -->
+			<probability>0.01</probability>		
+			<itemGUID>6e10e6c0-0ac4-4010-974c-56d57f1edd46</itemGUID>
+			<subItems> <!-- Bone_Arm_R-->
+				<itemGUID>5eab0171-d6d2-422e-b69a-3387f219652f</itemGUID>
+			</subItems>
+			<subItems> <!-- Bone_UpperArm_L -->
+				<itemGUID>4736ed99-f312-44f3-b312-8dffd1629a25</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bone_UpperArm_R -->
+				<itemGUID>9b7d0838-abd4-4720-bd91-260c5e8c8003</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bone_Hand_L -->
+				<itemGUID>9f1781e7-c6b6-4fee-adfb-cf14ef833a76</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bone_Hand_R -->
+				<itemGUID>6e7fb312-cb8b-4bf4-8062-c2a72851e190</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bone_Stub_R -->
+				<itemGUID>ade3238e-17c4-4ddd-896b-eadb3208635c</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bone_Stub_L -->
+				<itemGUID>4f9d39e6-34d0-402f-8b1e-6a243cdb8a1c</itemGUID>
+			</subItems>
+			<subItems> <!-- Bones_UpperArm_L -->
+				<itemGUID>a114f19f-5c3f-4006-a0d2-1dc3f308dbd6</itemGUID>
+			</subItems>	
+			<subItems> <!-- Bones_UpperArm_R -->
+				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
+			</subItems>				
+		</m_items>			
+	</m_MaleOutfits>
 	
 <m_MaleOutfits> <m_Name>AuthenticTheyLive</m_Name>
 		<m_Guid>47c009c1-94f5-483d-a63c-a9a84672f1d2</m_Guid>
@@ -21293,7 +21373,7 @@
 				<itemGUID>30c303ef-18ab-4f14-a602-8305e92376b0</itemGUID>
 			</subItems>				
 		</m_items>			
-	</m_FemaleOutfits>	
+</m_FemaleOutfits>	
 
 <m_FemaleOutfits> <m_Name>StudentFemale</m_Name>
 		<m_Guid>3f469f0f-d2fb-4005-a607-acc66fe4d64e</m_Guid>			
@@ -21366,7 +21446,13 @@
 			</subItems>
 			<subItems> <!-- Red DI Baseball cap-->
 				<itemGUID>b097d106-7f6a-485d-aa1d-87a996e4370e</itemGUID>
-			</subItems>			
+			</subItems>	
+			<subItems> <!-- Hat_Spiffo_Happy_Cap -->
+				<itemGUID>0e875bae-d24a-42dd-a6f6-c4577138e18e</itemGUID>
+			</subItems>	
+			<subItems> <!-- Hat_Spiffo_Happy_Cap Reverse -->
+				<itemGUID>ea0e4dcd-9825-43d0-8333-bc7f3238d7c9</itemGUID>
+			</subItems>				
 		</m_items>
 		<m_items> <!-- Glasses-->
 			<probability>0.2</probability>
@@ -21736,7 +21822,10 @@
 			</subItems>
 			<subItems> <!-- BaseballCap SmileyFace -->
 				<itemGUID>1d159dd5-d387-4c10-ada8-de58911b29e3</itemGUID>
-			</subItems>			
+			</subItems>
+			<subItems> <!-- Hat_Spiffo_Happy_Cap Reverse -->
+				<itemGUID>ea0e4dcd-9825-43d0-8333-bc7f3238d7c9</itemGUID>
+			</subItems>					
 		</m_items>
 		<m_items>  <!-- Glasses -->
 			<probability>0.2</probability>
@@ -21867,6 +21956,9 @@
 			<subItems>
 				<itemGUID>3d9930a6-2732-4d19-8701-17a94ed575a2</itemGUID>
 			</subItems>
+			<subItems> <!-- Hat_Spiffo_Happy_Cap -->
+				<itemGUID>0e875bae-d24a-42dd-a6f6-c4577138e18e</itemGUID>
+			</subItems>					
 		</m_items>
 		<m_items>
 			<probability>0.3</probability> <!-- CameraVanillaRegular-->

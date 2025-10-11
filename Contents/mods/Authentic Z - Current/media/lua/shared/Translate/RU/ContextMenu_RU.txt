@@ -1,53 +1,53 @@
 ContextMenu_RU = {
-	ContextMenu_Loosen = "РћСЃР»Р°Р±РёС‚СЊ",
-	ContextMenu_Tighten = "Р—Р°С‚СЏРЅСѓС‚СЊ",
-	ContextMenu_TieOnWaist = "РћР±РІСЏР·Р°С‚СЊ РІРѕРєСЂСѓРі РїРѕСЏСЃР°",
+	ContextMenu_Loosen = "Ослабить",
+	ContextMenu_Tighten = "Затянуть",
+	ContextMenu_TieOnWaist = "Обвязать вокруг пояса",
 
 	/* Translate 02.2023 */
 	
-	ContextMenu_JacketOpen = "Р Р°СЃСЃС‚РµРіРЅСѓС‚СЊ",
-	ContextMenu_ClosedJacket = "Р—Р°СЃС‚РµРіРЅСѓС‚СЊ",
+	ContextMenu_JacketOpen = "Расстегнуть",
+	ContextMenu_ClosedJacket = "Застегнуть",
 	
-	ContextMenu_VestBag = "РСЃРїРѕР»СЊР·РѕРІР°С‚СЊ РєР°Рє СЃСѓРјРєСѓ",
-	ContextMenu_VestBullet = "РСЃРїРѕР»СЊР·РѕРІР°С‚СЊ РєР°Рє Р±СЂРѕРЅРµР¶РёР»РµС‚",
-	ContextMenu_VestRadio = "РСЃРїРѕР»СЊР·РѕРІР°С‚СЊ РєР°Рє СЂР°РґРёРѕ",
+	ContextMenu_VestBag = "Использовать как сумку",
+	ContextMenu_VestBullet = "Использовать как бронежилет",
+	ContextMenu_VestRadio = "Использовать как радио",
 	
-	ContextMenu_WearHead = "РќР°РґРµС‚СЊ РЅР° РіРѕР»РѕРІСѓ",
-	ContextMenu_WearNeck = "РџРѕРІРµСЃРёС‚СЊ РЅР° С€РµСЋ",
+	ContextMenu_WearHead = "Надеть на голову",
+	ContextMenu_WearNeck = "Повесить на шею",
 	
-	ContextMenu_AfroPick = "РќР°РґРµС‚СЊ РґР»СЏ РѕР±СЉРµРјРЅРѕР№ РїСЂРёС‡РµСЃРєРё",	
-	ContextMenu_AfroPick2 = "РќР°РґРµС‚СЊ РґР»СЏ РјР°Р»РµРЅСЊРєРѕР№ РїСЂРёС‡РµСЃРєРё",	
+	ContextMenu_AfroPick = "Надеть для объемной прически",	
+	ContextMenu_AfroPick2 = "Надеть для маленькой прически",	
 	
-	ContextMenu_HatsOnHats = "РќР°РґРµС‚СЊ С€Р»СЏРїСѓ РЅР° С€Р»СЏРїСѓ",	
-	ContextMenu_WearNormally = "РќР°РґРµС‚СЊ РЅР° РіРѕР»РѕРІСѓ",	
+	ContextMenu_HatsOnHats = "Надеть шляпу на шляпу",	
+	ContextMenu_WearNormally = "Надеть на голову",	
 	
-	ContextMenu_TakeOffShoeCovers = "РЎРЅСЏС‚СЊ Р±Р°С…РёР»С‹",	
-	ContextMenu_TakeOffShoeCoversAndMask = "РЎРЅСЏС‚СЊ Р±Р°С…РёР»С‹ Рё РјР°СЃРєСѓ",	
-	ContextMenu_TakeOffMask = "РЎРЅСЏС‚СЊ РјР°СЃРєСѓ",	
-	ContextMenu_WearNormally2 = "РќР°РґРµС‚СЊ СЃ РјР°СЃРєРѕР№ Рё Р±Р°С…РёР»Р°РјРё",	
+	ContextMenu_TakeOffShoeCovers = "Снять бахилы",	
+	ContextMenu_TakeOffShoeCoversAndMask = "Снять бахилы и маску",	
+	ContextMenu_TakeOffMask = "Снять маску",	
+	ContextMenu_WearNormally2 = "Надеть с маской и бахилами",	
 
-	ContextMenu_TipHatBack = "РћРїСѓСЃС‚РёС‚СЊ С€Р»СЏРїСѓ",	
-	ContextMenu_TipHatForward = "РџСЂРёРїРѕРґРЅСЏС‚СЊ С€Р»СЏРїСѓ",	
+	ContextMenu_TipHatBack = "Опустить шляпу",	
+	ContextMenu_TipHatForward = "Приподнять шляпу",	
 
 	/* Update 6-25-22 */	
 
-	ContextMenu_PullVeilBack = "РћС‚РєРёРЅСѓС‚СЊ С„Р°С‚Сѓ",	
-	ContextMenu_PullVeilForward = "РќР°РєРёРЅСѓС‚СЊ С„Р°С‚Сѓ",		
-	ContextMenu_SwapSides = "РџРµСЂРµРІРµСЃРёС‚СЊ",
+	ContextMenu_PullVeilBack = "Откинуть фату",	
+	ContextMenu_PullVeilForward = "Накинуть фату",		
+	ContextMenu_SwapSides = "Перевесить",
 	
 	/* Chainsaw */
 
-	ContextMenu_Start_Chainsaw = "Р—Р°РїСѓСЃС‚РёС‚СЊ Р±РµРЅР·РѕРїРёР»Сѓ",
-	ContextMenu_Stop_Chainsaw = "РћСЃС‚Р°РЅРѕРІРёС‚СЊ Р±РµРЅР·РѕРїРёР»Сѓ",
-	ContextMenu_Refuel_Chainsaw = "Р—Р°РїСЂР°РІРёС‚СЊ Р±РµРЅР·РѕРїРёР»Сѓ",
-	ContextMenu_Unjam_Chainsaw = "РЈСЃС‚СЂР°РЅРёС‚СЊ Р·Р°РєР»РёРЅРёРІР°РЅРёРµ",
-	ContextMenu_Chainsaw_Tree = "РЎРїРёР»РёС‚СЊ РґРµСЂРµРІРѕ",	
+	ContextMenu_Start_Chainsaw = "Запустить бензопилу",
+	ContextMenu_Stop_Chainsaw = "Остановить бензопилу",
+	ContextMenu_Refuel_Chainsaw = "Заправить бензопилу",
+	ContextMenu_Unjam_Chainsaw = "Устранить заклинивание",
+	ContextMenu_Chainsaw_Tree = "Спилить дерево",	
 
 	/* Update 1-2-23 */		
 	
-	ContextMenu_WearHigher = "РќР°РґРµС‚СЊ РїРѕРІС‹С€Рµ",
-	ContextMenu_WearLower = "РќР°РґРµС‚СЊ РїРѕРЅРёР¶Рµ",
-	ContextMenu_WearRight = "РќР°РґРµС‚СЊ СЃРїСЂР°РІР°",
-	ContextMenu_WearLeft = "РќР°РґРµС‚СЊ СЃР»РµРІР°",	
+	ContextMenu_WearHigher = "Надеть повыше",
+	ContextMenu_WearLower = "Надеть пониже",
+	ContextMenu_WearRight = "Надеть справа",
+	ContextMenu_WearLeft = "Надеть слева",	
 	
 } 

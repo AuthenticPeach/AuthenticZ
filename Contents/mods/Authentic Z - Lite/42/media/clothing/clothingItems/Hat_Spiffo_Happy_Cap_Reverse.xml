@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>Skinned\Clothes\Spiffo_Happy_Cap_Reverse</m_MaleModel>
+	<m_FemaleModel>Skinned\Clothes\Spiffo_Happy_Cap_Reverse</m_FemaleModel>
+	<m_GUID>ea0e4dcd-9825-43d0-8333-bc7f3238d7c9</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_HatCategory>Group01</m_HatCategory>
+	<m_MasksFolder>media/textures/Clothes/Hat/Masks</m_MasksFolder>
+	<textureChoices>clothes\Hats\Spiffo_Happy_Cap</textureChoices>
+</clothingItem>

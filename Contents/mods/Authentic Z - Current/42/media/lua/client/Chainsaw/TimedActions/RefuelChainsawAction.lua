@@ -1,6 +1,6 @@
 --- RefuelChainsawAction.lua
 --- 2025-05-25  Full rewrite to mirror ISAddGasolineToVehicle pattern
-
+--[[
 local ChainsawAPI       = require("Chainsaw/ChainsawAPI")
 local ISBaseTimedAction = ISBaseTimedAction
 
@@ -97,3 +97,4 @@ function RefuelChainsawAction:complete()
 end
 
 return RefuelChainsawAction
+--]]

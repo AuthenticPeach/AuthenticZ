@@ -75,6 +75,7 @@ AttachedWeaponDefinitions.Balloon= {
 		"AuthenticZLite.AuthenticBalloon_Red",
 		"AuthenticZLite.AuthenticBalloon_Green",
 		"AuthenticZLite.AuthenticBalloon_Yellow",		
+		"AuthenticZLite.AuthenticBalloon_Star_Yellow",		
 	},
 }
 AttachedWeaponDefinitions.BalloonP1= {
@@ -93,6 +94,7 @@ AttachedWeaponDefinitions.BalloonP1= {
 		"AuthenticZLite.AuthenticBalloon_Red",
 		"AuthenticZLite.AuthenticBalloon_Green",
 		"AuthenticZLite.AuthenticBalloon_Yellow",		
+		"AuthenticZLite.AuthenticBalloon_Star_Yellow",		
 	},
 }
 AttachedWeaponDefinitions.BalloonP2= {
@@ -111,6 +113,7 @@ AttachedWeaponDefinitions.BalloonP2= {
 		"AuthenticZLite.AuthenticBalloon_Red",
 		"AuthenticZLite.AuthenticBalloon_Green",
 		"AuthenticZLite.AuthenticBalloon_Yellow",		
+		"AuthenticZLite.AuthenticBalloon_Star_Yellow",		
 	},
 }
 AttachedWeaponDefinitions.BalloonP3= {
@@ -129,6 +132,7 @@ AttachedWeaponDefinitions.BalloonP3= {
 		"AuthenticZLite.AuthenticBalloon_Red",
 		"AuthenticZLite.AuthenticBalloon_Green",
 		"AuthenticZLite.AuthenticBalloon_Yellow",		
+		"AuthenticZLite.AuthenticBalloon_Star_Yellow",		
 	},
 }
 

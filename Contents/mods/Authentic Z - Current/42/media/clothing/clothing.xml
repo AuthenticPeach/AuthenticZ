@@ -11032,7 +11032,10 @@
 			</subItems>
 			<subItems>
 				<itemGUID>b18b5e46-7b9e-417b-ab9c-83f2401ab425</itemGUID>
-			</subItems>			
+			</subItems>	
+			<subItems> <!-- Hat_Spiffo_Happy_Cap Reverse -->
+				<itemGUID>ea0e4dcd-9825-43d0-8333-bc7f3238d7c9</itemGUID>
+			</subItems>				
 		</m_items>
 		<m_items> <!-- Jeans Baggy -->
 			<itemGUID>8973893f-f324-4cdb-a32b-43cd0378174f</itemGUID>
@@ -20665,8 +20668,8 @@
 		<m_items> <!-- The Masks Tie -->
 			<itemGUID>cfb88c0b-4215-44a6-be85-1ecb814bd3a3</itemGUID>
 		</m_items>	
-		<m_items>  <!-- The Mask MASK PLACEHOLDER -->
-			<itemGUID>58ac7cec-9859-4ef5-b205-053687a7c75d</itemGUID>
+		<m_items>  <!-- The Mask -->
+			<itemGUID>c3fbfe2e-153c-4290-9689-f771d8f70ad1</itemGUID>
 		</m_items>		 
 		<m_items> <!-- Rings -->
 			<probability>0.6</probability>
@@ -21620,7 +21623,13 @@
 			</subItems>
 			<subItems> <!-- Red DI Baseball cap-->
 				<itemGUID>b097d106-7f6a-485d-aa1d-87a996e4370e</itemGUID>
-			</subItems>			
+			</subItems>	
+			<subItems> <!-- Hat_Spiffo_Happy_Cap -->
+				<itemGUID>0e875bae-d24a-42dd-a6f6-c4577138e18e</itemGUID>
+			</subItems>	
+			<subItems> <!-- Hat_Spiffo_Happy_Cap Reverse -->
+				<itemGUID>ea0e4dcd-9825-43d0-8333-bc7f3238d7c9</itemGUID>
+			</subItems>				
 		</m_items>
 		<m_items> <!-- Glasses-->
 			<probability>0.2</probability>
@@ -21990,7 +21999,13 @@
 			</subItems>
 			<subItems> <!-- BaseballCap SmileyFace -->
 				<itemGUID>1d159dd5-d387-4c10-ada8-de58911b29e3</itemGUID>
-			</subItems>			
+			</subItems>	
+			<subItems> <!-- Hat_Spiffo_Happy_Cap -->
+				<itemGUID>0e875bae-d24a-42dd-a6f6-c4577138e18e</itemGUID>
+			</subItems>	
+			<subItems> <!-- Hat_Spiffo_Happy_Cap Reverse -->
+				<itemGUID>ea0e4dcd-9825-43d0-8333-bc7f3238d7c9</itemGUID>
+			</subItems>				
 		</m_items>
 		<m_items>  <!-- Glasses -->
 			<probability>0.2</probability>
@@ -22262,6 +22277,9 @@
 			<subItems> <!-- Hat_VisorRed -->
 				<itemGUID>3d9930a6-2732-4d19-8701-17a94ed575a2</itemGUID>
 			</subItems>
+			<subItems> <!-- Hat_Spiffo_Happy_Cap -->
+				<itemGUID>0e875bae-d24a-42dd-a6f6-c4577138e18e</itemGUID>
+			</subItems>				
 		</m_items>
 		<m_items> <!-- Shoes_FlipFlop -->
 			<itemGUID>46780aae-03ef-45d7-a0e8-36278f328576</itemGUID>

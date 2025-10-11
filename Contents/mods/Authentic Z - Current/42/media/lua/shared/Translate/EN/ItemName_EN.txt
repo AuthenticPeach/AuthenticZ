@@ -1268,6 +1268,8 @@ ItemName_EN = {
 	ItemName_AuthenticZClothing.Hat_Spiffo_Happy_Cap_Reverse =  "Spiffo Happy Cap (Reverse)",	
 	ItemName_AuthenticZClothing.Hat_Spiffo_Happy_Cap_Sideways =  "Spiffo Happy Cap (Sideways)",	
 	ItemName_AuthenticZClothing.AuthenticBalloon_Star_Yellow =  "Star Balloon",	
+	ItemName_AuthenticZClothing.AuthenticBalloon_Foil =  "Foil Balloon",	
+	ItemName_AuthenticZClothing.AuthenticBalloon_Animal_Dog =  "Animal Balloon - Dog",	
 	
 	
 }
