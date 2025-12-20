@@ -7003,6 +7003,18 @@
 		<guid>c860f8d0-c06a-47dc-b3ac-87da962f750d</guid>
 	</files>
 	<files>
+		<path>media/clothing/clothingItems/Bag_ALICEpack_DesertCamo_Tier1.xml</path>
+		<guid>dbdc26c1-5a92-4e71-b7c1-6ed4f959e0a6</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_ALICEpack_DesertCamo_Tier2.xml</path>
+		<guid>db38b9b1-2b80-406e-896d-5501af30f2fd</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_ALICEpack_DesertCamo_Tier3.xml</path>
+		<guid>6a15c86c-81a2-4935-8e08-61b1b82d49e9</guid>
+	</files>	
+	<files>
 		<path>media/clothing/clothingItems/Bag_Packsport_Plain.xml</path>
 		<guid>732a0feb-0e8b-4b3b-b007-ad69e3bc8a63</guid>
 	</files>
@@ -8369,6 +8381,10 @@
 		<path>media/clothing/clothingItems/Hat_UncleSam.xml</path>
 		<guid>6167c930-076f-4ed7-ad5e-7c2e407987d4</guid>
 	</files>
+	<files>
+		<path>media/clothing/clothingItems/Hat_Unicorn_Head.xml</path>
+		<guid>70e96c2c-9fbc-4d10-a503-6a45e838b3e6</guid>
+	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Hat_VikingHelmet.xml</path>
 		<guid>f11bcc22-2c56-4632-813b-7df3e446d9f1</guid>

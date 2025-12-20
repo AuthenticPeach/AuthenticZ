@@ -1,5 +1,5 @@
 --- ChainsawAPI.lua
-
+--[[
 local ChainsawAPI = {};
 
 local runningChainsaws = {};
@@ -216,3 +216,4 @@ function ChainsawAPI.stopChainsaw(item)
 end
 
 return ChainsawAPI;
+--]]

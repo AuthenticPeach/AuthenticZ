@@ -1,6 +1,6 @@
 --- Code by Konijima, 2022
 --- Stop chainsaw when unequipping
-
+--[[
 local ChainsawAPI = require("Chainsaw/ChainsawAPI");
 
 local original_ISUnequipAction_perform = ISUnequipAction.perform;
@@ -14,3 +14,4 @@ function ISUnequipAction:perform()
     original_ISUnequipAction_perform(self);
 
 end
+]]--

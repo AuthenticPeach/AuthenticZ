@@ -1,4 +1,4 @@
-
+--[[
 require "ISUI/ISToolTipInv"
 
 -- set width for pixel for fonts
@@ -118,3 +118,4 @@ end
 
 
 ISToolTipInv.render = ISToolTipInv.AZ_Chainsaw_render
+--]]

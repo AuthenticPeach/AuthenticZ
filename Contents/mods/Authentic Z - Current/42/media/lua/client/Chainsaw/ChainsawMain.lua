@@ -1,7 +1,7 @@
 --- ChainsawMain.lua
 --- Code by Konijima & AuthenticPeach 2023
 --- Full file with debug‐enhanced petrol check and refuel hookup
-
+--[[
 local ChainsawAPI            = require("Chainsaw/ChainsawAPI")
 local ChainsawItemEditorUI   = require("Chainsaw/UI/ChainsawItemEditorUI")
 local RefuelChainsawAction   = require("Chainsaw/TimedActions/RefuelChainsawAction")
@@ -187,3 +187,4 @@ local function onFillInventoryObjectContextMenu(player, context, items)
     end
 end
 Events.OnFillInventoryObjectContextMenu.Add(onFillInventoryObjectContextMenu)
+]]--

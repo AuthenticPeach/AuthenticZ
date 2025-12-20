@@ -556,6 +556,19 @@ AttachedWeaponDefinitions.PoliticianMoney= {
 	},
 }
 
+AttachedWeaponDefinitions.AZPoolNoodle= {
+	id = "AZPoolNoodle",
+	chance = 100,
+	outfit = {"Mannequin2", "Swimmer", "AuthenticSwimmer"},
+	weaponLocation =  {"Left Hand Item", "Right Hand Item"},
+	bloodLocations = nil,
+	addHoles = false,
+	daySurvived = 0,
+	weapons = {
+		"AuthenticZClothing.AuthenticPoolNoodle",
+	},
+}
+
 AttachedWeaponDefinitions.ReporterMicAll = {
 	id = "AZReporterMicAll",
 	chance = 100,
@@ -1860,6 +1873,29 @@ AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticDukeNukem = {
 		AttachedWeaponDefinitions.shotgunDukeNukem,
 	},
 }
+
+AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticSwimmer = {
+	chance = 10;
+	maxitem = 2;	
+	weapons = {
+		AttachedWeaponDefinitions.AZPoolNoodle,
+	},
+}
+AttachedWeaponDefinitions.attachedWeaponCustomOutfit.Swimmer = {
+	chance = 10;
+	maxitem = 2;
+	weapons = {
+		AttachedWeaponDefinitions.AZPoolNoodle,
+	},
+}
+AttachedWeaponDefinitions.attachedWeaponCustomOutfit.Mannequin2 = {
+	chance = 10;
+	maxitem = 2;
+	weapons = {
+		AttachedWeaponDefinitions.AZPoolNoodle,
+	},
+}
+
 AttachedWeaponDefinitions.attachedWeaponCustomOutfit.AuthenticTheyLive = {
 	chance = 100;
 	weapons = {

@@ -1,6 +1,15 @@
 -- This file is dedicated towards the recipe functions that the recipe scripts call upon. 
-require "Recipecode"
-require "XpSystem/XpUpdate"
+pcall(require, "Recipecode")
+pcall(require, "recipecode")
+
+pcall(require, "XpSystem/XpUpdate")
+
+-- Ensure Recipe table hierarchy exists before indexing into it
+Recipe = Recipe or {}
+Recipe.OnCreate = Recipe.OnCreate or {}
+Recipe.OnGiveXP  = Recipe.OnGiveXP or {}
+Recipe.OnTest    = Recipe.OnTest or {}
+Recipe.OnCanPerform = Recipe.OnCanPerform or {}
 
 --local ChainsawAPI = require("Chainsaw/ChainsawAPI");
 
@@ -9,6 +18,7 @@ AZRecipe.GetItemTypes = {}
 AZRecipe.OnCanPerform = {}
 AZRecipe.OnCreate = {}
 AZRecipe.OnGiveXP = {}
+AZRecipe = AZRecipe or {}
 AZRecipe.OnTest = {}
 
 function AuthenticTorchBatteryRemoval_OnCreate(items, result, character)

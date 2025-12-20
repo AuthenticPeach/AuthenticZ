@@ -1,5 +1,5 @@
 --- Code by Konijima, 2022
-
+--[[
 local ChainsawAPI = require("Chainsaw/ChainsawAPI");
 
 ---@class ChainsawCutTreeAction : ISBaseTimedAction
@@ -116,7 +116,7 @@ function ChainsawCutTreeAction:new(character, chainsaw, tree)
 	o.stopOnWalk = true
 	o.stopOnRun = true
 	o.maxTime = -1
-	o.spriteFrame = 0
+	o.spriteFrame = 0ds
     o.caloriesModifier = 4;
 	o.forceProgressBar = true;
 	return o
@@ -124,3 +124,4 @@ end
 
 return ChainsawCutTreeAction;
 
+--]]

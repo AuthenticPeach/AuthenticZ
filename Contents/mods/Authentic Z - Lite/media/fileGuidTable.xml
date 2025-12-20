@@ -4768,10 +4768,6 @@
 	<files>
 		<path>media/clothing/clothingItems/Hat_SweatbandPurple.xml</path>
 		<guid>1107e265-f011-4224-9449-46b67222ecc6</guid>
-	</files>
-	<files>
-		<path>media/clothing/clothingItems/Hat_TheMask.xml</path>
-		<guid>c3fbfe2e-153c-4290-9689-f771d8f70ad1</guid>
 	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Hat_WinslowHelmet.xml</path>
@@ -4817,6 +4813,10 @@
 		<path>media/clothing/clothingItems/Hat_UncleSam.xml</path>
 		<guid>6167c930-076f-4ed7-ad5e-7c2e407987d4</guid>
 	</files>
+	<files>
+		<path>media/clothing/clothingItems/Hat_Unicorn_Head.xml</path>
+		<guid>70e96c2c-9fbc-4d10-a503-6a45e838b3e6</guid>
+	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Hat_VikingHelmet.xml</path>
 		<guid>f11bcc22-2c56-4632-813b-7df3e446d9f1</guid>
@@ -5488,6 +5488,10 @@
 	<files>
 		<path>media/clothing/clothingItems/Mask_Samurai.xml</path>
 		<guid>4c8525a4-c5eb-4898-8618-9035c7dae70f</guid>
+	</files>	
+	<files>
+		<path>media/clothing/clothingItems/Mask_TheMask.xml</path>
+		<guid>ba868197-8dcc-407e-adec-f2d51221b4bc</guid>
 	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Mime_Overalls.xml</path>

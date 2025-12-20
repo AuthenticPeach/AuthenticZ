@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>Skinned\Clothes\AZ_Sunglasses_Shades</m_MaleModel>
+	<m_FemaleModel>Skinned\Clothes\AZ_Sunglasses_Shades</m_FemaleModel>
+	<m_GUID>71b0ce0a-428e-402d-be85-80c0c7f157ff</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_MasksFolder>none</m_MasksFolder>
+	<textureChoices>clothes\Glasses\AZ_Sunglasses2</textureChoices>
+</clothingItem>
