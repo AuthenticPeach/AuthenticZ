@@ -10796,6 +10796,10 @@
 		<path>media/clothing/clothingItems/Thin01_Vest_HighViz.xml</path>
 		<guid>77b872a4-c4cd-4f2c-a739-a8aa65d2972d</guid>
 	</files>
+	<files>
+		<path>media/clothing/clothingItems/WendigoBody.xml</path>
+		<guid>f09458f9-acab-4efb-8bbb-54fe28b5d552</guid>
+	</files>	
 	<!-- Authentic Z Christmas Santa Clothing -->
 	<files>
 		<path>media/clothing/clothingItems/FatBody03_ObeseBod_Santa.xml</path>

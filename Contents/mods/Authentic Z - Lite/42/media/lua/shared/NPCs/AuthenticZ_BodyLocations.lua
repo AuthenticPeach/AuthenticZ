@@ -105,11 +105,11 @@ end
 -- Initialization
 ------------------------------------------------------------
 local function setupAuthenticZBodyLocations()
-	-- Fallback for older/newer branches
-	local outerVestLayer = SlotAPI.TorsoExtraVestBullet
-	if not outerVestLayer then
-		outerVestLayer = SlotAPI.TorsoExtraVest
-	end
+    -- Correct B42.13 constants (match vanilla BodyLocations.lua)
+    local outerVestLayer =
+        SlotAPI.TORSO_EXTRA_VEST_BULLET
+        or SlotAPI.TORSO_EXTRA_VEST
+        or SlotAPI.TORSO_EXTRA
 
 	rebuildGroupWithInsertions("Human", {
 		-- Head accessories (stackable with hats)

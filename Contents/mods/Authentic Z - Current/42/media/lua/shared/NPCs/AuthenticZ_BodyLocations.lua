@@ -105,28 +105,24 @@ end
 -- Initialization
 ------------------------------------------------------------
 local function setupAuthenticZBodyLocations()
-	-- Fallback for older/newer branches
-	local outerVestLayer = SlotAPI.TorsoExtraVestBullet
-	if not outerVestLayer then
-		outerVestLayer = SlotAPI.TorsoExtraVest
-	end
+    -- Correct B42.13 constants (match vanilla BodyLocations.lua)
+    local outerVestLayer =
+        SlotAPI.TORSO_EXTRA_VEST_BULLET
+        or SlotAPI.TORSO_EXTRA_VEST
+        or SlotAPI.TORSO_EXTRA
 
-	rebuildGroupWithInsertions("Human", {
-		-- Head accessories (stackable with hats)
-		{ id = "AZ:HeadExtra",     anchor = SlotAPI.HAT },
-		{ id = "AZ:HeadExtraHair", anchor = SlotAPI.HAT },
-		{ id = "AZ:HeadExtraPlus", anchor = SlotAPI.HAT },
+    rebuildGroupWithInsertions("Human", {
+        { id = "AZ:HeadExtra",     anchor = SlotAPI.HAT },
+        { id = "AZ:HeadExtraHair", anchor = SlotAPI.HAT },
+        { id = "AZ:HeadExtraPlus", anchor = SlotAPI.HAT },
 
-		-- Neck accessories (remain visible over jackets)
-		{ id = "AZ:NeckExtra", anchor = SlotAPI.JACKET },
+        { id = "AZ:NeckExtra", anchor = SlotAPI.JACKET },
+        { id = "AZ:LegsExtra", anchor = SlotAPI.SHOES, before = true },
 
-		-- Shin gear (over pants, under shoes)
-		{ id = "AZ:LegsExtra", anchor = SlotAPI.SHOES, before = true },
-
-		-- Outer torso gear (webbing / bandoliers)
-		{ id = "AZ:TorsoRigPlus2",   anchor = outerVestLayer },
-		{ id = "AZ:TorsoExtraPlus1", anchor = outerVestLayer },
-	})
+        -- Outer torso gear (webbing / bandoliers)
+        { id = "AZ:TorsoRigPlus2",   anchor = outerVestLayer },
+        { id = "AZ:TorsoExtraPlus1", anchor = outerVestLayer },
+    })
 end
 
 Events.OnGameBoot.Add(setupAuthenticZBodyLocations)
